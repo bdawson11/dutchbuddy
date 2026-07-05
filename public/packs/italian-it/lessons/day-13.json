@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "day-13",
+  "day": 13,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Faccio, vado, sto: i tre irregolari",
+  "emoji": "🚶",
+  "level": "A1",
+  "durationMin": [18, 25],
+  "summary": "The essential irregulars fare, andare, and stare - daily routines, a vs in, and how you're doing",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Fare: il verbo che fa tutto",
+      "body": "**Fare** (to do/make) is irregular and everywhere: *faccio, fai, fa, facciamo, fate, fanno*. It shows up in fixed expressions that don't literally mean 'make': **fare colazione** (to have breakfast), **fare la spesa** (to do the grocery shopping).",
+      "callout": "fare colazione isn't 'make breakfast' in the English sense — it's just the Italian way to say 'have breakfast.'"
+    },
+    {
+      "type": "chips",
+      "title": "Fare, coniugato + frasi",
+      "items": [
+        { "nl": "Faccio colazione.", "en": "I have breakfast.", "speak": "Faccio colazione." },
+        { "nl": "Fai la spesa.", "en": "You do the grocery shopping.", "speak": "Fai la spesa." },
+        { "nl": "Facciamo una pausa.", "en": "We take a break.", "speak": "Facciamo una pausa." },
+        { "nl": "Fanno sport.", "en": "They play sports.", "speak": "Fanno sport." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Andare: a o in?",
+      "body": "**Andare** (to go): *vado, vai, va, andiamo, andate, vanno*. The tricky part is the preposition: use **a** with cities and specific places (*vado **a** Bologna, vado **a** scuola*), and **in** with countries, regions, and enclosed spaces (*vado **in** Italia, vado **in** ufficio, vado **in** treno*).",
+      "callout": "a = a specific point (city, school); in = a bigger or enclosed space (country, office, vehicle)."
+    },
+    {
+      "type": "chips",
+      "title": "Andare a / in",
+      "items": [
+        { "nl": "Vado a Bologna.", "en": "I'm going to Bologna.", "speak": "Vado a Bologna." },
+        { "nl": "Vado in Italia.", "en": "I'm going to Italy.", "speak": "Vado in Italia." },
+        { "nl": "Vai a scuola.", "en": "You're going to school.", "speak": "Vai a scuola." },
+        { "nl": "Andiamo in ufficio.", "en": "We're going to the office.", "speak": "Andiamo in ufficio." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Stare: come stai?",
+      "body": "**Stare** (to be/stay, for feeling and location): *sto, stai, sta, stiamo, state, stanno*. Its most common job is answering **come stai?** (how are you — informal) or **come sta?** (formal): **sto bene** (I'm well), **sto male** (I'm not well).",
+      "callout": "essere is what you ARE; stare is how you're DOING right now."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Complete: Vado ___ scuola tutti i giorni.",
+      "options": ["a", "in", "di"],
+      "correct": 0,
+      "explain": "**a scuola** — a with a specific place like school."
+    },
+    {
+      "type": "typed",
+      "prompt": "Conjugate 'andare' for 'loro' (they).",
+      "answers": ["vanno"],
+      "hint": "Totally irregular — just memorize it.",
+      "explain": "**vanno** — one of the forms you simply have to learn by heart."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the sentence.",
+      "speak": "Faccio la spesa il sabato.",
+      "answers": ["faccio la spesa il sabato", "faccio la spesa il sabato."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Giulia and You compare Saturday plans.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora, cosa fai di bello sabato?", "en": "So, what nice thing are you doing Saturday?" },
+        { "speaker": "You", "nl": "Faccio la spesa la mattina, poi vado in piazza.", "en": "I do the grocery shopping in the morning, then I go to the square." },
+        { "speaker": "Giulia", "nl": "Io sto a casa la mattina, ma poi vado a lavorare in studio.", "en": "I stay home in the morning, but then I go to work at the studio." },
+        { "speaker": "You", "nl": "Come stai questa settimana? Tutto bene?", "en": "How are you this week? All good?" },
+        { "speaker": "Giulia", "nl": "Sto benissimo, dai! Solo un po' stanca.", "en": "I'm doing great, come on! Just a little tired." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does 'You' do Saturday morning?", "options": ["Goes to work", "Grocery shopping", "Sleeps in"], "correct": 1 },
+        { "q": "How does Giulia say she's feeling?", "options": ["Not well", "Great, just a bit tired", "Sick"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write 2-3 sentences about your typical Saturday using fare, andare, and stare.",
+      "starters": ["Il sabato faccio...", "Vado...", "Sto..."]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "day-85",
+  "day": 85,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "Het wordt gedaan — de lijdende vorm",
+  "emoji": "✍️",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The action passive with worden: shifting focus from who does it to what gets done, plus the door-agent",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "De lijdende vorm: focus op de daad",
+      "body": "Soms doet het er niet toe *wie* iets doet — alleen *wat* er gebeurt. Dan gebruik je de **lijdende vorm** (the passive). De basis: **worden + voltooid deelwoord**. *Ik schrijf de brief* → *De brief **wordt** geschreven.* The subject is no longer the doer; it's the thing the action happens to.",
+      "table": {
+        "headers": ["Bedrijvend (active)", "Lijdend (passive)"],
+        "rows": [
+          ["Emma schrijft de mail.", "De mail wordt geschreven."],
+          ["De bakker verkoopt brood.", "Het brood wordt verkocht."],
+          ["Ze repareren de fiets.", "De fiets wordt gerepareerd."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Wat gebeurt er? — tik om te horen",
+      "items": [
+        { "nl": "De fiets wordt gerepareerd.", "en": "The bike is being repaired.", "speak": "De fiets wordt gerepareerd." },
+        { "nl": "De brief wordt vandaag verstuurd.", "en": "The letter is being sent today.", "speak": "De brief wordt vandaag verstuurd." },
+        { "nl": "Het huis wordt verkocht.", "en": "The house is being sold.", "speak": "Het huis wordt verkocht." },
+        { "nl": "De vergadering wordt verzet.", "en": "The meeting is being moved.", "speak": "De vergadering wordt verzet." },
+        { "nl": "Alle e-mails worden beantwoord.", "en": "All the emails are being answered.", "speak": "Alle e-mails worden beantwoord." },
+        { "nl": "Het probleem wordt opgelost.", "en": "The problem is being solved.", "speak": "Het probleem wordt opgelost." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Van dader naar daad",
+      "pairs": [
+        { "left": "Iemand steelt de fiets.", "right": "De fiets wordt gestolen.", "note": "The active needs a doer (*iemand*); the passive drops it and puts the object up front." },
+        { "left": "Wij versturen de pakketten.", "right": "De pakketten worden verstuurd.", "note": "Meervoudig onderwerp → *worden* (not *wordt*)." },
+        { "left": "De gemeente maakt de weg schoon.", "right": "De weg wordt schoongemaakt.", "note": "Scheidbaar werkwoord: *schoonmaken* → deelwoord *schoongemaakt*." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Ze bezorgen het pakket morgen.* Wat is de juiste lijdende vorm?",
+      "options": ["Het pakket wordt morgen bezorgd.", "Het pakket is morgen bezorgd.", "Het pakket bezorgt morgen."],
+      "correct": 0,
+      "explain": "*worden + bezorgd* = de daad die (nog) gebeurt. *is bezorgd* zou het klaar-resultaat zijn; de derde heeft helemaal geen passief."
+    },
+    {
+      "type": "card",
+      "title": "Wie doet het? — *door*",
+      "body": "Wil je de dader er tóch bij zeggen, gebruik dan **door**. *De mail wordt **door Emma** geschreven.* Meestal laat je de dader juist weg — dat is de hele bedoeling van het passief — maar *door* staat klaar als je hem nodig hebt.",
+      "callout": "*door* = 'by' (de dader). Niet *bij*, niet *met*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Maak er een lijdende vorm van, mét de dader: *De buurman wast de auto.*",
+      "answers": ["De auto wordt door de buurman gewassen", "De auto wordt door de buurman gewassen.", "De auto wordt gewassen door de buurman", "De auto wordt gewassen door de buurman."],
+      "hint": "*worden* + *door de buurman* + voltooid deelwoord (*gewassen*).",
+      "explain": "*De auto wordt door de buurman gewassen.* Het deelwoord *gewassen* gaat naar het eind; *door* noemt de dader."
+    },
+    {
+      "type": "builder",
+      "title": "Bouw de lijdende vorm",
+      "prompt": "Zet een passieve zin in elkaar: onderwerp — vorm van *worden* — (door wie) — voltooid deelwoord.",
+      "slots": [
+        { "label": "Onderwerp (waar 't om gaat)", "chips": ["De vergadering", "De nieuwe website", "Het rapport"] },
+        { "label": "Vorm van worden", "chips": ["wordt", "worden"] },
+        { "label": "Door wie (optioneel)", "chips": ["door het team", "door Emma", "door de klant"] },
+        { "label": "Voltooid deelwoord", "chips": ["verzet", "gelanceerd", "geschreven"] }
+      ],
+      "sample": "De nieuwe website wordt door het team gelanceerd."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma tells You how things run at the agency now — almost everything in the passive.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Bij ons wordt alles in teams gedaan.", "en": "With us everything gets done in teams.", "spotlight": "Onpersoonlijk gevoel: de daad staat centraal." },
+        { "speaker": "You", "nl": "En de planning? Wie maakt die?", "en": "And the planning? Who makes it?" },
+        { "speaker": "Emma", "nl": "De planning wordt elke maandag gemaakt, meestal door de projectleider.", "en": "The planning is made every Monday, usually by the project lead.", "spotlight": "*door* + dader, als je hem tóch noemt." },
+        { "speaker": "You", "nl": "En als er een fout is?", "en": "And if there's a mistake?" },
+        { "speaker": "Emma", "nl": "Dan wordt het gewoon opgelost. Niemand wijst met de vinger.", "en": "Then it just gets solved. Nobody points fingers." },
+        { "speaker": "You", "nl": "Klinkt rustig.", "en": "Sounds calm." },
+        { "speaker": "Emma", "nl": "Valt mee, hoor. De mails worden tenminste snel beantwoord.", "en": "It's alright. At least the emails get answered quickly.", "spotlight": "Meervoud: *mails worden beantwoord*." },
+        { "speaker": "You", "nl": "Dat is bij ons wel anders.", "en": "That's rather different where I work." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Kwam het binnen?",
+      "questions": [
+        { "q": "Hoe wordt er bij Emma op het werk gewerkt?", "options": ["In teams", "Alleen", "Vanuit huis"], "correct": 0 },
+        { "q": "Wanneer wordt de planning gemaakt?", "options": ["Elke vrijdag", "Elke maandag", "Nooit"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschrijf jouw werk of je huishouden in de lijdende vorm: wat wordt er gedaan, en door wie? Gebruik minstens drie keer *worden*. Schrijf in het Nederlands.",
+      "starters": ["Bij ons wordt …", "Elke week wordt …", "De … wordt door … gedaan."],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-17",
+  "day": 17,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Ser o estar: la gran pared",
+  "emoji": "⚖️",
+  "level": "A1",
+  "durationMin": [18, 25],
+  "summary": "Ser vs estar, deep-dive: identity and origin versus location and state.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ser: quién eres y de dónde",
+      "body": "**Ser** describes what's **permanent or defining**: identity, origin, profession, physical traits, material, and time. **Soy Alex. Soy de Toronto. Es arquitecto. La mesa es de madera. Son las tres.**",
+      "table": {
+        "headers": ["Uso", "Ejemplo"],
+        "rows": [
+          ["Identidad", "Soy Alex."],
+          ["Origen", "Soy de Toronto."],
+          ["Profesión", "Es arquitecto."],
+          ["Característica", "Lucía es simpática."],
+          ["Materia", "La mesa es de madera."],
+          ["Hora", "Son las tres."]
+        ]
+      },
+      "callout": "Rule of thumb: **ser** answers 'what/who is it, fundamentally?'"
+    },
+    {
+      "type": "card",
+      "title": "Estar: dónde estás y cómo estás",
+      "body": "**Estar** describes **location, temporary states, and results**: where something is, how someone feels right now, or the state something ended up in. **Estoy en Madrid. Estoy cansado. La puerta está abierta.**",
+      "table": {
+        "headers": ["Uso", "Ejemplo"],
+        "rows": [
+          ["Ubicación", "Estoy en Madrid."],
+          ["Estado temporal", "Estoy cansado."],
+          ["Resultado", "La puerta está abierta."],
+          ["Sentimiento", "Nacho está contento."]
+        ]
+      },
+      "callout": "Rule of thumb: **estar** answers 'where is it, or how is it right now?'"
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear ser y estar",
+      "items": [
+        { "nl": "soy de Madrid", "en": "I'm from Madrid", "speak": "soy de Madrid" },
+        { "nl": "estoy en el bar", "en": "I'm at the bar", "speak": "estoy en el bar" },
+        { "nl": "es simpático", "en": "he's nice (trait)", "speak": "es simpático" },
+        { "nl": "está cansado", "en": "he's tired (state)", "speak": "está cansado" },
+        { "nl": "la puerta está abierta", "en": "the door is open", "speak": "la puerta está abierta" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Cuando el significado cambia",
+      "pairs": [
+        { "left": "es aburrido — it's boring (trait)", "right": "está aburrido — he's bored (state)", "note": "Same adjective, different verb, different meaning." },
+        { "left": "es listo — he's clever", "right": "está listo — he's ready", "note": "One of Spanish's classic ser/estar traps." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Lucía trabaja en una editorial en Madrid; nació allí. ¿Cómo lo dices?",
+      "options": ["Lucía está de Madrid.", "Lucía es de Madrid."],
+      "correct": 1,
+      "explain": "Origin is permanent/defining → **ser**: *es de Madrid*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Rafa ha tenido un día largo en la librería. ¿Cómo está?",
+      "options": ["Rafa es cansado.", "Rafa está cansado."],
+      "correct": 1,
+      "explain": "Tiredness is a temporary state → **estar**: *está cansado*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Complete: 'La ventana ___ abierta.' (the window is open)",
+      "answers": ["está"],
+      "hint": "A result/state, not an identity.",
+      "explain": "*está abierta* — the result of an action, always **estar**."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "estoy en casa",
+      "answers": ["estoy en casa"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "You run into Rafa at the bookshop where he works.",
+      "lines": [
+        { "speaker": "Rafa", "nl": "¡Hombre! ¿Qué tal? ¿Cómo estás?", "en": "Hey! How's it going? How are you?" },
+        { "speaker": "You", "nl": "Bien, un poco cansado. ¿Y tú?", "en": "Good, a little tired. And you?" },
+        { "speaker": "Rafa", "nl": "Yo estoy bien, pero la librería está muy tranquila hoy.", "en": "I'm good, but the shop is very quiet today.", "spotlight": "estar for a temporary state — the shop isn't always quiet." },
+        { "speaker": "You", "nl": "¿Trabajas aquí todos los días?", "en": "Do you work here every day?" },
+        { "speaker": "Rafa", "nl": "No, trabajo cuatro días. Los otros días estoy en casa.", "en": "No, I work four days. The other days I'm at home." },
+        { "speaker": "You", "nl": "¡Qué bien! Eres músico también, ¿no?", "en": "Nice! You're a musician too, right?" },
+        { "speaker": "Rafa", "nl": "Sí, soy músico… bueno, aspirante a músico.", "en": "Yes, I'm a musician… well, an aspiring musician.", "spotlight": "ser for occupation/identity, even an aspirational one." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe 3 frases sobre ti: una con ser (quién eres/de dónde eres) y dos con estar (dónde estás, cómo te sientes).",
+      "starters": ["Soy…", "Estoy…", "Ahora mismo estoy…"],
+      "minSentences": 3
+    }
+  ]
+}

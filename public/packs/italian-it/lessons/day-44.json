@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-44",
+  "day": 44,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Due passati a confronto",
+  "emoji": "⚖️",
+  "level": "A2",
+  "durationMin": [16, 24],
+  "summary": "The usage split between passato prossimo (event) and imperfetto (description/habit/background) — the hinge of A2 storytelling",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Due lavori diversi",
+      "body": "Il **passato prossimo** racconta **cosa è successo** — un evento preciso, con un inizio e una fine: *ieri ho visto Marco*. L'**imperfetto** descrive **com'era la situazione** — lo sfondo, un'abitudine, qualcosa in corso: *mentre camminavo, ha squillato il telefono*. Nella stessa frase lavorano spesso insieme: l'imperfetto disegna la scena, il passato prossimo la interrompe.",
+      "callout": "Sfondo = imperfetto. Evento che interrompe = passato prossimo."
+    },
+    {
+      "type": "chips",
+      "title": "Le parole-segnale",
+      "items": [
+        { "nl": "sempre", "en": "always", "speak": "sempre" },
+        { "nl": "ogni giorno", "en": "every day", "speak": "ogni giorno" },
+        { "nl": "da bambino/a", "en": "as a kid", "speak": "da bambino" },
+        { "nl": "ieri", "en": "yesterday", "speak": "ieri" },
+        { "nl": "un giorno", "en": "one day", "speak": "un giorno" },
+        { "nl": "mentre", "en": "while", "speak": "mentre" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Evento vs abitudine",
+      "pairs": [
+        { "left": "*Ho mangiato la pizza.* — un evento, una volta", "right": "*Mangiavo la pizza ogni venerdì.* — un'abitudine", "note": "Stesso verbo, mangiare — il tempo dice se è un fatto singolo o ripetuto." },
+        { "left": "*Mentre studiavo, ha squillato il telefono.* — sfondo + evento", "right": "*Ho studiato tutta la sera.* — evento intero, chiuso", "note": "L'imperfetto descrive cosa stava succedendo; il passato prossimo dice cosa è successo e si è concluso." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ieri sera, mentre _____ la cena, è arrivata Giulia. (cucinare)",
+      "options": ["cucino", "cucinavo", "ho cucinato"],
+      "correct": 1,
+      "explain": "*cucinavo* — l'azione di sfondo, in corso quando Giulia è arrivata (evento: è arrivata)."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Quale frase descrive un'abitudine, non un evento singolo?",
+      "options": ["Ho visto un film ieri sera.", "Ho visto Marco ieri.", "Vedevo sempre i miei nonni la domenica."],
+      "correct": 2,
+      "explain": "*vedevo* + *sempre* + *la domenica* = abitudine ripetuta → imperfetto. Le altre due sono eventi singoli e conclusi → passato prossimo."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa: 'Mentre _____ (guardare) la TV, ha telefonato Sofia.' Scrivi la forma imperfetto per 'io'.",
+      "answers": ["guardavo"],
+      "hint": "-are → -avo",
+      "explain": "*guardavo* — azione di sfondo in corso quando ha telefonato Sofia."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Da bambino andavo sempre al mare in agosto.",
+      "answers": ["da bambino andavo sempre al mare in agosto", "da bambino andavo sempre al mare in agosto."]
+    },
+    {
+      "type": "builder",
+      "title": "Sfondo + evento",
+      "prompt": "Costruisci una frase che unisce uno sfondo (imperfetto) e un evento (passato prossimo).",
+      "slots": [
+        { "label": "Sfondo (imperfetto)", "chips": ["Mentre studiavo", "Mentre camminavo", "Mentre dormivo"] },
+        { "label": "Evento (passato prossimo)", "chips": ["è arrivata Sofia", "ha squillato il telefono", "ho sentito un rumore"] }
+      ],
+      "sample": "Mentre studiavo, è arrivata Sofia."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Giulia and You talk about last night and childhood habits",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Cosa hai fatto ieri sera?", "en": "What did you do last night?" },
+        { "speaker": "You", "nl": "Ho guardato un film, mentre pioveva fuori.", "en": "I watched a movie, while it was raining outside.", "spotlight": "ho guardato = evento; pioveva = sfondo descrittivo." },
+        { "speaker": "Giulia", "nl": "Da piccola, guardavo sempre i film del sabato sera con mio padre.", "en": "As a kid, I always used to watch Saturday night movies with my dad." },
+        { "speaker": "You", "nl": "Che bello. E cosa guardavate?", "en": "That's nice. And what did you watch?" },
+        { "speaker": "Giulia", "nl": "Vecchi film italiani, sempre.", "en": "Old Italian movies, always." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai capito?",
+      "questions": [
+        { "q": "What was Giulia's family habit on Saturday nights?", "options": ["Going to the cinema", "Watching old Italian movies", "Cooking together"], "correct": 1 },
+        { "q": "What was happening while 'You' watched the movie?", "options": ["It was raining", "The power went out", "Friends visited"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi due frasi: una su un evento preciso di ieri (passato prossimo) e una su un'abitudine di quando eri piccolo/a (imperfetto).",
+      "starters": ["Ieri ho…", "Da piccolo/a, sempre…"],
+      "minSentences": 2
+    }
+  ]
+}

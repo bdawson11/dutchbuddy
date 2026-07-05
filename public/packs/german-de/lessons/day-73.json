@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "day-73",
+  "day": 73,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Adjektivendungen: der B1-Feinschliff",
+  "emoji": "🎨",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Attributive adjective endings — the polish, not the gate — plus the cosy -chen/-lein diminutives",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Vor dem Nomen bekommt das Adjektiv eine Endung",
+      "body": "Until now we kept adjectives **after** the verb, with **no ending**: *Der Kaffee ist gut.* Perfect — keep doing that. But the moment the adjective jumps **in front of the noun**, it takes an **ending**: *ein **guter** Kaffee*. This is the famous German ending system, and we treat it as **B1 polish, not a gate**: you're already understood; endings just make you sound smooth.",
+      "callout": "Predicate = no ending (*ist gut*). Attributive (before the noun) = ending (*guter Kaffee*)."
+    },
+    {
+      "type": "card",
+      "title": "Nach der/die/das: fast nur -e oder -en",
+      "body": "When *der/die/das* already shows the case, the adjective barely works — it's just **-e** in the five 'easy' slots and **-en** everywhere else. Easy slots (**-e**): all three nominatives, plus feminine and neuter accusative. Everywhere the case gets 'marked' (masculine accusative, **all** datives, **all** plurals) it's **-en**.",
+      "table": {
+        "headers": ["Fall", "der (m)", "die (f)", "das (n)"],
+        "rows": [
+          ["Nominativ", "der gute Kaffee", "die kalte Milch", "das frische Brot"],
+          ["Akkusativ", "den guten Kaffee", "die kalte Milch", "das frische Brot"],
+          ["Dativ", "dem guten Kaffee", "der kalten Milch", "dem frischen Brot"]
+        ]
+      },
+      "callout": "Rule of thumb under pressure: **in doubt, say -en.** It's right far more often than not."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear whole phrases",
+      "items": [
+        { "nl": "ein guter Kaffee", "en": "a good coffee", "speak": "ein guter Kaffee" },
+        { "nl": "den guten Kaffee", "en": "the good coffee (acc.)", "speak": "den guten Kaffee" },
+        { "nl": "mit dem guten Kaffee", "en": "with the good coffee", "speak": "mit dem guten Kaffee" },
+        { "nl": "die kalte Milch", "en": "the cold milk", "speak": "die kalte Milch" },
+        { "nl": "ein frisches Brötchen", "en": "a fresh roll", "speak": "ein frisches Brötchen" },
+        { "nl": "mit einer heißen Schokolade", "en": "with a hot chocolate", "speak": "mit einer heißen Schokolade" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Nach dem Verb vs. vor dem Nomen",
+      "pairs": [
+        { "left": "Der Kaffee ist gut.", "right": "Das ist ein guter Kaffee.", "note": "Same word, two positions. After *ist*: no ending. Before *Kaffee*: *guter*." },
+        { "left": "Das Brot ist frisch.", "right": "Ich kaufe frisches Brot.", "note": "Neuter accusative with no der/die/das → the adjective shows the neuter: *frisches*." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Vervollständige: „Ich trinke den ___ Kaffee.“",
+      "options": ["gut", "gute", "guten", "guter"],
+      "correct": 2,
+      "explain": "Masculine **accusative** (*den*) is a 'marked' slot, so the adjective is **-en**: *den guten Kaffee*. Remember the tip — when in doubt, *-en*."
+    },
+    {
+      "type": "card",
+      "title": "Nach ein/kein/mein: das Adjektiv zeigt das Geschlecht",
+      "body": "After *ein*-words (*ein, kein, mein, dein*) there's a twist: because *ein* itself has **no ending** in three slots, the **adjective** does the gender work and picks up a stronger ending — masculine *-er*, neuter *-es*. So *ein **guter** Kaffee*, *ein **gutes** Brot*. As soon as the article does show the case, you're back to *-en*: *einen **guten** Kaffee*.",
+      "table": {
+        "headers": ["Fall", "der (m)", "die (f)", "das (n)"],
+        "rows": [
+          ["Nominativ", "ein guter Kaffee", "eine kalte Milch", "ein gutes Brot"],
+          ["Akkusativ", "einen guten Kaffee", "eine kalte Milch", "ein gutes Brot"],
+          ["Dativ", "einem guten Kaffee", "einer kalten Milch", "einem guten Brot"]
+        ]
+      }
+    },
+    {
+      "type": "typed",
+      "prompt": "Schreib auf Deutsch: „a good coffee“ als direktes Objekt — „Ich möchte ___.“ (Kaffee = der)",
+      "answers": ["einen guten Kaffee", "Ich möchte einen guten Kaffee.", "Ich möchte einen guten Kaffee"],
+      "hint": "Masculine accusative: *ein → einen*, and the adjective follows with *-en*.",
+      "explain": "*einen guten Kaffee* — *der Kaffee* is masculine, accusative after *möchte*, so *einen guten*."
+    },
+    {
+      "type": "builder",
+      "title": "Bau eine Dativ-Phrase",
+      "prompt": "Build 'with the fresh bread'. Dative always pulls *-en* on the adjective.",
+      "slots": [
+        { "label": "Präposition (+ Dativ)", "chips": ["mit", "aus", "von"] },
+        { "label": "Artikel", "chips": ["dem", "einem", "meinem"] },
+        { "label": "Adjektiv + Nomen", "chips": ["frischen Brot", "guten Kaffee", "kalten Wasser"] }
+      ],
+      "sample": "mit dem frischen Brot"
+    },
+    {
+      "type": "card",
+      "title": "Verkleinern: -chen und -lein",
+      "body": "Add **-chen** (or literary **-lein**) to make something **small and cosy** — and two things always happen: the word turns **neuter (das)** and the vowel often takes an **umlaut**. *das Haus → das Häuschen* (little house), *das Brot → das Brötchen* (roll!), *der Hund → das Hündchen*. Even *das Mädchen* (girl) is neuter, purely because of *-chen*. In Bavaria you'll hear *-erl* (*Hunderl*) — enjoy it as colour, but standard Hochdeutsch uses **-chen**.",
+      "callout": "*-chen* always makes it *das*, no matter the original gender."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You and Lena at a café counter, reading the menu out loud.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Guck mal, die haben hier richtig guten Kaffee.", "en": "Look, they've got really good coffee here.", "spotlight": "*guten Kaffee* — masculine accusative with no article → strong *-en*." },
+        { "speaker": "You", "nl": "Dann nehme ich einen großen Kaffee und ein frisches Brötchen.", "en": "Then I'll take a large coffee and a fresh roll.", "spotlight": "*einen großen* (m. acc. → -en) and *ein frisches* (n. acc. → -es)." },
+        { "speaker": "Lena", "nl": "Gute Wahl. Ich hätte gern die kleine Tasse und ein Stück von dem warmen Kuchen.", "en": "Good choice. I'd like the small cup and a piece of the warm cake." },
+        { "speaker": "You", "nl": "Der warme Kuchen sieht wirklich lecker aus.", "en": "The warm cake really does look tasty." },
+        { "speaker": "Lena", "nl": "Ja, mit einer heißen Schokolade wäre das perfekt.", "en": "Yeah, with a hot chocolate that'd be perfect.", "spotlight": "*mit einer heißen* — feminine dative, both words take *-r/-en*." },
+        { "speaker": "You", "nl": "Und dazu so ein kleines Käsebrötchen?", "en": "And a little cheese roll with it?" },
+        { "speaker": "Lena", "nl": "Na klar. Zwei frische Brötchen, bitte — der Tag fängt gut an.", "en": "Of course. Two fresh rolls, please — the day's off to a good start." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschreib dein perfektes Frühstück mit mindestens drei Adjektiv-Nomen-Paaren (z. B. *ein frisches Brötchen, der starke Kaffee, mit der warmen Milch*). Ein Diminutiv (*-chen*) bringt Extrapunkte.",
+      "starters": ["Zum Frühstück esse ich…", "Ich trinke gern…", "Am liebsten mit…"],
+      "minSentences": 3
+    }
+  ]
+}

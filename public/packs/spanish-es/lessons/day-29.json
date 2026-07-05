@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "day-29",
+  "day": 29,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "El pretérito perfecto: haber + participio",
+  "emoji": "🕰️",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Meet Spain's everyday recent past — haber + participle — and why hoy takes he comido, not comí.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Hoy, esta semana, ya: bienvenido al perfecto",
+      "body": "In Spain, anything connected to **now** — *hoy, esta semana, ya* — uses the **pretérito perfecto compuesto**: **haber** + **participio**. It works a bit like English 'I have eaten', but you'll use it far more than English does. The participle never changes: -ar verbs become **-ado** (*hablar → hablado*), -er/-ir verbs become **-ido** (*comer → comido, vivir → vivido*).",
+      "table": {
+        "headers": ["Pronombre", "haber"],
+        "rows": [
+          ["yo", "he"],
+          ["tú", "has"],
+          ["él / ella / usted", "ha"],
+          ["nosotros/as", "hemos"],
+          ["vosotros/as", "habéis"],
+          ["ellos / ellas / ustedes", "han"]
+        ]
+      },
+      "callout": "En España, *he comido hoy* es lo normal y cotidiano — *comí hoy* suena raro. Ya llegaremos a esa otra forma más adelante."
+    },
+    {
+      "type": "chips",
+      "title": "Escucha el verbo haber en acción",
+      "items": [
+        { "nl": "he hablado", "en": "I've spoken", "speak": "he hablado" },
+        { "nl": "has comido", "en": "you've eaten", "speak": "has comido" },
+        { "nl": "ha vivido", "en": "she's lived", "speak": "ha vivido" },
+        { "nl": "hemos trabajado", "en": "we've worked", "speak": "hemos trabajado" },
+        { "nl": "habéis comido", "en": "you all have eaten", "speak": "habéis comido" },
+        { "nl": "han hablado", "en": "they've spoken", "speak": "han hablado" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "El participio no cambia con el sujeto",
+      "body": "Only **haber** conjugates. The participle stays fixed no matter who's speaking: *he trabajado, ha trabajado, hemos trabajado* — always **trabajado**. Regular pattern: drop -ar/-er/-ir, add **-ado** or **-ido**.",
+      "table": {
+        "headers": ["Infinitivo", "Participio"],
+        "rows": [
+          ["hablar", "hablado"],
+          ["comer", "comido"],
+          ["vivir", "vivido"],
+          ["trabajar", "trabajado"],
+          ["estudiar", "estudiado"]
+        ]
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cómo se dice 'we have worked'?",
+      "options": ["hemos trabajado", "habemos trabajado", "hemos trabajo"],
+      "correct": 0,
+      "explain": "*hemos* (nosotros) + *trabajado* (participio de trabajar, invariable). *habemos* no se usa así."
+    },
+    {
+      "type": "typed",
+      "prompt": "Escribe 'I have lived' (vivir).",
+      "answers": ["he vivido"],
+      "hint": "yo + haber + participio de un verbo en -ir",
+      "explain": "*vivir* → *vivido*: **he vivido**."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "has comido",
+      "answers": ["has comido"]
+    },
+    {
+      "type": "builder",
+      "title": "Construye una frase con el perfecto",
+      "prompt": "Combina sujeto + haber, el participio y un detalle.",
+      "slots": [
+        { "label": "Sujeto + haber", "chips": ["yo he", "tú has", "nosotros hemos"] },
+        { "label": "Participio", "chips": ["comido", "hablado", "trabajado"] },
+        { "label": "Detalle", "chips": ["con Rafa", "en el bar", "esta semana"] }
+      ],
+      "sample": "Yo he comido con Rafa esta semana."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You run into Lucía at the office and she asks about your day.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "¡Hola! ¿Qué tal? ¿Has trabajado mucho hoy?", "en": "Hey! How's it going? Have you worked a lot today?" },
+        { "speaker": "You", "nl": "Sí, he trabajado bastante. ¿Y tú?", "en": "Yes, I've worked quite a bit. And you?", "spotlight": "he trabajado — the perfecto for something tied to today." },
+        { "speaker": "Lucía", "nl": "He comido con Sofía y hemos hablado un montón.", "en": "I've had lunch with Sofía and we've talked a ton." },
+        { "speaker": "You", "nl": "¡Qué bien! ¿Habéis quedado para mañana también?", "en": "Nice! Have you all made plans for tomorrow too?" },
+        { "speaker": "Lucía", "nl": "No, pero hemos quedado para el finde.", "en": "No, but we've made plans for the weekend." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe dos o tres frases sobre lo que has hecho hoy o esta semana, usando haber + participio.",
+      "starters": ["Hoy he…", "Esta semana he…"],
+      "minSentences": 2
+    }
+  ]
+}

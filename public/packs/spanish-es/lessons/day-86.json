@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "day-86",
+  "day": 86,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "Concordancia de tiempos: cuándo va al pasado",
+  "emoji": "🔗",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Sequence of tenses: a past or conditional main verb pulls the subjunctive back to the imperfect.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El verbo principal manda",
+      "body": "El subjuntivo no elige su tiempo solo: lo decide el **verbo principal**. Si el principal está en **presente o futuro**, el subjuntivo va en **presente** (*quiero que **vengas***). Si el principal está en **pasado o condicional**, el subjuntivo baja a **imperfecto** (*quería que **vinieras***). A esto se le llama **concordancia (o correlación) de tiempos**, y es lo que separa el B1 del B2.",
+      "table": {
+        "headers": ["Verbo principal", "Subjuntivo", "Ejemplo"],
+        "rows": [
+          ["presente / futuro", "presente", "Quiero que vengas"],
+          ["pretérito / imperfecto", "imperfecto", "Quería que vinieras"],
+          ["condicional", "imperfecto", "Sería mejor que vinieras"]
+        ]
+      },
+      "callout": "La pregunta clave no es qué quieres decir, sino en qué tiempo está el verbo de arriba."
+    },
+    {
+      "type": "contrast",
+      "title": "El mismo deseo, dos tiempos",
+      "pairs": [
+        { "left": "Quiero que me llames.", "right": "Quería que me llamaras.", "note": "El deseo es idéntico; solo cambia el principal (*quiero → quería*), y el subjuntivo lo sigue: *llames → llamaras*." },
+        { "left": "Te pido que tengas cuidado.", "right": "Te pedí que tuvieras cuidado.", "note": "Pasado arriba, imperfecto de subjuntivo abajo: *tengas → tuvieras*." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Detonadores en pasado — toca y repite",
+      "items": [
+        { "nl": "me pidió que le ayudara", "en": "he asked me to help him", "speak": "me pidió que le ayudara" },
+        { "nl": "no creía que fuera verdad", "en": "I didn't think it was true", "speak": "no creía que fuera verdad" },
+        { "nl": "sería mejor que fuéramos", "en": "it'd be better if we went", "speak": "sería mejor que fuéramos" },
+        { "nl": "buscaba a alguien que supiera inglés", "en": "she was looking for someone who knew English", "speak": "buscaba a alguien que supiera inglés" },
+        { "nl": "me alegré de que vinieras", "en": "I was glad you came", "speak": "me alegré de que vinieras" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Elige la forma correcta: «El médico me recomendó que ___ más agua.»",
+      "options": ["beba", "bebiera", "bebería", "bebo"],
+      "correct": 1,
+      "explain": "*Recomendó* está en pasado, así que el subjuntivo baja a imperfecto: **bebiera**. *Beba* iría con *me recomienda* (presente)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Pasa al pasado: «Quiero que estés tranquilo» → «Quería que ___ tranquilo.»",
+      "answers": ["estuvieras", "estuvieses"],
+      "hint": "Ellos estuvieron → estuviera / estuvieras…",
+      "explain": "*Quería* (pasado) exige **estuvieras** (o *estuvieses*). El indicativo *estabas* no valdría: tras *querer que* siempre subjuntivo."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe. Fíjate en la concordancia.",
+      "speak": "me pidió que tuviera paciencia",
+      "answers": ["me pidió que tuviera paciencia", "me pidió que tuviese paciencia"]
+    },
+    {
+      "type": "builder",
+      "title": "Del presente al pasado",
+      "prompt": "Monta una frase de concordancia: principal en pasado + subjuntivo imperfecto.",
+      "slots": [
+        { "label": "Principal (pasado)", "chips": ["Me dijo que", "No era seguro que", "Nos pidieron que"] },
+        { "label": "Sujeto", "chips": ["yo", "tú", "nosotros"] },
+        { "label": "Subj. imperfecto", "chips": ["esperara", "esperaras", "esperáramos"] }
+      ],
+      "sample": "Me dijo que esperara un momento."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa is telling you about a friend's questionable advice.",
+      "lines": [
+        { "speaker": "Rafa", "nl": "El otro día un colega me dijo que dejara el curro y montara una banda a tiempo completo.", "en": "The other day a mate told me to quit my job and start a band full-time.", "spotlight": "*Dijo* (past) → two subjuntivos imperfectos: *dejara* and *montara*." },
+        { "speaker": "You", "nl": "Hombre, no estaría mal… ¿y tú qué le dijiste?", "en": "I mean, that wouldn't be bad… and what did you tell him?" },
+        { "speaker": "Rafa", "nl": "Que ojalá pudiera, pero que no me parecía sensato que lo dejara todo así.", "en": "That I wish I could, but that it didn't seem sensible to me to drop everything like that." },
+        { "speaker": "You", "nl": "Ya. Yo también preferiría que no te arriesgaras tanto, la verdad.", "en": "Yeah. I'd also rather you didn't take such a big risk, honestly." },
+        { "speaker": "Rafa", "nl": "Buah, sois todos igual de aburridos. Pero tenéis razón, no era el momento.", "en": "Ugh, you're all equally boring. But you're right, it wasn't the moment." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has seguido?",
+      "questions": [
+        { "q": "¿Qué le aconsejó Dani a Rafa?", "options": ["Que dejara el trabajo y se dedicara a la música", "Que buscara otro trabajo", "Que dejara la música"], "correct": 0 },
+        { "q": "¿Qué opina You?", "options": ["Que Rafa debería arriesgarse más", "Que preferiría que Rafa no se arriesgara tanto", "Que Rafa monte la banda ya"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Cuenta un consejo que alguien te dio en el pasado. Usa la concordancia: *me dijo que…, me recomendó que…, me pidió que…* + subjuntivo imperfecto. ¿Le hiciste caso?",
+      "starters": ["Una vez, alguien me dijo que…", "Me recomendó que…", "No estaba seguro/a de que…", "Al final…"],
+      "minSentences": 3
+    }
+  ]
+}

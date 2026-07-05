@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "day-85",
+  "day": 85,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "Il congiuntivo passato",
+  "emoji": "🧩",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The past subjunctive: penso che sia andato — for what has already happened, under a present trigger",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il congiuntivo passato",
+      "body": "You already know *penso che sia* (present subjunctive). Now the **past** one, for something that **already happened**: *che* + the present subjunctive of **avere/essere** (*abbia / sia*) + the past participle. Same auxiliary and agreement rules as the passato prossimo — only the auxiliary goes into the congiuntivo. *Penso che Marco **abbia** dormito.* *Credo che Sofia **sia** partita.*",
+      "table": {
+        "headers": ["persona", "con avere", "con essere"],
+        "rows": [
+          ["io", "che io abbia parlato", "che io sia andato/a"],
+          ["tu", "che tu abbia parlato", "che tu sia andato/a"],
+          ["lui/lei", "che abbia parlato", "che sia andato/a"],
+          ["noi", "che abbiamo parlato", "che siamo andati/e"],
+          ["loro", "che abbiano parlato", "che siano andati/e"]
+        ]
+      },
+      "callout": "Stessa regola del passato prossimo: con *essere* il participio concorda (andat**a**, partit**i**)."
+    },
+    {
+      "type": "card",
+      "title": "Presente o passato? È questione di tempo",
+      "body": "Both live under a present trigger (*penso che…*). The choice is **when the event happens**. Use the **presente** for now or the future (*penso che **venga*** — I think he's coming), and the **passato** for something **already done** (*penso che **sia venuto*** — I think he came / has come). If it's over, go passato.",
+      "callout": "*Sono contento che tu **stia** bene* (adesso) vs *Sono contento che tu **sia guarito*** (ti sei ripreso)."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta e ripeti",
+      "items": [
+        { "nl": "Penso che sia già partito.", "en": "I think he's already left.", "speak": "Penso che sia già partito." },
+        { "nl": "Credo che abbiano finito.", "en": "I think they've finished.", "speak": "Credo che abbiano finito." },
+        { "nl": "Mi dispiace che tu abbia avuto problemi.", "en": "I'm sorry you had problems.", "speak": "Mi dispiace che tu abbia avuto problemi." },
+        { "nl": "Non sono sicura che sia arrivata.", "en": "I'm not sure she's arrived.", "speak": "Non sono sicura che sia arrivata." },
+        { "nl": "È strano che non abbia chiamato.", "en": "It's strange he hasn't called.", "speak": "È strano che non abbia chiamato." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Adesso o già fatto?",
+      "pairs": [
+        { "left": "Penso che **venga** oggi.", "right": "Penso che **sia venuto** ieri.", "note": "presente = ora/futuro; passato = già successo." },
+        { "left": "Spero che **stia** bene.", "right": "Spero che **sia guarito**.", "note": "stato attuale vs cambiamento già avvenuto." },
+        { "left": "Credo che **parta** domani.", "right": "Credo che **sia partito** stamattina.", "note": "'parta' non è ancora successo; 'sia partito' è già fatto." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Non vedo Sofia da giorni.» — Come dici che forse è andata a Milano (azione già fatta)?",
+      "options": ["Penso che vada a Milano.", "Penso che sia andata a Milano.", "Penso che andasse a Milano."],
+      "correct": 1,
+      "explain": "*Sia andata* — congiuntivo passato per un fatto già successo, e *andata* concorda con Sofia (femminile)."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Quale ausiliare? «Credo che i ragazzi ___ già mangiato.»",
+      "options": ["siano", "abbiano", "hanno"],
+      "correct": 1,
+      "explain": "*mangiare* vuole **avere**: *abbiano mangiato*. (*Hanno* sarebbe indicativo — dopo *credo che* serve il congiuntivo.)"
+    },
+    {
+      "type": "typed",
+      "prompt": "Dì: 'I'm glad (m.) that you (tu) arrived safely.' — usa *sono contento che…* e *arrivare*.",
+      "answers": ["sono contento che tu sia arrivato bene", "sono contento che sia arrivato bene"],
+      "hint": "*arrivare* → essere; participio *arrivato*.",
+      "explain": "*Sono contento che tu sia arrivato bene.* Con *essere* il participio concorda con 'tu' (qui maschile)."
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci: un fatto già successo",
+      "prompt": "Metti insieme una frase al congiuntivo passato.",
+      "slots": [
+        { "label": "Verbo d'opinione", "chips": ["Penso che", "Credo che", "Mi sembra che"] },
+        { "label": "Soggetto", "chips": ["Marco", "Sofia", "loro", "tu"] },
+        { "label": "Ausiliare + participio", "chips": ["abbia finito", "sia partita", "siano usciti", "abbia dormito"] }
+      ],
+      "sample": "Penso che Sofia sia partita."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, Giulia wonders where Marco is.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Ma dov'è Marco? Non risponde.", "en": "Where's Marco? He's not answering." },
+        { "speaker": "You", "nl": "Boh… penso che sia ancora al lavoro.", "en": "Dunno… I think he's still at work.", "spotlight": "congiuntivo presente: azione che continua adesso." },
+        { "speaker": "Giulia", "nl": "A quest'ora? Credo che abbia già chiuso il negozio.", "en": "At this hour? I think he's already closed the shop." },
+        { "speaker": "You", "nl": "Allora forse è andato a provare con la band.", "en": "Then maybe he went to rehearse with the band." },
+        { "speaker": "Giulia", "nl": "Sì, mi sembra che abbia detto qualcosa ieri.", "en": "Yeah, I think he mentioned something yesterday.", "spotlight": "'abbia detto' — congiuntivo passato: già successo (ieri)." },
+        { "speaker": "You", "nl": "Speriamo che non si sia dimenticato di noi.", "en": "Let's hope he hasn't forgotten about us." },
+        { "speaker": "Giulia", "nl": "Figurati! Sono sicura che arrivi tra poco.", "en": "As if! I'm sure he'll be here soon." },
+        { "speaker": "Marco", "nl": "Eccomi! Scusate, credevo di essere in ritardo.", "en": "Here I am! Sorry, I thought I was late." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai capito?",
+      "questions": [
+        { "q": "Secondo Giulia, cosa ha già fatto Marco?", "options": ["Ha chiuso il negozio", "È partito per Milano", "Ha perso il treno"], "correct": 0 },
+        { "q": "Perché 'You' dice «forse è andato a provare»?", "options": ["Marco suona in una band", "Marco è malato", "Marco è a Napoli"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi tre frasi con il congiuntivo passato su persone che non vedi da un po'. Cosa pensi che abbiano fatto? (*Penso che… Credo che…*)",
+      "starters": ["Penso che il mio amico…", "Credo che i miei vicini…", "Mi sembra che…"],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "day-58",
+  "day": 58,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Relativsätze: der, die, das als Bindewort",
+  "emoji": "🔗",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Relative clauses — der/die/das (and denen) as who/which/that. The pronoun's gender comes from the noun, its case from its job inside the clause; the verb goes to the end.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Zwei Sätze werden einer",
+      "body": "A relative clause lets you glue extra information onto a noun: *Das ist der Kollege. Er kommt immer zu spät.* → *Das ist der Kollege, **der** immer zu spät kommt.* The joining word is a **relative pronoun** (*der/die/das/die*). Two things to hold onto: its **gender/number comes from the noun** it points back to, but its **case is decided by its job inside the clause** — and, being a subclause, the **verb goes to the end**.",
+      "table": {
+        "headers": ["Fall", "der (m)", "die (f)", "das (n)", "die (pl)"],
+        "rows": [
+          ["Nominativ", "der", "die", "das", "die"],
+          ["Akkusativ", "den", "die", "das", "die"],
+          ["Dativ", "dem", "der", "dem", "denen"]
+        ]
+      },
+      "callout": "Good news: most forms look like the normal article. Only two surprise you — **denen** (dative plural) and, later, the genitive."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear relative clauses",
+      "items": [
+        { "nl": "Das ist der Kollege, der immer zu spät kommt.", "en": "That's the colleague who is always late.", "speak": "Das ist der Kollege, der immer zu spät kommt." },
+        { "nl": "Das ist der Freund, den ich seit Jahren kenne.", "en": "That's the friend I've known for years.", "speak": "Das ist der Freund, den ich seit Jahren kenne." },
+        { "nl": "Die Frau, die im dritten Stock wohnt, ist nett.", "en": "The woman who lives on the third floor is nice.", "speak": "Die Frau, die im dritten Stock wohnt, ist nett." },
+        { "nl": "Das sind die Nachbarn, denen ich vertraue.", "en": "Those are the neighbours I trust.", "speak": "Das sind die Nachbarn, denen ich vertraue." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Same man — der or den?",
+      "pairs": [
+        { "left": "der Mann, der dort steht — the man who is standing there", "right": "der Mann, den ich kenne — the man (whom) I know", "note": "*der* = he's the subject inside the clause (he stands). *den* = he's the object (I know him). The case is decided inside the clause, not by the noun outside." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the right relative pronoun: „Das ist der Film, ___ ich gestern gesehen habe.“ (the film that I saw yesterday)",
+      "options": ["der", "den", "dem"],
+      "correct": 1,
+      "explain": "*der Film* is masculine, and inside the clause it's the object of *gesehen habe* → accusative → *den*. Subject would be *der*, dative would be *dem*."
+    },
+    {
+      "type": "card",
+      "title": "Wenn das Verb den Dativ will",
+      "body": "Some verbs take the **dative** — and then the relative pronoun goes dative too. *helfen*, *vertrauen*, *danken*, *gehören* are the usual suspects. Masculine and neuter become **dem**, feminine becomes **der**, and the plural becomes the special form **denen**.",
+      "table": {
+        "headers": ["Satz", "warum"],
+        "rows": [
+          ["die Frau, der ich helfe", "helfen + Dativ → der (f)"],
+          ["der Mann, dem ich danke", "danken + Dativ → dem (m)"],
+          ["die Leute, denen ich vertraue", "vertrauen + Dativ → denen (pl)"]
+        ]
+      }
+    },
+    {
+      "type": "typed",
+      "prompt": "Complete the relative clause in German: 'the man whom I know' → der Mann, ___",
+      "answers": ["den ich kenne"],
+      "hint": "Masculine, and he's the object inside the clause. Verb last.",
+      "explain": "*der Mann, den ich kenne* — masculine + object → *den*, and *kenne* lands at the end."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole sentence.",
+      "speak": "Das ist die Freundin, der ich alles erzähle.",
+      "answers": ["Das ist die Freundin, der ich alles erzähle.", "Das ist die Freundin der ich alles erzähle"]
+    },
+    {
+      "type": "builder",
+      "title": "Beschreib eine Person oder Sache",
+      "prompt": "Combine an opener with a relative clause. Make sure the pronoun matches the job it does inside the clause.",
+      "slots": [
+        { "label": "Anfang", "chips": ["Das ist der Nachbar", "Das ist die Kollegin", "Das ist der Kuchen"] },
+        { "label": "Relativsatz", "chips": ["den ich oft treffe", "die immer lacht", "der mir gut schmeckt"] }
+      ],
+      "sample": "Das ist der Nachbar, den ich oft treffe."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the Kneipe, Jonas scrolls through photos from a party and points people out.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Guck mal, das ist der Typ, der ständig über seine Band geredet hat.", "en": "Look, that's the guy who kept going on about his band.", "spotlight": "*der ständig … geredet hat* — *der* is the subject inside the clause (nominative)." },
+        { "speaker": "You", "nl": "Der mit der Gitarre? Ganz schön anstrengend, oder?", "en": "The one with the guitar? Pretty exhausting, right?" },
+        { "speaker": "Jonas", "nl": "Ey, voll. Und das ist die Kollegin, die neu bei Lena im Studio ist.", "en": "Ugh, totally. And that's the colleague who's new at Lena's studio." },
+        { "speaker": "You", "nl": "Die kenne ich noch gar nicht. Nett?", "en": "I don't know her yet at all. Nice?" },
+        { "speaker": "Jonas", "nl": "Sehr. Das ist übrigens der Kuchen, den Aylin gebacken hat.", "en": "Very. That, by the way, is the cake Aylin baked.", "spotlight": "*den Aylin gebacken hat* — the cake is the object here → *den* (accusative)." },
+        { "speaker": "You", "nl": "Aylin backt? Das wusste ich gar nicht.", "en": "Aylin bakes? I had no idea." },
+        { "speaker": "Jonas", "nl": "Na ja, Leute, die man ewig kennt, überraschen einen trotzdem.", "en": "Well, people you've known forever still surprise you." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschreib drei Menschen aus deinem Leben — jeweils mit einem Relativsatz. Zum Beispiel: *Das ist mein Freund, der in Hamburg wohnt.*",
+      "starters": ["Das ist …, der/die …", "Ich habe eine Freundin, die …", "Mein Nachbar, den ich oft sehe, …"],
+      "minSentences": 3
+    }
+  ]
+}

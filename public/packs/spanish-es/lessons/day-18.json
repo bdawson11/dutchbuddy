@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-18",
+  "day": 18,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Tu barrio: ¿cómo se llega?",
+  "emoji": "🗺️",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Neighborhood vocabulary and giving directions around your barrio.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El barrio: vocabulario",
+      "body": "The **barrio** (neighborhood) has its own vocabulary: **la calle** (street), **la plaza** (square), **la parada** (stop — bus/metro), **la esquina** (corner), **el semáforo** (traffic light). Lucía's barrio, **Lavapiés**, is full of all of these.",
+      "table": {
+        "headers": ["Spanish", "English"],
+        "rows": [
+          ["la calle", "the street"],
+          ["la plaza", "the square"],
+          ["el barrio", "the neighborhood"],
+          ["la parada (de metro/bus)", "the stop"],
+          ["la esquina", "the corner"],
+          ["el semáforo", "the traffic light"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear el barrio",
+      "items": [
+        { "nl": "la plaza", "en": "the square", "speak": "la plaza" },
+        { "nl": "la parada de metro", "en": "the metro stop", "speak": "la parada de metro" },
+        { "nl": "la esquina", "en": "the corner", "speak": "la esquina" },
+        { "nl": "cerca de aquí", "en": "near here", "speak": "cerca de aquí" },
+        { "nl": "al lado del bar", "en": "next to the bar", "speak": "al lado del bar" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Cómo llegar: direcciones",
+      "body": "Giving directions is simple: **todo recto** (straight ahead), **a la derecha / a la izquierda** (right / left), **gira en la esquina** (turn at the corner). Combine with **cerca de, lejos de, al lado de, enfrente de** to say where things are relative to each other.",
+      "table": {
+        "headers": ["Spanish", "English"],
+        "rows": [
+          ["todo recto", "straight ahead"],
+          ["a la derecha", "to the right"],
+          ["a la izquierda", "to the left"],
+          ["gira en la esquina", "turn at the corner"],
+          ["cerca de / lejos de", "near / far from"],
+          ["al lado de / enfrente de", "next to / across from"]
+        ]
+      },
+      "callout": "*¿Cómo se llega a…?* or *¿por dónde se va a…?* — both are natural ways to ask for directions."
+    },
+    {
+      "type": "contrast",
+      "title": "Cerca vs lejos",
+      "pairs": [
+        { "left": "cerca de la plaza — near the square", "right": "lejos del centro — far from downtown", "note": "*de + el = del* — the same contraction pattern as *a + el = al*." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Quieres decir que la parada está a la derecha. ¿Qué dices?",
+      "options": ["La parada está a la izquierda.", "La parada está a la derecha.", "La parada está todo recto."],
+      "correct": 1,
+      "explain": "*a la derecha* = to the right. *a la izquierda* would be the mirror opposite, and *todo recto* means straight ahead."
+    },
+    {
+      "type": "typed",
+      "prompt": "Translate: 'turn left at the corner'.",
+      "answers": ["gira a la izquierda en la esquina", "gira a la izquierda"],
+      "hint": "gira + a la izquierda + en la esquina.",
+      "explain": "*gira a la izquierda en la esquina* — *gira* (turn) + direction + location."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "todo recto",
+      "answers": ["todo recto"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "You ask Lucía how to get to the metro from her street in Lavapiés.",
+      "lines": [
+        { "speaker": "You", "nl": "Perdona, ¿cómo se llega al metro desde aquí?", "en": "Excuse me, how do you get to the metro from here?" },
+        { "speaker": "Lucía", "nl": "Fácil. Todo recto y luego a la izquierda en la plaza.", "en": "Easy. Straight ahead and then left at the square.", "spotlight": "todo recto + a la izquierda chain together with y." },
+        { "speaker": "You", "nl": "¿Está lejos?", "en": "Is it far?" },
+        { "speaker": "Lucía", "nl": "No, qué va, está muy cerca. Cinco minutos andando.", "en": "No, not at all, it's very close. Five minutes on foot." },
+        { "speaker": "You", "nl": "¿Y hay algún bar bueno por aquí?", "en": "And is there a good bar around here?" },
+        { "speaker": "Lucía", "nl": "Sí, hay uno al lado de la parada, justo en la esquina.", "en": "Yes, there's one next to the stop, right on the corner." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo pillaste?",
+      "questions": [
+        { "q": "¿Dónde tiene que girar la persona?", "options": ["En el semáforo", "En la plaza", "En el bar"], "correct": 1 },
+        { "q": "¿Está lejos el metro?", "options": ["Sí, muy lejos", "No, está cerca", "No lo dice"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe cómo se llega desde tu casa a un sitio que te gusta (el trabajo, un bar, una plaza). Usa todo recto, a la derecha/izquierda, cerca de.",
+      "starters": ["Desde mi casa…", "Todo recto y…", "Está cerca de…"],
+      "minSentences": 3
+    }
+  ]
+}

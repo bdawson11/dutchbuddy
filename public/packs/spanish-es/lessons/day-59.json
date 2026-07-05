@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "day-59",
+  "day": 59,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Estilo indirecto: me dijo que…",
+  "emoji": "💬",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Reporting what people said: dijo que, me contó que, me preguntó si — and the tense backshift",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Contar lo que alguien dijo",
+      "body": "El **estilo indirecto** es contar lo que otra persona dijo sin repetir sus palabras exactas. En lugar de *«Estoy cansada»*, cuentas: *Me dijo que **estaba** cansada*. El verbo que introduce (*dijo, contó, comentó*) va en pasado, y el verbo de dentro **retrocede un paso** en el tiempo.",
+      "callout": "Verbos para introducir: *decir* (*me dijo*), *contar* (*me contó*), *comentar*, *preguntar*."
+    },
+    {
+      "type": "card",
+      "title": "El paso atrás (backshift)",
+      "body": "Cuando el verbo introductor está en pasado, el verbo citado **retrocede**. Los tres cambios que más usarás:",
+      "table": {
+        "headers": ["Palabras exactas", "Estilo indirecto"],
+        "rows": [
+          ["«Trabajo aquí.» (presente)", "Dijo que trabajaba aquí. (imperfecto)"],
+          ["«He terminado.» (perfecto)", "Dijo que había terminado. (pluscuamperfecto)"],
+          ["«Voy a ir.» (ir a…)", "Dijo que iba a ir. (iba a…)"],
+          ["«Estoy bien.» (presente)", "Me contó que estaba bien. (imperfecto)"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Escucha el estilo indirecto",
+      "items": [
+        { "nl": "Me dijo que estaba cansada.", "en": "She told me she was tired.", "speak": "Me dijo que estaba cansada." },
+        { "nl": "Me contó que había cambiado de trabajo.", "en": "He told me he'd changed jobs.", "speak": "Me contó que había cambiado de trabajo." },
+        { "nl": "Dijo que iba a llegar tarde.", "en": "She said she was going to be late.", "speak": "Dijo que iba a llegar tarde." },
+        { "nl": "Me preguntó si tenía tiempo.", "en": "He asked me if I had time.", "speak": "Me preguntó si tenía tiempo." },
+        { "nl": "Me preguntó dónde vivía.", "en": "She asked me where I lived.", "speak": "Me preguntó dónde vivía." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Directo vs indirecto",
+      "pairs": [
+        { "left": "Sofía: «Estoy contenta.»", "right": "Sofía me dijo que estaba contenta.", "note": "El presente *estoy* pasa a imperfecto *estaba*. También cambia el pronombre si hace falta." },
+        { "left": "Rafa: «¿Vienes?»", "right": "Rafa me preguntó si venía / iba.", "note": "Las preguntas de sí/no se introducen con **si**. La de información, con la palabra interrogativa (*qué, dónde, cuándo*)." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Tengo hambre», dijo Nacho. En estilo indirecto: «Nacho dijo que ___ hambre.»",
+      "options": ["tiene", "tenía", "tendría"],
+      "correct": 1,
+      "explain": "El presente *tengo* retrocede a imperfecto: *dijo que **tenía** hambre*. Es el cambio más frecuente del estilo indirecto."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cómo se introduce una pregunta de sí/no en estilo indirecto? «Me preguntó ___ quería café.»",
+      "options": ["que", "si", "cuándo"],
+      "correct": 1,
+      "explain": "Las preguntas de sí/no llevan **si**: *me preguntó **si** quería café*. *Que* es para afirmaciones; *cuándo* solo si la pregunta era sobre el momento."
+    },
+    {
+      "type": "typed",
+      "prompt": "Pásalo a estilo indirecto. «He comido», dijo. → «Dijo que ___ comido.»",
+      "answers": ["había", "dijo que había comido"],
+      "hint": "El perfecto (*he comido*) retrocede al pluscuamperfecto (*había* + participio).",
+      "explain": "*He comido* → *había comido*. El auxiliar *he* pasa a imperfecto: *había*."
+    },
+    {
+      "type": "builder",
+      "title": "Cuenta lo que te dijeron",
+      "prompt": "Monta una frase en estilo indirecto: quién lo dijo + qué (con el verbo ya retrocedido).",
+      "slots": [
+        { "label": "Introductor", "chips": ["Me dijo que", "Me contó que", "Me preguntó si"] },
+        { "label": "Contenido", "chips": ["estaba muy liado", "había encontrado piso", "quería quedar el sábado"] }
+      ],
+      "sample": "Me contó que había encontrado piso."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa te pasa un poco de cotilleo sobre Nacho",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Oye, ¿sabes lo que me dijo Nacho ayer?", "en": "Hey, you know what Nacho told me yesterday?" },
+        { "speaker": "You", "nl": "No, ni idea. ¿Qué te dijo?", "en": "No, no clue. What did he tell you?" },
+        { "speaker": "Rafa", "nl": "Me contó que en su pueblo iban a hacer una fiesta enorme este verano.", "en": "He told me they were going to throw a huge party in his village this summer.", "spotlight": "me contó que + imperfecto (iban a hacer): estilo indirecto." },
+        { "speaker": "You", "nl": "¡Qué guay! ¿Y te preguntó si querías ir?", "en": "How cool! And did he ask if you wanted to go?", "spotlight": "me preguntó si + imperfecto (querías): pregunta indirecta." },
+        { "speaker": "Rafa", "nl": "Sí, me preguntó si me apuntaba. Le dije que sí, claro.", "en": "Yeah, he asked if I was in. I told him yes, of course." },
+        { "speaker": "You", "nl": "Yo también me apunto. ¿Dijo cuándo era?", "en": "I'm in too. Did he say when it was?" },
+        { "speaker": "Rafa", "nl": "Me dijo que era en agosto, pero que aún no sabía el día exacto.", "en": "He told me it was in August, but that he didn't know the exact day yet." },
+        { "speaker": "You", "nl": "Pues nada, cuando lo sepa, nos dices.", "en": "Alright then, when he knows, let us know.", "spotlight": "cuando + subjuntivo (sepa): repaso del día 58." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Qué te ha contado Rafa?",
+      "questions": [
+        { "q": "¿Qué le contó Nacho a Rafa?", "options": ["Que habría una fiesta en su pueblo", "Que se mudaba a Madrid", "Que dejaba el trabajo"], "correct": 0 },
+        { "q": "¿Sabe Nacho el día exacto?", "options": ["No, todavía no", "Sí, es el 15 de agosto", "No hay fecha"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Cuenta en estilo indirecto tres cosas que alguien te dijo esta semana. Usa *me dijo que…, me contó que…, me preguntó si…* y acuérdate de dar el paso atrás en el tiempo.",
+      "starters": ["Un amigo me dijo que…", "Mi madre me contó que…", "Alguien me preguntó si…"],
+      "minSentences": 3
+    }
+  ]
+}

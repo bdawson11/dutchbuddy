@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-21",
+  "day": 21,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "capstone",
+  "title": "Meine Geschichte: Teil 3",
+  "emoji": "🎉",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Week 3 capstone — family and Kiez portrait, plus the accusative self-intro layer",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Rückblick: Woche 3",
+      "body": "You opened the accusative this week: **family** as direct objects (*einen Bruder, eine Schwester, ein Kind*), **predicate adjectives** with zero endings (*ist nett, ist lustig*), **possessives** that move in the masculine (*meinen, deinen, seinen, ihren*), your own **Kiez**, and the five prepositions that always take the accusative (*für, ohne, gegen, um, durch*). Time to put a whole portrait together — your family, your neighborhood, and yourself.",
+      "callout": "Woche 3 geschafft — der Akkusativ sitzt!"
+    },
+    {
+      "type": "chips",
+      "title": "Quick refresh — tap to hear",
+      "items": [
+        { "nl": "einen Bruder", "en": "a brother (obj.)", "speak": "einen Bruder" },
+        { "nl": "ist lustig", "en": "is funny", "speak": "ist lustig" },
+        { "nl": "meinen Vater", "en": "my father (obj.)", "speak": "meinen Vater" },
+        { "nl": "der Kiez", "en": "neighborhood", "speak": "der Kiez" },
+        { "nl": "durch den Park", "en": "through the park", "speak": "durch den Park" },
+        { "nl": "ohne dich", "en": "without you", "speak": "ohne dich" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ich habe ___ Schwester. (a sister — feminine, accusative)",
+      "options": ["ein", "eine", "einen"],
+      "correct": 1,
+      "explain": "Feminine nouns never change in the accusative: *eine Schwester* stays *eine Schwester*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'my brother' as the object of 'ich mag'.",
+      "answers": ["meinen Bruder"],
+      "hint": "Masculine accusative possessive.",
+      "explain": "*meinen Bruder* — masculine noun, accusative after mögen."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ich mag meinen Bruder und meinen Kiez.",
+      "answers": ["Ich mag meinen Bruder und meinen Kiez"]
+    },
+    {
+      "type": "contrast",
+      "title": "Recap: who moves, who doesn't",
+      "pairs": [
+        { "left": "der Bruder → einen Bruder", "right": "die Schwester → eine Schwester", "note": "Masculine moves, feminine doesn't." },
+        { "left": "das Kind → ein Kind", "right": "der Kiez → meinen Kiez", "note": "Neuter stays put; masculine always shifts." }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Warm up: shadow the week",
+      "lines": [
+        { "nl": "Ich habe einen Bruder und eine Schwester.", "en": "I have a brother and a sister." },
+        { "nl": "Meine Schwester ist sehr lustig.", "en": "My sister is very funny." },
+        { "nl": "Ich wohne in Neukölln — das ist mein Lieblingskiez.", "en": "I live in Neukölln — that's my favorite neighborhood." },
+        { "nl": "Ich gehe gern durch den Park, um die Ecke.", "en": "I like walking through the park, around the corner." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Jonas meets you at a café and wants the full picture — your family, your Kiez, everything.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Ey, erzähl mal — hast du Geschwister?", "en": "Hey, tell me — do you have siblings?" },
+        { "speaker": "You", "nl": "Ja, ich habe einen Bruder und eine Schwester.", "en": "Yes, I have a brother and a sister." },
+        { "speaker": "Jonas", "nl": "Und wie sind sie so?", "en": "And what are they like?" },
+        { "speaker": "You", "nl": "Mein Bruder ist ernst, aber meine Schwester ist total lustig.", "en": "My brother is serious, but my sister is totally funny." },
+        { "speaker": "Jonas", "nl": "Klingt gut, oder? Und wo wohnst du hier in Berlin?", "en": "Sounds good, right? And where do you live here in Berlin?" },
+        { "speaker": "You", "nl": "Ich wohne in Neukölln. Ich mag meinen Kiez sehr.", "en": "I live in Neukölln. I like my neighborhood a lot.", "spotlight": "meinen Kiez — accusative masculine after mögen, one more time." },
+        { "speaker": "Jonas", "nl": "Na klar, Neukölln ist super — viele Spätis, viele Parks.", "en": "Of course, Neukölln is great — lots of Spätis, lots of parks." },
+        { "speaker": "You", "nl": "Genau! Ich gehe oft ohne Plan durch den Kiez.", "en": "Exactly! I often walk through the neighborhood without a plan." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "How many siblings does 'you' mention?", "options": ["One", "Two", "Three"], "correct": 1 },
+        { "q": "Where does 'you' live in Berlin?", "options": ["Kreuzberg", "Neukölln", "Friedrichshain"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Meine Geschichte — Teil 3",
+      "prompt": "Extend your self-intro: add your family (accusative) and your Kiez.",
+      "slots": [
+        { "label": "Familie", "chips": ["Ich habe einen Bruder", "Ich habe eine Schwester", "Ich habe ein Kind", "Ich habe keine Geschwister", "Ich habe einen Bruder und eine Schwester"] },
+        { "label": "Wie ist er/sie?", "chips": ["Er ist lustig.", "Sie ist nett.", "Er ist ruhig.", "Sie ist klug."] },
+        { "label": "Kiez", "chips": ["Ich wohne in Neukölln.", "Ich wohne in Kreuzberg.", "Ich wohne in Friedrichshain.", "Mein Kiez ist super."] }
+      ],
+      "sample": "Ich habe einen Bruder. Er ist lustig. Ich wohne in Neukölln — mein Kiez ist super."
+    },
+    {
+      "type": "journal",
+      "prompt": "Meine Geschichte, Woche 3! Write your growing self-intro: name, where you're from, that you're learning German (Woche 1) + your daily routine (Woche 2) + now your family (accusative!) and your Kiez. Mindestens 5 Sätze.",
+      "starters": ["Ich heiße…", "Ich bin aus…", "Ich lerne Deutsch.", "Ich habe…", "Ich wohne in…"],
+      "minSentences": 5
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-43",
+  "day": 43,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Com'eri? L'imperfetto",
+  "emoji": "🕰",
+  "level": "A2",
+  "durationMin": [15, 22],
+  "summary": "Forming the imperfetto (-avo/-evo/-ivo) and the three irregulars you need by heart: ero, avevo, facevo",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il passato che descrive",
+      "body": "Fin qui hai usato il passato prossimo per dire cosa **è successo**. L'**imperfetto** è un altro passato: descrive com'era una situazione, un'abitudine, uno stato — non un evento preciso e concluso. Le desinenze regolari sono uguali per (quasi) tutti i verbi della stessa coniugazione: **-are → -avo** (*parlavo*), **-ere → -evo** (*credevo*), **-ire → -ivo** (*dormivo*).",
+      "callout": "Pensa 'was' / 'used to' in inglese — *parlavo* = 'I was speaking' / 'I used to speak'.",
+      "table": {
+        "headers": ["Persona", "parlare"],
+        "rows": [
+          ["io", "parlavo"],
+          ["tu", "parlavi"],
+          ["lui/lei", "parlava"],
+          ["noi", "parlavamo"],
+          ["voi", "parlavate"],
+          ["loro", "parlavano"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "ero, avevo, facevo — i tre da sapere a memoria",
+      "body": "**essere** è l'unico vero irregolare: *ero, eri, era, eravamo, eravate, erano*. **avere** invece segue la regola: *avevo, avevi, aveva, avevamo, avevate, avevano*. **fare** usa la vecchia radice *fac-*, poi le solite desinenze: *facevo, facevi, faceva…* — come *credevo*, cambia solo la radice.",
+      "callout": "Impara questi tre a memoria: ero, avevo, facevo. Il resto segue le regole."
+    },
+    {
+      "type": "chips",
+      "title": "Ero, eri, era… tocca per sentire",
+      "items": [
+        { "nl": "ero", "en": "I was", "speak": "ero" },
+        { "nl": "eri", "en": "you were", "speak": "eri" },
+        { "nl": "era", "en": "he/she/it was", "speak": "era" },
+        { "nl": "eravamo", "en": "we were", "speak": "eravamo" },
+        { "nl": "eravate", "en": "you all were", "speak": "eravate" },
+        { "nl": "erano", "en": "they were", "speak": "erano" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "sono vs ero",
+      "pairs": [
+        { "left": "*Sono di Bologna.* — I'm from Bologna (adesso)", "right": "*Ero a Bologna ieri.* — I was in Bologna yesterday", "note": "Stesso verbo essere, tempo diverso: presente per adesso, imperfetto per uno stato passato." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Da bambino, _____ sempre paura del buio. (avere)",
+      "options": ["ho avuto", "avevo", "ebbi"],
+      "correct": 1,
+      "explain": "*avevo* — imperfetto per una paura abituale da bambino, non un episodio singolo."
+    },
+    {
+      "type": "typed",
+      "prompt": "Di' 'I was tired' con essere all'imperfetto.",
+      "answers": ["ero stanco", "ero stanca"],
+      "hint": "essere: io → ero",
+      "explain": "*Ero stanco/a* — descrive uno stato passato, non un evento."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Da bambino ero molto timido.",
+      "answers": ["da bambino ero molto timido", "da bambino ero molto timido."]
+    },
+    {
+      "type": "shadow",
+      "title": "Ripeti — l'imperfetto in azione",
+      "lines": [
+        { "nl": "Da bambina abitavo a Parma.", "en": "As a kid I lived in Parma." },
+        { "nl": "Non avevo la macchina, andavo sempre in bici.", "en": "I didn't have a car, I always went by bike." },
+        { "nl": "Facevo i compiti dopo cena.", "en": "I used to do homework after dinner." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Marco and You at the bar, comparing what you were like as kids",
+      "lines": [
+        { "speaker": "Marco", "nl": "Da ragazzo, com'eri?", "en": "As a kid, what were you like?" },
+        { "speaker": "You", "nl": "Ero timido, e leggevo un sacco di libri.", "en": "I was shy, and I read a ton of books." },
+        { "speaker": "Marco", "nl": "Davvero? Io invece parlavo troppo, sempre.", "en": "Really? I on the other hand talked too much, always." },
+        { "speaker": "You", "nl": "E cosa facevi il sabato?", "en": "And what did you do on Saturdays?" },
+        { "speaker": "Marco", "nl": "Giocavo a calcio con gli amici, ogni settimana.", "en": "I played soccer with friends, every week.", "spotlight": "giocavo — imperfetto abituale: 'ogni settimana' segnala ripetizione, non un evento unico." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Descrivi tre cose di come eri o cosa facevi da bambino/a. Usa l'imperfetto (ero, avevo, facevo, giocavo…).",
+      "starters": ["Da bambino/a ero…", "Non avevo…", "Facevo sempre…"],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "day-58",
+  "day": 58,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Quando serve il congiuntivo (e quando no)",
+  "emoji": "🤔",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The trigger families — impersonal, emotion, doubt — and when to stay in the indicativo (facts)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Tre famiglie di trigger",
+      "body": "The congiuntivo shows up after three kinds of expressions. **Impersonal**: *è importante che, è possibile che, bisogna che, è meglio che*. **Emotion**: *sono contento che, mi dispiace che, ho paura che*. **Doubt**: *dubito che, non sono sicuro che, non credo che*. They share one idea: what comes after *che* is **not** presented as a plain fact.",
+      "callout": "Opinion, emotion, doubt, necessity → congiuntivo. Plain fact → indicativo."
+    },
+    {
+      "type": "chips",
+      "title": "I trigger — ascolta",
+      "items": [
+        { "nl": "È possibile che piova.", "en": "It might rain.", "speak": "È possibile che piova." },
+        { "nl": "Bisogna che tu vada.", "en": "You need to go.", "speak": "Bisogna che tu vada." },
+        { "nl": "Sono contento che tu sia qui.", "en": "I'm glad you're here.", "speak": "Sono contento che tu sia qui." },
+        { "nl": "Ho paura che sia tardi.", "en": "I'm afraid it's late.", "speak": "Ho paura che sia tardi." },
+        { "nl": "Dubito che venga.", "en": "I doubt he'll come.", "speak": "Dubito che venga." },
+        { "nl": "Non credo che sia vero.", "en": "I don't think it's true.", "speak": "Non credo che sia vero." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Congiuntivo o indicativo?",
+      "pairs": [
+        { "left": "*Penso che venga.* — I think he's coming.", "right": "*So che viene.* — I know he's coming.", "note": "Opinion / doubt → congiuntivo (*venga*); certainty → indicativo (*viene*)." },
+        { "left": "*Non sono sicuro che abbia tempo.*", "right": "*Sono sicuro che ha tempo.*", "note": "*non sono sicuro* is doubt → congiuntivo; *sono sicuro* is certainty → indicativo." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Quando NON usare il congiuntivo",
+      "body": "Skip the congiuntivo when the main clause states **certainty or fact**: after *so che, è vero che, è ovvio che, sono sicuro che* → use the **indicativo** (*so che è vero*, not *sia*). And when both verbs share the **same subject**, don't use *che* + congiuntivo — use **di + infinito**: *penso **di** partire domani* (I think I'll leave tomorrow), not *penso che parto*.",
+      "callout": "Same subject → *penso **di** andare*. Different subject → *penso **che** tu vada*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Quale frase è corretta?",
+      "options": ["So che sia a casa.", "So che è a casa.", "So che fosse a casa."],
+      "correct": 1,
+      "explain": "*sapere* states a fact → indicativo: *so che **è** a casa*. No congiuntivo after certainty."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Stesso soggetto: 'I think I'll leave tomorrow.' Come si dice?",
+      "options": ["Penso che parto domani.", "Penso di partire domani.", "Penso che io parta domani."],
+      "correct": 1,
+      "explain": "Same subject (io / io) → *penso **di** partire*. You'd use *che* + congiuntivo only with a different subject."
+    },
+    {
+      "type": "typed",
+      "prompt": "Scrivi in italiano: 'I doubt he's right.' (usa *dubito che* + *avere*)",
+      "answers": ["dubito che abbia ragione", "dubito che lui abbia ragione"],
+      "hint": "*dubito che* è dubbio → congiuntivo di *avere* → *abbia*.",
+      "explain": "*Dubito che abbia ragione.* Doubt triggers the congiuntivo (*abbia*)."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Bisogna che tu parta subito.",
+      "answers": ["bisogna che tu parta subito", "bisogna che tu parta subito."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "You and Marco argue over whether to go to a concert on Friday.",
+      "lines": [
+        { "speaker": "Marco", "nl": "Allora, venerdì c'è un concerto. Penso che sia una serata perfetta.", "en": "So, there's a concert Friday. I think it'll be a perfect evening." },
+        { "speaker": "You", "nl": "Boh, non sono sicuro che ci siano ancora biglietti.", "en": "Hmm, I'm not sure there are still tickets.", "spotlight": "Doubt trigger → congiuntivo: *non sono sicuro che ci **siano***." },
+        { "speaker": "Marco", "nl": "Dubito che siano finiti così presto, dai.", "en": "I doubt they've sold out this early, come on." },
+        { "speaker": "You", "nl": "Va bene, però è importante che li compriamo oggi.", "en": "OK, but it's important we buy them today." },
+        { "speaker": "Marco", "nl": "Giusto. Spero che venga anche Giulia con noi.", "en": "Right. I hope Giulia comes with us too." },
+        { "speaker": "You", "nl": "Perfetto. Spero che sia una bella serata.", "en": "Perfect. I hope it's a great evening." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi tre frasi su venerdì prossimo: una con *penso che*, una con *spero che* e una con *sono sicuro che* (indicativo!). Attenzione: solo le prime due usano il congiuntivo.",
+      "starters": ["Penso che…", "Spero che…", "Sono sicuro che…"],
+      "minSentences": 3
+    }
+  ]
+}
