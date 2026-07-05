@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-40",
+  "day": 40,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "Dar consejos",
+  "emoji": "💡",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Giving advice — tienes que, deberías, ¿por qué no…? — a first taste of the conditional.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Tres maneras de aconsejar",
+      "body": "**Tienes que + infinitivo** (obligación fuerte): *tienes que descansar*. **Deberías + infinitivo** (consejo suave — es el condicional de *deber*): *deberías dormir más*. **¿Por qué no + presente?** (sugerencia con pregunta): *¿por qué no vas al médico?*",
+      "callout": "*Deberías* es tu primer contacto con el **condicional** — volverás a él más adelante."
+    },
+    {
+      "type": "chips",
+      "title": "Frases de consejo",
+      "items": [
+        { "nl": "tienes que descansar", "en": "you have to rest", "speak": "tienes que descansar" },
+        { "nl": "deberías dormir más", "en": "you should sleep more", "speak": "deberías dormir más" },
+        { "nl": "¿por qué no vas al médico?", "en": "why don't you go to the doctor?", "speak": "¿por qué no vas al médico?" },
+        { "nl": "deberías relajarte", "en": "you should relax", "speak": "deberías relajarte" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Fuerte vs. suave",
+      "body": "*Tienes que* suena a orden — úsalo con cuidado entre amigos. *Deberías* es más suave, el consejo típico entre colegas. *¿Por qué no…?* es la forma más amable — casi nunca suena mandón."
+    },
+    {
+      "type": "contrast",
+      "title": "Tienes que vs. deberías",
+      "pairs": [
+        { "left": "tienes que ir al médico — strong, almost an order", "right": "deberías ir al médico — softer, a friendly suggestion", "note": "Between friends, deberías and ¿por qué no…? land better than tienes que." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Quieres sonar suave dando un consejo a un amigo. ¿Qué usas?",
+      "options": ["Tienes que", "Deberías", "Es obligatorio"],
+      "correct": 1,
+      "explain": "**Deberías** es el consejo suave, perfecto entre amigos."
+    },
+    {
+      "type": "mcq",
+      "prompt": "'_____ tomar algo para la fiebre.' (sugerencia amable en forma de pregunta)",
+      "options": ["¿Por qué no tomas algo para la fiebre?", "Tomas algo para la fiebre.", "Toma algo para la fiebre, punto."],
+      "correct": 0,
+      "explain": "**¿Por qué no + presente?** es la sugerencia más amable."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduce (consejo suave): 'You should rest.'",
+      "answers": ["deberías descansar"],
+      "explain": "**Deberías descansar.**"
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "deberías ir al médico",
+      "answers": ["deberías ir al médico"]
+    },
+    {
+      "type": "builder",
+      "title": "Dale un consejo a Sofía",
+      "prompt": "Sofía dice que se encuentra fatal esta semana. Construye un consejo.",
+      "slots": [
+        { "label": "Empieza", "chips": ["deberías", "tienes que", "¿por qué no"] },
+        { "label": "Consejo", "chips": ["descansar más", "ir al médico", "tomar algo para la fiebre", "relajarte un poco"] }
+      ],
+      "sample": "Deberías ir al médico."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Sofía tells you and Nacho she hasn't been feeling great; you both give advice.",
+      "lines": [
+        { "speaker": "Sofía", "nl": "Últimamente no me encuentro muy bien. Estoy siempre cansada.", "en": "I haven't been feeling great lately. I'm always tired." },
+        { "speaker": "Nacho", "nl": "Hombre, deberías dormir más y comer mejor.", "en": "Man, you should sleep more and eat better." },
+        { "speaker": "You", "nl": "¿Por qué no pides cita con el médico, por si acaso?", "en": "Why don't you book an appointment with the doctor, just in case?" },
+        { "speaker": "Sofía", "nl": "Sí, tenéis razón. Igual tengo que hacerlo esta semana.", "en": "Yeah, you're right. Maybe I should do it this week.", "spotlight": "vosotros object: tenéis razón — addressing both You and Nacho together." },
+        { "speaker": "Nacho", "nl": "Buena idea. Cuídate, ¿vale?", "en": "Good idea. Take care of yourself, okay?" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "¿Cómo se encuentra Sofía últimamente?", "options": ["Muy bien", "Cansada", "Nerviosa por el trabajo"], "correct": 1 },
+        { "q": "¿Qué consejo le da You?", "options": ["Que tome vacaciones", "Que pida cita con el médico", "Que haga deporte"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Un amigo te dice que se encuentra mal. Escribe dos consejos: uno con deberías y otro con ¿por qué no…?",
+      "starters": ["Deberías…", "¿Por qué no…?"],
+      "minSentences": 2
+    }
+  ]
+}

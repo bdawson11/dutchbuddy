@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "day-77",
+  "day": 77,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "capstone",
+  "title": "Mi historia: mi puesta al día",
+  "emoji": "🎉",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Week-11 capstone: produce the week's tools, then say your intro in two registers — usted vs tú/vosotros",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso: semana 11 al completo",
+      "body": "Semana 11 hecha. Ya tienes los **verbos con preposición** (*soñar con, quedar con, acordarse de*), las **muletillas** que te hacen sonar de aquí (*pues, o sea, en plan, es que*), los **diminutivos** para pedir con suavidad (*un momentito, una cañita*) y —lo más importante— el **control del registro**: *tú* por defecto, *vosotros* para el grupo, *usted* cuando toca. Hoy lo produces tú.",
+      "callout": "La capa de hoy de *Mi historia*: tu presentación **de usted** frente a **de tú/vosotros**."
+    },
+    {
+      "type": "chips",
+      "title": "Repaso rápido — toca y escucha",
+      "items": [
+        { "nl": "¿Quedamos esta semana?", "en": "Shall we meet up this week?", "speak": "¿Quedamos esta semana?" },
+        { "nl": "Pues no me acuerdo, la verdad.", "en": "Well, I don't remember, honestly.", "speak": "Pues no me acuerdo, la verdad." },
+        { "nl": "Espera un momentito.", "en": "Wait just a sec.", "speak": "Espera un momentito." },
+        { "nl": "¿Vosotros de dónde sois?", "en": "Where are you all from?", "speak": "¿Vosotros de dónde sois?" },
+        { "nl": "¿Sería tan amable de repetirlo?", "en": "Would you be so kind as to repeat it?", "speak": "¿Sería tan amable de repetirlo?" },
+        { "nl": "O sea, que al final me quedo.", "en": "So, in the end I'm staying.", "speak": "O sea, que al final me quedo." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Este finde he quedado ___ Rafa para tomar algo.» Elige la preposición.",
+      "options": ["con", "a", "de", "en"],
+      "correct": 0,
+      "explain": "*quedar con alguien* — siempre *con*: *he quedado con Rafa*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Entras en una tienda de barrio; la dependienta tiene tu edad. Lo más natural en España es…",
+      "options": ["Hola, ¿me puedes ayudar?", "Buenos días, ¿me podría ayudar usted?", "Eh, tú, ayúdame"],
+      "correct": 0,
+      "explain": "En España se tutea por defecto, y más entre gente de edad parecida: *¿me puedes ayudar?*. El usted aquí sonaría distante."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduce con muletilla: 'It's just that I don't have time.' (usa *es que*)",
+      "answers": ["es que no tengo tiempo"],
+      "hint": "Empieza por 'es que'.",
+      "explain": "*Es que no tengo tiempo.* — *es que* introduce la excusa o el motivo."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe la frase.",
+      "speak": "Pues nada, cuento contigo.",
+      "answers": ["pues nada, cuento contigo", "pues nada cuento contigo"]
+    },
+    {
+      "type": "contrast",
+      "title": "tú · vosotros · usted",
+      "pairs": [
+        { "left": "tú (uno, informal)", "right": "¿De dónde eres?", "note": "Por defecto en España." },
+        { "left": "vosotros (grupo, informal)", "right": "¿De dónde sois?", "note": "El plural informal de España, no *ustedes*." },
+        { "left": "usted (uno, formal)", "right": "¿De dónde es usted?", "note": "Mayores desconocidos, trámites, teléfono." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa hasn't seen you in ages — bring him up to speed (ponerse al día).",
+      "lines": [
+        { "speaker": "Rafa", "nl": "¡Hombre, cuánto tiempo! ¿Qué ha sido de tu vida?", "en": "Man, long time! What's been going on with you?" },
+        { "speaker": "You", "nl": "Pues nada, liado. He empezado a ir a clases de español en serio.", "en": "Well, busy. I've started going to Spanish classes seriously.", "spotlight": "empezar a + infinitivo, con muletilla de arranque." },
+        { "speaker": "Rafa", "nl": "¿En serio? ¡Se te nota, tío! Hablas un montón mejor.", "en": "Really? You can tell, mate! You speak loads better." },
+        { "speaker": "You", "nl": "Es que ya no me da vergüenza. O sea, todavía me lío con el usted.", "en": "It's just I'm not embarrassed anymore. I mean, I still get muddled with usted." },
+        { "speaker": "Rafa", "nl": "Bah, eso no lo usa casi nadie. De tú y para adelante.", "en": "Nah, hardly anyone uses that. Tú and off you go." },
+        { "speaker": "You", "nl": "Ya ves. Oye, ¿te acuerdas de que quería aprender a cocinar? Pues ya hago una tortilla decente.", "en": "There you go. Hey, remember I wanted to learn to cook? Well I make a decent tortilla now." },
+        { "speaker": "Rafa", "nl": "¡Anda! Pues quedamos y me invitas, ¿no?", "en": "Oh! Well let's meet up and you treat me, right?" },
+        { "speaker": "You", "nl": "Hecho. Cuento contigo el sábado.", "en": "Done. I'm counting on you Saturday.", "spotlight": "contar con para cerrar el plan." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has seguido?",
+      "questions": [
+        { "q": "¿Qué ha empezado a hacer quien habla?", "options": ["Ir a clases de español en serio", "Trabajar en un bar", "Mudarse a Valencia"], "correct": 0 },
+        { "q": "¿Con qué sigue teniendo problemas?", "options": ["Con el vocabulario del bar", "Con el usted", "Con los números"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mi historia — capa 11: el mismo yo, dos registros",
+      "prompt": "Monta tu presentación y termínala **preguntando de vuelta**. Ahí se ve el registro: elige el cierre informal (tú/vosotros) o el formal (usted).",
+      "slots": [
+        { "label": "Saludo", "chips": ["Hola, buenas", "Buenos días", "Encantado"] },
+        { "label": "Quién eres", "chips": ["me llamo Álex y soy de Toronto", "soy Álex, canadiense"] },
+        { "label": "Qué haces aquí", "chips": ["llevo un año en Madrid aprendiendo español", "estoy aprendiendo español"] },
+        { "label": "Cierre — devuelve la pregunta", "chips": ["¿y vosotros, de dónde sois?", "¿y tú?", "¿y usted, de dónde es?"] }
+      ],
+      "sample": "Hola, buenas, me llamo Álex y soy de Toronto, llevo un año en Madrid aprendiendo español. ¿Y vosotros, de dónde sois?"
+    },
+    {
+      "type": "journal",
+      "prompt": "¡Mi historia, semana 11! Escribe tu presentación DOS veces: (1) formal, como en una entrevista o con alguien mayor —de usted—, y (2) informal, como en una cena con amigos —de tú, o de vosotros si te diriges al grupo—. Mantén todas las capas de antes (quién eres, tu rutina, tu familia, lo que te gusta, lo que has hecho, tu gran decisión…) y fíjate en qué cambia entre un registro y otro.",
+      "starters": ["Formal: Buenos días, me llamo… Encantado de conocerle. ¿Y usted?", "Informal: ¡Hola! Soy… ¿Y vosotros, qué?"],
+      "minSentences": 4
+    }
+  ]
+}
