@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-05",
+  "day": 5,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "haben und die Verneinung: kein oder nicht",
+  "emoji": "🚫",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "The verb haben (to have) and the two ways to say no: kein for nouns, nicht for everything else",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "haben — to have",
+      "body": "*haben* is your second everyday verb. **ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben.** German also uses *haben* for states English says with \"to be\": *Hunger haben* (to be hungry), *Durst haben* (thirsty), *Zeit haben* (to have time).",
+      "table": {
+        "headers": ["Person", "haben"],
+        "rows": [
+          ["ich", "habe"],
+          ["du", "hast"],
+          ["er / sie / es", "hat"],
+          ["wir", "haben"],
+          ["ihr", "habt"],
+          ["sie / Sie", "haben"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "haben — tap to hear",
+      "items": [
+        { "nl": "Ich habe Zeit.", "en": "I have time.", "speak": "Ich habe Zeit." },
+        { "nl": "Hast du Hunger?", "en": "Are you hungry?", "speak": "Hast du Hunger?" },
+        { "nl": "Wir haben Durst.", "en": "We're thirsty.", "speak": "Wir haben Durst." },
+        { "nl": "Sie hat ein Auto.", "en": "She has a car.", "speak": "Sie hat ein Auto." },
+        { "nl": "Ihr habt Glück.", "en": "You all are lucky.", "speak": "Ihr habt Glück." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Saying no to a noun: kein",
+      "body": "To say you **don't have** a thing, don't use *nicht* — use **kein**. It replaces *ein* and takes matching endings: **keinen** (masculine), **keine** (feminine), **kein** (neuter or no article). *Ich habe keinen Hund* (no dog), *keine Zeit* (no time), *kein Auto* (no car).",
+      "callout": "Rule of thumb: if you'd use *ein* or no article at all, negate with *kein*."
+    },
+    {
+      "type": "card",
+      "title": "Saying no to everything else: nicht",
+      "body": "For verbs, adjectives, and specific \"the\"-nouns, use **nicht**. It usually sits **late**, but jumps **in front of** a predicate adjective or a place: *Ich bin nicht müde* (not tired), *Das ist nicht gut* (not good), *Ich komme heute nicht* (I'm not coming today).",
+      "callout": "*kein* negates a noun; *nicht* negates the idea."
+    },
+    {
+      "type": "contrast",
+      "title": "kein vs nicht",
+      "pairs": [
+        { "left": "Ich habe keine Zeit.", "right": "Ich bin nicht müde.", "note": "Noun with no specific article → kein. Verb or adjective → nicht." },
+        { "left": "Wir haben kein Auto.", "right": "Das Auto ist nicht neu.", "note": "\"an\" car → kein; \"the\" car (specific) → nicht." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "How do you say 'I'm not hungry'?",
+      "options": ["Ich habe keinen Hunger.", "Ich habe nicht Hunger.", "Ich bin nicht Hunger."],
+      "correct": 0,
+      "explain": "*Hunger* is a noun you \"have\", so negate it with *kein* → *keinen Hunger*. Never *nicht Hunger*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Make it negative: 'Ich habe Zeit.' → I have no time.",
+      "answers": ["Ich habe keine Zeit.", "Ich habe keine Zeit", "keine Zeit"],
+      "hint": "*Zeit* is feminine.",
+      "explain": "*Ich habe keine Zeit* — feminine noun, so *keine*."
+    },
+    {
+      "type": "shadow",
+      "title": "Negation — repeat after the audio",
+      "lines": [
+        { "nl": "Ich habe keine Zeit.", "en": "I have no time." },
+        { "nl": "Das ist nicht gut.", "en": "That's not good." },
+        { "nl": "Ich bin nicht müde.", "en": "I'm not tired." },
+        { "nl": "Wir haben keinen Hunger.", "en": "We're not hungry." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Café with Jonas. He's hungry; you're not — yet.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Ich habe Hunger. Hast du auch Hunger?", "en": "I'm hungry. Are you hungry too?" },
+        { "speaker": "You", "nl": "Nein, ich habe keinen Hunger. Aber ich habe Durst.", "en": "No, I'm not hungry. But I'm thirsty.", "spotlight": "*keinen Hunger* — negate the noun with kein, not nicht." },
+        { "speaker": "Jonas", "nl": "Okay. Hast du Zeit für einen Kaffee?", "en": "Okay. Do you have time for a coffee?" },
+        { "speaker": "You", "nl": "Ja, aber nicht lange.", "en": "Yes, but not for long." },
+        { "speaker": "Jonas", "nl": "Kein Problem. Ein Kaffee ist schnell.", "en": "No problem. A coffee is quick.", "spotlight": "*Kein Problem* — the everyday \"no worries\"." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "Is Jonas hungry?", "options": ["Yes", "No", "We don't know"], "correct": 0 },
+        { "q": "How does Jonas react when you only have a little time?", "options": ["He's annoyed", "Kein Problem — no problem", "He leaves"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "What do you have and not have right now? Write two things you have (Zeit? Hunger? Durst?) and one you don't — using kein once and nicht once.",
+      "starters": ["Ich habe…", "Ich habe kein…", "Ich bin nicht…"]
+    }
+  ]
+}

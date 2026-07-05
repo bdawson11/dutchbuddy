@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "day-06",
+  "day": 6,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "der, die, das — das Geschlecht der Nomen",
+  "emoji": "🔤",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "German's three noun genders, a few patterns to guess them, and why plurals are all die",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Every noun has a gender",
+      "body": "German nouns are **der** (masculine), **die** (feminine), or **das** (neuter). It's mostly **grammatical, not logical**: *das Mädchen* (the girl) is neuter, *der Löffel* (spoon) is masculine. So never learn a noun bare — **learn it with its article**: not *Tisch*, but *der Tisch*. Gender also decides next week's endings, when *der* becomes *den* and *dem* — so banking it now pays off.",
+      "callout": "Learn \"der Tisch\", never just \"Tisch\". The article is part of the word."
+    },
+    {
+      "type": "chips",
+      "title": "Nouns with their articles — tap to hear",
+      "items": [
+        { "nl": "der Mann", "en": "the man", "speak": "der Mann" },
+        { "nl": "die Frau", "en": "the woman", "speak": "die Frau" },
+        { "nl": "das Kind", "en": "the child", "speak": "das Kind" },
+        { "nl": "der Tisch", "en": "the table", "speak": "der Tisch" },
+        { "nl": "die Lampe", "en": "the lamp", "speak": "die Lampe" },
+        { "nl": "das Brot", "en": "the bread", "speak": "das Brot" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Patterns that help you guess",
+      "body": "You can't always predict gender, but endings tip you off. Nouns ending in **-ung, -heit, -keit, -tion** are almost always **die** (*die Zeitung*, *die Freiheit*). Any **-chen** or **-lein** word is **das** (*das Brötchen*). Many **-er** words for people and tools are **der** (*der Bäcker*, *der Computer*).",
+      "callout": "-ung / -heit / -keit → die. -chen → das. Bank those two."
+    },
+    {
+      "type": "contrast",
+      "title": "When the ending beats the meaning",
+      "pairs": [
+        { "left": "das Mädchen — the girl (neuter!)", "right": "das Brötchen — the roll", "note": "Any -chen word is *das*, no matter what it means. Grammar wins." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Plurals: everything becomes die",
+      "body": "Good news: **every** plural takes **die**, whatever the singular gender. *der Tisch → die Tische*, *das Kind → die Kinder*, *die Frau → die Frauen*. The ending itself varies (**-e, -er, -n/-en, -s**, sometimes with an umlaut), so learn the plural alongside the word: *der Apfel → die Äpfel*.",
+      "callout": "In the plural, der and das both surrender to die."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which article does 'Zeitung' (newspaper) take?",
+      "options": ["der", "die", "das"],
+      "correct": 1,
+      "explain": "*-ung* nouns are feminine → *die Zeitung*. The ending gives it away."
+    },
+    {
+      "type": "typed",
+      "prompt": "Give the article: '___ Kind' (child).",
+      "answers": ["das"],
+      "hint": "Grammar over logic here.",
+      "explain": "*das Kind* — a child is grammatically neuter. Don't overthink it; just bank it."
+    },
+    {
+      "type": "shadow",
+      "title": "der / die / das — repeat after the audio",
+      "lines": [
+        { "nl": "der Tisch", "en": "the table" },
+        { "nl": "die Tür", "en": "the door" },
+        { "nl": "das Fenster", "en": "the window" },
+        { "nl": "die Bücher", "en": "the books (plural)" }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Point and name it",
+      "prompt": "Point at something: 'Das ist …' + the right article + the noun.",
+      "slots": [
+        { "label": "Das ist", "chips": ["Das ist"] },
+        { "label": "Artikel", "chips": ["der", "die", "das"] },
+        { "label": "Nomen", "chips": ["Tisch", "Frau", "Brot", "Kind"] }
+      ],
+      "sample": "Das ist der Tisch."
+    },
+    {
+      "type": "journal",
+      "prompt": "Collect five nouns you saw around you today. Write each one with its article — der, die, or das. If you're unsure, guess from the ending, then check.",
+      "starters": ["der…", "die…", "das…"]
+    }
+  ]
+}

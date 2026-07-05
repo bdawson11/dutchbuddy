@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "day-07",
+  "day": 7,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "capstone",
+  "title": "Meine Geschichte: Teil 1",
+  "emoji": "🎉",
+  "level": "A1",
+  "durationMin": [20, 30],
+  "summary": "Week 1 capstone — pull the sounds, greetings, sein/haben and der/die/das together, then build your first self-introduction",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Rückblick: Woche 1",
+      "body": "Erste Woche geschafft! You can now hear German's sounds (long/short vowels, **ä/ö/ü**, the two **ch**s, **ß**, the throaty **r**), **greet** by the time of day with *bitte/danke*, use **sein** and **haben**, say no with **kein** and **nicht**, and give every noun its **der/die/das**. That's the whole foundation in seven days.",
+      "callout": "Das ist ein super Anfang. Hol dir einen Kaffee — du hast es dir verdient."
+    },
+    {
+      "type": "chips",
+      "title": "Quick refresh — tap to hear",
+      "items": [
+        { "nl": "Guten Morgen", "en": "good morning", "speak": "Guten Morgen" },
+        { "nl": "Ich bin…", "en": "I am…", "speak": "Ich bin" },
+        { "nl": "Ich habe…", "en": "I have…", "speak": "Ich habe" },
+        { "nl": "kein / nicht", "en": "no / not", "speak": "kein, nicht" },
+        { "nl": "der Tisch", "en": "the table", "speak": "der Tisch" },
+        { "nl": "Tschüss", "en": "bye", "speak": "Tschüss" }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Warm up: shadow the week",
+      "lines": [
+        { "nl": "Ich bin aus Toronto.", "en": "I'm from Toronto." },
+        { "nl": "Ich habe keine Zeit.", "en": "I have no time." },
+        { "nl": "Guten Morgen! Zwei Brötchen, bitte.", "en": "Good morning! Two rolls, please." },
+        { "nl": "Ich lerne Deutsch.", "en": "I'm learning German." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "How do you say 'I have no time'?",
+      "options": ["Ich habe nicht Zeit.", "Ich habe keine Zeit.", "Ich bin keine Zeit."],
+      "correct": 1,
+      "explain": "*Zeit* is a noun, so negate it with *kein* → *keine Zeit* (feminine). Never *nicht Zeit*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Give the article: '___ Brot' (bread).",
+      "answers": ["das"],
+      "hint": "Neuter.",
+      "explain": "*das Brot* — bread is neuter. Learn it as a pair: *das Brot*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the greeting.",
+      "speak": "Guten Morgen",
+      "answers": ["Guten Morgen", "guten morgen"]
+    },
+    {
+      "type": "contrast",
+      "title": "Recap: same intro, two registers",
+      "pairs": [
+        { "left": "Hallo, ich bin Jonas. Und du? — casual", "right": "Guten Tag, mein Name ist Herr Klein. Und Sie? — formal", "note": "One introduction, two levels of formality. Read the room, pick du or Sie." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena sits down next to you at a café and wants to know who this newcomer is.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Hallo! Ich bin Lena. Wie heißt du?", "en": "Hi! I'm Lena. What's your name?", "spotlight": "*Wie heißt du?* — \"what are you called?\", the everyday way to ask a name." },
+        { "speaker": "You", "nl": "Hallo Lena. Ich heiße Sam. Ich bin aus Toronto.", "en": "Hi Lena. My name is Sam. I'm from Toronto." },
+        { "speaker": "Lena", "nl": "Schön! Und was machst du hier in Berlin?", "en": "Nice! And what are you doing here in Berlin?" },
+        { "speaker": "You", "nl": "Ich lerne Deutsch. Es ist schwer, aber schön.", "en": "I'm learning German. It's hard, but nice.", "spotlight": "*Ich lerne Deutsch* — your core self-intro line from now on." },
+        { "speaker": "Lena", "nl": "Super! Dein Deutsch ist schon gut, echt.", "en": "Great! Your German is already good, really." },
+        { "speaker": "You", "nl": "Danke schön, Lena!", "en": "Thank you very much, Lena!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What is your name in the dialogue?", "options": ["Lena", "Sam", "Jonas"], "correct": 1 },
+        { "q": "What are you doing in Berlin?", "options": ["Working", "Learning German", "On vacation"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Meine Geschichte — Teil 1",
+      "prompt": "Build your first self-introduction: your name, where you're from, and that you're learning German.",
+      "slots": [
+        { "label": "Name", "chips": ["Ich heiße Sam", "Ich bin Sam"] },
+        { "label": "Herkunft", "chips": ["ich komme aus Kanada", "ich bin aus Toronto", "ich komme aus den USA"] },
+        { "label": "Deutsch", "chips": ["und ich lerne Deutsch", "und ich lerne gerade Deutsch"] }
+      ],
+      "sample": "Ich heiße Sam, ich bin aus Toronto und ich lerne Deutsch."
+    },
+    {
+      "type": "journal",
+      "prompt": "Meine Geschichte, Woche 1! Write your first self-introduction in full: your name, where you're from, and that you're learning German. Then add one thing about how you are or what you have today, using sein or haben. Erste Woche geschafft — stark!",
+      "starters": ["Ich heiße…", "Ich bin aus…", "Ich lerne Deutsch.", "Heute bin ich…", "Ich habe…"],
+      "minSentences": 4
+    }
+  ]
+}
