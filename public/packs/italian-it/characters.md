@@ -91,3 +91,71 @@ append the correct cumulative layer (earlier layers still expected):
 
 Capstones reference this table with a `builder` or `journal` block titled around *"il mio racconto"*
 that layers in that week's move.
+
+---
+
+## Season 2 (Weeks 13–18) — B2 Depth → C1 Gateway
+
+*The friend group is a year on. Sofia lives in Milano now (permanently — she never moves back). Giulia
+and Marco are the steady Bologna thread. Pietro is still in Naples. One new face — **Elena** — enters
+in Week 15 as the learner's professional-world anchor. The season's pivot is the **learner's own life**:
+around day 111 you get a job and decide to make Italy home.*
+
+### Where the four go next
+
+- **Giulia** — unchanged and unmoved: your steady Bologna guide, present at the finale. In Season 2 she's
+  the one who debriefs your job hunt and bureaucracy (day 104) and hosts the reunion (day 125). Same warm,
+  ironic voice; now she talks to you more in Italian and expects the congiuntivo back.
+- **Marco** — still the bar and the *pettegolezzo*. In Season 2 his role is **opinion & irony**: day 90 he's
+  in full congiuntivo flow about Bologna changing; day 118 he trades ironic jabs with Pietro. He hears your
+  news on day 111.
+- **Sofia** — **lives in Milano** (from day 69, permanently). Appears **from Milano**: day 97 she looks back
+  on the move with hypotheticals and a touch of regret (*se non avessi accettato…*), and she comes **up to
+  Bologna for the finale** (day 125), settled and happy. Never write her back in Bologna day-to-day.
+- **Pietro** — still the Naples voice, still perfect standard Italian to you. In Season 2 he becomes the
+  **regional-accent exposure** anchor (day 115, day 118): he lets a little Naples colour and *napoletano*
+  awareness through *for the ear*, always flagged as colour — **standard stays the target**.
+
+### Elena — new in Season 2 (Week 15)
+
+- **Who:** ~42, runs a small design/comms studio in Bologna (a peer of Giulia's world). Brisk, professional,
+  fair. The learner's window into working Italian.
+- **Voice:** clear, courteous, formal by default — she is the natural *Lei* partner. Warms once you're
+  hired. Good vehicle for formal email register, the *colloquio*, and *si impersonale/passivante*.
+- **Role in the arc:** interviews the learner (**day 102**), and **offers the job on day 111** — the
+  season-2 life event. You address her as *Lei* through W15; after the offer the relationship can soften
+  toward *tu* (a nice register-switching beat for W17).
+- **Continuity:** Elena does not appear before Week 15. She is Bologna-based and stays there.
+
+### Season-2 immersion anchors (review days) & the life event
+
+- **day 90 (W13):** Marco, opinions in full congiuntivo (Bologna is changing).
+- **day 97 (W14):** Sofia from Milano, looking back with *se avessi… / se non avessi…* (regret/hypothetical).
+- **day 104 (W15):** Giulia debriefs the job hunt + the paperwork (formal register braided).
+- **day 111 (W16):** **THE season-2 life event.** The learner gets Elena's job offer and **decides to stay in
+  Italy**, telling Giulia & Marco at the bar in reported speech and layered tenses. Mirrors Sofia's day-69
+  move — but this time the life that moves is **yours**. Keep the ordering: job-hunting/undecided before 111;
+  offer-in-hand and staying from 111 on.
+- **day 118 (W17):** Pietro & Marco banter with irony; Naples colour for the ear (exposure only).
+- **day 125 (W18):** **Finale immersion** — the reunion ~18 months on: Giulia, Marco, Sofia (up from Milano).
+
+### The growing self-intro — Season 2 rows
+
+| Wk | Capstone day | New "il mio racconto" layer (cumulative) |
+|----|------|------|
+| 13 | 91  | + a **nuanced opinion with connectors** (*penso che… benché… tuttavia…*, congiuntivo controlled) |
+| 14 | 98  | + a **hypothetical & a regret** (periodo ipotetico II/III: *se avessi…, sarei…, avrei dovuto…*) |
+| 15 | 105 | + a **professional self-presentation**, formal register (*mi occupo di…, ho esperienza in…*, *Lei*) |
+| 16 | 112 | + a **layered-tense story with reported speech** (discorso indiretto, concordanza, a clitic) |
+| 17 | 119 | + **register & tone control**: the same story told with irony/casually vs formally |
+| 18 | 126 | **Il mio racconto, la versione C1** — the whole arc, every tense, a letter to your day-1 self, C1-gateway farewell |
+
+### Continuity rules (Season 2)
+
+- Sofia is in **Milano**, full stop, from day 69. Any Sofia line in S2 is from Milano or a visit to Bologna.
+- Giulia and Marco **do not move**; they stay the Bologna anchor to the end.
+- **Elena** exists only from Week 15 on; she is the source of the day-111 offer.
+- The **day-111 pivot** is the learner's, not a cast member's move: before it you're undecided, after it
+  you're staying. The finale (126) speaks from "I stayed."
+- Any dialogue speaker must still be **`You`** or a name in the manifest `cast` (now: Giulia, Marco, Sofia,
+  Pietro, **Elena**). The validator enforces this.

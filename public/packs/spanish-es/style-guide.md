@@ -86,6 +86,18 @@ Per block type — **required fields and the traps:**
 - **A2 (W5–8):** glosses shorten; dialogues lengthen; introduce the perfecto then indefinido/imperfecto; some `explain`/`spotlight` text starts appearing in easy Spanish.
 - **B1 (W9–12):** dialogues run 6–10 lines; the subjunctive saturates; prompts increasingly in Spanish; comprehension questions in Spanish; journal prompts in Spanish. By W11 the learner calibrates tú/usted/vosotros consciously.
 
+## 9. Difficulty ramp — Weeks 13–18 (B2 Depth → C1 Gateway)
+
+Season 2 extends the same schema to 126 days. Everything in §1–6 still holds (the `nl` field still carries Spanish, distinción still lives in card text, agreement/tense rules still non-negotiable). What changes is the *scaffolding density* and the *register demands*.
+
+- **The language of instruction shifts into Spanish.** W13–16 (B2): prompts, `explain`, and `spotlight` are **mixed** — Spanish carries the point, with a short English safety net where a stumble is likely. W17–18 (C1 gateway): **Spanish-first** — write `explain`/`spotlight`/prompts in Spanish, adding a brief English gloss only where a genuine safety net is needed. **Comprehension questions and journal prompts are in Spanish across all of S2.** (Chip/dialogue/shadow `en` glosses stay in English — they're the built-in support; keep them tight.)
+- **Dialogues run 8–12 lines.** Longer, more natural turns; real overlap and irony by W17. Honor the arc timeline and the cast voices (incl. **Marta**/**Dani** and their accent-in-card-text rule — never voice a regional accent, never make comprehension hinge on it).
+- **`durationMin` moves to `[20, 35]`** for S2 lessons (heavier reading, longer dialogues).
+- **Block-count targets are UNCHANGED** — stay inside lesson **8–12**, review **6–8**, capstone **10–14**. B2/C1 depth comes from *harder blocks*, not *more blocks*. (The validator still warns outside these.)
+- **Register-switching drills are a signature S2 pattern.** Recurringly give the *same message* in **tú vs usted vs vosotros** (a `contrast` with a `note`, or a `builder` with one slot per register, or a `typed` asking for the *usted* rewrite). This is the concrete face of the C1-gateway "register nerve."
+- **distinción stays a card-text convention, not a TTS dependency** (roadmap §6). Where a drill hinges on c/z = /θ/, teach the sound in the card body; never assume the voice renders it. The regional-exposure day (117) teaches Andalusian/canario **features in text** — exposure-only; Castilian remains the target.
+- **Level tag:** W13–16 lessons are `"B2"`; W17–18 lessons are `"C1"`. Units `U13`–`U18`, modules `M13`–`M18`.
+
 ## 8. Output & handoff rules
 
 - One file per day: `public/packs/spanish-es/lessons/day-NN.json`, zero-padded, **strict JSON** (no comments, no trailing commas).

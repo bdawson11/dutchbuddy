@@ -244,3 +244,130 @@ Rhythm: **W1–2** = 6 teaching days + capstone. **W3–12** = 5 teaching + 1 re
   - **Proceeding with "SpanishBuddy" as placeholder** in the manifest so the pack builds; flagging for coordinator sign-off.
 - **Native-speaker review** of dialogues before public launch (per plan §4) — Peninsular reviewer specifically, to confirm *distinción*, *vosotros* naturalness, and swearing-register calibration on day 79.
 - **TTS distinción fidelity** (see §6) — confirm a Castilian `es-ES` voice for v2 pre-generated audio.
+- **⚠️ appName / domain clash still open** for season 2 — the extension does **not** resolve it; it inherits the placeholder "SpanishBuddy" and the §9 recommendation stands (coordinator sign-off before public launch).
+
+---
+
+# SEASON 2 — Weeks 13–18: B2 Depth → C1 Gateway
+
+*Extends the pack from 84 days (A1→B1) to **126 days (A1 → C1-gateway)**. Same engine, same
+cast, same weekly rhythm. Designed from Spanish's **upper-level** pain points — the walls a
+B1 learner hits when they stop translating and try to actually think in Spanish. Modules
+**M13–M18**, days **85–126**, one unit per week (**U13–U18**).*
+
+## S2.0 Honest level framing (read this first)
+
+- **W13–16 = level `"B2"` — "B2 Depth".** This is where the learner stops surviving and starts having *opinions with nuance*, hypothesising, and narrating in layers. The subjunctive stops being a gate and becomes a reflex, in all four of its tenses.
+- **W17–18 = level `"C1"` — "C1 Gateway".** Named honestly: this is **preparing the leap**, not certifying C1. No 6-week extension makes anyone C1 — real C1 is thousands of hours of input. What these two weeks *do* is hand the learner the C1 *tools and awareness*: irony, register-switching under pressure, the real (vulgar) register of the street heard honestly, regional-accent exposure, and the grown-up machinery of a professional life in Spain. The finish line is "ready to go pursue C1 in the wild," not a certificate.
+
+## S2.1 Upper-level grammar spine (what drives S2 sequencing)
+
+The A1→B1 spine (§1) is assumed mastered. Season 2 is built on the **five B2/C1 walls**:
+
+1. **The full subjunctive system** — *subjuntivo imperfecto* (*-ara/-iera*, and the *-se* variant) → *pluscuamperfecto de subjuntivo* (*hubiera/hubiese hecho*), with **concordancia de tiempos** (sequence of tenses: a past/conditional main verb pulls the subjunctive back). Seeded W13, saturated W14. *The B2 gate.*
+2. **The complete si-clause system** — real (*si tengo, voy*), irreal-present (*si tuviera, iría*), irreal-past (*si hubiera sabido, habría venido*), and mixed (*si me hubiera quedado, ahora estaría…*), plus regret/reproach (*deberías haber…, de haberlo sabido…*). W14. Depends wholly on wall 1.
+3. **Conjecture & the media voice** — future & conditional **of probability** (*serán las diez, estará durmiendo, tendría veinte años*), and the many faces of **se**: impersonal (*se habla español*), pasiva refleja (*se venden pisos*), and the accidental/de-blaming *se* (*se me olvidó, se me cayó*). W14/W15.
+4. **Trajectory & change** — **verbos de cambio** (*ponerse / volverse / hacerse / quedarse / llegar a ser*) and **perífrasis verbales** (*llevar + gerundio, ir + gerundio, seguir + gerundio, acabar de, dejar de, volver a, ponerse a, soler*). The grammar of how people and things *evolve* — hence the toolkit for professional self-presentation. W15.
+5. **Preposition finesse & cohesion** — *por / para* mastery, verb+preposition rection (*consistir en, depender de, tratarse de*), reported speech with full backshift + deixis shift, and layered-tense narration with C1 connectors (*no obstante, de ahí que, al fin y al cabo, por lo visto*). W16.
+
+Then the **C1-gateway competences** (not grammar but nerve): irony & register-switching (W17), the honest street register incl. red-tier swearing (W17), regional-accent **exposure** (Andalusian, canario — exposure-only; Castilian stays the target, W17), and **professional Spanish** — entrevista de trabajo, email formal, and bureaucracy survival: *empadronamiento, cita previa, NIE, la ventanilla* (W18).
+
+## S2.2 Season-2 arc summary (2 lines)
+
+> A year in, the learner is no longer a newcomer: they debate at the *sobremesa*, second-guess the roads not taken, and — the season-2 pivot (day 111) — get a **firm job offer in Spain and decide to stay and build a life here**, mirroring Sofía's day-69 leap. The back third earns it: they learn to hear the irony and the swearing, meet Spain beyond Castilla (Marta from Sevilla, Dani from Canarias), and handle the grown-up machinery — the *entrevista*, the *email formal*, the *cita previa* — closing on a definitive, layered, register-aware self-portrait one year on.
+
+## S2.3 Season-2 cast additions (2 new anchors)
+
+Full bios in `characters.md`. Season 1's four continue (Lucía & Rafa in Madrid, **Sofía in Valencia** from day 69, Nacho on Madrid's edge). Two new voices carry the C1-gateway themes:
+
+- **Marta** — ~35, Sevillana, HR / recruitment lead the learner meets through work. The **professional-Spanish anchor** (entrevista, email formal) *and* the **Andalusian-accent exposure** voice (*aspiración de eses*, dropped intervocalic *d*, *illo/quillo* — all flagged in card text, exposure-only). Warm, sharp, Sevillana wit.
+- **Dani (Daniel)** — ~28, canario from Las Palmas, a remote-working friend the learner meets through Sofía. The **canario exposure** voice: *seseo*, **ustedes-for-informal-plural** (the one place in Spain vosotros isn't used — a gift of a teaching contrast), *guagua, chacho*. Cameo on the regional/finale immersion days.
+
+## S2.4 Season-2 story anchors (keep these day-exact)
+
+- **W16 / day 111:** **THE life event — the learner's job offer & decision to stay in Spain.** Immersion retelling in layered tenses; the friends react (Rafa teases, Lucía proud, Sofía calls from Valencia — *"hace un año fui yo, ahora te toca a ti"*). The season-2 pivot, mirroring day 69.
+- **Immersion anchors (review days):** 90 (B2 *sobremesa* debate, Marta joins), 97 (hypotheticals & regrets with Rafa), 104 (career-trajectory talk with Marta — professional set-up), 111 (**the life event**), 118 (irony/slang/register in the wild; Dani appears), 125 (finale immersion — the whole crew, Sofía in from Valencia, Dani cameo; register-switching & irony braided).
+- **W18 / day 126:** everyone one year on; the definitive C1-gateway self-portrait. Finale.
+- **Continuity:** Sofía stays in Valencia the entire season (never silently back in Madrid); Marta and Dani do not appear before their W13/W17 introductions.
+
+## S2.5 The 42 days (Weeks 13–18)
+
+Rhythm unchanged: **5 teaching + 1 review/immersion + 1 capstone**; every review carries the arc, every capstone lands the *Mi historia* layer.
+
+### B2 Depth — Weeks 13–16
+
+**Week 13 — El subjuntivo imperfecto y el matiz (M13, level B2)**
+85. **Subjuntivo imperfecto — formas** — *-ara/-iera* off the 3rd-pl indefinido (*hablaran→hablara, fueran→fuera, tuvieran→tuviera, pudieran→pudiera*), plus the *-se* variant (*hablase*)
+86. **Concordancia de tiempos I** — past/conditional main verb → subjuntivo imperfecto (*quería que vinieras, sería mejor que fuéramos, me pidió que le ayudara*)
+87. **Opinión con matices** — hedged/nuanced argument: *no es que… sino que, por un lado… por otro, en el fondo, hasta cierto punto, de hecho, ahora bien*
+88. **Ojalá / como si** — *ojalá pudiera, como si fuera* (+ subj. imperfecto); high-frequency and very Spanish
+89. **Cortesía y suavizar** — softening with imperfecto/condicional: *quería preguntarte, ¿te importaría?, ¿no sería mejor…?*
+90. **Review + immersion** — a long *sobremesa* debate (Lucía, Rafa, **Marta** joins); nuanced opinion & connectors *(immersion anchor 90)*
+91. **Capstone** — *Mi historia* layer 13: **nuanced opinion with connectors**
+
+**Week 14 — El sistema condicional: las oraciones con si (M14, level B2)**
+92. **Condicional compuesto** — *habría hecho*; the "would have" half of the machinery
+93. **Si-clauses irreales de presente** — *si tuviera tiempo, iría* (imperf. subj. + condicional simple)
+94. **Pluscuamperfecto de subjuntivo + si-clauses irreales de pasado** — *hubiera/hubiese sabido → habría venido*
+95. **Condicionales mixtas + reproche** — *si me hubiera quedado, ahora estaría…; deberías haber…, podría haber…, de haberlo sabido*
+96. **Futuro y condicional de probabilidad** — conjecture: *serán las diez, estará durmiendo, tendría veinte años entonces*
+97. **Review + immersion** — Rafa & You on the roads not taken (*si no me hubiera mudado…*) *(immersion anchor 97)*
+98. **Capstone** — *Mi historia* layer 14: **a hypothetical / a regret**
+
+**Week 15 — Trayectorias y cambio: se, perífrasis, verbos de cambio (M15, level B2)**
+99. **Las caras de *se* I** — impersonal & pasiva refleja: *se habla español, se venden pisos, aquí no se puede fumar*
+100. **Las caras de *se* II** — the accidental/de-blaming *se*: *se me olvidó, se me cayó, se nos ha hecho tarde*
+101. **Verbos de cambio** — *ponerse* (transitory), *volverse* (radical), *hacerse* (gradual/effort), *quedarse* (result), *llegar a ser*
+102. **Perífrasis I — con gerundio** — *llevar + gerundio* (duration: *llevo dos años viviendo aquí*), *ir/seguir/andar + gerundio*
+103. **Perífrasis II** — *acabar de, dejar de, volver a, ponerse a, estar a punto de, soler*
+104. **Review + immersion** — **Marta** narrates her career trajectory (llevar+gerundio, *me hice, me he ido…*) — professional set-up *(immersion anchor 104)*
+105. **Capstone** — *Mi historia* layer 15: **professional self-presentation** (trajectory with perífrasis + verbos de cambio)
+
+**Week 16 — Preposiciones, estilo indirecto y el relato en capas (M16, level B2)**
+106. **por vs para — finesse** — cause/purpose, exchange, duration, agent, *por mí / para mí, estar por / estar para*
+107. **Régimen preposicional** — verb+prep rection: *consistir en, depender de, tratarse de, contar con, hacia/hasta/según*
+108. **Estilo indirecto — dominio** — full tense backshift + deixis shift (*aquí→allí, hoy→aquel día*), reported questions & commands (*me preguntó si…, me pidió que + subj. imperf.*)
+109. **El relato en capas** — weaving pluscuamperfecto + indefinido + imperfecto + perfecto; *había… cuando…*
+110. **Cohesión C1** — advanced connectors: *no obstante, por lo visto, al fin y al cabo, en cambio, dado que, de ahí que + subj.*
+111. **Review + immersion** — **THE LIFE EVENT: the learner's job offer & decision to stay**; layered-tense retelling *(the day-111 pivot)*
+112. **Capstone** — *Mi historia* layer 16: **layered-tense storytelling**
+
+### C1 Gateway — Weeks 17–18
+
+**Week 17 — Registro, ironía y la calle de verdad (M17, level C1)**
+113. **Dominio del registro** — the same message in *tú / usted / vosotros*; formal↔informal transformation drills
+114. **La ironía y el sarcasmo español** — *¡qué bien! (…), ya, ya; sí, claro; anda ya; no te digo; ¿tú crees?* — Spanish deadpan and how tone flips meaning
+115. **La calle, tier por tier** — 🟢🟡🔴 revisited at C1, **honest**: the red tier heard freely in casual Spain (*me la suda, estar hasta las narices, mala leche, de puta madre* as praise); recognition → controlled use, **never** with *usted*/service/formal
+116. **Gramática coloquial y compresión** — *es que…, lo de…, ni que fuera…, total que…, en plan*, vague nouns (*el chisme, el cacharro*), spoken ellipsis
+117. **Exposición regional** *(exposure-only)* — **andaluz** (aspiración de eses, *ceceo/seseo*, dropped *-d-*, *illo/quillo*) & **canario** (seseo, **ustedes** for informal plural, *guagua, chacho*); **Castilian remains the target** — recognise, don't adopt
+118. **Review + immersion** — the crew being themselves: irony, slang & register-switching live; **Dani** (canario) appears *(immersion anchor 118)*
+119. **Capstone** — *Mi historia* layer 17: **irony & register-switching**
+
+**Week 18 — Español profesional, trámites y el final (M18, level C1)**
+120. **La entrevista de trabajo** — *háblame de ti, mis puntos fuertes/débiles, se me da bien, me considero…*
+121. **El email formal** — *Estimado/a…, Le escribo para…, Quedo a la espera, Un cordial saludo*; sustained *usted*
+122. **Trámites y burocracia** — *empadronamiento, cita previa, el NIE, rellenar un impreso, aportar documentación, la ventanilla, el funcionario*: officialdom survival
+123. **El español del mundo laboral** — meetings & work life: *quedamos en que…, hacer un seguimiento, la nómina, estar de baja, el finiquito, os paso el acta*
+124. **El pulido C1** — *lo + adj.* nominalization (*lo importante es que…, lo de siempre*), *cuanto más… más…*, a dozen refranes/modismos that mark a fluent speaker
+125. **Final immersion** — the whole crew one year on (Sofía in from Valencia, Dani cameo): register-switching, irony & layered tenses braided *(immersion anchor 125)*
+126. **Final capstone — Mi historia, C1** — the definitive self-portrait: layered tenses, register-switching, a flash of irony, a letter to your season-1 self, Spanish farewells, celebratory C1-gateway stats banner
+
+## S2.6 Growing self-intro — "Mi historia" rows 13–18
+
+Cumulative — every season-1 layer (rows 1–12) still expected; season 2 adds one new competence per week:
+
+| Wk | Capstone day | New "Mi historia" layer (cumulative) |
+|----|------|------|
+| 13 | 91  | + a **nuanced opinion** framed with connectors (*no es que sea…, sino que…; por un lado… por otro; en el fondo creo que…*) |
+| 14 | 98  | + a **hypothetical / a regret** (*si hubiera sabido…, habría…; si pudiera volver atrás…*) |
+| 15 | 105 | + a **professional self-presentation** — your trajectory (*llevo X años…, me hice…, me he ido especializando en…*) |
+| 16 | 112 | + **layered-tense storytelling** — one pivotal episode told in 3–4 past tenses (*había… cuando…, y desde entonces…*) |
+| 17 | 119 | + **irony & register-switching** — the same beat said straight, said ironically, said to a boss (*usted*) vs to friends (*vosotros*) |
+| 18 | 126 | **Mi historia, C1** — the whole arc, register-aware, tense-layered, with a wink and a letter to your season-1 self |
+
+## S2.7 Difficulty & authoring deltas for S2
+
+- Prompts/`explain`/`spotlight` shift **into Spanish**: W13–16 (B2) mixed Spanish-with-English-safety-net; W17–18 (C1 gateway) **Spanish-first** with a short English gloss only where a beginner-safety net is genuinely needed. Comprehension questions and journal prompts in Spanish across S2.
+- Dialogues run **8–12 lines**; `durationMin` **[20,35]**. **Block-count targets unchanged** (lesson 8–12 / review 6–8 / capstone 10–14).
+- **Register-switching drills** (the same message in *tú* vs *usted* vs *vosotros*) recur as a signature S2 pattern — typically a `builder` or `contrast`.
+- **distinción stays a card-text convention**, not a TTS dependency (see §6). Regional-accent days teach the *features in text*; never rely on the voice to render an accent.

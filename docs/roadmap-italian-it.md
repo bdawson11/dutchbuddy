@@ -1,10 +1,11 @@
-# ItalianBuddy — 84-Day Curriculum Roadmap (`italian-it`)
+# ItalianBuddy — 126-Day Curriculum Roadmap (`italian-it`)
 
 *Authoring-time design doc. Mirrors `plan.md` §3 in structure, but the sequence is
 designed from **Italian's own grammar spine**, not translated from Dutch. This is the
 locked scope-per-day map that lesson batches are written against.*
 
-Pack id: **`italian-it-v1`** · App: **ItalianBuddy** · A1 → B1 · 84 days / 12 weeks.
+Pack id: **`italian-it-v1`** · App: **ItalianBuddy** · A1 → C1-gateway · 126 days / 18 weeks.
+Season 1 (W1–12, A1→B1) is §§1–10 below. Season 2 (W13–18, B2 Depth → C1 Gateway) is §§11–13.
 
 ---
 
@@ -265,6 +266,132 @@ append the correct week's layer via a `builder` or `journal` block titled around
 | 10 | 70 | + a big decision, with a clitic and a subclause (Sofia's move as the model: *ci ho pensato molto, perché…*) |
 | 11 | 77 | + register control: the same intro said formally (*Lei*) vs casually (*tu*), plus one congiuntivo |
 | 12 | 84 | **Il mio racconto, definitivo** — the whole thing, one tense-move per slot, a letter to your past self, Italian farewells |
+
+---
+
+## 11. Weeks 13–18: B2 Depth → C1 Gateway (Season 2)
+
+*Designed from Italian's **upper-level** pain points — the things that separate a fluent-sounding
+B1 from someone who reads a novel, sits a job interview, survives the anagrafe, and hears irony.
+The B1 spine (congiuntivo, clitics, the past-tense split) doesn't get replaced; it gets **finished**.*
+
+**Honest framing.** W13–16 are **B2** ("B2 Depth"). W17–18 are the **C1 Gateway** — they *prepare the
+leap* to C1, they do not certify it. We say so to the learner. C1 is a mountain; this season gets you
+to the trailhead with the right gear, not to the summit.
+
+### The Season-2 grammar spine (the 5 upper anchors that drive sequencing)
+
+1. **The FULL congiuntivo system + concordanza dei tempi.** B1 taught only the *presente*. Now the
+   *passato* (*penso che sia andato*), *imperfetto* (*pensavo che fosse*), and *trapassato* (*pensavo che
+   fosse già partito*), governed by the **sequence-of-tenses ladder**: main-clause tense selects the
+   subordinate congiuntivo tense. This is W13's whole job and it re-enters everything after.
+2. **Il periodo ipotetico, all three types** — culminating in the **irreale del passato**
+   (*se avessi saputo, sarei venuto* = congiuntivo trapassato + condizionale passato), the grammar of
+   **regret**. Paired with the condizionale passato as *future-in-the-past* (*ha detto che sarebbe
+   venuto*). W14.
+3. **Formal & professional register as a *system*** — *Lei* mastery, the formal/PEC-style email,
+   bureaucracy survival (*permesso di soggiorno, anagrafe, residenza, sportello*), the *colloquio di
+   lavoro* and *riunione*, and **si impersonale / passivante** (*si prega di…, si è deciso che…*) as the
+   register's engine. Register-switching (tu↔Lei of the *same* message) becomes a drilled reflex. W15.
+4. **Discourse machinery for storytelling** — full **discorso indiretto** with tense backshift and
+   time/place shifts, **pronomi combinati** mastered in flow (*glielo, gliela, me lo, ce ne*), **ci/ne**
+   to their idiomatic edges (*ci tengo, non ne posso più*), the **pronominal idiom verbs** (*farcela,
+   andarsene, cavarsela, prendersela, avercela*), and the **passato remoto for READING** —
+   recognition-first, exposure not production (narrative prose and southern speech: *disse, fece, andò,
+   fu*). W16.
+5. **Sfumatura — the layer above grammar** — irony and understatement (*ma va'?, come no, figurati*),
+   colloquial depth (*mica, 'sto, roba, un casino, ci sta*), **regional-accent exposure** (recognise a
+   Roman / Neapolitan / Milanese lilt; **standard stays the target**), and using the congiuntivo/
+   condizionale to *soften and distance*. Then the C1 synthesis: argue, sustain a monologue, read real
+   Italian. W17–18.
+
+### B2 Depth — Weeks 13–16
+
+**Week 13 (M13) — Il congiuntivo, sul serio** *(the full subjunctive system)* · level **B2**
+85. Il congiuntivo passato — *penso che **sia andato/a***; *abbia/sia* + participle, participle agreement; the subordinate event that precedes the main one
+86. Il congiuntivo imperfetto — *fossi, avessi, parlassi, facessi, venisse*; triggered by a **past** main verb (*pensavo che fosse…, volevo che venisse*)
+87. Il congiuntivo trapassato — *avessi/fossi + participle* (*credevo che fosse già partito*); the "past-before-a-past" inside a subordinate
+88. **Concordanza dei tempi** — the sequence-of-tenses ladder: main **presente/futuro** → cong. presente/passato; main **passato/condizionale** → cong. imperfetto/trapassato
+89. Il congiuntivo dopo le congiunzioni — *benché, sebbene, affinché, prima che, purché, a meno che, senza che* + congiuntivo
+90. **Review + immersion** — **Marco** in full flow: strong opinions about Bologna changing, thick with *penso che fosse… benché… sebbene*. (season-2 immersion anchor)
+91. **Capstone** — self-intro *layer 13*: a **nuanced opinion with connectors** (*penso che… benché… tuttavia…*, congiuntivo controlled)
+
+**Week 14 (M14) — Se avessi saputo: il periodo ipotetico** *(the conditional system & regret)* · level **B2**
+92. Periodo ipotetico I, la realtà — recap & sharpen: *se piove resto a casa* / *se studierai, passerai*
+93. Periodo ipotetico II, la possibilità — *se avessi tempo, verrei* (cong. imperfetto + condizionale presente)
+94. Periodo ipotetico III, l'irrealtà nel passato — **se avessi saputo, sarei venuto** (cong. trapassato + condizionale passato)
+95. Il condizionale passato — *avrei voluto, sarei andato*; and the **future-in-the-past** (*ha detto che sarebbe venuto*)
+96. Rimpianti e desideri — *magari fossi…, avrei dovuto…, se solo…*; the grammar of regret and wishing
+97. **Review + immersion** — **Sofia** in Milano, a year on, looking back: *se non avessi accettato quel lavoro…* (regret/hypothetical). (immersion anchor)
+98. **Capstone** — self-intro *layer 14*: a **hypothetical and a regret** (*se avessi…, sarei…, avrei dovuto…*)
+
+**Week 15 (M15) — Italiano formale: burocrazia e lavoro** *(formal register, bureaucracy, work)* · level **B2**
+99. Il *Lei*, a fondo — formal register as a system; formule di cortesia (*Le scrivo per…, La ringrazio, Distinti saluti, In attesa di un Suo riscontro*)
+100. L'email formale / la PEC — structure of a formal message; **register-switching drill**: the same request written *tu* vs *Lei*
+101. Sopravvivere alla burocrazia — *permesso di soggiorno, anagrafe, residenza, codice fiscale, marca da bollo*; the *sportello* dialogue (**Elena** or a clerk)
+102. Il colloquio di lavoro — *mi occupo di…, ho esperienza in…, i miei punti di forza*; **Elena** interviews the learner
+103. La riunione e il *si* — meeting language + **si impersonale / passivante** (*si prega di…, si è deciso che…, in azienda si lavora così*)
+104. **Review + immersion** — debrief with **Giulia**: the job hunt and the paperwork, formal-register recap braided. (immersion anchor)
+105. **Capstone** — self-intro *layer 15*: a **professional self-presentation** in formal register (*mi occupo di…, ho esperienza in…*, *Lei*)
+
+**Week 16 (M16) — Raccontare: discorso indiretto e i pronomi** *(reported speech, pronoun mastery, reading the remoto)* · level **B2**
+106. Il discorso indiretto — full **tense backshift** (*«vengo domani» → ha detto che sarebbe venuto il giorno dopo*) + time/place shifts (*qui→lì, oggi→quel giorno*)
+107. I pronomi combinati, mastery — *glielo, gliela, me lo, te lo, ce ne*; placement across finite / infinitive / imperative in real narration
+108. *Ci* e *ne*, fino in fondo — idiomatic *ci* (*ci tengo, ci vuole, non ci capisco niente*) and *ne* (*non ne posso più, ne vale la pena*)
+109. I verbi pronominali idiomatici — **farcela, andarsene, cavarsela, prendersela, avercela (con)**; the untranslatable little verbs
+110. Il passato remoto — **RECOGNITION for reading only** (exposure, not production): *disse, fece, andò, fu, ebbe, venne* in narrative prose & southern speech
+111. **Review + immersion** — **THE season-2 life event:** the learner gets a job offer (from **Elena**) and **decides to stay in Italy** — told to **Giulia & Marco** at the bar in reported speech and layered tenses. *Mirrors Sofia's day-69 pivot; this time the life that moves is **yours**.* (immersion anchor)
+112. **Capstone** — self-intro *layer 16*: a **layered-tense story with reported speech** (discorso indiretto, concordanza, one clitic)
+
+### C1 Gateway — Weeks 17–18
+
+*Honest label: **preparing the leap to C1**, not certifying it. Italian-first, English as a safety net.*
+
+**Week 17 (M17) — Sfumature: ironia, colloquiale, accenti** *(nuance, irony, regional exposure)* · level **C1**
+113. L'ironia e l'understatement — reading tone: *ma va'?, come no, figurati, sì, buonanotte* (ironic), saying the opposite of what you mean
+114. Il colloquiale a fondo — *mica, 'sto/'sta, roba, un casino, ci sta, cioè* as connectors, spoken ellipsis and reductions (standard spelling kept)
+115. Accenti e varietà regionali — **EXPOSURE ONLY**: recognise a Roman / Neapolitan / Milanese lilt & a few regional words (*mo'* = now, central-south); **Pietro** anchors it — *standard stays the target*
+116. Cambiare registro — the **register-switching drill** foregrounded: the *same* message rendered casual/*tu* and formal/*Lei*, and everything between
+117. Le sfumature del congiuntivo e del condizionale — softening and distancing at C1 (*sarebbe il caso di…, non è che tu abbia…, vorrei che…*)
+118. **Review + immersion** — **Pietro & Marco** bantering with irony; a little Naples colour for the ear (exposure). (immersion anchor)
+119. **Capstone** — self-intro *layer 17*: **register & tone control** — the same story told *with irony / casually* vs *formally*
+
+**Week 18 (M18) — La volata verso il C1: il finale** *(the run to C1: the finale)* · level **C1**
+120. Discutere e argomentare — structuring an argument: *da un lato… dall'altro, tuttavia, quindi, in fin dei conti, a mio avviso*
+121. Leggere l'italiano vero — a short authentic-style prose passage (with passato remoto to recognise), news/literary register comprehension
+122. Il congiuntivo senza rete — callback to day 74: now you *use* the whole system freely; *"quando sbagli non succede niente"* — grown up
+123. Parlare a lungo — sustaining a monologue: tell a full story with every tense; discourse management (*allora, dunque, insomma, comunque*)
+124. Modi di dire avanzati e cultura — advanced idioms, proverbs, cultural literacy read at C1 depth
+125. **Final immersion** — the reunion, ~18 months on: **Giulia, Marco, Sofia** (up from Milano) — every M18 move braided. (immersion anchor)
+126. **Final capstone — Il mio racconto, la versione C1** — the full 18-month arc, one tense-move per slot, a letter to the beginner you were on day 1, Italian farewells, honest **C1-gateway** framing, celebratory stats banner
+
+## 12. Season-2 story arc — exact day anchors (continuity enforced)
+
+- **Sofia** now lives in **Milano** from day 69 on — she never moves back. She appears from Milano
+  (day 97, and visiting Bologna for the finale day 125).
+- **Giulia** and **Marco** remain the steady **Bologna** thread. Neither moves.
+- **Elena** *(new, Season 2)* enters in **W15** as the learner's professional-world anchor: she runs a
+  small Bologna studio, interviews the learner (day 102), and **offers the job on day 111**.
+- **~day 111 (W16):** **THE season-2 life event** — the learner gets Elena's job offer and **decides to
+  make Italy home**. Delivered to Giulia & Marco in reported speech + layered tenses. This is the
+  season-2 pivot, mirroring Sofia's day-69 move — but the life that changes is the **learner's own**.
+- **day 125 (W18):** the reunion, ~18 months on, Sofia up from Milano.
+- **Continuity rule:** the learner is *job-hunting / undecided* before day 111; from day 111 on, the
+  learner has the offer and is *staying*. The finale (126) is told from "I stayed." Never pre-empt the
+  offer before W15's interview (day 102), and never let the learner be uncommitted after day 111.
+
+## 13. The growing self-intro — Season 2 rows
+
+Same signature thread as §10, extended. Each capstone appends exactly one cumulative layer.
+
+| Wk | Capstone day | New layer (cumulative) |
+|----|------|------|
+| 13 | 91  | + a **nuanced opinion with connectors** (*penso che… benché… tuttavia…*, congiuntivo controlled) |
+| 14 | 98  | + a **hypothetical & a regret** (periodo ipotetico II/III: *se avessi…, sarei…, avrei dovuto…*) |
+| 15 | 105 | + a **professional self-presentation**, formal register (*mi occupo di…, ho esperienza in…*, *Lei*) |
+| 16 | 112 | + a **layered-tense story with reported speech** (discorso indiretto, concordanza, a clitic) |
+| 17 | 119 | + **register & tone control**: the same story told with irony/casually vs formally |
+| 18 | 126 | **Il mio racconto, la versione C1** — the whole arc, every tense, a letter to your day-1 self, C1-gateway farewell |
 
 ---
 

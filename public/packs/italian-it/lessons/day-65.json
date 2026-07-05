@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-65",
+  "day": 65,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Pronomi indiretti, ci e ne",
+  "emoji": "🧩",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Indirect clitics gli/le, plus the two little words learners dodge forever: ci and ne",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "A chi? — il pronome indiretto",
+      "body": "When the verb points at a person with **a** (*parlo **a** Marco*, *scrivo **a** Giulia*), you replace *a + persona* with an **indirect pronoun**: **gli** (to him), **le** (to her), *mi/ti/ci/vi*, *gli* (to them). *Telefono a Pietro?* → *Gli telefono.* Two bits of good news: with indirect pronouns the participle **does not** agree (*Le ho parlato*, never *parlata*), and they sit **before the verb** like the direct ones.",
+      "callout": "Verbs that take *a* — *parlare, scrivere, telefonare, rispondere, dire* — go indirect."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta gli indiretti",
+      "items": [
+        { "nl": "Gli telefono più tardi.", "en": "I'll phone him later.", "speak": "Gli telefono più tardi." },
+        { "nl": "Le scrivo un messaggio.", "en": "I'll write her a message.", "speak": "Le scrivo un messaggio." },
+        { "nl": "Ti do una mano.", "en": "I'll give you a hand.", "speak": "Ti do una mano." },
+        { "nl": "Vi mando l'indirizzo.", "en": "I'll send you the address.", "speak": "Vi mando l'indirizzo." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Diretto o indiretto?",
+      "pairs": [
+        { "left": "*La vedo domani.* (direct: *vedere* qcn.)", "right": "*Le parlo domani.* (indirect: *parlare* a qcn.)", "note": "*Vedo lei* → la. *Parlo a lei* → le. The preposition *a* is the giveaway: with *a*, go indirect." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Ci e ne — le due paroline",
+      "body": "**ci** replaces *a / in / su + una cosa or a place*: *Pensi al trasloco?* → *Sì, **ci** penso.* *Vai a Milano?* → *Sì, **ci** vado.* **ne** replaces *di + qualcosa* or a **quantity**: *Quanti caffè bevi?* → ***Ne** bevo tre.* *Parli del lavoro?* → *Sì, **ne** parlo.* Skip them and you sound like a textbook; use them and you sound Italian.",
+      "table": {
+        "headers": ["Parola", "Sostituisce", "Esempio"],
+        "rows": [
+          ["ci", "a/in/su + cosa/luogo", "Ci penso; ci vado"],
+          ["ne", "di + cosa / quantità", "Ne parlo; ne ho due"]
+        ]
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Pensi spesso al trasloco di Sofia?* — Completa: *Sì, ___ penso.*",
+      "options": ["ne", "ci", "lo"],
+      "correct": 1,
+      "explain": "*pensare **a*** qualcosa → **ci**. *Ci penso.* (*Ne penso* would need *pensare di*, which isn't this.)"
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Quante scatole hai già preparato?* — Completa: *___ ho preparate cinque.*",
+      "options": ["Le", "Ne", "Ci"],
+      "correct": 1,
+      "explain": "A quantity of something → **ne**: *Ne ho preparate cinque.* (And note it still agrees: *preparat**e*** for the boxes.)"
+    },
+    {
+      "type": "typed",
+      "prompt": "*Hai scritto a Giulia?* Rispondi di sì con il pronome indiretto: 'Yes, I wrote to her.'",
+      "answers": ["sì, le ho scritto", "le ho scritto", "sì le ho scritto"],
+      "hint": "a Giulia = to her → le. No agreement with indirect pronouns.",
+      "explain": "*Le ho scritto.* Indirect *le* (to her), and the participle stays *scritto* — no agreement."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Gli ho telefonato ieri.",
+      "answers": ["gli ho telefonato ieri", "gli ho telefonato ieri."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Sofia è combattuta sul lavoro a Milano. Ne parla con te davanti a un caffè.",
+      "lines": [
+        { "speaker": "Sofia", "nl": "Ci penso giorno e notte, sai. Non riesco a decidermi.", "en": "I think about it day and night, you know. I can't make up my mind.", "spotlight": "*Ci penso* — *pensare a* + cosa diventa *ci*." },
+        { "speaker": "You", "nl": "Ne hai parlato con Giulia? Lei ti conosce bene.", "en": "Have you talked about it with Giulia? She knows you well." },
+        { "speaker": "Sofia", "nl": "Sì, le ho parlato ieri. Mi ha detto di pensarci con calma.", "en": "Yeah, I talked to her yesterday. She told me to think it over calmly." },
+        { "speaker": "You", "nl": "È un'occasione grande. Prenditi il tempo che ti serve.", "en": "It's a big opportunity. Take the time you need." },
+        { "speaker": "Sofia", "nl": "Lo so. Ma se dico di sì, cambia tutto.", "en": "I know. But if I say yes, everything changes." },
+        { "speaker": "You", "nl": "Qualsiasi cosa decidi, noi ci siamo. Non lo dimenticare.", "en": "Whatever you decide, we're here. Don't forget that." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai capito?",
+      "questions": [
+        { "q": "Sofia ha già deciso?", "options": ["Sì, parte subito", "No, ci pensa ancora", "No, rifiuta il lavoro"], "correct": 1 },
+        { "q": "Con chi ne ha già parlato?", "options": ["Con Marco", "Con Giulia", "Con Pietro"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "A cosa pensi spesso in questo periodo? Scrivi due o tre frasi usando *ci* e *ne* (per esempio: un progetto, una decisione, una cosa di cui parli sempre).",
+      "starters": ["Ci penso spesso…", "Ne parlo con…", "Ne ho…"],
+      "minSentences": 2
+    }
+  ]
+}

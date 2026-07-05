@@ -74,6 +74,43 @@ Per block type — **required fields and the traps:**
 - **A2 (W5–8):** glosses shorten; dialogues lengthen; introduce past tenses; some `explain`/`spotlight` text starts appearing in easy Dutch.
 - **B1 (W9–12):** dialogues run 6–10 lines; prompts increasingly in Dutch; comprehension questions in Dutch; journal prompts in Dutch. By W12 the learner is being asked to "blijf in het Nederlands."
 
+## 7b. Difficulty ramp — Weeks 13–18 (season 2: B2 depth → C1 gateway)
+
+Season 2 extends the ramp of §7. The learner is now a real B1: scaffolding thins,
+and Dutch becomes the working language of the lesson itself. See
+`docs/roadmap-dutch-nl.md` for the week outline.
+
+- **Language of instruction:**
+  - **B2 (W13–16):** prompts and explanations **mixed** — lead in Dutch, drop to a
+    short English clause only for the genuinely new rule. `spotlight` text mostly in
+    Dutch. Glosses still present but tighter.
+  - **C1 gateway (W17–18):** **Dutch-first.** Prompts, `explain`, `spotlight` and card
+    bodies in Dutch, with a brief **English safety net** only where a nuance would
+    otherwise be lost. The learner should feel the language close over their head — on
+    purpose, but never abandoned.
+- **Dialogues:** **8–12 lines** (up from 6–10). Honor the season-2 arc and continuity
+  rules in characters.md.
+- **`durationMin`: `[20, 35]`** for all season-2 lessons.
+- **Comprehension questions in Dutch** (both `q` and the `options`). **Journal prompts
+  in Dutch**, `minSentences` **3 or more** (capstones 4+, the finale higher).
+- **Register-switching drill (recurring pattern):** at least once a week, a block that
+  takes the **same message and renders it two ways** — informal (*je*, particles) vs
+  formal (*u*, nominalized, no contractions). Natural fits: a `contrast` block
+  (left = informeel, right = formeel), an `mcq` ("which is the formal version?"), or a
+  `builder` with a formal and an informal slot. This is the signature season-2 exercise.
+- **Grammar accuracy, season-2 hotspots (get these right or a B2 learner gets corrected):**
+  passive *worden* (action) vs *zijn* (state/result) + *door*-agent; pluperfect and the
+  irreële word order (*als ik het had geweten, zou ik … hebben gedaan* — participle +
+  *hebben/zijn* at the clause end); verb-final holding under **deep embedding**
+  (subclause inside subclause); relative *waar* + preposition (*waarover, waarmee*);
+  *er* stacking (*er zijn er twee die…*); reported-speech back-shift.
+- **Block-count targets UNCHANGED.** The validator still warns outside **lesson 8–12,
+  review 6–8, capstone 10–14** — stay inside. Depth comes from harder *content* per
+  block, not more blocks.
+- **New levels:** the `level` field takes **`B2`** (weeks 13–16) and **`C1`** (weeks
+  17–18). Everything else in §5 (required fields, block traps, table-width rule,
+  0-based `correct`, `speaker` in cast) is identical.
+
 ## 8. Output & handoff rules
 
 - One file per day: `public/packs/dutch-nl/lessons/day-NN.json`, zero-padded, **strict JSON** (no comments, no trailing commas).

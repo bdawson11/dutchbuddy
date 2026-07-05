@@ -64,3 +64,76 @@ Every capstone ends with the learner producing/extending a personal self-introdu
 | 12 | 84 | **Mijn verhaal, definitief** — the whole thing, one tense-move per slot, plus a letter to your past self and Dutch farewells |
 
 Capstones reference this table by using a `builder` or `journal` block titled around "mijn verhaal" that layers in that week's move.
+
+---
+
+## Season 2 (Weeks 13–18) — the second year
+
+*Season 1 closed on a borrel "one year on" (days 83–84). Season 2 picks up in the
+learner's second year: same friends, a little older, real life happening. It carries
+the pack from B1 into **B2 depth** (weeks 13–16) and the **C1 gateway** (weeks 17–18).
+See `docs/roadmap-dutch-nl.md` for the full week-by-week outline. The four continuity
+rules below are load-bearing; the arc anchors are exact.*
+
+### Where each character goes
+
+- **Emma** — season-2 narrator again, opens it on day 90. She's up for a step into a
+  lead / creative-director role and quietly weighing going freelance. Her thread
+  carries the **professional & written-register** material (sollicitatie, werkoverleg,
+  vergadering). Still warm, still ironic, a touch more tired. Present at the start
+  (day 90) and the very end (day 126).
+- **Daan** — his band lands a real support slot and he cannot stop overthinking it.
+  His thread carries **opinion, irony, hypotheticals and hedging** — he is the voice
+  of week 17 (irony & particles) and the hypothetical immersion on day 97
+  (*"als we ja zeggen…"*). Same dry, teasing Daan, now with a decision to dodge.
+- **Sanne** — **lives in Utrecht for the entire season (never moves back)**. Her life
+  is again the spine. **Season-2 pivot, day 111: she announces she's expecting a baby.**
+  Delivered and re-told through reported speech + hypotheticals + layered tenses — it
+  is the grammar showcase of week 16 as well as the emotional pivot. Her partner stays
+  offstage (referred to, never a dialogue speaker, so no extra cast entry needed).
+  Warmer and more settled than season 1.
+- **Bram** — the measured Rotterdam professional; the natural anchor for
+  **formal/workplace** register. Helps You draft a formal email on day 104, and is in
+  the week-18 werkoverleg (day 125). Still proud of Rotterdam, still no-nonsense.
+- **Youssef** *(new — season 2 only)* — Emma's new project manager / colleague in
+  Amsterdam. Late 30s, calm, professional, a clean **neutral-to-formal workplace voice**
+  and the interviewer/meeting figure for the professional-Dutch weeks. Added to the
+  manifest `cast` so he's a legal dialogue speaker; use him for werkoverleg /
+  sollicitatiegesprek scenes (day 125). Not chatty, not a gossip — the register foil.
+
+### Arc anchors (keep exact)
+
+- **Immersion / review days (season-2 story every time):** **90** (season-2 opener,
+  Emma), **97** (Daan's hypotheticals), **104** (Bram + a formal email), **111**
+  (**the pivot — Sanne's news**), **118** (Daan & Emma irony banter), **125**
+  (werkoverleg with Youssef, Emma & Bram).
+- **The season-2 life event: day 111** — mirrors Sanne's day-69 move. One major event,
+  landing on the week-16 review day, re-told through the week's grammar.
+- **Finale: day 126** — definitive C1-gateway self-intro capstone, mirroring day 84:
+  full recap, register-agile intro, a letter *forward* to the C1 learner, honest "this
+  is the leap, not the certificate" framing, Dutch farewells, stats banner.
+
+### Continuity rules (season 2)
+
+1. **Sanne lives in Utrecht throughout season 2.** She visits Amsterdam; she does not
+   move back. Never contradict this.
+2. **Sanne's pregnancy is not public before day 111.** Days 85–110 must not reference
+   it. From day 111 on it's known to the group.
+3. **Emma's career step is "in progress" across the season** and need not resolve;
+   treat it as ongoing context, not a fixed outcome, so any week can touch it.
+4. **Youssef only exists from week 15 on** (workplace context). Don't place him in
+   earlier scenes; he never appears in season 1.
+
+## The growing self-intro — "mijn verhaal", season 2 (weeks 13–18)
+
+Same rule as season 1: each capstone appends **exactly one** new cumulative layer
+(all earlier layers still expected). Season-2 layers:
+
+| Wk | Capstone day | New "mijn verhaal" layer (cumulative) |
+|----|------|------|
+| 13 | 91  | + a **nuanced opinion with connectors** — your view *with reservations* (*hoewel…, enerzijds…anderzijds, daarentegen, bovendien*) |
+| 14 | 98  | + a **hypothetical / regret** about your Dutch journey (*als ik dit eerder had geweten, zou ik…*; *ik had beter … kunnen doen*) |
+| 15 | 105 | + a **professional self-presentation** in formal register (nominalized: *"met ervaring in…", "verantwoordelijk voor…", "ik ben van mening dat…"*) |
+| 16 | 112 | + **layered-tense storytelling** — one anecdote that moves across tenses and includes a reported line (Sanne's news as the model) |
+| 17 | 119 | + **irony & register-switching** — the same point said formally vs playfully, with layered particles |
+| 18 | 126 | **Mijn verhaal, C1-gateway** — the whole thing, register-agile, opinionated, idiomatic; a letter *forward* to the C1 you; honest "the leap, not the certificate" framing |

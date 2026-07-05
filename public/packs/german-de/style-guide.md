@@ -79,6 +79,26 @@ Per block type — **required fields and the traps:**
 - **A2 (W5–8):** glosses shorten; dialogues lengthen; introduce Perfekt then Präteritum; dative arrives; some `explain`/`spotlight` text starts appearing in easy German.
 - **B1 (W9–12):** dialogues run 6–10 lines; prompts increasingly in German; comprehension questions in German; journal prompts in German; adjective endings and Konjunktiv II land. By W12 the learner is expected to hold a conversation and to keep their cases together in real time (day 74).
 
+## 9. Difficulty ramp across the season-2 days (Weeks 13–18)
+
+Season 2 raises the register with the learner. The engine is unchanged; only the density and the language of instruction climb. **Block-count targets are UNCHANGED** — stay inside `lesson` 8–12 / `review` 6–8 / `capstone` 10–14, and keep ≥3 graded blocks per lesson and ≥1 chips/shadow audio touch. All season-2 lessons use `level` `"B2"` (W13–16) or `"C1"` (W17–18); the validator does not restrict the value, but keep it accurate to the manifest.
+
+- **The German-first ramp:**
+  - **B2 (W13–16) — mixed:** card `body` stays bilingual (German examples, English for the *one hard rule*), but `prompt`, `explain`, `spotlight`, comprehension `q`, and `journal.prompt` are **increasingly German**, with a short English safety net only where a concept genuinely needs it (e.g. the first framing of Konjunktiv I, the *von/durch* split). Glosses stay tight.
+  - **C1 gateway (W17–18) — German-first:** prompts, explains, comprehension, and journals run **in German by default**, English kept as a *safety net* — a bracketed gloss on a genuinely new term (a legal/Amt word, an idiom), not a full translation. The learner is being weaned; do not baby them, but never strand them.
+  - `chips`/`dialogue`/`shadow` still always carry an English `en` gloss (engine convention) — that stays. "German-first" refers to instructional prose, not the gloss field.
+- **durationMin:** `[20, 35]` for season-2 lessons (heavier reading, longer dialogues, denser drills). Capstones may sit at the top of that range.
+- **Dialogues:** **8–12 lines** (up from 6–10). Reported-speech, interview, and negotiation scenes run long; keep them inside 12. Honor the season-2 arc timeline and Sie/du register per character (Mareike = Sie until she offers the Du; the cast = du).
+- **Comprehension & journal prompts in German.** Comprehension `q` and options in German (a bracketed English gloss allowed on one hard term). `journal.prompt` in German with German `starters[]`; keep `minSentences` honest to a B2/C1 task (4–6).
+- **Register-switching as a recurring pattern.** Make **du-Mail vs Sie-Mail** (and du-intro vs Sie-intro) a repeated drill shape across W13–18, not a one-off: use `contrast` pairs (left = du/casual, right = Sie/formal) and `builder` slots that produce the *same* content in both registers. The W17 capstone (day 119) and the day-118 immersion make this explicit; seed it earlier (polite hedging in W13, formal E-Mail in W17). Keep verb forms and possessives internally consistent within each register (*du hast / dein* vs *Sie haben / Ihr*).
+- **Grammar accuracy at depth (non-negotiable, extends §6):**
+  - **Konjunktiv II:** short forms *wäre/hätte/könnte/müsste/wüsste/käme/ginge/bräuchte* vs the *würde*-periphrasis; past = *hätte/wäre* + Partizip II (*hätte gemacht, wäre gegangen*). Don't invent short forms for verbs that idiomatically take *würde*.
+  - **Konjunktiv I:** *er habe/sei/komme/werde/könne*; when Konjunktiv I is identical to the indicative, it **escapes to Konjunktiv II** (*sie sagten, sie hätten*, not *~~sie haben~~*). Model the escape correctly; teach K I for recognition first.
+  - **Passiv:** Vorgangspassiv *werden* + Partizip II (perfect = *ist… worden*, with bare *worden*, never *~~geworden~~*); Zustandspassiv *sein* + Partizip II. Agent *von* (doer) vs *durch* (means). *sein + zu* + Infinitiv = passive necessity/possibility.
+  - **Participial attributes:** the participle takes the **normal adjective ending** for its gender/case/article-type (*die genannten Zahlen*, *ein zu lösendes Problem*); *zu* + Partizip I carries passive-necessity meaning. Always be able to unpack the attribute to a relative clause.
+  - **Word formation:** keep prefix meanings honest (*ver-* often "away/wrong/completion", *zer-* "to pieces", *ent-* "removal/reversal"); nominal compounds take the gender of the **last** element (*die Arbeitszeit* ← *die Zeit*).
+  - **Regional cameo:** any Austrian/Bavarian form (Vroni's *Jänner/Sackerl/Servus*) is **flagged as regional every time** and glossed against the Hochdeutsch norm; never the answer key.
+
 ## 8. Output & handoff rules
 
 - One file per day: `public/packs/german-de/lessons/day-NN.json`, zero-padded, **strict JSON** (no comments, no trailing commas).

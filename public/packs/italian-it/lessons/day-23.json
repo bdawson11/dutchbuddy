@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "day-23",
+  "day": 23,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Al bar e in trattoria",
+  "emoji": "☕",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Ordering politely at a bar or trattoria: vorrei, per me, mi porta…, and asking for the bill.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ordinare con garbo",
+      "body": "Four phrases get you through almost any bar or trattoria order: **vorrei** (I would like — softer than *voglio*, 'I want'), **per me** (for me — used when the table orders one by one: *'Per me, un caffè'*), **mi porta…?** (could you bring me…? — asking the waiter for something), and **il conto, per favore** (the bill, please, to close things out).",
+      "callout": "*Voglio un caffè* isn't rude, exactly — but *vorrei* sounds like someone who's ordered coffee before."
+    },
+    {
+      "type": "chips",
+      "title": "Le frasi del bar — ascolta",
+      "items": [
+        { "nl": "Vorrei un caffè.", "en": "I'd like a coffee.", "speak": "Vorrei un caffè." },
+        { "nl": "Per me, una pasta.", "en": "For me, a pastry.", "speak": "Per me, una pasta." },
+        { "nl": "Mi porta il menù?", "en": "Could you bring me the menu?", "speak": "Mi porta il menù?" },
+        { "nl": "Il conto, per favore.", "en": "The bill, please.", "speak": "Il conto, per favore." },
+        { "nl": "Basta così, grazie.", "en": "That's all, thanks.", "speak": "Basta così, grazie." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Le quattro frasi",
+      "body": "Keep these in your pocket — they cover ordering, requesting, and paying.",
+      "table": {
+        "headers": ["Frase", "Quando"],
+        "rows": [
+          ["Vorrei…", "to order politely"],
+          ["Per me…", "when the table orders one by one"],
+          ["Mi porta…?", "to ask the waiter for something"],
+          ["Il conto, per favore.", "to close the bill"]
+        ]
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "You're at the table with friends and it's your turn to order. What do you say?",
+      "options": ["Vorrei un caffè.", "Per me, un caffè.", "Mi porta un caffè?"],
+      "correct": 1,
+      "explain": "*Per me…* is the classic one-by-one round order — 'for me, a coffee.' All three work, but this is the table-order convention."
+    },
+    {
+      "type": "contrast",
+      "title": "Vorrei vs voglio",
+      "pairs": [
+        { "left": "*vorrei* — polite, softened (conditional of *volere*)", "right": "*voglio* — direct, plain 'I want'", "note": "Use *vorrei* with waiters, strangers, shopkeepers. Save *voglio* for close friends or urgency." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'I would like a coffee, please.'",
+      "answers": ["vorrei un caffè, per favore", "vorrei un caffè per favore"],
+      "hint": "vorrei + un caffè + per favore",
+      "explain": "*Vorrei un caffè, per favore.* — the safest, most universal order in Italy."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole line.",
+      "speak": "Il conto, per favore.",
+      "answers": ["il conto, per favore", "il conto per favore"]
+    },
+    {
+      "type": "shadow",
+      "title": "Un pranzo al bar",
+      "lines": [
+        { "nl": "Buongiorno, vorrei un panino.", "en": "Good morning, I'd like a sandwich." },
+        { "nl": "Mi porta anche dell'acqua?", "en": "Could you also bring me some water?" },
+        { "nl": "Il conto, quando può.", "en": "The bill, whenever you can." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "You and Marco grab lunch at a trattoria near his bookshop",
+      "lines": [
+        { "speaker": "Marco", "nl": "Allora, cosa prendi?", "en": "So, what are you having?" },
+        { "speaker": "You", "nl": "Vorrei il primo — la pasta al pomodoro.", "en": "I'd like the first course — pasta with tomato sauce." },
+        { "speaker": "Marco", "nl": "Buona scelta. Per me un panino, e un'acqua frizzante.", "en": "Good choice. For me a sandwich, and a sparkling water." },
+        { "speaker": "You", "nl": "Mi porta anche due caffè, alla fine?", "en": "Could you also bring us two coffees, at the end?" },
+        { "speaker": "Marco", "nl": "Bravo, cominci a ordinare come un vero italiano.", "en": "Nice, you're starting to order like a real Italian.", "spotlight": "Notice 'mi porta' — a polite request aimed at the waiter, not at Marco." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write your own order at a trattoria: what would you say to order a starter, ask for something extra, and ask for the bill?",
+      "starters": ["Vorrei…", "Mi porta…?", "Il conto…"],
+      "minSentences": 3
+    }
+  ]
+}

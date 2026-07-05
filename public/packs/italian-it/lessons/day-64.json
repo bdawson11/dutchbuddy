@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "day-64",
+  "day": 64,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "I pronomi diretti: lo, la, li, le",
+  "emoji": "🎯",
+  "level": "B1",
+  "durationMin": [20, 25],
+  "summary": "Direct-object clitics lo/la/li/le, and the past-participle agreement they trigger (l'ho vista)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Non ripetere il nome — usa un pronome",
+      "body": "When something is the **direct object** (the thing you see, buy, eat — no preposition), you replace it with a **direct pronoun** so you don't repeat the noun. *Vedi Marco?* → *Sì, **lo** vedo.* The pronoun goes **before the verb**: **lo** (him/it m.), **la** (her/it f.), **li** (them m.), **le** (them f.).",
+      "callout": "Direct object = answers *chi?* / *che cosa?* with no *a* in front."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta — il pronome prima del verbo",
+      "items": [
+        { "nl": "Il caffè? Lo prendo io.", "en": "The coffee? I'll get it.", "speak": "Il caffè? Lo prendo io." },
+        { "nl": "La chiave? La cerco.", "en": "The key? I'm looking for it.", "speak": "La chiave? La cerco." },
+        { "nl": "I biglietti? Li ho qui.", "en": "The tickets? I've got them here.", "speak": "I biglietti? Li ho qui." },
+        { "nl": "Le scatole? Le porto io.", "en": "The boxes? I'll carry them.", "speak": "Le scatole? Le porto io." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "L'accordo del participio (la novità di oggi)",
+      "body": "Here's the trap. In the **passato prossimo** with *avere*, the participle normally doesn't change — **but with lo/la/li/le it must agree** with the pronoun. *Ho visto Giulia* → *L'ho vist**a***. *Ho comprato le mele* → *Le ho comprat**e***. Note: **lo/la elide to l'** before *ho/hai/ha…* (*l'ho visto/a*), but **li/le never elide** (*li ho visti*, *le ho viste*).",
+      "table": {
+        "headers": ["Pronome", "Esempio", "Gloss"],
+        "rows": [
+          ["lo → l'", "L'ho visto", "I saw him/it (m.)"],
+          ["la → l'", "L'ho vista", "I saw her/it (f.)"],
+          ["li", "Li ho visti", "I saw them (m.)"],
+          ["le", "Le ho viste", "I saw them (f.)"]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "Stessa frase, accordo diverso",
+      "pairs": [
+        { "left": "*Hai visto Marco?* — *Sì, l'ho visto.*", "right": "*Hai visto Sofia?* — *Sì, l'ho vista.*", "note": "The participle takes -o for a man, -a for a woman. The pronoun decides it, not the verb." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Hai già visto Sofia oggi?* — Completa: *Sì, ___.*",
+      "options": ["l'ho visto", "l'ho vista", "le ho vista"],
+      "correct": 1,
+      "explain": "Sofia is feminine singular, so *la* → *l'* and the participle agrees: *l'ho vist**a***."
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Hai comprato i biglietti del treno?* — Completa: *Sì, ___.*",
+      "options": ["li ho comprati", "l'ho comprati", "li ho comprate"],
+      "correct": 0,
+      "explain": "*i biglietti* is masculine plural → *li*, no elision, and the participle ends in -i: *li ho comprat**i***."
+    },
+    {
+      "type": "typed",
+      "prompt": "*Le mele? Le hai comprate?* Rispondi di sì, usando il pronome: 'Yes, I bought them.'",
+      "answers": ["sì, le ho comprate", "le ho comprate", "sì le ho comprate"],
+      "hint": "le mele = feminine plural → le … -e.",
+      "explain": "*Le ho comprate.* Feminine plural pronoun *le*, so the participle is *comprat**e***."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Le ho viste ieri sera.",
+      "answers": ["le ho viste ieri sera", "le ho viste ieri sera."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Al bar. Marco non vede Sofia da giorni e chiede sue notizie (la decisione su Milano è ancora in ballo).",
+      "lines": [
+        { "speaker": "Marco", "nl": "Senti, hai notizie di Sofia? Non la vedo da una settimana.", "en": "Hey, any news from Sofia? I haven't seen her in a week." },
+        { "speaker": "You", "nl": "L'ho vista ieri, sì. Sta ancora pensando a quel lavoro a Milano.", "en": "I saw her yesterday, yeah. She's still thinking about that job in Milan.", "spotlight": "*L'ho vista* — la → l', participle in -a for Sofia." },
+        { "speaker": "Marco", "nl": "Ma dai! E i suoi genitori? Li ha già avvisati?", "en": "No way! And her parents? Has she told them yet?" },
+        { "speaker": "You", "nl": "Boh, non lo so. È una decisione bella grande.", "en": "Dunno, no idea. It's a pretty big decision." },
+        { "speaker": "Marco", "nl": "Eh, lo è. Milano mica è dietro l'angolo.", "en": "Yeah, it is. Milan isn't exactly around the corner." },
+        { "speaker": "You", "nl": "La chiamo stasera, così ne parliamo con calma.", "en": "I'll call her tonight, so we can talk it over properly." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi tre cose che hai fatto oggi usando un pronome diretto e l'accordo (*l'ho…, li ho…, le ho…*). Per esempio: la spesa, i piatti, una telefonata.",
+      "starters": ["L'ho…", "Li ho…", "Le ho…"],
+      "minSentences": 3
+    }
+  ]
+}

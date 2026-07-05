@@ -12,24 +12,28 @@
   },
   "hero": {
     "title": "Deutsch, aber echt.",
-    "blurb": "Twelve weeks. Short daily lessons. A buddy who walks you from total beginner to confident conversation, in real everyday German — cases and all.",
+    "blurb": "Eighteen weeks. Short daily lessons. A buddy who walks you from total beginner all the way to the C1 gateway, in real German — from your first Brötchen order to a job interview you can actually survive.",
     "bullets": [
       { "emoji": "🇩🇪", "strong": "Hochdeutsch, northern-neutral", "text": "doch, mal, halt, Feierabend. Not textbook German, not Bavarian." },
-      { "emoji": "📅", "strong": "A1 → B1 in 12 weeks", "text": "sequenced around the case system, so it actually clicks." },
-      { "emoji": "⏱", "strong": "Short daily sessions", "text": "15 to 30 minutes, sized to fit your day." },
+      { "emoji": "📅", "strong": "A1 → C1 gateway in 18 weeks", "text": "sequenced around the case system, then the moods, passive, and professional register." },
+      { "emoji": "⏱", "strong": "Short daily sessions", "text": "15 to 35 minutes, sized to fit your day." },
       { "emoji": "❤️", "strong": "Free, no signup", "text": "your progress saves to this device." }
     ]
   },
   "levels": [
     { "code": "A1", "title": "A1 Foundations", "weeks": [1, 4], "blurb": "Greet, introduce yourself, order at the Bäckerei, describe your day." },
     { "code": "A2", "title": "A2 Building", "weeks": [5, 8], "blurb": "Tell stories in the past. Travel, health, everyday life." },
-    { "code": "B1", "title": "B1 Threshold", "weeks": [9, 12], "blurb": "Opinions, hypotheticals, real conversations — and holding your ground in German." }
+    { "code": "B1", "title": "B1 Threshold", "weeks": [9, 12], "blurb": "Opinions, hypotheticals, real conversations — and holding your ground in German." },
+    { "code": "B2", "title": "B2 Depth", "weeks": [13, 16], "blurb": "The moods, the full passive, and the attributive precision of written German — from what-if to officialese." },
+    { "code": "C1", "title": "C1 Gateway", "weeks": [17, 18], "blurb": "Professional German and fast real speech. Not a C1 certificate — the reflexes to start training toward one." }
   ],
   "cast": [
     { "name": "Lena", "role": "Berlin designer, main narrator" },
-    { "name": "Jonas", "role": "Kneipe friend, the learner's gossip and debate partner" },
-    { "name": "Aylin", "role": "moves Berlin → Munich mid-arc" },
-    { "name": "Klaus", "role": "Cologne architect, routine and immersion voice" }
+    { "name": "Jonas", "role": "Kneipe friend, gossip and debate partner; takes the season-2 leap into music" },
+    { "name": "Aylin", "role": "moved Berlin → Munich mid-arc; now settled and thriving" },
+    { "name": "Klaus", "role": "Cologne architect, routine and immersion voice" },
+    { "name": "Mareike", "role": "Berlin agency lead; the learner's professional Sie-register anchor (season 2)" },
+    { "name": "Vroni", "role": "Aylin's Austrian friend in Munich; the exposure-only regional cameo (season 2)" }
   ],
   "weeks": [
     { "week": 1, "module": "M01", "title": "German sounds & first words", "days": ["day-01", "day-02", "day-03", "day-04", "day-05", "day-06", "day-07"] },
@@ -43,7 +47,13 @@
     { "week": 9, "module": "M09", "title": "Complex sentences", "days": ["day-57", "day-58", "day-59", "day-60", "day-61", "day-62", "day-63"] },
     { "week": 10, "module": "M10", "title": "Dative, two-way prepositions & verb clusters", "days": ["day-64", "day-65", "day-66", "day-67", "day-68", "day-69", "day-70"] },
     { "week": 11, "module": "M11", "title": "Sounding German", "days": ["day-71", "day-72", "day-73", "day-74", "day-75", "day-76", "day-77"] },
-    { "week": 12, "module": "M12", "title": "Street German & the finale", "days": ["day-78", "day-79", "day-80", "day-81", "day-82", "day-83", "day-84"] }
+    { "week": 12, "module": "M12", "title": "Street German & the finale", "days": ["day-78", "day-79", "day-80", "day-81", "day-82", "day-83", "day-84"] },
+    { "week": 13, "module": "M13", "title": "Konjunktiv II: das Hypothetische", "days": ["day-85", "day-86", "day-87", "day-88", "day-89", "day-90", "day-91"] },
+    { "week": 14, "module": "M14", "title": "Konjunktiv I & indirekte Rede: Nachrichtendeutsch", "days": ["day-92", "day-93", "day-94", "day-95", "day-96", "day-97", "day-98"] },
+    { "week": 15, "module": "M15", "title": "Das Passiv & der Nominalstil: Amtsdeutsch überleben", "days": ["day-99", "day-100", "day-101", "day-102", "day-103", "day-104", "day-105"] },
+    { "week": 16, "module": "M16", "title": "Präzision: Attribute, Relativsätze & Wortbildung", "days": ["day-106", "day-107", "day-108", "day-109", "day-110", "day-111", "day-112"] },
+    { "week": 17, "module": "M17", "title": "Deutsch im Berufsleben", "days": ["day-113", "day-114", "day-115", "day-116", "day-117", "day-118", "day-119"] },
+    { "week": 18, "module": "M18", "title": "Schnelles Deutsch, Farbe & das Finale", "days": ["day-120", "day-121", "day-122", "day-123", "day-124", "day-125", "day-126"] }
   ],
   "footer": {
     "donation": true,

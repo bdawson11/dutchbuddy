@@ -239,3 +239,99 @@ Every capstone closes with the learner producing/extending a personal self-intro
 | 10 | 70 | + a big decision, with a subclause and the dative (Aylin's move as the model) |
 | 11 | 77 | + register control: the same intro said politely (*Sie*) vs casually (*du*), now with adjective endings |
 | 12 | 84 | **Meine Geschichte, endgültig** — the whole thing, one tense-move per slot, a letter to your past self, and German farewells |
+
+---
+
+## 11. Season 2 — Weeks 13–18: B2 Depth → C1 Gateway
+
+*Season 1 got the learner **talking** — cases held together, a real conversation survived, a B1 self-intro delivered. Season 2 is the leap from "can hold their ground" to "sounds educated": the moods (Konjunktiv II and I), the full passive, the attributive precision of written German, and the register agility a professional life in Germany demands. Same unchanged engine, same weekly rhythm (5 teaching + 1 review/immersion + 1 capstone), same growing self-intro. Designed from German's **upper-level** pain points, not translated from any other pack.*
+
+**Honest framing (non-negotiable):** W13–16 are **B2** ("B2 Depth"). W17–18 are the **C1 Gateway** — they *prepare the leap* to C1; they do **not** certify C1. We say so plainly to the learner. No one finishes day 126 a C1 speaker; they finish it ready to train toward one, with the right reflexes started.
+
+### German's upper-level pain points (the design inputs)
+
+- **Konjunktiv II mastery** — *würde/hätte/wäre*, present *and* past hypotheticals (*wenn ich Zeit hätte… / wenn ich das gewusst hätte…*), and polite hedging (*ich hätte da eine Frage; könnten Sie…; ich würde sagen…*). B1 only previewed *würde*; B2 makes it reflex, including the past (*hätte gemacht, wäre gegangen*) and the strong one-word forms (*käme, ginge, wüsste, bräuchte*).
+- **Konjunktiv I + reported speech (news German)** — *er sagte, er habe/sei/komme*; *die Sprecherin erklärte, man werde prüfen…*. A genuine C1 recognition marker: the mood of TV news, press, and formal reporting. Taught for **recognition first**, controlled production second.
+- **The full passive system + Nominalstil** — Vorgangspassiv (*es wird gebaut*) vs Zustandspassiv (*es ist gebaut*), the agent split *von* (doer) vs *durch* (means), *werden*-passive across tenses, *sein + zu* + Infinitiv (*das ist noch zu klären*), and the **Nominalstil** of bureaucratic/professional German (*die Bearbeitung Ihres Antrags* rather than *wir bearbeiten…*). Amtsdeutsch survival: decode it, don't drown in it.
+- **Participial attributes** — the compression that defines written German: *die im Bericht genannten Zahlen*, *ein gerade erst eröffnetes Café*, *das zu lösende Problem*. Partizip I/II (and *zu* + Partizip I) squeezed in front of the noun where English needs a relative clause.
+- **Adjective-ending automaticity** — W11 introduced the attributive system; W16 **drills it to reflex** under time pressure, so the ending arrives without a table lookup. The B2 move: stop *computing* endings and start *producing* them.
+- **Relative-clause depth + wo-/da- compounds** — relatives with prepositions and genitive (*dessen/deren*), *was/wo(-)* relatives (*das, was… / die Stadt, wo…*), and the *da-/wo-*compounds (*dafür, darüber, worauf, womit*) that replace prepositional pronouns for things.
+- **Word formation** — the generative engine of German vocabulary: separable/inseparable prefixes for meaning (*ver-, zer-, ent-, be-, er-*), nominalizing suffixes (*-ung, -keit, -heit, -schaft, -nis*), *un-* negation, and reading/coining nominal compounds (*die Mitarbeiterzufriedenheitsbefragung*). Guess and build words instead of memorizing them.
+- **Professional German** — the Bewerbung (Anschreiben + Lebenslauf conventions), the Vorstellungsgespräch, formal E-Mail etiquette (*Sehr geehrte… / Mit freundlichen Grüßen*, the du-Mail vs Sie-Mail divide), and Amtsdeutsch survival. The C1-gateway payoff: presenting yourself as a professional adult in German.
+- **Fast colloquial speech + Modalpartikel mastery** — decoding real spoken tempo (*haste, kannste, gibt's, ne?, wa?*), reductions and swallowed syllables, and stacking Modalpartikeln (*das ist halt eben doch nicht so einfach*) the way natives actually do. Comprehension of speed, not just clarity.
+- **Regional cameo (exposure only)** — a Bavarian/Austrian contrast (Aylin's Munich, Vroni's Vienna: *Servus, Grüß Gott, Jänner, Sackerl, heuer, Erdapfel*) enjoyed as **color**, sharpening the learner's ownership of Hochdeutsch as their norm. Never taught as target.
+
+### The 42 days (85–126)
+
+#### B2 Depth — Weeks 13–16
+
+**Week 13 — Konjunktiv II: das Hypothetische · M13** *(level B2)*
+85. *würde* + Infinitiv as the workhorse (*ich würde sagen…, an deiner Stelle würde ich…*) — recap and extend from B1
+86. The strong one-word Konjunktiv II — *wäre, hätte, könnte, müsste, würde*, plus *käme, ginge, wüsste, bräuchte*; when the short form beats *würde*
+87. Past hypotheticals — *hätte gemacht / wäre gegangen*; *Wenn ich das gewusst hätte, wäre ich nicht gekommen* (regret & the counterfactual)
+88. Polite hedging in the wild — *ich hätte da eine Frage; könnten Sie mir…; es wäre schön, wenn…; ich würde ungern…* (softening as a social skill)
+89. *als ob / als wenn* + Konjunktiv II — *er tut so, als ob er alles wüsste*; wishes (*wenn ich nur…!*), and *beinahe/fast* + past subjunctive
+90. **Review + immersion** — Lena & Jonas play "*Was würdest du tun, wenn…*"; Jonas half-jokes about quitting the bookshop for music (the seed). Konjunktiv II in the wild.
+91. **Capstone** — "*Wenn ich könnte…*" — hypothetical + regret self-intro layer
+
+**Week 14 — Konjunktiv I & indirekte Rede: Nachrichtendeutsch · M14** *(level B2)*
+92. Konjunktiv I forms — *er habe, sei, komme, werde, könne*; the *sei*/plural *seien* backbone
+93. Indirekte Rede — turning direct speech into reported (*"Ich komme" → er sagte, er komme*); tense backshift logic
+94. When Konjunktiv I collapses into II — *sie sagten, sie hätten* (identical-to-present forms escape to Konjunktiv II); the native repair
+95. News German — *die Sprecherin erklärte, man werde prüfen…*; reading a short Tagesschau-style report for the mood, not the vocab
+96. Argumentation connectors — *einerseits… andererseits, zwar… aber, dennoch, trotzdem, folglich, hingegen*; a nuanced opinion, not a flat one
+97. **Review + immersion** — the group relays news: Aylin calls from Munich; Jonas reports what a promoter told him (*"Er meinte, er könne uns einen Slot geben"*). Reported speech immersion.
+98. **Capstone** — "*Man sagt, dass…*" — nuanced-opinion-with-connectors + reporting self-intro layer
+
+**Week 15 — Das Passiv & der Nominalstil: Amtsdeutsch überleben · M15** *(level B2)*
+99. Vorgangspassiv — *werden* + Partizip II across tenses (*wird/wurde/ist… worden*); the process-passive of signs and news
+100. Zustandspassiv vs Vorgangspassiv — *die Tür ist geschlossen* (state) vs *wird geschlossen* (event); the *sein*/*werden* split
+101. The agent — *von* (the doer) vs *durch* (the means/cause); when to name an agent at all, and *man* as the active escape hatch
+102. *sein + zu* + Infinitiv & alternatives — *das ist noch zu klären*; *lässt sich… machen*; passive-avoidance strategies
+103. Nominalstil — turning verbs into nouns (*bearbeiten → die Bearbeitung*); decoding a Behörden-Brief; when to *un-nominalize* to sound human
+104. **Review + immersion** — You + Lena decode an Amt letter and a Nominalstil job posting together (officialese survival). Bureaucratic immersion.
+105. **Capstone** — "*Mein Werdegang*" — formal/written self-description (passive + nominal touch) self-intro layer
+
+**Week 16 — Präzision: Attribute, Relativsätze & Wortbildung · M16** *(level B2)*
+106. Adjective-ending automaticity — the W11 system drilled to **reflex** (mixed article-types, all cases, back-to-back), no table lookup
+107. Participial attributes I — Partizip II as attribute (*die genannten Zahlen, ein renoviertes Café*); unpacking to a relative clause and back
+108. Participial attributes II — Partizip I (*das lachende Kind*) and *zu* + Partizip I (*das zu lösende Problem, die einzuhaltenden Regeln*)
+109. Relative-clause depth — prepositional relatives, genitive *dessen/deren*, and *was/wo* relatives (*das, was ich meine; die Stadt, wo…*)
+110. *da-/wo-*compounds & word formation — *dafür/darüber/worauf/womit*; prefixes (*ver-/zer-/ent-/be-/er-*) and suffixes (*-ung/-keit/-heit*); reading nominal compounds
+111. **Review + immersion — THE season-2 life event.** Jonas takes the leap: the band lands a real support-tour offer and he quits the bookshop. The group weighs in (hypotheticals, reported speech, encouragement). Mirrors day 69. *(precision grammar braided through a high-emotion scene)*
+112. **Capstone** — "*Die Geschichte hinter der Geschichte*" — layered-tense, attributively rich storytelling self-intro layer
+
+#### C1 Gateway — Weeks 17–18
+
+**Week 17 — Deutsch im Berufsleben · M17** *(level C1 — gateway, not certification)*
+113. Formal E-Mail — *Sehr geehrte Frau…, Mit freundlichen Grüßen*; the du-Mail vs Sie-Mail divide, hedged requests, the "German directness" calibration
+114. Die Bewerbung — the Anschreiben (motivation, fit) and Lebenslauf conventions; how German CVs differ (tabellarisch, no cover-letter clichés)
+115. Das Vorstellungsgespräch I — *Erzählen Sie etwas über sich*; strengths/weaknesses without US-style overclaiming; salary-talk norms
+116. Das Vorstellungsgespräch II — asking *your* questions, *das Du anbieten* at the right moment, follow-up etiquette
+117. Amtsdeutsch & Verträge — decoding a work contract / official form (Kündigungsfrist, Probezeit, brutto/netto); survival, not mastery
+118. **Review + immersion** — You have a Vorstellungsgespräch with **Mareike** (full Sie), then debrief with Lena (du). Register-switching immersion.
+119. **Capstone** — "*Darf ich mich vorstellen?*" — professional self-presentation, said Sie *and* du (register control) self-intro layer
+
+**Week 18 — Schnelles Deutsch, Farbe & das Finale · M18** *(level C1 — gateway)*
+120. Fast colloquial speech — reductions and reductions in the wild (*haste, kannste, gibt's, is'/isn't, 'ne, 'nen*); swallowed syllables; catching speed
+121. Modalpartikel mastery — stacking them the native way (*das ist halt eben doch nicht so einfach, ne?*); the fine-grained mood each one adds
+122. Irony, understatement & humor — *na super* (= not super), *ja, klar* (= sure), dry German wit; hearing the tilt
+123. Regional cameo (exposure only) — Bavarian/Austrian color with **Vroni** (*Servus, Grüß Gott, Jänner, Sackerl, heuer, Erdapfel*); enjoyed, contrasted, never adopted — Hochdeutsch stays the norm
+124. Redewendungen für Fortgeschrittene — higher-register idioms & Sprichwörter (*jemandem auf den Keks gehen; das ist nicht mein Bier; da liegt der Hund begraben; jetzt geht's um die Wurst*)
+125. **Final immersion** — the whole cast reunites (Berlin + Munich): Lena steady, Aylin thriving, Jonas on tour, Vroni's Austrian cameo. Fast speech + particles + color braided.
+126. **Final capstone — *Meine Geschichte, Staffel 2*** — the definitive, register-controlled, ironically self-aware self-intro; a letter to your season-1 self; C1-gateway send-off and stats banner
+
+### Season-2 arc summary (2 lines)
+
+Season 1 got you *talking*; season 2 makes you *sound educated* — the moods, the passive, attributive precision, and professional register, so a job interview in German stops being terrifying. The emotional spine is **Jonas's leap** (~day 111): the friend who mocked "grown-up jobs" quits the bookshop to chase music, while **You** build the professional German to land your own next thing — everyone one year and a half on, changed but still the group.
+
+### The growing self-intro — *Meine Geschichte*, rows 13–18 (cumulative)
+
+| Wk | Capstone day | New *Meine Geschichte* layer (cumulative — earlier layers still expected) |
+|----|------|------|
+| 13 | 91  | + a hypothetical & a hedged wish about your own path (Konjunktiv II: *Wenn ich früher angefangen hätte…; ich würde gern…*) |
+| 14 | 98  | + a nuanced opinion with connectors, and what someone said about your progress (indirekte Rede: *einerseits… andererseits…; sie meinte, ich sei…*) |
+| 15 | 105 | + a formal, "written-German" version of your background (passive + light Nominalstil: *Ich wurde in… geboren; nach dem Studium wurde mir klar, dass…*) |
+| 16 | 112 | + one chapter of your story told with attributive precision and layered tenses (participial attributes, relatives, *da-/wo-*compounds) |
+| 17 | 119 | + your professional self-presentation, delivered in Sie *and* du (register-switching; the elevator pitch and the interview intro) |
+| 18 | 126 | **Meine Geschichte, Staffel 2 — endgültig** — the whole thing, register-controlled and a little self-ironic; a letter to your season-1 self and a C1-gateway farewell |

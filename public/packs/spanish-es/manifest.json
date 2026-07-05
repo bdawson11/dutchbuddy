@@ -12,24 +12,28 @@
   },
   "hero": {
     "title": "Spanish of Spain, de verdad.",
-    "blurb": "Twelve weeks. Short daily lessons. A buddy who walks you from total beginner to confident conversation, in real Castilian Spanish — the Spanish you'll actually hear in Madrid.",
+    "blurb": "Eighteen weeks. Short daily lessons. A buddy who walks you from total beginner to the doorstep of C1, in real Castilian Spanish — the Spanish you'll actually hear in Madrid, opinions, irony, paperwork and all.",
     "bullets": [
-      { "emoji": "🇪🇸", "strong": "Real Spain Spanish", "text": "vosotros, vale, tapas, the 'th' sound. Not neutral, not Latin American." },
-      { "emoji": "📅", "strong": "A1 → B1 in 12 weeks", "text": "structured around ser/estar, the past tenses, and the subjunctive so you actually finish." },
-      { "emoji": "⏱", "strong": "Short daily sessions", "text": "15 to 30 minutes, sized to fit your day." },
+      { "emoji": "🇪🇸", "strong": "Real Spain Spanish", "text": "vosotros, vale, tapas, the 'th' sound, and the irony. Not neutral, not Latin American." },
+      { "emoji": "📅", "strong": "A1 → C1-gateway in 18 weeks", "text": "the whole spine — ser/estar, the past tenses, all four subjunctives, si-clauses — plus the register nerve to actually use them." },
+      { "emoji": "⏱", "strong": "Short daily sessions", "text": "15 to 35 minutes, sized to fit your day." },
       { "emoji": "❤️", "strong": "Free, no signup", "text": "your progress saves to this device." }
     ]
   },
   "levels": [
     { "code": "A1", "title": "A1 Foundations", "weeks": [1, 4], "blurb": "Greet, introduce yourself, order tapas, describe your day." },
     { "code": "A2", "title": "A2 Building", "weeks": [5, 8], "blurb": "Tell stories in the past. Travel, health, everyday life." },
-    { "code": "B1", "title": "B1 Threshold", "weeks": [9, 12], "blurb": "Opinions, hypotheticals, real conversations — and the subjunctive without fear." }
+    { "code": "B1", "title": "B1 Threshold", "weeks": [9, 12], "blurb": "Opinions, hypotheticals, real conversations — and the subjunctive without fear." },
+    { "code": "B2", "title": "B2 Depth", "weeks": [13, 16], "blurb": "Nuance, all four subjunctives, the full si-clause system, and storytelling in layers." },
+    { "code": "C1", "title": "C1 Gateway", "weeks": [17, 18], "blurb": "Irony, register-switching, the street heard honestly, and the grown-up machinery of a life in Spain. Preparing the leap, not certifying it." }
   ],
   "cast": [
     { "name": "Lucía", "role": "Madrid comms lead, main narrator" },
     { "name": "Rafa", "role": "bar friend, the learner's cotilleo partner" },
     { "name": "Sofía", "role": "moves Madrid → Valencia mid-arc" },
-    { "name": "Nacho", "role": "architect from a pueblo, routine and immersion voice" }
+    { "name": "Nacho", "role": "architect from a pueblo, routine and immersion voice" },
+    { "name": "Marta", "role": "Sevillana HR lead: professional Spanish + Andalusian exposure (season 2)" },
+    { "name": "Dani", "role": "canario friend: Canarian-accent exposure, cameo (season 2)" }
   ],
   "weeks": [
     { "week": 1, "module": "M01", "title": "Sonidos y primeras palabras", "days": ["day-01", "day-02", "day-03", "day-04", "day-05", "day-06", "day-07"] },
@@ -43,7 +47,13 @@
     { "week": 9, "module": "M09", "title": "El subjuntivo se extiende", "days": ["day-57", "day-58", "day-59", "day-60", "day-61", "day-62", "day-63"] },
     { "week": 10, "module": "M10", "title": "Imperativos, pronombres y conectores", "days": ["day-64", "day-65", "day-66", "day-67", "day-68", "day-69", "day-70"] },
     { "week": 11, "module": "M11", "title": "Sonar a español", "days": ["day-71", "day-72", "day-73", "day-74", "day-75", "day-76", "day-77"] },
-    { "week": 12, "module": "M12", "title": "Español de la calle y el final", "days": ["day-78", "day-79", "day-80", "day-81", "day-82", "day-83", "day-84"] }
+    { "week": 12, "module": "M12", "title": "Español de la calle y el final", "days": ["day-78", "day-79", "day-80", "day-81", "day-82", "day-83", "day-84"] },
+    { "week": 13, "module": "M13", "title": "El subjuntivo imperfecto y el matiz", "days": ["day-85", "day-86", "day-87", "day-88", "day-89", "day-90", "day-91"] },
+    { "week": 14, "module": "M14", "title": "El sistema condicional: oraciones con si", "days": ["day-92", "day-93", "day-94", "day-95", "day-96", "day-97", "day-98"] },
+    { "week": 15, "module": "M15", "title": "Trayectorias y cambio: se, perífrasis, verbos de cambio", "days": ["day-99", "day-100", "day-101", "day-102", "day-103", "day-104", "day-105"] },
+    { "week": 16, "module": "M16", "title": "Preposiciones, estilo indirecto y el relato en capas", "days": ["day-106", "day-107", "day-108", "day-109", "day-110", "day-111", "day-112"] },
+    { "week": 17, "module": "M17", "title": "Registro, ironía y la calle de verdad", "days": ["day-113", "day-114", "day-115", "day-116", "day-117", "day-118", "day-119"] },
+    { "week": 18, "module": "M18", "title": "Español profesional, trámites y el final", "days": ["day-120", "day-121", "day-122", "day-123", "day-124", "day-125", "day-126"] }
   ],
   "footer": {
     "donation": true,

@@ -64,3 +64,60 @@ Every capstone ends with the learner producing/extending a personal self-introdu
 | 12 | 84 | **Meine Geschichte, endgültig** — the whole thing, one tense-move per slot, plus a letter to your past self and German farewells |
 
 Capstones reference this table by using a `builder` or `journal` block titled around "Meine Geschichte" that layers in that week's move.
+
+---
+
+## Season 2 (Weeks 13–18) — where the cast goes next
+
+*One year and a half in. The learner is no longer a beginner ordering Brötchen — they're job-hunting in German, reading Amt letters, and starting to catch fast speech. Season 2 raises the register with them: the moods, the passive, professional German. Two new cast members join; the four originals evolve.*
+
+### The four, evolved
+
+- **Lena** — still the steady thread and primary guide, still Berlin, still Neukölln. In season 2 she's the one who explains the *harder* things now (Konjunktiv, Nominalstil) with the same warmth, and the one who introduces You to **Mareike** for the job hunt. She anchors the du-register debriefs. Unchanged voice: *"Also,… / Guck mal,…"*, dry warmth.
+- **Jonas** — **his life is the season-2 story.** The bookshop clerk / aspiring musician finally gets a real shot. Arc:
+  - **W13 / day 90:** plants the seed — half-jokes in a *"Was würdest du tun, wenn…"* game about quitting the bookshop for music.
+  - **W14 / day 97:** reports (indirekte Rede) what a promoter told him — *"Er meinte, er könne uns einen Slot geben."* A maybe, not yet real.
+  - **W16 / day 111:** **THE season-2 life event** — the band lands a real support-tour offer; Jonas quits the bookshop to try music full-time. The group weighs in (encouragement, hypotheticals, a little worry). Mirrors Aylin's day-69 move. **Keep this anchor exact.**
+  - **W18 / days 125–126:** on tour / back briefly for the reunion; changed, happier, a bit road-worn. Still *"Ey, … / Na ja, … / Quatsch!"*.
+  - **Continuity rule:** before day 90 Jonas has no music offer and no plan to leave the bookshop; days 90–111 it's a growing maybe; from day 111 on he has left the bookshop and is pursuing music. Never break this ordering.
+- **Aylin** — **now lives in Munich** (moved day 69; do not un-move her). Settled and thriving in season 2: happier, more confident, still thoughtful. Appears by phone/visit from Munich (W14 news relay, W18 reunion). She's the bridge to the Bavarian/Austrian regional color and the one who introduces **Vroni**. Voice unchanged, steadier.
+- **Klaus** — still the Cologne architect, the grounded "real life outside the bubble" voice. Optional season-2 cameo as the measured elder who's seen career leaps before (a natural voice for the W15 Amtsdeutsch/contract scene or a Bewerbung pep-talk). Rhineland pride intact.
+
+### New in season 2
+
+#### Mareike — the professional Sie-anchor
+- **Who:** 35, runs a small Berlin design agency. Lena knows her through work and introduces You. Professional, direct, warm underneath.
+- **Voice:** clean business Hochdeutsch — the **Sie**-register counterpart to the cast's du. Formal E-Mail conventions (*Sehr geehrte… / Mit freundlichen Grüßen*), interview German, hedged professional requests. She is where register-switching drills get their formal pole.
+- **Role in the arc:** the learner's professional contact — the Vorstellungsgespräch partner (W17, day 118) and the model for the Bewerbung/formal-E-Mail modules. **The "das Du anbieten" moment is hers to offer** (late W17), a real register beat: Sie until she offers the Du.
+- **Continuity rule:** strictly **Sie** with You until (and if) she offers the Du near the end of W17. Never has her start on du with a job candidate.
+
+#### Vroni (Veronika) — the exposure-only regional cameo
+- **Who:** late 20s, Austrian (from Vienna, weekends in Salzburg). Aylin's friend/colleague in Munich.
+- **Voice:** warm Austrian color — *Servus, Grüß Gott, Jänner* (January), *Sackerl* (bag), *heuer* (this year), *Erdapfel* (potato), *Semmel* (roll). Used **for exposure and contrast only**, always glossed against the Hochdeutsch norm (*Januar, Tüte, dieses Jahr, Kartoffel, Brötchen*).
+- **Role in the arc:** the W18 regional cameo (day 123 lesson + day 125 reunion). She reinforces — by cheerful contrast — that **we speak Hochdeutsch**. Never presented as the target norm; the learner enjoys her, then keeps saying *Januar*.
+- **Continuity rule:** Vroni appears only from W18 (or the day-125 reunion). Her forms are flagged as Austrian every time; a lesson never quietly adopts *Jänner/Sackerl* as the answer key.
+
+### Season-2 immersion & finale anchors (validator/consistency-critical)
+
+- **Day 90** (W13 review) — Konjunktiv II in the wild: Lena & Jonas, *"Was würdest du tun, wenn…"* (Jonas plants the music seed).
+- **Day 97** (W14 review) — reported speech: news relay, Aylin calls from Munich, Jonas reports the promoter (Konjunktiv I).
+- **Day 104** (W15 review) — passive/Nominalstil: You + Lena decode an Amt letter and a job posting (officialese survival).
+- **Day 111** (W16 review) — **THE season-2 life event: Jonas quits the bookshop for the tour.** Mirrors day 69.
+- **Day 118** (W17 review) — professional: Vorstellungsgespräch with Mareike (Sie), then debrief with Lena (du) — register-switching.
+- **Day 125** (W18 review) — final immersion: whole cast reunites (Berlin + Munich), Vroni's Austrian cameo, fast speech + particles.
+- **Day 126** (W18 capstone) — **finale: *Meine Geschichte, Staffel 2*** — everyone one and a half years on; the definitive register-controlled self-intro.
+
+**Life-event landing: day 111** (Jonas's leap), mirroring the season-1 day-69 pivot (Aylin's move). One major season-2 life event, same as season 1.
+
+## The growing self-intro — *Meine Geschichte*, Season 2 (rows 13–18)
+
+Cumulative — every season-1 layer is still expected; each week adds exactly one B2/C1 move. Capstone authors MUST append the correct layer via a `builder` or `journal` titled around "Meine Geschichte".
+
+| Wk | Capstone day | New *Meine Geschichte* layer (cumulative) |
+|----|------|------|
+| 13 | 91  | + a hypothetical & a hedged wish about your path (Konjunktiv II: *Wenn ich früher angefangen hätte…; ich würde gern…*) |
+| 14 | 98  | + a nuanced opinion with connectors + what someone said about your progress (*einerseits… andererseits…; sie meinte, ich sei…*) |
+| 15 | 105 | + a formal, "written-German" version of your background (passive + light Nominalstil: *Ich wurde in… geboren; nach dem Studium wurde mir klar, dass…*) |
+| 16 | 112 | + one chapter of your story told with attributive precision & layered tenses (participial attributes, relatives, *da-/wo-*compounds) |
+| 17 | 119 | + your professional self-presentation, delivered in **Sie** and in **du** (register-switching; elevator pitch vs interview intro) |
+| 18 | 126 | **Meine Geschichte, Staffel 2 — endgültig** — the whole thing, register-controlled and a little self-ironic; a letter to your season-1 self and a C1-gateway farewell |

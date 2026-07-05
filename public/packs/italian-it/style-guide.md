@@ -149,6 +149,41 @@ right everywhere:
 - **B1 (W9–12):** dialogues run 6–10 lines; prompts increasingly in Italian; comprehension questions in
   Italian; journal prompts in Italian. By W12 the learner is producing the congiuntivo without flinching.
 
+## 9. Difficulty ramp — Weeks 13–18 (Season 2: B2 Depth → C1 Gateway)
+
+The Season-2 arc keeps every schema and count rule from §§4–8 unchanged — it only **raises the water
+level of Italian** in the framing. Nothing here overrides the block-count targets or the `nl`-key rule.
+
+- **B2 (W13–16) — mixed, tilting Italian.** `explain`, `spotlight`, `prompt`, and `hint` are written in
+  **easy Italian first with a short English safety net** where a rule is genuinely new; comprehension
+  questions (`q`) and **journal `prompt`s in Italian**. Keep `en` glosses on every `nl`/dialogue line as
+  always (the target text lives in `nl`, English gloss in `en` — never drop it). English never disappears;
+  it just stops carrying the explanation.
+- **C1 Gateway (W17–18) — Italian-first with an English safety net.** Instructions and explanations lead
+  in Italian; keep **one short English clause** as a net on anything load-bearing (a new nuance, an ironic
+  reading, a regional note). Still gloss every dialogue/`chips` line in `en`. Be honest in tone: this is
+  *preparing the leap to C1*, not certifying it — say so where the finale invites it.
+- **Dialogues run 8–12 lines** in Season 2 (up from 6–10). Still ≤ the schema's practical ceiling; keep
+  each line short enough to reveal-and-repeat on a phone. Honor the arc timeline in `characters.md`
+  (Sofia in Milano; Elena only from W15; the day-111 pivot).
+- **`durationMin` moves to `[20, 35]`** for Season-2 days (denser reading, longer dialogues).
+- **Register-switching as a recurring pattern.** Make "the same message, *tu* vs *Lei*" a repeated device
+  — best as a `contrast` block (left = *tu*/casual, right = *Lei*/formal, `note` explains the shift) or as
+  a two-slot `builder` producing both versions. Use it in W15 (formal email, sportello), W17 (tone/register
+  capstone), and sprinkle it into review days. It's the season's signature drill.
+- **Block-count targets are UNCHANGED.** Stay inside lesson **8–12**, review **6–8**, capstone **10–14**.
+  Density rises *within* blocks (longer dialogues, Italian-first prompts, layered-tense builders), not by
+  adding blocks. A B2/C1 `lesson` should still carry **≥3 graded blocks** and **≥1 audio touch**
+  (`chips`/`shadow`).
+- **Grammar still non-negotiable (§6 applies harder).** Concordanza dei tempi must be correct in every
+  congiuntivo subordinate; periodo ipotetico type III is *cong. trapassato + condizionale passato*
+  (*se avessi saputo, sarei venuto*) — never mix the types; participle agreement holds under clitics and
+  *essere*; the **passato remoto is recognition-only** (present it in `card`/`comprehension`/`dialogue`
+  reading, never ask the learner to *produce* it in a `typed`/`builder`).
+- **TTS caution still holds.** Keep the §5/§8 rule: no stress-minimal pairs in `dictation` (TTS can't
+  disambiguate *àncora/ancòra*, *pèsca/pésca*, or *capìta/càpita*) — drill those in a `card`/`contrast`.
+  Also avoid dictating a bare *passato remoto* form the learner isn't meant to produce.
+
 ## 8. Output & handoff rules
 
 - One file per day: `public/packs/italian-it/lessons/day-NN.json`, zero-padded, **strict JSON** (no

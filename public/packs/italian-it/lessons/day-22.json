@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "day-22",
+  "day": 22,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Colazione, pranzo, cena",
+  "emoji": "🍝",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Meal structure — colazione, pranzo, cena, primo and secondo — plus Italian meal culture.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "I tre pasti (e uno spuntino)",
+      "body": "The Italian day runs on three fixed meals: **colazione** (breakfast — light and sweet: *un cornetto e un cappuccino*), **pranzo** (lunch — traditionally the main meal, built from *il primo* + *il secondo*), and **cena** (dinner — lighter, often something simple). Between meals there's sometimes *uno spuntino* (a snack). At *pranzo*, *il primo* is pasta, rice, or soup; *il secondo* is meat, fish, or eggs, usually with *un contorno* (a vegetable side).",
+      "callout": "In the north they might say *una brioche* for what the south calls *un cornetto* — same pastry, different name."
+    },
+    {
+      "type": "chips",
+      "title": "I pasti — ascolta",
+      "items": [
+        { "nl": "colazione", "en": "breakfast", "speak": "colazione" },
+        { "nl": "pranzo", "en": "lunch", "speak": "pranzo" },
+        { "nl": "cena", "en": "dinner", "speak": "cena" },
+        { "nl": "uno spuntino", "en": "a snack", "speak": "uno spuntino" },
+        { "nl": "il primo", "en": "the first course", "speak": "il primo" },
+        { "nl": "il secondo", "en": "the second course", "speak": "il secondo" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Un pranzo completo",
+      "body": "A full *pranzo* can run four courses — nobody eats all four every day, but this is the shape of a proper meal, especially on Sundays.",
+      "table": {
+        "headers": ["Portata", "Esempio"],
+        "rows": [
+          ["il primo", "pasta al pomodoro"],
+          ["il secondo", "pollo arrosto"],
+          ["il contorno", "insalata verde"],
+          ["il dolce", "tiramisù"]
+        ]
+      },
+      "callout": "Sunday lunch at the nonni's can genuinely include all four courses — bring your appetite."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which meal is traditionally built from *il primo* + *il secondo*?",
+      "options": ["la colazione", "il pranzo", "lo spuntino"],
+      "correct": 1,
+      "explain": "*Il pranzo* is the meal with courses — *colazione* is quick and sweet, *spuntino* is just a snack."
+    },
+    {
+      "type": "contrast",
+      "title": "Colazione dolce, pranzo salato",
+      "pairs": [
+        { "left": "*colazione* — sweet: cornetto, cappuccino, biscotti", "right": "*pranzo* — savory: pasta, meat, vegetables", "note": "Italians rarely eat savory food first thing in the morning — sweet is the default start." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the Italian for 'dinner'.",
+      "answers": ["cena", "la cena"],
+      "hint": "Three letters, the evening meal.",
+      "explain": "*cena* — usually lighter than pranzo, and later, around 8pm."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole line.",
+      "speak": "Vorrei il primo, per favore.",
+      "answers": ["vorrei il primo, per favore", "vorrei il primo per favore"]
+    },
+    {
+      "type": "shadow",
+      "title": "Ordina un pranzo completo",
+      "lines": [
+        { "nl": "Per me, il primo.", "en": "For me, the first course." },
+        { "nl": "E per secondo?", "en": "And for a second course?" },
+        { "nl": "Un contorno di verdure, grazie.", "en": "A side of vegetables, thanks." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Il mio pranzo",
+      "prompt": "Build a sentence describing what you're having for lunch.",
+      "slots": [
+        { "label": "Portata", "chips": ["Per primo", "Per secondo", "Per contorno"] },
+        { "label": "Piatto", "chips": ["prendo la pasta", "prendo il pollo", "prendo l'insalata", "prendo il pesce"] }
+      ],
+      "sample": "Per primo, prendo la pasta."
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe your own typical day of meals in Italian: what do you have for colazione, pranzo, and cena?",
+      "starters": ["Per colazione…", "A pranzo…", "A cena…"],
+      "minSentences": 3
+    }
+  ]
+}
