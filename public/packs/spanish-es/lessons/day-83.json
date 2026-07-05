@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "day-83",
+  "day": 83,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "review",
+  "title": "Un año después: la terraza",
+  "emoji": "🥂",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Final immersion: the whole cast reunites on a Madrid terrace one year on — exclamations, slang, tapeo and idioms braided together",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Un año después",
+      "body": "Ha pasado un año. Ha llegado el buen tiempo y os reunís todos en una **terraza** de Madrid: Lucía, Rafa, Nacho y **Sofía**, que ha venido desde **Valencia** para el finde. Hoy no se enseña nada nuevo: **escuchas, entiendes y participas**, con todo lo de esta semana — exclamaciones, argot, tapeo y modismos — mezclado como en la vida real.",
+      "callout": "Sofía vive en Valencia desde hace meses y está feliz. Hoy solo está de visita. ¡Toda la pandilla junta otra vez!"
+    },
+    {
+      "type": "card",
+      "title": "La pandilla, un año después",
+      "body": "Antes de escuchar, mira dónde está cada uno ahora. Cada uno se presenta en una línea — su pequeña *mi historia*.",
+      "table": {
+        "headers": ["Quién", "Un año después"],
+        "rows": [
+          ["Lucía", "Sigo en Madrid, en Lavapiés. El trabajo va bien y ahora doy clases de escritura."],
+          ["Rafa", "Sigo en la librería y por fin toco con mi grupo los viernes."],
+          ["Sofía", "Me mudé a Valencia por trabajo y estoy mucho más tranquila. Pero echaba de menos Madrid, ¿eh?"],
+          ["Nacho", "Nos hemos comprado una casita en el pueblo para los findes. En el pueblo se vive mejor."],
+          ["Tú", "Llegué sin hablar nada y ahora me defiendo en español. Bueno… casi."]
+        ]
+      }
+    },
+    {
+      "type": "shadow",
+      "title": "Calienta motores — la semana en una frase",
+      "lines": [
+        { "nl": "¡Qué guay veros a todos!", "en": "So cool to see you all!" },
+        { "nl": "Venga, esta ronda la pago yo.", "en": "Come on, this round's on me." },
+        { "nl": "Nos vamos a poner las botas.", "en": "We're going to stuff ourselves." },
+        { "nl": "¡Qué va, si no ha pasado el tiempo!", "en": "No way, no time has passed at all!" }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "A sunny Madrid terrace, one year on. The whole group reunites — Sofía's up from Valencia for the weekend.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "¡Hombre, Sofía! ¡Qué guay que hayas venido!", "en": "Sofía! So cool you came!", "spotlight": "*qué guay que hayas venido* — subjunctive after the exclamation, totally natural now." },
+        { "speaker": "Sofía", "nl": "¡No me lo perdía! Os echaba muchísimo de menos, tíos.", "en": "I wasn't going to miss it! I missed you all so much." },
+        { "speaker": "Rafa", "nl": "¿Qué tal Valencia? ¿La playa, el curro, todo bien?", "en": "How's Valencia? Beach, work, all good?" },
+        { "speaker": "Sofía", "nl": "Genial, en serio. Vivo más tranquila y el trabajo mola mucho.", "en": "Great, honestly. Life's calmer and the job is really cool." },
+        { "speaker": "Nacho", "nl": "Buah, Valencia. Yo con mi pueblo me quedo, ¿eh?", "en": "Ugh, Valencia. I'll stick with my village, alright?" },
+        { "speaker": "Lucía", "nl": "¡Qué va, Nacho, si tú no cambias Madrid por nada… bueno, por el pueblo sí!", "en": "No way, Nacho, you wouldn't swap Madrid for anything… well, for the village yes!" },
+        { "speaker": "You", "nl": "Venga, ¿pedimos? La primera ronda la invito yo.", "en": "Come on, shall we order? First round's on me.", "spotlight": "*invitar* and *la ronda* from day 80 — you sound like a local now." },
+        { "speaker": "Rafa", "nl": "¡Anda, mira el guiri hablando como un madrileño! Estás hecho un fenómeno.", "en": "Well look at the foreigner talking like a local! You've turned into a star." },
+        { "speaker": "Sofía", "nl": "En serio, ¡qué cambio! Cuando llegaste no decías ni 'hola'.", "en": "Seriously, what a change! When you arrived you didn't even say 'hi'." },
+        { "speaker": "You", "nl": "Jolín, gracias. Ha sido un año… la leche.", "en": "Aw, thanks. It's been one heck of a year." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has entendido todo?",
+      "questions": [
+        { "q": "¿Desde dónde ha venido Sofía?", "options": ["Desde el pueblo", "Desde Valencia", "De ningún sitio, vive en Madrid"], "correct": 1 },
+        { "q": "¿Cómo se siente Sofía con su vida ahora?", "options": ["Estresada y triste", "Tranquila y contenta", "Aburrida"], "correct": 1 },
+        { "q": "¿Qué ofrece hacer *You* en la terraza?", "options": ["Invitar la primera ronda", "Irse pronto a casa", "Pagar a escote"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Rafa te dice que estás *hecho un fenómeno*. Es un elogio: significa que…",
+      "options": ["lo haces genial, dominas el español", "eres muy raro", "estás muy cansado"],
+      "correct": 0,
+      "explain": "*Estar hecho un fenómeno* = to have become really good at something. Un elogio (a compliment) — ¡enhorabuena!"
+    },
+    {
+      "type": "journal",
+      "prompt": "Imagina que estás en esa terraza con la pandilla. Escribe tu propia línea de reencuentro: saluda con una exclamación, di cómo te va y propón algo (una ronda, una tapa). Dos o tres frases.",
+      "starters": ["¡Qué guay veros! Yo…", "Este año he…", "Venga, ¿pedimos…?"],
+      "minSentences": 2
+    }
+  ]
+}

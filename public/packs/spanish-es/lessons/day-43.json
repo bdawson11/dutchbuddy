@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "day-43",
+  "day": 43,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Ayer pasó algo",
+  "emoji": "🕰",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Regular preterite (indefinido) conjugation for -ar/-er/-ir verbs and the closed-time markers that trigger it",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El indefinido: lo que pasó y se acabó",
+      "body": "El **indefinido** cuenta un hecho **concreto y terminado**: *ayer trabajé*, *anoche cené*, *el año pasado viví en Valencia*. Es el tiempo de los verbos regulares en **-ar / -er / -ir**, con seis terminaciones para cada persona.",
+      "table": {
+        "headers": ["Persona", "hablar", "comer", "vivir"],
+        "rows": [
+          ["yo", "hablé", "comí", "viví"],
+          ["tú", "hablaste", "comiste", "viviste"],
+          ["él/ella/usted", "habló", "comió", "vivió"],
+          ["nosotros/as", "hablamos", "comimos", "vivimos"],
+          ["vosotros/as", "hablasteis", "comisteis", "vivisteis"],
+          ["ellos/ellas/ustedes", "hablaron", "comieron", "vivieron"]
+        ]
+      },
+      "callout": "Ojo: *hablamos* y *vivimos* se escriben igual en presente y en indefinido — el contexto (*ayer, hoy*) te dice cuál es."
+    },
+    {
+      "type": "card",
+      "title": "¿Cuándo lo usamos? — marcadores cerrados",
+      "body": "El indefinido va con marcadores que **cierran** el tiempo: *ayer, anteayer, el lunes, la semana pasada, el año pasado, en 2019, hace dos años*. Son fechas o momentos ya terminados, sin conexión con el presente.",
+      "callout": "Tres verbos cambian la ortografía solo en 'yo' para conservar el sonido: *buscar → busqué, llegar → llegué, empezar → empecé*."
+    },
+    {
+      "type": "chips",
+      "title": "Marcadores del indefinido",
+      "items": [
+        { "nl": "ayer", "en": "yesterday", "speak": "ayer" },
+        { "nl": "anteayer", "en": "the day before yesterday", "speak": "anteayer" },
+        { "nl": "el año pasado", "en": "last year", "speak": "el año pasado" },
+        { "nl": "la semana pasada", "en": "last week", "speak": "la semana pasada" },
+        { "nl": "hace dos años", "en": "two years ago", "speak": "hace dos años" },
+        { "nl": "el lunes", "en": "on Monday", "speak": "el lunes" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Dos familias de terminaciones",
+      "pairs": [
+        { "left": "-ar → -é, -aste, -ó, -amos, -asteis, -aron", "right": "-er / -ir → -í, -iste, -ió, -imos, -isteis, -ieron", "note": "Los verbos -er y -ir comparten exactamente las mismas terminaciones en el indefinido." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ayer ____ (hablar) con Lucía en el bar.",
+      "options": ["hablé", "hablo", "hablaba"],
+      "correct": 0,
+      "explain": "*Ayer* es un marcador cerrado: indefinido. *Hablé* — yo, -ar, terminación -é."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Vosotros, comer, ayer — ¿cuál es la forma correcta?",
+      "options": ["comisteis", "comistéis", "comieron"],
+      "correct": 0,
+      "explain": "*Comisteis* — vosotros no lleva tilde en el indefinido regular. *Comieron* es ellos, no vosotros."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I lived in Valencia for two years.'",
+      "answers": ["Viví en Valencia dos años.", "viví en valencia dos años"],
+      "hint": "vivir → viví (yo, -ir)",
+      "explain": "*Viví en Valencia dos años.* — hecho cerrado, sin conexión con el presente."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "comí en el bar ayer",
+      "answers": ["Comí en el bar ayer.", "comi en el bar ayer"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía asks about your day yesterday",
+      "lines": [
+        { "speaker": "Lucía", "nl": "¿Qué tal ayer? ¿Trabajaste mucho?", "en": "How was yesterday? Did you work a lot?" },
+        { "speaker": "You", "nl": "Sí, trabajé toda la mañana, pero comí con Sofía.", "en": "Yes, I worked all morning, but I had lunch with Sofía." },
+        { "speaker": "Lucía", "nl": "¡Qué bien! ¿Y por la tarde?", "en": "Nice! And in the afternoon?" },
+        { "speaker": "You", "nl": "Escuché música y hablé con mi familia.", "en": "I listened to music and talked with my family.", "spotlight": "hablé lleva tilde: la terminación -é siempre se acentúa." },
+        { "speaker": "Lucía", "nl": "Yo cené con Rafa y volvimos tarde a casa.", "en": "I had dinner with Rafa and we got back home late." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe tres cosas que hiciste ayer usando el indefinido regular. ¡Ojo con los acentos en 'yo' y en 'él/ella'!",
+      "starters": ["Ayer trabajé...", "Ayer comí...", "Ayer hablé con..."],
+      "minSentences": 3
+    }
+  ]
+}

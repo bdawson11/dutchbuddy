@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "day-74",
+  "day": 74,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Meta: tú, usted y vosotros",
+  "emoji": "🧭",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The Spain-specific register meta-module: the tuteo default, the shrinking usted, and vosotros not ustedes",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "En España se tutea (mucho más de lo que crees)",
+      "body": "Spain **tutea by default**. With people your age, younger, at the bar, in most shops, even with strangers in a casual setting — *tú* is normal, and *usted* can even feel cold. Textbooks over-teach *usted*; real Madrid runs on *tú*. The instinct to build this week: **reach for *tú* first**, and save *usted* for the few genuine cases.",
+      "callout": "A waiter your age will almost always *tutear* you — and expect the same back."
+    },
+    {
+      "type": "card",
+      "title": "Las cuatro formas de tratar a alguien",
+      "body": "Two axes: **one person or a group**, and **informal or formal**. The verb form tells you which you've picked.",
+      "table": {
+        "headers": ["Trato", "Cuándo", "Verbo (tener)"],
+        "rows": [
+          ["tú", "one person, informal — the default", "tienes"],
+          ["usted", "one person, formal / distancing", "tiene"],
+          ["vosotros", "a group, informal — Spain!", "tenéis"],
+          ["ustedes", "a group, formal — rare in Spain", "tienen"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Los cuatro tratos, en voz alta",
+      "items": [
+        { "nl": "¿Tú qué opinas?", "en": "What do you think? (tú)", "speak": "¿Tú qué opinas?" },
+        { "nl": "¿Y usted qué opina?", "en": "And what do you think? (usted)", "speak": "¿Y usted qué opina?" },
+        { "nl": "¿Vosotros qué opináis?", "en": "What do you all think? (vosotros)", "speak": "¿Vosotros qué opináis?" },
+        { "nl": "¿Ustedes qué opinan?", "en": "What do you think? (ustedes, formal pl.)", "speak": "¿Ustedes qué opinan?" },
+        { "nl": "¿De dónde sois?", "en": "Where are you all from? (vosotros)", "speak": "¿De dónde sois?" },
+        { "nl": "Puede tutearme, tranquilo.", "en": "You can call me tú, don't worry.", "speak": "Puede tutearme, tranquilo." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "El gran marcador de España: vosotros",
+      "body": "For **a group of friends**, Spain uses **vosotros/vosotras**: *¿vosotros venís?*, *¿habéis comido?*, *sentaos*. Latin America drops this entirely and uses *ustedes* for everyone; **Spain does not**. Say *¿ustedes vienen?* to your mates in Madrid and you'll sound oddly formal — or foreign. Plural + informal = **vosotros**, full stop.",
+      "callout": "The *vosotros* endings are *-áis/-éis/-ís*: *habláis, coméis, venís*. Drill it as a reflex."
+    },
+    {
+      "type": "card",
+      "title": "El usted que se encoge",
+      "body": "*Usted* still shows up, but the list is short: **much older strangers**, **officialdom and paperwork** (police, *funcionarios*, forms), **formal phone and customer service**, and when you want to **signal respect or distance** on purpose. Outside those, *tú* is safe. Note: in **Andalucía y Canarias**, *ustedes* often replaces *vosotros* even informally — regional, and perfectly fine there.",
+      "callout": "Unsure with an older stranger? Start with *usted*; they'll often say *puedes tutearme*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Estás con tres amigos en el bar. ¿Cómo les preguntas si quieren otra ronda?",
+      "options": ["¿Ustedes quieren otra ronda?", "¿Vosotros queréis otra ronda?", "¿Usted quiere otra ronda?"],
+      "correct": 1,
+      "explain": "Grupo de amigos = **vosotros**: *¿queréis otra ronda?*. *Ustedes* aquí suena raro o extranjero; *usted* es para una sola persona formal."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Rellenas un papel en una oficina del Estado y te atiende un funcionario mayor que tú. ¿Qué trato usas?",
+      "options": ["tú", "usted", "vosotros"],
+      "correct": 1,
+      "explain": "Trámite oficial + persona mayor desconocida = **usted**: *¿podría decirme…?*. Es uno de los pocos reductos del usted en España."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál es la forma de vosotros de *venir* en presente?",
+      "options": ["vienen", "venís", "venéis"],
+      "correct": 1,
+      "explain": "*venir* → *venís*. Las terminaciones de vosotros son *-áis/-éis/-ís*; *venir* es -ir, así que *venís*. *Venéis* no existe."
+    },
+    {
+      "type": "typed",
+      "prompt": "Pasa a vosotros: «¿Tú tienes hambre?» → «¿Vosotros ___ hambre?»",
+      "answers": ["tenéis"],
+      "hint": "tener → ten__ ; -er lleva -éis.",
+      "explain": "*tener* → *tenéis*: *¿vosotros tenéis hambre?*. El tuteo plural en España siempre es vosotros."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía walks you through who to tutear at a friend's flat-warming.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Mira, aquí somos todos colegas, así que de tú a todo el mundo, ¿vale?", "en": "Look, here we're all mates, so tú with everyone, okay?", "spotlight": "tú por defecto entre iguales." },
+        { "speaker": "You", "nl": "¿Y a los padres de Marta, que están ahí?", "en": "And Marta's parents, who are over there?" },
+        { "speaker": "Lucía", "nl": "Con ellos, empieza de usted por educación. Si te dicen «tutéame», cambias.", "en": "With them, start with usted to be polite. If they say 'call me tú', switch." },
+        { "speaker": "You", "nl": "Vale. ¿Y si hablo con varios a la vez?", "en": "Okay. And if I talk to several at once?" },
+        { "speaker": "Lucía", "nl": "Vosotros, siempre. Aquí nadie dice 'ustedes', eso es de otro lado.", "en": "Vosotros, always. Nobody here says 'ustedes', that's from elsewhere.", "spotlight": "grupo informal = vosotros, nunca ustedes." },
+        { "speaker": "You", "nl": "O sea, tú para uno, vosotros para el grupo, y usted solo si hace falta.", "en": "So, tú for one, vosotros for a group, and usted only if needed." },
+        { "speaker": "Lucía", "nl": "¡Eso es! Ya suenas de aquí, tía.", "en": "That's it! You already sound local." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo tienes claro?",
+      "questions": [
+        { "q": "¿Cómo debe dirigirse a los padres de Marta al principio?", "options": ["De tú", "De usted, por educación", "De vosotros"], "correct": 1 },
+        { "q": "Según Lucía, para hablar con un grupo de amigos se usa…", "options": ["ustedes", "vosotros", "usted"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Piensa en tu día en España: ¿a quién tratarías de tú, a quién de usted, y cuándo usarías vosotros? Escribe cuatro situaciones con el trato que elegirías y el porqué.",
+      "starters": ["Al camarero, de tú, porque…", "A un señor mayor en el metro, de usted, porque…", "A mis amigos, de vosotros…", "En una oficina, de usted…"],
+      "minSentences": 4
+    }
+  ]
+}
