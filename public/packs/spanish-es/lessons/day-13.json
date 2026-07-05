@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-13",
+  "day": 13,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Hay, este, ese, aquel",
+  "emoji": "📍",
+  "level": "A1",
+  "durationMin": [15, 22],
+  "summary": "The existential hay and pointing at the world with este/ese/aquel",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Hay — hay uno, hay muchos, siempre igual",
+      "body": "**Hay** significa 'there is / there are' y **nunca cambia**, sea singular o plural: *hay un bar* (there's a bar), *hay tapas* (there are tapas). Se usa con sustantivos **indefinidos** (*un, una, unos, unas*, números, o sin artículo).",
+      "callout": "*Hay el bar* no existe — para algo concreto y conocido se usa **estar**: *el bar está en la esquina*."
+    },
+    {
+      "type": "contrast",
+      "title": "hay vs. estar",
+      "pairs": [
+        { "left": "hay + indefinido — algo que introduces por primera vez", "right": "estar + definido — algo concreto, ya sabido dónde está", "note": "Hay un bar cerca. / El bar está en la esquina." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Este, ese, aquel — tres distancias",
+      "body": "El español tiene **tres** demostrativos, no dos como el inglés: **este** (this — cerca de mí), **ese** (that — cerca de ti), **aquel** (that over there — lejos de los dos). Todos concuerdan en género y número.",
+      "table": {
+        "headers": ["Cerca de mí", "Cerca de ti", "Lejos de los dos"],
+        "rows": [
+          ["este / esta", "ese / esa", "aquel / aquella"],
+          ["estos / estas", "esos / esas", "aquellos / aquellas"]
+        ]
+      },
+      "callout": "*Este bar* (donde estoy), *ese bar* (donde estás tú), *aquel bar* (al fondo de la calle, lejos de los dos)."
+    },
+    {
+      "type": "chips",
+      "title": "Escucha y repite",
+      "items": [
+        { "nl": "este bar", "en": "this bar (near me)", "speak": "este bar" },
+        { "nl": "esa mesa", "en": "that table (near you)", "speak": "esa mesa" },
+        { "nl": "aquellos bares", "en": "those bars (over there)", "speak": "aquellos bares" },
+        { "nl": "hay tapas", "en": "there are tapas", "speak": "hay tapas" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Estás señalando algo muy lejos, al fondo de la calle. ¿Qué usas?",
+      "options": ["este", "ese", "aquel"],
+      "correct": 2,
+      "explain": "**aquel** marca distancia de los dos hablantes — lo típico para 'aquello de allí'."
+    },
+    {
+      "type": "typed",
+      "prompt": "Escribe: 'There are three bars here.'",
+      "answers": ["hay tres bares aquí", "hay tres bares"],
+      "hint": "Hay no cambia con el plural.",
+      "explain": "**Hay tres bares aquí.** — *hay* se queda igual, singular o plural."
+    },
+    {
+      "type": "dictation",
+      "speak": "hay una silla libre",
+      "answers": ["hay una silla libre"]
+    },
+    {
+      "type": "builder",
+      "title": "Señala algo",
+      "prompt": "Construye una frase señalando algo con hay o un demostrativo.",
+      "slots": [
+        { "label": "Hay / demostrativo", "chips": ["Hay una", "Esta", "Esa", "Aquella"] },
+        { "label": "Sustantivo", "chips": ["mesa libre", "silla", "tienda", "plaza"] }
+      ],
+      "sample": "Hay una mesa libre."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Sofía and You looking for a table on a busy terrace",
+      "lines": [
+        { "speaker": "Sofía", "nl": "Mira, hay una mesa libre allí.", "en": "Look, there's a free table over there." },
+        { "speaker": "You", "nl": "¿Cuál, esta de aquí o esa de allí?", "en": "Which one, this one here or that one there?" },
+        { "speaker": "Sofía", "nl": "No, aquella del fondo, la de la sombrilla.", "en": "No, that one at the back, the one with the umbrella.", "spotlight": "aquella — far from both speakers, hence 'over there' at the back." },
+        { "speaker": "You", "nl": "Ah, vale, ¡vamos!", "en": "Oh, okay, let's go!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "¿Qué demostrativo usa Sofía para la mesa del fondo?", "options": ["esta", "esa", "aquella"], "correct": 2 },
+        { "q": "¿Qué hay en esa mesa?", "options": ["Una silla rota", "Una sombrilla", "Nada"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Mira a tu alrededor ahora mismo. Escribe tres frases con hay, este/esta y aquel/aquella sobre lo que ves.",
+      "starters": ["Hay…", "Este/Esta…"]
+    }
+  ]
+}

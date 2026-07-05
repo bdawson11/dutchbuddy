@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-96",
+  "day": 96,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "lesson",
+  "title": "Einerseits, andererseits: abwägen",
+  "emoji": "⚖️",
+  "level": "B2",
+  "durationMin": [20, 30],
+  "summary": "Argumentation connectors — einerseits/andererseits, zwar/aber, trotzdem, dennoch, folglich, hingegen — to build a nuanced, two-sided opinion (and their word-order traps).",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Nuanciert argumentieren",
+      "body": "B2 heißt: nicht mehr nur *„Ich finde X gut.\"* Du **wägst ab**. Drei Gruppen von Verbindern:\n\n• **Gegensatz** — *einerseits … andererseits, zwar … aber, jedoch, hingegen*.\n• **Einräumen** — *trotzdem, dennoch, obwohl*.\n• **Folgern** — *deshalb, deswegen, folglich, also*.\n\n**Wortstellung-Falle:** *trotzdem, dennoch, deshalb, folglich, einerseits, andererseits* stehen auf **Position 1** → das Verb kommt direkt danach (Inversion). *aber* und *denn* zählen **nicht** als Satzglied — danach folgt ein normaler Satz.",
+      "callout": "„Es ist teuer. Trotzdem kaufe ich es.\" vs. „Es ist teuer, aber ich kaufe es.\""
+    },
+    {
+      "type": "card",
+      "title": "Die Abwäge-Formel",
+      "body": "Erst beide Seiten, dann eine Folgerung: *einerseits X, andererseits Y — deshalb Z*. Oder mit Einräumen: *zwar X, aber Y*.\n\n*„**Einerseits** verdient Jonas im Laden sicher. **Andererseits** ist Musik sein Traum. **Zwar** ist der Sprung riskant, **aber** vielleicht bereut er es sonst. **Deshalb** würde ich es an seiner Stelle wagen.\"*",
+      "callout": "Zwei Seiten + eine Folgerung = eine erwachsene Meinung."
+    },
+    {
+      "type": "contrast",
+      "title": "Flach vs. abgewogen",
+      "pairs": [
+        { "left": "Ich finde das gut. — flat", "right": "Zwar ist es teuer, aber es lohnt sich — deshalb finde ich es gut. — nuanced", "note": "A B2 opinion weighs both sides, then concludes." },
+        { "left": "Es regnet. Trotzdem gehe ich raus.", "right": "Es regnet, aber ich gehe raus.", "note": "trotzdem forces inversion (verb straight after it); aber doesn't take a sentence slot at all." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Verbinder zum Anhören",
+      "items": [
+        { "nl": "Einerseits ja, andererseits nein.", "en": "On one hand yes, on the other no.", "speak": "Einerseits ja, andererseits nein." },
+        { "nl": "Zwar ist es teuer, aber es lohnt sich.", "en": "It's expensive, true, but it's worth it.", "speak": "Zwar ist es teuer, aber es lohnt sich." },
+        { "nl": "Es ist spät. Trotzdem bleibe ich.", "en": "It's late. I'm staying anyway.", "speak": "Es ist spät. Trotzdem bleibe ich." },
+        { "nl": "Ich habe keine Zeit. Deshalb sage ich ab.", "en": "I have no time. So I'll cancel.", "speak": "Ich habe keine Zeit. Deshalb sage ich ab." },
+        { "nl": "Er übt viel. Folglich wird er besser.", "en": "He practises a lot. Consequently he's improving.", "speak": "Er übt viel. Folglich wird er besser." },
+        { "nl": "Kaffee mag ich, Tee hingegen nicht.", "en": "I like coffee, tea on the other hand not.", "speak": "Kaffee mag ich, Tee hingegen nicht." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welcher Satz ist richtig?",
+      "options": [
+        "Es ist teuer, trotzdem ich kaufe es.",
+        "Es ist teuer. Trotzdem kaufe ich es.",
+        "Es ist teuer, trotzdem kaufe es ich."
+      ],
+      "correct": 1,
+      "explain": "*trotzdem* steht auf Position 1, das Verb folgt direkt: *Trotzdem kaufe ich es.* Option 1 vergisst die Inversion, Option 3 stellt das Pronomen falsch."
+    },
+    {
+      "type": "typed",
+      "prompt": "Verbinde mit deshalb: 'Ich habe keine Zeit.' + 'Ich sage ab.' (Achte auf die Inversion.)",
+      "answers": ["Ich habe keine Zeit, deshalb sage ich ab", "Ich habe keine Zeit. Deshalb sage ich ab"],
+      "hint": "Nach deshalb kommt sofort das Verb.",
+      "explain": "*…, deshalb sage ich ab.* — deshalb auf Position 1, Verb (*sage*) direkt danach."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe.",
+      "speak": "Einerseits ja, andererseits nein.",
+      "answers": ["Einerseits ja, andererseits nein"]
+    },
+    {
+      "type": "builder",
+      "title": "Zwei Seiten einer Sache",
+      "prompt": "Bau eine abgewogene Meinung: einerseits-Teil und andererseits-Teil, beide mit Inversion (Verb direkt nach dem Verbinder).",
+      "slots": [
+        { "label": "einerseits …", "chips": ["Einerseits ist der Job sicher", "Einerseits reizt mich das", "Einerseits klingt es gut"] },
+        { "label": "andererseits …", "chips": ["andererseits fehlt mir der Mut", "andererseits ist es riskant", "andererseits kostet es viel"] }
+      ],
+      "sample": "Einerseits ist der Job sicher, andererseits fehlt mir der Mut."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Jonas is still chewing on the music question. You two weigh it out loud — properly, with both hands.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Sag ehrlich: Wäre es dumm, den Laden hinzuschmeißen?", "en": "Tell me honestly: would it be stupid to chuck in the shop?" },
+        { "speaker": "You", "nl": "Nicht dumm. Einerseits ist der Job sicher, andererseits ist Musik dein Traum.", "en": "Not stupid. On one hand the job's secure, on the other music is your dream.", "spotlight": "einerseits … andererseits — both trigger inversion (ist der Job / ist Musik)." },
+        { "speaker": "Jonas", "nl": "Genau das ist es. Zwar hab ich etwas gespart, aber lange reicht das nicht.", "en": "That's exactly it. I've saved a bit, sure, but it won't last long.", "spotlight": "zwar … aber — concede a point, then push back." },
+        { "speaker": "You", "nl": "Klar ist es riskant. Trotzdem würde ich's versuchen.", "en": "Of course it's risky. I'd try it anyway.", "spotlight": "trotzdem forces inversion, and pairs neatly with the Konjunktiv würde." },
+        { "speaker": "Jonas", "nl": "Und wenn's schiefgeht?", "en": "And if it goes wrong?" },
+        { "speaker": "You", "nl": "Dann weißt du wenigstens Bescheid. Sonst fragst du dich das ewig.", "en": "Then at least you'll know. Otherwise you'll wonder forever." },
+        { "speaker": "Jonas", "nl": "Stimmt. Ich hab kein Talent fürs Bereuen.", "en": "True. I've got no talent for regret." },
+        { "speaker": "You", "nl": "Eben. Du übst seit Jahren — folglich bist du bereit.", "en": "Exactly. You've practised for years — consequently you're ready.", "spotlight": "folglich draws the conclusion, again with inversion." },
+        { "speaker": "Jonas", "nl": "Puh. Du redest wie einer, der schon entschieden hat.", "en": "Phew. You talk like someone who's already decided." },
+        { "speaker": "You", "nl": "Vielleicht. Aber entscheiden musst du.", "en": "Maybe. But you're the one who has to decide." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Nimm ein Thema, bei dem du hin- und hergerissen bist (Umzug, Jobwechsel, eine große Anschaffung). Schreib eine abgewogene Meinung: erst beide Seiten (einerseits … andererseits …, zwar … aber …), dann eine Folgerung (deshalb / trotzdem …). Mindestens vier Sätze.",
+      "starters": ["Einerseits …, andererseits …", "Zwar …, aber …", "Trotzdem …", "Deshalb …"],
+      "minSentences": 4
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-98",
+  "day": 98,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "capstone",
+  "title": "Mijn verhaal — een wat-als en een kleine spijt",
+  "emoji": "🪞",
+  "level": "B2",
+  "durationMin": [25, 35],
+  "summary": "Week 14 capstone: produce the counterfactual and regret forms, and add the mijn-verhaal layer — a hypothetical and a small regret about your own Dutch journey",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 14 — de irreële tijd, en jouw wat-als",
+      "body": "Je kunt nu praten over wat had kunnen zijn: de vvt, *zou*, de irreële voorwaarde, spijt. Vandaag voeg je aan **mijn verhaal** een **hypothese of spijt** toe over je eigen Nederlandse reis: *als ik dit eerder had geweten…*, *ik had beter…*.",
+      "table": {
+        "headers": ["Vorm", "Voorbeeld"],
+        "rows": [
+          ["Voltooid verleden tijd", "Toen ik begon, had ik nog nooit Nederlands gehoord."],
+          ["Irreële voorwaarde", "Als ik niet was begonnen, zou ik nu niets kunnen zeggen."],
+          ["Voltooid conditionalis", "Ik zou het zo weer hebben gedaan."],
+          ["Spijt", "Ik had eerder durven praten."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Terugkijken — tik om te horen",
+      "items": [
+        { "nl": "Als ik dit eerder had geweten, was ik eerder begonnen.", "en": "Had I known this earlier, I'd have started earlier.", "speak": "Als ik dit eerder had geweten, was ik eerder begonnen." },
+        { "nl": "Ik had best wat vaker durven praten.", "en": "I could well have dared to speak more often.", "speak": "Ik had best wat vaker durven praten." },
+        { "nl": "Zonder deze cursus zou ik nu vastlopen.", "en": "Without this course I'd be stuck now.", "speak": "Zonder deze cursus zou ik nu vastlopen." },
+        { "nl": "Had ik maar minder in het Engels teruggevallen.", "en": "If only I'd fallen back on English less.", "speak": "Had ik maar minder in het Engels teruggevallen." },
+        { "nl": "Ik zou het zo weer doen.", "en": "I'd do it all over again.", "speak": "Ik zou het zo weer doen." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Als ik niet was begonnen, ___ ik nu geen woord Nederlands.* Welke past?",
+      "options": ["spreek", "sprak", "zou … spreken"],
+      "correct": 2,
+      "explain": "Irreële voorwaarde: *als* + vvt (*was begonnen*) → hoofdzin met *zou … spreken*. Verzonnen 'nu', dus een hypothese."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welke zin drukt spijt correct uit?",
+      "options": ["Ik had vaker moeten oefenen.", "Ik heb vaker moeten oefenen.", "Ik moet vaker geoefend."],
+      "correct": 0,
+      "explain": "*Ik had vaker moeten oefenen* — *had + moeten + infinitief*, de spijtvorm met dubbele infinitief."
+    },
+    {
+      "type": "typed",
+      "prompt": "Zet in de voltooid verleden tijd: *Ik heb nog nooit Nederlands gehoord.* Vul aan: Toen ik begon, …",
+      "answers": ["Toen ik begon, had ik nog nooit Nederlands gehoord", "Toen ik begon, had ik nog nooit Nederlands gehoord.", "had ik nog nooit Nederlands gehoord"],
+      "hint": "*heb* → *had*.",
+      "explain": "*Toen ik begon, had ik nog nooit Nederlands gehoord.* Het (niet-)horen lag vóór dat beginmoment."
+    },
+    {
+      "type": "card",
+      "title": "Mijn verhaal — laag 14: je hypothese of spijt",
+      "body": "Voeg aan je verhaal een eerlijk 'wat-als' toe. Twee vormen werken mooi: een **hypothese** (*als ik eerder was begonnen, zou ik nu…*) en een **kleine spijt** (*ik had wat vaker moeten durven praten*). Het maakt je verhaal menselijk en volwassen.",
+      "callout": "Geen zwaar drama — een lichte reflectie is precies goed."
+    },
+    {
+      "type": "builder",
+      "title": "Mijn verhaal — laag 14: wat-als & spijt",
+      "prompt": "Bouw je hypothese en je spijt. Kies per gleuf — of schrijf je eigen.",
+      "slots": [
+        { "label": "Een hypothese (als…, zou ik…)", "chips": ["Als ik eerder was begonnen, zou ik nu vloeiender zijn", "Als ik in Nederland was opgegroeid, zou het makkelijker zijn geweest", "Zonder deze cursus zou ik nog steeds in het Engels vluchten"] },
+        { "label": "Een kleine spijt (ik had…)", "chips": ["ik had wat vaker moeten durven praten", "ik had minder bang voor fouten moeten zijn", "ik had eerder Nederlandse vrienden moeten maken"] },
+        { "label": "Maar toch… (en toch / gelukkig)", "chips": ["en toch ben ik trots op hoe ver ik ben", "gelukkig is het nooit te laat", "en toch heb ik doorgezet"] }
+      ],
+      "sample": "Als ik eerder was begonnen, zou ik nu vloeiender zijn. Ik had wat vaker moeten durven praten. En toch ben ik trots op hoe ver ik ben."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma and You look back on the year of Dutch over a coffee.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Weet je nog, een jaar geleden? Toen durfde je amper 'hoi' te zeggen.", "en": "Remember, a year ago? Back then you barely dared say 'hi'." },
+        { "speaker": "You", "nl": "Als jij toen niet zo geduldig was geweest, was ik allang gestopt.", "en": "If you hadn't been so patient back then, I'd have quit long ago.", "spotlight": "Verleden irreëel: *als … was geweest, was ik gestopt*." },
+        { "speaker": "Emma", "nl": "Onzin, dat had je zelf gedaan. Al had je best wat eerder mogen loskomen.", "en": "Nonsense, you did that yourself. Though you could've loosened up a bit sooner." },
+        { "speaker": "You", "nl": "Dat is waar. Ik had minder bang voor fouten moeten zijn.", "en": "That's true. I should've been less afraid of mistakes.", "spotlight": "Spijt: *had … moeten zijn*." },
+        { "speaker": "Emma", "nl": "Iedereen maakt fouten. Mocht je ooit twijfelen, denk aan nu.", "en": "Everyone makes mistakes. Should you ever doubt, think of now." },
+        { "speaker": "You", "nl": "Als ik het opnieuw moest doen, zou ik precies hetzelfde doen.", "en": "If I had to do it again, I'd do exactly the same." },
+        { "speaker": "Emma", "nl": "Zie je wel. Geen spijt dus.", "en": "See. No regrets then." },
+        { "speaker": "You", "nl": "Geen spijt. Alleen dankbaarheid.", "en": "No regrets. Only gratitude." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Terugblik",
+      "questions": [
+        { "q": "Wat had You volgens Emma eerder mogen doen?", "options": ["Eerder loskomen en durven praten", "Eerder stoppen", "Meer Engels praten"], "correct": 0 },
+        { "q": "Heeft You spijt van het afgelopen jaar?", "options": ["Ja, veel", "Nee, geen spijt", "Een beetje"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Mijn verhaal — met een wat-als. Vertel kort wie je bent en waar je staat, en voeg nu een **hypothese en een kleine spijt** over je Nederlandse reis toe (*als ik…, zou ik…*; *ik had… moeten…*). Sluit af met iets positiefs. In het Nederlands, minstens vier zinnen.",
+      "starters": ["Ik heet … en ik leer nu ruim een jaar Nederlands.", "Als ik eerder …, zou ik …", "Ik had …, maar …", "En toch …"],
+      "minSentences": 4
+    },
+    {
+      "type": "journal",
+      "prompt": "Week 14 klaar — twee weken B2! Waar ben je deze week het meest trots op? Vier het, in het Nederlands.",
+      "starters": ["Deze week lukte …", "Ik ben trots dat …", "Volgende week ga ik …"],
+      "minSentences": 3
+    }
+  ]
+}

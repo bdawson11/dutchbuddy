@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "day-12",
+  "day": 12,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Preguntas: qué, quién, dónde…",
+  "emoji": "❓",
+  "level": "A1",
+  "durationMin": [15, 22],
+  "summary": "The core question words and Spain's mandatory inverted ¿…? punctuation",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Las palabras interrogativas",
+      "body": "Con estas palabras preguntas casi todo: **qué** (what), **quién/quiénes** (who), **dónde** (where), **cuándo** (when), **cómo** (how), **por qué** (why), **cuánto/a/os/as** (how much/many).",
+      "table": {
+        "headers": ["Español", "Inglés"],
+        "rows": [
+          ["qué", "what"],
+          ["quién / quiénes", "who"],
+          ["dónde", "where"],
+          ["cuándo", "when"],
+          ["cómo", "how"],
+          ["por qué", "why"],
+          ["cuánto/a/os/as", "how much/many"]
+        ]
+      },
+      "callout": "Todas llevan **tilde** cuando preguntan — sin excepción."
+    },
+    {
+      "type": "card",
+      "title": "¿…? — la apertura es obligatoria",
+      "body": "En español **toda pregunta empieza con ¿** y toda exclamación con **¡** — no solo al final, como en inglés. *¿Dónde vives?* *¡Qué bien!* Da igual si la pregunta empieza en medio de la frase: *Oye, ¿qué hora es?*",
+      "callout": "Olvidar el ¿ inicial es el error que más rápido delata a un no nativo."
+    },
+    {
+      "type": "chips",
+      "title": "Escucha y repite",
+      "items": [
+        { "nl": "¿qué haces?", "en": "what are you doing?", "speak": "¿qué haces?" },
+        { "nl": "¿quién es?", "en": "who is it?", "speak": "¿quién es?" },
+        { "nl": "¿dónde vives?", "en": "where do you live?", "speak": "¿dónde vives?" },
+        { "nl": "¿cuándo quedamos?", "en": "when shall we meet?", "speak": "¿cuándo quedamos?" },
+        { "nl": "¿por qué no?", "en": "why not?", "speak": "¿por qué no?" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "por qué vs. porque",
+      "pairs": [
+        { "left": "¿por qué…? — dos palabras, con tilde, para preguntar", "right": "porque — una palabra, sin tilde, para responder", "note": "¿Por qué aprendes español? — Porque me gusta España." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál es la pregunta correcta para 'Who is it?'",
+      "options": ["¿Quién es?", "¿Qué es?", "Quién es?"],
+      "correct": 0,
+      "explain": "**¿Quién es?** — *quién* pregunta por personas, y no puede faltar el ¿ inicial."
+    },
+    {
+      "type": "typed",
+      "prompt": "Escribe la pregunta para 'Where do you live?'",
+      "answers": ["¿dónde vives?"],
+      "hint": "No olvides el ¿ al principio.",
+      "explain": "**¿Dónde vives?** — dónde + verbo + sujeto implícito."
+    },
+    {
+      "type": "dictation",
+      "speak": "¿cuánto cuesta?",
+      "answers": ["¿cuánto cuesta?"]
+    },
+    {
+      "type": "builder",
+      "title": "Construye una pregunta",
+      "slots": [
+        { "label": "Interrogativo", "chips": ["¿Qué", "¿Dónde", "¿Cuándo", "¿Por qué"] },
+        { "label": "Verbo + resto", "chips": ["haces?", "vives?", "quedamos?", "no vienes?"] }
+      ],
+      "sample": "¿Dónde vives?"
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa interviews You at the bar, curious as ever",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Oye, tío, ¿de dónde eres?", "en": "Hey, where are you from?" },
+        { "speaker": "You", "nl": "Soy de Toronto. ¿Y tú, dónde vives ahora?", "en": "I'm from Toronto. And you, where do you live now?" },
+        { "speaker": "Rafa", "nl": "Vivo en Malasaña. ¿Y por qué has venido a Madrid?", "en": "I live in Malasaña. And why did you come to Madrid?", "spotlight": "'por qué' asks the reason — always two words, tilde on qué." },
+        { "speaker": "You", "nl": "Pues... ¡porque me encanta España!", "en": "Well... because I love Spain!" },
+        { "speaker": "Rafa", "nl": "¡Hombre, esa es la respuesta correcta! ¿Cuándo empiezas las clases?", "en": "That's the right answer! When do you start classes?" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "¿Dónde vive Rafa?", "options": ["Lavapiés", "Malasaña", "Valencia"], "correct": 1 },
+        { "q": "¿Por qué ha venido 'you' a Madrid?", "options": ["Por trabajo", "Porque le encanta España", "Por su familia"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe cuatro preguntas para hacerle a un amigo nuevo, usando qué, dónde, cuándo y por qué.",
+      "starters": ["¿Qué…?", "¿Dónde…?"]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-14",
+  "day": 14,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "capstone",
+  "title": "Mi historia: mi rutina",
+  "emoji": "🎉",
+  "level": "A1",
+  "durationMin": [18, 25],
+  "summary": "Week-2 capstone: numbers, time, present tense, questions — then your daily-routine layer of Mi historia",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso: semana 2",
+      "body": "Esta semana has aprendido a **contar** del 0 al mil, a **decir la hora** y los días y meses, a conjugar el **presente regular** en -ar/-er/-ir (con **vosotros** incluido), a hacer **preguntas** con qué/dónde/cuándo, y a usar **hay** y los demostrativos **este/ese/aquel**. Todo el vocabulario del día a día. Vamos a juntarlo.",
+      "callout": "Segunda semana lista — ya puedes contar, preguntar la hora y describir tu rutina. ¡Menudo salto!"
+    },
+    {
+      "type": "chips",
+      "title": "Repaso rápido — tap through",
+      "items": [
+        { "nl": "son las ocho y media", "en": "it's half past eight", "speak": "son las ocho y media" },
+        { "nl": "¿cuánto es?", "en": "how much is it?", "speak": "¿cuánto es?" },
+        { "nl": "trabajo, como, vivo", "en": "I work, I eat, I live", "speak": "trabajo, como, vivo" },
+        { "nl": "¿qué haces?", "en": "what do you do?", "speak": "¿qué haces?" },
+        { "nl": "hay un bar aquí", "en": "there's a bar here", "speak": "hay un bar aquí" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cómo se dice 'we live' — vivir para 'nosotros'?",
+      "options": ["vivimos", "vivís", "viven"],
+      "correct": 0,
+      "explain": "**vivimos** — nosotros con -ir."
+    },
+    {
+      "type": "typed",
+      "prompt": "Escribe la hora: 7:30.",
+      "answers": ["son las siete y media"],
+      "explain": "**Son las siete y media.** — plural porque no es la una."
+    },
+    {
+      "type": "dictation",
+      "speak": "me levanto a las siete",
+      "answers": ["me levanto a las siete"]
+    },
+    {
+      "type": "contrast",
+      "title": "Repaso: por qué vs. porque",
+      "pairs": [
+        { "left": "¿por qué…? — pregunta, dos palabras", "right": "porque — respuesta, una palabra", "note": "¿Por qué madrugas? — Porque trabajo a las ocho." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Tu rutina, paso a paso",
+      "prompt": "Construye una frase sobre tu rutina diaria con un verbo en presente y una expresión de tiempo.",
+      "slots": [
+        { "label": "Verbo", "chips": ["Me levanto", "Trabajo", "Como", "Estudio español"] },
+        { "label": "Tiempo", "chips": ["a las siete", "a mediodía", "por la tarde", "los lunes"] }
+      ],
+      "sample": "Me levanto a las siete."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía walks You through a typical Madrid weekday",
+      "lines": [
+        { "speaker": "Lucía", "nl": "¿Cómo es un día normal para ti?", "en": "What's a normal day like for you?" },
+        { "speaker": "You", "nl": "Me levanto a las siete y trabajo hasta las tres.", "en": "I get up at seven and work until three." },
+        { "speaker": "Lucía", "nl": "¿Y a qué hora comes? Aquí comemos tarde, ¿eh?", "en": "And what time do you eat? We eat late here, huh?" },
+        { "speaker": "You", "nl": "Como a las dos y media. Y por la tarde, aprendo español.", "en": "I eat at half past two. And in the afternoon, I learn Spanish.", "spotlight": "aprendo — everyday -er present, tying the whole week together." },
+        { "speaker": "Lucía", "nl": "¡Perfecto! Pues ya tienes una rutina muy madrileña.", "en": "Perfect! Well, you've already got a very Madrid routine." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "¿A qué hora se levanta 'you'?", "options": ["A las siete", "A las ocho", "A las nueve"], "correct": 0 },
+        { "q": "¿Qué hace 'you' por la tarde?", "options": ["Trabaja", "Aprende español", "Come"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mi historia — capa 2",
+      "prompt": "Extiende tu presentación de la semana 1 añadiendo tu rutina diaria: qué haces y a qué hora.",
+      "slots": [
+        { "label": "Capa 1 (repaso)", "chips": ["Me llamo Alex, soy de Toronto y aprendo español."] },
+        { "label": "Rutina", "chips": ["Me levanto a las siete", "Trabajo por la mañana", "Como a las dos"] },
+        { "label": "Tiempo extra", "chips": ["y por la tarde estudio español", "y los sábados descanso"] }
+      ],
+      "sample": "Me llamo Alex, soy de Toronto y aprendo español. Me levanto a las siete y por la tarde estudio español."
+    },
+    {
+      "type": "journal",
+      "prompt": "¡Mi historia, semana 2! Añade tu rutina diaria a tu presentación: qué haces y cuándo. Usa al menos una expresión de tiempo. ¡Enhorabuena por dos semanas seguidas!",
+      "starters": ["Me levanto…", "Por la mañana…", "Por la tarde…"],
+      "minSentences": 3
+    }
+  ]
+}

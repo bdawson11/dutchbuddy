@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "day-11",
+  "day": 11,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "El presente: verbos en -ar, -er, -ir",
+  "emoji": "🧩",
+  "level": "A1",
+  "durationMin": [16, 24],
+  "summary": "The regular present tense across all three verb families, vosotros included",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Verbos en -ar: hablar",
+      "body": "Los verbos en **-ar** son el grupo más grande. Quita el -ar y añade las terminaciones: *hablo, hablas, habla, hablamos, habláis, hablan*.",
+      "table": {
+        "headers": ["Persona", "hablar"],
+        "rows": [
+          ["yo", "hablo"],
+          ["tú", "hablas"],
+          ["él/ella/usted", "habla"],
+          ["nosotros/as", "hablamos"],
+          ["vosotros/as", "habláis"],
+          ["ellos/ellas/ustedes", "hablan"]
+        ]
+      },
+      "callout": "**vosotros habláis** — la forma de 'you all' informal, la que usa toda España entre amigos."
+    },
+    {
+      "type": "card",
+      "title": "Verbos en -er: comer",
+      "body": "Los verbos en **-er** cambian la vocal de las terminaciones: *como, comes, come, comemos, coméis, comen*. Muy parecido a -ar, pero con -e- en vez de -a-.",
+      "table": {
+        "headers": ["Persona", "comer"],
+        "rows": [
+          ["yo", "como"],
+          ["tú", "comes"],
+          ["él/ella/usted", "come"],
+          ["nosotros/as", "comemos"],
+          ["vosotros/as", "coméis"],
+          ["ellos/ellas/ustedes", "comen"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "Verbos en -ir: vivir",
+      "body": "Los verbos en **-ir** son casi idénticos a los -er, salvo en **nosotros** y **vosotros**: *vivo, vives, vive, vivimos, vivís, viven*.",
+      "table": {
+        "headers": ["Persona", "vivir"],
+        "rows": [
+          ["yo", "vivo"],
+          ["tú", "vives"],
+          ["él/ella/usted", "vive"],
+          ["nosotros/as", "vivimos"],
+          ["vosotros/as", "vivís"],
+          ["ellos/ellas/ustedes", "viven"]
+        ]
+      },
+      "callout": "La única diferencia real con -er está en nosotros/vosotros: *comemos/coméis* vs *vivimos/vivís*."
+    },
+    {
+      "type": "contrast",
+      "title": "-ar vs. -er/-ir en vosotros",
+      "pairs": [
+        { "left": "habláis (-ar)", "right": "coméis / vivís (-er/-ir)", "note": "vosotros siempre lleva acento en la terminación: -áis, -éis, -ís." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Escucha y repite",
+      "items": [
+        { "nl": "trabajo en Madrid", "en": "I work in Madrid", "speak": "trabajo en Madrid" },
+        { "nl": "¿vosotros coméis tapas?", "en": "do you all eat tapas?", "speak": "¿vosotros coméis tapas?" },
+        { "nl": "vivimos cerca", "en": "we live nearby", "speak": "vivimos cerca" },
+        { "nl": "ella escribe mucho", "en": "she writes a lot", "speak": "ella escribe mucho" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál es la forma de 'vosotros' del verbo vivir?",
+      "options": ["vivís", "viven", "vivimos"],
+      "correct": 0,
+      "explain": "**vivís** — vosotros con -ir lleva -ís, con acento."
+    },
+    {
+      "type": "typed",
+      "prompt": "Conjuga 'hablar' para 'nosotros'.",
+      "answers": ["hablamos"],
+      "explain": "**hablamos** — quita -ar de hablar, añade -amos."
+    },
+    {
+      "type": "dictation",
+      "speak": "vosotros habláis muy bien",
+      "answers": ["vosotros habláis muy bien", "habláis muy bien"]
+    },
+    {
+      "type": "builder",
+      "title": "Construye una frase en presente",
+      "slots": [
+        { "label": "Sujeto", "chips": ["Yo", "Vosotros", "Nosotros", "Ella"] },
+        { "label": "Verbo", "chips": ["trabajo", "habláis", "vivimos", "escribe"] },
+        { "label": "Complemento", "chips": ["en Madrid", "español", "cerca", "mucho"] }
+      ],
+      "sample": "Vosotros habláis español."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Nacho quizzes the group at the bar about their routines",
+      "lines": [
+        { "speaker": "Nacho", "nl": "¿Vosotros trabajáis los sábados?", "en": "Do you all work on Saturdays?" },
+        { "speaker": "Rafa", "nl": "Yo no, pero Lucía sí, a veces.", "en": "Not me, but Lucía does, sometimes." },
+        { "speaker": "Lucía", "nl": "Escribo un poco los sábados por la mañana, nada más.", "en": "I write a little on Saturday mornings, that's all." },
+        { "speaker": "You", "nl": "Y yo aprendo español los sábados.", "en": "And I learn Spanish on Saturdays.", "spotlight": "aprendo — regular -er present, yo form." },
+        { "speaker": "Nacho", "nl": "Hombre, pues nosotros vivimos tranquilos: los sábados no hacemos nada.", "en": "Well, we live peacefully: Saturdays we do nothing." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "¿Quién trabaja los sábados a veces?", "options": ["Rafa", "Lucía", "Nacho"], "correct": 1 },
+        { "q": "¿Qué hace 'you' los sábados?", "options": ["Trabaja", "Aprende español", "Escribe"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe tres frases sobre tu rutina usando un verbo -ar, uno -er y uno -ir en presente.",
+      "starters": ["Yo trabajo…", "Yo como…", "Yo vivo…"]
+    }
+  ]
+}
