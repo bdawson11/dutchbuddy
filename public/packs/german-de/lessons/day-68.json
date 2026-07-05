@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "day-68",
+  "day": 68,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Verben am Satzende: die Klammer",
+  "emoji": "🔗",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The sentence bracket — finite verb in slot 2, infinitive at the end — and how the whole cluster lands last in a subclause.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Die Satzklammer",
+      "body": "When a sentence has two verbs (modal + infinitive), German splits them into a **bracket**: the **finite verb** sits in **slot 2**, and the **infinitive** goes all the way to the **end**. Everything else lives in between: *Ich **will** morgen mit dem Zug nach München **fahren**.* The middle field follows **Time – Manner – Place** (*morgen – mit dem Zug – nach München*).",
+      "callout": "Modal in slot 2, infinitive at the end. English keeps its verbs together; German pulls them apart and fills the gap."
+    },
+    {
+      "type": "card",
+      "title": "Im Nebensatz: alles ans Ende",
+      "body": "In a **subclause** (*weil, dass, wenn, ob…*), even the **finite verb** joins the pile at the end — and it lands **last of all**: *…, weil ich morgen nach München fahren **will**.* The order flips: first the infinitive, then the modal. **The conjugated verb goes to the very end.**",
+      "callout": "Main clause *Ich **will** … fahren* → as a subclause tail it becomes *…, weil ich … fahren **will*** — the modal is now the last word."
+    },
+    {
+      "type": "contrast",
+      "title": "Hauptsatz ↔ Nebensatz",
+      "pairs": [
+        { "left": "Ich muss den Umzug planen.", "right": "…, dass ich den Umzug planen muss.", "note": "Main clause: *muss* in slot 2. Subclause: *muss* at the very end, after the infinitive." },
+        { "left": "Sie will nach München ziehen.", "right": "…, weil sie nach München ziehen will.", "note": "*will* jumps to the end; *ziehen* sits just before it." },
+        { "left": "Wir können am Samstag helfen.", "right": "…, wenn wir am Samstag helfen können.", "note": "Same flip: finite *können* last." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Zwei-Verb-Sätze — tap to hear",
+      "items": [
+        { "nl": "Ich will morgen nach Hause fahren.", "en": "I want to go home tomorrow.", "speak": "Ich will morgen nach Hause fahren." },
+        { "nl": "Wir müssen die Kisten packen.", "en": "We have to pack the boxes.", "speak": "Wir müssen die Kisten packen." },
+        { "nl": "Kannst du mir am Samstag helfen?", "en": "Can you help me on Saturday?", "speak": "Kannst du mir am Samstag helfen?" },
+        { "nl": "Ich möchte bald umziehen.", "en": "I'd like to move soon.", "speak": "Ich möchte bald umziehen." },
+        { "nl": "Sie will den Job annehmen.", "en": "She wants to take the job.", "speak": "Sie will den Job annehmen." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welcher Nebensatz ist richtig?",
+      "options": ["…, weil ich muss morgen arbeiten.", "…, weil ich morgen arbeiten muss.", "…, weil morgen ich arbeiten muss."],
+      "correct": 1,
+      "explain": "In a *weil*-clause the finite verb goes **last**: *…, weil ich morgen arbeiten muss.* Option 1 keeps V2 (wrong for a subclause)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Ordne zum Nebensatz: 'weil / ich / heute / nach München / fahren / muss'.",
+      "answers": ["weil ich heute nach München fahren muss", "weil ich heute nach München fahren muss.", "…, weil ich heute nach München fahren muss"],
+      "hint": "The finite verb (*muss*) goes to the very end.",
+      "explain": "*…, weil ich heute nach München fahren muss.* Time (*heute*) – Place (*nach München*) – Infinitiv (*fahren*) – Modal last (*muss*)."
+    },
+    {
+      "type": "builder",
+      "title": "Bau einen Satz mit Klammer",
+      "prompt": "Modal in slot 2, infinitive at the end, middle field in Time–Manner–Place order.",
+      "slots": [
+        { "label": "Subjekt + Modalverb", "chips": ["Ich will", "Ich muss", "Wir wollen"] },
+        { "label": "Zeit + Art + Ort", "chips": ["morgen mit dem Zug nach München", "am Samstag mit dem Auto nach Köln", "nächste Woche mit dem Bus nach Hause"] },
+        { "label": "Infinitiv (ans Ende)", "chips": ["fahren", "ziehen", "kommen"] }
+      ],
+      "sample": "Ich will morgen mit dem Zug nach München fahren."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type it.",
+      "speak": "Ich will morgen nach München fahren.",
+      "answers": ["Ich will morgen nach München fahren", "Ich will morgen nach München fahren.", "ich will morgen nach münchen fahren"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena texts you about the weekend; a possible move is in the air.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Was hast du am Wochenende vor? Ich muss ein paar Sachen erledigen.", "en": "What are your plans this weekend? I've got a few things to get done.", "spotlight": "*Ich muss … erledigen* — modal slot 2, infinitive at the end." },
+        { "speaker": "You", "nl": "Nicht viel. Warum? Willst du etwas zusammen machen?", "en": "Not much. Why? Do you want to do something together?" },
+        { "speaker": "Lena", "nl": "Kann sein, dass wir Aylin beim Packen helfen müssen.", "en": "It might be that we'll have to help Aylin pack.", "spotlight": "*…, dass wir … helfen müssen* — finite *müssen* at the very end." },
+        { "speaker": "You", "nl": "Oh! Hat sie sich also entschieden?", "en": "Oh! So she's decided?" },
+        { "speaker": "Lena", "nl": "Fast. Sie will diese Woche endgültig zusagen. Dann geht's schnell.", "en": "Almost. She wants to say yes for good this week. Then it'll move fast.", "spotlight": "Still 'almost' — the decision lands this week, not done yet." },
+        { "speaker": "You", "nl": "Dann halte ich mir den Samstag frei.", "en": "Then I'll keep Saturday free." },
+        { "speaker": "Lena", "nl": "Perfekt. Ich schreib dir, sobald ich mehr weiß.", "en": "Perfect. I'll message you as soon as I know more." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Verstanden?",
+      "questions": [
+        { "q": "Was müssen Lena und du vielleicht machen?", "options": ["Aylin beim Packen helfen", "nach Köln fahren", "eine Wohnung suchen"], "correct": 0 },
+        { "q": "Wann will Aylin endgültig zusagen?", "options": ["nächstes Jahr", "diese Woche", "nie"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Was willst oder musst du diese Woche machen? Schreib drei Sätze mit Modalverb + Infinitiv am Ende. Dann einen Nebensatz mit *weil* (Verb ganz ans Ende!).",
+      "starters": ["Diese Woche will ich…", "Ich muss … …", "…, weil ich … muss."],
+      "minSentences": 4
+    }
+  ]
+}

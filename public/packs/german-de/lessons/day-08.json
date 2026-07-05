@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "day-08",
+  "day": 8,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Zahlen: null bis hundert",
+  "emoji": "🔢",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Numbers 0–100 and the reversed-units trick — German says the ones before the tens, all as one word",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Zahlen 0–12: die Basis",
+      "body": "The numbers 0–10 are simple vocabulary — learn them like any other words. Two look almost regular but aren't: **11** is *elf*, **12** is *zwölf* (not *einzehn*, not *zweizehn*). Get these twelve solid and the rest of the system builds itself.",
+      "table": {
+        "headers": ["Zahl", "Deutsch"],
+        "rows": [
+          ["0", "null"],
+          ["1", "eins"],
+          ["2", "zwei"],
+          ["3", "drei"],
+          ["4", "vier"],
+          ["5", "fünf"],
+          ["6", "sechs"],
+          ["7", "sieben"],
+          ["8", "acht"],
+          ["9", "neun"],
+          ["10", "zehn"],
+          ["11", "elf"],
+          ["12", "zwölf"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Höre die Basis-Zahlen",
+      "items": [
+        { "nl": "eins", "en": "one", "speak": "eins" },
+        { "nl": "fünf", "en": "five", "speak": "fünf" },
+        { "nl": "sieben", "en": "seven", "speak": "sieben" },
+        { "nl": "zehn", "en": "ten", "speak": "zehn" },
+        { "nl": "elf", "en": "eleven", "speak": "elf" },
+        { "nl": "zwölf", "en": "twelve", "speak": "zwölf" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "13 bis 100: der Zahlendreher",
+      "body": "From 13–19, add **-zehn**: *dreizehn, vierzehn, fünfzehn* — but *sechzehn* (one *s*) and *siebzehn* (drops *-en*) contract a little. The tens: **zwanzig** (20) and **dreißig** (30, note the *ß*) are irregular; then it's regular *-zig*: *vierzig, fünfzig, sechzig, siebzig, achtzig, neunzig*, then *hundert*. Now the twist: from 21 on, German says the **ones before the tens**, joined by *und*, as **one word**: **21 = einundzwanzig** — literally \"one-and-twenty\". *eins* drops its final *-s* here: *ein*undzwanzig, not *einsundzwanzig*.",
+      "table": {
+        "headers": ["Zahl", "Deutsch"],
+        "rows": [
+          ["13", "dreizehn"],
+          ["17", "siebzehn"],
+          ["20", "zwanzig"],
+          ["21", "einundzwanzig"],
+          ["30", "dreißig"],
+          ["45", "fünfundvierzig"],
+          ["67", "siebenundsechzig"],
+          ["100", "hundert"]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "Den Trick erkennen",
+      "pairs": [
+        { "left": "21 — English: twenty-one", "right": "21 — Deutsch: einundzwanzig", "note": "German swaps the order: ones first, then tens, glued into one word." },
+        { "left": "16 — sechzehn", "right": "17 — siebzehn", "note": "Both contract a little: sech(s)zehn, sieb(en)zehn — the base number loses a letter or two." },
+        { "left": "20 — zwanzig", "right": "30 — dreißig", "note": "Both irregular — learn them as their own words, not a formula." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Zehner und der Dreh",
+      "items": [
+        { "nl": "dreizehn", "en": "thirteen", "speak": "dreizehn" },
+        { "nl": "sechzehn", "en": "sixteen", "speak": "sechzehn" },
+        { "nl": "siebzehn", "en": "seventeen", "speak": "siebzehn" },
+        { "nl": "zwanzig", "en": "twenty", "speak": "zwanzig" },
+        { "nl": "dreißig", "en": "thirty", "speak": "dreißig" },
+        { "nl": "einundzwanzig", "en": "twenty-one", "speak": "einundzwanzig" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welche Zahl ist *dreiundvierzig*?",
+      "options": ["34", "43", "33"],
+      "correct": 1,
+      "explain": "German gives the ones before the tens: drei-und-vierzig = \"three-and-forty\" = 43."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the German word for 56.",
+      "answers": ["sechsundfünfzig"],
+      "hint": "fünfzig (50) + sechs (6) — ones first, one word.",
+      "explain": "56 = sechsundfünfzig — six-and-fifty, glued into one word."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the number you hear.",
+      "speak": "neunundachtzig",
+      "answers": ["neunundachtzig"]
+    },
+    {
+      "type": "builder",
+      "title": "Sag dein Alter",
+      "prompt": "Complete the sentence: Ich bin ___ Jahre alt.",
+      "slots": [
+        { "label": "Zahl", "chips": ["einundzwanzig", "fünfundzwanzig", "dreißig", "fünfunddreißig", "vierzig"] }
+      ],
+      "sample": "Ich bin dreißig Jahre alt."
+    },
+    {
+      "type": "journal",
+      "prompt": "Numbers day! Write out your age, a made-up phone-style number, and one number between 60 and 99 — all fully in German words.",
+      "starters": ["Ich bin … Jahre alt.", "Die Zahl … heißt auf Deutsch …"]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "day-41",
+  "day": 41,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "review",
+  "title": "La settimana no di Sofia",
+  "emoji": "🛵",
+  "level": "A2",
+  "durationMin": [15, 20],
+  "summary": "Week 6 review: immersion with Sofia's rough week — scooter trouble, illness, farmacia to medico",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ripasso: salute, sentimenti, consigli",
+      "body": "This week: **il corpo** and *mi fa / mi fanno male*, the **farmacia-first** habit and *mal di…*, emergency phrases and **il 112**, **sentirsi** + feelings, and giving advice with **devi / dovresti** and **perché non…?**. Time to put it all to work — and to catch up with Sofia.",
+      "callout": "Ripasso — everything from this week, in one story."
+    },
+    {
+      "type": "chips",
+      "title": "Ripasso veloce",
+      "items": [
+        { "nl": "mal di testa", "en": "headache", "speak": "mal di testa" },
+        { "nl": "mi sento stanco", "en": "I feel tired", "speak": "mi sento stanco" },
+        { "nl": "dovresti riposare", "en": "you should rest", "speak": "dovresti riposare" },
+        { "nl": "in farmacia", "en": "at the pharmacy", "speak": "in farmacia" },
+        { "nl": "l'ambulanza", "en": "ambulance", "speak": "l'ambulanza" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Sofia says her legs hurt after a long walk. Which is correct?",
+      "options": ["Mi fa male le gambe", "Mi fanno male le gambe", "Mi sento le gambe"],
+      "correct": 1,
+      "explain": "*le gambe* is plural — fanno, not fa. A week-6 keeper."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'You should go to the pharmacy.'",
+      "answers": ["dovresti andare in farmacia", "dovresti andare in farmacia."],
+      "hint": "dovere, conditional tu-form.",
+      "explain": "*Dovresti andare in farmacia* — the softer suggestion, perfect for a friend."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, Sofia finally surfaces after a rough few days and tells Giulia, Marco, and 'You' what happened",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Sofia! Come stai? Sembri stanca morta.", "en": "Sofia! How are you? You look dead tired." },
+        { "speaker": "Sofia", "nl": "Ho avuto una settimana orribile, ragazzi.", "en": "I've had a horrible week, guys." },
+        { "speaker": "Marco", "nl": "Cosa è successo?", "en": "What happened?" },
+        { "speaker": "Sofia", "nl": "Lunedì lo scooter non è partito. Si è rotto, di nuovo!", "en": "On Monday the scooter wouldn't start. It broke down, again!", "spotlight": "si è rotto agrees with lo scooter, masculine — passato prossimo with essere." },
+        { "speaker": "Sofia", "nl": "E poi, mercoledì, mi sono sentita malissimo. Avevo la febbre e mal di gola.", "en": "And then, on Wednesday, I felt awful. I had a fever and a sore throat.", "spotlight": "mi sono sentita — feminine, because Sofia's talking about herself." },
+        { "speaker": "You", "nl": "Sei andata dal medico?", "en": "Did you go to the doctor?" },
+        { "speaker": "Sofia", "nl": "Prima sono andata in farmacia — il farmacista mi ha detto di riposare e bere tanta acqua.", "en": "First I went to the pharmacy — the pharmacist told me to rest and drink lots of water." },
+        { "speaker": "Sofia", "nl": "Ma la febbre non è passata, così sono andata dal medico giovedì.", "en": "But the fever didn't go away, so I went to the doctor on Thursday." },
+        { "speaker": "Marco", "nl": "Che disastro! Adesso stai meglio?", "en": "What a disaster! Are you better now?" },
+        { "speaker": "Sofia", "nl": "Sì, molto meglio, grazie. Ma che settimana!", "en": "Yes, much better, thanks. What a week!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "What broke down on Monday?", "options": ["Sofia's phone", "Sofia's scooter", "Sofia's bike"], "correct": 1 },
+        { "q": "Where did Sofia go first when she got sick?", "options": ["To the doctor", "To the pharmacy", "To the hospital"], "correct": 1 },
+        { "q": "How does Sofia feel by the end of the story?", "options": ["Still unwell", "Much better", "The same as before"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Hai mai avuto una settimana come quella di Sofia? Racconta cosa è successo, cosa hai fatto, e come ti sei sentito/a.",
+      "starters": ["Ho avuto una settimana…", "Mi sono sentito/a…"]
+    }
+  ]
+}

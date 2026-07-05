@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "day-62",
+  "day": 62,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "review",
+  "title": "Aylins Neuigkeiten",
+  "emoji": "📰",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Week 9 review — pull the connectors, relative clauses, reported speech and Konjunktiv II together, then hear Aylin drop a piece of news that could change everything.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Rückblick: Woche 9 — komplexe Sätze",
+      "body": "Diese Woche wurden deine Sätze länger und ausdrucksstärker: neue Nebensätze (*obwohl, bevor, nachdem, damit*), **Relativsätze** (*der/den/dem/denen*), **indirekte Rede** (*… hat gesagt, dass …*, Fragen mit *ob*), der höfliche **Konjunktiv II** (*würde, hätte, wäre*) und **wenn-Sätze**, real wie hypothetisch. Heute setzt du alles im Gespräch ein — und Aylin hat große Neuigkeiten.",
+      "callout": "Guck mal genau hin: Wie berichtet man, was jemand gesagt hat? Genau das braucht Aylin heute."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to warm up the week's moves",
+      "items": [
+        { "nl": "obwohl es spät ist", "en": "although it's late", "speak": "obwohl es spät ist" },
+        { "nl": "der Mann, den ich kenne", "en": "the man I know", "speak": "der Mann, den ich kenne" },
+        { "nl": "Sie hat gesagt, dass …", "en": "she said that …", "speak": "Sie hat gesagt, dass" },
+        { "nl": "Ich würde gern …", "en": "I'd like to …", "speak": "Ich würde gern" },
+        { "nl": "Wenn ich Zeit hätte, …", "en": "if I had time, …", "speak": "Wenn ich Zeit hätte" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Mixed drill: „Das ist die Kollegin, ___ ich total vertraue.“ Welches Wort passt?",
+      "options": ["die", "der", "denen"],
+      "correct": 1,
+      "explain": "*vertrauen* takes the dative, so the relative pronoun is feminine dative → *der*. (*denen* would be plural, *die* would be nominative or accusative.)"
+    },
+    {
+      "type": "typed",
+      "prompt": "Report it in German. Aylin sagt: „Ich habe ein Angebot.“ → Aylin hat gesagt, dass ___",
+      "answers": ["sie ein Angebot hat"],
+      "hint": "ich → sie, habe → hat, verb to the end.",
+      "explain": "*Aylin hat gesagt, dass sie ein Angebot hat.* — exactly the move today's story runs on."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the café, Aylin is visibly nervous. She stirs her coffee for a while before she finally spills it to Lena and you.",
+      "lines": [
+        { "speaker": "Aylin", "nl": "Ich muss euch was erzählen. Ich bin total durcheinander.", "en": "I have to tell you something. I'm completely mixed up." },
+        { "speaker": "Lena", "nl": "Na? Erzähl, was ist los?", "en": "Well? Tell us, what's going on?" },
+        { "speaker": "Aylin", "nl": "Also … eine Design-Agentur aus München hat mir geschrieben.", "en": "So … a design agency in Munich wrote to me.", "spotlight": "München — the first time Munich enters the story. Aylin still lives in Berlin; this is only an email." },
+        { "speaker": "You", "nl": "Aus München? Und was wollen die?", "en": "From Munich? And what do they want?" },
+        { "speaker": "Aylin", "nl": "Sie haben gesagt, dass sie mich einstellen wollen. Eine Festanstellung, mehr Gehalt, alles.", "en": "They said they want to hire me. A permanent job, more money, everything.", "spotlight": "*Sie haben gesagt, dass sie mich einstellen wollen* — the news itself arrives as reported speech." },
+        { "speaker": "Lena", "nl": "Aylin, das ist ja der Wahnsinn! Und? Was hast du gesagt?", "en": "Aylin, that's amazing! And? What did you say?" },
+        { "speaker": "Aylin", "nl": "Noch nichts. Ich hab gefragt, ob ich Bedenkzeit haben kann.", "en": "Nothing yet. I asked whether I could have some time to think.", "spotlight": "*Ich hab gefragt, ob …* — a reported yes/no question. Nothing is decided." },
+        { "speaker": "You", "nl": "Klingt aber, als würdest du drüber nachdenken.", "en": "But it sounds like you're thinking about it." },
+        { "speaker": "Aylin", "nl": "Weg von Berlin … das ist eine Entscheidung, die alles verändert. Ich weiß es einfach noch nicht.", "en": "Away from Berlin … that's a decision that changes everything. I just don't know yet." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hast du alles mitbekommen?",
+      "questions": [
+        { "q": "Was hat die Agentur aus München Aylin gesagt?", "options": ["Dass sie zu spät dran ist", "Dass sie sie einstellen wollen", "Dass die Stelle schon weg ist"], "correct": 1 },
+        { "q": "Wie hat Aylin auf das Angebot reagiert?", "options": ["Sie hat sofort zugesagt", "Sie hat sofort abgelehnt", "Sie hat um Bedenkzeit gebeten"], "correct": 2 },
+        { "q": "Wo wäre die neue Stelle?", "options": ["In Hamburg", "In München", "In Köln"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Erzähl Aylins Neuigkeit in indirekter Rede weiter: Was hat sie gesagt, was hat sie gefragt? Nutze mindestens zweimal *… hat gesagt, dass …* oder *… hat gefragt, ob …*.",
+      "starters": ["Aylin hat gesagt, dass …", "Sie hat erzählt, dass …", "Aylin hat gefragt, ob …", "Ich glaube, dass …"],
+      "minSentences": 3
+    }
+  ]
+}

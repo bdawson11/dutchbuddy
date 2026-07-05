@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-89",
+  "day": 89,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "Il congiuntivo dopo le congiunzioni",
+  "emoji": "🔗",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Conjunctions that always trigger the subjunctive: benché, prima che, purché, a meno che…",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Congiunzioni che vogliono il congiuntivo",
+      "body": "Some conjunctions **always** pull the congiuntivo — no opinion verb needed. Learn them as a set.",
+      "table": {
+        "headers": ["Congiunzione", "Significato", "Esempio"],
+        "rows": [
+          ["benché / sebbene", "although", "Benché piova, esco."],
+          ["affinché / perché (scopo)", "so that", "Te lo dico affinché tu capisca."],
+          ["prima che", "before", "Parti prima che arrivi Marco."],
+          ["purché / a patto che", "as long as", "Vengo, purché ci sia Sofia."],
+          ["a meno che (… non)", "unless", "Esco, a meno che non piova."],
+          ["senza che", "without", "È uscito senza che me ne accorgessi."]
+        ]
+      },
+      "callout": "*perché* = 'because' (indicativo) **o** 'so that' (congiuntivo). Il congiuntivo segnala lo scopo."
+    },
+    {
+      "type": "card",
+      "title": "Occhio a queste due",
+      "body": "**prima che** takes the congiuntivo (*prima che tu **parta***) — but **dopo che** takes the indicativo (*dopo che sei **partito***). And **a meno che** usually carries a 'pleonastic' *non* that doesn't mean 'not': *a meno che non piova* = *unless it rains*.",
+      "callout": "Se il soggetto è lo stesso, spesso si usa l'infinito: *prima di partire*, non *prima che io parta*."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta e ripeti",
+      "items": [
+        { "nl": "Benché sia stanco, esco lo stesso.", "en": "Even though I'm tired, I'm going out anyway.", "speak": "Benché sia stanco, esco lo stesso." },
+        { "nl": "Te lo spiego affinché tu capisca.", "en": "I'll explain it so you understand.", "speak": "Te lo spiego affinché tu capisca." },
+        { "nl": "Chiamami prima che sia troppo tardi.", "en": "Call me before it's too late.", "speak": "Chiamami prima che sia troppo tardi." },
+        { "nl": "Vengo, purché non faccia freddo.", "en": "I'll come, as long as it's not cold.", "speak": "Vengo, purché non faccia freddo." },
+        { "nl": "Usciamo, a meno che tu non sia stanco.", "en": "Let's go out, unless you're tired.", "speak": "Usciamo, a meno che tu non sia stanco." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Congiuntivo o indicativo?",
+      "pairs": [
+        { "left": "**Benché** sia caro, lo compro.", "right": "**Anche se** è caro, lo compro.", "note": "'benché' → congiuntivo; 'anche se' → indicativo. Stesso senso!" },
+        { "left": "**prima che** tu parta", "right": "**dopo che** sei partito", "note": "prima che → congiuntivo; dopo che → indicativo." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Ti aiuto ___ tu finisca in tempo.» (scopo)",
+      "options": ["dopo che", "affinché", "perché sei bravo"],
+      "correct": 1,
+      "explain": "Scopo = *affinché* + congiuntivo (*finisca*). *Dopo che* vuole l'indicativo; l'ultima opzione è 'perché = because'."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduci: 'Although it's raining, I'm going out.' — usa *benché*.",
+      "answers": ["benché piova esco", "benché piova, esco", "sebbene piova esco"],
+      "hint": "benché + congiuntivo presente di piovere (piova).",
+      "explain": "*Benché piova, esco.* La congiunzione *benché* impone il congiuntivo."
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci con una congiunzione",
+      "prompt": "Fai una frase con una congiunzione + congiuntivo.",
+      "slots": [
+        { "label": "Congiunzione", "chips": ["Benché", "Prima che", "Purché", "A meno che"] },
+        { "label": "Soggetto + verbo", "chips": ["sia tardi", "tu parta", "ci sia Sofia", "non piova"] },
+        { "label": "Principale", "chips": ["resto ancora un po'", "voglio salutarti", "vengo volentieri", "facciamo una passeggiata"] }
+      ],
+      "sample": "Purché ci sia Sofia, vengo volentieri."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Giulia is trying to convince you to come to an aperitivo.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Dai, vieni all'aperitivo stasera!", "en": "Come on, come to the aperitivo tonight!" },
+        { "speaker": "You", "nl": "Vengo volentieri, purché non finiamo tardi.", "en": "I'll gladly come, as long as we don't finish late.", "spotlight": "'purché' + congiuntivo." },
+        { "speaker": "Giulia", "nl": "Tranquillo. Anche se rimani un'ora, va benissimo.", "en": "Relax. Even if you stay an hour, that's fine." },
+        { "speaker": "You", "nl": "Benché sia stanchissimo, un aperitivo non si rifiuta.", "en": "Even though I'm exhausted, you don't turn down an aperitivo.", "spotlight": "'benché' + congiuntivo." },
+        { "speaker": "Giulia", "nl": "Bravo! Ti scrivo prima che esca di casa.", "en": "Nice! I'll text you before I leave the house." },
+        { "speaker": "You", "nl": "Perfetto. A meno che non piova, ci sono.", "en": "Perfect. Unless it rains, I'm there." },
+        { "speaker": "Giulia", "nl": "Non pioverà, fidati. A dopo!", "en": "It won't rain, trust me. See you later!" },
+        { "speaker": "You", "nl": "A dopo, Giulia!", "en": "See you, Giulia!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai capito?",
+      "questions": [
+        { "q": "A quale condizione 'You' viene all'aperitivo?", "options": ["Purché non finiscano tardi", "Purché venga Pietro", "Purché piova"], "correct": 0 },
+        { "q": "Cosa dice 'You' benché sia stanco?", "options": ["Che un aperitivo non si rifiuta", "Che resta a casa", "Che è malato"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi tre frasi usando *benché*, *purché* e *prima che*. Parla dei tuoi piani per il weekend.",
+      "starters": ["Benché…", "Verrò, purché…", "Voglio finire prima che…"],
+      "minSentences": 3
+    }
+  ]
+}

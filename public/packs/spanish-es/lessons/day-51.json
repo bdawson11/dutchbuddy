@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "day-51",
+  "day": 51,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "Me lo dio: los pronombres de objeto",
+  "emoji": "🔗",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Direct and indirect object pronouns, and how they combine (me lo dio, se lo doy)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Pronombres de objeto directo: lo, la, los, las",
+      "body": "El objeto directo recibe la acción del verbo directamente. En vez de repetir el sustantivo, usa **lo/la/los/las** (concuerdan en género y número) y colócalo **antes** del verbo conjugado: *¿Tienes el libro? Sí, **lo** tengo.*",
+      "table": {
+        "headers": ["Sustantivo", "Pronombre"],
+        "rows": [
+          ["el libro (masc. sing.)", "lo"],
+          ["la guitarra (fem. sing.)", "la"],
+          ["los libros (masc. pl.)", "los"],
+          ["las tapas (fem. pl.)", "las"]
+        ]
+      },
+      "callout": "*¿Ves a Rafa? Sí, **lo** veo en el bar.*"
+    },
+    {
+      "type": "chips",
+      "title": "Escucha: objeto directo",
+      "items": [
+        { "nl": "lo tengo", "en": "I have it (masc.)", "speak": "lo tengo" },
+        { "nl": "la veo", "en": "I see her/it (fem.)", "speak": "la veo" },
+        { "nl": "los conozco", "en": "I know them (masc.)", "speak": "los conozco" },
+        { "nl": "las quiero", "en": "I love them (fem.)", "speak": "las quiero" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Pronombres de objeto indirecto: le, les",
+      "body": "El objeto indirecto responde a **¿a quién?** — normalmente la persona que recibe algo. Los pronombres son **me, te, le, nos, os, les**. *Le* y *les* no cambian de género, y a veces se aclaran con *a + persona*: *Le doy el libro **a Lucía**.*",
+      "table": {
+        "headers": ["Persona", "Pronombre"],
+        "rows": [
+          ["yo", "me"],
+          ["tú", "te"],
+          ["él/ella/usted", "le"],
+          ["nosotros/as", "nos"],
+          ["vosotros/as", "os"],
+          ["ellos/ellas/ustedes", "les"]
+        ]
+      },
+      "callout": "*¿Qué le regalas a Sofía? Le regalo un libro.*"
+    },
+    {
+      "type": "contrast",
+      "title": "Objeto directo vs. objeto indirecto",
+      "pairs": [
+        { "left": "objeto directo → ¿qué? / ¿a quién? (recibe la acción)", "right": "objeto indirecto → ¿a quién? (recibe el beneficio)", "note": "*Veo a Rafa* → **lo** veo (directo). *Doy un libro a Rafa* → **le** doy un libro (indirecto; el libro es el objeto directo)." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Cuando se juntan: me lo dio",
+      "body": "Cuando una frase tiene **los dos pronombres**, el indirecto va primero: *me lo dio, te la presto, nos los cuenta*. Pero ojo: si el indirecto es **le** o **les** y va delante de **lo/la/los/las**, se convierte en **se**: *le + lo = **se lo***.",
+      "table": {
+        "headers": ["Frase completa", "Con pronombres"],
+        "rows": [
+          ["Rafa le presta la guitarra a Sofía.", "Rafa se la presta."],
+          ["Le doy el libro a Lucía.", "Se lo doy."],
+          ["Les cuento la historia a mis amigos.", "Se la cuento."]
+        ]
+      },
+      "callout": "**se lo, se la, se los, se las** — nunca *le lo*. Es la trampa número uno."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Rafa me presta su guitarra. → Rafa ___ presta.",
+      "options": ["me la", "me lo", "me le"],
+      "correct": 0,
+      "explain": "*su guitarra* es femenino singular → **la**. El indirecto *me* no cambia y va primero: **me la** presta."
+    },
+    {
+      "type": "typed",
+      "prompt": "Cambia por pronombres: 'Le doy el libro a Lucía.'",
+      "answers": ["se lo doy", "Se lo doy."],
+      "hint": "le + lo = se lo",
+      "explain": "*le* delante de *lo* se convierte en **se**: **Se lo doy.**"
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa: '¿Me traes la cuenta?' — 'Sí, ahora ___ traigo.'",
+      "answers": ["te la", "te la traigo"],
+      "hint": "objeto indirecto (te) + objeto directo (la cuenta)",
+      "explain": "*la cuenta* es femenino singular → **la**; el indirecto *te* va primero: **te la traigo**."
+    },
+    {
+      "type": "dictation",
+      "speak": "se lo doy mañana",
+      "answers": ["se lo doy mañana"]
+    },
+    {
+      "type": "builder",
+      "title": "Se lo doy a Rafa",
+      "prompt": "Construye una frase combinando los dos pronombres de objeto.",
+      "slots": [
+        { "label": "Indirecto", "chips": ["Se", "Me", "Te", "Nos"] },
+        { "label": "Directo", "chips": ["lo", "la", "los", "las"] },
+        { "label": "Verbo", "chips": ["doy", "presto", "cuento", "enseño"] },
+        { "label": "Complemento", "chips": ["a Rafa", "a Lucía", "esta tarde", "mañana"] }
+      ],
+      "sample": "Se lo doy a Rafa esta tarde."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Sofía te pide prestado algo antes de salir — objeto directo e indirecto en acción.",
+      "lines": [
+        { "speaker": "Sofía", "nl": "Oye, ¿me prestas tu paraguas? Creo que va a llover.", "en": "Hey, can you lend me your umbrella? I think it's going to rain." },
+        { "speaker": "You", "nl": "Claro, te lo presto. Tengo dos.", "en": "Sure, I'll lend it to you. I have two.", "spotlight": "te lo presto — indirecto (te) + directo (lo) juntos." },
+        { "speaker": "Sofía", "nl": "¡Gracias! Te lo devuelvo mañana, ¿vale?", "en": "Thanks! I'll give it back to you tomorrow, okay?" },
+        { "speaker": "You", "nl": "Vale, no te preocupes. ¿Y las llaves? ¿Las tienes?", "en": "Okay, don't worry. And the keys? Do you have them?" },
+        { "speaker": "Sofía", "nl": "Sí, las tengo aquí. ¡Nos vemos luego!", "en": "Yes, I have them here. See you later!" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Piensa en algo que le prestas o le das a un amigo/a. Escribe dos frases usando pronombres combinados (me lo, te la, se lo…).",
+      "starters": ["Le presto…", "Se lo doy…"]
+    }
+  ]
+}
