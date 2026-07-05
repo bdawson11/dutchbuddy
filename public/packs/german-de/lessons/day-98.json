@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "day-98",
+  "day": 98,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "capstone",
+  "title": "Meine Geschichte: Man sagt, ich sei …",
+  "emoji": "📣",
+  "level": "B2",
+  "durationMin": [25, 35],
+  "summary": "Week 14 capstone — pull reported speech and argument connectors together and add the self-intro layer: report feedback about your German and weigh it with a nuanced opinion.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Kapitel 14: Meine Geschichte, berichtet",
+      "body": "Zweite B2-Woche geschafft. Du kannst jetzt **wiedergeben** (*sie sagte, ich sei…*), auf **Konjunktiv II ausweichen** (*sie meinten, sie hätten…*), im **Nachrichtenstil** berichten und mit **Verbindern abwägen** (*einerseits … andererseits, zwar … aber, deshalb*). Heute kommt das in deine **Selbstvorstellung**: Berichte, was jemand über deinen Fortschritt **gesagt** hat, und füg deine eigene **abgewogene** Meinung an.",
+      "callout": "Ein Lob berichten (sie sagte, ich sei gut) klingt bescheidener, als es selbst zu behaupten."
+    },
+    {
+      "type": "chips",
+      "title": "Kurzer Refresh — antippen zum Hören",
+      "items": [
+        { "nl": "Sie sagt, ich sei besser geworden.", "en": "She says I've gotten better.", "speak": "Sie sagt, ich sei besser geworden." },
+        { "nl": "Man sagt, dass …", "en": "People say that …", "speak": "Man sagt, dass" },
+        { "nl": "Einerseits …, andererseits …", "en": "On one hand …, on the other …", "speak": "Einerseits, andererseits" },
+        { "nl": "Zwar …, aber …", "en": "Admittedly …, but …", "speak": "Zwar, aber" },
+        { "nl": "Er meinte, ich hätte Talent.", "en": "He reckoned I had talent.", "speak": "Er meinte, ich hätte Talent." },
+        { "nl": "Trotzdem übe ich weiter.", "en": "I keep practising anyway.", "speak": "Trotzdem übe ich weiter." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wie berichtest du ein Kompliment? 'Dein Deutsch ist gut', sagt Lena.",
+      "options": [
+        "Lena sagt, mein Deutsch ist gut.",
+        "Lena sagt, mein Deutsch sei gut.",
+        "Lena sagt, mein Deutsch wäre gut."
+      ],
+      "correct": 1,
+      "explain": "3. Person Singular → Konjunktiv I: *sei*. Das ist die saubere Berichtsform. Option 1 ist Indikativ, Option 3 (wäre) klingt eher hypothetisch."
+    },
+    {
+      "type": "typed",
+      "prompt": "Gib die Meinung wieder: 'Du hast Talent', sagt er. → Er sagt, ich ___ Talent.",
+      "answers": ["hätte", "Er sagt, ich hätte Talent"],
+      "hint": "1. Person → Ausweichform Konjunktiv II.",
+      "explain": "*Er sagt, ich hätte Talent.* — in der ich-Form weicht man auf hätte aus, weil habe wie der Indikativ klänge."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe.",
+      "speak": "Man sagt, ich sei fleißig.",
+      "answers": ["Man sagt, ich sei fleißig"]
+    },
+    {
+      "type": "contrast",
+      "title": "Flach vs. abgewogen — deine Geschichte",
+      "pairs": [
+        { "left": "Mein Deutsch ist okay. — flat", "right": "Zwar mache ich noch Fehler, aber ich verstehe fast alles — deshalb bin ich zufrieden. — nuanced", "note": "Season-2 self-intro weighs your progress instead of flattening it." },
+        { "left": "Ich bin gut. — self-claim", "right": "Lena sagt, ich sei besser geworden. — reported feedback", "note": "Reporting a compliment (Konjunktiv I) sounds more modest than claiming it yourself." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Jonas overheard you order confidently in German at the counter. He's impressed — and you get to practise a modest, nuanced reply.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Ey, hast du grad die ganze Bestellung auf Deutsch durchgezogen? Ohne Stocken?", "en": "Hey, did you just get the whole order out in German? Without stumbling?" },
+        { "speaker": "You", "nl": "So ungefähr. Ein paar Endungen hab ich sicher verhauen.", "en": "More or less. I definitely botched a few endings." },
+        { "speaker": "Jonas", "nl": "Quatsch. Die Frau meinte hinterher, dein Deutsch sei richtig gut.", "en": "Nonsense. The woman said afterwards your German's really good.", "spotlight": "A reported compliment, in Konjunktiv I: *sei*." },
+        { "speaker": "You", "nl": "Nett von ihr. Einerseits freut mich das, andererseits weiß ich, wie viel noch fehlt.", "en": "Nice of her. On one hand it makes me happy, on the other I know how much is still missing.", "spotlight": "einerseits … andererseits — a two-sided reaction." },
+        { "speaker": "Jonas", "nl": "Typisch du. Immer bescheiden.", "en": "Typical you. Always modest." },
+        { "speaker": "You", "nl": "Na ja. Zwar rede ich flüssiger, aber schnell sprechen kann ich noch nicht.", "en": "Well. I do speak more fluently, but I can't talk fast yet.", "spotlight": "zwar … aber — concede, then qualify." },
+        { "speaker": "Jonas", "nl": "Kommt noch. Weißt du noch, wie du am Anfang nur genickt hast?", "en": "That'll come. Remember how you just nodded at the start?" },
+        { "speaker": "You", "nl": "Oh Gott, ja. Man hat gesagt, ich sei viel zu schüchtern.", "en": "Oh God, yes. People said I was far too shy.", "spotlight": "*man hat gesagt … sei* — reported feedback about yourself." },
+        { "speaker": "Jonas", "nl": "Und jetzt diskutierst du mit mir über den Konjunktiv. Verrückt.", "en": "And now you argue about the subjunctive with me. Wild." },
+        { "speaker": "You", "nl": "Deshalb üben wir ja weiter. Prost!", "en": "That's why we keep practising. Cheers!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Verstanden?",
+      "questions": [
+        { "q": "Was hat die Verkäuferin über das Deutsch der sprechenden Person gesagt?", "options": ["Es sei zu schnell.", "Es sei richtig gut.", "Es sei kaum zu verstehen."], "correct": 1 },
+        { "q": "Wie reagiert die Person auf das Lob?", "options": ["Sie prahlt damit.", "Sie bleibt bescheiden und wägt ab.", "Sie glaubt es überhaupt nicht."], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Meine Geschichte — die Berichts-Schicht",
+      "prompt": "Bau die neue Schicht: Berichte, was jemand über dein Deutsch gesagt hat (Konjunktiv I), und häng deine eigene abgewogene Meinung an.",
+      "slots": [
+        { "label": "Was jemand sagt (Bericht)", "chips": ["Lena sagt, ich sei fleißiger geworden", "Sie meint, mein Deutsch sei besser", "Man sagt, ich hätte Talent"] },
+        { "label": "Meine Abwägung", "chips": ["einerseits stimmt das, andererseits übe ich noch", "zwar verstehe ich viel, aber ich rede langsam", "trotzdem bin ich stolz auf mich"] }
+      ],
+      "sample": "Sie meint, mein Deutsch sei besser — einerseits stimmt das, andererseits übe ich noch."
+    },
+    {
+      "type": "journal",
+      "prompt": "Meine Geschichte, Staffel 2 — Woche 14! Erzähl kurz, wer du bist und wie lange du schon Deutsch lernst, und füg neu hinzu: Berichte, was jemand über deinen Fortschritt gesagt hat (Konjunktiv I: … sagte, ich sei/hätte …), und gib deine eigene abgewogene Meinung dazu (einerseits … andererseits …, zwar … aber …, deshalb …). Mindestens fünf Sätze.",
+      "starters": ["Ich heiße… und lerne seit… Deutsch.", "… hat gesagt, ich sei…", "Einerseits …, andererseits …", "Deshalb …"],
+      "minSentences": 5
+    }
+  ]
+}
