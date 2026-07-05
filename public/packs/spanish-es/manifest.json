@@ -5,6 +5,14 @@
   "tagline": "Español de España, en plan bien.",
   "language": "Spanish",
   "locale": "es-ES",
+  "flag": "🇪🇸",
+  "ui": {
+    "dayComplete": "¡Día {day} hecho!",
+    "typedPlaceholder": "Escribe en español…",
+    "correctFeedback": "¡Muy bien!",
+    "journalPlaceholder": "Escribe aquí…"
+  },
+  "grading": { "diacriticTolerant": true },
   "dialect": {
     "identity": "Spanish of Spain (Castilian)",
     "contrast": "Not Latin American",

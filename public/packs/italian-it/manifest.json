@@ -5,6 +5,14 @@
   "tagline": "Italiano, sul serio.",
   "language": "Italian",
   "locale": "it-IT",
+  "flag": "🇮🇹",
+  "ui": {
+    "dayComplete": "Giorno {day} fatto!",
+    "typedPlaceholder": "Scrivi in italiano…",
+    "correctFeedback": "Bravo!",
+    "journalPlaceholder": "Scrivi qui…"
+  },
+  "grading": { "diacriticTolerant": true },
   "dialect": {
     "identity": "Standard Italian (national TV/broadcast standard)",
     "contrast": "Not a regional dialect, but aware of regional variety",

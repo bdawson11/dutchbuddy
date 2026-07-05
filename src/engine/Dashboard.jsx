@@ -35,7 +35,7 @@ export default function Dashboard({ manifest, lessonIndex, onOpenDay }) {
   return (
     <div className="dashboard">
       <header className="brand">
-        <h1>{manifest.appName}</h1>
+        <h1>{manifest.flag || '🌍'} {manifest.language}</h1>
         <p className="brand-sub">{manifest.tagline}</p>
       </header>
 

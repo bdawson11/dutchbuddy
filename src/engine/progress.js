@@ -1,9 +1,17 @@
 // Progress layer. All state in localStorage, keyed by packId so multiple
-// language packs coexist on one device. Shape:
+// language packs coexist on one device, and namespaced by the active YapWorld
+// profile so multiple learners can share a device. Shape:
 // { days: { "day-01": { status, stepsDone, totalSteps, timeSec, completedAt } },
 //   lastActive: "YYYY-MM-DD", streak: n }
 
-const key = (packId) => `progress.${packId}`;
+let uid = '';
+// Set by AppShell whenever the signed-in profile changes. Empty = the legacy
+// device-wide namespace (used before anyone logs in).
+export function setProgressUser(id) {
+  uid = id || '';
+}
+const ns = () => (uid ? `${uid}.` : '');
+const key = (packId) => `progress.${ns()}${packId}`;
 
 export function loadProgress(packId) {
   try {
@@ -59,17 +67,17 @@ export function recordTime(packId, dayId, seconds) {
 }
 
 export function saveJournal(packId, dayId, blockIndex, text) {
-  localStorage.setItem(`journal.${packId}.${dayId}.${blockIndex}`, text);
+  localStorage.setItem(`journal.${ns()}${packId}.${dayId}.${blockIndex}`, text);
 }
 
 export function loadJournal(packId, dayId, blockIndex) {
-  return localStorage.getItem(`journal.${packId}.${dayId}.${blockIndex}`) || '';
+  return localStorage.getItem(`journal.${ns()}${packId}.${dayId}.${blockIndex}`) || '';
 }
 
 export function resetProgress(packId) {
   localStorage.removeItem(key(packId));
   Object.keys(localStorage)
-    .filter((k) => k.startsWith(`journal.${packId}.`))
+    .filter((k) => k.startsWith(`journal.${ns()}${packId}.`))
     .forEach((k) => localStorage.removeItem(k));
 }
 

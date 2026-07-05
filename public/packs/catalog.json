@@ -1,0 +1,5 @@
+{
+  "app": "YapWorld",
+  "tagline": "Pick a language and start yapping.",
+  "packs": ["dutch-nl", "german-de", "italian-it", "spanish-es"]
+}

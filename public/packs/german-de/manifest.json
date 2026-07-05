@@ -5,6 +5,14 @@
   "tagline": "Deutsch, aber echt.",
   "language": "German",
   "locale": "de-DE",
+  "flag": "🇩🇪",
+  "ui": {
+    "dayComplete": "Tag {day} geschafft!",
+    "typedPlaceholder": "Auf Deutsch tippen…",
+    "correctFeedback": "Sehr gut!",
+    "journalPlaceholder": "Schreib hier…"
+  },
+  "grading": { "diacriticTolerant": true },
   "dialect": {
     "identity": "Germany Standard German (Hochdeutsch, northern-neutral)",
     "contrast": "Not Austrian, not Swiss",

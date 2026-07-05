@@ -111,12 +111,31 @@ audience; Italian closes).
   NL/DE/ES packs respectively; slang tiers carry caution notes
 - Audio pass on real devices for the pack locale
 
-## 6. Open items
+## 6. Architecture update — YapWorld unified app (shipped)
 
-- **Spanish naming**: "SpanishBuddy" collides with spanishbuddy.app (the
-  structural reference app). Decide app name + domain before Phase 3.
+The four-separate-branded-builds model was replaced by a **single unified app,
+"YapWorld"**, where the language is chosen at runtime:
+
+- `src/AppShell.jsx` is a login → language-picker → course state machine driven
+  by `public/packs/catalog.json`.
+- **Login** = device-local profiles (`src/engine/auth.js`): no backend, a
+  profile is a name in localStorage, progress namespaced per profile. The
+  surface is backend-shaped so a real auth provider can drop in later.
+- Progress is namespaced `progress.<profile>.<packId>` (`src/engine/progress.js`).
+
+This **resolves three prior open items**: the single-domain switcher decision
+(built), per-pack `index.html` branding (one app titled "YapWorld"), and the
+**SpanishBuddy naming clash** — there are no per-language app names anymore, so
+the spanishbuddy.app collision is moot; Spanish is a course inside YapWorld.
+(The manifests still carry legacy `appName` fields; unused by the UI.)
+
+## 7. Open items
+
 - Native-speaker reviewers needed: German, Italian, Peninsular Spanish.
-- Donation link, domains, OG cards per pack (per-pack branding item 1).
-- Decide single-domain multi-pack switcher vs four separate branded apps
-  (current architecture assumes four builds; a switcher is a later option
-  since progress is already keyed by packId).
+- Real authentication (OAuth / email) if cross-device sync is wanted — the
+  current login is device-local only; `auth.js` is the single swap point.
+- Domain, donation link, and OG/share cards for YapWorld (one app now).
+- The `dist/` build still ships every pack's lesson JSON (all languages are
+  fetched at runtime by design now) and the authoring `.md` docs inside
+  `public/packs/*` — exclude the docs before public launch.
+- Weeks 15–18 (days 99–126) content authoring per language.

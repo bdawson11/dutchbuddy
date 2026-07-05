@@ -1,32 +1,49 @@
-# LanguageBuddy
+# YapWorld
 
-Reusable engine for conversational language-learning apps. Full plan: `docs/plan.md`; multilingual expansion roadmap: `docs/roadmap-multilingual.md`.
+One app, many languages. A reusable engine for conversational language-learning
+built as a single static SPA: learners log in, pick a language, and work through
+a per-language content pack. Full plan: `docs/plan.md`; multilingual expansion
+roadmap: `docs/roadmap-multilingual.md`.
 
-Content packs:
+Content packs (each a language "course" inside YapWorld):
 
-| Pack | App | Status |
-|------|-----|--------|
-| `dutch-nl` | DutchBuddy (Netherlands Dutch, A1 → B1) | Complete — 84/84 days |
-| `german-de` | GermanBuddy (Hochdeutsch) | Scaffolded — roadmap, manifest, Week 1 (`docs/roadmap-german-de.md`) |
-| `italian-it` | ItalianBuddy (standard Italian) | Scaffolded — roadmap, manifest, Week 1 (`docs/roadmap-italian-it.md`) |
-| `spanish-es` | SpanishBuddy (Peninsular Castilian, name TBD) | Scaffolded — roadmap, manifest, Week 1 (`docs/roadmap-spanish-es.md`) |
+| Pack | Language | Content |
+|------|----------|---------|
+| `dutch-nl` | 🇳🇱 Dutch (Netherlands, not Flemish) | Days 1–98 (A1 → B1 core + B2 weeks 13–14); `docs/roadmap-dutch-nl.md` |
+| `german-de` | 🇩🇪 German (Hochdeutsch) | Days 1–98 (A1 → B1 core + B2 weeks 13–14); `docs/roadmap-german-de.md` |
+| `italian-it` | 🇮🇹 Italian (standard) | Days 1–98 (A1 → B1 core + B2 weeks 13–14); `docs/roadmap-italian-it.md` |
+| `spanish-es` | 🇪🇸 Spanish (Peninsular Castilian) | Days 1–98 (A1 → B1 core + B2 weeks 13–14); `docs/roadmap-spanish-es.md` |
+
+Each pack's manifest defines an 18-week (126-day) A1 → C1-gateway structure;
+days 99–126 (weeks 15–18) are scoped in the roadmaps and render as "coming soon".
 
 ## Architecture
 
-- `src/engine/` — language-agnostic engine: lesson player, 11 block components (`blocks/index.jsx`), dashboard rendered from the pack manifest, localStorage progress layer, audio abstraction (Web Speech API, swappable for pre-generated TTS).
-- `public/packs/dutch-nl/` — the content pack: `manifest.json` + `lessons/day-NN.json`. Pure data; the engine never contains language content.
+Single unified app; the language is chosen at runtime, not at build time.
+
+- `src/AppShell.jsx` — the YapWorld shell: a login → language-picker → course
+  state machine. Loads `public/packs/catalog.json`, then each pack's manifest.
+- `src/LoginScreen.jsx` + `src/engine/auth.js` — device-local profiles ("login").
+  No backend: a profile is a name (+ optional email) in localStorage, and
+  progress is namespaced per profile so several learners can share a device.
+  `auth.js` is backend-shaped so a real auth provider can replace it.
+- `src/LanguagePicker.jsx` — the language grid, one card per catalog pack.
+- `src/engine/` — language-agnostic engine: lesson player, 11 block components
+  (`blocks/index.jsx`), dashboard rendered from the pack manifest, localStorage
+  progress layer (per-profile), audio (Web Speech API), grading, UI strings.
+- `public/packs/<lang>/` — a content pack: `manifest.json` + `lessons/day-NN.json`.
+  Pure data; the engine never contains language content. `catalog.json` lists
+  the packs YapWorld offers.
 - `tools/validate.js` — pack validator. CI gate for content batches.
 - `src/engine/base.css` — placeholder styling; replaced by the Claude Design pass.
 
 ## Commands
 
 ```
-npm run dev              # local dev server (dutch-nl default)
-npm run dev:<pack>       # e.g. npm run dev:german-de
+npm run dev              # local dev server (the unified YapWorld app)
 npm run build            # production build (Vercel-ready static output)
-npm run build:<pack>     # per-pack branded build → dist/<pack>
 npm run validate         # validate every pack (missing days = warnings)
-npm run validate:<pack>  # validate one pack
+npm run validate:<pack>  # validate one pack (e.g. validate:german-de)
 npm run validate:strict  # missing days = errors (pre-release gate, dutch-nl)
 ```
 
@@ -38,4 +55,9 @@ npm run validate:strict  # missing days = errors (pre-release gate, dutch-nl)
 
 ## Adding a language
 
-Create `public/packs/<lang>/` with a manifest and lessons conforming to the schemas in `docs/plan.md` §2, then build with `VITE_PACK=<lang>`. No engine changes required.
+Create `public/packs/<lang>/` with a manifest and lessons conforming to the
+schemas in `docs/plan.md` §2, then add `<lang>` to the `packs` array in
+`public/packs/catalog.json`. It appears in the language picker automatically —
+no engine changes required. For a polished picker card, give the manifest a
+`flag`, `language`, and `tagline`; add `ui` (localized chrome strings) and
+`grading` config as needed (see the existing packs).
