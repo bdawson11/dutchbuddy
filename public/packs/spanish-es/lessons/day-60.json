@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "day-60",
+  "day": 60,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "El condicional: podría, gustaría, habría",
+  "emoji": "🙏",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The conditional for polite requests, advice and hypotheticals: podrías, me gustaría, yo que tú…",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El «-ía» que suaviza",
+      "body": "El **condicional** es el tiempo del *«…ría»*. Sirve para pedir con educación (*¿**podrías** ayudarme?*), para desear (*me **gustaría** un café*) y para hipótesis (*yo **haría** otra cosa*). Es la forma más elegante de no sonar brusco.",
+      "callout": "Todas las personas terminan en **-ía**: *hablaría, comería, viviría*."
+    },
+    {
+      "type": "card",
+      "title": "Cómo se forma",
+      "body": "Casi siempre: **infinitivo entero + las terminaciones -ía, -ías, -ía, -íamos, -íais, -ían**. Los irregulares son los **mismos raíces que el futuro** (*tendr-, podr-, habr-, saldr-, dir-, har-*), solo cambian la terminación.",
+      "table": {
+        "headers": ["Infinitivo", "Condicional (yo)"],
+        "rows": [
+          ["hablar", "hablaría"],
+          ["poder", "podría"],
+          ["tener", "tendría"],
+          ["hacer", "haría"],
+          ["decir", "diría"],
+          ["gustar", "gustaría"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Escucha las peticiones educadas",
+      "items": [
+        { "nl": "¿Podrías ayudarme un momento?", "en": "Could you help me for a sec?", "speak": "¿Podrías ayudarme un momento?" },
+        { "nl": "Me gustaría un café, por favor.", "en": "I'd like a coffee, please.", "speak": "Me gustaría un café, por favor." },
+        { "nl": "¿Te importaría cerrar la ventana?", "en": "Would you mind closing the window?", "speak": "¿Te importaría cerrar la ventana?" },
+        { "nl": "Yo que tú, hablaría con ella.", "en": "If I were you, I'd talk to her.", "speak": "Yo que tú, hablaría con ella." },
+        { "nl": "¿Podríais bajar la música?", "en": "Could you (all) turn the music down?", "speak": "¿Podríais bajar la música?" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Directo vs educado",
+      "pairs": [
+        { "left": "Dame la carta.", "right": "¿Podrías darme la carta?", "note": "El imperativo directo puede sonar seco. El condicional lo suaviza: *¿podrías…?*" },
+        { "left": "Quiero un té.", "right": "Me gustaría un té.", "note": "*Quiero* es correcto pero directo; *me gustaría* es más fino, sobre todo con desconocidos." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál es más educado para pedir algo a un camarero que no conoces?",
+      "options": ["Tráeme una caña.", "¿Me traería una caña, por favor?", "Quiero una caña ya."],
+      "correct": 1,
+      "explain": "El condicional *¿me **traería**…?* es la fórmula educada. El imperativo seco o *quiero… ya* suenan bruscos con alguien a quien no conoces."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa con el condicional de *gustar*: «Me ___ ir a la playa este verano.»",
+      "answers": ["gustaría", "me gustaría ir a la playa este verano"],
+      "hint": "Verbo gustar en condicional: infinitivo + -ía.",
+      "explain": "*Me **gustaría** ir a la playa*. El condicional expresa el deseo con suavidad."
+    },
+    {
+      "type": "card",
+      "title": "Condicional para dar consejos",
+      "body": "El condicional también da consejos sin imponer. Fórmulas típicas: *yo que tú…, yo en tu lugar…, yo… (+ condicional)*. Dices lo que **tú** harías, no lo que el otro debe hacer.",
+      "callout": "*Yo que tú, no diría nada todavía.* — más amable que un *«no digas nada»*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "En la terraza del bar, pidiendo con educación (y con hambre)",
+      "lines": [
+        { "speaker": "Lucía", "nl": "¿Te importaría que nos sentáramos dentro? Aquí hace un sol horrible.", "en": "Would you mind if we sat inside? The sun's brutal here." },
+        { "speaker": "You", "nl": "Para nada. Yo también preferiría estar a la sombra.", "en": "Not at all. I'd rather be in the shade too.", "spotlight": "preferiría: condicional para expresar preferencia con suavidad." },
+        { "speaker": "Rafa", "nl": "Buah, yo pediría ya, ¿eh? Me comería un plato entero de croquetas.", "en": "Man, I'd order now, honestly. I could eat a whole plate of croquettes." },
+        { "speaker": "Lucía", "nl": "Jaja, tranquilo. ¿Podrías pedirle la carta al camarero?", "en": "Haha, easy. Could you ask the waiter for the menu?", "spotlight": "¿podrías…?: petición educada." },
+        { "speaker": "You", "nl": "Claro. ¿Y a vosotros os apetecería compartir una ración?", "en": "Sure. And would you two fancy sharing a plate?", "spotlight": "os apetecería: condicional + vosotros." },
+        { "speaker": "Rafa", "nl": "Sí. Yo que tú, pediría las bravas, están de vicio.", "en": "Yeah. If I were you, I'd get the bravas, they're amazing.", "spotlight": "yo que tú + condicional: consejo." },
+        { "speaker": "Lucía", "nl": "Vale. Yo tomaría una caña, pero conduzco, así que una sin.", "en": "Okay. I'd have a beer, but I'm driving, so an alcohol-free one." },
+        { "speaker": "You", "nl": "Buena idea. ¿Nos pedimos un agua también?", "en": "Good idea. Shall we get a water too?" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe tres peticiones o consejos educados con el condicional: uno con *¿podrías…?*, uno con *me gustaría…* y uno con *yo que tú…*.",
+      "starters": ["¿Podrías…?", "Me gustaría…", "Yo que tú…"],
+      "minSentences": 3
+    }
+  ]
+}

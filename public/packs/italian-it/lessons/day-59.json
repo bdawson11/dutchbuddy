@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "day-59",
+  "day": 59,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Il discorso indiretto",
+  "emoji": "💬",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Reporting what people said: mi ha detto che…, and reporting questions with se",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il discorso indiretto: raccontare cosa dicono",
+      "body": "To report what someone said, use a reporting verb + **che**: *Marco dice **che** viene* / *Marco ha detto **che** veniva*. When the reporting verb is in the **past** (*ha detto*), a present usually shifts to the **imperfetto**: «Sono stanco» → *Ha detto che **era** stanco*. Pronouns and possessives shift too: «Vengo con **mia** sorella» → *Ha detto che veniva con **sua** sorella*.",
+      "callout": "*ha detto che* + past reporting → present becomes imperfetto (*sono* → *era*)."
+    },
+    {
+      "type": "card",
+      "title": "Riportare le domande: *se* e le parole interrogative",
+      "body": "To report a **yes/no** question, use **se** (whether / if): «Vieni?» → *Mi ha chiesto **se** venivo.* To report a **wh-** question, keep the question word: «Dove abiti?» → *Mi ha chiesto **dove** abitavo.* Here the verb *chiedere* (to ask) replaces *dire*.",
+      "callout": "Yes/no question → *mi ha chiesto **se***. Wh-question → keep *dove / quando / perché*…"
+    },
+    {
+      "type": "chips",
+      "title": "Le frasi per riportare — ascolta",
+      "items": [
+        { "nl": "Mi ha detto che era stanco.", "en": "He told me he was tired.", "speak": "Mi ha detto che era stanco." },
+        { "nl": "Mi ha chiesto se avevo tempo.", "en": "He asked if I had time.", "speak": "Mi ha chiesto se avevo tempo." },
+        { "nl": "Ha aggiunto che tornava presto.", "en": "He added he was coming back soon.", "speak": "Ha aggiunto che tornava presto." },
+        { "nl": "Mi ha chiesto dove abitavo.", "en": "He asked where I lived.", "speak": "Mi ha chiesto dove abitavo." },
+        { "nl": "Dice che va tutto bene.", "en": "He says everything's fine.", "speak": "Dice che va tutto bene." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Diretto → indiretto",
+      "pairs": [
+        { "left": "«Sono contento.»", "right": "Ha detto che era contento.", "note": "Present *sono* → imperfetto *era* after a past reporting verb." },
+        { "left": "«Hai fame?»", "right": "Mi ha chiesto se avevo fame.", "note": "Yes/no question → *se*; *hai* → *avevo*." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Parto domani», dice Sofia. Come lo riporti al passato?",
+      "options": ["Ha detto che parte domani.", "Ha detto che partiva domani.", "Ha detto se parte domani."],
+      "correct": 1,
+      "explain": "Past reporting verb → present *parto* becomes imperfetto *partiva*. *se* appears only for a yes/no question."
+    },
+    {
+      "type": "typed",
+      "prompt": "Riporta questa frase: «Sono stanca», ha detto Sofia. (comincia con *Ha detto che…*)",
+      "answers": ["ha detto che era stanca", "ha detto che era stanca.", "sofia ha detto che era stanca"],
+      "hint": "Reporting verb al passato → *sono* diventa *era*.",
+      "explain": "*Ha detto che era stanca.* The present *sono* shifts to the imperfetto *era*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Mi ha chiesto se venivo alla festa.",
+      "answers": ["mi ha chiesto se venivo alla festa", "mi ha chiesto se venivo alla festa."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "You tell Giulia about a phone call with Pietro in Naples.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora, hai sentito Pietro? Cosa ti ha detto?", "en": "So, did you hear from Pietro? What did he tell you?" },
+        { "speaker": "You", "nl": "Mi ha detto che la prossima settimana viene a Bologna.", "en": "He told me he's coming to Bologna next week." },
+        { "speaker": "Giulia", "nl": "Ma dai, che bello! E ti ha detto perché?", "en": "No way, great! And did he say why?" },
+        { "speaker": "You", "nl": "Mi ha chiesto se conoscevo un buon ristorante in centro.", "en": "He asked me if I knew a good restaurant downtown.", "spotlight": "Reporting a yes/no question: *mi ha chiesto **se** conoscevo…*" },
+        { "speaker": "Giulia", "nl": "Certo! E gli hai detto del posto vicino a Via Mazzini?", "en": "Of course! And did you tell him about the place near Via Mazzini?" },
+        { "speaker": "You", "nl": "Sì, gli ho detto che era ottimo. Ha aggiunto che porta anche la figlia.", "en": "Yes, I told him it was great. He added he's bringing his daughter too." },
+        { "speaker": "Giulia", "nl": "Che carino. Spero che si fermino qualche giorno.", "en": "How nice. I hope they stay a few days." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai capito?",
+      "questions": [
+        { "q": "Cosa farà Pietro la prossima settimana?", "options": ["Viene a Bologna", "Resta a Napoli", "Va a Milano"], "correct": 0 },
+        { "q": "Cosa ha chiesto Pietro a 'You'?", "options": ["Se conoscevo un ristorante", "Se avevo tempo", "Dove lavoravo"], "correct": 0 },
+        { "q": "Chi porta Pietro con sé?", "options": ["Sua moglie", "Sua figlia", "Un amico"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Pensa a una conversazione recente. Scrivi tre frasi che riportano cosa ti ha detto qualcuno. Usa *mi ha detto che…* e *mi ha chiesto se…*.",
+      "starters": ["Un amico mi ha detto che…", "Mi ha chiesto se…"],
+      "minSentences": 3
+    }
+  ]
+}

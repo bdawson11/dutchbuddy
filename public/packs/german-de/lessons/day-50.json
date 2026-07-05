@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "day-50",
+  "day": 50,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "Die Zukunft: werden + Infinitiv",
+  "emoji": "🔮",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "The future tense with werden + infinitive — and how Germans often just use the present tense instead",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Futur I: werden + Infinitiv",
+      "body": "To talk about the future, German uses **werden** (conjugated) plus the **infinitive** parked all the way at the end of the sentence: *Ich werde nächstes Jahr nach Hannover fahren* (I will travel to Hannover next year). *werden* carries the person; the infinitive never changes and just waits at the end.",
+      "table": {
+        "headers": ["Person", "werden"],
+        "rows": [
+          ["ich", "werde"],
+          ["du", "wirst"],
+          ["er/sie/es", "wird"],
+          ["wir", "werden"],
+          ["ihr", "werdet"],
+          ["sie/Sie", "werden"]
+        ]
+      },
+      "callout": "Fun fact: *werden* also means \"to become\" (*Ich werde müde* = I'm getting tired) — same verb, different job here."
+    },
+    {
+      "type": "chips",
+      "title": "Zeitmarker für die Zukunft — tap to hear",
+      "items": [
+        { "nl": "nächste Woche", "en": "next week", "speak": "nächste Woche" },
+        { "nl": "nächsten Monat", "en": "next month", "speak": "nächsten Monat" },
+        { "nl": "nächstes Jahr", "en": "next year", "speak": "nächstes Jahr" },
+        { "nl": "bald", "en": "soon", "speak": "bald" },
+        { "nl": "später", "en": "later", "speak": "später" },
+        { "nl": "demnächst", "en": "soon / shortly", "speak": "demnächst" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Futur I vs. Präsens für die Zukunft",
+      "pairs": [
+        { "left": "Ich werde nächstes Jahr nach Hannover fahren. — I will travel to Hannover next year.", "right": "Nächstes Jahr fahre ich nach Hannover. — Next year I'm traveling to Hannover.", "note": "Both are correct and common. Germans often just use the present tense + a time word for a near, planned future — it sounds just as natural as werden." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is correctly built with werden + infinitive?",
+      "options": ["Ich werde fahren nächstes Jahr nach Hannover.", "Ich werde nächstes Jahr nach Hannover fahren.", "Ich werde nächstes Jahr fahren nach Hannover."],
+      "correct": 1,
+      "explain": "The infinitive (*fahren*) goes all the way to the end of the sentence — time and place come before it."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the correct form of werden: 'Du ___ das schon schaffen.' (You'll manage it.)",
+      "answers": ["wirst"],
+      "hint": "The du-form of werden.",
+      "explain": "*du wirst* — the du-form of *werden* is irregular (wirst, not werdst)."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Nächste Woche werde ich Jonas besuchen.",
+      "answers": ["Nächste Woche werde ich Jonas besuchen.", "Naechste Woche werde ich Jonas besuchen."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena tells you about her plans for next year over coffee.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Nächstes Jahr werde ich meine Familie in Hannover besuchen.", "en": "Next year I'll visit my family in Hannover.", "spotlight": "werden + infinitive: the infinitive (besuchen) waits at the very end." },
+        { "speaker": "You", "nl": "Schön! Und wann fährst du?", "en": "Nice! And when are you going?" },
+        { "speaker": "Lena", "nl": "Ich fahre wahrscheinlich im Sommer. Meine Mutter wird sich freuen.", "en": "I'll probably go in summer. My mother will be happy.", "spotlight": "Present tense (fahre) + a time word also works for the future." },
+        { "speaker": "You", "nl": "Und was wirst du dort machen?", "en": "And what will you do there?" },
+        { "speaker": "Lena", "nl": "Wir werden zusammen kochen und ich werde dir Fotos schicken!", "en": "We'll cook together and I'll send you photos!" }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Baue einen Zukunftssatz",
+      "prompt": "Build a sentence about a future plan using werden + infinitive.",
+      "slots": [
+        { "label": "Subjekt + werden", "chips": ["Ich werde", "Wir werden", "Sie wird"] },
+        { "label": "Zeit/Ort", "chips": ["nächstes Jahr nach Berlin", "bald zur Bäckerei", "nächste Woche zum Konzert"] },
+        { "label": "Infinitiv", "chips": ["fahren", "gehen", "kommen"] }
+      ],
+      "sample": "Ich werde nächstes Jahr nach Berlin fahren."
+    },
+    {
+      "type": "journal",
+      "prompt": "Was wirst du bald machen? Write two sentences about your near future — one with werden + infinitive, one with the present tense + a time word.",
+      "starters": ["Ich werde bald…", "Nächste Woche…"]
+    }
+  ]
+}
