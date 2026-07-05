@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "day-13",
+  "day": 13,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Es gibt… und dieser, diese, dieses",
+  "emoji": "👉",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Point at the world with es gibt (there is/are) and dieser/diese/dieses (this) — your first live taste of the accusative",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "es gibt — 'there is / there are'",
+      "body": "*es gibt* is your all-purpose way to say **there is / there are** — and it always takes the **accusative**. For **feminine** and **neuter** nouns nothing changes: *es gibt eine Bäckerei, es gibt ein Café*. But **masculine** flips: *der Park* → *es gibt einen Park* (not *ein Park*). This is your first live taste of the accusative — the full picture lands in Week 3.",
+      "table": {
+        "headers": ["Nominativ", "nach es gibt"],
+        "rows": [
+          ["der Park", "einen Park"],
+          ["die Bäckerei", "eine Bäckerei"],
+          ["das Café", "ein Café"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "es gibt hören",
+      "items": [
+        { "nl": "Es gibt einen Park", "en": "there's a park", "speak": "Es gibt einen Park" },
+        { "nl": "Es gibt eine Bäckerei", "en": "there's a bakery", "speak": "Es gibt eine Bäckerei" },
+        { "nl": "Es gibt ein Café", "en": "there's a café", "speak": "Es gibt ein Café" },
+        { "nl": "Es gibt viele Leute", "en": "there are lots of people", "speak": "Es gibt viele Leute" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "dieser, diese, dieses — 'this'",
+      "body": "*dieser/diese/dieses* means \"this\" and matches the noun's gender just like *der/die/das*: **dieser Mann** (m), **diese Frau** (f), **dieses Kind** (n). And yes — masculine flips the same way as an accusative object: *dieser Park* → *diesen Park*.",
+      "callout": "Same pattern as der→den — once it clicks once, it clicks everywhere."
+    },
+    {
+      "type": "chips",
+      "title": "dieser/diese/dieses hören",
+      "items": [
+        { "nl": "dieser Mann", "en": "this man", "speak": "dieser Mann" },
+        { "nl": "diese Frau", "en": "this woman", "speak": "diese Frau" },
+        { "nl": "dieses Kind", "en": "this child", "speak": "dieses Kind" },
+        { "nl": "diesen Park", "en": "this park (accusative)", "speak": "diesen Park" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Maskulin flippt, Feminin bleibt",
+      "pairs": [
+        { "left": "der Park → einen Park", "right": "dieser Park → diesen Park", "note": "Masculine always flips to *-en* in the accusative, whatever article family it's from." },
+        { "left": "die Bäckerei → eine Bäckerei", "right": "diese Bäckerei → diese Bäckerei", "note": "Feminine never changes — same form in nominative and accusative." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Es gibt ___ Supermarkt hier. (der Supermarkt)",
+      "options": ["ein", "einen", "eine"],
+      "correct": 1,
+      "explain": "*der Supermarkt* is masculine, and after *es gibt* (accusative) it flips to *einen Supermarkt*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'There is a café here.'",
+      "answers": ["Es gibt ein Café hier", "Es gibt hier ein Café"],
+      "hint": "das Café doesn't change after es gibt.",
+      "explain": "Es gibt ein Café hier — neuter *das Café* looks the same in nominative and accusative."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the sentence.",
+      "speak": "Es gibt einen Park.",
+      "answers": ["Es gibt einen Park."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena points out spots in her neighborhood as you walk through Neukölln.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Guck mal, hier gibt es einen Park.", "en": "Look, there's a park here.", "spotlight": "*hier gibt es* — \"here there is\", a natural way to point something out." },
+        { "speaker": "You", "nl": "Schön! Und diese Straße hier?", "en": "Nice! And this street here?" },
+        { "speaker": "Lena", "nl": "Diese Straße hat viele Cafés. Es gibt auch eine Bäckerei, meine Lieblingsbäckerei.", "en": "This street has lots of cafés. There's also a bakery, my favorite bakery." },
+        { "speaker": "You", "nl": "Und dieses Gebäude? Es ist schön.", "en": "And this building? It's nice." },
+        { "speaker": "Lena", "nl": "Ja, alt, aber schön. Hier gibt es viel zu entdecken.", "en": "Yes, old, but nice. There's a lot to discover here." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Lena point out first?", "options": ["A café", "A park", "A bakery"], "correct": 1 },
+        { "q": "What's on Lena's street?", "options": ["A gym", "Cafés and a bakery", "A school"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Zeig deine Stadt",
+      "prompt": "Build a sentence pointing out something nearby using es gibt.",
+      "slots": [
+        { "label": "Start", "chips": ["Hier gibt es", "In Berlin gibt es", "Heute gibt es"] },
+        { "label": "Ding", "chips": ["einen Park", "eine Bäckerei", "ein Café", "einen Supermarkt", "viele Leute"] }
+      ],
+      "sample": "Hier gibt es einen Park."
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe your neighborhood: write 2–3 sentences with es gibt (there is/are) and dieser/diese/dieses (this) for something nearby.",
+      "starters": ["Es gibt…", "Diese Straße…", "Dieser Park…"]
+    }
+  ]
+}

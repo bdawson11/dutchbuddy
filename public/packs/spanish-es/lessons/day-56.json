@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-56",
+  "day": 56,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "capstone",
+  "title": "Mi próximo año",
+  "emoji": "🌅",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Week 8 capstone: futuro, opinions and the subjunctive gate, then Mi historia — a plan and an opinion",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso: semana 8 y fin de A2",
+      "body": "Con esta semana completas el nivel **A2**: hablas del futuro (*voy a…, hablaré*), combinas pronombres (*se lo doy*), das opiniones (*creo que*), cruzas la puerta del subjuntivo (*quiero que, es importante que*) y comparas (*más… que, el mejor*). La semana que viene empieza el camino hacia **B1**.",
+      "callout": "¡Enhorabuena! Ocho semanas, ocho módulos completos."
+    },
+    {
+      "type": "chips",
+      "title": "Repaso rápido — tap through",
+      "items": [
+        { "nl": "voy a viajar el año que viene", "en": "I'm going to travel next year", "speak": "voy a viajar el año que viene" },
+        { "nl": "se lo doy", "en": "I give it to him/her", "speak": "se lo doy" },
+        { "nl": "creo que va a ser un buen año", "en": "I think it's going to be a good year", "speak": "creo que va a ser un buen año" },
+        { "nl": "espero que todo vaya bien", "en": "I hope everything goes well", "speak": "espero que todo vaya bien" },
+        { "nl": "es el mejor de todos", "en": "it's the best of all", "speak": "es el mejor de todos" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "El año que viene, (yo) ___ (predicción general, futuro simple) más español que ahora.",
+      "options": ["hablaré", "voy a hablar", "hablo"],
+      "correct": 0,
+      "explain": "Predicción más lejana y general → **futuro simple**: *hablaré*. *Voy a hablar* también vale para un plan más cercano, pero para una predicción el futuro simple es lo natural."
+    },
+    {
+      "type": "typed",
+      "prompt": "Cambia por pronombres: 'Le presto mi guitarra a Rafa.'",
+      "answers": ["se la presto", "Se la presto."],
+      "hint": "le + la = se la",
+      "explain": "*mi guitarra* es femenino → **la**; *le* delante de *la* se convierte en **se**: **Se la presto.**"
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa: Este bar es ___ (bueno) que el otro.",
+      "answers": ["mejor"],
+      "hint": "comparativo irregular de bueno",
+      "explain": "**mejor** — nunca *más bueno*."
+    },
+    {
+      "type": "contrast",
+      "title": "Recuerda: quiero + infinitivo vs. quiero que + subjuntivo",
+      "pairs": [
+        { "left": "mismo sujeto → infinitivo: quiero viajar", "right": "sujeto distinto → que + subjuntivo: quiero que viajes", "note": "La trampa de toda la semana — repásala una vez más antes del capstone." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa: Espero que el año que viene (nosotros) ___ (viajar) juntos.",
+      "answers": ["viajemos"],
+      "hint": "subjuntivo de viajar, nosotros",
+      "explain": "*viajemos* — presente de subjuntivo de *viajar*. *Espero que* es uno de los disparadores que ya conoces."
+    },
+    {
+      "type": "dictation",
+      "speak": "voy a intentarlo",
+      "answers": ["voy a intentarlo"]
+    },
+    {
+      "type": "builder",
+      "title": "Mi próximo año — un plan",
+      "prompt": "Construye una frase sobre un plan para el año que viene.",
+      "slots": [
+        { "label": "Plan", "chips": ["Voy a aprender más español", "Voy a viajar por España", "Voy a cambiar de trabajo"] },
+        { "label": "Opinión", "chips": ["y creo que va a ser genial", "y me parece una buena idea", "y espero que salga bien"] }
+      ],
+      "sample": "Voy a aprender más español, y espero que salga bien."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa te pregunta por tus planes para el año que viene — pones en práctica toda la semana.",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Tío, ¿qué vas a hacer el año que viene? ¿Algún plan majo?", "en": "Dude, what are you going to do next year? Any cool plan?" },
+        { "speaker": "You", "nl": "Pues voy a seguir estudiando español. Creo que para entonces hablaré mucho mejor.", "en": "Well, I'm going to keep studying Spanish. I think by then I'll speak a lot better." },
+        { "speaker": "Rafa", "nl": "¡Eso espero! Es importante que no lo dejes, ¿eh?", "en": "I hope so! It's important that you don't give up, right?", "spotlight": "es importante que + subjuntivo, otra vez — el disparador de la semana." },
+        { "speaker": "You", "nl": "Tranquilo, no lo voy a dejar. Para mí, hablar español ya es parte de mi vida.", "en": "Relax, I'm not going to give it up. For me, speaking Spanish is already part of my life." },
+        { "speaker": "Rafa", "nl": "Pues venga, ¡vamos a brindar por eso! Una caña para celebrar.", "en": "Well come on, let's go toast to that! A beer to celebrate." },
+        { "speaker": "You", "nl": "¡Venga, vale! Por el próximo año.", "en": "Come on, alright! To next year." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mi historia — capa 8: un plan y una opinión",
+      "prompt": "Añade la capa de esta semana a tu historia: un plan para el futuro (voy a…), una opinión (creo que…) y tu primer subjuntivo con 'espero que'. Recuerda mantener todo lo que ya has construido en semanas anteriores.",
+      "slots": [
+        { "label": "Plan", "chips": ["Voy a viajar por España", "Voy a aprender más vocabulario", "Voy a visitar Madrid otra vez"] },
+        { "label": "Opinión", "chips": ["Creo que va a ser un año importante", "Creo que voy a mejorar mucho", "Pienso que merece la pena"] },
+        { "label": "Primer subjuntivo", "chips": ["Espero que todo vaya bien", "Espero que pueda volver pronto", "Espero que sea un buen año"] }
+      ],
+      "sample": "Voy a viajar por España. Creo que va a ser un año importante, y espero que todo vaya bien."
+    },
+    {
+      "type": "journal",
+      "prompt": "¡Enhorabuena — has terminado el nivel A2! Escribe tu 'Mi historia' completa hasta ahora: quién eres, tu rutina, tu familia y barrio, lo que te gusta, algo que has hecho, cómo te has sentido, un recuerdo de infancia, y ahora, tu plan y tu opinión para el año que viene. La semana que viene empieza B1.",
+      "starters": ["Me llamo…", "Voy a…", "Creo que…", "Espero que…"],
+      "minSentences": 5
+    }
+  ]
+}

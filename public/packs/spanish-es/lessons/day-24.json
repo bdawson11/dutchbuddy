@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-24",
+  "day": 24,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Me gusta, me encanta",
+  "emoji": "😍",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "gustar and its flipped construction — me gusta / me gustan, me encanta",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "gustar flips the sentence",
+      "body": "**gustar** doesn't work like 'to like' in English — it works backwards. It literally means 'to be pleasing to'. That's why we say *me gusta el café*: *el café* is the subject (the thing that pleases), and *me* is the person it pleases. The pronoun changes with the person; the verb changes with the thing.",
+      "table": {
+        "headers": ["Pronombre", "Significado"],
+        "rows": [
+          ["me", "to me"],
+          ["te", "to you"],
+          ["le", "to him / her / usted"],
+          ["nos", "to us"],
+          ["os", "to you all"],
+          ["les", "to them"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "gusta vs gustan — listen for the thing",
+      "body": "If the thing you like is **singular** (or an infinitive), the verb is **gusta**: *me gusta el café*, *me gusta bailar*. If it's **plural**, the verb is **gustan**: *me gustan las tapas*. **encantar** ('to love', stronger than *gustar*) works exactly the same way: *me encanta el chocolate*, *me encantan los fines de semana*.",
+      "callout": "The verb agrees with the thing liked, never with the person. There's no such thing as *yo gusto el café*."
+    },
+    {
+      "type": "contrast",
+      "title": "gusta vs gustan",
+      "pairs": [
+        { "left": "Me gusta el café. (singular)", "right": "Me gustan los cafés. (plural)", "note": "The verb agrees with what's liked, not with *me*." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Tap para escuchar gustar",
+      "items": [
+        { "nl": "me gusta", "en": "I like (it — singular)", "speak": "me gusta" },
+        { "nl": "me gustan", "en": "I like (them — plural)", "speak": "me gustan" },
+        { "nl": "me encanta", "en": "I love (it)", "speak": "me encanta" },
+        { "nl": "no me gusta nada", "en": "I don't like it at all", "speak": "no me gusta nada" },
+        { "nl": "¿te gusta?", "en": "do you like it?", "speak": "¿te gusta?" },
+        { "nl": "nos gusta", "en": "we like (it)", "speak": "nos gusta" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "How do you say 'I love tapas' (a strong liking)?",
+      "options": ["Me gusta las tapas.", "Me encanta las tapas.", "Me encantan las tapas."],
+      "correct": 2,
+      "explain": "*las tapas* is plural, so the verb must be plural too: **encantan**. *Me encantan las tapas.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'Do you like coffee?' (tú, informal).",
+      "answers": ["¿te gusta el café?", "te gusta el café"],
+      "hint": "te + gusta (singular, el café) + the opening ¿.",
+      "explain": "*¿Te gusta el café?* — *el café* is singular, so it takes *gusta*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "me gustan las tapas",
+      "answers": ["me gustan las tapas"]
+    },
+    {
+      "type": "builder",
+      "title": "Construye con gustar",
+      "prompt": "Combine a pronoun with a verb-and-thing phrase to build a sentence.",
+      "slots": [
+        { "label": "Pronombre", "chips": ["Me", "Te", "Le", "Nos", "Os"] },
+        { "label": "Verbo + cosa", "chips": ["gusta el café", "gustan las tapas", "gusta bailar", "encanta el chocolate", "encantan los fines de semana"] }
+      ],
+      "sample": "Me gusta el café."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Sofía asks about your tastes over tapas",
+      "lines": [
+        { "speaker": "Sofía", "nl": "¿Qué tapas te gustan más?", "en": "Which tapas do you like most?" },
+        { "speaker": "You", "nl": "Me encanta la tortilla, y también me gustan las croquetas.", "en": "I love tortilla, and I also like croquettes." },
+        { "speaker": "Sofía", "nl": "Uy, no sé... a mí me gusta el pulpo, pero no me gusta nada el picante.", "en": "Hmm, I don't know... I like octopus, but I don't like spicy food at all." },
+        { "speaker": "You", "nl": "¿Y el vino?", "en": "And wine?" },
+        { "speaker": "Sofía", "nl": "Me gusta, pero prefiero una caña.", "en": "I like it, but I prefer a beer." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Sofía say she doesn't like at all?", "options": ["Octopus", "Spicy food", "Wine"], "correct": 1 },
+        { "q": "What does 'you' love?", "options": ["Croquettes", "Octopus", "Tortilla"], "correct": 2 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write 3 sentences about food or things you like, love, or don't like at all — use me gusta / me gustan / me encanta / no me gusta nada.",
+      "starters": ["Me gusta...", "Me encantan...", "No me gusta nada..."]
+    }
+  ]
+}

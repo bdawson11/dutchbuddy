@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "day-29",
+  "day": 29,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "Il passato prossimo con avere",
+  "emoji": "🕰",
+  "level": "A2",
+  "durationMin": [16, 24],
+  "summary": "Building the passato prossimo with avere: regular participles -ato/-uto/-ito",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Two pieces, one new tense",
+      "body": "The **passato prossimo** talks about things that happened recently or are finished. It's built from two pieces: **avere** (in the present) + the **past participle**: *ho parlato* (I spoke / I've spoken). Most transitive verbs use avere — you'll see it everywhere.",
+      "callout": "Formula: avere (present) + past participle."
+    },
+    {
+      "type": "card",
+      "title": "-ato, -uto, -ito",
+      "body": "The regular participle ending depends on the conjugation class: **-are → -ato**, **-ere → -uto**, **-ire → -ito**. Easy to build once you know the pattern.",
+      "table": {
+        "headers": ["Infinito", "Participio", "Esempio"],
+        "rows": [
+          ["parlare", "parlato", "Ho parlato con Giulia."],
+          ["avere", "avuto", "Ho avuto un'idea."],
+          ["dormire", "dormito", "Ho dormito otto ore."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Listen and repeat",
+      "items": [
+        { "nl": "ho parlato", "en": "I spoke / I've spoken", "speak": "ho parlato" },
+        { "nl": "ho lavorato", "en": "I worked", "speak": "ho lavorato" },
+        { "nl": "ho mangiato", "en": "I ate", "speak": "ho mangiato" },
+        { "nl": "ho dormito", "en": "I slept", "speak": "ho dormito" },
+        { "nl": "ho capito", "en": "I understood", "speak": "ho capito" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "What's the passato prossimo of *mangiare* (to eat) — 'I ate'?",
+      "options": ["Ho mangiato", "Sono mangiato", "Mangiavo"],
+      "correct": 0,
+      "explain": "*Mangiare* is an -are verb: participle *mangiato*, with avere — *ho mangiato*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which ending goes with -ere verbs like *avere*?",
+      "options": ["-ato", "-uto", "-ito"],
+      "correct": 1,
+      "explain": "-ere → -uto: *avere → avuto*, *ricevere → ricevuto*."
+    },
+    {
+      "type": "contrast",
+      "title": "Present vs passato prossimo",
+      "pairs": [
+        { "left": "*Parlo italiano ogni giorno.* — I speak Italian every day (habit, present)", "right": "*Ho parlato italiano ieri.* — I spoke Italian yesterday (finished event)", "note": "Same verb, different job — presente for habits, passato prossimo for finished events." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the passato prossimo of *lavorare* (to work) — 'I worked'.",
+      "answers": ["ho lavorato"],
+      "hint": "avere + a participle in -ato.",
+      "explain": "*Ho lavorato* — regular, -are → -ato."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ho dormito bene.",
+      "answers": ["ho dormito bene", "ho dormito bene."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, Marco asks You about the day",
+      "lines": [
+        { "speaker": "Marco", "nl": "Allora, cosa hai fatto oggi?", "en": "So, what did you do today?" },
+        { "speaker": "You", "nl": "Ho lavorato tutta la mattina, poi ho pranzato con Giulia.", "en": "I worked all morning, then I had lunch with Giulia.", "spotlight": "Two avere-verbs back to back: ho lavorato, ho pranzato." },
+        { "speaker": "Marco", "nl": "Avete parlato di lavoro, immagino.", "en": "You talked about work, I imagine." },
+        { "speaker": "You", "nl": "Un po', sì. Ho anche ascoltato un po' di musica al bar.", "en": "A little, yes. I also listened to some music at the bar." },
+        { "speaker": "Marco", "nl": "Bello! Io invece ho dormito fino a tardi.", "en": "Nice! I, on the other hand, slept in late." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write 2-3 sentences about what you did today, using ho + a participle (-ato/-uto/-ito).",
+      "starters": ["Oggi ho…", "Ho anche…"],
+      "minSentences": 2
+    }
+  ]
+}

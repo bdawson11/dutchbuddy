@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "day-39",
+  "day": 39,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "Cómo te sientes",
+  "emoji": "😊",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Emotion adjectives with estar, and the ser/estar split for feelings vs. personality.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Estar + emoción",
+      "body": "Los sentimientos van con **estar**, porque son un estado, no una identidad permanente: *estoy contento/a, estoy triste, estoy nervioso/a, estoy agobiado/a* (overwhelmed), *estoy harto/a* (fed up). Todos concuerdan en género y número con quien habla.",
+      "table": {
+        "headers": ["Adjetivo", "Gloss"],
+        "rows": [
+          ["contento/a", "happy"],
+          ["triste", "sad"],
+          ["nervioso/a", "nervous"],
+          ["agobiado/a", "overwhelmed / stressed"],
+          ["harto/a", "fed up"],
+          ["tranquilo/a", "calm"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Cómo te sientes",
+      "items": [
+        { "nl": "estoy contento/a", "en": "I'm happy", "speak": "estoy contento" },
+        { "nl": "estoy nervioso/a", "en": "I'm nervous", "speak": "estoy nervioso" },
+        { "nl": "estoy agobiado/a", "en": "I'm overwhelmed", "speak": "estoy agobiado" },
+        { "nl": "estoy harto/a", "en": "I'm fed up", "speak": "estoy harto" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Ser vs. estar: personalidad vs. estado",
+      "body": "*Es una persona alegre* (ser = rasgo de personalidad, así es ella siempre) frente a *hoy está triste* (estar = cómo se siente hoy, algo pasajero). La misma persona puede *ser* optimista y *estar* triste un día concreto — no se contradice.",
+      "callout": "Recuerda el par especial: *es aburrido* (is boring, ser=rasgo) vs *está aburrido* (is bored, estar=estado) — palabras distintas según el verbo."
+    },
+    {
+      "type": "mcq",
+      "prompt": "'Normalmente es muy alegre, pero hoy _____ un poco triste.' ¿Qué falta?",
+      "options": ["es", "está"],
+      "correct": 1,
+      "explain": "Un estado de hoy, pasajero → **estar**: *hoy está un poco triste*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál describe un rasgo de personalidad permanente?",
+      "options": ["Está nervioso antes del examen", "Es una persona nerviosa", "Está muy nervioso hoy"],
+      "correct": 1,
+      "explain": "**Es una persona nerviosa** = ser, un rasgo estable de su carácter."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduce: 'I'm a bit overwhelmed today.'",
+      "answers": ["estoy un poco agobiado", "estoy un poco agobiada", "hoy estoy un poco agobiado", "hoy estoy un poco agobiada"],
+      "hint": "estado de hoy → estar",
+      "explain": "**Estoy un poco agobiado/a hoy.**"
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "estoy un poco nervioso",
+      "answers": ["estoy un poco nervioso"]
+    },
+    {
+      "type": "contrast",
+      "title": "Es aburrido vs. está aburrido",
+      "pairs": [
+        { "left": "la película es aburrida — the movie is boring (trait)", "right": "el niño está aburrido — the kid is bored (state)", "note": "Same adjective, ser vs estar completely changes the meaning." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, Rafa notices Lucía seems distracted and mentions Sofía's been acting a bit off too.",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Oye, ¿estás bien? Te noto rara hoy.", "en": "Hey, are you okay? You seem off today." },
+        { "speaker": "Lucía", "nl": "Un poco agobiada, la verdad. Con el trabajo y tal.", "en": "A bit overwhelmed, honestly. With work and everything." },
+        { "speaker": "Rafa", "nl": "Ya somos dos. Y Sofía anda un poco rara también, ¿no?", "en": "Same here. And Sofía's been a bit off too, hasn't she?", "spotlight": "foreshadow — sets up day 41's rough-week reveal." },
+        { "speaker": "Lucía", "nl": "Sí, la he notado nerviosa esta semana. No sé qué le pasa.", "en": "Yeah, I've noticed she's been nervous this week. I don't know what's up with her." },
+        { "speaker": "You", "nl": "A lo mejor solo está cansada. ¿Habéis quedado con ella?", "en": "Maybe she's just tired. Have you guys met up with her?", "spotlight": "vosotros: habéis quedado — plural informal 'you (all)'." },
+        { "speaker": "Rafa", "nl": "Vale, la llamamos este finde a ver qué tal está.", "en": "Okay, we'll call her this weekend to see how she's doing." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "¿Cómo dice Lucía que se siente?", "options": ["Contenta", "Agobiada", "Enfadada"], "correct": 1 },
+        { "q": "¿Quién anda un poco rara esta semana, según Rafa?", "options": ["Lucía", "Nacho", "Sofía"], "correct": 2 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "¿Cómo estás hoy, de verdad? Escribe dos frases con estar + una emoción, y explica por qué.",
+      "starters": ["Hoy estoy…", "Porque…"],
+      "minSentences": 2
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "day-51",
+  "day": 51,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "Fare progetti",
+  "emoji": "📅",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Making plans with pensare di and avere intenzione di, proposing plans together, and simple predictions",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Pensare di & avere intenzione di — talking about plans",
+      "body": "To share a plan, use **pensare di + infinito** ('I'm thinking of…') for something still forming, or the firmer **avere intenzione di + infinito** ('I intend to…'). The second verb always stays in the infinitive, whoever's speaking: *Penso di partire venerdì. Ho intenzione di cambiare lavoro.*",
+      "table": {
+        "headers": ["Frase", "Uso"],
+        "rows": [
+          ["pensare di + infinito", "a plan still forming"],
+          ["avere intenzione di + infinito", "a firmer intention"]
+        ]
+      },
+      "callout": "*pensare di* + infinitive = a plan. *pensare che* + a clause = an opinion — that's tomorrow's lesson."
+    },
+    {
+      "type": "chips",
+      "title": "Progetti in parole",
+      "items": [
+        { "nl": "Penso di andare in palestra oggi.", "en": "I'm thinking of going to the gym today.", "speak": "Penso di andare in palestra oggi." },
+        { "nl": "Ho intenzione di studiare di più.", "en": "I intend to study more.", "speak": "Ho intenzione di studiare di più." },
+        { "nl": "Pensiamo di cambiare casa.", "en": "We're thinking of moving house.", "speak": "Pensiamo di cambiare casa." },
+        { "nl": "Hanno intenzione di aprire un bar.", "en": "They intend to open a bar.", "speak": "Hanno intenzione di aprire un bar." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Complete: 'Pensiamo ___ partire sabato.' (We're thinking of leaving Saturday.)",
+      "options": ["di", "che", "a"],
+      "correct": 0,
+      "explain": "*pensare di + infinito* — the preposition is always *di* when the next verb stays in the infinitive."
+    },
+    {
+      "type": "card",
+      "title": "Fare un'offerta — proposing plans together",
+      "body": "Two easy ways to propose doing something together: **Ti va di + infinito?** ('Do you feel like…?', a casual invite) and **Perché non + presente?** ('Why don't we…?', a gentle nudge). *Ti va di uscire stasera? Perché non andiamo al cinema?*",
+      "callout": "*Ti va di…?* invites. *Perché non…?* nudges."
+    },
+    {
+      "type": "contrast",
+      "title": "Un invito soft vs una spinta",
+      "pairs": [
+        { "left": "*Ti va di uscire stasera?* — a soft invite, easy to decline", "right": "*Perché non usciamo stasera?* — a nudge, expects a yes", "note": "Same idea, different pressure — pick *ti va di* when you want to leave an easy out." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Propose going to the cinema with 'Perché non...?'",
+      "answers": ["perché non andiamo al cinema?", "perché non andiamo al cinema"],
+      "hint": "*Perché non* + the *noi* form of the present.",
+      "explain": "*Perché non andiamo al cinema?* — perché non + andiamo (noi, presente)."
+    },
+    {
+      "type": "card",
+      "title": "Previsioni — forse, probabilmente, sicuramente",
+      "body": "To say what you think will happen, pair the futuro with an adverb of likelihood: **forse** (maybe), **probabilmente** (probably), **sicuramente** (surely). *Domani probabilmente pioverà. Farà sicuramente caldo in agosto.* The adverb usually sits right before the verb.",
+      "callout": "forse < probabilmente < sicuramente — low to high confidence."
+    },
+    {
+      "type": "dictation",
+      "speak": "Ho intenzione di cambiare lavoro.",
+      "prompt": "Listen and type the whole line.",
+      "answers": ["ho intenzione di cambiare lavoro", "ho intenzione di cambiare lavoro."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Giulia calls to make weekend plans with you.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora, hai intenzione di venire alla festa di Sofia sabato?", "en": "So, do you intend to come to Sofia's party Saturday?" },
+        { "speaker": "You", "nl": "Sì, penso di venire! Ma prima ho intenzione di fare la spesa.", "en": "Yes, I'm thinking of coming! But first I intend to do the grocery shopping.", "spotlight": "pensare di + venire and avere intenzione di + fare, back to back — both keep the infinitive." },
+        { "speaker": "Giulia", "nl": "Perfetto. Ti va di arrivare insieme?", "en": "Perfect. Do you feel like arriving together?" },
+        { "speaker": "You", "nl": "Volentieri! Secondo te, pioverà sabato?", "en": "Gladly! Do you think it'll rain Saturday?" },
+        { "speaker": "Giulia", "nl": "Boh, forse. Ma probabilmente sarà una bella serata.", "en": "Not sure, maybe. But it'll probably be a lovely evening." },
+        { "speaker": "You", "nl": "Speriamo bene, allora!", "en": "Let's hope so, then!" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write two things you're planning (pensare di / avere intenzione di) and one prediction about next week using the futuro plus forse, probabilmente, or sicuramente.",
+      "starters": ["Penso di…", "Ho intenzione di…", "Probabilmente…"]
+    }
+  ]
+}

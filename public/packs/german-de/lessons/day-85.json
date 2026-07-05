@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "day-85",
+  "day": 85,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "würde: der Höflichkeits- und Wenn-Motor",
+  "emoji": "🔮",
+  "level": "B2",
+  "durationMin": [20, 30],
+  "summary": "Season 2 opens: reactivate and extend Konjunktiv II with würde + Infinitiv — the workhorse for advice, hedging and hypotheticals.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Willkommen in Staffel 2",
+      "body": "Anderthalb Jahre in Deutschland. Du bestellst nicht mehr nur Brötchen — jetzt geht es ums **Feiner-Sprechen**. Erste Station: der **Konjunktiv II**, deine Maschine für *hypothetisch*, *höflich* und *wenn-dann*. In B1 hast du *würde* nur angetippt; jetzt wird es Reflex. Der Baustein ist simpel: **würde + Infinitiv ganz am Ende**. *Ich würde sagen…, an deiner Stelle würde ich…, würdest du mir helfen?*",
+      "callout": "Merksatz: würde macht aus einer Ansage einen Vorschlag."
+    },
+    {
+      "type": "card",
+      "title": "Die Formen von würde",
+      "body": "*würde* ist selbst schon Konjunktiv (von *werden*). Es steht auf **Position 2** wie ein normales Verb — der eigentliche Sinn-Träger, der **Infinitiv**, wandert ans Satzende. *Ich würde gern nach Hamburg **fahren**.*",
+      "table": {
+        "headers": ["Person", "Form + Infinitiv"],
+        "rows": [
+          ["ich", "würde … fahren"],
+          ["du", "würdest … fahren"],
+          ["er/sie/es", "würde … fahren"],
+          ["wir", "würden … fahren"],
+          ["ihr", "würdet … fahren"],
+          ["sie/Sie", "würden … fahren"]
+        ]
+      },
+      "callout": "Nur du und ihr bekommen eine Extra-Endung (-st, -t). Der Rest ist würde / würden."
+    },
+    {
+      "type": "chips",
+      "title": "Bausteine zum Anhören",
+      "items": [
+        { "nl": "Ich würde sagen, …", "en": "I would say, …", "speak": "Ich würde sagen" },
+        { "nl": "An deiner Stelle würde ich …", "en": "In your place I would …", "speak": "An deiner Stelle würde ich" },
+        { "nl": "Würdest du mir helfen?", "en": "Would you help me?", "speak": "Würdest du mir helfen?" },
+        { "nl": "Ich würde gern mitkommen.", "en": "I'd like to come along.", "speak": "Ich würde gern mitkommen." },
+        { "nl": "Das würde ich nicht machen.", "en": "I wouldn't do that.", "speak": "Das würde ich nicht machen." },
+        { "nl": "Wir würden uns freuen.", "en": "We'd be glad.", "speak": "Wir würden uns freuen." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Ansage vs. Vorschlag",
+      "pairs": [
+        { "left": "Ich helfe dir. — I'll help you (plain fact)", "right": "Ich würde dir helfen. — I would help you (hypothetical / softer)", "note": "Same content, less committing. würde opens a hypothetical door." },
+        { "left": "Mach das nicht! — Don't do that! (blunt order)", "right": "Das würde ich nicht machen. — I wouldn't do that. (gentle advice)", "note": "In German, advice as your own hypothetical choice lands far softer than an imperative." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welcher Satz gibt einen höflichen, hypothetischen Rat?",
+      "options": [
+        "An deiner Stelle mache ich das anders.",
+        "An deiner Stelle würde ich das anders machen.",
+        "An deiner Stelle würde ich das anders mache."
+      ],
+      "correct": 1,
+      "explain": "würde steht auf Position 2, der Infinitiv *machen* ganz am Ende. Option 1 ist schlichter Indikativ (klingt wie eine Ansage), Option 3 hat eine falsche Verbform (*mache* statt *machen*)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Sag es höflich mit würde: 'I would gladly come along.' (mitkommen, gern)",
+      "answers": ["Ich würde gern mitkommen", "Ich würde gerne mitkommen", "Ich würde gern mit kommen"],
+      "hint": "würde auf Position 2, mitkommen ans Ende.",
+      "explain": "*Ich würde gern mitkommen.* — würde + der Infinitiv *mitkommen* am Satzende. *gern(e)* steht im Mittelfeld."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe den Satz.",
+      "speak": "Ich würde dir gern helfen.",
+      "answers": ["Ich würde dir gern helfen", "Ich würde dir gerne helfen"]
+    },
+    {
+      "type": "builder",
+      "title": "Rat geben: An deiner Stelle …",
+      "prompt": "Bau einen höflichen Rat. Achte auf die Reihenfolge: Vorfeld — würde ich — Rest — Infinitiv am Ende.",
+      "slots": [
+        { "label": "Vorfeld", "chips": ["An deiner Stelle", "Ehrlich gesagt", "An eurer Stelle"] },
+        { "label": "würde ich", "chips": ["würde ich"] },
+        { "label": "Rest + Infinitiv", "chips": ["einfach mit Lena reden", "erst mal abwarten", "das so nicht machen"] }
+      ],
+      "sample": "An deiner Stelle würde ich einfach mit Lena reden."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You can't decide whether to switch flatshares. You ask Lena — and she answers in careful, hedged advice.",
+      "lines": [
+        { "speaker": "You", "nl": "Lena, ich weiß echt nicht, ob ich umziehen soll.", "en": "Lena, I really don't know whether I should move." },
+        { "speaker": "Lena", "nl": "Hmm. An deiner Stelle würde ich das erst mal in Ruhe durchdenken.", "en": "Hmm. In your place I'd think it through calmly first.", "spotlight": "*An deiner Stelle würde ich…* — the classic German advice frame." },
+        { "speaker": "You", "nl": "Aber die neue WG ist viel günstiger.", "en": "But the new flatshare is much cheaper." },
+        { "speaker": "Lena", "nl": "Klar. Ich würde trotzdem nichts überstürzen.", "en": "Sure. I still wouldn't rush anything." },
+        { "speaker": "You", "nl": "Würdest du mit den neuen Leuten reden?", "en": "Would you talk to the new people?", "spotlight": "Yes/no question: *würde* jumps to the front, the infinitive *reden* stays at the end." },
+        { "speaker": "Lena", "nl": "Auf jeden Fall. Ich würde sie einfach mal auf einen Kaffee treffen.", "en": "Definitely. I'd just meet them for a coffee sometime." },
+        { "speaker": "You", "nl": "Gute Idee. Das würde ich von allein nie machen.", "en": "Good idea. I'd never do that on my own." },
+        { "speaker": "Lena", "nl": "Siehst du? Ein bisschen Mut würde dir manchmal echt helfen.", "en": "See? A bit of courage would really help you sometimes." },
+        { "speaker": "You", "nl": "Danke. Ohne dich würde ich echt untergehen.", "en": "Thanks. Without you I'd really sink." },
+        { "speaker": "Lena", "nl": "Quatsch. Du würdest das auch allein schaffen.", "en": "Nonsense. You'd manage it on your own too." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Ein Freund überlegt, nach Berlin zu ziehen, und fragt dich um Rat. Was würdest du an seiner Stelle machen? Schreib mindestens vier Sätze mit würde — mindestens einen mit dem Rahmen \"An deiner Stelle …\".",
+      "starters": ["An deiner Stelle würde ich…", "Ich würde auf jeden Fall…", "Ich würde nicht…", "Würdest du…?"],
+      "minSentences": 4
+    }
+  ]
+}
