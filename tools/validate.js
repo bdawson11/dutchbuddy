@@ -116,6 +116,7 @@ function req(obj, fields) {
 // ---------- lessons ----------
 const lessonsDir = path.join(packDir, 'lessons');
 let validated = 0;
+const lessons = [];
 for (const dayId of allDayIds) {
   const file = path.join(lessonsDir, `${dayId}.json`);
   if (!fs.existsSync(file)) {
@@ -157,6 +158,37 @@ for (const dayId of allDayIds) {
   const n = lesson.blocks.length;
   const target = { lesson: [8, 12], review: [6, 8], capstone: [10, 14] }[lesson.kind];
   if (target && (n < target[0] || n > target[1])) warn(`${dayId}: ${n} blocks, style guide target for ${lesson.kind} is ${target[0]}–${target[1]}`);
+
+  lessons.push({ dayId, day: lesson.day, kind: lesson.kind, emoji: lesson.emoji, week: week ? week.week : null, raw: JSON.stringify(lesson) });
+}
+
+// ---------- pack-level content invariants ----------
+// Cross-lesson drift that per-file checks can't see. Each check only inspects
+// lessons that are present, so partial packs never trip a false error.
+if (lessons.length) {
+  // Emoji distinct within a week (style guide: distinct emoji across a week).
+  const weekEmoji = {};
+  for (const l of lessons) {
+    if (l.week == null || !l.emoji) continue;
+    weekEmoji[l.week] = weekEmoji[l.week] || {};
+    if (weekEmoji[l.week][l.emoji]) err(`emoji ${l.emoji} repeats within week ${l.week} (${weekEmoji[l.week][l.emoji]} and ${l.dayId})`);
+    else weekEmoji[l.week][l.emoji] = l.dayId;
+  }
+
+  // Every capstone carries the growing self-intro ("mijn verhaal").
+  for (const l of lessons) {
+    if (l.kind === 'capstone' && !/verhaal/i.test(l.raw)) {
+      err(`${l.dayId}: capstone has no "mijn verhaal" self-intro (product invariant)`);
+    }
+  }
+
+  // Story-arc continuity: Sanne is not tied to Utrecht before her news (day 62);
+  // she relocates on day 69. Co-occurrence earlier is a likely arc leak.
+  for (const l of lessons) {
+    if (l.day < 62 && /Sanne/.test(l.raw) && /Utrecht/.test(l.raw)) {
+      warn(`${l.dayId}: mentions Sanne and Utrecht before day 62 — check the move arc (she relocates on day 69)`);
+    }
+  }
 }
 
 // ---------- report ----------

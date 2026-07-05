@@ -1,0 +1,27 @@
+name: CI
+
+# The content pipeline's gate: no pack merges without a clean strict validation
+# and passing engine tests. See docs/plan.md §1 ("the scalability lynchpin").
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Validate content pack (strict — all 84 days present, zero errors)
+        run: npm run validate:strict
+      - name: Engine unit tests (grading + progress)
+        run: npm test
+      - name: Lint
+        run: npm run lint
+      - name: Build
+        run: npm run build
