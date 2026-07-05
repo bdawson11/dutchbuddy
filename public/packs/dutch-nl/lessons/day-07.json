@@ -82,9 +82,9 @@
       "title": "Mijn verhaal — laag 1",
       "prompt": "Build your first self-introduction: your name, where you're from, and that you're learning Dutch. Pick one chip per slot, then say the whole thing out loud.",
       "slots": [
-        { "label": "Name", "chips": ["Ik ben Alex", "Ik heet Alex", "Hoi, ik ben Alex"] },
-        { "label": "Where from", "chips": ["Ik kom uit Canada", "Ik kom uit Amerika", "Ik kom uit Spanje"] },
-        { "label": "What you're doing", "chips": ["Ik leer Nederlands", "Ik ben hier nieuw", "en ik heb er zin in"] }
+        { "label": "Name", "chips": ["Ik ben Alex.", "Ik heet Alex.", "Hoi, ik ben Alex."] },
+        { "label": "Where from", "chips": ["Ik kom uit Canada.", "Ik kom uit Amerika.", "Ik kom uit Spanje."] },
+        { "label": "What you're doing", "chips": ["Ik leer Nederlands.", "Ik ben hier nieuw.", "En ik heb er zin in."] }
       ],
       "sample": "Ik ben Alex. Ik kom uit Canada. Ik leer Nederlands en ik heb er zin in.",
       "starters": ["Ik ben …", "Ik kom uit …", "Ik leer Nederlands"]

@@ -5,7 +5,7 @@
   "module": "M06",
   "unit": "U06",
   "kind": "review",
-  "title": "Sanne's zware week",
+  "title": "Sannes zware week",
   "emoji": "🚲",
   "level": "A2",
   "durationMin": [15, 25],
@@ -55,7 +55,7 @@
       "lines": [
         { "speaker": "Sanne", "nl": "Hoi... ik heb een zware week gehad, eerlijk gezegd.", "en": "Hi... I've had a rough week, honestly." },
         { "speaker": "You", "nl": "Oh nee, wat is er gebeurd?", "en": "Oh no, what happened?" },
-        { "speaker": "Sanne", "nl": "Mijn fiets is gestolen, midden in Amsterdam!", "en": "My bike got stolen, right in the middle of Amsterdam!", "spotlight": "is gestolen — perfect tense from week 5, back in the wild" },
+        { "speaker": "Sanne", "nl": "Mijn fiets is gestolen, midden in Amsterdam!", "en": "My bike got stolen, right in the middle of Amsterdam!", "spotlight": "is gestolen — passive (zijn + participle: 'has been stolen'), not stelen's own perfect (that's heeft gestolen)" },
         { "speaker": "You", "nl": "Wat vervelend! En toen?", "en": "How annoying! And then?" },
         { "speaker": "Sanne", "nl": "En toen werd ik ook nog ziek. Ik voelde me heel beroerd — koorts, hoofdpijn, alles.", "en": "And then I got sick on top of it. I felt awful — fever, headache, everything." },
         { "speaker": "You", "nl": "Ben je naar de huisarts geweest?", "en": "Did you go to the GP?" },
