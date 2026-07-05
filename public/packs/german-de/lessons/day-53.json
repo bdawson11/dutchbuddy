@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "day-53",
+  "day": 53,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "Der Nebensatz: weil, dass, wenn",
+  "emoji": "🧩",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "The A2→B1 gate: weil, dass, and wenn send the verb to the very end of the clause",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Der Verb-Umzug: weil, dass, wenn",
+      "body": "In a **main clause**, the verb sits in position two. But after **weil** (because), **dass** (that) and **wenn** (if/when), the verb packs its bags and moves to the **very end** of that clause: *Ich lerne Deutsch, weil ich in Berlin wohne* (not: weil ich wohne in Berlin). This is the single biggest word-order shift in German — worth slowing down for.",
+      "callout": "Trick: think of the subclause verb as waiting by the door until everyone else has walked in."
+    },
+    {
+      "type": "contrast",
+      "title": "Hauptsatz-Wortstellung vs. Nebensatz-Wortstellung",
+      "pairs": [
+        { "left": "Ich bin müde. — main clause, verb 2nd", "right": "…, weil ich müde bin. — subclause, verb LAST", "note": "Same idea, but weil sends bin all the way to the end." },
+        { "left": "Das stimmt. — main clause", "right": "Ich glaube, dass das stimmt. — dass-clause, verb last", "note": "stimmt moves to the end after dass." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Die drei Türsteher — tap to hear",
+      "items": [
+        { "nl": "weil", "en": "because", "speak": "weil" },
+        { "nl": "dass", "en": "that", "speak": "dass" },
+        { "nl": "wenn", "en": "if / when(ever)", "speak": "wenn" },
+        { "nl": "Ich lerne Deutsch, weil…", "en": "I'm learning German because…", "speak": "Ich lerne Deutsch, weil" },
+        { "nl": "Ich glaube, dass…", "en": "I believe that…", "speak": "Ich glaube, dass" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence correctly puts the verb at the end after weil?",
+      "options": ["Ich bleibe zu Hause, weil ich bin krank.", "Ich bleibe zu Hause, weil ich krank bin.", "Ich bleibe zu Hause, weil bin ich krank."],
+      "correct": 1,
+      "explain": "weil ich krank bin — subject first, then everything else, verb (bin) dead last."
+    },
+    {
+      "type": "typed",
+      "prompt": "Complete: 'Ich gehe nicht raus, ___.' (because it's raining — use weil and es regnet)",
+      "answers": ["weil es regnet", "weil es regnet."],
+      "hint": "Subject (es) + verb (regnet) at the end.",
+      "explain": "weil es regnet — es is the subject, regnet the verb, and it has to wait until the end."
+    },
+    {
+      "type": "card",
+      "title": "dass nach Meinungsverben",
+      "body": "**dass** often follows opinion and reporting verbs: *ich glaube, dass…*, *ich finde, dass…*, *ich weiß, dass…*. Same rule applies — verb to the end of the *dass*-clause: *Ich glaube, dass Berlin teuer wird* (I think that Berlin is getting expensive)."
+    },
+    {
+      "type": "builder",
+      "title": "Baue einen weil-Satz",
+      "prompt": "Build a sentence explaining why, using weil.",
+      "slots": [
+        { "label": "Hauptsatz", "chips": ["Ich bin müde,", "Ich lerne Deutsch,", "Ich bleibe heute zu Hause,"] },
+        { "label": "weil + Subjekt", "chips": ["weil ich", "weil Jonas"] },
+        { "label": "Rest + Verb am Ende", "chips": ["spät ins Bett gegangen bin", "viel arbeiten muss", "krank ist"] }
+      ],
+      "sample": "Ich bin müde, weil ich spät ins Bett gegangen bin."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena explains over coffee why she loves living in Berlin.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Ich liebe Berlin, weil hier immer etwas los ist.", "en": "I love Berlin because there's always something going on here.", "spotlight": "weil … los ist — the verb (ist) sits at the very end." },
+        { "speaker": "You", "nl": "Und was, wenn es mal zu viel wird?", "en": "And what if it gets too much sometimes?" },
+        { "speaker": "Lena", "nl": "Wenn ich Ruhe brauche, fahre ich einfach in den Park.", "en": "When I need quiet, I just go to the park.", "spotlight": "Wenn-clause first: brauche sits at the end of the wenn-part, then fahre follows right after the comma." },
+        { "speaker": "You", "nl": "Ich glaube, dass das eine gute Idee ist.", "en": "I think that's a good idea." },
+        { "speaker": "Lena", "nl": "Genau! Und ich finde, dass Berlin trotzdem meine Stadt bleibt.", "en": "Exactly! And I think Berlin stays my city anyway." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "Why does Lena love Berlin?", "options": ["It's cheap", "There's always something going on", "It's quiet"], "correct": 1 },
+        { "q": "What does Lena do when she needs quiet?", "options": ["Stays home", "Goes to the park", "Calls Jonas"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Finish three sentences: one with weil, one with dass, one with wenn. Talk about your own life in Berlin or your city.",
+      "starters": ["Ich lerne Deutsch, weil…", "Ich glaube, dass…", "Wenn ich Zeit habe,…"]
+    }
+  ]
+}

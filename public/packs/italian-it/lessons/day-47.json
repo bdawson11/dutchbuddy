@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "day-47",
+  "day": 47,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Prima e adesso",
+  "emoji": "🔄",
+  "level": "A2",
+  "durationMin": [15, 22],
+  "summary": "Habitual past vs present habits, and the frequency adverbs that connect them (sempre… mai)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Prima e adesso",
+      "body": "Per confrontare **come eri prima** e **come sei adesso** ti servono gli avverbi di frequenza: **sempre** (always), **spesso** (often), **di solito** (usually), **ogni tanto** (once in a while), **raramente** (rarely), e **non… mai** (never). Vanno di solito **dopo il verbo**: *andavo spesso*, *non uscivo mai*.",
+      "callout": "Prima + imperfetto racconta un'abitudine passata; adesso + presente dice come stai ora."
+    },
+    {
+      "type": "chips",
+      "title": "Quanto spesso? — tocca per sentire",
+      "items": [
+        { "nl": "sempre", "en": "always", "speak": "sempre" },
+        { "nl": "spesso", "en": "often", "speak": "spesso" },
+        { "nl": "di solito", "en": "usually", "speak": "di solito" },
+        { "nl": "ogni tanto", "en": "once in a while", "speak": "ogni tanto" },
+        { "nl": "raramente", "en": "rarely", "speak": "raramente" },
+        { "nl": "mai", "en": "never (with non)", "speak": "mai" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Prima vs adesso",
+      "pairs": [
+        { "left": "*Prima fumavo.* — I used to smoke (before)", "right": "*Adesso non fumo più.* — Now I don't smoke anymore", "note": "*non… più* = 'not anymore' — si accompagna bene a un confronto prima/adesso." },
+        { "left": "*Da bambino non mangiavo mai il pesce.*", "right": "*Adesso lo mangio spesso.*", "note": "mai (imperfetto, mai da piccolo) vs spesso (presente, spesso adesso) — la frequenza cambia crescendo." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Quale frase descrive un'abitudine di UNA VOLTA, non di adesso?",
+      "options": ["Ogni sabato giocavamo insieme.", "Vado spesso in palestra.", "Andavo spesso in piscina da bambino."],
+      "correct": 2,
+      "explain": "*andavo* (imperfetto) + *da bambino* = un'abitudine passata. Le altre due frasi sono al presente, parlano di adesso."
+    },
+    {
+      "type": "typed",
+      "prompt": "Scrivi in italiano 'I never used to go' con non… mai + andare all'imperfetto (io).",
+      "answers": ["non andavo mai", "non andavo mai."],
+      "hint": "non + verbo + mai",
+      "explain": "*non andavo mai* — *mai* si accompagna sempre a *non* prima del verbo."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Prima uscivo sempre il sabato sera.",
+      "answers": ["prima uscivo sempre il sabato sera", "prima uscivo sempre il sabato sera."]
+    },
+    {
+      "type": "builder",
+      "title": "Prima e adesso",
+      "prompt": "Costruisci una frase che confronta un'abitudine di prima con adesso.",
+      "slots": [
+        { "label": "Prima (imperfetto)", "chips": ["Prima fumavo", "Prima uscivo ogni sera", "Prima non mangiavo mai le verdure"] },
+        { "label": "Adesso (presente)", "chips": ["adesso non fumo più", "adesso esco raramente", "adesso le mangio spesso"] }
+      ],
+      "sample": "Prima fumavo, adesso non fumo più."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Marco tells You how his habits have changed since working at the bookshop",
+      "lines": [
+        { "speaker": "Marco", "nl": "Prima uscivo ogni sera, adesso raramente.", "en": "Before I used to go out every night, now rarely." },
+        { "speaker": "You", "nl": "Perché? Sei cambiato?", "en": "Why? Have you changed?" },
+        { "speaker": "Marco", "nl": "Boh, forse. Prima non pensavo mai al lavoro, adesso ci penso sempre.", "en": "Boh, maybe. Before I never used to think about work, now I think about it all the time.", "spotlight": "ci penso — un'anticipazione: ci + pensare, il clitico che padroneggerai bene in settimana 10." },
+        { "speaker": "You", "nl": "E la musica? Suoni ancora?", "en": "And the music? Do you still play?" },
+        { "speaker": "Marco", "nl": "Ogni tanto, la sera. Ma prima suonavo tutti i giorni.", "en": "Once in a while, in the evening. But before I used to play every day." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "How often did Marco go out before, compared to now?", "options": ["Every night before, rarely now", "Never before, every night now", "The same as now"], "correct": 0 },
+        { "q": "How often does Marco play music now?", "options": ["Every day", "Once in a while", "Never"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Confronta prima e adesso: due abitudini che avevi da bambino/a e come sono cambiate. Usa gli avverbi di frequenza.",
+      "starters": ["Prima…, adesso…", "Da bambino/a non… mai…"],
+      "minSentences": 3
+    }
+  ]
+}

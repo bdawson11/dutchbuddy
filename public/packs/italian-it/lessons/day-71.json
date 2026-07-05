@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "day-71",
+  "day": 71,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Verbo + preposizione: le coppie fisse",
+  "emoji": "🔗",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Verbs that glue to a fixed preposition before an infinitive: the 'a' family and the 'di' family, plus pensare a vs pensare di",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Verbi che si 'incollano' a una preposizione",
+      "body": "In italiano tantissimi verbi si **incollano** a una preposizione fissa prima di un infinito — e devi imparare la coppia a memoria. *cominciare **a**, riuscire **a**, imparare **a*** vogliono **a**; *finire **di**, cercare **di**, smettere **di*** vogliono **di**. C'è una logica di massima (**a** = iniziare / andare verso; **di** = finire / provare / decidere), ma trattali come vocaboli: impara **il verbo insieme alla sua preposizione**. Esempio: *comincio **a** capire*, *ho finito **di** lavorare*.",
+      "callout": "Impara la preposizione INSIEME al verbo, come un blocco unico: *riuscire a*, *cercare di*."
+    },
+    {
+      "type": "chips",
+      "title": "Le coppie da sapere",
+      "items": [
+        { "nl": "cominciare a", "en": "to start (doing)", "speak": "Comincio a capire." },
+        { "nl": "riuscire a", "en": "to manage to", "speak": "Non riesco a dormire." },
+        { "nl": "imparare a", "en": "to learn to", "speak": "Imparo a cucinare." },
+        { "nl": "provare a", "en": "to try to", "speak": "Provo a parlare italiano." },
+        { "nl": "finire di", "en": "to finish (doing)", "speak": "Ho finito di studiare." },
+        { "nl": "cercare di", "en": "to try to", "speak": "Cerco di arrivare presto." },
+        { "nl": "smettere di", "en": "to stop (doing)", "speak": "Ho smesso di fumare." },
+        { "nl": "decidere di", "en": "to decide to", "speak": "Ho deciso di restare." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Famiglia 'a' vs famiglia 'di'",
+      "pairs": [
+        { "left": "*a*: cominciare a, riuscire a, imparare a, continuare a, provare a", "right": "*di*: finire di, smettere di, cercare di, decidere di, sperare di", "note": "Senso di massima: *a* = iniziare o andare verso un'azione; *di* = finire, provare, decidere. Ma impara ogni coppia a memoria." },
+        { "left": "*pensare a* — pensare A qualcosa/qualcuno: *penso a te*", "right": "*pensare di* — avere in mente DI fare: *penso di partire*", "note": "Stesso verbo, due preposizioni, due significati. *a* + nome = ci rifletti su; *di* + infinito = hai intenzione di." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Scegli la preposizione: «Non riesco ___ dormire.»",
+      "options": ["a", "di", "da"],
+      "correct": 0,
+      "explain": "*Riuscire* vuole **a**: *riesco a dormire*. Impara la coppia *riuscire a* come un blocco unico."
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Quest'estate ___ andare in Sicilia.» (ho intenzione di andarci)",
+      "options": ["penso a", "penso di", "penso che"],
+      "correct": 1,
+      "explain": "*pensare di* + infinito = avere in mente di fare qualcosa. *Penso a* + nome = ci rifletti su (a te, alle vacanze)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduci con *cercare di*: 'I'm trying to speak Italian.'",
+      "answers": ["cerco di parlare italiano", "io cerco di parlare italiano", "sto cercando di parlare italiano"],
+      "hint": "cercare + di + infinito.",
+      "explain": "*cercare di* + infinito. *Cerco di parlare italiano.* La coppia è *cercare di*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Comincio a capire l'italiano.",
+      "answers": ["comincio a capire l'italiano", "comincio a capire l'italiano."]
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci: verbo + preposizione + infinito",
+      "prompt": "Metti insieme una frase. Ogni verbo porta già la sua preposizione.",
+      "slots": [
+        { "label": "Verbo + preposizione", "chips": ["Comincio a", "Ho finito di", "Cerco di", "Sono riuscito a", "Ho deciso di"] },
+        { "label": "Azione (infinito)", "chips": ["capire tutto", "parlare senza paura", "studiare per oggi", "trovare casa a Bologna"] }
+      ],
+      "sample": "Comincio a capire tutto."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Al bar con Giulia: parli dei tuoi progressi con l'italiano.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora, come va con l'italiano? Riesci a seguire le conversazioni?", "en": "So, how's the Italian going? Are you managing to follow conversations?" },
+        { "speaker": "You", "nl": "Comincio a capire di più, ma non riesco ancora a parlare veloce.", "en": "I'm starting to understand more, but I still can't manage to speak fast.", "spotlight": "*cominciare a* e *riuscire a*: due verbi della famiglia 'a' in una frase sola." },
+        { "speaker": "Giulia", "nl": "Dai, è normale! L'importante è continuare a provare.", "en": "Come on, that's normal! The important thing is to keep trying." },
+        { "speaker": "You", "nl": "Infatti cerco di parlare ogni giorno, anche se sbaglio.", "en": "In fact I try to speak every day, even if I make mistakes." },
+        { "speaker": "Giulia", "nl": "Bravissimo. E hai smesso di tradurre tutto in testa?", "en": "Great. And have you stopped translating everything in your head?" },
+        { "speaker": "You", "nl": "Quasi! Sto imparando a pensare in italiano.", "en": "Almost! I'm learning to think in Italian." },
+        { "speaker": "Giulia", "nl": "Guarda, sei sulla strada giusta. Un caffè per festeggiare?", "en": "Look, you're on the right track. A coffee to celebrate?" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi tre frasi sui tuoi obiettivi con l'italiano, usando *cominciare a*, *cercare di* e *riuscire a*.",
+      "starters": ["Comincio a…", "Cerco di…", "Voglio riuscire a…"],
+      "minSentences": 3
+    }
+  ]
+}

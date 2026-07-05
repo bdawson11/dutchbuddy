@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-79",
+  "day": 79,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "Il semaforo dello slang",
+  "emoji": "🚦",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "A traffic light for register: green words safe anywhere, yellow ones for friends, and the red ones you recognise but never say",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Verde, giallo, rosso",
+      "body": "Real Italian is full of colour — but some of it stains. Think of a **traffic light**. 🟢 **Verde** = safe with anyone, even your landlord. 🟡 **Giallo** = great with friends, wrong in an office. 🔴 **Rosso** = vulgar or taboo: you should **recognise** it so you understand what's happening, and **never** use it to 'fit in'. Getting the colour wrong is the fastest way to sound off.",
+      "callout": "The goal today isn't to swear — it's to read the room like a native does."
+    },
+    {
+      "type": "chips",
+      "title": "🟢 Verde — di' pure, sempre",
+      "items": [
+        { "nl": "Dai!", "en": "Come on! / go on!", "speak": "Dai!" },
+        { "nl": "Magari!", "en": "I wish! / maybe", "speak": "Magari!" },
+        { "nl": "Che bello!", "en": "How lovely!", "speak": "Che bello!" },
+        { "nl": "Volentieri!", "en": "Gladly! / I'd love to", "speak": "Volentieri!" },
+        { "nl": "Figurati!", "en": "Don't mention it / no worries", "speak": "Figurati!" },
+        { "nl": "Vabbè.", "en": "Oh well / okay then", "speak": "Vabbè." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "I tre colori a colpo d'occhio",
+      "body": "Same feeling, different heat. *Che bello* and *che figata* both mean 'awesome' — but only one is safe at work. Keep this map in your head.",
+      "table": {
+        "headers": ["Colore", "Esempio", "Dove usarlo"],
+        "rows": [
+          ["🟢 Verde", "dai, magari, che bello, boh", "ovunque — anche col capo"],
+          ["🟡 Giallo", "che figata, che palle, un casino", "con gli amici, non in ufficio"],
+          ["🔴 Rosso", "le parolacce, le bestemmie", "solo da riconoscere, mai da dire"]
+        ]
+      },
+      "callout": "*Boh* (= 'no idea, dunno') is pure green and endlessly useful. Shrug included."
+    },
+    {
+      "type": "chips",
+      "title": "🟡 Giallo — tra amici va bene",
+      "items": [
+        { "nl": "Che figata!", "en": "How cool! / awesome", "speak": "Che figata!" },
+        { "nl": "Che palle!", "en": "What a drag! / so annoying", "speak": "Che palle!" },
+        { "nl": "Un sacco di gente.", "en": "Loads of people.", "speak": "Un sacco di gente." },
+        { "nl": "Che casino!", "en": "What a mess! / chaos", "speak": "Che casino!" },
+        { "nl": "Cavolo!", "en": "Darn! / shoot!", "speak": "Cavolo!" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Sei a un colloquio di lavoro. Quale NON diresti?",
+      "options": ["È un progetto molto interessante.", "Che figata di progetto!", "Mi piacerebbe molto lavorare qui."],
+      "correct": 1,
+      "explain": "*Che figata* è gialla: perfetta con gli amici, fuori posto a un colloquio. Con il capo resti sul verde."
+    },
+    {
+      "type": "card",
+      "title": "🔴 Rosso — riconoscere, non ripetere",
+      "body": "You'll hear these; you need to know what they are. There's ordinary vulgarity (*cazzo* and its cousins, *stronzo*, *vaffanculo*, *incazzarsi* = to get furious) — strong, and out of place unless you know exactly what you're doing. Then there's a category all its own: **le bestemmie** — religious blasphemy (the pattern *porco* + a sacred name). In Italy this is far more radioactive than plain swearing: taboo across every generation and region. **A foreigner should never repeat it to sound local.** Understand it, and stop there.",
+      "callout": "Rule of the red light: *le capisco, non le uso.* (I understand them, I don't use them.)"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Quale cosa NON dovresti mai ripetere per 'sembrare del posto'?",
+      "options": ["Boh, non lo so.", "Che casino ieri sera!", "Una bestemmia."],
+      "correct": 2,
+      "explain": "*Boh* è verde, *che casino* è gialla. **Le bestemmie** sono un tabù a parte in Italia: si riconoscono, non si dicono — mai."
+    },
+    {
+      "type": "contrast",
+      "title": "Stesso entusiasmo, temperatura diversa",
+      "pairs": [
+        { "left": "🟢 *Che bello! Che meraviglia!*", "right": "🟡 *Che figata! Una bomba!*", "note": "Both say 'amazing'. The green one works with anyone; the yellow one only among friends." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Un amico ti invita a cena. Accetta con entusiasmo — una parola verde.",
+      "answers": ["volentieri", "volentieri!", "che bello", "che bello!"],
+      "hint": "The warmest, safest 'I'd love to'.",
+      "explain": "*Volentieri!* — enthusiastic, warm, and safe with absolutely anyone. Pure green."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Marco, over a spritz, teaches you the traffic light — and where the line is.",
+      "lines": [
+        { "speaker": "Marco", "nl": "Guarda, l'italiano vero è tutto nelle paroline. 'Dai, magari, che bello' — quelle le dici sempre.", "en": "Look, real Italian is all in the little words. 'Dai, magari, che bello' — you can always say those." },
+        { "speaker": "You", "nl": "E 'che figata'? L'ho sentita ieri.", "en": "And 'che figata'? I heard it yesterday." },
+        { "speaker": "Marco", "nl": "Eh, quella è gialla: con gli amici sì, col tuo capo no.", "en": "Ah, that one's yellow: with friends yes, with your boss no." },
+        { "speaker": "Marco", "nl": "'Che palle', 'un casino', 'cavolo'… roba tra amici, insomma.", "en": "'Che palle', 'un casino', 'cavolo'… friends-only stuff, basically." },
+        { "speaker": "You", "nl": "E le parolacce rosse?", "en": "And the red swear words?" },
+        { "speaker": "Marco", "nl": "Boh, quelle le riconosci e basta. E le bestemmie non ripeterle mai, davvero. Non è come da voi.", "en": "Those you just recognise, full stop. And the bestemmie — never repeat them, really. It's not like where you're from.", "spotlight": "The hard flag: recognise, never use. Marco is blunt for a reason." },
+        { "speaker": "You", "nl": "Ho capito: le capisco, non le uso.", "en": "Got it: I understand them, I don't use them." },
+        { "speaker": "Marco", "nl": "Esatto. Guarda, sei già più italiano di me, eh.", "en": "Exactly. Look, you're already more Italian than me!" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Fai la tua lista personale del semaforo: due parole verdi che userai da domani, una gialla da provare con gli amici, e una cosa rossa che ora riconosci ma non dirai mai.",
+      "starters": ["Verde:…", "Giallo:…", "Rosso (solo da riconoscere):…"],
+      "minSentences": 3
+    }
+  ]
+}

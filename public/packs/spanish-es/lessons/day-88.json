@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "day-88",
+  "day": 88,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "Ojalá y como si",
+  "emoji": "🌠",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Ojalá + present vs imperfect subjunctive for hopes and wishes; como si always takes the imperfect subjunctive.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ojalá: dos niveles de deseo",
+      "body": "*Ojalá* (del árabe *law šā' Allāh*, 'si Dios quiere') siempre va con **subjuntivo**, y el tiempo cambia el significado. Con **presente de subjuntivo** = deseo **posible**: *ojalá **venga*** (a lo mejor viene). Con **imperfecto de subjuntivo** = deseo **poco probable o imposible ahora**: *ojalá **viniera*** (ya me gustaría, pero no lo veo). El mismo *ojalá*, dos grados de esperanza.",
+      "callout": "Ojalá + presente = puede pasar. Ojalá + imperfecto = ya me gustaría."
+    },
+    {
+      "type": "contrast",
+      "title": "El mismo ojalá, dos esperanzas",
+      "pairs": [
+        { "left": "Ojalá llueva mañana.", "right": "Ojalá lloviera de una vez.", "note": "*Llueva* (presente): lo veo posible. *Lloviera* (imperfecto): lo deseo, pero llevo semanas esperando y no cae ni gota." },
+        { "left": "Ojalá pueda ir a tu fiesta.", "right": "Ojalá pudiera, pero estoy en Valencia.", "note": "El segundo marca **imposibilidad presente**: me encantaría, pero no puede ser." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Deseos de andar por casa — toca y repite",
+      "items": [
+        { "nl": "ojalá tengas suerte", "en": "hope you're lucky", "speak": "ojalá tengas suerte" },
+        { "nl": "ojalá fuera tan fácil", "en": "I wish it were that easy", "speak": "ojalá fuera tan fácil" },
+        { "nl": "ojalá pudiera ayudarte", "en": "I wish I could help you", "speak": "ojalá pudiera ayudarte" },
+        { "nl": "ojalá no fuera verdad", "en": "I wish it weren't true", "speak": "ojalá no fuera verdad" },
+        { "nl": "ojalá salga bien", "en": "hope it goes well", "speak": "ojalá salga bien" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Como si: siempre en el pasado del subjuntivo",
+      "body": "*Como si* introduce una **comparación irreal** ('as if') y **exige** imperfecto de subjuntivo, aunque el verbo principal esté en presente: *Habla **como si** lo **supiera** todo* (pero no lo sabe). *Me trata **como si** yo **fuera** tonto.* Nunca *como si sabe*: eso chirría a un oído español. Para algo que ya no pasó, se usa el pluscuamperfecto (*como si no hubiera pasado nada*), que verás en la semana 14.",
+      "callout": "como si + IMPERFECTO de subjuntivo, siempre. Jamás indicativo."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Elige: «Me miró como si no me ___.»",
+      "options": ["conoce", "conociera", "conocería", "conozca"],
+      "correct": 1,
+      "explain": "*Como si* siempre pide **imperfecto de subjuntivo**: *conociera*. Ni presente (*conozca*), ni indicativo (*conoce*), ni condicional (*conocería*)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduce: «I wish I had more time.» (con ojalá + imperfecto)",
+      "answers": ["Ojalá tuviera más tiempo", "ojalá tuviera mas tiempo", "Ojalá tuviese más tiempo"],
+      "hint": "ojalá + imperfecto de subjuntivo de tener.",
+      "explain": "**Ojalá tuviera más tiempo.** Imperfecto de subjuntivo porque es un deseo poco realista ahora mismo."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "habla como si fuera experto",
+      "answers": ["habla como si fuera experto", "habla como si fuese experto"]
+    },
+    {
+      "type": "builder",
+      "title": "Como si nada",
+      "prompt": "Describe a alguien con una comparación irreal usando como si.",
+      "slots": [
+        { "label": "Acción", "chips": ["Gasta dinero", "Me habla", "Se comporta"] },
+        { "label": "Comparación", "chips": ["como si fuera millonario", "como si tuviera veinte años", "como si no pasara nada"] }
+      ],
+      "sample": "Gasta dinero como si fuera millonario."
+    },
+    {
+      "type": "shadow",
+      "title": "Repite el ritmo del deseo",
+      "lines": [
+        { "nl": "Ojalá pudiera quedarme más, pero tengo que irme.", "en": "I wish I could stay longer, but I have to go." },
+        { "nl": "Actúa como si nada le importara.", "en": "He acts as if nothing mattered to him." },
+        { "nl": "Ojalá fuera verano todo el año.", "en": "I wish it were summer all year." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe tres deseos con *ojalá* (mezcla presente e imperfecto según lo posible que veas cada uno) y describe a una persona real o inventada con *como si* + imperfecto de subjuntivo.",
+      "starters": ["Ojalá algún día…", "Ojalá pudiera…", "Conozco a alguien que se comporta como si…"],
+      "minSentences": 4
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "day-38",
+  "day": 38,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "Notfälle",
+  "emoji": "🚨",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Germany's two emergency numbers, key emergency phrases, and the Apotheke vs. Drogerie distinction",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Notruf: 110 oder 112?",
+      "body": "Germany actually has **two** emergency numbers: **112** for Feuerwehr (fire) and Rettungsdienst (ambulance) — used all over the EU — and **110** for Polizei. Both are free and work from any phone. Say **Hilfe!** (Help!) first, then **Ruf 112!** or **Ruf 110!** depending on what you need.",
+      "table": {
+        "headers": ["Nummer", "Wofür"],
+        "rows": [
+          ["112", "Feuerwehr & Rettungsdienst (fire, ambulance)"],
+          ["110", "Polizei (police)"]
+        ]
+      },
+      "callout": "112 europaweit, 110 nur in Deutschland — beide kostenlos."
+    },
+    {
+      "type": "chips",
+      "title": "Nord-Wörter im Notfall",
+      "items": [
+        { "nl": "Hilfe!", "en": "Help!", "speak": "Hilfe!" },
+        { "nl": "Ruf einen Krankenwagen!", "en": "Call an ambulance!", "speak": "Ruf einen Krankenwagen!" },
+        { "nl": "Es ist ein Notfall!", "en": "It's an emergency!", "speak": "Es ist ein Notfall!" },
+        { "nl": "Ich brauche einen Arzt.", "en": "I need a doctor.", "speak": "Ich brauche einen Arzt." },
+        { "nl": "Schnell!", "en": "Quick! Hurry!", "speak": "Schnell!" },
+        { "nl": "Au!", "en": "Ow!", "speak": "Au!" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Apotheke oder Drogerie?",
+      "body": "Don't mix these up: **die Apotheke** (marked with a big red **A**) sells real medicine — **rezeptfrei** (over the counter, like painkillers) or **verschreibungspflichtig** (prescription-only). **Die Drogerie** (dm, Rossmann, Müller) sells shampoo, vitamins, and cosmetics — but no real medicine at all.",
+      "callout": "Kopfschmerztabletten? Nur in der Apotheke, nie bei dm."
+    },
+    {
+      "type": "mcq",
+      "prompt": "You need real medicine for a bad cough. Where do you go?",
+      "options": ["Die Drogerie (dm)", "Die Apotheke", "Der Wochenmarkt"],
+      "correct": 1,
+      "explain": "Only die Apotheke (the red A) sells real medicine — die Drogerie is for toiletries and cosmetics."
+    },
+    {
+      "type": "contrast",
+      "title": "Apotheke vs. Drogerie",
+      "pairs": [
+        {
+          "left": "die Apotheke — real medicine, rezeptfrei or verschreibungspflichtig",
+          "right": "die Drogerie — shampoo, vitamins, cosmetics, no real medicine",
+          "note": "Newcomers often confuse these — the red 'A' sign is your landmark for die Apotheke."
+        }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I need a doctor.'",
+      "answers": ["Ich brauche einen Arzt"],
+      "hint": "brauchen + accusative",
+      "explain": "Ich brauche einen Arzt — einen because der Arzt is masculine and it's the accusative object."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ruf 112!",
+      "answers": ["Ruf 112", "Ruf 112!"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Jonas plays pharmacist behind an imaginary counter so you can rehearse before your real Apotheken-Besuch.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Okay, ich bin jetzt der Apotheker, ne? Guten Tag! Was fehlt Ihnen denn?", "en": "Okay, I'm the pharmacist now, right? Good day! What's wrong?" },
+        { "speaker": "You", "nl": "Ich brauche etwas gegen Halsschmerzen.", "en": "I need something for a sore throat." },
+        { "speaker": "Jonas", "nl": "Kein Problem, das ist rezeptfrei. Sonst noch was?", "en": "No problem, that's over the counter. Anything else?" },
+        { "speaker": "You", "nl": "Ist Ibuprofen auch rezeptfrei?", "en": "Is ibuprofen also over the counter?" },
+        { "speaker": "Jonas", "nl": "Ja, aber halt nur in kleinen Packungen. Für mehr brauchst du ein Rezept.", "en": "Yeah, but only in small packs. For more you need a prescription.", "spotlight": "rezeptfrei vs. verschreibungspflichtig, in the wild" },
+        { "speaker": "You", "nl": "Und die finde ich einfach bei dm, oder?", "en": "And I can just find that at dm, right?" },
+        { "speaker": "Jonas", "nl": "Quatsch! Echte Medikamente gibt's nur in der Apotheke, nicht in der Drogerie.", "en": "No way! Real medicine is only at the Apotheke, not the Drogerie." },
+        { "speaker": "You", "nl": "Ach so, gut zu wissen. Danke, Herr Apotheker.", "en": "Ah, good to know. Thanks, Mr. Pharmacist." },
+        { "speaker": "Jonas", "nl": "Immer gern. War doch gar nicht so schwer, oder?", "en": "Anytime. Wasn't so hard, right?" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "According to Jonas, where can you NOT buy real medicine?", "options": ["Die Apotheke", "Die Drogerie (dm)", "Das Krankenhaus"], "correct": 1 },
+        { "q": "Is small-pack ibuprofen rezeptfrei?", "options": ["Yes", "No", "Only for children"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write your own mini emergency phrasebook: three sentences you'd want ready for a real Notfall.",
+      "starters": ["Hilfe, ich...", "Ich brauche...", "Ruf..."]
+    }
+  ]
+}

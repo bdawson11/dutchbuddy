@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "day-61",
+  "day": 61,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Il periodo ipotetico della realtà",
+  "emoji": "🔀",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Real conditions: se + presente → present, future, or command (se piove, resto a casa)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il periodo ipotetico della realtà",
+      "body": "For **real, likely** conditions, Italian uses **se + presente** in the *if*-part, and the result can be **presente, futuro, or imperativo**: *Se piove, **resto** a casa* / *Se piove, **resterò** a casa* / *Se piove, **prendi** l'ombrello!* It's the everyday 'if this, then that' — nothing hypothetical or unreal about it.",
+      "callout": "Real condition: *Se + presente* → then present / future / command."
+    },
+    {
+      "type": "card",
+      "title": "L'errore da evitare: niente 'will' dopo *se*",
+      "body": "In English you say 'if I **will** have time' — in Italian, in everyday talk, you reach for **se + presente**: *Se **ho** tempo, ti chiamo.* (A planned tone can use *se avrò tempo, ti chiamerò*, which is also correct — but don't force a future by reflex.) And never put a congiuntivo or condizionale after *se* in a **real** condition: not *se avrei tempo*, but *se ho tempo*.",
+      "callout": "*Se ho tempo, ti chiamo.* — present after *se*, not a forced future, never a condizionale."
+    },
+    {
+      "type": "chips",
+      "title": "Condizioni reali — ascolta",
+      "items": [
+        { "nl": "Se piove, resto a casa.", "en": "If it rains, I'll stay home.", "speak": "Se piove, resto a casa." },
+        { "nl": "Se hai tempo, chiamami.", "en": "If you have time, call me.", "speak": "Se hai tempo, chiamami." },
+        { "nl": "Se vuoi, andiamo insieme.", "en": "If you want, we'll go together.", "speak": "Se vuoi, andiamo insieme." },
+        { "nl": "Se finisco presto, ti scrivo.", "en": "If I finish early, I'll text you.", "speak": "Se finisco presto, ti scrivo." },
+        { "nl": "Se studi, passi l'esame.", "en": "If you study, you'll pass the exam.", "speak": "Se studi, passi l'esame." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Tre modi di dire il risultato",
+      "pairs": [
+        { "left": "*Se piove, resto a casa.*", "right": "*Se piove, resterò a casa.*", "note": "Present or future in the result — same real condition, the future just feels a touch more planned." },
+        { "left": "*Se hai fame, mangia!*", "right": "*Se hai fame, c'è la pasta.*", "note": "The result can be a command (*mangia!*) or a plain statement." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Completa: «Se ___ tempo, vengo con te.»",
+      "options": ["avrò", "ho", "avrei"],
+      "correct": 1,
+      "explain": "Real condition, everyday tone → *se + presente*: *se **ho** tempo*. *Avrei* (condizionale) would make it unreal."
+    },
+    {
+      "type": "typed",
+      "prompt": "Scrivi in italiano: 'If it rains, I'll stay home.'",
+      "answers": ["se piove resto a casa", "se piove, resto a casa", "se piove resterò a casa", "se piove, resterò a casa"],
+      "hint": "*se* + presente; il risultato può essere presente o futuro.",
+      "explain": "*Se piove, resto a casa.* Present after *se*; the result can be present or future."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Se hai tempo, chiamami stasera.",
+      "answers": ["se hai tempo chiamami stasera", "se hai tempo, chiamami stasera", "se hai tempo chiamami stasera."]
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci un'ipotesi reale",
+      "prompt": "Unisci una condizione e un risultato.",
+      "slots": [
+        { "label": "Se + presente", "chips": ["Se ho tempo", "Se piove", "Se vuoi", "Se finisco presto"] },
+        { "label": "Risultato", "chips": ["ti chiamo", "resto a casa", "andiamo al cinema", "ti aiuto"] }
+      ],
+      "sample": "Se ho tempo, ti chiamo."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You and Marco make weekend plans that depend on the weather.",
+      "lines": [
+        { "speaker": "Marco", "nl": "Allora, cosa facciamo sabato?", "en": "So, what are we doing Saturday?" },
+        { "speaker": "You", "nl": "Boh, dipende. Se c'è il sole, andiamo in bici fuori città.", "en": "Dunno, it depends. If it's sunny, we'll bike out of town.", "spotlight": "Real condition: *se c'è il sole* (presente) → *andiamo* (presente)." },
+        { "speaker": "Marco", "nl": "E se piove?", "en": "And if it rains?" },
+        { "speaker": "You", "nl": "Se piove, restiamo in centro e prendiamo un aperitivo.", "en": "If it rains, we'll stay downtown and get an aperitivo." },
+        { "speaker": "Marco", "nl": "Mi piace. Se vieni presto, passiamo prima dal mercato.", "en": "I like it. If you come early, we'll swing by the market first." },
+        { "speaker": "You", "nl": "Va bene. Se finisco di lavorare in tempo, arrivo per le dieci.", "en": "OK. If I finish work in time, I'll be there by ten." },
+        { "speaker": "Marco", "nl": "Perfetto. Se cambia qualcosa, mandami un messaggio.", "en": "Perfect. If anything changes, send me a message." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Fai dei piani per il tuo prossimo fine settimana. Scrivi tre frasi con *se* + presente (per esempio: *Se c'è il sole, …*).",
+      "starters": ["Se ho tempo,…", "Se piove,…", "Se posso,…"],
+      "minSentences": 3
+    }
+  ]
+}

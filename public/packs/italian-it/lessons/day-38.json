@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "day-38",
+  "day": 38,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "Il numero unico: 112",
+  "emoji": "🚑",
+  "level": "A2",
+  "durationMin": [15, 22],
+  "summary": "Emergency phrases and Italy's single emergency number, 112",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il numero unico: 112",
+      "body": "For any real emergency in Italy, call **il 112** — the single European emergency number. Tell the operator **cosa è successo** (what happened) and **dove ti trovi** (where you are); they route you to the ambulance, police, or fire brigade as needed. You don't need to guess the right number — 112 covers it all.",
+      "callout": "One number for everything: 112. Say what happened, then where you are."
+    },
+    {
+      "type": "chips",
+      "title": "Parole per l'emergenza",
+      "items": [
+        { "nl": "l'emergenza", "en": "emergency", "speak": "l'emergenza" },
+        { "nl": "l'ambulanza", "en": "ambulance", "speak": "l'ambulanza" },
+        { "nl": "il pronto soccorso", "en": "ER / emergency room", "speak": "il pronto soccorso" },
+        { "nl": "l'ospedale", "en": "hospital", "speak": "l'ospedale" },
+        { "nl": "un incidente", "en": "an accident", "speak": "un incidente" },
+        { "nl": "i vigili del fuoco", "en": "firefighters", "speak": "i vigili del fuoco" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Frasi per l'emergenza",
+      "body": "A handful of set phrases worth knowing by heart: *Ho bisogno di aiuto* (I need help), *C'è stato un incidente* (There's been an accident), *Chiami un'ambulanza, per favore* (Call an ambulance, please — the polite way of asking a stranger). You'll meet the grammar behind that last one properly later; for now, just learn it as a ready-made phrase.",
+      "callout": "Learn these whole, ready to use — the grammar catches up later."
+    },
+    {
+      "type": "shadow",
+      "title": "Ascolta e ripeti — in emergenza",
+      "lines": [
+        { "nl": "Ho bisogno di aiuto.", "en": "I need help." },
+        { "nl": "C'è stato un incidente.", "en": "There's been an accident." },
+        { "nl": "Chiami un'ambulanza, per favore.", "en": "Call an ambulance, please." },
+        { "nl": "Sono in Via Mazzini.", "en": "I'm on Via Mazzini." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "What number do you dial for any emergency in Italy?",
+      "options": ["113", "112", "999"],
+      "correct": 1,
+      "explain": "112 is the single European emergency number — it works everywhere in Italy (and the EU)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'There's been an accident.'",
+      "answers": ["c'è stato un incidente", "c'è stato un incidente."],
+      "hint": "c'è + stato (been) + un incidente.",
+      "explain": "*C'è stato un incidente* — the passato prossimo of c'è, for something that just happened."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ho bisogno di un medico.",
+      "answers": ["ho bisogno di un medico", "ho bisogno di un medico."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Out with Marco, 'You' start feeling a sharp pain — Marco decides whether it's 112-worthy",
+      "lines": [
+        { "speaker": "You", "nl": "Marco, non mi sento bene. Ho un forte dolore al petto.", "en": "Marco, I don't feel well. I have a sharp pain in my chest." },
+        { "speaker": "Marco", "nl": "Un dolore al petto? Non scherziamo, chiamo subito il 112.", "en": "Chest pain? No joking around, I'm calling 112 right now.", "spotlight": "Marco doesn't hesitate — chest pain is exactly what 112 is for, not the farmacia." },
+        { "speaker": "You", "nl": "Aspetta, magari è solo il caffè di oggi…", "en": "Wait, maybe it's just today's coffee…" },
+        { "speaker": "Marco", "nl": "Meglio controllare. In un'emergenza è sempre meglio chiamare.", "en": "Better to check. In an emergency it's always better to call." },
+        { "speaker": "Marco", "nl": "Pronto? Sì, una persona con un forte dolore al petto — siamo in Via Mazzini.", "en": "Hello? Yes, a person with a sharp chest pain — we're on Via Mazzini." },
+        { "speaker": "You", "nl": "Grazie, Marco. Meglio essere prudenti.", "en": "Thanks, Marco. Better safe than sorry." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "What symptom does 'You' describe?", "options": ["A headache", "A sharp chest pain", "A sore throat"], "correct": 1 },
+        { "q": "What does Marco decide to do right away?", "options": ["Wait and see", "Call 112", "Go to the pharmacy"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Quando chiami il 112, invece della farmacia? Scrivi 2–3 frasi con le parole e le frasi di oggi.",
+      "starters": ["Chiamo il 112 quando…", "In farmacia vado quando…"]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "day-78",
+  "day": 78,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "Exclamaciones y suavizadores",
+  "emoji": "🗯️",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Reacting like a local: ¡qué va!, ¡anda!, ¡venga ya! and the softeners hombre/mujer, jolín",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Reaccionar como un español",
+      "body": "Spain reacts **out loud**. Half of sounding native is having the right little exclamation ready instead of a silent nod. **¡Qué va!** (no way / not at all), **¡Anda!** (huh! / wow), **¡Venga ya!** (oh come on / you're kidding). And the softeners — **hombre**, **mujer**, **jolín** — that take the edge off a sentence. Today you stop translating and start *reacting*.",
+      "callout": "None of these translate cleanly. Learn the *feeling*, not the dictionary word."
+    },
+    {
+      "type": "chips",
+      "title": "Toca para oír las reacciones",
+      "items": [
+        { "nl": "¡Qué va!", "en": "no way / not at all", "speak": "¡Qué va!" },
+        { "nl": "¡Anda!", "en": "oh! / wow / come on", "speak": "¡Anda!" },
+        { "nl": "¡Venga ya!", "en": "you're kidding / oh come on", "speak": "¡Venga ya!" },
+        { "nl": "¡Hala!", "en": "whoa / no way", "speak": "¡Hala!" },
+        { "nl": "¡Madre mía!", "en": "good grief / oh my", "speak": "¡Madre mía!" },
+        { "nl": "¡Qué fuerte!", "en": "that's intense / wow", "speak": "¡Qué fuerte!" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "*Hombre* y *mujer* no son 'man' y 'woman'",
+      "body": "Dropped into a sentence, **hombre** and **mujer** aren't 'man/woman' — they're **softeners and emphasis**, and you say *hombre* to a woman too. *Hombre, no te preocupes* (come on, don't worry). *¿Vienes? — ¡Hombre, claro!* (Are you coming? — Well, of course!). **Jolín** is the soft, family-friendly cousin of a stronger word — mild frustration, like 'darn'.",
+      "callout": "*¡Hombre!* on its own = pleased surprise: *¡Hombre, Rafa!* (Hey, Rafa!)."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Tu amigo dice que ha corrido una maratón, pero sabes que odia correr. ¿Qué le dices?",
+      "options": ["¡Qué va, no me lo creo!", "Jolín, lo siento mucho", "¡Madre mía, qué pena!"],
+      "correct": 0,
+      "explain": "**¡Qué va!** expresses disbelief and denial — 'no way, I don't buy it'. *Jolín* is mild frustration and *¡qué pena!* is sympathy — neither fits teasing disbelief."
+    },
+    {
+      "type": "contrast",
+      "title": "Dos reacciones que se confunden",
+      "pairs": [
+        { "left": "¡Qué va! — no, not at all (you deny something)", "right": "¡Venga ya! — oh come on! (you doubt or protest)", "note": "*¿Estás enfadado? — ¡Qué va!* (denial: no, not at all). *¿Te ha tocado la lotería? — ¡Venga ya!* (disbelief: get out of here)." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Someone tells you gossip you find hard to believe. Type the two-word 'you're kidding / come on' reaction (with ¡!).",
+      "answers": ["¡Venga ya!", "venga ya", "Venga ya"],
+      "hint": "Starts with the same word you use for 'come on'.",
+      "explain": "*¡Venga ya!* — protest and disbelief in two words. Remember the opening ¡ and the closing !."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa drops some news on the terrace — react along with Lucía",
+      "lines": [
+        { "speaker": "Rafa", "nl": "¿Te has enterado? Nacho se compra una casa en el pueblo.", "en": "Have you heard? Nacho's buying a house in the village." },
+        { "speaker": "Lucía", "nl": "¡Anda! ¿En serio?", "en": "Huh! Really?", "spotlight": "*¡Anda!* = spontaneous surprise, no translation needed." },
+        { "speaker": "Rafa", "nl": "Que sí, tía. Y dice que Madrid es un agobio.", "en": "Yeah, really. And he says Madrid is exhausting." },
+        { "speaker": "You", "nl": "¡Hombre, eso lo dice siempre!", "en": "Come on, he always says that!" },
+        { "speaker": "Lucía", "nl": "¡Qué va! Esta vez va en serio.", "en": "Not at all! This time he means it." },
+        { "speaker": "Rafa", "nl": "Jolín, pues le voy a echar de menos en el bar.", "en": "Darn, I'm going to miss him at the bar then." },
+        { "speaker": "You", "nl": "¡Venga ya, si el pueblo está a una hora!", "en": "Oh come on, the village is an hour away!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Qué noticia cuenta Rafa?", "options": ["Que Nacho se compra una casa en el pueblo", "Que Sofía se muda a Valencia", "Que Lucía deja el trabajo"], "correct": 0 },
+        { "q": "¿Qué significa *¡qué va!* aquí?", "options": ["Estoy de acuerdo", "No, no es así", "¡Vámonos!"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Piensa en tres cosas que te sorprenden de la vida en España. Reacciona a cada una con una exclamación distinta (*¡anda!, ¡qué fuerte!, ¡venga ya!…*). Escribe tres frases.",
+      "starters": ["¡Hala, no sabía que…", "¡Qué fuerte que…", "Jolín, todavía me cuesta…"],
+      "minSentences": 3
+    }
+  ]
+}

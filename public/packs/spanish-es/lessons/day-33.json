@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "day-33",
+  "day": 33,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "En la estación: el tren y el billete",
+  "emoji": "🚆",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Spain's train vocabulary — Cercanías, el AVE, hacer transbordo — practiced through the perfecto.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Vocabulario del tren",
+      "body": "Getting around Spain means the train — and Madrid's stations have their own vocabulary. **Cercanías** are the commuter trains; the **AVE** is the high-speed intercity train.",
+      "table": {
+        "headers": ["Español", "Inglés"],
+        "rows": [
+          ["el tren", "the train"],
+          ["la estación", "the station"],
+          ["el andén", "the platform"],
+          ["el billete", "the ticket"],
+          ["hacer transbordo", "to change trains"],
+          ["el AVE", "the high-speed train"],
+          ["Cercanías", "Madrid's commuter rail"]
+        ]
+      },
+      "callout": "Atocha es la estación central de Madrid — de ahí salen el AVE y los trenes de Cercanías."
+    },
+    {
+      "type": "chips",
+      "title": "Escucha el vocabulario del tren",
+      "items": [
+        { "nl": "el tren", "en": "the train", "speak": "el tren" },
+        { "nl": "el andén", "en": "the platform", "speak": "el andén" },
+        { "nl": "el billete", "en": "the ticket", "speak": "el billete" },
+        { "nl": "hacer transbordo", "en": "to change trains", "speak": "hacer transbordo" },
+        { "nl": "el AVE", "en": "the high-speed train", "speak": "el AVE" },
+        { "nl": "la estación", "en": "the station", "speak": "la estación" },
+        { "nl": "sacar un billete", "en": "to get a ticket", "speak": "sacar un billete" },
+        { "nl": "perder el tren", "en": "to miss the train", "speak": "perder el tren" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "El perfecto en el viaje",
+      "body": "Put the week's grammar to work on the rails: *He sacado el billete online.*, *Hemos perdido el tren por cinco minutos.*, *¿Has hecho transbordo alguna vez en Atocha?*",
+      "callout": "*alguna vez* vuelve a aparecer — sigue pidiendo el perfecto, aunque hablemos de trenes."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Qué significa 'hacer transbordo'?",
+      "options": ["to buy a ticket", "to change trains", "to miss the train"],
+      "correct": 1,
+      "explain": "*hacer transbordo* = **to change trains** — you get off one and catch another."
+    },
+    {
+      "type": "typed",
+      "prompt": "Escribe 'I have missed the train.'",
+      "answers": ["he perdido el tren"],
+      "hint": "perder → perdido",
+      "explain": "**He perdido el tren.** — *perder* es regular: *perdido*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "hemos perdido el tren",
+      "answers": ["hemos perdido el tren"]
+    },
+    {
+      "type": "builder",
+      "title": "Construye una frase de viaje",
+      "prompt": "Combina sujeto + haber con una acción del viaje.",
+      "slots": [
+        { "label": "Sujeto + haber", "chips": ["he", "hemos", "has"] },
+        { "label": "Acción", "chips": ["sacado el billete", "perdido el tren", "hecho transbordo en Atocha"] }
+      ],
+      "sample": "He sacado el billete."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You and Lucía are at Atocha station catching a train.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "¿Has sacado ya el billete?", "en": "Have you gotten the ticket already?" },
+        { "speaker": "You", "nl": "Sí, lo he sacado esta mañana, por la app.", "en": "Yes, I got it this morning, through the app.", "spotlight": "lo he sacado — 'lo' stands in for 'el billete'." },
+        { "speaker": "Lucía", "nl": "Genial. ¿Sabes el andén?", "en": "Great. Do you know the platform?" },
+        { "speaker": "You", "nl": "Creo que es el andén seis, pero todavía no lo he mirado bien.", "en": "I think it's platform six, but I haven't checked properly yet." },
+        { "speaker": "Lucía", "nl": "Pues vamos a mirarlo, que el AVE sale en diez minutos y no quiero perderlo otra vez.", "en": "Well let's go check, the AVE leaves in ten minutes and I don't want to miss it again." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has entendido?",
+      "questions": [
+        { "q": "¿Cuándo ha sacado You el billete?", "options": ["Ayer", "Esta mañana", "Todavía no lo ha sacado"], "correct": 1 },
+        { "q": "¿Qué tren van a coger?", "options": ["Un Cercanías", "El AVE", "El metro"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe sobre un viaje en tren: ¿has sacado el billete? ¿has perdido el tren alguna vez?",
+      "starters": ["He viajado en tren…", "Alguna vez he perdido…"],
+      "minSentences": 2
+    }
+  ]
+}
