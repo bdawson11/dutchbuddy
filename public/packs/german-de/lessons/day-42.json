@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "day-42",
+  "day": 42,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "capstone",
+  "title": "Was ist passiert?",
+  "emoji": "📝",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Production day across week 6, plus Meine Geschichte layer 6 — how you've been feeling",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Rückblick: Körper, Gefühle, Ratschläge",
+      "body": "This week you built real health German: **Schmerzen** compounds (*Kopfschmerzen, Halsschmerzen*), the first live **dative** (*mir tut... weh*, *es geht mir*), the Hausarzt/Notfall system, feelings with **sich fühlen**, and advice (**musst, solltest, würde**). Today you use it all to tell your own 'Was ist passiert?' story.",
+      "table": {
+        "headers": ["Deutsch", "Bedeutung"],
+        "rows": [
+          ["Mir tut der Kopf weh.", "My head hurts."],
+          ["Ich hätte gern einen Termin.", "I'd like an appointment."],
+          ["Ruf 112!", "Call 112!"],
+          ["Ich fühle mich müde.", "I feel tired."],
+          ["Du solltest dich ausruhen.", "You should rest."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Mix: Gefühle & Ratschläge",
+      "items": [
+        { "nl": "gestresst", "en": "stressed", "speak": "gestresst" },
+        { "nl": "traurig", "en": "sad", "speak": "traurig" },
+        { "nl": "an deiner Stelle würde ich...", "en": "in your place I'd...", "speak": "an deiner Stelle würde ich" },
+        { "nl": "die Krankschreibung", "en": "the sick note", "speak": "die Krankschreibung" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which correctly combines 'Hals' + 'Schmerzen'?",
+      "options": ["Hals Schmerzen", "Halsschmerzen", "Schmerzenhals"],
+      "correct": 1,
+      "explain": "German compounds glue together, no space: Hals + Schmerzen = Halsschmerzen."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I'd like an appointment.'",
+      "answers": ["Ich hätte gern einen Termin", "Ich haette gern einen Termin"],
+      "hint": "hätte gern + accusative",
+      "explain": "Ich hätte gern einen Termin — reused from your Hausarzt call; einen because der Termin is masculine accusative."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ruf 112!",
+      "answers": ["Ruf 112", "Ruf 112!"]
+    },
+    {
+      "type": "contrast",
+      "title": "Musst vs. solltest — recap",
+      "pairs": [
+        {
+          "left": "Du musst ruhen. — direct",
+          "right": "Du solltest ruhen. — softer suggestion",
+          "note": "Both work — pick musst when you mean it, solltest when you're being gentle."
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You have a bad injury, not a cold. What do you do?",
+      "options": ["Zur Apotheke gehen", "112 anrufen", "Zum Friseur gehen"],
+      "correct": 1,
+      "explain": "Real emergencies go through 112 (or 110 for police), not straight to die Apotheke."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I feel a little nervous.'",
+      "answers": ["Ich fühle mich ein bisschen nervös", "Ich fuehle mich ein bisschen nervoes"],
+      "hint": "ich fühle mich + ein bisschen + adjective",
+      "explain": "Ich fühle mich ein bisschen nervös — sich fühlen with the reflexive mich."
+    },
+    {
+      "type": "builder",
+      "title": "Was ist passiert?",
+      "prompt": "Build a sentence about a health event using the Perfekt you already know.",
+      "slots": [
+        { "label": "Ich", "chips": ["Ich"] },
+        { "label": "Ereignis", "chips": ["bin krank geworden.", "habe Kopfschmerzen gehabt.", "bin zum Hausarzt gegangen.", "habe ein Rezept in der Apotheke geholt."] }
+      ],
+      "sample": "Ich bin zum Hausarzt gegangen."
+    },
+    {
+      "type": "card",
+      "title": "Kurzer Blick voraus: ging und hatte",
+      "body": "For today's Geschichte you need two past-tense forms — a sneak peek before we learn the whole system next week: **ging** (went / felt — from *gehen*, used in the fixed phrase *es ging mir...*) and **hatte** (had — the irregular past of *haben*). *Mir ging es schlecht. Ich hatte Kopfschmerzen.*",
+      "callout": "The full Präteritum system arrives in Week 7 — for now, just these two forms."
+    },
+    {
+      "type": "builder",
+      "title": "Meine Geschichte — Teil 6",
+      "prompt": "Add to your growing self-introduction: how you've been feeling, or a small health event.",
+      "slots": [
+        { "label": "Was ist passiert", "chips": ["Mir ging es letzte Woche nicht so gut.", "Ich hatte Kopfschmerzen und war müde.", "Ich bin zum Hausarzt gegangen."] },
+        { "label": "Jetzt", "chips": ["Aber jetzt geht es mir wieder gut.", "Zum Glück geht es mir jetzt besser."] }
+      ],
+      "sample": "Mir ging es letzte Woche nicht so gut, aber jetzt geht es mir wieder gut."
+    },
+    {
+      "type": "journal",
+      "prompt": "Meine Geschichte, Woche 6 — sechs Wochen, sechs Schichten! Say your whole self-introduction out loud, start to finish: your name, where you're from, your daily routine, your family and Kiez, what you like to eat, something you did recently — and now, how you've been feeling. Write today's new sentences below to lock them in.",
+      "starters": ["Mir ging es...", "Ich hatte...", "Jetzt geht es mir..."]
+    }
+  ]
+}

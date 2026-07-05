@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "day-42",
+  "day": 42,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "capstone",
+  "title": "Cosa è successo questa settimana",
+  "emoji": "🎉",
+  "level": "A2",
+  "durationMin": [20, 25],
+  "summary": "Week 6 capstone: cosa è successo storytelling, plus layer 6 of il mio racconto — feelings and a health event",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Uno sguardo indietro: settimana 6",
+      "body": "This week you learned to talk about **il corpo** and pain (*mi fa / mi fanno male*), Italy's **farmacia-first** habit and *mal di…*, what to say in a real emergency (**il 112**), how to talk about feelings with **sentirsi**, and how to give advice with **devi / dovresti** and **perché non…?**. You also caught up with Sofia's rough week. Time to tell your own *cosa è successo*.",
+      "callout": "Settimana 6 chiusa — sei a metà dell'A2!"
+    },
+    {
+      "type": "chips",
+      "title": "Ripasso della settimana",
+      "items": [
+        { "nl": "mal di testa", "en": "headache", "speak": "mal di testa" },
+        { "nl": "mi sento stanco", "en": "I feel tired", "speak": "mi sento stanco" },
+        { "nl": "dovresti riposare", "en": "you should rest", "speak": "dovresti riposare" },
+        { "nl": "in farmacia", "en": "at the pharmacy", "speak": "in farmacia" },
+        { "nl": "l'ambulanza", "en": "ambulance", "speak": "l'ambulanza" },
+        { "nl": "si è rotto", "en": "it broke down", "speak": "si è rotto" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Your friend has a stomach ache and asks what to do. What's the gentle suggestion?",
+      "options": ["Devi andare in ospedale!", "Dovresti riposare un po'.", "Chiama il 112!"],
+      "correct": 1,
+      "explain": "Dovresti — the soft, friendly suggestion register from this week."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'Yesterday I felt sick.'",
+      "answers": ["ieri mi sono sentito male", "ieri mi sono sentita male", "ieri mi sono sentito male.", "ieri mi sono sentita male."],
+      "hint": "passato prossimo of sentirsi + male.",
+      "explain": "*Ieri mi sono sentito/a male* — sentirsi in the past, agreement with you."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the sentence.",
+      "speak": "Dovresti andare in farmacia.",
+      "answers": ["dovresti andare in farmacia", "dovresti andare in farmacia."]
+    },
+    {
+      "type": "contrast",
+      "title": "Due modi di dire che fa male",
+      "pairs": [
+        { "left": "*Ho mal di testa.* — fixed formula, no article", "right": "*Mi fa male la testa.* — the verb agrees with the body part", "note": "Two ways to say the same thing — mix them up for variety." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Pietro calls from Naples to check in — 'You' tell him about your week",
+      "lines": [
+        { "speaker": "Pietro", "nl": "Ciao! Tutto bene? Giulia mi ha detto che hai avuto una settimana difficile.", "en": "Hi! Everything okay? Giulia told me you had a tough week." },
+        { "speaker": "You", "nl": "Sì, un po'. Mi sono sentito male per due giorni — avevo mal di gola e un po' di febbre.", "en": "Yeah, a bit. I felt sick for two days — I had a sore throat and a bit of a fever." },
+        { "speaker": "Pietro", "nl": "Sei andato in farmacia?", "en": "Did you go to the pharmacy?" },
+        { "speaker": "You", "nl": "Sì, il farmacista mi ha detto di riposare. Adesso sto molto meglio.", "en": "Yes, the pharmacist told me to rest. Now I'm much better." },
+        { "speaker": "Pietro", "nl": "Bene! Qui a Napoli diciamo: la salute prima di tutto.", "en": "Good! Here in Naples we say: health above all.", "spotlight": "Pietro's regional pride even in a health check-in — right on brand." },
+        { "speaker": "You", "nl": "Hai ragione. Dovrei riposare di più in generale.", "en": "You're right. I should rest more in general." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "How long was 'You' feeling sick?", "options": ["One day", "Two days", "A week"], "correct": 1 },
+        { "q": "What did the pharmacist recommend?", "options": ["Go straight to the hospital", "Rest", "Take antibiotics"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Cosa è successo questa settimana",
+      "prompt": "Build your own mini cosa-è-successo story: what you had, what you did, and the advice you got.",
+      "slots": [
+        { "label": "Cosa avevo", "chips": ["mal di testa", "la febbre", "mal di gola", "mal di pancia"] },
+        { "label": "Cosa ho fatto", "chips": ["sono andato/a in farmacia", "sono andato/a dal medico", "ho riposato tutto il giorno", "ho bevuto tanta acqua"] },
+        { "label": "Il consiglio", "chips": ["dovresti riposare", "dovresti bere più acqua", "perché non dormi un po'?"] }
+      ],
+      "sample": "Avevo mal di gola, sono andato in farmacia, e il farmacista mi ha detto: dovresti riposare."
+    },
+    {
+      "type": "builder",
+      "title": "Il mio racconto — livello 6",
+      "prompt": "Add this week's layer to your growing self-introduction: how you were feeling, and a small health event. Keep everything from before — name, routine, family & quartiere, food & wishes, something you did recently — and now add this.",
+      "slots": [
+        { "label": "Come mi sentivo", "chips": ["mi sentivo stanco", "mi sentivo stanca", "mi sentivo un po' nervoso", "mi sentivo un po' nervosa", "mi sentivo bene"] },
+        { "label": "Cosa avevo", "chips": ["avevo la febbre", "avevo mal di testa", "avevo mal di gola", "avevo bisogno di riposare"] },
+        { "label": "Cosa mi faceva male", "chips": ["mi faceva male la testa", "mi faceva male la gola", "mi facevano male i piedi", "mi facevano male le gambe"] }
+      ],
+      "sample": "La settimana scorsa mi sentivo stanco, avevo la febbre, e mi faceva male la gola."
+    },
+    {
+      "type": "journal",
+      "prompt": "Il mio racconto — livello 6! Aggiungi al tuo racconto: come ti sentivi e un piccolo evento di salute recente (mi sentivo…, avevo…, mi faceva / facevano male…). Tieni tutto quello che hai scritto prima — nome, routine, famiglia e quartiere, cibo e desideri, qualcosa che hai fatto — e aggiungi questo. Complimenti, sei a metà dell'A2!",
+      "starters": ["Mi sentivo…", "Avevo…"],
+      "minSentences": 3
+    }
+  ]
+}

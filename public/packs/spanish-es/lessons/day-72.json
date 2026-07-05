@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "day-72",
+  "day": 72,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Muletillas: el pegamento del habla",
+  "emoji": "🗣",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The filler words that make you sound native — pues, bueno, o sea, en plan, es que, venga",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El pegamento del español hablado",
+      "body": "*Muletillas* are the little filler words that hold spoken Spanish together — **pues, bueno, o sea, en plan, es que**. They rarely mean much on their own, but drop them in and you stop sounding like a textbook. Natives use them constantly to think, soften, or change tack.",
+      "callout": "They're the difference between *reading* Spanish and *speaking* it."
+    },
+    {
+      "type": "card",
+      "title": "Las muletillas imprescindibles",
+      "body": "Each one does a job. Match the filler to the moment.",
+      "table": {
+        "headers": ["Muletilla", "Para qué sirve"],
+        "rows": [
+          ["pues…", "to start or stall — well…, so…"],
+          ["bueno…", "to soften or change topic — well, okay…"],
+          ["o sea", "to rephrase — I mean, that is…"],
+          ["en plan", "to give an example / approximate — like…"],
+          ["es que", "to explain or excuse — it's just that…"],
+          ["a ver", "to buy a second — let's see…"],
+          ["venga", "to close or urge — come on, right then"],
+          ["pues nada", "to wrap up — anyway, so…"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Escúchalas en contexto",
+      "items": [
+        { "nl": "Pues no sé, la verdad.", "en": "Well, I don't know, honestly.", "speak": "Pues no sé, la verdad." },
+        { "nl": "O sea, que no vienes.", "en": "So (I mean), you're not coming.", "speak": "O sea, que no vienes." },
+        { "nl": "Es que no tengo tiempo.", "en": "It's just that I don't have time.", "speak": "Es que no tengo tiempo." },
+        { "nl": "Estaba, en plan, flipando.", "en": "I was, like, freaking out.", "speak": "Estaba, en plan, flipando." },
+        { "nl": "Bueno, ¿nos vamos?", "en": "Well, shall we go?", "speak": "Bueno, ¿nos vamos?" },
+        { "nl": "Venga, hasta luego.", "en": "Alright, see you.", "speak": "Venga, hasta luego." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "«es que» y «o sea» — las dos que más vas a usar",
+      "body": "**es que** front-loads an excuse or reason: *No voy, **es que** estoy cansado* (I'm not going — it's just I'm tired). **o sea** rephrases what you just said, or reacts: *O sea, que al final no vino* (So basically he didn't come). Careful — *o sea* is two words; writing *osea* is a classic slip.",
+      "callout": "*en plan* is the very Spanish young-person quotative: *me miró, en plan, ¿y tú quién eres?*"
+    },
+    {
+      "type": "contrast",
+      "title": "o sea vs en plan",
+      "pairs": [
+        { "left": "o sea (clarifies / restates)", "right": "*Vivo en las afueras, o sea, lejísimos.* — I live out of town, I mean, really far.", "note": "Reformula o concluye lo que acabas de decir." },
+        { "left": "en plan (approximates / sets a vibe)", "right": "*Fue una tarde en plan tranquila.* — It was a chill sort of afternoon.", "note": "Introduce un ejemplo, un estilo o una cita informal." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Un amigo te pregunta por qué no fuiste a la cena. Empiezas tu excusa con…",
+      "options": ["Es que…", "O sea…", "Venga…"],
+      "correct": 0,
+      "explain": "*Es que* introduce la excusa o el motivo: *Es que se me hizo tarde*. *O sea* reformula, y *venga* cierra o anima."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál cierra una conversación y mete prisa a la vez?",
+      "options": ["A ver", "Venga", "Pues"],
+      "correct": 1,
+      "explain": "*Venga* sirve para cerrar y animar: *¡Venga, que llegamos tarde!*, *Venga, un beso, hablamos*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Rellena la muletilla que reformula ('I mean'): «No me apetece salir, ___, prefiero quedarme en casa.»",
+      "answers": ["o sea"],
+      "hint": "Dos palabras, nunca 'osea'.",
+      "explain": "*O sea* reformula: *no me apetece salir, o sea, prefiero quedarme en casa*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa tells you about a gig — count the muletillas.",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Pues nada, que anoche fui a un concierto, ¿no?", "en": "So anyway, I went to a gig last night, right?", "spotlight": "pues nada = the classic story opener." },
+        { "speaker": "You", "nl": "¿Ah sí? ¿Qué tal?", "en": "Oh yeah? How was it?" },
+        { "speaker": "Rafa", "nl": "Bueno… al principio, en plan, medio vacío. Pero luego se llenó.", "en": "Well… at first, like, half empty. But then it filled up." },
+        { "speaker": "You", "nl": "O sea, que al final mereció la pena.", "en": "So in the end it was worth it." },
+        { "speaker": "Rafa", "nl": "Hombre, sí. Es que el grupo tocaba de miedo, tío.", "en": "Man, yeah. It's just the band played amazingly, mate." },
+        { "speaker": "You", "nl": "¿Y no me dijiste nada? Me habría apuntado.", "en": "And you didn't tell me? I'd have joined." },
+        { "speaker": "Rafa", "nl": "Ya, ya… es que fue todo muy de última hora. Pero venga, la próxima te aviso.", "en": "Yeah, yeah… it's just it was all last-minute. But come on, next time I'll let you know." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Cómo estaba el concierto al principio?", "options": ["Lleno", "Medio vacío", "Cancelado"], "correct": 1 },
+        { "q": "¿Por qué no avisó Rafa a su amigo?", "options": ["Se le olvidó a propósito", "Fue todo de última hora", "No quería que fuera"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Cuenta algo que hiciste el finde, pero mételo bien de muletillas (pues, bueno, o sea, es que, en plan). Cuantas más, más natural. Mínimo cuatro frases.",
+      "starters": ["Pues nada, que…", "Bueno, resulta que…", "Es que…", "O sea, que al final…"],
+      "minSentences": 4
+    }
+  ]
+}

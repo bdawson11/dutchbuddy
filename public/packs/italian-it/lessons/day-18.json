@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "day-18",
+  "day": 18,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Il tuo quartiere: a, in, da",
+  "emoji": "🗺️",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Neighborhood vocabulary, asking dov'è…?, and the prepositions a/in/da for place",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il tuo quartiere",
+      "body": "Every quartiere has its landmarks: *la piazza* (the square), *la via* (the street), *il negozio* (the shop), *il mercato* (the market), *la chiesa* (the church), *il parco* (the park). To ask where something is: **Dov'è…?** (Where is…?) — *Dov'è la piazza?*",
+      "callout": "Dov'è is just dove + è squashed together — say it as one word."
+    },
+    {
+      "type": "chips",
+      "title": "Around the quartiere",
+      "items": [
+        { "nl": "la piazza", "en": "the square", "speak": "la piazza" },
+        { "nl": "la via", "en": "the street", "speak": "la via" },
+        { "nl": "il negozio", "en": "the shop", "speak": "il negozio" },
+        { "nl": "il mercato", "en": "the market", "speak": "il mercato" },
+        { "nl": "la chiesa", "en": "the church", "speak": "la chiesa" },
+        { "nl": "il parco", "en": "the park", "speak": "il parco" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "a, in, da — three little words, three jobs",
+      "body": "**a** goes with cities and specific points (*abito a Bologna*). **in** goes with broader or enclosed places, and countries (*sono in centro*, *vivo in Italia*). **da** means 'at/to someone's place' — a person, or their shop (*vado da Marco*, *compro il pane da un fornaio*).",
+      "table": {
+        "headers": ["Preposition", "Used for", "Example"],
+        "rows": [
+          ["a", "cities, specific points", "Abito a Bologna — I live in Bologna"],
+          ["in", "broader/enclosed places, countries", "Sono in centro — I'm downtown"],
+          ["da", "at someone's place or shop", "Vado da Marco — I'm going to Marco's"]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "a vs in — city vs area",
+      "pairs": [
+        { "left": "*a Bologna* — in Bologna (a city)", "right": "*in centro* — downtown (a broader area)", "note": "a for cities and points; in for broader or enclosed places." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "How do you say 'I live in Bologna'?",
+      "options": ["Abito in Bologna", "Abito a Bologna", "Abito da Bologna"],
+      "correct": 1,
+      "explain": "Cities take a: abito a Bologna. Save in for broader areas like in centro or in Italia."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Tonight you're heading to Giulia's place. How do you say it?",
+      "options": ["Vado a Giulia", "Vado in Giulia", "Vado da Giulia"],
+      "correct": 2,
+      "explain": "da + a person = 'at/to someone's place': vado da Giulia."
+    },
+    {
+      "type": "typed",
+      "prompt": "Ask 'Where is the market?' in Italian.",
+      "answers": ["dov'è il mercato?", "dov'è il mercato", "dove è il mercato?", "dove è il mercato"],
+      "hint": "dove + è → dov'è, then il mercato.",
+      "explain": "*Dov'è il mercato?* — dov'è is the contraction you'll use constantly."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole line.",
+      "speak": "C'è una piazza qui vicino.",
+      "answers": ["c'è una piazza qui vicino"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Marco gives you directions to find a market in his neighborhood",
+      "lines": [
+        { "speaker": "You", "nl": "Marco, dov'è un buon mercato qui vicino?", "en": "Marco, where's a good market nearby?" },
+        { "speaker": "Marco", "nl": "Allora, c'è un mercato in piazza, vicino alla chiesa.", "en": "Well, there's a market in the square, near the church." },
+        { "speaker": "You", "nl": "E un negozio di frutta e verdura?", "en": "And a fruit and vegetable shop?" },
+        { "speaker": "Marco", "nl": "Certo, è in via Ugo Bassi, da un signore molto simpatico.", "en": "Sure, it's on Via Ugo Bassi, at a really nice guy's shop.", "spotlight": "da + person works for a shopkeeper too, not just friends." },
+        { "speaker": "You", "nl": "Perfetto, vado da lui domani.", "en": "Perfect, I'll go there tomorrow." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe three things in your quartiere: ask dov'è about one of them, and use a/in/da correctly for the others.",
+      "starters": ["Nel mio quartiere c'è…", "Dov'è…?", "Vado da…"]
+    }
+  ]
+}

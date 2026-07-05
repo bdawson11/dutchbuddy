@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "day-89",
+  "day": 89,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "Passief, actief en *men* — een kwestie van register",
+  "emoji": "📄",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "When Dutch chooses the passive (written, official, distant register), converting active to passive, and men as the impersonal subject",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Waarom kiest het Nederlands voor passief?",
+      "body": "Je kiest de lijdende vorm als de **dader onbekend of onbelangrijk** is, of als je **zakelijk/schriftelijk** wilt klinken. *Er is besloten dat…* klinkt neutraler en formeler dan *Wij hebben besloten dat…*. Nieuws, brieven van de gemeente en officiële mededelingen zitten er vol mee.",
+      "callout": "Passief = afstand en formaliteit. Actief = persoonlijk en direct."
+    },
+    {
+      "type": "contrast",
+      "title": "Zelfde bericht, andere toon",
+      "pairs": [
+        { "left": "We sturen je de rekening volgende week.", "right": "De rekening wordt volgende week verstuurd.", "note": "Rechts: geen 'wij', geen 'jij' — neutraal en zakelijk." },
+        { "left": "Ik heb je aanvraag ontvangen.", "right": "Uw aanvraag is in goede orde ontvangen.", "note": "De formele briefvariant: passief + *u*." },
+        { "left": "Jullie mogen hier niet parkeren.", "right": "Hier mag niet geparkeerd worden.", "note": "Van directe waarschuwing naar onpersoonlijk bordje." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "*Men* — de onpersoonlijke 'je'",
+      "body": "**Men** betekent 'mensen in het algemeen' of 'je' — maar formeel en schriftelijk. *Men zegt dat het gaat sneeuwen.* *Men wordt verzocht stil te zijn.* In gewone spreektaal klinkt *men* stijf; dan zeg je liever *je* of gebruik je het passief. **Herken** het vooral — zelf heb je het niet vaak nodig.",
+      "callout": "Spreektaal: *je / ze*. Formele brief: *men* of passief."
+    },
+    {
+      "type": "chips",
+      "title": "Formeel register — tik om te horen",
+      "items": [
+        { "nl": "Men wordt verzocht de deur te sluiten.", "en": "Please close the door (formal).", "speak": "Men wordt verzocht de deur te sluiten." },
+        { "nl": "U wordt vriendelijk verzocht te wachten.", "en": "You are kindly asked to wait.", "speak": "U wordt vriendelijk verzocht te wachten." },
+        { "nl": "Men zegt dat het druk wordt.", "en": "They say it's going to be busy.", "speak": "Men zegt dat het druk wordt." },
+        { "nl": "De aanvraag is in behandeling genomen.", "en": "The application has been taken up.", "speak": "De aanvraag is in behandeling genomen." },
+        { "nl": "Hierbij wordt u meegedeeld dat…", "en": "You are hereby informed that…", "speak": "Hierbij wordt u meegedeeld dat…" },
+        { "nl": "Roken is niet toegestaan.", "en": "Smoking is not permitted.", "speak": "Roken is niet toegestaan." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je schrijft een officiële mail. Welke zin is het meest formeel/schriftelijk?",
+      "options": ["Ik laat je zo snel mogelijk iets weten.", "Je hoort snel van me.", "U wordt zo spoedig mogelijk geïnformeerd."],
+      "correct": 2,
+      "explain": "*U wordt zo spoedig mogelijk geïnformeerd* — passief + *u* + *spoedig* = formeel register. De andere twee zijn prima, maar informeel (*je*)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Zet in het passief en laat de dader weg: *Iemand heeft mijn fiets gestolen.* Begin met: Mijn fiets …",
+      "answers": ["Mijn fiets is gestolen", "Mijn fiets is gestolen.", "Mijn fiets werd gestolen", "Mijn fiets werd gestolen."],
+      "hint": "*is/werd* + *gestolen* — de dader (*iemand*) valt weg.",
+      "explain": "*Mijn fiets is gestolen* (resultaat, nu) of *werd gestolen* (de daad, toen). De onbekende dader verdwijnt — precies waarvoor het passief bedoeld is."
+    },
+    {
+      "type": "builder",
+      "title": "Informeel → formeel",
+      "prompt": "Bouw dezelfde mededeling twee keer. Kies eerst de informele helft, dan de formele.",
+      "slots": [
+        { "label": "Informeel (je, actief)", "chips": ["Ik stuur je de brief morgen.", "Je moet hier even wachten.", "We laten het je weten."] },
+        { "label": "Formeel (u / passief)", "chips": ["De brief wordt u morgen toegezonden.", "U wordt verzocht hier te wachten.", "U wordt hierover geïnformeerd."] }
+      ],
+      "sample": "Informeel: Ik stuur je de brief morgen. — Formeel: De brief wordt u morgen toegezonden."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You get an official letter from the gemeente and can't parse it. Emma reads over your shoulder.",
+      "lines": [
+        { "speaker": "You", "nl": "Emma, snap jij deze brief? 'Men wordt verzocht…' — wat?", "en": "Emma, do you get this letter? 'One is requested…' — what?" },
+        { "speaker": "Emma", "nl": "Haha, ambtenarentaal. 'Men wordt verzocht' betekent gewoon: 'wilt u alstublieft'.", "en": "Haha, bureaucrat-speak. It just means 'would you please'.", "spotlight": "*men wordt verzocht* = beleefd verzoek." },
+        { "speaker": "You", "nl": "En 'de aanvraag is in behandeling genomen'?", "en": "And 'the application has been taken up'?" },
+        { "speaker": "Emma", "nl": "Dat is passief voor: 'we kijken ernaar'. Ze zeggen nooit 'wij'.", "en": "That's passive for 'we're looking at it'. They never say 'we'." },
+        { "speaker": "You", "nl": "Waarom zo ingewikkeld?", "en": "Why so complicated?" },
+        { "speaker": "Emma", "nl": "Afstand. Het klinkt netjes en officieel. Niemand voelt zich persoonlijk aangesproken.", "en": "Distance. It sounds tidy and official. Nobody feels personally addressed." },
+        { "speaker": "You", "nl": "Dus ik hoef niks te doen?", "en": "So I don't have to do anything?" },
+        { "speaker": "Emma", "nl": "Jawel — onderaan: 'U wordt verzocht te reageren vóór de 15e'. Dát moet je wél doen.", "en": "You do — at the bottom: 'You are requested to respond before the 15th'. That you do have to do.", "spotlight": "Het passief verstopt soms een echte deadline." },
+        { "speaker": "You", "nl": "Ah. Passief of niet, een deadline blijft een deadline.", "en": "Ah. Passive or not, a deadline's a deadline." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Ambtenarentaal ontcijferd",
+      "questions": [
+        { "q": "Wat betekent 'men wordt verzocht' volgens Emma?", "options": ["Het is verboden", "Wilt u alstublieft", "Het is klaar"], "correct": 1 },
+        { "q": "Waarom gebruikt de gemeente zoveel passief?", "options": ["Voor afstand en formaliteit", "Omdat het korter is", "Om grappig te zijn"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf één mededeling twee keer: eerst informeel (voor een vriend, met *je*), dan formeel (voor een instantie, met passief of *u*). Bijvoorbeeld dat een afspraak verzet wordt. In het Nederlands, minstens drie zinnen samen.",
+      "starters": ["Informeel: Ik moet onze afspraak …", "Formeel: De afspraak wordt …", "Men wordt verzocht …"],
+      "minSentences": 3
+    }
+  ]
+}

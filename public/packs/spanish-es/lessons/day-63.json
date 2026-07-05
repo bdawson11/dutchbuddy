@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-63",
+  "day": 63,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "capstone",
+  "title": "Mi historia: lo que me contaron",
+  "emoji": "🎉",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Week-9 capstone: cotilleo with Rafa in reported speech, then the Mi historia layer — something someone told you",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso: semana 9 entera",
+      "body": "Cierras la primera semana de B1. Ya reaccionas con subjuntivo (*me alegro de que…, dudo que…*), planeas el futuro (*cuando…, para que…*), cuentas lo que otros dicen (*me dijo que…*), pides con condicional (*¿podrías…?*) y montas condiciones (*si tengo… / si tuviera…*). Hoy lo usas todo cotilleando con Rafa y añades una capa nueva a tu historia.",
+      "callout": "Fin de la semana 9. Ponte una cañita mental — ¡el subjuntivo ya no te da miedo!"
+    },
+    {
+      "type": "chips",
+      "title": "Repaso rápido — toca para escuchar",
+      "items": [
+        { "nl": "Me alegro de que te vaya bien.", "en": "I'm glad it's going well for you.", "speak": "Me alegro de que te vaya bien." },
+        { "nl": "Cuando lo decida, nos dice.", "en": "When she decides, she'll tell us.", "speak": "Cuando lo decida, nos dice." },
+        { "nl": "Me contó que estaba hecha un lío.", "en": "She told me she was all confused.", "speak": "Me contó que estaba hecha un lío." },
+        { "nl": "¿Podrías repetírmelo?", "en": "Could you say it again?", "speak": "¿Podrías repetírmelo?" },
+        { "nl": "Si fuera ella, lo aceptaría.", "en": "If I were her, I'd accept it.", "speak": "Si fuera ella, lo aceptaría." }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Calienta — repite en estilo indirecto",
+      "lines": [
+        { "nl": "Me dijo que estaba muy contenta.", "en": "She told me she was really happy." },
+        { "nl": "Me contó que había cambiado de trabajo.", "en": "He told me he'd changed jobs." },
+        { "nl": "Me preguntó si quería ir con ellos.", "en": "She asked me if I wanted to go with them." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Elige el subjuntivo correcto: «No creo que Sofía se ___ (ir) sin despedirse.»",
+      "options": ["va", "vaya", "iría"],
+      "correct": 1,
+      "explain": "*No creo que* expresa duda, así que pide subjuntivo: *no creo que se **vaya***. *Va* es indicativo; *iría* es condicional."
+    },
+    {
+      "type": "typed",
+      "prompt": "Pásalo a estilo indirecto. Rafa: «Ayer hablé con ella.» → «Rafa me dijo que ___ hablado con ella.»",
+      "answers": ["había", "me dijo que había hablado con ella"],
+      "hint": "El indefinido/perfecto retrocede al pluscuamperfecto: *había* + participio.",
+      "explain": "En estilo indirecto, *hablé/he hablado* pasa a *había hablado*: *me dijo que **había** hablado con ella*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál es una condición real bien formada?",
+      "options": ["Si Sofía acepta, nos vamos a Valencia de finde.", "Si Sofía aceptara, nos vamos de finde.", "Si Sofía acepte, nos vamos de finde."],
+      "correct": 0,
+      "explain": "Condición real = **si + presente** + presente: *si **acepta**, nos vamos*. Mezclar con imperfecto de subjuntivo (*aceptara*) o poner *acepte* tras *si* no es correcto."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Ya se sabe la noticia. Cotilleas con Rafa sobre lo de Sofía — pero aún no ha decidido nada",
+      "lines": [
+        { "speaker": "Rafa", "nl": "¿Te has enterado de lo de Sofía?", "en": "Have you heard about Sofía?" },
+        { "speaker": "You", "nl": "Sí, Lucía me lo contó. Me dijo que le habían ofrecido un trabajo en Valencia.", "en": "Yeah, Lucía told me. She said Sofía had been offered a job in Valencia.", "spotlight": "me dijo que + pluscuamperfecto: pasas el cotilleo en estilo indirecto." },
+        { "speaker": "Rafa", "nl": "Exacto. Y ayer hablé con ella. Me dijo que estaba hecha un lío.", "en": "Exactly. And yesterday I spoke to her. She told me she was all over the place." },
+        { "speaker": "You", "nl": "Normal, ¿no? Es una decisión enorme.", "en": "Understandable, right? It's a huge decision." },
+        { "speaker": "Rafa", "nl": "Ya. Le pregunté si se iba a ir y me dijo que aún no lo sabía.", "en": "Yeah. I asked if she was going to go and she said she didn't know yet.", "spotlight": "le pregunté si… + me dijo que…: pregunta indirecta + backshift." },
+        { "speaker": "You", "nl": "Yo le dije que hiciera lo que sintiera. Pero la voy a echar de menos.", "en": "I told her to do what she felt was right. But I'm going to miss her.", "spotlight": "le dije que + imperfecto de subjuntivo (hiciera, sintiera): consejo en estilo indirecto." },
+        { "speaker": "Rafa", "nl": "Y yo, tío. Pero, oye, si acepta, ¡nos vamos a Valencia de finde!", "en": "Me too, man. But hey, if she accepts, we're off to Valencia for the weekend!", "spotlight": "si acepta + presente: condición real, repaso del día 61." },
+        { "speaker": "You", "nl": "¡Eso seguro! Espero que se decida pronto.", "en": "For sure! I hope she makes up her mind soon.", "spotlight": "espero que + subjuntivo (se decida)." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Qué habéis cotilleado?",
+      "questions": [
+        { "q": "¿Quién le contó la noticia primero al hablante?", "options": ["Lucía", "Rafa", "Sofía"], "correct": 0 },
+        { "q": "¿Qué le dijo Sofía a Rafa?", "options": ["Que estaba hecha un lío", "Que ya se iba", "Que no quería el trabajo"], "correct": 0 },
+        { "q": "Según Rafa, si Sofía acepta, ¿qué harán?", "options": ["Ir a Valencia de finde", "Mudarse todos", "No hacer nada"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Pasa el cotilleo",
+      "prompt": "Monta una frase en estilo indirecto para contar lo que alguien te dijo. El verbo ya ha dado el paso atrás.",
+      "slots": [
+        { "label": "Quién y cómo", "chips": ["Lucía me contó que", "Rafa me dijo que", "Sofía me comentó que"] },
+        { "label": "Qué", "chips": ["le habían ofrecido un trabajo", "estaba muy nerviosa", "aún no lo tenía claro"] }
+      ],
+      "sample": "Lucía me contó que le habían ofrecido un trabajo."
+    },
+    {
+      "type": "builder",
+      "title": "Mi historia — capa 9",
+      "prompt": "Añade una capa nueva a tu presentación: **algo que alguien te contó** (estilo indirecto) y tu reacción. Une las piezas.",
+      "slots": [
+        { "label": "Quién te lo dijo", "chips": ["Mi amiga me dijo que", "Un compañero me contó que", "Alguien me comentó que"] },
+        { "label": "Qué te dijo", "chips": ["estaba muy contenta", "había encontrado un piso nuevo", "iba a cambiar de trabajo"] },
+        { "label": "Tu reacción", "chips": ["y me alegré mucho", "y me dio un poco de pena", "y no me lo esperaba"] }
+      ],
+      "sample": "Mi amiga me dijo que había encontrado un piso nuevo, y me alegré mucho."
+    },
+    {
+      "type": "journal",
+      "prompt": "¡Mi historia, semana 9! Escribe tu presentación completa (nombre, origen, dónde vives, tu rutina, tu familia, lo que te gusta, algo que has hecho, un recuerdo, un plan y una opinión) y añade la capa nueva: **algo que alguien te contó** en estilo indirecto (*… me dijo que…*) y cómo reaccionaste. ¡Enhorabuena por llegar a B1!",
+      "starters": ["Me llamo…", "Soy de… y vivo en…", "El otro día, un amigo me dijo que…", "Y yo…"],
+      "minSentences": 5
+    }
+  ]
+}

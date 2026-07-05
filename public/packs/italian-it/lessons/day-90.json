@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "day-90",
+  "day": 90,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "review",
+  "title": "Marco e la Bologna che cambia",
+  "emoji": "💬",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Week 13 review + season-2 immersion: Marco vents about how Bologna is changing, in full congiuntivo",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Settimana 13: il congiuntivo, tutto intero",
+      "body": "This week you finished the congiuntivo: **passato** (*penso che sia andato*), **imperfetto** (*pensavo che fosse*), **trapassato** (*credevo che fosse andato*), the **concordanza dei tempi** ladder, and the **conjunctions** that always trigger it (*benché, prima che, purché…*). Oggi lo senti tutto insieme, con Marco che si lamenta della sua città.",
+      "callout": "Non ti spaventare se Marco parla in fretta: è così che parla la gente vera."
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Non credo che ieri Sofia ___ a Bologna.» (azione precedente, trigger presente)",
+      "options": ["venisse", "sia venuta", "fosse venuta"],
+      "correct": 1,
+      "explain": "Trigger presente (*non credo*) + azione già passata (*ieri*) → congiuntivo passato: *sia venuta*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "«___ costi tanto, quel ristorante è il mio preferito.»",
+      "options": ["Benché", "Dopo che", "Perché (because)"],
+      "correct": 0,
+      "explain": "*Benché* (+ congiuntivo *costi*) = 'although'. *Dopo che* vorrebbe l'indicativo; l'ultima opzione cambia il senso."
+    },
+    {
+      "type": "typed",
+      "prompt": "Metti al passato: 'Penso che tu abbia ragione.' → ?",
+      "answers": ["pensavo che tu avessi ragione", "pensavo che avessi ragione"],
+      "hint": "penso → pensavo; abbia → avessi.",
+      "explain": "*Pensavo che tu avessi ragione.* La concordanza scende di un gradino."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar. Marco is worked up about how Bologna is changing.",
+      "lines": [
+        { "speaker": "Marco", "nl": "Guarda, non è più la Bologna di una volta, te lo dico io.", "en": "Look, it's not the Bologna it used to be, I'm telling you." },
+        { "speaker": "You", "nl": "Davvero? Pensavo che fosse sempre uguale.", "en": "Really? I thought it was always the same.", "spotlight": "congiuntivo imperfetto dopo 'pensavo'." },
+        { "speaker": "Marco", "nl": "Ma no! Benché sia ancora bellissima, è tutta più cara.", "en": "No! Even though it's still gorgeous, it's all more expensive.", "spotlight": "'benché sia' — congiuntivo dopo benché." },
+        { "speaker": "Marco", "nl": "Credo che abbiano chiuso metà dei bar storici.", "en": "I think they've closed half the historic bars.", "spotlight": "'abbiano chiuso' — congiuntivo passato." },
+        { "speaker": "You", "nl": "Non sapevo che fossero spariti così tanti locali.", "en": "I didn't know so many places had disappeared.", "spotlight": "'fossero spariti' — congiuntivo trapassato." },
+        { "speaker": "Marco", "nl": "Eh. Prima che arrivassero i turisti, si stava meglio, secondo me.", "en": "Yeah. Before the tourists came, things were better, I reckon.", "spotlight": "'prima che arrivassero' — prima che + congiuntivo." },
+        { "speaker": "You", "nl": "Boh, però è normale che una città cambi, no?", "en": "Dunno, but it's normal for a city to change, right?" },
+        { "speaker": "Marco", "nl": "Sì, purché non perda la sua anima.", "en": "Yeah, as long as it doesn't lose its soul.", "spotlight": "'purché non perda' — purché + congiuntivo." },
+        { "speaker": "You", "nl": "Su questo hai ragione.", "en": "On that you're right." },
+        { "speaker": "Marco", "nl": "Comunque, benché mi lamenti, non me ne andrei mai da qui.", "en": "Anyway, even though I complain, I'd never leave this place." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai seguito Marco?",
+      "questions": [
+        { "q": "Secondo Marco, com'è cambiata Bologna?", "options": ["È diventata più cara", "È diventata più tranquilla", "È diventata più economica"], "correct": 0 },
+        { "q": "Cosa pensava 'You' della città?", "options": ["Che fosse sempre uguale", "Che fosse più cara", "Che fosse più piccola"], "correct": 0 },
+        { "q": "Marco se ne andrebbe da Bologna?", "options": ["No, mai", "Sì, subito", "Solo d'estate"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "E la tua città (o il tuo quartiere)? È cambiata? Scrivi tre frasi con il congiuntivo: *penso che sia cambiata…, benché…, prima che…*.",
+      "starters": ["Penso che la mia città sia…", "Benché…", "Prima che arrivassero…"],
+      "minSentences": 3
+    }
+  ]
+}
