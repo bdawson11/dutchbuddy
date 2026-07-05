@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "day-97",
+  "day": 97,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "review",
+  "title": "Daan twijfelt — een aanbod vol 'als… dan…'",
+  "emoji": "🎸",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Week 14 review and immersion: Daan's band gets the support slot he'd regretted losing, and he spirals through hypotheticals and regret before deciding",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 14, op een rij",
+      "body": "Deze week ging over de **irreële tijd**: het verleden vóór het verleden (vvt), de hypothese met *zou*, de irreële voorwaarde en spijt. Vandaag krijgt Daan een aanbod — en hij denkt zich helemaal suf in 'als… dan…'. **Blijf in het Nederlands.**",
+      "table": {
+        "headers": ["Deze week", "Wat je nu kunt"],
+        "rows": [
+          ["Vvt (had/was + deelwoord)", "*toen ik kwam, was hij al weg*"],
+          ["Zou + infinitief", "beleefd, wens, toekomst-in-verleden"],
+          ["Irreële voorwaarde", "*als ik het had geweten, zou ik…*"],
+          ["Spijt & verwijt", "*ik had het moeten weten*"],
+          ["Verstopte voorwaarde", "*anders, stel dat, mocht het…*"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Opwarmen — tik om te horen",
+      "items": [
+        { "nl": "Als ik nee zeg, heb ik er weer spijt van.", "en": "If I say no, I'll regret it again.", "speak": "Als ik nee zeg, heb ik er weer spijt van." },
+        { "nl": "Had ik die vorige gig maar aangenomen.", "en": "If only I'd taken that last gig.", "speak": "Had ik die vorige gig maar aangenomen." },
+        { "nl": "Stel dat het een succes wordt?", "en": "Suppose it's a success?", "speak": "Stel dat het een succes wordt?" },
+        { "nl": "Mocht het misgaan, dan is het niet erg.", "en": "Should it go wrong, it's no big deal.", "speak": "Mocht het misgaan, dan is het niet erg." },
+        { "nl": "Ik zou het mezelf nooit vergeven.", "en": "I'd never forgive myself.", "speak": "Ik zou het mezelf nooit vergeven." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Als ik toen ja ___, stond ik nu op een podium.* Welke past?",
+      "options": ["zeg", "zei", "had gezegd"],
+      "correct": 2,
+      "explain": "Verleden irreëel: *als* + vvt → *had gezegd*. Het is niet gebeurd, dus de voltooid verleden tijd."
+    },
+    {
+      "type": "typed",
+      "prompt": "Druk spijt uit met *had … moeten*: *(ik / die kans / grijpen).*",
+      "answers": ["Ik had die kans moeten grijpen", "Ik had die kans moeten grijpen.", "Ik had die kans aan moeten grijpen", "Ik had die kans aan moeten grijpen."],
+      "hint": "*had* + die kans + *moeten grijpen*.",
+      "explain": "*Ik had die kans moeten grijpen.* De spijtvorm: *had + moeten + infinitief*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Daan calls You in a panic. A venue offered his band a support slot — the exact chance he'd regretted losing.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Je raadt het nooit. We zijn gevraagd als support-act! Volgende maand!", "en": "You'll never guess. We've been asked to be the support act! Next month!" },
+        { "speaker": "You", "nl": "Wat goed, Daan! Dat is precies wat je wilde.", "en": "That's great, Daan! That's exactly what you wanted." },
+        { "speaker": "Daan", "nl": "Ja… maar stel dat we het verprutsen? Voor honderden mensen?", "en": "Yeah… but suppose we blow it? In front of hundreds of people?", "spotlight": "*stel dat* — het gedachte-experiment van de twijfelaar." },
+        { "speaker": "You", "nl": "En stel dat het geweldig gaat?", "en": "And suppose it goes brilliantly?" },
+        { "speaker": "Daan", "nl": "Als ik nu nee zeg, heb ik er weer spijt van, net als vorige keer.", "en": "If I say no now, I'll regret it again, just like last time." },
+        { "speaker": "You", "nl": "Precies. Vorige keer zei je: 'volgende keer zeg ik ja'.", "en": "Exactly. Last time you said: 'next time I say yes'." },
+        { "speaker": "Daan", "nl": "Dat weet ik. Had ik toen maar meer lef gehad.", "en": "I know. If only I'd had more nerve back then.", "spotlight": "*had ik maar …* — spijt over de vorige keer." },
+        { "speaker": "You", "nl": "Nou dan. Mocht het misgaan, dan heb je het tenminste geprobeerd.", "en": "Well then. Should it go wrong, at least you tried.", "spotlight": "*mocht het …* — de geruststellende voorwaarde." },
+        { "speaker": "Daan", "nl": "En als het lukt, zou dit alles kunnen veranderen.", "en": "And if it works, this could change everything." },
+        { "speaker": "You", "nl": "Dus?", "en": "So?" },
+        { "speaker": "Daan", "nl": "Dus… we doen het. Ik zeg ja. Voordat ik me weer bedenk.", "en": "So… we're doing it. I say yes. Before I change my mind again." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Daans besluit",
+      "questions": [
+        { "q": "Waarvoor is Daans band gevraagd?", "options": ["Een support-optreden", "Een tv-show", "Een bruiloft"], "correct": 0 },
+        { "q": "Wat besluit Daan uiteindelijk?", "options": ["Nee zeggen", "Ja zeggen", "Het uitstellen"], "correct": 1 },
+        { "q": "Waarom twijfelde hij eerst?", "options": ["Bang om te verprutsen", "Geen tijd", "Hij houdt niet van muziek"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Daan durfde uiteindelijk 'ja' te zeggen. Wanneer heb jij een kans wél of juist niet gegrepen? Schrijf met de irreële tijd: hoe zou het anders gelopen zijn? In het Nederlands, minstens drie zinnen.",
+      "starters": ["Ooit kreeg ik de kans om …", "Als ik toen … had …", "Achteraf had ik …"],
+      "minSentences": 3
+    }
+  ]
+}

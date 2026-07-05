@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "day-10",
+  "day": 10,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "La hora, los días y los meses",
+  "emoji": "⏰",
+  "level": "A1",
+  "durationMin": [16, 24],
+  "summary": "Telling the time, the days of the week, and the months of the year",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "¿Qué hora es?",
+      "body": "Para preguntar la hora: **¿Qué hora es?** La una es la única hora **singular** (*es la una*); todas las demás son **plurales** (*son las dos, son las tres*).",
+      "table": {
+        "headers": ["Hora", "Español"],
+        "rows": [
+          ["1:00", "Es la una"],
+          ["2:00", "Son las dos"],
+          ["3:00", "Son las tres"],
+          ["12:00 (mediodía)", "Es mediodía"]
+        ]
+      },
+      "callout": "*Es* con la una, *son* con el resto — la hora manda el verbo."
+    },
+    {
+      "type": "card",
+      "title": "Y media, y cuarto, menos cuarto",
+      "body": "Para los minutos: **y** suma, **menos** resta. *Son las tres y cuarto* (3:15), *son las cuatro y media* (4:30), *son las cinco menos cuarto* (4:45).",
+      "table": {
+        "headers": ["Español", "Minutos"],
+        "rows": [
+          ["y cuarto", "+15"],
+          ["y media", "+30"],
+          ["menos cuarto", "−15 (de la hora siguiente)"]
+        ]
+      },
+      "callout": "*son las cinco menos cuarto* piensa ya en la hora que viene, no en la que ha pasado."
+    },
+    {
+      "type": "chips",
+      "title": "Escucha y repite",
+      "items": [
+        { "nl": "¿qué hora es?", "en": "what time is it?", "speak": "¿qué hora es?" },
+        { "nl": "es la una", "en": "it's one o'clock", "speak": "es la una" },
+        { "nl": "son las tres y cuarto", "en": "it's quarter past three", "speak": "son las tres y cuarto" },
+        { "nl": "son las cinco menos cuarto", "en": "it's quarter to five", "speak": "son las cinco menos cuarto" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Los días y los meses",
+      "body": "Los días de la semana y los meses del año **no llevan mayúscula** en español. La semana empieza en *lunes*: *lunes, martes, miércoles, jueves, viernes, sábado, domingo*. Los meses van así: *enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre*. Para un día concreto usa **el**: *el lunes tengo clase*; para una fecha, *el tres de mayo*.",
+      "table": {
+        "headers": ["Español", "Inglés"],
+        "rows": [
+          ["lunes", "Monday"],
+          ["martes", "Tuesday"],
+          ["miércoles", "Wednesday"],
+          ["jueves", "Thursday"],
+          ["viernes", "Friday"],
+          ["sábado", "Saturday"],
+          ["domingo", "Sunday"]
+        ]
+      },
+      "callout": "*Nací en octubre. Hoy es viernes.* — sin mayúsculas, sin excepción."
+    },
+    {
+      "type": "contrast",
+      "title": "Es la una vs. son las dos",
+      "pairs": [
+        { "left": "es la una — singular", "right": "son las dos, las tres… — plural", "note": "El verbo concuerda con el número de horas." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cómo se dice 4:45 en español?",
+      "options": ["Son las cuatro y cuarenta y cinco", "Son las cinco menos cuarto", "Es las cinco menos cuarto"],
+      "correct": 1,
+      "explain": "En España se cuenta hacia la hora siguiente: **son las cinco menos cuarto**, no 'cuatro cuarenta y cinco'."
+    },
+    {
+      "type": "typed",
+      "prompt": "Escribe: 'It's half past two.'",
+      "answers": ["son las dos y media"],
+      "hint": "Dos es plural, así que empieza con *son*.",
+      "explain": "**Son las dos y media.**"
+    },
+    {
+      "type": "dictation",
+      "speak": "son las nueve y cuarto",
+      "answers": ["son las nueve y cuarto"]
+    },
+    {
+      "type": "builder",
+      "title": "Construye la hora",
+      "slots": [
+        { "label": "Verbo", "chips": ["Es la", "Son las", "Son las", "Son las"] },
+        { "label": "Hora", "chips": ["una", "tres", "siete y media", "diez menos cuarto"] }
+      ],
+      "sample": "Son las siete y media."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Nacho and You planning a coffee, mentioning day and time",
+      "lines": [
+        { "speaker": "Nacho", "nl": "¿Quedamos el jueves?", "en": "Shall we meet on Thursday?" },
+        { "speaker": "You", "nl": "Vale, ¿a qué hora?", "en": "Okay, what time?" },
+        { "speaker": "Nacho", "nl": "A las diez y media de la mañana, en el bar de siempre.", "en": "At half past ten in the morning, at the usual bar.", "spotlight": "'de la mañana' clarifies AM, since Spanish doesn't use am/pm." },
+        { "speaker": "You", "nl": "Perfecto, el jueves a las diez y media. ¡Hasta entonces!", "en": "Perfect, Thursday at half past ten. See you then!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "¿Qué día quedan?", "options": ["El lunes", "El jueves", "El domingo"], "correct": 1 },
+        { "q": "¿A qué hora quedan?", "options": ["A las diez y media", "A las once", "A las diez menos cuarto"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe tu horario de hoy: a qué hora te levantas, a qué hora comes y qué día de la semana es hoy.",
+      "starters": ["Hoy es…", "Son las…"]
+    }
+  ]
+}
