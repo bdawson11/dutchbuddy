@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-79",
+  "day": 79,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "Het straattaal-stoplicht",
+  "emoji": "🚦",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Slang by traffic-light: green words you can use freely, yellow words that need the right room, and why Dutch red-tier cursing is one to leave alone",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Three lights",
+      "body": "Real Dutch is full of slang, and it comes in three tiers. **Green** = say it to anyone, anywhere. **Yellow** = fine with friends, risky at work or with strangers — read the room. **Red** = leave it alone; we'll explain why. The goal today isn't to swear — it's to know which light you're on, so you sound natural *and* safe.",
+      "callout": "When in doubt, treat a word as one light redder than you think."
+    },
+    {
+      "type": "card",
+      "title": "🟢 Green — use freely",
+      "body": "These are the warm, everyday words that make you sound Dutch and cost you nothing. Sprinkle them liberally.",
+      "table": {
+        "headers": ["Woord", "Betekenis / vibe"],
+        "rows": [
+          ["lekker", "nice, tasty, 'nicely' — approval for food, weather, a nap, anything"],
+          ["gezellig", "cozy, convivial — the national good-vibe word"],
+          ["leuk", "nice, fun — safe all-purpose positive"],
+          ["tof", "cool, great — warm and informal, totally fine"],
+          ["chill", "relaxed, easygoing — borrowed from English, everyday"],
+          ["hoor", "reassuring particle — 'no worries': *het is goed, hoor*"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the green tier",
+      "items": [
+        { "nl": "Wat lekker!", "en": "How nice/tasty!", "speak": "Wat lekker!" },
+        { "nl": "Gezellig, hè?", "en": "Cozy, right?", "speak": "Gezellig, hè?" },
+        { "nl": "Wat leuk!", "en": "How nice!", "speak": "Wat leuk!" },
+        { "nl": "Tof, zeg!", "en": "Cool, wow!", "speak": "Tof, zeg!" },
+        { "nl": "Lekker chill.", "en": "Nice and relaxed.", "speak": "Lekker chill." },
+        { "nl": "Het is goed, hoor.", "en": "It's fine, don't worry.", "speak": "Het is goed, hoor." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "🟡 Yellow — read the room",
+      "body": "Fine with friends, clangy with your boss or landlord. **vet** (literally 'fat') = 'awesome' — but it reads young. **echt niet** = 'no way'. **balen** / *ik baal ervan* = 'what a bummer / that bugs me' — mild and mostly safe. **kut** is very common as an interjection for frustration (*kut, ik ben mijn pas vergeten*), but it's literally crude — keep it for close friends, never in a job interview.",
+      "callout": "Yellow = same word, wrong room, wrong impression."
+    },
+    {
+      "type": "contrast",
+      "title": "Same feeling, two registers",
+      "pairs": [
+        { "left": "Wat leuk! / Tof! — always safe", "right": "Vet, man! — great, but reads teenage", "note": "Both are positive; *vet* just pins your age and your informality." },
+        { "left": "Balen! — fine almost anywhere", "right": "cruder frustration words — close friends only", "note": "Same disappointment, different register. When unsure, reach for the greener option." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "🔴 Red — know it, don't use it",
+      "body": "Dutch has a kind of swearing found almost nowhere else: its harshest curses are built on the **names of serious diseases** (cancer, typhus, cholera). These are the most taboo words the language has — heavier than the English f-word, and genuinely wounding. Used *at* a person, they're a real insult, not banter, and many Dutch people find them shocking. We name this so you understand it when you hear it — that flinch on a Dutch face is real. As a learner: there's zero upside and a lot of downside. Leave the red tier alone.",
+      "callout": "If you're ever unsure whether a word is safe, that uncertainty is your answer: don't."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je baas vraagt hoe je weekend was. Welke reactie is overal veilig?",
+      "options": ["Vet, man, echt vet.", "Het was heel gezellig, hoor.", "Kut weekend eigenlijk."],
+      "correct": 1,
+      "explain": "Green tier fits any listener. *Vet* reads teenage in a work setting, and *kut* is crude — fine with a mate, wrong with a boss."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which word is 'green' — safe with anyone, including strangers and elders?",
+      "options": ["vet", "tof", "kut"],
+      "correct": 1,
+      "explain": "*tof* is warm, positive and universally fine. *vet* is yellow (reads young); the third belongs to the crude pile."
+    },
+    {
+      "type": "typed",
+      "prompt": "A friend shows off their new bike and it's great. Give a warm, green-light reaction (two words).",
+      "answers": ["Wat tof", "Wat tof!", "Wat leuk", "Wat leuk!", "Echt leuk", "Tof zeg", "Wat gaaf"],
+      "hint": "Green tier only — nothing you'd regret at work.",
+      "explain": "*Wat tof!* or *Wat leuk!* — pure green: warm, safe, unmistakably Dutch."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the (very green) reaction.",
+      "speak": "Wat een gezellige avond, joh.",
+      "answers": ["Wat een gezellige avond, joh", "Wat een gezellige avond joh", "Wat een gezellige avond, joh."]
+    },
+    {
+      "type": "journal",
+      "prompt": "Noem drie 'groene' woorden die je vanaf nu vaak wilt gebruiken, en leg in het Nederlands uit waarom straattaal per situatie verschilt.",
+      "starters": ["Ik gebruik graag …", "Met vrienden kan …", "Maar bij mijn baas …"],
+      "minSentences": 3
+    }
+  ]
+}

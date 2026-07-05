@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "day-69",
+  "day": 69,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "review",
+  "title": "Verhuisdag — Sanne gaat naar Utrecht",
+  "emoji": "📦",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Review immersion — Sanne's moving day, braiding all of M10",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Alles komt samen: de verhuisdag",
+      "body": "Deze week: **er** in al zijn vormen (*er staat, ik heb er twee, ik denk eraan*), de passief met **worden** (*alles wordt ingepakt*), **reflexieven** (*ik voel me…*) en **werkwoordclusters** (*ik wil alles nog inpakken*). Vandaag verhuist Sanne écht van Amsterdam naar Utrecht — en al die grammatica komt langs in één verhaal. Lees mee en blijf in het Nederlands.",
+      "callout": "Vier bouwstenen, één verhuisdag. Let op *er*, *worden*, *zich* en de werkwoorden aan het eind."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Sanne kijkt de lege kamer rond. Kies de goede zin.",
+      "options": ["Er staat niets meer.", "Staat er niets meer.", "Het staat niets meer."],
+      "correct": 0,
+      "explain": "Existentieel *er* vooraan op zijn plek: *Er staat niets meer.* De kamer is leeg."
+    },
+    {
+      "type": "typed",
+      "prompt": "Zeg in de passief: 'Ze laden de vrachtwagen in.' → De vrachtwagen …",
+      "answers": ["De vrachtwagen wordt ingeladen.", "De vrachtwagen wordt ingeladen"],
+      "hint": "worden + voltooid deelwoord (ingeladen).",
+      "explain": "*De vrachtwagen wordt ingeladen.* inladen → ingeladen; *worden* draagt het onderwerp."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Verhuisdag. Voor Sannes oude huis in Amsterdam staat een volle vrachtwagen. Jij, Emma en Sanne sjouwen de laatste dozen.",
+      "lines": [
+        { "speaker": "Sanne", "nl": "Zo, ik geloof dat alles er nu in staat. Er staan er nog twee in de gang, geloof ik.", "en": "There, I think everything's in now. There are still two (boxes) in the hall, I think.", "spotlight": "er … in / er staan er nog twee — locative er én de tel-er." },
+        { "speaker": "Emma", "nl": "Die pak ik wel. Joh, wordt de rest vandaag nog ingepakt?", "en": "I'll grab those. Hey, is the rest still being packed today?", "spotlight": "wordt … ingepakt — de passief met worden." },
+        { "speaker": "Sanne", "nl": "Nee hoor, alles is al ingepakt. Ik heb het gisteren allemaal kunnen doen.", "en": "No, everything's already packed. I managed to do it all yesterday.", "spotlight": "heb … kunnen doen — modaal in de voltooide tijd, infinitief." },
+        { "speaker": "You", "nl": "Hoe voel je je nu, Sanne?", "en": "How do you feel now, Sanne?", "spotlight": "voel je je — reflexief." },
+        { "speaker": "Sanne", "nl": "Een beetje raar, eerlijk gezegd. Maar ik verheug me er ook op.", "en": "A bit strange, honestly. But I'm looking forward to it too.", "spotlight": "ik verheug me er ook op — reflexief + er + op." },
+        { "speaker": "Emma", "nl": "Utrecht is dichtbij, hoor. We komen je gauw opzoeken.", "en": "Utrecht's close, you know. We'll come visit you soon." },
+        { "speaker": "Sanne", "nl": "Graag! Denk je eraan om je fiets mee te nemen als je komt?", "en": "Please do! Will you remember to bring your bike when you come?", "spotlight": "denk … eraan om … mee te nemen — voorzetsel-er + om…te + scheidbaar werkwoord." },
+        { "speaker": "You", "nl": "Zeker! Kom, de laatste doos wordt nu geladen.", "en": "Definitely! Come on, the last box is being loaded now." },
+        { "speaker": "Sanne", "nl": "Daar gaan we dan. Dag, Amsterdam!", "en": "Here we go then. Bye, Amsterdam!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Begrijp je het verhaal?",
+      "questions": [
+        { "q": "Is Sannes verhuizing al ingepakt?", "options": ["Nee, nog niet", "Ja, alles is al ingepakt", "Alleen de keuken"], "correct": 1 },
+        { "q": "Hoe voelt Sanne zich op de verhuisdag?", "options": ["Alleen maar blij", "Een beetje raar, maar ze verheugt zich ook", "Boos"], "correct": 1 },
+        { "q": "Waar gaat Sanne wonen?", "options": ["In Rotterdam", "In Utrecht", "In Groningen"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Zeg Sanne gedag — herhaal",
+      "lines": [
+        { "nl": "Alles is al ingepakt.", "en": "Everything's already packed." },
+        { "nl": "Ik verheug me erop.", "en": "I'm looking forward to it." },
+        { "nl": "Er staan er nog twee in de gang.", "en": "There are still two in the hall." },
+        { "nl": "Daar gaan we dan!", "en": "Here we go then!" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Sanne is verhuisd. Schrijf drie of vier zinnen: wat gebeurde er op de verhuisdag, en hoe voelde Sanne zich? Gebruik *er*, *worden* en een reflexief werkwoord. Blijf in het Nederlands.",
+      "starters": ["Op de verhuisdag werd…", "Er stond…", "Sanne voelde zich…"],
+      "minSentences": 3
+    }
+  ]
+}

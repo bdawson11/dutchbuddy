@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "day-30",
+  "day": 30,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "Het perfectum met zijn",
+  "emoji": "🚶",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Motion and change-of-state verbs take zijn, plus the hebben-vs-zijn choice",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Perfectum met zijn",
+      "body": "Not every verb uses *hebben*. Verbs of **motion toward a place** and verbs of **change of state** take **zijn** as their helper: *Ik **ben** naar Utrecht **gegaan**.* The *ben* sits in second position; the participle *gegaan* still parks at the end. If the subject **moves somewhere** or **turns into something new**, reach for *zijn*.",
+      "callout": "Destination test: *Ik ben naar huis gefietst* (zijn — I cycled home). But *Ik heb gefietst* (hebben — I did some cycling). A destination flips the same verb to *zijn*."
+    },
+    {
+      "type": "card",
+      "title": "Welke werkwoorden nemen zijn?",
+      "body": "A limited core group takes **zijn** — memorize it, and use *hebben* for the rest. These are all about **going, coming, staying, becoming, happening**.",
+      "table": {
+        "headers": ["Werkwoord", "Deelwoord", "Betekenis"],
+        "rows": [
+          ["gaan", "gegaan", "to go"],
+          ["komen", "gekomen", "to come"],
+          ["blijven", "gebleven", "to stay"],
+          ["worden", "geworden", "to become"],
+          ["gebeuren", "gebeurd", "to happen"]
+        ]
+      },
+      "callout": "*zijn* itself is a zijn-verb: *Ik ben er geweest* (I have been there). Its participle is *geweest*."
+    },
+    {
+      "type": "chips",
+      "title": "Tik om te horen",
+      "items": [
+        { "nl": "Ik ben gegaan", "en": "I went", "speak": "ik ben gegaan" },
+        { "nl": "Ik ben gekomen", "en": "I came", "speak": "ik ben gekomen" },
+        { "nl": "Ik ben gebleven", "en": "I stayed", "speak": "ik ben gebleven" },
+        { "nl": "Het is geworden", "en": "it became", "speak": "het is geworden" },
+        { "nl": "Er is gebeurd", "en": "there happened", "speak": "er is gebeurd" },
+        { "nl": "Ik ben geweest", "en": "I have been", "speak": "ik ben geweest" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "hebben of zijn?",
+      "pairs": [
+        { "left": "Ik heb gewerkt. — worked", "right": "Ik ben gegaan. — went", "note": "werken is an activity → hebben. gaan is movement → zijn." },
+        { "left": "Zij heeft gekookt. — cooked", "right": "Zij is gekomen. — came", "note": "Cooking stays put → hebben. Coming is movement → zijn." },
+        { "left": "Wij hebben gepraat. — talked", "right": "Wij zijn gebleven. — stayed", "note": "blijven (to stay) is a classic zijn-verb, even without moving." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "'We went to Texel.' — *Wij ___ naar Texel gegaan.*",
+      "options": ["hebben", "zijn", "hadden"],
+      "correct": 1,
+      "explain": "*gaan* is a movement verb → auxiliary **zijn**: *Wij zijn naar Texel gegaan.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'I stayed home.' (use *blijven*, *thuis*)",
+      "answers": ["ik ben thuis gebleven", "thuis ben ik gebleven"],
+      "hint": "blijven takes zijn.",
+      "explain": "*Ik ben thuis gebleven.* — blijven is a zijn-verb; *gebleven* at the end."
+    },
+    {
+      "type": "builder",
+      "title": "Zet de zin in elkaar",
+      "prompt": "Build: 'Emma came too late.'",
+      "slots": [
+        { "label": "Onderwerp", "chips": ["Emma", "De trein", "Ik"] },
+        { "label": "Hulpwerkwoord", "chips": ["is", "heeft", "ben"] },
+        { "label": "Rest", "chips": ["te laat", "op tijd"] },
+        { "label": "Deelwoord", "chips": ["gekomen", "gegaan"] }
+      ],
+      "sample": "Emma is te laat gekomen."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Monday at the office — Emma is just back from a weekend away.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Hoi! Ik ben dit weekend naar Texel geweest.", "en": "Hi! I went to Texel this weekend.", "spotlight": "*geweest* is the participle of *zijn* itself, and it takes *zijn*: ik ben geweest." },
+        { "speaker": "You", "nl": "Leuk! Hoe ben je gegaan?", "en": "Nice! How did you get there?" },
+        { "speaker": "Emma", "nl": "Met de trein. We zijn vroeg vertrokken.", "en": "By train. We left early.", "spotlight": "*vertrekken* (to depart) is movement → zijn: we zijn vertrokken." },
+        { "speaker": "You", "nl": "En is het gezellig geweest?", "en": "And was it fun?" },
+        { "speaker": "Emma", "nl": "Heel gezellig! Maar 's avonds is het koud geworden.", "en": "Very fun! But in the evening it got cold.", "spotlight": "*worden* = to become; change of state → zijn: het is koud geworden." },
+        { "speaker": "You", "nl": "Wanneer ben je weer in Amsterdam gekomen?", "en": "When did you get back to Amsterdam?" },
+        { "speaker": "Emma", "nl": "Zondagavond laat. Het is een lange dag geworden!", "en": "Late Sunday evening. It turned into a long day!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Heb je het gehoord?",
+      "questions": [
+        { "q": "Hoe is Emma naar Texel gegaan?", "options": ["Met de auto", "Met de trein", "Met de fiets"], "correct": 1 },
+        { "q": "Wat is er 's avonds gebeurd?", "options": ["Het is koud geworden", "Het is gaan regenen", "Ze is ziek geworden"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ de zin.",
+      "speak": "Ik ben naar huis gegaan.",
+      "answers": ["ik ben naar huis gegaan"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Waar ben je dit weekend naartoe gegaan? Write about your weekend using at least two *zijn*-verbs (*ik ben … gegaan / gebleven / gekomen*).",
+      "starters": ["Dit weekend ben ik …", "Ik ben naar … gegaan"],
+      "minSentences": 3
+    }
+  ]
+}

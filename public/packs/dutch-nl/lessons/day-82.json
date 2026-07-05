@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "day-82",
+  "day": 82,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "Nu komt de aap uit de mouw",
+  "emoji": "🐒",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Twelve Dutch idioms that don't translate literally — the picture they paint and what they really mean",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Pictures, not words",
+      "body": "Idioms are where a language keeps its jokes. Translate these word-for-word and you get nonsense — the trick is to see the *picture* and learn the meaning underneath. Here are six to start; the literal image is half the fun.",
+      "table": {
+        "headers": ["Uitdrukking", "Letterlijk", "Betekenis"],
+        "rows": [
+          ["nu komt de aap uit de mouw", "the monkey comes out of the sleeve", "now the real truth surfaces"],
+          ["de kat uit de boom kijken", "watch the cat out of the tree", "wait and see before you act"],
+          ["voor een appel en een ei", "for an apple and an egg", "dirt cheap"],
+          ["met de deur in huis vallen", "fall into the house with the door", "get straight to the point"],
+          ["helaas pindakaas", "unfortunately peanut butter", "oh well, tough luck (playful)"],
+          ["even dimmen", "dim it a little", "calm down, tone it down"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "Six more",
+      "body": "Notice how many involve food and animals — very Dutch. Learn the meaning, then drop them into a chat and watch faces light up.",
+      "table": {
+        "headers": ["Uitdrukking", "Letterlijk", "Betekenis"],
+        "rows": [
+          ["de puntjes op de i zetten", "put the dots on the i", "add the finishing touches"],
+          ["de kop in het zand steken", "stick your head in the sand", "ignore a problem"],
+          ["ergens geen kaas van gegeten hebben", "eaten no cheese of it", "to know nothing about it"],
+          ["het regent pijpenstelen", "it's raining pipe stems", "raining cats and dogs"],
+          ["de bloemetjes buitenzetten", "put the little flowers outside", "go out and party"],
+          ["iets onder de knie hebben", "have it under the knee", "to have mastered it"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear them in the wild",
+      "items": [
+        { "nl": "Nu komt de aap uit de mouw.", "en": "Now the truth comes out.", "speak": "Nu komt de aap uit de mouw." },
+        { "nl": "Helaas pindakaas.", "en": "Oh well, tough luck.", "speak": "Helaas pindakaas." },
+        { "nl": "Even dimmen, joh.", "en": "Easy, calm down.", "speak": "Even dimmen, joh." },
+        { "nl": "Ik kijk de kat uit de boom.", "en": "I'm holding back to see how it goes.", "speak": "Ik kijk de kat uit de boom." },
+        { "nl": "Het regent pijpenstelen.", "en": "It's pouring down.", "speak": "Het regent pijpenstelen." },
+        { "nl": "Dat kost bijna niks — voor een appel en een ei.", "en": "That's almost free — dirt cheap.", "speak": "Dat kost bijna niks, voor een appel en een ei." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "'Ik heb er geen kaas van gegeten.' Wat betekent dat?",
+      "options": ["Ik heb honger", "Ik weet er niets van", "Ik vind het vies"],
+      "correct": 1,
+      "explain": "*Ergens geen kaas van gegeten hebben* = to know nothing about it. Nothing to do with actual cheese."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je vriend maakt een klein probleem groot en negeert de oorzaak. Welke uitdrukking past?",
+      "options": ["Hij zet de bloemetjes buiten", "Hij steekt zijn kop in het zand", "Hij heeft het onder de knie"],
+      "correct": 1,
+      "explain": "*De kop in het zand steken* = ignore a problem, like an ostrich. The others mean 'party' and 'master it'."
+    },
+    {
+      "type": "typed",
+      "prompt": "Fill the gap: 'Nu komt de ___ uit de mouw' (now the truth comes out).",
+      "answers": ["aap", "de aap", "aap.", "aap!"],
+      "hint": "A cheeky animal.",
+      "explain": "*de aap* — the monkey pops out of the sleeve, and the hidden truth is revealed."
+    },
+    {
+      "type": "shadow",
+      "title": "Shadow the idioms",
+      "lines": [
+        { "nl": "Even dimmen, joh.", "en": "Easy, calm down." },
+        { "nl": "Helaas pindakaas.", "en": "Oh well, tough luck." },
+        { "nl": "Hij valt altijd met de deur in huis.", "en": "He always gets straight to the point." },
+        { "nl": "Zullen we de bloemetjes buitenzetten?", "en": "Shall we go out and paint the town?" }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Daan has gossip about a mutual friend, at the café.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Joh, moet je horen. Weet je waarom Tom laatst zo aardig deed?", "en": "Hey, listen to this. Know why Tom was so nice the other day?" },
+        { "speaker": "You", "nl": "Geen idee. Vertel.", "en": "No idea. Tell me." },
+        { "speaker": "Daan", "nl": "Hij wil mijn auto lenen. Nu komt de aap uit de mouw.", "en": "He wants to borrow my car. Now the truth comes out.", "spotlight": "nu komt de aap uit de mouw — the real reason finally shows." },
+        { "speaker": "You", "nl": "Haha, typisch. En, leen je hem?", "en": "Ha, typical. So, are you lending it?" },
+        { "speaker": "Daan", "nl": "Nee joh. Helaas pindakaas voor Tom.", "en": "Nope. Tough luck for Tom.", "spotlight": "helaas pindakaas — 'tough luck', said with a grin." },
+        { "speaker": "You", "nl": "Je bent streng, hoor.", "en": "You're harsh, you know." },
+        { "speaker": "Daan", "nl": "Even dimmen, ik plaag maar. Ik denk er nog over na.", "en": "Easy, I'm only teasing. I'm still thinking it over.", "spotlight": "even dimmen — 'easy, calm down'." },
+        { "speaker": "You", "nl": "Nou, jij kijkt de kat uit de boom.", "en": "Well, you're waiting to see how it plays out." },
+        { "speaker": "Daan", "nl": "Precies. Eerst kijken, dan pas beslissen.", "en": "Exactly. Look first, decide later." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Kwam het binnen?",
+      "questions": [
+        { "q": "Waarom deed Tom aardig?", "options": ["Hij is verliefd", "Hij wil de auto lenen", "Hij verhuist"], "correct": 1 },
+        { "q": "Wat betekent 'helaas pindakaas' hier?", "options": ["Jammer dan", "Lekker eten", "Tot ziens"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Kies twee uitdrukkingen uit deze les en schrijf voor elk een korte situatie in het Nederlands waarin je die zou gebruiken.",
+      "starters": ["Als iemand …, zeg ik: …", "Vorige week …"],
+      "minSentences": 2
+    }
+  ]
+}

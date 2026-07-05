@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "day-62",
+  "day": 62,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "review",
+  "title": "Het nieuws van Sanne",
+  "emoji": "📞",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Week 9 recap, then Sanne's job offer told through reported speech",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Wat je deze week leerde",
+      "body": "Week 9, alles op een rij. Zes voegwoorden (*hoewel, terwijl, zodat, voordat, nadat, sinds*), betrekkelijke bijzinnen (*die/dat/waar+voorzetsel*), indirecte rede (*zei dat… / vroeg of…*), de zachte *zou*, en echte versus denkbeeldige *als*-zinnen. De rode draad: in de bijzin gaat het werkwoord naar het eind.",
+      "callout": "Vandaag oefen je alles terug — en dan komt er nieuws."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welke zin klopt?",
+      "options": [
+        "Hij vroeg dat ik meeging.",
+        "Hij vroeg of ik meeging.",
+        "Hij vroeg of ging ik mee."
+      ],
+      "correct": 1,
+      "explain": "Een ja/nee-vraag doorvertellen gaat met *of*, niet *dat*, en het werkwoord staat achteraan: *…of ik **meeging**.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Vul het juiste relatiewoord in: 'Dat is het bedrijf ___ haar de baan aanbood.' (die / dat)",
+      "answers": ["dat", "Dat is het bedrijf dat haar de baan aanbood."],
+      "hint": "het bedrijf → welk relatiewoord?",
+      "explain": "*het bedrijf* is een het-woord, dus *dat*: *het bedrijf **dat** haar de baan aanbood.*"
+    },
+    {
+      "type": "dialogue",
+      "scene": "Sanne calls you and Emma, buzzing but nervous — she has news",
+      "lines": [
+        { "speaker": "Sanne", "nl": "Jongens, ik moet iets vertellen. Een bedrijf in Utrecht belde me gisteren.", "en": "Guys, I have to tell you something. A company in Utrecht called me yesterday." },
+        { "speaker": "Emma", "nl": "Echt? Wat zeiden ze?", "en": "Really? What did they say?" },
+        { "speaker": "Sanne", "nl": "De manager zei dat ze me een baan willen aanbieden. Als UX-designer.", "en": "The manager said they want to offer me a job. As a UX designer.", "spotlight": "indirecte rede: *…zei dat ze me een baan willen aanbieden.*" },
+        { "speaker": "You", "nl": "Wauw, gefeliciteerd! Vroegen ze nog iets?", "en": "Wow, congrats! Did they ask anything?" },
+        { "speaker": "Sanne", "nl": "Ze vroegen of ik volgende week kon langskomen. En of ik snel kon beslissen.", "en": "They asked if I could come by next week. And if I could decide quickly.", "spotlight": "vraag doorvertellen: *of ik … kon langskomen.*" },
+        { "speaker": "Emma", "nl": "En? Ga je het doen?", "en": "And? Are you going to do it?" },
+        { "speaker": "Sanne", "nl": "Ik weet het nog niet, hoor. Hoewel het een geweldige kans is, twijfel ik echt.", "en": "I don't know yet, honestly. Although it's a great chance, I really doubt.", "spotlight": "hoewel + werkwoord achteraan; Sanne heeft nog niét besloten." },
+        { "speaker": "Sanne", "nl": "Als ik ja zou zeggen, zou ik naar Utrecht moeten verhuizen. Dat is nogal wat.", "en": "If I said yes, I'd have to move to Utrecht. That's quite something.", "spotlight": "hypothetische als-zin + zou: het is nog een dróóm, geen besluit." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Heb je het nieuws begrepen?",
+      "questions": [
+        { "q": "Wat zei de manager tegen Sanne?", "options": ["Dat ze ontslagen was", "Dat ze haar een baan willen aanbieden", "Dat het bedrijf sloot"], "correct": 1 },
+        { "q": "Waar is de baan?", "options": ["In Amsterdam", "In Utrecht", "In Rotterdam"], "correct": 1 },
+        { "q": "Heeft Sanne al besloten?", "options": ["Ja, ze gaat", "Ja, ze blijft", "Nee, ze twijfelt nog"], "correct": 2 }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Zeg de sleutelzinnen na",
+      "lines": [
+        { "nl": "De manager zei dat ze me een baan willen aanbieden.", "en": "The manager said they want to offer me a job." },
+        { "nl": "Ze vroegen of ik snel kon beslissen.", "en": "They asked if I could decide quickly." },
+        { "nl": "Als ik ja zou zeggen, zou ik moeten verhuizen.", "en": "If I said yes, I'd have to move." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Sanne twijfelt nog. Wat zou jij haar aanraden? Schrijf kort in het Nederlands, met minstens één keer 'ik zou…' en één keer 'als…'.",
+      "starters": ["Ik zou…", "Als ik Sanne was,…"],
+      "minSentences": 2
+    }
+  ]
+}

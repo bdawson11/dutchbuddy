@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "day-18",
+  "day": 18,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Mijn buurt, mijn stad",
+  "emoji": "🏘",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Neighborhood vocab, Dutch address talk, and the postcode format",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Around the block",
+      "body": "The words for talking about where you live: *straat* (street), *plein* (square), *gracht* (canal), *winkel* (shop), *supermarkt* (supermarket), *buurt* (neighborhood).",
+      "table": {
+        "headers": ["Dutch", "English"],
+        "rows": [
+          ["straat", "street"],
+          ["plein", "square"],
+          ["gracht", "canal"],
+          ["winkel", "shop"],
+          ["supermarkt", "supermarket"],
+          ["buurt", "neighborhood"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear them",
+      "items": [
+        { "nl": "straat", "en": "street", "speak": "straat" },
+        { "nl": "plein", "en": "square", "speak": "plein" },
+        { "nl": "gracht", "en": "canal", "speak": "gracht" },
+        { "nl": "winkel", "en": "shop", "speak": "winkel" },
+        { "nl": "supermarkt", "en": "supermarket", "speak": "supermarkt" },
+        { "nl": "buurt", "en": "neighborhood", "speak": "buurt" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Waar woon je?",
+      "body": "A Dutch address ends with a **postcode**: four digits plus two letters, like *1017 AB* — always with a space. To say where you live: *ik woon in Amsterdam*, *ik woon in de Pijp*.",
+      "callout": "Canal-side Amsterdammers sometimes say *aan de gracht* instead of *in* — a nice detail, not tested today."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is a correctly formatted Dutch postcode?",
+      "options": ["1017AB", "1017 AB", "AB 1017"],
+      "correct": 1,
+      "explain": "Four digits, a space, two letters: 1017 AB."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the Dutch word for 'supermarket'.",
+      "answers": ["supermarkt", "de supermarkt"]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I live in Amsterdam.'",
+      "answers": ["Ik woon in Amsterdam"]
+    },
+    {
+      "type": "builder",
+      "prompt": "Say where you live.",
+      "slots": [
+        { "label": "Opener", "chips": ["Ik woon in"] },
+        { "label": "Place", "chips": ["de Pijp", "het centrum", "Amsterdam", "Utrecht"] }
+      ],
+      "sample": "Ik woon in de Pijp."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the café, Daan asks about your neighborhood.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Woon je nog in het centrum?", "en": "Do you still live in the center?" },
+        { "speaker": "You", "nl": "Nee, ik woon nu in de Pijp.", "en": "No, I live in the Pijp now." },
+        { "speaker": "Daan", "nl": "Leuke buurt, hoor! Is er een supermarkt dichtbij?", "en": "Nice neighborhood! Is there a supermarket nearby?", "spotlight": "buurt — neighborhood, today's theme word." },
+        { "speaker": "You", "nl": "Ja, en een gezellig plein om de hoek.", "en": "Yes, and a cozy square around the corner." },
+        { "speaker": "Daan", "nl": "Wat is je postcode?", "en": "What's your postcode?" },
+        { "speaker": "You", "nl": "1073 AB.", "en": "1073 AB." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "Where does 'You' live now?", "options": ["Het centrum", "De Pijp", "Utrecht"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe your buurt: your street, the nearest shop or supermarket, and a postcode (real or invented).",
+      "starters": ["Ik woon in...", "Er is een... in mijn buurt"]
+    }
+  ]
+}

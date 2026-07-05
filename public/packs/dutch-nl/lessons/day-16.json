@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "day-16",
+  "day": 16,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Leuk of leuke?",
+  "emoji": "🧩",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Adjectives and the -e inflection rule, tied to de/het",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Meet the adjectives",
+      "body": "Adjectives describe people, places, and things. Meet eight useful ones: *leuk* (nice/fun), *mooi* (beautiful), *klein* (small), *groot* (big), *oud* (old), *nieuw* (new), *lekker* (tasty/nice), *gezellig* (cozy/fun).",
+      "table": {
+        "headers": ["Dutch", "English"],
+        "rows": [
+          ["leuk", "nice, fun"],
+          ["mooi", "beautiful"],
+          ["klein", "small"],
+          ["groot", "big"],
+          ["oud", "old"],
+          ["nieuw", "new"],
+          ["lekker", "tasty, nice"],
+          ["gezellig", "cozy, fun"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear them",
+      "items": [
+        { "nl": "leuk", "en": "nice, fun", "speak": "leuk" },
+        { "nl": "mooi", "en": "beautiful", "speak": "mooi" },
+        { "nl": "klein", "en": "small", "speak": "klein" },
+        { "nl": "groot", "en": "big", "speak": "groot" },
+        { "nl": "oud", "en": "old", "speak": "oud" },
+        { "nl": "nieuw", "en": "new", "speak": "nieuw" },
+        { "nl": "lekker", "en": "tasty, nice", "speak": "lekker" },
+        { "nl": "gezellig", "en": "cozy, fun", "speak": "gezellig" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "The -e secret",
+      "body": "An adjective right before a noun usually adds **-e**: *een leuke stad*, *de grote stad*, *leuke huizen*. There's exactly **one** exception: a *het*-word with *een* or no article at all keeps the bare form — *een leuk huis*, not *een leuke huis*.",
+      "table": {
+        "headers": ["Situation", "Adjective", "Example"],
+        "rows": [
+          ["de-word (any)", "+ -e", "een leuke stad"],
+          ["het-word + de (definite)", "+ -e", "het leuke huis"],
+          ["het-word + een / no article", "bare form", "een leuk huis"],
+          ["plural (any)", "+ -e", "leuke huizen"]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "Same noun, different ending",
+      "pairs": [
+        { "left": "een leuk huis — a nice house", "right": "het leuke huis — the nice house", "note": "Same het-word, same adjective — indefinite keeps it bare, definite adds -e." },
+        { "left": "een leuke stad — a nice city", "right": "de leuke stad — the nice city", "note": "stad is a de-word, so -e stays whether it's indefinite or definite." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct — 'a nice house' (huis is het, indefinite)?",
+      "options": ["een leuk huis", "een leuke huis"],
+      "correct": 0,
+      "explain": "Het-word + een (indefinite) = bare adjective. No -e here."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'the nice city' (stad is a de-word, definite).",
+      "answers": ["de leuke stad"],
+      "hint": "stad is a de-word — always -e.",
+      "explain": "de leuke stad. De-words take -e whether they're definite or not."
+    },
+    {
+      "type": "builder",
+      "prompt": "Match the article, noun, and correct adjective form.",
+      "slots": [
+        { "label": "Article", "chips": ["een", "het", "de"] },
+        { "label": "Noun", "chips": ["huis (het)", "stad (de)", "boek (het)"] },
+        { "label": "Adjective", "chips": ["leuk", "leuke", "mooi", "mooie"] }
+      ],
+      "sample": "het leuke huis"
+    },
+    {
+      "type": "dialogue",
+      "scene": "You and Daan compare his apartment and the city.",
+      "lines": [
+        { "speaker": "You", "nl": "Hoe is je huis?", "en": "How's your place?" },
+        { "speaker": "Daan", "nl": "Klein, maar gezellig, hoor. Een leuk huis, echt.", "en": "Small, but cozy. A nice place, really.", "spotlight": "een leuk huis — het-word, indefinite, bare adjective." },
+        { "speaker": "You", "nl": "En de stad?", "en": "And the city?" },
+        { "speaker": "Daan", "nl": "Amsterdam? Een hele leuke stad, hoor.", "en": "Amsterdam? A really nice city.", "spotlight": "leuke stad — stad is a de-word, always -e." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "Why is it 'een leuk huis' but 'een leuke stad'?", "options": ["huis is het, stad is de", "stad is het, huis is de", "No difference, both are wrong"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe your home and your city using one bare adjective (het-word, indefinite) and one -e adjective (de-word).",
+      "starters": ["Ik woon in een...", "Mijn stad is..."]
+    }
+  ]
+}

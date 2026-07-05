@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "day-71",
+  "day": 71,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Vaste combinaties — werkwoord + voorzetsel",
+  "emoji": "🔗",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The 15 fixed verb–preposition pairs Dutch never lets you guess",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "The verb picks the preposition — not logic",
+      "body": "In Dutch, some verbs are welded to a **fixed preposition**, and the choice almost never matches English. You *wait for* the bus, but in Dutch you *wachten op* (wait **on**) de bus. You don't derive these — you learn the verb and its preposition as **one unit**, like a phrasal package.",
+      "table": {
+        "headers": ["Combinatie", "Betekenis", "Voorbeeld"],
+        "rows": [
+          ["wachten op", "to wait for", "Ik wacht op de bus."],
+          ["denken aan", "to think of", "Ik denk aan jou."],
+          ["houden van", "to love / like", "Ik houd van stroopwafels."],
+          ["kijken naar", "to watch / look at", "We kijken naar een film."],
+          ["luisteren naar", "to listen to", "Luister je naar mij?"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "Ten more to own",
+      "body": "Same rule, ten more packages. Notice *praten over* (talk **about**), *vragen naar* (ask **after/about**), and the reflexive *zich ergeren aan* (get annoyed **at**) — that one drags a *me/je/zich* along too.",
+      "table": {
+        "headers": ["Combinatie", "Betekenis", "Voorbeeld"],
+        "rows": [
+          ["praten over", "to talk about", "We praten over het weer."],
+          ["vragen naar", "to ask about", "Hij vraagt naar jou."],
+          ["zoeken naar", "to search for", "Ik zoek naar mijn sleutels."],
+          ["beginnen met", "to start with", "Ze begint met yoga."],
+          ["stoppen met", "to quit / stop", "Ik stop met roken."],
+          ["twijfelen over", "to be unsure about", "Ik twijfel over die keuze."],
+          ["rekenen op", "to count on", "Je kunt op mij rekenen."],
+          ["zich ergeren aan", "to be annoyed at", "Ik erger me aan lawaai."],
+          ["geloven in", "to believe in", "Geloof je in geluk?"],
+          ["lachen om", "to laugh at", "We lachen om zijn grap."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear them in a sentence",
+      "items": [
+        { "nl": "Ik wacht al een uur op de bus.", "en": "I've been waiting for the bus an hour.", "speak": "Ik wacht al een uur op de bus." },
+        { "nl": "Ik denk vaak aan vroeger.", "en": "I often think of the old days.", "speak": "Ik denk vaak aan vroeger." },
+        { "nl": "Ik houd echt van deze stad.", "en": "I really love this city.", "speak": "Ik houd echt van deze stad." },
+        { "nl": "Je kunt altijd op mij rekenen.", "en": "You can always count on me.", "speak": "Je kunt altijd op mij rekenen." },
+        { "nl": "Ik erger me aan het lawaai.", "en": "I'm annoyed at the noise.", "speak": "Ik erger me aan het lawaai." },
+        { "nl": "We lachen om zijn grap.", "en": "We laugh at his joke.", "speak": "We lachen om zijn grap." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ik wacht ___ de trein. Which preposition?",
+      "options": ["voor", "op", "naar"],
+      "correct": 1,
+      "explain": "*wachten op* — always *op*, never *voor*. English 'wait for' does not transfer."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is correct Dutch?",
+      "options": ["Ik denk over jou.", "Ik denk aan jou.", "Ik denk naar jou."],
+      "correct": 1,
+      "explain": "*denken aan* = to think of someone. *denken over* exists but means 'to consider/ponder a matter', a different flavour."
+    },
+    {
+      "type": "typed",
+      "prompt": "Fill the gap: 'Ik luister graag ___ muziek.' (I like listening to music.)",
+      "answers": ["naar", "naar muziek"],
+      "hint": "luisteren + ?",
+      "explain": "*luisteren naar* — you listen 'toward' the music in Dutch."
+    },
+    {
+      "type": "typed",
+      "prompt": "Fill the gap: 'Ze is gestopt ___ roken.' (She quit smoking.)",
+      "answers": ["met", "met roken"],
+      "hint": "stoppen + ?",
+      "explain": "*stoppen met* — you stop 'with' the thing. Same preposition as *beginnen met*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Café De Ceuvel. Daan is fishing for gossip.",
+      "lines": [
+        { "speaker": "Daan", "nl": "En, denk je nog weleens aan je oude baan?", "en": "So, do you ever think about your old job?", "spotlight": "denken aan — the fixed pair in the wild." },
+        { "speaker": "You", "nl": "Soms. Maar ik erger me niet meer aan de drukte daar.", "en": "Sometimes. But I'm not annoyed at the busyness there anymore.", "spotlight": "zich ergeren aan — with 'me' dragged along." },
+        { "speaker": "Daan", "nl": "Nou, ik reken op een goed verhaal, hoor.", "en": "Well, I'm counting on a good story.", "spotlight": "rekenen op — count on." },
+        { "speaker": "You", "nl": "Haha. We praten er later over, goed?", "en": "Haha. We'll talk about it later, okay?" },
+        { "speaker": "Daan", "nl": "Deal. Ik houd van een beetje spanning.", "en": "Deal. I love a bit of suspense." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Build a fixed-pair sentence",
+      "prompt": "Assemble: 'I'm waiting for my friend.'",
+      "slots": [
+        { "label": "Subject + verb", "chips": ["Ik wacht", "Ik zoek", "Ik denk"] },
+        { "label": "Preposition", "chips": ["op", "naar", "aan"] },
+        { "label": "Object", "chips": ["mijn vriend", "de bus", "vroeger"] }
+      ],
+      "sample": "Ik wacht op mijn vriend."
+    },
+    {
+      "type": "journal",
+      "prompt": "Write three true sentences about yourself, each using a different fixed pair from today (waar wacht je op? waar houd je van? waar erger je je aan?).",
+      "starters": ["Ik wacht op…", "Ik houd van…", "Ik erger me aan…"],
+      "minSentences": 3
+    }
+  ]
+}

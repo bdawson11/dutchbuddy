@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "day-33",
+  "day": 33,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "Met het OV op reis",
+  "emoji": "🚂",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Trains, the OV-chipkaart, in-/uitchecken, overstappen and platform announcements",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Met het OV",
+      "body": "Dutch public transport (*het OV* — *openbaar vervoer*) runs on one card: the **OV-chipkaart**. You **inchecken** (tap in) when you board and **uitchecken** (tap out) when you leave — forget the tap-out and you're charged the full fare. Same card on *trein, bus, tram* and *metro*.",
+      "table": {
+        "headers": ["Nederlands", "English"],
+        "rows": [
+          ["de trein", "the train"],
+          ["de OV-chipkaart", "the transit card"],
+          ["inchecken / uitchecken", "to tap in / tap out"],
+          ["overstappen", "to change / transfer"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "OV-woorden — tik om te horen",
+      "items": [
+        { "nl": "de trein", "en": "train", "speak": "de trein" },
+        { "nl": "de bus", "en": "bus", "speak": "de bus" },
+        { "nl": "de tram", "en": "tram", "speak": "de tram" },
+        { "nl": "de metro", "en": "metro", "speak": "de metro" },
+        { "nl": "inchecken", "en": "to tap in", "speak": "inchecken" },
+        { "nl": "uitchecken", "en": "to tap out", "speak": "uitchecken" },
+        { "nl": "overstappen", "en": "to transfer", "speak": "overstappen" },
+        { "nl": "het station", "en": "station", "speak": "het station" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Op het perron",
+      "body": "At the station you wait on the **perron** (platform), and each track has a number — the **spoor**. Listen for the announcement: *\"De trein naar Utrecht vertrekt van **spoor** 5.\"* (The train to Utrecht departs from track 5.) The *perron* is where you stand; the *spoor* is the numbered track it serves.",
+      "callout": "*een enkele reis* = a one-way; *een retour(tje)* = a return. At the machine you pick between them."
+    },
+    {
+      "type": "contrast",
+      "title": "Uit elkaar houden",
+      "pairs": [
+        { "left": "inchecken — tap in", "right": "uitchecken — tap out", "note": "Both, every trip. No tap-out means a full-fare charge, echt waar." },
+        { "left": "het perron — platform", "right": "het spoor — track (numbered)", "note": "You stand on the *perron*; the train leaves from a *spoor* number." },
+        { "left": "enkele reis — one-way", "right": "retour — return", "note": "*retourtje* with the -tje is what you actually say at the counter." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You hear: *'De trein naar Den Haag vertrekt van spoor 8.'* What is *spoor 8*?",
+      "options": ["Platform for 8 people", "Track number 8", "Train number 8"],
+      "correct": 1,
+      "explain": "*spoor* = the numbered track. The train to Den Haag leaves from track 8; you walk to that *perron*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'We transferred in Utrecht.' (use *overstappen*, *in Utrecht*)",
+      "answers": ["wij zijn in utrecht overgestapt", "we zijn in utrecht overgestapt", "in utrecht zijn wij overgestapt", "in utrecht zijn we overgestapt"],
+      "hint": "overstappen → overgestapt, with zijn.",
+      "explain": "*Wij zijn in Utrecht overgestapt.* — separable: over-ge-stapt, and it takes zijn (movement)."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At Amsterdam Centraal, you're catching a train together.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Heb je al ingecheckt?", "en": "Have you tapped in already?", "spotlight": "*inchecken* → *ingecheckt*, with hebben." },
+        { "speaker": "You", "nl": "Ja, net. Van welk spoor vertrekt de trein?", "en": "Yes, just now. Which track does the train leave from?" },
+        { "speaker": "Emma", "nl": "Spoor 11. We moeten in Utrecht overstappen.", "en": "Track 11. We have to change in Utrecht." },
+        { "speaker": "You", "nl": "Hoe laat komt hij aan?", "en": "What time does it arrive?" },
+        { "speaker": "Emma", "nl": "Om kwart over tien. Kom, hij staat er al!", "en": "At a quarter past ten. Come on, it's already there!" },
+        { "speaker": "Emma", "nl": "En vergeet niet uit te checken als we overstappen.", "en": "And don't forget to tap out when we transfer.", "spotlight": "On the Dutch railways you tap out and back in when you switch operators." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Heb je het gehoord?",
+      "questions": [
+        { "q": "Waar moeten Emma en jij overstappen?", "options": ["In Den Haag", "In Utrecht", "In Rotterdam"], "correct": 1 },
+        { "q": "Van welk spoor vertrekt de trein?", "options": ["Spoor 10", "Spoor 11", "Spoor 8"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister naar de omroep en typ hem.",
+      "speak": "De trein naar Utrecht vertrekt van spoor vijf.",
+      "answers": ["de trein naar utrecht vertrekt van spoor vijf", "de trein naar utrecht vertrekt van spoor 5"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschrijf een treinreis. Write about a train trip you took: where you went and whether you had to *overstappen*, using the perfect tense.",
+      "starters": ["Ik ben met de trein naar … gegaan", "We zijn in … overgestapt"],
+      "minSentences": 3
+    }
+  ]
+}

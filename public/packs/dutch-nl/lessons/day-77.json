@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-77",
+  "day": 77,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "capstone",
+  "title": "Mijn catch-up — register onder controle",
+  "emoji": "🎉",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Week 11 production day: particles, diminutives, and your self-intro in two registers",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Alles bij elkaar",
+      "body": "Capstone-dag. This week you learned to **sound** Dutch, not just be correct in it. Today you produce: fixed pairs, particles, diminutives, and — the new layer — the same *you*, said two ways. First we drill, then you build **mijn verhaal, laag 11**: your self-introduction once politely (*u*) and once casually (*je*). Same story, two registers, full control.",
+      "callout": "Correct is A2. Sounding right is B1. Vandaag klink je goed."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Fixed pair review: 'Je kunt altijd ___ mij rekenen.'",
+      "options": ["op", "aan", "met"],
+      "correct": 0,
+      "explain": "*rekenen op* — you count 'on' someone. From day 71."
+    },
+    {
+      "type": "typed",
+      "prompt": "Soften this order with ONE particle so it sounds friendly: 'Wacht ___.' (Hang on a sec.)",
+      "answers": ["even", "even.", "wacht even"],
+      "hint": "The 'just for a moment' softener.",
+      "explain": "*Wacht even* — the difference between barking an order and asking a small favour."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Diminutive review: which is correctly formed?",
+      "options": ["boomje", "boompje", "boomtje"],
+      "correct": 1,
+      "explain": "Long vowel + -m → **-pje**: boom → boompje. And remember: it's *het* boompje."
+    },
+    {
+      "type": "typed",
+      "prompt": "Register review — make it polite (u): 'Kun je mij helpen?' → 'Kunt ___ mij helpen?'",
+      "answers": ["u", "u mij helpen", "kunt u mij helpen"],
+      "hint": "Formal pronoun; the verb already took -t.",
+      "explain": "*Kunt u mij helpen?* — *u* with the -t form. Your voice at any formal desk."
+    },
+    {
+      "type": "chips",
+      "title": "Je gereedschapskist deze week",
+      "items": [
+        { "nl": "Mag ik het in het Nederlands proberen?", "en": "May I try it in Dutch?", "speak": "Mag ik het in het Nederlands proberen?" },
+        { "nl": "Even denken…", "en": "Let me think…", "speak": "Even denken." },
+        { "nl": "Doe maar een biertje.", "en": "Just make it a beer.", "speak": "Doe maar een biertje." },
+        { "nl": "Zeg maar je, hoor.", "en": "Just say je, really.", "speak": "Zeg maar je, hoor." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Café with Daan — your weekly catch-up. You pull out everything from this week without thinking about it.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Hé, daar ben je! Doe je weer een biertje?", "en": "Hey, there you are! Having a beer again?", "spotlight": "biertje — the social diminutive, not a size." },
+        { "speaker": "You", "nl": "Doe maar, ja. Ik heb echt zin in het weekend, hoor.", "en": "Go on, yeah. I'm really looking forward to the weekend.", "spotlight": "doe maar + hoor — permission and warmth in one line." },
+        { "speaker": "Daan", "nl": "Nou, vertel. Hoe gaat het met je Nederlands?", "en": "Well, tell me. How's your Dutch going?", "spotlight": "nou — the classic conversational opener." },
+        { "speaker": "You", "nl": "Beter! Laatst schakelde iemand over op Engels, maar ik bleef gewoon Nederlands praten.", "en": "Better! The other day someone switched to English, but I just kept speaking Dutch.", "spotlight": "The whole point of day 74, in one proud sentence." },
+        { "speaker": "Daan", "nl": "Echt? Goed van je, joh. Daar houd ik van.", "en": "Really? Good for you, mate. I love that.", "spotlight": "houden van — fixed pair, and Daan's approval." },
+        { "speaker": "You", "nl": "Dank je. Even oefenen en dan gaat het toch vanzelf.", "en": "Thanks. A bit of practice and then it comes naturally after all.", "spotlight": "even + toch — two particles landing like a native." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Snap je Daan?",
+      "questions": [
+        { "q": "Wat deed 'iemand' laatst tegen jou?", "options": ["Overschakelen op Engels", "Weglopen", "Een biertje betalen"], "correct": 0 },
+        { "q": "Hoe reageerde jij?", "options": ["Je ging ook Engels praten", "Je bleef Nederlands praten", "Je zei niets"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mijn verhaal, laag 11 — beleefd (u)",
+      "prompt": "Introduce yourself to an older stranger at a formal borrel. Same story, polite register.",
+      "slots": [
+        { "label": "Formal greeting", "chips": ["Goedendag", "Aangenaam", "Dag"] },
+        { "label": "Who you are", "chips": ["ik ben …", "ik heet …"] },
+        { "label": "Your story", "chips": ["ik kom uit … en ik woon nu in Amsterdam", "ik leer Nederlands", "vorig jaar ben ik verhuisd"] },
+        { "label": "Turn to them (u)", "chips": ["En woont u hier in de buurt?", "En wat doet u?", "Hoe heet u?"] },
+        { "label": "Polite close", "chips": ["Aangenaam kennis met u te maken.", "Leuk u te ontmoeten."] }
+      ],
+      "sample": "Goedendag, ik ben Alex. Ik kom uit Ierland en ik woon nu in Amsterdam. Ik leer Nederlands. En woont u hier in de buurt? Aangenaam kennis met u te maken."
+    },
+    {
+      "type": "builder",
+      "title": "Mijn verhaal, laag 11 — casual (je)",
+      "prompt": "Now the exact same intro, to a friend of a friend your own age. Warm, informal register.",
+      "slots": [
+        { "label": "Casual greeting", "chips": ["Hoi", "Hey", "Hé"] },
+        { "label": "Who you are", "chips": ["ik ben …", "ik heet …"] },
+        { "label": "Your story", "chips": ["ik kom uit … en ik woon nu in Amsterdam", "ik leer Nederlands", "vorig jaar ben ik verhuisd"] },
+        { "label": "Turn to them (je)", "chips": ["En jij, woon je hier in de buurt?", "En wat doe jij?", "Hoe heet je?"] },
+        { "label": "Casual close", "chips": ["Leuk je te ontmoeten!", "Gezellig dat je er bent."] }
+      ],
+      "sample": "Hoi, ik ben Alex. Ik kom uit Ierland en ik woon nu in Amsterdam. Ik leer Nederlands. En jij, woon je hier in de buurt? Leuk je te ontmoeten!"
+    },
+    {
+      "type": "journal",
+      "prompt": "Gefeliciteerd — week 11 zit erop! Schrijf allebei je introducties op: eerst met u, dan met je. Wat verandert er precies tussen de twee? En waar ben je deze week het meest trots op?",
+      "starters": ["Beleefd: Goedendag, ik ben…", "Casual: Hoi, ik ben…", "Ik ben trots dat…"],
+      "minSentences": 4
+    }
+  ]
+}

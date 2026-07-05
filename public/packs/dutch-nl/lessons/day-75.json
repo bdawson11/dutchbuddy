@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-75",
+  "day": 75,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "u of je? — beleefdheid op maat",
+  "emoji": "🎩",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Calibrating u vs je by context — and how to switch",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "u is distance, je is closeness",
+      "body": "It's not simply age. **u** marks respect and distance; **je / jij** marks familiarity and warmth. The Netherlands is informal — Dutch people often reach for *je* faster than you'd expect — but get it wrong in a formal setting and you sound careless. When unsure with a stranger, **start with *u*** and let them offer *je*. Note: *u* takes the -t verb form (*u wilt, u hebt, u bent*), and plural *je* becomes *jullie* while *u* stays *u*.",
+      "callout": "Golden rule: start high (u), drop down when invited. Never the reverse."
+    },
+    {
+      "type": "card",
+      "title": "Read the room",
+      "body": "The setting does most of the work. Younger, casual, peer-ish → *je*. Formal, professional, or someone clearly older you don't know → *u*.",
+      "table": {
+        "headers": ["Context", "Default", "Waarom"],
+        "rows": [
+          ["older stranger on the street", "u", "respect + distance"],
+          ["at the doctor / official desk", "u", "formal service relationship"],
+          ["a friend or a peer your age", "je", "familiar, warm"],
+          ["a shop with young staff", "je (or u to be safe)", "casual, but u never offends"],
+          ["most Dutch offices / your team", "je", "NL work culture is flat and informal"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Same question, both registers",
+      "items": [
+        { "nl": "Wilt u koffie?", "en": "Would you like coffee? (u)", "speak": "Wilt u koffie?" },
+        { "nl": "Wil je koffie?", "en": "Want coffee? (je)", "speak": "Wil je koffie?" },
+        { "nl": "Kan ik u helpen?", "en": "Can I help you? (u)", "speak": "Kan ik u helpen?" },
+        { "nl": "Kan ik je helpen?", "en": "Can I help you? (je)", "speak": "Kan ik je helpen?" },
+        { "nl": "Hoe heet u?", "en": "What's your name? (u)", "speak": "Hoe heet u?" },
+        { "nl": "Hoe heet je?", "en": "What's your name? (je)", "speak": "Hoe heet je?" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "The register swap, side by side",
+      "pairs": [
+        { "left": "Wilt u iets drinken?", "right": "Wil je iets drinken?", "note": "u → -t ending on the verb; je → the plain stem. Same sentence, different distance." },
+        { "left": "Hebt u een momentje?", "right": "Heb je een momentje?", "note": "*hebt u* (formal) vs *heb je*. Note the diminutive stays cosy in both." },
+        { "left": "Waar woont u?", "right": "Waar woon je?", "note": "Asking a stranger vs a new friend. Pick by who's in front of you." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "How to switch — tutoyeren",
+      "body": "Moving from *u* to *je* has a name: **tutoyeren**. Usually the **older or more senior person offers it**: *'Zeg maar je, hoor.'* When they do, accept warmly and switch immediately. You can invite it too, gently: *'Zullen we je zeggen?'* — but with someone much older, wait to be offered.",
+      "callout": "'Zeg maar je' = 'call me je' = 'we're friends now'. Always say yes."
+    },
+    {
+      "type": "mcq",
+      "prompt": "You approach an older woman you don't know to ask for directions. Which opening?",
+      "options": ["Weet jij waar het station is?", "Weet u misschien waar het station is?", "Hé, waar is het station?"],
+      "correct": 1,
+      "explain": "Older + stranger + a favour = *u*, softened with *misschien*. Start high; she can offer *je* if she likes."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Your new colleague says 'Zeg maar je, hoor.' What just happened?",
+      "options": ["She's correcting your grammar", "She's inviting you to use the informal je", "She's asking you to leave"],
+      "correct": 1,
+      "explain": "*Zeg maar je* is the classic invitation to drop *u*. Switch to *je* from that moment — refusing would feel cold."
+    },
+    {
+      "type": "typed",
+      "prompt": "Make this polite (u-form): 'Wil je een afspraak maken?' → 'Wilt ___ een afspraak maken?'",
+      "answers": ["u", "u een afspraak maken", "wilt u een afspraak maken"],
+      "hint": "Formal pronoun + the verb already took -t for you.",
+      "explain": "*Wilt u…?* — *u* pairs with the -t form. This is your voice at the doctor or a formal desk."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You meet Bram, an architect through work — older, measured. You start formal; he opens the door.",
+      "lines": [
+        { "speaker": "You", "nl": "Goedemiddag. Aangenaam. Werkt u ook aan dit project?", "en": "Good afternoon. Nice to meet you. Are you also working on this project?", "spotlight": "Opening high with u — safe and respectful." },
+        { "speaker": "Bram", "nl": "Zeker. Bram, aangenaam. En zeg maar je, hoor.", "en": "Sure am. Bram, likewise. And just say je, really.", "spotlight": "Bram offers tutoyeren — the senior person's move." },
+        { "speaker": "You", "nl": "Oké, dank je. Dan zeg ik ook je. Woon je in Rotterdam?", "en": "Okay, thanks. Then I'll use je too. Do you live in Rotterdam?", "spotlight": "Accept warmly and switch immediately." },
+        { "speaker": "Bram", "nl": "Klopt. Geen woorden maar daden, hè.", "en": "Correct. Actions, not words, eh.", "spotlight": "Bram's Rotterdam pride, on cue." },
+        { "speaker": "You", "nl": "Haha, dat merk ik. Leuk je te leren kennen.", "en": "Haha, I can tell. Nice to get to know you." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Build a polite request",
+      "prompt": "Assemble a formal (u) request for a stranger at a desk.",
+      "slots": [
+        { "label": "Verb (u-form)", "chips": ["Kunt u", "Wilt u", "Hebt u"] },
+        { "label": "Rest", "chips": ["mij helpen?", "een momentje?", "dit nog eens uitleggen?"] }
+      ],
+      "sample": "Kunt u mij helpen?"
+    },
+    {
+      "type": "journal",
+      "prompt": "List three people or places from your week and note *u* or *je* for each, with a one-line reason. Where are you unsure? That's the useful edge.",
+      "starters": ["De huisarts: u, omdat…", "Mijn buurvrouw: …, omdat…"],
+      "minSentences": 3
+    }
+  ]
+}

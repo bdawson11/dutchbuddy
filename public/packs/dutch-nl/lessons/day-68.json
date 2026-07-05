@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "day-68",
+  "day": 68,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Ik wil naar huis gaan — werkwoordclusters",
+  "emoji": "🔗",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Two-verb word order and verb clusters in subclauses",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Twee werkwoorden: de tweede gaat naar het eind",
+      "body": "In a main clause the finite verb stays in slot 2 — but a second verb (an infinitive) waits at the **end**. *Ik **wil** morgen naar huis **gaan**.* *Ik **moet** nog boodschappen **doen**.* *We **gaan** volgende week **verhuizen**.* Everything else — time, object, place — sits in the middle, and the infinitive closes the door.",
+      "table": {
+        "headers": ["Slot 2 (vervoegd)", "Midden", "Eind (infinitief)"],
+        "rows": [
+          ["Ik wil", "morgen naar huis", "gaan."],
+          ["Ik moet", "nog even", "nadenken."],
+          ["We gaan", "zondag", "verhuizen."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tik om te horen",
+      "items": [
+        { "nl": "Ik wil vanavond thuisblijven.", "en": "I want to stay home tonight.", "speak": "Ik wil vanavond thuisblijven." },
+        { "nl": "Je moet echt eens langskomen.", "en": "You really must drop by sometime.", "speak": "Je moet echt eens langskomen." },
+        { "nl": "We kunnen morgen beginnen.", "en": "We can start tomorrow.", "speak": "We kunnen morgen beginnen." },
+        { "nl": "Ik ga volgende week verhuizen.", "en": "I'm moving next week.", "speak": "Ik ga volgende week verhuizen." },
+        { "nl": "Ze wil graag helpen.", "en": "She'd love to help.", "speak": "Ze wil graag helpen." },
+        { "nl": "Ik moet nog veel inpakken.", "en": "I still have a lot to pack.", "speak": "Ik moet nog veel inpakken." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Kies de juiste zin.",
+      "options": ["Ik wil gaan morgen naar huis.", "Ik wil morgen naar huis gaan.", "Ik morgen wil naar huis gaan."],
+      "correct": 1,
+      "explain": "Finite *wil* in slot 2, the infinitive *gaan* at the very end, the rest in the middle: *Ik wil morgen naar huis gaan.*"
+    },
+    {
+      "type": "builder",
+      "title": "Bouw de zin",
+      "prompt": "Zet de zin op volgorde: onderwerp + vervoegd werkwoord + tijd + plaats + infinitief.",
+      "slots": [
+        { "label": "Onderwerp", "chips": ["Ik", "Jij", "We"] },
+        { "label": "Vervoegd werkwoord", "chips": ["wil", "willen", "wilt"] },
+        { "label": "Tijd", "chips": ["zaterdag", "morgen"] },
+        { "label": "Plaats", "chips": ["naar Utrecht", "naar huis"] },
+        { "label": "Infinitief (eind)", "chips": ["gaan"] }
+      ],
+      "sample": "Ik wil zaterdag naar Utrecht gaan."
+    },
+    {
+      "type": "card",
+      "title": "In de bijzin: alles klontert aan het eind",
+      "body": "In a subclause (after *omdat, dat, of, terwijl…*) the verbs pile up at the end in a **cluster**. *…omdat ik morgen naar huis **wil gaan**.* And here's the trap: after a modal, the perfect uses an **infinitive, not a participle** — *Ik heb het niet **kunnen doen*** (never *gekund*). In a subclause that whole cluster sits at the very end: *…omdat ik het niet **heb kunnen doen**.*",
+      "callout": "Modal in the perfect → infinitive, not participle: *heb kunnen doen*, *heb willen zeggen*, *heb moeten werken*."
+    },
+    {
+      "type": "contrast",
+      "title": "Hoofdzin of bijzin?",
+      "pairs": [
+        { "left": "Ik kan vandaag niet komen.", "right": "…dat ik vandaag niet kan komen.", "note": "Main clause: finite *kan* in slot 2. Subclause: the cluster *kan komen* moves to the end." },
+        { "left": "Ik heb het niet kunnen doen.", "right": "…omdat ik het niet heb kunnen doen.", "note": "Same double-infinitive cluster; in the subclause *heb kunnen doen* lands at the very end." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Kies de juiste bijzin: 'Sorry, …'",
+      "options": ["…omdat ik het niet heb kunnen doen.", "…omdat ik het niet gekund heb doen.", "…omdat ik het niet kunnen doen heb."],
+      "correct": 0,
+      "explain": "Modal + infinitive in the perfect = *heb kunnen doen* (never *gekund*), and in a subclause the whole cluster sits at the end."
+    },
+    {
+      "type": "typed",
+      "prompt": "Vertaal: 'I'm staying home because I want to pack.' Begin met 'Ik blijf thuis omdat…'",
+      "answers": ["Ik blijf thuis omdat ik wil inpakken.", "Ik blijf thuis omdat ik wil inpakken", "Ik blijf thuis omdat ik in wil pakken.", "Ik blijf thuis omdat ik in wil pakken"],
+      "hint": "Bijzin: het werkwoord-cluster (wil inpakken) gaat naar het eind.",
+      "explain": "*…omdat ik wil inpakken.* In the subclause the cluster *wil inpakken* closes it. (Both *wil inpakken* and *in wil pakken* are heard; the first is the most common.)"
+    },
+    {
+      "type": "dialogue",
+      "scene": "Daan appt over het weekend — Sanne gaat verhuizen en jullie willen helpen.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Joh, Sanne gaat dit weekend verhuizen. Wil je helpen?", "en": "Hey, Sanne's moving this weekend. Want to help?" },
+        { "speaker": "You", "nl": "Ja, natuurlijk! Ik wil graag komen helpen.", "en": "Yes, of course! I'd love to come and help.", "spotlight": "wil … komen helpen — three verbs stacked at the end." },
+        { "speaker": "Daan", "nl": "Top. We moeten om acht uur bij haar zijn.", "en": "Great. We have to be at her place at eight.", "spotlight": "moeten … zijn — modal + infinitive to the end." },
+        { "speaker": "You", "nl": "Zo vroeg? Ik denk dat ik het wel kan halen.", "en": "That early? I think I can manage it.", "spotlight": "dat ik het wel kan halen — subclause cluster at the end." },
+        { "speaker": "Daan", "nl": "Ze zei dat ze bijna alles al heeft kunnen inpakken.", "en": "She said she's already been able to pack almost everything.", "spotlight": "heeft kunnen inpakken — modal perfect, infinitive not participle." },
+        { "speaker": "You", "nl": "Fijn. Dan hoeven we alleen maar te sjouwen.", "en": "Nice. Then we only have to lug stuff around." },
+        { "speaker": "Daan", "nl": "Precies. Ik zal wat dozen meenemen.", "en": "Exactly. I'll bring some boxes." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Heb je het gevolgd?",
+      "questions": [
+        { "q": "Hoe laat moeten Daan en jij bij Sanne zijn?", "options": ["Om zeven uur", "Om acht uur", "Om negen uur"], "correct": 1 },
+        { "q": "Wat heeft Sanne al kunnen doen?", "options": ["Bijna alles inpakken", "De dozen wegbrengen", "Nog niets"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Wat wil jij dit weekend doen, en wat moet je nog doen? Schrijf drie zinnen met twee werkwoorden (*ik wil … doen*, *ik moet … maken*).",
+      "starters": ["Dit weekend wil ik…", "Ik moet nog…", "Ik denk dat ik…"],
+      "minSentences": 3
+    }
+  ]
+}

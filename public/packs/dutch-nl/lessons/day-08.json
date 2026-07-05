@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "day-08",
+  "day": 8,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Tellen — van nul tot honderd",
+  "emoji": "🔢",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Numbers 0–100, the -tien teens, and the reversed tens (vierentwintig)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "The building blocks: 0–12",
+      "body": "The first twelve are their own words — learn them cold and the rest is Lego. Watch *een* (one), which is also the word for 'a'; context tells you which.",
+      "table": {
+        "headers": ["", "", ""],
+        "rows": [
+          ["0 nul", "1 een", "2 twee"],
+          ["3 drie", "4 vier", "5 vijf"],
+          ["6 zes", "7 zeven", "8 acht"],
+          ["9 negen", "10 tien", "11 elf"],
+          ["12 twaalf", "", ""]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear 0 to 10",
+      "items": [
+        { "nl": "nul", "en": "0", "speak": "nul" },
+        { "nl": "een", "en": "1", "speak": "een" },
+        { "nl": "twee", "en": "2", "speak": "twee" },
+        { "nl": "drie", "en": "3", "speak": "drie" },
+        { "nl": "vier", "en": "4", "speak": "vier" },
+        { "nl": "vijf", "en": "5", "speak": "vijf" },
+        { "nl": "zes", "en": "6", "speak": "zes" },
+        { "nl": "zeven", "en": "7", "speak": "zeven" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "The teens: just add -tien",
+      "body": "From 13 up, glue the unit onto **-tien** (like English -teen). Two spelling quirks: 13 is *dertien* (not 'drietien') and 14 is *veertien* (not 'viertien'). The rest are regular.",
+      "table": {
+        "headers": ["Number", "Dutch"],
+        "rows": [
+          ["13", "dertien"],
+          ["14", "veertien"],
+          ["15", "vijftien"],
+          ["16", "zestien"],
+          ["17", "zeventien"],
+          ["18", "achttien"],
+          ["19", "negentien"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "The tens",
+      "body": "The round tens end in **-tig**. Same two quirks return: *dertig* (30) and *veertig* (40). Note *tachtig* (80) picks up an extra t at the front.",
+      "table": {
+        "headers": ["Number", "Dutch"],
+        "rows": [
+          ["20", "twintig"],
+          ["30", "dertig"],
+          ["40", "veertig"],
+          ["50", "vijftig"],
+          ["60", "zestig"],
+          ["70", "zeventig"],
+          ["80", "tachtig"],
+          ["90", "negentig"],
+          ["100", "honderd"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "The famous reversed tens",
+      "body": "This is the one everybody trips on. Dutch says the **unit first**, then *en*, then the ten — all as **one word**. So 24 is *vierentwintig* (literally 'four-and-twenty'). Think of the nursery rhyme 'four and twenty blackbirds' and you've got the pattern.",
+      "callout": "*tweeëntwintig* (22) and *drieëntwintig* (23) get a trema (¨) so the two e's don't blur: twee-en → *tweeën*."
+    },
+    {
+      "type": "chips",
+      "title": "Hear the reversed tens",
+      "items": [
+        { "nl": "eenentwintig", "en": "21", "speak": "eenentwintig" },
+        { "nl": "tweeëntwintig", "en": "22", "speak": "tweeentwintig" },
+        { "nl": "vierentwintig", "en": "24", "speak": "vierentwintig" },
+        { "nl": "zevenenveertig", "en": "47", "speak": "zevenenveertig" },
+        { "nl": "achtenzestig", "en": "68", "speak": "achtenzestig" },
+        { "nl": "negenennegentig", "en": "99", "speak": "negenennegentig" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which number is vierentwintig?",
+      "options": ["42", "24", "20"],
+      "correct": 1,
+      "explain": "Unit first: *vier* (4) + *en* + *twintig* (20) = 24. The reverse, 42, would be *tweeënveertig*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the number as a Dutch word.",
+      "speak": "vijfendertig",
+      "answers": ["vijfendertig"]
+    },
+    {
+      "type": "typed",
+      "prompt": "Write the number 47 as one Dutch word.",
+      "answers": ["zevenenveertig"],
+      "hint": "Unit + en + ten, all glued together.",
+      "explain": "*zeven* + *en* + *veertig* = *zevenenveertig*. Remember veertig, not 'viertig'."
+    },
+    {
+      "type": "journal",
+      "prompt": "Write out your age and your house number in Dutch words. Then count from 20 to 30 out loud — feel the reversed pattern kick in.",
+      "starters": ["Ik ben … jaar.", "Mijn huisnummer is …"]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "day-61",
+  "day": 61,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Als-zinnen — echt of droom",
+  "emoji": "🌧️",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "real conditions vs hypothetical ones, and the word order on both sides",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Echte voorwaarde: als + tegenwoordige tijd",
+      "body": "For a real, possible condition, *als* + present tense does the job. *als* sends its verb to the end; if the *als*-clause comes first, the main clause flips to verb-first. *Als het regent, blijf ik thuis.*",
+      "table": {
+        "headers": ["Bijzin (als…)", "Hoofdzin"],
+        "rows": [
+          ["Als het regent,", "blijf ik thuis."],
+          ["Als je tijd hebt,", "kom dan langs."],
+          ["Als ik klaar ben,", "bel ik je."]
+        ]
+      },
+      "callout": "Bijzin vooraan → inversie: *…regent, **blijf ik**…* (werkwoord vóór het onderwerp)."
+    },
+    {
+      "type": "chips",
+      "title": "Echte voorwaarden — tik om te horen",
+      "items": [
+        { "nl": "Als het regent, blijf ik thuis.", "en": "If it rains, I stay home.", "speak": "Als het regent, blijf ik thuis." },
+        { "nl": "Als je wilt, kunnen we samen koken.", "en": "If you want, we can cook together.", "speak": "Als je wilt, kunnen we samen koken." },
+        { "nl": "Ik bel je als ik thuis ben.", "en": "I'll call you when I'm home.", "speak": "Ik bel je als ik thuis ben." },
+        { "nl": "Als het lekker weer is, gaan we naar het park.", "en": "If the weather's nice, we go to the park.", "speak": "Als het lekker weer is, gaan we naar het park." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welke zin heeft de juiste woordvolgorde?",
+      "options": [
+        "Als het regent, ik blijf thuis.",
+        "Als het regent, blijf ik thuis.",
+        "Als regent het, blijf ik thuis."
+      ],
+      "correct": 1,
+      "explain": "De *als*-bijzin telt als plek één, dus de hoofdzin draait om: *…regent, **blijf ik** thuis.* Werkwoord vóór onderwerp."
+    },
+    {
+      "type": "card",
+      "title": "Droomvoorwaarde: als + verleden tijd + zou",
+      "body": "For something unreal or unlikely, the *als*-clause goes to the **past tense** and the main clause uses **zou**. *Als ik rijk **was**, **zou** ik een huis kopen.* You're not rich — it's a daydream.",
+      "table": {
+        "headers": ["Als… (verleden tijd)", "…zou (hoofdzin)"],
+        "rows": [
+          ["Als ik rijk was,", "zou ik een huis kopen."],
+          ["Als ik meer tijd had,", "zou ik meer lezen."],
+          ["Als ik jou was,", "zou ik gaan."]
+        ]
+      },
+      "callout": "Onwerkelijk = verleden tijd in de als-zin + *zou* in de hoofdzin."
+    },
+    {
+      "type": "contrast",
+      "title": "Echt versus droom",
+      "pairs": [
+        { "left": "Als het regent, blijf ik thuis.", "right": "Als het zou regenen, zou ik thuisblijven.", "note": "Links: kan echt gebeuren (tegenwoordige tijd). Rechts: hypothetisch (verleden tijd + zou)." },
+        { "left": "Als ik tijd heb, kom ik.", "right": "Als ik tijd had, zou ik komen.", "note": "*heb → had* en *kom → zou komen*: dat is het verschil tussen mogelijk en denkbeeldig." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Vertaal (hypothetisch): 'If I were rich, I would travel.'",
+      "answers": [
+        "Als ik rijk was, zou ik reizen.",
+        "Als ik rijk was zou ik reizen.",
+        "Als ik rijk was, zou ik gaan reizen."
+      ],
+      "hint": "verleden tijd (was) in de als-zin + zou in de hoofdzin.",
+      "explain": "*Als ik rijk **was**, **zou** ik reizen.* Onwerkelijke voorwaarde: verleden tijd + zou."
+    },
+    {
+      "type": "builder",
+      "title": "Bouw een droomvoorwaarde",
+      "prompt": "Wat zou je doen in een denkbeeldige situatie?",
+      "slots": [
+        { "label": "Als… (verleden tijd)", "chips": ["Als ik rijk was", "Als ik meer tijd had", "Als ik jou was"] },
+        { "label": "…zou (hoofdzin)", "chips": ["zou ik de wereld rondreizen", "zou ik een taal leren", "zou ik het gewoon doen"] }
+      ],
+      "sample": "Als ik meer tijd had, zou ik een taal leren."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ de hele zin.",
+      "speak": "Als het morgen regent, blijven we thuis.",
+      "answers": [
+        "Als het morgen regent, blijven we thuis.",
+        "Als het morgen regent blijven we thuis."
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "You and Daan daydream at the café about winning the lottery",
+      "lines": [
+        { "speaker": "Daan", "nl": "Stel je voor: als wij de loterij zouden winnen, wat zou jij doen?", "en": "Imagine: if we won the lottery, what would you do?", "spotlight": "droom: *als … zouden winnen* + *wat zou jij doen?*" },
+        { "speaker": "You", "nl": "Als ik zoveel geld had, zou ik een jaar reizen.", "en": "If I had that much money, I'd travel for a year.", "spotlight": "verleden tijd (*had*) + *zou*." },
+        { "speaker": "Daan", "nl": "Echt? Ik zou gewoon een platenzaak openen, joh.", "en": "Really? I'd just open a record shop, man." },
+        { "speaker": "You", "nl": "En als het niet zou lukken?", "en": "And if it didn't work out?" },
+        { "speaker": "Daan", "nl": "Dan zou ik terug naar de boekwinkel gaan. Geen ramp.", "en": "Then I'd go back to the bookshop. No disaster." },
+        { "speaker": "You", "nl": "Nou, als ik morgen win, hoor je het meteen.", "en": "Well, if I win tomorrow, you'll hear it right away.", "spotlight": "echte voorwaarde: *als ik morgen win* (tegenwoordige tijd)." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Wat zouden ze doen?",
+      "questions": [
+        { "q": "Wat zou jij doen met veel geld?", "options": ["Een huis kopen", "Een jaar reizen", "Stoppen met werken"], "correct": 1 },
+        { "q": "Wat zou Daan openen?", "options": ["Een café", "Een boekwinkel", "Een platenzaak"], "correct": 2 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf twee als-zinnen: één echte voorwaarde over morgen, en één droom die begint met 'Als ik…'. Let op de woordvolgorde aan beide kanten.",
+      "starters": ["Als het morgen mooi weer is,…", "Als ik een jaar vrij had,…"],
+      "minSentences": 2
+    }
+  ]
+}

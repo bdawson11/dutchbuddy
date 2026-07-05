@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-29",
+  "day": 29,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "Het perfectum met hebben",
+  "emoji": "🕰",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "The everyday past: hebben + a ge-…-t/-d participle, and the 't kofschip rule",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Het perfectum — de dagelijkse verleden tijd",
+      "body": "Dutch tells most everyday past stories with the **perfect tense**: a form of *hebben* in second position, and a **past participle** at the very end. *Ik heb gisteren gewerkt.* (I worked yesterday.) The *heb* holds the V2 spot; *gewerkt* waits at the end. Where English says just \"worked\", Dutch says \"have worked\" for the same everyday past.",
+      "table": {
+        "headers": ["Nederlands", "English"],
+        "rows": [
+          ["Ik heb gewerkt.", "I worked."],
+          ["Zij heeft gekookt.", "She cooked."],
+          ["Wij hebben gefietst.", "We cycled."]
+        ]
+      },
+      "callout": "The participle always parks at the very end — even in a long sentence: *Ik heb gisteren de hele dag gewerkt.*"
+    },
+    {
+      "type": "card",
+      "title": "ge- + stam + -t of -d",
+      "body": "Build a regular participle from three parts: **ge-** + the **stem** + **-t or -d**. The stem is the infinitive minus *-en* (*werken* → *werk*). Choose the ending with **'t kofschip**: if the stem ends in one of the voiceless sounds **t, k, f, s, ch, p**, add **-t**. Otherwise add **-d**.",
+      "table": {
+        "headers": ["Stam eindigt op…", "Uitgang", "Voorbeeld"],
+        "rows": [
+          ["t, k, f, s, ch, p ('t kofschip)", "-t", "werken → gewerkt"],
+          ["iets anders (l, r, n, m, klinker)", "-d", "horen → gehoord"],
+          ["al een t of d", "geen verdubbeling", "praten → gepraat"]
+        ]
+      },
+      "callout": "Memory hook: the nonsense word *'t kofschip* hides every voiceless letter — k, f, s, ch, p (plus t)."
+    },
+    {
+      "type": "chips",
+      "title": "De deelwoorden — tik om te horen",
+      "items": [
+        { "nl": "gewerkt", "en": "worked", "speak": "gewerkt" },
+        { "nl": "gemaakt", "en": "made", "speak": "gemaakt" },
+        { "nl": "gehoord", "en": "heard", "speak": "gehoord" },
+        { "nl": "gespeeld", "en": "played", "speak": "gespeeld" },
+        { "nl": "gewoond", "en": "lived", "speak": "gewoond" },
+        { "nl": "gefietst", "en": "cycled", "speak": "gefietst" },
+        { "nl": "gekookt", "en": "cooked", "speak": "gekookt" },
+        { "nl": "gepraat", "en": "talked", "speak": "gepraat" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "-t of -d?",
+      "pairs": [
+        { "left": "gewerkt — worked", "right": "gespeeld — played", "note": "werk ends in k (kofschip) → -t; speel ends in l → -d." },
+        { "left": "gefietst — cycled", "right": "gehoord — heard", "note": "fiets ends in s → -t; hoor ends in r → -d." },
+        { "left": "gekookt — cooked", "right": "gewoond — lived", "note": "kook ends in k → -t; woon ends in n → -d." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*maken* → 'made'. Which participle is right?",
+      "options": ["gemaakd", "gemaakt", "maakte"],
+      "correct": 1,
+      "explain": "*maak* ends in **k** — a 't kofschip letter — so the ending is **-t**: *gemaakt*. (*maakte* is next week's imperfect.)"
+    },
+    {
+      "type": "typed",
+      "prompt": "Give the participle of *koken* (to cook).",
+      "answers": ["gekookt"],
+      "hint": "The stem kook ends in k → 't kofschip.",
+      "explain": "gekookt. Stem *kook* ends in k, so the ending is -t."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'I cycled yesterday.' (use *fietsen*, *gisteren*)",
+      "answers": ["ik heb gisteren gefietst", "gisteren heb ik gefietst"],
+      "hint": "heb in second position, participle at the end.",
+      "explain": "*Ik heb gisteren gefietst.* — heb second, *gefietst* at the end. Front the time word and it inverts: *Gisteren heb ik gefietst.*"
+    },
+    {
+      "type": "builder",
+      "title": "Zet de zin in elkaar",
+      "prompt": "Build: 'We cooked at home.'",
+      "slots": [
+        { "label": "Onderwerp", "chips": ["Wij", "Ik", "Zij"] },
+        { "label": "Hulpwerkwoord", "chips": ["hebben", "heb", "heeft"] },
+        { "label": "Rest", "chips": ["thuis", "vandaag"] },
+        { "label": "Deelwoord", "chips": ["gekookt", "gewerkt"] }
+      ],
+      "sample": "Wij hebben thuis gekookt."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ de zin.",
+      "speak": "Ik heb hard gewerkt.",
+      "answers": ["ik heb hard gewerkt"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Wat heb je gisteren gedaan? Write three things you did yesterday, each with *ik heb* + a participle.",
+      "starters": ["Ik heb …", "Gisteren heb ik …"],
+      "minSentences": 3
+    }
+  ]
+}

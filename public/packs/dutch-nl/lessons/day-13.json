@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-13",
+  "day": 13,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Er is, er zijn — en deze, die, dit, dat",
+  "emoji": "👉",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Saying there is/are with er, and pointing with demonstratives tied to de/het",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "There is / there are: er is, er zijn",
+      "body": "To say something exists, Dutch uses **er** + a form of *zijn*. One thing → *er is*; more than one → *er zijn*. It's the exact match for English 'there is / there are', and *er* is the little placeholder that makes it work.",
+      "table": {
+        "headers": ["Dutch", "English"],
+        "rows": [
+          ["Er is een café in de straat.", "There is a café on the street."],
+          ["Er is koffie.", "There is coffee."],
+          ["Er zijn twee stoelen.", "There are two chairs."],
+          ["Er zijn veel mensen.", "There are many people."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Hear er is / er zijn",
+      "items": [
+        { "nl": "Er is een probleem.", "en": "There is a problem.", "speak": "Er is een probleem." },
+        { "nl": "Er is een winkel om de hoek.", "en": "There's a shop around the corner.", "speak": "Er is een winkel om de hoek." },
+        { "nl": "Er zijn drie kamers.", "en": "There are three rooms.", "speak": "Er zijn drie kamers." },
+        { "nl": "Er zijn geen kaartjes meer.", "en": "There are no tickets left.", "speak": "Er zijn geen kaartjes meer." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Fill in: ___ vier fietsen voor de deur.",
+      "options": ["Er is", "Er zijn", "Er ben"],
+      "correct": 1,
+      "explain": "Four bikes is plural, so *er zijn*. *Er is* would only fit one bike."
+    },
+    {
+      "type": "card",
+      "title": "This and that: it depends on de or het",
+      "body": "Dutch has four words for this/that, and which you pick depends on the noun's article. **de**-words take *deze* (this) and *die* (that). **het**-words take *dit* (this) and *dat* (that). So all that de/het work pays off again here.",
+      "table": {
+        "headers": ["Article", "this (near)", "that (far)"],
+        "rows": [
+          ["de-word (de stoel)", "deze stoel", "die stoel"],
+          ["het-word (het huis)", "dit huis", "dat huis"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Hear the demonstratives",
+      "items": [
+        { "nl": "deze fiets", "en": "this bike (de fiets)", "speak": "deze fiets" },
+        { "nl": "die fiets", "en": "that bike", "speak": "die fiets" },
+        { "nl": "dit boek", "en": "this book (het boek)", "speak": "dit boek" },
+        { "nl": "dat boek", "en": "that book", "speak": "dat boek" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "deze/die vs dit/dat",
+      "pairs": [
+        { "left": "deze kaas — this cheese", "right": "dit brood — this bread", "note": "*de kaas* → *deze*; *het brood* → *dit*. The article decides." },
+        { "left": "die man — that man", "right": "dat huis — that house", "note": "*de man* → *die*; *het huis* → *dat*." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct? (het huis)",
+      "options": ["deze huis", "dit huis", "die huis"],
+      "correct": 1,
+      "explain": "*huis* is a *het*-word, and 'this' for het-words is *dit*: *dit huis*. *deze/die* are only for de-words."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'this cheese' in Dutch. (de kaas)",
+      "answers": ["deze kaas"],
+      "hint": "de-word → deze.",
+      "explain": "*deze kaas*. Because *kaas* is a de-word, 'this' is *deze*, not *dit*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the market — Emma points things out at the cheese stall",
+      "lines": [
+        { "speaker": "Emma", "nl": "Kijk, deze kaas is echt lekker.", "en": "Look, this cheese is really tasty.", "spotlight": "*deze kaas* — de-word, so deze. And there's Emma's trademark *Kijk*." },
+        { "speaker": "You", "nl": "En dat brood daar?", "en": "And that bread over there?", "spotlight": "*dat brood* — het-word and far away, so dat." },
+        { "speaker": "Emma", "nl": "Ook goed. En er is verse stroopwafel, hoor!", "en": "Also good. And there's fresh stroopwafel, you know!", "spotlight": "*er is* pointing out what exists at the stall." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Emma say is 'lekker'?", "options": ["Het brood", "De kaas", "De koffie"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Look around the room you're in. Write four sentences: two with *er is/er zijn*, and two pointing at objects with *deze/die/dit/dat*. Check each article first.",
+      "starters": ["Er is …", "Er zijn …", "Deze … is …", "Dat … is …"]
+    }
+  ]
+}

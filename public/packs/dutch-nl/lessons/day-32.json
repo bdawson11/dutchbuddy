@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-32",
+  "day": 32,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "Scheidbare werkwoorden",
+  "emoji": "✂️",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Separable verbs split in the present and tuck -ge- inside in the perfect",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Scheidbare werkwoorden — ze splitsen",
+      "body": "Some Dutch verbs have a detachable prefix. In a present-tense main clause the prefix **flies to the end**: *opstaan* (to get up) becomes *ik sta om zeven uur **op***. The prefix carries the meaning, so never drop it.",
+      "table": {
+        "headers": ["Infinitief", "In de zin (nu)"],
+        "rows": [
+          ["opstaan — to get up", "Ik sta vroeg op."],
+          ["meenemen — to bring along", "Ik neem een jas mee."],
+          ["aankomen — to arrive", "De trein komt om acht uur aan."],
+          ["opbellen — to call", "Ik bel mijn moeder op."],
+          ["uitgaan — to go out", "Wij gaan vanavond uit."]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "In het perfectum: -ge- in het midden",
+      "body": "In the perfect tense the *ge-* of the participle slips **between the prefix and the verb**: *opstaan* → *op**ge**staan*, *meenemen* → *mee**ge**nomen*. Movement verbs like *opstaan, aankomen, uitgaan* take **zijn**; *meenemen* and *opbellen* take **hebben**.",
+      "table": {
+        "headers": ["Infinitief", "Deelwoord", "Hulpww."],
+        "rows": [
+          ["opstaan", "opgestaan", "ben"],
+          ["meenemen", "meegenomen", "heb"],
+          ["aankomen", "aangekomen", "ben"],
+          ["opbellen", "opgebeld", "heb"],
+          ["uitgaan", "uitgegaan", "ben"]
+        ]
+      },
+      "callout": "The verb inside keeps its own participle — regular (*opgebeld*) or irregular (*meegenomen*, from *nemen → genomen*)."
+    },
+    {
+      "type": "chips",
+      "title": "Deelwoorden — tik om te horen",
+      "items": [
+        { "nl": "opgestaan", "en": "got up", "speak": "opgestaan" },
+        { "nl": "meegenomen", "en": "brought along", "speak": "meegenomen" },
+        { "nl": "aangekomen", "en": "arrived", "speak": "aangekomen" },
+        { "nl": "opgebeld", "en": "called", "speak": "opgebeld" },
+        { "nl": "uitgegaan", "en": "went out", "speak": "uitgegaan" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Nu vs perfectum",
+      "pairs": [
+        { "left": "Ik sta op. — I get up", "right": "Ik ben opgestaan. — I got up", "note": "Present: prefix at the end. Perfect: -ge- tucked inside, zijn as helper." },
+        { "left": "Ik neem mee. — I bring along", "right": "Ik heb meegenomen. — I brought along", "note": "meenemen takes hebben; *mee-ge-nomen*." },
+        { "left": "Wij gaan uit. — we go out", "right": "Wij zijn uitgegaan. — we went out", "note": "uitgaan takes zijn; *uit-ge-gaan*." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "'The train arrived late.' — *De trein is te laat ___.*",
+      "options": ["aankomen", "aangekomen", "geaankomen"],
+      "correct": 1,
+      "explain": "The -ge- goes **inside**: *aan**ge**komen*. Never *geaankomen*. *aankomen* takes *zijn*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'I get up at seven.' (use *opstaan*, *om zeven uur*)",
+      "answers": ["ik sta om zeven uur op", "om zeven uur sta ik op"],
+      "hint": "Split the verb: sta … op.",
+      "explain": "*Ik sta om zeven uur op.* — the prefix *op* jumps to the end in the present."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'We went out yesterday.' (use *uitgaan*, *gisteren*)",
+      "answers": ["wij zijn gisteren uitgegaan", "we zijn gisteren uitgegaan", "gisteren zijn wij uitgegaan", "gisteren zijn we uitgegaan"],
+      "hint": "uitgaan → uitgegaan, with zijn.",
+      "explain": "*Wij zijn gisteren uitgegaan.* — -ge- inside, and uitgaan takes zijn."
+    },
+    {
+      "type": "builder",
+      "title": "Zet de zin in elkaar",
+      "prompt": "Build (present tense): 'I'm calling my mother tonight.'",
+      "slots": [
+        { "label": "Onderwerp", "chips": ["Ik", "Wij"] },
+        { "label": "Werkwoord", "chips": ["bel", "neem"] },
+        { "label": "Rest", "chips": ["vanavond mijn moeder", "mijn moeder vanavond"] },
+        { "label": "Prefix", "chips": ["op", "mee"] }
+      ],
+      "sample": "Ik bel vanavond mijn moeder op."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ de zin.",
+      "speak": "Ik ben vroeg opgestaan.",
+      "answers": ["ik ben vroeg opgestaan"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschrijf je ochtend. Describe your morning with two separable verbs in the perfect (*ik ben opgestaan…, ik heb … meegenomen*).",
+      "starters": ["Vanochtend ben ik …", "Ik heb … meegenomen"],
+      "minSentences": 3
+    }
+  ]
+}

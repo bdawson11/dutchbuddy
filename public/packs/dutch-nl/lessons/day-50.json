@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "day-50",
+  "day": 50,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "Plannen maken met gaan",
+  "emoji": "📅",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "The gaan-future: ik ga … doen, plus the time markers morgen, straks and volgende week",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ik ga … doen",
+      "body": "The easiest way to talk about the future in Dutch: *gaan* + an infinitive. *gaan* takes the **V2** spot (second), and the other verb waits at the **end**. *Ik ga morgen werken* (I'm going to work tomorrow). It's exactly the English 'going to'.",
+      "table": {
+        "headers": ["Dutch", "English"],
+        "rows": [
+          ["Ik ga koken.", "I'm going to cook."],
+          ["Jij gaat rusten.", "You're going to rest."],
+          ["Wij gaan wandelen.", "We're going to walk."]
+        ]
+      },
+      "callout": "One verb rule: *gaan* second, the infinitive dead last."
+    },
+    {
+      "type": "card",
+      "title": "gaan, helemaal",
+      "body": "You already met *gaan* as 'to go'. Here are all its forms — same verb, now pointing at the future. Note *jij gaat* but in a question *ga jij* (the -t drops after inversion).",
+      "table": {
+        "headers": ["Person", "Form"],
+        "rows": [
+          ["ik", "ga"],
+          ["jij / u", "gaat"],
+          ["hij / zij", "gaat"],
+          ["wij / jullie / zij", "gaan"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Wanneer? — time markers",
+      "items": [
+        { "nl": "straks", "en": "in a bit (later today)", "speak": "straks" },
+        { "nl": "zo meteen", "en": "in a moment", "speak": "zo meteen" },
+        { "nl": "vanavond", "en": "tonight", "speak": "vanavond" },
+        { "nl": "morgen", "en": "tomorrow", "speak": "morgen" },
+        { "nl": "overmorgen", "en": "the day after tomorrow", "speak": "overmorgen" },
+        { "nl": "volgende week", "en": "next week", "speak": "volgende week" },
+        { "nl": "volgend jaar", "en": "next year", "speak": "volgend jaar" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "straks vs later",
+      "pairs": [
+        { "left": "straks — later today", "right": "later — someday, vaguer", "note": "*straks* is still today: 'in a bit'. *later* is open-ended: 'when I'm older / at some point'." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Where does the second verb go? Pick the natural sentence.",
+      "options": [
+        "Ik ga morgen doen boodschappen.",
+        "Ik ga morgen boodschappen doen.",
+        "Ik doe ga morgen boodschappen."
+      ],
+      "correct": 1,
+      "explain": "*gaan* is second, *doen* waits at the very end: *Ik ga morgen boodschappen doen* (I'm going to do groceries tomorrow)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'I'm going to cook tonight.' (vanavond, koken)",
+      "answers": ["Ik ga vanavond koken.", "Ik ga vanavond koken", "Vanavond ga ik koken.", "Vanavond ga ik koken"],
+      "hint": "gaan second, koken at the end.",
+      "explain": "*Ik ga vanavond koken.* Front *vanavond* and the verb still stays second: *Vanavond ga ik koken.*"
+    },
+    {
+      "type": "builder",
+      "title": "Bouw een plan",
+      "prompt": "Assemble a plan: who, when, and what you're going to do.",
+      "slots": [
+        { "label": "Wie + gaan", "chips": ["Ik ga", "We gaan", "Morgen ga ik"] },
+        { "label": "Wanneer", "chips": ["straks", "vanavond", "volgende week", "dit weekend"] },
+        { "label": "Wat (infinitief)", "chips": ["sporten", "koken", "een film kijken", "uitrusten"] }
+      ],
+      "sample": "Ik ga dit weekend uitrusten."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma texts you about the weekend",
+      "lines": [
+        { "speaker": "Emma", "nl": "Wat ga jij dit weekend doen?", "en": "What are you going to do this weekend?", "spotlight": "ga jij … doen — infinitive parked at the end." },
+        { "speaker": "You", "nl": "Ik ga zaterdag naar de markt en zondag ga ik luieren.", "en": "I'm going to the market on Saturday and Sunday I'm going to laze around." },
+        { "speaker": "Emma", "nl": "Lekker! Zullen we morgen samen koffie drinken?", "en": "Nice! Shall we have coffee together tomorrow?", "spotlight": "Zullen we…? — that's tomorrow's lesson." },
+        { "speaker": "You", "nl": "Ja, gezellig. Straks stuur ik je een berichtje.", "en": "Yes, fun. I'll send you a message in a bit." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Snap je het?",
+      "questions": [
+        { "q": "What is 'You' going to do on Sunday?", "options": ["Go to the market", "Laze around", "Drink coffee"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the plan you hear.",
+      "speak": "We gaan volgende week verhuizen.",
+      "answers": ["We gaan volgende week verhuizen.", "We gaan volgende week verhuizen", "Wij gaan volgende week verhuizen."]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write three things you're going to do next week. Use *ik ga …* + an infinitive each time, and a different time marker.",
+      "starters": ["Volgende week ga ik…", "Morgen ga ik…", "Ik ga zo meteen…"],
+      "minSentences": 3
+    }
+  ]
+}

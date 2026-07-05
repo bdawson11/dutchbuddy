@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-02",
+  "day": 2,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "Klanken II — de tweeklanken",
+  "emoji": "🌊",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "ui, ij/ei, eu, oe, au/ou — and your first Dutch sentences",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "The diphthongs",
+      "body": "Five vowel combinations carry half of spoken Dutch. Two pairs are spelled differently but sound identical: *ij/ei* and *au/ou*.",
+      "table": {
+        "headers": ["Spelling", "Sounds like", "Example"],
+        "rows": [
+          ["ui", "no English equivalent — 'ow' with rounded lips", "huis — house"],
+          ["ij / ei", "roughly 'eye' flattened", "wijn — wine, trein — train"],
+          ["eu", "French 'eu', say 'ay' with rounded lips", "leuk — nice/fun"],
+          ["oe", "'oo' as in boot", "goed — good"],
+          ["au / ou", "'ow' as in how", "blauw — blue, oud — old"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear each diphthong",
+      "items": [
+        { "nl": "huis", "en": "house", "speak": "huis" },
+        { "nl": "wijn", "en": "wine", "speak": "wijn" },
+        { "nl": "trein", "en": "train", "speak": "trein" },
+        { "nl": "leuk", "en": "nice, fun", "speak": "leuk" },
+        { "nl": "goed", "en": "good", "speak": "goed" },
+        { "nl": "oud", "en": "old", "speak": "oud" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Same sound, different spelling",
+      "pairs": [
+        { "left": "wijn — wine", "right": "trein — train", "note": "ij and ei are pronounced identically. Which one a word uses is memorised, not derived." },
+        { "left": "blauw — blue", "right": "koud — cold", "note": "au and ou: also identical. Dutch kids get spelling tests on these too." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which word contains the sound with no English equivalent?",
+      "options": ["goed", "huis", "trein"],
+      "correct": 1,
+      "explain": "*ui* is the famous one. Round your lips hard and say 'ow' — you'll get close."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "leuk",
+      "answers": ["leuk"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Your first exchange — a café doorway in Amsterdam",
+      "lines": [
+        { "speaker": "Emma", "nl": "Hoi! Alles goed?", "en": "Hi! Everything good?", "spotlight": "goed — there's your oe sound in the wild." },
+        { "speaker": "You", "nl": "Ja, goed! En met jou?", "en": "Yes, good! And with you?" },
+        { "speaker": "Emma", "nl": "Ook goed. Leuk je te zien!", "en": "Also good. Nice to see you!", "spotlight": "leuk — the eu diphthong, the most Dutch word of approval." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Emma say is 'leuk'?", "options": ["The weather", "Seeing you", "The café"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Shadow the dialogue",
+      "lines": [
+        { "nl": "Hoi! Alles goed?", "en": "Hi! Everything good?" },
+        { "nl": "Ja, goed! En met jou?", "en": "Yes, good! And with you?" },
+        { "nl": "Leuk je te zien!", "en": "Nice to see you!" }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Build your first line",
+      "prompt": "Assemble a greeting exchange opener.",
+      "slots": [
+        { "label": "Greeting", "chips": ["Hoi!", "Hallo!", "Goedemorgen!"] },
+        { "label": "Check-in", "chips": ["Alles goed?", "Hoe gaat het?"] }
+      ],
+      "sample": "Hoi! Alles goed?"
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the Dutch word for 'house'.",
+      "answers": ["huis", "het huis"],
+      "hint": "The impossible diphthong.",
+      "explain": "huis — with the ui sound you practised above."
+    },
+    {
+      "type": "journal",
+      "prompt": "Write the greeting exchange from memory — both lines. Don't scroll up first.",
+      "starters": ["Hoi! …"]
+    }
+  ]
+}

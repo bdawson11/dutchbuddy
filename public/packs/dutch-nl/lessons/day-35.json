@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "day-35",
+  "day": 35,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "capstone",
+  "title": "Wat heb je gedaan?",
+  "emoji": "🎉",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Storytelling in the perfect tense with Daan, plus mijn verhaal layer 5",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Wat heb je gedaan? — jouw verhaal",
+      "body": "This is the week's finale: telling a real story about the past. All week you built the perfect tense — now you **use** it. String events together with time words, pick *hebben* or *zijn*, and park the participle at the end. Daan is waiting at the café to hear everything, want hij is dol op een goed verhaal.",
+      "callout": "A story lives on its connectors: *eerst* (first), *toen* (then), *daarna* (after that), *uiteindelijk* (in the end)."
+    },
+    {
+      "type": "chips",
+      "title": "Verhaalwoorden — tik om te horen",
+      "items": [
+        { "nl": "eerst", "en": "first", "speak": "eerst" },
+        { "nl": "toen", "en": "then", "speak": "toen" },
+        { "nl": "daarna", "en": "after that", "speak": "daarna" },
+        { "nl": "'s ochtends", "en": "in the morning", "speak": "'s ochtends" },
+        { "nl": "gisteren", "en": "yesterday", "speak": "gisteren" },
+        { "nl": "vorige week", "en": "last week", "speak": "vorige week" },
+        { "nl": "'s avonds", "en": "in the evening", "speak": "'s avonds" },
+        { "nl": "uiteindelijk", "en": "in the end", "speak": "uiteindelijk" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "'Daan stayed home all weekend.' — *Daan ___ het hele weekend thuis ___.*",
+      "options": ["heeft … gebleven", "is … gebleven", "is … geblijven"],
+      "correct": 1,
+      "explain": "*blijven* takes **zijn**, and its irregular participle is **gebleven**: *Daan is het hele weekend thuis gebleven.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Give the participle of *schrijven* (to write).",
+      "answers": ["geschreven"],
+      "explain": "geschreven — irregular (ij → e), with hebben."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'Yesterday I got up early and went to the market.' (use *opstaan*, *naar de markt gaan*)",
+      "answers": ["gisteren ben ik vroeg opgestaan en naar de markt gegaan", "gisteren ben ik vroeg opgestaan en ik ben naar de markt gegaan"],
+      "hint": "Both verbs take zijn; opgestaan, gegaan.",
+      "explain": "*Gisteren ben ik vroeg opgestaan en naar de markt gegaan.* — one *ben* can carry both zijn-participles at the end."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ Daans vraag.",
+      "speak": "Wat heb je het weekend gedaan?",
+      "answers": ["wat heb je het weekend gedaan"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Monday, the café. Daan slides into the seat across from you, coffee in hand.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Zo, vertel! Wat heb je dit weekend gedaan?", "en": "So, tell me! What did you do this weekend?" },
+        { "speaker": "You", "nl": "Nou, ik heb het rustig aan gedaan. Ik heb veel gelezen.", "en": "Well, I took it easy. I read a lot." },
+        { "speaker": "Daan", "nl": "Saai, joh! Ik ben naar een feestje geweest en heb tot vier uur gedanst.", "en": "Boring! I went to a party and danced until four.", "spotlight": "*geweest* → zijn; *gedanst* → hebben (dansen, kofschip -t)." },
+        { "speaker": "You", "nl": "Vier uur? Echt waar? En hoe ben je thuisgekomen?", "en": "Four? Really? And how did you get home?" },
+        { "speaker": "Daan", "nl": "Met de nachtbus. Ik ben vanmiddag pas opgestaan, hoor.", "en": "By night bus. I only got up this afternoon." },
+        { "speaker": "You", "nl": "Haha, typisch Daan!", "en": "Haha, typical Daan!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Heb je het gehoord?",
+      "questions": [
+        { "q": "Wat heeft Daan op het feestje gedaan?", "options": ["Gepraat", "Tot vier uur gedanst", "Gelezen"], "correct": 1 },
+        { "q": "Hoe is Daan thuisgekomen?", "options": ["Met de fiets", "Met de nachtbus", "Met de trein"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Vertel een mini-verhaal",
+      "prompt": "Build one story sentence with a connector.",
+      "slots": [
+        { "label": "Tijd", "chips": ["Gisteren", "Eerst", "Daarna"] },
+        { "label": "Hulpwerkwoord", "chips": ["heb", "ben"] },
+        { "label": "Onderwerp", "chips": ["ik"] },
+        { "label": "Rest + deelwoord", "chips": ["een broodje gegeten", "naar huis gefietst"] }
+      ],
+      "sample": "Gisteren heb ik een broodje gegeten."
+    },
+    {
+      "type": "card",
+      "title": "Mijn verhaal — laag 5",
+      "body": "Every capstone you grow your personal self-intro. So far: your **name and where you're from**, your **daily routine**, your **family and buurt**, and **what you like to eat and a wish**. This week you add **one thing you did recently**, in the perfect tense. *\"Vorige week heb ik…\"* / *\"Afgelopen weekend ben ik…\"*",
+      "callout": "Keep the old layers — just add one perfect-tense sentence about something you actually did."
+    },
+    {
+      "type": "builder",
+      "title": "Mijn verhaal — laag 5",
+      "prompt": "Add your 'something I did recently' line to your intro.",
+      "slots": [
+        { "label": "Tijd", "chips": ["Vorige week", "Afgelopen weekend", "Gisteren"] },
+        { "label": "Hulpwerkwoord", "chips": ["heb ik", "ben ik"] },
+        { "label": "Wat", "chips": ["een nieuw restaurant geprobeerd", "naar Utrecht gegaan", "een goede film gezien"] }
+      ],
+      "sample": "Afgelopen weekend ben ik naar Utrecht gegaan."
+    },
+    {
+      "type": "journal",
+      "prompt": "Gefeliciteerd — je kunt nu in de verleden tijd vertellen! Write your full *mijn verhaal* (all five layers), ending with the new sentence about something you did recently.",
+      "starters": ["Ik heet …", "Ik kom uit …", "Afgelopen weekend heb ik …"],
+      "minSentences": 5
+    }
+  ]
+}

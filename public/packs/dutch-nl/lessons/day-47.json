@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "day-47",
+  "day": 47,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Vroeger vs nu",
+  "emoji": "🔁",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Habitual past with the imperfectum and the placement of frequency adverbs (altijd, vaak, soms, nooit, meestal)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Vroeger deed ik dat anders",
+      "body": "**Vroeger** means 'in the old days / I used to'. For habits that were true back then, Dutch just uses the **imperfectum** — there's no separate 'used to' verb: *Vroeger woonde ik in Utrecht, nu woon ik in Amsterdam.* Same verb, two tenses, one neat contrast.",
+      "callout": "*vroeger* pairs with the imperfectum; *nu* with the present. Line them up and you've got a story."
+    },
+    {
+      "type": "chips",
+      "title": "Hoe vaak?",
+      "items": [
+        { "nl": "altijd", "en": "always", "speak": "altijd" },
+        { "nl": "meestal", "en": "usually", "speak": "meestal" },
+        { "nl": "vaak", "en": "often", "speak": "vaak" },
+        { "nl": "soms", "en": "sometimes", "speak": "soms" },
+        { "nl": "nooit", "en": "never", "speak": "nooit" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Waar staat het bijwoord?",
+      "body": "Frequency adverbs sit **right after the finite verb** (and its subject): *Ik ging **vaak** naar zee. We aten **meestal** om zes uur. Ze speelde **nooit** binnen.* If you front a time word, the verb still comes second and the adverb follows the subject: *Vroeger ging ik **vaak**…*",
+      "table": {
+        "headers": ["Sentence", "Adverb sits…"],
+        "rows": [
+          ["Ik ging vaak naar zee.", "after the verb"],
+          ["We aten meestal buiten.", "after the verb"],
+          ["Vroeger speelde ik nooit binnen.", "after verb + subject"]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "Vroeger vs nu",
+      "pairs": [
+        { "left": "Vroeger fietste ik naar werk.", "right": "Nu ga ik met de trein.", "note": "Imperfectum for the old habit, present for now. The pivot word (*vroeger/nu*) sits first, so the verb inverts." },
+        { "left": "Vroeger aten we altijd vlees.", "right": "Nu eten we vaak vegetarisch.", "note": "Frequency adverb (*altijd/vaak*) tucked right after the verb in both." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence puts the frequency adverb in the right place?",
+      "options": ["Ik naar zee vaak ging.", "Ik ging vaak naar zee.", "Vaak ik ging naar zee."],
+      "correct": 1,
+      "explain": "Finite verb second (*ging*), adverb right after it (*vaak*), then the rest: *Ik ging vaak naar zee.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'I used to often go to the beach.' (Start with *Vroeger*.)",
+      "answers": ["vroeger ging ik vaak naar het strand", "vroeger ging ik vaak naar zee"],
+      "hint": "Vroeger + verb (2nd) + ik + vaak + rest.",
+      "explain": "*Vroeger ging ik vaak naar het strand.* Fronting *vroeger* pushes the verb to second place; *vaak* follows the subject."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "We aten meestal om zes uur.",
+      "answers": ["we aten meestal om zes uur"]
+    },
+    {
+      "type": "builder",
+      "title": "Vroeger vs nu",
+      "prompt": "Build a 'then' half: an old habit in the imperfectum plus a frequency adverb.",
+      "slots": [
+        { "label": "Vroeger…", "chips": ["Vroeger woonde ik", "Vroeger speelde ik", "Vroeger at ik"] },
+        { "label": "…hoe vaak", "chips": ["altijd", "vaak", "nooit"] },
+        { "label": "…rest", "chips": ["in een klein dorp.", "buiten met vriendjes.", "snoep na school."] }
+      ],
+      "sample": "Vroeger speelde ik vaak buiten met vriendjes."
+    },
+    {
+      "type": "shadow",
+      "title": "Toen en nu",
+      "lines": [
+        { "nl": "Vroeger ging ik altijd op de fiets.", "en": "I always used to go by bike." },
+        { "nl": "Nu neem ik meestal de tram.", "en": "Now I usually take the tram." },
+        { "nl": "Vroeger keek ik nooit tv.", "en": "I never used to watch TV." },
+        { "nl": "Nu kijk ik soms een serie.", "en": "Now I sometimes watch a series." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write two *vroeger … nu …* pairs about your own life. Put a frequency adverb (*altijd, vaak, soms, nooit*) right after each verb.",
+      "starters": ["Vroeger… , nu…", "Vroeger ging ik vaak…"]
+    }
+  ]
+}

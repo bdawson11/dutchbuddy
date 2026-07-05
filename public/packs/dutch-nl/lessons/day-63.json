@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "day-63",
+  "day": 63,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "capstone",
+  "title": "Het nieuws — chisme met Daan",
+  "emoji": "🎉",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Week 9 drills, gossip with Daan in reported speech, and mijn verhaal layer 9",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 9 — je kunt nu praten in lagen",
+      "body": "Je zinnen zijn geen losse blokjes meer: je stapelt bijzinnen, vertelt door wat anderen zeiden, en speelt met echt versus denkbeeldig. Vandaag oefen je alles, roddel je met Daan over Sanne's nieuws, en breid je *mijn verhaal* uit.",
+      "callout": "Doel van vandaag: iets doorvertellen wat iemand jou vertelde — *… zei dat…*"
+    },
+    {
+      "type": "chips",
+      "title": "Warm even op — de bouwstenen van de week",
+      "items": [
+        { "nl": "hoewel het laat is", "en": "although it's late", "speak": "hoewel het laat is" },
+        { "nl": "de vriendin die belde", "en": "the friend who called", "speak": "de vriendin die belde" },
+        { "nl": "ze zei dat ze twijfelde", "en": "she said she was hesitating", "speak": "ze zei dat ze twijfelde" },
+        { "nl": "ik zou het doen", "en": "I would do it", "speak": "ik zou het doen" },
+        { "nl": "als ik haar was", "en": "if I were her", "speak": "als ik haar was" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Kies de juiste woordvolgorde: 'Ik ga vroeg weg ___ ik de trein haal.'",
+      "options": [
+        "zodat haal ik de trein",
+        "zodat ik de trein haal",
+        "zodat ik haal de trein"
+      ],
+      "correct": 1,
+      "explain": "*zodat* is een voegwoord van gevolg; de persoonsvorm gaat naar het eind: *…zodat ik de trein **haal**.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Vul het relatiewoord in: 'Dat is de stad ___ Sanne misschien gaat wonen.' (die / dat / waar)",
+      "answers": ["waar", "Dat is de stad waar Sanne misschien gaat wonen."],
+      "hint": "een plek + 'wonen in' → welk woord?",
+      "explain": "Bij een plek gebruik je *waar*: *de stad **waar** Sanne misschien gaat wonen.*"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Doorvertellen: 'Ga je verhuizen?' → Daan vroeg ___ ze ging verhuizen.",
+      "options": ["dat", "of", "wat"],
+      "correct": 1,
+      "explain": "Het was een ja/nee-vraag, dus *of*: *Daan vroeg **of** ze ging verhuizen.* *dat* hoort bij een mededeling."
+    },
+    {
+      "type": "typed",
+      "prompt": "Maak beleefd met 'Zou u…?': 'Herhaal dat.'",
+      "answers": [
+        "Zou u dat kunnen herhalen?",
+        "Zou u dat willen herhalen?",
+        "Zou u dat nog een keer kunnen herhalen?"
+      ],
+      "hint": "Zou u … kunnen/willen + werkwoord achteraan.",
+      "explain": "*Zou u dat kunnen herhalen?* — *zou* voorop, infinitief achteraan, meteen een stuk beleefder."
+    },
+    {
+      "type": "builder",
+      "title": "Bouw een als-droom",
+      "prompt": "Zeg wat je zou doen in Sanne's plaats.",
+      "slots": [
+        { "label": "Als… (verleden tijd)", "chips": ["Als ik Sanne was", "Als ik die kans kreeg", "Als ik meer tijd had"] },
+        { "label": "…zou (hoofdzin)", "chips": ["zou ik het gewoon doen", "zou ik er even over nadenken", "zou ik eerst gaan kijken"] }
+      ],
+      "sample": "Als ik Sanne was, zou ik eerst gaan kijken."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Café. Daan can't wait to spill Sanne's news to you",
+      "lines": [
+        { "speaker": "Daan", "nl": "Joh, heb je het al gehoord van Sanne?", "en": "Hey, have you heard about Sanne yet?" },
+        { "speaker": "You", "nl": "Een beetje. Wat zei ze precies?", "en": "A bit. What exactly did she say?" },
+        { "speaker": "Daan", "nl": "Ze zei dat een bedrijf in Utrecht haar een baan aanbood. Echt waar!", "en": "She said a company in Utrecht offered her a job. Seriously!", "spotlight": "indirecte rede: *ze zei dat … haar een baan **aanbood**.*" },
+        { "speaker": "You", "nl": "En? Vroeg je of ze het gaat aannemen?", "en": "And? Did you ask if she's going to take it?", "spotlight": "vraag doorvertellen: *of ze het gaat aannemen.*" },
+        { "speaker": "Daan", "nl": "Ja, maar ze zei dat ze nog twijfelde. Ze heeft nog niks besloten.", "en": "Yeah, but she said she was still hesitating. She hasn't decided anything yet.", "spotlight": "arc-anker: Sanne heeft nog niét besloten." },
+        { "speaker": "You", "nl": "Logisch. Hoewel het een mooie kans is, is verhuizen best groot.", "en": "Makes sense. Although it's a nice chance, moving is quite big.", "spotlight": "hoewel + werkwoord achteraan." },
+        { "speaker": "Daan", "nl": "Precies. Nou, als zij zou verhuizen, zou het café hier wel leger worden, hoor.", "en": "Exactly. Well, if she moved, this café would get emptier, you know.", "spotlight": "hypothetische als-zin + zou." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "De roddel op een rij",
+      "questions": [
+        { "q": "Wat vertelde Daan dat Sanne zei?", "options": ["Dat ze een baan aangeboden kreeg", "Dat ze ontslagen was", "Dat ze ziek was"], "correct": 0 },
+        { "q": "Heeft Sanne al besloten?", "options": ["Ja, ze gaat", "Nee, ze twijfelt nog", "Ja, ze blijft"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Zeg de roddelzinnen na",
+      "lines": [
+        { "nl": "Ze zei dat een bedrijf haar een baan aanbood.", "en": "She said a company offered her a job." },
+        { "nl": "Vroeg je of ze het gaat aannemen?", "en": "Did you ask if she's going to take it?" },
+        { "nl": "Ze zei dat ze nog twijfelde.", "en": "She said she was still hesitating." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mijn verhaal — laag 9: iets wat iemand je vertelde",
+      "prompt": "Voeg aan je zelfintroductie één zin toe in de indirecte rede: iets wat iemand tegen je zei. Bouw de nieuwe zin en zeg daarna je hele verhaal opnieuw op.",
+      "slots": [
+        { "label": "Wie vertelde het", "chips": ["Mijn buddy Emma zei", "Een vriend zei", "Mijn buurvrouw zei"] },
+        { "label": "Voegwoord", "chips": ["dat"] },
+        { "label": "Boodschap (werkwoord achteraan)", "chips": ["mijn Nederlands echt beter werd", "ik het goed deed", "ik het gewoon moest blijven proberen"] }
+      ],
+      "sample": "Mijn buddy Emma zei dat mijn Nederlands echt beter werd.",
+      "starters": ["Ik heet…", "Ik kom uit…", "Ik leer Nederlands, en mijn buddy zei dat…"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Week 9 zit erop — knap gedaan! Schrijf je hele 'mijn verhaal' één keer op, inclusief de nieuwe laag (iets wat iemand je vertelde). Blijf zoveel mogelijk in het Nederlands.",
+      "starters": ["Ik heet… en ik kom uit…", "Iemand zei laatst tegen me dat…"],
+      "minSentences": 4
+    }
+  ]
+}

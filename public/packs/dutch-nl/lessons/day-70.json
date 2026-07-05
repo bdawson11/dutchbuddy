@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-70",
+  "day": 70,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "capstone",
+  "title": "Mijn grote beslissing",
+  "emoji": "✉️",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Capstone — 'mijn grote beslissing' and the M10 self-intro layer",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 10 in één blik",
+      "body": "Je hebt de zwaarste week overleefd. **er** in al zijn vormen (*er staat, ik heb er twee, ik denk eraan*), de passief met **worden** (*de winkel wordt verbouwd*), **reflexieven** (*ik voel me, ik verheug me*), **om … te**, en **werkwoordclusters** (*ik wil het morgen doen*, *…omdat ik het heb kunnen doen*). Vandaag zet je alles in één portret: jouw grote beslissing.",
+      "callout": "Doel vandaag: een kort dagboekstukje over een grote keuze — met *er* en een bijzin, net als Sanne."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Kies de zin met correcte *er*: 'Heb je nog koekjes?'",
+      "options": ["Ja, ik heb nog twee.", "Ja, ik heb er nog twee.", "Ja, ik heb er nog twee koekjes."],
+      "correct": 1,
+      "explain": "Noem je het zelfstandig naamwoord niet meer, dan hou je *er*: *Ik heb er nog twee.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "'Ben je blij met je keuze?' Antwoord: ja, je bent er blij mee.",
+      "answers": ["Ja, ik ben er blij mee.", "Ik ben er blij mee.", "Ja ik ben er blij mee", "Ik ben er blij mee"],
+      "hint": "met → mee, helemaal aan het eind.",
+      "explain": "*Ik ben er blij mee.* *blij* in het midden, *mee* sluit de zin af."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Op een bord staat: kies het meest natuurlijke Nederlands.",
+      "options": ["Hier bouwt men.", "Hier wordt gebouwd.", "Hier is bouwen."],
+      "correct": 1,
+      "explain": "De onpersoonlijke passief hoort op borden thuis: *Hier wordt gebouwd.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Zeg dat je je op iets nieuws verheugt. (Say you're looking forward to something new.)",
+      "answers": ["Ik verheug me op iets nieuws.", "Ik verheug me op iets nieuws"],
+      "hint": "verheugen → ik verheug me op…",
+      "explain": "*Ik verheug me op iets nieuws.* Reflexief *me* + *op*."
+    },
+    {
+      "type": "builder",
+      "title": "Bouw de bijzin",
+      "prompt": "Bouw een bijzin met een werkwoordcluster aan het eind: '…omdat ik in Utrecht wil wonen.'",
+      "slots": [
+        { "label": "Voegwoord", "chips": ["omdat", "dat"] },
+        { "label": "Onderwerp", "chips": ["ik"] },
+        { "label": "Plaats", "chips": ["in Utrecht", "dichter bij werk"] },
+        { "label": "Cluster (eind)", "chips": ["wil wonen", "wonen wil"] }
+      ],
+      "sample": "omdat ik in Utrecht wil wonen"
+    },
+    {
+      "type": "card",
+      "title": "Sanne's brief — een model",
+      "body": "Zo zou Sanne haar beslissing kunnen opschrijven. Let op de bouwstenen van deze week. *Ik heb een grote beslissing genomen: ik ga verhuizen, omdat ik dichter bij mijn werk wil wonen. Het was niet makkelijk — ik heb er lang over nagedacht. Mijn oude huis wordt nu leeggehaald en alles is al ingepakt. Ik voel me zenuwachtig, maar ik verheug me er ook op. Er begint iets nieuws.*",
+      "callout": "De formule: *een beslissing* + een *omdat*-bijzin + *er* (eraan/erover/erop) + een reflexief gevoel."
+    },
+    {
+      "type": "builder",
+      "title": "Mijn verhaal — laag 10: jouw grote beslissing",
+      "prompt": "Bouw jouw eigen grote beslissing, met een *omdat*-bijzin en *er*. Verzin gerust — het hoeft niet echt te zijn.",
+      "slots": [
+        { "label": "De beslissing", "chips": ["Ik heb besloten om te verhuizen", "Ik heb besloten Nederlands te leren", "Ik heb een grote keuze gemaakt"] },
+        { "label": "Reden (omdat-bijzin)", "chips": ["omdat ik iets nieuws wil beginnen", "omdat ik dichter bij mijn werk wil wonen", "omdat ik hier wil blijven"] },
+        { "label": "Met er", "chips": ["Ik heb er lang over nagedacht", "Ik verheug me erop", "Ik ben er blij mee"] }
+      ],
+      "sample": "Ik heb besloten om te verhuizen, omdat ik iets nieuws wil beginnen. Ik heb er lang over nagedacht.",
+      "starters": ["Ik heb besloten…", "Ik heb er lang over nagedacht…"]
+    },
+    {
+      "type": "comprehension",
+      "title": "Sanne's brief — begrijp je het?",
+      "questions": [
+        { "q": "Waarom gaat Sanne verhuizen?", "options": ["Omdat ze dichter bij haar werk wil wonen", "Omdat haar huis te duur is", "Omdat Emma het zegt"], "correct": 0 },
+        { "q": "Hoe voelt Sanne zich?", "options": ["Alleen zenuwachtig", "Zenuwachtig, maar ze verheugt zich ook", "Helemaal niet blij"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Zeg het hardop — jouw beslissing",
+      "lines": [
+        { "nl": "Ik heb een grote beslissing genomen.", "en": "I've made a big decision." },
+        { "nl": "Ik heb er lang over nagedacht.", "en": "I thought about it for a long time." },
+        { "nl": "Ik verheug me erop.", "en": "I'm looking forward to it." },
+        { "nl": "Er begint iets nieuws.", "en": "Something new is beginning." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Gefeliciteerd — de *er*-week zit erop! Schrijf jouw 'grote beslissing' als een kort dagboekstukje van vier of vijf zinnen. Gebruik *er*, een *omdat*-bijzin, en een reflexief werkwoord (*ik voel me… / ik verheug me…*). Blijf in het Nederlands!",
+      "starters": ["Ik heb besloten om…", "Ik heb er lang over nagedacht, omdat…", "Ik voel me…"],
+      "minSentences": 4
+    }
+  ]
+}

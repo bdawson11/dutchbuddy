@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "day-23",
+  "day": 23,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Mag ik...? Bestellen bij de snackbar",
+  "emoji": "☕",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "The four ordering phrases — mag ik, ik wil graag, doe maar, voor mij — and a snackbar dialogue",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Bestellen: de basiszinnen",
+      "body": "Four openers cover almost every order you'll make. **mag ik** is the safe default anywhere. **doe maar** is fast and casual — decided, no fuss.",
+      "table": {
+        "headers": ["Zin", "Wanneer", "Voorbeeld"],
+        "rows": [
+          ["mag ik…? — may I have…?", "altijd veilig, overal", "Mag ik een koffie?"],
+          ["ik wil graag… — I'd like…", "iets netter, heel gewoon", "Ik wil graag een broodje kaas."],
+          ["doe maar… — I'll have…", "casual, snel beslist", "Doe maar de patat."],
+          ["voor mij… — for me…", "als de groep samen bestelt", "Voor mij de tosti, graag."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the snackbar menu",
+      "items": [
+        { "nl": "de koffie", "en": "coffee", "speak": "de koffie" },
+        { "nl": "de thee", "en": "tea", "speak": "de thee" },
+        { "nl": "een broodje kaas", "en": "a cheese roll", "speak": "een broodje kaas" },
+        { "nl": "de patat", "en": "fries", "speak": "de patat" },
+        { "nl": "een frikandel", "en": "a Dutch skinless sausage", "speak": "een frikandel" },
+        { "nl": "een kroket", "en": "a croquette", "speak": "een kroket" },
+        { "nl": "een tosti", "en": "a grilled cheese sandwich", "speak": "een tosti" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Netjes vs snel",
+      "pairs": [
+        { "left": "mag ik…? — polite, always works", "right": "doe maar… — casual, decisive", "note": "Both are perfectly normal. *doe maar* just sounds like you've already made up your mind." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You've decided fast and want to sound casual about it — which phrase fits best?",
+      "options": ["Mag ik…?", "Ik wil graag…", "Doe maar…"],
+      "correct": 2,
+      "explain": "*doe maar* — quick and decided. *mag ik* and *ik wil graag* both work too, but they sound a touch more formal."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the Dutch phrase for 'I would like…'.",
+      "answers": ["ik wil graag"],
+      "hint": "Modal *willen* + *graag*.",
+      "explain": "*ik wil graag* — one of your four safe openers."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Mag ik een koffie?",
+      "answers": ["mag ik een koffie"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Snackbar counter, early evening — you and Daan deciding what to order",
+      "lines": [
+        { "speaker": "Daan", "nl": "Zo, wat neem jij? Ik heb wel trek, hoor.", "en": "So, what are you having? I'm hungry, you know." },
+        { "speaker": "You", "nl": "Ik wil graag een frikandel. En jij?", "en": "I'd like a frikandel. And you?" },
+        { "speaker": "Daan", "nl": "Doe mij maar de patat met, joh.", "en": "Just give me the fries with (mayo), man.", "spotlight": "doe maar — casual, decisive ordering." },
+        { "speaker": "You", "nl": "Mag ik een frikandel en een patatje met, alstublieft?", "en": "May I have a frikandel and a small fries with, please?", "spotlight": "mag ik — the safe, polite default when talking to staff." },
+        { "speaker": "Daan", "nl": "Lekker! Dank je wel.", "en": "Nice! Thank you." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Daan order?", "options": ["Patat met", "Een frikandel", "Een tosti"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Shadow the orders",
+      "lines": [
+        { "nl": "Mag ik een koffie, alstublieft?", "en": "May I have a coffee, please?" },
+        { "nl": "Ik wil graag een broodje kaas.", "en": "I'd like a cheese roll." },
+        { "nl": "Doe maar de patat.", "en": "I'll have the fries." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write your own order at the snackbar counter — use mag ik or ik wil graag.",
+      "starters": ["Mag ik…", "Ik wil graag…"]
+    }
+  ]
+}

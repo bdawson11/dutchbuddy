@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "day-40",
+  "day": 40,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "Advies geven",
+  "emoji": "💡",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "je moet, je kunt beter, a soft preview of zou moeten, and neem rust",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Je moet… — direct advies",
+      "body": "**Je moet** + infinitive is the strongest advice: a real 'you must/should'. *Je moet naar de huisarts gaan* (You must go to the GP). Blunt, but normal between friends — Dutch directness isn't rude, it's just honest.",
+      "callout": "*Je moet* — no sugar-coating needed, that's the Dutch way."
+    },
+    {
+      "type": "chips",
+      "title": "Advies-woorden",
+      "items": [
+        { "nl": "Je moet rusten.", "en": "You must rest.", "speak": "Je moet rusten." },
+        { "nl": "Je kunt beter naar bed gaan.", "en": "You'd better go to bed.", "speak": "Je kunt beter naar bed gaan." },
+        { "nl": "Neem rust.", "en": "Take a rest.", "speak": "Neem rust." },
+        { "nl": "Drink veel water.", "en": "Drink lots of water.", "speak": "Drink veel water." },
+        { "nl": "Blijf thuis.", "en": "Stay home.", "speak": "Blijf thuis." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Je kunt beter… — de zachtere suggestie",
+      "body": "**Je kunt beter** + infinitive (literally 'you can better') softens the advice into a suggestion: *Je kunt beter water drinken* (You'd better drink water). Less of an order than *je moet*, more of a nudge.",
+      "callout": "*kunt beter* — beter (better) turns 'can' into a gentle 'should'."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is the gentlest way to suggest someone rest?",
+      "options": ["Je moet rusten.", "Je kunt beter rusten.", "Rust! Nu!"],
+      "correct": 1,
+      "explain": "Je kunt beter softens the advice into a suggestion rather than a command."
+    },
+    {
+      "type": "contrast",
+      "title": "Moet vs. zou moeten",
+      "pairs": [
+        {
+          "left": "Je moet rusten. — You must rest. (direct)",
+          "right": "Je zou moeten rusten. — You should rest. (softer, hypothetical)",
+          "note": "Zou is a first taste of the conditional (more on this later). Je zou moeten = a gentle 'should', good for advice you don't want to force."
+        }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'Take a rest.' (imperative)",
+      "answers": ["neem rust", "neem maar rust"],
+      "hint": "Imperative = the bare verb stem",
+      "explain": "Neem rust — the bare stem 'neem' as a command, no 'je' needed."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Je kunt beter naar bed gaan.",
+      "answers": ["je kunt beter naar bed gaan"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma notices you look terrible and gives you a stack of advice",
+      "lines": [
+        { "speaker": "Emma", "nl": "Joh, je ziet er niet goed uit. Wat is er?", "en": "Hey, you don't look good. What's wrong?" },
+        { "speaker": "You", "nl": "Ik heb hoofdpijn en ik voel me heel moe.", "en": "I have a headache and I feel very tired." },
+        { "speaker": "Emma", "nl": "Je moet echt naar bed, hoor.", "en": "You really must go to bed.", "spotlight": "je moet — Emma's direct advice" },
+        { "speaker": "You", "nl": "Ik heb morgen toch een afspraak.", "en": "But I have an appointment tomorrow." },
+        { "speaker": "Emma", "nl": "Die kun je beter verzetten. Neem rust, drink veel water.", "en": "You'd better reschedule that. Take a rest, drink lots of water.", "spotlight": "kunt beter + the classic neem rust" },
+        { "speaker": "You", "nl": "Oké, oké. Misschien zou ik ook naar de huisarts moeten gaan.", "en": "Okay, okay. Maybe I should also go to the GP.", "spotlight": "zou moeten — a soft self-directed 'should'" },
+        { "speaker": "Emma", "nl": "Goed idee. Bel morgenvroeg maar even.", "en": "Good idea. Just call tomorrow morning." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Emma tell you to do first?", "options": ["Go to bed", "Call 112", "Go to work"], "correct": 0 },
+        { "q": "What does 'You' consider doing at the end?", "options": ["Cancel the appointment forever", "Go to the huisarts", "Ignore it"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "A friend texts you that they feel terrible. Write two pieces of advice — one with je moet, one with je kunt beter.",
+      "starters": ["Je moet...", "Je kunt beter..."]
+    }
+  ]
+}

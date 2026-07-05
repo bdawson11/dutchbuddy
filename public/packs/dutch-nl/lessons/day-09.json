@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "day-09",
+  "day": 9,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Wat kost het? — geld en grote getallen",
+  "emoji": "💶",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Hundreds and thousands, euro amounts, and reading prices like €3,50 aloud",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Hundreds and thousands",
+      "body": "*honderd* (100) and *duizend* (1000) work like the tens: stack a unit in front and keep it one word. And you **don't** say 'een honderd' — plain *honderd* already means one hundred.",
+      "table": {
+        "headers": ["Number", "Dutch"],
+        "rows": [
+          ["100", "honderd"],
+          ["200", "tweehonderd"],
+          ["500", "vijfhonderd"],
+          ["1000", "duizend"],
+          ["2000", "tweeduizend"],
+          ["150", "honderdvijftig"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the big ones",
+      "items": [
+        { "nl": "honderd", "en": "100", "speak": "honderd" },
+        { "nl": "tweehonderd", "en": "200", "speak": "tweehonderd" },
+        { "nl": "duizend", "en": "1000", "speak": "duizend" },
+        { "nl": "honderdvijftig", "en": "150", "speak": "honderdvijftig" },
+        { "nl": "tweeduizend", "en": "2000", "speak": "tweeduizend" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "How the Dutch say a price",
+      "body": "The comma is the decimal point: **€3,50** is written with a comma and said *drie euro vijftig*. The trick: say the euros, the word *euro*, then the cents as a plain number — **no** 'cent' needed. Note *euro* never adds an -s here: *twee euro*, not 'twee euro's'.",
+      "table": {
+        "headers": ["Price", "Said aloud"],
+        "rows": [
+          ["€1,00", "een euro"],
+          ["€3,50", "drie euro vijftig"],
+          ["€4,75", "vier euro vijfenzeventig"],
+          ["€12,45", "twaalf euro vijfenveertig"],
+          ["€0,80", "tachtig cent"]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "Written vs spoken",
+      "pairs": [
+        { "left": "€2,99", "right": "twee euro negenennegentig", "note": "The cents are just the reversed-tens number you drilled yesterday." },
+        { "left": "€0,50", "right": "vijftig cent", "note": "Under a euro, drop 'euro' and say the cents with *cent*." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "How do you say €4,75 aloud?",
+      "options": ["vier euro vijfenzeventig", "vier vijfenzeventig euro", "vier komma vijfenzeventig"],
+      "correct": 0,
+      "explain": "Euros, then *euro*, then the cents as one number: *vier euro vijfenzeventig*. You never say 'komma' out loud for money."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the price in Dutch words.",
+      "speak": "drie euro vijftig",
+      "answers": ["drie euro vijftig"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the snackbar counter — Daan is paying for you both",
+      "lines": [
+        { "speaker": "Daan", "nl": "Twee patat, alsjeblieft. Wat kost dat?", "en": "Two fries, please. What does that cost?" },
+        { "speaker": "You", "nl": "Dat is vijf euro vijftig.", "en": "That's five euros fifty.", "spotlight": "€5,50 said the Dutch way — euros, euro, then the cents." },
+        { "speaker": "Daan", "nl": "Prima. Hier is zes euro.", "en": "Fine. Here's six euros.", "spotlight": "*zes euro* — euro stays singular after a number." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Write €12,45 in Dutch words, as you'd say it at a till.",
+      "answers": ["twaalf euro vijfenveertig"],
+      "hint": "euros → euro → cents as one number.",
+      "explain": "*twaalf euro vijfenveertig*. The 45 is *vijfenveertig* — five-and-forty."
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch the price?",
+      "questions": [
+        { "q": "How much do the two fries cost?", "options": ["€5,15", "€5,50", "€6,00"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Think of three things you bought this week. Write each price in Dutch words the way you'd say it aloud.",
+      "starters": ["Een koffie kost …", "De boodschappen waren …"]
+    }
+  ]
+}

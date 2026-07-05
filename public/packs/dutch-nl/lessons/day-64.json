@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-64",
+  "day": 64,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Er staat een fiets — de plaatshouder er",
+  "emoji": "📍",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Locative and existential er — er is/er zijn and er staat/ligt/hangt",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Er is, er zijn",
+      "body": "Dutch hates opening a sentence with a vague, brand-new subject. English says *A man is standing at the door*; Dutch slips in a placeholder first: **er**. *Er staat een man voor de deur.* Think of **er** as the *there* in *there is / there are* — it holds the subject's seat until the real thing arrives. *Er is een probleem* (there's a problem). *Er zijn veel fietsen* (there are lots of bikes).",
+      "callout": "Known, definite subject? No er: *De man staat voor de deur.* *Er* is only for the vague, indefinite stuff (een, geen, a number, veel)."
+    },
+    {
+      "type": "card",
+      "title": "Staan, liggen, zitten, hangen",
+      "body": "Dutch almost never uses a plain *is* for where a thing sits — it picks a posture verb. Upright things **staan**, flat things **liggen**, contained things **zitten**, hanging things **hangen**. *De borden staan in de kast.* *Het boek ligt op tafel.* *Je sleutels zitten in je jas.* Add **er** when the thing is indefinite: *Er hangt een schilderij aan de muur.*",
+      "table": {
+        "headers": ["Werkwoord", "Waarvoor", "Voorbeeld"],
+        "rows": [
+          ["staan", "upright things", "Er staat een fiets buiten — a bike is outside"],
+          ["liggen", "flat, lying things", "Er ligt een brief op tafel — a letter is on the table"],
+          ["zitten", "things inside / contained", "Er zit een haar in mijn soep — there's a hair in my soup"],
+          ["hangen", "hanging things", "Er hangt een jas aan de haak — a coat is on the hook"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tik om te horen",
+      "items": [
+        { "nl": "Er staat koffie op tafel.", "en": "There's coffee on the table.", "speak": "Er staat koffie op tafel." },
+        { "nl": "Er ligt sneeuw op straat.", "en": "There's snow on the street.", "speak": "Er ligt sneeuw op straat." },
+        { "nl": "Er zit een haar in mijn soep.", "en": "There's a hair in my soup.", "speak": "Er zit een haar in mijn soep." },
+        { "nl": "Er hangt een klok aan de muur.", "en": "There's a clock on the wall.", "speak": "Er hangt een klok aan de muur." },
+        { "nl": "Er is nog soep.", "en": "There's still soup.", "speak": "Er is nog soep." },
+        { "nl": "Er zijn geen stoelen.", "en": "There are no chairs.", "speak": "Er zijn geen stoelen." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Wanneer wel, wanneer niet",
+      "pairs": [
+        { "left": "De fiets staat voor de deur.", "right": "Er staat een fiets voor de deur.", "note": "Left: a known bike (de fiets) leads the sentence — no er. Right: some bike, brand-new info (een fiets) — er is required." },
+        { "left": "Het pakket ligt in de gang.", "right": "Er ligt een pakket in de gang.", "note": "Definite subject goes up front; an indefinite subject hides behind er." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je vriend vraagt of er nog melk is. Wat is correct?",
+      "options": ["Er is nog melk.", "Is nog melk.", "Het is nog melk."],
+      "correct": 0,
+      "explain": "Existential 'there is' = *er is*. Drop *er* and the sentence has no subject seat; *het is* would mean 'it is' (a specific it), not 'there is'."
+    },
+    {
+      "type": "typed",
+      "prompt": "Zeg dat er een kat in de tuin zit. (Say there's a cat in the garden.)",
+      "answers": ["Er zit een kat in de tuin.", "Er zit een kat in de tuin"],
+      "hint": "Indefinite subject → start with the placeholder; an animal inside a space → zitten.",
+      "explain": "*Er zit een kat in de tuin.* *een kat* is new and vague → *er*; something 'in' a space → *zitten*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma geeft je een rondleiding door haar woonkamer in de Pijp.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Kijk, dit is de woonkamer. Er staat niet veel, hoor.", "en": "Look, this is the living room. There isn't much here, honestly.", "spotlight": "er staat — existential with a posture verb, and an indefinite (niet veel)." },
+        { "speaker": "You", "nl": "Wat hangt er aan de muur?", "en": "What's hanging on the wall?" },
+        { "speaker": "Emma", "nl": "Er hangt een oude kaart van Amsterdam. Die vind ik echt leuk.", "en": "There's an old map of Amsterdam hanging there. I really like it." },
+        { "speaker": "You", "nl": "En wat ligt er op tafel?", "en": "And what's lying on the table?" },
+        { "speaker": "Emma", "nl": "Een stapel boeken. Er ligt altijd wel wat rommel, sorry!", "en": "A stack of books. There's always some clutter lying around, sorry!" },
+        { "speaker": "You", "nl": "Nee joh, het is hier juist gezellig.", "en": "No way, it's actually cozy here." },
+        { "speaker": "Emma", "nl": "Dank je! Er is koffie in de keuken — wil je?", "en": "Thanks! There's coffee in the kitchen — want some?" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Heb je het gevolgd?",
+      "questions": [
+        { "q": "Wat hangt er bij Emma aan de muur?", "options": ["Een schilderij", "Een oude kaart van Amsterdam", "Een klok"], "correct": 1 },
+        { "q": "Wat is er in de keuken?", "options": ["Thee", "Koffie", "Niets"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ wat je hoort.",
+      "speak": "Er staat een fiets voor de deur.",
+      "answers": ["Er staat een fiets voor de deur.", "Er staat een fiets voor de deur"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschrijf jouw kamer. Schrijf drie zinnen met *er* — wat staat, ligt of hangt er?",
+      "starters": ["In mijn kamer staat er…", "Aan de muur hangt er…", "Op mijn bureau ligt er…"],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "day-20",
+  "day": 20,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "review",
+  "title": "Een wandeling door de Pijp",
+  "emoji": "🚲",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Week 3 review, then an immersion walk with Emma through her Amsterdam buurt",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Terug naar Week 3",
+      "body": "Deze week ging over **mensen en plekken**: familie met een warme *-je* (*zusje*, *broertje*), adjectieven met de **-e-regel** (*een leuk huis* vs *het leuke huis*), possessives (*mijn, haar, onze*), en je eigen *buurt*. Tijd voor een mix — en een wandeling met Emma."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which article always goes with a diminutive (-je)?",
+      "options": ["de", "het", "allebei"],
+      "correct": 1,
+      "explain": "Diminutives are always het — zusje, broertje, pleintje, no exceptions."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'our neighborhood' (buurt is a de-word).",
+      "answers": ["onze buurt"],
+      "hint": "de-word → onze, always."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct — 'a nice house' (huis is het, indefinite)?",
+      "options": ["een leuke huis", "een leuk huis"],
+      "correct": 1,
+      "explain": "Het-word + een (indefinite) keeps the bare adjective: een leuk huis."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma takes you on a walk through her neighborhood, de Pijp.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Kijk, dit is mijn buurt — de Pijp. Heel gezellig, hoor!", "en": "Look, this is my neighborhood — the Pijp. Really cozy!" },
+        { "speaker": "You", "nl": "Woon je hier al lang?", "en": "Have you lived here long?" },
+        { "speaker": "Emma", "nl": "Al zeven jaar! Onze straat is klein, maar er is een heerlijke markt om de hoek.", "en": "Seven years already! Our street is small, but there's a lovely market around the corner.", "spotlight": "onze straat — straat is a de-word, so onze." },
+        { "speaker": "You", "nl": "En je buren?", "en": "And your neighbors?" },
+        { "speaker": "Emma", "nl": "Heel aardig! Een beetje druk soms, met hun kinderen, maar altijd gezellig.", "en": "Very kind! A bit hyper sometimes, with their kids, but always fun." },
+        { "speaker": "Emma", "nl": "Mijn favoriete plek is het pleintje bij de gracht — klein plein, groot gevoel.", "en": "My favorite spot is the little square by the canal — small square, big feeling.", "spotlight": "het pleintje — diminutive of plein, still het (it already was)." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "What is the name of Emma's neighborhood?", "options": ["De Pijp", "De Jordaan", "Het Centrum"], "correct": 0 },
+        { "q": "What does Emma call the small square near the canal?", "options": ["de markt", "het pleintje", "de straat"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Which detail from Emma's buurt tour felt most gezellig to you? Write 2-3 sentences about your own ideal buurt.",
+      "starters": ["Mijn ideale buurt heeft...", "Het voelt gezellig als..."]
+    }
+  ]
+}

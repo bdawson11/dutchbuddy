@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "day-55",
+  "day": 55,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "review",
+  "title": "Moeten expats Nederlands leren?",
+  "emoji": "⚖️",
+  "level": "A2",
+  "durationMin": [15, 20],
+  "summary": "Week 8 recap, then Emma and Daan debate whether expats must learn Dutch",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 8, kort samengevat",
+      "body": "Everything from this week in one glance. Notice how much of it hangs on **word order** — the future verb and the subclause verb both have a fixed home.",
+      "table": {
+        "headers": ["Structure", "Example"],
+        "rows": [
+          ["gaan-toekomst", "Ik ga morgen beginnen."],
+          ["zullen — voorstel", "Zullen we koffie drinken?"],
+          ["mening + dat", "Ik vind dat het waar is."],
+          ["bijzin (werkwoord eind)", "Ik blijf omdat ik het leuk vind."],
+          ["vergroten/overtreffen", "groter dan · het grootst"]
+        ]
+      }
+    },
+    {
+      "type": "typed",
+      "prompt": "Mixed drill — join with omdat: 'Ik leer Nederlands.' + 'Ik woon hier.'",
+      "answers": ["Ik leer Nederlands omdat ik hier woon.", "Ik leer Nederlands omdat ik hier woon", "ik leer nederlands omdat ik hier woon."],
+      "hint": "The second verb (woon) goes to the end.",
+      "explain": "*Ik leer Nederlands omdat ik hier woon.* — subclause verb parked last."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which one is right?",
+      "options": [
+        "Ik denk dat Utrecht is mooier.",
+        "Ik denk dat Utrecht mooier is.",
+        "Ik denk dat mooier Utrecht is."
+      ],
+      "correct": 1,
+      "explain": "After *dat* the verb *is* goes to the end: *…dat Utrecht mooier is.* And *mooier* is the comparative of *mooi*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Café table. You mention you switched to English at the bakery today. Daan pounces; Emma referees.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Zie je wel! Ik vind dat je Nederlands moet leren als je hier woont.", "en": "See! I think you have to learn Dutch if you live here.", "spotlight": "Two subclauses stacked: dat … moet leren, als … woont." },
+        { "speaker": "You", "nl": "Rustig, joh. Ik doe echt mijn best, hoor.", "en": "Easy, mate. I really am doing my best." },
+        { "speaker": "Emma", "nl": "Kijk, ik denk dat mensen gewoon tijd nodig hebben.", "en": "Look, I think people just need time.", "spotlight": "Emma, warm: ik denk dat … hebben, verb last." },
+        { "speaker": "Daan", "nl": "Tuurlijk. Maar het gaat sneller als niemand meteen op Engels overschakelt.", "en": "Sure. But it goes faster if nobody switches to English right away.", "spotlight": "sneller (comparative) + als-subclause with overschakelt at the end." },
+        { "speaker": "Emma", "nl": "Precies. En dat is nou juist het probleem, Daan.", "en": "Exactly. And that's precisely the problem, Daan." },
+        { "speaker": "Daan", "nl": "Nou… oké. Eerlijk? Ik snap ook dat het echt moeilijk is.", "en": "Well… okay. Honestly? I get that it's really hard too.", "spotlight": "Daan softens: the honest turn, still a dat-clause." },
+        { "speaker": "You", "nl": "Dank je. Ik ga volgend jaar een cursus doen, beloofd.", "en": "Thanks. I'm going to take a course next year, promise.", "spotlight": "gaan-future: ik ga … doen." },
+        { "speaker": "Daan", "nl": "Goed plan. En ik zal langzamer praten, hoor.", "en": "Good plan. And I'll speak more slowly, you know.", "spotlight": "zullen promise + langzamer (comparative)." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Wat vinden ze echt?",
+      "questions": [
+        { "q": "What does Daan admit at the end of the debate?", "options": ["That English is easier", "That learning Dutch is really hard", "That expats shouldn't bother"], "correct": 1 },
+        { "q": "What does Emma think people need?", "options": ["More rules", "Time", "A cheaper course"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Shadow the key lines",
+      "lines": [
+        { "nl": "Ik doe echt mijn best, hoor.", "en": "I really am doing my best." },
+        { "nl": "Ik snap dat het moeilijk is.", "en": "I get that it's hard." },
+        { "nl": "Ik ga volgend jaar een cursus doen.", "en": "I'm going to take a course next year." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Whose side are you on? Write three sentences: your opinion (*ik vind dat…*), one reason (*omdat…*), and a plan (*ik ga…*).",
+      "starters": ["Ik vind dat…", "…omdat…", "Ik ga…"],
+      "minSentences": 3
+    }
+  ]
+}

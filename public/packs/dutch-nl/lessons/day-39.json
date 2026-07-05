@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "day-39",
+  "day": 39,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "Gevoelens",
+  "emoji": "😊",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "blij, boos, moe, bang, zenuwachtig, verdrietig — and the reflexive zich voelen",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Hoe voel je je?",
+      "body": "Six feelings to know cold: *blij* (happy), *boos* (angry), *moe* (tired), *bang* (scared), *zenuwachtig* (nervous), *verdrietig* (sad).",
+      "table": {
+        "headers": ["Nederlands", "Betekenis"],
+        "rows": [
+          ["blij", "happy"],
+          ["boos", "angry"],
+          ["moe", "tired"],
+          ["bang", "scared"],
+          ["zenuwachtig", "nervous"],
+          ["verdrietig", "sad"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the feelings",
+      "items": [
+        { "nl": "blij", "en": "happy", "speak": "blij" },
+        { "nl": "boos", "en": "angry", "speak": "boos" },
+        { "nl": "moe", "en": "tired", "speak": "moe" },
+        { "nl": "bang", "en": "scared", "speak": "bang" },
+        { "nl": "zenuwachtig", "en": "nervous", "speak": "zenuwachtig" },
+        { "nl": "verdrietig", "en": "sad", "speak": "verdrietig" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Zich voelen — feeling as a reflexive verb",
+      "body": "**Zich voelen** (to feel) is reflexive — the pronoun changes with the subject, just like *zich wassen* (to wash oneself). *Ik voel me blij* (I feel happy). The reflexive pronoun always matches who's feeling it.",
+      "table": {
+        "headers": ["Persoon", "Voelen + reflexief"],
+        "rows": [
+          ["ik", "voel me"],
+          ["jij / je", "voelt je"],
+          ["hij / zij", "voelt zich"],
+          ["wij / we", "voelen ons"],
+          ["jullie", "voelen je"],
+          ["zij / ze", "voelen zich"]
+        ]
+      },
+      "callout": "*Ik voel me* — say it exactly like that. Not *ik voel* alone."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Complete: 'Zij voelt ___ zenuwachtig.'",
+      "options": ["me", "zich", "ons"],
+      "correct": 1,
+      "explain": "Third person singular (zij/hij) takes zich: zij voelt zich zenuwachtig."
+    },
+    {
+      "type": "contrast",
+      "title": "Zijn vs. zich voelen",
+      "pairs": [
+        {
+          "left": "Ik ben blij. — I am happy (simple state).",
+          "right": "Ik voel me blij. — I feel happy (zich voelen + adjective).",
+          "note": "Ik ben + adjective states a fact; ik voel me + adjective describes how you feel right now — both correct, zich voelen is more personal."
+        }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I feel nervous.'",
+      "answers": ["ik voel me zenuwachtig"],
+      "hint": "zich voelen, ik-vorm",
+      "explain": "Ik voel me zenuwachtig — me matches ik."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ik voel me moe.",
+      "answers": ["ik voel me moe"]
+    },
+    {
+      "type": "shadow",
+      "title": "Shadow the feelings",
+      "lines": [
+        { "nl": "Ik voel me blij.", "en": "I feel happy." },
+        { "nl": "Ik voel me een beetje bang.", "en": "I feel a little scared." },
+        { "nl": "Hij voelt zich verdrietig.", "en": "He feels sad." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Bouw je gevoel",
+      "prompt": "Say how you feel.",
+      "slots": [
+        { "label": "Zin", "chips": ["Ik voel me"] },
+        { "label": "Emotie", "chips": ["blij", "boos", "moe", "bang", "zenuwachtig", "verdrietig"] }
+      ],
+      "sample": "Ik voel me zenuwachtig."
+    },
+    {
+      "type": "journal",
+      "prompt": "Hoe voel jij je vandaag? Schrijf drie zinnen met 'ik voel me'.",
+      "starters": ["Ik voel me...", "Ik ben ook een beetje..."]
+    }
+  ]
+}

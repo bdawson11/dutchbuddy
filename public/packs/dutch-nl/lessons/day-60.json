@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "day-60",
+  "day": 60,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Zou — beleefd, hypothetisch, zacht",
+  "emoji": "🎩",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "zou for polite requests, hypotheticals, and softened advice",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "zou = 'would'",
+      "body": "*zou* is the softener of Dutch. It's the past of *zullen*, and it turns a blunt sentence into a polite, hypothetical or gentle one. It sits in second position like any verb; the main verb (an infinitive) waits at the end.",
+      "table": {
+        "headers": ["Persoon", "Vorm"],
+        "rows": [
+          ["ik / jij / hij / zij / het", "zou"],
+          ["wij / jullie / zij", "zouden"]
+        ]
+      },
+      "callout": "Beleefd verzoek: *Zou u me kunnen helpen?* — *zou* voorop, werkwoorden achteraan."
+    },
+    {
+      "type": "chips",
+      "title": "Beleefde verzoeken — tik om te horen",
+      "items": [
+        { "nl": "Zou u me kunnen helpen?", "en": "Could you help me?", "speak": "Zou u me kunnen helpen?" },
+        { "nl": "Zou je het raam open kunnen doen?", "en": "Could you open the window?", "speak": "Zou je het raam open kunnen doen?" },
+        { "nl": "Zou ik hier mogen zitten?", "en": "Would I be allowed to sit here?", "speak": "Zou ik hier mogen zitten?" },
+        { "nl": "Zou u dat willen herhalen?", "en": "Would you repeat that?", "speak": "Zou u dat willen herhalen?" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You want to ask a stranger politely to help. What do you say?",
+      "options": [
+        "Help me!",
+        "Kun je me helpen?",
+        "Zou u me kunnen helpen?"
+      ],
+      "correct": 2,
+      "explain": "*Zou u me kunnen helpen?* is het beleefdst: *zou* + *u* + infinitieven achteraan. De eerste is een bevel, de tweede is prima maar informeel."
+    },
+    {
+      "type": "card",
+      "title": "Hypothetisch: wat zou jij doen?",
+      "body": "*zou* also carries the imaginary. *Ik **zou** graag naar Japan gaan* (I'd love to go to Japan). *Wat **zou** jij doen?* (What would you do?). No real plan — just the hypothetical world.",
+      "callout": "Wens met een zachte rand: *Ik zou graag…* klinkt vriendelijker dan het kale *Ik wil…*"
+    },
+    {
+      "type": "contrast",
+      "title": "Bot versus zacht",
+      "pairs": [
+        { "left": "Ik wil koffie.", "right": "Ik zou graag koffie willen.", "note": "Zelfde wens, maar *zou … willen* klinkt beleefd in plaats van eisend." },
+        { "left": "Doe dat niet.", "right": "Ik zou dat niet doen.", "note": "Advies verzachten: *ik zou…* maakt van een bevel een suggestie." },
+        { "left": "Neem een jas mee.", "right": "Ik zou maar een jas meenemen.", "note": "*ik zou maar…* is typisch Nederlands, vriendelijk waarschuwend advies." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Maak dit beleefd. Bot: 'Geef me het zout.' Beleefd met 'Zou u…?'",
+      "answers": [
+        "Zou u me het zout kunnen aangeven?",
+        "Zou u mij het zout kunnen aangeven?",
+        "Zou u me het zout willen aangeven?",
+        "Zou u het zout kunnen aangeven?"
+      ],
+      "hint": "Zou u … kunnen/willen + werkwoord achteraan.",
+      "explain": "*Zou u me het zout kunnen aangeven?* — *zou* voorop, *u* beleefd, en de infinitieven (*kunnen aangeven*) achteraan."
+    },
+    {
+      "type": "builder",
+      "title": "Bouw een hypothetische wens",
+      "prompt": "Zeg wat je zou doen of willen — zonder dat het echt hoeft.",
+      "slots": [
+        { "label": "Wie + zou", "chips": ["Ik zou", "Wij zouden", "Jij zou"] },
+        { "label": "Zacht bijwoord", "chips": ["graag", "eigenlijk", "wel"] },
+        { "label": "Rest (infinitief achteraan)", "chips": ["een jaar willen reizen", "een cursus willen doen", "vaker naar zee gaan"] }
+      ],
+      "sample": "Ik zou graag een jaar willen reizen."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ het beleefde verzoek.",
+      "speak": "Zou je me even kunnen helpen?",
+      "answers": [
+        "Zou je me even kunnen helpen?",
+        "Zou je me even kunnen helpen"
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "You ask Emma for advice about a gift for Daan",
+      "lines": [
+        { "speaker": "You", "nl": "Zou jij me kunnen helpen met een cadeau voor Daan?", "en": "Could you help me with a present for Daan?", "spotlight": "beleefd verzoek: *zou jij … kunnen helpen?*" },
+        { "speaker": "Emma", "nl": "Tuurlijk! Wat zou je willen geven?", "en": "Of course! What would you like to give?", "spotlight": "hypothetisch: *wat zou je willen geven?*" },
+        { "speaker": "You", "nl": "Geen idee. Wat zou jij doen?", "en": "No idea. What would you do?" },
+        { "speaker": "Emma", "nl": "Ik zou een goed boek nemen. Daar houdt hij van.", "en": "I'd get a good book. He loves those.", "spotlight": "advies met *ik zou…*" },
+        { "speaker": "You", "nl": "Slim. En zou een plaat te veel zijn?", "en": "Smart. And would a record be too much?" },
+        { "speaker": "Emma", "nl": "Nee joh, dat zou hij juist prachtig vinden.", "en": "No way, he'd actually love that.", "spotlight": "hypothetisch resultaat: *dat zou hij prachtig vinden.*" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Wat raadt Emma aan?",
+      "questions": [
+        { "q": "Wat zou Emma voor Daan kopen?", "options": ["Een boek", "Een jas", "Bloemen"], "correct": 0 },
+        { "q": "Wat vindt Emma van een plaat als cadeau?", "options": ["Te duur", "Dat zou hij prachtig vinden", "Een slecht idee"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf drie zinnen met 'zou': één beleefd verzoek, één hypothetische wens, en één zacht advies aan een vriend.",
+      "starters": ["Zou u…?", "Ik zou graag…", "Ik zou maar…"],
+      "minSentences": 3
+    }
+  ]
+}

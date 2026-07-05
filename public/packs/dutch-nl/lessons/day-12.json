@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "day-12",
+  "day": 12,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Vragen stellen — inversie en vraagwoorden",
+  "emoji": "❓",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Yes/no questions by inversion, the dropped -t with jij, and the question words",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Yes/no questions: just swap",
+      "body": "To ask a yes/no question, put the **verb first** and the subject behind it. That's it — no extra 'do' like English. *Jij werkt* (you work) → *Werk jij?* (do you work?). Statement, flip the first two, done.",
+      "table": {
+        "headers": ["Statement", "Question"],
+        "rows": [
+          ["Jij woont in Utrecht.", "Woon jij in Utrecht?"],
+          ["Wij eten om zes uur.", "Eten wij om zes uur?"],
+          ["Hij drinkt koffie.", "Drinkt hij koffie?"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "The -t drop: Werk jij?, not Werkt jij?",
+      "body": "Here's the twist. When *jij* (or *je*) comes **right after** the verb, the verb **loses its -t** and goes back to the bare stem. *Jij werkt* → *Werk jij?* This happens only with *jij/je*, and only when it sits behind the verb.",
+      "callout": "*hij* keeps its -t: *Werkt hij?* Only *jij/je* triggers the drop."
+    },
+    {
+      "type": "chips",
+      "title": "Hear the yes/no questions",
+      "items": [
+        { "nl": "Werk jij?", "en": "Do you work?", "speak": "Werk jij?" },
+        { "nl": "Woon je in Amsterdam?", "en": "Do you live in Amsterdam?", "speak": "Woon je in Amsterdam?" },
+        { "nl": "Drinkt hij thee?", "en": "Does he drink tea?", "speak": "Drinkt hij thee?" },
+        { "nl": "Kom je vanavond?", "en": "Are you coming tonight?", "speak": "Kom je vanavond?" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Turn 'Jij begint om negen uur' into a question.",
+      "options": ["Begint jij om negen uur?", "Begin jij om negen uur?", "Jij begint om negen uur?"],
+      "correct": 1,
+      "explain": "Verb first, and because *jij* follows it, drop the -t: *Begin jij om negen uur?*"
+    },
+    {
+      "type": "card",
+      "title": "Question words",
+      "body": "For open questions, start with a **question word**, then the verb, then the subject — the verb still lands in slot 2, exactly like yesterday's fronting. The question word is your front element.",
+      "table": {
+        "headers": ["Vraagwoord", "English", "Example"],
+        "rows": [
+          ["wie", "who", "Wie ben jij?"],
+          ["wat", "what", "Wat doe jij?"],
+          ["waar", "where", "Waar woon je?"],
+          ["wanneer", "when", "Wanneer kom je?"],
+          ["hoe", "how", "Hoe gaat het?"],
+          ["waarom", "why", "Waarom leer je Nederlands?"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Hear the question words",
+      "items": [
+        { "nl": "wie", "en": "who", "speak": "wie" },
+        { "nl": "wat", "en": "what", "speak": "wat" },
+        { "nl": "waar", "en": "where", "speak": "waar" },
+        { "nl": "wanneer", "en": "when", "speak": "wanneer" },
+        { "nl": "hoe", "en": "how", "speak": "hoe" },
+        { "nl": "waarom", "en": "why", "speak": "waarom" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You want to ask where someone lives. Which word do you start with?",
+      "options": ["wanneer", "waar", "waarom"],
+      "correct": 1,
+      "explain": "*waar* = where. *wanneer* is when, *waarom* is why — easy to mix up, so drill them."
+    },
+    {
+      "type": "typed",
+      "prompt": "Ask 'What are you doing today?' — use jij. (verb: doen → doe)",
+      "answers": ["Wat doe jij vandaag?", "wat doe jij vandaag", "Wat doe je vandaag?", "wat doe je vandaag"],
+      "hint": "Question word, then verb, then jij — mind the -t drop.",
+      "explain": "*Wat doe jij vandaag?* Question word in slot 1, verb in slot 2, and *doen* loses its -t behind *jij*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Daan is nosy about your new routine at the café",
+      "lines": [
+        { "speaker": "Daan", "nl": "Waar werk jij nu?", "en": "Where do you work now?", "spotlight": "Question word + verb + jij — and *werk*, not 'werkt'." },
+        { "speaker": "You", "nl": "Ik werk in de Pijp. Bij een klein bureau.", "en": "I work in de Pijp. At a small agency." },
+        { "speaker": "Daan", "nl": "Leuk! En hoe laat begin je?", "en": "Nice! And what time do you start?", "spotlight": "*hoe laat* = what time; *begin je* drops the -t too." },
+        { "speaker": "You", "nl": "Meestal om negen uur.", "en": "Usually at nine o'clock." },
+        { "speaker": "Daan", "nl": "Werk je ook op vrijdag?", "en": "Do you work on Friday too?", "spotlight": "A yes/no question: verb first, *je* behind it." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you follow the gossip?",
+      "questions": [
+        { "q": "What time does the learner usually start work?", "options": ["Om acht uur", "Om negen uur", "Om tien uur"], "correct": 1 },
+        { "q": "Which day does Daan ask about?", "options": ["Maandag", "Woensdag", "Vrijdag"], "correct": 2 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write four questions you'd ask a new Dutch colleague — one yes/no question and three with different question words. Watch the -t drop after jij/je.",
+      "starters": ["Waar …?", "Wanneer …?", "Werk je …?"]
+    }
+  ]
+}

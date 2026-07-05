@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-05",
+  "day": 5,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "Ik heb — hebben en de ontkenning",
+  "emoji": "🙅",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "The verb hebben (to have), and today's one big thing: niet vs geen",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "The verb hebben (to have)",
+      "body": "After *zijn*, this is the verb you'll reach for most. Dutch uses *hebben* where English says 'have' — and also for age and for being hungry or thirsty: *ik heb honger* (I'm hungry, literally 'I have hunger').",
+      "table": {
+        "headers": ["Subject", "hebben", "English"],
+        "rows": [
+          ["ik", "heb", "I have"],
+          ["jij / je", "hebt", "you have"],
+          ["u", "hebt / heeft", "you have (polite)"],
+          ["hij / zij / het", "heeft", "he / she / it has"],
+          ["wij / we", "hebben", "we have"],
+          ["jullie", "hebben", "you all have"],
+          ["zij / ze", "hebben", "they have"]
+        ]
+      },
+      "callout": "*hij heeft* but *jij hebt* — the -eeft is only for the hij/zij/het slot."
+    },
+    {
+      "type": "chips",
+      "title": "hebben in the wild",
+      "items": [
+        { "nl": "Ik heb honger.", "en": "I'm hungry.", "speak": "Ik heb honger." },
+        { "nl": "Ik heb dorst.", "en": "I'm thirsty.", "speak": "Ik heb dorst." },
+        { "nl": "Ik heb tijd.", "en": "I have time.", "speak": "Ik heb tijd." },
+        { "nl": "Hij heeft een hond.", "en": "He has a dog.", "speak": "Hij heeft een hond." },
+        { "nl": "Wij hebben een huis.", "en": "We have a house.", "speak": "Wij hebben een huis." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Fill the gap: Zij ___ een kat. (She has a cat.)",
+      "options": ["heb", "hebt", "heeft"],
+      "correct": 2,
+      "explain": "*zij* (she) is the hij/zij/het slot, so *heeft*. *heb* is for *ik*, *hebt* for *jij*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'I'm thirsty' in Dutch (literally: I have thirst).",
+      "answers": ["ik heb dorst", "heb dorst"],
+      "hint": "hebben + dorst.",
+      "explain": "*Ik heb dorst.* Dutch 'has' hunger and thirst rather than 'being' them."
+    },
+    {
+      "type": "card",
+      "title": "Today's one big thing: niet vs geen",
+      "body": "Dutch has **two** words for 'not', and picking the right one is the whole skill. **geen** negates a noun that has no article or an *een* — 'no / not any'. **niet** negates everything else: verbs, adjectives, whole ideas. Get this contrast and your Dutch stops sounding translated.",
+      "callout": "Quick test: if you could put *een* or nothing in front of the noun, use **geen**. Otherwise, **niet**."
+    },
+    {
+      "type": "contrast",
+      "title": "geen replaces een; niet does the rest",
+      "pairs": [
+        { "left": "Ik heb geen auto.", "right": "Ik werk niet.", "note": "*geen auto* = no car (a noun with no article). *niet* negates the verb *werk*." },
+        { "left": "Ik drink geen koffie.", "right": "De koffie is niet warm.", "note": "*geen koffie* = not any coffee. But *de koffie* already has *de*, so its quality is negated with *niet*." },
+        { "left": "Wij hebben geen tijd.", "right": "Ik ken hem niet.", "note": "*geen tijd* = no time. *niet* negates knowing *hem* (him)." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose: Ik heb ___ geld. (I have no money.)",
+      "options": ["niet", "geen"],
+      "correct": 1,
+      "explain": "*geld* (money) is a bare noun with no article, so 'no money' = *geen geld*. *niet* would be wrong here."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ik heb geen honger",
+      "answers": ["ik heb geen honger"],
+      "explain": "*Ik heb geen honger* — I'm not hungry. Bare noun *honger*, so *geen*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Back at the café. Daan is deciding on a second round.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Nog een koffie?", "en": "Another coffee?" },
+        { "speaker": "You", "nl": "Nee, dankjewel. Ik drink geen koffie meer.", "en": "No, thanks. I'm not drinking any more coffee.", "spotlight": "*geen koffie* — negating the bare noun." },
+        { "speaker": "Daan", "nl": "Thee dan? Ik heb geen haast, hoor.", "en": "Tea then? I'm in no hurry, honestly.", "spotlight": "*geen haast* — 'no hurry', another bare noun." },
+        { "speaker": "You", "nl": "Nee joh, ik hoef niet.", "en": "No, I don't need anything.", "spotlight": "*niet* here negates the verb *hoef* (need)." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write two true sentences: one thing you have (*ik heb…*) and one thing you don't (*ik heb geen…* or a *niet* sentence). Then say why in English if you like.",
+      "starters": ["Ik heb …", "Ik heb geen …", "Ik … niet."]
+    }
+  ]
+}

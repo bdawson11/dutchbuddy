@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-56",
+  "day": 56,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "capstone",
+  "title": "Mijn komend jaar",
+  "emoji": "🎉",
+  "level": "A2",
+  "durationMin": [20, 30],
+  "summary": "Week 8 production day: graded drills, then add a plan and an opinion to your growing self-intro",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Vandaag maak je zinnen",
+      "body": "Capstone day — less rules, more producing. First a quick lap through the week's grammar, then you extend **jouw verhaal** (your story) with today's new layer: a **plan** (*ik ga…*) and an **opinion** (*ik vind dat…* + a subclause). Watch those verbs land in the right spot.",
+      "callout": "Everything you've built so far — name, buurt, food, what you did, how you felt — still belongs in the intro. Today just adds two lines."
+    },
+    {
+      "type": "chips",
+      "title": "Komend jaar — woordenschat",
+      "items": [
+        { "nl": "volgend jaar", "en": "next year", "speak": "volgend jaar" },
+        { "nl": "binnenkort", "en": "soon", "speak": "binnenkort" },
+        { "nl": "een cursus doen", "en": "to take a course", "speak": "een cursus doen" },
+        { "nl": "vaker oefenen", "en": "to practise more often", "speak": "vaker oefenen" },
+        { "nl": "een doel", "en": "a goal", "speak": "een doel" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Future with gaan — pick the natural order.",
+      "options": [
+        "Ik ga volgend jaar meer Nederlands praten.",
+        "Ik ga volgend jaar meer Nederlands te praten.",
+        "Ik meer Nederlands ga volgend jaar praten."
+      ],
+      "correct": 0,
+      "explain": "*gaan* second, infinitive *praten* at the end, no *te*: *Ik ga volgend jaar meer Nederlands praten.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Suggest it with zullen: 'Shall we practise together?' (samen, oefenen)",
+      "answers": ["Zullen we samen oefenen?", "Zullen we samen oefenen", "zullen we samen oefenen?"],
+      "hint": "Zullen we + … + infinitive at the end.",
+      "explain": "*Zullen we samen oefenen?* — the shared-plan opener."
+    },
+    {
+      "type": "typed",
+      "prompt": "Give an opinion: start with 'Ik vind dat' → 'Nederlands is mooi.'",
+      "answers": ["Ik vind dat Nederlands mooi is.", "Ik vind dat Nederlands mooi is", "ik vind dat nederlands mooi is."],
+      "hint": "The verb 'is' moves to the end.",
+      "explain": "*Ik vind dat Nederlands mooi is.* — dat-clause, verb last."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Subclause check — which verb order is correct?",
+      "options": [
+        "Ik oefen elke dag omdat ik beter wil worden.",
+        "Ik oefen elke dag omdat ik wil beter worden.",
+        "Ik oefen elke dag omdat beter ik worden wil."
+      ],
+      "correct": 0,
+      "explain": "After *omdat* the whole verb group goes to the end: *…omdat ik beter wil worden.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Comparative: 'My Dutch is better than last year.' (mijn Nederlands, goed, dan vorig jaar)",
+      "answers": ["Mijn Nederlands is beter dan vorig jaar.", "Mijn Nederlands is beter dan vorig jaar", "mijn nederlands is beter dan vorig jaar."],
+      "hint": "goed is irregular: goed → beter.",
+      "explain": "*Mijn Nederlands is beter dan vorig jaar.* — *beter*, never *goeder*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma asks about your plans for the year ahead",
+      "lines": [
+        { "speaker": "Emma", "nl": "Nou, vertel: wat ga jij komend jaar doen?", "en": "So, tell me: what are you going to do next year?", "spotlight": "wat ga jij … doen — the gaan-future question." },
+        { "speaker": "You", "nl": "Ik ga een cursus doen omdat ik vloeiend wil worden.", "en": "I'm going to take a course because I want to become fluent.", "spotlight": "gaan-future + omdat-subclause, verbs at the end." },
+        { "speaker": "Emma", "nl": "Mooi doel! En denk je dat het gaat lukken?", "en": "Nice goal! And do you think you'll manage it?" },
+        { "speaker": "You", "nl": "Ik denk dat het lukt als ik elke dag oefen.", "en": "I think it'll work if I practise every day.", "spotlight": "dat … lukt + als … oefen — two subclauses, both verb-final." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mijn verhaal — laag 8",
+      "prompt": "Add this week's layer to your growing self-intro: a plan and an opinion. (Keep saying your name, your buurt and the rest first — this just extends it.)",
+      "slots": [
+        { "label": "Mijn plan (gaan)", "chips": ["Ik ga volgend jaar", "Dit jaar ga ik", "Ik ga binnenkort"] },
+        { "label": "…wat (infinitief eind)", "chips": ["veel Nederlands praten", "een cursus doen", "meer Nederlandse boeken lezen"] },
+        { "label": "Mijn mening (dat-zin, werkwoord eind)", "chips": ["Ik vind dat oefenen belangrijk is", "Ik denk dat ik het ga halen", "Ik vind dat Nederlands steeds leuker wordt"] }
+      ],
+      "sample": "Ik ga volgend jaar veel Nederlands praten. Ik vind dat oefenen belangrijk is."
+    },
+    {
+      "type": "journal",
+      "prompt": "Write your full 'mijn verhaal' out loud on paper — everything you've built over eight weeks — and finish with today's layer 8: one plan (*ik ga…*) and one opinion with a subclause (*ik vind dat… / ik denk dat…*). Acht weken! Kijk eens hoe ver je bent.",
+      "starters": ["Ik heet…", "Ik woon in…", "Volgend jaar ga ik…", "Ik vind dat…"],
+      "minSentences": 5
+    }
+  ]
+}

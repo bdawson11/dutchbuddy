@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-17",
+  "day": 17,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Van mij, van jou",
+  "emoji": "📸",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Possessives (mijn, jouw, zijn, haar, ons/onze, hun) for showing off photos",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "My, your, his, her...",
+      "body": "Every pronoun has a matching possessive: *ik* → *mijn*, *jij/je* → *jouw/je*, *u* → *uw*, *hij* → *zijn*, *zij* → *haar*, *wij* → *ons/onze*, *jullie* → *jullie*, *zij (mv)* → *hun*.",
+      "table": {
+        "headers": ["Person", "Possessive"],
+        "rows": [
+          ["ik — I", "mijn — my"],
+          ["jij/je — you", "jouw/je — your"],
+          ["u — you (formal)", "uw — your"],
+          ["hij — he", "zijn — his"],
+          ["zij — she", "haar — her"],
+          ["wij — we", "ons/onze — our"],
+          ["jullie — you all", "jullie — your"],
+          ["zij (mv) — they", "hun — their"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear them",
+      "items": [
+        { "nl": "mijn", "en": "my", "speak": "mijn" },
+        { "nl": "jouw", "en": "your", "speak": "jouw" },
+        { "nl": "uw", "en": "your (formal)", "speak": "uw" },
+        { "nl": "zijn", "en": "his", "speak": "zijn" },
+        { "nl": "haar", "en": "her", "speak": "haar" },
+        { "nl": "ons", "en": "our (het-words)", "speak": "ons" },
+        { "nl": "onze", "en": "our (de-words/plural)", "speak": "onze" },
+        { "nl": "hun", "en": "their", "speak": "hun" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "ons vs onze",
+      "pairs": [
+        { "left": "ons huis — our house", "right": "onze stad — our city", "note": "*ons* only appears before a singular het-word. *onze* covers de-words and every plural: *onze huizen* too." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct — 'our house' (huis is het)?",
+      "options": ["ons huis", "onze huis"],
+      "correct": 0,
+      "explain": "ons huis — het-word, singular, so *ons*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'my sister' in Dutch.",
+      "answers": ["mijn zus"]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'her brother' in Dutch.",
+      "answers": ["haar broer"]
+    },
+    {
+      "type": "builder",
+      "prompt": "Show a photo — introduce someone.",
+      "slots": [
+        { "label": "Possessive", "chips": ["mijn", "jouw", "zijn", "haar", "ons", "onze", "hun"] },
+        { "label": "Person or place", "chips": ["moeder", "broer", "huis", "stad", "zusje"] }
+      ],
+      "sample": "Dit is mijn moeder."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You and Daan scroll through phone photos.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Wie is dit?", "en": "Who's this?" },
+        { "speaker": "You", "nl": "Dit is mijn oma. En dat is haar huis.", "en": "This is my grandma. And that's her house." },
+        { "speaker": "Daan", "nl": "Gezellig! En die twee?", "en": "Cozy! And those two?" },
+        { "speaker": "You", "nl": "Dat zijn Emma en Sanne — dit is hun buurt.", "en": "That's Emma and Sanne — this is their neighborhood.", "spotlight": "hun — their, for zij (mv)." },
+        { "speaker": "Daan", "nl": "O, die ken ik! Onze stad is best klein, hoor.", "en": "Oh, I know that! Our city is pretty small.", "spotlight": "onze — stad is a de-word." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "Which possessive does Daan use for 'city', and why?", "options": ["ons, because stad is het", "onze, because stad is de", "zijn, because it's his own city"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write three sentences using dit is mijn / zijn / haar / onze, showing off your own 'photos'.",
+      "starters": ["Dit is mijn...", "En dat is..."]
+    }
+  ]
+}

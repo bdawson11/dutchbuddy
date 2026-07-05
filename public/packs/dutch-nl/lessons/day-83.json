@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "day-83",
+  "day": 83,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "review",
+  "title": "Een borrel, een jaar later",
+  "emoji": "🥂",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Final immersion: Emma, Daan and a visiting Sanne at a borrel one year on — imperatives, green slang and borrel culture, braided with callbacks to the whole year",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Deze week, op een rij",
+      "body": "Week 12 was street Dutch — the warm, real stuff. Tonight you use all of it at once, at a borrel with the whole crew. Sanne is over from Utrecht. **Blijf in het Nederlands** where you can.",
+      "table": {
+        "headers": ["Deze week", "Wat je nu kunt"],
+        "rows": [
+          ["Gebiedende wijs", "vriendelijk iets vragen: *doe maar, kom even*"],
+          ["Straattaal-stoplicht", "groen vrij gebruiken, rood vermijden"],
+          ["Snackbar & borrel", "bestellen, een rondje geven, *proost*"],
+          ["Kapper & winkel", "*zegt u het maar, ik kijk alleen even*"],
+          ["Uitdrukkingen", "*de aap uit de mouw, helaas pindakaas*"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Warming up — tap to hear",
+      "items": [
+        { "nl": "Kom er gezellig bij.", "en": "Come join us.", "speak": "Kom er gezellig bij." },
+        { "nl": "Proost, op ons!", "en": "Cheers, to us!", "speak": "Proost, op ons!" },
+        { "nl": "Neem maar een bitterbal.", "en": "Go ahead, have a bitterbal.", "speak": "Neem maar een bitterbal." },
+        { "nl": "Wat leuk om je te zien.", "en": "How nice to see you.", "speak": "Wat leuk om je te zien." },
+        { "nl": "Ik geef een rondje.", "en": "The round's on me.", "speak": "Ik geef een rondje." },
+        { "nl": "Doe maar rustig aan.", "en": "Take it easy.", "speak": "Doe maar rustig aan." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je gastheer wil dat je binnenkomt en je op je gemak voelt. Wat zegt hij vriendelijk?",
+      "options": ["Binnen!", "Kom maar binnen, doe rustig aan.", "Je moet nu binnenkomen."],
+      "correct": 1,
+      "explain": "*Kom maar binnen, doe rustig aan* — the softeners *maar* and *rustig* turn commands into a warm welcome."
+    },
+    {
+      "type": "typed",
+      "prompt": "It's your turn to buy drinks for the table. Offer a round in Dutch.",
+      "answers": ["Ik geef een rondje", "Ik geef een rondje.", "Ik geef deze", "Zullen we een rondje doen", "Deze is van mij"],
+      "hint": "The word is *rondje*.",
+      "explain": "*Ik geef een rondje* — you're buying this round. Peak *gezellig*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "A Friday borrel at Emma's place in de Pijp, a year after You started learning. Sanne is visiting from Utrecht.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Kom binnen, kom binnen! Sanne is er ook — helemaal uit Utrecht.", "en": "Come in, come in! Sanne's here too — all the way from Utrecht.", "spotlight": "Imperative + warmth, the Emma special." },
+        { "speaker": "Sanne", "nl": "Hoi! Wat leuk om je weer te zien. En je Nederlands, zeg!", "en": "Hi! So nice to see you again. And your Dutch, wow!", "spotlight": "Green slang: leuk." },
+        { "speaker": "You", "nl": "Dankjewel! Ik doe m'n best, hoor.", "en": "Thank you! I'm doing my best, really." },
+        { "speaker": "Daan", "nl": "Best? Joh, een jaar geleden zei je alleen 'hoi' en 'dank je'. Kijk nou eens.", "en": "Your best? Come on, a year ago you only said 'hi' and 'thanks'. Look at you now.", "spotlight": "Callback to day one, plus the imperative kijk." },
+        { "speaker": "Emma", "nl": "Proost, allemaal. Neem een bitterbal, ze zijn nog warm.", "en": "Cheers, everyone. Have a bitterbal, they're still warm.", "spotlight": "The full borrel script." },
+        { "speaker": "Sanne", "nl": "In Utrecht heb ik een gezellige borrelclub, maar dit mis ik toch.", "en": "In Utrecht I've got a lovely borrel crowd, but I do miss this." },
+        { "speaker": "You", "nl": "Hoe bevalt Utrecht nu?", "en": "How's Utrecht treating you now?" },
+        { "speaker": "Sanne", "nl": "Heel goed. Even wennen in het begin, maar nu voelt het als thuis.", "en": "Really well. A bit of getting used to at first, but now it feels like home.", "spotlight": "even as a softener." },
+        { "speaker": "Daan", "nl": "Zullen we een rondje doen? Ik geef deze.", "en": "Shall we do a round? This one's on me.", "spotlight": "Rounds — een rondje." },
+        { "speaker": "Emma", "nl": "Op ons — en op een jaar Nederlands. Proost!", "en": "To us — and to a year of Dutch. Cheers!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Kwam het binnen?",
+      "questions": [
+        { "q": "Waar woont Sanne nu?", "options": ["In Amsterdam", "In Utrecht", "In Rotterdam"], "correct": 1 },
+        { "q": "Wat zei You een jaar geleden alleen, volgens Daan?", "options": ["Alleen Engels", "Alleen 'hoi' en 'dank je'", "Niets"], "correct": 1 },
+        { "q": "Waar drinken ze aan het eind op?", "options": ["Op het weer", "Op een jaar Nederlands", "Op Utrecht"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Bijna een jaar Nederlands. Schrijf in het Nederlands terug naar je eerste week: wat was toen moeilijk, en wat gaat nu vanzelf? Blijf in het Nederlands.",
+      "starters": ["In het begin was …", "Nu kan ik …", "Ik ben trots op …"],
+      "minSentences": 3
+    }
+  ]
+}

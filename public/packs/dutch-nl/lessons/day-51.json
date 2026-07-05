@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "day-51",
+  "day": 51,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "Zullen we? — aanbod en belofte",
+  "emoji": "🤝",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "zullen for offers (zal ik…?), suggestions (zullen we…?), promises and predictions",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Het werkwoord zullen",
+      "body": "*zullen* is your all-purpose 'shall / will' verb. Like *gaan*, it sits **second** and sends its partner infinitive to the **end**. Three everyday jobs: an **offer**, a **suggestion**, and a **promise**.",
+      "table": {
+        "headers": ["Person", "Form"],
+        "rows": [
+          ["ik", "zal"],
+          ["jij / u", "zult / zal"],
+          ["hij / zij", "zal"],
+          ["wij / jullie / zij", "zullen"]
+        ]
+      },
+      "callout": "*jij zult* is a touch formal; *jij zal* is what most people say out loud."
+    },
+    {
+      "type": "card",
+      "title": "Zullen we…? — the classic suggestion",
+      "body": "Open a plan with **Zullen we…?** — literally 'Shall we…?', the Dutch way to propose doing something together. The infinitive lands at the end: *Zullen we koffie **drinken**?* Answer *ja, leuk!* or *nee, liever niet*.",
+      "callout": "*Zal ik…?* = an offer from just you: *Zal ik het raam opendoen?* (Shall I open the window?)"
+    },
+    {
+      "type": "chips",
+      "title": "Voorstellen — tap to hear",
+      "items": [
+        { "nl": "Zullen we koffie drinken?", "en": "Shall we have coffee?", "speak": "Zullen we koffie drinken?" },
+        { "nl": "Zullen we gaan?", "en": "Shall we go?", "speak": "Zullen we gaan?" },
+        { "nl": "Zullen we samen eten?", "en": "Shall we eat together?", "speak": "Zullen we samen eten?" },
+        { "nl": "Zal ik je helpen?", "en": "Shall I help you?", "speak": "Zal ik je helpen?" },
+        { "nl": "Zal ik even bellen?", "en": "Shall I give a quick call?", "speak": "Zal ik even bellen?" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Zal ik…? vs Zullen we…?",
+      "pairs": [
+        { "left": "Zal ik…? — I offer", "right": "Zullen we…? — let's, together", "note": "*Zal ik* betaalt: one person does it. *Zullen we* pulls everyone in: a shared plan." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Belofte en voorspelling",
+      "body": "*zullen* also makes a **promise**: *Ik zal het niet vergeten* (I won't forget it). And with *wel* it softens into a **prediction/guess**: *Het zal wel druk zijn* (It'll probably be busy). That little *wel* means 'probably'.",
+      "callout": "*Het zal wel* on its own = a shrug: 'yeah, probably, whatever.'"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Your friend looks lost with heavy bags. What do you offer?",
+      "options": [
+        "Zullen we helpen?",
+        "Zal ik je helpen?",
+        "Ik zal wel moe zijn."
+      ],
+      "correct": 1,
+      "explain": "*Zal ik je helpen?* — you alone offer to help. *Zullen we* would mean you both help someone else."
+    },
+    {
+      "type": "typed",
+      "prompt": "Suggest to a friend: 'Shall we go to the cinema?' (naar de bioscoop, gaan)",
+      "answers": ["Zullen we naar de bioscoop gaan?", "Zullen we naar de bioscoop gaan", "zullen we naar de bioscoop gaan?"],
+      "hint": "Start with Zullen we, park gaan at the end.",
+      "explain": "*Zullen we naar de bioscoop gaan?* — suggestion opener, infinitive last."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Daan flops into the café chair across from you",
+      "lines": [
+        { "speaker": "Daan", "nl": "Joh, ik heb honger. Zullen we een broodje halen?", "en": "Hey, I'm hungry. Shall we grab a sandwich?", "spotlight": "Zullen we … halen? — a shared plan." },
+        { "speaker": "You", "nl": "Ja, lekker. Zal ik bestellen?", "en": "Yes, tasty. Shall I order?", "spotlight": "Zal ik…? — you offer to do it yourself." },
+        { "speaker": "Daan", "nl": "Graag. En ik zal deze keer betalen, beloofd.", "en": "Please. And I'll pay this time, promise.", "spotlight": "ik zal … betalen — a promise." },
+        { "speaker": "You", "nl": "Echt? Het zal wel weer 'volgende keer' worden, hoor.", "en": "Really? It'll probably turn into 'next time' again, you know." },
+        { "speaker": "Daan", "nl": "Nou! Deze keer niet. Zullen we?", "en": "Hey! Not this time. Shall we?" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Wie doet wat?",
+      "questions": [
+        { "q": "What does Daan promise?", "options": ["To order the food", "To pay this time", "To skip lunch"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Doe een voorstel",
+      "prompt": "Build a suggestion or an offer with zullen.",
+      "slots": [
+        { "label": "Opener", "chips": ["Zullen we", "Zal ik"] },
+        { "label": "Wat", "chips": ["een film", "koffie", "je even", "vanavond"] },
+        { "label": "Werkwoord (eind)", "chips": ["kijken?", "drinken?", "helpen?", "koken?"] }
+      ],
+      "sample": "Zullen we een film kijken?"
+    },
+    {
+      "type": "journal",
+      "prompt": "Propose two weekend plans to a friend with *Zullen we…?*, and make one promise with *Ik zal…*.",
+      "starters": ["Zullen we…?", "Ik zal…"],
+      "minSentences": 3
+    }
+  ]
+}

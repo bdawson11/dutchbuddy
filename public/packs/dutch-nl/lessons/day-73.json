@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-73",
+  "day": 73,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Verkleinwoorden — -je, -tje, -pje, -etje",
+  "emoji": "🧸",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The diminutive formation rules — and the register they secretly carry",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Diminutives aren't just 'small'",
+      "body": "The Dutch add *-je* to everything, and it rarely means 'tiny'. It signals **warmth, ease, sociability, or downplaying**. *Een biertje* isn't a small beer — it's 'a beer, socially, no big deal'. *Een momentje* is a softer 'a moment'. Master rule: **every diminutive is *het***, whatever the base word's gender — *de man* → *het mannetje*.",
+      "callout": "het biertje, het kopje, het huisje — always het. No exceptions."
+    },
+    {
+      "type": "card",
+      "title": "Which ending? Five rules",
+      "body": "The suffix is chosen by the **sound before it**. Default is **-je**; the others fix pronunciation snags after vowels, -m, and short-stressed endings.",
+      "table": {
+        "headers": ["Ending of word", "Suffix", "Voorbeeld"],
+        "rows": [
+          ["most consonants", "-je", "boek → boekje"],
+          ["vowel / -w / long -l,-n,-r", "-tje", "auto → autootje, vrouw → vrouwtje"],
+          ["long vowel + -m", "-pje", "boom → boompje, bloem → bloempje"],
+          ["short stressed vowel + m,n,l,r,ng", "-etje", "bal → balletje, ding → dingetje"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the shades of meaning",
+      "items": [
+        { "nl": "een biertje", "en": "a beer (social, casual)", "speak": "een biertje" },
+        { "nl": "een momentje", "en": "just a sec", "speak": "een momentje" },
+        { "nl": "een kopje thee", "en": "a cup of tea", "speak": "een kopje thee" },
+        { "nl": "een bakkie", "en": "a coffee (slangy, cosy)", "speak": "een bakkie" },
+        { "nl": "een tochtje", "en": "a little outing / trip", "speak": "een tochtje" },
+        { "nl": "een huisje", "en": "a little house (fond)", "speak": "een huisje" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Base vs diminutive — the register shift",
+      "pairs": [
+        { "left": "een bier", "right": "een biertje", "note": "*bier* is just the drink; *biertje* is the whole cosy social act of having one." },
+        { "left": "een moment", "right": "een momentje", "note": "*moment* is neutral/formal; *momentje* is friendly, 'won't be long'." },
+        { "left": "een bak koffie", "right": "een bakkie", "note": "*bakkie* is *bakje* worn down in speech — pure informal warmth. Never write it in a formal email." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Diminutive of *boom* (tree)?",
+      "options": ["boomje", "boompje", "boometje"],
+      "correct": 1,
+      "explain": "Long vowel + -m takes **-pje** to keep it pronounceable: boom → boompje. (Same for bloem → bloempje.)"
+    },
+    {
+      "type": "mcq",
+      "prompt": "A waiter asks 'Wilt u misschien een biertje?' What does the *-tje* add?",
+      "options": ["That the beer is small", "A casual, no-pressure, sociable tone", "That it is expensive"],
+      "correct": 1,
+      "explain": "It's not about size — it's the sociable, low-key register. 'Fancy a beer?' rather than 'Do you require one beer.'"
+    },
+    {
+      "type": "typed",
+      "prompt": "Give the diminutive of *bal* (ball).",
+      "answers": ["balletje", "het balletje", "een balletje"],
+      "hint": "Short stressed vowel + -l → double the l, then...",
+      "explain": "bal → **balletje**. Short stressed vowel before m/n/l/r/ng doubles the consonant and takes -etje."
+    },
+    {
+      "type": "typed",
+      "prompt": "Give the diminutive of *stoel* (chair).",
+      "answers": ["stoeltje", "het stoeltje", "een stoeltje"],
+      "hint": "Long vowel before the -l → -tje.",
+      "explain": "stoel → **stoeltje**. After a long vowel + l/n/r you take -tje, not -etje."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You've popped into Emma's for coffee. Diminutives soften the whole visit.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Hé, kom binnen! Een bakkie?", "en": "Hey, come in! A coffee?", "spotlight": "bakkie — the cosiest way to offer coffee." },
+        { "speaker": "You", "nl": "Graag. En misschien een koekje erbij?", "en": "Please. And maybe a little cookie with it?", "spotlight": "koekje — het, of course." },
+        { "speaker": "Emma", "nl": "Natuurlijk. Zullen we straks een rondje door het parkje lopen?", "en": "Of course. Shall we take a little loop through the park later?", "spotlight": "rondje, parkje — two diminutives making a plan sound light." },
+        { "speaker": "You", "nl": "Lekker. Even mijn jasje pakken.", "en": "Lovely. Just grabbing my jacket.", "spotlight": "jasje + even — diminutive and particle together." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Order like a local",
+      "prompt": "Build a cosy café order using a diminutive.",
+      "slots": [
+        { "label": "Opener", "chips": ["Doe mij maar", "Ik neem", "Mag ik"] },
+        { "label": "Diminutive order", "chips": ["een biertje", "een kopje koffie", "een tochtje"] }
+      ],
+      "sample": "Doe mij maar een biertje."
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe your ideal lazy Sunday in Dutch, using at least three diminutives (a walk, a drink, a snack — je verzint het maar).",
+      "starters": ["Op zondag neem ik een…", "Daarna maak ik een…"],
+      "minSentences": 3
+    }
+  ]
+}

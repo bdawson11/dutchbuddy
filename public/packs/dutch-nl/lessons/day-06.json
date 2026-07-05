@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "day-06",
+  "day": 6,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "de of het — en het meervoud",
+  "emoji": "🚪",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Article gender (de vs het), the -en and -s plural rules, and why de/het matters later",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Two words for 'the'",
+      "body": "English has one 'the'. Dutch has two: **de** and **het**. Every noun is one or the other, and you mostly have to **learn it with the word** — there's no reliable rule for which. The good news: about two-thirds of nouns are *de*, and there are a few patterns you can lean on.",
+      "table": {
+        "headers": ["de words", "het words"],
+        "rows": [
+          ["de man — the man", "het huis — the house"],
+          ["de vrouw — the woman", "het kind — the child"],
+          ["de koffie — the coffee", "het water — the water"],
+          ["de kat — the cat", "het boek — the book"]
+        ]
+      },
+      "callout": "Always learn a new noun **with its article**: not *huis* but *het huis*."
+    },
+    {
+      "type": "contrast",
+      "title": "The patterns worth knowing",
+      "pairs": [
+        { "left": "de → most nouns", "right": "het → diminutives (-je)", "note": "Anything ending in *-je* is always *het*: *het kopje* (little cup), *het meisje* (girl). No exceptions." },
+        { "left": "de → all plurals", "right": "het → the singular only", "note": "Even a *het* word turns to *de* in the plural: *het boek* → *de boeken*. Plurals are always *de*." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Learn each noun with its article",
+      "items": [
+        { "nl": "de man", "en": "the man", "speak": "de man" },
+        { "nl": "het huis", "en": "the house", "speak": "het huis" },
+        { "nl": "de vrouw", "en": "the woman", "speak": "de vrouw" },
+        { "nl": "het kind", "en": "the child", "speak": "het kind" },
+        { "nl": "het kopje", "en": "the little cup", "speak": "het kopje" },
+        { "nl": "de hond", "en": "the dog", "speak": "de hond" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which article goes with *meisje* (girl)?",
+      "options": ["de", "het"],
+      "correct": 1,
+      "explain": "*meisje* ends in *-je*, a diminutive — and every *-je* word is *het*. So *het meisje*, even though a girl is clearly a person."
+    },
+    {
+      "type": "card",
+      "title": "Making plurals: -en and -s",
+      "body": "Two endings cover almost everything. **-en** is the default (and most common). **-s** is used after the endings *-el, -em, -en, -er, -je* and after most vowels. Watch the spelling: a short vowel doubles its consonant (*man → mannen*), and a long vowel drops a letter (*maan → manen*).",
+      "table": {
+        "headers": ["Singular", "Plural", "Rule"],
+        "rows": [
+          ["het boek", "de boeken", "default -en"],
+          ["de man", "de mannen", "-en, double the n"],
+          ["de tafel", "de tafels", "-s after -el"],
+          ["het meisje", "de meisjes", "-s after -je"],
+          ["de foto", "de foto's", "-s after a vowel, with apostrophe"]
+        ]
+      },
+      "callout": "After a long single vowel (a, o, u, i) the -s takes an apostrophe: *foto's*, *auto's*, *menu's*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Give the plural of *het boek* (the book).",
+      "answers": ["boeken", "de boeken"],
+      "hint": "Default ending. No spelling change needed here.",
+      "explain": "*de boeken*. Default *-en*, and remember the plural article is always *de*, never *het*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "What's the plural of *de foto* (the photo)?",
+      "options": ["de foten", "de foto's", "de fotos"],
+      "correct": 1,
+      "explain": "A long vowel at the end takes *-s* with an apostrophe: *foto's*. Same for *auto's*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "twee mannen en een vrouw",
+      "answers": ["twee mannen en een vrouw"],
+      "explain": "*twee mannen en een vrouw* — two men and a woman. *man* doubles its n in the plural."
+    },
+    {
+      "type": "card",
+      "title": "Why de/het will haunt you (in a good way)",
+      "body": "Right now de/het only changes 'the'. But this label sticks to the noun and controls things later: which adjective ending you use (*een groot huis* but *het grote huis*), which pointing word (*dit* vs *deze*), and which relative pronoun (*die* vs *dat*). Learning the article now is an investment — it pays off every week from here.",
+      "callout": "Every noun you meet, file it as *de* or *het* on day one. Future-you says dankjewel."
+    },
+    {
+      "type": "journal",
+      "prompt": "Pick four objects around you. Write each with its article (guess de/het, then check), and put one into its plural.",
+      "starters": ["Dit is de/het …", "Ik zie twee …"]
+    }
+  ]
+}

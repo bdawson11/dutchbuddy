@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "day-76",
+  "day": 76,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "review",
+  "title": "Emma op bezoek in Utrecht",
+  "emoji": "☕",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "A Saturday catch-up braiding this week's particles and diminutives",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Wat je deze week leerde",
+      "body": "Even terugblikken. This week was about **sounding Dutch**: fixed pairs (*wachten op, houden van*), the particles that carry all the tone (*even, maar, toch, hoor*), diminutives and their warmth (*biertje, momentje*), holding the line in Dutch, and calibrating *u* vs *je*. Today we hear it all braided together — Emma takes the train to Utrecht to see how Sanne is settling in.",
+      "callout": "Sanne verhuisde vorige maand naar Utrecht. Vandaag: haar eerste bezoek."
+    },
+    {
+      "type": "chips",
+      "title": "De grootste hits van de week",
+      "items": [
+        { "nl": "Doe maar.", "en": "Go ahead / sure.", "speak": "Doe maar." },
+        { "nl": "Momentje, hoor.", "en": "One sec, okay.", "speak": "Momentje, hoor." },
+        { "nl": "Ik houd van deze buurt.", "en": "I love this neighbourhood.", "speak": "Ik houd van deze buurt." },
+        { "nl": "Een bakkie?", "en": "A coffee?", "speak": "Een bakkie?" },
+        { "nl": "Je komt toch wel?", "en": "You're coming, right?", "speak": "Je komt toch wel?" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Mixed review: 'Ik wacht ___ je bij het station.' Which preposition?",
+      "options": ["voor", "op", "aan"],
+      "correct": 1,
+      "explain": "*wachten op* — the fixed pair from day 71. You wait 'on' someone in Dutch."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Saturday, Utrecht. Emma has taken the train over. Sanne opens the door to her new place, visibly happier than in Amsterdam.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Hé Sanne! Wat een leuk huisje heb je hier, zeg.", "en": "Hey Sanne! What a lovely little place you've got here.", "spotlight": "huisje + zeg — diminutive warmth plus an admiring tag." },
+        { "speaker": "Sanne", "nl": "Dank je! Kom binnen, gezellig. Wil je een bakkie?", "en": "Thanks! Come in, lovely. Want a coffee?", "spotlight": "bakkie — the cosy slang diminutive for coffee." },
+        { "speaker": "Emma", "nl": "Lekker, doe maar. En, bevalt Utrecht een beetje?", "en": "Lovely, go ahead. So, are you liking Utrecht a bit?", "spotlight": "doe maar — permission particle; 'een beetje' underplays the big question." },
+        { "speaker": "Sanne", "nl": "Echt heel goed. Ik woon vlak bij een grachtje, en 's ochtends maak ik altijd even een wandelingetje.", "en": "Really well. I live right by a little canal, and in the mornings I always take a little walk.", "spotlight": "grachtje, wandelingetje + even — three light touches in one breath." },
+        { "speaker": "Emma", "nl": "Kijk, je klinkt echt gelukkig. In Amsterdam was je toch een beetje gestrest, hè.", "en": "See, you sound really happy. In Amsterdam you were a bit stressed, weren't you.", "spotlight": "toch … hè — Emma's gentle 'let's be honest' framing." },
+        { "speaker": "Sanne", "nl": "Klopt. Het was even wennen, hoor, maar nu voelt het als thuis.", "en": "True. It took some getting used to, but now it feels like home.", "spotlight": "even wennen + hoor — softening a real, honest admission." },
+        { "speaker": "Emma", "nl": "Wat fijn, joh. Ik mis je wel in de Pijp, maar dit gun ik je echt.", "en": "So glad, mate. I do miss you in the Pijp, but I truly wish this for you.", "spotlight": "wel + joh — warmth and a little ache at once." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Heb je het gevolgd?",
+      "questions": [
+        { "q": "Hoe vindt Sanne het in Utrecht?", "options": ["Verschrikkelijk", "Echt heel goed", "Precies hetzelfde als Amsterdam"], "correct": 1 },
+        { "q": "Wat doet Sanne 's ochtends?", "options": ["Een wandelingetje maken", "Naar Amsterdam reizen", "Uitslapen"], "correct": 0 },
+        { "q": "Wat biedt Sanne aan Emma aan?", "options": ["Een biertje", "Een bakkie", "Een tochtje"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Emma admires Sanne's place. Fill in the diminutive: 'Wat een leuk ___ heb je hier!' (little house)",
+      "answers": ["huisje", "huisje!", "het huisje"],
+      "hint": "huis → ?",
+      "explain": "*huisje* — het, fond, 'lovely little place'. The diminutive does the warmth."
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf een kort berichtje aan Sanne over je eigen week. Gebruik minstens één partikel (even/maar/hoor) en één verkleinwoord.",
+      "starters": ["Hé Sanne, …", "Hier gaat het goed, hoor. …"],
+      "minSentences": 3
+    }
+  ]
+}

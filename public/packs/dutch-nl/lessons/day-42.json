@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "day-42",
+  "day": 42,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "capstone",
+  "title": "Wat is er gebeurd?",
+  "emoji": "📝",
+  "level": "A2",
+  "durationMin": [20, 30],
+  "summary": "Production day across week 6, plus mijn verhaal laag 6 — how you've been feeling",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Terugblik: gezondheid, gevoelens, advies",
+      "body": "This week you built up a real health vocabulary: **pijn** compounds (*hoofdpijn, buikpijn*), the huisarts gatekeeper system, emergency Dutch (**112**), feelings with **zich voelen**, and advice (**je moet, je kunt beter**). Today you use all of it to tell your own 'wat is er gebeurd?' story.",
+      "table": {
+        "headers": ["Nederlands", "Betekenis"],
+        "rows": [
+          ["Ik heb hoofdpijn.", "I have a headache."],
+          ["Ik wil een afspraak maken.", "I'd like to make an appointment."],
+          ["Bel 112!", "Call 112!"],
+          ["Ik voel me moe.", "I feel tired."],
+          ["Je kunt beter rusten.", "You'd better rest."]
+        ]
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which word correctly combines 'keel' + 'pijn'?",
+      "options": ["keel pijn", "keelpijn", "pijnkeel"],
+      "correct": 1,
+      "explain": "Dutch compounds glue together with no space: keelpijn."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I'd like to make an appointment.'",
+      "answers": ["ik wil een afspraak maken", "ik wil graag een afspraak maken"],
+      "hint": "afspraak maken",
+      "explain": "Ik wil een afspraak maken — your standard opener for any Dutch phone call to the huisarts."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Bel 112!",
+      "answers": ["bel 112", "bel 112!"]
+    },
+    {
+      "type": "chips",
+      "title": "Mix: gevoelens & advies",
+      "items": [
+        { "nl": "zenuwachtig", "en": "nervous", "speak": "zenuwachtig" },
+        { "nl": "verdrietig", "en": "sad", "speak": "verdrietig" },
+        { "nl": "je kunt beter", "en": "you'd better", "speak": "je kunt beter" },
+        { "nl": "neem rust", "en": "take a rest", "speak": "neem rust" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Moet vs. kunt beter — recap",
+      "pairs": [
+        {
+          "left": "Je moet rusten. — direct, strong",
+          "right": "Je kunt beter rusten. — softer suggestion",
+          "note": "Both work — pick moet when you mean it, kunt beter when you're being gentle."
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You have a bad cut, not a cold. Where do you go (or call)?",
+      "options": ["De apotheek", "112 / het ziekenhuis", "De assistente voor een recept"],
+      "correct": 1,
+      "explain": "Real emergencies go through 112, not straight to the apotheek."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I feel a little nervous.'",
+      "answers": ["ik voel me een beetje zenuwachtig"],
+      "hint": "ik voel me + een beetje + adjective",
+      "explain": "Ik voel me een beetje zenuwachtig — zich voelen with the reflexive me."
+    },
+    {
+      "type": "builder",
+      "title": "Wat is er gebeurd?",
+      "prompt": "Build a sentence about a health event using the perfect tense you already know.",
+      "slots": [
+        { "label": "Ik", "chips": ["Ik"] },
+        { "label": "Gebeurtenis", "chips": ["ben ziek geworden.", "heb hoofdpijn gehad.", "ben naar de huisarts gegaan.", "heb een recept gehaald bij de apotheek."] }
+      ],
+      "sample": "Ik ben naar de huisarts gegaan."
+    },
+    {
+      "type": "card",
+      "title": "Even vooruitkijken: voelde en had",
+      "body": "For your verhaal today you need two past-tense forms — a sneak peek before we learn the whole system next week: **voelde** (felt — *voelen* becomes *voelde*, the regular -de pattern) and **had** (had — the irregular past of *hebben*). *Ik voelde me ziek. Ik had hoofdpijn.*",
+      "callout": "Full past-tense rules (imperfectum) are coming in Week 7 — for now, just these two forms."
+    },
+    {
+      "type": "builder",
+      "title": "Mijn verhaal — laag 6",
+      "prompt": "Add to your growing self-introduction: how you've been feeling, or a small health event.",
+      "slots": [
+        { "label": "Wat voelde je", "chips": ["Ik voelde me ziek.", "Ik voelde me nerveus voor mijn afspraak.", "Ik was een paar dagen niet lekker."] },
+        { "label": "Extra", "chips": ["Gelukkig gaat het nu weer goed.", "Maar nu voel ik me weer prima."] }
+      ],
+      "sample": "Ik voelde me ziek. Gelukkig gaat het nu weer goed."
+    },
+    {
+      "type": "journal",
+      "prompt": "Mijn verhaal, laag 6 — zes weken, zes lagen! Say your whole self-introduction out loud, start to finish: your name, where you're from, your daily routine, your family and buurt, what you like to eat, something you did recently — and now, how you've been feeling. Write today's new sentences below to lock them in.",
+      "starters": ["Ik voelde me...", "Ik had...", "Nu gaat het weer goed."]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "day-65",
+  "day": 65,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Ik heb er twee — de gevreesde er",
+  "emoji": "🧩",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Quantitative er (ik heb er twee) and prepositional er (erover, ermee, the split)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ik heb er twee — de tel-er",
+      "body": "When you count something but drop the noun, Dutch plugs the gap with **er**. English: *How many bikes do you have? — I have two.* Dutch can't leave *two* naked; it says *Ik heb **er** twee* (literally 'I have of-them two'). This **er** means *of them*, and it's obligatory with a bare number or quantity word. *Hoeveel kinderen heb je? — Ik heb er drie.* *Wil je koekjes? — Ik heb er nog een paar.*",
+      "callout": "No noun after the number → you need *er*. *Ik heb er twee.* Never *Ik heb twee.*"
+    },
+    {
+      "type": "chips",
+      "title": "Tik om te horen — de tel-er",
+      "items": [
+        { "nl": "Ik heb er twee.", "en": "I have two (of them).", "speak": "Ik heb er twee." },
+        { "nl": "Zij heeft er geen.", "en": "She has none (of them).", "speak": "Zij heeft er geen." },
+        { "nl": "We hebben er nog drie.", "en": "We still have three (of them).", "speak": "We hebben er nog drie." },
+        { "nl": "Er zijn er nog vier.", "en": "There are still four (of them).", "speak": "Er zijn er nog vier." },
+        { "nl": "Ik wil er graag één.", "en": "I'd like one (of them).", "speak": "Ik wil er graag één." },
+        { "nl": "Hij neemt er zes.", "en": "He'll take six (of them).", "speak": "Hij neemt er zes." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "'Hoeveel broodjes wil je?' Kies het goede antwoord.",
+      "options": ["Ik wil twee.", "Ik wil er twee.", "Ik wil er twee broodjes."],
+      "correct": 1,
+      "explain": "Drop the noun, keep *er*: *Ik wil er twee.* Option 1 is missing *er*; option 3 wrongly keeps both *er* and the noun — once you drop the noun, you must use *er*. (And yes, *Er zijn er nog vier* really does stack two: existential *er* + counting *er*.)"
+    },
+    {
+      "type": "typed",
+      "prompt": "'Heb je kinderen?' Antwoord dat je er drie hebt.",
+      "answers": ["Ik heb er drie.", "Ja, ik heb er drie.", "Ja ik heb er drie", "Ik heb er drie"],
+      "hint": "of-them = er, and the number comes last.",
+      "explain": "*Ik heb er drie.* The *er* replaces 'kinderen'; the number sits at the end."
+    },
+    {
+      "type": "card",
+      "title": "Erover, ermee, eraan — de voorzetsel-er",
+      "body": "Now the one everyone dreads. When a preposition points at a **thing** (not a person), Dutch fuses it with **er**: *over* → **erover**, *van* → **ervan**, *op* → **erop**, *aan* → **eraan**. And *met* turns into **mee**: *met* → **ermee**. *Denk je aan de verhuizing? — Ja, ik denk eraan.* For a **person** you keep the normal preposition: *Ik denk aan hem* (about him). For a **thing**: *Ik denk eraan* (about it).",
+      "callout": "Things → er + prep, one word (*eraan, erover, ervan, erop, ernaar, ermee*). People → prep + hem/haar."
+    },
+    {
+      "type": "contrast",
+      "title": "Persoon of ding?",
+      "pairs": [
+        { "left": "Ik denk aan mijn oma. (persoon)", "right": "Ik denk eraan. (ding)", "note": "A person keeps *aan + haar*; a thing collapses into *eraan*." },
+        { "left": "Ik wacht op de bus.", "right": "Ik wacht erop.", "note": "*op de bus* is a thing → *erop*. Dutch never says *op het* here; it reaches for *er*." },
+        { "left": "Ik ga met de trein.", "right": "Ik ga ermee.", "note": "*met* always becomes *mee* in these forms: *ermee*, never *ermet*." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "De splitsing: ik denk er niet aan",
+      "body": "Here's the twist that makes *er* hard. The moment another word muscles in — *niet*, *ook*, an adverb — the **er** and its preposition **split apart**, and the preposition slides toward the end. *Ik denk eraan* becomes *Ik denk **er** niet **aan**.* Not *ermee blij* but *Ik ben **er** blij **mee**.* In a perfect tense the preposition parks just before the last verb: *Ik heb **er** lang **over** nagedacht.*",
+      "callout": "Something between them? Split it: *er … niet … aan*, *er … blij … mee*. The preposition hugs the end."
+    },
+    {
+      "type": "chips",
+      "title": "Tik om te horen — de voorzetsel-er",
+      "items": [
+        { "nl": "Wat vind je ervan?", "en": "What do you think of it?", "speak": "Wat vind je ervan?" },
+        { "nl": "Ik heb er geen zin in.", "en": "I don't feel like it.", "speak": "Ik heb er geen zin in." },
+        { "nl": "Ik ben er blij mee.", "en": "I'm happy with it.", "speak": "Ik ben er blij mee." },
+        { "nl": "Ik kijk ernaar uit.", "en": "I'm looking forward to it.", "speak": "Ik kijk ernaar uit." },
+        { "nl": "Ik denk er niet aan.", "en": "I'm not thinking about it — no way.", "speak": "Ik denk er niet aan." },
+        { "nl": "Ik weet er niets van.", "en": "I know nothing about it.", "speak": "Ik weet er niets van." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "'Ga je met de fiets?' Kies de natuurlijke reactie.",
+      "options": ["Ja, ik ga met.", "Ja, ik ga ermee.", "Ja, ik ga met het."],
+      "correct": 1,
+      "explain": "*met de fiets* → *ermee* (met always turns into mee). *ik ga met* is incomplete; *met het* isn't used for things — Dutch reaches for *er*."
+    },
+    {
+      "type": "builder",
+      "title": "Zet de splitsing op zijn plek",
+      "prompt": "Bouw: zeg dat je er niet aan denkt. Let op de volgorde: er → ontkenning → prepositie aan het eind.",
+      "slots": [
+        { "label": "Start", "chips": ["Ik", "Jij"] },
+        { "label": "Werkwoord", "chips": ["denk", "denkt"] },
+        { "label": "er", "chips": ["er"] },
+        { "label": "Ontkenning", "chips": ["niet"] },
+        { "label": "Prepositie (naar het eind)", "chips": ["aan", "over"] }
+      ],
+      "sample": "Ik denk er niet aan."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Aan de cafétafel met Daan. Hij heeft iets gehoord over de baan die Sanne in Utrecht is aangeboden — ze twijfelt nog.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Heb je het al gehoord van Sanne? Die baan in Utrecht?", "en": "Have you heard about Sanne? That job in Utrecht?" },
+        { "speaker": "You", "nl": "Ja, een beetje. Wat vind jij ervan?", "en": "Yeah, a bit. What do you think of it?", "spotlight": "ervan — van + die baan (a thing) → ervan." },
+        { "speaker": "Daan", "nl": "Nou, ik weet er niet zoveel van, hoor. Maar ze twijfelt er nog over.", "en": "Well, I don't know that much about it. But she's still in two minds about it.", "spotlight": "er … over — twijfelen over, split by nog." },
+        { "speaker": "You", "nl": "Denkt ze er echt over na om te verhuizen?", "en": "Is she really thinking about moving?", "spotlight": "er … over … na — nadenken over, fully split, plus om te." },
+        { "speaker": "Daan", "nl": "Ik denk het wel. Ze heeft er lang over nagedacht.", "en": "I think so. She's thought about it for a long time." },
+        { "speaker": "You", "nl": "Spannend! Ik hoop dat ze er blij mee wordt.", "en": "Exciting! I hope she'll be happy with it." },
+        { "speaker": "Daan", "nl": "Ja, joh. Nog een koffie? Ik neem er zelf wel twee.", "en": "Yeah. Another coffee? I'll have two myself.", "spotlight": "er … twee — and there's the counting er again." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Waar denk je vaak aan, en waar verheug je je op? Schrijf drie zinnen met de voorzetsel-*er* (*ik denk eraan, ik kijk ernaar uit, ik ben er blij mee*).",
+      "starters": ["Ik denk vaak…", "Ik kijk ernaar uit om…", "Ik ben er blij mee dat…"],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "day-58",
+  "day": 58,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Betrekkelijke bijzinnen",
+  "emoji": "🔗",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "die for de-words, dat for het-words, and waar + preposition",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "die of dat?",
+      "body": "A relative clause adds info about a noun: *the man **who** lives here*. Dutch picks the word from the noun's article. **de-woord → die**, **het-woord → dat**. And the verb still runs to the end of the clause.",
+      "table": {
+        "headers": ["Woordsoort", "Woord", "Voorbeeld"],
+        "rows": [
+          ["de-woord", "die", "de man die daar woont"],
+          ["het-woord", "dat", "het huis dat leeg staat"],
+          ["meervoud", "die", "de kinderen die spelen"]
+        ]
+      },
+      "callout": "Meervoud is altijd *die*, of het nu de- of het-woorden zijn."
+    },
+    {
+      "type": "contrast",
+      "title": "Het artikel bepaalt alles",
+      "pairs": [
+        { "left": "de film die ik zag", "right": "het boek dat ik las", "note": "*de film* → die, *het boek* → dat. Twijfel je? Check het lidwoord." },
+        { "left": "de vrouw die belt", "right": "het meisje dat lacht", "note": "Verkleinwoorden zijn altijd *het* → dus *dat*: *het meisje dat…*" }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Tik om de bijzinnen te horen",
+      "items": [
+        { "nl": "de buurman die altijd klust", "en": "the neighbour who's always doing DIY", "speak": "de buurman die altijd klust" },
+        { "nl": "het café dat om de hoek zit", "en": "the café that's around the corner", "speak": "het café dat om de hoek zit" },
+        { "nl": "de vrienden die ik gisteren zag", "en": "the friends I saw yesterday", "speak": "de vrienden die ik gisteren zag" },
+        { "nl": "het liedje dat je altijd zingt", "en": "the song you always sing", "speak": "het liedje dat je altijd zingt" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Vul in: 'Dat is het restaurant ___ we laatst waren.'",
+      "options": ["die", "dat", "waar"],
+      "correct": 2,
+      "explain": "Bij een plek + voorzetsel (we waren *in* het restaurant) gebruik je *waar*: *het restaurant **waar** we laatst waren.* *dat* zou alleen kloppen zonder voorzetsel."
+    },
+    {
+      "type": "card",
+      "title": "waar + voorzetsel: één woord",
+      "body": "When the relative clause needs a preposition and the noun is a **thing**, Dutch fuses *waar* + the preposition into one word. *de pen **waarmee** ik schrijf* (the pen I write with). Word order: the fused word up front, verb at the end.",
+      "table": {
+        "headers": ["Vorm", "Voorbeeld"],
+        "rows": [
+          ["waarover — about which", "de film waarover we praten"],
+          ["waarmee — with which", "de pen waarmee ik schrijf"],
+          ["waarin — in which", "de doos waarin het zit"],
+          ["waarop — on which", "de stoel waarop ze zit"]
+        ]
+      },
+      "callout": "Voor personen niet *waarmee* maar *met wie*: *de vriend met wie ik praat.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Vertaal: 'the book that I read' (voltooid: heb gelezen).",
+      "answers": [
+        "het boek dat ik heb gelezen",
+        "het boek dat ik gelezen heb",
+        "het boek dat ik las"
+      ],
+      "hint": "het-woord → dat; werkwoord achteraan.",
+      "explain": "*het boek* is een het-woord, dus *dat*: *het boek **dat** ik heb gelezen.*"
+    },
+    {
+      "type": "builder",
+      "title": "Bouw een betrekkelijke bijzin",
+      "prompt": "Beschrijf iets met een bijzin. Kies het juiste relatiewoord.",
+      "slots": [
+        { "label": "Zelfstandig naamwoord", "chips": ["Dat is de man", "Dat is het huis", "Dat zijn de foto's"] },
+        { "label": "Relatiewoord", "chips": ["die", "dat"] },
+        { "label": "Rest (werkwoord achteraan)", "chips": ["ik gisteren zag", "we gekocht hebben", "ik gemaakt heb"] }
+      ],
+      "sample": "Dat is het huis dat we gekocht hebben."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ de zin.",
+      "speak": "Dat is de film waarover iedereen praat.",
+      "answers": [
+        "Dat is de film waarover iedereen praat.",
+        "Dat is de film waar iedereen over praat."
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Daan shows you around his favourite corner of the city",
+      "lines": [
+        { "speaker": "Daan", "nl": "Kijk, dat is de boekwinkel waar ik werk.", "en": "Look, that's the bookshop where I work.", "spotlight": "plek + waar: *de boekwinkel **waar** ik werk.*" },
+        { "speaker": "You", "nl": "En dat café ernaast?", "en": "And that café next to it?" },
+        { "speaker": "Daan", "nl": "Dat is het café dat de beste koffie van de buurt heeft.", "en": "That's the café that has the best coffee in the neighbourhood.", "spotlight": "het café → *dat*." },
+        { "speaker": "You", "nl": "Is dat de vrouw die daar altijd zit?", "en": "Is that the woman who always sits there?", "spotlight": "de vrouw → *die*." },
+        { "speaker": "Daan", "nl": "Ja, joh! Dat is de schrijfster over wie ik je vertelde.", "en": "Yeah! That's the writer I told you about.", "spotlight": "persoon + voorzetsel: *over wie*, niet waarover." },
+        { "speaker": "You", "nl": "Echt? Dat is het boek waarmee ze bekend werd, toch?", "en": "Really? That's the book she got famous with, right?", "spotlight": "ding + voorzetsel: *waarmee*." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Snap je het?",
+      "questions": [
+        { "q": "Waar werkt Daan?", "options": ["In het café", "In de boekwinkel", "In de bibliotheek"], "correct": 1 },
+        { "q": "Waarom is dat café bijzonder?", "options": ["Het heeft de beste koffie", "Het is het goedkoopst", "Het is nieuw"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschrijf drie dingen in je buurt met een betrekkelijke bijzin (die/dat/waar). Bijvoorbeeld een winkel, een plek en een persoon.",
+      "starters": ["In mijn buurt is er een café dat…", "Ik ken een plek waar…"],
+      "minSentences": 3
+    }
+  ]
+}

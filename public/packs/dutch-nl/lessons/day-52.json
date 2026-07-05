@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "day-52",
+  "day": 52,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "Wat vind jij? — meningen geven",
+  "emoji": "💬",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "ik vind dat, volgens mij, ik denk dat, the agreement ladder — and your first dat-clauses",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Drie manieren om je mening te geven",
+      "body": "Three openers do most of the work. *Volgens mij…* (in my view) is followed by a **normal** main clause. *Ik vind dat…* and *Ik denk dat…* open a **dat-clause** — and that's where the grammar shifts.",
+      "table": {
+        "headers": ["Opener", "English"],
+        "rows": [
+          ["Volgens mij…", "In my view / I reckon…"],
+          ["Ik vind dat…", "I think that… (opinion)"],
+          ["Ik denk dat…", "I think that… (guess/belief)"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "Na 'dat' gaat het werkwoord naar het eind",
+      "body": "*dat* opens a **subclause**, and in a subclause the finite verb slides to the **very end**. Compare: *Amsterdam **is** te duur* → *Ik vind dat Amsterdam te duur **is**.* The verb *is* jumps to the back. This is the big move of the whole week.",
+      "table": {
+        "headers": ["Main clause (verb 2nd)", "After dat (verb LAST)"],
+        "rows": [
+          ["Het is te duur.", "Ik vind dat het te duur is."],
+          ["Hij heeft gelijk.", "Ik denk dat hij gelijk heeft."],
+          ["Het gaat regenen.", "Ik denk dat het gaat regenen."]
+        ]
+      },
+      "callout": "*Volgens mij* skips this: *Volgens mij is het te duur* — verb stays second."
+    },
+    {
+      "type": "chips",
+      "title": "Meningen — tap to hear",
+      "items": [
+        { "nl": "Ik vind dat je gelijk hebt.", "en": "I think you're right.", "speak": "Ik vind dat je gelijk hebt." },
+        { "nl": "Ik denk dat het gaat regenen.", "en": "I think it's going to rain.", "speak": "Ik denk dat het gaat regenen." },
+        { "nl": "Volgens mij is dat te duur.", "en": "I reckon that's too expensive.", "speak": "Volgens mij is dat te duur." },
+        { "nl": "Ik vind Amsterdam te druk.", "en": "I find Amsterdam too busy.", "speak": "Ik vind Amsterdam te druk." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "De eens-ladder — agreeing and not",
+      "body": "React to an opinion by climbing the *eens* ('agreed') ladder. The core phrase is *Ik ben het (niet) met je eens* — literally 'I am it (not) with you agreed'.",
+      "table": {
+        "headers": ["Dutch", "Strength"],
+        "rows": [
+          ["Helemaal mee eens!", "totally agree"],
+          ["Mee eens.", "agree"],
+          ["Niet mee eens.", "disagree"],
+          ["Helemaal niet mee eens.", "totally disagree"]
+        ]
+      },
+      "callout": "Full form: *Ik ben het helemaal met je eens.* Short form in chat: just *mee eens*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Finish it correctly: 'Ik denk dat het morgen ___.'",
+      "options": [
+        "gaat sneeuwen",
+        "sneeuwen gaat morgen",
+        "gaat het sneeuwen"
+      ],
+      "correct": 0,
+      "explain": "After *dat*, the finite verb *gaat* goes to the end and *sneeuwen* follows it: *Ik denk dat het morgen gaat sneeuwen.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Turn 'Het is te koud' into an opinion starting with 'Ik vind dat…'.",
+      "answers": ["Ik vind dat het te koud is.", "Ik vind dat het te koud is", "ik vind dat het te koud is."],
+      "hint": "The verb 'is' has to move to the end.",
+      "explain": "*Ik vind dat het te koud is.* — *is* leaves position two and lands last."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma and you walk past a packed terrace in the Pijp",
+      "lines": [
+        { "speaker": "Emma", "nl": "Kijk, alweer vol. Ik vind dat de Pijp te druk wordt.", "en": "Look, full again. I think the Pijp is getting too busy.", "spotlight": "Ik vind dat … wordt — verb at the end." },
+        { "speaker": "You", "nl": "Mee eens. Volgens mij zijn er te veel toeristen.", "en": "Agreed. I reckon there are too many tourists.", "spotlight": "Volgens mij zijn … — main clause, verb stays second." },
+        { "speaker": "Emma", "nl": "Precies. Maar ik denk dat het buiten het centrum rustiger is.", "en": "Exactly. But I think it's quieter outside the centre." },
+        { "speaker": "You", "nl": "Daar ben ik het helemaal mee eens.", "en": "I totally agree with that." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Wat vinden ze?",
+      "questions": [
+        { "q": "What does Emma think about the Pijp?", "options": ["It's getting too quiet", "It's getting too busy", "It's too expensive"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Geef je mening",
+      "prompt": "Build an opinion with a dat-clause — remember the verb goes last.",
+      "slots": [
+        { "label": "Opener", "chips": ["Ik vind dat", "Ik denk dat"] },
+        { "label": "Onderwerp", "chips": ["het weer", "Nederlands", "de stad"] },
+        { "label": "Rest + werkwoord (eind)", "chips": ["te koud is", "mooi is", "te duur wordt"] }
+      ],
+      "sample": "Ik vind dat Nederlands mooi is."
+    },
+    {
+      "type": "journal",
+      "prompt": "Give two opinions about the city you live in — one with *ik vind dat…* and one with *volgens mij…*. Watch the verb position in each.",
+      "starters": ["Ik vind dat…", "Volgens mij…"],
+      "minSentences": 2
+    }
+  ]
+}

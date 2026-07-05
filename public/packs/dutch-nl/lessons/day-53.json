@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "day-53",
+  "day": 53,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "Het werkwoord naar het eind — omdat, als, dat",
+  "emoji": "🧩",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "The A2→B1 gate: in a subordinate clause the finite verb goes to the very end",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "De grote regel",
+      "body": "This is the single most important structural rule in Dutch. A **subordinate clause** starts with a linking word like *omdat* (because), *als* (if/when) or *dat* (that) — and inside it the finite verb is kicked all the way to the **end**. Main clause keeps its verb second; the subclause parks it last.",
+      "table": {
+        "headers": ["Main (verb 2nd)", "→ Subclause (verb LAST)"],
+        "rows": [
+          ["Ik ben moe.", "Ik blijf thuis omdat ik moe ben."],
+          ["Het regent.", "We gaan niet als het regent."],
+          ["Ze komt morgen.", "Ze zegt dat ze morgen komt."]
+        ]
+      },
+      "callout": "See how *ben*, *regent*, *komt* all slide to the back? That's the whole lesson."
+    },
+    {
+      "type": "card",
+      "title": "want vs omdat — same meaning, different order",
+      "body": "Both mean 'because', and this is the classic trap. *want* is a **linker between two main clauses** — verb stays **second**. *omdat* opens a **subclause** — verb goes to the **end**. Same idea, opposite word order.",
+      "table": {
+        "headers": ["want (verb 2nd)", "omdat (verb LAST)"],
+        "rows": [
+          ["Ik blijf thuis, want ik ben ziek.", "Ik blijf thuis omdat ik ziek ben."]
+        ]
+      },
+      "callout": "If you can only remember one: *omdat* → verb to the end."
+    },
+    {
+      "type": "chips",
+      "title": "Luister naar de bijzinnen",
+      "items": [
+        { "nl": "Ik ga naar bed omdat ik moe ben.", "en": "I'm going to bed because I'm tired.", "speak": "Ik ga naar bed omdat ik moe ben." },
+        { "nl": "Bel me als je thuis bent.", "en": "Call me when you're home.", "speak": "Bel me als je thuis bent." },
+        { "nl": "Ik weet dat je gelijk hebt.", "en": "I know that you're right.", "speak": "Ik weet dat je gelijk hebt." },
+        { "nl": "We blijven binnen omdat het regent.", "en": "We're staying in because it's raining.", "speak": "We blijven binnen omdat het regent." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Drie voegwoorden, één regel",
+      "pairs": [
+        { "left": "omdat — because", "right": "want — because (verb stays 2nd)", "note": "*omdat* sends the verb to the end; *want* does not. Meaning identical." },
+        { "left": "als — if / when", "right": "dat — that", "note": "Both open subclauses too: verb to the end. *Als je wilt…*, *…dat het klopt.*" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence puts the verb in the right place?",
+      "options": [
+        "Ik kom niet omdat ik ben ziek.",
+        "Ik kom niet omdat ik ziek ben.",
+        "Ik kom niet omdat ben ik ziek."
+      ],
+      "correct": 1,
+      "explain": "After *omdat* the finite verb *ben* goes to the end: *…omdat ik ziek ben.* Option 1 leaves it second (that's the *want* pattern)."
+    },
+    {
+      "type": "mcq",
+      "prompt": "A separable verb in a subclause — where do the pieces go? 'Ze is blij ___.'",
+      "options": [
+        "dat je meekomt",
+        "dat je komt mee",
+        "dat mee je komt"
+      ],
+      "correct": 0,
+      "explain": "In a subclause a separable verb snaps back together at the end: *opstaan*, *meekomen* → *…dat je meekomt.* No splitting here."
+    },
+    {
+      "type": "typed",
+      "prompt": "Join these with omdat: 'Ik ga naar huis.' + 'Ik ben moe.'",
+      "answers": ["Ik ga naar huis omdat ik moe ben.", "Ik ga naar huis omdat ik moe ben", "ik ga naar huis omdat ik moe ben."],
+      "hint": "Keep the first verb second; send the second verb to the end.",
+      "explain": "*Ik ga naar huis omdat ik moe ben.* — main clause unchanged, *ben* parked last."
+    },
+    {
+      "type": "typed",
+      "prompt": "Reorder into a correct subclause: dat / hij / gelijk / heeft → 'Ik denk ___.'",
+      "answers": ["Ik denk dat hij gelijk heeft.", "Ik denk dat hij gelijk heeft", "dat hij gelijk heeft"],
+      "hint": "dat + subject + rest + VERB.",
+      "explain": "*Ik denk dat hij gelijk heeft.* — *heeft* is the finite verb, so it goes to the very end."
+    },
+    {
+      "type": "builder",
+      "title": "Zet het werkwoord op het eind",
+      "prompt": "Build the subclause. The last slot is the verb — that's the point: in a bijzin it always lands there.",
+      "slots": [
+        { "label": "Hoofdzin", "chips": ["Ik ga niet mee", "Ze blijft thuis", "We eten binnen"] },
+        { "label": "Voegwoord", "chips": ["omdat", "als", "want"] },
+        { "label": "Onderwerp + rest", "chips": ["ik", "het", "ze"] },
+        { "label": "Werkwoord (eind!)", "chips": ["ziek ben", "regent", "moe is"] }
+      ],
+      "sample": "Ik ga niet mee omdat ik ziek ben."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole sentence, verb and all.",
+      "speak": "We blijven binnen omdat het hard regent.",
+      "answers": ["We blijven binnen omdat het hard regent.", "We blijven binnen omdat het hard regent", "Wij blijven binnen omdat het hard regent."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Daan cancels on you by text",
+      "lines": [
+        { "speaker": "Daan", "nl": "Sorry joh, ik kom niet omdat ik moet werken.", "en": "Sorry mate, I'm not coming because I have to work.", "spotlight": "omdat ik moet werken — modal + infinitive, both at the end." },
+        { "speaker": "You", "nl": "Jammer! Bel je als je klaar bent?", "en": "Shame! Will you call when you're done?", "spotlight": "als je klaar bent — verb 'bent' last." },
+        { "speaker": "Daan", "nl": "Doe ik. Ik denk dat het rond acht uur wordt.", "en": "I will. I think it'll be around eight.", "spotlight": "dat het … wordt — verb last again." },
+        { "speaker": "You", "nl": "Prima. Ik ben blij dat je toch nog komt.", "en": "Fine. I'm glad you're still coming after all." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write three sentences about today, each with a subclause: one *omdat*, one *als*, one *dat*. Then reread and check every subclause verb sits at the end.",
+      "starters": ["Ik ben blij dat…", "Ik blijf thuis omdat…", "Als het mooi weer is,…"],
+      "minSentences": 3
+    }
+  ]
+}

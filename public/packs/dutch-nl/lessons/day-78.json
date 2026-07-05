@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "day-78",
+  "day": 78,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "Doe maar! — de gebiedende wijs",
+  "emoji": "📣",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Commands from the verb stem, and how even/maar/nou/eens soften them from bossy to friendly",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Making a command",
+      "body": "The imperative is the easiest form in Dutch: take the *ik*-form (the bare stem) and stop. **No ending, no pronoun.** *ik wacht* → **wacht!**, *ik kom* → **kom!**, *ik doe* → **doe!** Separable verbs still split, but here they just… don't: *ga zitten* (sit down), *let op* (watch out).",
+      "table": {
+        "headers": ["Infinitief", "ik-vorm", "Bevel"],
+        "rows": [
+          ["wachten", "ik wacht", "Wacht!"],
+          ["komen", "ik kom", "Kom!"],
+          ["kijken", "ik kijk", "Kijk!"],
+          ["doen", "ik doe", "Doe!"],
+          ["gaan zitten", "ik ga zitten", "Ga zitten!"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "The one new thing: softeners",
+      "body": "A bare command sounds *bossy*. Dutch fixes this with a tiny particle right after the verb. **even** = 'just / for a sec' (*Wacht even!*). **maar** = reassuring, 'go ahead' (*Kom maar binnen*). **eens** = inviting, 'have a…' (*Kijk eens*). **nou** = 'come on now'. These turn an order into an offer — this is the whole trick of sounding Dutch and kind.",
+      "callout": "*Wacht!* barks. *Wacht even!* smiles. Same word, one particle."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the everyday commands",
+      "items": [
+        { "nl": "doe maar", "en": "go ahead / help yourself", "speak": "doe maar" },
+        { "nl": "kom op", "en": "come on (encouragement)", "speak": "kom op" },
+        { "nl": "let op", "en": "watch out / pay attention", "speak": "let op" },
+        { "nl": "kijk eens", "en": "have a look", "speak": "kijk eens" },
+        { "nl": "ga zitten", "en": "sit down", "speak": "ga zitten" },
+        { "nl": "wacht even", "en": "hang on a sec", "speak": "wacht even" },
+        { "nl": "luister nou", "en": "come on, listen", "speak": "luister nou" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Blunt vs. soft",
+      "pairs": [
+        { "left": "Wacht!", "right": "Wacht even!", "note": "*even* turns an urgent bark into a friendly 'hang on a sec'." },
+        { "left": "Kom hier.", "right": "Kom maar hier.", "note": "*maar* reassures — 'come on over, it's fine, no pressure'." },
+        { "left": "Kijk.", "right": "Kijk eens.", "note": "*eens* makes it an invitation — 'take a look at this'." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "A nervous friend is hovering in your doorway. Which sounds warm, not bossy?",
+      "options": ["Binnen!", "Kom maar binnen.", "Je moet nu binnenkomen."],
+      "correct": 1,
+      "explain": "*Kom maar binnen* = 'come on in, it's fine'. The bare *Binnen!* is a command to a dog; the third is an obligation, not a welcome."
+    },
+    {
+      "type": "typed",
+      "prompt": "Turn *wachten* into a friendly 'Wait a second!' — verb plus one softener.",
+      "answers": ["Wacht even", "Wacht even!", "Wacht eens", "Wacht nou"],
+      "hint": "Stem + a particle like *even*.",
+      "explain": "*Wacht even!* — the stem *wacht* plus *even* ('for a sec') is the everyday version."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the friendly command.",
+      "speak": "Ga maar zitten.",
+      "answers": ["Ga maar zitten", "Ga maar zitten.", "Ga maar zitten!"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma is teaching You to make stamppot in her kitchen in de Pijp.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Kom, we maken vanavond stamppot. Pak even een grote pan.", "en": "Come on, we're making stamppot tonight. Grab a big pan for me.", "spotlight": "Pak even — 'even' makes 'grab' a request, not an order." },
+        { "speaker": "You", "nl": "Zo? En hoeveel water?", "en": "Like this? And how much water?" },
+        { "speaker": "Emma", "nl": "Doe maar flink wat erin. En snijd de boerenkool klein.", "en": "Go ahead and put plenty in. And chop the kale small.", "spotlight": "Doe maar — the friendliest command Dutch has." },
+        { "speaker": "You", "nl": "Au — oké, oké.", "en": "Ow — okay, okay." },
+        { "speaker": "Emma", "nl": "Let op je vingers, joh. Rustig.", "en": "Mind your fingers, mate. Easy.", "spotlight": "Let op — 'watch out / mind'." },
+        { "speaker": "You", "nl": "En nu?", "en": "And now?" },
+        { "speaker": "Emma", "nl": "Proef eens. Meer zout?", "en": "Have a taste. More salt?", "spotlight": "Proef eens — 'eens' softens it into a warm invitation." },
+        { "speaker": "You", "nl": "Mmm, lekker. Doe maar een snufje.", "en": "Mmm, tasty. Go ahead, a pinch." },
+        { "speaker": "Emma", "nl": "Precies. Kom, aan tafel!", "en": "Exactly. Come on, to the table!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Kwam het binnen?",
+      "questions": [
+        { "q": "Wat moet You met de boerenkool doen?", "options": ["Koken", "Klein snijden", "Wassen"], "correct": 1 },
+        { "q": "Waarom zegt Emma 'let op je vingers'?", "options": ["Het water is koud", "You snijdt met een mes", "De pan is leeg"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Build a friendly command",
+      "prompt": "Assemble a warm, softened command a host might say.",
+      "slots": [
+        { "label": "Werkwoord", "chips": ["Kom", "Wacht", "Kijk", "Ga"] },
+        { "label": "Verzachter", "chips": ["maar", "even", "eens", "nou"] },
+        { "label": "Rest", "chips": ["binnen", "hier", "zitten", "mee"] }
+      ],
+      "sample": "Kom maar binnen."
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf drie vriendelijke opdrachten die je een gast bij jou thuis zou geven. Gebruik minstens twee keer een verzachter (*even*, *maar*, *eens* of *nou*).",
+      "starters": ["Kom maar …", "Doe even …", "Ga …"],
+      "minSentences": 3
+    }
+  ]
+}

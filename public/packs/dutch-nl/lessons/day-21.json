@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "day-21",
+  "day": 21,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "capstone",
+  "title": "Mijn familie, mijn buurt",
+  "emoji": "🎉",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Capstone: family and neighborhood portrait, plus mijn verhaal layer 3",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 3, alles bij elkaar",
+      "body": "Deze week: familie plus de warme *-je*, de **-e-regel** voor adjectieven, possessives (*mijn, jouw, zijn, haar, ons/onze, hun*), en je eigen *buurt*. Tijd om het allemaal te gebruiken — en je verhaal verder te bouwen."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which article goes with 'zusje'?",
+      "options": ["de", "het"],
+      "correct": 1,
+      "explain": "Diminutives are always het."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'my little sister'.",
+      "answers": ["mijn zusje"]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct — 'the nice city' (stad is de)?",
+      "options": ["de leuke stad", "de leuk stad"],
+      "correct": 0,
+      "explain": "De-words always take -e: de leuke stad."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'our house' (huis is het).",
+      "answers": ["ons huis"],
+      "hint": "het-word → ons."
+    },
+    {
+      "type": "contrast",
+      "title": "Possessives act like 'the'",
+      "pairs": [
+        { "left": "een leuk huis — a nice house (indefinite)", "right": "mijn leuke huis — my nice house (possessive)", "note": "Possessives (mijn, jouw, zijn, haar, ons, onze, hun) act like definite articles for adjectives — always add -e, even with a het-word." }
+      ]
+    },
+    {
+      "type": "builder",
+      "prompt": "Combine a possessive, an adjective, and a family member or place.",
+      "slots": [
+        { "label": "Possessive", "chips": ["mijn", "onze", "haar"] },
+        { "label": "Adjective", "chips": ["leuke", "aardige", "gezellige"] },
+        { "label": "Person/place", "chips": ["zus", "broer", "buurt", "straat"] }
+      ],
+      "sample": "Onze gezellige buurt."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You tell Daan about your family and your neighborhood.",
+      "lines": [
+        { "speaker": "You", "nl": "Dit is mijn zusje — heel grappig, en heel aardig.", "en": "This is my little sister — really funny, and really kind." },
+        { "speaker": "Daan", "nl": "Leuk! En waar woont ze?", "en": "Nice! And where does she live?" },
+        { "speaker": "You", "nl": "In onze oude buurt, vlakbij een gezellig plein.", "en": "In our old neighborhood, close to a cozy square.", "spotlight": "onze oude buurt — buurt is de, always -e." },
+        { "speaker": "Daan", "nl": "En jouw huis — is dat ook gezellig?", "en": "And your house — is that cozy too?" },
+        { "speaker": "You", "nl": "Heel gezellig, ja. Ons kleine huis, maar wel heel warm.", "en": "Very cozy, yes. Our small house, but very warm.", "spotlight": "ons kleine huis — ons + adjective always takes -e, even for a het-word." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "Why is it 'ons kleine huis' and not 'ons klein huis'?", "options": ["huis is de, not het", "Possessives always trigger -e, like definite articles", "There's no rule, both are fine"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Mijn verhaal — hoofdstuk 3. Voeg je familie en je buurt toe aan je verhaal (naam, waar je vandaan komt, dat je Nederlands leert, je dagelijkse routine — en nu je familie en buurt). Gebruik possessives (mijn/onze/haar) en adjectieven met -e.",
+      "starters": ["Mijn familie...", "Ik heb een...", "Onze buurt is..."],
+      "minSentences": 4
+    },
+    {
+      "type": "journal",
+      "prompt": "Je hebt Week 3 afgerond! Familie, buurt, adjectieven, possessives — allemaal binnen. Schrijf één zin die viert wat je deze week geleerd hebt.",
+      "starters": ["Deze week heb ik geleerd..."]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "day-54",
+  "day": 54,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "Groter, groter, het grootst",
+  "emoji": "📈",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Comparatives (groter dan), superlatives (het grootst / de grootste) and the key irregulars",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Vergroten: -er + dan",
+      "body": "To compare, add **-er** to the adjective and link with **dan** (than). *groot → groter*, *klein → kleiner*. *Amsterdam is groter dan Utrecht.* Adjectives ending in **-r** add **-der** for sound: *duur → duurder*, *lekker → lekkerder*.",
+      "table": {
+        "headers": ["Adjective", "Comparative"],
+        "rows": [
+          ["groot — big", "groter dan"],
+          ["klein — small", "kleiner dan"],
+          ["duur — expensive", "duurder dan"],
+          ["lekker — tasty", "lekkerder dan"]
+        ]
+      },
+      "callout": "Watch spelling: *groot* has a double-o, but *groter* drops one (open syllable stays long)."
+    },
+    {
+      "type": "card",
+      "title": "Het meest: -st",
+      "body": "For the top of the scale, add **-st**. Two shapes: standing alone use **het …st** (*In juli is het het warmst*), and in front of a noun use **de/het …ste** (*de grootste stad*). Even *duur* just adds -st: *het duurst*.",
+      "table": {
+        "headers": ["Comparative", "Superlative"],
+        "rows": [
+          ["groter", "het grootst / de grootste"],
+          ["kleiner", "het kleinst / de kleinste"],
+          ["mooier", "het mooist / de mooiste"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Luister en vergelijk",
+      "items": [
+        { "nl": "Utrecht is kleiner dan Amsterdam.", "en": "Utrecht is smaller than Amsterdam.", "speak": "Utrecht is kleiner dan Amsterdam." },
+        { "nl": "Deze koffie is lekkerder.", "en": "This coffee is tastier.", "speak": "Deze koffie is lekkerder." },
+        { "nl": "Dit is de mooiste gracht.", "en": "This is the prettiest canal.", "speak": "Dit is de mooiste gracht." },
+        { "nl": "In de winter is het het koudst.", "en": "In winter it's coldest.", "speak": "In de winter is het het koudst." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "De onregelmatige drie",
+      "body": "Three very common words don't follow the pattern — learn them as a set, exactly like English good/better/best.",
+      "table": {
+        "headers": ["Base", "Comparative", "Superlative"],
+        "rows": [
+          ["goed — good", "beter", "het best / de beste"],
+          ["veel — much/many", "meer", "het meest / de meeste"],
+          ["graag — gladly", "liever", "het liefst"]
+        ]
+      },
+      "callout": "*graag/liever/liefst* is how you rank preferences: *Ik drink graag koffie, maar liever thee, en het liefst chocomel.*"
+    },
+    {
+      "type": "contrast",
+      "title": "liever vs het liefst",
+      "pairs": [
+        { "left": "Ik drink liever thee.", "right": "Ik drink het liefst thee.", "note": "*liever* = 'rather' (prefer one over another). *het liefst* = 'most of all' (your absolute favourite)." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Pick the correct comparison.",
+      "options": [
+        "Deze fiets is goeder dan die.",
+        "Deze fiets is beter dan die.",
+        "Deze fiets is meer goed dan die."
+      ],
+      "correct": 1,
+      "explain": "*goed* is irregular: *goed → beter → best*. Never *goeder*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'Tea is tastier than coffee.' (thee, koffie, lekker)",
+      "answers": ["Thee is lekkerder dan koffie.", "Thee is lekkerder dan koffie", "thee is lekkerder dan koffie."],
+      "hint": "lekker ends in -r → add -der. Link with dan.",
+      "explain": "*Thee is lekkerder dan koffie.* — the -r adjective takes -der."
+    },
+    {
+      "type": "builder",
+      "title": "Maak een vergelijking",
+      "prompt": "Compare two things with a comparative + dan.",
+      "slots": [
+        { "label": "Ding 1", "chips": ["Deze trein", "Mijn buurt", "Dit café"] },
+        { "label": "Vergrotende trap", "chips": ["is sneller", "is rustiger", "is gezelliger"] },
+        { "label": "…dan", "chips": ["dan de bus", "dan het centrum", "dan dat café"] }
+      ],
+      "sample": "Deze trein is sneller dan de bus."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Daan defends the smaller cities over a beer",
+      "lines": [
+        { "speaker": "Daan", "nl": "Amsterdam is leuk, maar Utrecht is gezelliger, vind ik.", "en": "Amsterdam is nice, but Utrecht is cosier, I think.", "spotlight": "gezelliger — comparative of gezellig." },
+        { "speaker": "You", "nl": "Echt? Amsterdam is toch veel groter en drukker.", "en": "Really? Amsterdam is much bigger and busier though." },
+        { "speaker": "Daan", "nl": "Precies. Klein is beter. En het bier is er goedkoper, hoor.", "en": "Exactly. Small is better. And the beer's cheaper there, you know.", "spotlight": "beter — irregular; goedkoper — regular -er." },
+        { "speaker": "You", "nl": "Haha, dát is jouw beste argument.", "en": "Haha, that's your best argument.", "spotlight": "beste — superlative of goed, before a noun." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Wie vindt wat?",
+      "questions": [
+        { "q": "Why does Daan prefer Utrecht, in the end?", "options": ["It's bigger", "It's cosier and the beer is cheaper", "It's busier"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Compare your old town and your new one: write two sentences with a comparative + *dan*, and one with *het liefst* (what you like most of all).",
+      "starters": ["… is groter dan…", "Ik woon het liefst…"],
+      "minSentences": 3
+    }
+  ]
+}

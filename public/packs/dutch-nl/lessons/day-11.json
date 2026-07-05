@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "day-11",
+  "day": 11,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "De V2-regel — werkwoord op plek twee",
+  "emoji": "🧩",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Present-tense conjugation and verb-second: front anything, the verb stays in slot 2",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Present tense: stem + endings",
+      "body": "Take the infinitive (*werken* = to work), drop *-en* to get the **stem** (*werk*). Then: *ik* adds nothing, *jij* and *hij/zij* add **-t**, and the plurals (*wij/jullie/zij*) just use the full infinitive again. That's the whole system.",
+      "table": {
+        "headers": ["Person", "Form", "English"],
+        "rows": [
+          ["ik", "werk", "I work"],
+          ["jij", "werkt", "you work"],
+          ["hij / zij", "werkt", "he / she works"],
+          ["wij", "werken", "we work"],
+          ["jullie", "werken", "you (pl) work"],
+          ["zij", "werken", "they work"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Hear the forms of wonen (to live)",
+      "items": [
+        { "nl": "ik woon", "en": "I live", "speak": "ik woon" },
+        { "nl": "jij woont", "en": "you live", "speak": "jij woont" },
+        { "nl": "hij woont", "en": "he lives", "speak": "hij woont" },
+        { "nl": "wij wonen", "en": "we live", "speak": "wij wonen" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Keep the vowel sound: woon, not won",
+      "body": "One spelling reflex. *wonen* has a long 'oo' sound. Drop *-en* and you'd get *won* — but a single vowel in a closed syllable goes short. To **keep the long sound**, double it: the *ik*-form is *woon*. Same reason *maken* → *ik maak*.",
+      "callout": "Flip side: *pakken* → *ik pak*. A short vowel drops the doubled consonant."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Fill in: Jij ___ in Amsterdam.",
+      "options": ["woon", "woont", "wonen"],
+      "correct": 1,
+      "explain": "*jij* takes the stem + **-t**: *jij woont*. Only *ik* gets the bare stem."
+    },
+    {
+      "type": "card",
+      "title": "The law: the verb is second",
+      "body": "In a Dutch main clause the finite verb sits in **position two** — always. Not second *word*, second *slot*. In the plainest sentence, slot 1 is the subject and slot 2 is the verb: *Ik drink koffie.* Nothing surprising yet — the magic is what happens when you move something to the front.",
+      "callout": "Count constituents, not words: 's ochtends is one slot, however long it is."
+    },
+    {
+      "type": "card",
+      "title": "Front something, and the subject flips behind the verb",
+      "body": "Put a time or place first and the verb **stays** in slot 2 — so the subject gets bumped to slot 3. This flip (inversion) is not optional; it's the law holding. Same verb, same slot, every time:",
+      "table": {
+        "headers": ["1 (front)", "2 (verb)", "3 (subject)", "rest"],
+        "rows": [
+          ["Ik", "drink", "—", "'s ochtends koffie"],
+          ["'s Ochtends", "drink", "ik", "koffie"],
+          ["Koffie", "drink", "ik", "'s ochtends"]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "Watch the flip",
+      "pairs": [
+        { "left": "Ik werk vandaag.", "right": "Vandaag werk ik.", "note": "Move *vandaag* to the front and *ik* jumps behind the verb. The verb never moves off slot 2." },
+        { "left": "Wij eten om zes uur.", "right": "Om zes uur eten wij.", "note": "Front the time, invert the subject. English keeps 'we eat'; Dutch cannot." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is correct?",
+      "options": ["Vandaag ik werk in Rotterdam.", "Vandaag werk ik in Rotterdam.", "Vandaag werken ik in Rotterdam."],
+      "correct": 1,
+      "explain": "Front *vandaag*, keep the verb in slot 2, subject behind it: *Vandaag werk ik…*. The English-style 'Vandaag ik werk' breaks V2."
+    },
+    {
+      "type": "builder",
+      "title": "Build a V2 sentence — one slot per position",
+      "prompt": "Fill the four positions in order. The verb must land in slot 2, so pick your front element first and let the subject fall behind the verb.",
+      "slots": [
+        { "label": "1 — Voorop (front)", "chips": ["'s Ochtends", "'s Avonds", "Op maandag"] },
+        { "label": "2 — Werkwoord (verb)", "chips": ["drink", "eet", "werk"] },
+        { "label": "3 — Onderwerp (subject)", "chips": ["ik", "jij", "wij"] },
+        { "label": "4 — Rest", "chips": ["koffie", "een broodje", "thuis"] }
+      ],
+      "sample": "'s Ochtends drink ik koffie."
+    },
+    {
+      "type": "typed",
+      "prompt": "Rewrite starting with the time. Base sentence: 'Ik ga om negen uur naar mijn werk.' Start with 'Om negen uur …'.",
+      "answers": ["om negen uur ga ik naar mijn werk", "Om negen uur ga ik naar mijn werk"],
+      "hint": "Verb stays second, so *ga* comes right after the time, then *ik*.",
+      "explain": "*Om negen uur ga ik naar mijn werk.* Front the time → verb in slot 2 → subject inverts."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the V2 sentence.",
+      "speak": "'s Avonds kook ik thuis",
+      "answers": ["'s avonds kook ik thuis", "s avonds kook ik thuis"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write three sentences about your day, each starting with a different front element (a time, a place, a day). Check that your verb sits in slot 2 every time.",
+      "starters": ["'s Ochtends …", "Op vrijdag …", "In Amsterdam …"]
+    }
+  ]
+}

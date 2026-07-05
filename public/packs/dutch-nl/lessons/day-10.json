@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "day-10",
+  "day": 10,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Hoe laat is het? — tijd, dagen, maanden",
+  "emoji": "🕰",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Telling time, the half-zes trap, days of the week, months, and 's ochtends/'s avonds",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Whole hours",
+      "body": "Ask *Hoe laat is het?* (What time is it?). Answer with **het is … uur**. The word *uur* (o'clock / hour) never changes. For 1 o'clock, say *één uur* with the accents so it doesn't sound like 'a hour'.",
+      "table": {
+        "headers": ["Time", "Dutch"],
+        "rows": [
+          ["1:00", "het is één uur"],
+          ["3:00", "het is drie uur"],
+          ["8:00", "het is acht uur"],
+          ["12:00", "het is twaalf uur"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the hours",
+      "items": [
+        { "nl": "één uur", "en": "1:00", "speak": "een uur" },
+        { "nl": "drie uur", "en": "3:00", "speak": "drie uur" },
+        { "nl": "zes uur", "en": "6:00", "speak": "zes uur" },
+        { "nl": "acht uur", "en": "8:00", "speak": "acht uur" },
+        { "nl": "twaalf uur", "en": "12:00", "speak": "twaalf uur" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "The trap: half zes is 5:30, not 6:30",
+      "body": "Here is the one that catches every learner. Dutch *half* points **forward** to the coming hour, not back. **half zes** means 'half to six' = **5:30**. So you're always naming the hour you're heading toward, one higher than the clock's big number.",
+      "callout": "English 'half past five' = Dutch *half zes*. Same moment, different hour named. Trust the rule, not your instinct."
+    },
+    {
+      "type": "card",
+      "title": "Quarters and minutes: over and voor",
+      "body": "Use *over* (past) and *voor* (to) around the hour. **kwart over drie** = 3:15, **kwart voor vier** = 3:45. Small minutes work the same: *tien over drie* (3:10), *tien voor vier* (3:50).",
+      "table": {
+        "headers": ["Time", "Dutch"],
+        "rows": [
+          ["3:15", "kwart over drie"],
+          ["3:30", "half vier"],
+          ["3:45", "kwart voor vier"],
+          ["3:10", "tien over drie"],
+          ["3:50", "tien voor vier"]
+        ]
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "It's 7:30. What do you say?",
+      "options": ["half zeven", "half acht", "zeven uur dertig"],
+      "correct": 1,
+      "explain": "*half* looks forward to the next hour. 7:30 is halfway to eight, so *half acht*. *half zeven* would be 6:30."
+    },
+    {
+      "type": "typed",
+      "prompt": "Write 7:45 in Dutch.",
+      "answers": ["kwart voor acht"],
+      "hint": "A quarter *to* the coming hour.",
+      "explain": "*kwart voor acht* — a quarter to eight. *voor* = to/before."
+    },
+    {
+      "type": "card",
+      "title": "The days of the week",
+      "body": "Dutch week days are lowercase (no capital, unlike English). The week starts on *maandag* (Monday). *Weekend* is the same word you know, and the Dutch love it.",
+      "table": {
+        "headers": ["Dutch", "English"],
+        "rows": [
+          ["maandag", "Monday"],
+          ["dinsdag", "Tuesday"],
+          ["woensdag", "Wednesday"],
+          ["donderdag", "Thursday"],
+          ["vrijdag", "Friday"],
+          ["zaterdag", "Saturday"],
+          ["zondag", "Sunday"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the days",
+      "items": [
+        { "nl": "maandag", "en": "Monday", "speak": "maandag" },
+        { "nl": "woensdag", "en": "Wednesday", "speak": "woensdag" },
+        { "nl": "vrijdag", "en": "Friday", "speak": "vrijdag" },
+        { "nl": "zaterdag", "en": "Saturday", "speak": "zaterdag" },
+        { "nl": "zondag", "en": "Sunday", "speak": "zondag" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "The months",
+      "body": "Also lowercase, and comfortingly close to English. *maart* (March) and *mei* (May) are the ones to eyeball.",
+      "table": {
+        "headers": ["Dutch", "English"],
+        "rows": [
+          ["januari — februari — maart", "Jan – Feb – Mar"],
+          ["april — mei — juni", "Apr – May – Jun"],
+          ["juli — augustus — september", "Jul – Aug – Sep"],
+          ["oktober — november — december", "Oct – Nov – Dec"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "Parts of the day: 's ochtends, 's middags, 's avonds",
+      "body": "To say 'in the morning / afternoon / evening' Dutch uses a little frozen *'s* out front. *'s ochtends* (in the morning), *'s middags* (in the afternoon), *'s avonds* (in the evening), *'s nachts* (at night). That *'s* is a shrunken old word for 'the' — just memorize the shape.",
+      "callout": "*'s ochtends* and *'s morgens* both mean 'in the morning' — you'll hear both."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "half acht",
+      "answers": ["half acht"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe your week: which day is your favorite, and what time do you usually wake up? Use a part-of-day word (*'s ochtends*, *'s avonds*).",
+      "starters": ["Mijn favoriete dag is …", "'s Ochtends word ik om … wakker."]
+    }
+  ]
+}

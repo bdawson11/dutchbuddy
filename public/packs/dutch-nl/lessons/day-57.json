@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "day-57",
+  "day": 57,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Bijzinnen II — de hele set",
+  "emoji": "🧩",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "hoewel, terwijl, zodat, voordat, nadat, sinds — all verb-final",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Zes nieuwe voegwoorden",
+      "body": "You already know that *omdat*, *als* and *dat* kick the verb to the **end** of the clause. Here are six more that do exactly the same. Learn the meaning; the word order is the part you already own.",
+      "table": {
+        "headers": ["Voegwoord", "Betekenis"],
+        "rows": [
+          ["hoewel", "although (concession)"],
+          ["terwijl", "while / whereas"],
+          ["zodat", "so that (result)"],
+          ["voordat", "before"],
+          ["nadat", "after"],
+          ["sinds", "since (a point in time)"]
+        ]
+      },
+      "callout": "All six push the finite verb to the very end of the bijzin: *…hoewel het **regent**.*"
+    },
+    {
+      "type": "card",
+      "title": "Bijzin vooraan? De hoofdzin draait om",
+      "body": "If the subclause comes **first**, the main clause flips to verb-first — because the whole subclause counts as position one. *Hoewel het regent, **gaan** we toch fietsen.* Note the comma, then the verb before the subject.",
+      "callout": "Twee werkwoorden botsen om de komma: *…regent, gaan we…* — dat is goed Nederlands, geen fout."
+    },
+    {
+      "type": "chips",
+      "title": "Tik om hele bijzinnen te horen",
+      "items": [
+        { "nl": "Hoewel het regent, fietsen we toch.", "en": "Although it's raining, we cycle anyway.", "speak": "Hoewel het regent, fietsen we toch." },
+        { "nl": "Terwijl ik kook, dekt Daan de tafel.", "en": "While I cook, Daan sets the table.", "speak": "Terwijl ik kook, dekt Daan de tafel." },
+        { "nl": "Ik zet muziek aan zodat het gezelliger wordt.", "en": "I put music on so that it gets cozier.", "speak": "Ik zet muziek aan zodat het gezelliger wordt." },
+        { "nl": "Voordat ik ga slapen, lees ik nog even.", "en": "Before I go to sleep, I read a bit.", "speak": "Voordat ik ga slapen, lees ik nog even." },
+        { "nl": "Nadat we gegeten hadden, gingen we wandelen.", "en": "After we had eaten, we went for a walk.", "speak": "Nadat we gegeten hadden, gingen we wandelen." },
+        { "nl": "Sinds ik in Amsterdam woon, fiets ik elke dag.", "en": "Since I live in Amsterdam, I cycle every day.", "speak": "Sinds ik in Amsterdam woon, fiets ik elke dag." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Twee valkuilen",
+      "pairs": [
+        { "left": "voordat — before", "right": "nadat — after", "note": "Time order. Na *nadat* staat vaak een voltooide tijd: *nadat we gegeten hadden…*" },
+        { "left": "terwijl — while (at the same time)", "right": "hoewel — although (contrast)", "note": "*terwijl* can also mean 'whereas'. If it's really a contrast, *hoewel* is safer." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welke zin heeft de juiste woordvolgorde?",
+      "options": [
+        "Ik blijf thuis, hoewel ik wil eigenlijk weg.",
+        "Ik blijf thuis, hoewel ik eigenlijk weg wil.",
+        "Ik blijf thuis, hoewel wil ik eigenlijk weg."
+      ],
+      "correct": 1,
+      "explain": "Na *hoewel* gaat de persoonsvorm naar het eind: *…hoewel ik eigenlijk weg **wil**.* De infinitief-plus-persoonsvorm klit samen achteraan."
+    },
+    {
+      "type": "typed",
+      "prompt": "Vertaal: 'Since I live in Amsterdam, I cycle every day.'",
+      "answers": [
+        "Sinds ik in Amsterdam woon, fiets ik elke dag.",
+        "Sinds ik in Amsterdam woon fiets ik elke dag."
+      ],
+      "hint": "sinds + werkwoord achteraan; dan de hoofdzin omgedraaid.",
+      "explain": "*Sinds ik in Amsterdam **woon**, **fiets ik**…* — werkwoord achteraan in de bijzin, inversie in de hoofdzin."
+    },
+    {
+      "type": "builder",
+      "title": "Bouw een zodat-zin",
+      "prompt": "Zeg waarom je iets doet, met een resultaat.",
+      "slots": [
+        { "label": "Hoofdzin", "chips": ["Ik ga vroeg naar bed", "Ik neem een jas mee", "Ik schrijf het op"] },
+        { "label": "Voegwoord", "chips": ["zodat"] },
+        { "label": "Resultaat (werkwoord achteraan)", "chips": ["ik morgen fit ben", "ik het niet vergeet", "ik geen kou heb"] }
+      ],
+      "sample": "Ik ga vroeg naar bed zodat ik morgen fit ben."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ de hele zin.",
+      "speak": "Voordat ik ga slapen, lees ik nog even.",
+      "answers": [
+        "Voordat ik ga slapen, lees ik nog even.",
+        "Voordat ik ga slapen lees ik nog even."
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma explains her evening routine over coffee",
+      "lines": [
+        { "speaker": "Emma", "nl": "Kijk, sinds ik minder werk, heb ik weer tijd voor mezelf.", "en": "Look, since I work less, I have time for myself again.", "spotlight": "sinds + werkwoord achteraan: *…sinds ik minder **werk**…*" },
+        { "speaker": "You", "nl": "Wat doe je dan 's avonds?", "en": "So what do you do in the evenings?" },
+        { "speaker": "Emma", "nl": "Nadat ik gegeten heb, ga ik meestal even wandelen.", "en": "After I've eaten, I usually go for a short walk.", "spotlight": "nadat + voltooide tijd: *nadat ik gegeten **heb**…*" },
+        { "speaker": "You", "nl": "Ook als het regent?", "en": "Even when it rains?" },
+        { "speaker": "Emma", "nl": "Hoewel het vaak regent, ga ik toch, hoor. Ik neem gewoon een paraplu mee.", "en": "Although it often rains, I still go, you know. I just take an umbrella.", "spotlight": "bijzin vooraan → *…regent, ga ik…* (inversie)." },
+        { "speaker": "You", "nl": "Slim. Ik zet 's avonds muziek aan zodat ik ontspan.", "en": "Smart. In the evening I put music on so that I relax.", "spotlight": "zodat-resultaat: *…zodat ik **ontspan**.*" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Heb je het gevolgd?",
+      "questions": [
+        { "q": "Waarom heeft Emma weer tijd voor zichzelf?", "options": ["Omdat ze verhuisd is", "Sinds ze minder werkt", "Nadat ze ziek was"], "correct": 1 },
+        { "q": "Wat doet Emma als het regent?", "options": ["Ze blijft thuis", "Ze gaat toch wandelen", "Ze zet muziek aan"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschrijf je avond met minstens twee van de nieuwe voegwoorden (hoewel, terwijl, zodat, voordat, nadat, sinds). Let op: werkwoord achteraan in de bijzin.",
+      "starters": ["Voordat ik ga slapen…", "Sinds ik Nederlands leer…"],
+      "minSentences": 2
+    }
+  ]
+}

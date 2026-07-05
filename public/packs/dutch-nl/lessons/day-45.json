@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "day-45",
+  "day": 45,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Toen ik klein was…",
+  "emoji": "🧒",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Childhood and school vocab, and toen as a conjunction that sends the verb to the end",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Toen ik klein was…",
+      "body": "To tell a childhood story you need one little word: **toen** (when, back then). As a conjunction it opens a subclause — and like every Dutch subclause, the **verb jumps to the end**: *Toen ik klein **was**…* Then the main clause starts with its verb (inversion): *Toen ik klein was, **woonde** ik in Utrecht.*",
+      "callout": "Two verbs, two ends: *…was,* then *woonde…* — the comma is the hinge."
+    },
+    {
+      "type": "chips",
+      "title": "De basisschooltijd",
+      "items": [
+        { "nl": "de basisschool", "en": "primary school", "speak": "de basisschool" },
+        { "nl": "de juf", "en": "the (female) teacher", "speak": "de juf" },
+        { "nl": "de meester", "en": "the (male) teacher", "speak": "de meester" },
+        { "nl": "het schoolplein", "en": "the schoolyard", "speak": "het schoolplein" },
+        { "nl": "buiten spelen", "en": "to play outside", "speak": "buiten spelen" },
+        { "nl": "mijn vriendjes", "en": "my little friends", "speak": "mijn vriendjes" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Toen ≠ als ≠ wanneer",
+      "body": "Three words all become 'when' in English, but Dutch splits them. **toen** = one moment or period in the **past** (*toen ik klein was*). **als** = something **repeated** or in the future (*als het regent*). **wanneer** = the **question** word (*wanneer kom je?*). For childhood memories it's almost always **toen**.",
+      "table": {
+        "headers": ["Word", "Use", "Example"],
+        "rows": [
+          ["toen", "one past moment", "toen ik jong was"],
+          ["als", "repeated / future", "als het regent"],
+          ["wanneer", "a question", "wanneer begin je?"]
+        ]
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which word order is correct?",
+      "options": ["Toen ik klein was, ik woonde in Breda.", "Toen ik was klein, woonde ik in Breda.", "Toen ik klein was, woonde ik in Breda."],
+      "correct": 2,
+      "explain": "The subclause sends its verb to the end (*…klein **was***); then the main clause inverts to verb-first (*…**woonde** ik…*). Only the third line does both."
+    },
+    {
+      "type": "contrast",
+      "title": "toen vs als",
+      "pairs": [
+        { "left": "Toen ik klein was… — When I was little… (once, past)", "right": "Als ik ziek was… — Whenever I was ill… (repeated)", "note": "Both are past, but *toen* marks one period and *als* marks every time it happened. English blurs them; Dutch keeps them apart." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Bouw een jeugdherinnering",
+      "prompt": "Build a 'when I was little' sentence: verb last in the toen-clause, then invert.",
+      "slots": [
+        { "label": "Toen-clause", "chips": ["Toen ik klein was,", "Toen ik jong was,", "Toen ik zes was,"] },
+        { "label": "Main verb", "chips": ["woonde", "speelde", "ging"] },
+        { "label": "Rest", "chips": ["ik in Rotterdam.", "ik altijd buiten.", "ik naar de basisschool."] }
+      ],
+      "sample": "Toen ik klein was, speelde ik altijd buiten."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'When I was little, I lived in Amsterdam.' (mind the word order)",
+      "answers": ["toen ik klein was, woonde ik in amsterdam", "toen ik klein was woonde ik in amsterdam"],
+      "hint": "…was at the end of the first part, then *woonde ik*.",
+      "explain": "*Toen ik klein was, woonde ik in Amsterdam.* Verb-final in the subclause, inversion in the main clause."
+    },
+    {
+      "type": "shadow",
+      "title": "Herinneringen nazeggen",
+      "lines": [
+        { "nl": "Toen ik klein was, woonde ik in een dorp.", "en": "When I was little, I lived in a village." },
+        { "nl": "Ik ging elke dag met de fiets naar school.", "en": "I went to school by bike every day." },
+        { "nl": "De juf was heel aardig.", "en": "The teacher was very kind." },
+        { "nl": "We speelden op het schoolplein.", "en": "We played in the schoolyard." }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "We speelden op het schoolplein.",
+      "answers": ["we speelden op het schoolplein"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write two lines that start with *Toen ik klein was,* — where you lived and one thing you did. Watch the verb positions.",
+      "starters": ["Toen ik klein was, woonde ik…", "Toen ik klein was, speelde ik…"]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "day-14",
+  "day": 14,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "capstone",
+  "title": "Mijn dag — week 2 op een rij",
+  "emoji": "🎉",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Recap of numbers, time, V2 and questions, then mijn verhaal layer 2: your daily routine",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 2, on one page",
+      "body": "Look how much you can already do: **count** to a hundred with the reversed tens (*vierentwintig*), **tell time** including the *half zes* trap, keep the **verb in slot 2**, and **ask questions** by inversion. Today you braid it all into your own daily routine.",
+      "callout": "The new skill this week that unlocks everything later: V2. Guard that slot-2 verb."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which number is achtenzestig?",
+      "options": ["86", "68", "78"],
+      "correct": 1,
+      "explain": "Unit first: *acht* (8) + *en* + *zestig* (60) = 68. The reversed tens, still tricky, still one word."
+    },
+    {
+      "type": "typed",
+      "prompt": "It's 8:30. Write the time in Dutch.",
+      "answers": ["half negen"],
+      "hint": "*half* looks forward to the next hour.",
+      "explain": "*half negen* = 8:30. Halfway to nine, not half past eight."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence keeps the verb in slot 2 correctly?",
+      "options": ["'s Avonds ik kook thuis.", "'s Avonds kook ik thuis.", "'s Avonds koken ik thuis."],
+      "correct": 1,
+      "explain": "Front the time, verb second, subject behind it: *'s Avonds kook ik thuis.* The first breaks V2; the third has the wrong ending."
+    },
+    {
+      "type": "typed",
+      "prompt": "Turn 'Jij werkt in Utrecht' into a yes/no question.",
+      "answers": ["Werk jij in Utrecht?", "werk jij in utrecht", "Werk je in Utrecht?", "werk je in utrecht"],
+      "hint": "Verb first, and the -t drops behind jij/je.",
+      "explain": "*Werk jij in Utrecht?* Verb to the front, and *jij* triggers the -t drop."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the price you hear.",
+      "speak": "vier euro vijftig",
+      "answers": ["vier euro vijftig"]
+    },
+    {
+      "type": "chips",
+      "title": "Routine vocab — tap to hear",
+      "items": [
+        { "nl": "Ik word vroeg wakker.", "en": "I wake up early.", "speak": "Ik word vroeg wakker." },
+        { "nl": "'s Ochtends drink ik koffie.", "en": "In the morning I drink coffee.", "speak": "'s Ochtends drink ik koffie." },
+        { "nl": "Om negen uur werk ik.", "en": "At nine I work.", "speak": "Om negen uur werk ik." },
+        { "nl": "'s Middags eet ik een broodje.", "en": "In the afternoon I eat a sandwich.", "speak": "'s Middags eet ik een broodje." },
+        { "nl": "'s Avonds kook ik thuis.", "en": "In the evening I cook at home.", "speak": "'s Avonds kook ik thuis." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Build a routine sentence — mijn verhaal, deel 2",
+      "prompt": "Front a time expression, keep the verb in slot 2, subject behind it. This is the routine layer of your self-intro.",
+      "slots": [
+        { "label": "1 — Tijd (front)", "chips": ["'s Ochtends", "Om acht uur", "'s Avonds"] },
+        { "label": "2 — Werkwoord", "chips": ["drink", "begin", "kook"] },
+        { "label": "3 — Onderwerp", "chips": ["ik"] },
+        { "label": "4 — Rest", "chips": ["koffie", "met werken", "thuis"] }
+      ],
+      "sample": "Om acht uur begin ik met werken."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma wants the full tour of your new daily rhythm",
+      "lines": [
+        { "speaker": "Emma", "nl": "Vertel eens, hoe ziet jouw dag eruit?", "en": "Tell me, what does your day look like?" },
+        { "speaker": "You", "nl": "'s Ochtends drink ik koffie en om negen uur werk ik.", "en": "In the morning I drink coffee and at nine I work.", "spotlight": "Two V2 clauses, both with the verb safely in slot 2." },
+        { "speaker": "Emma", "nl": "En 's avonds? Wat doe je dan?", "en": "And in the evening? What do you do then?", "spotlight": "*Wat doe je* — question word, verb, -t drop." },
+        { "speaker": "You", "nl": "'s Avonds kook ik en soms zie ik vrienden.", "en": "In the evening I cook and sometimes I see friends." },
+        { "speaker": "Emma", "nl": "Wat gezellig! Je Nederlands wordt echt goed, hoor.", "en": "How lovely! Your Dutch is getting really good, you know." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch the routine?",
+      "questions": [
+        { "q": "What does the learner do at nine o'clock?", "options": ["Koffie drinken", "Werken", "Vrienden zien"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "title": "Mijn verhaal — deel 2",
+      "prompt": "Write your growing self-intro. Keep last week's layer (name, where you're from, that you're learning Dutch) and add your daily routine: present tense, verb in slot 2, at least one time expression.",
+      "starters": ["Ik ben … en ik kom uit …", "Ik leer Nederlands.", "'s Ochtends …", "Om … uur …"],
+      "minSentences": 5
+    },
+    {
+      "type": "journal",
+      "prompt": "Two weeks in — proost! What clicked this week, and what still feels raar? Write a line or two, in Dutch if you can.",
+      "starters": ["Deze week ging goed:", "Nog moeilijk:"]
+    }
+  ]
+}

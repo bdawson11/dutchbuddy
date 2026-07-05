@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "day-41",
+  "day": 41,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "review",
+  "title": "Sanne's zware week",
+  "emoji": "🚲",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Recap of week 6 (body, huisarts, emotions, advice) plus an immersion catch-up with Sanne",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 6 in het kort",
+      "body": "This week: **pijn** compounds (*hoofdpijn, buikpijn*), the huisarts system, emergency phrases (**112**), feelings with **zich voelen**, and giving advice (**je moet, je kunt beter**). Let's see what stuck.",
+      "table": {
+        "headers": ["Nederlands", "Betekenis"],
+        "rows": [
+          ["Ik heb hoofdpijn.", "I have a headache."],
+          ["Ik voel me moe.", "I feel tired."],
+          ["Je moet rusten.", "You must rest."],
+          ["Bel 112!", "Call 112!"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Mix van deze week",
+      "items": [
+        { "nl": "buikpijn", "en": "stomachache", "speak": "buikpijn" },
+        { "nl": "de afspraak", "en": "the appointment", "speak": "de afspraak" },
+        { "nl": "zenuwachtig", "en": "nervous", "speak": "zenuwachtig" },
+        { "nl": "je kunt beter", "en": "you'd better", "speak": "je kunt beter" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence correctly uses zich voelen?",
+      "options": ["Ik voel zenuwachtig.", "Ik voel me zenuwachtig.", "Ik ben voel zenuwachtig."],
+      "correct": 1,
+      "explain": "Zich voelen always needs the reflexive pronoun: ik voel me."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'You must go to the GP.'",
+      "answers": ["je moet naar de huisarts gaan"],
+      "hint": "je moet + naar + huisarts + gaan",
+      "explain": "Je moet naar de huisarts gaan — moet second, naar + destination, and gaan pushed to the end."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Sanne calls you — she's had one bad thing after another this week",
+      "lines": [
+        { "speaker": "Sanne", "nl": "Hoi... ik heb een zware week gehad, eerlijk gezegd.", "en": "Hi... I've had a rough week, honestly." },
+        { "speaker": "You", "nl": "Oh nee, wat is er gebeurd?", "en": "Oh no, what happened?" },
+        { "speaker": "Sanne", "nl": "Mijn fiets is gestolen, midden in Amsterdam!", "en": "My bike got stolen, right in the middle of Amsterdam!", "spotlight": "is gestolen — perfect tense from week 5, back in the wild" },
+        { "speaker": "You", "nl": "Wat vervelend! En toen?", "en": "How annoying! And then?" },
+        { "speaker": "Sanne", "nl": "En toen werd ik ook nog ziek. Ik voelde me heel beroerd — koorts, hoofdpijn, alles.", "en": "And then I got sick on top of it. I felt awful — fever, headache, everything." },
+        { "speaker": "You", "nl": "Ben je naar de huisarts geweest?", "en": "Did you go to the GP?" },
+        { "speaker": "Sanne", "nl": "Ja, gisteren. Ze zei dat het gewoon griep was en dat ik rust moest nemen.", "en": "Yes, yesterday. She said it was just the flu and that I should rest." },
+        { "speaker": "You", "nl": "Nou, dan moet je nu vooral rust nemen, hoor.", "en": "Well, then you really must rest now." },
+        { "speaker": "Sanne", "nl": "Dat doe ik. Bedankt dat je vraagt.", "en": "That's what I'm doing. Thanks for asking." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What happened to Sanne's fiets?", "options": ["It broke", "It was stolen", "She sold it"], "correct": 1 },
+        { "q": "What did the huisarts say Sanne had?", "options": ["A broken arm", "The flu", "Nothing at all"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Sanne had one bad thing after another this week. Write 2 sentences: has something like this ever happened to you?",
+      "starters": ["Ik heb ook weleens...", "Gelukkig heb ik nog nooit..."]
+    }
+  ]
+}

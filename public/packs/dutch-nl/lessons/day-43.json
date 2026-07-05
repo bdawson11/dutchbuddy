@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-43",
+  "day": 43,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "De imperfectum — het andere verleden",
+  "emoji": "🕰",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Regular -de/-te past via 't kofschip, plus the essential irregulars was/had/ging/kwam/zei/deed",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Eén woord, niet twee",
+      "body": "You already tell the past with the perfect (*ik heb gewerkt*). The **imperfectum** (simple past) is the *other* past — one word, not two: **stem + -te or -de**. Dutch reaches for it for description, background and habit: *ik werkte, het regende, we woonden*. Which ending? The same **'t kofschip** trick you learned for the perfect.",
+      "table": {
+        "headers": ["Verb", "Stem", "Imperfectum"],
+        "rows": [
+          ["werken — to work", "werk", "werkte"],
+          ["wonen — to live", "woon", "woonde"],
+          ["koken — to cook", "kook", "kookte"],
+          ["horen — to hear", "hoor", "hoorde"]
+        ]
+      },
+      "callout": "Plural just adds **-n**: *ik werkte → wij werkten*, *ik woonde → wij woonden*."
+    },
+    {
+      "type": "contrast",
+      "title": "-te of -de? 't Kofschip beslist",
+      "pairs": [
+        { "left": "werkte — worked", "right": "woonde — lived", "note": "Stem ends in a 't kofschip' letter (t, k, f, s, ch, p) → **-te**. *werk* ends in k, so *werkte*. Otherwise → **-de**: *woon* ends in n, so *woonde*." },
+        { "left": "fietste — cycled", "right": "speelde — played", "note": "*fiets* ends in s → *fietste*. *speel* ends in l → *speelde*. Say the stem out loud; the last sound tells you." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Tik om het verleden te horen",
+      "items": [
+        { "nl": "ik werkte", "en": "I worked", "speak": "ik werkte" },
+        { "nl": "we woonden", "en": "we lived", "speak": "we woonden" },
+        { "nl": "hij kookte", "en": "he cooked", "speak": "hij kookte" },
+        { "nl": "ze speelde", "en": "she played", "speak": "ze speelde" },
+        { "nl": "ik leerde", "en": "I learned", "speak": "ik leerde" },
+        { "nl": "we fietsten", "en": "we cycled", "speak": "we fietsten" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "The stem of *maken* is *maak*. What's the imperfectum?",
+      "options": ["maakde", "maakte", "maakete"],
+      "correct": 1,
+      "explain": "*maak* ends in **k** — a 't kofschip' letter — so it takes **-te**: *maakte*. The double vowel stays put."
+    },
+    {
+      "type": "card",
+      "title": "De onmisbare onregelmatige",
+      "body": "Six past-tense verbs are so common you'll use them in almost every story. They ignore the -te/-de rule — just learn them. Notice that *zijn* and *hebben* even change shape in the plural.",
+      "table": {
+        "headers": ["Nu (present)", "Toen — enkelvoud", "Toen — meervoud"],
+        "rows": [
+          ["is / ben — is / am", "was — was", "waren — were"],
+          ["heeft / heb — has / have", "had — had", "hadden — had"],
+          ["gaat — goes", "ging — went", "gingen — went"],
+          ["komt — comes", "kwam — came", "kwamen — came"],
+          ["zegt — says", "zei — said", "zeiden — said"],
+          ["doet — does", "deed — did", "deden — did"]
+        ]
+      }
+    },
+    {
+      "type": "shadow",
+      "title": "Herhaal de onregelmatige",
+      "lines": [
+        { "nl": "Het was koud.", "en": "It was cold." },
+        { "nl": "We waren blij.", "en": "We were happy." },
+        { "nl": "Ik had een oude fiets.", "en": "I had an old bike." },
+        { "nl": "Hij ging naar school.", "en": "He went to school." },
+        { "nl": "Ze kwam te laat.", "en": "She came too late." },
+        { "nl": "Mijn opa zei niets.", "en": "My grandpa said nothing." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Put *wonen* into the imperfectum for 'we': 'We ___ in Groningen.'",
+      "answers": ["woonden", "we woonden"],
+      "hint": "Stem *woon* + -de, then plural -n.",
+      "explain": "*woonden*. *woon* ends in n (not a kofschip letter) → -de; the plural adds -n → *woonden*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ik ging naar school.",
+      "answers": ["ik ging naar school"]
+    },
+    {
+      "type": "mcq",
+      "prompt": "'Yesterday it ___ cold and we ___ inside.' Fill both gaps.",
+      "options": ["is … zijn", "was … waren", "was … waren geweest"],
+      "correct": 1,
+      "explain": "*was* (singular, 'it') and *waren* (plural, 'we'): *Het was koud en we waren binnen.* The imperfectum paints the scene."
+    },
+    {
+      "type": "journal",
+      "prompt": "Write two lines about yesterday in the imperfectum: one with *was* or *had*, one with a regular -te/-de verb.",
+      "starters": ["Gisteren was ik…", "Ik had…", "Ik werkte…"]
+    }
+  ]
+}

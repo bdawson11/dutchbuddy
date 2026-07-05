@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-67",
+  "day": 67,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Ik voel me — reflexieven en om … te",
+  "emoji": "🪞",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Reflexive verbs (zich voelen, zich verheugen) and om … te purpose",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Zich voelen — reflexieve werkwoorden",
+      "body": "Some Dutch verbs point back at the subject — you do the action *to yourself*. *Ik voel **me** goed.* The little pronoun changes per person: **me, je, zich, ons, je, zich**. *Jij voelt **je** beter.* *Hij voelt **zich** ziek.* *We voelen **ons** moe.* Watch the odd one out: *hij/zij/u/ze* all take **zich**, which has no English twin.",
+      "table": {
+        "headers": ["Persoon", "Reflexief", "Voorbeeld"],
+        "rows": [
+          ["ik", "me", "Ik voel me goed."],
+          ["jij", "je", "Jij voelt je beter."],
+          ["hij / zij", "zich", "Zij voelt zich ziek."],
+          ["wij", "ons", "Wij voelen ons thuis."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tik om te horen — reflexieven",
+      "items": [
+        { "nl": "Ik voel me prima.", "en": "I feel fine.", "speak": "Ik voel me prima." },
+        { "nl": "Je vergist je.", "en": "You're mistaken.", "speak": "Je vergist je." },
+        { "nl": "Ik herinner me die dag nog goed.", "en": "I still remember that day well.", "speak": "Ik herinner me die dag nog goed." },
+        { "nl": "Ik verheug me op het weekend.", "en": "I'm looking forward to the weekend.", "speak": "Ik verheug me op het weekend." },
+        { "nl": "Hij gedraagt zich netjes.", "en": "He behaves himself well.", "speak": "Hij gedraagt zich netjes." },
+        { "nl": "Maak je geen zorgen.", "en": "Don't worry.", "speak": "Maak je geen zorgen." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Vul in: 'Sanne voelt … een beetje zenuwachtig.'",
+      "options": ["me", "je", "zich"],
+      "correct": 2,
+      "explain": "Third person (hij/zij/Sanne) → *zich*. *Sanne voelt zich zenuwachtig.* There's no English word for it — you just have to place it."
+    },
+    {
+      "type": "typed",
+      "prompt": "Zeg dat je je op de verhuizing verheugt. (Say you're looking forward to the move.)",
+      "answers": ["Ik verheug me op de verhuizing.", "Ik verheug me op de verhuizing"],
+      "hint": "verheugen is reflexief: ik verheug me op …",
+      "explain": "*Ik verheug me op de verhuizing.* First person → *me*; *verheugen* pairs with *op*."
+    },
+    {
+      "type": "card",
+      "title": "Om … te — om te zeggen waarom",
+      "body": "To say what you're doing something **for**, Dutch clamps the purpose inside **om … te** + infinitive. *Ik ben hier **om** Nederlands **te** leren.* (I'm here to learn Dutch.) The *te* + verb land at the very end: *Ik gebruik een app **om** elke dag **te** oefenen.* English often just says *to*; Dutch wants the full *om … te* bracket around the purpose.",
+      "callout": "Purpose = *om … te + infinitief*, verb at the end. *Ik spaar om te reizen.*"
+    },
+    {
+      "type": "contrast",
+      "title": "Gewoon of scheidbaar?",
+      "pairs": [
+        { "left": "Ik bel om te vragen.", "right": "Ik kom om je op te halen.", "note": "With a separable verb the *te* slips **inside**: ophalen → op te halen, meenemen → mee te nemen." },
+        { "left": "om te oefenen", "right": "om het door te geven", "note": "doorgeven splits around *te*: door-te-geven. The *te* always sits between the two halves." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Kies de juiste vorm: 'Ik kom vroeg …'",
+      "options": ["om je op te halen", "om je te ophalen", "om op je te halen"],
+      "correct": 0,
+      "explain": "*ophalen* is separable, so *te* goes inside → *om je **op te halen***. Never *te ophalen*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Sanne heeft besloten de baan aan te nemen. Ze belt je over de verhuizing die eraan komt.",
+      "lines": [
+        { "speaker": "Sanne", "nl": "Ik heb besloten: ik ga het doen. Ik verhuis naar Utrecht.", "en": "I've decided: I'm going to do it. I'm moving to Utrecht.", "spotlight": "besloten — the decision is made; she still lives in Amsterdam and moves this weekend." },
+        { "speaker": "You", "nl": "Wat spannend! Hoe voel je je?", "en": "How exciting! How do you feel?", "spotlight": "voel je je — a reflexive question." },
+        { "speaker": "Sanne", "nl": "Eerlijk? Ik voel me een beetje zenuwachtig. Maar ik verheug me er ook op.", "en": "Honestly? I feel a bit nervous. But I'm looking forward to it too.", "spotlight": "ik verheug me er ook op — reflexive + er + op, all at once." },
+        { "speaker": "You", "nl": "Dat snap ik. Waarom Utrecht eigenlijk?", "en": "I get that. Why Utrecht, actually?" },
+        { "speaker": "Sanne", "nl": "Ik ga erheen om dichter bij mijn werk te wonen. En om iets nieuws te beginnen.", "en": "I'm going there to live closer to my work. And to start something new.", "spotlight": "om … te wonen / om … te beginnen — two purposes." },
+        { "speaker": "You", "nl": "Vergis je je niet? Amsterdam gaat je missen, hoor.", "en": "Aren't you making a mistake? Amsterdam's going to miss you.", "spotlight": "vergis je je — zich vergissen, to be mistaken." },
+        { "speaker": "Sanne", "nl": "Haha, misschien. Maar ik herinner me steeds waarom ik ga. Het voelt goed.", "en": "Haha, maybe. But I keep remembering why I'm going. It feels right." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Heb je het gevolgd?",
+      "questions": [
+        { "q": "Hoe voelt Sanne zich over de verhuizing?", "options": ["Alleen maar bang", "Zenuwachtig, maar ze verheugt zich ook", "Verdrietig"], "correct": 1 },
+        { "q": "Waarom gaat Sanne naar Utrecht?", "options": ["Om dichter bij haar werk te wonen", "Om bij Emma te wonen", "Om te studeren"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Waarom leer jij Nederlands? Schrijf twee zinnen met *om … te*, en één zin over hoe je je voelt (*ik voel me…*).",
+      "starters": ["Ik leer Nederlands om…", "Ik gebruik deze app om…", "Ik voel me…"],
+      "minSentences": 3
+    }
+  ]
+}

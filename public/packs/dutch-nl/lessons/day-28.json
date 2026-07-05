@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "day-28",
+  "day": 28,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "capstone",
+  "title": "Mijn verhaal: eten, bestellen, vertellen",
+  "emoji": "🎉",
+  "level": "A1",
+  "durationMin": [20, 30],
+  "summary": "Full-A1 production day: order, describe, introduce — then grow your self-intro with food, drink, and a wish",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Terugblik: week 4",
+      "body": "You can now navigate **eten & maaltijden** (ontbijt/lunch/avondeten), **bestellen** (mag ik, ik wil graag, doe maar, voor mij), **de modale werkwoorden** (kunnen/willen/moeten/mogen + infinitief aan het einde), **houden van & vinden**, and **hoeveelheden** (ons, pondje, kilo) at the market.",
+      "callout": "This is the end of A1 Foundations. Pak een kopje koffie — je hebt veel geleerd, hoor."
+    },
+    {
+      "type": "chips",
+      "title": "Tap for a quick vocab refresh",
+      "items": [
+        { "nl": "een broodje kaas", "en": "a cheese roll", "speak": "een broodje kaas" },
+        { "nl": "mag ik…?", "en": "may I have…?", "speak": "mag ik…?" },
+        { "nl": "doe maar…", "en": "I'll have…", "speak": "doe maar…" },
+        { "nl": "ik wil graag…", "en": "I'd like…", "speak": "ik wil graag…" },
+        { "nl": "ik houd van…", "en": "I love…", "speak": "ik houd van…" },
+        { "nl": "een ons", "en": "100 grams", "speak": "een ons" }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Warm up: shadow the week",
+      "lines": [
+        { "nl": "Mag ik een broodje kaas, alstublieft?", "en": "May I have a cheese roll, please?" },
+        { "nl": "Ik wil graag een koffie bestellen.", "en": "I'd like to order a coffee." },
+        { "nl": "Ik houd van patat, maar niet van vis.", "en": "I love fries, but not fish." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which modal expresses obligation, not permission?",
+      "options": ["mogen", "moeten", "kunnen"],
+      "correct": 1,
+      "explain": "*moeten* — 'must/have to'. *mogen* is the permission one."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the casual, decisive way to order — 'I'll have the fries.'",
+      "answers": ["doe maar de patat"],
+      "hint": "Your fast, no-fuss opener.",
+      "explain": "*Doe maar de patat* — decided, no hesitation."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Een pondje aardbeien, graag.",
+      "answers": ["een pondje aardbeien, graag", "een pondje aardbeien"]
+    },
+    {
+      "type": "contrast",
+      "title": "Recap: mag ik vs doe maar",
+      "pairs": [
+        { "left": "Mag ik…? — polite, always safe", "right": "Doe maar… — casual, already decided", "note": "Both work everywhere in the Netherlands. Pick the tone you want." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Order at the snackbar",
+      "prompt": "Assemble a full, polite order.",
+      "slots": [
+        { "label": "Opener", "chips": ["Mag ik", "Ik wil graag", "Doe maar"] },
+        { "label": "Bestelling", "chips": ["een broodje kaas, alstublieft", "een patatje met, graag", "een ons oude kaas, alstublieft", "een kroket en een koffie"] }
+      ],
+      "sample": "Mag ik een broodje kaas, alstublieft."
+    },
+    {
+      "type": "dialogue",
+      "scene": "A café table with Daan — ordering, sharing a preference, and a mini self-intro",
+      "lines": [
+        { "speaker": "You", "nl": "Hoi Daan! Ik wil graag een koffie en een broodje kaas.", "en": "Hi Daan! I'd like a coffee and a cheese roll." },
+        { "speaker": "Daan", "nl": "Goed idee. Ik neem hetzelfde, doe maar.", "en": "Good idea. I'll have the same, sure." },
+        { "speaker": "You", "nl": "Ik houd wel van broodje kaas, het is altijd lekker.", "en": "I do love a cheese roll, it's always good." },
+        { "speaker": "Daan", "nl": "Ja, en jij? Vertel, wat doe je hier in Amsterdam?", "en": "Yeah, and you? Tell me, what are you doing here in Amsterdam?", "spotlight": "Daan invites the self-intro — callback to week 1." },
+        { "speaker": "You", "nl": "Ik kom uit Toronto, ik woon nu in Amsterdam en ik leer Nederlands!", "en": "I'm from Toronto, I live in Amsterdam now, and I'm learning Dutch!" },
+        { "speaker": "Daan", "nl": "Goed bezig, hoor! Dat is knap.", "en": "You're doing great! That's impressive." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Daan decide to order?", "options": ["Something different", "The same as you", "Nothing"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mijn verhaal — laag 4",
+      "prompt": "Add this week's layer: what you like to eat or drink, plus a modal wish.",
+      "slots": [
+        { "label": "Wat je lekker vindt", "chips": ["Ik houd van kaas", "Ik houd van appeltaart", "Ik drink graag koffie", "Ik eet graag patat"] },
+        { "label": "Een wens", "chips": ["en ik wil een keer echt Nederlands eten koken", "en ik wil graag meer Nederlandse woorden leren", "en ik wil een keer bestellen zonder Engels te gebruiken"] }
+      ],
+      "sample": "Ik houd van kaas, en ik wil een keer echt Nederlands eten koken."
+    },
+    {
+      "type": "journal",
+      "prompt": "Mijn verhaal, tot en met week 4! Write your growing self-introduction: your name and where you're from, that you're learning Dutch, your daily routine, your family or je buurt — and now, what you like to eat or drink, plus one thing you want to do (a modal wish). Je hebt net A1 afgerond — knap gedaan!",
+      "starters": ["Ik heet…", "Ik kom uit…", "Ik woon in…", "Elke dag…", "Ik houd van…", "Ik wil graag…"],
+      "minSentences": 5
+    }
+  ]
+}

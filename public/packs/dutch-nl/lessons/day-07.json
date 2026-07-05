@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "day-07",
+  "day": 7,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "capstone",
+  "title": "Mijn verhaal — jouw eerste voorstelrondje",
+  "emoji": "🎉",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Week 1 recap across greetings, zijn, hebben and de/het — then your first real self-introduction",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 1 — you did it",
+      "body": "Look how much you can already do: greet by the hour, order a coffee, say who you are with *zijn*, say what you have with *hebben*, and label a noun *de* or *het*. Today we knit it together and you introduce yourself in Dutch for the first time. This is the start of **mijn verhaal** — your story — which grows a little every week.",
+      "callout": "Everything today is a recap except the last two blocks. Those are new: your self-intro."
+    },
+    {
+      "type": "mcq",
+      "prompt": "It's 20:00 and you arrive at a dinner. Which greeting fits?",
+      "options": ["goedemorgen", "goedemiddag", "goedenavond"],
+      "correct": 2,
+      "explain": "After ~18:00 it's *goedenavond*. Morning and afternoon have passed."
+    },
+    {
+      "type": "typed",
+      "prompt": "Complete with *zijn*: Wij ___ hier. (We are here.)",
+      "answers": ["zijn", "wij zijn"],
+      "hint": "Plural subjects all take one form.",
+      "explain": "*Wij zijn hier.* Every plural — *wij, jullie, zij* — uses *zijn*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Complete with *hebben*: Hij ___ een hond. (He has a dog.)",
+      "answers": ["heeft", "hij heeft"],
+      "hint": "The hij/zij/het slot.",
+      "explain": "*Hij heeft een hond.* Only *ik heb* and *jij hebt* break from *heeft* in the singular."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the right negation: Ik heb ___ auto. (I have no car.)",
+      "options": ["niet", "geen"],
+      "correct": 1,
+      "explain": "*auto* here is a bare noun (an *een*-noun), so 'no car' = *geen auto*. *niet* negates verbs and qualities, not bare nouns."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct?",
+      "options": ["het meisje", "de meisje"],
+      "correct": 0,
+      "explain": "*meisje* ends in *-je*, a diminutive, and every *-je* word is *het*: *het meisje*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type — a full self-intro line.",
+      "speak": "Ik ben nieuw hier",
+      "answers": ["ik ben nieuw hier"],
+      "explain": "*Ik ben nieuw hier* — I'm new here. A line you'll actually use this week."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma introduces you to Daan at the café. Your turn to speak for yourself.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Daan, dit is mijn vriend. Zij leert Nederlands.", "en": "Daan, this is my friend. She's learning Dutch." },
+        { "speaker": "Daan", "nl": "Leuk! Waar kom je vandaan?", "en": "Nice! Where are you from?", "spotlight": "*Waar kom je vandaan?* = Where are you from? Learn it as a set phrase." },
+        { "speaker": "You", "nl": "Ik kom uit Canada. Ik ben hier nieuw.", "en": "I'm from Canada. I'm new here.", "spotlight": "*Ik kom uit …* + country. Your go-to origin line." },
+        { "speaker": "Daan", "nl": "En je spreekt al Nederlands, echt goed hoor!", "en": "And you already speak Dutch, really well!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Catch the intro",
+      "questions": [
+        { "q": "How do you ask 'where are you from?'", "options": ["Hoe heet je?", "Waar kom je vandaan?", "Wil je koffie?"], "correct": 1 },
+        { "q": "To say your country of origin you start with…", "options": ["Ik heb uit …", "Ik ben van …", "Ik kom uit …"], "correct": 2 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mijn verhaal — laag 1",
+      "prompt": "Build your first self-introduction: your name, where you're from, and that you're learning Dutch. Pick one chip per slot, then say the whole thing out loud.",
+      "slots": [
+        { "label": "Name", "chips": ["Ik ben Alex", "Ik heet Alex", "Hoi, ik ben Alex"] },
+        { "label": "Where from", "chips": ["Ik kom uit Canada", "Ik kom uit Amerika", "Ik kom uit Spanje"] },
+        { "label": "What you're doing", "chips": ["Ik leer Nederlands", "Ik ben hier nieuw", "en ik heb er zin in"] }
+      ],
+      "sample": "Ik ben Alex. Ik kom uit Canada. Ik leer Nederlands en ik heb er zin in.",
+      "starters": ["Ik ben …", "Ik kom uit …", "Ik leer Nederlands"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write your own mijn verhaal — real this time. Your name, your country, and that you're learning Dutch. Three or four lines using *ben*, *kom* and *heb*. This is layer 1; you'll add to it every week.",
+      "starters": ["Ik ben …", "Ik kom uit …", "Ik leer Nederlands.", "Ik heb er zin in!"],
+      "minSentences": 3
+    }
+  ]
+}

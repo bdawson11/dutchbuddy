@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "id": "day-84",
+  "day": 84,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "capstone",
+  "title": "Mijn verhaal, definitief",
+  "emoji": "🎉",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "The send-off: a twelve-week recap, a letter to your past self (one tense-move per slot), the definitive B1 self-intro, Dutch farewells, and a celebration that you finished",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Twaalf weken",
+      "body": "You started twelve weeks ago with the sounds — the hard *g*, the impossible *ui*. Now you can hold a real conversation in Dutch. Look at the ground you covered. **Dit heb jij gedaan.**",
+      "table": {
+        "headers": ["Fase", "Wat je nu kunt"],
+        "rows": [
+          ["A1 — week 1–4", "jezelf voorstellen, bestellen, je dag beschrijven"],
+          ["A2 — week 5–8", "vertellen in het verleden, plannen maken, een mening geven"],
+          ["B1 — week 9–12", "meningen, hypotheses, echt gesprek — en in het Nederlands blijven"]
+        ]
+      },
+      "callout": "Van 'hoi' tot een borrel vol Nederlands. In één jaar."
+    },
+    {
+      "type": "mcq",
+      "prompt": "One last register check. A friend is nervous in your doorway — which is warm, not bossy?",
+      "options": ["Binnen!", "Kom maar binnen, doe rustig aan.", "Je moet binnenkomen."],
+      "correct": 1,
+      "explain": "The softeners *maar* and *rustig* turn a command into a welcome — the whole lesson of week twelve."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which reaction is 'green' — safe with absolutely anyone?",
+      "options": ["Vet, man!", "Wat gezellig, hoor.", "Kut, zeg."],
+      "correct": 1,
+      "explain": "*Wat gezellig, hoor* is pure green tier. *Vet* reads teenage; the third is crude for most company."
+    },
+    {
+      "type": "typed",
+      "prompt": "It's your turn at the borrel. Offer a round of drinks in Dutch.",
+      "answers": ["Ik geef een rondje", "Ik geef een rondje.", "Ik geef deze", "Zullen we een rondje doen", "Deze is van mij"],
+      "hint": "The word is *rondje*.",
+      "explain": "*Ik geef een rondje* — and with that, you're fully *gezellig*."
+    },
+    {
+      "type": "card",
+      "title": "De tijden die je nu beheerst",
+      "body": "Before the letter, look at your toolkit. Every one of these tenses was a week of work, and now they're yours. You'll use one of each in the next block.",
+      "table": {
+        "headers": ["Tijd / vorm", "Voorbeeld"],
+        "rows": [
+          ["Tegenwoordige tijd (V2)", "Ik woon in Amsterdam."],
+          ["Voltooid (perfect)", "Ik heb Nederlands geleerd."],
+          ["Imperfectum", "Vroeger sprak ik alleen Engels."],
+          ["Toekomst", "Volgend jaar ga ik meer lezen."],
+          ["Bijzin (werkwoord achteraan)", "…omdat ik het leuk vind."],
+          ["Zou (hypothese)", "Ik zou graag vloeiend willen worden."]
+        ]
+      }
+    },
+    {
+      "type": "builder",
+      "title": "Brief aan mezelf van een jaar geleden",
+      "prompt": "Write a letter to the you who started this course — one tense-move per slot. Pick a chip for each, or write your own in the same shape.",
+      "slots": [
+        { "label": "Nu (tegenwoordige tijd)", "chips": ["ik woon nu in Nederland", "ik spreek nu Nederlands", "het gaat goed met me"] },
+        { "label": "Wat je hebt gedaan (perfect)", "chips": ["ik heb een jaar lang geleerd", "ik heb veel fouten gemaakt", "ik heb doorgezet"] },
+        { "label": "Vroeger (imperfectum)", "chips": ["vroeger durfde ik niets te zeggen", "in het begin was alles moeilijk", "toen sprak ik alleen Engels"] },
+        { "label": "Straks (toekomst)", "chips": ["straks ga ik verder oefenen", "volgend jaar word ik nog beter", "ik ga Nederlandse boeken lezen"] },
+        { "label": "Bijzin (…omdat / dat…)", "chips": ["omdat ik weet dat het lukt", "zodat ik echt meedoe", "hoewel het soms zwaar was"] },
+        { "label": "Hypothese (zou)", "chips": ["je zou trots op me zijn", "ik zou het zo weer doen", "je zou het niet geloven"] }
+      ],
+      "sample": "Lieve ik van een jaar geleden: ik woon nu in Nederland en ik spreek Nederlands. Ik heb een jaar lang geleerd, ook al durfde ik vroeger niets te zeggen. Straks ga ik verder oefenen, omdat ik weet dat het lukt. Je zou trots op me zijn."
+    },
+    {
+      "type": "journal",
+      "prompt": "Mijn verhaal, definitief. Vertel je hele verhaal in het Nederlands — alles wat je dit jaar hebt geleerd, in één stuk: je naam en waar je vandaan komt, je dagelijks leven, je familie en je buurt, wat je lekker vindt, iets wat je hebt gedaan, hoe je je voelde, een herinnering van vroeger, een plan en een mening, iets wat iemand tegen je zei, je grote beslissing, en dat je Nederlands leert. Dit is jouw verhaal. Blijf in het Nederlands.",
+      "starters": ["Ik heet … en ik kom uit …", "Elke dag …", "Mijn familie …", "Vroeger …, maar nu …", "Iemand zei tegen me dat …", "Volgend jaar wil ik …"],
+      "minSentences": 8
+    },
+    {
+      "type": "card",
+      "title": "Afscheid nemen",
+      "body": "Dutch has a whole shelf of goodbyes, from a quick *doei* to a goodbye that means something. Pick the one that fits the moment.",
+      "table": {
+        "headers": ["Afscheid", "Wanneer"],
+        "rows": [
+          ["Doei / doeg", "casual, everyday 'bye'"],
+          ["Tot ziens", "neutral and polite"],
+          ["Tot snel / tot gauw", "'see you soon'"],
+          ["Het ga je goed", "warm and meaningful — 'take care, all the best'"],
+          ["Succes!", "'good luck' — for whatever's next"],
+          ["Het beste", "'all the best' — a caring sign-off"]
+        ]
+      },
+      "callout": "*Het ga je goed* is the one you save for someone who matters."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the farewells",
+      "items": [
+        { "nl": "Doei!", "en": "Bye!", "speak": "Doei!" },
+        { "nl": "Tot ziens.", "en": "Goodbye.", "speak": "Tot ziens." },
+        { "nl": "Tot snel!", "en": "See you soon!", "speak": "Tot snel!" },
+        { "nl": "Het ga je goed.", "en": "Take care, all the best.", "speak": "Het ga je goed." },
+        { "nl": "Succes!", "en": "Good luck!", "speak": "Succes!" },
+        { "nl": "Het beste!", "en": "All the best!", "speak": "Het beste!" }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "The last page. Emma walks You out after the borrel, with Daan and Sanne close behind. One year of Dutch behind you.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Kijk nou toch. Een jaar geleden begon je met 'hoi'. En moet je jezelf nu horen.", "en": "Just look at you. A year ago you started with 'hi'. And listen to yourself now.", "spotlight": "The whole arc, in one line." },
+        { "speaker": "You", "nl": "Ik had het niet gekund zonder jullie.", "en": "I couldn't have done it without you all." },
+        { "speaker": "Emma", "nl": "Onzin, joh. Jij hebt het gedaan. Elke dag weer.", "en": "Nonsense. You did it. Every single day." },
+        { "speaker": "You", "nl": "En wat nu?", "en": "And now what?" },
+        { "speaker": "Emma", "nl": "Nu ga je gewoon door. Praat, maak fouten, blijf in het Nederlands.", "en": "Now you just keep going. Talk, make mistakes, stay in Dutch.", "spotlight": "The core of the whole course — plus a last set of imperatives." },
+        { "speaker": "Daan", "nl": "En vergeet ons niet, hè. Kom gauw weer een borrel doen.", "en": "And don't forget us, alright. Come do a borrel again soon.", "spotlight": "Borrel callback." },
+        { "speaker": "Sanne", "nl": "Je bent altijd welkom in Utrecht, hoor.", "en": "You're always welcome in Utrecht, you know." },
+        { "speaker": "Emma", "nl": "Het ga je goed. Echt. Tot snel.", "en": "Take care. Really. See you soon.", "spotlight": "Het ga je goed — the warmest goodbye there is." },
+        { "speaker": "You", "nl": "Dankjewel. Voor alles. Doei!", "en": "Thank you. For everything. Bye!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Het laatste stukje",
+      "questions": [
+        { "q": "Wat is Emma's advies voor daarna?", "options": ["Stoppen met leren", "Doorgaan en in het Nederlands blijven", "Alleen Engels praten"], "correct": 1 },
+        { "q": "Wat betekent 'het ga je goed'?", "options": ["Succes met werk", "Pas goed op jezelf, het beste", "Tot morgen"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Je hebt het gedaan — twaalf weken Nederlands, van de eerste klank tot een echt gesprek. Schrijf je allerlaatste stukje: hoe voelt het om klaar te zijn, en wat ga je hierna doen? Vier het. Blijf in het Nederlands.",
+      "starters": ["Ik heb het gehaald!", "Het voelt …", "Vanaf nu ga ik …", "Bedankt, …"],
+      "minSentences": 4
+    }
+  ]
+}

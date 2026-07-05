@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-36",
+  "day": 36,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "Het lichaam",
+  "emoji": "🩹",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Body vocab and the pijn patterns — hoofdpijn, buikpijn, and mijn … doet pijn",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Lichaamsdelen",
+      "body": "The words you need when something hurts. Note the articles — they don't follow a pattern, so learn them with the word.",
+      "table": {
+        "headers": ["Woord", "Betekenis"],
+        "rows": [
+          ["het hoofd", "head"],
+          ["de buik", "belly / stomach"],
+          ["de rug", "back"],
+          ["de keel", "throat"],
+          ["de arm", "arm"],
+          ["het been", "leg"],
+          ["de hand", "hand"],
+          ["de voet", "foot"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear each body part",
+      "items": [
+        { "nl": "het hoofd", "en": "head", "speak": "het hoofd" },
+        { "nl": "de buik", "en": "belly", "speak": "de buik" },
+        { "nl": "de rug", "en": "back", "speak": "de rug" },
+        { "nl": "de keel", "en": "throat", "speak": "de keel" },
+        { "nl": "de arm", "en": "arm", "speak": "de arm" },
+        { "nl": "het been", "en": "leg", "speak": "het been" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Ik heb … pijn",
+      "body": "Glue a body part straight onto **pijn** (pain) — no space — and you've made a new word: *hoofd* + *pijn* = **hoofdpijn** (headache). Then just say **ik heb** + the compound: *Ik heb hoofdpijn*. Same pattern gives you *keelpijn* (sore throat), *buikpijn* (stomachache), *rugpijn* (backache).",
+      "callout": "*keelpijn* — throat and pain, glued together like every Dutch compound."
+    },
+    {
+      "type": "mcq",
+      "prompt": "How do you say 'I have a sore throat'?",
+      "options": ["Ik heb keelpijn.", "Ik heb pijn keel.", "Ik ben keelpijn."],
+      "correct": 0,
+      "explain": "Compound nouns glue together: keel + pijn = keelpijn. Then it's just ik heb + the compound."
+    },
+    {
+      "type": "contrast",
+      "title": "Two ways to say it hurts",
+      "pairs": [
+        {
+          "left": "Ik heb hoofdpijn. — I have a headache.",
+          "right": "Mijn hoofd doet pijn. — My head hurts.",
+          "note": "Both are correct and both natural. Ik heb …pijn names the ache as a thing; mijn … doet pijn points straight at the body part."
+        },
+        {
+          "left": "Ik heb rugpijn. — I have a backache.",
+          "right": "Mijn arm doet pijn. — My arm hurts.",
+          "note": "Not every body part glues with pijn into one word — arm, been, hand and voet don't. For those, always use mijn … doet pijn."
+        }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I have a stomachache.'",
+      "answers": ["ik heb buikpijn"],
+      "hint": "buik + pijn, one word",
+      "explain": "Ik heb buikpijn — the compound, straight after ik heb."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ik heb keelpijn.",
+      "answers": ["ik heb keelpijn"]
+    },
+    {
+      "type": "shadow",
+      "title": "Shadow the pijn patterns",
+      "lines": [
+        { "nl": "Ik heb hoofdpijn.", "en": "I have a headache." },
+        { "nl": "Ik heb buikpijn.", "en": "I have a stomachache." },
+        { "nl": "Mijn rug doet pijn.", "en": "My back hurts." },
+        { "nl": "Mijn keel doet pijn.", "en": "My throat hurts." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Bouw je klacht",
+      "prompt": "Say what hurts using mijn … doet pijn.",
+      "slots": [
+        { "label": "Lichaamsdeel", "chips": ["Mijn hoofd", "Mijn buik", "Mijn rug", "Mijn arm", "Mijn been", "Mijn keel"] },
+        { "label": "Klacht", "chips": ["doet pijn."] }
+      ],
+      "sample": "Mijn rug doet pijn."
+    },
+    {
+      "type": "journal",
+      "prompt": "Which part of you is complaining today (for real or for practice)? Write two Dutch sentences about it — try both patterns from today.",
+      "starters": ["Ik heb...", "Mijn ... doet pijn."]
+    }
+  ]
+}

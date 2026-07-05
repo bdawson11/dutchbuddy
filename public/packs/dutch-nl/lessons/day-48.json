@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "day-48",
+  "day": 48,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "review",
+  "title": "Bram over zijn jeugd in Rotterdam",
+  "emoji": "🏗",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Week 7 recap, then an imperfectum immersion with Bram about growing up in Rotterdam",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 7 in het kort",
+      "body": "This week you built the **imperfectum** — Dutch's past for description, background and habit. Quick recap: regular verbs take **-te/-de** by 't kofschip (*werkte, woonde*); the big irregulars are *was/waren, had/hadden, ging, kwam, zei, deed*; **toen** opens a past subclause with the verb at the end; and *vroeger* + a frequency adverb tells an old habit. Now let's hear it all from Bram.",
+      "table": {
+        "headers": ["Target", "Voorbeeld"],
+        "rows": [
+          ["regular -te/-de", "ik werkte, we woonden"],
+          ["irregulars", "het was, ik had, ik ging"],
+          ["toen + verb-final", "toen ik klein was, …"],
+          ["vroeger + adverb", "vroeger speelde ik vaak buiten"]
+        ]
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Pick the correctly formed imperfectum.",
+      "options": ["Wij hebbe een hond.", "Wij hadden een hond.", "Wij hadde een hond."],
+      "correct": 1,
+      "explain": "*hebben* is irregular in the past: *had* (singular) / *hadden* (plural). *Wij hadden een hond.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Put *fietsen* into the imperfectum for 'he': 'Hij ___ naar zijn werk.'",
+      "answers": ["fietste", "hij fietste"],
+      "hint": "Stem *fiets* ends in s (kofschip) → -te.",
+      "explain": "*fietste*. *fiets* ends in **s**, a 't kofschip' letter, so it takes -te."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You ask Bram what Rotterdam was like when he was a kid. He sits back, coffee in hand — proud, measured.",
+      "lines": [
+        { "speaker": "You", "nl": "Bram, hoe was Rotterdam toen jij klein was?", "en": "Bram, what was Rotterdam like when you were little?" },
+        { "speaker": "Bram", "nl": "Anders, hoor. Toen ik klein was, woonde ik in Zuid, vlak bij de haven.", "en": "Different, you know. When I was little, I lived in Zuid, right by the harbor.", "spotlight": "A *toen*-subclause (verb-final: *was*), then inversion: *woonde ik*." },
+        { "speaker": "You", "nl": "En wat deed je na school?", "en": "And what did you do after school?" },
+        { "speaker": "Bram", "nl": "We speelden altijd buiten. Er waren overal kranen en schepen.", "en": "We always played outside. There were cranes and ships everywhere.", "spotlight": "Habit plus description: *speelden* with *altijd*, *er waren* for the scene." },
+        { "speaker": "You", "nl": "Klinkt stoer. Was het niet gevaarlijk?", "en": "Sounds tough. Wasn't it dangerous?" },
+        { "speaker": "Bram", "nl": "Soms wel. Maar mijn vader zei altijd: geen woorden maar daden.", "en": "Sometimes, yeah. But my dad always said: no words, just action.", "spotlight": "*zei* — the irregular past of *zeggen* — and the Rotterdam motto." },
+        { "speaker": "You", "nl": "Miste je de stad toen je wegging?", "en": "Did you miss the city when you left?" },
+        { "speaker": "Bram", "nl": "Zeker. Amsterdam is mooi, maar Rotterdam had iets echts.", "en": "Definitely. Amsterdam is pretty, but Rotterdam had something real.", "spotlight": "*had* for a lasting past state — and a little Rotterdam pride." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Snapte je Bram?",
+      "questions": [
+        { "q": "Where in Rotterdam did Bram live as a child?", "options": ["In the center", "In Zuid, near the harbor", "In Amsterdam"], "correct": 1 },
+        { "q": "What did Bram and his friends do after school?", "options": ["They played outside", "They watched TV", "They stayed inside"], "correct": 0 },
+        { "q": "What did Bram's father always say?", "options": ["Rotterdam is gevaarlijk", "Geen woorden maar daden", "Amsterdam is mooi"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Bram nazeggen",
+      "lines": [
+        { "nl": "Toen ik klein was, woonde ik in Zuid.", "en": "When I was little, I lived in Zuid." },
+        { "nl": "We speelden altijd buiten.", "en": "We always played outside." },
+        { "nl": "Er waren overal kranen en schepen.", "en": "There were cranes and ships everywhere." },
+        { "nl": "Rotterdam had iets echts.", "en": "Rotterdam had something real." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Bram described his childhood city. Write three lines about a place from your own childhood in the imperfectum: where it was, what you did there, and how it was.",
+      "starters": ["Toen ik klein was, woonde ik…", "We speelden…", "Het was…"]
+    }
+  ]
+}

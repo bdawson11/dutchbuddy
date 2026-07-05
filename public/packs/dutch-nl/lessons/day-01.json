@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-01",
+  "day": 1,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "Klanken van het Nederlands",
+  "emoji": "🔊",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Long vs short vowels, the hard g, and sch",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "The vowel length system",
+      "body": "Dutch vowels come in **short** and **long** pairs — and the difference changes the word. *man* (man) vs *maan* (moon). *bos* (forest) vs *boos* (angry). The rule: a double letter, or a single vowel in an open syllable, is long.",
+      "table": {
+        "headers": ["Short", "Long"],
+        "rows": [
+          ["man — man", "maan — moon"],
+          ["bos — forest", "boos — angry"],
+          ["zit — sits", "ziet — sees"],
+          ["vis — fish", "vies — dirty"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the pairs",
+      "items": [
+        { "nl": "man", "en": "man", "speak": "man" },
+        { "nl": "maan", "en": "moon", "speak": "maan" },
+        { "nl": "bos", "en": "forest", "speak": "bos" },
+        { "nl": "boos", "en": "angry", "speak": "boos" },
+        { "nl": "vis", "en": "fish", "speak": "vis" },
+        { "nl": "vies", "en": "dirty", "speak": "vies" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which word means 'moon'?",
+      "options": ["man", "maan", "men"],
+      "correct": 1,
+      "explain": "Double *aa* = long vowel. *maan* is moon; *man* is man."
+    },
+    {
+      "type": "card",
+      "title": "The famous g",
+      "body": "The Dutch *g* (and *ch*) is a scrape at the back of the throat — like gently clearing your throat. *goed*, *gracht*, *gezellig*. In the Randstad it's hard; in the south it's softer. We learn the hard one — it's what you'll hear in Amsterdam.",
+      "callout": "g and ch are the same sound: *acht* (eight) rhymes with the end of *dag*."
+    },
+    {
+      "type": "shadow",
+      "title": "Repeat after the audio",
+      "lines": [
+        { "nl": "goedemorgen", "en": "good morning" },
+        { "nl": "gezellig", "en": "cozy / fun (untranslatable — you'll see)" },
+        { "nl": "de gracht", "en": "the canal" },
+        { "nl": "acht", "en": "eight" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "sch — the double scrape",
+      "body": "*sch* is s + the hard g, back to back: *school*, *schrijven* (to write), and the word the Dutch use to test foreigners: *Scheveningen*. Don't panic — s, then scrape.",
+      "callout": "At the end of a word, -isch sounds like 'ies': *logisch* = LO-gies."
+    },
+    {
+      "type": "shadow",
+      "title": "The sch drill",
+      "lines": [
+        { "nl": "school", "en": "school" },
+        { "nl": "schrijven", "en": "to write" },
+        { "nl": "Scheveningen", "en": "the beach town used as a shibboleth" }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "goedemorgen",
+      "answers": ["goedemorgen", "goede morgen"]
+    },
+    {
+      "type": "dictation",
+      "prompt": "One more — listen and type.",
+      "speak": "gezellig",
+      "answers": ["gezellig"]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the Dutch word for 'moon'.",
+      "answers": ["maan", "de maan"],
+      "hint": "Long vowel — double it.",
+      "explain": "maan. Single a would be *man* (man)."
+    },
+    {
+      "type": "journal",
+      "prompt": "Which sound felt hardest today? Type the three Dutch words you most want to nail this week.",
+      "starters": ["De g is…", "Ik wil … zeggen"]
+    }
+  ]
+}

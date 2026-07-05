@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "day-03",
+  "day": 3,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "Hallo! — groeten en het café",
+  "emoji": "☕",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Greetings by time of day, please/thank you, and ordering your first coffee",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Greetings, hour by hour",
+      "body": "Dutch swaps its greeting by the clock. *hoi* and *hallo* work all day; the rest follow the sun. And *dag* is the swiss-army word — it means both **hello** and **bye**.",
+      "table": {
+        "headers": ["Dutch", "When", "English"],
+        "rows": [
+          ["hoi / hallo", "any time, casual", "hi / hello"],
+          ["goedemorgen", "until ~noon", "good morning"],
+          ["goedemiddag", "noon–evening", "good afternoon"],
+          ["goedenavond", "after ~18:00", "good evening"],
+          ["dag / doei", "hello or bye", "hi / bye"]
+        ]
+      },
+      "callout": "*doei* is the cheery casual 'bye'. Emma signs off with it constantly."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the greetings",
+      "items": [
+        { "nl": "hoi", "en": "hi", "speak": "hoi" },
+        { "nl": "hallo", "en": "hello", "speak": "hallo" },
+        { "nl": "goedemorgen", "en": "good morning", "speak": "goedemorgen" },
+        { "nl": "goedemiddag", "en": "good afternoon", "speak": "goedemiddag" },
+        { "nl": "goedenavond", "en": "good evening", "speak": "goedenavond" },
+        { "nl": "doei", "en": "bye", "speak": "doei" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "It's 9 in the morning. You walk into the bakery. What do you say?",
+      "options": ["goedenavond", "goedemorgen", "goedemiddag"],
+      "correct": 1,
+      "explain": "Morning = *goedemorgen*. *goedenavond* is after dark; *goedemiddag* is the afternoon."
+    },
+    {
+      "type": "card",
+      "title": "Please, thanks, you're welcome",
+      "body": "Three phrases that carry half of Dutch politeness. *alsjeblieft* is **please** — but also **here you go** when you hand something over. *dankjewel* is **thanks**, and the reply is *graag gedaan* (literally 'done gladly').",
+      "callout": "*alsjeblieft* and *dankjewel* are the casual forms. The polite versions (*alstublieft*, *dank u wel*) come next lesson."
+    },
+    {
+      "type": "chips",
+      "title": "The politeness kit",
+      "items": [
+        { "nl": "alsjeblieft", "en": "please / here you go", "speak": "alsjeblieft" },
+        { "nl": "dankjewel", "en": "thank you", "speak": "dankjewel" },
+        { "nl": "graag gedaan", "en": "you're welcome", "speak": "graag gedaan" },
+        { "nl": "sorry", "en": "sorry / excuse me", "speak": "sorry" }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "A café on the Ferdinand Bolstraat. You're meeting Daan; he's already grabbed a table.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Hoi! Ga zitten. Wil je koffie of thee?", "en": "Hi! Have a seat. Do you want coffee or tea?", "spotlight": "*of* = or. Your first choice question." },
+        { "speaker": "You", "nl": "Een koffie, alsjeblieft.", "en": "A coffee, please." },
+        { "speaker": "Daan", "nl": "Twee koffie, alsjeblieft!", "en": "Two coffees, please!" },
+        { "speaker": "Daan", "nl": "Alsjeblieft, je koffie.", "en": "Here you go, your coffee.", "spotlight": "Same word *alsjeblieft* — now it means 'here you go'." },
+        { "speaker": "You", "nl": "Dankjewel!", "en": "Thank you!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Daan offer you?", "options": ["Coffee or tea", "Coffee or cake", "Tea or water"], "correct": 0 },
+        { "q": "The second *alsjeblieft* means…", "options": ["please", "here you go", "sorry"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Shadow the café lines",
+      "lines": [
+        { "nl": "Wil je koffie of thee?", "en": "Do you want coffee or tea?" },
+        { "nl": "Een koffie, alsjeblieft.", "en": "A coffee, please." },
+        { "nl": "Alsjeblieft, je koffie.", "en": "Here you go, your coffee." },
+        { "nl": "Dankjewel!", "en": "Thank you!" }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Order 'a tea, please' in Dutch.",
+      "answers": ["een thee, alsjeblieft", "een thee alsjeblieft", "thee, alsjeblieft", "een thee graag"],
+      "hint": "een + drink + please.",
+      "explain": "*Een thee, alsjeblieft.* Swap *thee* for *koffie* and you can order either."
+    },
+    {
+      "type": "card",
+      "title": "A peek ahead: je vs u",
+      "body": "You may have noticed *wil **je***. Dutch has two ways to say 'you': *je* (casual, with friends like Daan) and *u* (polite, with strangers, the doctor, older people). At the café with a friend it's *je*. We'll drill this properly next lesson — just clock that the choice exists.",
+      "callout": "Rule of thumb: friends and kids get *je*; anyone you'd address formally in English gets *u*."
+    },
+    {
+      "type": "journal",
+      "prompt": "Write the café order from memory: greet, order a drink, say thanks. Three short lines, don't scroll up.",
+      "starters": ["Hoi! …", "Een … , alsjeblieft.", "Dankjewel!"]
+    }
+  ]
+}

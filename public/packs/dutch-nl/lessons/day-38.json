@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "day-38",
+  "day": 38,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "Noodgevallen",
+  "emoji": "🚑",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Bel 112, an apotheek scene, and ik moet naar het ziekenhuis",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Noodgevallen: 112",
+      "body": "In an emergency, one number covers everything: **112** — ambulance, politie, or brandweer. Say which one you need: *Ik heb een ambulance nodig* (I need an ambulance). Two words to know cold: **Help!** and **Bel 112!**.",
+      "table": {
+        "headers": ["Nederlands", "Betekenis"],
+        "rows": [
+          ["Help!", "Help!"],
+          ["Bel 112!", "Call 112!"],
+          ["de ambulance", "the ambulance"],
+          ["de brandweer", "the fire department"],
+          ["de politie", "the police"]
+        ]
+      },
+      "callout": "112 werkt voor ambulance, politie of brandweer — zeg gewoon welke."
+    },
+    {
+      "type": "chips",
+      "title": "Nood-woorden",
+      "items": [
+        { "nl": "Help!", "en": "Help!", "speak": "Help!" },
+        { "nl": "Bel 112!", "en": "Call 112!", "speak": "Bel 112!" },
+        { "nl": "Ik heb hulp nodig.", "en": "I need help.", "speak": "Ik heb hulp nodig." },
+        { "nl": "Het is een noodgeval.", "en": "It's an emergency.", "speak": "Het is een noodgeval." },
+        { "nl": "Snel!", "en": "Quick! / Hurry!", "speak": "Snel!" },
+        { "nl": "Au!", "en": "Ow!", "speak": "Au!" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Apotheek, huisarts of ziekenhuis?",
+      "body": "Three different stops for three different problems. **De apotheek** (pharmacy) fills a recept and sells simple medicine — go there first for small stuff. **Het ziekenhuis** (hospital) is for real emergencies, reached via 112 or a verwijzing — you don't just walk in. If it's serious, say: **Ik moet naar het ziekenhuis** (I need to go to the hospital).",
+      "callout": "Klein? Apotheek. Ernstig? 112, dan het ziekenhuis."
+    },
+    {
+      "type": "mcq",
+      "prompt": "You're calling about a serious emergency in the Netherlands. What number do you dial?",
+      "options": ["0900", "112", "911"],
+      "correct": 1,
+      "explain": "112 is the one number for ambulance, police, and fire in the Netherlands — 911 is American."
+    },
+    {
+      "type": "contrast",
+      "title": "Apotheek vs. ziekenhuis",
+      "pairs": [
+        {
+          "left": "de apotheek — for medicine and small complaints",
+          "right": "het ziekenhuis — for real emergencies only",
+          "note": "You don't walk into a ziekenhuis on your own for minor things — that's what de apotheek and de huisarts are for. Save 'Ik moet naar het ziekenhuis' for when it's serious."
+        }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I need to go to the hospital.'",
+      "answers": ["ik moet naar het ziekenhuis"],
+      "hint": "moeten + naar + het ziekenhuis",
+      "explain": "Ik moet naar het ziekenhuis — moeten (must) + naar (to) + the destination."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Bel 112!",
+      "answers": ["bel 112", "bel 112!"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Daan play-acts the apotheker behind the counter so you can rehearse before your real errand",
+      "lines": [
+        { "speaker": "Daan", "nl": "Zegt u het maar!", "en": "Go ahead, tell me! (the standard pharmacist opener)" },
+        { "speaker": "You", "nl": "Ik heb dit recept van de huisarts.", "en": "I have this prescription from the GP." },
+        { "speaker": "Daan", "nl": "Prima. Heeft u ook een paracetamol nodig?", "en": "Great. Do you also need a paracetamol?", "spotlight": "paracetamol strikes again — even at the apotheek" },
+        { "speaker": "You", "nl": "Nee, dank u. Wel iets tegen keelpijn.", "en": "No, thank you. But something for a sore throat." },
+        { "speaker": "Daan", "nl": "Deze zuigtabletten zijn heel goed.", "en": "These lozenges are very good." },
+        { "speaker": "You", "nl": "Dank u wel!", "en": "Thank you very much!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does 'You' bring to the apotheek?", "options": ["A referral", "A recept from the huisarts", "An ambulance bill"], "correct": 1 },
+        { "q": "What does Daan (as the apotheker) suggest?", "options": ["A hospital visit", "Paracetamol", "Calling 112"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Ik moet naar...",
+      "prompt": "Say where you need to go.",
+      "slots": [
+        { "label": "Zin", "chips": ["Ik moet naar"] },
+        { "label": "Bestemming", "chips": ["het ziekenhuis", "de apotheek", "de huisarts"] }
+      ],
+      "sample": "Ik moet naar het ziekenhuis."
+    },
+    {
+      "type": "journal",
+      "prompt": "Write your own mini emergency phrasebook: three sentences you'd want ready in a real noodgeval.",
+      "starters": ["Help, ik...", "Ik moet naar...", "Bel..."]
+    }
+  ]
+}

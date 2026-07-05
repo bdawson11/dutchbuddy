@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "day-44",
+  "day": 44,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Perfect of imperfectum?",
+  "emoji": "⚖️",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "The usage split: perfect for discrete events, imperfectum for description, background and was/had",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Twee verledens, één keuze",
+      "body": "You now have both pasts — so when do you use which? Rule of thumb: the **perfect** (*ik heb gekocht*) reports a **discrete, completed event** in conversation. The **imperfectum** (*het was, ik had, we woonden*) gives **description, background and habit**. Most stories mix them: perfect for *what happened*, imperfectum for *how things were*.",
+      "callout": "*was* and *had* are almost always imperfectum — you rarely say *ik ben moe geweest* to describe yesterday."
+    },
+    {
+      "type": "contrast",
+      "title": "Gebeurtenis vs achtergrond",
+      "pairs": [
+        { "left": "Ik heb een fiets gekocht. — I bought a bike.", "right": "De fiets was oud. — The bike was old.", "note": "Perfect = the event (the buying). Imperfectum = the description (how it was)." },
+        { "left": "We zijn naar Texel gegaan. — We went to Texel.", "right": "Het weer was mooi. — The weather was nice.", "note": "Perfect moves the story forward; imperfectum paints the scene around it." },
+        { "left": "Ze heeft gebeld. — She called.", "right": "Ze was moe. — She was tired.", "note": "One completed action (perfect) against a background state (imperfectum)." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "A friend asks what you did yesterday. Which is the natural spoken reply — a reported event?",
+      "options": ["Ik was naar de dokter.", "Ik ben naar de dokter gegaan.", "Ik had naar de dokter."],
+      "correct": 1,
+      "explain": "Reporting one discrete event in conversation → **perfect**: *Ik ben naar de dokter gegaan.* *Ik was naar de dokter* isn't grammatical; *ging* would work in a longer narrative."
+    },
+    {
+      "type": "card",
+      "title": "De was/had-regel",
+      "body": "The single most useful habit: **states and feelings in the past go in the imperfectum.** Dutch almost never says *ik ben moe geweest* about yesterday — it says *ik was moe*. Same with *had*: *ik had honger, we hadden geen tijd*. So even inside a story full of perfect-tense events, the *was/had* bits stay imperfectum.",
+      "callout": "Quick test: describing how something **was**? Use *was/waren*. Reporting what someone **did**? Perfect is fine."
+    },
+    {
+      "type": "chips",
+      "title": "Achtergrond in de imperfectum",
+      "items": [
+        { "nl": "het was gezellig", "en": "it was cozy / fun", "speak": "het was gezellig" },
+        { "nl": "ik had honger", "en": "I was hungry", "speak": "ik had honger" },
+        { "nl": "we hadden geen tijd", "en": "we had no time", "speak": "we hadden geen tijd" },
+        { "nl": "het regende", "en": "it rained", "speak": "het regende" },
+        { "nl": "iedereen was blij", "en": "everyone was happy", "speak": "iedereen was blij" }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Describe a past state: 'I was tired.'",
+      "answers": ["ik was moe"],
+      "hint": "State → imperfectum, not perfect.",
+      "explain": "*Ik was moe.* Not *ik ben moe geweest* — states stay in the imperfectum."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Het was mooi weer.",
+      "answers": ["het was mooi weer"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Daan leans over his coffee — he wants the whole story of your weekend.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Joh, wat heb je dit weekend gedaan?", "en": "Hey, what did you do this weekend?", "spotlight": "Perfect: he's asking for the **events**." },
+        { "speaker": "You", "nl": "Ik ben naar het strand geweest.", "en": "I went to the beach." },
+        { "speaker": "Daan", "nl": "Lekker! En hoe was het?", "en": "Nice! And how was it?", "spotlight": "*hoe was het* — now he wants the **description**." },
+        { "speaker": "You", "nl": "Het was heerlijk. De zon scheen en het was warm.", "en": "It was lovely. The sun was shining and it was warm.", "spotlight": "Description → imperfectum: *was, scheen*." },
+        { "speaker": "Daan", "nl": "En toen? Wat heb je gegeten?", "en": "And then? What did you eat?", "spotlight": "Back to a discrete event → perfect." },
+        { "speaker": "You", "nl": "Ik heb een broodje gekocht op de boulevard.", "en": "I bought a sandwich on the promenade." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Snap je de split?",
+      "questions": [
+        { "q": "Why does 'Het was heerlijk' use the imperfectum?", "options": ["It describes how it was", "It's a completed event", "It's a question"], "correct": 0 },
+        { "q": "Which line reports a discrete event?", "options": ["Het was warm", "Ik heb een broodje gekocht", "De zon scheen"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write three lines about a recent day out: one event in the **perfect**, two descriptions (*was/had*) in the **imperfectum**.",
+      "starters": ["Ik ben naar… geweest.", "Het was…", "Ik had…"]
+    }
+  ]
+}

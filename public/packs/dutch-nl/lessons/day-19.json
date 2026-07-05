@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "day-19",
+  "day": 19,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Hoe is hij, hoe is zij?",
+  "emoji": "🎭",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Describing looks and personality — aardig, gezellig, druk, rustig, grappig, streng",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "What someone looks like",
+      "body": "The outside: *lang* (tall), *klein* (short), *donker haar* (dark hair), *blond haar* (blonde hair), *draagt een bril* (wears glasses).",
+      "table": {
+        "headers": ["Dutch", "English"],
+        "rows": [
+          ["lang", "tall"],
+          ["klein", "short"],
+          ["donker haar", "dark hair"],
+          ["blond haar", "blonde hair"],
+          ["draagt een bril", "wears glasses"]
+        ]
+      },
+      "callout": "*klein* still means 'small' — for a person, it just means 'short'."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear them",
+      "items": [
+        { "nl": "lang", "en": "tall", "speak": "lang" },
+        { "nl": "klein", "en": "short", "speak": "klein" },
+        { "nl": "donker haar", "en": "dark hair", "speak": "donker haar" },
+        { "nl": "blond haar", "en": "blonde hair", "speak": "blond haar" },
+        { "nl": "een bril", "en": "glasses", "speak": "een bril" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "What someone is like",
+      "body": "The inside: *aardig* (kind, nice), *gezellig* (fun to be around — yes, people can be gezellig too, not just cafés), *druk* (busy, or hyper), *rustig* (calm, quiet), *grappig* (funny), *streng* (strict).",
+      "table": {
+        "headers": ["Dutch", "English"],
+        "rows": [
+          ["aardig", "kind, nice"],
+          ["gezellig", "fun to be around"],
+          ["druk", "busy, hyper"],
+          ["rustig", "calm, quiet"],
+          ["grappig", "funny"],
+          ["streng", "strict"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear them",
+      "items": [
+        { "nl": "aardig", "en": "kind, nice", "speak": "aardig" },
+        { "nl": "gezellig", "en": "fun to be around", "speak": "gezellig" },
+        { "nl": "druk", "en": "busy, hyper", "speak": "druk" },
+        { "nl": "rustig", "en": "calm, quiet", "speak": "rustig" },
+        { "nl": "grappig", "en": "funny", "speak": "grappig" },
+        { "nl": "streng", "en": "strict", "speak": "streng" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "druk has two moods",
+      "pairs": [
+        { "left": "Ik heb het druk — I'm busy (schedule)", "right": "Hij is een beetje druk — He's a bit hyper (personality)", "note": "Same word, two senses — busy schedule vs. a hyper personality. Context tells you which." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which word describes someone strict?",
+      "options": ["aardig", "streng", "grappig"],
+      "correct": 1,
+      "explain": "streng — strict. aardig is kind, grappig is funny."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the Dutch word for 'funny' (personality).",
+      "answers": ["grappig"]
+    },
+    {
+      "type": "builder",
+      "prompt": "Describe someone's personality.",
+      "slots": [
+        { "label": "Subject", "chips": ["Hij is", "Zij is"] },
+        { "label": "Personality", "chips": ["grappig", "aardig", "rustig", "streng"] }
+      ],
+      "sample": "Zij is grappig."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma describes Daan to you at the café.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Daan? Hij is heel grappig, hoor.", "en": "Daan? He's really funny." },
+        { "speaker": "You", "nl": "En verder?", "en": "And other than that?" },
+        { "speaker": "Emma", "nl": "Best druk — altijd praten, praten, praten.", "en": "Pretty hyper — always talk, talk, talk.", "spotlight": "druk — here it means hyper, not 'busy with work'." },
+        { "speaker": "You", "nl": "Is hij ook aardig?", "en": "Is he also kind?" },
+        { "speaker": "Emma", "nl": "Heel aardig, ja. Een beetje streng over muziek, maar verder heel gezellig.", "en": "Very kind, yes. A bit strict about music, but otherwise really fun to be around." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "What does 'druk' mean in Emma's description of Daan?", "options": ["Busy with work", "Hyper / a lot of talking", "Strict"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe a friend or family member's looks and personality in Dutch.",
+      "starters": ["Hij is...", "Zij heeft..."]
+    }
+  ]
+}

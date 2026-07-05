@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-72",
+  "day": 72,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Partikels — de ziel van gesproken Nederlands",
+  "emoji": "🎭",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "even, maar, toch, wel, eens, hoor, nou, joh — the little words that soften everything",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "The little words that carry the mood",
+      "body": "Dutch is full of tiny words — *even, maar, toch, wel, hoor* — that add almost no meaning you can translate, but carry all the **tone**. Drop them and you sound blunt, even rude. Use them and you sound like a native. They are the difference between a command and a favour.",
+      "callout": "You can't translate them one-to-one. You feel them. That's today."
+    },
+    {
+      "type": "contrast",
+      "title": "even — softens a request into a favour",
+      "pairs": [
+        { "left": "Doe het.", "right": "Doe het even.", "note": "Bare imperative = an order. *even* makes it 'just quickly, no big deal'." },
+        { "left": "Kom je?", "right": "Kom je even?", "note": "*even* = 'for a sec'. Friendly, low-stakes." },
+        { "left": "Wacht.", "right": "Wacht even.", "note": "'Wait' barked vs 'hang on a sec'. Same words, different human." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "maar, toch, wel — permission, insistence, contradiction",
+      "body": "**maar** = 'go ahead, no worries': *Zeg het maar. Ga maar zitten.* — **toch** = 'surely / after all / right?': *Je komt toch wel? Het is toch al laat.* — **wel** = the positive counter to a negative: *— Je hebt geen tijd. — Jawel, ik heb wel tijd.* Also 'I'll do it, don't worry': *Ik doe het wel.*",
+      "table": {
+        "headers": ["Partikel", "Doet", "Voorbeeld"],
+        "rows": [
+          ["maar", "permission / reassurance", "Ga maar zitten."],
+          ["toch", "'right?' / after all", "Je komt toch wel?"],
+          ["wel", "contradicts a 'no'", "Ik heb wel tijd."]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "hoor & eens — warmth and a gentle nudge",
+      "pairs": [
+        { "left": "Het is niet erg.", "right": "Het is niet erg, hoor.", "note": "*hoor* reassures — 'really, it's fine'. Warm, never sharp." },
+        { "left": "Kom hier.", "right": "Kom eens hier.", "note": "*eens* (often *'ns*) softens an order into an invitation — 'come here a sec, would you'." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the particles do their work",
+      "items": [
+        { "nl": "Momentje, hoor.", "en": "One sec, okay.", "speak": "Momentje, hoor." },
+        { "nl": "Doe maar.", "en": "Go ahead / sure.", "speak": "Doe maar." },
+        { "nl": "Kom je nog even?", "en": "Are you coming over for a bit?", "speak": "Kom je nog even?" },
+        { "nl": "Je komt toch wel?", "en": "You're coming, right?", "speak": "Je komt toch wel?" },
+        { "nl": "Nou, zeg!", "en": "Well, honestly!", "speak": "Nou, zeg!" },
+        { "nl": "Joh, niet doen.", "en": "Hey, don't.", "speak": "Joh, niet doen." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Your friend snaps 'Geef me de zout.' You want to soften it to a normal request. Which is best?",
+      "options": ["Geef me de zout nu.", "Geef me even de zout?", "Geef me de zout, punt."],
+      "correct": 1,
+      "explain": "*even* turns a demand into a low-stakes favour. Without it, you sound like a boss."
+    },
+    {
+      "type": "mcq",
+      "prompt": "'Je komt toch wel?' — what is the speaker doing with *toch wel*?",
+      "options": ["Giving an order", "Checking / hoping you'll come", "Refusing to come"],
+      "correct": 1,
+      "explain": "*toch* seeks confirmation ('right?') and *wel* leans positive. Together: a hopeful 'you ARE coming, aren't you?'"
+    },
+    {
+      "type": "typed",
+      "prompt": "Add ONE particle to reassure: '— Sorry! — Geen probleem ___.' (No problem, really.)",
+      "answers": ["hoor", "hoor.", "geen probleem hoor"],
+      "hint": "The warm reassurance tag.",
+      "explain": "*hoor* — the sound of 'honestly, it's totally fine'. Pure Netherlands warmth."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Daan is running late and texts you to come to the café anyway. Particles everywhere.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Joh, kom je nog even langs? Ik ben er zo.", "en": "Hey, are you swinging by for a bit? I'll be there soon.", "spotlight": "joh + even — casual and low-stakes at once." },
+        { "speaker": "You", "nl": "Ja hoor, ik kom eraan.", "en": "Yeah sure, I'm on my way.", "spotlight": "ja hoor — a warm, relaxed 'yes'." },
+        { "speaker": "Daan", "nl": "Top. Bestel maar vast een biertje voor me.", "en": "Great. Just go ahead and order me a beer.", "spotlight": "maar vast — 'go ahead already', permission + 'in advance'." },
+        { "speaker": "You", "nl": "Doe ik. Maar je bent wel laat, hè.", "en": "Will do. You ARE late, though.", "spotlight": "wel — contradicts his 'zo' with a teasing 'yeah right'." },
+        { "speaker": "Daan", "nl": "Nou, nou. Ik ben er toch bijna?", "en": "Alright, alright. I'm nearly there though, right?" }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Soften a bossy line",
+      "prompt": "Turn a blunt request into a friendly one with a particle.",
+      "slots": [
+        { "label": "Request", "chips": ["Kom je", "Wacht", "Geef me de pen"] },
+        { "label": "Softener", "chips": ["even?", "maar", "hoor"] }
+      ],
+      "sample": "Kom je even?"
+    },
+    {
+      "type": "journal",
+      "prompt": "Rewrite three blunt sentences you might say in a day, each softened with a different particle (even / maar / hoor). Say them out loud — feel the mood change.",
+      "starters": ["…even?", "…maar.", "…hoor."],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "day-04",
+  "day": 4,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "Ik ben, jij bent — voornaamwoorden en zijn",
+  "emoji": "🧍",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "All the personal pronouns, the verb zijn (to be), and the je-vs-u register",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "The people words",
+      "body": "Every sentence needs a subject. Here's the full set. Note that Dutch has **two** words in three slots: *jij/je*, *hij* pairs with *zij/ze* for 'she', and *zij/ze* also means 'they'. The short forms (*je, ze, we*) are what you actually hear — the long forms (*jij, zij, wij*) add stress.",
+      "table": {
+        "headers": ["Dutch", "English"],
+        "rows": [
+          ["ik", "I"],
+          ["jij / je", "you (casual)"],
+          ["u", "you (polite)"],
+          ["hij", "he"],
+          ["zij / ze", "she"],
+          ["wij / we", "we"],
+          ["jullie", "you (plural)"],
+          ["zij / ze", "they"]
+        ]
+      },
+      "callout": "*zij/ze* pulls double duty: 'she' and 'they'. The verb tells you which."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the pronouns",
+      "items": [
+        { "nl": "ik", "en": "I", "speak": "ik" },
+        { "nl": "jij", "en": "you (casual)", "speak": "jij" },
+        { "nl": "u", "en": "you (polite)", "speak": "u" },
+        { "nl": "hij", "en": "he", "speak": "hij" },
+        { "nl": "zij", "en": "she / they", "speak": "zij" },
+        { "nl": "wij", "en": "we", "speak": "wij" },
+        { "nl": "jullie", "en": "you all", "speak": "jullie" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "The verb zijn (to be)",
+      "body": "*zijn* is the most-used verb in Dutch, and — like 'to be' in English — it's irregular, so you memorise it. Learn this table cold; everything leans on it.",
+      "table": {
+        "headers": ["Subject", "zijn", "English"],
+        "rows": [
+          ["ik", "ben", "I am"],
+          ["jij / je", "bent", "you are"],
+          ["u", "bent", "you are (polite)"],
+          ["hij / zij / het", "is", "he / she / it is"],
+          ["wij / we", "zijn", "we are"],
+          ["jullie", "zijn", "you all are"],
+          ["zij / ze", "zijn", "they are"]
+        ]
+      },
+      "callout": "Three shapes only: *ben, bent, is, zijn*. Plurals all take *zijn*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Fill the gap: Hij ___ mijn vriend. (He is my friend.)",
+      "options": ["ben", "bent", "is"],
+      "correct": 2,
+      "explain": "*hij* (he) takes *is*. *ben* is only for *ik*; *bent* is for *jij/u*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Complete: Ik ___ Nederlander. (I am Dutch.)",
+      "answers": ["ben", "ik ben"],
+      "hint": "The *ik* form of zijn.",
+      "explain": "*Ik ben.* This one form you'll say more than any other."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the sentence.",
+      "speak": "Wij zijn hier",
+      "answers": ["wij zijn hier", "we zijn hier"],
+      "explain": "*Wij zijn hier* — we are here. Plural subjects all take *zijn*."
+    },
+    {
+      "type": "card",
+      "title": "je or u? — the register switch",
+      "body": "This is the choice you make every time you talk to someone new. **je** is warm and casual: friends, family, kids, colleagues you know. **u** is polite and respectful: strangers, older people, officials, the doctor, a shopkeeper you don't know. Guess wrong toward *u* and you're just a bit formal — harmless. Guess wrong toward *je* with the wrong person and it can feel too familiar.",
+      "callout": "When in doubt, start with *u*. People will often say *\"je mag je zeggen\"* — 'you can use je' — and then you switch."
+    },
+    {
+      "type": "contrast",
+      "title": "Same question, two registers",
+      "pairs": [
+        { "left": "Hoe heet je?", "right": "Hoe heet u?", "note": "'What's your name?' — *je* to a new colleague at a party, *u* to the person at the town-hall desk." },
+        { "left": "Wil je koffie?", "right": "Wilt u koffie?", "note": "With *u* the verb also shifts to *wilt*. Register changes the whole sentence, not just the pronoun." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "A borrel at Emma's. She introduces you to the room.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Iedereen, dit is mijn vriend. Hij leert Nederlands!", "en": "Everyone, this is my friend. He's learning Dutch!", "spotlight": "*dit is* = this is — *is*, the hij/zij/het form of zijn." },
+        { "speaker": "You", "nl": "Hoi, ik ben nieuw hier.", "en": "Hi, I'm new here.", "spotlight": "*ik ben* — the form you drilled." },
+        { "speaker": "Emma", "nl": "Wij zijn allemaal aardig, hoor.", "en": "We're all nice, honestly." },
+        { "speaker": "You", "nl": "Dat is fijn!", "en": "That's good!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Check yourself",
+      "questions": [
+        { "q": "Which form of zijn does Emma use in 'dit is mijn vriend'?", "options": ["ben", "bent", "is"], "correct": 2 },
+        { "q": "You'd address a stranger at the pharmacy with…", "options": ["je", "u", "jullie"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write three 'I am / you are / we are' sentences about real people — a friend, yourself, your group. Use *ben*, *bent* and *zijn* once each.",
+      "starters": ["Ik ben …", "Jij bent …", "Wij zijn …"]
+    }
+  ]
+}

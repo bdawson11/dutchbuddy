@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "day-31",
+  "day": 31,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "Onregelmatige deelwoorden",
+  "emoji": "🃏",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "The top fifteen irregular participles you'll use every day",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Onregelmatige deelwoorden (1)",
+      "body": "Many everyday verbs ignore 't kofschip — their participle shifts the vowel or the ending, and you simply learn them. The good news: it's a short list you'll use constantly. Note that *geweest, gegaan* and *gekomen* take **zijn**; the rest take **hebben**.",
+      "table": {
+        "headers": ["Infinitief", "Deelwoord", "English"],
+        "rows": [
+          ["zijn", "geweest (ben)", "been"],
+          ["gaan", "gegaan (ben)", "gone"],
+          ["komen", "gekomen (ben)", "come"],
+          ["doen", "gedaan", "done"],
+          ["hebben", "gehad", "had"],
+          ["zien", "gezien", "seen"],
+          ["zeggen", "gezegd", "said"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "Onregelmatige deelwoorden (2)",
+      "body": "The second batch — all with **hebben**. Watch how the vowel jumps: *drinken → gedronken*, *nemen → genomen*.",
+      "table": {
+        "headers": ["Infinitief", "Deelwoord", "English"],
+        "rows": [
+          ["geven", "gegeven", "given"],
+          ["nemen", "genomen", "taken"],
+          ["drinken", "gedronken", "drunk"],
+          ["eten", "gegeten", "eaten"],
+          ["lezen", "gelezen", "read"],
+          ["schrijven", "geschreven", "written"],
+          ["kopen", "gekocht", "bought"],
+          ["brengen", "gebracht", "brought"]
+        ]
+      },
+      "callout": "*kopen → gekocht* and *brengen → gebracht* even change the consonant. No logic — just gold-star words to memorize."
+    },
+    {
+      "type": "chips",
+      "title": "Tik om te horen",
+      "items": [
+        { "nl": "gedaan", "en": "done", "speak": "gedaan" },
+        { "nl": "gehad", "en": "had", "speak": "gehad" },
+        { "nl": "gezien", "en": "seen", "speak": "gezien" },
+        { "nl": "gegeten", "en": "eaten", "speak": "gegeten" },
+        { "nl": "gedronken", "en": "drunk", "speak": "gedronken" },
+        { "nl": "gekocht", "en": "bought", "speak": "gekocht" },
+        { "nl": "gelezen", "en": "read", "speak": "gelezen" },
+        { "nl": "geschreven", "en": "written", "speak": "geschreven" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "De klank verandert",
+      "pairs": [
+        { "left": "drinken — to drink", "right": "gedronken — drunk", "note": "The vowel shifts i → o, a very common Dutch pattern." },
+        { "left": "nemen — to take", "right": "genomen — taken", "note": "e → o inside the stem." },
+        { "left": "kopen — to buy", "right": "gekocht — bought", "note": "Even the consonant changes: p → cht. Just memorize it." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Ik heb een broodje ___.* (eten)",
+      "options": ["geëten", "gegeten", "geeten"],
+      "correct": 1,
+      "explain": "*eten* → **gegeten**. Irregular: the ge- is followed by *geten*, and it keeps -en."
+    },
+    {
+      "type": "typed",
+      "prompt": "Give the participle of *zien* (to see).",
+      "answers": ["gezien"],
+      "explain": "gezien — one of the top irregulars, always with hebben."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'I bought coffee.' (use *kopen*, *koffie*)",
+      "answers": ["ik heb koffie gekocht"],
+      "hint": "kopen → gekocht, with hebben.",
+      "explain": "*Ik heb koffie gekocht.* — gekocht is irregular (p → cht)."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ de vraag.",
+      "speak": "Wat heb je gedaan?",
+      "answers": ["wat heb je gedaan"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the café, Daan is as nosy as ever.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Joh, wat heb je gisteravond gedaan?", "en": "Hey, what did you do last night?" },
+        { "speaker": "You", "nl": "Ik heb een boek gelezen en thee gedronken.", "en": "I read a book and drank tea." },
+        { "speaker": "Daan", "nl": "Saai! Ik ben naar een concert geweest.", "en": "Boring! I went to a concert.", "spotlight": "*geweest* takes *zijn*: ik ben geweest." },
+        { "speaker": "You", "nl": "Echt? Wat heb je gezien?", "en": "Really? What did you see?" },
+        { "speaker": "Daan", "nl": "Een geweldige band. Ik heb zelfs een shirt gekocht, hoor.", "en": "An amazing band. I even bought a shirt." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Heb je het gehoord?",
+      "questions": [
+        { "q": "Wat heeft Daan gisteravond gedaan?", "options": ["Een boek gelezen", "Naar een concert geweest", "Thee gedronken"], "correct": 1 },
+        { "q": "Wat heeft Daan gekocht?", "options": ["Een boek", "Een shirt", "Een cd"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Gebruik drie onregelmatige deelwoorden. Write three sentences about your day with irregular participles from the list (*gedaan, gezien, gegeten, gedronken, gelezen…*).",
+      "starters": ["Vandaag heb ik …", "Ik heb … gezien"],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-15",
+  "day": 15,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Familie, met een beetje -je",
+  "emoji": "👪",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Family words and your first diminutive (-je) as warmth",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Wie is wie",
+      "body": "Meet the family: *moeder* (mother), *vader* (father), *broer* (brother), *zus* (sister), *opa* (grandpa), *oma* (grandma), *partner* (partner), *kind* (child). All simple, all worth knowing cold.",
+      "table": {
+        "headers": ["Dutch", "English"],
+        "rows": [
+          ["moeder", "mother"],
+          ["vader", "father"],
+          ["broer", "brother"],
+          ["zus", "sister"],
+          ["opa", "grandpa"],
+          ["oma", "grandma"],
+          ["partner", "partner"],
+          ["kind", "child"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the family",
+      "items": [
+        { "nl": "moeder", "en": "mother", "speak": "moeder" },
+        { "nl": "vader", "en": "father", "speak": "vader" },
+        { "nl": "broer", "en": "brother", "speak": "broer" },
+        { "nl": "zus", "en": "sister", "speak": "zus" },
+        { "nl": "opa", "en": "grandpa", "speak": "opa" },
+        { "nl": "oma", "en": "grandma", "speak": "oma" },
+        { "nl": "partner", "en": "partner", "speak": "partner" },
+        { "nl": "kind", "en": "child", "speak": "kind" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "-je: the sound of warmth",
+      "body": "Add **-je** to a noun and it shrinks — but for siblings, it usually just means *love*, not size: *broer* → *broertje*, *zus* → *zusje*. Dutch people call an older sibling *broertje/zusje* their whole life — the size doesn't matter, the warmth does.",
+      "callout": "**Diminutives are always *het*** — no exceptions, even when the original word is a de-word."
+    },
+    {
+      "type": "contrast",
+      "title": "de broer, het broertje",
+      "pairs": [
+        { "left": "de broer — the brother", "right": "het broertje — the little brother / bro", "note": "Diminutives are always *het*, even though *broer* itself is a de-word." },
+        { "left": "de zus — the sister", "right": "het zusje — the little sister / sis", "note": "Same shift: *zus* is de, *zusje* is always het." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which article goes with *zusje*?",
+      "options": ["de", "het", "geen artikel nodig"],
+      "correct": 1,
+      "explain": "Diminutives (-je) are always *het*, no exceptions — even for de-words like *zus*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the warm Dutch word for 'little brother' (or just 'bro').",
+      "answers": ["broertje", "het broertje"],
+      "hint": "broer ends in r after a long vowel sound — add -tje.",
+      "explain": "*broertje* — after l/n/r preceded by a long vowel or diphthong, the diminutive is -tje, not just -je."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "oma",
+      "answers": ["oma"]
+    },
+    {
+      "type": "builder",
+      "prompt": "Introduce a family member the warm way.",
+      "slots": [
+        { "label": "Opener", "chips": ["Dit is mijn"] },
+        { "label": "Family member", "chips": ["moeder", "vader", "broertje", "zusje", "opa", "oma", "partner", "kind"] }
+      ],
+      "sample": "Dit is mijn zusje."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma shows you a photo on her phone.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Kijk, dit is mijn moeder en mijn vader.", "en": "Look, this is my mother and my father." },
+        { "speaker": "You", "nl": "Gezellig! En wie is dit?", "en": "Nice! And who is this?" },
+        { "speaker": "Emma", "nl": "Dat is mijn zusje, Fleur.", "en": "That's my little sister, Fleur.", "spotlight": "zusje — the diminutive makes it warm, not literally small." },
+        { "speaker": "You", "nl": "Heb je ook een broer?", "en": "Do you also have a brother?" },
+        { "speaker": "Emma", "nl": "Ja, mijn broertje Tim — hij is eigenlijk ouder dan ik, hoor!", "en": "Yes, my little bro Tim — he's actually older than me!", "spotlight": "broertje — still 'little brother' even though he's older. It's affection, not age." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "Why does Emma call Tim her 'broertje' even though he's older than her?", "options": ["Because he's shorter", "Because -je shows warmth, not size", "Because he's actually younger"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Introduce your family in Dutch. Use at least one diminutive (broertje/zusje) for warmth.",
+      "starters": ["Dit is mijn...", "Ik heb..."]
+    }
+  ]
+}

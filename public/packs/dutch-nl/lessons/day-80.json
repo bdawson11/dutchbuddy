@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "day-80",
+  "day": 80,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "De snackbar en de borrel",
+  "emoji": "🍟",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Ordering at the snackbar (patatje oorlog, frikandel speciaal) and the borrel social script: rounds, bittergarnituur, proost",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "De snackbar",
+      "body": "The Dutch snackbar is deep-fried, glorious and its own little language. *Patat* (fries; *friet* in the south) comes **met** (with mayo — the default) or with a dozen sauces. The classics: **patatje oorlog** ('war fries': mayo, peanut sauce and raw onion), the **frikandel** (a smooth sausage), and a **frikandel speciaal** (split open with curry ketchup, mayo and onion). Plus a **kroket** or **bitterbal** on the side.",
+      "table": {
+        "headers": ["Bestelling", "Wat het is"],
+        "rows": [
+          ["patatje met", "fries with mayo (the default 'with')"],
+          ["patatje oorlog", "fries: mayo, peanut sauce and raw onion"],
+          ["frikandel speciaal", "frikandel with curry ketchup, mayo, onion"],
+          ["een kroket / bitterbal", "ragout, crumbed and deep-fried"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the snackbar words",
+      "items": [
+        { "nl": "een patatje met", "en": "fries with mayo", "speak": "een patatje met" },
+        { "nl": "een patatje oorlog", "en": "'war fries'", "speak": "een patatje oorlog" },
+        { "nl": "een frikandel speciaal", "en": "a frikandel speciaal", "speak": "een frikandel speciaal" },
+        { "nl": "een kroket", "en": "a croquette", "speak": "een kroket" },
+        { "nl": "Doe mij maar…", "en": "I'll have… (the way to order)", "speak": "Doe mij maar een frikandel." },
+        { "nl": "Mag ik afrekenen?", "en": "Can I pay?", "speak": "Mag ik afrekenen?" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "How to order",
+      "body": "Two openers do everything. **'Doe mij maar…'** (literally 'do me…' = 'I'll have…') and **'Mag ik…?'** ('may I have…?'). No need to say 'please have a nice day' first — just name it. *Doe mij maar een patatje met.* Note *met* already means 'with mayo', so you don't add the word.",
+      "callout": "*Doe mij maar…* is the single most useful ordering phrase in the country."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You and Bram at his favorite snackbar in Rotterdam.",
+      "lines": [
+        { "speaker": "Bram", "nl": "Kijk, dít is nou een echte snackbar. Geen poespas.", "en": "Look, THIS is a real snackbar. No fuss.", "spotlight": "Bram, ever the proud Rotterdammer." },
+        { "speaker": "You", "nl": "Wat neem jij?", "en": "What are you having?" },
+        { "speaker": "Bram", "nl": "Een patatje oorlog en een frikandel speciaal. Altijd.", "en": "War fries and a frikandel speciaal. Always." },
+        { "speaker": "You", "nl": "Oorlog… dat klinkt heftig.", "en": "War… that sounds intense." },
+        { "speaker": "Bram", "nl": "Patat met mayo, pindasaus en ui. Geloof me, proef het maar.", "en": "Fries with mayo, peanut sauce and onion. Trust me, just try it.", "spotlight": "patatje oorlog, explained." },
+        { "speaker": "You", "nl": "Oké. Doe mij maar hetzelfde.", "en": "Okay. I'll have the same.", "spotlight": "Doe mij maar — the standard order." },
+        { "speaker": "Bram", "nl": "Twee keer oorlog en een frikandel speciaal, alstublieft.", "en": "Two war fries and a frikandel speciaal, please." },
+        { "speaker": "You", "nl": "En een kroket erbij?", "en": "And a croquette with it?" },
+        { "speaker": "Bram", "nl": "Zie je wel, je wordt een echte Nederlander.", "en": "See, you're turning into a real Dutchman." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Kwam het binnen?",
+      "questions": [
+        { "q": "Wat zit er op een patatje oorlog?", "options": ["Alleen mayo", "Mayo, pindasaus en ui", "Kaas en ui"], "correct": 1 },
+        { "q": "Hoe bestelt Bram voor allebei?", "options": ["Twee keer oorlog en een frikandel speciaal", "Alleen frietjes", "Hij wijst zonder te praten"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "De borrel",
+      "body": "The **borrel** is the after-work drink that is also a whole social ritual. You gather, you order **bittergarnituur** (a shared platter of deep-fried snacks — bitterballen, cheese, mini-frikandellen), and you take turns buying **een rondje** (a round): *ik geef een rondje* = 'the round's on me'. Glasses up, look each other in the eye, and: **proost!**",
+      "callout": "Skipping your round is remembered. Buying one makes you *gezellig*."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the borrel script",
+      "items": [
+        { "nl": "Proost!", "en": "Cheers!", "speak": "Proost!" },
+        { "nl": "Ik geef een rondje.", "en": "The round's on me.", "speak": "Ik geef een rondje." },
+        { "nl": "Zullen we bittergarnituur nemen?", "en": "Shall we get a snack platter?", "speak": "Zullen we bittergarnituur nemen?" },
+        { "nl": "Waar drinken we op?", "en": "What are we drinking to?", "speak": "Waar drinken we op?" },
+        { "nl": "Op ons!", "en": "To us!", "speak": "Op ons!" },
+        { "nl": "Wat gezellig, hè?", "en": "So cozy, right?", "speak": "Wat gezellig, hè?" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wat is 'bittergarnituur'?",
+      "options": ["Een bittere drank", "Een schaal met gefrituurde borrelhapjes", "Een soort bier"],
+      "correct": 1,
+      "explain": "Bittergarnituur is the shared platter of fried snacks — bitterballen, cheese, mini sausages — that anchors every borrel."
+    },
+    {
+      "type": "typed",
+      "prompt": "You're at the snackbar. Order 'a portion of fries with mayo' the normal Dutch way.",
+      "answers": ["Doe mij maar een patatje met", "Doe mij maar een patatje met.", "Een patatje met, alsjeblieft", "Mag ik een patatje met", "Een patatje met"],
+      "hint": "*met* already means 'with mayo'.",
+      "explain": "*Doe mij maar een patatje met* — you don't add 'mayo'; *met* already says it."
+    },
+    {
+      "type": "builder",
+      "title": "Buy the round",
+      "prompt": "It's your turn. Offer a round and raise a toast.",
+      "slots": [
+        { "label": "Aanbod", "chips": ["Ik geef", "Zullen we"] },
+        { "label": "Wat", "chips": ["een rondje", "nog een rondje"] },
+        { "label": "Toost", "chips": ["Proost!", "Op ons!"] }
+      ],
+      "sample": "Ik geef een rondje. Proost!"
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschrijf in het Nederlands je ideale borrel: waar, met wie, en wat bestel je bij de snackbar erna? Gebruik *gezellig*, *een rondje* en *proost*.",
+      "starters": ["Mijn ideale borrel is …", "Bij de snackbar bestel ik …", "En dan geef ik …"],
+      "minSentences": 3
+    }
+  ]
+}

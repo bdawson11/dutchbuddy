@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "day-25",
+  "day": 25,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Houden van en lekker vinden",
+  "emoji": "😋",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "houden van, vinden, graag — three ways to say you like something — plus lekker as universal approval",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Drie manieren om iets leuk te vinden",
+      "body": "**houden van** (to love/really like) is strong and lasting. **vinden** (to find/think) states an opinion about one specific thing. **graag + werkwoord** (gladly) says you like *doing* something.",
+      "table": {
+        "headers": ["Uitdrukking", "Betekenis", "Voorbeeld"],
+        "rows": [
+          ["houden van", "sterk, blijvend", "Ik houd van kaas."],
+          ["vinden", "je mening over iets", "Ik vind deze koffie lekker."],
+          ["graag + werkwoord", "je doet iets met plezier", "Ik eet graag patat."]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "lekker: het woord voor alles",
+      "body": "*lekker* starts as 'tasty' but it's really Dutch's all-purpose word of approval: *lekker weer* (nice weather), *lekker slapen* (sleep well), *lekker bezig!* (doing great!). If something is good, it's *lekker* — food or not.",
+      "callout": "You'll hear *lekker* about ten times before lunch. That's normal."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the phrases",
+      "items": [
+        { "nl": "Ik houd van kaas", "en": "I love cheese", "speak": "Ik houd van kaas" },
+        { "nl": "Ik vind dit lekker", "en": "I think this is tasty", "speak": "Ik vind dit lekker" },
+        { "nl": "Ik eet graag patat", "en": "I like eating fries", "speak": "Ik eet graag patat" },
+        { "nl": "Lekker weer, hè?", "en": "nice weather, right?", "speak": "Lekker weer, hè?" },
+        { "nl": "Lekker slapen!", "en": "sleep well!", "speak": "Lekker slapen!" },
+        { "nl": "Ik houd niet van vis", "en": "I don't like fish", "speak": "Ik houd niet van vis" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "houden van vs vinden",
+      "pairs": [
+        { "left": "houden van — general, lasting love", "right": "vinden — an opinion about this one thing", "note": "*Ik houd van kaas* is a standing fact about you. *Ik vind deze kaas lekker* is a verdict on the piece in front of you." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence correctly means 'I like eating fries'?",
+      "options": ["Ik graag eet patat.", "Ik eet graag patat.", "Ik eet patat wil graag."],
+      "correct": 1,
+      "explain": "*graag* slots in right after the finite verb: *Ik eet graag patat* — verb second, *graag* third."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I love cheese.'",
+      "answers": ["ik houd van kaas", "ik hou van kaas"],
+      "hint": "houden van + object.",
+      "explain": "*Ik houd van kaas* — *hou* is the everyday spoken contraction of *houd*, both are fine."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ik vind dit lekker.",
+      "answers": ["ik vind dit lekker"]
+    },
+    {
+      "type": "builder",
+      "title": "Say what you like",
+      "prompt": "Build a sentence about something you like.",
+      "slots": [
+        { "label": "Zeg het", "chips": ["Ik houd van", "Ik eet graag"] },
+        { "label": "Waarover", "chips": ["kaas", "verse groente", "de zomer", "patat"] }
+      ],
+      "sample": "Ik houd van kaas."
+    },
+    {
+      "type": "shadow",
+      "title": "Repeat after the audio",
+      "lines": [
+        { "nl": "Ik houd van de zomer.", "en": "I love summer." },
+        { "nl": "Ik eet graag verse groente.", "en": "I like eating fresh vegetables." },
+        { "nl": "Lekker weer vandaag, hè?", "en": "Nice weather today, right?" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Tell me three things you like — use houden van, vinden…lekker, and graag once each.",
+      "starters": ["Ik houd van…", "Ik vind … lekker.", "Ik … graag."]
+    }
+  ]
+}

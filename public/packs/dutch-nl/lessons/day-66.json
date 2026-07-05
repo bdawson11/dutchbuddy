@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "day-66",
+  "day": 66,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Hier wordt gewerkt — de passief",
+  "emoji": "🚧",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The worden passive — signs, news, and worden vs zijn",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Het wordt gedaan — de worden-passief",
+      "body": "To say something *is being done* — with no interest in who does it — Dutch uses **worden** + a past participle. *De winkel **wordt** verbouwd* (the shop is being renovated). *De brief **wordt** geschreven.* Want to name the doer anyway? Add **door** (by): *De brief wordt door Emma geschreven.* This is the language of news, signs and notices.",
+      "table": {
+        "headers": ["Actief", "Passief (worden)"],
+        "rows": [
+          ["Ze verbouwen de winkel.", "De winkel wordt verbouwd."],
+          ["Iemand repareert de brug.", "De brug wordt gerepareerd."],
+          ["Ze sluiten de weg af.", "De weg wordt afgesloten."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tik om te horen — borden & nieuws",
+      "items": [
+        { "nl": "Hier wordt gewerkt.", "en": "Work in progress here.", "speak": "Hier wordt gewerkt." },
+        { "nl": "De weg wordt afgesloten.", "en": "The road is being closed.", "speak": "De weg wordt afgesloten." },
+        { "nl": "Er wordt gestaakt.", "en": "There's a strike on.", "speak": "Er wordt gestaakt." },
+        { "nl": "De winkel wordt verbouwd.", "en": "The shop is being renovated.", "speak": "De winkel wordt verbouwd." },
+        { "nl": "Er wordt gebeld.", "en": "Someone's at the door.", "speak": "Er wordt gebeld." },
+        { "nl": "Het pakket wordt vandaag bezorgd.", "en": "The parcel is being delivered today.", "speak": "Het pakket wordt vandaag bezorgd." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Er wordt gewerkt — de passief zonder dader",
+      "body": "Dutch loves passives with no subject at all. Open with **er** and you can turn a whole verb into an activity in the air: *Er wordt hard **gewerkt**.* (People are working hard.) *Er wordt **gebeld**.* (The doorbell's going.) *Er wordt **gestaakt**.* (There's a strike.) You'll see it on signs — *Hier wordt gewerkt* — and hear it in the news nonstop. Nobody is named; the action just *happens*.",
+      "callout": "No known doer + an activity → *Er wordt ge-…-t/d.* It's everywhere in Dutch."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Op een bord bij een bouwplaats: welke zin is het meest Nederlands?",
+      "options": ["Hier werkt men.", "Hier wordt gewerkt.", "Hier is gewerkt."],
+      "correct": 1,
+      "explain": "Signs use the impersonal passive: *Hier wordt gewerkt.* *men werkt* sounds stiff and old; *is gewerkt* would mean the work is already finished."
+    },
+    {
+      "type": "contrast",
+      "title": "Worden of zijn?",
+      "pairs": [
+        { "left": "De winkel wordt verbouwd. (nu, bezig)", "right": "De winkel is verbouwd. (klaar)", "note": "*wordt* = the renovation is happening; *is* = it's done, here's the result." },
+        { "left": "De brief wordt geschreven.", "right": "De brief is geschreven.", "note": "Present *worden* = being written now; *is geschreven* = has been written. (Dutch drops 'geworden' in the perfect passive.)" }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Maak passief met *worden*: 'Ze bezorgen het pakket morgen.' → Het pakket …",
+      "answers": ["Het pakket wordt morgen bezorgd.", "Het pakket wordt morgen bezorgd"],
+      "hint": "worden + voltooid deelwoord (bezorgd); de tijd komt in het midden.",
+      "explain": "*Het pakket wordt morgen bezorgd.* *worden* takes the subject; the participle *bezorgd* goes to the end."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Je loopt met Emma door de Pijp. Overal wordt gebouwd.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Kijk, hier wordt weer gewerkt. De hele straat wordt opnieuw gelegd.", "en": "Look, they're working here again. The whole street is being repaved.", "spotlight": "wordt gewerkt / wordt gelegd — impersonal passive and a normal passive side by side." },
+        { "speaker": "You", "nl": "Wat wordt daar gebouwd?", "en": "What's being built over there?" },
+        { "speaker": "Emma", "nl": "Een nieuw café, geloof ik. Het oude pand wordt verbouwd.", "en": "A new café, I think. The old building is being renovated." },
+        { "speaker": "You", "nl": "En de brug? Die is dicht.", "en": "And the bridge? It's closed." },
+        { "speaker": "Emma", "nl": "Ja, die wordt gerepareerd. Er wordt hier altijd wel iets gedaan, hoor.", "en": "Yeah, it's being repaired. There's always something being done here.", "spotlight": "er wordt … iets gedaan — the doer-less passive in the wild." },
+        { "speaker": "You", "nl": "Amsterdam: één grote bouwplaats.", "en": "Amsterdam: one big construction site." },
+        { "speaker": "Emma", "nl": "Precies! Zullen we koffie doen? Verderop wordt niet gewerkt.", "en": "Exactly! Shall we get coffee? Further along there's no work going on." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Heb je het gevolgd?",
+      "questions": [
+        { "q": "Wat gebeurt er met het oude pand?", "options": ["Het wordt verkocht", "Het wordt verbouwd", "Het wordt gesloopt"], "correct": 1 },
+        { "q": "Waarom is de brug dicht?", "options": ["Hij wordt gerepareerd", "Er wordt gestaakt", "Hij wordt geverfd"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ wat je hoort.",
+      "speak": "De winkel wordt verbouwd.",
+      "answers": ["De winkel wordt verbouwd.", "De winkel wordt verbouwd"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Wat wordt er in jouw straat of stad gedaan? Schrijf drie zinnen in de passief met *worden*.",
+      "starters": ["In mijn straat wordt…", "Er wordt hier…", "Het … wordt…"],
+      "minSentences": 3
+    }
+  ]
+}

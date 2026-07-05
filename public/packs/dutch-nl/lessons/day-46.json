@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "day-46",
+  "day": 46,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Het weer en het landschap van toen",
+  "emoji": "🌧",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Describing past weather (het regende, de zon scheen) and places (het landschap was plat, er waren…)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Het weer van toen",
+      "body": "Dutch weather uses an empty **het** subject plus a verb — put that verb in the imperfectum and you're describing past weather: *het regende, het sneeuwde, het waaide*. A few are irregular: the sun *scheen* (shone) and it *vroor* (froze).",
+      "table": {
+        "headers": ["Nu", "Toen", "English"],
+        "rows": [
+          ["het regent", "het regende", "it rained"],
+          ["het sneeuwt", "het sneeuwde", "it snowed"],
+          ["het waait", "het waaide", "it was windy"],
+          ["de zon schijnt", "de zon scheen", "the sun shone"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Weertypes",
+      "items": [
+        { "nl": "het was koud", "en": "it was cold", "speak": "het was koud" },
+        { "nl": "het was warm", "en": "it was warm", "speak": "het was warm" },
+        { "nl": "het regende", "en": "it rained", "speak": "het regende" },
+        { "nl": "de zon scheen", "en": "the sun shone", "speak": "de zon scheen" },
+        { "nl": "het was mistig", "en": "it was foggy", "speak": "het was mistig" },
+        { "nl": "het vroor", "en": "it froze", "speak": "het vroor" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Een plek beschrijven",
+      "body": "To paint a **place** in the past, lean on *was/waren* and *er was/er waren* (there was/were), plus *lag* (lay / was located, from *liggen*). *Het dorp lag aan de rivier. Er waren veel bomen. Het landschap was plat.* Flat land, water, a dike — heel Nederlands.",
+      "table": {
+        "headers": ["Dutch", "English"],
+        "rows": [
+          ["het landschap was plat", "the landscape was flat"],
+          ["er waren weilanden", "there were meadows"],
+          ["het dorp lag aan zee", "the village lay by the sea"],
+          ["overal waren fietsers", "cyclists were everywhere"]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "Twee seizoenen",
+      "pairs": [
+        { "left": "In de zomer was het warm en droog.", "right": "In de winter was het koud en nat.", "note": "Same frame (*het was…*), opposite weather. Stack two adjectives with *en*." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the past-weather sentence with the correct irregular verb.",
+      "options": ["De zon schijnde de hele dag.", "De zon scheen de hele dag.", "De zon scheende de hele dag."],
+      "correct": 1,
+      "explain": "*schijnen* is irregular: *scheen*, not *schijnde*. It's one of the strong verbs you simply memorise."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'It was cold and it rained.'",
+      "answers": ["het was koud en het regende"],
+      "hint": "Two clauses joined by *en*; both imperfectum.",
+      "explain": "*Het was koud en het regende.* A state plus a weather verb, both in the imperfectum."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Het landschap was plat en groen.",
+      "answers": ["het landschap was plat en groen"]
+    },
+    {
+      "type": "shadow",
+      "title": "Een winterse dag",
+      "lines": [
+        { "nl": "Het was een koude ochtend.", "en": "It was a cold morning." },
+        { "nl": "Het vroor die nacht.", "en": "It froze that night." },
+        { "nl": "De grachten waren bevroren.", "en": "The canals were frozen." },
+        { "nl": "Overal schaatsten mensen.", "en": "People were skating everywhere." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Beschrijf een plek van vroeger",
+      "prompt": "Build a past place-description: weather plus landscape.",
+      "slots": [
+        { "label": "Weer", "chips": ["Het was koud", "Het regende", "De zon scheen"] },
+        { "label": "Landschap", "chips": ["en het landschap was plat.", "en er waren veel bomen.", "en de zee was grijs."] }
+      ],
+      "sample": "De zon scheen en het landschap was plat."
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe a place you remember on one particular day: what the weather was like and what the place looked like. Use *was/waren* and one weather verb.",
+      "starters": ["Het was…", "De zon…", "Er waren…"]
+    }
+  ]
+}

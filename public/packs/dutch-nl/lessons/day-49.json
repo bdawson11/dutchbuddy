@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "day-49",
+  "day": 49,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "capstone",
+  "title": "Mijn verhaal — toen ik klein was",
+  "emoji": "🎉",
+  "level": "A2",
+  "durationMin": [20, 30],
+  "summary": "Graded past-tense drills, then layer 7 of the growing self-intro: a childhood memory in the imperfectum",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Capstone: jouw jeugd, jouw verhaal",
+      "body": "Time to bring Week 7 together and add it to your growing self-intro. First a few quick past-tense drills, then you'll extend **mijn verhaal** with a childhood memory in the imperfectum — *toen ik klein was…*. This is layer seven: your story now reaches back into your childhood.",
+      "callout": "You've already got your name, where you're from, your routine, your family, what you like, and something you did. Today: where you come from in **time**."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence mixes the tenses correctly — event in perfect, background in imperfectum?",
+      "options": ["Ik was naar Parijs gegaan en het weer is mooi.", "Ik ben naar Parijs gegaan en het weer was mooi.", "Ik ging naar Parijs en het weer is mooi geweest."],
+      "correct": 1,
+      "explain": "Discrete event → perfect (*ik ben gegaan*); the surrounding description → imperfectum (*het weer was mooi*). Option 2 nails the split."
+    },
+    {
+      "type": "typed",
+      "prompt": "Put *koken* into the imperfectum: 'Mijn moeder ___ elke dag.'",
+      "answers": ["kookte", "mijn moeder kookte"],
+      "hint": "Stem *kook* ends in k (kofschip) → -te.",
+      "explain": "*kookte*. *kook* ends in **k**, so -te; the double *oo* stays: *kookte*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Toen ik klein was, woonde ik bij mijn oma.",
+      "answers": ["toen ik klein was, woonde ik bij mijn oma", "toen ik klein was woonde ik bij mijn oma"]
+    },
+    {
+      "type": "contrast",
+      "title": "Nog één keer: gebeurtenis vs beschrijving",
+      "pairs": [
+        { "left": "Ik heb Nederlands geleerd. — event (perfect)", "right": "Het was moeilijk. — description (imperfectum)", "note": "Report what you did with the perfect; describe how it felt with *was*." },
+        { "left": "We zijn verhuisd. — we moved (perfect)", "right": "Ons huis was klein. — our house was small (imperfectum)", "note": "One completed change, one lasting description." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Bouw een jeugdherinnering",
+      "prompt": "Build one childhood memory sentence — you'll reuse it in your verhaal.",
+      "slots": [
+        { "label": "Toen-clause", "chips": ["Toen ik klein was,", "Toen ik jong was,"] },
+        { "label": "Verb", "chips": ["woonde", "speelde", "ging"] },
+        { "label": "Rest", "chips": ["ik in een klein dorp.", "ik vaak buiten.", "ik graag naar mijn opa."] }
+      ],
+      "sample": "Toen ik klein was, speelde ik vaak buiten."
+    },
+    {
+      "type": "chips",
+      "title": "Bouwstenen voor mijn verhaal",
+      "items": [
+        { "nl": "Ik kom uit…", "en": "I'm from…", "speak": "ik kom uit" },
+        { "nl": "Ik leer Nederlands.", "en": "I'm learning Dutch.", "speak": "ik leer Nederlands" },
+        { "nl": "Ik houd van…", "en": "I love…", "speak": "ik houd van" },
+        { "nl": "Vorige week heb ik…", "en": "Last week I…", "speak": "vorige week heb ik" },
+        { "nl": "Toen ik klein was,…", "en": "When I was little,…", "speak": "toen ik klein was" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Mijn verhaal — laag 7",
+      "body": "Your self-intro so far runs: **who you are** (*ik ben…, ik kom uit…, ik leer Nederlands*), **your days** (*'s ochtends…*), **your family and buurt**, **what you like** (*ik houd van…*), **something you did** (*vorige week heb ik…*), and **how you've been feeling** (*ik voelde me…*). Layer seven reaches further back: **a childhood memory in the imperfectum**. Add one line that starts *Toen ik klein was,…*",
+      "callout": "One memory is enough — where you lived, or one thing you always did. Keep the verb at the end of the *toen*-clause."
+    },
+    {
+      "type": "builder",
+      "title": "Mijn verhaal, laag 7",
+      "prompt": "Assemble your extended intro. Pick one chip per slot — this is your story, layer by layer.",
+      "slots": [
+        { "label": "Wie", "chips": ["Ik ben Alex en ik kom uit Canada.", "Ik ben Sam en ik kom uit Ierland.", "Ik ben … en ik kom uit …"] },
+        { "label": "Nu", "chips": ["Ik woon in Amsterdam en ik leer Nederlands.", "Ik woon nu in Nederland en ik leer de taal."] },
+        { "label": "Wat je leuk vindt", "chips": ["Ik houd van koffie en fietsen.", "Ik houd van lekker eten."] },
+        { "label": "Iets wat je deed", "chips": ["Vorige week heb ik een museum bezocht.", "Vorige week ben ik naar zee geweest."] },
+        { "label": "Jeugdherinnering (laag 7)", "chips": ["Toen ik klein was, woonde ik op het platteland.", "Toen ik klein was, speelde ik altijd buiten.", "Toen ik klein was, ging ik vaak naar mijn oma."] }
+      ],
+      "sample": "Ik ben Alex en ik kom uit Canada. Ik woon in Amsterdam en ik leer Nederlands. Ik houd van koffie en fietsen. Vorige week heb ik een museum bezocht. Toen ik klein was, speelde ik altijd buiten."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma asks about your childhood over lunch. Try your new line out loud.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Kijk, ik ben benieuwd — waar groeide jij op?", "en": "So, I'm curious — where did you grow up?", "spotlight": "*groeide* — imperfectum of *groeien* (op) (to grow up)." },
+        { "speaker": "You", "nl": "Toen ik klein was, woonde ik op het platteland.", "en": "When I was little, I lived in the countryside." },
+        { "speaker": "Emma", "nl": "Wat leuk! En wat deed je daar zoal?", "en": "How nice! And what did you get up to there?" },
+        { "speaker": "You", "nl": "Ik speelde altijd buiten en ging vaak naar mijn oma.", "en": "I always played outside and often went to my grandma's." },
+        { "speaker": "Emma", "nl": "Gezellig, joh. Klinkt als een fijne jeugd.", "en": "How lovely. Sounds like a happy childhood.", "spotlight": "*jeugd* = childhood / youth." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Translate: 'When I was little, I often went to my grandma's.'",
+      "answers": ["toen ik klein was, ging ik vaak naar mijn oma", "toen ik klein was ging ik vaak naar mijn oma"],
+      "hint": "…was at the end, then *ging ik vaak…*",
+      "explain": "*Toen ik klein was, ging ik vaak naar mijn oma.* Verb-final subclause, inversion, and *vaak* right after the verb + subject."
+    },
+    {
+      "type": "journal",
+      "prompt": "Say your whole verhaal out loud, then write it here — all seven layers, ending with your childhood memory in the imperfectum. Zeven weken Nederlands: kijk hoe ver je bent gekomen!",
+      "starters": ["Ik ben… en ik kom uit…", "Ik leer Nederlands.", "Toen ik klein was,…"],
+      "minSentences": 5
+    }
+  ]
+}

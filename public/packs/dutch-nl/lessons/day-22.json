@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "day-22",
+  "day": 22,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Brood, broodjes en het avondeten",
+  "emoji": "🍞",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Ontbijt/lunch/avondeten structure, broodje culture, and everyday food words",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Drie maaltijden, één patroon",
+      "body": "Dutch daily eating has a clear shape: **ontbijt and lunch are cold, bread-based, and quick — avondeten is the one warm, cooked meal**, eaten early by international standards. Get this pattern and half of Dutch food culture makes sense.",
+      "table": {
+        "headers": ["Maaltijd", "Wanneer", "Typisch"],
+        "rows": [
+          ["het ontbijt — breakfast", "±7:00–8:00", "brood met hagelslag of pindakaas"],
+          ["de lunch — lunch", "±12:00–13:00", "een belegd broodje"],
+          ["het avondeten — dinner", "±18:00", "aardappelen, groente, vlees of vis"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "brood vs een broodje",
+      "body": "*het brood* is bread in general — the loaf. *een broodje* is a bread **roll**, the unit lunch is built from: buy one, top it, eat it at your desk. *Belegd* means 'topped/filled' — a *belegd broodje kaas* is a cheese roll, ready to go.",
+      "callout": "-je makes things small and countable: *brood* (bread) → *een broodje* (a roll)."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the everyday words",
+      "items": [
+        { "nl": "het brood", "en": "bread", "speak": "het brood" },
+        { "nl": "de kaas", "en": "cheese", "speak": "de kaas" },
+        { "nl": "de hagelslag", "en": "chocolate sprinkles", "speak": "de hagelslag" },
+        { "nl": "de pindakaas", "en": "peanut butter", "speak": "de pindakaas" },
+        { "nl": "de aardappelen", "en": "potatoes", "speak": "de aardappelen" },
+        { "nl": "de groente", "en": "vegetables", "speak": "de groente" },
+        { "nl": "het vlees", "en": "meat", "speak": "het vlees" },
+        { "nl": "de soep", "en": "soup", "speak": "de soep" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Koud vs warm",
+      "pairs": [
+        { "left": "de lunch — koud, brood", "right": "het avondeten — warm, gekookt", "note": "A Dutch lunch is almost never hot. Save the fork-and-knife meal for the evening — surprising the first time you see it." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which meal is the one warm, cooked meal of the Dutch day?",
+      "options": ["het ontbijt", "de lunch", "het avondeten"],
+      "correct": 2,
+      "explain": "*het avondeten* — around 6pm, potatoes, vegetables, and meat or fish. Breakfast and lunch stay cold and bread-based."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the Dutch word for 'a (filled) bread roll'.",
+      "answers": ["broodje", "een broodje"],
+      "hint": "Diminutive of *brood* — always *het*.",
+      "explain": "*een broodje* — the building block of Dutch lunch."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "de boterham",
+      "answers": ["boterham", "de boterham"]
+    },
+    {
+      "type": "shadow",
+      "title": "Repeat after the audio",
+      "lines": [
+        { "nl": "Ik eet brood met kaas.", "en": "I eat bread with cheese." },
+        { "nl": "Wat eten we vanavond?", "en": "What are we eating tonight?" },
+        { "nl": "Lekker, aardappelen met groente!", "en": "Nice, potatoes with vegetables!" }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Build your meal sentence",
+      "prompt": "Say what you eat at each meal.",
+      "slots": [
+        { "label": "Wanneer", "chips": ["Voor het ontbijt", "Voor de lunch", "Voor het avondeten"] },
+        { "label": "Wat eet je", "chips": ["eet ik brood met kaas", "eet ik een broodje met pindakaas", "eet ik aardappelen met groente", "eet ik soep"] }
+      ],
+      "sample": "Voor het ontbijt eet ik brood met kaas."
+    },
+    {
+      "type": "journal",
+      "prompt": "What do you eat for ontbijt, lunch, and avondeten? Write three Dutch sentences.",
+      "starters": ["Voor het ontbijt eet ik…", "Voor de lunch eet ik…", "Voor het avondeten eet ik…"]
+    }
+  ]
+}

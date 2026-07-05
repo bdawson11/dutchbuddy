@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "day-27",
+  "day": 27,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "review",
+  "title": "Terugblik & Bram's snackbar",
+  "emoji": "🍟",
+  "level": "A1",
+  "durationMin": [15, 20],
+  "summary": "Recap week 4, then Bram walks you through his Rotterdam routine and his favorite snackbar",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Terugblik: week 4",
+      "body": "This week: **ontbijt/lunch/avondeten**, ordering with *mag ik / ik wil graag / doe maar*, the modals **kunnen/willen/moeten/mogen** (infinitive at the end!), **houden van / vinden / graag**, and market *hoeveelheden* (*ons, pondje, kilo*).",
+      "callout": "That's the whole politeness-and-appetite toolkit — time to see it used for real."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence has the infinitive correctly placed at the end?",
+      "options": ["Ik wil bestellen een koffie.", "Ik wil een koffie bestellen.", "Ik een koffie wil bestellen."],
+      "correct": 1,
+      "explain": "Modal in position 2, infinitive at the very end: *Ik wil een koffie bestellen.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the Dutch phrase for 100 grams.",
+      "answers": ["een ons"],
+      "hint": "The classic small deli unit.",
+      "explain": "*een ons* — 100 grams, still everywhere at the cheese stall."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ik houd van kaas.",
+      "answers": ["ik houd van kaas", "ik hou van kaas"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Bram tells you about his day in Rotterdam and his favorite neighborhood snackbar",
+      "lines": [
+        { "speaker": "Bram", "nl": "Elke dag sta ik om zes uur op. Rotterdam wacht niet, hoor.", "en": "Every day I get up at six. Rotterdam doesn't wait, you know." },
+        { "speaker": "You", "nl": "Zes uur? Dat is vroeg! Wat eet je dan?", "en": "Six? That's early! What do you eat then?" },
+        { "speaker": "Bram", "nl": "Een boterham en koffie, meer niet. Geen woorden maar daden, toch?", "en": "A slice of bread and coffee, nothing more. No words but deeds, right?", "spotlight": "Bram's Rotterdam motto — plain, no fuss." },
+        { "speaker": "You", "nl": "En na het werk? Waar ga je dan graag heen?", "en": "And after work? Where do you like to go?" },
+        { "speaker": "Bram", "nl": "Naar de snackbar op de hoek. Ik wil altijd een kroket met patat.", "en": "To the snackbar on the corner. I always want a kroket with fries.", "spotlight": "willen + infinitive at the end — this week's grammar, in the wild." },
+        { "speaker": "You", "nl": "Mag ik een keer mee?", "en": "Can I come along sometime?" },
+        { "speaker": "Bram", "nl": "Natuurlijk. Doe maar gewoon mee, dat is prima.", "en": "Of course. Just come along, that's fine." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "Hoe laat staat Bram op?", "options": ["Zes uur", "Acht uur", "Zeven uur"], "correct": 0 },
+        { "q": "Wat wil Bram altijd bij de snackbar?", "options": ["Een broodje kaas", "Een kroket met patat", "Alleen koffie"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "In one or two Dutch sentences, describe your own morning routine and your favorite comfort food.",
+      "starters": ["Ik sta op om…", "Ik eet graag…"]
+    }
+  ]
+}

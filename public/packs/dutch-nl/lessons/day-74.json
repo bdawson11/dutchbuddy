@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "day-74",
+  "day": 74,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Blijf in het Nederlands",
+  "emoji": "🛡️",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Holding the line when the Dutch switch to English on you",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "The switch is kindness, not a verdict",
+      "body": "Here's the thing every learner in the Netherlands hits: you open your mouth in careful Dutch, and the other person answers in **perfect English**. It stings. But hear this — they are being *helpful*, not judging you. They're trying to make it easy. The problem is that easy for them = no practice for you. So this lesson is one skill: **staying in Dutch, warmly, without making it awkward.** You are allowed to.",
+      "callout": "Their English is a kindness. Your Dutch is a choice. You get to make it."
+    },
+    {
+      "type": "card",
+      "title": "Phrases to hold the line",
+      "body": "Keep these ready. They're short, polite, and they *invite* the other person to stay in Dutch with you instead of demanding it.",
+      "table": {
+        "headers": ["Nederlands", "English", "Wanneer"],
+        "rows": [
+          ["Mag ik het in het Nederlands proberen?", "May I try it in Dutch?", "opening move"],
+          ["We kunnen Nederlands blijven praten, hoor.", "We can keep speaking Dutch, really.", "when they switch"],
+          ["Sorry, hoe zeg je…?", "Sorry, how do you say…?", "missing a word"],
+          ["Even denken…", "Let me think…", "buying yourself a second"],
+          ["Kun je dat herhalen?", "Can you repeat that?", "you missed it"],
+          ["Kun je iets langzamer praten?", "Can you speak a bit slower?", "too fast"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear your toolkit",
+      "items": [
+        { "nl": "Mag ik het in het Nederlands proberen?", "en": "May I try it in Dutch?", "speak": "Mag ik het in het Nederlands proberen?" },
+        { "nl": "Even denken…", "en": "Let me think…", "speak": "Even denken." },
+        { "nl": "Hoe zeg je dat ook alweer?", "en": "How do you say that again?", "speak": "Hoe zeg je dat ook alweer?" },
+        { "nl": "Kun je dat herhalen?", "en": "Can you repeat that?", "speak": "Kun je dat herhalen?" },
+        { "nl": "We kunnen Nederlands blijven praten, hoor.", "en": "We can keep it in Dutch, really.", "speak": "We kunnen Nederlands blijven praten, hoor." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "The strategy when they switch to English",
+      "body": "Three calm moves, in order. **1. Just keep going in Dutch.** Often they mirror you back within a sentence or two — no comment needed. **2. Name it lightly:** *'Ik oefen graag, mag het in het Nederlands?'* Nobody refuses that. **3. Trade, don't freeze:** take the English word they gave you, then continue in Dutch — *'Ah, invoice, dus de factuur. Oké, en dan…'* You lose nothing and you stay in the language.",
+      "callout": "You never have to apologise for wanting to learn. Vragen staat vrij."
+    },
+    {
+      "type": "contrast",
+      "title": "Panic reaction vs calm script",
+      "pairs": [
+        { "left": "…(freeze, switch to English yourself)", "right": "Even denken…", "note": "The pause is not failure. *Even denken* buys you time and sounds fluent." },
+        { "left": "'Sorry, my Dutch is bad.'", "right": "Mag ik het in het Nederlands proberen?", "note": "Don't apologise your way out — invite yourself in. Positive framing keeps you in the driver's seat." },
+        { "left": "(nod along, understand nothing)", "right": "Kun je dat herhalen?", "note": "Asking to repeat is what confident speakers do, in any language." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You missed a whole sentence — too fast. Best move to stay in Dutch?",
+      "options": ["'Sorry, in English please?'", "Kun je dat herhalen, iets langzamer?", "Just nod and hope"],
+      "correct": 1,
+      "explain": "Asking to repeat — slower — keeps you in Dutch AND gets you the sentence. Nodding along teaches you nothing; switching to English ends the practice."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The shop assistant answers you in English. What's the lightest way to hold the line?",
+      "options": ["Say nothing and switch to English too", "'Uw Engels is slecht.'", "We kunnen Nederlands blijven praten, hoor."],
+      "correct": 2,
+      "explain": "Warm, no blame, ends in *hoor* to soften it. Insulting their English (option 2) is both rude and wrong — theirs is great, that's the whole problem!"
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the phrase for 'how do you say…?'",
+      "answers": ["hoe zeg je", "hoe zeg je...", "hoe zeg je dat", "hoe zeg je dat?"],
+      "hint": "Your most-used repair phrase. zeg = say.",
+      "explain": "*Hoe zeg je…?* — reach for it the instant a word goes missing, instead of reaching for English."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the two words that buy you a second to think (Let me think…).",
+      "answers": ["even denken", "even denken...", "even denken.", "even nadenken"],
+      "hint": "particle + a verb of thinking.",
+      "explain": "*Even denken…* — the fluent-sounding pause. Silence feels long to you and normal to them."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You told Emma you want to speak only Dutch today. Old habits kick in — and you hold the line.",
+      "lines": [
+        { "speaker": "You", "nl": "Emma, ik wil vandaag alleen Nederlands praten. Mag dat?", "en": "Emma, I want to speak only Dutch today. Is that okay?", "spotlight": "You set the frame first — the strongest move of all." },
+        { "speaker": "Emma", "nl": "Oh sure, no problem!", "en": "Oh sure, no problem!", "spotlight": "And there it is — the reflex switch to English." },
+        { "speaker": "You", "nl": "Haha… in het Nederlands, hoor.", "en": "Haha… in Dutch, remember.", "spotlight": "Named it lightly, softened with hoor. No awkwardness." },
+        { "speaker": "Emma", "nl": "Ah, sorry! Je hebt gelijk. Wat wil je drinken?", "en": "Ah, sorry! You're right. What do you want to drink?" },
+        { "speaker": "You", "nl": "Even denken… een kopje thee, alsjeblieft.", "en": "Let me think… a cup of tea, please.", "spotlight": "even denken buys the pause; the diminutive keeps it cosy." },
+        { "speaker": "Emma", "nl": "Zie je wel? Dat gaat hartstikke goed.", "en": "See? That's going really well." },
+        { "speaker": "You", "nl": "Dank je. Kun je iets langzamer praten? Dan versta ik je beter.", "en": "Thanks. Can you speak a bit slower? Then I understand you better.", "spotlight": "Asking for slower — a confident request, not an apology." },
+        { "speaker": "Emma", "nl": "Natuurlijk, joh. Ik ben trots op je.", "en": "Of course, mate. I'm proud of you." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Build your go-to line",
+      "prompt": "Assemble the phrase that opens the door to staying in Dutch.",
+      "slots": [
+        { "label": "May I", "chips": ["Mag ik het", "Kun je dat", "We kunnen"] },
+        { "label": "…what", "chips": ["in het Nederlands proberen?", "herhalen?", "Nederlands blijven praten, hoor."] }
+      ],
+      "sample": "Mag ik het in het Nederlands proberen?"
+    },
+    {
+      "type": "journal",
+      "prompt": "Which phrase will be YOUR anchor for next time someone switches to English on you? Write it, then write one line about the real situation you'll use it in.",
+      "starters": ["Mijn zin is:…", "Ik ga het gebruiken als…"],
+      "minSentences": 2
+    }
+  ]
+}
