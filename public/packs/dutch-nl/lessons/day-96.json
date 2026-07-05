@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "day-96",
+  "day": 96,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "lesson",
+  "title": "Anders, stel dat, mocht het — verstopte voorwaarden",
+  "emoji": "🎲",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Hidden and hedged conditionals: anders (otherwise), zonder + noun, stel dat (suppose), and the formal mocht (het) with verb-first order",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "*Anders* — de verstopte voorwaarde",
+      "body": "Je hoeft niet altijd *als* te zeggen. **anders** betekent 'zo niet, dan…': *Schiet op, **anders** missen we de trein.* En **zonder** + iets verpakt ook een voorwaarde: ***Zonder** jou was het niet gelukt* (= als jij er niet was geweest).",
+      "callout": "*anders* = 'or else / otherwise' — een dreigend gevolg zonder *als*."
+    },
+    {
+      "type": "chips",
+      "title": "Verstopte voorwaarden — tik om te horen",
+      "items": [
+        { "nl": "Neem een jas mee, anders word je nat.", "en": "Take a coat, or you'll get wet.", "speak": "Neem een jas mee, anders word je nat." },
+        { "nl": "Bel even, anders maak ik me zorgen.", "en": "Do call, otherwise I'll worry.", "speak": "Bel even, anders maak ik me zorgen." },
+        { "nl": "Zonder koffie functioneer ik niet.", "en": "Without coffee I don't function.", "speak": "Zonder koffie functioneer ik niet." },
+        { "nl": "Stel dat het misgaat, wat dan?", "en": "Suppose it goes wrong, then what?", "speak": "Stel dat het misgaat, wat dan?" },
+        { "nl": "Mocht je iets nodig hebben, zeg het.", "en": "Should you need anything, say so.", "speak": "Mocht je iets nodig hebben, zeg het." },
+        { "nl": "Mocht het regenen, dan blijven we binnen.", "en": "Should it rain, we'll stay in.", "speak": "Mocht het regenen, dan blijven we binnen." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "*Stel dat…* en *mocht…* — voorzichtige hypotheses",
+      "body": "**Stel dat** nodigt uit om iets te verzinnen: *Stel dat je won, wat zou je doen?* **Mocht (het)** is het nette, voorwaardelijke 'als' — vaak zonder *als*, met het werkwoord vooraan: *Mocht je vragen hebben, bel me gerust.* Klinkt beleefd en een tikje formeel."
+    },
+    {
+      "type": "contrast",
+      "title": "*Als* tegenover *mocht* / *stel dat*",
+      "pairs": [
+        { "left": "Als je vragen hebt, bel me.", "right": "Mocht je vragen hebben, bel me.", "note": "*mocht* = beleefder, voorwaardelijker; werkwoord vooraan, geen *als*." },
+        { "left": "Als het misgaat, wat dan?", "right": "Stel dat het misgaat, wat dan?", "note": "*stel dat* nodigt uit tot een gedachte-experiment." },
+        { "left": "Als jij er niet was, lukte het niet.", "right": "Zonder jou lukte het niet.", "note": "*zonder* + zelfstandig naamwoord verpakt de hele voorwaarde." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "In een nette e-mail wil je zeggen 'als u vragen heeft'. Welk alternatief klinkt beleefd-formeel?",
+      "options": ["Als u vragen heeft, bel maar.", "Mocht u vragen hebben, dan hoor ik het graag.", "Vragen? Bel dan."],
+      "correct": 1,
+      "explain": "*Mocht u vragen hebben, dan hoor ik het graag* — *mocht* + werkwoord vooraan is het beleefde, schriftelijke register."
+    },
+    {
+      "type": "typed",
+      "prompt": "Maak af met *anders*: *Schiet op, … (we / de trein / missen).*",
+      "answers": ["anders missen we de trein", "anders missen we de trein.", "Schiet op, anders missen we de trein", "anders missen we de trein!"],
+      "hint": "*anders* + werkwoord op plek twee: *anders missen we…*",
+      "explain": "*Schiet op, anders missen we de trein.* Na *anders* komt gewoon een hoofdzin (werkwoord tweede)."
+    },
+    {
+      "type": "builder",
+      "title": "Bouw een verstopte voorwaarde",
+      "prompt": "Zet een zin met *mocht* of *stel dat* in elkaar.",
+      "slots": [
+        { "label": "Opener", "chips": ["Mocht het regenen,", "Stel dat je wint,", "Mocht je tijd hebben,"] },
+        { "label": "Gevolg / vraag", "chips": ["dan blijven we thuis.", "wat zou je doen?", "kom dan langs."] }
+      ],
+      "sample": "Mocht het regenen, dan blijven we thuis."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma plans a team day out and covers every 'what if'.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Zaterdag doen we een teamuitje. Mocht het mooi weer zijn, gaan we varen.", "en": "Saturday we're doing a team outing. Should the weather be nice, we'll go boating.", "spotlight": "*mocht het … zijn* — voorwaardelijk, werkwoord vooraan." },
+        { "speaker": "You", "nl": "En als het regent?", "en": "And if it rains?" },
+        { "speaker": "Emma", "nl": "Anders wijken we uit naar het museum. Alles is geregeld.", "en": "Otherwise we'll switch to the museum. It's all arranged.", "spotlight": "*anders* = het plan-B zonder *als*." },
+        { "speaker": "You", "nl": "Slim. En stel dat er mensen afzeggen?", "en": "Smart. And suppose people cancel?" },
+        { "speaker": "Emma", "nl": "Dan gaan we gewoon met een kleinere groep. Geen probleem.", "en": "Then we just go with a smaller group. No problem." },
+        { "speaker": "You", "nl": "Jij denkt echt aan alles.", "en": "You really think of everything." },
+        { "speaker": "Emma", "nl": "Moet wel, als teamlead in spe. Mocht ik die functie aannemen, tenminste.", "en": "Have to, as prospective team lead. Should I take that role, at least." },
+        { "speaker": "You", "nl": "Ah, dus je neigt naar ja?", "en": "Ah, so you're leaning towards yes?" },
+        { "speaker": "Emma", "nl": "Misschien. Zonder een beetje lef word je nooit teamlead, hè.", "en": "Maybe. Without a bit of nerve you never become team lead, huh." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Emma's plan-B",
+      "questions": [
+        { "q": "Wat doet het team als het mooi weer is?", "options": ["Varen", "Naar het museum", "Thuisblijven"], "correct": 0 },
+        { "q": "Hoe staat Emma nu tegenover de nieuwe functie?", "options": ["Ze weigert", "Ze neigt naar ja", "Ze heeft al nee gezegd"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Maak een plan met een plan-B. Gebruik *anders*, *stel dat* of *mocht het*: wat doe je zaterdag, en wat als het misgaat? In het Nederlands, minstens drie zinnen.",
+      "starters": ["Zaterdag wil ik …", "Mocht het …, dan …", "Anders …"],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "day-09",
+  "day": 9,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Precios y euros",
+  "emoji": "💶",
+  "level": "A1",
+  "durationMin": [15, 23],
+  "summary": "Big numbers, hundreds, and asking the price — euros, céntimos, ¿cuánto es?",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "De cien a mil",
+      "body": "**Cien** es exactamente 100, pero delante de otro número se convierte en **ciento**: *ciento uno, ciento diez, ciento treinta y cinco*. Después de las centenas llega **mil**, que no cambia nunca de forma: *mil, dos mil, tres mil*.",
+      "table": {
+        "headers": ["Número", "Español"],
+        "rows": [
+          ["100", "cien"],
+          ["101", "ciento uno"],
+          ["110", "ciento diez"],
+          ["1000", "mil"]
+        ]
+      },
+      "callout": "*cien* a secas (100 exacto o delante de un sustantivo: *cien euros*); *ciento* solo cuando sigue otro número."
+    },
+    {
+      "type": "card",
+      "title": "Doscientos, doscientas — el género importa",
+      "body": "Las centenas a partir de 200 **concuerdan en género** con el sustantivo: *doscientos euros* (masculino) pero *doscientas personas* (femenino). Es la única serie de números que cambia de género.",
+      "table": {
+        "headers": ["Número", "Masculino", "Femenino"],
+        "rows": [
+          ["200", "doscientos", "doscientas"],
+          ["300", "trescientos", "trescientas"],
+          ["500", "quinientos", "quinientas"],
+          ["700", "setecientos", "setecientas"],
+          ["900", "novecientos", "novecientas"]
+        ]
+      },
+      "callout": "500, 700 y 900 son irregulares: *quinientos, setecientos, novecientos* — no siguen el patrón regular."
+    },
+    {
+      "type": "chips",
+      "title": "Escucha y repite",
+      "items": [
+        { "nl": "cien euros", "en": "a hundred euros", "speak": "cien euros" },
+        { "nl": "doscientas personas", "en": "two hundred people", "speak": "doscientas personas" },
+        { "nl": "mil gracias", "en": "a thousand thanks", "speak": "mil gracias" },
+        { "nl": "¿cuánto es?", "en": "how much is it?", "speak": "¿cuánto es?" },
+        { "nl": "¿cuánto vale?", "en": "how much does it cost?", "speak": "¿cuánto vale?" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "¿Cuánto es? / ¿Cuánto vale?",
+      "body": "Para preguntar el precio en España: **¿Cuánto es?** (lo típico al pagar) o **¿Cuánto vale?** (también muy común, sobre todo en el mercado). La respuesta suele ser *son + número + euros* o *cuesta/vale + número*: *Son ocho euros. Cuesta doce con cincuenta.*",
+      "callout": "*vale* tiene dos vidas: significa 'vale' de acuerdo (*¡vale, venga!*) y también 'cuesta' (*esto vale cinco euros*). Mismo verbo, *valer*, dos usos."
+    },
+    {
+      "type": "contrast",
+      "title": "cien vs. ciento",
+      "pairs": [
+        { "left": "cien — número exacto o delante de sustantivo", "right": "ciento — delante de otro número", "note": "cien euros / cien años, pero ciento veinte euros." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cómo se dice correctamente 350 euros?",
+      "options": ["trescientos cincuenta euros", "trescientas cincuenta euros", "tres cientos cincuenta euros"],
+      "correct": 0,
+      "explain": "*euros* es masculino, así que la centena concuerda: **trescientos** cincuenta euros."
+    },
+    {
+      "type": "typed",
+      "prompt": "Escribe en palabras: 'It costs 12 euros.'",
+      "answers": ["cuesta doce euros", "son doce euros"],
+      "hint": "Doce va después de once, sin sorpresas.",
+      "explain": "**Cuesta doce euros.** o, igual de natural, **Son doce euros.**"
+    },
+    {
+      "type": "dictation",
+      "speak": "son quince euros con cincuenta",
+      "answers": ["son quince euros con cincuenta"]
+    },
+    {
+      "type": "builder",
+      "title": "Pide el precio",
+      "prompt": "Construye una pregunta y una respuesta sobre el precio.",
+      "slots": [
+        { "label": "Pregunta", "chips": ["¿Cuánto es?", "¿Cuánto vale?"] },
+        { "label": "Respuesta", "chips": ["Son ocho euros", "Cuesta diez euros", "Vale doce euros"] }
+      ],
+      "sample": "¿Cuánto es? — Son ocho euros."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the tapas bar, paying up",
+      "lines": [
+        { "speaker": "You", "nl": "Perdona, ¿cuánto es la ración de patatas bravas?", "en": "Excuse me, how much is the patatas bravas ration?" },
+        { "speaker": "Rafa", "nl": "Creo que vale seis euros con cincuenta.", "en": "I think it's six fifty." },
+        { "speaker": "Lucía", "nl": "Y la caña, un euro ochenta. Total, unos ocho euros y pico.", "en": "And the beer, one eighty. All in, about eight euros and change.", "spotlight": "'y pico' = 'and a bit' — very Spain." },
+        { "speaker": "You", "nl": "Vale, pago yo esta vez.", "en": "Okay, I'll pay this time." },
+        { "speaker": "Rafa", "nl": "¡Hombre, gracias, tío! La próxima, la ronda es mía.", "en": "Cheers, thanks! Next round's on me." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "¿Cuánto vale la ración de patatas bravas?", "options": ["Seis euros con cincuenta", "Ocho euros", "Un euro ochenta"], "correct": 0 },
+        { "q": "¿Quién paga esta vez?", "options": ["Rafa", "Lucía", "You"], "correct": 2 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Imagina que estás en el mercado. Escribe tres precios en palabras, usando cien, doscientos/as y mil al menos una vez cada uno.",
+      "starters": ["Cuesta…", "Son…"]
+    }
+  ]
+}
