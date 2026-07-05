@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "day-27",
+  "day": 27,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "review",
+  "title": "Klaus und seine Bäckerei in Köln",
+  "emoji": "🥨",
+  "level": "A1",
+  "durationMin": [15, 20],
+  "summary": "Review week 4 with Klaus, who walks you through his Saturday bakery ritual in Cologne",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Rückblick: Woche 4",
+      "body": "This week you learned the German day's three meals, how to order politely (**ich hätte gern / ich nehme**), the five **Modalverben**, the **gern**-trick for likes, and how to shop and handle **Pfand** at the supermarket. Now meet **Klaus**, an architect from Köln, who takes you along for his Saturday morning ritual.",
+      "callout": "Köln statt Berlin — same German, different city, same grammar."
+    },
+    {
+      "type": "chips",
+      "title": "Quick refresh — tap to hear",
+      "items": [
+        { "nl": "Ich hätte gern…", "en": "I would like…", "speak": "Ich hätte gern" },
+        { "nl": "Ich möchte…", "en": "I would like to…", "speak": "Ich möchte" },
+        { "nl": "ich esse gern", "en": "I like to eat", "speak": "ich esse gern" },
+        { "nl": "ein Kilo", "en": "a kilo", "speak": "ein Kilo" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "'You're not allowed to smoke here.' — which is correct?",
+      "options": ["Du musst hier nicht rauchen.", "Du darfst hier nicht rauchen.", "Du magst hier nicht rauchen."],
+      "correct": 1,
+      "explain": "*dürfen + nicht* = forbidden. Klaus would say this to explain a house rule, not *müssen*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I like eating cheese rolls.' (use the gern trick)",
+      "answers": ["Ich esse gern Käsebrötchen", "Ich esse gern Käsebrötchen."],
+      "hint": "Verb + gern + object.",
+      "explain": "*Ich esse gern Käsebrötchen.* — exactly Klaus's Saturday order."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Klaus tells you about his Saturday morning ritual: the walk to his favorite Bäckerei near the Ebertplatz in Köln.",
+      "lines": [
+        { "speaker": "Klaus", "nl": "Moin! Samstags hole ich immer Brötchen. Willst du mitkommen?", "en": "Morning! On Saturdays I always get bread rolls. Want to come along?" },
+        { "speaker": "You", "nl": "Ja, gern! Wohin gehen wir?", "en": "Yes, gladly! Where are we going?" },
+        { "speaker": "Klaus", "nl": "Meine Bäckerei ist am Ebertplatz. Die ist richtig gut.", "en": "My bakery is at the Ebertplatz. It's really good." },
+        { "speaker": "You", "nl": "Was isst du normalerweise zum Frühstück?", "en": "What do you normally eat for breakfast?" },
+        { "speaker": "Klaus", "nl": "Ich esse gern ein Käsebrötchen und trinke einen Kaffee dazu.", "en": "I like eating a cheese roll and drinking a coffee with it.", "spotlight": "*ich esse gern* — the gern trick, right on schedule." },
+        { "speaker": "You", "nl": "Und was bestellst du dort genau?", "en": "And what exactly do you order there?" },
+        { "speaker": "Klaus", "nl": "Ich sage einfach: Ich hätte gern zwei Käsebrötchen, bitte.", "en": "I just say: I'd like two cheese rolls, please." },
+        { "speaker": "You", "nl": "Und in Berlin? Ist das auch so entspannt?", "en": "And in Berlin? Is it just as relaxed there?" },
+        { "speaker": "Klaus", "nl": "Nein, gar nicht! In Köln machen wir das entspannt — nicht so hektisch wie in Berlin.", "en": "No, not at all! In Cologne we take it easy — not as hectic as in Berlin.", "spotlight": "Klaus's Rhineland pride, right on cue." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Klaus do every Saturday?", "options": ["Sleeps in", "Gets fresh bread rolls", "Goes to the office"], "correct": 1 },
+        { "q": "What does Klaus order?", "options": ["Two cheese rolls", "A cake", "A sandwich"], "correct": 0 },
+        { "q": "How does Klaus describe Cologne compared to Berlin?", "options": ["More hectic", "More relaxed", "Colder"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Compare your own Saturday morning to Klaus's. Write 2–3 German sentences — what do you eat, and what do you like doing?",
+      "starters": ["Samstags…", "Ich esse gern…", "Ich möchte…"],
+      "minSentences": 2
+    }
+  ]
+}

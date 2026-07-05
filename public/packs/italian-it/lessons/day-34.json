@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "day-34",
+  "day": 34,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "review",
+  "title": "Ripasso: un weekend alle Cinque Terre",
+  "emoji": "🌊",
+  "level": "A2",
+  "durationMin": [18, 26],
+  "summary": "Week 5 review: passato prossimo with avere/essere, agreement, irregular participles — plus Giulia's Cinque Terre trip",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ripasso: la settimana del passato",
+      "body": "This week: **avere** + participle (-ato/-uto/-ito), **essere** + participle with **agreement** for motion and reflexives, the most common **irregular** participles (*fatto, visto, preso…*), and how to pick the right auxiliary. Plus the train, the platform, and *timbrare*.",
+      "callout": "All of it comes together in Giulia's story below."
+    },
+    {
+      "type": "contrast",
+      "title": "Avere or essere? The quick recap",
+      "pairs": [
+        { "left": "*Ho mangiato, ho visto, ho letto* — avere, transitive verbs", "right": "*Sono andata, mi sono svegliato* — essere, motion and reflexives (with agreement)", "note": "Not sure? Ask: is there a direct object, or is the subject itself moving/changing?" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which auxiliary does *partire* (to leave) take?",
+      "options": ["avere", "essere", "either one, at random"],
+      "correct": 1,
+      "explain": "*Partire* is a motion verb: always essere, with agreement (*sono partito/a*)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Complete: Sofia ___ al mare con le amiche. (andare, passato prossimo)",
+      "answers": ["è andata"],
+      "hint": "essere + participle, feminine agreement.",
+      "explain": "*È andata* — Sofia is a woman, so the participle agrees: -a."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, Giulia tells Marco and Sofia about her weekend in the Cinque Terre",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora, sono andata alle Cinque Terre con Elena!", "en": "So, I went to the Cinque Terre with Elena!", "spotlight": "sono andata — feminine agreement, Giulia is talking about herself." },
+        { "speaker": "Marco", "nl": "Davvero? Come avete viaggiato?", "en": "Really? How did you travel?" },
+        { "speaker": "Giulia", "nl": "Abbiamo preso il regionale da Bologna, poi il trenino tra i paesi.", "en": "We took the regional train from Bologna, then the little train between the villages." },
+        { "speaker": "Sofia", "nl": "Avete camminato molto?", "en": "Did you walk a lot?" },
+        { "speaker": "Giulia", "nl": "Sì, abbiamo fatto il sentiero da Monterosso a Vernazza. Bellissimo.", "en": "Yes, we did the trail from Monterosso to Vernazza. Beautiful." },
+        { "speaker": "Marco", "nl": "E avete mangiato bene, immagino.", "en": "And you ate well, I imagine." },
+        { "speaker": "Giulia", "nl": "Benissimo! Ho anche visto un tramonto pazzesco sul mare.", "en": "Great! I also saw an amazing sunset over the sea." },
+        { "speaker": "Sofia", "nl": "Che invidia! Io sono rimasta qui tutto il weekend.", "en": "So jealous! I stayed here all weekend.", "spotlight": "sono rimasta — rimanere is irregular (rimasto) and takes essere." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "Where did Giulia go this weekend?", "options": ["Naples", "The Cinque Terre", "Milano"], "correct": 1 },
+        { "q": "How did Giulia and Elena get there?", "options": ["By car", "By train", "By bike"], "correct": 1 },
+        { "q": "What did Sofia do this weekend?", "options": ["She went to the Cinque Terre too", "She stayed in Bologna", "She went to Milano"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Have you ever taken a trip like Giulia's? Write 2-3 sentences about your last weekend, using the passato prossimo.",
+      "starters": ["Il weekend scorso…", "Sono andato/a…"],
+      "minSentences": 2
+    }
+  ]
+}

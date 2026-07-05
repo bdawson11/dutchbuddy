@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "day-56",
+  "day": 56,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "capstone",
+  "title": "Il mio prossimo anno",
+  "emoji": "🎉",
+  "level": "A2",
+  "durationMin": [20, 30],
+  "summary": "Week 8 capstone: futuro, plans, opinions, subordination, and comparatives — then il mio racconto, livello 8",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Uno sguardo indietro: settimana 8",
+      "body": "This week you built the **futuro semplice** (*parlerò, sarò, andrò*) and the present-for-future, learned to talk about plans with **pensare di** and **avere intenzione di**, gave opinions with **secondo me** and took a first taste of the **congiuntivo** (*penso che sia…*), joined sentences with **perché, quando, se**, and compared things with **più/meno… di** plus the irregulars **migliore/peggiore**. You just walked through the gate from A2 into real B1 sentences.",
+      "callout": "Every one of these shows up again and again from here on — you'll never stop using them."
+    },
+    {
+      "type": "chips",
+      "title": "Ripasso veloce",
+      "items": [
+        { "nl": "Domani sarò a casa presto.", "en": "Tomorrow I'll be home early.", "speak": "Domani sarò a casa presto." },
+        { "nl": "Ho intenzione di leggere di più.", "en": "I intend to read more.", "speak": "Ho intenzione di leggere di più." },
+        { "nl": "Penso che sia una buona idea.", "en": "I think it's a good idea.", "speak": "Penso che sia una buona idea." },
+        { "nl": "Quando avrò tempo, ti chiamerò.", "en": "When I have time, I'll call you.", "speak": "Quando avrò tempo, ti chiamerò." },
+        { "nl": "Questo caffè è migliore di quello.", "en": "This coffee is better than that one.", "speak": "Questo caffè è migliore di quello." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Complete: 'L'anno prossimo io e Marco ___ un viaggio insieme.' (Next year Marco and I will take a trip together.)",
+      "options": ["faremo", "farete", "faranno"],
+      "correct": 0,
+      "explain": "*io e Marco* = *noi*, and *noi* takes *-emo*: *faremo*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which means 'the best restaurant in the city'?",
+      "options": ["il ristorante più buono della città", "il ristorante migliore della città", "il ristorante più migliore della città"],
+      "correct": 1,
+      "explain": "*migliore* is buono's irregular comparative/superlative — no *più* in front. *Più migliore* doubles the comparative and is wrong."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'I intend to travel more' using avere intenzione di.",
+      "answers": ["ho intenzione di viaggiare di più", "ho intenzione di viaggiare di piu"],
+      "hint": "avere intenzione di + infinito — no che, no congiuntivo needed.",
+      "explain": "*Ho intenzione di viaggiare di più.*"
+    },
+    {
+      "type": "dictation",
+      "speak": "Se avrò tempo, verrò a trovarti.",
+      "prompt": "Listen and type the whole line.",
+      "answers": ["se avrò tempo, verrò a trovarti", "se avrò tempo verrò a trovarti"]
+    },
+    {
+      "type": "contrast",
+      "title": "Recap: secondo me vs penso che sia",
+      "pairs": [
+        { "left": "*Secondo me è una buona idea.* — plain, always safe", "right": "*Penso che sia una buona idea.* — same meaning, first taste of congiuntivo", "note": "Both are correct opinions — *secondo me* never needs the special form; *penso/credo che* technically wants *sia*." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Sofia asks about your plans for next year, over a coffee.",
+      "lines": [
+        { "speaker": "Sofia", "nl": "Allora, cosa farai il prossimo anno?", "en": "So, what will you do next year?" },
+        { "speaker": "You", "nl": "Penso di continuare a studiare l'italiano, e ho intenzione di viaggiare di più.", "en": "I'm thinking of continuing to study Italian, and I intend to travel more.", "spotlight": "pensare di and avere intenzione di, side by side — both take the infinitive." },
+        { "speaker": "Sofia", "nl": "Che bello! Secondo te, dove andrai?", "en": "How lovely! Where do you think you'll go?" },
+        { "speaker": "You", "nl": "Forse andrò in Sicilia, se avrò abbastanza ferie.", "en": "Maybe I'll go to Sicily, if I have enough vacation days.", "spotlight": "se + futuro, futuro — a real future condition, straight from this week." },
+        { "speaker": "Sofia", "nl": "Penso che sia un'ottima idea. La Sicilia è bellissima.", "en": "I think it's a great idea. Sicily is gorgeous." },
+        { "speaker": "You", "nl": "E tu? Hai progetti per il prossimo anno?", "en": "And you? Do you have plans for next year?" },
+        { "speaker": "Sofia", "nl": "Boh, non lo so ancora. Voglio solo migliorare nel mio lavoro.", "en": "Not sure yet. I just want to improve at my job." },
+        { "speaker": "You", "nl": "Ti auguro il meglio!", "en": "I wish you the best!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does 'You' plan to do next year?", "options": ["Move to Milano", "Continue studying Italian and travel more", "Open a bar"], "correct": 1 },
+        { "q": "Where might 'You' go, if there's enough vacation time?", "options": ["Sicily", "Naples", "Milan"], "correct": 0 },
+        { "q": "What does Sofia want for the coming year?", "options": ["To move to Milano", "To improve at her job", "To buy a scooter"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Il mio racconto — livello 8",
+      "prompt": "Add this week's layer to il mio racconto: a plan for next year and an opinion about it.",
+      "slots": [
+        { "label": "Il piano", "chips": ["e ho intenzione di viaggiare di più", "e penso di cambiare lavoro il prossimo anno", "e andrò in Italia l'anno prossimo"] },
+        { "label": "L'opinione", "chips": ["Penso che sia una scelta giusta.", "Secondo me è il momento giusto.", "Credo che sarà un anno speciale."] }
+      ],
+      "sample": "L'anno prossimo ho intenzione di viaggiare di più, e penso che sia una scelta giusta."
+    },
+    {
+      "type": "journal",
+      "prompt": "Il mio racconto — livello 8! Add a plan for the coming year and an opinion about it to your growing self-intro — try andrò… or ho intenzione di…, plus penso che (bonus points for sia!). Read back all eight layers you've built since week 1 — guarda quanta strada hai fatto! Complimenti per la settimana 8.",
+      "starters": ["L'anno prossimo…", "Ho intenzione di…", "Penso che…"],
+      "minSentences": 3
+    }
+  ]
+}

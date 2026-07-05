@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "day-28",
+  "day": 28,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "capstone",
+  "title": "Meine Geschichte: Teil 4",
+  "emoji": "🎉",
+  "level": "A1",
+  "durationMin": [20, 28],
+  "summary": "Full-A1 production day — order, describe what you like, and add a modal wish, then extend Meine Geschichte with the food/drink layer",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Rückblick: Woche 4",
+      "body": "Vier Wochen A1 geschafft! This week you learned Germany's meal rhythm (**Frühstück, Mittagessen, Abendbrot**), how to order politely (**ich hätte gern / ich nehme**), the five **Modalverben**, the **gern**-trick for likes, and how to shop and handle **Pfand**. Today you pull it all together — ordering, describing what you like, and adding a wish — and grow *Meine Geschichte* one more layer.",
+      "callout": "Vier Wochen geschafft — richtig stark!"
+    },
+    {
+      "type": "chips",
+      "title": "Quick refresh — tap to hear",
+      "items": [
+        { "nl": "Ich hätte gern", "en": "I would like", "speak": "Ich hätte gern" },
+        { "nl": "Ich möchte", "en": "I would like to", "speak": "Ich möchte" },
+        { "nl": "ich esse gern", "en": "I like to eat", "speak": "ich esse gern" },
+        { "nl": "ein Kilo", "en": "a kilo", "speak": "ein Kilo" },
+        { "nl": "das Pfand", "en": "the deposit", "speak": "das Pfand" }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Warm up: die Woche noch einmal",
+      "lines": [
+        { "nl": "Ich möchte einen Kaffee bestellen.", "en": "I'd like to order a coffee." },
+        { "nl": "Ich esse gern Käsebrötchen.", "en": "I like eating cheese rolls." },
+        { "nl": "Ich brauche ein Kilo Äpfel.", "en": "I need a kilo of apples." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "mögen vs möchte",
+      "pairs": [
+        { "left": "Ich mag Kaffee. — I like coffee (generally)", "right": "Ich möchte einen Kaffee. — I'd like a coffee (right now)", "note": "mögen states a general taste; möchte requests something specific in the moment." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "'I'm allowed to try the cake.' — which modal is correct?",
+      "options": ["Ich darf den Kuchen probieren.", "Ich muss den Kuchen probieren.", "Ich kann den Kuchen probieren."],
+      "correct": 0,
+      "explain": "*dürfen* = permission ('allowed to'). *müssen* is obligation, *können* is ability — both different from being ALLOWED."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I need 200 grams of cheese and a liter of milk.'",
+      "answers": ["Ich brauche 200 Gramm Käse und einen Liter Milch", "Ich brauche 200 Gramm Käse und einen Liter Milch."],
+      "hint": "brauchen takes the accusative; der Liter → einen Liter.",
+      "explain": "*Ich brauche 200 Gramm Käse und einen Liter Milch.* — *der Liter* becomes *einen Liter* in the accusative; *Gramm* stays bare."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the sentence.",
+      "speak": "Ich möchte gern noch ein Stück Kuchen probieren.",
+      "answers": ["Ich möchte gern noch ein Stück Kuchen probieren", "Ich möchte gern noch ein Stück Kuchen probieren."]
+    },
+    {
+      "type": "builder",
+      "title": "Café-Bestellung mit Wunsch",
+      "prompt": "Build an order, then add a modal wish for later.",
+      "slots": [
+        { "label": "Start", "chips": ["Ich hätte gern", "Ich nehme"] },
+        { "label": "Bestellung", "chips": ["einen Kaffee", "ein Käsebrötchen", "ein Stück Kuchen"] },
+        { "label": "Wunsch", "chips": ["und ich möchte noch etwas Kuchen probieren", "und ich möchte später noch bleiben", "und ich will noch einen Tee bestellen"] }
+      ],
+      "sample": "Ich hätte gern einen Kaffee, und ich möchte noch etwas Kuchen probieren."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena treats you to an afternoon at a café — the perfect place to order, share what you like, and make a wish for later.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Na, was möchtest du heute bestellen?", "en": "So, what would you like to order today?" },
+        { "speaker": "You", "nl": "Ich hätte gern einen Kaffee und ein Stück Kuchen, bitte.", "en": "I'd like a coffee and a piece of cake, please." },
+        { "speaker": "Lena", "nl": "Perfekt! Ich nehme auch einen Kaffee.", "en": "Perfect! I'll take a coffee too." },
+        { "speaker": "You", "nl": "Ich mag Kuchen sehr — magst du auch Süßigkeiten?", "en": "I really like cake — do you like sweets too?" },
+        { "speaker": "Lena", "nl": "Ja, ich esse total gern Schokoladenkuchen.", "en": "Yeah, I love eating chocolate cake." },
+        { "speaker": "You", "nl": "Ich möchte später noch einen Kaffee bestellen.", "en": "I'd like to order another coffee later.", "spotlight": "The modal wish: *ich möchte* + infinitive at the end." },
+        { "speaker": "Lena", "nl": "Kein Problem, hier darf man lange sitzen bleiben.", "en": "No problem, you're allowed to sit here for a long time." },
+        { "speaker": "You", "nl": "Schön! Ich muss heute sowieso nicht früh nach Hause.", "en": "Nice! I don't have to be home early today anyway." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does 'you' order?", "options": ["Coffee and cake", "Tea and a sandwich", "Just coffee"], "correct": 0 },
+        { "q": "What does Lena like eating?", "options": ["Bread rolls", "Chocolate cake", "Cheese"], "correct": 1 },
+        { "q": "According to Lena, can you stay a long time at this café?", "options": ["No, you must leave quickly", "Yes, you're allowed to stay a long time", "Only after 6pm"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Meine Geschichte — Teil 4",
+      "prompt": "Add this week's layer: what you like to eat or drink, and a wish using a modal verb.",
+      "slots": [
+        { "label": "Essen & Trinken", "chips": ["Ich mag Käse", "Ich mag Kuchen", "Ich esse gern Brötchen", "Ich trinke gern Kaffee"] },
+        { "label": "Wunsch", "chips": ["und ich möchte gern mehr Deutsch lernen", "und ich möchte gern eine Bäckerei besuchen", "und ich will bald wieder herkommen"] }
+      ],
+      "sample": "Ich esse gern Brötchen, und ich möchte gern eine Bäckerei besuchen."
+    },
+    {
+      "type": "journal",
+      "prompt": "Meine Geschichte, Woche 4! Write your self-introduction so far in full: your name, where you're from, that you're learning German, your daily routine, your family and your Kiez, and now — what you like to eat or drink, plus one wish with a modal verb (ich möchte / ich will). Vier Wochen geschafft — richtig stark!",
+      "starters": ["Ich heiße…", "Ich bin aus…", "Ich lerne Deutsch.", "Normalerweise…", "Meine Familie…", "Ich mag…", "Ich möchte…"],
+      "minSentences": 6
+    }
+  ]
+}
