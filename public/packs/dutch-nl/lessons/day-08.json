@@ -28,7 +28,7 @@
     },
     {
       "type": "chips",
-      "title": "Tap to hear 0 to 10",
+      "title": "Tap to hear 0 to 7",
       "items": [
         { "nl": "nul", "en": "0", "speak": "nul" },
         { "nl": "een", "en": "1", "speak": "een" },

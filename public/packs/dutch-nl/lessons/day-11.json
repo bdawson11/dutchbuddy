@@ -91,7 +91,7 @@
       "slots": [
         { "label": "1 — Voorop (front)", "chips": ["'s Ochtends", "'s Avonds", "Op maandag"] },
         { "label": "2 — Werkwoord (verb)", "chips": ["drink", "eet", "werk"] },
-        { "label": "3 — Onderwerp (subject)", "chips": ["ik", "jij", "wij"] },
+        { "label": "3 — Onderwerp (subject)", "chips": ["ik"] },
         { "label": "4 — Rest", "chips": ["koffie", "een broodje", "thuis"] }
       ],
       "sample": "'s Ochtends drink ik koffie."
@@ -107,7 +107,7 @@
       "type": "dictation",
       "prompt": "Listen and type the V2 sentence.",
       "speak": "'s Avonds kook ik thuis",
-      "answers": ["'s avonds kook ik thuis", "s avonds kook ik thuis"]
+      "answers": ["'s Avonds kook ik thuis", "s avonds kook ik thuis"]
     },
     {
       "type": "journal",
