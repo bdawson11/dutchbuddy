@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-94",
+  "day": 94,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "lesson",
+  "title": "Si hubiera sabido… : la hipótesis del pasado",
+  "emoji": "🕰",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The pluperfect subjunctive (hubiera + participle) and type-3 conditionals for the unreal past.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El pluscuamperfecto de subjuntivo",
+      "body": "Última pieza del subjuntivo: el **pluscuamperfecto** = **hubiera (o hubiese) + participio**. Sale del imperfecto de subjuntivo de *haber* + participio: *hubiera hecho, hubiéramos ido, hubieran dicho*. Sirve para lo **irreal del pasado**: lo que **habría pasado si algo hubiera sido distinto**.",
+      "table": {
+        "headers": ["Persona", "Pluscuamperfecto de subjuntivo"],
+        "rows": [
+          ["yo", "hubiera / hubiese hecho"],
+          ["tú", "hubieras / hubieses hecho"],
+          ["él / ella", "hubiera / hubiese hecho"],
+          ["nosotros", "hubiéramos / hubiésemos hecho"],
+          ["ellos", "hubieran / hubiesen hecho"]
+        ]
+      },
+      "callout": "hubiera + participio = el 'si' del pasado imposible."
+    },
+    {
+      "type": "card",
+      "title": "El condicional del tercer tipo",
+      "body": "El esquema completo del pasado irreal: **Si + pluscuamperfecto de subjuntivo, + condicional compuesto**. *Si lo **hubiera sabido**, **habría venido*** (pero no lo supe, así que no vine). En el habla de España, en la segunda mitad también vale *hubiera venido* en lugar de *habría venido*: las dos suenan nativas.",
+      "callout": "Si hubiera sabido → habría venido (o: hubiera venido)."
+    },
+    {
+      "type": "contrast",
+      "title": "Presente irreal vs pasado irreal",
+      "pairs": [
+        { "left": "Si tuviera dinero, viajaría.", "right": "Si hubiera tenido dinero, habría viajado.", "note": "El primero es sobre ahora (aún imaginable); el segundo cierra la puerta: ya pasó y no fue así." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Toca y repite",
+      "items": [
+        { "nl": "si lo hubiera sabido…", "en": "if I'd known…", "speak": "si lo hubiera sabido" },
+        { "nl": "habría venido encantado", "en": "I'd have come gladly", "speak": "habría venido encantado" },
+        { "nl": "ojalá te hubiera hecho caso", "en": "I wish I'd listened to you", "speak": "ojalá te hubiera hecho caso" },
+        { "nl": "si no hubiéramos salido tarde…", "en": "if we hadn't left late…", "speak": "si no hubiéramos salido tarde" },
+        { "nl": "nadie lo habría dicho", "en": "no one would have said so", "speak": "nadie lo habría dicho" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Completa: «Si me lo ___, te habría ayudado.» (pedir, tú)",
+      "options": ["pedías", "pidieras", "hubieras pedido", "habrías pedido"],
+      "correct": 2,
+      "explain": "Pasado irreal: *Si + pluscuamperfecto de subjuntivo* → **hubieras pedido**, con *habría ayudado* en la otra mitad. *Habrías pedido* nunca va detrás de *si*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduce: «If I had known, I would have called you.» → Si lo ___, te habría llamado.",
+      "answers": ["hubiera sabido", "hubiese sabido", "hubiera sabido,"],
+      "hint": "hubiera + participio de saber.",
+      "explain": "**Si lo hubiera sabido, te habría llamado.** *Hubiera sabido* (pluscuamperfecto de subjuntivo) en la condición."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "ojalá lo hubiera sabido antes",
+      "answers": ["ojalá lo hubiera sabido antes", "ojalá lo hubiese sabido antes"]
+    },
+    {
+      "type": "builder",
+      "title": "Lo que habría cambiado",
+      "prompt": "Monta una hipótesis del pasado completa.",
+      "slots": [
+        { "label": "Si + plusc. subj.", "chips": ["Si hubiera estudiado más,", "Si no hubiéramos discutido,", "Si me hubieras avisado,"] },
+        { "label": "Condicional compuesto", "chips": ["habría aprobado", "seguiríamos juntos", "habría llegado a tiempo"] }
+      ],
+      "sample": "Si hubiera estudiado más, habría aprobado."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You and Lucía rehash a plan that fell apart.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Qué pena lo del finde. Si no hubiera llovido, habríamos ido a la sierra.", "en": "Shame about the weekend. If it hadn't rained, we'd have gone to the mountains." },
+        { "speaker": "You", "nl": "Ya. Y si me hubieras avisado antes, habría cambiado mis planes sin problema.", "en": "Yeah. And if you'd told me earlier, I'd have changed my plans no problem.", "spotlight": "*si me hubieras avisado → habría cambiado*: el esquema del pasado irreal, entero." },
+        { "speaker": "Lucía", "nl": "Lo sé, lo siento. Ojalá lo hubiera organizado con más tiempo.", "en": "I know, I'm sorry. I wish I'd organized it with more notice." },
+        { "speaker": "You", "nl": "No pasa nada. De haberlo sabido, ni habríamos reservado.", "en": "It's fine. Had we known, we wouldn't even have booked." },
+        { "speaker": "Lucía", "nl": "Bueno, el finde que viene lo montamos bien, ¿vale?", "en": "Well, next weekend we'll sort it out properly, okay?" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Qué pasó de verdad?",
+      "questions": [
+        { "q": "¿Por qué no fueron a la sierra?", "options": ["Porque llovió", "Porque You no quiso", "Porque no había plazas"], "correct": 0 },
+        { "q": "¿Qué habría hecho You con más aviso?", "options": ["Nada distinto", "Habría cambiado sus planes", "Habría ido solo"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Piensa en un 'y si…' de tu pasado. Escribe 3–4 frases con el esquema *Si hubiera…, habría…* y, si quieres, un *ojalá + hubiera* para el arrepentimiento.",
+      "starters": ["Si hubiera sabido que…", "Si no me hubiera…", "Ojalá hubiera…", "Habría…"],
+      "minSentences": 3
+    }
+  ]
+}

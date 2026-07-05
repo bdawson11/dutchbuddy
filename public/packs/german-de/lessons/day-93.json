@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-93",
+  "day": 93,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "lesson",
+  "title": "Indirekte Rede: berichten, was gesagt wurde",
+  "emoji": "🗣",
+  "level": "B2",
+  "durationMin": [20, 30],
+  "summary": "Turn direct speech into reported speech — pronoun shift, Konjunktiv I, the tense collapse (all past → sei/habe + Partizip), plus reported questions with ob and W-words.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Indirekte Rede: die drei Schritte",
+      "body": "Aus einem Zitat einen **Bericht** machen, geht in drei Schritten:\n\n**1. Pronomen anpassen** — *ich* → *er/sie*, *mein* → *sein/ihr*.\n**2. Verb in Konjunktiv I** — *kommt* → *komme*, *ist* → *sei*.\n**3. Zeit zusammenfassen** — alles Vergangene (Perfekt, Präteritum) wird zu **einer** Form: *sei/habe + Partizip II*. Gegenwart bleibt (*komme*), Zukunft wird *werde + Infinitiv*.\n\n*„Ich habe das gemacht.\"* → *Er sagt, er **habe** das **gemacht**.* — *dass* ist optional.",
+      "callout": "Drei Vergangenheiten, eine Berichtsform: sei/habe + Partizip."
+    },
+    {
+      "type": "card",
+      "title": "Fragen und Bitten wiedergeben",
+      "body": "**Ja/Nein-Frage** → mit *ob*. **W-Frage** → das W-Wort bleibt. In beiden Fällen ist es ein Nebensatz: **Verb ans Ende**. Eine **Bitte oder ein Befehl** wird mit *sollen* berichtet.\n\n*„Kommst du?\"* → Er fragt, **ob** ich **komme**.\n*„Wann kommst du?\"* → Er fragt, **wann** ich **komme**.\n*„Ruf mich an!\"* → Er sagt, ich **solle** ihn anrufen.",
+      "callout": "ob = die versteckte Ja/Nein-Frage. Vergiss das Fragezeichen — ein Bericht ist kein Frage-Satz."
+    },
+    {
+      "type": "contrast",
+      "title": "Zitat vs. Bericht",
+      "pairs": [
+        { "left": "Er sagte: \"Ich habe alles erledigt.\"", "right": "Er sagte, er habe alles erledigt.", "note": "Perfekt collapses into Konjunktiv I past: habe + Partizip. ich → er." },
+        { "left": "Sie fragte: \"Kommst du mit?\"", "right": "Sie fragte, ob ich mitkomme.", "note": "Yes/no question → ob, verb to the end, du → ich." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Berichten zum Anhören",
+      "items": [
+        { "nl": "Er sagt, er komme später.", "en": "He says he'll come later.", "speak": "Er sagt, er komme später." },
+        { "nl": "Sie sagt, sie habe schon angerufen.", "en": "She says she already called.", "speak": "Sie sagt, sie habe schon angerufen." },
+        { "nl": "Er fragt, ob ich Zeit habe.", "en": "He asks whether I have time.", "speak": "Er fragt, ob ich Zeit habe." },
+        { "nl": "Sie fragt, wann ich komme.", "en": "She asks when I'm coming.", "speak": "Sie fragt, wann ich komme." },
+        { "nl": "Er meint, er werde es schaffen.", "en": "He reckons he'll manage it.", "speak": "Er meint, er werde es schaffen." },
+        { "nl": "Sie sagt, ich solle warten.", "en": "She says I should wait.", "speak": "Sie sagt, ich solle warten." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Ich habe das schon gemacht\", sagt sie. Wie berichtest du das?",
+      "options": [
+        "Sie sagt, sie habe das schon gemacht.",
+        "Sie sagt, sie hat das schon gemacht.",
+        "Sie sagt, sie mache das schon."
+      ],
+      "correct": 0,
+      "explain": "Perfekt wird zur Konjunktiv-I-Vergangenheit: *habe + gemacht*. Option 2 ist Indikativ, Option 3 verschiebt die Zeit falsch in die Gegenwart."
+    },
+    {
+      "type": "typed",
+      "prompt": "Berichte: 'Ich komme morgen', sagt er. → Er sagt, er ___ morgen.",
+      "answers": ["komme", "er komme morgen", "Er sagt, er komme morgen"],
+      "hint": "kommen in der 3. Person Konjunktiv I.",
+      "explain": "*Er sagt, er komme morgen.* — Gegenwart bleibt Gegenwart, nur die Form wird Konjunktiv I."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe.",
+      "speak": "Sie fragt, ob ich Zeit habe.",
+      "answers": ["Sie fragt, ob ich Zeit habe"]
+    },
+    {
+      "type": "builder",
+      "title": "Eine Frage berichten",
+      "prompt": "Bau einen berichteten Frage-Satz: Einleitung + Nebensatz mit ob oder W-Wort, Verb am Ende.",
+      "slots": [
+        { "label": "Einleitung", "chips": ["Er fragt,", "Sie fragt,", "Er will wissen,"] },
+        { "label": "Frage (Nebensatz)", "chips": ["ob ich mitkomme", "wann ich Zeit habe", "warum ich abgesagt habe"] }
+      ],
+      "sample": "Er fragt, ob ich mitkomme."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Your neighbour Herr Weber left a rushed voice message. You relay it to Lena, who's nosy.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Und? Was wollte der Herr Weber von dir?", "en": "So? What did Herr Weber want from you?" },
+        { "speaker": "You", "nl": "Er sagt, er sei übers Wochenende weg.", "en": "He says he's away over the weekend.", "spotlight": "*sei* — a reported present state." },
+        { "speaker": "Lena", "nl": "Aha. Und weiter?", "en": "Aha. And then?" },
+        { "speaker": "You", "nl": "Er hat gefragt, ob ich die Pakete annehmen könne.", "en": "He asked whether I could take in the parcels.", "spotlight": "Reported yes/no question → ob, with könne at the end." },
+        { "speaker": "Lena", "nl": "Nett. Hat er gesagt, wann sie kommen?", "en": "Nice. Did he say when they're coming?" },
+        { "speaker": "You", "nl": "Er meinte, das erste Paket komme wohl am Montag.", "en": "He reckoned the first parcel would come on Monday.", "spotlight": "*komme* — reported present/future in Konjunktiv I." },
+        { "speaker": "Lena", "nl": "Und was ist da drin?", "en": "And what's inside?" },
+        { "speaker": "You", "nl": "Keine Ahnung. Er hat nur gesagt, ich solle es nicht schütteln.", "en": "No idea. He only said I shouldn't shake it.", "spotlight": "A request reported with *sollen*." },
+        { "speaker": "Lena", "nl": "Ha! Jetzt bin ich neugierig.", "en": "Ha! Now I'm curious." },
+        { "speaker": "You", "nl": "Ich auch. Er hat nicht verraten, was es sei.", "en": "Me too. He didn't reveal what it is.", "spotlight": "An embedded reported W-question: *was es sei*." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Verstanden?",
+      "questions": [
+        { "q": "Was soll die sprechende Person für Herrn Weber tun?", "options": ["Seine Wohnung putzen.", "Pakete annehmen.", "Ihn am Montag anrufen."], "correct": 1 },
+        { "q": "Was darf man mit dem Paket nicht tun?", "options": ["Es öffnen.", "Es schütteln.", "Es wegbringen."], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Denk an ein Gespräch von heute. Berichte drei Aussagen oder Fragen daraus in indirekter Rede (Konjunktiv I). Denk an die drei Schritte: Pronomen anpassen, Verb in Konjunktiv I, Vergangenes → sei/habe + Partizip.",
+      "starters": ["Er/Sie sagte, …", "… habe …", "… sei …", "Er/Sie fragte, ob…"],
+      "minSentences": 3
+    }
+  ]
+}
