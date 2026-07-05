@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "day-64",
+  "day": 64,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Ven, haz, di: el imperativo",
+  "emoji": "👉",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Everyday commands: the affirmative imperative for tú and vosotros, plus the eight irregulars",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Dar una orden a un amigo (tú)",
+      "body": "To tell someone *tú* to do something, take the **él/ella present form** — that's it: *habla* (speak!), *come* (eat!), *escribe* (write!). It's just the third-person present with **no -s**. Stem changes stay: *cerrar* → *cierra*, *volver* → *vuelve*.",
+      "table": {
+        "headers": ["Infinitivo", "¡Tú!"],
+        "rows": [
+          ["hablar", "habla — speak!"],
+          ["comer", "come — eat!"],
+          ["escribir", "escribe — write!"],
+          ["cerrar", "cierra — close!"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "A un grupo (vosotros): -r → -d",
+      "body": "For a group of friends (*vosotros*), just swap the infinitive's **-r for -d**: *hablad, comed, escribid*. No exceptions — every verb works this way. In Spain this is the everyday plural command; never *hablen* (that's *ustedes*, Latin-American register).",
+      "callout": "*Venid a cenar* (come to dinner) — to a group, always ends in **-d**."
+    },
+    {
+      "type": "card",
+      "title": "Los ocho irregulares del tú",
+      "body": "Eight common verbs have a short, **irregular** *tú* command. Learn them as one block — you'll use them daily. Note the *vosotros* forms stay regular (*venid, haced, decid, poned…*).",
+      "table": {
+        "headers": ["Verbo", "¡Tú!"],
+        "rows": [
+          ["venir", "ven — come"],
+          ["hacer", "haz — do/make"],
+          ["decir", "di — say/tell"],
+          ["poner", "pon — put"],
+          ["salir", "sal — leave/go out"],
+          ["tener", "ten — have/hold"],
+          ["ir", "ve — go"],
+          ["ser", "sé — be"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Toca para oír órdenes de cada día",
+      "items": [
+        { "nl": "¡Oye, ven aquí!", "en": "Hey, come here!", "speak": "oye, ven aquí" },
+        { "nl": "Haz los deberes.", "en": "Do your homework.", "speak": "haz los deberes" },
+        { "nl": "Pon la mesa, anda.", "en": "Set the table, go on.", "speak": "pon la mesa, anda" },
+        { "nl": "Ten cuidado.", "en": "Be careful.", "speak": "ten cuidado" },
+        { "nl": "Venid a las ocho.", "en": "Come at eight (you all).", "speak": "venid a las ocho" },
+        { "nl": "Pasad, pasad.", "en": "Come in, come in.", "speak": "pasad, pasad" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Un amigo llega a tu casa. ¿Cómo le dices que entre?",
+      "options": ["¡Entra!", "¡Entrad!", "¡Entren!"],
+      "correct": 0,
+      "explain": "*Entra* es el imperativo de *tú* (un amigo). *Entrad* sería para un grupo (vosotros), y *entren* es ustedes: formal y raro en España entre amigos."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Completa: «___ cuidado con el escalón, ¿eh?» (a tu amigo)",
+      "options": ["Tiene", "Ten", "Tenéis"],
+      "correct": 1,
+      "explain": "*Ten* es el imperativo irregular de *tener* para *tú*. *Ten cuidado* = be careful."
+    },
+    {
+      "type": "typed",
+      "prompt": "Escribe el imperativo de *hacer* para *tú*: «___ la cena, por favor.»",
+      "answers": ["haz", "Haz"],
+      "explain": "*Haz* — el imperativo irregular de *hacer*. No es *hace* ni *haces*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe la orden.",
+      "speak": "poned la mesa",
+      "answers": ["poned la mesa", "poned la mesa."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Nacho te invita a comer a su casa, a las afueras de Madrid.",
+      "lines": [
+        { "speaker": "Nacho", "nl": "¡Hombre, has venido! Pasa, pasa, que hace frío fuera.", "en": "Hey, you came! Come in, come in, it's cold out." },
+        { "speaker": "You", "nl": "Gracias, Nacho. ¡Qué casa más bonita tenéis!", "en": "Thanks, Nacho. What a lovely house you've got!" },
+        { "speaker": "Nacho", "nl": "Anda, deja el abrigo ahí y ven a la cocina.", "en": "Go on, leave your coat there and come to the kitchen.", "spotlight": "Two commands in a row: deja (regular tú) + ven (irregular tú)." },
+        { "speaker": "You", "nl": "Claro. ¿Te ayudo con algo?", "en": "Sure. Can I help with anything?" },
+        { "speaker": "Nacho", "nl": "Pon los platos en la mesa y llama a los niños, anda.", "en": "Put the plates on the table and call the kids, go on." },
+        { "speaker": "You", "nl": "Hecho. Oye, ¿viene Lucía también?", "en": "Done. Hey, is Lucía coming too?" },
+        { "speaker": "Nacho", "nl": "Sí, está al llegar. Venga, entra y come, que ya está todo.", "en": "Yeah, she's about to arrive. Come on, sit down and eat, it's all ready." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Qué le pide Nacho que haga en la cocina?", "options": ["Cocinar la comida", "Poner los platos y llamar a los niños", "Llamar a Lucía"], "correct": 1 },
+        { "q": "¿Dónde está Lucía?", "options": ["En la cocina", "Está al llegar", "No va a venir"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe cinco órdenes que le darías a un amigo que viene a tu casa por primera vez. Usa el imperativo de *tú* e incluye al menos un irregular (*ven, haz, di, pon, sal, ten, ve, sé*).",
+      "starters": ["Pasa y…", "Ven a…", "Ten cuidado con…"],
+      "minSentences": 4
+    }
+  ]
+}

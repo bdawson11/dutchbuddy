@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "day-37",
+  "day": 37,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "Beim Arzt",
+  "emoji": "🩺",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "The Hausarzt and Krankenkasse system, booking a Termin, and the doctor's dative question",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Hausarzt und Krankenkasse",
+      "body": "Everyone in Germany must have a **Krankenkasse** (health insurance). For anything non-urgent you start with a **Hausarzt** (family doctor) — call ahead for a **Termin** (appointment) and bring your **Versichertenkarte** (insurance card). If you're too sick to work, the Hausarzt writes a **Krankschreibung** (sick note) — required by German employers if you're out more than three days.",
+      "table": {
+        "headers": ["Wort", "Bedeutung"],
+        "rows": [
+          ["der Hausarzt", "family doctor / GP"],
+          ["die Krankenkasse", "health insurance"],
+          ["der Termin", "appointment"],
+          ["die Krankschreibung", "sick note (for your employer)"],
+          ["die Versichertenkarte", "insurance card"],
+          ["das Wartezimmer", "waiting room"]
+        ]
+      },
+      "callout": "Termin machen, Karte mitbringen — so läuft's."
+    },
+    {
+      "type": "chips",
+      "title": "Wörter beim Arzt",
+      "items": [
+        { "nl": "der Hausarzt", "en": "the GP", "speak": "der Hausarzt" },
+        { "nl": "die Krankenkasse", "en": "the health insurance", "speak": "die Krankenkasse" },
+        { "nl": "der Termin", "en": "the appointment", "speak": "der Termin" },
+        { "nl": "die Krankschreibung", "en": "the sick note", "speak": "die Krankschreibung" },
+        { "nl": "die Versichertenkarte", "en": "the insurance card", "speak": "die Versichertenkarte" },
+        { "nl": "das Wartezimmer", "en": "the waiting room", "speak": "das Wartezimmer" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "seit + Dativ — wie lange schon?",
+      "body": "To say how long something's been going on, use **seit** (since / for) + the **dative**. *seit zwei Tagen* (for two days) — notice the plural noun takes an **-n**: *Tage → Tagen*. *Ich habe seit zwei Tagen Halsschmerzen* (I've had a sore throat for two days).",
+      "callout": "seit is a dative preposition — you'll meet its friends (mit, bei, von...) properly in Week 10."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Complete: 'Ich habe seit zwei ___ Halsschmerzen.'",
+      "options": ["Tage", "Tag", "Tagen"],
+      "correct": 2,
+      "explain": "Dative plural nouns add -n: Tage → Tagen. seit always takes the dative."
+    },
+    {
+      "type": "card",
+      "title": "Was fehlt Ihnen? — a dative verb",
+      "body": "German doctors ask **Was fehlt Ihnen?** (What's wrong? — literally 'what is missing to you', dative *Ihnen*, formal). Among friends it's **Was fehlt dir?** *Fehlen* is a true dative verb: the person is dative, the problem is the subject.",
+      "callout": "No 'was ist falsch mit dir' here — fehlen + dative is the real German."
+    },
+    {
+      "type": "contrast",
+      "title": "Formell vs. informell",
+      "pairs": [
+        {
+          "left": "Was fehlt Ihnen? — formal, at the doctor's",
+          "right": "Was fehlt dir? — informal, among friends",
+          "note": "Same question, register changes the pronoun — Ihnen (Sie-form) vs dir (du-form)."
+        }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I'd like an appointment.'",
+      "answers": ["Ich hätte gern einen Termin", "Ich haette gern einen Termin"],
+      "hint": "hätte gern = would like (the politeness pattern from Week 4)",
+      "explain": "Ich hätte gern einen Termin — einen because der Termin is masculine and it's the accusative object."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ich hätte gern einen Termin.",
+      "answers": ["Ich hätte gern einen Termin", "Ich haette gern einen Termin"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena helps you rehearse the phone call to your Hausarzt's office before you make it for real.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Also, du rufst zuerst in der Praxis an, nicht direkt beim Arzt.", "en": "Look, you call the practice first, not the doctor directly." },
+        { "speaker": "You", "nl": "Okay. Was sage ich dann?", "en": "Okay. What do I say then?" },
+        { "speaker": "Lena", "nl": "Sag einfach: 'Ich hätte gern einen Termin.'", "en": "Just say: 'I'd like an appointment.'" },
+        { "speaker": "You", "nl": "Ich habe seit zwei Tagen Halsschmerzen.", "en": "I've had a sore throat for two days." },
+        { "speaker": "Lena", "nl": "Gut. Dann noch: 'Heute oder morgen, wenn möglich.'", "en": "Good. Then add: 'Today or tomorrow, if possible.'" },
+        { "speaker": "You", "nl": "Und der Arzt fragt vielleicht: 'Was fehlt Ihnen?'", "en": "And the doctor might ask: 'What's wrong?'", "spotlight": "Was fehlt Ihnen? — fehlen + dative, the doctor's classic question" },
+        { "speaker": "Lena", "nl": "Genau. Dann sagst du: 'Ich habe seit zwei Tagen Halsschmerzen und fühle mich schlecht.'", "en": "Exactly. Then you say: 'I've had a sore throat for two days and I feel bad.'" },
+        { "speaker": "You", "nl": "Und die Krankschreibung?", "en": "And the sick note?" },
+        { "speaker": "Lena", "nl": "Frag einfach danach, falls nötig. Ganz normal hier.", "en": "Just ask for it if needed. Totally normal here." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "Who do you call first — the doctor directly, or the practice?", "options": ["The doctor directly", "The practice", "The hospital"], "correct": 1 },
+        { "q": "What does the Hausarzt ask, formally?", "options": ["Wie heißen Sie?", "Was fehlt Ihnen?", "Wo wohnen Sie?"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Imagine you're making that call for real. Write 2–3 sentences: what's wrong, and how you'd ask for the Termin.",
+      "starters": ["Ich hätte gern...", "Ich habe seit..."]
+    }
+  ]
+}

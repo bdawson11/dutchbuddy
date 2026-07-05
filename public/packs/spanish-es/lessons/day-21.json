@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "day-21",
+  "day": 21,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "capstone",
+  "title": "Mi familia, mi barrio",
+  "emoji": "🎉",
+  "level": "A1",
+  "durationMin": [20, 25],
+  "summary": "Week-3 capstone: a family and neighborhood portrait, plus the next Mi historia layer.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso: semana 3",
+      "body": "Esta semana has aprendido a hablar de tu **familia** (*mi hermano, nuestros padres*), a describir cosas con **adjetivos que concuerdan** (*una casa blanca, unos pisos pequeños*), el gran contraste **ser vs estar**, el vocabulario de tu **barrio**, y cómo describir a la gente — su físico, su carácter y su estado de ánimo. Toca juntarlo todo.",
+      "callout": "Ser vs estar es la primera gran pared del español — y ya la has escalado."
+    },
+    {
+      "type": "chips",
+      "title": "Repaso rápido — tap through",
+      "items": [
+        { "nl": "mi hermano mayor", "en": "my older brother", "speak": "mi hermano mayor" },
+        { "nl": "nuestro barrio", "en": "our neighborhood", "speak": "nuestro barrio" },
+        { "nl": "es muy simpática", "en": "she's very nice", "speak": "es muy simpática" },
+        { "nl": "está cansado", "en": "he's tired", "speak": "está cansado" },
+        { "nl": "una calle tranquila", "en": "a quiet street", "speak": "una calle tranquila" }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Calienta la voz",
+      "lines": [
+        { "nl": "Mi barrio es tranquilo y está cerca del centro.", "en": "My neighborhood is quiet and it's near downtown." },
+        { "nl": "Mi hermana es alta y morena.", "en": "My sister is tall and dark-haired." },
+        { "nl": "Hoy estoy un poco cansado, pero contento.", "en": "Today I'm a bit tired, but happy." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Rafa trabaja en una librería y toca la guitarra. Es su forma de ser. ¿Cómo lo dices?",
+      "options": ["Rafa está músico.", "Rafa es músico."],
+      "correct": 1,
+      "explain": "Occupation/identity → **ser**: *es músico*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Translate: 'our grandparents are very nice'.",
+      "answers": ["nuestros abuelos son muy simpáticos", "nuestros abuelos son muy majos"],
+      "hint": "Plural possessive + personality trait: son + adjective agreeing with abuelos.",
+      "explain": "*nuestros abuelos son muy simpáticos* — *son* (ser, plural) + *simpáticos* agrees with *abuelos* (masculine plural)."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "mi piso está en una calle tranquila",
+      "answers": ["mi piso está en una calle tranquila"]
+    },
+    {
+      "type": "contrast",
+      "title": "El gran contraste, otra vez",
+      "pairs": [
+        { "left": "es lista — she's clever (trait)", "right": "está lista — she's ready (state)", "note": "Same word, two meanings — the classic ser/estar trap." },
+        { "left": "mi barrio es tranquilo — quiet by nature", "right": "hoy el barrio está tranquilo — quiet today specifically", "note": "ser = a lasting trait of the barrio; estar = how it happens to be today." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, Rafa asks about your family and your neighborhood back home.",
+      "lines": [
+        { "speaker": "Rafa", "nl": "¡Hombre! ¿Cómo es tu familia?", "en": "Hey! What's your family like?" },
+        { "speaker": "You", "nl": "Somos cuatro: mis padres, mi hermana y yo. Mi hermana es muy graciosa.", "en": "There are four of us: my parents, my sister and me. My sister is very funny." },
+        { "speaker": "Rafa", "nl": "¡Qué bien! ¿Y dónde viven?", "en": "Nice! And where do they live?" },
+        { "speaker": "You", "nl": "Mis padres viven en un barrio tranquilo, cerca de un parque. El barrio está a las afueras de la ciudad.", "en": "My parents live in a quiet neighborhood, near a park. The neighborhood is on the outskirts of the city.", "spotlight": "es tranquilo (trait) then está a las afueras (location) — ser and estar working together." },
+        { "speaker": "Rafa", "nl": "Suena majo. ¿Y tú? ¿Cómo es tu barrio aquí en Madrid?", "en": "Sounds nice. And you? What's your neighborhood like here in Madrid?" },
+        { "speaker": "You", "nl": "Es pequeño pero muy animado. Y hoy, la verdad, estoy muy contento de vivir aquí.", "en": "It's small but very lively. And today, honestly, I'm very happy to live here." },
+        { "speaker": "Rafa", "nl": "¡Qué bien, tío!", "en": "That's great, mate!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Cuántas personas hay en la familia de 'You'?", "options": ["Tres", "Cuatro", "Cinco"], "correct": 1 },
+        { "q": "¿Cómo describe 'You' su barrio en Madrid?", "options": ["Grande y tranquilo", "Pequeño y animado", "Lejos del centro"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mi historia — capa 3",
+      "prompt": "Añade tu familia y tu barrio a tu historia: usa un posesivo, un adjetivo que concuerde y ser o estar.",
+      "slots": [
+        { "label": "Familia", "chips": ["Tengo una hermana", "Tengo un hermano", "Somos tres en mi familia"] },
+        { "label": "Descripción", "chips": ["que es muy simpática", "que es muy gracioso", "y todos somos muy unidos"] },
+        { "label": "Barrio", "chips": ["Mi barrio es tranquilo", "Mi barrio es animado", "Nuestro barrio es pequeño"] },
+        { "label": "Ahora", "chips": ["y está cerca del centro", "y está a las afueras"] }
+      ],
+      "sample": "Tengo una hermana que es muy simpática. Mi barrio es tranquilo y está cerca del centro."
+    },
+    {
+      "type": "journal",
+      "prompt": "¡Mi historia, semana 3! Añade a tu presentación: tu familia (con un posesivo) y tu barrio (con un adjetivo y ser o estar). Recuerda las capas anteriores: tu nombre, de dónde eres, que aprendes español, y tu rutina diaria.",
+      "starters": ["Tengo…", "Mi familia es…", "Mi barrio es…", "Mi barrio está…"],
+      "minSentences": 4
+    }
+  ]
+}

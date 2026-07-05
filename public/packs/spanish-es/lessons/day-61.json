@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-61",
+  "day": 61,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Oraciones con si: real e hipotético",
+  "emoji": "🔀",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Real conditions (si tengo tiempo…) and a first taste of the hypothetical (si tuviera…, iría)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Dos tipos de «si»",
+      "body": "Una oración con **si** plantea una condición. Hay dos que necesitas ahora. La **real** (probable): *si tengo tiempo, voy* — puede pasar perfectamente. La **hipotética** (poco probable o imaginaria): *si tuviera tiempo, iría* — es un sueño, no lo espero de verdad.",
+      "callout": "La diferencia no es el *si*, sino los **tiempos verbales** que lo acompañan."
+    },
+    {
+      "type": "card",
+      "title": "Condición real: si + presente",
+      "body": "Para algo que **puede pasar**: **si + presente de indicativo**, y en la otra parte presente, futuro o imperativo. *Si llueve, no salimos. Si puedes, llámame. Si apruebo, lo celebramos.* Nada de subjuntivo aquí.",
+      "table": {
+        "headers": ["Condición (si…)", "Resultado"],
+        "rows": [
+          ["Si tengo tiempo,", "voy al cine."],
+          ["Si llueve,", "nos quedamos en casa."],
+          ["Si puedes,", "llámame luego."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Escucha condiciones reales",
+      "items": [
+        { "nl": "Si tengo tiempo, voy.", "en": "If I have time, I'll go.", "speak": "Si tengo tiempo, voy." },
+        { "nl": "Si llueve, no salimos.", "en": "If it rains, we won't go out.", "speak": "Si llueve, no salimos." },
+        { "nl": "Si puedes, llámame luego.", "en": "If you can, call me later.", "speak": "Si puedes, llámame luego." },
+        { "nl": "Si acaba pronto, cenamos juntos.", "en": "If he finishes early, we'll have dinner together.", "speak": "Si acaba pronto, cenamos juntos." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Elige la condición real bien formada.",
+      "options": ["Si tendría tiempo, voy.", "Si tengo tiempo, voy.", "Si tenga tiempo, voy."],
+      "correct": 1,
+      "explain": "La condición real lleva **presente de indicativo** tras *si*: *si **tengo** tiempo, voy*. Nunca *si tendría* ni *si tenga*."
+    },
+    {
+      "type": "card",
+      "title": "Condición hipotética: si + imperfecto de subjuntivo",
+      "body": "Para lo **imaginario o poco probable**: **si + imperfecto de subjuntivo**, y el resultado en **condicional**. *Si **tuviera** dinero, **viajaría** por el mundo.* El imperfecto de subjuntivo nace del *ellos* del indefinido: *tuvieron → tuviera*, *fueron → fuera*, *pudieron → pudiera*.",
+      "callout": "La regla de oro: tras *si* **nunca** va el condicional. Se dice *si tuviera*, no *si tendría*."
+    },
+    {
+      "type": "contrast",
+      "title": "Real vs hipotético",
+      "pairs": [
+        { "left": "Si tengo tiempo, voy. (real)", "right": "Si tuviera tiempo, iría. (hipotético)", "note": "Real: presente + presente/futuro. Hipotético: imperfecto de subjuntivo + condicional." },
+        { "left": "Si puedo, te ayudo.", "right": "Si pudiera, te ayudaría.", "note": "El segundo suena a «ojalá, pero no puedo». El primero es una promesa realista." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa la hipótesis: «Si ___ (ser) rico, viajaría más.» (imperfecto de subjuntivo)",
+      "answers": ["fuera", "fuese", "si fuera rico viajaría más"],
+      "hint": "De *fueron* sale *fuera* (o *fuese*).",
+      "explain": "*Si **fuera** rico, viajaría más.* Tras *si* hipotético va el imperfecto de subjuntivo (*fuera/fuese*), y el resultado en condicional."
+    },
+    {
+      "type": "builder",
+      "title": "Construye una hipótesis",
+      "prompt": "Une una condición hipotética (si + imperfecto de subjuntivo) con su resultado en condicional.",
+      "slots": [
+        { "label": "Si… (hipótesis)", "chips": ["Si tuviera más tiempo,", "Si pudiera,", "Si me tocara la lotería,"] },
+        { "label": "…resultado (condicional)", "chips": ["aprendería otro idioma", "me iría de viaje", "dejaría de trabajar"] }
+      ],
+      "sample": "Si tuviera más tiempo, aprendería otro idioma."
+    },
+    {
+      "type": "dialogue",
+      "scene": "En el bar, fantaseando con lo que haríais",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Tío, si me tocara la lotería, dejaría el curro mañana mismo.", "en": "Man, if I won the lottery, I'd quit my job tomorrow.", "spotlight": "si + imperfecto de subjuntivo (tocara) + condicional (dejaría): hipótesis." },
+        { "speaker": "You", "nl": "¿Ah, sí? ¿Y qué harías?", "en": "Oh yeah? And what would you do?" },
+        { "speaker": "Rafa", "nl": "Me compraría una furgoneta y me iría de gira con el grupo.", "en": "I'd buy a van and go on tour with the band." },
+        { "speaker": "You", "nl": "Qué grande. Yo, si tuviera más tiempo, viajaría por toda España.", "en": "Amazing. Me, if I had more time, I'd travel all over Spain.", "spotlight": "si tuviera + viajaría: otra hipótesis." },
+        { "speaker": "Lucía", "nl": "Pues si yo pudiera, me cogería un año sabático y ya está.", "en": "Well, if I could, I'd take a gap year and that's that." },
+        { "speaker": "Rafa", "nl": "¿Y si no te toca nada? Que es lo más probable, ¿eh?", "en": "And if you win nothing? Which is most likely, right?", "spotlight": "si no te toca: aquí es condición real (presente), no hipótesis." },
+        { "speaker": "You", "nl": "Pues si no me toca, sigo currando y a ahorrar.", "en": "Well, if I don't win, I keep working and start saving.", "spotlight": "si + presente + presente: condición real." },
+        { "speaker": "Lucía", "nl": "Jaja, muy realista. Venga, ¿quién pide la próxima ronda?", "en": "Haha, very realistic. Come on, who's getting the next round?" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe dos frases con *si*: una condición **real** sobre este finde (*si… , …*) y una **hipótesis** con imperfecto de subjuntivo + condicional (*si tuviera/pudiera/fuera…, …ría*).",
+      "starters": ["Si este finde…", "Si tuviera…", "Si pudiera…"],
+      "minSentences": 2
+    }
+  ]
+}

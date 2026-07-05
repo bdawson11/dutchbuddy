@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "day-87",
+  "day": 87,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "Il congiuntivo trapassato",
+  "emoji": "🧩",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The pluperfect subjunctive: credevo che fosse già partito — a past before a past",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il congiuntivo trapassato",
+      "body": "The 'past-before-a-past'. When the subordinate event happened **before** an already-past main verb, use the **congiuntivo trapassato**: the **congiuntivo imperfetto of avere/essere** (*avessi, fossi*) + the past participle. *Credevo che Marco **fosse già partito*** — I thought Marco had already left (the leaving comes before my believing).",
+      "table": {
+        "headers": ["con avere", "con essere"],
+        "rows": [
+          ["che io avessi parlato", "che io fossi andato/a"],
+          ["che tu avessi parlato", "che tu fossi andato/a"],
+          ["che avesse parlato", "che fosse andato/a"],
+          ["che avessimo parlato", "che fossimo andati/e"],
+          ["che avessero parlato", "che fossero andati/e"]
+        ]
+      },
+      "callout": "Stesse regole di ausiliare e accordo del passato prossimo — ma *avessi/fossi* al posto di *ho/sono*."
+    },
+    {
+      "type": "card",
+      "title": "Le quattro caselle del congiuntivo",
+      "body": "Now you have the whole system. Under a **present** trigger: *sia* (presente) / *sia stato* (passato). Under a **past** trigger: *fosse* (imperfetto) / *fosse stato* (trapassato). The trapassato is simply 'earlier than the imperfetto'.",
+      "table": {
+        "headers": ["trigger", "contemporaneo / dopo", "prima"],
+        "rows": [
+          ["presente (penso che)", "sia", "sia stato"],
+          ["passato (pensavo che)", "fosse", "fosse stato"]
+        ]
+      },
+      "callout": "Trapassato = un fatto **anteriore** a un altro fatto già passato."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta e ripeti",
+      "items": [
+        { "nl": "Credevo che fosse già partito.", "en": "I thought he'd already left.", "speak": "Credevo che fosse già partito." },
+        { "nl": "Non sapevo che aveste già mangiato.", "en": "I didn't know you'd already eaten.", "speak": "Non sapevo che aveste già mangiato." },
+        { "nl": "Era strano che non avesse chiamato.", "en": "It was strange he hadn't called.", "speak": "Era strano che non avesse chiamato." },
+        { "nl": "Pensavo che si fosse dimenticato.", "en": "I thought he'd forgotten.", "speak": "Pensavo che si fosse dimenticato." },
+        { "nl": "Speravo che fossero arrivati in tempo.", "en": "I hoped they'd arrived in time.", "speak": "Speravo che fossero arrivati in tempo." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Nello stesso momento o prima?",
+      "pairs": [
+        { "left": "Pensavo che **fosse** a casa.", "right": "Pensavo che **fosse già andato** a casa.", "note": "imperfetto = allora; trapassato = prima di allora." },
+        { "left": "Credevo che **studiasse**.", "right": "Credevo che **avesse studiato**.", "note": "'studiasse' è contemporaneo; 'avesse studiato' è già fatto prima." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Quando sono arrivato, la festa era finita. Non sapevo che ___ già.»",
+      "options": ["fosse cominciata", "cominciasse", "sia cominciata"],
+      "correct": 0,
+      "explain": "L'inizio della festa è **prima** del tuo arrivo (già passato) → congiuntivo **trapassato**: *fosse cominciata*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Dì: 'I thought they had already left.' — usa *pensavo che…* e *partire* (loro).",
+      "answers": ["pensavo che fossero già partiti", "pensavo che fossero partiti"],
+      "hint": "partire → essere; il participio concorda: partiti.",
+      "explain": "*Pensavo che fossero già partiti.* Trapassato: *fossero* (cong. imperf. di essere) + *partiti*."
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci: prima di un fatto passato",
+      "prompt": "Fai una frase al congiuntivo trapassato.",
+      "slots": [
+        { "label": "Trigger passato", "chips": ["Credevo che", "Non sapevo che", "Era strano che"] },
+        { "label": "Soggetto", "chips": ["tu", "Sofia", "loro"] },
+        { "label": "Ausiliare imperf. + participio", "chips": ["avessi già finito", "fosse già partita", "fossero già usciti"] }
+      ],
+      "sample": "Credevo che Sofia fosse già partita."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You arrive at Giulia's for dinner, late.",
+      "lines": [
+        { "speaker": "You", "nl": "Scusa il ritardo! Pensavo che aveste iniziato senza di me.", "en": "Sorry I'm late! I thought you'd started without me." },
+        { "speaker": "Giulia", "nl": "Ma no! Ti abbiamo aspettato.", "en": "No way! We waited for you." },
+        { "speaker": "You", "nl": "Credevo che il treno fosse già passato.", "en": "I thought the train had already gone.", "spotlight": "trapassato: prima del mio arrivo." },
+        { "speaker": "Giulia", "nl": "Figurati, è sempre in ritardo. Marco pensava che ti fossi perso.", "en": "As if, it's always late. Marco thought you'd gotten lost." },
+        { "speaker": "You", "nl": "Quasi! Non sapevo che aveste cambiato casa.", "en": "Almost! I didn't know you'd moved.", "spotlight": "'aveste cambiato' — fatto anteriore." },
+        { "speaker": "Giulia", "nl": "Vero, non te l'avevo detto. Dai, siediti.", "en": "True, I hadn't told you. Come on, sit down." },
+        { "speaker": "You", "nl": "Speravo che non aveste mangiato tutto!", "en": "I was hoping you hadn't eaten everything!" },
+        { "speaker": "Giulia", "nl": "Tranquillo, il meglio è ancora in forno.", "en": "Relax, the best is still in the oven." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Racconta una volta in cui sei arrivato/a e qualcosa era già successo. Usa il congiuntivo trapassato (*pensavo che fosse già…, non sapevo che aveste…*).",
+      "starters": ["Quando sono arrivato/a, pensavo che…", "Non sapevo che…", "Credevo che…"],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "day-52",
+  "day": 52,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "Meinungen sagen",
+  "emoji": "💬",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Share opinions with ich finde, ich glaube, meiner Meinung nach, and climb the agreement ladder",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Wie man seine Meinung sagt",
+      "body": "Three easy openers for opinions: **ich finde** (I think/find — casual, everyday), **ich glaube** (I believe/think), and **meiner Meinung nach** (in my opinion — a touch more formal). All three just start the sentence with normal V2 word order after them: *Ich finde Berlin super.* *Meiner Meinung nach ist Deutsch nicht so schwer.*",
+      "callout": "Notice: after *meiner Meinung nach*, the verb still comes second — the phrase just fills the first slot, so the verb follows right after it."
+    },
+    {
+      "type": "chips",
+      "title": "Meinungs-Starter — tap to hear",
+      "items": [
+        { "nl": "Ich finde…", "en": "I think/find…", "speak": "Ich finde" },
+        { "nl": "Ich glaube…", "en": "I believe…", "speak": "Ich glaube" },
+        { "nl": "Meiner Meinung nach…", "en": "In my opinion…", "speak": "Meiner Meinung nach" },
+        { "nl": "Das stimmt.", "en": "That's right.", "speak": "Das stimmt." },
+        { "nl": "Das sehe ich anders.", "en": "I see it differently.", "speak": "Das sehe ich anders." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Die Zustimmungs-Leiter (agreement ladder)",
+      "pairs": [
+        { "left": "Genau, da hast du recht! — full agreement", "right": "Na ja, vielleicht… — soft hedge", "note": "Between the two: Das stimmt (that's right) and Das sehe ich ein bisschen anders (I see that a bit differently) fill the middle." },
+        { "left": "Das stimmt total. — strong agree", "right": "Das sehe ich anders. — polite disagree", "note": "Das sehe ich anders disagrees without attacking — the German way to keep a debate friendly." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Your friend says something you strongly disagree with. What's the politest pushback?",
+      "options": ["Quatsch, das ist falsch!", "Das sehe ich anders.", "Nein!"],
+      "correct": 1,
+      "explain": "*Das sehe ich anders* (I see it differently) disagrees without being harsh — much softer than a flat *Nein* or calling it *Quatsch*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'In my opinion, Berlin is great.'",
+      "answers": ["Meiner Meinung nach ist Berlin super.", "Meiner Meinung nach ist Berlin super"],
+      "hint": "meiner Meinung nach + verb + subject…",
+      "explain": "*Meiner Meinung nach ist Berlin super.* — the phrase fills the front slot, so *ist* comes right after it (V2 still holds)."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Jonas and you argue, cheerfully, about Currywurst vs. Döner at the Kneipe.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Ich finde, Currywurst ist das beste Essen in Berlin.", "en": "I think currywurst is the best food in Berlin.", "spotlight": "ich finde + opinion — no dass needed here." },
+        { "speaker": "You", "nl": "Na ja, ich glaube, Döner ist besser.", "en": "Well, I think döner is better." },
+        { "speaker": "Jonas", "nl": "Was?! Das sehe ich total anders!", "en": "What?! I see that completely differently!" },
+        { "speaker": "You", "nl": "Meiner Meinung nach ist Döner einfach praktischer.", "en": "In my opinion, döner is just more practical." },
+        { "speaker": "Jonas", "nl": "Na gut, da hast du vielleicht ein bisschen recht.", "en": "Alright, maybe you're a little bit right about that." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Jonas think is Berlin's best food?", "options": ["Döner", "Currywurst", "Brötchen"], "correct": 1 },
+        { "q": "Does Jonas fully agree with you by the end?", "options": ["Yes, completely", "No, not at all", "A little bit"], "correct": 2 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Sag deine Meinung",
+      "prompt": "Build an opinion sentence about something in your life.",
+      "slots": [
+        { "label": "Starter", "chips": ["Ich finde", "Ich glaube", "Meiner Meinung nach"] },
+        { "label": "Thema + Meinung", "chips": ["Deutsch ist nicht so schwer", "Berlin ist super", "meine Stadt ist schön"] }
+      ],
+      "sample": "Ich finde, Deutsch ist nicht so schwer."
+    },
+    {
+      "type": "journal",
+      "prompt": "Was ist deine Meinung? Write 2–3 sentences about something you have an opinion on — food, your city, learning German. Use ich finde, ich glaube, or meiner Meinung nach, and try to agree or disagree with an imaginary friend.",
+      "starters": ["Ich finde…", "Ich glaube…", "Meiner Meinung nach…"]
+    }
+  ]
+}

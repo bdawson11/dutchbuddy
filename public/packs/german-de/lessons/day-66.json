@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "day-66",
+  "day": 66,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Passiv: Hier wird gearbeitet",
+  "emoji": "🚧",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The werden-passive of signs and news — when who does it doesn't matter: hier wird gebaut, die Straße wird gesperrt.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Wenn egal ist, wer es tut",
+      "body": "German signs and news love the **passive**: **werden + Partizip II**. The doer disappears, the action stays. *Man baut hier* becomes **Hier wird gebaut** ('work is being done here'). It's all over the street — *Hier wird gearbeitet*, *Der Aufzug wird repariert* — and in the news: *Die Straße wird gesperrt* (the road is being closed).",
+      "table": {
+        "headers": ["Aktiv", "Passiv (werden + Partizip II)"],
+        "rows": [
+          ["Man repariert die U-Bahn.", "Die U-Bahn wird repariert."],
+          ["Man baut hier.", "Hier wird gebaut."],
+          ["Man feiert heute.", "Heute wird gefeiert."]
+        ]
+      },
+      "callout": "The recipe: **werden** (conjugated, slot 2) + the **Partizip II** at the end. You already know the participles from the Perfekt."
+    },
+    {
+      "type": "chips",
+      "title": "Schilder und Nachrichten — tap to hear",
+      "items": [
+        { "nl": "Hier wird gebaut.", "en": "Construction here.", "speak": "Hier wird gebaut." },
+        { "nl": "Hier wird gearbeitet.", "en": "Work in progress.", "speak": "Hier wird gearbeitet." },
+        { "nl": "Der Aufzug wird repariert.", "en": "The lift is being repaired.", "speak": "Der Aufzug wird repariert." },
+        { "nl": "Die Straße wird gesperrt.", "en": "The road is being closed.", "speak": "Die Straße wird gesperrt." },
+        { "nl": "Heute wird gestreikt.", "en": "There's a strike today.", "speak": "Heute wird gestreikt." },
+        { "nl": "Der Laden wird renoviert.", "en": "The shop is being renovated.", "speak": "Der Laden wird renoviert." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Aktiv → Passiv",
+      "pairs": [
+        { "left": "Man sperrt die Brücke.", "right": "Die Brücke wird gesperrt.", "note": "The object *die Brücke* becomes the subject; the doer (*man*) drops out." },
+        { "left": "Sie renovieren das Café.", "right": "Das Café wird renoviert.", "note": "*renovieren* takes no *ge-* (verbs in *-ieren* never do): *renoviert*." },
+        { "left": "Wir feiern heute.", "right": "Heute wird gefeiert.", "note": "No object at all? German still builds a passive: *es/heute wird gefeiert*." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ein Schild am Laden: 'The shop is being renovated.' Wie steht das da?",
+      "options": ["Der Laden renoviert.", "Der Laden wird renoviert.", "Der Laden hat renoviert."],
+      "correct": 1,
+      "explain": "Passiv = **werden + Partizip II**: *wird renoviert*. Option 1 would mean the shop renovates something itself."
+    },
+    {
+      "type": "typed",
+      "prompt": "Passiv bilden: 'Here it's being worked on.' → Hier ___ ___.",
+      "answers": ["wird gearbeitet", "Hier wird gearbeitet", "Hier wird gearbeitet."],
+      "hint": "werden (slot 2) + Partizip II (end).",
+      "explain": "*Hier wird gearbeitet.* Classic building-site German — no subject needed, just *es/hier wird…*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Du liest: 'U2 — heute wird nicht gefahren.' Was heißt das?",
+      "options": ["Fahr heute langsam.", "Die U2 fährt heute nicht.", "Die U2 fährt heute schneller."],
+      "correct": 1,
+      "explain": "*Es wird nicht gefahren* = there's no service. The passive hides the doer; the message is: no trains today."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the news line.",
+      "speak": "Die Straße wird heute gesperrt.",
+      "answers": ["Die Straße wird heute gesperrt", "Die Straße wird heute gesperrt.", "die straße wird heute gesperrt"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "You and Lena hit a wall of construction signs on the way to the café.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Guck mal, hier wird mal wieder gebaut. Die ganze Straße wird gesperrt.", "en": "Look, they're building here again. The whole street's being closed.", "spotlight": "*wird gebaut*, *wird gesperrt* — two passives, no doer named." },
+        { "speaker": "You", "nl": "Und die U-Bahn? Fährt die?", "en": "And the subway? Is it running?" },
+        { "speaker": "Lena", "nl": "Nein, steht da: Heute wird nicht gefahren. Streik.", "en": "No, it says: no service today. Strike.", "spotlight": "*Heute wird nicht gefahren* — subjectless passive, pure sign-German." },
+        { "speaker": "You", "nl": "Na super. Dann laufen wir.", "en": "Great. We'll walk, then." },
+        { "speaker": "Lena", "nl": "Passt. Übrigens — Aylins Sache wird gerade entschieden. Diese Woche noch.", "en": "Fine by me. By the way — Aylin's thing is being decided right now. This very week.", "spotlight": "*wird entschieden* — even Aylin's decision gets the passive; still not final." },
+        { "speaker": "You", "nl": "Ich drück ihr die Daumen.", "en": "I'll keep my fingers crossed for her." },
+        { "speaker": "Lena", "nl": "Ich auch. So, hier wird jetzt Kaffee getrunken.", "en": "Me too. Right — coffee is now being drunk here.", "spotlight": "A playful passive: *hier wird Kaffee getrunken*." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Verstanden?",
+      "questions": [
+        { "q": "Warum fährt die U-Bahn nicht?", "options": ["Wegen eines Streiks.", "Wegen des Wetters.", "Wegen eines Unfalls."], "correct": 0 },
+        { "q": "Wie ist der Stand bei Aylins Entscheidung?", "options": ["Sie ist schon entschieden.", "Sie wird diese Woche entschieden.", "Sie ist abgesagt."], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Was wird in deiner Stadt gerade gebaut, repariert oder gesperrt? Schreib drei Passiv-Sätze mit *wird … + Partizip II*.",
+      "starters": ["In meiner Straße wird…", "Der/Die/Das … wird…", "Hier wird gerade…"],
+      "minSentences": 3
+    }
+  ]
+}

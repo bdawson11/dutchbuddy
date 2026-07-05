@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "day-60",
+  "day": 60,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Konjunktiv II: würde, könnte, hätte gern",
+  "emoji": "🙏",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "German politeness and hypotheticals run on Konjunktiv II — würde + infinitive, plus the direct forms hätte, wäre, könnte. Soften requests, give advice, order like a local.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Der höfliche Modus",
+      "body": "German softens almost everything with **Konjunktiv II**. The all-purpose tool is **würde + Infinitiv**: *Ich **würde** gern mitkommen* (I'd like to come along), ***Würdest** du mir helfen?* (Would you help me?). It turns a demand into a request and a fact into a maybe. This is the same *würde* you'll use for hypotheticals tomorrow — today it's about being polite.",
+      "callout": "Merksatz: **würde + Infinitiv** = die höfliche, vorsichtige Variante. *Ich würde sagen …* klingt viel weicher als *Ich sage …*."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the polite forms",
+      "items": [
+        { "nl": "Ich würde gern mitkommen.", "en": "I'd like to come along.", "speak": "Ich würde gern mitkommen." },
+        { "nl": "Könntest du mir helfen?", "en": "Could you help me?", "speak": "Könntest du mir helfen?" },
+        { "nl": "Ich hätte gern einen Kaffee.", "en": "I'd like a coffee.", "speak": "Ich hätte gern einen Kaffee." },
+        { "nl": "Das wäre super.", "en": "That would be great.", "speak": "Das wäre super." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Direkt vs. höflich",
+      "pairs": [
+        { "left": "Mach das Fenster auf! — blunt (imperative)", "right": "Könntest du das Fenster aufmachen? — polite (Konjunktiv II)", "note": "*könntest* + the request turns an order into a favour." },
+        { "left": "Ich will einen Kaffee. — blunt", "right": "Ich hätte gern einen Kaffee. — polite", "note": "*Ich hätte gern …* is the standard way to order. *Ich will* at a counter sounds rude." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is the polite, natural way to order at a café?",
+      "options": [
+        "Ich will einen Kaffee.",
+        "Ich hätte gern einen Kaffee.",
+        "Ich würde haben einen Kaffee."
+      ],
+      "correct": 1,
+      "explain": "*Ich hätte gern …* is the standard polite order. *Ich will* sounds blunt, and *würde haben* is wrong — *haben* has its own Konjunktiv II form, *hätte*."
+    },
+    {
+      "type": "card",
+      "title": "Nicht 'würde haben' — hätte, wäre, könnte",
+      "body": "A few very common verbs have their **own** short Konjunktiv II form, and you use it **directly** — never with *würde*. Learn these three by heart and you're most of the way there.",
+      "table": {
+        "headers": ["Verb", "Konjunktiv II", "nicht …"],
+        "rows": [
+          ["haben", "ich hätte", "würde haben"],
+          ["sein", "ich wäre", "würde sein"],
+          ["können", "ich könnte", "würde können"]
+        ]
+      },
+      "callout": "Für fast alle anderen Verben nimmst du einfach **würde + Infinitiv**: *würde gehen, würde sagen, würde reisen*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Make it polite in German: 'Could you help me?' (du-form, helfen)",
+      "answers": ["Könntest du mir helfen?", "Könntest du mir helfen", "Koenntest du mir helfen?"],
+      "hint": "Konjunktiv II of können + mir (helfen takes the dative).",
+      "explain": "*Könntest du mir helfen?* — *könntest* (Konjunktiv II of *können*) plus *mir*, because *helfen* takes the dative."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole sentence.",
+      "speak": "Ich würde gern früher gehen.",
+      "answers": ["Ich würde gern früher gehen.", "Ich wuerde gern frueher gehen"]
+    },
+    {
+      "type": "builder",
+      "title": "Höflich fragen oder raten",
+      "prompt": "Build a polite request or a piece of advice. An deiner Stelle würde ich …",
+      "slots": [
+        { "label": "Rahmen", "chips": ["An deiner Stelle würde ich", "Ich würde gern", "Könntest du"] },
+        { "label": "Rest", "chips": ["mit ihr reden", "früher nach Hause gehen", "mir helfen"] }
+      ],
+      "sample": "An deiner Stelle würde ich mit ihr reden."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You need a hand getting a heavy shelf up into your flat, so you text Lena.",
+      "lines": [
+        { "speaker": "You", "nl": "Du Lena, könntest du mir am Samstag kurz helfen?", "en": "Hey Lena, could you help me for a bit on Saturday?", "spotlight": "*könntest du mir … helfen* — the go-to polite ask, with *mir* in the dative." },
+        { "speaker": "Lena", "nl": "Klar, was brauchst du denn?", "en": "Sure, what do you need?" },
+        { "speaker": "You", "nl": "Ich würde gern mein Regal aufbauen, aber allein schaffe ich das nicht.", "en": "I'd like to put up my shelf, but I can't manage it alone.", "spotlight": "*Ich würde gern … aufbauen* — würde + infinitive at the end." },
+        { "speaker": "Lena", "nl": "Kein Problem. Ich würde sagen, ich komme so gegen elf?", "en": "No problem. I'd say I'll come around eleven?" },
+        { "speaker": "You", "nl": "Das wäre super. Hättest du danach Lust auf einen Kaffee?", "en": "That would be great. Would you fancy a coffee afterwards?" },
+        { "speaker": "Lena", "nl": "Immer. Ich würde sogar Kuchen mitbringen.", "en": "Always. I'd even bring cake." },
+        { "speaker": "You", "nl": "Perfekt, danke dir!", "en": "Perfect, thank you!" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schreib drei höfliche Bitten oder Wünsche mit *würde*, *könnte* oder *hätte gern* — zum Beispiel für die Arbeit, im Café oder mit Freunden.",
+      "starters": ["Ich würde gern …", "Könntest du bitte …", "Ich hätte gern …", "An deiner Stelle würde ich …"],
+      "minSentences": 3
+    }
+  ]
+}

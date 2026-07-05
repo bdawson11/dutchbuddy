@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "day-32",
+  "day": 32,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "Me he levantado: el perfecto reflexivo",
+  "emoji": "🚿",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Reflexive verbs in the perfecto — the pronoun jumps in front of haber, never onto the participle.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El pronombre va delante de haber",
+      "body": "Reflexive verbs like *levantarse* (to get up) and *ducharse* (to shower) keep their reflexive pronoun in the perfecto — it just moves to the front, standing alone right before **haber**.",
+      "table": {
+        "headers": ["Pronombre", "Perfecto de levantarse"],
+        "rows": [
+          ["me", "he levantado"],
+          ["te", "has levantado"],
+          ["se", "ha levantado"],
+          ["nos", "hemos levantado"],
+          ["os", "habéis levantado"],
+          ["se", "han levantado"]
+        ]
+      },
+      "callout": "El reflexivo nunca se pega a haber ni al participio: siempre **me he levantado**, nunca *heme levantado*."
+    },
+    {
+      "type": "chips",
+      "title": "Escucha el perfecto reflexivo",
+      "items": [
+        { "nl": "me he levantado", "en": "I've gotten up", "speak": "me he levantado" },
+        { "nl": "te has duchado", "en": "you've showered", "speak": "te has duchado" },
+        { "nl": "se ha despertado", "en": "she's woken up", "speak": "se ha despertado" },
+        { "nl": "nos hemos vestido", "en": "we've gotten dressed", "speak": "nos hemos vestido" },
+        { "nl": "os habéis peinado", "en": "you all have combed your hair", "speak": "os habéis peinado" },
+        { "nl": "se han acostado", "en": "they've gone to bed", "speak": "se han acostado" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "El pronombre nunca se pega",
+      "pairs": [
+        { "left": "me he levantado ✅", "right": "heme levantado ❌", "note": "The reflexive pronoun always stands alone in front of haber — it never attaches to it." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cómo se dice 'we have gotten dressed'?",
+      "options": ["nos hemos vestido", "hemos vestido nos", "hemos nos vestido"],
+      "correct": 0,
+      "explain": "El reflexivo *nos* va delante de haber: **nos hemos vestido**."
+    },
+    {
+      "type": "typed",
+      "prompt": "Escribe 'you (tú) have showered'.",
+      "answers": ["te has duchado"],
+      "hint": "te + has + duchado",
+      "explain": "**te has duchado** — el pronombre *te* delante de *has*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "se ha despertado tarde",
+      "answers": ["se ha despertado tarde"]
+    },
+    {
+      "type": "builder",
+      "title": "Construye con un reflexivo",
+      "prompt": "Combina el pronombre + haber con un participio reflexivo.",
+      "slots": [
+        { "label": "Pronombre + haber", "chips": ["me he", "te has", "nos hemos"] },
+        { "label": "Participio", "chips": ["levantado tarde", "duchado rápido", "vestido para la fiesta"] }
+      ],
+      "sample": "Me he levantado tarde."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Nacho tells you about his morning before work.",
+      "lines": [
+        { "speaker": "Nacho", "nl": "Hoy me he levantado a las seis, como siempre.", "en": "Today I got up at six, like always." },
+        { "speaker": "You", "nl": "¡Qué pronto! ¿Te has duchado en casa o en el gimnasio?", "en": "So early! Did you shower at home or at the gym?" },
+        { "speaker": "Nacho", "nl": "En casa. Mi hija se ha despertado también, muy temprano.", "en": "At home. My daughter woke up too, very early." },
+        { "speaker": "You", "nl": "¿Os habéis vestido rápido?", "en": "Did you all get dressed quickly?", "spotlight": "os habéis vestido — the vosotros reflexive perfecto." },
+        { "speaker": "Nacho", "nl": "Sí, nos hemos vestido en diez minutos. En el pueblo todo es más tranquilo, la verdad.", "en": "Yeah, we got dressed in ten minutes. Back in the village everything's calmer, honestly." },
+        { "speaker": "You", "nl": "Algún día tengo que ir a visitar tu pueblo.", "en": "One day I have to go visit your village." },
+        { "speaker": "Nacho", "nl": "Cuando quieras, hombre.", "en": "Whenever you like, man." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe qué has hecho esta mañana usando verbos reflexivos: levantarte, ducharte, vestirte…",
+      "starters": ["Me he levantado…", "Me he duchado…"],
+      "minSentences": 2
+    }
+  ]
+}
