@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-77",
+  "day": 77,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "capstone",
+  "title": "Meine Geschichte: Teil 11 — mein Wiedersehen",
+  "emoji": "🎭",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Week 11 capstone — pull together verb-prepositions, particles and adjective endings, then say your self-intro two ways: politely (Sie) and casually (du)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Rückblick: Woche 11",
+      "body": "This week was all about **sounding** German, not just being correct. You learned verb-preposition pairs (*warten auf, denken an, sich freuen auf/über*), the soul-of-spoken-German particles (*doch, mal, halt, na ja*), attributive **adjective endings** (*ein guter Kaffee*), how to keep talking through a case wobble (*sag's, reparier, weiter*), and *du/Sie* calibration. Today: braid it all — and say your story in **two registers**.",
+      "callout": "The B1 polish is on. One more week to the finale."
+    },
+    {
+      "type": "chips",
+      "title": "Kurzer Refresh — tap to hear",
+      "items": [
+        { "nl": "Ich freue mich auf das Wiedersehen.", "en": "I'm looking forward to the reunion.", "speak": "Ich freue mich auf das Wiedersehen." },
+        { "nl": "Das schaffst du schon.", "en": "You'll manage.", "speak": "Das schaffst du schon." },
+        { "nl": "ein richtig gutes Jahr", "en": "a really good year", "speak": "ein richtig gutes Jahr" },
+        { "nl": "Wollen wir uns duzen?", "en": "Shall we use 'du'?", "speak": "Wollen wir uns duzen?" },
+        { "nl": "Dem, den… egal, weiter.", "en": "Dem, den… whatever, on we go.", "speak": "Dem, den, egal, weiter." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Vervollständige: „Ich denke oft ___ das letzte Jahr.“",
+      "options": ["auf", "an", "über", "von"],
+      "correct": 1,
+      "explain": "*denken an* + Akkusativ: *an das letzte Jahr*. *warten* takes *auf*, *träumen* takes *von* — each verb keeps its own preposition."
+    },
+    {
+      "type": "typed",
+      "prompt": "Schreib auf Deutsch: „to a good year!“ als Trinkspruch — „___!“ (das Jahr, mit *auf* + Akkusativ)",
+      "answers": ["Auf ein gutes Jahr!", "Auf ein gutes Jahr", "auf ein gutes Jahr!"],
+      "hint": "Toasts use *auf* + Akkusativ; *das Jahr* is neuter → *ein gutes Jahr*.",
+      "explain": "*Auf ein gutes Jahr!* — neuter accusative after *auf*, so the adjective takes *-es*: *ein gutes Jahr*."
+    },
+    {
+      "type": "contrast",
+      "title": "Dieselbe Vorstellung, zwei Register",
+      "pairs": [
+        { "left": "Guten Tag, mein Name ist Sam. Und Sie? — Sie", "right": "Hey, ich bin Sam. Und du? — du", "note": "Same intro, two worlds. *mein Name ist* + *Und Sie?* is formal; *ich bin* + *Und du?* is casual. This is today's Meine-Geschichte move." },
+        { "left": "Freut mich, Sie kennenzulernen. — Sie", "right": "Schön, dich kennenzulernen. — du", "note": "The pronoun flips (*Sie* → *dich*), the verb stays. Keep one lane per conversation." }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und schreib den Trinkspruch.",
+      "speak": "Auf ein gutes Jahr! Prost!",
+      "answers": ["Auf ein gutes Jahr! Prost!", "Auf ein gutes Jahr! Prost", "Auf ein gutes Jahr, Prost!"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "You bump into Jonas at the Kneipe after not seeing him for a while — a proper reunion.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Ey, lange nicht gesehen! Wie geht's dir denn?", "en": "Hey, long time no see! So how are you?", "spotlight": "*denn* makes it warm curiosity; full *du* between old friends." },
+        { "speaker": "You", "nl": "Richtig gut! Mein Deutsch ist viel besser geworden.", "en": "Really good! My German has gotten a lot better." },
+        { "speaker": "Jonas", "nl": "Das hört man echt. Du redest jetzt viel lockerer.", "en": "You can really hear it. You talk much more loosely now." },
+        { "speaker": "You", "nl": "Ja, ich denke nicht mehr über jeden Fall nach. Ich sag's einfach.", "en": "Yeah, I don't overthink every case anymore. I just say it.", "spotlight": "*nachdenken über* + Akk — and the whole day-74 lesson in one line." },
+        { "speaker": "Jonas", "nl": "Genau so macht man das. Und die Endungen kommen dann halt von allein.", "en": "That's exactly how it's done. And the endings just come by themselves." },
+        { "speaker": "You", "nl": "Meistens. Manchmal sag ich „dem… den… egal“ und rede weiter.", "en": "Mostly. Sometimes I say 'dem… den… whatever' and keep going.", "spotlight": "Default-and-repair, live and unbothered." },
+        { "speaker": "Jonas", "nl": "Perfekt. So klingst du wie ein echter Berliner, ne?", "en": "Perfect. That's how you sound like a real Berliner, right?" },
+        { "speaker": "You", "nl": "Quatsch, aber danke! Auf ein gutes Jahr, Jonas.", "en": "Nonsense, but thanks! To a good year, Jonas.", "spotlight": "*Auf ein gutes Jahr* — neuter accusative, adjective *-es*." },
+        { "speaker": "Jonas", "nl": "Auf ein gutes Jahr! Prost.", "en": "To a good year! Cheers." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hast du's mitbekommen?",
+      "questions": [
+        { "q": "Was sagt Jonas über dein Deutsch?", "options": ["Es ist schlechter geworden", "Du redest viel lockerer", "Du sprichst zu schnell"], "correct": 1 },
+        { "q": "Was macht „You“, wenn ein Fall unklar ist?", "options": ["Aufhören", "Weiterreden und leicht reparieren", "Auf Englisch wechseln"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Beschreib dich — mit Adjektivendungen",
+      "prompt": "Build one polished sentence about yourself, with adjective endings doing the work.",
+      "slots": [
+        { "label": "Ich bin…", "chips": ["Ich bin ein neugieriger Mensch", "Ich bin eine ruhige Person"] },
+        { "label": "Herkunft", "chips": ["aus einer kleinen Stadt", "aus einer großen Stadt"] },
+        { "label": "Zusatz", "chips": ["und ich lerne seit einem Jahr Deutsch", "und ich mag das lockere Berliner Leben"] }
+      ],
+      "sample": "Ich bin ein neugieriger Mensch aus einer kleinen Stadt und ich lerne seit einem Jahr Deutsch."
+    },
+    {
+      "type": "builder",
+      "title": "Meine Geschichte — Teil 11 (du-Version)",
+      "prompt": "Build your self-introduction in the casual du register, now polished with adjective endings.",
+      "slots": [
+        { "label": "Gruß", "chips": ["Hey, ich bin Sam", "Hallo, ich heiße Sam"] },
+        { "label": "Herkunft", "chips": ["ich komme aus einer kleinen Stadt in Kanada", "ich bin aus einer großen Stadt"] },
+        { "label": "Deutsch", "chips": ["und ich lerne seit einem Jahr Deutsch", "und ich spreche jetzt ganz gutes Deutsch"] },
+        { "label": "Rückfrage (du)", "chips": ["Und du?", "Und wie heißt du?"] }
+      ],
+      "sample": "Hey, ich bin Sam, ich komme aus einer kleinen Stadt in Kanada und ich lerne seit einem Jahr Deutsch. Und du?"
+    },
+    {
+      "type": "journal",
+      "prompt": "Meine Geschichte, Woche 11! Schreib deine Vorstellung ZWEIMAL: einmal förmlich (mit *Sie*, z. B. „Guten Tag, mein Name ist…“) und einmal locker (mit *du*, z. B. „Hey, ich bin…“). Nimm alle bisherigen Schichten mit (Name, Herkunft, dass du Deutsch lernst, eine Sache über dich) und bau mindestens zwei Adjektivendungen ein (*eine kleine Stadt, ein neues Leben, gutes Deutsch*). Nächste Woche das große Finale — du bist fast da!",
+      "starters": ["Guten Tag, mein Name ist… (Sie)", "Hey, ich bin… (du)", "Ich komme aus einer …en Stadt", "Ich lerne seit… Deutsch", "Ich interessiere mich für…"],
+      "minSentences": 5
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "day-22",
+  "day": 22,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Frühstück, Mittagessen, Abendbrot",
+  "emoji": "🍞",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Germany's three-meal rhythm and the cultural concept of Abendbrot — a cold bread supper instead of a second hot meal",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Drei Mahlzeiten, ein Tag",
+      "body": "The German day runs on three meals: **Frühstück** (breakfast), **Mittagessen** (lunch, traditionally the main meal), and **Abendbrot** — literally \"evening bread\". Instead of cooking a second hot meal, many Germans eat *Brot* with cold cuts, cheese, and pickles for dinner. It's not laziness — it's a whole culture built around good bread.",
+      "table": {
+        "headers": ["Mahlzeit", "Typisch dabei"],
+        "rows": [
+          ["Frühstück — breakfast", "Brötchen, Marmelade, Ei"],
+          ["Mittagessen — lunch", "Kartoffeln, Reis, Fleisch"],
+          ["Abendbrot — dinner (\"evening bread\")", "Brot, Wurst, Käse"]
+        ]
+      },
+      "callout": "*Abendbrot* is the word AND the meal — a whole culture in one compound noun."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the meals",
+      "items": [
+        { "nl": "das Frühstück", "en": "breakfast", "speak": "das Frühstück" },
+        { "nl": "das Mittagessen", "en": "lunch", "speak": "das Mittagessen" },
+        { "nl": "das Abendbrot", "en": "dinner (bread supper)", "speak": "das Abendbrot" },
+        { "nl": "das Brötchen", "en": "bread roll", "speak": "das Brötchen" },
+        { "nl": "die Marmelade", "en": "jam", "speak": "die Marmelade" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Regionale Namen für Brötchen",
+      "body": "*Brötchen* is the standard word everywhere in Germany — but locally, people have pet names for it. In Berlin, Lena calls it *eine Schrippe*; head south and you might hear *Weck*. For speaking and writing, stick with the standard: **Brötchen**.",
+      "callout": "Standard, safe, everywhere: *das Brötchen*."
+    },
+    {
+      "type": "contrast",
+      "title": "Warm vs kalt",
+      "pairs": [
+        { "left": "Mittagessen — warm, oft Kartoffeln oder Reis", "right": "Abendbrot — kalt, Brot mit Wurst und Käse", "note": "Lunch is traditionally the hot meal; dinner is simple and cold." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Was liegt auf dem Brot?",
+      "items": [
+        { "nl": "die Wurst", "en": "sausage / cold cuts", "speak": "die Wurst" },
+        { "nl": "der Käse", "en": "cheese", "speak": "der Käse" },
+        { "nl": "die Butter", "en": "butter", "speak": "die Butter" },
+        { "nl": "das Ei", "en": "egg", "speak": "das Ei" },
+        { "nl": "der Honig", "en": "honey", "speak": "der Honig" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which meal is traditionally COLD in Germany?",
+      "options": ["das Mittagessen", "das Abendbrot", "das Frühstück"],
+      "correct": 1,
+      "explain": "*Abendbrot* — literally \"evening bread\": bread, cold cuts, and cheese instead of a second hot meal."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the standard German word for 'bread roll' (not the Berlin nickname).",
+      "answers": ["Brötchen", "das Brötchen"],
+      "hint": "Neuter noun, ends in -chen.",
+      "explain": "*Brötchen* — Lena might say *Schrippe* on the street, but *Brötchen* is what you write and what works everywhere."
+    },
+    {
+      "type": "shadow",
+      "title": "Repeat: dein Tag auf Deutsch",
+      "lines": [
+        { "nl": "Zum Frühstück esse ich ein Brötchen.", "en": "For breakfast I eat a bread roll." },
+        { "nl": "Zum Mittagessen gibt es oft Kartoffeln.", "en": "For lunch there's often potatoes." },
+        { "nl": "Zum Abendbrot esse ich Brot mit Käse.", "en": "For dinner I eat bread with cheese." }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the phrase.",
+      "speak": "Guten Appetit",
+      "answers": ["Guten Appetit"]
+    },
+    {
+      "type": "journal",
+      "prompt": "What does your Abendbrot look like? Write 2–3 German sentences about your Frühstück, Mittagessen, and Abendbrot using 'es gibt' or 'ich esse'.",
+      "starters": ["Zum Frühstück esse ich…", "Zum Mittagessen gibt es…", "Zum Abendbrot esse ich…"],
+      "minSentences": 3
+    }
+  ]
+}

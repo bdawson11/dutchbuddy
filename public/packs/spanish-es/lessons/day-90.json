@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "day-90",
+  "day": 90,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "review",
+  "title": "Sobremesa: opinar de verdad",
+  "emoji": "🍷",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Week 13 review woven into a real sobremesa debate; meet Marta, the Sevillana colleague (Andalusian-accent exposure).",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso de la semana 13 — y una cara nueva",
+      "body": "Esta semana has montado el **subjuntivo imperfecto** (*viniera, fuera, pudiera*), la **concordancia** (pasado arriba → imperfecto de subjuntivo abajo), los **conectores de matiz** (*por un lado…, ahora bien, no es que… sino que…*), *ojalá* y *como si*, y la **cortesía** del condicional. Hoy todo eso se junta en una **sobremesa**.\n\nY conoces a **Marta**, sevillana, compañera de Lucía en Recursos Humanos. **Exposición al andaluz** (solo para el oído): en Sevilla se **aspira la -s** final (*loh doh* por *los dos*), se cae la *-d-* entre vocales (*cansá* por *cansada*) y se oye *illo/quillo* como coletilla. En las tarjetas la escribimos en **castellano estándar** — tu objetivo sigue siendo el castellano; el andaluz solo hay que **reconocerlo**.",
+      "callout": "Marta habla con acento sevillano; aquí la lees en estándar. Reconocer, no imitar."
+    },
+    {
+      "type": "chips",
+      "title": "Repaso rápido — toca y repite",
+      "items": [
+        { "nl": "quería que vinieras", "en": "I wanted you to come", "speak": "quería que vinieras" },
+        { "nl": "ojalá pudiéramos", "en": "if only we could", "speak": "ojalá pudiéramos" },
+        { "nl": "no es que no me guste", "en": "it's not that I don't like it", "speak": "no es que no me guste" },
+        { "nl": "por un lado… por otro", "en": "on one hand… on the other", "speak": "por un lado, por otro" },
+        { "nl": "¿te importaría?", "en": "would you mind?", "speak": "¿te importaría?" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Repaso de concordancia: «Nos pidieron que ___ puntuales.»",
+      "options": ["seamos", "fuéramos", "seríamos", "somos"],
+      "correct": 1,
+      "explain": "*Pidieron* (pasado) → subjuntivo imperfecto: **fuéramos**. Con *nos piden* (presente) sería *seamos*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "After lunch, Lucía introduces Marta and the table gets into remote work.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Mirad, os presento a Marta, que trabaja conmigo en Recursos Humanos. Es de Sevilla.", "en": "Look, this is Marta, she works with me in HR. She's from Seville." },
+        { "speaker": "Marta", "nl": "¡Encantada! Qué bien, illo, por fin os conozco. Lucía habla mucho de vosotros.", "en": "Lovely to meet you! Great, at last I meet you all. Lucía talks about you a lot.", "spotlight": "Marta suelta *illo* como coletilla andaluza; el resto es castellano estándar (y usa *vosotros*)." },
+        { "speaker": "Rafa", "nl": "El placer es nuestro. Oye, ¿y en tu empresa qué tal lo del teletrabajo?", "en": "The pleasure's ours. Hey, and how's the remote-work thing going at your company?" },
+        { "speaker": "Marta", "nl": "Pues mira, por un lado la gente rinde más, pero por otro se pierde el roce. En el fondo yo pediría un modelo mixto.", "en": "Well, on one hand people are more productive, but on the other you lose the contact. Deep down I'd ask for a hybrid model.", "spotlight": "*por un lado… por otro* + *en el fondo* + condicional *pediría*: opinión de B2 en una frase." },
+        { "speaker": "Lucía", "nl": "Yo, si pudiera, teletrabajaría tres días. Ojalá lo implantaran ya en la agencia.", "en": "If I could, I'd work from home three days. I wish they'd bring it in at the agency already.", "spotlight": "*si pudiera, teletrabajaría* (irreal) + *ojalá + implantaran* (deseo poco probable)." },
+        { "speaker": "Rafa", "nl": "Buah, no es que no lo entienda, es que yo en casa no doy palo al agua.", "en": "Ugh, it's not that I don't get it, it's that at home I don't do a stroke of work." },
+        { "speaker": "You", "nl": "Hombre, hasta cierto punto te doy la razón, pero a mí me cundiría más sin el ruido de la oficina.", "en": "I mean, up to a point I agree, but I'd get more done without the office noise." },
+        { "speaker": "Marta", "nl": "Eso sí, habría que confiar en la gente. Mi antiguo jefe quería que fichásemos hasta desde casa, imaginaos.", "en": "That said, you'd have to trust people. My old boss wanted us to clock in even from home, imagine.", "spotlight": "*quería que fichásemos*: concordancia con la forma -se." },
+        { "speaker": "Lucía", "nl": "Qué horror. Ojalá los jefes se fiaran un poco más, ¿no?", "en": "How awful. If only bosses trusted people a bit more, right?" },
+        { "speaker": "Marta", "nl": "Al final es cuestión de equilibrio. Ya veréis como dentro de unos años lo damos por normal.", "en": "In the end it's a matter of balance. You'll see how in a few years we take it as normal." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Has seguido la sobremesa?",
+      "questions": [
+        { "q": "¿De dónde es Marta y a qué se dedica?", "options": ["De Sevilla, trabaja en Recursos Humanos", "De Valencia, es diseñadora", "De Madrid, es música"], "correct": 0 },
+        { "q": "¿Qué modelo defiende Marta?", "options": ["Presencial total", "Un modelo mixto", "Teletrabajo total"], "correct": 1 },
+        { "q": "¿Qué desea Lucía con 'ojalá'?", "options": ["Que los jefes se fíen más de la gente", "Volver a la oficina cinco días", "Cambiar de empresa"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Reescribe suavizando y matizando: «Quiero que cambies eso.» → empieza con «Preferiría que ___ eso.»",
+      "answers": ["cambiaras", "cambiases"],
+      "hint": "Preferiría (condicional) arrastra el subjuntivo a imperfecto.",
+      "explain": "**Preferiría que cambiaras eso.** El condicional *preferiría* exige subjuntivo imperfecto (*cambiaras / cambiases*) y suena mucho más suave que la orden directa."
+    },
+    {
+      "type": "journal",
+      "prompt": "Imagina que estás en esa sobremesa. Da tu opinión sobre el teletrabajo en 4–5 frases: concede algo, matiza con un conector, mete un *ojalá* + imperfecto y suaviza una propuesta con el condicional.",
+      "starters": ["Por un lado…, pero por otro…", "No es que…, es que…", "Ojalá…", "Yo propondría que…"],
+      "minSentences": 4
+    }
+  ]
+}

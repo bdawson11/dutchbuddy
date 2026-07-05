@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "day-54",
+  "day": 54,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "El mejor bar de Madrid",
+  "emoji": "⚖️",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Comparatives and superlatives: más... que, tan... como, mejor, el mejor",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Más que, menos que, tan como",
+      "body": "Para comparar, usa **más + adjetivo + que** (more than) o **menos + adjetivo + que** (less than): *Madrid es más grande que Toledo.* Para decir que dos cosas son iguales, usa **tan + adjetivo + como**: *Este bar es tan bueno como el otro.*",
+      "callout": "El adjetivo siempre concuerda: *más grande, más grandes, tan buena como*."
+    },
+    {
+      "type": "card",
+      "title": "Los irregulares: mejor, peor, mayor, menor",
+      "body": "Algunos comparativos no siguen la regla: **bueno → mejor** (better), **malo → peor** (worse), **grande → mayor** (older/bigger), **pequeño → menor** (younger/smaller). Nunca digas *más bueno* — di **mejor**.",
+      "table": {
+        "headers": ["Adjetivo", "Comparativo"],
+        "rows": [
+          ["bueno/a", "mejor"],
+          ["malo/a", "peor"],
+          ["grande (edad)", "mayor"],
+          ["pequeño/a (edad)", "menor"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "El superlativo: el/la más… de",
+      "body": "Para decir 'el más' de un grupo, usa **el/la/los/las + (sustantivo) + más + adjetivo + de**: *el mejor bar del barrio, la tapa más rica de Madrid*. Con los irregulares no repitas 'más': **el mejor**, no *el más mejor*.",
+      "callout": "*Rafa es el más gracioso de mis amigos.* — Rafa is the funniest of my friends."
+    },
+    {
+      "type": "contrast",
+      "title": "más… que vs. tan… como",
+      "pairs": [
+        { "left": "más/menos + adj + que → desigualdad", "right": "tan + adj + como → igualdad", "note": "*El pueblo es más tranquilo que Madrid* (desigual) vs *el pueblo es tan bonito como Madrid* (igual)." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Rafa toca la guitarra mejor que yo. → 'mejor' es el comparativo irregular de…",
+      "options": ["bien/bueno", "malo", "grande"],
+      "correct": 0,
+      "explain": "**mejor** es el comparativo irregular de *bueno/bien* — nunca *más bueno*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa: El AVE es ___ (rápido) que el autobús. (usa más… que)",
+      "answers": ["más rápido que"],
+      "hint": "más + adjetivo + que",
+      "explain": "*más rápido que* — comparativo regular de desigualdad."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa: Para mí, este bar es el ___ (bueno) del barrio.",
+      "answers": ["mejor"],
+      "hint": "superlativo irregular de bueno",
+      "explain": "*el mejor* — nunca *el más bueno*."
+    },
+    {
+      "type": "dictation",
+      "speak": "mi pueblo es más tranquilo",
+      "answers": ["mi pueblo es más tranquilo"]
+    },
+    {
+      "type": "builder",
+      "title": "Madrid vs. el pueblo",
+      "prompt": "Construye una comparación entre dos lugares.",
+      "slots": [
+        { "label": "Lugar 1", "chips": ["Madrid", "El pueblo", "Este bar"] },
+        { "label": "Comparativo", "chips": ["es más tranquilo que", "es tan bonito como", "es mejor que"] },
+        { "label": "Lugar 2", "chips": ["el pueblo", "Madrid", "el otro bar"] }
+      ],
+      "sample": "El pueblo es más tranquilo que Madrid."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Nacho compara su pueblo con Madrid, como siempre — con orgullo.",
+      "lines": [
+        { "speaker": "Nacho", "nl": "Hombre, en mi pueblo se vive mejor que aquí, te lo digo yo.", "en": "Well, life is better in my village than here, I'm telling you.", "spotlight": "mejor que — comparativo irregular de bueno." },
+        { "speaker": "You", "nl": "¿En serio? Pero Madrid tiene más de todo, ¿no?", "en": "Really? But Madrid has more of everything, right?" },
+        { "speaker": "Nacho", "nl": "Más ruido, más tráfico… El pueblo es tan bonito como Madrid, y más tranquilo.", "en": "More noise, more traffic… The village is as pretty as Madrid, and quieter." },
+        { "speaker": "You", "nl": "Buah, no sé. A mí me encanta la ciudad.", "en": "Ugh, I don't know. I love the city." },
+        { "speaker": "Nacho", "nl": "Cada uno con lo suyo. Pero el mejor bar de tapas, ese sí está en mi pueblo.", "en": "To each their own. But the best tapas bar, that one really is in my village." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Compara dos lugares que conoces (tu ciudad y otra, o dos barrios). Usa más… que, tan… como, y al menos un irregular (mejor/peor).",
+      "starters": ["… es más… que…", "… es tan… como…"]
+    }
+  ]
+}

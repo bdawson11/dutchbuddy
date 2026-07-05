@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-11",
+  "day": 11,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Präsens und das V2-Gesetz",
+  "emoji": "⚙️",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Regular present-tense endings and German's non-negotiable rule: the finite verb always sits second",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Präsens: die Endungen",
+      "body": "Regular verbs follow one pattern. Take *machen* (to do/make): *ich mache, du machst, er/sie/es macht, wir machen, ihr macht, sie/Sie machen*. Six pronouns, six endings — learn the pattern once and it works for hundreds of verbs: *lernen, wohnen, kaufen, spielen, kochen*…",
+      "table": {
+        "headers": ["Pronomen", "machen"],
+        "rows": [
+          ["ich", "mache"],
+          ["du", "machst"],
+          ["er/sie/es", "macht"],
+          ["wir", "machen"],
+          ["ihr", "macht"],
+          ["sie/Sie", "machen"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Die Endungen hören",
+      "items": [
+        { "nl": "ich mache", "en": "I do/make", "speak": "ich mache" },
+        { "nl": "du machst", "en": "you do/make", "speak": "du machst" },
+        { "nl": "er macht", "en": "he does/makes", "speak": "er macht" },
+        { "nl": "wir machen", "en": "we do/make", "speak": "wir machen" },
+        { "nl": "ihr macht", "en": "you all do/make", "speak": "ihr macht" },
+        { "nl": "sie machen", "en": "they do/make", "speak": "sie machen" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "V2: das Verb ist immer an zweiter Stelle",
+      "body": "German's most important word-order rule: in a main clause, the **finite verb is always the second element** — not necessarily the second word, the second **slot**. *Ich lerne heute Deutsch.* (I / lerne / today German.) Move *heute* to the front and the verb **stays** in slot two — the subject jumps after it: *Heute lerne ich Deutsch.* Never *Heute ich lerne Deutsch* — that's English word order, not German.",
+      "callout": "Whatever you put first — subject, time, place — the verb holds position two like a law of physics."
+    },
+    {
+      "type": "contrast",
+      "title": "Was auch vorne steht — das Verb bleibt zweite",
+      "pairs": [
+        { "left": "Ich wohne in Berlin.", "right": "In Berlin wohne ich.", "note": "Same meaning — *wohne* stays in slot two either way; only *ich* and *in Berlin* swap." },
+        { "left": "Ich lerne heute Deutsch.", "right": "Heute lerne ich Deutsch.", "note": "Front *heute* and the subject *ich* hops after the verb — V2 never breaks." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence has correct German word order?",
+      "options": ["Heute ich lerne Deutsch.", "Heute lerne ich Deutsch.", "Heute lernt ich Deutsch."],
+      "correct": 1,
+      "explain": "The verb *lerne* must stay in slot two; the subject *ich* moves after it. \"Heute ich lerne\" is English order, not German."
+    },
+    {
+      "type": "typed",
+      "prompt": "Start with 'Heute': 'Ich arbeite viel.' → ?",
+      "answers": ["Heute arbeite ich viel."],
+      "hint": "The verb stays in slot two; the subject follows it.",
+      "explain": "Heute arbeite ich viel. — *heute* takes slot one, *arbeite* holds slot two, *ich* comes right after."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the sentence.",
+      "speak": "Ich lerne jeden Tag Deutsch.",
+      "answers": ["Ich lerne jeden Tag Deutsch."]
+    },
+    {
+      "type": "builder",
+      "title": "Baue einen V2-Satz",
+      "prompt": "Build a sentence that starts with a time word — the verb must stay in second place.",
+      "slots": [
+        { "label": "Zeit", "chips": ["Heute", "Morgen", "Jeden Tag"] },
+        { "label": "Verb + Subjekt", "chips": ["lerne ich", "wohne ich", "arbeite ich"] },
+        { "label": "Rest", "chips": ["Deutsch.", "in Berlin.", "viel."] }
+      ],
+      "sample": "Heute lerne ich Deutsch."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Klaus tells you about his week in Cologne.",
+      "lines": [
+        { "speaker": "Klaus", "nl": "Ich arbeite als Architekt hier in Köln.", "en": "I work as an architect here in Cologne." },
+        { "speaker": "You", "nl": "Und wie sieht dein Tag aus?", "en": "And what does your day look like?" },
+        { "speaker": "Klaus", "nl": "Morgens arbeite ich, abends koche ich gern.", "en": "In the mornings I work, in the evenings I like to cook.", "spotlight": "*Morgens arbeite ich* — time word first, verb second, subject third. V2 in action." },
+        { "speaker": "You", "nl": "Kochst du oft?", "en": "Do you cook often?" },
+        { "speaker": "Klaus", "nl": "Ja, fast jeden Tag. In Köln kochen viele gern.", "en": "Yes, almost every day. In Cologne, a lot of people like to cook." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What is Klaus's job?", "options": ["Teacher", "Architect", "Chef"], "correct": 1 },
+        { "q": "What does he do in the evenings?", "options": ["Works", "Cooks", "Reads"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write 3 sentences about your day using regular present-tense verbs — start at least one with a time word (Heute, Morgens, Abends) and keep the verb in second place.",
+      "starters": ["Ich wohne…", "Heute…", "Abends…"]
+    }
+  ]
+}

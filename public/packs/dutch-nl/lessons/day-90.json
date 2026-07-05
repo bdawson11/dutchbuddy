@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "day-90",
+  "day": 90,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "review",
+  "title": "Seizoen twee begint — koffie met Emma",
+  "emoji": "☕",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Week 13 review and the season-2 opener: a passive-heavy catch-up in which Emma reveals a reorganisation at work and a job offer she's weighing",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 13, op een rij",
+      "body": "Deze week draaide om het **passief** — de lijdende vorm. Vandaag begint seizoen twee: je tweede jaar Nederlands. Emma heeft nieuws van haar werk, en dat zit vol passief. **Blijf in het Nederlands.**",
+      "table": {
+        "headers": ["Deze week", "Wat je nu kunt"],
+        "rows": [
+          ["worden + deelwoord", "de daad centraal: *de mail wordt verstuurd*"],
+          ["werd / is", "daad (*werd*) vs resultaat (*is geopend*)"],
+          ["modaal + worden", "*het moet gedaan worden* — ook in de bijzin"],
+          ["er wordt …", "onpersoonlijk: *er wordt gewerkt*"],
+          ["passief & men", "formeel register: *men wordt verzocht…*"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Opwarmen — tik om te horen",
+      "items": [
+        { "nl": "Er wordt bij ons flink gereorganiseerd.", "en": "There's a big reorganisation going on with us.", "speak": "Er wordt bij ons flink gereorganiseerd." },
+        { "nl": "De teams worden opnieuw ingedeeld.", "en": "The teams are being reshuffled.", "speak": "De teams worden opnieuw ingedeeld." },
+        { "nl": "Mij is een nieuwe functie aangeboden.", "en": "I've been offered a new role.", "speak": "Mij is een nieuwe functie aangeboden." },
+        { "nl": "Er moet veel geregeld worden.", "en": "A lot has to be arranged.", "speak": "Er moet veel geregeld worden." },
+        { "nl": "Alles wordt volgende maand beslist.", "en": "Everything's decided next month.", "speak": "Alles wordt volgende maand beslist." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Ze hebben Emma een nieuwe functie aangeboden.* Welke passieve zin klopt?",
+      "options": ["Emma is een nieuwe functie aangeboden.", "Emma wordt een nieuwe functie aanbieden.", "Emma heeft aangeboden een functie."],
+      "correct": 0,
+      "explain": "*Emma is een nieuwe functie aangeboden* — de ontvanger (Emma) wordt onderwerp, de dader valt weg. Netjes passief."
+    },
+    {
+      "type": "typed",
+      "prompt": "Zet in het passief: *Het bedrijf reorganiseert de afdeling.* Begin met: De afdeling …",
+      "answers": ["De afdeling wordt gereorganiseerd", "De afdeling wordt gereorganiseerd.", "De afdeling wordt door het bedrijf gereorganiseerd", "De afdeling wordt door het bedrijf gereorganiseerd."],
+      "hint": "*wordt* + *gereorganiseerd*.",
+      "explain": "*De afdeling wordt (door het bedrijf) gereorganiseerd.* Focus op wat er gebeurt, niet op wie."
+    },
+    {
+      "type": "dialogue",
+      "scene": "A café in de Pijp, a bright Saturday. Your second year of Dutch. Emma has news.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Zo, daar ben je weer! En je Nederlands is alleen maar beter geworden, hoor.", "en": "There you are again! And your Dutch has only gotten better." },
+        { "speaker": "You", "nl": "Dank je. Ik oefen nog elke dag. Hoe is het met jou?", "en": "Thanks. I still practice every day. How are you?" },
+        { "speaker": "Emma", "nl": "Druk. Bij ons wordt op het moment van alles verbouwd — letterlijk én op kantoor.", "en": "Busy. Right now everything's being rebuilt with us — literally and at the office." },
+        { "speaker": "You", "nl": "Verbouwd?", "en": "Rebuilt?" },
+        { "speaker": "Emma", "nl": "Ja, er wordt gereorganiseerd. De teams worden opnieuw ingedeeld.", "en": "Yeah, there's a reorganisation. The teams are being reshuffled.", "spotlight": "Onpersoonlijk passief + gewoon passief in één adem." },
+        { "speaker": "You", "nl": "Klinkt spannend. En jij?", "en": "Sounds exciting. And you?" },
+        { "speaker": "Emma", "nl": "Nou… mij is een nieuwe functie aangeboden. Teamlead. Ik moet nog beslissen.", "en": "Well… I've been offered a new role. Team lead. I still have to decide.", "spotlight": "Passief met de ontvanger vooraan: *mij is … aangeboden*." },
+        { "speaker": "You", "nl": "Wat goed, Emma! Ga je het doen?", "en": "That's great, Emma! Are you going to do it?" },
+        { "speaker": "Emma", "nl": "Weet ik nog niet. Er moet veel geregeld worden, en ik twijfel of het bij me past.", "en": "Don't know yet. A lot has to be arranged, and I doubt whether it suits me." },
+        { "speaker": "You", "nl": "Je zou het geweldig doen.", "en": "You'd be great at it." },
+        { "speaker": "Emma", "nl": "Lief dat je dat zegt. We zien wel — alles wordt volgende maand beslist.", "en": "Sweet of you to say. We'll see — everything's decided next month." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Emma's nieuws",
+      "questions": [
+        { "q": "Wat gebeurt er op Emma's werk?", "options": ["Er wordt gereorganiseerd", "Het bedrijf sluit", "Niets bijzonders"], "correct": 0 },
+        { "q": "Wat is Emma aangeboden?", "options": ["Ontslag", "Een nieuwe functie als teamlead", "Een baan in een andere stad"], "correct": 1 },
+        { "q": "Heeft Emma al besloten?", "options": ["Ja, ze doet het", "Nee, ze twijfelt nog", "Nee, ze zegt nee"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Emma twijfelt over een nieuwe baan. Schrijf haar een kort advies in het Nederlands: wat zou jij doen, en waarom? Gebruik minstens één passieve zin. Minstens drie zinnen.",
+      "starters": ["Als ik jou was, …", "Ik vind dat je het moet doen, want …", "Er wordt vast veel van je gevraagd, maar …"],
+      "minSentences": 3
+    }
+  ]
+}

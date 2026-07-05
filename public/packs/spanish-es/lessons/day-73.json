@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-73",
+  "day": 73,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Diminutivos y aumentativos",
+  "emoji": "🤏",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "-ito/-illo for warmth and softening, -azo for size and impact — and why ahorita isn't Spain",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Pequeño, con cariño",
+      "body": "The diminutive **-ito/-ita** makes something small — but far more often it adds **warmth, politeness or a soft touch**: *un momentito* (just a sec), *un cafelito* (a nice little coffee), *espera un poquito* (wait a tiny bit). It's not really about size; it's about tone.",
+      "callout": "*¿Me pones una cañita?* sounds friendlier than *¿me pones una caña?* — same beer, softer ask."
+    },
+    {
+      "type": "card",
+      "title": "Cómo se forma",
+      "body": "Add **-ito/-ita**, tweaking the spelling so it still *sounds* right. Watch the c → qu and g → gu swaps, and the -ec- that short words take.",
+      "table": {
+        "headers": ["Palabra", "Diminutivo"],
+        "rows": [
+          ["poco", "poquito (c → qu)"],
+          ["amigo", "amiguito (g → gu)"],
+          ["momento", "momentito"],
+          ["café", "cafelito"],
+          ["flor", "florecita (short word → -ecita)"],
+          ["pueblo", "pueblecito"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "-illo, muy de España — y una trampa latinoamericana",
+      "body": "Spain also loves **-illo/-illa**, sometimes fond, sometimes just the real name of a thing: *un ratillo* (a little while), *un bocadillo* (a sandwich — not a small mouthful!), *la ventanilla* (the ticket window). And a warning: the diminutive **ahorita** ('in a bit') is **Latin American, not Spain**. In Madrid you say **ahora mismo** or **enseguida**.",
+      "callout": "Some have frozen into full words: *bocadillo, cigarrillo, bombilla* — no longer 'small' anything."
+    },
+    {
+      "type": "contrast",
+      "title": "-ito (pequeño / cariño) vs -azo (grande / impacto)",
+      "pairs": [
+        { "left": "-ito/-illo → small, fond, soft", "right": "*un cochecito* — a little car / a pram", "note": "Cariño o cortesía." },
+        { "left": "-azo/-aza → big, impressive", "right": "*¡vaya cochazo!* — what an amazing car!", "note": "Admiración… o tamaño. También *golazo* (a great goal)." },
+        { "left": "-azo → también un golpe", "right": "*un portazo* — a door slam; *un codazo* — an elbow jab", "note": "Con objetos o partes del cuerpo, *-azo* = un golpe dado con eso." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Diminutivos para suavizar",
+      "items": [
+        { "nl": "Un momentito, por favor.", "en": "Just a moment, please.", "speak": "Un momentito, por favor." },
+        { "nl": "¿Te pongo un poquito más?", "en": "Shall I give you a tiny bit more?", "speak": "¿Te pongo un poquito más?" },
+        { "nl": "Espera un ratito.", "en": "Wait a little while.", "speak": "Espera un ratito." },
+        { "nl": "¿Nos tomamos una cañita?", "en": "Shall we grab a little beer?", "speak": "¿Nos tomamos una cañita?" },
+        { "nl": "Ahora mismo voy.", "en": "I'm coming right now.", "speak": "Ahora mismo voy." },
+        { "nl": "¡Menudo golazo!", "en": "What an amazing goal!", "speak": "¡Menudo golazo!" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "En un bar de Madrid, ¿cómo pides una cerveza pequeña de forma simpática?",
+      "options": ["¿Me pones una cañita?", "¿Me pone usted una cerveza ahorita?", "Quiero una caña ya"],
+      "correct": 0,
+      "explain": "*¿Me pones una cañita?* — el diminutivo suaviza y el tuteo es lo normal en un bar. *Ahorita* es latinoamericano; en España, *ahora mismo*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "«¡Vaya golazo!» expresa…",
+      "options": ["Un gol pequeñito", "Un gol tremendo, de admiración", "Un golpe en la puerta"],
+      "correct": 1,
+      "explain": "El aumentativo **-azo** aquí es admiración: *golazo* = un gol espectacular. (Ojo: *-azo* también puede ser un golpe: *un portazo*.)"
+    },
+    {
+      "type": "typed",
+      "prompt": "Forma el diminutivo cariñoso de 'poco' (a tiny bit):",
+      "answers": ["poquito"],
+      "hint": "c → qu para mantener el sonido /k/.",
+      "explain": "*poco* → *poquito*. La c se escribe *qu* para que siga sonando /k/ ante la -i."
+    },
+    {
+      "type": "dialogue",
+      "scene": "On a terraza with Lucía — hear how the diminutives soften everything.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "¿Nos tomamos una cañita antes de comer?", "en": "Shall we grab a little beer before lunch?", "spotlight": "cañita = the friendly way to order." },
+        { "speaker": "You", "nl": "Venga, y unas aceitunas. Pero solo un ratito, que tengo prisa.", "en": "Alright, and some olives. But just a little while, I'm in a hurry." },
+        { "speaker": "Lucía", "nl": "Que sí, mujer, un momentito y ya. ¿Un pincho de tortilla?", "en": "Yeah yeah, just a sec and that's it. A bit of tortilla?" },
+        { "speaker": "You", "nl": "Un trocito, porfa. ¿Está buena aquí?", "en": "A little piece, please. Is it good here?" },
+        { "speaker": "Lucía", "nl": "Buenísima. Bueno… un pelín aceitosa, pero rica.", "en": "Really good. Well… a tad oily, but tasty." },
+        { "speaker": "You", "nl": "Pues me apunto. Un cafelito luego y para casa.", "en": "I'm in then. A little coffee after and off home." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe cuatro frases pidiendo cosas de forma suave y simpática, usando diminutivos (un momentito, un poquito, una cañita, un ratito). Recuerda: en España, ahora mismo, no 'ahorita'.",
+      "starters": ["¿Me pones un…?", "Espera un…", "Solo un poquito de…", "¿Nos tomamos una…?"],
+      "minSentences": 4
+    }
+  ]
+}
