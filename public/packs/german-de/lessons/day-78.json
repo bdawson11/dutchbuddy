@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "day-78",
+  "day": 78,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "Komm mal her! Der Imperativ",
+  "emoji": "📣",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Give commands the friendly German way — the du/ihr/Sie imperative and the little softeners that keep it polite",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Der du-Befehl: einfach das -st wegwerfen",
+      "body": "To give a command to a friend, take the **du-form**, drop the **-st** ending *and* the pronoun *du*: *du kommst* → **Komm!**, *du machst* → **Mach!**. If the stem ends in *-t* or *-d* (or an awkward cluster), keep a soft **-e** so it's sayable: *du wartest* → **Warte!**, *du öffnest* → **Öffne!**. Separable verbs split as always — the prefix flies to the end: *du hörst zu* → **Hör zu!**",
+      "table": {
+        "headers": ["du-Form", "Befehl (Imperativ)"],
+        "rows": [
+          ["du kommst", "Komm!"],
+          ["du machst", "Mach!"],
+          ["du wartest", "Warte!"],
+          ["du passt auf", "Pass auf!"]
+        ]
+      },
+      "callout": "German commands sound blunt on paper but warm in a café. The softeners on the next card fix the tone."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear everyday commands",
+      "items": [
+        { "nl": "Komm mal her!", "en": "come here (a sec)!", "speak": "Komm mal her!" },
+        { "nl": "Warte mal!", "en": "wait a sec!", "speak": "Warte mal!" },
+        { "nl": "Pass auf!", "en": "watch out! / pay attention!", "speak": "Pass auf!" },
+        { "nl": "Hör zu!", "en": "listen!", "speak": "Hör zu!" },
+        { "nl": "Setz dich!", "en": "sit down!", "speak": "Setz dich!" },
+        { "nl": "Guck mal!", "en": "look!", "speak": "Guck mal!" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Die Weichmacher: mal, doch, bitte",
+      "body": "A bare imperative can sound barked. Germans soften it with tiny particles: **mal** (just, briefly), **doch** (go on), **bitte** (please). *Komm!* is an order; **Komm mal!** is a nudge; **Komm doch mal her!** is warm and inviting. Stack them — *mal* and *doch* together are extra gentle.",
+      "callout": "*Setz dich doch!* = „Do have a seat.” Same verb, zero bossiness."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Your friend is dawdling and you want to say „Wait!”. Which is the correct du-command?",
+      "options": ["Wartest!", "Warte!", "Du warte!"],
+      "correct": 1,
+      "explain": "*Warte!* — drop the *-st* and the pronoun. You keep the *-e* here because the stem *wart-* ends in *-t*, otherwise it's a tongue-twister."
+    },
+    {
+      "type": "contrast",
+      "title": "Same command, du vs Sie",
+      "pairs": [
+        { "left": "Komm mit! — to a friend (du)", "right": "Kommen Sie mit! — to a stranger (Sie)", "note": "*du*: drop *-st* and the pronoun. *Sie*: keep the full *-en* form and put **Sie** right after the verb." },
+        { "left": "Setz dich! — sit down (du)", "right": "Setzen Sie sich! — sit down (Sie)", "note": "The reflexive switches too: *dich* → *sich*. Keep the register consistent across the whole sentence." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Tell a friend „Listen!” using the separable verb *zuhören*.",
+      "answers": ["Hör zu!", "Hör zu", "Hör mal zu!", "Hör mal zu"],
+      "hint": "Drop the -st, and the prefix zu- lands at the end.",
+      "explain": "*Hör zu!* — the separable prefix *zu* jumps to the end, exactly like in a normal main clause (*du hörst zu*)."
+    },
+    {
+      "type": "card",
+      "title": "Zwei Sonderfälle: Gib! und Sei!",
+      "body": "Strong verbs that flip **e→i/ie** in the du-form keep the flip and drop the *-e*: *du gibst* → **Gib!**, *du nimmst* → **Nimm!**, *du liest* → **Lies!**. But an **a→ä** switch does **not** carry over: *du fährst* → **Fahr!** (never *Fähr*). And *sein* is its own animal: **Sei ruhig!** / **Seien Sie ruhig!**",
+      "table": {
+        "headers": ["Verb", "du-Befehl"],
+        "rows": [
+          ["geben (du gibst)", "Gib!"],
+          ["nehmen (du nimmst)", "Nimm!"],
+          ["lesen (du liest)", "Lies!"],
+          ["fahren (du fährst)", "Fahr!"],
+          ["sein", "Sei!"]
+        ]
+      }
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the command.",
+      "speak": "Pass mal auf!",
+      "answers": ["Pass mal auf!", "Pass mal auf", "Pass mal auf!"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena spots you across the street and waves you over — imperatives flying.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Ey, komm mal her! Guck mal, was ich gefunden habe.", "en": "Hey, come here a sec! Look what I found.", "spotlight": "*Komm mal her!* and *Guck mal!* — softened commands, the way friends actually talk." },
+        { "speaker": "You", "nl": "Warte, ich komme. Pass auf, ein Fahrrad!", "en": "Wait, I'm coming. Watch out, a bike!" },
+        { "speaker": "Lena", "nl": "Ups, danke. Setz dich kurz, ich erzähl dir was.", "en": "Oops, thanks. Sit down a sec, I'll tell you something." },
+        { "speaker": "You", "nl": "Okay, aber mach schnell — ich habe echt Hunger.", "en": "Okay, but be quick — I'm really hungry." },
+        { "speaker": "Lena", "nl": "Quatsch, komm, ich geb dir einen Kaffee aus. Sei nicht so ungeduldig!", "en": "Nonsense, come on, coffee's on me. Don't be so impatient!", "spotlight": "*Sei nicht so…!* — the irregular imperative of *sein*." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write three friendly commands for a friend (use *mal* or *doch* so they sound warm, not bossy). Then write one polite Sie-command for a stranger — say, asking someone to wait a moment.",
+      "starters": ["Komm doch mal…", "Warte mal…", "Hör zu,…", "Warten Sie bitte…"],
+      "minSentences": 4
+    }
+  ]
+}

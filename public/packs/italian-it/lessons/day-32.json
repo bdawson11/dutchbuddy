@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "day-32",
+  "day": 32,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "Essere o avere? La scelta giusta",
+  "emoji": "⚖️",
+  "level": "A2",
+  "durationMin": [16, 24],
+  "summary": "Reflexives take essere with agreement; some verbs take both auxiliaries with a meaning shift",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "The rule in short",
+      "body": "**Avere** for most transitive verbs (*ho mangiato, ho letto*). **Essere** for motion/change (*sono andato*) and for **every reflexive verb** (*mi sono alzato*) — and in that case the participle always agrees with the subject.",
+      "callout": "Reflexive = essere, always. No exceptions."
+    },
+    {
+      "type": "card",
+      "title": "A reflexive, step by step",
+      "body": "*Alzarsi* (to get up) in the passato prossimo: the reflexive *mi/ti/si* stays, essere is the auxiliary, and the participle agrees.",
+      "table": {
+        "headers": ["Persona", "Presente", "Passato (uomo)", "Passato (donna)"],
+        "rows": [
+          ["io", "mi alzo", "mi sono alzato", "mi sono alzata"],
+          ["tu", "ti alzi", "ti sei alzato", "ti sei alzata"],
+          ["lei/lui", "si alza", "si è alzato", "si è alzata"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Listen to the reflexives",
+      "items": [
+        { "nl": "Mi sono svegliato presto.", "en": "I woke up early. (a man)", "speak": "Mi sono svegliato presto." },
+        { "nl": "Mi sono svegliata presto.", "en": "I woke up early. (a woman)", "speak": "Mi sono svegliata presto." },
+        { "nl": "Mi sono lavato le mani.", "en": "I washed my hands.", "speak": "Mi sono lavato le mani." },
+        { "nl": "Mi sono vestita in fretta.", "en": "I got dressed in a hurry. (a woman)", "speak": "Mi sono vestita in fretta." },
+        { "nl": "Mi sono divertito un sacco.", "en": "I had a blast. (a man)", "speak": "Mi sono divertito un sacco." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Sofia, this morning: 'I woke up at 7.' Which is correct?",
+      "options": ["Ho svegliato alle sette.", "Mi sono svegliata alle sette.", "Sono svegliato alle sette."],
+      "correct": 1,
+      "explain": "Reflexive → essere + agreement: *mi sono svegliata*, because Sofia is a woman."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which verb can take EITHER avere or essere, depending on meaning?",
+      "options": ["parlare", "finire", "dormire"],
+      "correct": 1,
+      "explain": "*Finire il libro* (avere, transitive) vs *il film è finito* (essere, intransitive)."
+    },
+    {
+      "type": "contrast",
+      "title": "Same verb, different auxiliary",
+      "pairs": [
+        { "left": "*Ho finito il libro.* — I finished the book (transitive, avere)", "right": "*Il film è finito.* — The movie ended (intransitive, essere)", "note": "Ask yourself: is there a direct object? If yes, it's often avere." },
+        { "left": "*Ho cambiato idea.* — I changed my mind (avere)", "right": "*Sono cambiato molto.* — I've changed a lot (essere)", "note": "Same verb, different meaning depending on the auxiliary." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'I got up at eight' (a man speaking).",
+      "answers": ["mi sono alzato alle otto"],
+      "hint": "reflexive + essere + masculine agreement.",
+      "explain": "*Mi sono alzato alle otto* — reflexive, essere, -o agreement."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Mi sono divertita ieri sera.",
+      "answers": ["mi sono divertita ieri sera", "mi sono divertita ieri sera."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Marco tells Giulia about his morning, at the bar",
+      "lines": [
+        { "speaker": "Marco", "nl": "Mi sono svegliato tardissimo stamattina.", "en": "I woke up really late this morning." },
+        { "speaker": "Giulia", "nl": "Ah no! Ti sei alzato dopo le dieci?", "en": "Oh no! Did you get up after ten?", "spotlight": "ti sei alzato — reflexive with masculine agreement, since it's addressed to Marco." },
+        { "speaker": "Marco", "nl": "Sì, e poi sono passato in libreria prima di aprire.", "en": "Yes, and then I stopped by the bookshop before opening." },
+        { "speaker": "Giulia", "nl": "Almeno ti sei divertito ieri sera, no?", "en": "At least you had fun last night, right?" },
+        { "speaker": "Marco", "nl": "Sì, mi sono divertito un sacco!", "en": "Yes, I had a blast!" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write 2-3 sentences about your morning yesterday, using at least one reflexive verb in the passato prossimo.",
+      "starters": ["Mi sono svegliato/a…", "Mi sono alzato/a…"],
+      "minSentences": 2
+    }
+  ]
+}

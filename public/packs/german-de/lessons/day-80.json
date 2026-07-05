@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-80",
+  "day": 80,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "Feierabend in der Kneipe: Prost!",
+  "emoji": "🍺",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Order, toast and split the bill like a regular — the whole flow of a German Feierabendbier",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Feierabend — der heilige Moment",
+      "body": "**Feierabend** has no English word: it's the sacred moment the workday ends. The classic ritual is the **Feierabendbier** at your **Stammkneipe** (your regular local). It's less about drinking than about *sitting down and switching off*. Know the flow — order, toast, split the bill — and you'll fit right in.",
+      "callout": "„Schönen Feierabend!” is a genuine goodbye to a colleague at 5pm — as normal as „have a good evening.”"
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the Kneipe essentials",
+      "items": [
+        { "nl": "Ein Bier, bitte.", "en": "A beer, please.", "speak": "Ein Bier, bitte." },
+        { "nl": "Eine Apfelschorle, bitte.", "en": "An apple spritzer, please.", "speak": "Eine Apfelschorle, bitte." },
+        { "nl": "Noch eins?", "en": "Another one?", "speak": "Noch eins?" },
+        { "nl": "Prost!", "en": "Cheers!", "speak": "Prost!" },
+        { "nl": "Zahlen, bitte!", "en": "The bill, please!", "speak": "Zahlen, bitte!" },
+        { "nl": "Getrennt oder zusammen?", "en": "Separate or together?", "speak": "Getrennt oder zusammen?" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Der Ablauf: bestellen, anstoßen, zahlen",
+      "body": "You order round by round, not all at once — *Noch eins?* („another?”). If you offer a round, say **Die Runde geht auf mich** or **Ich geb einen aus**. When you clink glasses (*anstoßen*), always look each other **in the eyes**. At the end you call **Zahlen, bitte!** and the server asks the classic question: **Getrennt oder zusammen?**",
+      "table": {
+        "headers": ["Auf Deutsch", "Auf Englisch"],
+        "rows": [
+          ["Was möchtest du trinken?", "What do you want to drink?"],
+          ["Die Runde geht auf mich.", "This round's on me."],
+          ["Getrennt oder zusammen?", "Separate checks or one bill?"],
+          ["Stimmt so.", "Keep the change."]
+        ]
+      },
+      "callout": "Beim Prost schaut man sich in die Augen — sonst, sagt man, gibt's sieben Jahre Pech!"
+    },
+    {
+      "type": "mcq",
+      "prompt": "The server clears the glasses and asks „Getrennt oder zusammen?”. What does she want to know?",
+      "options": ["Beer or wine?", "Separate checks or one bill?", "Inside or outside?"],
+      "correct": 1,
+      "explain": "*Getrennt oder zusammen?* is the standard end-of-evening question: do you each pay for yourself (*getrennt*) or all on one bill (*zusammen*)? Decide before she asks."
+    },
+    {
+      "type": "contrast",
+      "title": "Kleine Kneipe-Kontraste",
+      "pairs": [
+        { "left": "Zusammen, bitte. — one bill", "right": "Getrennt, bitte. — separate bills", "note": "Your answer to the server's question. Germans split cheerfully — *getrennt* is completely normal, even on a date." },
+        { "left": "Noch ein Bier? — another beer?", "right": "Noch eins, bitte. — another one, please", "note": "*eins* stands in for *ein Bier* so you don't repeat the noun. *noch* = more / another." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Order „a beer, please” at the bar.",
+      "answers": ["Ein Bier, bitte.", "Ein Bier bitte", "Ein Bier, bitte", "Ein Bier"],
+      "hint": "Bier is neuter: das Bier → ein Bier.",
+      "explain": "*Ein Bier, bitte.* — short and perfect. *Bier* is neuter (*das Bier*), so the article is *ein*, unchanged in the accusative."
+    },
+    {
+      "type": "shadow",
+      "title": "Repeat the whole flow",
+      "lines": [
+        { "nl": "Zwei Bier, bitte!", "en": "Two beers, please!" },
+        { "nl": "Prost! Auf uns!", "en": "Cheers! To us!" },
+        { "nl": "Noch eine Runde?", "en": "Another round?" },
+        { "nl": "Zahlen, bitte.", "en": "The bill, please." },
+        { "nl": "Stimmt so.", "en": "Keep the change." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Feierabend. You meet Lena and Jonas at their Stammkneipe around the corner.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Na, schönen Feierabend! Setz dich, ich hab schon einen Tisch.", "en": "Hey, happy Feierabend! Sit down, I've already got a table." },
+        { "speaker": "You", "nl": "Endlich. Was trinkt ihr?", "en": "Finally. What are you drinking?" },
+        { "speaker": "Jonas", "nl": "Ich nehm ein Bier. Und die erste Runde geht auf mich.", "en": "I'll have a beer. And the first round's on me.", "spotlight": "*Die Runde geht auf mich* — the classic way to offer to pay for a round." },
+        { "speaker": "Lena", "nl": "Oh, großzügig heute! Dann für mich eine Apfelschorle.", "en": "Oh, generous today! An apple spritzer for me then." },
+        { "speaker": "You", "nl": "Für mich auch ein Bier, bitte.", "en": "A beer for me too, please." },
+        { "speaker": "Jonas", "nl": "Prost! Und guck mir in die Augen, sonst zählt's nicht.", "en": "Cheers! And look me in the eyes, or it doesn't count.", "spotlight": "The eye-contact rule when you toast — take it half-seriously." },
+        { "speaker": "You", "nl": "Prost! ... So, ich glaube, wir sollten zahlen.", "en": "Cheers! ... So, I think we should pay." },
+        { "speaker": "Lena", "nl": "Der Kellner fragt bestimmt: getrennt oder zusammen? Heute zusammen, oder?", "en": "The waiter will surely ask: separate or together? Together today, right?", "spotlight": "*getrennt oder zusammen?* — you'll hear this at the end of every evening." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hast du's mitbekommen?",
+      "questions": [
+        { "q": "Wer bezahlt die erste Runde?", "options": ["Lena", "Jonas", "You"], "correct": 1 },
+        { "q": "Was trinkt Lena?", "options": ["ein Bier", "eine Apfelschorle", "einen Kaffee"], "correct": 1 },
+        { "q": "Wie zahlen sie am Ende?", "options": ["getrennt", "zusammen", "gar nicht"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe your ideal Feierabend at the Kneipe: What do you order? Who's with you? Who buys a round? End with a toast.",
+      "starters": ["Nach der Arbeit gehe ich…", "Ich bestelle…", "Die Runde geht auf…", "Prost! Auf…"],
+      "minSentences": 4
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "day-79",
+  "day": 79,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "Die Slang-Ampel: grün, gelb, rot",
+  "emoji": "🚦",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Real spoken German by traffic light — what you can say to anyone, what stays among friends, and what to recognise but never deploy",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Grün: sag es überall",
+      "body": "Everyday German is full of colour, but not all of it fits every room. Think of a **traffic light**. **Green** words are friendly and safe *everywhere* — with your boss, at the Amt, with your landlord. Learn these first and use them freely.",
+      "table": {
+        "headers": ["Grün — immer okay", "Bedeutung"],
+        "rows": [
+          ["super / cool / top", "great"],
+          ["Quatsch!", "nonsense / no way"],
+          ["alles klar", "all good / got it"],
+          ["passt", "works for me / fine"],
+          ["Feierabend", "end of the workday"]
+        ]
+      },
+      "callout": "*Alles klar?* — *Alles klar.* is the most useful two-line exchange in German. It means both „got it?” and „all good.”"
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the green tier",
+      "items": [
+        { "nl": "super", "en": "great", "speak": "super" },
+        { "nl": "cool", "en": "cool", "speak": "cool" },
+        { "nl": "Quatsch!", "en": "nonsense!", "speak": "Quatsch!" },
+        { "nl": "alles klar", "en": "all good", "speak": "alles klar" },
+        { "nl": "passt", "en": "works for me", "speak": "passt" },
+        { "nl": "Feierabend", "en": "end of the workday", "speak": "Feierabend" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Gelb: nur unter Freunden",
+      "body": "**Yellow** words are casual — fine with friends, wrong with your boss or a stranger. The famous trap is **geil**: it means „awesome,” but it *literally* means „horny.” Great among mates, a disaster in a job interview. Same with **Alter** (dude) and **Bock haben** (to be up for something).",
+      "table": {
+        "headers": ["Gelb — Freunde ja, Chef nein", "Bedeutung"],
+        "rows": [
+          ["geil", "awesome (literally „horny” — careful!)"],
+          ["krass", "intense / crazy / wow"],
+          ["Alter", "dude / man (as an address)"],
+          ["ey", "hey (to grab attention)"],
+          ["Bock haben", "to be up for something"]
+        ]
+      },
+      "callout": "Golden rule: if you'd hesitate to say the English version to your boss, keep the German one for friends."
+    },
+    {
+      "type": "mcq",
+      "prompt": "You're telling your boss the project turned out great. Which word do you NOT use?",
+      "options": ["super", "geil", "top"],
+      "correct": 1,
+      "explain": "*geil* is yellow — friends only, because it literally means „horny.” With a boss, say *super* or *top*."
+    },
+    {
+      "type": "contrast",
+      "title": "Grün oder gelb? Gleiche Idee, anderer Raum",
+      "pairs": [
+        { "left": "Das ist super! — safe anywhere", "right": "Das ist geil! — friends only", "note": "Same enthusiasm, very different register. *geil* literally means „horny” — never with the boss." },
+        { "left": "Hast du Lust? — neutral, anyone", "right": "Hast du Bock? — casual, friends", "note": "*Bock haben* = to be in the mood for. Warm with mates, off-key at the Amt." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Rot: erkennen, nicht benutzen",
+      "body": "**Red** words you should *recognise* — you'll hear them — but not reach for. Interesting quirk: German cursing skews **scatological and religious** (*Mist, Scheiße, verdammt, Herrgott*), not disease-based like some languages. **Scheiße** is mild but audible in public; stronger stuff (*verpiss dich, Arschloch*) is genuinely rude. We flag these so you understand them, not so you use them.",
+      "table": {
+        "headers": ["Rot — nur erkennen", "≈"],
+        "rows": [
+          ["Mist! / verdammt!", "damn! (mild)"],
+          ["Scheiße", "sh*t (mild but public-audible)"],
+          ["Verpiss dich!", "get lost! (rude)"],
+          ["Arschloch", "a**hole (insult)"]
+        ]
+      },
+      "callout": "Recognising a swear ≠ needing to say it. Understanding the room is the real skill."
+    },
+    {
+      "type": "typed",
+      "prompt": "Your friend claims something absurd. React with the one-word German for „Nonsense!”.",
+      "answers": ["Quatsch!", "Quatsch", "Quatsch."],
+      "explain": "*Quatsch!* — green, friendly, everywhere. It's the good-natured „no way / that's rubbish.”"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Jonas texts: „Hast du Bock, heute in die Kneipe zu gehen?” What's he asking?",
+      "options": ["Are you up for going to the pub today?", "Are you angry about the pub?", "Do you own a goat?"],
+      "correct": 0,
+      "explain": "*Bock haben* = to be up for / in the mood for. (*Bock* literally means „billy goat,” but the idiom has nothing to do with goats.)"
+    },
+    {
+      "type": "dialogue",
+      "scene": "Jonas texts you to come out — full casual mode, yellow tier everywhere.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Ey, na? Hast du Bock, heute Abend in die Kneipe zu gehen?", "en": "Hey, so? You up for the pub tonight?", "spotlight": "*Bock haben* + *ey* — pure yellow tier. Perfect with a friend, never with a stranger." },
+        { "speaker": "You", "nl": "Klar. Aber ich bin echt müde, nur ein Bier.", "en": "Sure. But I'm really tired, just one beer." },
+        { "speaker": "Jonas", "nl": "Quatsch, ein Bier kann jeder. Komm schon!", "en": "Nonsense, anyone can do one beer. Come on!" },
+        { "speaker": "You", "nl": "Alter, du bist echt schlimm.", "en": "Dude, you're really terrible." },
+        { "speaker": "Jonas", "nl": "Na ja, dafür wird's geil. Die Band von gestern spielt wieder — voll krass.", "en": "Well, but it'll be awesome for it. Yesterday's band is playing again — totally wild.", "spotlight": "*geil* and *krass* — friends-only words. Fine here, off-limits with the boss." },
+        { "speaker": "You", "nl": "Alles klar, überredet. Feierabend heißt Feierabend.", "en": "All right, you win. Off-hours are off-hours." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Which three „green” words do you want to start using this week? And which „yellow” word have you already heard in the wild? Write one sentence for each — and note who you'd say it to.",
+      "starters": ["Ich will „…” öfter sagen.", "„…” sage ich nur zu Freunden.", "Zu meinem Chef sage ich lieber…"],
+      "minSentences": 4
+    }
+  ]
+}

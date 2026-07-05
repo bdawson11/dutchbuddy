@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "day-81",
+  "day": 81,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "Beim Friseur und im Geschäft",
+  "emoji": "💇",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Handle service scenes with confidence — booking a haircut, browsing a shop, and the small-talk scripts that go with them",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Service läuft auf Sie",
+      "body": "In shops, salons and at counters, the register is **Sie** — both ways. The staff say *Sie* to you, and you say *Sie* back. At the **Friseur** (hairdresser) you'll book a *Termin*, then describe what you want. Keep it simple: nobody expects a speech, just clear wishes.",
+      "table": {
+        "headers": ["Beim Friseur", "≈"],
+        "rows": [
+          ["Ich hätte gern einen Termin.", "I'd like an appointment."],
+          ["Nur schneiden, bitte.", "Just a cut, please."],
+          ["Nicht zu kurz.", "Not too short."],
+          ["Die Seiten kürzer, oben lassen.", "Sides shorter, leave the top."]
+        ]
+      },
+      "callout": "*Ich hätte gern…* (Konjunktiv II) is your all-purpose polite „I'd like…” — from haircuts to bakeries."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the service phrases",
+      "items": [
+        { "nl": "Ich hätte gern einen Termin.", "en": "I'd like an appointment.", "speak": "Ich hätte gern einen Termin." },
+        { "nl": "Nur schneiden, bitte.", "en": "Just a cut, please.", "speak": "Nur schneiden, bitte." },
+        { "nl": "Kann ich Ihnen helfen?", "en": "Can I help you?", "speak": "Kann ich Ihnen helfen?" },
+        { "nl": "Ich schaue nur, danke.", "en": "I'm just looking, thanks.", "speak": "Ich schaue nur, danke." },
+        { "nl": "Kann ich das anprobieren?", "en": "Can I try this on?", "speak": "Kann ich das anprobieren?" },
+        { "nl": "Ich nehme es.", "en": "I'll take it.", "speak": "Ich nehme es." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Im Geschäft: die Kernsätze",
+      "body": "In a shop the assistant opens with **Kann ich Ihnen helfen?** The magic reply for browsing in peace is **Ich schaue nur, danke.** When you're ready, you'll ask about size, colour and the fitting room — and finally whether they take card.",
+      "table": {
+        "headers": ["Im Geschäft", "≈"],
+        "rows": [
+          ["Haben Sie das in Größe M?", "Do you have this in size M?"],
+          ["Wo ist die Umkleidekabine?", "Where's the fitting room?"],
+          ["Nehmen Sie Karte?", "Do you take card?"],
+          ["Das nehme ich.", "I'll take that."]
+        ]
+      },
+      "callout": "*Ich schaue nur, danke.* — say it with a smile and you'll be left to browse happily."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The assistant asks „Kann ich Ihnen helfen?” but you just want to browse. Best reply?",
+      "options": ["Ja, ich nehme es.", "Nein danke, ich schaue nur.", "Wo ist die Umkleidekabine?"],
+      "correct": 1,
+      "explain": "*Nein danke, ich schaue nur.* — polite, friendly, and it buys you space to look around. *Ich nehme es* would mean you're buying on the spot."
+    },
+    {
+      "type": "typed",
+      "prompt": "Ask the shop politely: „Do you take card?”",
+      "answers": ["Nehmen Sie Karte?", "Nehmen Sie Karte", "Kann ich mit Karte zahlen?", "Kann ich mit Karte bezahlen?"],
+      "hint": "Sie-form of nehmen, inverted for the question.",
+      "explain": "*Nehmen Sie Karte?* — the *Sie* comes right after the verb in a yes/no question. (*Kann ich mit Karte zahlen?* also works.)"
+    },
+    {
+      "type": "shadow",
+      "title": "Shadow the service script",
+      "lines": [
+        { "nl": "Guten Tag, ich hätte gern einen Termin.", "en": "Hello, I'd like an appointment." },
+        { "nl": "Waschen, schneiden, föhnen?", "en": "Wash, cut, blow-dry?" },
+        { "nl": "Nur schneiden, bitte. Nicht zu kurz.", "en": "Just a cut, please. Not too short." },
+        { "nl": "Haben Sie das in Blau?", "en": "Do you have this in blue?" },
+        { "nl": "Kann ich das anprobieren?", "en": "Can I try this on?" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Sie im Service, du unter Freunden",
+      "pairs": [
+        { "left": "Kann ich Ihnen helfen? — shop staff → you (Sie)", "right": "Kann ich dir helfen? — a friend → you (du)", "note": "In shops and salons it's *Sie* both directions. Save *dir* for friends. *helfen* takes the dative: *Ihnen* / *dir*." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "You run into Lena — you just got a haircut and did a bit of shopping.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Oh, neue Frisur! Steht dir gut. Warst du beim Friseur?", "en": "Oh, new haircut! Suits you. Were you at the hairdresser's?" },
+        { "speaker": "You", "nl": "Ja, heute Morgen. Ich hab nur „nur schneiden, nicht zu kurz” gesagt — und es hat geklappt.", "en": "Yes, this morning. I just said „just a cut, not too short” — and it worked.", "spotlight": "*nur schneiden, nicht zu kurz* — the two phrases that get you a good haircut in German." },
+        { "speaker": "Lena", "nl": "Sehr gut! Und die Tasche da, neu?", "en": "Very good! And that bag, is it new?" },
+        { "speaker": "You", "nl": "Ja, im Geschäft nebenan. Die Verkäuferin war super nett.", "en": "Yes, in the shop next door. The saleswoman was really nice." },
+        { "speaker": "Lena", "nl": "Guck mal, dein Deutsch reicht jetzt sogar zum Shoppen. Stark.", "en": "Look at that, your German is even good enough for shopping now. Strong.", "spotlight": "*reicht zum…* — „is enough for…”. A nice way to praise progress." },
+        { "speaker": "You", "nl": "Na ja, ich hab „ich schaue nur” gesagt und bin trotzdem mit einer Tasche rausgegangen.", "en": "Well, I said „I'm just looking” and still walked out with a bag." },
+        { "speaker": "Lena", "nl": "Haha, typisch. Passt doch!", "en": "Haha, typical. Fair enough though!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hast du's verstanden?",
+      "questions": [
+        { "q": "Was hat „You” beim Friseur gesagt?", "options": ["Ganz kurz, bitte.", "Nur schneiden, nicht zu kurz.", "Waschen und föhnen."], "correct": 1 },
+        { "q": "Wo hat „You” die Tasche gekauft?", "options": ["im Geschäft nebenan", "online", "beim Friseur"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Play out a service scene: you go to the hairdresser or into a shop. Write what you say from start to finish — and use Sie throughout.",
+      "starters": ["Guten Tag, ich hätte gern…", "Nur schneiden,…", "Haben Sie das in…", "Nehmen Sie…?"],
+      "minSentences": 4
+    }
+  ]
+}

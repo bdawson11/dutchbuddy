@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "day-26",
+  "day": 26,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Pfand, Kilo und der Supermarkt",
+  "emoji": "🛒",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Shopping at Rewe or Aldi, naming quantities, and the German bottle-deposit system (Pfand)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Rewe, Aldi und das Kassenband",
+      "body": "German supermarkets (**Rewe, Aldi, Lidl**) run fast. Cashiers scan at lightning speed, so you bag your own groceries — quickly, usually standing right at the belt. Bring your own bag, or buy a **Tüte** for a small fee. Quantities are metric: **ein Kilo**, **200 Gramm**, **ein Liter**, **eine Packung**.",
+      "table": {
+        "headers": ["Menge", "Beispiel"],
+        "rows": [
+          ["ein Kilo — a kilo", "ein Kilo Äpfel"],
+          ["200 Gramm — 200 grams", "200 Gramm Käse"],
+          ["ein Liter — a liter", "ein Liter Milch"],
+          ["eine Packung — a pack", "eine Packung Nudeln"]
+        ]
+      },
+      "callout": "Tip: watch the belt, not your phone — the cashier will beat you to the end of it."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the quantities",
+      "items": [
+        { "nl": "ein Kilo", "en": "a kilo", "speak": "ein Kilo" },
+        { "nl": "200 Gramm", "en": "200 grams", "speak": "zweihundert Gramm" },
+        { "nl": "ein Liter", "en": "a liter", "speak": "ein Liter" },
+        { "nl": "eine Packung", "en": "a pack", "speak": "eine Packung" },
+        { "nl": "eine Flasche", "en": "a bottle", "speak": "eine Flasche" },
+        { "nl": "eine Dose", "en": "a can", "speak": "eine Dose" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Pfand — dein Geld kommt zurück",
+      "body": "Most bottles and cans in Germany carry **Pfand** — a small deposit added to the price. Bring the empty back to the **Pfandautomat** (the reverse-vending machine, usually near the entrance), feed it in, and get a receipt worth a few cents each. Skipping it is basically leaving coins on the floor.",
+      "callout": "*Ist da Pfand drauf?* — \"Is there a deposit on that?\" — a very normal question to ask."
+    },
+    {
+      "type": "contrast",
+      "title": "Mehrweg vs Einweg",
+      "pairs": [
+        { "left": "die Mehrwegflasche — reusable bottle, washed and refilled", "right": "die Einwegflasche — single-use bottle, recycled after Pfand return", "note": "Both carry Pfand; the difference is what happens after you return it." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You finish a bottle of water with Pfand on it. What do you do?",
+      "options": ["Throw it in the normal trash", "Bring it to the Pfandautomat for money back", "Leave it on the shelf"],
+      "correct": 1,
+      "explain": "*Pfandautomat* — feed the empty in, get a receipt, and the deposit comes back at the register."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the shopping-list line: '200 grams of cheese'.",
+      "answers": ["200 Gramm Käse", "zweihundert Gramm Käse"],
+      "hint": "Gramm doesn't take a plural -s here.",
+      "explain": "*200 Gramm Käse* — German quantities sit straight in front of the noun, no 'of' needed."
+    },
+    {
+      "type": "shadow",
+      "title": "Repeat: an der Kasse",
+      "lines": [
+        { "nl": "Brauchen Sie eine Tüte?", "en": "Do you need a bag?" },
+        { "nl": "Kontaktlos oder mit PIN?", "en": "Contactless or with PIN?" },
+        { "nl": "Ist da Pfand drauf?", "en": "Is there a deposit on that?" }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the sentence.",
+      "speak": "Ich hätte gern ein Kilo Äpfel.",
+      "answers": ["Ich hätte gern ein Kilo Äpfel", "Ich hätte gern ein Kilo Äpfel."]
+    },
+    {
+      "type": "builder",
+      "title": "Bau deine Einkaufsliste",
+      "prompt": "Build a shopping-list sentence: what you need, and how much.",
+      "slots": [
+        { "label": "Start", "chips": ["Ich brauche", "Ich hätte gern"] },
+        { "label": "Menge", "chips": ["ein Kilo", "200 Gramm", "einen Liter", "eine Packung"] },
+        { "label": "Ware", "chips": ["Äpfel", "Käse", "Milch", "Nudeln"] }
+      ],
+      "sample": "Ich brauche ein Kilo Äpfel."
+    },
+    {
+      "type": "journal",
+      "prompt": "Write your shopping list for the week — at least three items with quantities, German-style.",
+      "starters": ["Ich brauche…", "Ich hätte gern…"],
+      "minSentences": 3
+    }
+  ]
+}

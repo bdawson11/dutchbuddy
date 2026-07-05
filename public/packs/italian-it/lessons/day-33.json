@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-33",
+  "day": 33,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "In viaggio: il treno",
+  "emoji": "🚆",
+  "level": "A2",
+  "durationMin": [17, 25],
+  "summary": "Train travel vocabulary — Trenitalia, regionale vs alta velocità, il binario, timbrare il biglietto",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "The Italian train ritual",
+      "body": "Italian trains come in two main flavors: the **regionale** (cheap, stops everywhere, no assigned seat) and the **alta velocità** (Frecciarossa, Italo — fast, assigned seat). One crucial rule: on the regionale you must **timbrare il biglietto** (validate the ticket) before boarding, or you risk a fine.",
+      "callout": "No validation on the regionale = trouble with the conductor."
+    },
+    {
+      "type": "card",
+      "title": "Station vocabulary",
+      "body": "The words you actually need before you get on a train.",
+      "table": {
+        "headers": ["Italiano", "Significato"],
+        "rows": [
+          ["il biglietto", "the ticket"],
+          ["il binario", "the platform / track"],
+          ["il regionale", "the regional train"],
+          ["l'alta velocità", "the high-speed train"],
+          ["timbrare", "to validate / stamp"],
+          ["la stazione", "the station"],
+          ["il ritardo", "the delay"],
+          ["in orario", "on time"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Listen at the station",
+      "items": [
+        { "nl": "Un biglietto per Firenze, per favore.", "en": "A ticket to Florence, please.", "speak": "Un biglietto per Firenze, per favore." },
+        { "nl": "Da che binario parte?", "en": "Which platform does it leave from?", "speak": "Da che binario parte?" },
+        { "nl": "Il treno è in ritardo.", "en": "The train is delayed.", "speak": "Il treno è in ritardo." },
+        { "nl": "Devo timbrare il biglietto.", "en": "I need to validate the ticket.", "speak": "Devo timbrare il biglietto." },
+        { "nl": "È un regionale o un'alta velocità?", "en": "Is it a regional or a high-speed train?", "speak": "È un regionale o un'alta velocità?" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You board a regionale without validating your ticket. What do you risk?",
+      "options": ["Niente, va bene lo stesso.", "Una multa.", "Il treno si ferma apposta."],
+      "correct": 1,
+      "explain": "On the regionale, validation is mandatory — forgetting it can cost you a fine (*una multa*)."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which question do you ask to find the right platform?",
+      "options": ["Che ore sono?", "Da che binario parte il treno per Roma?", "Quanto costa il biglietto?"],
+      "correct": 1,
+      "explain": "*Da che binario parte…?* is the question for the platform."
+    },
+    {
+      "type": "contrast",
+      "title": "Regionale vs alta velocità",
+      "pairs": [
+        { "left": "*il regionale* — slow, stops everywhere, cheap, no assigned seat, must be validated", "right": "*l'alta velocità* — fast, assigned seat, no validation needed", "note": "The type of train changes the rules — always check before boarding." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'I took the high-speed train to Milano.'",
+      "answers": ["ho preso l'alta velocità per milano", "ho preso l'alta velocità per Milano"],
+      "hint": "prendere → preso (irregular, from yesterday).",
+      "explain": "*Ho preso l'alta velocità per Milano* — preso is irregular, but you know it by now."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Il treno parte dal binario nove.",
+      "answers": ["il treno parte dal binario nove", "il treno parte dal binario nove."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "At Bologna Centrale, Marco helps You find the right platform",
+      "lines": [
+        { "speaker": "Marco", "nl": "Allora, hai il biglietto?", "en": "So, do you have the ticket?" },
+        { "speaker": "You", "nl": "Sì, ma non ho ancora timbrato.", "en": "Yes, but I haven't validated it yet." },
+        { "speaker": "Marco", "nl": "Meglio timbrarlo subito! Il binario è il sette.", "en": "Better validate it right away! The platform is seven.", "spotlight": "timbrare — the regionale rule, never skip it." },
+        { "speaker": "You", "nl": "Grazie! È un regionale, giusto?", "en": "Thanks! It's a regional train, right?" },
+        { "speaker": "Marco", "nl": "Sì, per il regionale devi sempre timbrare. Con l'alta velocità no.", "en": "Yes, for the regional you always have to validate. Not with the high-speed train." },
+        { "speaker": "You", "nl": "Perfetto, vado! Grazie ancora.", "en": "Perfect, I'm off! Thanks again." },
+        { "speaker": "Marco", "nl": "Buon viaggio! Mi scrivi quando arrivi?", "en": "Have a good trip! Will you text me when you arrive?" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Tell the story of a train trip (real or imaginary): where from, where to, regionale or alta velocità, and whether you validated the ticket.",
+      "starters": ["Ho preso…", "Sono andato/a…"],
+      "minSentences": 3
+    }
+  ]
+}

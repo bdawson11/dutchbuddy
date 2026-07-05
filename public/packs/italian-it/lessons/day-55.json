@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "day-55",
+  "day": 55,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "review",
+  "title": "Serve davvero l'italiano?",
+  "emoji": "🗣️",
+  "level": "A2",
+  "durationMin": [15, 22],
+  "summary": "Week 8 review: Giulia and Marco debate whether you really need Italian to live here",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ripasso: settimana 8",
+      "body": "This week you built the **futuro semplice** (*parlerò, sarò, andrò*) and the present-for-future, learned to talk about plans with **pensare di** and **avere intenzione di**, gave opinions with **secondo me** and took a first taste of the **congiuntivo** (*penso che sia…*), joined sentences with **perché, quando, se**, and compared things with **più/meno… di** plus the irregulars **migliore/peggiore**. Sentences just got a lot longer — this is the doorway from A2 into B1.",
+      "callout": "Every one of these keeps showing up from here on — you'll use them constantly."
+    },
+    {
+      "type": "chips",
+      "title": "Ripasso veloce",
+      "items": [
+        { "nl": "Andrò a Roma il mese prossimo.", "en": "I'll go to Rome next month.", "speak": "Andrò a Roma il mese prossimo." },
+        { "nl": "Ho intenzione di imparare bene l'italiano.", "en": "I intend to learn Italian well.", "speak": "Ho intenzione di imparare bene l'italiano." },
+        { "nl": "Secondo me, ne vale la pena.", "en": "In my opinion, it's worth it.", "speak": "Secondo me, ne vale la pena." },
+        { "nl": "Il modo migliore per imparare è parlare.", "en": "The best way to learn is to speak.", "speak": "Il modo migliore per imparare è parlare." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Complete: 'Se ___ bel tempo domani, andremo al mare.' (If the weather's nice tomorrow, we'll go to the sea.)",
+      "options": ["farà", "fa", "faceva"],
+      "correct": 0,
+      "explain": "A real future condition — se + futuro, futuro: *Se farà bel tempo… andremo…*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Translate: 'I think Bologna is more beautiful than Milan.' (secondo me, or try penso/credo che + sia for practice)",
+      "answers": ["secondo me bologna è più bella di milano", "penso che bologna sia più bella di milano", "credo che bologna sia più bella di milano"],
+      "hint": "bella agrees with Bologna (feminine).",
+      "explain": "*Secondo me* is always safe; *penso/credo che* technically wants *sia*, not *è* — one more chance to spot that shape."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, Marco starts a debate: do you really need to learn Italian to live in Italy?",
+      "lines": [
+        { "speaker": "Marco", "nl": "Allora, secondo me devi imparare l'italiano se vivi qui. Punto.", "en": "So, in my opinion you have to learn Italian if you live here. Full stop." },
+        { "speaker": "Giulia", "nl": "Dai Marco, non è così semplice. Tante persone vivono qui e parlano solo inglese.", "en": "Come on Marco, it's not that simple. Lots of people live here and only speak English." },
+        { "speaker": "Marco", "nl": "Sì, ma se non parli italiano, perdi tutto il bello della vita qui — le battute, il mercato, i vicini.", "en": "Yes, but if you don't speak Italian, you miss everything good about life here — the jokes, the market, the neighbors." },
+        { "speaker": "You", "nl": "Sono d'accordo con Marco. Quando parlo italiano, la gente è più aperta con me.", "en": "I agree with Marco. When I speak Italian, people are more open with me.", "spotlight": "quando + presente here, not futuro — this is a general habit, not a one-off future event." },
+        { "speaker": "Giulia", "nl": "Vero. E poi, imparare la lingua è anche più divertente che restare fuori.", "en": "True. Plus, learning the language is also more fun than staying on the outside.", "spotlight": "più… che before another verb — che replaces di when comparing to an infinitive." },
+        { "speaker": "Marco", "nl": "Esatto! Anche se, devo ammettere... il congiuntivo mi fa ancora paura.", "en": "Exactly! Although, I have to admit... the congiuntivo still scares me." },
+        { "speaker": "You", "nl": "Anche a me, un po'. Ma penso che, piano piano, ce la faremo.", "en": "Me too, a bit. But I think that, slowly, we'll manage." },
+        { "speaker": "Giulia", "nl": "Ci sarà sempre tempo per imparare bene. L'importante è provarci.", "en": "There will always be time to learn well. What matters is trying." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Marco argue at the start?", "options": ["You don't need Italian to live in Italy", "You must learn Italian if you live here", "Italian is impossible to learn"], "correct": 1 },
+        { "q": "What does Marco admit he's still scared of?", "options": ["Ordering coffee", "The congiuntivo", "Public speaking"], "correct": 1 },
+        { "q": "According to You, what happens when you speak Italian with people?", "options": ["They get annoyed", "They are more open", "They laugh"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Short answer: do you agree more with Marco or with Giulia? Write two or three sentences giving your own opinion — try secondo me or penso che.",
+      "starters": ["Secondo me…", "Penso che…"]
+    }
+  ]
+}

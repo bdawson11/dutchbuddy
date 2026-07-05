@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "day-28",
+  "day": 28,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "capstone",
+  "title": "Mi historia: lo que me gusta",
+  "emoji": "🎉",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Week-4 capstone: order, describe, introduce — plus the Mi historia food-and-wish layer",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Fin de las cuatro semanas A1",
+      "body": "Four weeks down: **sounds and stress**, **ser / estar / tener**, **numbers, time, the present tense**, **family and el barrio**, and this week — **food, the bar, gustar, and the market**. That's the whole A1 foundation. Today you order, describe, and introduce yourself — all in one go.",
+      "callout": "Después de hoy, empieza el pasado — la semana que viene ya usas el pretérito perfecto compuesto."
+    },
+    {
+      "type": "chips",
+      "title": "Repaso rápido — tap through",
+      "items": [
+        { "nl": "soy de...", "en": "I'm from...", "speak": "soy de" },
+        { "nl": "tengo... años", "en": "I'm ... years old", "speak": "tengo años" },
+        { "nl": "me gusta...", "en": "I like...", "speak": "me gusta" },
+        { "nl": "quiero...", "en": "I want...", "speak": "quiero" },
+        { "nl": "¿me pone...?", "en": "could you give me...?", "speak": "¿me pone...?" },
+        { "nl": "ponme una caña", "en": "pour me a small beer", "speak": "ponme una caña" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Recap: ser vs estar",
+      "pairs": [
+        { "left": "Soy de Toronto. (ser — origin)", "right": "Estoy en Madrid. (estar — location)", "note": "Identity/origin vs. location/state — the pack's first big idea, from week 1." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence correctly says 'I love croquettes' (plural, strong liking)?",
+      "options": ["Me gusta las croquetas.", "Me encantan las croquetas.", "Soy las croquetas."],
+      "correct": 1,
+      "explain": "*las croquetas* is plural, so the verb agrees: **encantan**. *Me encantan las croquetas.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I like tapas and I want a beer.'",
+      "answers": ["me gustan las tapas y quiero una caña"],
+      "hint": "gustar agrees with 'tapas' (plural); querer agrees with 'yo'.",
+      "explain": "*Me gustan las tapas y quiero una caña.*"
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "me gusta mucho la comida española",
+      "answers": ["me gusta mucho la comida española"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "The whole gang at the bar — you order, describe your tastes, and introduce yourself again",
+      "lines": [
+        { "speaker": "Lucía", "nl": "¡Alex! Ven, siéntate con nosotros.", "en": "Alex! Come sit with us." },
+        { "speaker": "You", "nl": "¡Hola a todos! Me llamo Alex y soy de Toronto.", "en": "Hi everyone! My name's Alex and I'm from Toronto." },
+        { "speaker": "Rafa", "nl": "¿Qué quieres tomar?", "en": "What do you want to drink?" },
+        { "speaker": "You", "nl": "Ponme una caña, por favor. Y tengo hambre — ¿me pone una ración de croquetas?", "en": "Pour me a small beer, please. And I'm hungry — could I get a plate of croquettes?" },
+        { "speaker": "Nacho", "nl": "Buena elección, hombre. A mí también me encantan las croquetas.", "en": "Good choice, man. I love croquettes too." },
+        { "speaker": "You", "nl": "Me gusta mucho la comida española. Prefiero cenar tarde, como aquí.", "en": "I really like Spanish food. I prefer having dinner late, like here." },
+        { "speaker": "Lucía", "nl": "¡Qué bien te va el español, en serio!", "en": "Your Spanish is coming along really well, seriously!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Alex order to eat?", "options": ["Patatas bravas", "Croquetas", "Jamón"], "correct": 1 },
+        { "q": "What does Alex say he prefers?", "options": ["Eating breakfast early", "Having dinner late", "Eating lunch alone"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mi historia — capa 4",
+      "prompt": "Add this week's layer: what you like to eat/drink, and a wish.",
+      "slots": [
+        { "label": "Comida favorita", "chips": ["Me gusta la tortilla", "Me gusta el jamón", "Me encantan las tapas"] },
+        { "label": "Bebida", "chips": ["y me gusta el vino", "y prefiero una caña", "y me encanta el café"] },
+        { "label": "Un deseo", "chips": ["y quiero aprender más español", "y quiero visitar España", "y quiero vivir en Madrid"] }
+      ],
+      "sample": "Me gusta la tortilla, y me gusta el vino, y quiero aprender más español."
+    },
+    {
+      "type": "journal",
+      "prompt": "¡Mi historia, semana 4! Your self-intro now has four layers: your name and where you're from (week 1), your daily routine (week 2), your family and barrio (week 3), and today — what you like to eat/drink and a wish. Write the whole thing as one cumulative paragraph.",
+      "starters": ["Me llamo...", "Soy de...", "Todos los días...", "Mi familia...", "Me gusta...", "Quiero..."],
+      "minSentences": 5
+    }
+  ]
+}

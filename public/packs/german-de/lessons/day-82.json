@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "day-82",
+  "day": 82,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "Redewendungen: Ich verstehe nur Bahnhof",
+  "emoji": "💡",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Twelve German idioms that make zero sense word-for-word — and everything once you know them",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Wenn Wörter lügen",
+      "body": "Idioms (*Redewendungen*) are where translating word-for-word falls apart. „I only understand train station”? „That's sausage to me”? Nonsense — until you learn the **meaning** as one chunk. These twelve are so common that a native will use them without thinking, so you need to *catch* them.",
+      "table": {
+        "headers": ["Redewendung", "Bedeutung"],
+        "rows": [
+          ["Ich verstehe nur Bahnhof.", "I don't get a word of it."],
+          ["Das ist mir Wurst.", "I couldn't care less."],
+          ["Ich drück dir die Daumen.", "Fingers crossed for you."],
+          ["Schwein gehabt!", "Lucky you! / Phew, close one!"],
+          ["Tomaten auf den Augen haben", "to miss the obvious"],
+          ["Die Nase voll haben", "to be fed up"]
+        ]
+      },
+      "callout": "Never translate an idiom part by part. Learn the whole phrase and what it *does*."
+    },
+    {
+      "type": "card",
+      "title": "Noch sechs für den Alltag",
+      "body": "Six more you'll hear constantly — around problems, plans and parties. Notice how many involve **food** (*Wurst, Brei, Bier*) and **animals** (*Schwein, Bär*): German idioms love the kitchen and the farmyard.",
+      "table": {
+        "headers": ["Redewendung", "Bedeutung"],
+        "rows": [
+          ["Jetzt haben wir den Salat.", "Now we're in a mess."],
+          ["Das kannst du vergessen.", "No chance / forget it."],
+          ["Um den heißen Brei reden", "to beat around the bush"],
+          ["Das ist nicht mein Bier.", "Not my problem."],
+          ["Ins Fettnäpfchen treten", "to put your foot in it"],
+          ["Da steppt der Bär.", "It's a great party."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the top six",
+      "items": [
+        { "nl": "Ich verstehe nur Bahnhof.", "en": "I don't get a word of it.", "speak": "Ich verstehe nur Bahnhof." },
+        { "nl": "Das ist mir Wurst.", "en": "I couldn't care less.", "speak": "Das ist mir Wurst." },
+        { "nl": "Ich drück dir die Daumen.", "en": "Fingers crossed for you.", "speak": "Ich drück dir die Daumen." },
+        { "nl": "Schwein gehabt!", "en": "Lucky you!", "speak": "Schwein gehabt!" },
+        { "nl": "Das kannst du vergessen.", "en": "Forget it.", "speak": "Das kannst du vergessen." },
+        { "nl": "Jetzt haben wir den Salat.", "en": "Now we're in a mess.", "speak": "Jetzt haben wir den Salat." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Das ist mir Wurst.” means:",
+      "options": ["I'd like some sausage.", "I couldn't care less.", "I'm really hungry."],
+      "correct": 1,
+      "explain": "*Das ist mir Wurst.* = it's all the same to me / I couldn't care less. Nothing to do with actual sausage — though *egal* is the plain-German version."
+    },
+    {
+      "type": "mcq",
+      "prompt": "You didn't catch a single word of the meeting. Which idiom fits?",
+      "options": ["Ich verstehe nur Bahnhof.", "Das ist mir Wurst.", "Schwein gehabt!"],
+      "correct": 0,
+      "explain": "*Ich verstehe nur Bahnhof.* — the classic for „I understood nothing.” (Legend traces it to WWI soldiers who only wanted to hear one word: *Bahnhof*, the station home.)"
+    },
+    {
+      "type": "contrast",
+      "title": "Wörtlich vs. gemeint",
+      "pairs": [
+        { "left": "Wörtlich: „I only understand train station”", "right": "Gemeint: „I don't get a word”", "note": "*Ich verstehe nur Bahnhof.* — the literal image is useless; the meaning is everything." },
+        { "left": "Wörtlich: „to have a pig”", "right": "Gemeint: „to get lucky”", "note": "*Schwein haben / Schwein gehabt!* — historically a pig meant wealth, so having one was pure luck." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Your friend has a big exam. Wish them luck with the idiom (literally „I press the thumbs”).",
+      "answers": ["Ich drück dir die Daumen!", "Ich drück dir die Daumen", "Ich drücke dir die Daumen", "Ich drücke dir die Daumen!"],
+      "hint": "drücken + dative dir + die Daumen.",
+      "explain": "*Ich drück dir die Daumen!* — Germans press their thumbs instead of crossing fingers. *dir* is dative (I press the thumbs *for you*)."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Jonas tells you about his band's chaotic first paid gig — idioms flying.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Ey, gestern der Gig — totales Chaos. Der Verstärker ist ausgefallen.", "en": "Hey, yesterday's gig — total chaos. The amp died." },
+        { "speaker": "You", "nl": "Oh nein. Und dann?", "en": "Oh no. And then?" },
+        { "speaker": "Jonas", "nl": "Der Typ vom Club redet nur um den heißen Brei. Ich hab nur Bahnhof verstanden.", "en": "The guy from the club just beat around the bush. I didn't get a word.", "spotlight": "Two idioms in one line: *um den heißen Brei reden* + *nur Bahnhof verstehen*." },
+        { "speaker": "You", "nl": "Aber ihr habt trotzdem gespielt?", "en": "But you played anyway?" },
+        { "speaker": "Jonas", "nl": "Ja! Am Ende lief's — Schwein gehabt. Da steppte der Bär.", "en": "Yes! In the end it worked out — lucky us. The place was jumping.", "spotlight": "*Schwein gehabt* (lucky) + *Da steppt der Bär* (great party) — pure spoken German." },
+        { "speaker": "You", "nl": "Krass. Und die Bezahlung?", "en": "Wild. And the pay?" },
+        { "speaker": "Jonas", "nl": "Na ja, halb so viel wie versprochen. Aber das ist mir Wurst — es war geil.", "en": "Well, half what was promised. But I couldn't care less — it was awesome." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Idiome im Kontext",
+      "questions": [
+        { "q": "Wie war der Gig am Ende?", "options": ["ein Desaster", "am Ende gut — „Schwein gehabt”", "abgesagt"], "correct": 1 },
+        { "q": "Was heißt „Das ist mir Wurst”?", "options": ["Es ist mir egal.", "Ich mag Wurst.", "Ich bin sauer."], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Pick three of today's idioms and, for each, write a short situation where you'd actually say it. Bonus: which one is your favourite, and why?",
+      "starters": ["Wenn ich nichts verstehe, sage ich…", "„…” passt, wenn…", "Mein Lieblingsspruch ist…"],
+      "minSentences": 4
+    }
+  ]
+}

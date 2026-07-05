@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "id": "day-84",
+  "day": 84,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "capstone",
+  "title": "Meine Geschichte, endgültig",
+  "emoji": "🎉",
+  "level": "B1",
+  "durationMin": [20, 35],
+  "summary": "The final capstone — a 12-week recap, a letter to your past self, your definitive B1 self-introduction, and German farewells",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Rückblick: 12 Wochen, ein Jahr, dein Deutsch",
+      "body": "You started with three umlauts and *Guten Tag*. You end holding a **Kneipe** conversation — cases and all. Look how far the road went: sounds and greetings, then the **Fälle** (nom → akk → dativ), the **Perfekt** and **Präteritum**, **Nebensätze** and **Konjunktiv II**, adjective endings, register control, and finally real **Straßendeutsch**. That's A1 to B1 in one year.",
+      "table": {
+        "headers": ["Level", "Was du jetzt kannst"],
+        "rows": [
+          ["A1 (W1–4)", "grüßen, dich vorstellen, bestellen, deinen Tag beschreiben"],
+          ["A2 (W5–8)", "im Perfekt und Präteritum erzählen, über Gefühle und Pläne reden"],
+          ["B1 (W9–12)", "Nebensätze, Konjunktiv II, Fälle in Echtzeit, echtes Straßendeutsch"]
+        ]
+      },
+      "callout": "84 Tage. 12 Module. 4 Fälle. 1 echtes Gespräch auf Deutsch. Geschafft."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear German farewells",
+      "items": [
+        { "nl": "Tschüss!", "en": "Bye!", "speak": "Tschüss!" },
+        { "nl": "Bis bald!", "en": "See you soon!", "speak": "Bis bald!" },
+        { "nl": "Mach's gut!", "en": "Take care!", "speak": "Mach's gut!" },
+        { "nl": "Wir hören uns!", "en": "We'll be in touch!", "speak": "Wir hören uns!" },
+        { "nl": "Alles Gute!", "en": "All the best!", "speak": "Alles Gute!" },
+        { "nl": "Prost auf dich!", "en": "Cheers to you!", "speak": "Prost auf dich!" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence puts the verb correctly at the end of the dass-clause?",
+      "options": ["Ich glaube, dass ich viel gelernt habe.", "Ich glaube, dass ich habe viel gelernt.", "Ich glaube, dass viel ich gelernt habe."],
+      "correct": 0,
+      "explain": "In a *dass*-clause the finite verb (*habe*) goes to the very end: *…, dass ich viel gelernt habe.* This subclause flip was your A2→B1 gate — and now it's automatic."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say it in the Perfekt: „I have learned a lot.”",
+      "answers": ["Ich habe viel gelernt.", "Ich habe viel gelernt", "Ich habe viel gelernt!"],
+      "hint": "haben + ge…t, participle at the end.",
+      "explain": "*Ich habe viel gelernt.* — auxiliary *habe* in second position, participle *gelernt* at the end. Textbook Perfekt, one year in."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the farewell.",
+      "speak": "Mach's gut, bis bald!",
+      "answers": ["Mach's gut, bis bald!", "Mach's gut, bis bald", "Machs gut, bis bald", "Mach's gut bis bald"]
+    },
+    {
+      "type": "card",
+      "title": "Meine Geschichte: alle Schichten",
+      "body": "Every week added exactly **one** new layer to your self-introduction. Here they all are. Your definitive intro uses every one — that's a whole year of grammar in a single paragraph.",
+      "table": {
+        "headers": ["Woche", "Deine Schicht"],
+        "rows": [
+          ["1–2", "Name, Herkunft, „ich lerne Deutsch” + dein Alltag"],
+          ["3–4", "Familie, dein Kiez, was du gern isst (+ ein Wunsch)"],
+          ["5–7", "etwas, das du gemacht hast (Perfekt) + eine Kindheitserinnerung (Präteritum)"],
+          ["8–9", "ein Plan und eine Meinung (Nebensatz) + etwas, das dir jemand erzählt hat"],
+          ["10–11", "eine große Entscheidung (Dativ) + Register: Sie vs du"]
+        ]
+      },
+      "callout": "Das ist ein Jahr Grammatik in einem Absatz. Wahnsinn."
+    },
+    {
+      "type": "builder",
+      "title": "Meine Geschichte, endgültig",
+      "prompt": "Build your definitive self-introduction — pull every layer of the year into one flowing paragraph.",
+      "slots": [
+        { "label": "Name & Herkunft", "chips": ["Ich heiße Sam und ich komme aus Toronto", "Ich bin Sam aus Kanada"] },
+        { "label": "Alltag", "chips": ["ich wohne jetzt in Berlin und arbeite als Designer", "jeden Morgen fahre ich mit der U-Bahn zur Arbeit"] },
+        { "label": "Perfekt-Ereignis", "chips": ["letztes Jahr habe ich angefangen, Deutsch zu lernen", "im Sommer bin ich nach Berlin gezogen"] },
+        { "label": "Meinung + Nebensatz", "chips": ["ich finde, dass Deutsch schwer, aber schön ist", "ich glaube, dass sich das Lernen gelohnt hat"] },
+        { "label": "Plan", "chips": ["nächstes Jahr will ich die B1-Prüfung machen", "bald werde ich nur noch auf Deutsch reden"] }
+      ],
+      "sample": "Ich heiße Sam, ich komme aus Toronto und ich wohne jetzt in Berlin. Letztes Jahr habe ich angefangen, Deutsch zu lernen. Ich finde, dass Deutsch schwer, aber schön ist, und nächstes Jahr will ich die B1-Prüfung machen."
+    },
+    {
+      "type": "builder",
+      "title": "Brief an dein früheres Ich",
+      "prompt": "Write a letter to the you of one year ago — each slot a different tense-move, from fear to promise.",
+      "slots": [
+        { "label": "Anrede", "chips": ["Liebes Ich von vor einem Jahr,", "Hallo Sam von damals,"] },
+        { "label": "Präteritum (damals)", "chips": ["du hattest Angst vor den vier Fällen", "du konntest kaum „Guten Tag” sagen"] },
+        { "label": "Perfekt (was passiert ist)", "chips": ["aber du hast nicht aufgegeben", "du hast jeden Tag ein bisschen gelernt"] },
+        { "label": "Präsens (heute)", "chips": ["heute redest du in der Kneipe einfach mit", "jetzt verstehst du sogar Jonas' Witze"] },
+        { "label": "Konjunktiv II (Rat)", "chips": ["an deiner Stelle würde ich mir keine Sorgen machen", "ich würde dir sagen: mach einfach weiter"] },
+        { "label": "Futur (Versprechen)", "chips": ["du wirst es schaffen", "wir werden zusammen weiterlernen"] }
+      ],
+      "sample": "Liebes Ich von vor einem Jahr, du hattest Angst vor den vier Fällen und konntest kaum „Guten Tag” sagen. Aber du hast nicht aufgegeben — du hast jeden Tag ein bisschen gelernt. Heute redest du in der Kneipe einfach mit. An deiner Stelle würde ich mir keine Sorgen machen: du wirst es schaffen."
+    },
+    {
+      "type": "dialogue",
+      "scene": "The end of the finale evening. Lena walks you to the U-Bahn — she opened this year, and she closes it.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Also, ein Jahr. Weißt du noch, unser erstes Gespräch im Café?", "en": "So, a year. Remember our first conversation at the café?" },
+        { "speaker": "You", "nl": "Klar. Ich konnte fast nichts sagen — nur „ich lerne Deutsch”.", "en": "Of course. I could barely say anything — just „I'm learning German”." },
+        { "speaker": "Lena", "nl": "Und guck dich jetzt an. Du hast das echt durchgezogen. Ich bin stolz auf dich.", "en": "And look at you now. You really saw it through. I'm proud of you.", "spotlight": "*Du hast das durchgezogen* (Perfekt) — Lena closing the arc she opened on day 7." },
+        { "speaker": "You", "nl": "Danke, Lena. Ohne euch hätte ich längst aufgegeben.", "en": "Thanks, Lena. Without you all I'd have given up long ago.", "spotlight": "*hätte … aufgegeben* — Konjunktiv II, the B1 finishing move." },
+        { "speaker": "Lena", "nl": "Quatsch. Das warst alles du. Also — mach's gut, und bleib dran, ja?", "en": "Nonsense. That was all you. So — take care, and keep at it, okay?", "spotlight": "*mach's gut* + *bleib dran* — warm imperatives to say goodbye." },
+        { "speaker": "You", "nl": "Mach ich. Bis bald — und Prost auf das nächste Jahr!", "en": "I will. See you soon — and cheers to next year!" },
+        { "speaker": "Lena", "nl": "Prost! Tschüss, mein Freund. Wir hören uns.", "en": "Cheers! Bye, my friend. We'll be in touch." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Der Abschied",
+      "questions": [
+        { "q": "Woran erinnert Lena „You”?", "options": ["an das erste Gespräch im Café", "an die B1-Prüfung", "an Aylins Umzug"], "correct": 0 },
+        { "q": "Wie verabschiedet sich Lena am Ende?", "options": ["Guten Morgen!", "Mach's gut, wir hören uns.", "Bis morgen im Büro."], "correct": 1 }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Ein letztes Mal: Sie vs du",
+      "pairs": [
+        { "left": "Mach's gut, wir hören uns! — to a friend (du)", "right": "Machen Sie's gut, wir hören voneinander! — formal (Sie)", "note": "Same warmth, two registers. A year ago this choice froze you. Now you pick the room without thinking." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Meine Geschichte, Woche 12 — endgültig. Write your complete self-introduction (every layer from the year), then a short letter to your self of one year ago. End with a German farewell. Ein Jahr Deutsch — das hast du geschafft!",
+      "starters": ["Ich heiße… und ich komme aus…", "Vor einem Jahr…", "Heute kann ich…", "Liebes Ich von damals,…", "Mach's gut — und Prost!"],
+      "minSentences": 6
+    },
+    {
+      "type": "card",
+      "title": "Geschafft!",
+      "body": "From all of us — **Lena, Jonas, Aylin und Klaus** — danke, dass du dabei warst. You walked in with *Guten Tag* and you're walking out with *Prost, auf uns!* The cases will keep tripping you up now and then; every German speaker forgives that. What matters is you **keep talking**. Also: bleib dran, und viel Spaß da draußen.",
+      "callout": "Von „Ich verstehe nur Bahnhof” zu „Prost, auf uns!” — in einem Jahr. Wahnsinn. Tschüss, und bis bald! 🎉"
+    }
+  ]
+}

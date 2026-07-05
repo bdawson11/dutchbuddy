@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "day-92",
+  "day": 92,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "lesson",
+  "title": "El condicional compuesto: lo que habría pasado",
+  "emoji": "🔮",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Form and use the conditional perfect (habría + participle) for what would have happened.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Lo que pudo ser y no fue",
+      "body": "Ya dominas el condicional simple (*iría, haría, sería*): lo que **harías**. Ahora su versión para el pasado irreal: el **condicional compuesto** = **habría + participio** = lo que **habrías hecho** (pero no hiciste). *Yo habría ido, pero no me avisaron.* Es la mitad que te faltaba para hablar de **lo que pudo ser y no fue**.",
+      "table": {
+        "headers": ["Persona", "Condicional compuesto"],
+        "rows": [
+          ["yo", "habría hecho"],
+          ["tú", "habrías hecho"],
+          ["él / ella", "habría hecho"],
+          ["nosotros", "habríamos hecho"],
+          ["vosotros", "habríais hecho"],
+          ["ellos", "habrían hecho"]
+        ]
+      },
+      "callout": "habría + participio = lo que habrías hecho en otra vida."
+    },
+    {
+      "type": "contrast",
+      "title": "Simple vs compuesto",
+      "pairs": [
+        { "left": "Yo iría a esa fiesta.", "right": "Yo habría ido a esa fiesta.", "note": "*Iría* = ahora o en general (aún posible). *Habría ido* = en el pasado, pero ya no pudo ser." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Toca y repite",
+      "items": [
+        { "nl": "yo habría ido sin dudarlo", "en": "I'd have gone without hesitating", "speak": "yo habría ido sin dudarlo" },
+        { "nl": "habríamos llegado antes", "en": "we'd have arrived earlier", "speak": "habríamos llegado antes" },
+        { "nl": "¿tú qué habrías hecho?", "en": "what would you have done?", "speak": "¿tú qué habrías hecho?" },
+        { "nl": "me habría encantado", "en": "I'd have loved it", "speak": "me habría encantado" },
+        { "nl": "nadie lo habría imaginado", "en": "nobody would have imagined it", "speak": "nadie lo habría imaginado" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Completa: «Con más tiempo, ___ el proyecto entero, pero nos quedamos sin plazo.» (terminar, nosotros)",
+      "options": ["terminaríamos", "habríamos terminado", "terminamos", "habremos terminado"],
+      "correct": 1,
+      "explain": "Resultado irreal en el pasado → condicional compuesto: **habríamos terminado**. *Terminaríamos* deja la puerta abierta al presente; aquí ya pasó el plazo."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduce: «I would have told you.» (a ti, con 'lo')",
+      "answers": ["Te lo habría dicho", "te lo habria dicho", "Te habría dicho"],
+      "hint": "habría + participio de decir.",
+      "explain": "**Te lo habría dicho.** Participio irregular *dicho*; el condicional compuesto marca que no llegó a pasar."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "yo habría hecho lo mismo",
+      "answers": ["yo habría hecho lo mismo", "yo habria hecho lo mismo"]
+    },
+    {
+      "type": "builder",
+      "title": "En tu lugar",
+      "prompt": "Monta una frase con condicional compuesto.",
+      "slots": [
+        { "label": "Sujeto", "chips": ["Yo", "Nosotros", "Cualquiera"] },
+        { "label": "Condicional compuesto", "chips": ["habría dicho", "habríamos hecho", "habría reaccionado"] },
+        { "label": "Cierre", "chips": ["lo mismo", "otra cosa", "igual que tú"] }
+      ],
+      "sample": "Yo habría hecho lo mismo."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía tells you about a gig you both missed.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "¿Sabes que anoche tocaron los de siempre en la sala? Nos avisaron tardísimo.", "en": "Did you know the usual guys played at the venue last night? They told us super late." },
+        { "speaker": "You", "nl": "¡No me digas! Yo habría ido sin pensarlo.", "en": "No way! I'd have gone without thinking twice." },
+        { "speaker": "Lucía", "nl": "Y yo. Habríamos quedado allí, como siempre.", "en": "Me too. We'd have met up there, like always." },
+        { "speaker": "You", "nl": "Qué rabia. Con un día más de aviso, no me lo habría perdido.", "en": "So annoying. With one more day's notice, I wouldn't have missed it.", "spotlight": "*no me lo habría perdido*: el resultado que no llegó a ocurrir." },
+        { "speaker": "Lucía", "nl": "Bueno, ya habrá más. Otra vez será.", "en": "Well, there'll be more. Next time." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Por qué no fueron al concierto?", "options": ["Les avisaron muy tarde", "No les gustaba el grupo", "Estaban en Valencia"], "correct": 0 },
+        { "q": "¿Qué dice You que habría hecho con más aviso?", "options": ["No ir igualmente", "No habérselo perdido", "Ir a otro sitio"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Piensa en una oportunidad que dejaste pasar. Escribe 3–4 frases con condicional compuesto: ¿qué habrías hecho de otra manera? (*Yo habría…, habríamos…*)",
+      "starters": ["El año pasado tuve la ocasión de…", "Yo habría…", "Con más tiempo, habríamos…"],
+      "minSentences": 3
+    }
+  ]
+}
