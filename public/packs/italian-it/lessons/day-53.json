@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "day-53",
+  "day": 53,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "La porta della subordinata",
+  "emoji": "🧩",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Joining sentences with perché, quando, and se — the gate from A2 into real B1 sentences",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Perché — not just 'why?'",
+      "body": "You already know *perché* as a question word ('why?'). It doubles as **'because'** in the answer — just place the reason clause right after: *Non vengo perché sono stanco.* (I'm not coming because I'm tired.) One little word joins two full sentences into one.",
+      "callout": "*Perché* asks 'why?' and answers 'because' — same word, both jobs."
+    },
+    {
+      "type": "chips",
+      "title": "Perché in azione",
+      "items": [
+        { "nl": "Resto a casa perché piove.", "en": "I'm staying home because it's raining.", "speak": "Resto a casa perché piove." },
+        { "nl": "Sono felice perché ho finito.", "en": "I'm happy because I finished.", "speak": "Sono felice perché ho finito." },
+        { "nl": "Non esco perché sono stanco.", "en": "I'm not going out because I'm tired.", "speak": "Non esco perché sono stanco." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Quando — when two futures meet",
+      "body": "*Quando* means 'when.' Italian-specific trick: when **both** actions are in the future, Italian puts **both verbs in the futuro** — English doesn't. English says 'When it rains, I'll stay home' (present + future); Italian says *Quando pioverà, resterò a casa* (futuro + futuro).",
+      "callout": "Both future → both futuro. Don't borrow English's present-tense shortcut here."
+    },
+    {
+      "type": "contrast",
+      "title": "English vs Italian — quando + futuro",
+      "pairs": [
+        { "left": "English: *When it rains, I'll stay home.* (present + future)", "right": "Italiano: *Quando pioverà, resterò a casa.* (futuro + futuro)", "note": "Italian keeps both halves in the futuro when both events lie ahead." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Complete: 'Quando ___ a Roma, ti scriverò.' (When I arrive in Rome, I'll write you.)",
+      "options": ["arrivo", "arriverò", "arrivavo"],
+      "correct": 1,
+      "explain": "Both halves point to the future, so Italian uses the futuro in both: *arriverò… ti scriverò.*"
+    },
+    {
+      "type": "card",
+      "title": "Se — real conditions",
+      "body": "*se* means 'if.' For real, likely conditions, just line up ordinary tenses: present + present for a general habit (*Se piove, resto a casa* — if it rains, I stay home), or futuro + futuro for one specific future case (*Se farà caldo, andremo al mare*). Save the trickier 'what if I were…' hypotheticals for Week 9's periodo ipotetico.",
+      "callout": "Real 'if', ordinary tenses — the tricky hypothetical *se* waits until Week 9."
+    },
+    {
+      "type": "shadow",
+      "title": "Ascolta e ripeti — se",
+      "lines": [
+        { "nl": "Se piove, resto a casa.", "en": "If it rains, I stay home." },
+        { "nl": "Se farà caldo, andremo al mare.", "en": "If it's hot, we'll go to the sea." },
+        { "nl": "Se hai tempo, chiamami.", "en": "If you have time, call me." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Join into one sentence with perché: 'I don't go out. It's raining.'",
+      "answers": ["non esco perché piove", "non esco perché piove."],
+      "hint": "perché + the reason, right after the main clause.",
+      "explain": "*Non esco perché piove.* — main clause, then perché + reason."
+    },
+    {
+      "type": "dictation",
+      "speak": "Quando arriverò, ti scriverò.",
+      "prompt": "Listen and type the whole line.",
+      "answers": ["quando arriverò, ti scriverò", "quando arriverò ti scriverò", "quando arriverò, ti scriverò."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Sofia tells you her weekend plan, weather permitting.",
+      "lines": [
+        { "speaker": "Sofia", "nl": "Se farà bel tempo sabato, andrò al mare con la moto.", "en": "If the weather's nice Saturday, I'll go to the seaside on my scooter." },
+        { "speaker": "You", "nl": "E se pioverà?", "en": "And if it rains?" },
+        { "speaker": "Sofia", "nl": "Se pioverà, resterò a casa e guarderò un film.", "en": "If it rains, I'll stay home and watch a movie.", "spotlight": "se + futuro, futuro — a real future condition, both halves matching." },
+        { "speaker": "You", "nl": "Quando saprai le previsioni?", "en": "When will you know the forecast?" },
+        { "speaker": "Sofia", "nl": "Le guarderò stasera, quando tornerò a casa.", "en": "I'll check tonight, when I get home.", "spotlight": "quando + futuro again — tornerò, not torno, because it's still ahead of us." },
+        { "speaker": "You", "nl": "Fammi sapere!", "en": "Let me know!" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write three sentences about your week using perché (why/because), quando (when — remember, futuro + futuro!), and se (if).",
+      "starters": ["Perché…", "Quando…", "Se…"]
+    }
+  ]
+}

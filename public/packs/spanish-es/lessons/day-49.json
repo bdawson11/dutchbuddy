@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "day-49",
+  "day": 49,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "capstone",
+  "title": "Mi historia: cuando era pequeño",
+  "emoji": "🧸",
+  "level": "A2",
+  "durationMin": [20, 28],
+  "summary": "Week-7 capstone: indefinido, imperfecto and the perfecto split, then a childhood memory layered into Mi historia",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso: semana 7",
+      "body": "Esta semana has aprendido a contar el pasado como en España: el **indefinido** (*hablé, comí, viví; fui, hice, tuve, estuve, dije, vino*) para hechos concretos y cerrados, el **imperfecto** (*hablaba, comía, vivía; era, iba, veía*) para describir y para lo habitual, y cuándo elegir el **perfecto** en vez del indefinido (*hoy* vs *ayer*). Con estas tres piezas ya sabes narrar una historia entera — como ha hecho Nacho con su pueblo.",
+      "callout": "Esta es la semana en la que empiezas a sonar como alguien que cuenta historias, no solo como un estudiante."
+    },
+    {
+      "type": "chips",
+      "title": "Repaso rápido — tap through",
+      "items": [
+        { "nl": "cuando era pequeño", "en": "when I was little", "speak": "cuando era pequeño" },
+        { "nl": "fui al colegio", "en": "I went to school", "speak": "fui al colegio" },
+        { "nl": "vivíamos en un pueblo", "en": "we used to live in a village", "speak": "vivíamos en un pueblo" },
+        { "nl": "de repente", "en": "suddenly", "speak": "de repente" },
+        { "nl": "ayer", "en": "yesterday", "speak": "ayer" },
+        { "nl": "hace años", "en": "years ago", "speak": "hace años" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Recap: imperfecto vs indefinido",
+      "pairs": [
+        { "left": "jugaba (imperfecto) — costumbre, sin final claro", "right": "jugué (indefinido) — un hecho concreto y terminado", "note": "Mismo verbo, jugar, pero la forma de la acción decide el tiempo — toda la semana en un solo par." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Rafa te pregunta: '¿Qué hiciste el año pasado?' ¿Qué tiempo esperas en tu respuesta?",
+      "options": ["Perfecto (he hecho)", "Indefinido (hice)", "Imperfecto (hacía)"],
+      "correct": 1,
+      "explain": "*El año pasado* cierra el marco de tiempo → indefinido."
+    },
+    {
+      "type": "mcq",
+      "prompt": "De pequeño, ____ (jugar) en la calle todos los días.",
+      "options": ["jugué", "jugaba", "he jugado"],
+      "correct": 1,
+      "explain": "Costumbre de infancia, sin final marcado → imperfecto: *jugaba*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'Yesterday I visited my grandmother.'",
+      "answers": ["Ayer visité a mi abuela.", "visité a mi abuela ayer", "ayer visite a mi abuela"],
+      "hint": "visitar → visité (yo)",
+      "explain": "*Ayer visité a mi abuela.* — hecho concreto y cerrado."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "de pequeño iba al colegio andando",
+      "answers": ["De pequeño iba al colegio andando.", "de pequeño iba al colegio andando"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, Rafa asks about your childhood — good practice before writing it all down",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Oye, ¿cómo era tu infancia? Nunca me la has contado.", "en": "Hey, what was your childhood like? You've never told me about it." },
+        { "speaker": "You", "nl": "Pues... de pequeño vivía en una ciudad pequeña con mis padres.", "en": "Well... as a kid I lived in a small city with my parents." },
+        { "speaker": "Rafa", "nl": "¿Y qué hacías los veranos?", "en": "And what did you do in the summers?" },
+        { "speaker": "You", "nl": "Íbamos a la playa cada año. Un verano aprendí a nadar.", "en": "We used to go to the beach every year. One summer I learned to swim.", "spotlight": "íbamos (imperfecto, costumbre) + aprendí (indefinido, un hecho concreto) en la misma frase." },
+        { "speaker": "Rafa", "nl": "¡Qué bien! ¿Y tenías hermanos?", "en": "Nice! And did you have siblings?" },
+        { "speaker": "You", "nl": "Sí, tenía un hermano mayor. Jugábamos juntos todo el tiempo.", "en": "Yes, I had an older brother. We used to play together all the time." },
+        { "speaker": "Rafa", "nl": "Pues nada, ahora ya sé más de ti, ¿eh?", "en": "Well then, now I know more about you, huh?" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "Where did 'you' live as a child, according to the dialogue?", "options": ["In a village", "In a small city", "In Madrid"], "correct": 1 },
+        { "q": "What did 'you' learn to do one summer?", "options": ["Swim", "Cook", "Play the guitar"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mi historia — capa 7",
+      "prompt": "Add a childhood memory to your growing self-intro — use the imperfecto, then close with one concrete event.",
+      "slots": [
+        { "label": "Introducción", "chips": ["Cuando era pequeño,", "Cuando era pequeña,"] },
+        { "label": "Dónde vivías", "chips": ["vivía en una ciudad", "vivía en un pueblo", "vivía en el campo"] },
+        { "label": "Qué hacías", "chips": ["jugaba mucho en la calle", "iba al colegio andando", "veía dibujos animados los sábados"] },
+        { "label": "Un recuerdo concreto", "chips": ["y una vez me caí de la bici", "y un verano aprendí a nadar", "y un día conocí a mi mejor amigo"] }
+      ],
+      "sample": "Cuando era pequeño, vivía en una ciudad y jugaba mucho en la calle, y una vez me caí de la bici."
+    },
+    {
+      "type": "journal",
+      "prompt": "¡Mi historia, semana 7! Escribe tu presentación desde el principio — tu nombre, de dónde eres, tu rutina, tu familia y tu barrio, qué te gusta comer, algo que has hecho recientemente — y ahora añade un recuerdo de infancia con el imperfecto (cuando era pequeño o pequeña...). ¡Enhorabuena, ya sabes contar una historia entera en pasado!",
+      "starters": ["Cuando era pequeño...", "Cuando era pequeña...", "Recuerdo que..."],
+      "minSentences": 4
+    }
+  ]
+}

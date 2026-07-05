@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "day-52",
+  "day": 52,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "Secondo me...",
+  "emoji": "💬",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Giving opinions with secondo me, sono sicuro/a che, and a first taste of the congiuntivo (penso che sia)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Secondo me — the safest opinion",
+      "body": "The simplest, safest way to give an opinion: **secondo me** ('in my opinion,' literally 'according to me') plus an ordinary sentence — no special verb form needed. *Secondo me, Marco ha ragione.* This one phrase alone covers most everyday opinions.",
+      "callout": "*secondo me* + a normal sentence. Always safe, always natural."
+    },
+    {
+      "type": "chips",
+      "title": "Opinioni con secondo me",
+      "items": [
+        { "nl": "Secondo me, hai ragione.", "en": "In my opinion, you're right.", "speak": "Secondo me, hai ragione." },
+        { "nl": "Secondo me, è troppo caro.", "en": "In my opinion, it's too expensive.", "speak": "Secondo me, è troppo caro." },
+        { "nl": "Secondo lui, il film è noioso.", "en": "In his opinion, the film is boring.", "speak": "Secondo lui, il film è noioso." },
+        { "nl": "Secondo noi, Bologna è bellissima.", "en": "In our opinion, Bologna is gorgeous.", "speak": "Secondo noi, Bologna è bellissima." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Penso che / credo che — your first taste of congiuntivo",
+      "body": "*Penso che* and *credo che* ('I think that…') work like English — but careful, formal Italian likes a special verb form called the **congiuntivo** (subjunctive) after them, not the ordinary present. You'll get the full system in Week 9's *\"il congiuntivo senza paura\"* — for now, just notice one common shape: **essere → sia** (not *è*). *Penso che sia una buona idea*, not *penso che è*. And if you do say *penso che è*, Italians will still understand you perfectly.",
+      "callout": "One word to spot for now: *sia* (not *è*) right after *penso che / credo che*."
+    },
+    {
+      "type": "contrast",
+      "title": "è vs sia — after penso che",
+      "pairs": [
+        { "left": "*È una buona idea.* — plain statement", "right": "*Penso che sia una buona idea.* — opinion, note *sia* not *è*", "note": "Same meaning, different verb shape once *penso che* is in front." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Complete: 'Penso che il film ___ interessante.' (I think the movie is interesting.)",
+      "options": ["è", "sia", "sono"],
+      "correct": 1,
+      "explain": "After *penso che*, formal Italian uses *sia* (essere's congiuntivo), not *è*. You'll meet the full congiuntivo system in Week 9 — for now, just recognise this shape."
+    },
+    {
+      "type": "card",
+      "title": "La scala della certezza",
+      "body": "Opinions come in strengths. From most to least sure: **sono sicuro/a che** (I'm sure that — plain indicativo) → **penso/credo che** (I think/believe — first taste of congiuntivo) → **secondo me** (in my opinion — always plain) → **forse** (maybe — no claim at all).",
+      "table": {
+        "headers": ["Frase", "Quanto sei sicuro?"],
+        "rows": [
+          ["Sono sicuro/a che…", "molto sicuro"],
+          ["Penso che… / Credo che…", "abbastanza sicuro"],
+          ["Secondo me…", "un'opinione, casual"],
+          ["Forse…", "per niente sicuro"]
+        ]
+      },
+      "callout": "Pick the rung that matches how sure you really are."
+    },
+    {
+      "type": "typed",
+      "prompt": "Give your opinion with 'secondo me' that Bologna is beautiful.",
+      "answers": ["secondo me bologna è bella", "secondo me, bologna è bella"],
+      "hint": "secondo me + a normal sentence, no special verb needed.",
+      "explain": "*Secondo me, Bologna è bella.* — plain and safe, no congiuntivo required."
+    },
+    {
+      "type": "dictation",
+      "speak": "Secondo me hai ragione.",
+      "prompt": "Listen and type the whole line.",
+      "answers": ["secondo me hai ragione", "secondo me, hai ragione", "secondo me hai ragione."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, Marco and you playfully disagree about coffee.",
+      "lines": [
+        { "speaker": "Marco", "nl": "Secondo me il mio caffè fatto in casa è fantastico.", "en": "In my opinion, my home-made coffee is fantastic." },
+        { "speaker": "You", "nl": "Davvero? Io credo che sia troppo forte.", "en": "Really? I think it's too strong.", "spotlight": "credo che sia — the congiuntivo shape from today, sia not è." },
+        { "speaker": "Marco", "nl": "Ma dai, è perfetto! Sono sicuro che ti sbagli.", "en": "Come on, it's perfect! I'm sure you're wrong." },
+        { "speaker": "You", "nl": "Va bene, va bene. Ma secondo me il caffè del bar qui sotto è più buono.", "en": "Fine, fine. But in my opinion the coffee at the bar downstairs is better." },
+        { "speaker": "Marco", "nl": "Questo sì che è vero!", "en": "Now that is true!" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Give three opinions about life in Italy — mix secondo me, sono sicuro/a che, and penso/credo che (try sia at least once!).",
+      "starters": ["Secondo me…", "Sono sicuro/a che…", "Penso che…"]
+    }
+  ]
+}

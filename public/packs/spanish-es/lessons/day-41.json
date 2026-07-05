@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "day-41",
+  "day": 41,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "review",
+  "title": "La semana horrible de Sofía",
+  "emoji": "🤕",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Review day: the week's health and feelings vocab, then Sofía's rough week — bag stolen, sick, the médico.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso de la semana",
+      "body": "Esta semana has aprendido el **cuerpo** y *doler*, el **médico** y la **farmacia**, las **urgencias** y el 112, las **emociones** con *estar*, y cómo **dar consejos** (*deberías, tienes que, ¿por qué no…?*). Hoy lo juntamos todo con una historia real: la semana de Sofía.",
+      "callout": "Agárrate — no ha sido una buena semana para ella."
+    },
+    {
+      "type": "mcq",
+      "prompt": "'Me _____ mucho la cabeza desde ayer.' (doler)",
+      "options": ["duele", "duelen"],
+      "correct": 0,
+      "explain": "*la cabeza* es singular → **duele**."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduce (consejo suave): 'You should go to the doctor.'",
+      "answers": ["deberías ir al médico"],
+      "explain": "**Deberías ir al médico.**"
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "me han robado el bolso",
+      "answers": ["me han robado el bolso"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, Sofía finally tells Lucía, Rafa and You about the week she's had.",
+      "lines": [
+        { "speaker": "Sofía", "nl": "Chicos, tengo que contaros algo. He tenido una semana horrible.", "en": "Guys, I have to tell you something. I've had a horrible week." },
+        { "speaker": "Lucía", "nl": "¿Qué ha pasado? Te hemos notado rara.", "en": "What happened? We've noticed you seem off." },
+        { "speaker": "Sofía", "nl": "Pues... esta semana me han robado el bolso en el metro.", "en": "Well... this week, my bag got stolen on the metro." },
+        { "speaker": "Rafa", "nl": "¡Qué fuerte! ¿Has ido a la policía?", "en": "No way! Have you gone to the police?" },
+        { "speaker": "Sofía", "nl": "Sí, he puesto una denuncia. Y para colmo, me he puesto enferma.", "en": "Yes, I've filed a police report. And to top it off, I've gotten sick." },
+        { "speaker": "Lucía", "nl": "Madre mía, Sofía... ¿Has ido al médico?", "en": "Oh my gosh, Sofía... Have you gone to the doctor?" },
+        { "speaker": "Sofía", "nl": "Sí. Me ha dado la baja dos días y una receta para la fiebre.", "en": "Yes. He's given me two sick days and a prescription for the fever." },
+        { "speaker": "You", "nl": "Qué semana más mala. ¿Ya estás mejor?", "en": "What a rough week. Are you feeling better now?" },
+        { "speaker": "Sofía", "nl": "Un poco. Todavía me duele la garganta, pero ya no tengo fiebre. Gracias por escuchar, sois un amor.", "en": "A little. My throat still hurts, but I don't have a fever anymore. Thanks for listening, you're all so sweet." },
+        { "speaker": "Rafa", "nl": "Pues nada, esta noche invitamos nosotros. Te lo has ganado.", "en": "Well then, tonight we're buying. You've earned it.", "spotlight": "perfecto: te lo has ganado — clitic + perfecto, a warm closing line." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Qué le ha pasado a Sofía?",
+      "questions": [
+        { "q": "¿Qué le han robado a Sofía?", "options": ["El móvil", "El bolso", "Las llaves"], "correct": 1 },
+        { "q": "Además del robo, ¿qué más le ha pasado?", "options": ["Se ha puesto enferma", "Ha perdido el trabajo", "Se ha mudado de casa"], "correct": 0 },
+        { "q": "¿Cómo se encuentra Sofía al final?", "options": ["Igual de mal", "Un poco mejor", "Completamente curada"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Sofía ha tenido una semana horrible. Escribe dos frases: cómo crees que se siente y un consejo para ella.",
+      "starters": ["Creo que Sofía se siente…", "Sofía, deberías…"],
+      "minSentences": 2
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "day-54",
+  "day": 54,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "Più, meno, il migliore",
+  "emoji": "⚖️",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Comparatives and superlatives with più/meno...di, il più...di, plus the irregulars migliore and peggiore",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Più / meno... di — comparing two things",
+      "body": "Sandwich the adjective to compare: **più + adjective + di** ('more… than') or **meno + adjective + di** ('less… than'). *di* introduces the second term, and folds into the article before one (*di + il = del*): *Roma è più grande di Bologna. Marco è più alto del fratello.*",
+      "callout": "*di* here means 'than' — not 'of'."
+    },
+    {
+      "type": "chips",
+      "title": "Confronti — tap to hear",
+      "items": [
+        { "nl": "Il vino è più caro della birra.", "en": "Wine is more expensive than beer.", "speak": "Il vino è più caro della birra." },
+        { "nl": "Questo zaino è meno pesante di quello.", "en": "This backpack is lighter than that one.", "speak": "Questo zaino è meno pesante di quello." },
+        { "nl": "Sofia è più giovane di Pietro.", "en": "Sofia is younger than Pietro.", "speak": "Sofia è più giovane di Pietro." },
+        { "nl": "Questo libro è meno interessante di quello.", "en": "This book is less interesting than that one.", "speak": "Questo libro è meno interessante di quello." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Complete: 'Napoli è ___ calda di Bologna in inverno.' (Naples is warmer than Bologna in winter.)",
+      "options": ["più", "il più", "migliore"],
+      "correct": 0,
+      "explain": "Plain comparativo = *più* + adjective + *di* — no article, and *migliore* is a different, irregular pattern (today's last stop)."
+    },
+    {
+      "type": "card",
+      "title": "Il più... di — the superlative",
+      "body": "To say 'the most / the -est', add the definite article in front of *più*: **il/la/i/le + più + adjective + di** (di = 'in/of' the group). *Il Duomo è il monumento più famoso di Milano. Questa piazza è la più bella della città.* The article agrees with the noun you're describing.",
+      "callout": "Same *più*, now with an article in front — that's what makes it 'the most'."
+    },
+    {
+      "type": "contrast",
+      "title": "Comparativo vs superlativo",
+      "pairs": [
+        { "left": "*Questo bar è più antico di quello.* — comparativo (two things)", "right": "*Questo bar è il più antico del quartiere.* — superlativo (tops the group)", "note": "Add the article to jump from 'more than one thing' to 'the most in the group'." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Migliore / peggiore — the exceptions",
+      "body": "*buono* (good) and *cattivo* (bad) skip *più* for their own comparative words: **migliore** (better) and **peggiore** (worse). Superlatives: **il migliore / il peggiore**. *Questo espresso è migliore di quello.* You'll still hear *più buono* casually, but *migliore* is the sharp, correct form.",
+      "table": {
+        "headers": ["Positivo", "Comparativo", "Superlativo"],
+        "rows": [
+          ["buono — good", "migliore — better", "il migliore — the best"],
+          ["cattivo — bad", "peggiore — worse", "il peggiore — the worst"]
+        ]
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence uses the irregular comparative for 'better'?",
+      "options": ["Questa pizza è più buona di quella.", "Questa pizza è migliore di quella.", "Questa pizza è più migliore di quella."],
+      "correct": 1,
+      "explain": "*migliore* is buono's irregular comparative — no *più* needed. *Più migliore* doubles up and is wrong; *più buona* is fine casually but skips today's irregular."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'this coffee is worse than that one' using the irregular form.",
+      "answers": ["questo caffè è peggiore di quello", "questo caffè è peggiore di quello."],
+      "hint": "cattivo's irregular comparative starts with pegg-.",
+      "explain": "*Questo caffè è peggiore di quello.* — peggiore, not *più cattivo*."
+    },
+    {
+      "type": "dictation",
+      "speak": "Il treno è più veloce dell'autobus.",
+      "prompt": "Listen and type the whole line.",
+      "answers": ["il treno è più veloce dell'autobus", "il treno è più veloce dell'autobus."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Giulia and Marco argue, warmly, about which neighborhood bar makes the better coffee.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Secondo me il bar di Via Mazzini è il migliore del quartiere.", "en": "In my opinion, the bar on Via Mazzini is the best in the neighborhood.", "spotlight": "il migliore — the superlative of buono, with the article." },
+        { "speaker": "Marco", "nl": "Ma dai, il caffè lì è più forte del solito, non è migliore!", "en": "Come on, the coffee there is stronger than usual, that doesn't make it better!" },
+        { "speaker": "Giulia", "nl": "Forte non vuol dire peggiore, Marco.", "en": "Strong doesn't mean worse, Marco." },
+        { "speaker": "Marco", "nl": "Boh, per me quello vicino a casa mia è meno caro e altrettanto buono.", "en": "Eh, to me the one near my place is less expensive and just as good." },
+        { "speaker": "Giulia", "nl": "Vabbè, sei di parte perché ci abiti vicino!", "en": "Well, you're biased because you live nearby!" },
+        { "speaker": "Marco", "nl": "Eh, forse hai ragione.", "en": "Eh, maybe you're right." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Compare three things from your life — your city vs. another, two foods, two friends — using più/meno... di, and at least one migliore or peggiore.",
+      "starters": ["…è più… di…", "…è meno… di…", "…è migliore/peggiore di…"]
+    }
+  ]
+}

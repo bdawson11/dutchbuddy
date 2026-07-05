@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "day-25",
+  "day": 25,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Mögen und der gern-Trick",
+  "emoji": "😋",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Mögen for liking things and the universal gern trick for liking to do things",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "mögen — für Dinge, die du magst",
+      "body": "**mögen** is your verb for liking a *thing*: *Ich mag Käse* (I like cheese). It conjugates a little irregularly: **ich mag, du magst, er/sie/es mag, wir mögen, ihr mögt, sie/Sie mögen**. Negate it the normal noun way, with **kein**: *Ich mag keinen Fisch.*",
+      "table": {
+        "headers": ["Pronomen", "mögen"],
+        "rows": [
+          ["ich", "mag"],
+          ["du", "magst"],
+          ["er/sie/es", "mag"],
+          ["wir", "mögen"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear mögen",
+      "items": [
+        { "nl": "Ich mag Käse.", "en": "I like cheese.", "speak": "Ich mag Käse." },
+        { "nl": "Ich mag keinen Fisch.", "en": "I don't like fish.", "speak": "Ich mag keinen Fisch." },
+        { "nl": "Magst du Kaffee?", "en": "Do you like coffee?", "speak": "Magst du Kaffee?" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Der gern-Trick",
+      "body": "Want to say you like *doing* something? Don't reach for a new verb — just add **gern** (gladly) right after any verb. *Ich esse gern Pizza* literally says \"I eat gladly pizza\", but it means **I like eating pizza**. It's the single most useful word in this whole module.",
+      "callout": "One new thing: **gern** turns any verb into \"I like to …\"."
+    },
+    {
+      "type": "contrast",
+      "title": "mögen (ein Ding) vs Verb + gern (eine Handlung)",
+      "pairs": [
+        { "left": "Ich mag Kaffee. — I like coffee (the thing)", "right": "Ich trinke gern Kaffee. — I like drinking coffee (the action)", "note": "Same idea, two grammar tools: mögen for nouns, verb + gern for actions." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "gern + Verb",
+      "items": [
+        { "nl": "ich esse gern", "en": "I like to eat", "speak": "ich esse gern" },
+        { "nl": "ich trinke gern", "en": "I like to drink", "speak": "ich trinke gern" },
+        { "nl": "ich koche gern", "en": "I like to cook", "speak": "ich koche gern" },
+        { "nl": "ich lese gern", "en": "I like to read", "speak": "ich lese gern" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "How do you say 'I like reading'?",
+      "options": ["Ich mag lesen.", "Ich lese gern.", "Ich bin gern lesen."],
+      "correct": 1,
+      "explain": "*Ich lese gern.* — the verb *lesen* conjugated, plus *gern* right after. *Ich mag lesen* sounds foreign to a German ear."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I like cheese.' (use mögen)",
+      "answers": ["Ich mag Käse", "Ich mag Käse."],
+      "hint": "mögen + object, no article needed for a general statement.",
+      "explain": "*Ich mag Käse.* — general likes about food usually drop the article, just like in English."
+    },
+    {
+      "type": "builder",
+      "title": "Bau deinen gern-Satz",
+      "prompt": "Build a sentence using the gern trick.",
+      "slots": [
+        { "label": "Subjekt + Verb", "chips": ["Ich esse", "Ich trinke", "Ich koche", "Ich lese"] },
+        { "label": "gern", "chips": ["gern"] },
+        { "label": "Objekt", "chips": ["Pizza", "Tee", "Suppe", "Bücher"] }
+      ],
+      "sample": "Ich esse gern Pizza."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the sentence.",
+      "speak": "Ich mag keinen Fisch.",
+      "answers": ["Ich mag keinen Fisch", "Ich mag keinen Fisch."]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write three sentences about food and drink you like — mix mögen and the gern trick.",
+      "starters": ["Ich mag…", "Ich esse gern…", "Ich trinke gern…"],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-14",
+  "day": 14,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "capstone",
+  "title": "Meine Geschichte: Teil 2",
+  "emoji": "🎉",
+  "level": "A1",
+  "durationMin": [20, 30],
+  "summary": "Week 2 capstone — numbers, time, V2 word order, questions and es gibt, then extend your self-introduction with your daily routine",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Rückblick: Woche 2",
+      "body": "Woche 2 geschafft! You can now count from *null* to *hundert* (and beyond, one glued word), handle prices and phone numbers, tell the time — **halb sechs is 5:30, never 6:30!** — name the days and months, conjugate regular verbs in the present, obey the **V2** law wherever a sentence starts, ask **yes/no** and **W-questions**, and point at the world with **es gibt** and **dieser/diese/dieses**. That's numbers, time, and the engine that drives every German sentence.",
+      "callout": "Zwei Wochen Deutsch — du bist schon mittendrin!"
+    },
+    {
+      "type": "chips",
+      "title": "Schnelle Wiederholung",
+      "items": [
+        { "nl": "fünfundvierzig", "en": "forty-five", "speak": "fünfundvierzig" },
+        { "nl": "Viertel nach drei", "en": "quarter past three", "speak": "Viertel nach drei" },
+        { "nl": "Ich arbeite", "en": "I work", "speak": "Ich arbeite" },
+        { "nl": "Wo wohnst du?", "en": "where do you live?", "speak": "Wo wohnst du?" },
+        { "nl": "es gibt eine Bäckerei", "en": "there's a bakery", "speak": "es gibt eine Bäckerei" },
+        { "nl": "diese Straße", "en": "this street", "speak": "diese Straße" }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Aufwärmen: die Woche im Rückblick",
+      "lines": [
+        { "nl": "Ich bin einunddreißig Jahre alt.", "en": "I'm thirty-one years old." },
+        { "nl": "Es ist halb sechs.", "en": "It's five-thirty." },
+        { "nl": "Heute lerne ich Deutsch.", "en": "Today I'm learning German." },
+        { "nl": "Wo wohnst du?", "en": "Where do you live?" },
+        { "nl": "Es gibt einen Park hier.", "en": "There's a park here." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence has correct German word order?",
+      "options": ["Heute ich arbeite.", "Heute arbeite ich.", "Heute arbeitet ich."],
+      "correct": 1,
+      "explain": "V2 never breaks: front *Heute*, and the verb *arbeite* still takes slot two, the subject *ich* right after."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the German for 5:45 (the everyday way).",
+      "answers": ["Viertel vor sechs", "Es ist Viertel vor sechs"],
+      "hint": "Quarter to six — already looking ahead to the next hour.",
+      "explain": "Viertel vor sechs = 5:45, counting toward six, same logic as halb."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the question.",
+      "speak": "Was machst du heute?",
+      "answers": ["Was machst du heute?"]
+    },
+    {
+      "type": "contrast",
+      "title": "Aussage, Ja/Nein-Frage, W-Frage",
+      "pairs": [
+        { "left": "Du kommst um sechs.", "right": "Kommst du um sechs?", "note": "Flip verb and subject for a yes/no question." },
+        { "left": "Kommst du um sechs?", "right": "Wann kommst du?", "note": "Add a W-word up front instead — the verb still holds slot two." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena and Jonas want to know what a normal day looks like for you.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Na, wie sieht dein Tag aus?", "en": "So, what does your day look like?" },
+        { "speaker": "You", "nl": "Ich arbeite von neun bis fünf.", "en": "I work from nine to five." },
+        { "speaker": "Jonas", "nl": "Und abends? Hast du Feierabend?", "en": "And in the evenings? Are you off work?" },
+        { "speaker": "You", "nl": "Ja, abends lerne ich Deutsch oder ich koche.", "en": "Yes, in the evenings I study German or I cook." },
+        { "speaker": "Lena", "nl": "Um wie viel Uhr isst du normalerweise?", "en": "What time do you usually eat?" },
+        { "speaker": "You", "nl": "So um halb sieben.", "en": "Around six-thirty." },
+        { "speaker": "Jonas", "nl": "Passt! Und am Wochenende?", "en": "Sounds good! And on the weekend?" },
+        { "speaker": "You", "nl": "Am Wochenende gibt es keinen Stress — nur Kaffee und Freunde.", "en": "On the weekend there's no stress — just coffee and friends.", "spotlight": "*keinen Stress* — kein flips to keinen for a masculine noun, just like einen after es gibt." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What hours does the learner work?", "options": ["9 to 5", "8 to 4", "10 to 6"], "correct": 0 },
+        { "q": "What time do they usually eat?", "options": ["6:00", "6:30", "7:00"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Meine Geschichte — Teil 2: Mein Tag",
+      "prompt": "Add your daily routine to your self-introduction — pick a time expression and keep the verb in second place.",
+      "slots": [
+        { "label": "Zeitausdruck", "chips": ["Morgens", "Abends", "Am Wochenende"] },
+        { "label": "Verb + ich", "chips": ["arbeite ich", "lerne ich Deutsch", "koche ich"] },
+        { "label": "Rest", "chips": ["von neun bis fünf.", "gern.", "für Freunde."] }
+      ],
+      "sample": "Morgens arbeite ich von neun bis fünf."
+    },
+    {
+      "type": "journal",
+      "prompt": "Meine Geschichte, Woche 2! Extend last week's self-introduction: your name, where you're from, that you're learning German — now add your daily routine with at least one time expression (Heute, Morgens, Abends, or a clock time) and keep the verb in second place. Zwei Wochen geschafft — weiter geht's!",
+      "starters": ["Ich heiße…", "Ich bin aus…", "Ich lerne Deutsch.", "Morgens…", "Abends…", "Um … Uhr…"],
+      "minSentences": 5
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "day-30",
+  "day": 30,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "Il passato prossimo con essere",
+  "emoji": "🚶",
+  "level": "A2",
+  "durationMin": [16, 24],
+  "summary": "Passato prossimo with essere for motion/change verbs, plus participle agreement",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "When the participle dresses like an adjective",
+      "body": "Some verbs — especially **motion** or **change** verbs (*andare, partire, arrivare, tornare, nascere, morire*) — take **essere**, not avere. With essere, the participle **agrees** with the subject, just like an adjective: *sono andat**o*** (a man says this), *sono andat**a*** (a woman says this).",
+      "callout": "Essere + participle → the participle's ending changes with gender and number."
+    },
+    {
+      "type": "card",
+      "title": "One verb, four endings",
+      "body": "Watch how the participle's final vowel changes depending on who's speaking.",
+      "table": {
+        "headers": ["Verbo", "Participio", "Io (uomo)", "Io (donna)"],
+        "rows": [
+          ["andare", "andato", "sono andato", "sono andata"],
+          ["partire", "partito", "sono partito", "sono partita"],
+          ["arrivare", "arrivato", "sono arrivato", "sono arrivata"],
+          ["tornare", "tornato", "sono tornato", "sono tornata"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Listen for the agreement",
+      "items": [
+        { "nl": "Sono andato al mare.", "en": "I went to the sea. (a man)", "speak": "Sono andato al mare." },
+        { "nl": "Sono andata al mare.", "en": "I went to the sea. (a woman)", "speak": "Sono andata al mare." },
+        { "nl": "Siamo partiti presto.", "en": "We left early. (mixed/all-male group)", "speak": "Siamo partiti presto." },
+        { "nl": "È arrivata tardi.", "en": "She arrived late.", "speak": "È arrivata tardi." },
+        { "nl": "Sono tornato a casa.", "en": "I came back home. (a man)", "speak": "Sono tornato a casa." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Sofia, about herself: 'I went to Milano.' Which is correct?",
+      "options": ["Sono andato a Milano.", "Sono andata a Milano.", "Ho andato a Milano."],
+      "correct": 1,
+      "explain": "*Andare* takes essere, and Sofia is a woman — the participle agrees: *andata*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which verbs usually take essere in the passato prossimo?",
+      "options": ["Motion and change-of-state verbs (andare, partire, diventare)", "All -are verbs", "Verbs with a direct object"],
+      "correct": 0,
+      "explain": "Essere goes with motion, change of state, and (as you'll see next) reflexive verbs."
+    },
+    {
+      "type": "contrast",
+      "title": "Singular vs plural agreement",
+      "pairs": [
+        { "left": "*Marco è andato al bar.* — Marco went to the bar (sing., masc.)", "right": "*Giulia e Sofia sono andate al bar.* — Giulia and Sofia went to the bar (pl., fem.)", "note": "The participle follows the subject: gender and number, every time." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'I arrived' the way a woman would say it.",
+      "answers": ["sono arrivata"],
+      "hint": "essere + a participle in -ata.",
+      "explain": "*Sono arrivata* — arrivare takes essere, feminine singular agreement."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Siamo partiti alle otto.",
+      "answers": ["siamo partiti alle otto", "siamo partiti alle otto."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Marco tells Giulia about his weekend, then she asks You too",
+      "lines": [
+        { "speaker": "Marco", "nl": "Sono andato al mare sabato.", "en": "I went to the sea on Saturday." },
+        { "speaker": "Giulia", "nl": "Davvero? Sei tornato domenica sera?", "en": "Really? Did you get back Sunday evening?", "spotlight": "sei tornato — essere + participle agreeing masculine, since it's addressed to Marco." },
+        { "speaker": "Marco", "nl": "Sì, sono tornato tardi.", "en": "Yes, I got back late." },
+        { "speaker": "Giulia", "nl": "E tu? Hai visitato qualche posto questo weekend?", "en": "And you? Did you visit anywhere this weekend?" },
+        { "speaker": "You", "nl": "No, ho lavorato tutto il weekend.", "en": "No, I worked all weekend." },
+        { "speaker": "Marco", "nl": "Ah, peccato! La prossima volta vieni con noi.", "en": "Ah, too bad! Next time you're coming with us." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write 2-3 sentences about somewhere you went recently, using essere + a participle with the correct agreement.",
+      "starters": ["Sono andato/a…", "Sono tornato/a…"],
+      "minSentences": 2
+    }
+  ]
+}

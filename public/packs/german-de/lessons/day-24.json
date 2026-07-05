@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "day-24",
+  "day": 24,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Ich kann, ich muss, ich will",
+  "emoji": "🧩",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "The modal verbs können/wollen/müssen/dürfen/möchten and the rule that sends the infinitive to the end of the sentence",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Fünf kleine Wörter, viel Macht",
+      "body": "Modal verbs frame what you *can, want to, have to, are allowed to,* or *would like to* do. They conjugate like normal verbs, but they always send the **main verb** to the **infinitive**, parked at the very **end** of the sentence: **Ich möchte einen Kaffee bestellen.** The modal takes the normal V2 spot; the infinitive waits at the end.",
+      "table": {
+        "headers": ["Modalverb", "Formen"],
+        "rows": [
+          ["können — can / be able to", "ich kann, du kannst, er kann"],
+          ["wollen — want to", "ich will, du willst, er will"],
+          ["müssen — must / have to", "ich muss, du musst, er muss"],
+          ["dürfen — may / be allowed to", "ich darf, du darfst, er darf"],
+          ["möchten — would like to", "ich möchte, du möchtest, er möchte"]
+        ]
+      },
+      "callout": "*möchten* is the polite cousin of *wollen* — always the safer choice when ordering or asking."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear each modal",
+      "items": [
+        { "nl": "ich kann", "en": "I can", "speak": "ich kann" },
+        { "nl": "ich will", "en": "I want to", "speak": "ich will" },
+        { "nl": "ich muss", "en": "I have to", "speak": "ich muss" },
+        { "nl": "ich darf", "en": "I'm allowed to", "speak": "ich darf" },
+        { "nl": "ich möchte", "en": "I would like to", "speak": "ich möchte" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Die Satzklammer: Modal … Infinitiv",
+      "body": "Picture the sentence as a bracket: the **modal verb** clicks into position two, and the **infinitive** rides at the very end, no matter how much sits in between. *Ich* **muss** *heute noch zwei Brötchen für das Abendbrot* **kaufen.** The bracket holds everything else inside it.",
+      "callout": "One new thing: the infinitive always goes LAST — even in a long sentence."
+    },
+    {
+      "type": "contrast",
+      "title": "nicht müssen ≠ nicht dürfen",
+      "pairs": [
+        { "left": "Du musst nicht kommen. — you don't HAVE to come (it's optional)", "right": "Du darfst hier nicht rauchen. — you're NOT ALLOWED to smoke here (it's forbidden)", "note": "The classic trap: *nicht müssen* removes an obligation; *nicht dürfen* is a flat-out ban." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "'You are not allowed to park here.' — which modal fits?",
+      "options": ["Du musst hier nicht parken.", "Du darfst hier nicht parken.", "Du kannst hier nicht parken."],
+      "correct": 1,
+      "explain": "*dürfen* + *nicht* = forbidden. *musst nicht* would mean it's simply optional, not banned."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I would like to order a bread roll.' (use möchten)",
+      "answers": ["Ich möchte ein Brötchen bestellen", "Ich möchte ein Brötchen bestellen."],
+      "hint": "möchte + … + bestellen (infinitive at the end).",
+      "explain": "*Ich möchte ein Brötchen bestellen.* — *möchte* in position two, *bestellen* waits at the end."
+    },
+    {
+      "type": "builder",
+      "title": "Bau deinen Modalsatz",
+      "prompt": "Build a sentence: subject + modal, then an object, then the infinitive at the end.",
+      "slots": [
+        { "label": "Subjekt + Modal", "chips": ["Ich kann", "Ich muss", "Ich will", "Ich darf", "Ich möchte"] },
+        { "label": "Objekt", "chips": ["heute Brötchen", "einen Kaffee", "gut Deutsch"] },
+        { "label": "Infinitiv", "chips": ["kaufen", "bestellen", "sprechen"] }
+      ],
+      "sample": "Ich möchte heute Brötchen kaufen."
+    },
+    {
+      "type": "shadow",
+      "title": "Repeat: Modalverben im Satz",
+      "lines": [
+        { "nl": "Ich kann gut kochen.", "en": "I can cook well." },
+        { "nl": "Ich muss noch einkaufen.", "en": "I still have to go shopping." },
+        { "nl": "Darf ich das Fenster öffnen?", "en": "May I open the window?" }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the sentence.",
+      "speak": "Ich möchte einen Kaffee.",
+      "answers": ["Ich möchte einen Kaffee", "Ich möchte einen Kaffee."]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write three sentences about today using three different modal verbs — one thing you can do, one you must do, and one you'd like to do.",
+      "starters": ["Ich kann…", "Ich muss…", "Ich möchte…"],
+      "minSentences": 3
+    }
+  ]
+}

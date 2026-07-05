@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "day-25",
+  "day": 25,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Quiero, puedo, prefiero",
+  "emoji": "🔄",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Stem-changing verbs quiero/puedo/prefiero (e>ie, o>ue) for ordering and plans",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "e → ie: querer",
+      "body": "Some verbs change their stem vowel in every form except **nosotros** and **vosotros** — like a boot shape. **querer** ('to want') changes **e → ie**: *quiero, quieres, quiere... queremos, queréis... quieren*.",
+      "table": {
+        "headers": ["Pronombre", "querer"],
+        "rows": [
+          ["yo", "quiero"],
+          ["tú", "quieres"],
+          ["él / ella", "quiere"],
+          ["nosotros", "queremos"],
+          ["vosotros", "queréis"],
+          ["ellos / ellas", "quieren"]
+        ]
+      },
+      "callout": "*preferir* ('to prefer') follows the exact same e→ie pattern: *prefiero, prefieres, prefiere... preferimos, preferís... prefieren*."
+    },
+    {
+      "type": "card",
+      "title": "o → ue: poder",
+      "body": "**poder** ('to be able to, can') changes **o → ue** in the same boot shape — everyone except *nosotros* and *vosotros*.",
+      "table": {
+        "headers": ["Pronombre", "poder"],
+        "rows": [
+          ["yo", "puedo"],
+          ["tú", "puedes"],
+          ["él / ella", "puede"],
+          ["nosotros", "podemos"],
+          ["vosotros", "podéis"],
+          ["ellos / ellas", "pueden"]
+        ]
+      },
+      "callout": "*nosotros* and *vosotros* never stem-change — say *queremos, podemos, preferimos* with the plain vowel, no exceptions."
+    },
+    {
+      "type": "contrast",
+      "title": "The boot: who changes, who doesn't",
+      "pairs": [
+        { "left": "quiero (yo — changes)", "right": "queremos (nosotros — no change)", "note": "The stem change skips *nosotros* and *vosotros* every time." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Tap para escuchar",
+      "items": [
+        { "nl": "quiero", "en": "I want", "speak": "quiero" },
+        { "nl": "¿puedes?", "en": "can you?", "speak": "¿puedes?" },
+        { "nl": "prefiero", "en": "I prefer", "speak": "prefiero" },
+        { "nl": "podemos", "en": "we can", "speak": "podemos" },
+        { "nl": "queréis", "en": "you all want", "speak": "queréis" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which form is correct for 'nosotros' with poder ('we can')?",
+      "options": ["podemos", "puedemos", "puedomos"],
+      "correct": 0,
+      "explain": "*nosotros* and *vosotros* never stem-change: it's **podemos**, not *puedemos*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I want a small beer.' (using querer)",
+      "answers": ["quiero una caña"],
+      "hint": "yo + querer, e→ie.",
+      "explain": "*Quiero una caña.* — first-person singular of *querer* stem-changes to *quiero*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "prefiero el vino",
+      "answers": ["prefiero el vino"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Ordering with Rafa — practicing querer, poder, preferir",
+      "lines": [
+        { "speaker": "Rafa", "nl": "¿Qué quieres tomar?", "en": "What do you want to drink?" },
+        { "speaker": "You", "nl": "Quiero una caña. ¿Y tú?", "en": "I want a small beer. And you?" },
+        { "speaker": "Rafa", "nl": "Prefiero un vino tinto.", "en": "I prefer a red wine." },
+        { "speaker": "You", "nl": "¿Podemos pedir también una ración de jamón?", "en": "Can we also order a plate of ham?" },
+        { "speaker": "Rafa", "nl": "¡Claro que podemos, tío! Venga.", "en": "Of course we can, mate! Come on." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Rafa prefer to drink?", "options": ["A beer", "A red wine", "A coffee"], "correct": 1 },
+        { "q": "What do they decide to order together?", "options": ["Dessert", "A plate of ham", "Bread"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Construye con querer / poder / preferir",
+      "prompt": "Combine a verb form with a phrase to build a sentence (the subject is already built into the verb ending).",
+      "slots": [
+        { "label": "Empieza", "chips": ["Quiero", "Puedo", "Prefiero", "Queremos", "Podemos", "Preferimos"] },
+        { "label": "Complemento", "chips": ["una caña", "pedir otra ración", "el vino tinto", "tapear esta noche"] }
+      ],
+      "sample": "Quiero una caña."
+    },
+    {
+      "type": "journal",
+      "prompt": "Write 3 sentences about ordering at a bar or making plans, using quiero / puedo / prefiero.",
+      "starters": ["Quiero...", "¿Puedo...?", "Prefiero..."]
+    }
+  ]
+}

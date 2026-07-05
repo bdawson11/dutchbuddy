@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "day-48",
+  "day": 48,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "review",
+  "title": "El pueblo de Nacho",
+  "emoji": "🌾",
+  "level": "A2",
+  "durationMin": [15, 22],
+  "summary": "Week 7 review — indefinido, imperfecto and the perfecto-vs-indefinido split, with Nacho's pueblo childhood as immersion",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso: los pasados de la semana",
+      "body": "Esta semana: el **indefinido** regular (*hablé, comí, viví*) e irregular (*fui, hice, tuve, estuve, dije, vino*), el **imperfecto** (*hablaba, comía, vivía; era, iba, veía*), y cuándo elegir **perfecto** en vez de indefinido (*hoy* vs *ayer*). Ahora, escuchemos a Nacho contar su infancia en el pueblo.",
+      "callout": "Un aviso: cuando Nacho cuenta algo puntual dentro de su recuerdo, cambia al indefinido — escúchalo con atención."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ayer, Nacho ____ (estar) en el pueblo.",
+      "options": ["estaba", "estuvo", "ha estado"],
+      "correct": 1,
+      "explain": "*Ayer* marca un día concreto y cerrado → indefinido: *estuvo*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'When I was little, I lived in a village.'",
+      "answers": ["Cuando era pequeño, vivía en un pueblo.", "cuando era pequeño, vivia en un pueblo", "cuando era pequeña, vivía en un pueblo", "cuando era pequeña, vivia en un pueblo"],
+      "hint": "imperfecto: era + vivía",
+      "explain": "*Cuando era pequeño, vivía en un pueblo.* — descripción de fondo, imperfecto."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "no había coches en la calle",
+      "answers": ["No había coches en la calle.", "no habia coches en la calle"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, Nacho tells you what life was like growing up in his pueblo in Castilla-La Mancha",
+      "lines": [
+        { "speaker": "Nacho", "nl": "Yo soy de un pueblo pequeño de Castilla-La Mancha. Allí la vida era muy distinta.", "en": "I'm from a small village in Castilla-La Mancha. Life there was very different." },
+        { "speaker": "You", "nl": "¿Cómo era tu pueblo cuando eras niño?", "en": "What was your village like when you were a kid?" },
+        { "speaker": "Nacho", "nl": "Era tranquilo. No había coches en la calle, solo bicicletas.", "en": "It was quiet. There were no cars on the street, just bicycles." },
+        { "speaker": "Nacho", "nl": "Todos los veranos jugábamos en la plaza hasta muy tarde.", "en": "Every summer we used to play in the square until very late." },
+        { "speaker": "You", "nl": "¿Y tus padres? ¿Qué hacían?", "en": "And your parents? What did they do?" },
+        { "speaker": "Nacho", "nl": "Mi padre trabajaba en el campo y mi madre tenía una tienda pequeña.", "en": "My father worked in the fields and my mother had a small shop." },
+        { "speaker": "Nacho", "nl": "Un día me caí de un árbol y me rompí el brazo — ¡menudo susto!", "en": "One day I fell out of a tree and broke my arm — what a scare!", "spotlight": "el fondo está en imperfecto, pero este hecho puntual cambia al indefinido." },
+        { "speaker": "You", "nl": "¡Madre mía! ¿Y echas de menos el pueblo?", "en": "Good grief! And do you miss the village?" },
+        { "speaker": "Nacho", "nl": "Hombre, claro. En el pueblo se vive mejor, aunque aquí esté mi trabajo.", "en": "Well, of course. Life is better in the village, even though my job's here." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What was Nacho's village like when he was a kid?", "options": ["Noisy and full of traffic", "Quiet, with no cars", "A big city"], "correct": 1 },
+        { "q": "What happened to Nacho one day?", "options": ["He broke his arm falling out of a tree", "He lost his bicycle", "He moved to Madrid"], "correct": 0 },
+        { "q": "What did Nacho's father do?", "options": ["He was a teacher", "He worked in the fields", "He had a shop"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "¿Qué te ha parecido la historia de Nacho? Escribe dos frases sobre cómo era un lugar de tu infancia (imperfecto) y una cosa concreta que pasó allí (indefinido).",
+      "starters": ["De pequeño, el lugar era...", "De pequeña, el lugar era...", "Un día..."],
+      "minSentences": 2
+    }
+  ]
+}

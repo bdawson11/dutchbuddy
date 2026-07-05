@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-26",
+  "day": 26,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Un kilo, por favor",
+  "emoji": "🛒",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Market vocabulary — quantities, ¿me pone…?, and ¿algo más?",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "At the mercado",
+      "body": "Markets sell by weight and count. **un kilo** (a kilo), **medio kilo** (half a kilo), **un cuarto** (a quarter kilo), **una docena** (a dozen), **un poco de...** (a little of...) — the basic quantities you'll need at any stall.",
+      "table": {
+        "headers": ["Cantidad", "Significado"],
+        "rows": [
+          ["un kilo", "a kilo"],
+          ["medio kilo", "half a kilo"],
+          ["un cuarto (de kilo)", "a quarter kilo"],
+          ["una docena", "a dozen"],
+          ["un poco de...", "a little of..."]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "¿Me pone...? — asking at the counter",
+      "body": "**¿Me pone...?** (literally 'will you put me...?') is the classic, polite way to ask for something at a market stall or counter — softer than *quiero*. The stallholder will often follow up with **¿algo más?** ('anything else?'); if you're done, answer **nada más, gracias**.",
+      "callout": "*¿Me pone un kilo de tomates?* — a question, not a demand. Very Spanish, very polite."
+    },
+    {
+      "type": "chips",
+      "title": "En el mercado",
+      "items": [
+        { "nl": "un kilo de tomates", "en": "a kilo of tomatoes", "speak": "un kilo de tomates" },
+        { "nl": "medio kilo de queso", "en": "half a kilo of cheese", "speak": "medio kilo de queso" },
+        { "nl": "¿me pone...?", "en": "could you give me...?", "speak": "¿me pone...?" },
+        { "nl": "¿algo más?", "en": "anything else?", "speak": "¿algo más?" },
+        { "nl": "nada más, gracias", "en": "nothing else, thanks", "speak": "nada más, gracias" },
+        { "nl": "una docena de huevos", "en": "a dozen eggs", "speak": "una docena de huevos" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You've got everything you need at the market stall. How do you answer '¿algo más?'",
+      "options": ["Nada más, gracias.", "Un kilo, por favor.", "¿Me pone...?"],
+      "correct": 0,
+      "explain": "*Nada más, gracias* — 'nothing else, thanks' — closes the order politely."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'A kilo of tomatoes, please.'",
+      "answers": ["un kilo de tomates, por favor", "un kilo de tomates por favor"],
+      "hint": "cantidad + de + producto + por favor.",
+      "explain": "*Un kilo de tomates, por favor.*"
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "¿me pone medio kilo de queso?",
+      "answers": ["¿me pone medio kilo de queso?", "me pone medio kilo de queso"]
+    },
+    {
+      "type": "builder",
+      "title": "En el mostrador",
+      "prompt": "Build a market request: ¿Me pone ___ ___?",
+      "slots": [
+        { "label": "Cantidad", "chips": ["un kilo", "medio kilo", "una docena", "un poco"] },
+        { "label": "Producto", "chips": ["de tomates", "de queso", "de huevos", "de jamón"] }
+      ],
+      "sample": "¿Me pone un kilo de tomates?"
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the mercado with Lucía, doing la compra",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Vamos a la frutería primero.", "en": "Let's go to the fruit stall first." },
+        { "speaker": "You", "nl": "¡Buenas! ¿Me pone un kilo de tomates?", "en": "Hi! Could I get a kilo of tomatoes?" },
+        { "speaker": "Lucía", "nl": "Y medio kilo de fresas, por favor.", "en": "And half a kilo of strawberries, please." },
+        { "speaker": "You", "nl": "¿Algo más, Lucía?", "en": "Anything else, Lucía?" },
+        { "speaker": "Lucía", "nl": "No, nada más. ¡Vale, gracias!", "en": "No, nothing else. Great, thanks!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Lucía ask for besides tomatoes?", "options": ["Strawberries", "Cheese", "Eggs"], "correct": 0 },
+        { "q": "How do you ask 'anything else?' in Spanish?", "options": ["Nada más", "¿Algo más?", "¿Me pone?"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write a short shopping list dialogue using quantities and ¿me pone...? / ¿algo más? / nada más, gracias.",
+      "starters": ["¿Me pone...?", "Y también...", "Nada más, gracias."]
+    }
+  ]
+}

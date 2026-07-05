@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "day-31",
+  "day": 31,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "I participi irregolari",
+  "emoji": "📋",
+  "level": "A2",
+  "durationMin": [17, 25],
+  "summary": "The top irregular past participles you can't derive from the -ato/-uto/-ito rule",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "The rebels of the participio",
+      "body": "Many of the most-used verbs **don't** follow -ato/-uto/-ito — they're irregular and just need memorizing. Most still use **avere**; only a few (like *venire* or *stare*) use essere.",
+      "callout": "There's no *faciuto* or *dicito* — it's *fatto* and *detto*, full stop."
+    },
+    {
+      "type": "card",
+      "title": "The 12 to know right away",
+      "body": "These are the most common irregular participles — learn the list, the rest come with practice.",
+      "table": {
+        "headers": ["Infinito", "Participio", "Esempio"],
+        "rows": [
+          ["fare", "fatto", "Ho fatto colazione."],
+          ["dire", "detto", "Ho detto la verità."],
+          ["prendere", "preso", "Ho preso il treno."],
+          ["mettere", "messo", "Ho messo le chiavi qui."],
+          ["vedere", "visto", "Ho visto un film."],
+          ["scrivere", "scritto", "Ho scritto un'email."],
+          ["leggere", "letto", "Ho letto il libro."],
+          ["aprire", "aperto", "Ho aperto la porta."],
+          ["chiudere", "chiuso", "Ho chiuso la finestra."],
+          ["rispondere", "risposto", "Ho risposto al messaggio."],
+          ["venire", "venuto", "È venuto anche Marco."],
+          ["stare", "stato", "Sono stato a Roma."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Listen to the most common ones",
+      "items": [
+        { "nl": "ho fatto", "en": "I did / made", "speak": "ho fatto" },
+        { "nl": "ho visto", "en": "I saw", "speak": "ho visto" },
+        { "nl": "ho preso", "en": "I took", "speak": "ho preso" },
+        { "nl": "ho detto", "en": "I said", "speak": "ho detto" },
+        { "nl": "ho messo", "en": "I put", "speak": "ho messo" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "What's the participle of *vedere* (to see)?",
+      "options": ["visto", "vedato", "vedeto"],
+      "correct": 0,
+      "explain": "*Vedere → visto* — irregular, learn it as a whole word."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which participle goes with *fare* (to do/make)?",
+      "options": ["fatto", "faciuto", "fato"],
+      "correct": 0,
+      "explain": "*Fare → fatto* — one of the most-used irregular participles, period."
+    },
+    {
+      "type": "contrast",
+      "title": "Regular vs irregular",
+      "pairs": [
+        { "left": "*Ho parlato* — regular (-are → -ato)", "right": "*Ho fatto* — irregular (fare → fatto, not *faato*)", "note": "Same structure (avere + participle), but the ending has to be learned case by case." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'I took the train' — passato prossimo.",
+      "answers": ["ho preso il treno"],
+      "hint": "prendere → preso (irregular).",
+      "explain": "*Ho preso il treno* — preso is the irregular participle of prendere."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ho visto un film ieri.",
+      "answers": ["ho visto un film ieri", "ho visto un film ieri."]
+    },
+    {
+      "type": "builder",
+      "title": "Cosa hai fatto oggi?",
+      "prompt": "Build a sentence with an irregular participle.",
+      "slots": [
+        { "label": "Cosa hai fatto", "chips": ["Ho fatto colazione", "Ho preso un caffè", "Ho visto Marco", "Ho scritto un messaggio"] },
+        { "label": "Dove / quando", "chips": ["stamattina", "al bar", "ieri sera", "in ufficio"] }
+      ],
+      "sample": "Ho fatto colazione stamattina."
+    },
+    {
+      "type": "journal",
+      "prompt": "Write 3 sentences about today or yesterday, using at least three irregular participles from the list.",
+      "starters": ["Oggi ho…", "Ieri ho…"],
+      "minSentences": 3
+    }
+  ]
+}

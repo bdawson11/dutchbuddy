@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "day-42",
+  "day": 42,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "capstone",
+  "title": "Mi historia: ¿qué te ha pasado?",
+  "emoji": "🎉",
+  "level": "A2",
+  "durationMin": [20, 30],
+  "summary": "Week-6 capstone: describing what happened to you, plus a new feelings/health layer for Mi historia.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso: semana 6",
+      "body": "Esta semana ha sido intensa: el **cuerpo** y *doler*, el **médico** y la **farmacia**, las **urgencias**, las **emociones** con *estar*, cómo **dar consejos** — y la semana horrible de Sofía. Hoy lo juntas todo y añades una nueva capa a *Mi historia*.",
+      "callout": "Vas por la semana 6 de 12 — vas fenomenal."
+    },
+    {
+      "type": "chips",
+      "title": "Repaso rápido — tap through",
+      "items": [
+        { "nl": "me duele la cabeza", "en": "my head hurts", "speak": "me duele la cabeza" },
+        { "nl": "pedir cita", "en": "to book an appointment", "speak": "pedir cita" },
+        { "nl": "llama al 112", "en": "call 112", "speak": "llama al 112" },
+        { "nl": "estoy agobiado/a", "en": "I'm overwhelmed", "speak": "estoy agobiado" },
+        { "nl": "deberías descansar", "en": "you should rest", "speak": "deberías descansar" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "'Normalmente es muy tranquila, pero hoy _____ nerviosa.'",
+      "options": ["es", "está"],
+      "correct": 1,
+      "explain": "Estado pasajero de hoy → **estar**."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cómo pides ayuda urgente por teléfono?",
+      "options": ["Llamo al 112", "Voy a la farmacia", "Pido cita"],
+      "correct": 0,
+      "explain": "Para una urgencia real, **llama al 112**."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduce: 'My legs hurt.'",
+      "answers": ["me duelen las piernas"],
+      "explain": "**Me duelen las piernas** — piernas plural, duelen plural."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "he tenido un resfriado",
+      "answers": ["he tenido un resfriado"]
+    },
+    {
+      "type": "contrast",
+      "title": "El perfecto sigue mandando",
+      "pairs": [
+        { "left": "esta semana he estado enfermo/a — recent, tied to now", "right": "hoy me duele la cabeza — present state, no perfecto needed", "note": "Esta semana / hoy / ya siguen pidiendo el perfecto para lo que acaba de pasar." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "¿Qué te ha pasado esta semana?",
+      "prompt": "Construye tu propia versión de la semana horrible — o no tan horrible.",
+      "slots": [
+        { "label": "Empieza", "chips": ["esta semana", "últimamente"] },
+        { "label": "Qué te ha pasado", "chips": ["me he puesto enfermo/a", "he tenido mucho estrés", "me ha dolido la cabeza todos los días", "se me ha roto el móvil"] },
+        { "label": "Cómo estás ahora", "chips": ["pero ya estoy mejor", "y todavía estoy cansado/a", "pero ya se me ha pasado"] }
+      ],
+      "sample": "Esta semana he tenido mucho estrés, pero ya estoy mejor."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa asks what's been going on with you this week, now that Sofía's story is out in the open.",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Oye, ¿y tú qué? ¿Qué te ha pasado esta semana?", "en": "Hey, what about you? What's happened to you this week?" },
+        { "speaker": "You", "nl": "Nada tan grave como Sofía, menos mal. Pero he estado un poco resfriado.", "en": "Nothing as bad as Sofía, thankfully. But I've had a bit of a cold." },
+        { "speaker": "Rafa", "nl": "Vaya. ¿Has ido a la farmacia?", "en": "Ugh. Have you gone to the pharmacy?" },
+        { "speaker": "You", "nl": "Sí, me han dado un jarabe. Y he dormido mucho.", "en": "Yeah, they gave me some syrup. And I've slept a lot." },
+        { "speaker": "Rafa", "nl": "Pues deberías seguir descansando. ¿Cómo te encuentras ahora?", "en": "Well you should keep resting. How are you feeling now?" },
+        { "speaker": "You", "nl": "Mucho mejor, gracias. Ya casi no me duele la garganta.", "en": "Much better, thanks. My throat barely hurts anymore." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "¿Qué le ha pasado a You esta semana?", "options": ["Se ha roto una pierna", "Ha estado resfriado", "Le han robado el bolso"], "correct": 1 },
+        { "q": "¿Qué le han dado en la farmacia?", "options": ["Una receta", "Un jarabe", "Unas pastillas para dormir"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mi historia — capa 6",
+      "prompt": "Añade la nueva capa: cómo te has sentido esta semana y un pequeño problema de salud.",
+      "slots": [
+        { "label": "Cómo te has sentido", "chips": ["me he sentido un poco cansado/a", "me he sentido mejor esta semana", "he estado un poco enfermo/a"] },
+        { "label": "Qué te ha pasado", "chips": ["he tenido un resfriado", "me ha dolido la cabeza varios días", "he ido al médico"] },
+        { "label": "Ahora", "chips": ["y ahora ya estoy mejor", "pero ya se me ha pasado"] }
+      ],
+      "sample": "Esta semana me he sentido un poco cansado, he tenido un resfriado y he ido al médico, pero ya estoy mejor."
+    },
+    {
+      "type": "card",
+      "title": "Un adelanto: 'me dolía'",
+      "body": "A veces vas a oír *me dolía la cabeza* (my head was aching) en lugar de *me ha dolido*. Es un tiempo distinto — el **imperfecto**, que aprenderás a fondo en unas semanas. De momento, quédate con el perfecto: *me ha dolido, he tenido, he ido al médico*.",
+      "callout": "*me dolía* — un adelanto de lo que viene (el imperfecto, semana 7)."
+    },
+    {
+      "type": "journal",
+      "prompt": "¡Mi historia, semana 6! Retoma tu historia (nombre, origen, rutina, familia, gustos, algo que has hecho) y añade cómo te has sentido esta semana y qué pequeño problema de salud has tenido. ¡Enhorabuena, ya llevas seis semanas!",
+      "starters": ["Esta semana me he sentido…", "También he tenido…", "Pero ya…"],
+      "minSentences": 4
+    }
+  ]
+}
