@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "day-20",
+  "day": 20,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "review",
+  "title": "Il quartiere di Giulia",
+  "emoji": "🏛️",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Review + immersion: Giulia narrates her Bologna quartiere, weaving family, adjectives, and questo/quello",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Prima di iniziare",
+      "body": "This week you learned family with possessives (**mio/mia**, no article at the singular), adjectives that **agree** in gender and number, **questo/quello** for near and far, and the quartiere with **a/in/da**. Time to put it all together — Giulia's about to walk you through her Bologna.",
+      "callout": "Listen for family, adjectives, and questo/quello all in one conversation."
+    },
+    {
+      "type": "chips",
+      "title": "Quick tap before we start",
+      "items": [
+        { "nl": "mia madre", "en": "my mother", "speak": "mia madre" },
+        { "nl": "questa piazza", "en": "this square", "speak": "questa piazza" },
+        { "nl": "quel negozio", "en": "that shop", "speak": "quel negozio" },
+        { "nl": "una bella chiesa", "en": "a beautiful church", "speak": "una bella chiesa" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct: 'my sister is very nice'?",
+      "options": ["Mia sorella è molto simpatico", "Mia sorella è molto simpatica", "La mia sorella è molto simpatica"],
+      "correct": 1,
+      "explain": "mia sorella has no article (plain singular family word), and simpatica agrees with the feminine subject."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'that square is beautiful' in Italian — use quella.",
+      "answers": ["quella piazza è bella"],
+      "hint": "piazza is feminine singular, and it's across the way — quello agrees.",
+      "explain": "*Quella piazza è bella* — quella and bella both agree with the feminine piazza."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Giulia takes you on a walk through her quartiere, near Via Mazzini",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora, questo è il mio quartiere, vicino a via Mazzini. Guarda quella piazza!", "en": "So, this is my neighborhood, near Via Mazzini. Look at that square!" },
+        { "speaker": "You", "nl": "Che bella! C'è un mercato qui?", "en": "How lovely! Is there a market here?" },
+        { "speaker": "Giulia", "nl": "Sì, ogni mattina, in quella via a destra. Compro la frutta da un signore molto gentile.", "en": "Yes, every morning, on that street to the right. I buy fruit from a very kind gentleman." },
+        { "speaker": "You", "nl": "E la tua famiglia? Abita qui vicino?", "en": "And your family? Do they live nearby?" },
+        { "speaker": "Giulia", "nl": "Mia madre abita ancora a Parma, ma mio fratello abita qui, in centro, in un appartamento piccolo ma carino.", "en": "My mother still lives in Parma, but my brother lives here, downtown, in a small but nice apartment.", "spotlight": "mia madre / mio fratello — plain singular family words, no article; a Parma — cities take a." },
+        { "speaker": "You", "nl": "E quella chiesa, lì in fondo?", "en": "And that church, over there at the end?" },
+        { "speaker": "Giulia", "nl": "È antica e bellissima. La domenica è piena di gente in piazza.", "en": "It's old and beautiful. On Sundays the square is full of people." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "Where does Giulia's mother live?", "options": ["Bologna", "Parma", "Milano"], "correct": 1 },
+        { "q": "Where does Giulia's brother live?", "options": ["In Parma", "Downtown, in a small apartment", "Near the market"], "correct": 1 },
+        { "q": "What does Giulia buy every morning near the piazza?", "options": ["Bread", "Fruit", "Flowers"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "In two or three sentences, describe your own quartiere the way Giulia described hers — mention one place with questo/quello and one preposition (a/in/da).",
+      "starters": ["Il mio quartiere…", "C'è…"]
+    }
+  ]
+}

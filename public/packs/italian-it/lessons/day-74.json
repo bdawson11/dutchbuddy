@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "day-74",
+  "day": 74,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Il congiuntivo senza paura",
+  "emoji": "💪",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The fear module: why learners dodge the congiuntivo, which triggers actually matter, three memorised scaffolds, and the mantra 'quando sbagli, non succede niente'",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il mostro sotto il letto",
+      "body": "Confessa: quando dovresti dire *«penso che sia…»* ti esce *«penso che è…»* e tiri dritto. **Lo fanno tutti.** Il congiuntivo è la cosa che chi impara l'italiano evita di più. Ma ecco la verità che libera: **quando sbagli il congiuntivo, non succede niente.** Gli italiani ti capiscono lo stesso, nessuno chiama la polizia grammaticale. Oggi non impariamo tutte le regole — impariamo a **non averne paura**.",
+      "callout": "**Quando sbagli il congiuntivo, non succede niente.** Ripetilo come un mantra."
+    },
+    {
+      "type": "card",
+      "title": "Quali 'spie' contano davvero",
+      "body": "Non ti serve un trattato: ti bastano poche **spie**. Quando esprimi **opinione, desiderio, emozione o dubbio**, parte il congiuntivo — *penso che…, voglio che…, spero che…, è meglio che…, mi dispiace che…*. Quando invece dici un **fatto certo**, resti tranquillo con l'indicativo: *so che è vero*, *è sicuro che arriva*. Opinione → congiuntivo. Fatto → indicativo. Punto.",
+      "callout": "Opinione / desiderio / dubbio → congiuntivo. Fatto certo → indicativo."
+    },
+    {
+      "type": "chips",
+      "title": "Tre impalcature da memorizzare",
+      "items": [
+        { "nl": "Penso che sia giusto.", "en": "I think it's right.", "speak": "Penso che sia giusto." },
+        { "nl": "Spero che tu stia bene.", "en": "I hope you're well.", "speak": "Spero che tu stia bene." },
+        { "nl": "È meglio che tu vada.", "en": "You'd better go.", "speak": "È meglio che tu vada." },
+        { "nl": "Credo che sia una buona idea.", "en": "I think it's a good idea.", "speak": "Credo che sia una buona idea." },
+        { "nl": "Voglio che tu venga.", "en": "I want you to come.", "speak": "Voglio che tu venga." },
+        { "nl": "Mi dispiace che tu sia stanco.", "en": "I'm sorry you're tired.", "speak": "Mi dispiace che tu sia stanco." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Fatto vs opinione",
+      "pairs": [
+        { "left": "**So che** è a Milano. (fatto → indicativo: *è*)", "right": "**Penso che** sia a Milano. (opinione → congiuntivo: *sia*)", "note": "Lo sai per certo? Indicativo. Lo pensi, speri o dubiti? Congiuntivo." },
+        { "left": "**È vero che** parla italiano. (fatto)", "right": "**Non credo che** parli italiano. (dubbio)", "note": "Il dubbio e l'opinione negata fanno scattare il congiuntivo: *parla → parli*." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Quale frase usa il congiuntivo (l'opinione)?",
+      "options": ["Penso che è tardi.", "Penso che sia tardi.", "So che è tardi."],
+      "correct": 1,
+      "explain": "Dopo *penso che* serve il congiuntivo: *sia*. *Penso che è* è l'errore più comune — e va bene, non succede niente. Ma con un po' d'allenamento esce *penso che sia*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Completa l'impalcatura: «Spero che tu ___ bene.»",
+      "options": ["stai", "stia", "stare"],
+      "correct": 1,
+      "explain": "*Sperare che* → congiuntivo. *Stare* fa *stia*: *spero che tu stia bene*. Impalcatura numero due, imparala a memoria."
+    },
+    {
+      "type": "typed",
+      "prompt": "Usa *è meglio che* per dire 'You'd better go home.' (andare → congiuntivo)",
+      "answers": ["è meglio che tu vada a casa", "e meglio che tu vada a casa", "è meglio che vada a casa"],
+      "hint": "è meglio che + soggetto + congiuntivo di andare.",
+      "explain": "*È meglio che* + congiuntivo. *Andare* fa *vada*: *è meglio che tu vada a casa*."
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci senza paura",
+      "prompt": "Scegli un'impalcatura e completa. Se sbagli il congiuntivo, non succede niente!",
+      "slots": [
+        { "label": "Impalcatura", "chips": ["Penso che", "Spero che", "È meglio che", "Credo che"] },
+        { "label": "Chi", "chips": ["tu", "lui", "Marco", "l'italiano"] },
+        { "label": "Congiuntivo", "chips": ["stia bene", "vada a casa", "abbia ragione", "sia difficile", "venga con noi"] }
+      ],
+      "sample": "Spero che tu stia bene."
+    },
+    {
+      "type": "shadow",
+      "title": "Ripeti le tre impalcature",
+      "lines": [
+        { "nl": "Penso che sia giusto così.", "en": "I think it's right this way." },
+        { "nl": "Spero che tu stia bene.", "en": "I hope you're well." },
+        { "nl": "È meglio che tu vada adesso.", "en": "You'd better go now." },
+        { "nl": "Non è grave: quando sbagli, non succede niente.", "en": "It's no big deal: when you slip up, nothing happens." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi tre frasi, una con ogni impalcatura: *penso che…*, *spero che…*, *è meglio che…*. Non pensarci troppo — se sbagli il congiuntivo, non succede niente!",
+      "starters": ["Penso che…", "Spero che…", "È meglio che…"],
+      "minSentences": 3
+    }
+  ]
+}

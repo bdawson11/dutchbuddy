@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "day-63",
+  "day": 63,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "capstone",
+  "title": "Meine Geschichte: Teil 9 — die Neuigkeiten",
+  "emoji": "🎉",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Week 9 capstone — pull the complex-sentence toolbox together, gossip about Aylin's news with Jonas, then add reported speech to your growing self-introduction.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Rückblick: Woche 9",
+      "body": "Neun Wochen! Deine Sätze haben jetzt richtig Struktur: **Nebensätze** (*obwohl, bevor, nachdem, damit*), **Relativsätze** (*der/den/dem/denen*), **indirekte Rede** (*… hat gesagt, dass …*), der höfliche **Konjunktiv II** (*würde, hätte, wäre*) und **wenn-Sätze** für Reales und Träume. Heute bringst du alles zusammen — und weil Aylin gerade für den größten Gesprächsstoff sorgt, üben wir das Weitererzählen mit Jonas.",
+      "callout": "Das neue Stück für *Meine Geschichte* diese Woche: **etwas, das dir jemand erzählt hat** — in indirekter Rede."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to refresh the week — audio",
+      "items": [
+        { "nl": "Nachdem ich gefrühstückt habe, gehe ich los.", "en": "After breakfast, I set off.", "speak": "Nachdem ich gefrühstückt habe, gehe ich los." },
+        { "nl": "Das ist die Freundin, der ich alles erzähle.", "en": "That's the friend I tell everything.", "speak": "Das ist die Freundin, der ich alles erzähle." },
+        { "nl": "Er hat gefragt, ob ich mitkomme.", "en": "He asked whether I'm coming.", "speak": "Er hat gefragt, ob ich mitkomme." },
+        { "nl": "An deiner Stelle würde ich überlegen.", "en": "In your place I'd think it over.", "speak": "An deiner Stelle würde ich überlegen." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence has the correct subclause word order?",
+      "options": [
+        "Ich freue mich, obwohl ich bin nervös.",
+        "Ich freue mich, obwohl ich nervös bin.",
+        "Ich freue mich, obwohl bin ich nervös."
+      ],
+      "correct": 1,
+      "explain": "After *obwohl* the finite verb (*bin*) goes to the very end: *…obwohl ich nervös bin.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Complete the relative clause in German: 'the job (das Angebot) that she got' → das Angebot, ___ (bekommen · hat)",
+      "answers": ["das sie bekommen hat"],
+      "hint": "Neuter, and it's the object inside the clause. Verb cluster last.",
+      "explain": "*das Angebot, das sie bekommen hat* — neuter + object → *das*, and *bekommen hat* closes the clause."
+    },
+    {
+      "type": "contrast",
+      "title": "Real oder Traum?",
+      "pairs": [
+        { "left": "Wenn Aylin nach München geht, feiern wir vorher. — real", "right": "Wenn ich Aylin wäre, würde ich lange überlegen. — hypothetisch", "note": "Real = normales Verb (*geht*). Irreal = Konjunktiv II (*wäre … würde*)." }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole sentence.",
+      "speak": "Sie hat gesagt, dass sie noch überlegt.",
+      "answers": ["Sie hat gesagt, dass sie noch überlegt.", "Sie hat gesagt dass sie noch überlegt"]
+    },
+    {
+      "type": "builder",
+      "title": "Berichte weiter",
+      "prompt": "Build a reported statement or question — the way you'd pass Aylin's news on to someone.",
+      "slots": [
+        { "label": "Wer + Verb", "chips": ["Aylin hat gesagt", "Jonas hat gefragt", "Lena hat erzählt"] },
+        { "label": "dass/ob-Satz", "chips": ["dass sie ein Angebot hat", "ob ich das verrückt finde", "dass sie noch überlegt"] }
+      ],
+      "sample": "Aylin hat gesagt, dass sie noch überlegt."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the Kneipe with Jonas. He can tell from your face that you've got something to share.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Na? Du guckst so, als hättest du was zu erzählen.", "en": "Well? You look like you've got something to tell." },
+        { "speaker": "You", "nl": "Hab ich auch. Aylin hat mir gesagt, dass sie ein Jobangebot aus München hat.", "en": "I do. Aylin told me she has a job offer from Munich.", "spotlight": "*Aylin hat mir gesagt, dass …* — passing on the news in reported speech." },
+        { "speaker": "Jonas", "nl": "Was?! Echt jetzt? München?", "en": "What?! Seriously? Munich?" },
+        { "speaker": "You", "nl": "Ja. Eine Agentur hat ihr geschrieben, dass sie sie einstellen wollen.", "en": "Yeah. An agency wrote to her that they want to hire her." },
+        { "speaker": "Jonas", "nl": "Krass. Und? Hat sie schon zugesagt?", "en": "Wild. And? Has she said yes already?" },
+        { "speaker": "You", "nl": "Nee. Sie hat gesagt, dass sie noch überlegt, und hat um Bedenkzeit gebeten.", "en": "Nope. She said she's still thinking it over, and asked for time to decide.", "spotlight": "Nothing's decided — Aylin is still in Berlin, weighing it up." },
+        { "speaker": "Jonas", "nl": "Na ja, ich würde an ihrer Stelle auch nicht sofort Ja sagen. Berlin einfach so aufgeben?", "en": "Well, in her place I wouldn't say yes right away either. Just give up Berlin like that?" },
+        { "speaker": "You", "nl": "Sie hat mich gefragt, ob ich das verrückt finde. Ich hab gesagt, dass ich es mutig finde.", "en": "She asked me whether I think it's crazy. I said I think it's brave." },
+        { "speaker": "Jonas", "nl": "Mutig, ja. Aber wenn sie geht, fehlt sie mir hier echt.", "en": "Brave, yeah. But if she goes, I'll really miss her here." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Die Neuigkeiten — hast du sie richtig verstanden?",
+      "questions": [
+        { "q": "Was hat Aylin dem Sprecher erzählt?", "options": ["Dass sie schon nach München zieht", "Dass sie ein Jobangebot aus München hat", "Dass sie den Job schon angenommen hat"], "correct": 1 },
+        { "q": "Hat Aylin den Job schon angenommen?", "options": ["Ja, sofort", "Nein, sie überlegt noch", "Ja, aber erst nächstes Jahr"], "correct": 1 },
+        { "q": "Wie findet Jonas Aylins mögliche Entscheidung?", "options": ["Er würde sofort zusagen", "Er würde an ihrer Stelle auch nicht sofort Ja sagen", "Er findet sie dumm"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Meine Geschichte — Teil 9",
+      "prompt": "Add this week's layer to your self-introduction: something someone told you, in reported speech (… hat gesagt/erzählt, dass …).",
+      "slots": [
+        { "label": "Wer", "chips": ["Meine Freundin Aylin hat mir erzählt", "Ein Freund hat mir gesagt", "Meine Kollegin hat gesagt"] },
+        { "label": "Neuigkeit", "chips": ["dass sie ein Jobangebot in München hat", "dass er bald umzieht", "dass sie eine Stelle in München bekommt"] },
+        { "label": "Reaktion", "chips": ["und ich finde das aufregend", "und ich würde an ihrer Stelle lange überlegen", "und ich freue mich für sie"] }
+      ],
+      "sample": "Meine Freundin Aylin hat mir erzählt, dass sie ein Jobangebot in München hat, und ich finde das aufregend."
+    },
+    {
+      "type": "journal",
+      "prompt": "Meine Geschichte, Woche 9! Schreib deine Vorstellung — Name, Herkunft, dass du Deutsch lernst, dein Alltag, deine Familie, was du gern isst, was du letztens gemacht hast, ein Plan und eine Meinung — und füge diese Woche etwas Neues hinzu: **etwas, das dir jemand erzählt hat** (*… hat mir gesagt, dass …*). Neun Wochen — richtig stark!",
+      "starters": ["Ich heiße … und ich komme aus …", "Ich lerne seit … Deutsch", "Neulich hat mir … erzählt, dass …", "Ich finde, dass …", "Wenn ich mehr Zeit hätte, würde ich …"],
+      "minSentences": 5
+    }
+  ]
+}
