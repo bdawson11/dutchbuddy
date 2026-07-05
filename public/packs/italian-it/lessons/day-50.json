@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "day-50",
+  "day": 50,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "Il futuro comincia domani",
+  "emoji": "🔮",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Building the futuro semplice, its irregular stems, time markers, and the present-for-future",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il futuro semplice — build it from the infinitive",
+      "body": "Drop the final **-e** of the infinitive and add one set of endings: **-ò, -ai, -à, -emo, -ete, -anno**. For **-are** verbs the stem vowel also flips *a → e*, so *parlare* becomes *parler-*: *parlerò*. Only *ò* and *à* carry a written accent — push the voice there.",
+      "table": {
+        "headers": ["Persona", "parlare"],
+        "rows": [
+          ["io", "parlerò"],
+          ["tu", "parlerai"],
+          ["lui / lei", "parlerà"],
+          ["noi", "parleremo"],
+          ["voi", "parlerete"],
+          ["loro", "parleranno"]
+        ]
+      },
+      "callout": "One set of endings for -are, -ere, and -ire alike — only the stem differs."
+    },
+    {
+      "type": "card",
+      "title": "I verbi irregolari al futuro",
+      "body": "A handful of high-frequency verbs shorten their stem before the same endings. Learn these five *io*-forms now — you'll use them constantly: **essere → sarò, avere → avrò, andare → andrò, fare → farò, venire → verrò**.",
+      "table": {
+        "headers": ["Infinito", "Futuro (io)"],
+        "rows": [
+          ["essere", "sarò"],
+          ["avere", "avrò"],
+          ["andare", "andrò"],
+          ["fare", "farò"],
+          ["venire", "verrò"]
+        ]
+      },
+      "callout": "sarò, avrò, andrò, farò — the four you can't avoid."
+    },
+    {
+      "type": "chips",
+      "title": "Quando? — marcatori di tempo",
+      "items": [
+        { "nl": "domani", "en": "tomorrow", "speak": "domani" },
+        { "nl": "dopodomani", "en": "the day after tomorrow", "speak": "dopodomani" },
+        { "nl": "la settimana prossima", "en": "next week", "speak": "la settimana prossima" },
+        { "nl": "tra due giorni", "en": "in two days", "speak": "tra due giorni" },
+        { "nl": "un giorno", "en": "someday", "speak": "un giorno" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Complete: 'Domani io ___ con il capo.' (Tomorrow I'll talk with the boss.)",
+      "options": ["parlerò", "parlerai", "parlerà"],
+      "correct": 0,
+      "explain": "*io* takes *-ò*: *parlerò*. The other two are *tu* and *lui/lei*."
+    },
+    {
+      "type": "card",
+      "title": "Il presente per il futuro",
+      "body": "For something near and already decided, Italian often just uses the **present tense** plus a time word: *Domani vado al mercato* (Tomorrow I'm going to the market). Save the futuro semplice for things that are further off, uncertain, or a promise.",
+      "callout": "Near and settled → presente. Distant or unsure → futuro semplice."
+    },
+    {
+      "type": "contrast",
+      "title": "Vicino e certo vs lontano e incerto",
+      "pairs": [
+        { "left": "*Stasera esco con Marco.* — presente (vicino, deciso)", "right": "*Un giorno vivrò a Roma.* — futuro (lontano, incerto)", "note": "Use the present for near, settled plans. Save the futuro for distant, speculative, or promised things." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'I will be home tomorrow' using essere in the futuro.",
+      "answers": ["sarò a casa domani", "domani sarò a casa"],
+      "hint": "essere's futuro io-form is sarò.",
+      "explain": "*Sarò a casa domani.* Essere's futuro stem is irregular — sar- plus the same endings."
+    },
+    {
+      "type": "dictation",
+      "speak": "Andremo al mare in agosto.",
+      "prompt": "Listen and type the whole line.",
+      "answers": ["andremo al mare in agosto", "andremo al mare in agosto."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, Marco asks about your plans for the weekend.",
+      "lines": [
+        { "speaker": "Marco", "nl": "Allora, cosa farai questo weekend?", "en": "So, what will you do this weekend?" },
+        { "speaker": "You", "nl": "Sabato vado al mercato, e domenica forse andrò a correre.", "en": "Saturday I'm going to the market, and Sunday maybe I'll go running.", "spotlight": "Present for the near, decided plan (sabato); futuro for the more open one (forse... domenica)." },
+        { "speaker": "Marco", "nl": "Io invece sarò impegnato venerdì sera — suonerò con la band.", "en": "I'll be busy Friday evening — I'll play with the band." },
+        { "speaker": "You", "nl": "Davvero? Dove sarà il concerto?", "en": "Really? Where will the concert be?" },
+        { "speaker": "Marco", "nl": "Sarà in un bar del centro.", "en": "It'll be at a bar downtown." },
+        { "speaker": "You", "nl": "Ci sarò!", "en": "I'll be there!", "spotlight": "ci sarò — the futuro of esserci, 'to be there'." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write three things you will do (or plan to do) in the next week — mix the futuro semplice with the present-for-future where it feels natural.",
+      "starters": ["Domani…", "La settimana prossima…", "Un giorno…"]
+    }
+  ]
+}

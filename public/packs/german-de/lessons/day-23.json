@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-23",
+  "day": 23,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Ich hätte gern ein Brötchen",
+  "emoji": "☕",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Ordering politely at the Bäckerei and café — ich hätte gern, ich nehme, für mich, bitte",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Zwei Wege zu bestellen",
+      "body": "There are two everyday ways to order in German. **Ich hätte gern…** (I would like…) is soft and polite — the safe default anywhere. **Ich nehme…** (I'll take…) is direct and quick, fine once you've decided. Both end with **bitte** to keep it warm. Add **für mich** (for me) when you're ordering as part of a group.",
+      "table": {
+        "headers": ["Phrase", "Ton"],
+        "rows": [
+          ["Ich hätte gern… — I would like…", "polite, safe default"],
+          ["Ich nehme… — I'll take…", "direct, decisive"],
+          ["für mich, bitte — for me, please", "pointing out your item in a group"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the ordering phrases",
+      "items": [
+        { "nl": "Ich hätte gern…", "en": "I would like…", "speak": "Ich hätte gern" },
+        { "nl": "Ich nehme…", "en": "I'll take…", "speak": "Ich nehme" },
+        { "nl": "für mich, bitte", "en": "for me, please", "speak": "für mich, bitte" },
+        { "nl": "Sonst noch etwas?", "en": "anything else?", "speak": "Sonst noch etwas?" },
+        { "nl": "Das wäre alles.", "en": "that's everything.", "speak": "Das wäre alles." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Weich vs direkt",
+      "pairs": [
+        { "left": "Ich hätte gern einen Kaffee.", "right": "Ich nehme einen Kaffee.", "note": "Same order, different register — *hätte gern* is a touch softer, *nehme* a touch faster. Neither is rude." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "An der Theke",
+      "items": [
+        { "nl": "das Croissant", "en": "croissant", "speak": "das Croissant" },
+        { "nl": "der Kaffee", "en": "coffee", "speak": "der Kaffee" },
+        { "nl": "der Tee", "en": "tea", "speak": "der Tee" },
+        { "nl": "der Kuchen", "en": "cake", "speak": "der Kuchen" },
+        { "nl": "zum Mitnehmen", "en": "to go", "speak": "zum Mitnehmen" },
+        { "nl": "zum Hieressen", "en": "to eat in", "speak": "zum Hieressen" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You've just decided what you want — which phrase fits best?",
+      "options": ["Ich nehme einen Kaffee.", "Sonst noch etwas?", "Das wäre alles."],
+      "correct": 0,
+      "explain": "*Ich nehme…* — direct and decisive, perfect once you've made up your mind."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the polite way to order a coffee: 'I would like a coffee.'",
+      "answers": ["Ich hätte gern einen Kaffee", "Ich hätte gern einen Kaffee."],
+      "hint": "hätte gern + accusative object.",
+      "explain": "*Ich hätte gern einen Kaffee.* — *der Kaffee* becomes *einen Kaffee* in the accusative."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena play-acts as the Bäckereiverkäuferin so you can practice your order before the real thing.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Guten Tag! Was hätten Sie gern?", "en": "Good day! What would you like?", "spotlight": "Lena switches to *Sie* — the shop-counter register, even in practice." },
+        { "speaker": "You", "nl": "Ich hätte gern zwei Brötchen und einen Kaffee, bitte.", "en": "I'd like two rolls and a coffee, please." },
+        { "speaker": "Lena", "nl": "Zum Hieressen oder zum Mitnehmen?", "en": "To eat in or to go?" },
+        { "speaker": "You", "nl": "Zum Mitnehmen, bitte.", "en": "To go, please." },
+        { "speaker": "Lena", "nl": "Sonst noch etwas?", "en": "Anything else?" },
+        { "speaker": "You", "nl": "Nein danke, das wäre alles.", "en": "No thanks, that's everything." },
+        { "speaker": "Lena", "nl": "Das macht dann sechs Euro fünfzig.", "en": "That'll be six euros fifty, then." },
+        { "speaker": "You", "nl": "Bitte sehr.", "en": "Here you go." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does 'you' order?", "options": ["Two rolls and tea", "Two rolls and a coffee", "A cake and a coffee"], "correct": 1 },
+        { "q": "Eat in or to go?", "options": ["Zum Hieressen", "Zum Mitnehmen", "Neither"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Bau deine Bestellung",
+      "prompt": "Build a full order sentence.",
+      "slots": [
+        { "label": "Start", "chips": ["Ich hätte gern", "Ich nehme"] },
+        { "label": "Bestellung", "chips": ["einen Kaffee", "ein Brötchen", "zwei Croissants", "ein Stück Kuchen"] },
+        { "label": "Schluss", "chips": ["bitte", "für mich, bitte"] }
+      ],
+      "sample": "Ich hätte gern ein Stück Kuchen, bitte."
+    },
+    {
+      "type": "journal",
+      "prompt": "Write your ideal café order: what would you say, from walking up to the counter to paying? Use at least one 'hätte gern' or 'nehme' sentence.",
+      "starters": ["Guten Tag,…", "Ich hätte gern…", "Für mich, bitte…"],
+      "minSentences": 3
+    }
+  ]
+}

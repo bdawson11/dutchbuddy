@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "day-75",
+  "day": 75,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Dare del tu o dare del Lei",
+  "emoji": "🤝",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "tu vs Lei mastery: the verb-person shift, courtesy formulas, negotiating the switch to tu, and never mixing the two registers with one person",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Dare del tu o dare del Lei",
+      "body": "Due modi di dire 'you'. **tu** = amici, coetanei, bambini, famiglia. **Lei** (con la L maiuscola, si coniuga alla **terza persona**) = sconosciuti, negozianti che non conosci, contesti formali, professionali o con persone più grandi. *Dare del tu* / *dare del Lei* significa scegliere il registro. La spia è il verbo: *tu come **stai**?* diventa *Lei come **sta**?*",
+      "callout": "*tu* → seconda persona (*stai, hai, sei*). *Lei* → terza persona (*sta, ha, è*)."
+    },
+    {
+      "type": "contrast",
+      "title": "La stessa frase, due registri",
+      "pairs": [
+        { "left": "*Tu come stai?* — informale", "right": "*Lei come sta?* — formale", "note": "Cambia la persona del verbo: *stai* → *sta*." },
+        { "left": "*Ti va un caffè?* — informale", "right": "*Le posso offrire un caffè?* — formale", "note": "Cambia anche il pronome: *ti* → *Le*." },
+        { "left": "*Ciao! Come ti chiami?*", "right": "*Buongiorno. Lei come si chiama?*", "note": "Saluto e verbo salgono di registro insieme." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Formule di cortesia (Lei)",
+      "items": [
+        { "nl": "Mi scusi…", "en": "Excuse me… (formal)", "speak": "Mi scusi." },
+        { "nl": "Lei come sta?", "en": "How are you? (formal)", "speak": "Lei come sta?" },
+        { "nl": "La ringrazio.", "en": "Thank you (formal).", "speak": "La ringrazio." },
+        { "nl": "Le dispiace?", "en": "Do you mind?", "speak": "Le dispiace?" },
+        { "nl": "Si accomodi.", "en": "Have a seat / come in.", "speak": "Si accomodi." },
+        { "nl": "Prego, mi dica.", "en": "Please, go ahead.", "speak": "Prego, mi dica." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Come si passa al tu",
+      "body": "All'inizio, nel dubbio, **dai del Lei** — è più sicuro con chi non conosci. Quando il rapporto si scalda, qualcuno propone: *«Possiamo darci del tu?»* oppure *«Diamoci del tu!»*. Di solito lo propone la persona più grande o di grado più alto. Da quel momento, **tu** per sempre con quella persona. Regola d'oro: **non mescolare** *tu* e *Lei* con la stessa persona nella stessa conversazione.",
+      "callout": "Nel dubbio, *Lei*. Poi, se te lo propongono: *«Diamoci del tu!»*"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Entri in una farmacia, il farmacista non ti conosce. Come lo saluti?",
+      "options": ["Ciao, come stai?", "Buongiorno, come sta?", "Ehi, tutto bene?"],
+      "correct": 1,
+      "explain": "Sconosciuto in un contesto di servizio → *Lei*. *Buongiorno, come sta?* Il *ciao* e il *tu* qui suonano troppo confidenziali."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Quale frase mescola i registri (errore da evitare)?",
+      "options": ["Lei come sta? Le porto un caffè.", "Tu come stai? Ti porto un caffè.", "Lei come stai? Ti porto un caffè."],
+      "correct": 2,
+      "explain": "*Lei come **stai**?* mescola *Lei* (formale) con *stai* (tu). Con una persona: o tutto *Lei*, o tutto *tu*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Trasforma al formale (Lei): «Tu come stai?»",
+      "answers": ["lei come sta?", "lei come sta", "come sta?", "come sta"],
+      "hint": "Il verbo passa alla terza persona.",
+      "explain": "*tu stai* → *Lei sta*. *Lei come sta?* La *L* maiuscola è d'obbligo nello scritto curato."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase formale.",
+      "speak": "Buongiorno, Lei come sta?",
+      "answers": ["buongiorno, lei come sta?", "buongiorno lei come sta", "buongiorno, lei come sta"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Pietro ti spiega quando usa il Lei al lavoro, a Napoli.",
+      "lines": [
+        { "speaker": "Pietro", "nl": "Guarda, al lavoro con un cliente nuovo do sempre del Lei. «Buongiorno, mi dica pure.»", "en": "Look, at work with a new client I always use Lei. 'Good morning, please go ahead.'", "spotlight": "*mi dica* è l'imperativo di cortesia (Lei) di *dire*: formale e gentile." },
+        { "speaker": "You", "nl": "E se il cliente è giovane come me?", "en": "And if the client is young like me?" },
+        { "speaker": "Pietro", "nl": "Lo stesso, all'inizio. È una forma di rispetto. Poi, magari, ci diamo del tu.", "en": "The same, at first. It's a form of respect. Then, maybe, we switch to tu." },
+        { "speaker": "You", "nl": "E chi lo propone, il tu?", "en": "And who proposes it, the tu?" },
+        { "speaker": "Pietro", "nl": "Di solito il più grande. Io dico: «Diamoci del tu, ti va?»", "en": "Usually the older one. I say: 'Let's use tu, alright?'", "spotlight": "*Diamoci del tu* è la formula per proporre il passaggio all'informale." },
+        { "speaker": "You", "nl": "E con me? Do del tu o del Lei?", "en": "And with me? Do I use tu or Lei?" },
+        { "speaker": "Pietro", "nl": "Con me, del tu! Sei un amico, mica un cliente.", "en": "With me, tu! You're a friend, not a client." },
+        { "speaker": "You", "nl": "Meno male, il Lei mi fa ancora un po' paura.", "en": "Thank goodness, Lei still scares me a little." },
+        { "speaker": "Pietro", "nl": "Tranquillo, viene con il tempo. Qui a Napoli ci teniamo alle buone maniere.", "en": "Don't worry, it comes with time. Here in Naples we care about good manners." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Pensa a due persone della tua vita in Italia: con chi daresti del *tu* e con chi del *Lei*? Scrivi due saluti, uno informale e uno formale.",
+      "starters": ["A Marco do del tu: «Ciao,…»", "Alla farmacista do del Lei: «Buongiorno,…»"],
+      "minSentences": 2
+    }
+  ]
+}

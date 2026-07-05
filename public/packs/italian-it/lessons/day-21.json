@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-21",
+  "day": 21,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "capstone",
+  "title": "Il mio racconto: famiglia e quartiere",
+  "emoji": "🖼️",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Week 3 capstone: family possessives, adjective agreement, questo/quello, the quartiere — then extend your self-intro",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Uno sguardo indietro: settimana 3",
+      "body": "This week you learned to talk about **famiglia** with possessives (*mio padre*, *mia sorella* — no article at the singular), to make **adjectives agree** in gender and number (*alto/alta/alti/alte*), to use **questo** and **quello** for near and far, and to describe your **quartiere** with *a/in/da*. You also learned to describe people, from looks to character — *simpatico*, *gentile*, *in gamba*. Bel lavoro davvero.",
+      "callout": "This is the end of Week 3 — family, adjectives, and your world around you, all in Italian."
+    },
+    {
+      "type": "chips",
+      "title": "Quick refresh — tap through",
+      "items": [
+        { "nl": "mia sorella", "en": "my sister", "speak": "mia sorella" },
+        { "nl": "una bella casa", "en": "a nice house", "speak": "una bella casa" },
+        { "nl": "questa piazza", "en": "this square", "speak": "questa piazza" },
+        { "nl": "quel negozio", "en": "that shop", "speak": "quel negozio" },
+        { "nl": "in gamba", "en": "sharp / capable", "speak": "in gamba" }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Warm up — shadow the week",
+      "lines": [
+        { "nl": "Questa è mia sorella.", "en": "This is my sister." },
+        { "nl": "Il mio quartiere è tranquillo.", "en": "My neighborhood is quiet." },
+        { "nl": "Quella piazza è bellissima.", "en": "That square is really beautiful." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct: 'my brothers are tall'?",
+      "options": ["I miei fratelli sono alti", "I miei fratelli sono alta", "Mio fratelli sono alti"],
+      "correct": 0,
+      "explain": "Plural family words need the article (i miei fratelli), and alti agrees, masculine plural."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Tonight you're heading to Marco's place. How do you say it?",
+      "options": ["Vado a Marco", "Vado in Marco", "Vado da Marco"],
+      "correct": 2,
+      "explain": "da + a person = 'to/at someone's place': vado da Marco."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'this park is beautiful' in Italian.",
+      "answers": ["questo parco è bello"],
+      "hint": "parco is masculine singular — questo and bello both agree.",
+      "explain": "*Questo parco è bello.* Both questo and bello take the masculine singular ending to match parco."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole line.",
+      "speak": "Mia zia abita in centro.",
+      "answers": ["mia zia abita in centro"]
+    },
+    {
+      "type": "contrast",
+      "title": "Family drops the article — everything else keeps it",
+      "pairs": [
+        { "left": "*mia zia* — my aunt (no article)", "right": "*la mia macchina* — my car (article stays)", "note": "Singular, unmodified family words skip il/la after a possessive. Objects and plurals keep it." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Marco visits your apartment for the first time and spots a family photo on the shelf",
+      "lines": [
+        { "speaker": "Marco", "nl": "Bel quartiere! E questa foto, chi sono?", "en": "Nice neighborhood! And this photo, who are they?" },
+        { "speaker": "You", "nl": "Questa è la mia famiglia. Quello è mio padre, e quella è mia madre.", "en": "This is my family. That's my father, and that's my mother.", "spotlight": "quello/quella point at people across the room — near vs far demonstratives in action." },
+        { "speaker": "Marco", "nl": "Sembrano simpatici. E quel ragazzo alto?", "en": "They seem nice. And that tall guy?" },
+        { "speaker": "You", "nl": "È mio fratello. Abita qui vicino, in quella via dietro la piazza.", "en": "That's my brother. He lives nearby, on that street behind the square." },
+        { "speaker": "Marco", "nl": "Ah, conosco quella via! C'è un bar molto buono all'angolo.", "en": "Ah, I know that street! There's a really good bar on the corner." },
+        { "speaker": "You", "nl": "Davvero? Il mio quartiere è piccolo, ma mi piace molto.", "en": "Really? My neighborhood is small, but I like it a lot." },
+        { "speaker": "Marco", "nl": "Ma dai, è perfetto: famiglia vicina e un buon bar. Cosa vuoi di più?", "en": "Come on, it's perfect: family nearby and a good bar. What more do you want?" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "Where does the speaker's brother live?", "options": ["In another city", "Nearby, on a street behind the square", "At the bar"], "correct": 1 },
+        { "q": "What does Marco say is on the corner of that street?", "options": ["A market", "A church", "A good bar"], "correct": 2 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Il mio racconto — livello 3",
+      "prompt": "Extend your self-introduction: add your family and your quartiere. (Keep your name, where you're from, and that you're learning Italian from before!)",
+      "slots": [
+        { "label": "Chi sono", "chips": ["Mi chiamo Alex, sono di Toronto, e sto imparando l'italiano", "Mi chiamo Sara, sono di Boston, e sto imparando l'italiano", "Buongiorno, mi chiamo Sam, sono di Londra, e sto imparando l'italiano"] },
+        { "label": "La mia famiglia", "chips": ["Ho una sorella e un fratello", "Mia madre è insegnante e mio padre è ingegnere", "Ho una famiglia piccola ma unita"] },
+        { "label": "Il mio quartiere", "chips": ["Abito in un quartiere tranquillo, vicino a una bella piazza", "Il mio quartiere è piccolo, ma mi piace molto", "Vivo vicino a un buon mercato e a un parco grande"] }
+      ],
+      "sample": "Mi chiamo Alex, sono di Toronto, e sto imparando l'italiano. Ho una sorella e un fratello, e mia madre è insegnante. Abito in un quartiere tranquillo, vicino a una bella piazza."
+    },
+    {
+      "type": "journal",
+      "prompt": "Il mio racconto — livello 3! Write your full self-introduction so far: your name, where you're from, that you're learning Italian, something about your family (with mio/mia — remember, no article!), and a line about your quartiere with an adjective that agrees. Complimenti per la terza settimana — la tua storia sta crescendo!",
+      "starters": ["Mi chiamo…", "Ho…", "Il mio quartiere…"],
+      "minSentences": 4
+    }
+  ]
+}
