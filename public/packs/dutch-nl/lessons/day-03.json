@@ -22,7 +22,8 @@
           ["goedemorgen", "until ~noon", "good morning"],
           ["goedemiddag", "noon–evening", "good afternoon"],
           ["goedenavond", "after ~18:00", "good evening"],
-          ["dag / doei", "hello or bye", "hi / bye"]
+          ["dag", "hello or bye", "hi / bye"],
+          ["doei", "bye only", "bye"]
         ]
       },
       "callout": "*doei* is the cheery casual 'bye'. Emma signs off with it constantly."

@@ -61,8 +61,8 @@
     },
     {
       "type": "mcq",
-      "prompt": "Your friend snaps 'Geef me de zout.' You want to soften it to a normal request. Which is best?",
-      "options": ["Geef me de zout nu.", "Geef me even de zout?", "Geef me de zout, punt."],
+      "prompt": "Your friend snaps 'Geef me het zout.' You want to soften it to a normal request. Which is best?",
+      "options": ["Geef me het zout nu.", "Geef me even het zout?", "Geef me het zout, punt."],
       "correct": 1,
       "explain": "*even* turns a demand into a low-stakes favour. Without it, you sound like a boss."
     },
