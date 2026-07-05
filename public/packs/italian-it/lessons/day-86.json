@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-86",
+  "day": 86,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "Il congiuntivo imperfetto",
+  "emoji": "🕰",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The imperfect subjunctive: pensavo che fosse — triggered by a past main verb",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il congiuntivo imperfetto",
+      "body": "When the trigger verb is in the **past** (*pensavo, volevo, credevo, era importante che…*), the subjunctive shifts to the **imperfetto**. Take the imperfetto indicativo and swap the ending: **-avo → -assi**, **-evo → -essi**, **-ivo → -issi**. *Pensavo che tu **parlassi** italiano.*",
+      "table": {
+        "headers": ["-are (parlare)", "-ere (scrivere)", "-ire (dormire)"],
+        "rows": [
+          ["che io parlassi", "che io scrivessi", "che io dormissi"],
+          ["che tu parlassi", "che tu scrivessi", "che tu dormissi"],
+          ["che parlasse", "che scrivesse", "che dormisse"],
+          ["che parlassimo", "che scrivessimo", "che dormissimo"],
+          ["che parlassero", "che scrivessero", "che dormissero"]
+        ]
+      },
+      "callout": "Irregolari chiave: *essere → fossi*, *fare → facessi*, *dare → dessi*, *stare → stessi*, *dire → dicessi*. (*avere → avessi*, regolare.)"
+    },
+    {
+      "type": "card",
+      "title": "Perché al passato?",
+      "body": "The trigger decides the tense. Present trigger → *presente*: *Penso che **sia** stanco.* Past trigger → *imperfetto*: *Pensavo che **fosse** stanco.* Same idea, one step back in time. This 'one step back' is the heart of **concordanza dei tempi** (day 88).",
+      "callout": "*Voglio che tu venga* (adesso) → *Volevo che tu venissi* (allora)."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta e ripeti",
+      "items": [
+        { "nl": "Pensavo che fosse a casa.", "en": "I thought he was home.", "speak": "Pensavo che fosse a casa." },
+        { "nl": "Volevo che tu venissi con me.", "en": "I wanted you to come with me.", "speak": "Volevo che tu venissi con me." },
+        { "nl": "Era importante che parlassimo.", "en": "It was important that we talked.", "speak": "Era importante che parlassimo." },
+        { "nl": "Speravo che facesse bel tempo.", "en": "I was hoping the weather would be nice.", "speak": "Speravo che facesse bel tempo." },
+        { "nl": "Non sapevo che tu abitassi qui.", "en": "I didn't know you lived here.", "speak": "Non sapevo che tu abitassi qui." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Un passo indietro nel tempo",
+      "pairs": [
+        { "left": "Penso che **sia** difficile.", "right": "Pensavo che **fosse** difficile.", "note": "trigger presente → cong. presente; trigger passato → cong. imperfetto." },
+        { "left": "Voglio che tu **venga**.", "right": "Volevo che tu **venissi**.", "note": "stesso desiderio, tempo diverso." },
+        { "left": "Spero che **faccia** bel tempo.", "right": "Speravo che **facesse** bel tempo.", "note": "'faccia'/'facesse' — fare è irregolare in entrambi." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Da bambino non sapevo che l'italiano ___ così tante regole.»",
+      "options": ["abbia", "avesse", "aveva"],
+      "correct": 1,
+      "explain": "Trigger al passato (*non sapevo*) → congiuntivo **imperfetto**: *avesse*. *Aveva* è indicativo."
+    },
+    {
+      "type": "typed",
+      "prompt": "Dì: 'I wanted you (tu) to come.' — usa *volevo che…* e *venire*.",
+      "answers": ["volevo che tu venissi", "volevo che venissi"],
+      "hint": "venire → congiuntivo imperfetto: venissi.",
+      "explain": "*Volevo che tu venissi.* Trigger passato *volevo* → imperfetto *venissi*."
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci: pensavo che…",
+      "prompt": "Fai una frase con un trigger al passato + congiuntivo imperfetto.",
+      "slots": [
+        { "label": "Trigger al passato", "chips": ["Pensavo che", "Volevo che", "Speravo che", "Non sapevo che"] },
+        { "label": "Soggetto", "chips": ["tu", "Marco", "il treno", "voi"] },
+        { "label": "Verbo (cong. imperfetto)", "chips": ["fosse in ritardo", "venissi presto", "parlaste inglese", "avesse ragione"] }
+      ],
+      "sample": "Pensavo che il treno fosse in ritardo."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Giulia and you, remembering when you first arrived in Bologna.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Ti ricordi il tuo primo giorno qui?", "en": "Remember your first day here?" },
+        { "speaker": "You", "nl": "Come no. Pensavo che tutti parlassero velocissimo.", "en": "Of course. I thought everyone talked super fast.", "spotlight": "congiuntivo imperfetto dopo 'pensavo'." },
+        { "speaker": "Giulia", "nl": "Eh! E credevi che l'italiano fosse impossibile, vero?", "en": "Ha! And you thought Italian was impossible, right?" },
+        { "speaker": "You", "nl": "Sì, volevo che qualcuno mi aiutasse con il congiuntivo.", "en": "Yeah, I wanted someone to help me with the subjunctive.", "spotlight": "'volevo che… aiutasse' — un desiderio al passato." },
+        { "speaker": "Giulia", "nl": "E guarda adesso! Non sapevo che imparassi così in fretta.", "en": "And look now! I didn't know you learned so fast." },
+        { "speaker": "You", "nl": "Speravo solo che non fosse troppo tardi per cominciare.", "en": "I just hoped it wasn't too late to start." },
+        { "speaker": "Giulia", "nl": "Ma dai, non è mai tardi.", "en": "Come on, it's never too late." },
+        { "speaker": "You", "nl": "Grazie. Era importante che me lo dicessi.", "en": "Thanks. It mattered that you told me that." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai capito?",
+      "questions": [
+        { "q": "All'inizio, cosa pensava 'You' degli italiani?", "options": ["Che parlassero troppo veloce", "Che fossero antipatici", "Che non aiutassero mai"], "correct": 0 },
+        { "q": "Cosa non sapeva Giulia?", "options": ["Che 'You' imparasse così in fretta", "Che 'You' fosse di Napoli", "Che 'You' partisse"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Pensa a quando hai cominciato a imparare l'italiano. Scrivi tre frasi con *pensavo che… / credevo che… / volevo che…* + congiuntivo imperfetto.",
+      "starters": ["All'inizio pensavo che…", "Non sapevo che…", "Volevo che…"],
+      "minSentences": 3
+    }
+  ]
+}

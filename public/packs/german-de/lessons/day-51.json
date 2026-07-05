@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "day-51",
+  "day": 51,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "Wollen, möchten und Sollen wir…?",
+  "emoji": "🙋",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "wollen vs. the politer möchten for plans, plus Sollen wir…? for offers and suggestions",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "wollen vs. möchten",
+      "body": "**wollen** (to want) is direct and can sound blunt: *Ich will ins Kino gehen* (I want to go to the cinema — matter-of-fact, even a bit bossy). **möchten** is the polite cousin, softer, like \"would like\": *Ich möchte ins Kino gehen*. Both push the second verb to the infinitive at the very end.",
+      "table": {
+        "headers": ["wollen", "möchten"],
+        "rows": [
+          ["ich will", "ich möchte"],
+          ["du willst", "du möchtest"],
+          ["er/sie/es will", "er/sie/es möchte"],
+          ["wir wollen", "wir möchten"]
+        ]
+      },
+      "callout": "Rule of thumb: reach for *möchten* with people you don't know well; *wollen* is fine with close friends — or when you're sure."
+    },
+    {
+      "type": "chips",
+      "title": "Pläne machen — tap to hear",
+      "items": [
+        { "nl": "Ich will…", "en": "I want to…", "speak": "Ich will" },
+        { "nl": "Ich möchte…", "en": "I'd like to…", "speak": "Ich möchte" },
+        { "nl": "Hast du Lust?", "en": "Do you feel like it?", "speak": "Hast du Lust?" },
+        { "nl": "Sollen wir…?", "en": "Shall we…?", "speak": "Sollen wir" },
+        { "nl": "Gute Idee!", "en": "Good idea!", "speak": "Gute Idee!" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Direkt vs. höflich",
+      "pairs": [
+        { "left": "Ich will jetzt gehen. — blunt", "right": "Ich möchte jetzt gehen, wenn das okay ist. — softer", "note": "Same wish, different tone. möchte smooths almost any request." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You're asking your colleague's boss, who you barely know, if you can leave early. Which is more polite?",
+      "options": ["Ich will jetzt gehen.", "Ich möchte jetzt gehen.", "Ich will gehen jetzt."],
+      "correct": 1,
+      "explain": "*möchte* is the polite form — safer with someone you don't know well. (The third option also has wrong word order: *jetzt* must come before *gehen*.)"
+    },
+    {
+      "type": "card",
+      "title": "Sollen wir…? — making an offer",
+      "body": "To suggest doing something together, ask **Sollen wir + Infinitiv?** — literally \"should we…?\", but it lands as a friendly proposal: *Sollen wir ins Kino gehen?* (Shall we go to the cinema?) Answer with *Ja, gern!* or soften a no with *Ich weiß nicht, vielleicht lieber…*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the question: 'Shall we go to the Kneipe?'",
+      "answers": ["Sollen wir in die Kneipe gehen?", "Sollen wir in die Kneipe gehen"],
+      "hint": "Sollen wir + destination + gehen?",
+      "explain": "*Sollen wir in die Kneipe gehen?* — the infinitive *gehen* closes the sentence, same pattern as werden and other modal verbs."
+    },
+    {
+      "type": "builder",
+      "title": "Mach einen Vorschlag",
+      "prompt": "Build a suggestion with Sollen wir…?",
+      "slots": [
+        { "label": "Sollen wir", "chips": ["Sollen wir"] },
+        { "label": "Ziel/Aktivität", "chips": ["heute Abend kochen", "am Wochenende Fahrrad fahren", "zusammen Deutsch üben"] }
+      ],
+      "sample": "Sollen wir heute Abend kochen?"
+    },
+    {
+      "type": "dialogue",
+      "scene": "Jonas texts you about the weekend.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Ey, hast du Lust? Sollen wir am Samstag in die Kneipe gehen?", "en": "Hey, feel like it? Shall we go to the pub on Saturday?", "spotlight": "Sollen wir + infinitive: the go-to way to propose a plan." },
+        { "speaker": "You", "nl": "Gute Idee! Ich möchte auch Lena einladen.", "en": "Good idea! I'd like to invite Lena too." },
+        { "speaker": "Jonas", "nl": "Passt! Ich will auch Aylin fragen, aber sie hat oft viel zu tun.", "en": "Works for me! I want to ask Aylin too, but she's often got a lot going on." },
+        { "speaker": "You", "nl": "Okay, dann schreibe ich ihr auch kurz.", "en": "Okay, I'll message her too then." },
+        { "speaker": "Jonas", "nl": "Super, bis Samstag!", "en": "Great, see you Saturday!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Jonas suggest?", "options": ["Going to the cinema", "Going to the pub on Saturday", "Studying together"], "correct": 1 },
+        { "q": "Who does Jonas want to ask too?", "options": ["Klaus", "Lena", "Aylin"], "correct": 2 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schreib einen Vorschlag: what do you want to do this weekend, and what would you like to do with a friend? Use wollen, möchten, and Sollen wir…?",
+      "starters": ["Ich will…", "Ich möchte…", "Sollen wir…?"]
+    }
+  ]
+}

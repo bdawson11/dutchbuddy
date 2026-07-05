@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "day-36",
+  "day": 36,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "Der Körper",
+  "emoji": "🤕",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Body vocab and the two pain patterns — Kopfschmerzen and the first live dative, mir tut ... weh",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Körperteile",
+      "body": "The words you need when something hurts. Note the articles — they don't follow a pattern, so learn each word with its article.",
+      "table": {
+        "headers": ["Wort", "Bedeutung"],
+        "rows": [
+          ["der Kopf", "head"],
+          ["der Bauch", "stomach / belly"],
+          ["der Hals", "throat / neck"],
+          ["der Rücken", "back"],
+          ["der Arm", "arm"],
+          ["das Bein", "leg"],
+          ["die Hand", "hand"],
+          ["der Fuß", "foot"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear each body part",
+      "items": [
+        { "nl": "der Kopf", "en": "head", "speak": "der Kopf" },
+        { "nl": "der Bauch", "en": "belly", "speak": "der Bauch" },
+        { "nl": "der Rücken", "en": "back", "speak": "der Rücken" },
+        { "nl": "der Hals", "en": "throat", "speak": "der Hals" },
+        { "nl": "das Bein", "en": "leg", "speak": "das Bein" },
+        { "nl": "die Hand", "en": "hand", "speak": "die Hand" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Ich habe ... schmerzen",
+      "body": "Glue a body part straight onto **Schmerzen** (pain) and you've made a new word: *Kopf* + *Schmerzen* = **Kopfschmerzen** (headache). Then just say **ich habe** + the compound, no article needed: *Ich habe Kopfschmerzen*. Same pattern gives *Halsschmerzen* (sore throat), *Bauchschmerzen* (stomachache), *Rückenschmerzen* (backache), *Zahnschmerzen* (toothache).",
+      "callout": "*Halsschmerzen* — Hals and Schmerzen, glued together like every German compound."
+    },
+    {
+      "type": "mcq",
+      "prompt": "How do you say 'I have a sore throat'?",
+      "options": ["Ich habe Halsschmerzen.", "Ich habe Schmerzen Hals.", "Ich bin Halsschmerzen."],
+      "correct": 0,
+      "explain": "Compound nouns glue together: Hals + Schmerzen = Halsschmerzen. Then it's just ich habe + the compound, no article."
+    },
+    {
+      "type": "card",
+      "title": "Mir tut der Kopf weh — the dative arrives",
+      "body": "A second way to say it hurts uses the **dative** — German's next big case. **wehtun** is actually a separable verb, just like the ones from last week: *weh* jumps to the end. Pattern: **[Dativpronomen] + tut/tun + [Körperteil, Nominativ] + weh**. *Mir tut der Kopf weh* (My head hurts — literally 'to me the head hurts'). The verb agrees with the body part: singular *der Kopf* → **tut**; plural *die Beine* → **tun**.",
+      "table": {
+        "headers": ["Person", "Dativpronomen"],
+        "rows": [
+          ["ich", "mir"],
+          ["du", "dir"],
+          ["er / es", "ihm"],
+          ["sie", "ihr"]
+        ]
+      },
+      "callout": "*Mir tun die Beine weh* — plural body part, so tun, not tut."
+    },
+    {
+      "type": "contrast",
+      "title": "Two ways to say it hurts",
+      "pairs": [
+        {
+          "left": "Ich habe Kopfschmerzen. — I have a headache.",
+          "right": "Mir tut der Kopf weh. — My head hurts.",
+          "note": "Both are correct and natural. Ich habe ...schmerzen names the ache as a thing; mir tut ... weh points the dative pronoun straight at the person feeling it."
+        },
+        {
+          "left": "Mir tut der Rücken weh. — singular, so tut.",
+          "right": "Mir tun die Beine weh. — plural, so tun.",
+          "note": "wehtun agrees with the body part doing the hurting, not with mir."
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence means 'My back hurts'?",
+      "options": ["Ich bin Rücken weh.", "Mir tut der Rücken weh.", "Ich tue Rücken weh."],
+      "correct": 1,
+      "explain": "wehtun is separable — the dative pronoun (mir) comes first, weh splits off to the end: Mir tut der Rücken weh."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'My back hurts.'",
+      "answers": ["Mir tut der Rücken weh", "Mir tut der Ruecken weh"],
+      "hint": "Dative pronoun first, then der Rücken, then weh at the end (wehtun is separable).",
+      "explain": "Mir tut der Rücken weh — mir (dative) + tut (3rd person singular) + der Rücken (nominative subject) + weh (separable prefix, jumps to the end)."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ich habe Bauchschmerzen.",
+      "answers": ["Ich habe Bauchschmerzen"]
+    },
+    {
+      "type": "shadow",
+      "title": "Shadow the pain patterns",
+      "lines": [
+        { "nl": "Ich habe Kopfschmerzen.", "en": "I have a headache." },
+        { "nl": "Ich habe Halsschmerzen.", "en": "I have a sore throat." },
+        { "nl": "Mir tut der Rücken weh.", "en": "My back hurts." },
+        { "nl": "Mir tun die Beine weh.", "en": "My legs hurt." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Sag, was wehtut",
+      "prompt": "Say what hurts using [Körperteil] tut mir weh.",
+      "slots": [
+        { "label": "Körperteil", "chips": ["Der Kopf", "Der Bauch", "Der Rücken", "Der Hals"] },
+        { "label": "Satzende", "chips": ["tut mir weh."] }
+      ],
+      "sample": "Der Rücken tut mir weh."
+    },
+    {
+      "type": "journal",
+      "prompt": "Which part of you is complaining today (for real or for practice)? Write two German sentences about it — try both patterns from today.",
+      "starters": ["Ich habe...", "Mir tut... weh."]
+    }
+  ]
+}

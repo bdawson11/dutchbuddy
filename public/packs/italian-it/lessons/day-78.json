@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "day-78",
+  "day": 78,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "Dai, senti, guarda: l'imperativo",
+  "emoji": "📣",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Giving commands the Italian way — tu/Lei/voi forms, attaching clitics, and softening it all with a paroletta",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Le parole che spingono",
+      "body": "Half of spoken Italian is little commands. Not barking orders — nudging. *Dai!* (come on!), *guarda!* (look!), *senti!* (listen! / hey!), *dimmi!* (tell me / go ahead). This is **l'imperativo**, and once you hear how often Italians reach for it, you can't unhear it. The trick isn't the grammar — it's learning to **soften** it so you sound friendly, not bossy.",
+      "callout": "*Senti,* and *guarda,* at the start of a sentence are just 'hey' — attention-getters, not real orders."
+    },
+    {
+      "type": "chips",
+      "title": "Le più usate — tap to hear",
+      "items": [
+        { "nl": "Dai!", "en": "Come on! / Go on!", "speak": "Dai!" },
+        { "nl": "Guarda!", "en": "Look! / Listen…", "speak": "Guarda!" },
+        { "nl": "Senti…", "en": "Hey… / Listen…", "speak": "Senti…" },
+        { "nl": "Dimmi!", "en": "Tell me! / Go ahead", "speak": "Dimmi!" },
+        { "nl": "Vai!", "en": "Go! / Go for it!", "speak": "Vai!" },
+        { "nl": "Andiamo!", "en": "Let's go!", "speak": "Andiamo!" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Le forme del tu",
+      "body": "For a friend (**tu**), the command endings are: **-are → -a** (*parla!, guarda!, ascolta!*), **-ere → -i** (*prendi!, scrivi!*), **-ire → -i** (*senti!, dormi!*, and *-isc-* verbs *finisci!, pulisci!*). A handful of everyday verbs have a tiny clipped form: **va'** (or *vai*), **fa'** (*fai*), **da'** (*dai*), **sta'** (*stai*), **di'**. To say *don't*, use **non + infinitive**: *non parlare!, non andare!*",
+      "callout": "Negative tu command = **non** + the plain infinitive. *Non ti preoccupare!* = don't worry!"
+    },
+    {
+      "type": "contrast",
+      "title": "Amico (tu) vs sconosciuto (Lei)",
+      "pairs": [
+        { "left": "*Senti!* — hey (a friend)", "right": "*Senta!* — excuse me (Lei)", "note": "The formal Lei command borrows the congiuntivo: *senta, guardi, prenda, venga.*" },
+        { "left": "*Dimmi!* — tell me (a friend)", "right": "*Mi dica!* — go ahead (Lei)", "note": "A shopkeeper says *Mi dica* — 'tell me what you need'. With Lei the clitic goes *before*." },
+        { "left": "*Scusa!* — sorry / excuse me (tu)", "right": "*Scusi!* — excuse me (Lei)", "note": "Same word, two registers. Match it to who you're talking to." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Sei dal medico, che non conosci. Come dici 'excuse me / listen'?",
+      "options": ["Senti", "Senta", "Sentite"],
+      "correct": 1,
+      "explain": "Col medico usi il **Lei** → *Senta*. *Senti* è per gli amici (tu); *Sentite* è per un gruppo (voi)."
+    },
+    {
+      "type": "card",
+      "title": "Attaccare i pronomi, e ammorbidire",
+      "body": "With a **tu/noi/voi** command, the little pronoun **sticks to the end**: *dimmi* (di' + mi), *dammi* (da' + mi), *fammi vedere* (fa' + mi), *guardami!* (look at me), *muoviti!* (get moving!). With the short forms *da'/fa'/di'/sta'*, the consonant doubles (*dammi, dimmi, fallo*). To sound kind, not bossy, wrap it in a **paroletta**: *dai, su, senti,* or add *per favore* / *un attimo*.",
+      "callout": "*Dammi un attimo!* / *Aspetta, dai!* — the softener does all the social work."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'tell me!' to a friend — one word, with the pronoun attached.",
+      "answers": ["dimmi", "dimmi!"],
+      "hint": "di' + mi, and the consonant doubles.",
+      "explain": "*Dimmi!* — *di'* + *mi* → *dimmi*, with the doubled m. It means both 'tell me' and 'go ahead, I'm listening'."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Come dici a un amico 'don't worry!'?",
+      "options": ["Non preoccuparti", "Non ti preoccupi", "Non preoccupati"],
+      "correct": 0,
+      "explain": "Il tu negativo = **non + infinito**: *non preoccuparti* (o *non ti preoccupare*). *Non ti preoccupi* sarebbe il Lei; *non preoccupati* non esiste."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Marco gives you last-minute directions to the bar — imperatives flying, but all softened.",
+      "lines": [
+        { "speaker": "Marco", "nl": "Allora, senti: esci di casa e vai dritto.", "en": "So, listen: leave the house and go straight.", "spotlight": "*Senti* = attention-getter; *vai* = tu command of andare." },
+        { "speaker": "Marco", "nl": "Arrivi alla piazza, giri a sinistra, dai, è facile.", "en": "You reach the square, turn left, come on, it's easy.", "spotlight": "*Dai* softens the whole instruction — friendly, not bossy." },
+        { "speaker": "You", "nl": "Aspetta, dimmi di nuovo: a destra o a sinistra?", "en": "Wait, tell me again: right or left?" },
+        { "speaker": "Marco", "nl": "A sinistra! Non ti preoccupare, prendi Via Rizzoli e sei lì.", "en": "Left! Don't worry, take Via Rizzoli and you're there.", "spotlight": "Negative command *non ti preoccupare* + positive *prendi*." },
+        { "speaker": "Marco", "nl": "E fammi un favore: non arrivare tardi, eh.", "en": "And do me a favour: don't be late, eh." },
+        { "speaker": "You", "nl": "Va bene, dammi dieci minuti. Arrivo!", "en": "Alright, give me ten minutes. I'm coming!" },
+        { "speaker": "Marco", "nl": "Bravo. Guarda, lo spritz te lo offro io. Muoviti!", "en": "Good. Look, the spritz is on me. Get moving!", "spotlight": "*Muoviti!* = muovi + ti, a reflexive command — 'move it!'" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi tre comandi che diresti a un amico oggi (con una paroletta per ammorbidirli) e uno che diresti con il Lei a uno sconosciuto. Per esempio: al bar, per strada, a casa.",
+      "starters": ["Dai,…", "Senti,…", "Mi scusi,…"],
+      "minSentences": 3
+    }
+  ]
+}

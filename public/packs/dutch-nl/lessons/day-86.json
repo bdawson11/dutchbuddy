@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-86",
+  "day": 86,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "Werd of is — daad tegenover resultaat",
+  "emoji": "🚪",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The passive in the past (werd/werden) and the classic B2 split: worden (action, process) vs zijn (result, state)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Het passief in het verleden",
+      "body": "Zet *worden* in de verleden tijd en je hebt het verleden passief: **werd** (enkelvoud) / **werden** (meervoud). *De brief werd gisteren geschreven.* *De ramen werden schoongemaakt.* Zelfde bouw als in het heden — alleen *werd(en)* in plaats van *wordt/worden*.",
+      "table": {
+        "headers": ["Nu (worden)", "Verleden (werd/werden)"],
+        "rows": [
+          ["De weg wordt gemaakt.", "De weg werd gemaakt."],
+          ["De pakketten worden bezorgd.", "De pakketten werden bezorgd."],
+          ["Het feest wordt gepland.", "Het feest werd gepland."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "In het verleden — tik om te horen",
+      "items": [
+        { "nl": "De fiets werd gestolen.", "en": "The bike was stolen.", "speak": "De fiets werd gestolen." },
+        { "nl": "De brief werd verstuurd.", "en": "The letter was sent.", "speak": "De brief werd verstuurd." },
+        { "nl": "Alle gasten werden uitgenodigd.", "en": "All the guests were invited.", "speak": "Alle gasten werden uitgenodigd." },
+        { "nl": "Het raam werd gebroken.", "en": "The window was broken.", "speak": "Het raam werd gebroken." },
+        { "nl": "De rekening werd betaald.", "en": "The bill was paid.", "speak": "De rekening werd betaald." },
+        { "nl": "De foto's werden gemaakt.", "en": "The photos were taken.", "speak": "De foto's werden gemaakt." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "*worden* of *zijn*? — daad of resultaat",
+      "body": "Dé B2-valkuil. **worden** = de daad gebeurt (het proces). **zijn** = het resultaat staat er. *De deur **wordt** geopend* (iemand opent hem, nu) tegenover *De deur **is** geopend* (hij is open — het resultaat). In het verleden net zo: *werd* (de daad toen) vs *was* (de toestand toen).",
+      "callout": "worden = film (de handeling loopt). zijn = foto (het klaar-resultaat)."
+    },
+    {
+      "type": "contrast",
+      "title": "Proces tegenover toestand",
+      "pairs": [
+        { "left": "De winkel wordt gesloten.", "right": "De winkel is gesloten.", "note": "Links: iemand sluit hem nú. Rechts: hij is dicht (resultaat)." },
+        { "left": "De soep werd opgewarmd.", "right": "De soep was al warm.", "note": "*werd* = de daad in het verleden; *was* = de toestand toen." },
+        { "left": "Het huis wordt gebouwd.", "right": "Het huis is gebouwd.", "note": "In aanbouw vs helemaal af." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Toen ik binnenkwam, ___ de tafel al gedekt.* Welke past?",
+      "options": ["werd", "was", "wordt"],
+      "correct": 1,
+      "explain": "*was gedekt* — de tafel was al klaar toen je binnenkwam: een toestand, dus **zijn** (was). *werd gedekt* zou betekenen dat het op dat moment gebeurde."
+    },
+    {
+      "type": "typed",
+      "prompt": "Zet in het verleden passief: *De gemeente maakt de weg schoon.* Begin met: De weg …",
+      "answers": ["De weg werd schoongemaakt", "De weg werd schoongemaakt.", "De weg werd door de gemeente schoongemaakt", "De weg werd door de gemeente schoongemaakt."],
+      "hint": "*wordt* → *werd*; deelwoord *schoongemaakt* aan het eind.",
+      "explain": "*De weg werd (door de gemeente) schoongemaakt.* De verleden tijd van *worden* is *werd*."
+    },
+    {
+      "type": "dictation",
+      "speak": "De brief werd gisteren verstuurd.",
+      "answers": ["De brief werd gisteren verstuurd", "De brief werd gisteren verstuurd.", "de brief werd gisteren verstuurd"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Daan tells You what happened at the bookshop last week — a story full of the past passive.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Joh, vorige week werd bij ons de etalage ingegooid.", "en": "Man, last week our shop window got smashed.", "spotlight": "Verleden passief: *werd ingegooid*." },
+        { "speaker": "You", "nl": "Wat? Door wie?", "en": "What? By whom?" },
+        { "speaker": "Daan", "nl": "Geen idee. 's Nachts werd de ruit kapotgegooid, zomaar.", "en": "No idea. During the night the window was smashed, just like that." },
+        { "speaker": "You", "nl": "En nu?", "en": "And now?" },
+        { "speaker": "Daan", "nl": "Het is alweer gemaakt. De verzekering werd meteen gebeld.", "en": "It's already fixed. The insurance was called right away.", "spotlight": "*is gemaakt* (resultaat, nu) naast *werd gebeld* (daad, toen)." },
+        { "speaker": "You", "nl": "Gelukkig maar.", "en": "Good thing." },
+        { "speaker": "Daan", "nl": "Ja. En er werd niks gestolen, alleen troep gemaakt.", "en": "Yeah. And nothing was stolen, just a mess made." },
+        { "speaker": "You", "nl": "Dan viel het nog mee.", "en": "Then it wasn't so bad after all." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Wat is er gebeurd?",
+      "questions": [
+        { "q": "Wat gebeurde er bij Daans winkel?", "options": ["De etalage werd ingegooid", "De winkel werd verkocht", "Er was brand"], "correct": 0 },
+        { "q": "Werd er iets gestolen?", "options": ["Ja, veel", "Nee, niks", "Alleen boeken"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Vertel over iets wat er ooit met jou of je spullen gebeurd is, in het verleden passief. Gebruik *werd/werden*, en let op het verschil met *was* (het resultaat). Minstens drie zinnen, in het Nederlands.",
+      "starters": ["Ooit werd mijn … gestolen/gemaakt/…", "Het werd … door …", "Toen ik het zag, was het al …"],
+      "minSentences": 3
+    }
+  ]
+}

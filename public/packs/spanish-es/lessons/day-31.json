@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "day-31",
+  "day": 31,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "Ya, todavía no, alguna vez, nunca",
+  "emoji": "⏳",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "The time markers that call for the perfecto — ya, todavía no, alguna vez, nunca — and where they sit in the sentence.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Las palabras que piden el perfecto",
+      "body": "Certain time words point straight at the perfecto because they connect to right now: *hoy, esta mañana, este año*. Four more deserve their own spotlight — **ya** (already), **todavía no** (not yet), **alguna vez** (ever), **nunca** (never). *Ya* and *todavía no* sit right before haber; *nunca* usually jumps in front of it too: **nunca he estado**.",
+      "table": {
+        "headers": ["Marcador", "Significado"],
+        "rows": [
+          ["ya", "already"],
+          ["todavía no", "not yet"],
+          ["alguna vez", "ever / at some point"],
+          ["nunca", "never"]
+        ]
+      },
+      "callout": "*ya* y *todavía no* van justo antes de haber: *ya he comido*, *todavía no he comido*."
+    },
+    {
+      "type": "chips",
+      "title": "Escucha los marcadores",
+      "items": [
+        { "nl": "hoy", "en": "today", "speak": "hoy" },
+        { "nl": "esta semana", "en": "this week", "speak": "esta semana" },
+        { "nl": "ya", "en": "already", "speak": "ya" },
+        { "nl": "todavía no", "en": "not yet", "speak": "todavía no" },
+        { "nl": "alguna vez", "en": "ever", "speak": "alguna vez" },
+        { "nl": "nunca", "en": "never", "speak": "nunca" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Dos extremos, el mismo tiempo verbal",
+      "pairs": [
+        { "left": "ya he comido (already)", "right": "todavía no he comido (not yet)", "note": "Opposite ends of the same event — both use the perfecto, never the other past tense." },
+        { "left": "¿has estado alguna vez en Sevilla? (ever)", "right": "nunca he estado en Sevilla (never)", "note": "alguna vez asks about experience; nunca answers in the negative — same tense either way." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Qué significa 'todavía no'?",
+      "options": ["already", "not yet", "never"],
+      "correct": 1,
+      "explain": "*todavía no* = **not yet** — the thing hasn't happened, but it still could."
+    },
+    {
+      "type": "typed",
+      "prompt": "Escribe 'I have never eaten sushi.'",
+      "answers": ["nunca he comido sushi", "no he comido sushi nunca"],
+      "hint": "nunca can go right before haber, or you can use no… nunca after it",
+      "explain": "**Nunca he comido sushi.** — *nunca* jumps in front of haber for emphasis."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "todavía no he comido",
+      "answers": ["todavía no he comido"]
+    },
+    {
+      "type": "builder",
+      "title": "Construye con un marcador",
+      "prompt": "Elige un marcador y complétalo con una acción en perfecto.",
+      "slots": [
+        { "label": "Marcador", "chips": ["ya", "todavía no", "nunca"] },
+        { "label": "Sujeto + haber + participio", "chips": ["he terminado el informe", "he probado el gazpacho", "hemos visto esa película"] }
+      ],
+      "sample": "Ya he terminado el informe."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You catch up with Sofía over coffee.",
+      "lines": [
+        { "speaker": "Sofía", "nl": "¿Ya has visto la nueva expo de fotografía?", "en": "Have you already seen the new photography exhibit?" },
+        { "speaker": "You", "nl": "No, todavía no. ¿Es buena?", "en": "No, not yet. Is it good?" },
+        { "speaker": "Sofía", "nl": "¡Sí, muy buena! Yo ya he ido dos veces esta semana.", "en": "Yes, very good! I've already gone twice this week.", "spotlight": "ya + he ido — already, right before haber." },
+        { "speaker": "You", "nl": "¿En serio? Yo nunca he ido a esa galería.", "en": "Really? I've never been to that gallery." },
+        { "speaker": "Sofía", "nl": "Pues tienes que ir alguna vez, te va a encantar.", "en": "Well you have to go sometime, you'll love it." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has entendido?",
+      "questions": [
+        { "q": "¿Cuántas veces ha ido Sofía a la expo esta semana?", "options": ["Ninguna", "Una vez", "Dos veces"], "correct": 2 },
+        { "q": "¿Ha ido You a esa galería antes?", "options": ["Sí, muchas veces", "No, nunca", "No lo dice"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Usa ya, todavía no, alguna vez o nunca: escribe tres frases sobre cosas que has hecho o no has hecho.",
+      "starters": ["Ya he…", "Todavía no he…", "Nunca he…"],
+      "minSentences": 3
+    }
+  ]
+}

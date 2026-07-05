@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "day-46",
+  "day": 46,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Che tempo faceva?",
+  "emoji": "🌦️",
+  "level": "A2",
+  "durationMin": [16, 23],
+  "summary": "Weather expressions and scene-setting description in the imperfetto",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il tempo nel passato",
+      "body": "Il tempo atmosferico descrive sempre uno sfondo, quindi va quasi sempre all'**imperfetto**: *faceva caldo* (it was hot), *pioveva* (it was raining), *c'era il sole* (it was sunny), *tirava vento* (it was windy), *nevicava* (it was snowing). Usi il passato prossimo solo per un cambiamento improvviso: *ha cominciato a piovere* (it started to rain).",
+      "callout": "Il tempo che 'c'era' è quasi sempre imperfetto — descrive, non racconta un evento."
+    },
+    {
+      "type": "chips",
+      "title": "Che tempo faceva — tocca per sentire",
+      "items": [
+        { "nl": "Faceva caldo.", "en": "It was hot.", "speak": "Faceva caldo." },
+        { "nl": "Pioveva.", "en": "It was raining.", "speak": "Pioveva." },
+        { "nl": "C'era il sole.", "en": "It was sunny.", "speak": "C'era il sole." },
+        { "nl": "Tirava vento.", "en": "It was windy.", "speak": "Tirava vento." },
+        { "nl": "Nevicava.", "en": "It was snowing.", "speak": "Nevicava." },
+        { "nl": "Il cielo era grigio.", "en": "The sky was grey.", "speak": "Il cielo era grigio." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Descrivere un posto",
+      "body": "Anche per descrivere un luogo nel passato usi l'imperfetto: *la casa era vecchia e piccola*, *il paese era tranquillo*. E per dire 'there was/were' al passato usi **c'era / c'erano**, l'imperfetto di *c'è / ci sono*: *c'era un bar qui vicino, da bambino*.",
+      "callout": "c'era / c'erano = il 'c'è / ci sono' del passato."
+    },
+    {
+      "type": "contrast",
+      "title": "c'è vs c'era",
+      "pairs": [
+        { "left": "*C'è un bar qui vicino.* — There's a bar nearby (adesso)", "right": "*C'era un bar qui, da bambino.* — There used to be a bar here, when I was a kid", "note": "c'era = l'imperfetto di c'è, per dire 'c'era una volta'." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Quale frase descrive il tempo correttamente, all'imperfetto?",
+      "options": ["Ha piovuto ieri per un'ora.", "Pioveva tutto il pomeriggio mentre studiavo.", "Piove ora, guarda fuori."],
+      "correct": 1,
+      "explain": "*Pioveva* — sfondo meteorologico in corso mentre succedeva un'altra cosa (studiavo). L'imperfetto è la scelta naturale per descrivere una scena."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa: 'Il paese _____ (essere) piccolo e tranquillo.' Scrivi la forma imperfetto per 'lui/lei/esso'.",
+      "answers": ["era"],
+      "hint": "essere: lui/lei → era",
+      "explain": "*era* — imperfetto di essere, per descrivere com'era il paese."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Il cielo era grigio e pioveva forte.",
+      "answers": ["il cielo era grigio e pioveva forte", "il cielo era grigio e pioveva forte."]
+    },
+    {
+      "type": "builder",
+      "title": "Una scena del passato",
+      "prompt": "Costruisci una frase che descrive un posto e il tempo che c'era.",
+      "slots": [
+        { "label": "Il tempo", "chips": ["Faceva caldo", "Pioveva", "C'era il sole"] },
+        { "label": "Il posto", "chips": ["e il paese era tranquillo", "e la casa era piccola", "e il mare era azzurro"] }
+      ],
+      "sample": "Faceva caldo, e il mare era azzurro."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Giulia describes the seaside town of her childhood summers",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Da piccola, andavamo sempre al mare in agosto.", "en": "As a kid, we always used to go to the seaside in August." },
+        { "speaker": "You", "nl": "Com'era il posto?", "en": "What was the place like?" },
+        { "speaker": "Giulia", "nl": "Piccolo, tranquillo. C'era sempre il sole e faceva caldissimo.", "en": "Small, quiet. It was always sunny and it was really hot." },
+        { "speaker": "You", "nl": "E la casa?", "en": "And the house?" },
+        { "speaker": "Giulia", "nl": "Era una casetta bianca, vicino alla spiaggia.", "en": "It was a little white house, near the beach.", "spotlight": "era una casetta — imperfetto per descrivere com'era un luogo." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "What was the weather like at Giulia's childhood seaside spot?", "options": ["Rainy and cold", "Sunny and hot", "Windy"], "correct": 1 },
+        { "q": "What did the house look like?", "options": ["A big white villa", "A small white house near the beach", "An apartment in the city"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Descrivi un posto della tua infanzia: che tempo faceva di solito, com'era la casa o il paese.",
+      "starters": ["Il tempo era sempre…", "La casa/il paese era…"],
+      "minSentences": 3
+    }
+  ]
+}

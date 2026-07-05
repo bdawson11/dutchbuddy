@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-30",
+  "day": 30,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "Hecho, dicho, visto: los ocho irregulares",
+  "emoji": "🧩",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "The eight irregular participles every Spaniard reaches for constantly — hecho, dicho, visto, puesto, vuelto, escrito, roto, abierto.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ocho participios que rompen la regla",
+      "body": "Some of Spanish's most common verbs refuse the **-ado/-ido** pattern. These eight irregular participles show up constantly — memorize the shape, don't try to build it from the infinitive.",
+      "table": {
+        "headers": ["Infinitivo", "Participio"],
+        "rows": [
+          ["hacer", "hecho"],
+          ["decir", "dicho"],
+          ["ver", "visto"],
+          ["poner", "puesto"],
+          ["volver", "vuelto"],
+          ["escribir", "escrito"],
+          ["romper", "roto"],
+          ["abrir", "abierto"]
+        ]
+      },
+      "callout": "Apréndetelos de memoria: son los ocho irregulares que más vas a usar, todos los días."
+    },
+    {
+      "type": "chips",
+      "title": "Escucha los ocho irregulares",
+      "items": [
+        { "nl": "he hecho", "en": "I've done / made", "speak": "he hecho" },
+        { "nl": "has dicho", "en": "you've said", "speak": "has dicho" },
+        { "nl": "ha visto", "en": "she's seen", "speak": "ha visto" },
+        { "nl": "hemos puesto", "en": "we've put", "speak": "hemos puesto" },
+        { "nl": "habéis vuelto", "en": "you all have returned", "speak": "habéis vuelto" },
+        { "nl": "han escrito", "en": "they've written", "speak": "han escrito" },
+        { "nl": "he roto", "en": "I've broken", "speak": "he roto" },
+        { "nl": "has abierto", "en": "you've opened", "speak": "has abierto" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Ojo: hecho no es 'hacido'",
+      "body": "If you build a regular participle from *hacer* or *decir* it sounds very wrong to a native ear. Just use the real forms: *He hecho la cena.*, *¿Has visto la nueva serie?*, *Hemos abierto el regalo.*",
+      "callout": "Si dices *hacido* o *decido* para el pasado, va a sonar muy raro — usa siempre hecho y dicho."
+    },
+    {
+      "type": "contrast",
+      "title": "Sin atajos: hay que memorizarlos",
+      "pairs": [
+        { "left": "hacer → hecho", "right": "decir → dicho", "note": "These roots change shape completely in the participle — no shortcut, just memorize them." },
+        { "left": "ver → visto", "right": "escribir → escrito", "note": "Same story: the participle looks nothing like a regular -ado/-ido form." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál es el participio de 'poner'?",
+      "options": ["ponido", "puesto", "poniendo"],
+      "correct": 1,
+      "explain": "*poner* → **puesto**, uno de los ocho irregulares. *ponido* no existe."
+    },
+    {
+      "type": "typed",
+      "prompt": "Escribe 'I have seen' (ver).",
+      "answers": ["he visto"],
+      "hint": "ver es uno de los ocho irregulares",
+      "explain": "*ver* → *visto*: **he visto**."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "hemos vuelto",
+      "answers": ["hemos vuelto"]
+    },
+    {
+      "type": "builder",
+      "title": "Construye con un irregular",
+      "prompt": "Combina sujeto + haber con uno de los participios irregulares.",
+      "slots": [
+        { "label": "Sujeto + haber", "chips": ["yo he", "tú has", "ella ha"] },
+        { "label": "Participio", "chips": ["hecho la comida", "visto la tele", "escrito una carta"] }
+      ],
+      "sample": "Yo he hecho la comida."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bookshop, Rafa brags about his day.",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Tío, ¿qué has hecho hoy?", "en": "Dude, what have you done today?" },
+        { "speaker": "You", "nl": "He escrito un correo importante y he visto a Nacho.", "en": "I've written an important email and I've seen Nacho.", "spotlight": "he escrito, he visto — two of the eight irregulars in one line." },
+        { "speaker": "Rafa", "nl": "¿En serio? Yo he abierto la librería a las nueve y he puesto música todo el día.", "en": "Really? I opened the bookshop at nine and I've played music all day." },
+        { "speaker": "You", "nl": "¿Y qué tal el día en la librería?", "en": "And how's the day at the bookshop going?" },
+        { "speaker": "Rafa", "nl": "Pues nada, un cliente ha roto un libro sin querer. Menos mal que no he roto nada yo.", "en": "Well, a customer accidentally broke a book. Good thing I haven't broken anything." },
+        { "speaker": "You", "nl": "¡Vaya día! Por suerte no es nada grave.", "en": "What a day! Luckily it's nothing serious." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe tres cosas que has hecho, visto o dicho hoy — usa los participios irregulares.",
+      "starters": ["Hoy he hecho…", "He visto…"],
+      "minSentences": 2
+    }
+  ]
+}

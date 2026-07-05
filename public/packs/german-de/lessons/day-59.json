@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "day-59",
+  "day": 59,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Indirekte Rede: Er hat gesagt, dass…",
+  "emoji": "🗣️",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Report what people said with … hat gesagt, dass … and report questions with ob (yes/no) or a W-word. Pronouns shift, and the verb goes to the end.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Weitersagen, was jemand gesagt hat",
+      "body": "To pass on what someone said, you wrap it in **… hat gesagt, dass …** — a *dass*-clause, so the **verb goes to the end**. Two small things shift: the **pronoun** (*ich → er/sie*) and the verb form that goes with it. *„Ich habe keine Zeit.“* → *Sie hat gesagt, dass **sie** keine Zeit **hat**.* In everyday German you just use the normal verb after *dass* — the fancy *Konjunktiv I* (*sie habe*) belongs to the news, and we'll hear it on day 62.",
+      "callout": "Im Alltag reicht **dass + normales Verb**. *Sie hat gesagt, dass sie kommt.* Kein Stress mit Konjunktiv I."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear reported speech",
+      "items": [
+        { "nl": "Sie hat gesagt, dass sie später kommt.", "en": "She said (that) she's coming later.", "speak": "Sie hat gesagt, dass sie später kommt." },
+        { "nl": "Er hat gesagt, dass er keine Zeit hat.", "en": "He said (that) he has no time.", "speak": "Er hat gesagt, dass er keine Zeit hat." },
+        { "nl": "Sie hat gefragt, ob ich mitkomme.", "en": "She asked whether I'm coming along.", "speak": "Sie hat gefragt, ob ich mitkomme." },
+        { "nl": "Er hat gefragt, wann der Film anfängt.", "en": "He asked when the film starts.", "speak": "Er hat gefragt, wann der Film anfängt." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Direkt → indirekt",
+      "pairs": [
+        { "left": "Aylin: „Ich bin müde.“ — direct", "right": "Aylin hat gesagt, dass sie müde ist. — indirect", "note": "*ich → sie*, and the verb *bin → ist* moves to the very end after *dass*." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Lena sagt: „Ich koche heute.“ Wie berichtest du das richtig?",
+      "options": [
+        "Lena hat gesagt, dass sie heute kocht.",
+        "Lena hat gesagt, dass sie kocht heute.",
+        "Lena hat gesagt, dass ich heute koche."
+      ],
+      "correct": 0,
+      "explain": "*dass* sends the verb to the end (*kocht*), and *ich → sie* because Lena is talking about herself. Option 3 keeps *ich*, which would mean *you* cook."
+    },
+    {
+      "type": "card",
+      "title": "Fragen berichten: ob und die W-Wörter",
+      "body": "Reporting a **question**? A **yes/no** question becomes **ob** (whether): *„Kommst du mit?“* → *Er hat gefragt, **ob** ich mitkomme.* A **W-question** just keeps its W-word as the connector: *„Wann kommt der Zug?“* → *Sie hat gefragt, **wann** der Zug kommt.* Either way, it's a subclause, so the verb still lands at the end.",
+      "table": {
+        "headers": ["Direkte Frage", "Indirekt"],
+        "rows": [
+          ["„Hast du Zeit?“", "Er hat gefragt, ob ich Zeit habe."],
+          ["„Wo wohnst du?“", "Sie hat gefragt, wo ich wohne."],
+          ["„Warum lernst du Deutsch?“", "Er hat gefragt, warum ich Deutsch lerne."]
+        ]
+      }
+    },
+    {
+      "type": "typed",
+      "prompt": "Report it in German. Klaus said: „Ich habe keine Zeit.“ → Klaus hat gesagt, dass ___",
+      "answers": ["er keine Zeit hat"],
+      "hint": "ich → er, habe → hat, and the verb goes last.",
+      "explain": "*Klaus hat gesagt, dass er keine Zeit hat.* — pronoun shifts to *er*, and *hat* lands at the end."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole sentence.",
+      "speak": "Sie hat gefragt, ob ich mitkomme.",
+      "answers": ["Sie hat gefragt, ob ich mitkomme.", "Sie hat gefragt ob ich mitkomme"]
+    },
+    {
+      "type": "builder",
+      "title": "Bericht in indirekter Rede",
+      "prompt": "Build a reported statement or question. The dass/ob-clause always ends on its verb.",
+      "slots": [
+        { "label": "Einleitung", "chips": ["Er hat gesagt", "Sie hat gefragt", "Lena meint"] },
+        { "label": "dass/ob-Satz", "chips": ["dass er später kommt", "ob ich Zeit habe", "dass sie müde ist"] }
+      ],
+      "sample": "Er hat gesagt, dass er später kommt."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena calls you right after getting off the phone with Klaus in Cologne.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Du, ich hab gerade mit Klaus telefoniert.", "en": "Hey, I just talked to Klaus on the phone." },
+        { "speaker": "You", "nl": "Ach schön! Was macht er so?", "en": "Oh nice! How's he doing?" },
+        { "speaker": "Lena", "nl": "Er hat gesagt, dass er bald nach Berlin kommt.", "en": "He said he's coming to Berlin soon.", "spotlight": "*dass er bald nach Berlin kommt* — reported statement, verb at the end." },
+        { "speaker": "You", "nl": "Echt? Beruflich?", "en": "Really? For work?" },
+        { "speaker": "Lena", "nl": "Genau. Er hat gefragt, ob wir alle mal zusammen essen gehen.", "en": "Exactly. He asked whether we could all go out to eat together.", "spotlight": "*ob wir … essen gehen* — a yes/no question reported with *ob*." },
+        { "speaker": "You", "nl": "Klar, gerne! Hat er gesagt, wann genau?", "en": "Sure, gladly! Did he say when exactly?" },
+        { "speaker": "Lena", "nl": "Noch nicht. Er meint, dass er sich meldet, sobald er den Termin hat.", "en": "Not yet. He says he'll be in touch as soon as he has the date." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Was haben dir Leute diese Woche erzählt oder gefragt? Berichte drei Aussagen oder Fragen mit *… hat gesagt, dass …* oder *… hat gefragt, ob …*.",
+      "starters": ["Meine Freundin hat gesagt, dass …", "Mein Chef hat gefragt, ob …", "… hat mir erzählt, dass …"],
+      "minSentences": 3
+    }
+  ]
+}

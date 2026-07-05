@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "day-20",
+  "day": 20,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "review",
+  "title": "El barrio de Lucía",
+  "emoji": "🏘️",
+  "level": "A1",
+  "durationMin": [15, 20],
+  "summary": "Week-3 review and immersion: Lucía narrates her Madrid barrio, Lavapiés.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso: semana 3",
+      "body": "Esta semana: la **familia** y los posesivos (*mi, tu, su, nuestro, vuestro*), la **concordancia** de adjetivos (*una casa blanca*), el gran contraste **ser vs estar**, el vocabulario del **barrio** y cómo describir a la gente. Hoy, Lucía te enseña su barrio de verdad.",
+      "callout": "Vale, ¿lista la libreta? Vamos con Lucía."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Lucía nació en Madrid y sigue viviendo allí. ¿Cómo lo dices?",
+      "options": ["Lucía está de Madrid.", "Lucía es de Madrid."],
+      "correct": 1,
+      "explain": "Origin is defining, not temporary → **ser**: *es de Madrid*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Translate: 'our neighborhood is very quiet'.",
+      "answers": ["nuestro barrio es muy tranquilo"],
+      "hint": "barrio is masculine singular; a lasting trait uses ser.",
+      "explain": "*nuestro barrio es muy tranquilo* — *nuestro* agrees with *barrio* (masculine), and *tranquilo* is a defining trait → **ser**."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "mi barrio está cerca del centro",
+      "answers": ["mi barrio está cerca del centro"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía walks you through Lavapiés, her barrio, on a Sunday morning.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Mira, este es mi barrio: Lavapiés. Es muy diferente del centro.", "en": "Look, this is my neighborhood: Lavapiés. It's very different from downtown." },
+        { "speaker": "You", "nl": "¿Cómo es vivir aquí?", "en": "What's it like living here?" },
+        { "speaker": "Lucía", "nl": "Pues es un barrio muy multicultural, con mucho ambiente. Y está muy bien conectado — el metro está a dos minutos.", "en": "Well it's a very multicultural neighborhood, with a lot of atmosphere. And it's very well connected — the metro is two minutes away.", "spotlight": "es (a lasting trait of the barrio) vs está (its location) in the same breath." },
+        { "speaker": "Lucía", "nl": "Mi piso está en esa calle, la que tiene la plaza pequeña al final.", "en": "My flat is on that street, the one with the small square at the end." },
+        { "speaker": "You", "nl": "¿Y tu familia también vive por aquí?", "en": "And does your family live around here too?" },
+        { "speaker": "Lucía", "nl": "No, mis padres viven en las afueras, pero mi hermano está aquí al lado, en la calle de arriba.", "en": "No, my parents live on the outskirts, but my brother is right here next door, on the street above." },
+        { "speaker": "You", "nl": "¿Es un barrio tranquilo?", "en": "Is it a quiet neighborhood?" },
+        { "speaker": "Lucía", "nl": "De día sí, tranquilo y majo. De noche… ¡está lleno de gente y de bares!", "en": "During the day yes, quiet and nice. At night… it's full of people and bars!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Dónde vive el hermano de Lucía?", "options": ["En las afueras", "Muy cerca, en la calle de arriba", "En otro barrio"], "correct": 1 },
+        { "q": "¿Cómo es Lavapiés de noche, según Lucía?", "options": ["Muy tranquilo", "Lleno de gente y bares", "Vacío"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "¿Qué te ha parecido el barrio de Lucía? Escribe 2–3 frases comparándolo con tu barrio (usa ser/estar y algún posesivo).",
+      "starters": ["El barrio de Lucía es…", "Mi barrio es…", "Mi barrio está…"],
+      "minSentences": 2
+    }
+  ]
+}

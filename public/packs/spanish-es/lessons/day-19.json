@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-19",
+  "day": 19,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "¿Cómo es? ¿Cómo está?",
+  "emoji": "👀",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Describing people's looks, personality, and mood — ser vs estar with people.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Cómo es la gente",
+      "body": "Describe looks and personality with **ser**: physical traits and character are usually **defining**. **Es alto. Es morena. Es muy simpático. Rafa es gracioso.**",
+      "table": {
+        "headers": ["Spanish", "English"],
+        "rows": [
+          ["alto/a — bajo/a", "tall — short"],
+          ["moreno/a — rubio/a", "dark-haired — blond"],
+          ["guapo/a", "good-looking"],
+          ["simpático/a — majo/a", "nice — nice/sweet (casual)"],
+          ["gracioso/a", "funny"],
+          ["tímido/a — serio/a", "shy — serious"]
+        ]
+      },
+      "callout": "*majo/a* is peninsular gold — warm, everyday praise for someone likeable."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear las descripciones",
+      "items": [
+        { "nl": "es muy simpática", "en": "she's very nice", "speak": "es muy simpática" },
+        { "nl": "es un poco tímido", "en": "he's a bit shy", "speak": "es un poco tímido" },
+        { "nl": "es alta y morena", "en": "she's tall and dark-haired", "speak": "es alta y morena" },
+        { "nl": "¡qué majo!", "en": "how nice (of him)!", "speak": "¡qué majo!" },
+        { "nl": "es muy gracioso", "en": "he's very funny", "speak": "es muy gracioso" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Cómo está la gente",
+      "body": "Moods and temporary conditions take **estar**: **está cansado, está enfadada, está contento, está nervioso**. These change hour to hour — very different from the *ser* traits above.",
+      "table": {
+        "headers": ["Spanish", "English"],
+        "rows": [
+          ["estar cansado/a", "to be tired"],
+          ["estar enfadado/a", "to be angry"],
+          ["estar contento/a", "to be happy/pleased"],
+          ["estar nervioso/a", "to be nervous"]
+        ]
+      },
+      "callout": "Same person, two verbs: *Sofía es tranquila* (personality) pero hoy *está nerviosa* (today's mood)."
+    },
+    {
+      "type": "contrast",
+      "title": "Rasgo vs estado",
+      "pairs": [
+        { "left": "es simpático — he's nice (always)", "right": "está enfadado — he's angry (right now)", "note": "ser = who they are; estar = how they are today." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Sofía siempre es una persona tranquila, pero hoy tiene mucho trabajo. ¿Cómo está?",
+      "options": ["Sofía es nerviosa.", "Sofía está nerviosa."],
+      "correct": 1,
+      "explain": "Today, specifically → a temporary state → **estar**: *está nerviosa*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Translate: 'he is very funny' (a personality trait).",
+      "answers": ["es muy gracioso", "él es muy gracioso"],
+      "hint": "A lasting trait → ser.",
+      "explain": "*es muy gracioso* — personality trait, always **ser**."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "está muy contenta",
+      "answers": ["está muy contenta"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Nacho introduces you to Sofía at a friend's gathering.",
+      "lines": [
+        { "speaker": "Nacho", "nl": "Hombre, hoy conoces a Sofía. Es muy maja, un poco tímida al principio.", "en": "Man, today you're meeting Sofía. She's very nice, a bit shy at first.", "spotlight": "es… tímida — ser for a lasting personality trait." },
+        { "speaker": "You", "nl": "¿Cómo es físicamente?", "en": "What does she look like?" },
+        { "speaker": "Nacho", "nl": "Es bajita, morena, y siempre lleva una chaqueta azul.", "en": "She's petite, dark-haired, and always wears a blue jacket." },
+        { "speaker": "You", "nl": "Vale, ¿y hoy está bien?", "en": "Okay, and is she doing well today?" },
+        { "speaker": "Nacho", "nl": "Pues hoy está un poco nerviosa, tiene una presentación importante en el trabajo.", "en": "Well today she's a bit nervous, she has an important presentation at work.", "spotlight": "está nerviosa — estar for today's mood, not her personality." },
+        { "speaker": "You", "nl": "Ah, ¡buena suerte para ella!", "en": "Ah, good luck to her!" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe a un amigo o familiar: cómo es (físico y personalidad) y cómo está hoy.",
+      "starters": ["Mi amigo/a…", "Es…", "Hoy está…"],
+      "minSentences": 3
+    }
+  ]
+}

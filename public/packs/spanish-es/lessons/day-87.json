@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "day-87",
+  "day": 87,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "Opinar con matices",
+  "emoji": "💬",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Connectors for nuanced argument, and the 'no es que + subjunctive' construction for hedged opinion.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El matiz separa al B2",
+      "body": "Un B1 dice *me gusta* o *no me gusta*. Un B2 **matiza**: concede, contrasta, mete un pero, admite la parte de razón del otro. Eso se hace con **conectores**, no con más vocabulario. Aquí tienes la caja de herramientas para sonar a alguien que **piensa en voz alta**, no a un examen.",
+      "table": {
+        "headers": ["Conector", "Para qué sirve"],
+        "rows": [
+          ["por un lado… por otro (lado)", "presentar dos caras"],
+          ["ahora bien / eso sí", "conceder y luego matizar"],
+          ["en el fondo", "lo que de verdad piensas"],
+          ["hasta cierto punto", "estar de acuerdo a medias"],
+          ["de hecho", "reforzar con un dato"],
+          ["no es que… sino que…", "corregir una idea equivocada"]
+        ]
+      },
+      "callout": "Matizar no es dudar: es la marca de que dominas el tema."
+    },
+    {
+      "type": "chips",
+      "title": "Suena a sobremesa — toca y repite",
+      "items": [
+        { "nl": "por un lado te entiendo, pero…", "en": "on one hand I get you, but…", "speak": "por un lado te entiendo, pero" },
+        { "nl": "hasta cierto punto, sí", "en": "up to a point, yes", "speak": "hasta cierto punto, sí" },
+        { "nl": "en el fondo, creo que…", "en": "deep down, I think…", "speak": "en el fondo, creo que" },
+        { "nl": "ahora bien, no todo es tan fácil", "en": "that said, it's not all so easy", "speak": "ahora bien, no todo es tan fácil" },
+        { "nl": "de hecho, me pasó a mí", "en": "in fact, it happened to me", "speak": "de hecho, me pasó a mí" },
+        { "nl": "todo sea dicho", "en": "it must be said", "speak": "todo sea dicho" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "La joya: no es que + subjuntivo",
+      "body": "Para **negar una idea y corregirla**, España usa *no es que* + **subjuntivo**, y luego *es que* + indicativo con el motivo real: *No es que **no me guste** Madrid, **es que** echo de menos el mar.* Fíjate: *no es que no me guste* (subjuntivo) → *es que echo de menos* (indicativo). Es elegantísimo y clarísimamente B2.",
+      "callout": "no es que + SUBJUNTIVO → es que + INDICATIVO."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Completa: «No es que ___ caro, es que no lo necesito.»",
+      "options": ["es", "sea", "será", "era"],
+      "correct": 1,
+      "explain": "Tras *no es que* va **subjuntivo**: *sea*. Luego *es que no lo necesito* (indicativo) da el motivo real. Es la estructura para matizar un rechazo con educación."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduce con la estructura del día: «It's not that I don't want to, it's that I can't.»",
+      "answers": ["No es que no quiera, es que no puedo", "no es que no quiera es que no puedo", "No es que no quiera, es que no puedo."],
+      "hint": "no es que + subjuntivo (querer) … es que + indicativo (poder).",
+      "explain": "**No es que no quiera, es que no puedo.** *Quiera* en subjuntivo tras *no es que*; *puedo* en indicativo tras *es que*."
+    },
+    {
+      "type": "builder",
+      "title": "Monta una opinión con matices",
+      "prompt": "Construye una opinión que conceda algo y luego matice.",
+      "slots": [
+        { "label": "Concesión", "chips": ["Por un lado, lo entiendo,", "Estoy de acuerdo hasta cierto punto,", "Tienes parte de razón,"] },
+        { "label": "Giro", "chips": ["pero por otro", "ahora bien,", "eso sí,"] },
+        { "label": "Tu postura", "chips": ["en el fondo no lo veo claro", "creo que se exagera", "yo lo haría distinto"] }
+      ],
+      "sample": "Por un lado, lo entiendo, pero por otro, en el fondo no lo veo claro."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "en el fondo tienes razón",
+      "answers": ["en el fondo tienes razón", "en el fondo tienes razon"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa drops a hot take at the bar and you push back — with nuance.",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Yo lo tengo clarísimo: vivir en el centro es una tontería. Pagas un dineral por ruido.", "en": "I'm crystal clear on it: living in the center is silly. You pay a fortune for noise." },
+        { "speaker": "You", "nl": "Hombre, hasta cierto punto te doy la razón, pero por otro lado lo tienes todo al lado.", "en": "I mean, up to a point I agree with you, but on the other hand you've got everything nearby.", "spotlight": "Concede (*hasta cierto punto*) y contrasta (*por otro lado*) en una sola frase." },
+        { "speaker": "Rafa", "nl": "Ya, pero no compensa. De hecho, mucha gente se está yendo a las afueras.", "en": "Sure, but it's not worth it. In fact, a lot of people are moving to the outskirts." },
+        { "speaker": "You", "nl": "No es que no te entienda, es que a mí el barrio me da vida.", "en": "It's not that I don't understand you, it's that the neighborhood gives me life.", "spotlight": "*no es que no te entienda* (subj.) → *es que me da vida* (indic.)." },
+        { "speaker": "Rafa", "nl": "Ahora bien, eso ya es cuestión de gustos. En el fondo los dos tenemos razón, ¿no?", "en": "That said, that's a matter of taste. Deep down we're both right, aren't we?" },
+        { "speaker": "You", "nl": "En eso estamos de acuerdo, hombre.", "en": "On that we agree, man." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Quién opina qué?",
+      "questions": [
+        { "q": "¿Qué piensa Rafa del centro?", "options": ["Que no compensa por el ruido y el precio", "Que es lo mejor de Madrid", "Que da igual dónde vivir"], "correct": 0 },
+        { "q": "¿Cómo matiza You su postura?", "options": ["Le da la razón del todo", "Concede en parte, pero defiende su barrio", "Cambia de tema"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Elige un tema polémico (el teletrabajo, vivir en el pueblo o en la ciudad, las redes sociales…) y escribe tu opinión con matices. Usa al menos tres conectores y una vez *no es que… sino que / es que…*.",
+      "starters": ["Por un lado…, pero por otro…", "Hasta cierto punto…", "No es que…, es que…", "En el fondo, creo que…"],
+      "minSentences": 4
+    }
+  ]
+}

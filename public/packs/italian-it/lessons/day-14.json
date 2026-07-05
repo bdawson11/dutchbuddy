@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "day-14",
+  "day": 14,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "capstone",
+  "title": "Il mio racconto: la mia giornata",
+  "emoji": "🎉",
+  "level": "A1",
+  "durationMin": [20, 25],
+  "summary": "Week 2 capstone: numbers, time, and the verb engine, then extend your self-intro with your daily routine",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Uno sguardo indietro: settimana 2",
+      "body": "This week you built the **verb engine**: numbers 0-100, telling time, the days and months, and three whole families of present-tense verbs — **-are** (parlo), **-ere** (leggo), and **-ire** (dormo / capisco) — plus the irregular trio **fare, andare, stare** that runs daily life. Big week. Time to put it all together.",
+      "callout": "Everything from Week 3 on assumes these verb endings are second nature."
+    },
+    {
+      "type": "chips",
+      "title": "Ripasso lampo",
+      "items": [
+        { "nl": "trentotto", "en": "38", "speak": "trentotto" },
+        { "nl": "Sono le tre e mezza.", "en": "It's half past three.", "speak": "Sono le tre e mezza." },
+        { "nl": "Lavoro a Bologna.", "en": "I work in Bologna.", "speak": "Lavoro a Bologna." },
+        { "nl": "Capisco un po' di italiano.", "en": "I understand a bit of Italian.", "speak": "Capisco un po' di italiano." },
+        { "nl": "Faccio colazione alle sette.", "en": "I have breakfast at seven.", "speak": "Faccio colazione alle sette." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is the correct way to write 28?",
+      "options": ["ventiotto", "ventotto", "vent'otto"],
+      "correct": 1,
+      "explain": "**ventotto** — venti drops its final i before otto, the same trick as ventuno."
+    },
+    {
+      "type": "mcq",
+      "prompt": "You want the total bill at the bar. What do you ask?",
+      "options": ["Quanto costa?", "Quant'è?", "Che ore sono?"],
+      "correct": 1,
+      "explain": "**Quant'è?** asks for the whole total; quanto costa is for pricing one item."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'it's half past seven' in Italian.",
+      "answers": ["sono le sette e mezza"],
+      "hint": "sette is plural, so sono.",
+      "explain": "**Sono le sette e mezza.**"
+    },
+    {
+      "type": "card",
+      "title": "Un verbo speciale: mi sveglio",
+      "body": "One more verb for your toolkit, a little ahead of schedule: **svegliarsi** (to wake up) is a **reflexive** verb — it comes with a small extra word (*mi, ti, si...*) because the action reflects back on you. For now, just memorize the io-form as a fixed phrase: **mi sveglio** (I wake up), usually with a time: *mi sveglio **alle** sette e mezza*. You'll meet the whole reflexive family properly later — this one gets you talking about your day today.",
+      "callout": "mi sveglio alle... — bank this phrase whole for now; the grammar behind it comes later."
+    },
+    {
+      "type": "chips",
+      "title": "La mia giornata",
+      "items": [
+        { "nl": "Mi sveglio alle sette.", "en": "I wake up at seven.", "speak": "Mi sveglio alle sette." },
+        { "nl": "Faccio colazione.", "en": "I have breakfast.", "speak": "Faccio colazione." },
+        { "nl": "Vado al lavoro.", "en": "I go to work.", "speak": "Vado al lavoro." },
+        { "nl": "Studio l'italiano la sera.", "en": "I study Italian in the evening.", "speak": "Studio l'italiano la sera." },
+        { "nl": "Vado a letto a mezzanotte.", "en": "I go to bed at midnight.", "speak": "Vado a letto a mezzanotte." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Tre famiglie, un solo trucco",
+      "pairs": [
+        { "left": "*parlo, parli, parla* — -are", "right": "*capisco, capisci, capisce* — -ire (isc)", "note": "Different families, same job: the ending tells you who." }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the sentence.",
+      "speak": "Mi sveglio alle sette e mezza.",
+      "answers": ["mi sveglio alle sette e mezza", "mi sveglio alle sette e mezza."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Marco asks about your daily routine at the bar.",
+      "lines": [
+        { "speaker": "Marco", "nl": "Allora, com'è una tua giornata tipica?", "en": "So, what's a typical day of yours like?" },
+        { "speaker": "You", "nl": "Mi sveglio alle sette, faccio colazione e vado al lavoro.", "en": "I wake up at seven, have breakfast, and go to work.", "spotlight": "Three verbs, three families — sveglio, faccio, vado — all in one breath." },
+        { "speaker": "Marco", "nl": "E la sera? Studi ancora l'italiano?", "en": "And in the evening? Do you still study Italian?" },
+        { "speaker": "You", "nl": "Sì, studio un po' e poi guardo la tv.", "en": "Yes, I study a bit and then I watch TV." },
+        { "speaker": "Marco", "nl": "Bravo, dai! Vai a letto presto o tardi?", "en": "Nice, come on! Do you go to bed early or late?" },
+        { "speaker": "You", "nl": "Vado a letto verso mezzanotte.", "en": "I go to bed around midnight." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What time does 'You' wake up?", "options": ["Six", "Seven", "Eight"], "correct": 1 },
+        { "q": "What does 'You' do before going to work?", "options": ["Studies Italian", "Has breakfast", "Watches TV"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Il mio racconto — livello 2",
+      "prompt": "Extend your self-introduction: name, where you're from, that you're learning Italian — now add your daily routine.",
+      "slots": [
+        { "label": "Chi sono", "chips": ["Ciao, mi chiamo Alex, sono di Toronto, e sto imparando l'italiano.", "Mi chiamo Sara, sono di Boston, e sto imparando l'italiano."] },
+        { "label": "La mia giornata", "chips": ["Mi sveglio alle sette e faccio colazione.", "Mi sveglio alle otto e vado subito al lavoro.", "Mi sveglio presto e studio un po' di italiano."] },
+        { "label": "E poi", "chips": ["La sera guardo la tv e vado a letto presto.", "Il pomeriggio lavoro, e la sera studio ancora.", "Vado a letto verso mezzanotte."] }
+      ],
+      "sample": "Ciao, mi chiamo Alex, sono di Toronto, e sto imparando l'italiano. Mi sveglio alle sette e faccio colazione. La sera guardo la tv e vado a letto presto."
+    },
+    {
+      "type": "journal",
+      "prompt": "Il mio racconto — livello 2! Extend last week's self-introduction with your daily routine: when you wake up (mi sveglio alle...), one thing you do in the morning, and one thing you do in the evening. Keep growing this text — Week 3 adds even more.",
+      "starters": ["Mi sveglio alle...", "La mattina...", "La sera..."],
+      "minSentences": 4
+    }
+  ]
+}

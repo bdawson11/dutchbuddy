@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "day-65",
+  "day": 65,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Wechselpräpositionen: wohin oder wo?",
+  "emoji": "↔️",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The nine two-way prepositions and the one question that decides the case: motion (wohin? → accusative) vs. location (wo? → dative).",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Neun Präpositionen, zwei Fälle",
+      "body": "Nine prepositions can take **either** accusative **or** dative, and a single question decides which: **wohin?** (where to — movement toward a goal) → **Akkusativ**; **wo?** (where — a fixed location) → **Dativ**. Same word, different case, different meaning. The nine: **in, auf, an, unter, über, vor, hinter, neben, zwischen**.",
+      "table": {
+        "headers": ["wohin? → Akkusativ", "wo? → Dativ"],
+        "rows": [
+          ["Ich gehe in die Küche.", "Ich bin in der Küche."],
+          ["Ich lege es auf den Tisch.", "Es liegt auf dem Tisch."],
+          ["Ich hänge es an die Wand.", "Es hängt an der Wand."]
+        ]
+      },
+      "callout": "Movement verbs (*stellen, legen, hängen, gehen*) → Akkusativ. Position verbs (*stehen, liegen, hängen, sein*) → Dativ."
+    },
+    {
+      "type": "contrast",
+      "title": "wohin (Bewegung) ↔ wo (Ort)",
+      "pairs": [
+        { "left": "Ich stelle die Lampe neben das Sofa. (wohin)", "right": "Die Lampe steht neben dem Sofa. (wo)", "note": "*stellen* + goal → *das* (Akk.); *stehen* + place → *dem* (Dat.)." },
+        { "left": "Häng das Bild über den Schreibtisch! (wohin)", "right": "Das Bild hängt über dem Schreibtisch. (wo)", "note": "Same preposition *über*, decided by movement vs. position." },
+        { "left": "Stell die Kisten zwischen die Regale. (wohin)", "right": "Die Kisten stehen zwischen den Regalen. (wo)", "note": "Plural dative adds -n: *den Regalen*." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Die neun mit einem Ort (wo? → Dativ) — tap to hear",
+      "items": [
+        { "nl": "in der Wohnung", "en": "in the flat", "speak": "in der Wohnung" },
+        { "nl": "auf dem Balkon", "en": "on the balcony", "speak": "auf dem Balkon" },
+        { "nl": "an der Wand", "en": "on the wall", "speak": "an der Wand" },
+        { "nl": "unter dem Bett", "en": "under the bed", "speak": "unter dem Bett" },
+        { "nl": "vor dem Haus", "en": "in front of the house", "speak": "vor dem Haus" },
+        { "nl": "hinter der Tür", "en": "behind the door", "speak": "hinter der Tür" },
+        { "nl": "neben dem Sofa", "en": "next to the sofa", "speak": "neben dem Sofa" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wo ist mein Schlüssel? — Er liegt ___ Tisch.",
+      "options": ["auf den", "auf dem", "auf das"],
+      "correct": 1,
+      "explain": "*liegen* = position, and *wo?* → **Dativ**. *Tisch* is masculine → **auf dem Tisch**."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wohin soll ich die Schlüssel legen? — Leg sie ___ Tisch.",
+      "options": ["auf dem", "auf den", "auf der"],
+      "correct": 1,
+      "explain": "*legen* = movement toward a goal, and *wohin?* → **Akkusativ**. Masculine *der → den*: **auf den Tisch**. Same words as the last question — other case."
+    },
+    {
+      "type": "typed",
+      "prompt": "Wohin? 'I'm putting the lamp next to the sofa.' — Ich stelle die Lampe ___ (neben + das Sofa).",
+      "answers": ["neben das Sofa", "Ich stelle die Lampe neben das Sofa", "neben das Sofa."],
+      "hint": "*stellen* = movement → which case?",
+      "explain": "Movement toward a goal → **Akkusativ**. *das Sofa* keeps *das* (neuter looks the same in acc), but the case is accusative: *neben das Sofa*."
+    },
+    {
+      "type": "builder",
+      "title": "Bau einen wohin-Satz",
+      "prompt": "Build a 'where to' sentence. Movement → accusative on the article.",
+      "slots": [
+        { "label": "Wer + Verb", "chips": ["Ich stelle", "Ich lege", "Ich hänge"] },
+        { "label": "Was", "chips": ["die Kiste", "das Bild", "die Bücher"] },
+        { "label": "Präposition + Akkusativ", "chips": ["in den Flur", "an die Wand", "auf den Tisch"] }
+      ],
+      "sample": "Ich stelle die Kiste in den Flur."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type it.",
+      "speak": "Die Katze sitzt unter dem Tisch.",
+      "answers": ["Die Katze sitzt unter dem Tisch", "Die Katze sitzt unter dem Tisch.", "die katze sitzt unter dem tisch"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Aylin shows you photos of a flat she might take in Munich — she still hasn't decided.",
+      "lines": [
+        { "speaker": "Aylin", "nl": "Guck mal, das ist die Wohnung in München. Falls ich zusage.", "en": "Look, this is the flat in Munich. In case I say yes.", "spotlight": "*Falls ich zusage* — still an *if*: the decision is open." },
+        { "speaker": "You", "nl": "Schön hell! Wo würde das Bett hinkommen?", "en": "Nice and bright! Where would the bed go?" },
+        { "speaker": "Aylin", "nl": "Das Bett stelle ich hier an die Wand, neben das Fenster.", "en": "The bed I'd put here against the wall, next to the window.", "spotlight": "*an die Wand*, *neben das Fenster* — wohin → Akkusativ." },
+        { "speaker": "You", "nl": "Und der Schreibtisch? Der muss ans Licht.", "en": "And the desk? That needs to be by the light." },
+        { "speaker": "Aylin", "nl": "Genau, der kommt vor das Fenster. Die Bücher stehen dann im Regal an der Wand.", "en": "Exactly, that goes in front of the window. The books then sit on the shelf on the wall.", "spotlight": "*vor das Fenster* (wohin, Akk.) but *an der Wand* (wo, Dat.) — both in one breath." },
+        { "speaker": "You", "nl": "Sieht gemütlich aus. Und? Machst du es?", "en": "Looks cozy. So? Are you doing it?" },
+        { "speaker": "Aylin", "nl": "Ich weiß noch nicht. Nächste Woche muss ich mich entscheiden.", "en": "I don't know yet. Next week I have to decide.", "spotlight": "Decision still pending — she decides next week." },
+        { "speaker": "You", "nl": "Kein Stress. Aber die Wohnung? Ein Traum.", "en": "No pressure. But the flat? A dream." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hast du's verstanden?",
+      "questions": [
+        { "q": "Wohin stellt Aylin das Bett?", "options": ["vor das Fenster", "an die Wand, neben das Fenster", "in den Flur"], "correct": 1 },
+        { "q": "Hat Aylin sich schon entschieden?", "options": ["Ja, sie zieht sicher um.", "Nein, sie entscheidet nächste Woche.", "Nein, sie bleibt in Berlin."], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschreib dein Zimmer: Wo stehen die Möbel? Schreib vier Sätze mit *wo?* (Dativ) — z. B. *Das Bett steht an der Wand.* Dann ein Satz mit *wohin?* (Akkusativ): Wohin stellst du etwas Neues?",
+      "starters": ["Das Bett steht…", "Der Tisch ist…", "An der Wand hängt…", "Ich stelle … in…"],
+      "minSentences": 4
+    }
+  ]
+}

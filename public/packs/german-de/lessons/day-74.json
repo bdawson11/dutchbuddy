@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "day-74",
+  "day": 74,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Fälle in Echtzeit",
+  "emoji": "🧩",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The meta-module: how to survive the case system while actually talking — default, repair, and keep going",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Warum du einfrierst — und warum das okay ist",
+      "body": "Here's the honest truth about German cases: mid-sentence, your brain is trying to solve **four cases × three genders × two article types** in real time. That's a lot to compute before the next word. So you freeze on *der/dem/den* — **everybody does**, including advanced learners. Today isn't a grammar drill. It's a **survival module**: how to keep talking while your case-brain catches up. **The one new idea: you don't need to be correct to be understood.**",
+      "callout": "The freeze isn't a flaw in you. It's just too much maths for the half-second you have."
+    },
+    {
+      "type": "card",
+      "title": "Der Trick: sag's, reparier leicht, mach weiter",
+      "body": "The move that separates a talker from a freezer is **default-and-repair**. **(1) Default:** pick an ending and say it, even if you're unsure. **(2) Repair:** if it felt wrong, do a tiny out-loud fix and move on — *„Ich gebe das dem… den… dem Mann.“* **(3) Keep going:** never stop. A self-correction sounds **fluent and human**, not like a mistake. What breaks a conversation isn't a wrong *den* — it's the ten-second silence while you hunt for the right one.",
+      "callout": "Wrong-but-flowing beats correct-but-frozen. Every time."
+    },
+    {
+      "type": "chips",
+      "title": "Rettungssätze — tap to hear your lifelines",
+      "items": [
+        { "nl": "Moment, wie sagt man das noch?", "en": "Hang on, how do you say it again?", "speak": "Moment, wie sagt man das noch?" },
+        { "nl": "Lass mich kurz überlegen.", "en": "Let me think for a sec.", "speak": "Lass mich kurz überlegen." },
+        { "nl": "Egal, du weißt, was ich meine.", "en": "Never mind, you know what I mean.", "speak": "Egal, du weißt, was ich meine." },
+        { "nl": "Wie heißt das noch mal?", "en": "What's it called again?", "speak": "Wie heißt das noch mal?" },
+        { "nl": "Ist auch egal — jedenfalls…", "en": "Doesn't matter anyway — anyway…", "speak": "Ist auch egal, jedenfalls…" },
+        { "nl": "Dem, den… ach, du verstehst mich.", "en": "Dem, den… ah, you get me.", "speak": "Dem, den, ach, du verstehst mich." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Einfrieren vs. weiterfließen",
+      "pairs": [
+        { "left": "„Ich gebe das … ähm … …“ (Stille)", "right": "„Ich gebe das dem… den… egal, dem Mann.“", "note": "The right version has a 'wrong' word in it — and it wins, because the conversation never stopped." },
+        { "left": "Denken, dann reden.", "right": "Reden, dann leicht reparieren.", "note": "Compute-first freezes you. Speak-first keeps you in the room. Fix on the fly." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Du bist mitten im Satz und weißt plötzlich nicht: *der* oder *dem*? Was ist der beste Zug?",
+      "options": [
+        "Aufhören und dich entschuldigen",
+        "Auf Englisch wechseln",
+        "Raten, kurz reparieren, weiterreden",
+        "Warten, bis dir die richtige Form einfällt"
+      ],
+      "correct": 2,
+      "explain": "Default-and-repair keeps the conversation alive. Switching to English or freezing hands the moment away. Natives read the **meaning**; a stray *der/dem* almost never blocks it."
+    },
+    {
+      "type": "typed",
+      "prompt": "Schreib deinen Notfallsatz auf Deutsch: „Never mind, you know what I mean.“",
+      "answers": ["Egal, du weißt, was ich meine.", "Egal, du weißt, was ich meine", "Ist egal, du weißt, was ich meine.", "Egal, du weißt was ich meine"],
+      "hint": "Start with *Egal,…*",
+      "explain": "*Egal, du weißt, was ich meine.* — a perfect bridge over a case wobble. Say it, smile, keep going."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und schreib deinen Rettungssatz.",
+      "speak": "Moment, wie sagt man das noch?",
+      "answers": ["Moment, wie sagt man das noch?", "Moment, wie sagt man das noch"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "You just got off the phone with your landlord and you're rattled — you fumbled every case.",
+      "lines": [
+        { "speaker": "You", "nl": "Ich habe eben mit dem Vermieter geredet und alle Fälle verwechselt.", "en": "I just talked to the landlord and mixed up all the cases." },
+        { "speaker": "Lena", "nl": "Na und? Hat er dich verstanden?", "en": "So what? Did he understand you?" },
+        { "speaker": "You", "nl": "Schon, aber ich habe ständig „den“ statt „dem“ gesagt.", "en": "Yeah, but I kept saying 'den' instead of 'dem'." },
+        { "speaker": "Lena", "nl": "Ehrlich, das merkt kaum jemand. Wir hören den Sinn, nicht die Endung.", "en": "Honestly, hardly anyone notices. We hear the meaning, not the ending.", "spotlight": "The core reassurance: natives decode **meaning**, and a wrong ending rarely blocks it." },
+        { "speaker": "You", "nl": "Aber ich friere jedes Mal ein, wenn ich nachdenken muss.", "en": "But I freeze up every time I have to think." },
+        { "speaker": "Lena", "nl": "Dann denk nicht nach. Sag's, reparier kurz, mach weiter. „Dem… den… egal.“ Fertig.", "en": "Then don't think. Say it, fix it briefly, keep going. 'Dem… den… whatever.' Done.", "spotlight": "Lena models default-and-repair out loud — exactly the move." },
+        { "speaker": "You", "nl": "Also einfach weiterreden?", "en": "So just keep talking?" },
+        { "speaker": "Lena", "nl": "Genau. Ein falscher Artikel ist kein Beinbruch. Stillschweigen schon.", "en": "Exactly. A wrong article is no big deal. Silence is.", "spotlight": "*kein Beinbruch* = 'no broken leg', i.e. no big deal — a very German way to say relax." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schreib deine zwei persönlichen Rettungssätze auf — die, die du beim nächsten Freeze wirklich sagen willst. Dann ein Satz dazu: *Ein falscher Fall ist kein Beinbruch, weil…*",
+      "starters": ["Mein Rettungssatz Nummer eins:…", "Wenn ich einfriere, sage ich:…", "Ein falscher Fall ist kein Beinbruch, weil…"],
+      "minSentences": 3
+    }
+  ]
+}

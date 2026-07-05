@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "day-36",
+  "day": 36,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "Ahi, che male!",
+  "emoji": "🤕",
+  "level": "A2",
+  "durationMin": [15, 22],
+  "summary": "Body vocab and the mi fa male / mi fanno male agreement pattern",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Quando qualcosa fa male",
+      "body": "To say something hurts, Italian uses **fare** the way English uses 'hurt': *mi fa male la testa* (my head hurts) — literally 'to me it makes pain, the head.' Same trap as *piacere*: the verb agrees with **what hurts**, not with you. One thing hurting → **fa**. More than one → **fanno**: *mi fanno male i piedi* (my feet hurt).",
+      "callout": "Same shape as mi piace / mi piacciono — the verb agrees with the thing, always."
+    },
+    {
+      "type": "chips",
+      "title": "Le parti del corpo",
+      "items": [
+        { "nl": "la testa", "en": "head", "speak": "la testa" },
+        { "nl": "lo stomaco", "en": "stomach", "speak": "lo stomaco" },
+        { "nl": "la schiena", "en": "back", "speak": "la schiena" },
+        { "nl": "il braccio", "en": "arm", "speak": "il braccio" },
+        { "nl": "la gamba", "en": "leg", "speak": "la gamba" },
+        { "nl": "il piede", "en": "foot", "speak": "il piede" },
+        { "nl": "la gola", "en": "throat", "speak": "la gola" },
+        { "nl": "l'orecchio", "en": "ear", "speak": "l'orecchio" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Fa o fanno? Conta quante cose fanno male",
+      "pairs": [
+        { "left": "*Mi fa male la testa.* — My head hurts. (one thing: la testa)", "right": "*Mi fanno male i piedi.* — My feet hurt. (more than one: i piedi)", "note": "Singular subject → fa. Plural subject → fanno. The subject is what hurts, not you." },
+        { "left": "*Mi fa male lo stomaco.*", "right": "*Mi fanno male le gambe.*", "note": "Same pattern with any body part — check singular vs plural before picking fa/fanno." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You've been walking all day. Your feet hurt. Which is correct?",
+      "options": ["Mi fa male i piedi", "Mi fanno male i piedi", "I piedi mi piace"],
+      "correct": 1,
+      "explain": "*i piedi* is plural, so the verb has to be plural too: *mi fanno male i piedi*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'My back hurts.'",
+      "answers": ["mi fa male la schiena", "mi fa male la schiena."],
+      "hint": "la schiena is singular — fa, not fanno.",
+      "explain": "*Mi fa male la schiena* — singular subject, singular verb."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the sentence.",
+      "speak": "Mi fanno male le gambe.",
+      "answers": ["mi fanno male le gambe", "mi fanno male le gambe."]
+    },
+    {
+      "type": "card",
+      "title": "Ancora parti del corpo",
+      "body": "A few more useful ones: *la mano* (hand — feminine, even though it ends in -o) and its plural *le mani*; *l'occhio / gli occhi* (eye/eyes); *il dente / i denti* (tooth/teeth); *il naso* (nose — you've only got one). *la mano* is the classic exception every beginner trips on.",
+      "callout": "la mano is feminine — un'eccezione da ricordare."
+    },
+    {
+      "type": "builder",
+      "title": "Cosa ti fa male?",
+      "prompt": "Build a sentence about what hurts, and when.",
+      "slots": [
+        { "label": "Quando", "chips": ["Oggi", "Dopo la palestra", "Stamattina", "Dopo il viaggio"] },
+        { "label": "Sintomo", "chips": ["mi fa male la testa", "mi fa male la schiena", "mi fa male lo stomaco", "mi fanno male i piedi", "mi fanno male le gambe", "mi fanno male gli occhi"] }
+      ],
+      "sample": "Dopo la palestra, mi fanno male le gambe."
+    },
+    {
+      "type": "journal",
+      "prompt": "Cosa ti fa male oggi, o questa settimana? Scrivi 2–3 frasi con mi fa male / mi fanno male.",
+      "starters": ["Oggi mi fa male…", "Mi fanno male…"]
+    }
+  ]
+}

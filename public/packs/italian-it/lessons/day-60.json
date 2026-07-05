@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "day-60",
+  "day": 60,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Il condizionale",
+  "emoji": "🙏",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The conditional for politeness and wishes: vorrei, potrei, dovrei, mi piacerebbe",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il condizionale: la gentilezza e i sogni",
+      "body": "The **condizionale** is how Italian gets polite and dreamy: *vorrei* (I'd like), *potrei* (I could), *dovrei* (I should), *mi piacerebbe* (I'd love to). Use it for **polite requests** (*Vorrei un caffè*), **soft advice** (*Dovresti riposare*), and **wishes** (*Mi piacerebbe vivere a Roma*). It's built on the **same stem as the future** + the endings *-ei, -esti, -ebbe, -emmo, -este, -ebbero*.",
+      "callout": "*voglio* (I want, blunt) → *vorrei* (I'd like, polite). Same idea, softer."
+    },
+    {
+      "type": "card",
+      "title": "Le forme — futuro e condizionale, stessa radice",
+      "body": "If you know the future, the condizionale is easy — **same stem, new endings**. *parlare*: futuro *parler-**ò***, condizionale *parler-**ei***. The irregular stems match too: *avere → avr-*, *essere → sar-*, *fare → far-*, *potere → potr-*, *volere → vorr-*, *dovere → dovr-*, *andare → andr-*, *venire → verr-*.",
+      "table": {
+        "headers": ["persona", "condizionale (parlare)", "futuro (confronto)"],
+        "rows": [
+          ["io", "parlerei", "parlerò"],
+          ["tu", "parleresti", "parlerai"],
+          ["lui/lei", "parlerebbe", "parlerà"],
+          ["noi", "parleremmo", "parleremo"],
+          ["voi", "parlereste", "parlerete"],
+          ["loro", "parlerebbero", "parleranno"]
+        ]
+      },
+      "callout": "Learn one stem, get both tenses: *avrò / avrei*, *sarò / sarei*."
+    },
+    {
+      "type": "chips",
+      "title": "Chiedere con gentilezza — ascolta",
+      "items": [
+        { "nl": "Vorrei un caffè, per favore.", "en": "I'd like a coffee, please.", "speak": "Vorrei un caffè, per favore." },
+        { "nl": "Potrebbe aiutarmi?", "en": "Could you help me?", "speak": "Potrebbe aiutarmi?" },
+        { "nl": "Mi daresti una mano?", "en": "Would you give me a hand?", "speak": "Mi daresti una mano?" },
+        { "nl": "Dovresti riposare un po'.", "en": "You should rest a bit.", "speak": "Dovresti riposare un po'." },
+        { "nl": "Mi piacerebbe venire.", "en": "I'd love to come.", "speak": "Mi piacerebbe venire." },
+        { "nl": "Sarebbe possibile?", "en": "Would it be possible?", "speak": "Sarebbe possibile?" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Diretto vs gentile",
+      "pairs": [
+        { "left": "*Voglio un tè.* — I want a tea.", "right": "*Vorrei un tè.* — I'd like a tea.", "note": "*vorrei* is the polite default when ordering or asking." },
+        { "left": "*Mi aiuti?* — Help me?", "right": "*Potresti aiutarmi?* — Could you help me?", "note": "The condizionale softens a request; great with people you don't know well." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "In un negozio, come chiedi con gentilezza?",
+      "options": ["Voglio quella borsa.", "Vorrei quella borsa.", "Dammi quella borsa."],
+      "correct": 1,
+      "explain": "*Vorrei* is the polite form. *Voglio* sounds blunt; *dammi* is a command for friends."
+    },
+    {
+      "type": "typed",
+      "prompt": "Scrivi un consiglio gentile: 'You should rest.' (usa *dovere* al condizionale, forma *tu*)",
+      "answers": ["dovresti riposare", "dovresti riposarti", "dovresti riposare."],
+      "hint": "*dovere* al condizionale, *tu* → *dovresti*.",
+      "explain": "*Dovresti riposare.* The condizionale turns advice into a gentle suggestion."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Vorrei un tavolo per due.",
+      "answers": ["vorrei un tavolo per due", "vorrei un tavolo per due."]
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci una richiesta gentile",
+      "prompt": "Metti insieme una frase educata con il condizionale.",
+      "slots": [
+        { "label": "Verbo gentile", "chips": ["Vorrei", "Mi piacerebbe", "Potrei", "Dovrei"] },
+        { "label": "Cosa", "chips": ["prenotare un tavolo", "avere il conto", "vedere il menù", "riposare un po'"] }
+      ],
+      "sample": "Vorrei prenotare un tavolo."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At a café, you order and ask Pietro, visiting from Naples, for advice.",
+      "lines": [
+        { "speaker": "You", "nl": "Buongiorno, vorrei un cappuccino e un cornetto, per favore.", "en": "Good morning, I'd like a cappuccino and a croissant, please." },
+        { "speaker": "Pietro", "nl": "Per me un caffè. Senti, mi consiglieresti un buon ristorante?", "en": "A coffee for me. Say, would you recommend a good restaurant?", "spotlight": "Polite request with the condizionale: *mi consiglieresti…?*" },
+        { "speaker": "You", "nl": "Certo. Dovresti provare la trattoria vicino alla piazza.", "en": "Sure. You should try the trattoria near the piazza." },
+        { "speaker": "Pietro", "nl": "Ottimo. Potremmo andarci domani sera?", "en": "Great. Could we go there tomorrow evening?" },
+        { "speaker": "You", "nl": "Volentieri, mi piacerebbe molto. Prenoterei per le otto.", "en": "Gladly, I'd love that. I'd book for eight." },
+        { "speaker": "Pietro", "nl": "Perfetto. Potresti chiamare tu? Il mio italiano al telefono è un disastro.", "en": "Perfect. Could you call? My Italian on the phone is a disaster." },
+        { "speaker": "You", "nl": "Tranquillo, chiamo io. Sarebbe meglio prenotare presto.", "en": "No worries, I'll call. It'd be better to book early." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Immagina di essere al bar o in un negozio. Scrivi tre richieste gentili con il condizionale (*vorrei…, potrei…, mi piacerebbe…*).",
+      "starters": ["Vorrei…", "Potrebbe…?", "Mi piacerebbe…"],
+      "minSentences": 3
+    }
+  ]
+}
