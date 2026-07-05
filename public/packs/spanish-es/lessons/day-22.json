@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "day-22",
+  "day": 22,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "El ritmo español de comer",
+  "emoji": "🍽",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Spain's meal rhythm — desayuno, comida, cena, merienda — and the tradition of la sobremesa",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Three meals, a Spanish schedule",
+      "body": "Spain's meal clock runs later than most places: **el desayuno** (breakfast) is quick and light — coffee and something sweet. **la comida** is the day's big meal, around 2pm. **la cena** (dinner) is light and late, around 9 or 10pm. In between, many people have **la merienda**, an afternoon snack.",
+      "table": {
+        "headers": ["Comida", "Cuándo"],
+        "rows": [
+          ["el desayuno", "7–9am, quick and light"],
+          ["la comida", "2–3pm, the big meal"],
+          ["la merienda", "5–6pm, a snack"],
+          ["la cena", "9–10pm, light"]
+        ]
+      },
+      "callout": "Careful: **la comida** means both 'food' and 'lunch' in Spain — context tells you which."
+    },
+    {
+      "type": "card",
+      "title": "La sobremesa",
+      "body": "After eating, nobody rushes off. **La sobremesa** is the after-meal chat at the table — coffee, maybe a drink, conversation that can run longer than the meal itself. It's one of the most Spanish habits there is.",
+      "callout": "*— ¿Nos quedamos un rato? — ¡Claro, hacemos sobremesa!*"
+    },
+    {
+      "type": "chips",
+      "title": "El día a día de la comida",
+      "items": [
+        { "nl": "el desayuno", "en": "breakfast", "speak": "el desayuno" },
+        { "nl": "la comida", "en": "lunch (the big meal)", "speak": "la comida" },
+        { "nl": "la merienda", "en": "afternoon snack", "speak": "la merienda" },
+        { "nl": "la cena", "en": "dinner", "speak": "la cena" },
+        { "nl": "la sobremesa", "en": "after-meal chat", "speak": "la sobremesa" },
+        { "nl": "el postre", "en": "dessert", "speak": "el postre" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Spain's schedule vs. elsewhere",
+      "pairs": [
+        { "left": "la comida — around 2pm", "right": "el almuerzo (many countries) — around noon", "note": "Spain eats later — and dines even later." },
+        { "left": "la cena — around 9–10pm", "right": "dinner, many countries — around 6–7pm", "note": "A Madrid restaurant kitchen might not open for dinner until 8:30pm — completely normal." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "What time do people in Spain typically have la cena (dinner)?",
+      "options": ["Around 6pm", "Around 9–10pm", "Around midnight"],
+      "correct": 1,
+      "explain": "Spanish dinner runs late compared to most countries — usually between 9 and 10pm."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the Spanish word for Spain's big midday meal (not 'el almuerzo').",
+      "answers": ["la comida", "comida"],
+      "hint": "Same word as 'food' — context tells you which.",
+      "explain": "*la comida* is Spain's big midday meal, eaten around 2pm."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "la cena es a las diez",
+      "answers": ["la cena es a las diez", "la cena es a las 10"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía explains the Spanish meal rhythm to you over coffee",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Mira, aquí desayunamos poco: un café y ya está.", "en": "Look, here we eat little for breakfast: a coffee and that's it." },
+        { "speaker": "You", "nl": "¿Y la comida fuerte es a mediodía?", "en": "And the big meal is at midday?" },
+        { "speaker": "Lucía", "nl": "Sí, sobre las dos. Y luego, sobremesa, o sea, un rato charlando.", "en": "Yes, around two. And then, sobremesa — I mean, a while chatting." },
+        { "speaker": "You", "nl": "¿Y la cena?", "en": "And dinner?" },
+        { "speaker": "Lucía", "nl": "Tarde. A las nueve o las diez, tranquilamente.", "en": "Late. At nine or ten, no rush." },
+        { "speaker": "You", "nl": "¡Vale, me gusta este horario!", "en": "OK, I like this schedule!", "spotlight": "A first taste of *me gusta* — the full lesson is tomorrow." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "How does the meal schedule work in your country? Compare it to Spain's using today's vocabulary: desayuno, comida, merienda, cena, sobremesa.",
+      "starters": ["En mi país, desayuno...", "Como sobre las...", "En España, en cambio..."]
+    }
+  ]
+}

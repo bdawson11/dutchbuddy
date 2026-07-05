@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "day-83",
+  "day": 83,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "review",
+  "title": "Un anno dopo: tutti all'aperitivo",
+  "emoji": "🥂",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "The final immersion: the whole cast reunites in Bologna for an aperitivo, one year on — every Week 12 move braided in",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Un anno dopo",
+      "body": "It's been a year. This week you learned to **command** softly (*dai, senti, guarda*), to read the **traffic light** of slang, to run an **aperitivo**, to survive a **shop or a barber**, and to sprinkle in real **modi di dire**. Tonight it all comes together: everyone's back in Bologna. **Sofia** is up from Milano, **Pietro** came up from Naples — and you're the one holding the conversation in Italian.",
+      "callout": "Same friends, same piazza — but a very different you from day one."
+    },
+    {
+      "type": "contrast",
+      "title": "Ripasso lampo: brusco vs ammorbidito",
+      "pairs": [
+        { "left": "*Vieni qui!* — blunt command", "right": "*Dai, vieni un attimo!* — softened", "note": "A paroletta (*dai*) turns an order into an invitation. That's Week 12 in one move." },
+        { "left": "🟡 *Che figata!*", "right": "🟢 *Che bello!*", "note": "Read the room: yellow with friends, green with anyone." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Sei all'aperitivo con gli amici. Alzi il bicchiere e dici…",
+      "options": ["Buon appetito!", "Cin cin! Alla nostra!", "Mi dica!"],
+      "correct": 1,
+      "explain": "*Cin cin! Alla nostra!* per brindare. *Buon appetito* è per il cibo; *mi dica* lo dice un commesso."
+    },
+    {
+      "type": "typed",
+      "prompt": "Offri tu il giro stasera. Dillo in modo caloroso.",
+      "answers": ["offro io", "offro io!", "questo giro lo offro io", "offro io stasera", "questo giro offro io"],
+      "hint": "The warm way to grab the round.",
+      "explain": "*Offro io!* — 'it's on me'. Aggiungi *questo giro lo offro io* per dire 'this round's mine'."
+    },
+    {
+      "type": "dialogue",
+      "scene": "One year on. The whole group is back in Bologna for an aperitivo — Sofia up from Milano, Pietro up from Naples.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Eccoci qua, tutti insieme! Sofia, che bello rivederti. Com'è Milano?", "en": "Here we all are, together! Sofia, so lovely to see you again. How's Milano?" },
+        { "speaker": "Sofia", "nl": "Bene, davvero. All'inizio è stata dura, ma ora mi trovo benissimo.", "en": "Good, really. At first it was tough, but now I'm getting on great.", "spotlight": "The past-tense split: *è stata dura* (event) vs *mi trovo* (state now)." },
+        { "speaker": "Marco", "nl": "Milano, boh. Troppa nebbia e troppa fretta. Dai, torna a Bologna!", "en": "Milano, meh. Too much fog and too much rush. Come on, move back to Bologna!", "spotlight": "*Boh* + the softened command *dai, torna* — pure Marco." },
+        { "speaker": "Sofia", "nl": "Ma dai, Marco! Vieni a trovarmi e poi ne parliamo.", "en": "Oh come on, Marco! Come visit me and then we'll talk.", "spotlight": "Command *vieni* + the clitic *ne* ('about it')." },
+        { "speaker": "Pietro", "nl": "Io sono salito apposta da Napoli. Un brindisi ci vuole. Offro io!", "en": "I came all the way up from Naples. A toast is in order. It's on me!", "spotlight": "*Ci vuole* ('it takes / is needed') + *offro io*." },
+        { "speaker": "Giulia", "nl": "E guarda chi parla bene italiano adesso… un anno fa non diceva una parola!", "en": "And look who speaks good Italian now… a year ago they couldn't say a word!" },
+        { "speaker": "You", "nl": "Eh, ci ho messo un anno. Ma ormai penso in italiano, quasi.", "en": "Well, it took me a year. But by now I almost think in Italian.", "spotlight": "*Ci ho messo un anno* = 'it took me a year' — idiomatic *ci*." },
+        { "speaker": "Marco", "nl": "Alla nostra, allora. Cin cin!", "en": "To us, then. Cheers!" },
+        { "speaker": "Sofia", "nl": "A noi, e al tuo italiano! Non vedo l'ora del prossimo anno.", "en": "To us, and to your Italian! I can't wait for next year." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai seguito la serata?",
+      "questions": [
+        { "q": "Dove vive Sofia adesso?", "options": ["A Bologna", "A Milano", "A Napoli"], "correct": 1 },
+        { "q": "Chi è salito da Napoli per l'aperitivo?", "options": ["Marco", "Pietro", "Giulia"], "correct": 1 },
+        { "q": "Come si trova Sofia a Milano, ora?", "options": ["Malissimo", "Benissimo", "Vuole tornare subito"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Il gruppo, un anno dopo",
+      "body": "Everyone moved forward this year — including you. Here's where the cast stands as the glasses clink.",
+      "table": {
+        "headers": ["Chi", "Un anno dopo"],
+        "rows": [
+          ["Giulia", "sempre a Bologna, la tua guida di sempre"],
+          ["Marco", "al bar a spettegolare — Milano non lo convince"],
+          ["Sofia", "a Milano, più felice e più sicura di sé"],
+          ["Pietro", "a Napoli, ma sempre pronto a salire per un brindisi"],
+          ["Tu", "un anno di italiano: dai suoni di base al congiuntivo senza paura"]
+        ]
+      },
+      "callout": "Domani, l'ultima pagina: il tuo racconto, definitivo."
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi il tuo 'un anno dopo': dov'eri con l'italiano un anno fa e dove sei adesso. Usa un passato (ho iniziato…, non capivo…) e un presente (ora riesco a…). Almeno quattro frasi.",
+      "starters": ["Un anno fa non…", "All'inizio mi sentivo…", "Adesso riesco a…", "Non vedo l'ora di…"],
+      "minSentences": 4
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "day-76",
+  "day": 76,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "review",
+  "title": "Sabato a Milano da Sofia",
+  "emoji": "🚄",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Week 11 review woven into the immersion: Giulia visits Sofia in Milan, braiding verb+prep, paroline, alterati, the congiuntivo and tu/Lei",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ripasso: parlare come un italiano",
+      "body": "Una settimana per **suonare** italiano: i verbi con la preposizione fissa (*comincio **a** capire*, *cerco **di** parlare*), le **paroline** (*allora, dai, magari, boh, insomma*), gli **alterati** (*un caffettino*, *una giornataccia*), il **congiuntivo senza paura** (*penso che sia…*) e il *tu* vs *Lei*. Oggi vai a Milano con Giulia a trovare Sofia: sentiamoli tutti insieme, nel discorso vero.",
+      "callout": "Oggi Giulia va a trovare Sofia a Milano. Ascolta le paroline e il congiuntivo dal vivo."
+    },
+    {
+      "type": "chips",
+      "title": "Riscaldamento",
+      "items": [
+        { "nl": "Comincio a sentirmi a casa.", "en": "I'm starting to feel at home.", "speak": "Comincio a sentirmi a casa." },
+        { "nl": "Un appartamentino carino.", "en": "A cute little flat.", "speak": "un appartamentino carino" },
+        { "nl": "Spero che ti piaccia.", "en": "I hope you like it.", "speak": "Spero che ti piaccia." },
+        { "nl": "Boh, insomma, mi manca Bologna.", "en": "Dunno, well, I miss Bologna.", "speak": "Boh, insomma, mi manca Bologna." },
+        { "nl": "Sono riuscita a trovare lavoro.", "en": "I managed to find a job.", "speak": "Sono riuscita a trovare lavoro." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Completa come Sofia: «Penso che Milano ___ una bella città.»",
+      "options": ["è", "sia", "essere"],
+      "correct": 1,
+      "explain": "Dopo *penso che* → congiuntivo: *sia*. È un'opinione, non un fatto certo."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Sofia dice «un appartamentino». Cosa aggiunge *-ino*?",
+      "options": ["Un appartamento enorme", "Un appartamento piccolo e carino", "Un appartamento brutto"],
+      "correct": 1,
+      "explain": "*-ino* = piccolo e affettuoso. *Appartamentino* = un appartamento piccolino e carino."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Sabato a Milano: Giulia va a trovare Sofia, che sta sistemando il nuovo appartamento.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora, fammi vedere! Ma che bell'appartamentino!", "en": "So, show me! What a lovely little flat!" },
+        { "speaker": "Sofia", "nl": "Grazie! È piccolo, ma comincio a sentirmi a casa.", "en": "Thanks! It's small, but I'm starting to feel at home.", "spotlight": "*cominciare a* + infinito: 'I'm starting to feel at home.'" },
+        { "speaker": "Giulia", "nl": "Si vede che stai bene. Sei più tranquilla, dai.", "en": "You can tell you're doing well. You're calmer, come on." },
+        { "speaker": "Sofia", "nl": "Guarda, i primi giorni una giornataccia dietro l'altra. Ma adesso, insomma, va meglio.", "en": "Look, the first days were one rotten day after another. But now, well, it's going better." },
+        { "speaker": "Giulia", "nl": "E il lavoro?", "en": "And the job?" },
+        { "speaker": "Sofia", "nl": "Sono riuscita a trovare un bel gruppo. Penso che sia la scelta giusta.", "en": "I managed to find a great team. I think it's the right choice.", "spotlight": "*sono riuscita a* + *penso che sia*: verbo con preposizione e congiuntivo dal vivo." },
+        { "speaker": "Giulia", "nl": "Sono contenta per te. Ti trovi bene con i milanesi?", "en": "I'm happy for you. Are you getting on well with the Milanese?" },
+        { "speaker": "Sofia", "nl": "Magari all'inizio danno tutti del Lei, molto formali. Poi si scioglie.", "en": "Well, at first everyone uses Lei, very formal. Then it thaws out." },
+        { "speaker": "Giulia", "nl": "Beh, un po' mi manchi. Ma spero che tu sia felice qui.", "en": "Well, I miss you a bit. But I hope you're happy here." },
+        { "speaker": "Sofia", "nl": "Un pochino mi manca Bologna, sì. Ma sto bene, davvero.", "en": "I miss Bologna a little, yes. But I'm doing well, really." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai seguito la chiacchierata?",
+      "questions": [
+        { "q": "Come si sente Sofia adesso nel nuovo appartamento?", "options": ["Comincia a sentirsi a casa", "Vuole tornare subito a Bologna", "Non ha ancora un lavoro"], "correct": 0 },
+        { "q": "Com'erano i primi giorni a Milano per Sofia?", "options": ["Una giornataccia dietro l'altra", "Perfetti fin da subito", "Noiosi e vuoti"], "correct": 0 },
+        { "q": "Cosa dice Sofia dei milanesi all'inizio?", "options": ["Danno subito del tu", "Sono molto formali, danno del Lei", "Non parlano con lei"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi tre frasi a Sofia per il suo trasloco a Milano: usa una parolina, un alterato e un *penso che* o *spero che* (congiuntivo).",
+      "starters": ["Cara Sofia, spero che…", "Dai, sono sicuro/a che…"],
+      "minSentences": 3
+    }
+  ]
+}

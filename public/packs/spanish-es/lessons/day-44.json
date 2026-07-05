@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-44",
+  "day": 44,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Ayer no fue un día cualquiera",
+  "emoji": "⚡",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "The six high-frequency irregular preterite verbs — ser/ir, hacer, tener, estar, decir, venir",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Seis verbos que rompen la regla (I)",
+      "body": "**Ser** e **ir** comparten exactamente la misma forma en indefinido — el contexto decide cuál es: *fui camarero* (ser) vs *fui al bar* (ir). **Hacer** y **tener** también cambian de raíz por completo.",
+      "table": {
+        "headers": ["Persona", "ser / ir", "hacer", "tener"],
+        "rows": [
+          ["yo", "fui", "hice", "tuve"],
+          ["tú", "fuiste", "hiciste", "tuviste"],
+          ["él/ella/usted", "fue", "hizo", "tuvo"],
+          ["nosotros/as", "fuimos", "hicimos", "tuvimos"],
+          ["vosotros/as", "fuisteis", "hicisteis", "tuvisteis"],
+          ["ellos/ellas/ustedes", "fueron", "hicieron", "tuvieron"]
+        ]
+      },
+      "callout": "*hizo* se escribe con z, no con c — para conservar el sonido /θ/ delante de la o."
+    },
+    {
+      "type": "card",
+      "title": "Seis verbos que rompen la regla (II)",
+      "body": "**Estar** sigue el mismo patrón que *tener* (mismas terminaciones). **Decir** y **venir** cambian la raíz y, ojo: *dijeron* — no *dijieron*.",
+      "table": {
+        "headers": ["Persona", "estar", "decir", "venir"],
+        "rows": [
+          ["yo", "estuve", "dije", "vine"],
+          ["tú", "estuviste", "dijiste", "viniste"],
+          ["él/ella/usted", "estuvo", "dijo", "vino"],
+          ["nosotros/as", "estuvimos", "dijimos", "vinimos"],
+          ["vosotros/as", "estuvisteis", "dijisteis", "vinisteis"],
+          ["ellos/ellas/ustedes", "estuvieron", "dijeron", "vinieron"]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "La pista para reconocerlos: sin tilde",
+      "pairs": [
+        { "left": "hablé, comió (regular — con tilde)", "right": "tuve, hizo, vino (irregular — sin tilde)", "note": "Ningún indefinido irregular de esta lista lleva acento escrito en 'yo' o en 'él/ella'. Es la forma más rápida de reconocerlos." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Frases con los seis verbos",
+      "items": [
+        { "nl": "fui al pueblo", "en": "I went to the village", "speak": "fui al pueblo" },
+        { "nl": "hice la comida", "en": "I made lunch", "speak": "hice la comida" },
+        { "nl": "tuve mucha suerte", "en": "I got really lucky", "speak": "tuve mucha suerte" },
+        { "nl": "estuve en Valencia", "en": "I was in Valencia", "speak": "estuve en Valencia" },
+        { "nl": "dijo que sí", "en": "he/she said yes", "speak": "dijo que sí" },
+        { "nl": "vino tarde", "en": "he/she came late", "speak": "vino tarde" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cómo se dice 'I was in Madrid yesterday'?",
+      "options": ["Fui en Madrid", "Estuve en Madrid", "Estuve a Madrid"],
+      "correct": 1,
+      "explain": "Localización en el pasado = *estar*: *estuve en Madrid*. La preposición correcta con *estar* de lugar es *en*, no *a*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Tener, ellos, ayer — ¿cuál es la forma correcta?",
+      "options": ["tuvieron", "tuvió", "tenieron"],
+      "correct": 0,
+      "explain": "*tuvieron* — raíz *tuv-* + terminación *-ieron*. Ni *tuvió* ni *tenieron* existen."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'She said yes.'",
+      "answers": ["Dijo que sí.", "dijo que sí", "ella dijo que sí"],
+      "hint": "decir → dijo (él/ella)",
+      "explain": "*Dijo que sí.* — sin tilde en *dijo*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "vino tarde ayer",
+      "answers": ["Vino tarde ayer.", "vino tarde ayer"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa tells you about the party he threw last night",
+      "lines": [
+        { "speaker": "Rafa", "nl": "¡Tío! Ayer hice una fiesta en mi piso.", "en": "Dude! Yesterday I threw a party at my place." },
+        { "speaker": "You", "nl": "¿En serio? ¿Quién vino?", "en": "Really? Who came?" },
+        { "speaker": "Rafa", "nl": "Vino Lucía, y también estuvo Sofía un rato.", "en": "Lucía came, and Sofía was also there for a bit." },
+        { "speaker": "You", "nl": "¿Qué tal fue?", "en": "How was it?", "spotlight": "fue (de ser) para hablar de cómo salió un evento." },
+        { "speaker": "Rafa", "nl": "¡Fue genial! Tuve que pedir más cervezas a medianoche.", "en": "It was great! I had to order more beers at midnight." },
+        { "speaker": "You", "nl": "Jajaja, típico.", "en": "Haha, typical." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe tres frases sobre algo que hiciste, tuviste o donde estuviste el fin de semana pasado — usa los verbos irregulares de hoy.",
+      "starters": ["El fin de semana pasado fui...", "Tuve...", "Estuve..."],
+      "minSentences": 3
+    }
+  ]
+}

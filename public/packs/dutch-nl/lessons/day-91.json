@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-91",
+  "day": 91,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "capstone",
+  "title": "Mijn verhaal — een genuanceerde mening",
+  "emoji": "🎯",
+  "level": "B2",
+  "durationMin": [25, 35],
+  "summary": "Week 13 capstone: produce the passive across all its forms and add the season-2 mijn-verhaal layer — a nuanced opinion built with connectors (hoewel, enerzijds… anderzijds, daarentegen, bovendien)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 13 — de lijdende vorm, en jouw mening",
+      "body": "Je beheerst nu het passief in alle vormen. Vandaag zet je het in, en je voegt een nieuwe laag toe aan **mijn verhaal**: een **genuanceerde mening** met verbindingswoorden. Niet meer alleen *ik vind het leuk* — maar *ik vind het leuk, hoewel…*.",
+      "table": {
+        "headers": ["Passief-vorm", "Voorbeeld"],
+        "rows": [
+          ["Tegenwoordig", "De brief wordt verstuurd."],
+          ["Verleden", "De brief werd verstuurd."],
+          ["Resultaat (zijn)", "De brief is verstuurd."],
+          ["Met modaal", "De brief moet verstuurd worden."],
+          ["Onpersoonlijk", "Er wordt hard gewerkt."]
+        ]
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welke zin is correct passief in de verleden tijd?",
+      "options": ["De uitnodigingen werden gisteren verstuurd.", "De uitnodigingen zijn verstuurd worden.", "De uitnodigingen worden gisteren verstuurd."],
+      "correct": 0,
+      "explain": "*werden … verstuurd* — meervoud, verleden tijd. *worden* zou tegenwoordige tijd zijn; *zijn verstuurd worden* bestaat niet."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Een bordje in de bibliotheek. Wat past qua register?",
+      "options": ["Kop dicht!", "Er wordt hier niet gepraat.", "Praat niet, jongens."],
+      "correct": 1,
+      "explain": "*Er wordt hier niet gepraat* — onpersoonlijk passief, neutraal en netjes. Precies de toon van een bordje."
+    },
+    {
+      "type": "typed",
+      "prompt": "Zet in het passief met een modaal: *(het rapport / moeten / vandaag / inleveren)*.",
+      "answers": ["Het rapport moet vandaag ingeleverd worden", "Het rapport moet vandaag ingeleverd worden.", "Het rapport moet vandaag worden ingeleverd", "Het rapport moet vandaag worden ingeleverd."],
+      "hint": "*moet* + *ingeleverd* + *worden*.",
+      "explain": "*Het rapport moet vandaag ingeleverd worden* (of *…worden ingeleverd*). Beide volgordes mogen."
+    },
+    {
+      "type": "card",
+      "title": "Nuance: verbindingswoorden voor je mening",
+      "body": "Een B2-mening is niet plat. Je geeft toe, je weegt af, je voegt toe. Leer deze schakels: **hoewel** (although), **enerzijds… anderzijds** (on one hand… on the other), **daarentegen** (by contrast), **bovendien** (moreover), **toch** (still). *Ik vind Nederlands mooi, hoewel de uitspraak lastig is. Bovendien helpt het enorm.*",
+      "callout": "Let op de volgorde: na *hoewel* (bijzin) gaat het werkwoord naar het eind."
+    },
+    {
+      "type": "contrast",
+      "title": "Plat → genuanceerd",
+      "pairs": [
+        { "left": "Ik vind Amsterdam leuk.", "right": "Ik vind Amsterdam leuk, hoewel het me soms te druk is.", "note": "*hoewel* geeft een reserve toe — meteen volwassener." },
+        { "left": "Nederlands leren is moeilijk.", "right": "Enerzijds is het moeilijk, anderzijds gaat het sneller dan ik dacht.", "note": "Twee kanten afwegen met *enerzijds… anderzijds*." },
+        { "left": "Ik oefen elke dag.", "right": "Ik oefen elke dag; bovendien kijk ik Nederlandse series.", "note": "*bovendien* stapelt een extra argument erop." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mijn verhaal — laag 13: je genuanceerde mening",
+      "prompt": "Voeg aan je verhaal een genuanceerde mening over het Nederlands leren toe. Kies per gleuf een schakel — of schrijf je eigen in dezelfde vorm.",
+      "slots": [
+        { "label": "Je mening (hoofdzin)", "chips": ["Ik vind Nederlands een mooie taal", "Ik ben blij dat ik dit doe", "Het bevalt me hier goed"] },
+        { "label": "Een reserve (hoewel…)", "chips": ["hoewel de grammatica soms lastig is", "hoewel ik nog fouten maak", "hoewel het niet altijd meevalt"] },
+        { "label": "De andere kant (daarentegen / anderzijds)", "chips": ["daarentegen gaat spreken steeds makkelijker", "anderzijds begrijp ik nu bijna alles", "daarentegen durf ik nu veel meer"] },
+        { "label": "Een extra argument (bovendien)", "chips": ["bovendien helpt het bij mijn werk", "bovendien maak ik zo echt contact", "bovendien is het gewoon leuk"] }
+      ],
+      "sample": "Ik vind Nederlands een mooie taal, hoewel de grammatica soms lastig is. Daarentegen gaat spreken steeds makkelijker. Bovendien helpt het bij mijn werk."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Daan asks whether you think learning Dutch was worth it. He never takes the easy answer.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Eerlijk: vind je het de moeite waard, al dat Nederlands?", "en": "Honestly: do you think it's worth it, all that Dutch?" },
+        { "speaker": "You", "nl": "Ja, hoewel het soms zwaar is.", "en": "Yes, although it's sometimes hard.", "spotlight": "Meteen een reserve met *hoewel*." },
+        { "speaker": "Daan", "nl": "Zie je. De meesten geven na drie maanden op, hoor.", "en": "See. Most people quit after three months." },
+        { "speaker": "You", "nl": "Dat snap ik wel. Enerzijds is het veel werk, anderzijds hoor je er echt bij.", "en": "I get that. On one hand it's a lot of work, on the other you really belong.", "spotlight": "*enerzijds… anderzijds* — afwegen." },
+        { "speaker": "Daan", "nl": "Precies dát. Bovendien waardeert iedereen het dat je het probeert.", "en": "Exactly that. Moreover, everyone appreciates that you try." },
+        { "speaker": "You", "nl": "Al blijf ik fouten maken.", "en": "Even though I keep making mistakes." },
+        { "speaker": "Daan", "nl": "Joh, ik maak ook fouten, en het is mijn moedertaal. Toch verstaan mensen me.", "en": "Come on, I make mistakes too, and it's my native language. Still, people understand me.", "spotlight": "*toch* als tegenstelling." },
+        { "speaker": "You", "nl": "Dan komt het met mij ook wel goed.", "en": "Then I'll be fine too." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "De moeite waard?",
+      "questions": [
+        { "q": "Vindt You het Nederlands leren de moeite waard?", "options": ["Ja, hoewel het zwaar is", "Nee, helemaal niet", "Weet het nog niet"], "correct": 0 },
+        { "q": "Wat waardeert iedereen volgens Daan?", "options": ["Dat je perfect bent", "Dat je het probeert", "Dat je Engels praat"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Mijn verhaal — seizoen twee begint. Vertel wie je bent en waar je in je Nederlands staat, en voeg nu een **genuanceerde mening** toe met verbindingswoorden (*hoewel, enerzijds… anderzijds, daarentegen, bovendien*). Verwerk ook iets in de lijdende vorm. In het Nederlands, minstens vier zinnen.",
+      "starters": ["Ik heet … en ik leer nu ruim een jaar Nederlands.", "Ik vind …, hoewel …", "Enerzijds …, anderzijds …", "Bovendien …"],
+      "minSentences": 4
+    },
+    {
+      "type": "journal",
+      "prompt": "Week 13 zit erop — je eerste week B2! Hoe voelt het om aan het tweede jaar te beginnen? Vier het even, in het Nederlands.",
+      "starters": ["B2, hier ben ik!", "Het voelt …", "Volgende week wil ik …"],
+      "minSentences": 3
+    }
+  ]
+}
