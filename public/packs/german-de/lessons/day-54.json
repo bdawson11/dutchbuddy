@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "day-54",
+  "day": 54,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "Vergleichen: größer, am größten",
+  "emoji": "📈",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Compare things with -er/als and am -sten, plus the irregulars gut/besser/am besten",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Komparativ und Superlativ bilden",
+      "body": "Add **-er** for the comparative and **am -sten** for the superlative: *klein → kleiner → am kleinsten*. Many short, one-syllable words also pick up an **umlaut**: *alt → älter → am ältesten*, *groß → größer → am größten*, *jung → jünger → am jüngsten*. Use **als** for \"than\": *Berlin ist größer als Köln.*",
+      "table": {
+        "headers": ["Grundform", "Komparativ", "Superlativ"],
+        "rows": [
+          ["klein", "kleiner", "am kleinsten"],
+          ["alt", "älter", "am ältesten"],
+          ["groß", "größer", "am größten"],
+          ["schnell", "schneller", "am schnellsten"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Vergleichswörter — tap to hear",
+      "items": [
+        { "nl": "größer als", "en": "bigger than", "speak": "größer als" },
+        { "nl": "am größten", "en": "the biggest", "speak": "am größten" },
+        { "nl": "älter als", "en": "older than", "speak": "älter als" },
+        { "nl": "am besten", "en": "the best", "speak": "am besten" },
+        { "nl": "am liebsten", "en": "most preferred / favorite", "speak": "am liebsten" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Die Ausnahmen: gut, viel, gern",
+      "pairs": [
+        { "left": "gut → besser → am besten", "right": "not: gut → guter → am gutsten", "note": "gut is fully irregular, like English good/better/best." },
+        { "left": "viel → mehr → am meisten", "right": "gern → lieber → am liebsten", "note": "Two more irregulars worth memorizing as a set — no -er/-sten pattern at all." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "How do you say 'the best' in German?",
+      "options": ["am gutsten", "am besten", "am guterten"],
+      "correct": 1,
+      "explain": "gut is irregular: gut → besser → am besten, just like English good/better/best."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'Berlin is bigger than Cologne.'",
+      "answers": ["Berlin ist größer als Köln.", "Berlin ist größer als Koeln.", "Berlin ist größer als Köln"],
+      "hint": "größer als + city.",
+      "explain": "Berlin ist größer als Köln. — comparative + als for the comparison."
+    },
+    {
+      "type": "builder",
+      "title": "Baue einen Vergleich",
+      "prompt": "Build a comparison sentence.",
+      "slots": [
+        { "label": "Ding A", "chips": ["Berlin", "Der Zug", "Mein Bruder"] },
+        { "label": "ist + Komparativ + als", "chips": ["ist größer als", "ist schneller als", "ist älter als"] },
+        { "label": "Ding B", "chips": ["Köln", "das Auto", "ich"] }
+      ],
+      "sample": "Berlin ist größer als Köln."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena and Jonas compare Berlin and Cologne — Jonas is quoting his friend Klaus.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Klaus sagt immer, Köln ist gemütlicher als Berlin.", "en": "Klaus always says Cologne is cozier than Berlin." },
+        { "speaker": "Lena", "nl": "Na ja, aber Berlin ist größer und hat mehr Museen.", "en": "Well, but Berlin is bigger and has more museums." },
+        { "speaker": "You", "nl": "Was ist am besten: Berlin, Köln oder Hannover?", "en": "What's the best: Berlin, Cologne, or Hannover?" },
+        { "speaker": "Lena", "nl": "Für mich ist Berlin am besten — aber Hannover bleibt meine Heimat.", "en": "For me Berlin is the best — but Hannover stays my hometown." },
+        { "speaker": "Jonas", "nl": "Und am liebsten trinke ich mein Kölsch trotzdem in Köln.", "en": "And still, I most like drinking my Kölsch in Cologne." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Klaus always say about Cologne?", "options": ["It's bigger", "It's cozier than Berlin", "It's cheaper"], "correct": 1 },
+        { "q": "Which city is Lena's Heimat (hometown)?", "options": ["Berlin", "Köln", "Hannover"], "correct": 2 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Compare two things in your life — two cities, two foods, two friends. Use a comparative (-er als) and a superlative (am -sten).",
+      "starters": ["… ist … als …", "Am besten finde ich…"]
+    }
+  ]
+}

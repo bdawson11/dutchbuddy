@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "day-39",
+  "day": 39,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "Come ti senti oggi?",
+  "emoji": "🎭",
+  "level": "A2",
+  "durationMin": [15, 22],
+  "summary": "Emotion vocabulary and a first look at the reflexive verb sentirsi",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Sentirsi — come ti senti?",
+      "body": "*Sentirsi* is a **reflexive** verb — the action folds back onto the person, like 'to feel oneself.' You'll meet the whole reflexive family properly in a later module; for now, learn these six forms — they're exactly what you need to talk about feelings.",
+      "table": { "headers": ["Persona", "Sentirsi"], "rows": [["io", "mi sento"], ["tu", "ti senti"], ["lui/lei", "si sente"], ["noi", "ci sentiamo"], ["voi", "vi sentite"], ["loro", "si sentono"]] },
+      "callout": "mi/ti/si/ci/vi/si — the little pronoun that makes a verb reflexive."
+    },
+    {
+      "type": "chips",
+      "title": "Le emozioni",
+      "items": [
+        { "nl": "felice", "en": "happy", "speak": "felice" },
+        { "nl": "triste", "en": "sad", "speak": "triste" },
+        { "nl": "arrabbiato", "en": "angry", "speak": "arrabbiato" },
+        { "nl": "stanco", "en": "tired", "speak": "stanco" },
+        { "nl": "nervoso", "en": "nervous", "speak": "nervoso" },
+        { "nl": "contento", "en": "glad, content", "speak": "contento" },
+        { "nl": "preoccupato", "en": "worried", "speak": "preoccupato" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Essere o sentirsi?",
+      "pairs": [
+        { "left": "*Sono una persona nervosa.* — I'm a nervous person. (in general, essere)", "right": "*Mi sento nervoso/a oggi.* — I feel nervous today. (right now, sentirsi)", "note": "essere + adjective describes what you're like; sentirsi + adjective describes how you feel in this moment." }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Ascolta e ripeti — sentirsi",
+      "lines": [
+        { "nl": "Mi sento stanco oggi.", "en": "I feel tired today." },
+        { "nl": "Ti senti meglio?", "en": "Do you feel better?" },
+        { "nl": "Marco si sente nervoso prima del concerto.", "en": "Marco feels nervous before the concert." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Marco has a concert tonight and is pacing around the bookshop. Which is correct?",
+      "options": ["Marco mi sento nervoso", "Marco si sente nervoso", "Marco ti senti nervoso"],
+      "correct": 1,
+      "explain": "Third person singular (lui) takes *si sente* — the reflexive pronoun has to match the person."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I feel nervous.'",
+      "answers": ["mi sento nervoso", "mi sento nervosa", "mi sento nervoso.", "mi sento nervosa."],
+      "hint": "sentirsi, io form + the adjective agreeing with you.",
+      "explain": "*Mi sento nervoso* (said by a man) / *mi sento nervosa* (said by a woman) — the adjective agrees with you, the verb form is io."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the sentence.",
+      "speak": "Marco si sente nervoso prima del concerto.",
+      "answers": ["marco si sente nervoso prima del concerto", "marco si sente nervoso prima del concerto."]
+    },
+    {
+      "type": "builder",
+      "title": "Come ti senti oggi?",
+      "prompt": "Match a subject with how they feel.",
+      "slots": [
+        { "label": "Chi", "chips": ["Io", "Tu", "Marco", "Sofia", "Noi"] },
+        { "label": "Come si sente", "chips": ["mi sento felice", "ti senti stanco", "si sente nervosa", "ci sentiamo pronti", "mi sento un po' preoccupato"] }
+      ],
+      "sample": "Io mi sento felice oggi."
+    },
+    {
+      "type": "journal",
+      "prompt": "Come ti senti questa settimana? Perché? Scrivi 2–3 frasi con sentirsi.",
+      "starters": ["Mi sento…", "Questa settimana mi sento…"]
+    }
+  ]
+}

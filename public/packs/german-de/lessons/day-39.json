@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "day-39",
+  "day": 39,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "Gefühle",
+  "emoji": "😊",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "froh, wütend, müde, nervös and the reflexive verb sich fühlen",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Wie fühlst du dich?",
+      "body": "Six feelings to know cold: *froh* (glad), *wütend* (angry), *müde* (tired), *nervös* (nervous), *traurig* (sad), *gestresst* (stressed).",
+      "table": {
+        "headers": ["Wort", "Bedeutung"],
+        "rows": [
+          ["froh", "glad"],
+          ["wütend", "angry"],
+          ["müde", "tired"],
+          ["nervös", "nervous"],
+          ["traurig", "sad"],
+          ["gestresst", "stressed"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the feelings",
+      "items": [
+        { "nl": "froh", "en": "glad", "speak": "froh" },
+        { "nl": "wütend", "en": "angry", "speak": "wütend" },
+        { "nl": "müde", "en": "tired", "speak": "müde" },
+        { "nl": "nervös", "en": "nervous", "speak": "nervös" },
+        { "nl": "traurig", "en": "sad", "speak": "traurig" },
+        { "nl": "gestresst", "en": "stressed", "speak": "gestresst" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "sich fühlen — ein reflexives Verb",
+      "body": "**sich fühlen** (to feel) is reflexive — the pronoun changes with the subject, same pattern as other reflexive verbs. *Ich fühle mich müde* (I feel tired).",
+      "table": {
+        "headers": ["Person", "fühlen + reflexiv"],
+        "rows": [
+          ["ich", "fühle mich"],
+          ["du", "fühlst dich"],
+          ["er / sie / es", "fühlt sich"],
+          ["wir", "fühlen uns"],
+          ["ihr", "fühlt euch"],
+          ["sie / Sie", "fühlen sich"]
+        ]
+      },
+      "callout": "Ich fühle mich — always with mich, never ich fühle alone."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Complete: 'Sie fühlt ___ nervös.'",
+      "options": ["mich", "sich", "uns"],
+      "correct": 1,
+      "explain": "Third person singular (er/sie/es) takes sich: sie fühlt sich nervös."
+    },
+    {
+      "type": "contrast",
+      "title": "sein vs. sich fühlen",
+      "pairs": [
+        {
+          "left": "Ich bin müde. — I am tired. (simple state)",
+          "right": "Ich fühle mich müde. — I feel tired. (sich fühlen)",
+          "note": "Both correct — sich fühlen is more personal, about how you feel right now."
+        }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I feel nervous.'",
+      "answers": ["Ich fühle mich nervös", "Ich fuehle mich nervoes"],
+      "hint": "sich fühlen, ich-form",
+      "explain": "Ich fühle mich nervös — mich matches ich."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ich fühle mich müde.",
+      "answers": ["Ich fühle mich müde", "Ich fuehle mich muede"]
+    },
+    {
+      "type": "shadow",
+      "title": "Shadow the feelings",
+      "lines": [
+        { "nl": "Ich fühle mich froh.", "en": "I feel glad." },
+        { "nl": "Ich fühle mich ein bisschen nervös.", "en": "I feel a little nervous." },
+        { "nl": "Er fühlt sich traurig.", "en": "He feels sad." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Baue dein Gefühl",
+      "prompt": "Say how you feel.",
+      "slots": [
+        { "label": "Satz", "chips": ["Ich fühle mich"] },
+        { "label": "Gefühl", "chips": ["froh", "wütend", "müde", "nervös", "traurig", "gestresst"] }
+      ],
+      "sample": "Ich fühle mich gestresst."
+    },
+    {
+      "type": "journal",
+      "prompt": "Wie fühlst du dich heute? Write three sentences with 'ich fühle mich'.",
+      "starters": ["Ich fühle mich...", "Ich bin auch ein bisschen..."]
+    }
+  ]
+}

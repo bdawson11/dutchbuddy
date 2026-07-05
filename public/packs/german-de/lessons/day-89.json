@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-89",
+  "day": 89,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "Als ob: so tun und sich wünschen",
+  "emoji": "🎭",
+  "level": "B2",
+  "durationMin": [20, 30],
+  "summary": "Konjunktiv II with als ob / als (as if), irreal wishes (wenn ich nur…!), and beinahe/fast + past subjunctive for the near-miss.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "als ob = so, als wäre es echt",
+      "body": "*als ob* (und *als wenn*) heißt **„as if\"** und verlangt den **Konjunktiv II**, weil es ja gerade *nicht* echt ist. *Er tut so, **als ob** er alles **wüsste**.* Zwei Bauweisen, gleiche Bedeutung:\n\n• Mit **ob** → Verb am Ende (Nebensatz): *…als ob er müde **wäre**.*\n• Ohne **ob** → Verb direkt hinter *als* (Inversion): *…als **wäre** er müde.*",
+      "callout": "Die Variante ohne ob (als wäre er müde) klingt eleganter — perfekt fürs B2-Ohr."
+    },
+    {
+      "type": "card",
+      "title": "Wünsche & Beinahe-Momente",
+      "body": "Der **irreale Wunsch** setzt oft ein *nur* oder *doch* dazu: *Wenn ich **nur** mehr Zeit **hätte**!* / ohne wenn: *Hätte ich **doch** früher angefangen!* — Und der **Beinahe-Moment** (fast passiert, aber eben nicht) steht im Konjunktiv der Vergangenheit: *Ich **wäre** beinahe **gestürzt**. / Das **hätte** fast **geklappt**.*",
+      "callout": "beinahe / fast + hätte/wäre + Partizip = es war knapp, ist aber NICHT passiert."
+    },
+    {
+      "type": "contrast",
+      "title": "Zwei Wege, dasselbe zu sagen",
+      "pairs": [
+        { "left": "Er tut so, als ob er müde wäre.", "right": "Er tut so, als wäre er müde.", "note": "Same meaning. With ob the verb goes to the end; without ob it jumps right behind als." },
+        { "left": "Sie redet, als ob sie alles wüsste.", "right": "Sie redet, als wüsste sie alles.", "note": "The ob-less version sounds more polished — reach for it when you want to sound advanced." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "So tun & sich wünschen",
+      "items": [
+        { "nl": "Er tut so, als ob nichts wäre.", "en": "He acts as if nothing were wrong.", "speak": "Er tut so, als ob nichts wäre." },
+        { "nl": "Es sieht aus, als würde es regnen.", "en": "It looks as if it's going to rain.", "speak": "Es sieht aus, als würde es regnen." },
+        { "nl": "Wenn ich nur mehr Zeit hätte!", "en": "If only I had more time!", "speak": "Wenn ich nur mehr Zeit hätte!" },
+        { "nl": "Hätte ich doch früher angefangen!", "en": "If only I'd started earlier!", "speak": "Hätte ich doch früher angefangen!" },
+        { "nl": "Ich wäre beinahe eingeschlafen.", "en": "I almost fell asleep.", "speak": "Ich wäre beinahe eingeschlafen." },
+        { "nl": "Das hätte fast geklappt.", "en": "That almost worked.", "speak": "Das hätte fast geklappt." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welcher Satz stimmt? (Bedeutung: 'He acts as if he knew everything.')",
+      "options": [
+        "Er tut so, als ob er alles wüsste.",
+        "Er tut so, als ob er wüsste alles.",
+        "Er tut so, als er alles wüsste."
+      ],
+      "correct": 0,
+      "explain": "Nach *als ob* steht das Verb am Ende: *…als ob er alles wüsste*. Option 2 stellt das Verb falsch; Option 3 hat *als* ohne *ob*, dann müsste es *als wüsste er alles* heißen (Inversion)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Sag mit als ob: 'She acts as if she were tired.' (sie tut so, müde)",
+      "answers": ["Sie tut so, als ob sie müde wäre", "Sie tut so, als wäre sie müde"],
+      "hint": "Mit ob → Verb ans Ende. Ohne ob → Verb hinter als.",
+      "explain": "Beide Varianten sind korrekt: *…als ob sie müde wäre* oder *…als wäre sie müde*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe.",
+      "speak": "Es sieht so aus, als würde es regnen.",
+      "answers": ["Es sieht so aus, als würde es regnen"]
+    },
+    {
+      "type": "builder",
+      "title": "So tun, als ob …",
+      "prompt": "Bau einen als-ob-Satz. Einleitung, dann der Konjunktiv-Teil mit dem Verb am Ende.",
+      "slots": [
+        { "label": "Einleitung", "chips": ["Er tut so,", "Sie tut so,", "Es klingt,"] },
+        { "label": "als ob …", "chips": ["als ob nichts wäre", "als ob er alles wüsste", "als ob sie mich nicht kennen würde"] }
+      ],
+      "sample": "Er tut so, als ob nichts wäre."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Jonas is buzzing with gossip about a mutual acquaintance, Timo, who's been acting strange at the bookshop.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Hast du Timo gesehen? Der tut so, als ob ihm der ganze Laden gehören würde.", "en": "Have you seen Timo? He acts as if the whole shop belonged to him.", "spotlight": "*als ob … gehören würde* — the ob-version, verb-cluster at the end." },
+        { "speaker": "You", "nl": "Echt? Dabei ist er erst seit einem Monat dabei.", "en": "Really? And he's only been here a month." },
+        { "speaker": "Jonas", "nl": "Eben! Er redet, als wüsste er alles besser.", "en": "Exactly! He talks as if he knew everything better.", "spotlight": "*als wüsste er* — no ob, so the verb jumps right behind als." },
+        { "speaker": "You", "nl": "Na ja. Vielleicht ist er einfach nervös.", "en": "Well. Maybe he's just nervous." },
+        { "speaker": "Jonas", "nl": "Nervös? Er läuft rum, als ob er der Chef wäre.", "en": "Nervous? He struts around as if he were the boss." },
+        { "speaker": "You", "nl": "Lass ihn doch. Wenn ich nur halb so selbstsicher wäre!", "en": "Just let him. If only I were half that self-assured!", "spotlight": "An irreal wish: *Wenn ich nur … wäre!*" },
+        { "speaker": "Jonas", "nl": "Ha! Du bist tausendmal netter. Beinahe hätte ich's ihm gestern gesagt.", "en": "Ha! You're a thousand times nicer. I almost told him yesterday.", "spotlight": "*beinahe hätte ich gesagt* — the near-miss: it did NOT happen." },
+        { "speaker": "You", "nl": "Bloß nicht. Das würde nur Ärger geben.", "en": "Please don't. That would only cause trouble." },
+        { "speaker": "Jonas", "nl": "Stimmt. Tja — tun wir mal so, als hätten wir nichts gesehen.", "en": "True. Well — let's just act as if we'd seen nothing." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Kennst du jemanden, der immer so tut, als ob …? Beschreib die Person mit mindestens drei als-ob- oder als-Sätzen und füg einen irrealen Wunsch hinzu (Wenn ich nur …!).",
+      "starters": ["Er/Sie tut so, als ob…", "Er/Sie redet, als…", "Wenn ich nur…", "Beinahe hätte ich…"],
+      "minSentences": 4
+    }
+  ]
+}

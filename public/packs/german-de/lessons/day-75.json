@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "day-75",
+  "day": 75,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "du oder Sie? Register im Griff",
+  "emoji": "🤝",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Siezen vs. Duzen by context, how the du gets offered, and how to recover a mis-call gracefully",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Es geht um die Beziehung, nicht nur um Höflichkeit",
+      "body": "*du* and *Sie* aren't 'casual' vs 'polite' — they mark the **relationship**. *du* for people you're **close or equal** with; *Sie* for **distance and respect**. Get it wrong and it's not rude so much as **off** — a *du* to the *Amt* clerk sounds too familiar; a *Sie* to a new friend sounds cold. The safe move with an adult you don't know: **start with Sie**, and let it warm up.",
+      "table": {
+        "headers": ["Situation", "du oder Sie?"],
+        "rows": [
+          ["Freunde, Familie, Kinder", "du"],
+          ["Fremde, ältere Leute, das Amt", "Sie"],
+          ["Junge Leute untereinander, Start-ups", "oft du"],
+          ["Im Zweifel bei Erwachsenen", "Sie"]
+        ]
+      },
+      "callout": "Im Zweifel: *Sie*. You can always warm up; walking back a too-early *du* is awkward."
+    },
+    {
+      "type": "contrast",
+      "title": "Verb und Possessiv wandern zusammen",
+      "pairs": [
+        { "left": "Wie heißt du?", "right": "Wie heißen Sie?", "note": "Switch register and the **verb form** switches too: *heißt* → *heißen*." },
+        { "left": "Hast du kurz Zeit? / dein Kaffee", "right": "Haben Sie kurz Zeit? / Ihr Kaffee", "note": "Possessive moves with it: *dein* → *Ihr*. Don't mix *du* verb with *Ihr* — pick a lane." },
+        { "left": "Komm rein!", "right": "Kommen Sie rein!", "note": "Even the imperative changes: *Komm!* (du) vs the polite *Kommen Sie!*" }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear both registers",
+      "items": [
+        { "nl": "Wie heißen Sie?", "en": "What's your name? (formal)", "speak": "Wie heißen Sie?" },
+        { "nl": "Wie heißt du?", "en": "What's your name? (casual)", "speak": "Wie heißt du?" },
+        { "nl": "Können Sie mir helfen?", "en": "Can you help me? (formal)", "speak": "Können Sie mir helfen?" },
+        { "nl": "Kannst du mir helfen?", "en": "Can you help me? (casual)", "speak": "Kannst du mir helfen?" },
+        { "nl": "Wollen wir uns duzen?", "en": "Shall we use 'du'?", "speak": "Wollen wir uns duzen?" },
+        { "nl": "Sehr gern, ich bin Sam.", "en": "Gladly, I'm Sam.", "speak": "Sehr gern, ich bin Sam." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Das Du anbieten — das kleine Ritual",
+      "body": "You usually **wait to be offered** the *du*, and it's the **senior person** who offers — the older one, the host, the one who's been there longer. The phrases: *„Wir können uns gern duzen.“* / *„Sag doch du zu mir.“* / *„Sollen wir uns nicht duzen?“* You accept warmly: *„Gern!“* or *„Sehr gern, ich bin Sam.“* From that second on, it's *du* forever — going back to *Sie* would be a snub.",
+      "callout": "Offering it yourself to someone clearly senior can feel presumptuous. Let them lead."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Du triffst zum ersten Mal die 65-jährige Nachbarin im Treppenhaus. Was sagst du?",
+      "options": [
+        "Hast du eine Minute?",
+        "Haben Sie eine Minute?",
+        "Hast du mal 'ne Minute, Alter?"
+      ],
+      "correct": 1,
+      "explain": "A stranger, and older — clearly *Sie*: *Haben Sie eine Minute?* The *du* (and definitely *Alter*) would be too familiar for a first meeting with an older neighbour."
+    },
+    {
+      "type": "typed",
+      "prompt": "Mach die Frage formell (Sie). Aus „Hast du einen Moment?“ mach die Sie-Form.",
+      "answers": ["Haben Sie einen Moment?", "Haben Sie einen Moment", "Haben Sie einen Moment?"],
+      "hint": "*du hast* → *Sie haben*; der Rest bleibt.",
+      "explain": "*Haben Sie einen Moment?* — the verb goes from *hast* to *haben* and *Sie* is capitalised. The rest of the sentence stays put."
+    },
+    {
+      "type": "card",
+      "title": "Vergriffen? So reparierst du es",
+      "body": "Mis-called it? Fix it lightly and move on. Accidentally *du*'d someone formal: *„Oh, Entschuldigung — Sie, natürlich.“* Stuck on stiff *Sie* with an obvious peer: *„Wir können ruhig du sagen, oder?“* And know the regional/generational spread: Berlin creative scenes and start-ups *duzen* fast; the *Amt*, banks and older folks stay firmly on *Sie*. When unsure which crowd you're in, mirror what the other person calls **you**.",
+      "callout": "Recover with a smile, not an apology spiral. Everyone mis-calls it sometimes."
+    },
+    {
+      "type": "builder",
+      "title": "Bau das Du-Angebot",
+      "prompt": "Build a friendly offer to switch to du, then imagine the warm reply.",
+      "slots": [
+        { "label": "Vorschlag", "chips": ["Wollen wir uns", "Sollen wir uns nicht", "Wir können uns gern"] },
+        { "label": "Verb", "chips": ["duzen?", "duzen.", "du sagen?"] },
+        { "label": "Antwort", "chips": ["Sehr gern!", "Ja, gern — ich bin Sam.", "Klar, machen wir."] }
+      ],
+      "sample": "Wollen wir uns duzen? — Sehr gern!"
+    },
+    {
+      "type": "dialogue",
+      "scene": "A work get-together. You've crossed paths with Klaus a few times through Lena, always politely on Sie.",
+      "lines": [
+        { "speaker": "Klaus", "nl": "Na, wie gefällt Ihnen die neue Stadt?", "en": "So, how do you like the new city?", "spotlight": "*Ihnen* is the dative of *Sie*. *gefallen* takes the dative: *wie gefällt Ihnen…*" },
+        { "speaker": "You", "nl": "Sehr gut, danke. Berlin ist manchmal ein bisschen viel.", "en": "Really good, thanks. Berlin's a bit much sometimes." },
+        { "speaker": "Klaus", "nl": "Das kenne ich. Wissen Sie was — wir kennen uns jetzt lange genug. Wollen wir uns nicht duzen?", "en": "I know the feeling. You know what — we've known each other long enough. Shall we switch to du?", "spotlight": "Klaus, the older one, **offers the du** — exactly who's supposed to." },
+        { "speaker": "You", "nl": "Sehr gern! Dann bin ich der Sam.", "en": "Gladly! Then I'm Sam." },
+        { "speaker": "Klaus", "nl": "Und ich bin der Klaus. In Köln sagen wir sowieso schnell „du“.", "en": "And I'm Klaus. In Cologne we go to 'du' quickly anyway.", "spotlight": "A little Rhineland pride — Klaus contrasting warm Cologne with cooler Berlin." },
+        { "speaker": "You", "nl": "Perfekt. Und wie geht's dir, Klaus?", "en": "Perfect. And how are you, Klaus?", "spotlight": "You flip straight to *du*: *geht's dir*, first names. No going back now." },
+        { "speaker": "Klaus", "nl": "Bestens! Siehst du, geht doch.", "en": "Great! See, it works." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hast du's mitbekommen?",
+      "questions": [
+        { "q": "Wer bietet das Du an?", "options": ["You", "Klaus", "Niemand"], "correct": 1 },
+        { "q": "Wie reagiert „You“ auf das Angebot?", "options": ["Ablehnend", "Gern und freundlich", "Auf Englisch"], "correct": 1 },
+        { "q": "Warum passt es zu Klaus, dass er das Du anbietet?", "options": ["Er ist der Ältere und aus Köln", "Er ist neu in der Stadt", "Er kennt You gar nicht"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschreib zwei Situationen aus deinem Alltag: eine, in der du *du* sagst, und eine, in der du *Sie* sagst. Warum jeweils? Schreib jede Situation in einem kurzen Satz mit der richtigen Form.",
+      "starters": ["Bei… sage ich du, weil…", "Bei… sage ich Sie, weil…"],
+      "minSentences": 3
+    }
+  ]
+}

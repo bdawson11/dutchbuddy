@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "day-62",
+  "day": 62,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "review",
+  "title": "Las noticias de Sofía",
+  "emoji": "📰",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Week-9 review + immersion: Lucía relays Sofía's big news in reported speech — a job offer in Valencia",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso: semana 9",
+      "body": "Esta semana el subjuntivo se ha extendido a la **emoción y la duda** (*me alegro de que…, no creo que…*) y al **futuro** (*cuando llegue…, para que…*). Has aprendido a **contar lo que otros dijeron** (*me dijo que…*), a pedir con el **condicional** (*¿podrías…?*) y a montar **oraciones con si**. Hoy lo juntamos todo… y llega una noticia.",
+      "callout": "Escucha bien el diálogo: está lleno de estilo indirecto (*me dijo que…, me contó que…*)."
+    },
+    {
+      "type": "chips",
+      "title": "Repaso rápido — toca para escuchar",
+      "items": [
+        { "nl": "Me alegro de que estés bien.", "en": "I'm glad you're okay.", "speak": "Me alegro de que estés bien." },
+        { "nl": "No creo que sea fácil.", "en": "I don't think it's easy.", "speak": "No creo que sea fácil." },
+        { "nl": "Cuando lo sepa, te digo.", "en": "When I know, I'll tell you.", "speak": "Cuando lo sepa, te digo." },
+        { "nl": "Me dijo que estaba hecha un lío.", "en": "She told me she was in a muddle.", "speak": "Me dijo que estaba hecha un lío." },
+        { "nl": "Yo que tú, me lo pensaría.", "en": "If I were you, I'd think about it.", "speak": "Yo que tú, me lo pensaría." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Pásalo a estilo indirecto. Sofía: «Estoy nerviosa.» → «Me dijo que ___ nerviosa.»",
+      "options": ["está", "estaba", "esté"],
+      "correct": 1,
+      "explain": "El presente *estoy* retrocede a imperfecto en estilo indirecto: *me dijo que **estaba** nerviosa*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa con subjuntivo: «Espero que Sofía ___ (hacer) lo correcto.»",
+      "answers": ["haga", "espero que haga lo correcto"],
+      "hint": "Verbo hacer, ella, en subjuntivo (tras *espero que*).",
+      "explain": "*Espero que* pide subjuntivo: *espero que **haga** lo correcto*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "En el bar. Lucía habló ayer con Sofía y trae una noticia que contar — Sofía todavía no ha decidido nada",
+      "lines": [
+        { "speaker": "Lucía", "nl": "¿Sabéis qué? Ayer hablé con Sofía y me contó una movida gorda.", "en": "You know what? Yesterday I spoke to Sofía and she told me some big news." },
+        { "speaker": "Rafa", "nl": "¿En serio? Cuenta, cuenta.", "en": "Really? Spill, spill." },
+        { "speaker": "Lucía", "nl": "Me dijo que le habían ofrecido un trabajo. En Valencia.", "en": "She told me she'd been offered a job. In Valencia.", "spotlight": "me dijo que + pluscuamperfecto (habían ofrecido): la noticia, en estilo indirecto." },
+        { "speaker": "You", "nl": "¿En Valencia? ¿Y qué le dijiste?", "en": "In Valencia? And what did you say to her?" },
+        { "speaker": "Lucía", "nl": "Le pregunté si se iba a ir. Me dijo que todavía no lo sabía, que se lo estaba pensando.", "en": "I asked if she was going to go. She told me she didn't know yet, that she was thinking about it.", "spotlight": "le pregunté si… + me dijo que… : decisión en marcha, aún sin decidir." },
+        { "speaker": "Rafa", "nl": "Buah. ¿Y el curro es bueno?", "en": "Whoa. And is the job good?" },
+        { "speaker": "Lucía", "nl": "Me contó que era mejor que el de aquí, pero que le daba pena dejar Madrid.", "en": "She told me it was better than her one here, but that she was sad about leaving Madrid." },
+        { "speaker": "You", "nl": "Es una decisión difícil. Espero que haga lo que la haga feliz.", "en": "It's a hard decision. I hope she does whatever makes her happy.", "spotlight": "espero que + subjuntivo (haga): repaso de la semana." },
+        { "speaker": "Lucía", "nl": "Eso le dije yo. Me pidió que no se lo contara a nadie todavía, así que… ¡chitón!", "en": "That's what I told her. She asked me not to tell anyone yet, so… zip it!", "spotlight": "me pidió que + imperfecto de subjuntivo (contara): estilo indirecto de una petición." },
+        { "speaker": "Rafa", "nl": "Tío, con nosotros ya es tarde, ¿eh?", "en": "Mate, with us it's already too late, eh?" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Qué ha pasado?",
+      "questions": [
+        { "q": "¿Qué le han ofrecido a Sofía?", "options": ["Un trabajo en Valencia", "Un piso en Madrid", "Unas vacaciones"], "correct": 0 },
+        { "q": "¿Ya ha decidido Sofía?", "options": ["No, se lo está pensando", "Sí, se va mañana", "No quiere el trabajo"], "correct": 0 },
+        { "q": "¿Qué le pidió Sofía a Lucía?", "options": ["Que no se lo contara a nadie todavía", "Que la ayudara a mudarse", "Que fuera con ella a Valencia"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Cuenta la noticia de Sofía con tus palabras, en estilo indirecto. ¿Qué le dijo a Lucía? ¿Qué esperas tú que decida? Usa *me dijo que…, me contó que…* y un *espero que…*.",
+      "starters": ["Sofía le contó a Lucía que…", "Le dijeron que…", "Espero que…"],
+      "minSentences": 3
+    }
+  ]
+}

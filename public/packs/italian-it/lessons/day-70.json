@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-70",
+  "day": 70,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "capstone",
+  "title": "Il mio racconto: la mia grande decisione",
+  "emoji": "✍️",
+  "level": "B1",
+  "durationMin": [25, 30],
+  "summary": "Week 10 capstone: pull the whole clitic-and-verb-cluster module together, then add a big decision to your self-intro",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Uno sguardo indietro: settimana 10",
+      "body": "You just cleared the module learners dread. **Direct** pronouns with agreement (*l'ho vista*, *le ho comprate*), **indirect** *gli/le*, the little **ci** and **ne** (*ci penso*, *ne ho due*), **combined** clitics (*me lo, glielo, ce ne*), reflexives in the past (*mi sono decisa*), the **impersonal si** (*si vive bene*), and **stare + gerundio / stare per** (*sto facendo*, *sto per partire*). And Sofia moved to Milano — the model for today's story: a big decision, thought over and explained.",
+      "callout": "Fine del modulo M10. I pronomi non fanno più paura."
+    },
+    {
+      "type": "chips",
+      "title": "Ripasso lampo — tocca e ascolta",
+      "items": [
+        { "nl": "L'ho vista ieri.", "en": "I saw her yesterday.", "speak": "L'ho vista ieri." },
+        { "nl": "Gli ho scritto stamattina.", "en": "I wrote to him this morning.", "speak": "Gli ho scritto stamattina." },
+        { "nl": "Glielo dico domani.", "en": "I'll tell him/her (it) tomorrow.", "speak": "Glielo dico domani." },
+        { "nl": "Ci ho pensato molto.", "en": "I thought about it a lot.", "speak": "Ci ho pensato molto." },
+        { "nl": "Sto per prendere una decisione.", "en": "I'm about to make a decision.", "speak": "Sto per prendere una decisione." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Hai chiamato Giulia?* — Completa: *Sì, ___ ho chiamata poco fa.*",
+      "options": ["gli", "l'", "le"],
+      "correct": 1,
+      "explain": "*chiamare* è transitivo diretto: Giulia (fem.) → *la* → *l'*, con l'accordo *chiamat**a***. (*Le* sarebbe indiretto, *scrivere a lei*.)"
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Devi dare le chiavi a Marco.* Riscrivi con i pronomi: ___",
+      "options": ["Devi darglieli", "Devi dargliele", "Devi darmele"],
+      "correct": 1,
+      "explain": "*a Marco* → glie-, *le chiavi* (fem. pl.) → le: *glie + le = gliele*, attaccato all'infinito: *dar**gliele***."
+    },
+    {
+      "type": "typed",
+      "prompt": "Scrivi 'I thought about it a lot' con il pronome *ci* al passato prossimo.",
+      "answers": ["ci ho pensato molto", "ci ho pensato tanto", "ci ho pensato molto."],
+      "hint": "ci + ho pensato + molto/tanto.",
+      "explain": "*Ci ho pensato molto.* — *pensare a* + cosa → *ci*, la formula chiave del racconto di oggi."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Alla fine mi sono deciso.",
+      "answers": ["alla fine mi sono deciso", "alla fine mi sono deciso."]
+    },
+    {
+      "type": "contrast",
+      "title": "Diretto o indiretto? Il ripasso finale",
+      "pairs": [
+        { "left": "*La vedo, la chiamo, l'ho vista.* (diretto)", "right": "*Le parlo, le scrivo, le ho telefonato.* (indiretto)", "note": "Verbo con oggetto diretto → lo/la/li/le (+ accordo). Verbo con *a* → gli/le (niente accordo)." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Qualche giorno dopo il trasloco. Al bar con Marco: Sofia è ormai a Milano. Marco è nostalgico.",
+      "lines": [
+        { "speaker": "Marco", "nl": "Allora Sofia è partita davvero. L'hai sentita, dopo il trasloco?", "en": "So Sofia really left. Have you heard from her, after the move?" },
+        { "speaker": "You", "nl": "Sì, l'ho sentita ieri. Si è già ambientata, dice che sta bene.", "en": "Yeah, I heard from her yesterday. She's already settled in, says she's doing well." },
+        { "speaker": "Marco", "nl": "Meno male. Ci ho pensato spesso in questi giorni, sai.", "en": "Thank goodness. I've thought about it often these days, you know." },
+        { "speaker": "You", "nl": "Anch'io. La sua scelta mi fa pensare alla mia, di decisione.", "en": "Me too. Her choice makes me think about mine." },
+        { "speaker": "Marco", "nl": "E la tua qual è stata? Trasferirti qui in Italia, no?", "en": "And what was yours? Moving here to Italy, right?", "spotlight": "Marco ti apre la strada per *il mio racconto* di questa settimana." },
+        { "speaker": "You", "nl": "Esatto, quella. Ci ho pensato molto, perché lasciare tutto non è facile.", "en": "Exactly, that one. I thought about it a lot, because leaving everything behind isn't easy.", "spotlight": "*Ci ho pensato molto, perché…* — proprio il modello del livello 10." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai seguito il discorso?",
+      "questions": [
+        { "q": "Come sta Sofia adesso, secondo 'You'?", "options": ["Si è già ambientata a Milano", "È tornata a Bologna", "Non risponde più"], "correct": 0 },
+        { "q": "Qual è stata la grande decisione di 'You'?", "options": ["Cambiare lavoro", "Trasferirsi in Italia", "Comprare una macchina"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Il mio racconto — livello 10",
+      "prompt": "Aggiungi una grande decisione al tuo racconto, sul modello di Sofia: la scelta, un pronome (*ci ho pensato*) e un *perché* (una subordinata).",
+      "slots": [
+        { "label": "La decisione", "chips": ["Ho deciso di trasferirmi in Italia", "Ho deciso di cambiare vita", "Ho deciso di imparare l'italiano sul serio"] },
+        { "label": "Il pronome (ci)", "chips": ["e ci ho pensato a lungo", "ci ho pensato per mesi", "ci ho riflettuto parecchio"] },
+        { "label": "Il perché (subordinata)", "chips": ["perché volevo qualcosa di nuovo", "perché sentivo che era il momento giusto", "perché avevo bisogno di un cambiamento"] }
+      ],
+      "sample": "Ho deciso di trasferirmi in Italia; ci ho pensato a lungo, perché volevo qualcosa di nuovo."
+    },
+    {
+      "type": "journal",
+      "prompt": "Il mio racconto — livello 10! Riprendi tutto il tuo racconto (nome, provenienza, routine, famiglia e quartiere, cosa ti piace, qualcosa che hai fatto, come ti sei sentito/a, un ricordo d'infanzia, un progetto e un'opinione, qualcosa che ti hanno detto) e aggiungi ora la tua grande decisione: usa un pronome (*ci ho pensato…*) e un *perché*. Complimenti, hai finito il modulo dei pronomi — quello che tutti evitano!",
+      "starters": ["Mi chiamo…", "Ho preso una decisione importante:…", "Ci ho pensato molto, perché…"],
+      "minSentences": 4
+    }
+  ]
+}

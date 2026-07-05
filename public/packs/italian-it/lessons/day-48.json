@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "day-48",
+  "day": 48,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "review",
+  "title": "Ricordi di Napoli",
+  "emoji": "🍕",
+  "level": "A2",
+  "durationMin": [18, 25],
+  "summary": "Review + immersion: Pietro's childhood in Naples, told in the imperfetto",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ripasso: l'imperfetto e i ricordi",
+      "body": "Questa settimana hai imparato l'**imperfetto** (-avo/-evo/-ivo, ero/avevo/facevo) per descrivere, la differenza con il **passato prossimo** (evento vs sfondo/abitudine), le parole della scuola (**la maestra, il cortile, la ricreazione**), il tempo nel passato (**pioveva, faceva caldo**) e gli avverbi di frequenza (**sempre… non… mai**). Oggi: un ricordo d'infanzia di Pietro, da Napoli.",
+      "callout": "Ascolta come Pietro passa naturalmente tra i due passati."
+    },
+    {
+      "type": "chips",
+      "title": "Ripasso veloce",
+      "items": [
+        { "nl": "ero", "en": "I was", "speak": "ero" },
+        { "nl": "avevo", "en": "I had / used to have", "speak": "avevo" },
+        { "nl": "giocavo", "en": "I used to play", "speak": "giocavo" },
+        { "nl": "pioveva", "en": "it was raining", "speak": "pioveva" },
+        { "nl": "sempre", "en": "always", "speak": "sempre" },
+        { "nl": "da bambino/a", "en": "as a kid", "speak": "da bambino" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ieri _____ a casa di un amico. (andare, un evento preciso)",
+      "options": ["vado", "sono andato", "andavo"],
+      "correct": 1,
+      "explain": "*sono andato* — un evento singolo e concluso, ieri, prende il passato prossimo (con essere, verbo di movimento)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Scrivi la forma imperfetto di 'giocare' per 'io'.",
+      "answers": ["giocavo"],
+      "hint": "-are → -avo",
+      "explain": "*giocavo* — imperfetto regolare."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Pietro shares a memory of growing up in Naples, over coffee with You",
+      "lines": [
+        { "speaker": "Pietro", "nl": "Da bambino, abitavo vicino al mare, qui a Napoli.", "en": "As a kid, I lived near the sea, here in Naples." },
+        { "speaker": "You", "nl": "Che ricordi hai della tua infanzia?", "en": "What memories do you have of your childhood?" },
+        { "speaker": "Pietro", "nl": "Tanti. Ogni pomeriggio giocavo a calcio in strada con gli amici.", "en": "Many. Every afternoon I used to play soccer in the street with my friends." },
+        { "speaker": "You", "nl": "E a scuola, com'eri?", "en": "And at school, what were you like?" },
+        { "speaker": "Pietro", "nl": "Ero un po' vivace, sinceramente. La maestra mi diceva sempre di stare fermo.", "en": "I was a bit lively, honestly. The teacher always used to tell me to sit still.", "spotlight": "mi diceva sempre — imperfetto per un rimprovero abituale, non un episodio singolo." },
+        { "speaker": "You", "nl": "E la domenica? Cosa facevate in famiglia?", "en": "And on Sundays? What did you do as a family?" },
+        { "speaker": "Pietro", "nl": "Si mangiava tutti insieme, dai nonni. Il pranzo durava ore.", "en": "We all used to eat together, at my grandparents'. Lunch would last for hours." },
+        { "speaker": "Pietro", "nl": "Qui a Napoli, la famiglia è sempre stata il centro di tutto.", "en": "Here in Naples, family has always been the center of everything." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "Where did Pietro live as a child?", "options": ["In the mountains", "Near the sea, in Naples", "In Milano"], "correct": 1 },
+        { "q": "What did the teacher always tell young Pietro?", "options": ["To study more", "To sit still", "To go home"], "correct": 1 },
+        { "q": "Where did the family eat together on Sundays?", "options": ["At a restaurant", "At the grandparents' house", "At school"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Pensa a un ricordo d'infanzia legato alla famiglia — un pranzo, una domenica, una routine. Scrivi 2-3 frasi all'imperfetto.",
+      "starters": ["Da bambino/a…", "La domenica, la mia famiglia…"],
+      "minSentences": 2
+    }
+  ]
+}

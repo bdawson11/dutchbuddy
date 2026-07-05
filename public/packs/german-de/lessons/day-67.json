@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "day-67",
+  "day": 67,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Reflexive Verben & um … zu",
+  "emoji": "🪞",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Verbs that turn back on the subject (sich freuen, sich fühlen, sich entscheiden) and the purpose clause um … zu.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Verben mit sich",
+      "body": "Some German verbs come with a built-in mirror pronoun: **sich**. *Ich freue **mich***, *du freust **dich***, *er freut **sich***. Here the reflexive pronoun is **accusative**. You'll reach for these constantly for feelings and plans: **sich freuen** (to be glad / look forward), **sich fühlen** (to feel), **sich entscheiden** (to decide), **sich beeilen** (to hurry).",
+      "table": {
+        "headers": ["Person", "reflexiv (Akkusativ)"],
+        "rows": [
+          ["ich", "ich freue mich"],
+          ["du", "du freust dich"],
+          ["er / sie / es", "sie freut sich"],
+          ["wir / ihr / sie", "wir freuen uns"]
+        ]
+      },
+      "callout": "*sich vorstellen* = to introduce oneself: *Ich stelle mich vor* — you need it every time you meet someone new."
+    },
+    {
+      "type": "chips",
+      "title": "Reflexive Verben — tap to hear",
+      "items": [
+        { "nl": "Ich freue mich.", "en": "I'm glad / looking forward.", "speak": "Ich freue mich." },
+        { "nl": "Ich fühle mich gut.", "en": "I feel good.", "speak": "Ich fühle mich gut." },
+        { "nl": "Ich muss mich beeilen.", "en": "I have to hurry.", "speak": "Ich muss mich beeilen." },
+        { "nl": "Ich kann mich nicht entscheiden.", "en": "I can't decide.", "speak": "Ich kann mich nicht entscheiden." },
+        { "nl": "Ich ärgere mich.", "en": "I'm annoyed.", "speak": "Ich ärgere mich." },
+        { "nl": "Ich stelle mich vor.", "en": "I introduce myself.", "speak": "Ich stelle mich vor." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "um … zu — wozu machst du das?",
+      "body": "To say **why** you do something — the purpose — German uses **um … zu + Infinitiv**, with the *zu*-infinitive parked at the very **end**: *Ich lerne Deutsch, **um** hier **zu arbeiten*** (I'm learning German **in order to** work here). One subject covers both halves. It answers *wozu?* / *warum?*.",
+      "callout": "*Ich ziehe nach München, um den Job zu machen.* — purpose in one clean clause."
+    },
+    {
+      "type": "contrast",
+      "title": "sich freuen auf ↔ sich freuen über",
+      "pairs": [
+        { "left": "Ich freue mich auf das Wochenende.", "right": "Ich freue mich über das Geschenk.", "note": "**auf** + Akk. = looking forward (still to come); **über** + Akk. = glad about (already here)." },
+        { "left": "Sie freut sich auf München.", "right": "Sie freut sich über die Nachricht.", "note": "The move is ahead → *auf*; the news already arrived → *über*." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ich freue ___ schon auf den Sommer.",
+      "options": ["mir", "mich", "sich"],
+      "correct": 1,
+      "explain": "*sich freuen* takes an **accusative** reflexive pronoun → **mich**. (*mir* would be dative — wrong here.)"
+    },
+    {
+      "type": "typed",
+      "prompt": "'I feel good today.' → Ich ___ ___ heute gut.",
+      "answers": ["fühle mich", "Ich fühle mich heute gut", "Ich fühle mich heute gut."],
+      "hint": "sich fühlen — put the mirror pronoun right after the verb.",
+      "explain": "*Ich fühle mich heute gut.* The reflexive *mich* sits right after the conjugated verb."
+    },
+    {
+      "type": "builder",
+      "title": "Bau einen um … zu-Satz",
+      "prompt": "Say why you're doing something. The zu-infinitive goes to the very end.",
+      "slots": [
+        { "label": "Hauptsatz", "chips": ["Ich lerne Deutsch", "Ich spare Geld", "Ich ziehe um"] },
+        { "label": "um …", "chips": ["um in Deutschland", "um eine Reise", "um näher an der Arbeit"] },
+        { "label": "… zu + Infinitiv", "chips": ["zu arbeiten", "zu machen", "zu sein"] }
+      ],
+      "sample": "Ich lerne Deutsch, um in Deutschland zu arbeiten."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type it.",
+      "speak": "Ich kann mich noch nicht entscheiden.",
+      "answers": ["Ich kann mich noch nicht entscheiden", "Ich kann mich noch nicht entscheiden.", "ich kann mich noch nicht entscheiden"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Aylin calls you, torn about the Munich job. She talks feelings — her specialty.",
+      "lines": [
+        { "speaker": "Aylin", "nl": "Ich ärgere mich über mich selbst. Ich kann mich einfach nicht entscheiden.", "en": "I'm annoyed at myself. I just can't decide.", "spotlight": "*sich ärgern*, *sich entscheiden* — two reflexives, still no decision." },
+        { "speaker": "You", "nl": "Das ist doch normal. Wie fühlst du dich denn dabei?", "en": "That's totally normal. How do you feel about it?", "spotlight": "*Wie fühlst du dich?* — sich fühlen, the key feelings question." },
+        { "speaker": "Aylin", "nl": "Einerseits freue ich mich auf etwas Neues. Andererseits ist Berlin mein Zuhause.", "en": "On one hand I'm excited for something new. On the other, Berlin is my home.", "spotlight": "*freue ich mich auf* — looking forward → *auf* + Akkusativ." },
+        { "speaker": "You", "nl": "Nimmst du den Job, um deine Karriere zu pushen?", "en": "Would you take the job to boost your career?", "spotlight": "*um … zu pushen* — purpose clause." },
+        { "speaker": "Aylin", "nl": "Genau darum geht's. Ich ziehe ja nicht weg, um wegzulaufen.", "en": "That's exactly it. I'm not moving away to run away.", "spotlight": "*um wegzulaufen* — separable verb: *zu* slots inside → *wegzulaufen*." },
+        { "speaker": "You", "nl": "Dann hör auf dein Bauchgefühl. Du musst dich nicht heute entscheiden.", "en": "Then trust your gut. You don't have to decide today." },
+        { "speaker": "Aylin", "nl": "Danke. Es tut gut, mit dir zu reden.", "en": "Thanks. It feels good to talk to you." },
+        { "speaker": "You", "nl": "Immer. Und egal was — ich freue mich für dich.", "en": "Always. And whatever happens — I'm happy for you." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Verstanden?",
+      "questions": [
+        { "q": "Warum ärgert sich Aylin?", "options": ["Weil sie sich nicht entscheiden kann.", "Weil sie den Job verloren hat.", "Weil Berlin zu teuer ist."], "correct": 0 },
+        { "q": "Worauf freut sich Aylin?", "options": ["auf Berlin", "auf etwas Neues", "auf den Sommer"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Worauf freust du dich gerade? Und wie fühlst du dich diese Woche? Schreib drei Sätze mit reflexiven Verben und einen Satz mit *um … zu* (warum lernst du Deutsch?).",
+      "starters": ["Ich freue mich auf…", "Ich fühle mich…", "Ich lerne Deutsch, um … zu …"],
+      "minSentences": 4
+    }
+  ]
+}

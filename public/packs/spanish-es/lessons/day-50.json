@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "day-50",
+  "day": 50,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "El futuro: planes y promesas",
+  "emoji": "🔮",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Two ways to talk about the future: ir a + infinitive for plans, the simple future for predictions",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Dos maneras de hablar del futuro",
+      "body": "En español hay dos maneras de hablar del futuro. La más fácil: **ir a + infinitivo**, para planes cercanos y ya decididos — *voy a estudiar, vamos a comer*. Se conjuga **ir** y se añade el infinitivo sin cambios.",
+      "table": {
+        "headers": ["Persona", "ir"],
+        "rows": [
+          ["yo", "voy"],
+          ["tú", "vas"],
+          ["él/ella/usted", "va"],
+          ["nosotros/as", "vamos"],
+          ["vosotros/as", "vais"],
+          ["ellos/ellas/ustedes", "van"]
+        ]
+      },
+      "callout": "*Voy a viajar el mes que viene.* — I'm going to travel next month. Conjuga ir + a + infinitivo, y ya está."
+    },
+    {
+      "type": "chips",
+      "title": "Escucha: ir a + infinitivo",
+      "items": [
+        { "nl": "voy a comer", "en": "I'm going to eat", "speak": "voy a comer" },
+        { "nl": "vas a llegar tarde", "en": "you're going to be late", "speak": "vas a llegar tarde" },
+        { "nl": "vamos a salir esta noche", "en": "we're going out tonight", "speak": "vamos a salir esta noche" },
+        { "nl": "vais a ganar", "en": "you all are going to win", "speak": "vais a ganar" },
+        { "nl": "van a venir mañana", "en": "they're coming tomorrow", "speak": "van a venir mañana" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "El futuro simple: -é, -ás, -á…",
+      "body": "La segunda forma es el **futuro simple**: se añaden las mismas terminaciones a **todos** los verbos (-ar, -er, -ir), directamente sobre el infinitivo completo. Se usa para predicciones, promesas y planes más lejanos: *mañana lloverá, algún día viviré en la playa*.",
+      "table": {
+        "headers": ["Persona", "viajar", "vivir"],
+        "rows": [
+          ["yo", "viajaré", "viviré"],
+          ["tú", "viajarás", "vivirás"],
+          ["él/ella/usted", "viajará", "vivirá"],
+          ["nosotros/as", "viajaremos", "viviremos"],
+          ["vosotros/as", "viajaréis", "viviréis"],
+          ["ellos/ellas/ustedes", "viajarán", "vivirán"]
+        ]
+      },
+      "callout": "Ojo con los irregulares que verás más adelante: *tendré, haré, podré, diré, vendré* — la terminación es igual, pero la raíz cambia."
+    },
+    {
+      "type": "contrast",
+      "title": "ir a + infinitivo vs. futuro simple",
+      "pairs": [
+        { "left": "ir a + infinitivo → planes cercanos, ya decididos", "right": "futuro simple → predicciones, promesas, cosas más lejanas", "note": "*Voy a estudiar esta noche* (decidido, ya) vs *Estudiaré más el año que viene* (una promesa, más lejos). En el habla diaria, ir a + infinitivo es mucho más frecuente." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Esta noche, Rafa y yo ___ a un concierto (ya lo hemos decidido).",
+      "options": ["vamos a ir", "iremos"],
+      "correct": 0,
+      "explain": "Plan concreto y decidido para esta noche → **ir a + infinitivo**: *vamos a ir*. El futuro simple (*iremos*) suena más a promesa o a algo lejano."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa con futuro simple: Algún día, (yo) ___ (vivir) en la playa.",
+      "answers": ["viviré", "vivire"],
+      "hint": "futuro simple, terminación -é",
+      "explain": "*viviré* — futuro simple de *vivir*, primera persona."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa con ir a + infinitivo: Este finde, (nosotros) ___ (ver) una peli.",
+      "answers": ["vamos a ver"],
+      "hint": "conjuga ir + a + infinitivo, sin cambios en el infinitivo",
+      "explain": "*vamos a ver* — nosotros (vamos) + a + ver (infinitivo)."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "voy a llamar a Lucía",
+      "answers": ["voy a llamar a Lucía", "voy a llamar a lucia", "voy a llamar a Lucia"]
+    },
+    {
+      "type": "builder",
+      "title": "Planes para el finde",
+      "prompt": "Construye una frase sobre tus planes para el fin de semana.",
+      "slots": [
+        { "label": "Sujeto", "chips": ["Yo", "Nosotros", "Mis amigos y yo"] },
+        { "label": "ir a + infinitivo", "chips": ["voy a salir", "vamos a salir", "vamos a quedar con Rafa"] },
+        { "label": "Cuándo", "chips": ["el sábado", "el domingo por la tarde", "este finde"] }
+      ],
+      "sample": "Vamos a quedar con Rafa el sábado."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa te cuenta los planes de su grupo — el futuro en acción.",
+      "lines": [
+        { "speaker": "Rafa", "nl": "¡Tío, tengo noticias! Vamos a tocar en un bar el mes que viene.", "en": "Dude, I've got news! We're going to play at a bar next month." },
+        { "speaker": "You", "nl": "¡Qué guay! ¿Y qué vais a tocar?", "en": "How cool! And what are you all going to play?", "spotlight": "vais a tocar — vosotros con ir a + infinitivo." },
+        { "speaker": "Rafa", "nl": "Vamos a tocar canciones nuestras. Va a ser la primera vez.", "en": "We're going to play our own songs. It's going to be the first time." },
+        { "speaker": "You", "nl": "¿Vais a invitar a mucha gente?", "en": "Are you all going to invite a lot of people?" },
+        { "speaker": "Rafa", "nl": "Espero que sí. Y después, pues nada, ¡una caña para celebrar!", "en": "I hope so. And afterward, well, a beer to celebrate!" },
+        { "speaker": "You", "nl": "¡Genial! Yo también voy a estar allí.", "en": "Great! I'm going to be there too." },
+        { "speaker": "Rafa", "nl": "¡Marchando! Nos vemos, ¿vale?", "en": "Sorted! See you, yeah?" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "¿Qué vas a hacer este finde y qué crees que pasará el año que viene? Usa ir a + infinitivo y el futuro simple.",
+      "starters": ["Este finde voy a…", "El año que viene…"]
+    }
+  ]
+}

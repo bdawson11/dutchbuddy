@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "day-65",
+  "day": 65,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Dímelo: imperativo y pronombres",
+  "emoji": "🔗",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The pronoun-cluster module: attaching pronouns to affirmative commands and flipping them for the negative",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Afirmativo: los pronombres se pegan detrás",
+      "body": "In an **affirmative** command, object and reflexive pronouns **attach to the end** as one word: *dame* (give me), *dime* (tell me), *siéntate* (sit down). You almost always add a **tilde** to keep the original stress: *di* → *dímelo*, *sienta* → *siéntate*.",
+      "table": {
+        "headers": ["Orden", "+ pronombre"],
+        "rows": [
+          ["di (tell)", "dime — tell me"],
+          ["da (give)", "dame — give me"],
+          ["mira (look)", "mírame — look at me"],
+          ["siéntate (sit)", "siéntate — sit down"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "Dos pronombres: indirecto + directo",
+      "body": "When you stack two, **indirect comes first, then direct**: *me lo, te la, nos lo*. And **le/les turns into *se*** before *lo/la/los/las* — never *le lo*, always ***se lo***. All glued onto the command: *dí**melo*** (tell it to me), *dá**selo*** (give it to him/her).",
+      "callout": "*¿El libro? Dáselo a Rafa.* — *se* = to him, *lo* = it."
+    },
+    {
+      "type": "contrast",
+      "title": "Afirmativo vs negativo: todo cambia",
+      "pairs": [
+        { "left": "Afirmativo: pronombre detrás → *dímelo*", "right": "Negativo: pronombre delante + subjuntivo → *no me lo digas*", "note": "The negative flips everything: pronouns jump in FRONT of the verb, and the verb becomes present subjunctive." },
+        { "left": "*Siéntate aquí.*", "right": "*No te sientes ahí.*", "note": "*siéntate* (attached) vs *no te sientes* (pronoun before + subjunctive *sientes*)." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Toca para oír los racimos de pronombres",
+      "items": [
+        { "nl": "Dímelo, anda.", "en": "Tell it to me, come on.", "speak": "dímelo, anda" },
+        { "nl": "No me lo digas.", "en": "Don't tell me.", "speak": "no me lo digas" },
+        { "nl": "Dáselo a Rafa.", "en": "Give it to Rafa.", "speak": "dáselo a Rafa" },
+        { "nl": "Siéntate un momento.", "en": "Sit down a moment.", "speak": "siéntate un momento" },
+        { "nl": "No te preocupes.", "en": "Don't worry.", "speak": "no te preocupes" },
+        { "nl": "Cuéntamelo todo.", "en": "Tell me all of it.", "speak": "cuéntamelo todo" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Un amigo va a contarte el final de la peli. Tú no quieres saberlo. ¿Cómo se lo pides?",
+      "options": ["¡No me lo digas!", "¡No me lo dices!", "¡No dímelo!"],
+      "correct": 0,
+      "explain": "Orden negativa: pronombres delante (*me lo*) y verbo en subjuntivo (*digas*): *no me lo digas*. Nunca *no dímelo* — los pronombres no se pegan en negativo."
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Dale el libro a Sofía» con los dos pronombres es…",
+      "options": ["Déle lo", "Dálelo", "Dáselo"],
+      "correct": 2,
+      "explain": "*le* + *lo* nunca es *le lo*: *le* se convierte en *se*. Por eso *dáselo* (se = a Sofía, lo = el libro)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Transforma en orden afirmativa con pronombres: «me lo tienes que dar» → «¡___!»",
+      "answers": ["dámelo", "Dámelo", "¡dámelo!", "¡Dámelo!"],
+      "explain": "*Dámelo* — imperativo *da* + *me* + *lo*, con tilde para mantener el acento."
+    },
+    {
+      "type": "builder",
+      "title": "Monta la orden con pronombres",
+      "prompt": "Arma una orden afirmativa: verbo + pronombre indirecto + pronombre directo. Recuerda la tilde al juntarlos.",
+      "slots": [
+        { "label": "Verbo", "chips": ["Cuenta", "Da", "Di"] },
+        { "label": "Indirecto", "chips": ["me", "se", "nos"] },
+        { "label": "Directo", "chips": ["lo", "la", "las"] }
+      ],
+      "sample": "Cuenta + me + lo → Cuéntamelo. (una sola palabra, con tilde)"
+    },
+    {
+      "type": "dialogue",
+      "scene": "En el bar, Rafa quiere cotilleo sobre la decisión de Sofía (que aún se lo está pensando).",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Oye, tío, cuéntamelo. ¿Al final Sofía se va a Valencia o no?", "en": "Hey, man, tell me. Is Sofía going to Valencia in the end or not?" },
+        { "speaker": "You", "nl": "No lo sé seguro. Todavía se lo está pensando.", "en": "I don't know for sure. She's still thinking it over." },
+        { "speaker": "Rafa", "nl": "Venga, no me mientas. Algo sabrás.", "en": "Come on, don't lie to me. You must know something.", "spotlight": "Negative command: no me mientas (pronoun before + subjunctive)." },
+        { "speaker": "You", "nl": "Que no, de verdad. Y si lo supiera, no te lo diría.", "en": "Honestly, no. And if I knew, I wouldn't tell you." },
+        { "speaker": "Rafa", "nl": "¡Hombre! Pues avísame en cuanto lo decida, ¿vale?", "en": "Come on! Well, let me know the second she decides, okay?" },
+        { "speaker": "You", "nl": "Vale, pero no se lo digas a nadie todavía.", "en": "Okay, but don't tell anyone yet.", "spotlight": "Cluster in the negative: no se lo digas." },
+        { "speaker": "Rafa", "nl": "Tranquilo, tío. Mis labios están sellados.", "en": "Relax, man. My lips are sealed." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Sofía ha decidido ya si se va a Valencia?", "options": ["Sí, se va seguro", "No, todavía se lo está pensando", "No, se queda en Madrid"], "correct": 1 },
+        { "q": "¿Qué le pide «You» a Rafa al final?", "options": ["Que se lo cuente a todos", "Que no se lo diga a nadie todavía", "Que llame a Sofía"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe tres cosas que un amigo SÍ debe hacer y tres que NO debe hacer al llegar a España. Usa órdenes afirmativas con pronombre (*díselo, hazlo, pruébalo*) y negativas (*no lo hagas, no te preocupes*).",
+      "starters": ["Cuando llegues, hazlo así:…", "No te preocupes por…", "No se lo digas a…"],
+      "minSentences": 4
+    }
+  ]
+}

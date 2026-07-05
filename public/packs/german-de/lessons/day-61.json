@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "day-61",
+  "day": 61,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "wenn-Sätze: real und hypothetisch",
+  "emoji": "🤔",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Two flavours of wenn: real conditions with the normal verb, and unreal, dreamy ones with Konjunktiv II — Wenn ich Zeit hätte, würde ich mehr reisen.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Zwei Sorten wenn",
+      "body": "*wenn* means both **if** and **whenever** — and it comes in two flavours. A **real** condition (it might well happen) uses the **normal verb**: *Wenn ich Zeit **habe**, rufe ich dich an.* An **unreal**, dreamy one (but I don't have time…) uses **Konjunktiv II**: *Wenn ich Zeit **hätte**, würde ich mehr reisen.* Either way it's a subclause — verb to the end — and when *wenn* comes first, the main-clause verb sits right after the comma.",
+      "callout": "Real = normales Verb (*habe, komme*). Irreal = Konjunktiv II (*hätte, wäre* + *würde*)."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear both kinds",
+      "items": [
+        { "nl": "Wenn es regnet, bleibe ich zu Hause.", "en": "If it rains, I'll stay home.", "speak": "Wenn es regnet, bleibe ich zu Hause." },
+        { "nl": "Wenn ich Feierabend habe, koche ich.", "en": "When I finish work, I cook.", "speak": "Wenn ich Feierabend habe, koche ich." },
+        { "nl": "Wenn ich mehr Zeit hätte, würde ich mehr reisen.", "en": "If I had more time, I'd travel more.", "speak": "Wenn ich mehr Zeit hätte, würde ich mehr reisen." },
+        { "nl": "Wenn ich du wäre, würde ich das machen.", "en": "If I were you, I'd do it.", "speak": "Wenn ich du wäre, würde ich das machen." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Real vs. hypothetisch",
+      "pairs": [
+        { "left": "Wenn ich Zeit habe, rufe ich an. — real (könnte passieren)", "right": "Wenn ich Zeit hätte, würde ich anrufen. — hypothetisch (habe ich aber nicht)", "note": "Real uses the normal verb (*habe*); unreal uses Konjunktiv II (*hätte … würde*). Same *wenn*, different reality." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You're not rich, you're just dreaming. Which fits? „Wenn ich reich ___, würde ich nicht mehr arbeiten.“",
+      "options": ["bin", "wäre", "war"],
+      "correct": 1,
+      "explain": "It's hypothetical (you're not rich), so Konjunktiv II: *wäre*. *bin* would make it a real condition; *war* is past tense."
+    },
+    {
+      "type": "card",
+      "title": "Das Muster der Träume: hätte/wäre … würde",
+      "body": "The everyday recipe for an unreal *wenn*-sentence: **hätte** or **wäre** in the *wenn*-part, and **würde + Infinitiv** in the main part. You don't need exotic verb forms — *würde* carries the main clause.",
+      "table": {
+        "headers": ["wenn-Satz (Konj. II)", "Hauptsatz (würde)"],
+        "rows": [
+          ["Wenn ich mehr Zeit hätte,", "würde ich mehr lesen."],
+          ["Wenn ich reich wäre,", "würde ich ein Haus kaufen."],
+          ["Wenn ich du wäre,", "würde ich fragen."]
+        ]
+      }
+    },
+    {
+      "type": "typed",
+      "prompt": "Complete the hypothetical in German: 'If I had more time, …' → Wenn ich mehr Zeit hätte, ___ (würde · mehr lesen)",
+      "answers": ["würde ich mehr lesen"],
+      "hint": "Main clause: würde second, infinitive last.",
+      "explain": "*würde ich mehr lesen* — after the *wenn*-clause, *würde* takes second slot and *lesen* goes to the end."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole sentence.",
+      "speak": "Wenn ich du wäre, würde ich fragen.",
+      "answers": ["Wenn ich du wäre, würde ich fragen.", "Wenn ich du waere, wuerde ich fragen"]
+    },
+    {
+      "type": "builder",
+      "title": "Träum ein bisschen",
+      "prompt": "Build an unreal wenn-sentence: hätte/wäre in the wenn-part, würde + infinitive in the main part.",
+      "slots": [
+        { "label": "wenn-Satz", "chips": ["Wenn ich mehr Zeit hätte", "Wenn ich reich wäre", "Wenn ich du wäre"] },
+        { "label": "Hauptsatz", "chips": ["würde ich mehr reisen", "würde ich ein Haus kaufen", "würde ich das nicht machen"] }
+      ],
+      "sample": "Wenn ich mehr Zeit hätte, würde ich mehr reisen."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Over a beer, Jonas starts up the classic 'what would you do' game.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Ey, mal angenommen, du gewinnst im Lotto. Was würdest du machen?", "en": "Hey, suppose you win the lottery. What would you do?" },
+        { "speaker": "You", "nl": "Puh, wenn ich so viel Geld hätte, würde ich erstmal reisen.", "en": "Phew, if I had that much money, I'd travel first.", "spotlight": "*Wenn ich … hätte, würde ich reisen* — the classic hypothetical pattern." },
+        { "speaker": "Jonas", "nl": "Nur reisen? Ich würde sofort eine Bar aufmachen.", "en": "Just travel? I'd open a bar straight away." },
+        { "speaker": "You", "nl": "Eine Bar? Wenn du eine Bar hättest, würdest du da jeden Abend selbst sitzen.", "en": "A bar? If you had a bar, you'd sit there yourself every night.", "spotlight": "*wenn du … hättest, würdest du …* — the whole thing in the du-form." },
+        { "speaker": "Jonas", "nl": "Quatsch! Na ja … vielleicht. Und wenn Aylin mitmachen würde, wäre es perfekt.", "en": "Nonsense! Well … maybe. And if Aylin joined in, it'd be perfect." },
+        { "speaker": "You", "nl": "Die würde eher die Playlist machen wollen.", "en": "She'd rather want to do the playlist." },
+        { "speaker": "Jonas", "nl": "Stimmt. Aber ehrlich — wenn wir das Geld hätten, würden wir es eh nie tun.", "en": "True. But honestly — if we had the money, we'd never do it anyway." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Träum ein bisschen: Was würdest du machen, wenn alles möglich wäre? Schreib drei *wenn*-Sätze im Konjunktiv II.",
+      "starters": ["Wenn ich mehr Zeit hätte, …", "Wenn ich in Deutschland leben würde, …", "Wenn ich du wäre, …"],
+      "minSentences": 3
+    }
+  ]
+}

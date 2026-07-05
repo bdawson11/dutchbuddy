@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "day-88",
+  "day": 88,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "La concordanza dei tempi",
+  "emoji": "🧩",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Sequence of tenses: the main verb picks the branch, timing picks the rung",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "La concordanza dei tempi",
+      "body": "Everything from days 85–87 in one picture. The **main verb** sets the branch; **timing** picks the rung. This is the ladder of *sequence of tenses*, and once you see it, the congiuntivo stops being scary.",
+      "table": {
+        "headers": ["Verbo principale", "Azione contemporanea / dopo", "Azione precedente"],
+        "rows": [
+          ["presente: *Penso che…*", "presente: *…sia stanco*", "passato: *…sia stato stanco*"],
+          ["passato: *Pensavo che…*", "imperfetto: *…fosse stanco*", "trapassato: *…fosse stato stanco*"]
+        ]
+      },
+      "callout": "Principale al presente → in alto sulla scala. Principale al passato → un gradino indietro."
+    },
+    {
+      "type": "card",
+      "title": "Due domande, una scelta",
+      "body": "Ask two things. **1) Is my trigger present or past?** That picks the row. **2) Did the event happen at the same time / later, or before?** That picks the column. *Credo (presente) che abbia (prima) dormito.* *Credevo (passato) che avesse (prima) dormito.*",
+      "callout": "Contemporaneo/dopo = presente o imperfetto. Prima = passato o trapassato."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta le due file della scala",
+      "items": [
+        { "nl": "Penso che tu abbia ragione.", "en": "I think you're right.", "speak": "Penso che tu abbia ragione." },
+        { "nl": "Pensavo che tu avessi ragione.", "en": "I thought you were right.", "speak": "Pensavo che tu avessi ragione." },
+        { "nl": "Credo che sia già uscito.", "en": "I think he's already gone out.", "speak": "Credo che sia già uscito." },
+        { "nl": "Credevo che fosse già uscito.", "en": "I thought he'd already gone out.", "speak": "Credevo che fosse già uscito." },
+        { "nl": "Spero che vada tutto bene.", "en": "I hope it all goes well.", "speak": "Spero che vada tutto bene." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Presente sopra, passato sotto",
+      "pairs": [
+        { "left": "**Penso** che **venga**.", "right": "**Pensavo** che **venisse**.", "note": "contemporaneo/dopo: presente → imperfetto." },
+        { "left": "**Penso** che **sia venuto**.", "right": "**Pensavo** che **fosse venuto**.", "note": "precedente: passato → trapassato." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Credo che ieri Marco ___ tardi.» (azione precedente, trigger presente)",
+      "options": ["arrivi", "sia arrivato", "fosse arrivato"],
+      "correct": 1,
+      "explain": "Trigger **presente** (*credo*) + azione **precedente** (*ieri*) → congiuntivo **passato**: *sia arrivato*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Credevo che ieri Marco ___ tardi.» (stessa idea, ma trigger al passato)",
+      "options": ["sia arrivato", "arrivasse", "fosse arrivato"],
+      "correct": 2,
+      "explain": "Trigger **passato** (*credevo*) + azione **precedente** → congiuntivo **trapassato**: *fosse arrivato*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Trasforma al passato: 'Penso che tu abbia ragione.' → 'I thought you were right.'",
+      "answers": ["pensavo che tu avessi ragione", "pensavo che avessi ragione"],
+      "hint": "presente → passato: penso → pensavo, abbia → avessi.",
+      "explain": "*Pensavo che tu avessi ragione.* La principale scende di un gradino, e con lei la subordinata."
+    },
+    {
+      "type": "builder",
+      "title": "Scegli il gradino giusto",
+      "prompt": "Costruisci una frase — attenzione alla concordanza (principale presente → sia/abbia dormito; principale passato → fosse/avesse dormito).",
+      "slots": [
+        { "label": "Principale", "chips": ["Penso che", "Pensavo che"] },
+        { "label": "Soggetto", "chips": ["lui", "tu", "loro"] },
+        { "label": "Subordinata", "chips": ["sia stanco", "fosse stanco", "abbia dormito", "avesse dormito"] }
+      ],
+      "sample": "Pensavo che fosse stanco."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Marco quizzes you on the congiuntivo, teasing.",
+      "lines": [
+        { "speaker": "Marco", "nl": "Allora, ti sei arreso al congiuntivo o no?", "en": "So, have you given up on the subjunctive or not?" },
+        { "speaker": "You", "nl": "Ma va'! Adesso credo di averlo capito.", "en": "No way! Now I think I've got it." },
+        { "speaker": "Marco", "nl": "Ah sì? Pensavo che fosse ancora un incubo per te.", "en": "Oh yeah? I thought it was still a nightmare for you.", "spotlight": "'pensavo che fosse' — passato + imperfetto." },
+        { "speaker": "You", "nl": "Lo era. Ma ho capito che dipende dal verbo principale.", "en": "It was. But I realized it depends on the main verb." },
+        { "speaker": "Marco", "nl": "Esatto. Non credevo che avessi studiato così tanto.", "en": "Exactly. I didn't think you'd studied that much.", "spotlight": "'non credevo che avessi studiato' — trapassato: prima." },
+        { "speaker": "You", "nl": "Eh, penso che ormai sia diventato più facile.", "en": "Well, I think by now it's gotten easier." },
+        { "speaker": "Marco", "nl": "Bravo. Ti offro un caffè, te lo sei meritato.", "en": "Nice. I'll buy you a coffee, you've earned it." },
+        { "speaker": "You", "nl": "Volentieri!", "en": "Gladly!" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi due coppie di frasi: la stessa idea una volta con «penso che…» e una volta con «pensavo che…». Fai scendere i tempi di un gradino.",
+      "starters": ["Penso che… / Pensavo che…", "Credo che… / Credevo che…"],
+      "minSentences": 4
+    }
+  ]
+}
