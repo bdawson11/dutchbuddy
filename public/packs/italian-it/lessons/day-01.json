@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "day-01",
+  "day": 1,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "I suoni dell'italiano",
+  "emoji": "🔊",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "The pure 7-vowel system, clean unslurred vowels, and where the stress falls",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Five letters, seven sounds",
+      "body": "Italian vowels are **pure and short** — you say them cleanly and get out. No sliding, no English 'uh' at the end. *a* is always *ah*, *i* is always *ee*, *u* is always *oo*. The letters *e* and *o* each have two shades — a closed one and an open one — but the same clean idea: **hit the vowel and stop.**",
+      "callout": "The enemy is the English slur. *o* is a crisp *o*, never *o-oo*."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the five vowels",
+      "items": [
+        { "nl": "a", "en": "as in 'father'", "speak": "a" },
+        { "nl": "e", "en": "as in 'bet'", "speak": "e" },
+        { "nl": "i", "en": "as in 'machine'", "speak": "i" },
+        { "nl": "o", "en": "as in 'or'", "speak": "o" },
+        { "nl": "u", "en": "as in 'boot'", "speak": "u" }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Now inside real words",
+      "items": [
+        { "nl": "casa", "en": "house", "speak": "casa" },
+        { "nl": "vino", "en": "wine", "speak": "vino" },
+        { "nl": "sole", "en": "sun", "speak": "sole" },
+        { "nl": "luna", "en": "moon", "speak": "luna" },
+        { "nl": "amico", "en": "friend", "speak": "amico" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "How is the *i* in *vino* pronounced?",
+      "options": ["like 'eye'", "like 'ee' in 'see'", "like 'ih' in 'sit'"],
+      "correct": 1,
+      "explain": "Italian *i* is always a clean *ee*. *vino* = VEE-no, never 'vye-no'."
+    },
+    {
+      "type": "card",
+      "title": "Where's the stress?",
+      "body": "Most Italian words are stressed on the **second-to-last syllable**: *ca-**sa***, *a-**mi**-co*, *si-**gno**-ra*. When the stress lands on the **last** vowel, Italian writes an accent so you know: *cit**tà*** (city), *caf**fè*** (coffee), *per**ché*** (why/because). See the accent — push the voice there.",
+      "callout": "A written accent = 'the stress is right here, on this last vowel.'"
+    },
+    {
+      "type": "shadow",
+      "title": "Feel the stress — repeat",
+      "lines": [
+        { "nl": "casa", "en": "house (CA-sa)" },
+        { "nl": "amico", "en": "friend (a-MI-co)" },
+        { "nl": "città", "en": "city (cit-TÀ)" },
+        { "nl": "caffè", "en": "coffee (caf-FÈ)" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Same letters, different stress",
+      "pairs": [
+        { "left": "*casa* — house (stress: CA-sa)", "right": "*città* — city (stress: cit-TÀ)", "note": "The accent on città tells you the voice pushes to the very end." }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the word for 'house'.",
+      "speak": "casa",
+      "answers": ["casa", "la casa"]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the word for 'friend'.",
+      "speak": "amico",
+      "answers": ["amico", "un amico", "l'amico"]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the Italian for 'coffee' — with its accent.",
+      "answers": ["caffè", "un caffè", "il caffè"],
+      "hint": "Stress on the last vowel — it gets a written accent.",
+      "explain": "*caffè*, stress on the final è. Without the accent it looks wrong to a native eye."
+    },
+    {
+      "type": "journal",
+      "prompt": "Which vowel feels easiest to say cleanly, and which one still slides? Type three Italian words from today you want to nail this week.",
+      "starters": ["La vocale più facile è…", "Voglio dire bene…"]
+    }
+  ]
+}

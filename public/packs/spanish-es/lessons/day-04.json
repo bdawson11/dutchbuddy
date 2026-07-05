@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-04",
+  "day": 4,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "Ser: soy, eres, es… y vosotros",
+  "emoji": "🧍",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "The verb ser for who and where from — with the full paradigm including vosotros",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "ser — the 'this is who/what I am' verb",
+      "body": "**ser** tells people who you are and where you're from — identity and origin. It's irregular, so learn the whole set now. Note the two you-plural forms: **vosotros** (informal, the Spain default for a group of friends) and *ustedes* (formal). In Spain you'll use **vosotros** constantly.",
+      "table": {
+        "headers": ["Pronoun", "ser", "English"],
+        "rows": [
+          ["yo", "soy", "I am"],
+          ["tú", "eres", "you are"],
+          ["él / ella", "es", "he / she is"],
+          ["nosotros", "somos", "we are"],
+          ["vosotros", "sois", "you all are (informal)"],
+          ["ellos / ellas", "son", "they are"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear ser",
+      "items": [
+        { "nl": "soy", "en": "I am", "speak": "soy" },
+        { "nl": "eres", "en": "you are", "speak": "eres" },
+        { "nl": "es", "en": "he/she is", "speak": "es" },
+        { "nl": "somos", "en": "we are", "speak": "somos" },
+        { "nl": "sois", "en": "you all are", "speak": "sois" },
+        { "nl": "son", "en": "they are", "speak": "son" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "¿De dónde eres?",
+      "body": "To ask where someone's from: **¿de dónde eres?** To answer: *soy de…* + a place, or *soy* + a nationality. Nationalities agree with gender: *soy irlandés / soy irlandesa*, *soy canadiense* (same for both). Names use *me llamo…* (literally 'I call myself').",
+      "callout": "*Soy de Londres* (I'm from London) or *soy inglés/inglesa* (I'm English) — both work."
+    },
+    {
+      "type": "chips",
+      "title": "Presentarse — introduce yourself",
+      "items": [
+        { "nl": "me llamo…", "en": "my name is…", "speak": "me llamo" },
+        { "nl": "¿cómo te llamas?", "en": "what's your name?", "speak": "¿cómo te llamas?" },
+        { "nl": "¿de dónde eres?", "en": "where are you from?", "speak": "¿de dónde eres?" },
+        { "nl": "soy de…", "en": "I'm from…", "speak": "soy de" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You're talking to a group of friends and want to say 'you all are'. Which form?",
+      "options": ["son", "sois", "somos"],
+      "correct": 1,
+      "explain": "*sois* — the **vosotros** form, the informal you-plural you'll use nonstop in Spain. *son* is for ellos/ustedes; *somos* is 'we'."
+    },
+    {
+      "type": "typed",
+      "prompt": "Complete: 'I'm from Madrid.' — ___ de Madrid.",
+      "answers": ["soy", "soy de madrid"],
+      "hint": "First person of *ser*.",
+      "explain": "*Soy de Madrid.* Origin = ser, first person = soy."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía introduces herself to you at a mutual friend's place",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Hola, me llamo Lucía. ¿Y tú?", "en": "Hi, my name's Lucía. And you?" },
+        { "speaker": "You", "nl": "Me llamo Alex. Encantado.", "en": "My name's Alex. Nice to meet you." },
+        { "speaker": "Lucía", "nl": "¿De dónde eres?", "en": "Where are you from?", "spotlight": "The origin question — answered with *soy de…*" },
+        { "speaker": "You", "nl": "Soy de Toronto, de Canadá.", "en": "I'm from Toronto, in Canada." },
+        { "speaker": "Lucía", "nl": "¡Qué bien! Yo soy de Madrid.", "en": "Cool! I'm from Madrid." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "Where is Lucía from?", "options": ["Toronto", "Madrid", "Canada"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "soy de Madrid",
+      "answers": ["soy de madrid", "soy de Madrid"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Introduce yourself in Spanish: your name, where you're from. Two or three lines using *me llamo* and *soy de*.",
+      "starters": ["Me llamo…", "Soy de…"]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-03",
+  "day": 3,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "Saludos y el bar",
+  "emoji": "🍷",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Greetings, please/thank you, and your first bar de tapas — with vale and venga",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Hola and its friends",
+      "body": "*Hola* works any time of day. Spaniards also greet with **buenas** — a friendly, all-purpose short form of *buenos días / buenas tardes*. To ask how it's going: **¿qué tal?** (the everyday one) or *¿cómo estás?* You answer with *bien* (good), *muy bien*, or *tirando* (getting by).",
+      "table": {
+        "headers": ["Spanish", "English"],
+        "rows": [
+          ["hola — buenas", "hi / hey"],
+          ["buenos días", "good morning"],
+          ["buenas tardes", "good afternoon/evening"],
+          ["¿qué tal?", "how's it going?"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the greetings",
+      "items": [
+        { "nl": "hola", "en": "hi", "speak": "hola" },
+        { "nl": "buenas", "en": "hey (all-purpose)", "speak": "buenas" },
+        { "nl": "¿qué tal?", "en": "how's it going?", "speak": "¿qué tal?" },
+        { "nl": "bien, ¿y tú?", "en": "good, and you?", "speak": "bien, ¿y tú?" },
+        { "nl": "adiós", "en": "bye", "speak": "adiós" },
+        { "nl": "hasta luego", "en": "see you later", "speak": "hasta luego" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "vale and venga — the glue of Spain",
+      "body": "Two words you'll hear every three seconds in Spain: **vale** = 'OK / got it / sure' (agreement, all day long), and **venga** = 'come on / alright then / let's go', often to wrap up or nudge things along. *— ¿Nos tomamos una caña? — ¡Venga, vale!*",
+      "callout": "*vale* is Spain's national word. Latin America doesn't use it like this — it's a Spain giveaway."
+    },
+    {
+      "type": "chips",
+      "title": "por favor y gracias",
+      "items": [
+        { "nl": "por favor", "en": "please", "speak": "por favor" },
+        { "nl": "gracias", "en": "thank you", "speak": "gracias" },
+        { "nl": "de nada", "en": "you're welcome", "speak": "de nada" },
+        { "nl": "vale", "en": "OK / sure", "speak": "vale" },
+        { "nl": "venga", "en": "come on / alright", "speak": "venga" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "A friend says *¿nos tomamos algo?* (shall we grab something?). Which reply means 'sure, let's'?",
+      "options": ["De nada", "¡Vale, venga!", "Buenos días"],
+      "correct": 1,
+      "explain": "*¡Vale, venga!* — agreement plus a let's-go nudge. Peak Spain."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You walk into a neighborhood bar de tapas and greet the person behind the bar",
+      "lines": [
+        { "speaker": "You", "nl": "¡Buenas!", "en": "Hey!" },
+        { "speaker": "Rafa", "nl": "¡Hola! ¿Qué tal?", "en": "Hi! How's it going?", "spotlight": "Rafa runs into you at his favorite bar." },
+        { "speaker": "You", "nl": "Bien, ¿y tú?", "en": "Good, and you?" },
+        { "speaker": "Rafa", "nl": "Muy bien. ¿Una caña?", "en": "Great. A beer?", "spotlight": "*una caña* = a small draft beer, the default bar order in Spain." },
+        { "speaker": "You", "nl": "¡Vale, venga!", "en": "Sure, let's!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Rafa offer you?", "options": ["A coffee", "A small beer (una caña)", "The bill"], "correct": 1 },
+        { "q": "How do you say yes?", "options": ["De nada", "¡Vale, venga!", "Hasta luego"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the friendly, all-purpose greeting Spaniards use any time of day (one word, plural form).",
+      "answers": ["buenas", "¡buenas!"],
+      "hint": "Short for *buenos días / buenas tardes*.",
+      "explain": "*Buenas* — walk into any bar with it and you sound local."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "¿qué tal?",
+      "answers": ["¿qué tal?", "que tal", "¿qué tal", "qué tal"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Imagine walking into your local bar. Write your greeting, ask how it's going, and accept a caña — three short lines.",
+      "starters": ["¡Buenas!", "¿Qué tal?", "¡Vale, venga!"]
+    }
+  ]
+}

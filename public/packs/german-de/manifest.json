@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "packId": "german-de-v1",
+  "appName": "GermanBuddy",
+  "tagline": "Deutsch, aber echt.",
+  "language": "German",
+  "locale": "de-DE",
+  "dialect": {
+    "identity": "Germany Standard German (Hochdeutsch, northern-neutral)",
+    "contrast": "Not Austrian, not Swiss",
+    "markers": ["doch", "mal", "halt", "genau", "na ja", "Feierabend"]
+  },
+  "hero": {
+    "title": "Deutsch, aber echt.",
+    "blurb": "Twelve weeks. Short daily lessons. A buddy who walks you from total beginner to confident conversation, in real everyday German — cases and all.",
+    "bullets": [
+      { "emoji": "🇩🇪", "strong": "Hochdeutsch, northern-neutral", "text": "doch, mal, halt, Feierabend. Not textbook German, not Bavarian." },
+      { "emoji": "📅", "strong": "A1 → B1 in 12 weeks", "text": "sequenced around the case system, so it actually clicks." },
+      { "emoji": "⏱", "strong": "Short daily sessions", "text": "15 to 30 minutes, sized to fit your day." },
+      { "emoji": "❤️", "strong": "Free, no signup", "text": "your progress saves to this device." }
+    ]
+  },
+  "levels": [
+    { "code": "A1", "title": "A1 Foundations", "weeks": [1, 4], "blurb": "Greet, introduce yourself, order at the Bäckerei, describe your day." },
+    { "code": "A2", "title": "A2 Building", "weeks": [5, 8], "blurb": "Tell stories in the past. Travel, health, everyday life." },
+    { "code": "B1", "title": "B1 Threshold", "weeks": [9, 12], "blurb": "Opinions, hypotheticals, real conversations — and holding your ground in German." }
+  ],
+  "cast": [
+    { "name": "Lena", "role": "Berlin designer, main narrator" },
+    { "name": "Jonas", "role": "Kneipe friend, the learner's gossip and debate partner" },
+    { "name": "Aylin", "role": "moves Berlin → Munich mid-arc" },
+    { "name": "Klaus", "role": "Cologne architect, routine and immersion voice" }
+  ],
+  "weeks": [
+    { "week": 1, "module": "M01", "title": "German sounds & first words", "days": ["day-01", "day-02", "day-03", "day-04", "day-05", "day-06", "day-07"] },
+    { "week": 2, "module": "M02", "title": "Numbers, time & the V2 engine", "days": ["day-08", "day-09", "day-10", "day-11", "day-12", "day-13", "day-14"] },
+    { "week": 3, "module": "M03", "title": "People, places & the accusative", "days": ["day-15", "day-16", "day-17", "day-18", "day-19", "day-20", "day-21"] },
+    { "week": 4, "module": "M04", "title": "Food, the Bäckerei & the modal system", "days": ["day-22", "day-23", "day-24", "day-25", "day-26", "day-27", "day-28"] },
+    { "week": 5, "module": "M05", "title": "The Perfekt: German's everyday past", "days": ["day-29", "day-30", "day-31", "day-32", "day-33", "day-34", "day-35"] },
+    { "week": 6, "module": "M06", "title": "Health, feelings & the dative", "days": ["day-36", "day-37", "day-38", "day-39", "day-40", "day-41", "day-42"] },
+    { "week": 7, "module": "M07", "title": "The other past: Präteritum & memories", "days": ["day-43", "day-44", "day-45", "day-46", "day-47", "day-48", "day-49"] },
+    { "week": 8, "module": "M08", "title": "Future, opinions & the subclause gate", "days": ["day-50", "day-51", "day-52", "day-53", "day-54", "day-55", "day-56"] },
+    { "week": 9, "module": "M09", "title": "Complex sentences", "days": ["day-57", "day-58", "day-59", "day-60", "day-61", "day-62", "day-63"] },
+    { "week": 10, "module": "M10", "title": "Dative, two-way prepositions & verb clusters", "days": ["day-64", "day-65", "day-66", "day-67", "day-68", "day-69", "day-70"] },
+    { "week": 11, "module": "M11", "title": "Sounding German", "days": ["day-71", "day-72", "day-73", "day-74", "day-75", "day-76", "day-77"] },
+    { "week": 12, "module": "M12", "title": "Street German & the finale", "days": ["day-78", "day-79", "day-80", "day-81", "day-82", "day-83", "day-84"] }
+  ],
+  "footer": {
+    "donation": true,
+    "donationText": "I built this learning app out of love. If you're enjoying it, share it with a friend learning German, send some feedback, or chip in below.",
+    "storageDisclosure": "Progress is saved on this device only, your dashboard won't sync to other browsers."
+  }
+}

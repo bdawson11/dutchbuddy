@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "day-04",
+  "day": 4,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "Io sono, tu sei: il verbo essere",
+  "emoji": "🧍",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Subject pronouns, the verb essere, the tu/Lei split, and why Italian usually drops the pronoun",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "The people words",
+      "body": "*io* (I), *tu* (you, informal), *lui* (he), *lei* (she), *noi* (we), *voi* (you all), *loro* (they). One special job: **Lei** with a capital L means a **formal 'you'** to one person — used with strangers and in polite situations. It borrows the 'she' form, so *Lei è…* = 'you (formal) are…'.",
+      "callout": "*tu* for friends and peers. *Lei* for strangers, shopkeepers, older or formal contexts."
+    },
+    {
+      "type": "card",
+      "title": "essere — to be (learn this cold)",
+      "body": "*essere* is irregular and everywhere. **io sono, tu sei, lui/lei è, noi siamo, voi siete, loro sono.** Note *io sono* and *loro sono* look the same — context tells them apart.",
+      "table": {
+        "headers": ["Person", "Form"],
+        "rows": [
+          ["io — I", "sono"],
+          ["tu — you", "sei"],
+          ["lui / lei — he / she", "è"],
+          ["noi — we", "siamo"],
+          ["voi — you all", "siete"],
+          ["loro — they", "sono"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "essere in real sentences",
+      "items": [
+        { "nl": "Sono di Boston.", "en": "I'm from Boston.", "speak": "Sono di Boston." },
+        { "nl": "Sei italiano?", "en": "Are you Italian?", "speak": "Sei italiano?" },
+        { "nl": "È stanco.", "en": "He's tired.", "speak": "È stanco." },
+        { "nl": "Siamo amici.", "en": "We're friends.", "speak": "Siamo amici." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Drop the pronoun",
+      "body": "The verb ending already tells you who — so Italian usually **drops the subject pronoun**. You say *Sono di Roma*, not *Io sono di Roma*. Keep the pronoun only for **contrast or emphasis**: *Io sono di Roma, e tu?* ('I'm from Rome — and you?').",
+      "callout": "Default: no pronoun. Add *io/tu* only to point or contrast."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is the most natural way to say 'I'm from Milan'?",
+      "options": ["Io io sono di Milano", "Sono di Milano", "Essere di Milano"],
+      "correct": 1,
+      "explain": "*Sono di Milano.* The ending -o already means 'I', so the pronoun *io* is dropped."
+    },
+    {
+      "type": "contrast",
+      "title": "tu vs Lei — same question, two registers",
+      "pairs": [
+        { "left": "*Tu di dove sei?* — informal", "right": "*Lei di dov'è?* — formal", "note": "tu uses the tu-form *sei*; Lei uses the è-form. Match it to who you're talking to." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'we are friends' in Italian.",
+      "answers": ["siamo amici", "noi siamo amici"],
+      "hint": "essere for 'we' is *siamo*.",
+      "explain": "*Siamo amici.* No pronoun needed — *siamo* already means 'we are'."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type. (It means 'Are you Italian?')",
+      "speak": "Sei italiano?",
+      "answers": ["sei italiano?", "sei italiano", "sei italiana?", "sei italiana"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Marco introduces you to a new face at the bar — a quick who-are-you exchange",
+      "lines": [
+        { "speaker": "Marco", "nl": "Lei è Giulia, una mia amica.", "en": "This is Giulia, a friend of mine." },
+        { "speaker": "You", "nl": "Ciao Giulia! Io sono canadese, di Toronto.", "en": "Hi Giulia! I'm Canadian, from Toronto.", "spotlight": "Here the *io* is kept — you're contrasting yourself with the others." },
+        { "speaker": "Giulia", "nl": "Ah, che bello! E sei qui a Bologna adesso?", "en": "Oh, lovely! And you're here in Bologna now?" },
+        { "speaker": "You", "nl": "Sì, sono qui da poco. Sto imparando l'italiano.", "en": "Yes, I've been here a short while. I'm learning Italian." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Introduce yourself with essere: where you're from, and whether you're new here. Try dropping the pronoun where you can.",
+      "starters": ["Sono di…", "Sono qui…"]
+    }
+  ]
+}

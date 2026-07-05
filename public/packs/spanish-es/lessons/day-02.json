@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-02",
+  "day": 2,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "La ce, la zeta, la jota y la eñe",
+  "emoji": "🗣️",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "The Castilian 'th' sound (distinción), the jota, and ñ / ll / rr",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "The Castilian 'th' — distinción",
+      "body": "In Spain, **z** and **c before e or i** are pronounced like the **th in 'think'** (a soft lisp, tongue between the teeth): *gracias, cinco, plaza, zapato*. This is called **distinción**, and it's one of the clearest markers of Spain Spanish. In Latin America these all sound like 's' — here, they don't.",
+      "table": {
+        "headers": ["Spelling", "Word — gloss"],
+        "rows": [
+          ["c + e", "cena — dinner"],
+          ["c + i", "cinco — five"],
+          ["z", "plaza — square"],
+          ["z", "zapato — shoe"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the 'th' — distinción",
+      "items": [
+        { "nl": "cinco", "en": "five", "speak": "cinco" },
+        { "nl": "gracias", "en": "thank you", "speak": "gracias" },
+        { "nl": "plaza", "en": "square", "speak": "plaza" },
+        { "nl": "zapato", "en": "shoe", "speak": "zapato" },
+        { "nl": "cerveza", "en": "beer", "speak": "cerveza" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Same sound, two spellings",
+      "pairs": [
+        { "left": "c before e/i → /θ/", "right": "z (anywhere) → /θ/", "note": "*cena* and *zapato* start with the same 'th' sound. Spanish just spells it c before e/i, z elsewhere." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "The jota — that throat scrape",
+      "body": "The letter **j** (and **g before e or i**) is a rough sound made at the back of the throat, like clearing it: *jamón, Juan, gente, Madrid* (the *d*-*rid* has a soft *g*-like scrape too in *general*). Think of the 'ch' in Scottish 'loch'. Don't be shy — it's meant to rasp.",
+      "callout": "*g* before a/o/u is a normal hard g (*gato, gustar*); only *ge/gi* get the scrape (*gente, gitano*)."
+    },
+    {
+      "type": "shadow",
+      "title": "Shadow the jota",
+      "lines": [
+        { "nl": "jamón", "en": "ham" },
+        { "nl": "Juan", "en": "Juan (a name)" },
+        { "nl": "gente", "en": "people" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "How does a Spaniard pronounce the c in *cerveza*?",
+      "options": ["Like an English s", "Like the 'th' in 'think'", "Like a k"],
+      "correct": 1,
+      "explain": "c before e/i = /θ/, the 'th' sound. And there's a z in there too — *cer-**ve**-za* has the 'th' twice. Distinción in one glorious word for beer."
+    },
+    {
+      "type": "card",
+      "title": "ñ, ll and the rolled rr",
+      "body": "Three more sounds: **ñ** = 'ny' as in 'canyon' (*España, niño, año*); **ll** = a 'y' sound in most of Spain (*llave, calle, paella*); **rr** is a **rolled/trilled r** (*perro, arroz*). A single *r* between vowels is a soft tap (*pero*); double *rr* is the full roll — and it changes meaning: *pero* (but) vs *perro* (dog).",
+      "callout": "Can't roll the rr yet? Nobody rolls it on day 2. Tap it for now, keep practising."
+    },
+    {
+      "type": "shadow",
+      "title": "ñ, ll, rr",
+      "lines": [
+        { "nl": "España", "en": "Spain" },
+        { "nl": "calle", "en": "street" },
+        { "nl": "perro", "en": "dog (rolled rr)" },
+        { "nl": "pero", "en": "but (soft tap)" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which word means 'dog'?",
+      "options": ["pero", "perro"],
+      "correct": 1,
+      "explain": "*perro* (dog) has the rolled *rr*; *pero* (but) has a single soft *r*. The roll carries the meaning."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "gracias",
+      "answers": ["gracias"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Which sound felt hardest — the 'th', the jota, or the rolled rr? Type two words with each of the sounds you want to nail this week.",
+      "starters": ["El sonido más difícil es…", "Quiero practicar…"]
+    }
+  ]
+}

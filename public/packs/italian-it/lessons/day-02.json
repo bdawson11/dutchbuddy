@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-02",
+  "day": 2,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "C, G, e le doppie",
+  "emoji": "🌀",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Hard vs soft c/g (ci/chi, gi/ghi), the gn/gli/sc sounds, and why double consonants change the word",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "C and G: it's the next letter that decides",
+      "body": "*c* and *g* are **hard** (like *k* and *g* in 'go') before *a, o, u* — and **soft** (like *ch* in 'church' and *g* in 'gem') before *e* and *i*. So *cane* = KA-ne but *cena* = CHE-na. To keep a hard sound before *e/i*, Italian slips in an **h**: *che, chi, ghe, ghi*.",
+      "table": {
+        "headers": ["Hard (k / g)", "Soft (ch / j)"],
+        "rows": [
+          ["*casa* — house", "*cena* — dinner"],
+          ["*amico* — friend (m)", "*amici* — friends"],
+          ["*spaghetti* — spaghetti", "*gelato* — ice cream"],
+          ["*chi* — who", "*ci* — us / there"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Hear the hard/soft split",
+      "items": [
+        { "nl": "cane", "en": "dog (hard: KA)", "speak": "cane" },
+        { "nl": "cena", "en": "dinner (soft: CHE)", "speak": "cena" },
+        { "nl": "gatto", "en": "cat (hard: GA)", "speak": "gatto" },
+        { "nl": "gelato", "en": "ice cream (soft: JE)", "speak": "gelato" },
+        { "nl": "chiave", "en": "key (h keeps it hard)", "speak": "chiave" },
+        { "nl": "spaghetti", "en": "spaghetti (gh = hard g)", "speak": "spaghetti" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "How does *c* sound in *cena* (dinner)?",
+      "options": ["hard, like 'k'", "soft, like 'ch' in church"],
+      "correct": 1,
+      "explain": "*c* before *e* or *i* goes soft: *cena* = CHE-na. Before *a/o/u* it would be hard."
+    },
+    {
+      "type": "card",
+      "title": "Three sounds English doesn't have",
+      "body": "**gn** = the *ny* in 'canyon': *gnocchi*, *signora*. **gli** = a wet *lli*, like the *lli* in 'million' but softer: *famiglia*, *figlio*. **sc** before *e/i* = *sh*: *scienza*, *pesce*. Before *a/o/u* though, *sc* is just *sk*: *scala*.",
+      "callout": "*gnocchi* = NYOH-kee. *famiglia* = fa-MEE-lya. *pesce* = PE-she."
+    },
+    {
+      "type": "shadow",
+      "title": "Repeat the tricky three",
+      "lines": [
+        { "nl": "signora", "en": "lady / Mrs (gn = ny)" },
+        { "nl": "famiglia", "en": "family (gli = wet lli)" },
+        { "nl": "pesce", "en": "fish (sc = sh)" },
+        { "nl": "gnocchi", "en": "gnocchi (gn = ny)" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Double consonants are real",
+      "body": "A **double consonant** is genuinely held longer, and it changes the word. *pala* (shovel) vs *palla* (ball). *nono* (ninth) vs *nonno* (grandfather). Lean on the doubled sound — a beat longer — or you'll say the wrong word.",
+      "callout": "*Ho un anno* = 'I have a year (of age)'. *Ho un ano* means something very different. Hold the double."
+    },
+    {
+      "type": "contrast",
+      "title": "Single vs double — different words",
+      "pairs": [
+        { "left": "*pala* — shovel", "right": "*palla* — ball", "note": "Hold the ll a fraction longer for palla." },
+        { "left": "*nono* — ninth", "right": "*nonno* — grandfather", "note": "The doubled nn is a real, longer sound." }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the word for 'ice cream'.",
+      "speak": "gelato",
+      "answers": ["gelato", "il gelato", "un gelato"]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the Italian for 'family'.",
+      "answers": ["famiglia", "la famiglia", "la mia famiglia"],
+      "hint": "That wet *gli* sound in the middle.",
+      "explain": "*famiglia* — the *gli* is a soft, wet *lli*, not a hard g-l."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which word means 'grandfather'?",
+      "options": ["nono", "nonno"],
+      "correct": 1,
+      "explain": "*nonno* (double n) = grandfather. *nono* (single n) = ninth. The doubled sound matters."
+    },
+    {
+      "type": "journal",
+      "prompt": "Which sound was hardest — gn, gli, sc, or holding a double consonant? Type two words you'll practise out loud today.",
+      "starters": ["Il suono più difficile è…", "Voglio praticare…"]
+    }
+  ]
+}

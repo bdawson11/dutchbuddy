@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "day-02",
+  "day": 2,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "Laute II: ch, ß und das deutsche r",
+  "emoji": "🗣️",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "The two ch sounds, the letter ß, the throaty r, and the letters that trick English eyes",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "One spelling, two ch sounds",
+      "body": "*ch* is really **two** sounds. The **soft** one (the \"ich-Laut\") is a gentle hiss, like a cat: *ich* (I), *echt* (really), *Küche* (kitchen). The **hard** one (the \"ach-Laut\") is a scrape at the back of the throat, like gently clearing it: *Bach* (stream), *Buch* (book), *auch* (also). **The rule is automatic:** after *a, o, u, au* you get the hard scrape; everywhere else, the soft hiss.",
+      "callout": "You don't choose — the vowel before it decides for you."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear both ch sounds",
+      "items": [
+        { "nl": "ich", "en": "I", "speak": "ich" },
+        { "nl": "echt", "en": "really", "speak": "echt" },
+        { "nl": "Küche", "en": "kitchen", "speak": "Küche" },
+        { "nl": "Buch", "en": "book", "speak": "Buch" },
+        { "nl": "machen", "en": "to do / make", "speak": "machen" },
+        { "nl": "auch", "en": "also", "speak": "auch" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Soft ich-Laut vs hard ach-Laut",
+      "pairs": [
+        { "left": "ich · echt · Küche — soft hiss", "right": "Bach · Buch · auch — hard scrape", "note": "After a, o, u, au it's the throaty one. Everywhere else, the gentle hiss." }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Repeat after the audio",
+      "lines": [
+        { "nl": "ich", "en": "I" },
+        { "nl": "auch", "en": "also" },
+        { "nl": "machen", "en": "to make / do" },
+        { "nl": "echt", "en": "really" },
+        { "nl": "doch", "en": "yes-it-is (little contradiction word)" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which word has the HARD 'ach' scrape (back of the throat)?",
+      "options": ["ich", "echt", "Buch"],
+      "correct": 2,
+      "explain": "*Buch* — after *u*, the *ch* is the hard scrape. After *i/e* (*ich, echt*) it's the soft hiss."
+    },
+    {
+      "type": "card",
+      "title": "The letter ß (Eszett)",
+      "body": "**ß** is called the *Eszett* or *scharfes S* — a single, sharp, voiceless \"s\". It only appears **after a long vowel or a diphthong**: *Fuß* (foot), *Straße* (street), *heißen* (to be called). After a **short** vowel you write **ss** instead: *Fluss* (river), *muss* (must). Switzerland drops ß altogether, but in Germany it's standard.",
+      "callout": "ß never starts a word, and never follows a short vowel."
+    },
+    {
+      "type": "contrast",
+      "title": "ss (short vowel) vs ß (long vowel)",
+      "pairs": [
+        { "left": "Fluss — river", "right": "Fuß — foot", "note": "Short *u* → ss. Long *u* → ß." },
+        { "left": "muss — must", "right": "Straße — street", "note": "Same rule, every single time." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Letters that trick English eyes",
+      "body": "The German **r** lives at the **back of the throat** — a soft gargle, not an English roll: *rot* (red), *Frau* (woman). And four letters flip what you expect: **w** sounds like English *v* (*Wasser* = VASS-er), **v** usually sounds like *f* (*Vater* = FAH-ter), **z** is *ts* (*Zeit* = TSITE), and **j** is *y* (*ja* = YAH).",
+      "callout": "So *Volkswagen* is really \"FOLKS-vah-gen\"."
+    },
+    {
+      "type": "chips",
+      "title": "Tap the tricky consonants",
+      "items": [
+        { "nl": "Wasser", "en": "water", "speak": "Wasser" },
+        { "nl": "Vater", "en": "father", "speak": "Vater" },
+        { "nl": "Zeit", "en": "time", "speak": "Zeit" },
+        { "nl": "ja", "en": "yes", "speak": "ja" },
+        { "nl": "rot", "en": "red", "speak": "rot" }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Straße",
+      "answers": ["Straße", "Strasse"]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the German for 'foot' — long vowel, so it takes ß.",
+      "answers": ["Fuß", "Fuss", "der Fuß", "der Fuss"],
+      "hint": "Sharp s after a long u.",
+      "explain": "*Fuß* — the *u* is long, so it's ß, not ss."
+    },
+    {
+      "type": "journal",
+      "prompt": "Which consonant surprised you most — w, v, z, j, or the throaty r? Write three German words that use a ch or a ß.",
+      "starters": ["Das r ist…", "Ich finde … schwierig"]
+    }
+  ]
+}

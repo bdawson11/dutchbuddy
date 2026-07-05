@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "day-03",
+  "day": 3,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "Saluti e il bar",
+  "emoji": "☕",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Greetings by time of day, please/thank you/you're welcome, and ordering your first caffè",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ciao — but not to everyone",
+      "body": "*Ciao* is warm and informal — for friends, peers, kids. With a stranger, a shopkeeper, or someone older, greet by the **time of day**: *buongiorno* (morning/day) and *buonasera* (evening). *Buonanotte* is only for going to bed. When you leave: *arrivederci* (polite) or *ciao* (casual).",
+      "callout": "Rule of thumb: know them → *ciao*. Don't → *buongiorno*."
+    },
+    {
+      "type": "chips",
+      "title": "Greetings — tap to hear",
+      "items": [
+        { "nl": "ciao", "en": "hi / bye (informal)", "speak": "ciao" },
+        { "nl": "buongiorno", "en": "good morning / hello", "speak": "buongiorno" },
+        { "nl": "buonasera", "en": "good evening", "speak": "buonasera" },
+        { "nl": "arrivederci", "en": "goodbye (polite)", "speak": "arrivederci" },
+        { "nl": "a presto", "en": "see you soon", "speak": "a presto" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You walk into a shop at 10am and don't know the owner. What do you say?",
+      "options": ["Ciao", "Buongiorno", "Buonanotte"],
+      "correct": 1,
+      "explain": "*Buongiorno* — polite and time-appropriate. *Ciao* is too familiar for a stranger; *buonanotte* is for bedtime."
+    },
+    {
+      "type": "card",
+      "title": "The three magic words",
+      "body": "*per favore* (please), *grazie* (thank you), *prego* (you're welcome / go ahead). **prego** is a workhorse: it answers *grazie*, it means 'after you', and a barista uses it to mean 'what'll it be?'. Answer a *grazie* with a quick *prego* and you already sound local.",
+      "callout": "*grazie* → *prego*. Automatic, every time."
+    },
+    {
+      "type": "card",
+      "title": "How a bar actually works",
+      "body": "In an Italian *bar* you usually order and drink a *caffè* (an espresso) standing **al banco** (at the counter), often paying after. A *caffè* means an espresso; ask for a *cappuccino* before mid-morning, not after lunch. To order politely: *un caffè, per favore.*",
+      "callout": "*caffè* = espresso. If you want a longer one, *un caffè lungo* or *un americano*."
+    },
+    {
+      "type": "shadow",
+      "title": "Say it at the counter",
+      "lines": [
+        { "nl": "Un caffè, per favore.", "en": "An espresso, please." },
+        { "nl": "Un cappuccino, grazie.", "en": "A cappuccino, thanks." },
+        { "nl": "Quant'è?", "en": "How much is it?" }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Your first coffee at the bar with Marco, who's showing you the ropes",
+      "lines": [
+        { "speaker": "Marco", "nl": "Buongiorno! Allora, cosa prendi?", "en": "Morning! So, what are you having?", "spotlight": "*cosa prendi?* — 'what'll you have?', the everyday order question." },
+        { "speaker": "You", "nl": "Buongiorno. Un caffè, per favore.", "en": "Morning. An espresso, please." },
+        { "speaker": "Marco", "nl": "Perfetto. Anche per me un caffè.", "en": "Perfect. An espresso for me too." },
+        { "speaker": "You", "nl": "Grazie!", "en": "Thanks!" },
+        { "speaker": "Marco", "nl": "Prego. Benvenuto a Bologna, eh!", "en": "You're welcome. Welcome to Bologna, eh!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Marco order for himself?", "options": ["A cappuccino", "An espresso", "Nothing"], "correct": 1 },
+        { "q": "How does Marco answer your 'grazie'?", "options": ["Ciao", "Prego", "Scusa"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Order an espresso politely: 'An espresso, please.'",
+      "answers": ["un caffè, per favore", "un caffè per favore", "un caffe, per favore", "un caffe per favore"],
+      "hint": "coffee + the magic word.",
+      "explain": "*Un caffè, per favore.* Remember *caffè* = espresso."
+    },
+    {
+      "type": "journal",
+      "prompt": "Write how you'd greet three different people today: a close friend, a shop owner in the morning, and someone as you leave in the evening.",
+      "starters": ["A un amico dico…", "In un negozio dico…", "Quando esco dico…"]
+    }
+  ]
+}

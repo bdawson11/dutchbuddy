@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "day-05",
+  "day": 5,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "Tener, estar y decir que no",
+  "emoji": "🙅",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "tener and estar, negation with no, and the first taste of ser vs estar",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "tener — to have (and more)",
+      "body": "**tener** means 'to have', but Spanish also uses it where English uses 'to be': *tener hambre* (to be hungry, lit. 'have hunger'), *tener años* (to be … years old). Learn the set — it's irregular in the first person and stem-changing.",
+      "table": {
+        "headers": ["Pronoun", "tener", "English"],
+        "rows": [
+          ["yo", "tengo", "I have"],
+          ["tú", "tienes", "you have"],
+          ["él / ella", "tiene", "he / she has"],
+          ["nosotros", "tenemos", "we have"],
+          ["vosotros", "tenéis", "you all have"],
+          ["ellos / ellas", "tienen", "they have"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear tener",
+      "items": [
+        { "nl": "tengo hambre", "en": "I'm hungry", "speak": "tengo hambre" },
+        { "nl": "tengo sed", "en": "I'm thirsty", "speak": "tengo sed" },
+        { "nl": "tengo treinta años", "en": "I'm thirty (years old)", "speak": "tengo treinta años" },
+        { "nl": "¿tienes hambre?", "en": "are you hungry?", "speak": "¿tienes hambre?" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "estar — how and where things are",
+      "body": "**estar** is the *other* 'to be' — for **location** and **temporary states/feelings**: *estoy en casa* (I'm at home), *estoy cansado* (I'm tired). Ser said who you are (day 4); estar says how you are and where you are right now.",
+      "table": {
+        "headers": ["Pronoun", "estar", "English"],
+        "rows": [
+          ["yo", "estoy", "I am"],
+          ["tú", "estás", "you are"],
+          ["él / ella", "está", "he / she is"],
+          ["nosotros", "estamos", "we are"],
+          ["vosotros", "estáis", "you all are"],
+          ["ellos / ellas", "están", "they are"]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "First taste: ser vs estar",
+      "pairs": [
+        { "left": "Soy de Madrid. (ser)", "right": "Estoy en Madrid. (estar)", "note": "*ser de* = where you're FROM (origin/identity). *estar en* = where you ARE right now (location). We'll go deep on this in week 3." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Saying no — just put 'no' first",
+      "body": "Negation is refreshingly simple: put **no** directly **before the verb**. *No tengo hambre* (I'm not hungry). *No estoy en casa* (I'm not home). *No soy de aquí* (I'm not from here). One little *no*, right in front of the verb — that's the whole rule.",
+      "callout": "To answer a yes/no question: *No, no tengo…* — the first *no* = 'no', the second is the grammar. Two nos, totally normal."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence means 'I'm at home'?",
+      "options": ["Soy en casa", "Estoy en casa", "Tengo casa"],
+      "correct": 1,
+      "explain": "Location = **estar**: *estoy en casa*. *Soy en casa* is wrong (ser isn't for location); *tengo casa* means 'I have a house'."
+    },
+    {
+      "type": "typed",
+      "prompt": "Make it negative: 'I'm not tired.' — ___ ___ cansado.",
+      "answers": ["no estoy", "no estoy cansado"],
+      "hint": "State/feeling = estar, and *no* goes before the verb.",
+      "explain": "*No estoy cansado.* Feeling = estar, and *no* sits right in front of it."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa checks in with you at the end of a long day",
+      "lines": [
+        { "speaker": "Rafa", "nl": "¿Qué tal? ¿Estás bien?", "en": "How's it going? Are you OK?" },
+        { "speaker": "You", "nl": "Estoy un poco cansado, la verdad.", "en": "I'm a bit tired, honestly." },
+        { "speaker": "Rafa", "nl": "¿Tienes hambre? Hay tapas.", "en": "Are you hungry? There are tapas.", "spotlight": "*tener hambre* — 'have hunger' = to be hungry." },
+        { "speaker": "You", "nl": "No, no tengo hambre, gracias. Pero tengo sed.", "en": "No, I'm not hungry, thanks. But I'm thirsty." },
+        { "speaker": "Rafa", "nl": "¡Pues una caña! Venga.", "en": "A beer then! Come on." }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "no tengo hambre",
+      "answers": ["no tengo hambre"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write how you feel right now and where you are, using *estar*. Then one thing you have or don't have, using *tener* (try *tengo* / *no tengo*).",
+      "starters": ["Estoy…", "Tengo…", "No tengo…"]
+    }
+  ]
+}

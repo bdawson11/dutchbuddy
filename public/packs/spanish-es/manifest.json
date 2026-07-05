@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "packId": "spanish-es-v1",
+  "appName": "SpanishBuddy",
+  "tagline": "Español de España, en plan bien.",
+  "language": "Spanish",
+  "locale": "es-ES",
+  "dialect": {
+    "identity": "Spanish of Spain (Castilian)",
+    "contrast": "Not Latin American",
+    "markers": ["vale", "tío", "guay", "venga", "pues nada"]
+  },
+  "hero": {
+    "title": "Spanish of Spain, de verdad.",
+    "blurb": "Twelve weeks. Short daily lessons. A buddy who walks you from total beginner to confident conversation, in real Castilian Spanish — the Spanish you'll actually hear in Madrid.",
+    "bullets": [
+      { "emoji": "🇪🇸", "strong": "Real Spain Spanish", "text": "vosotros, vale, tapas, the 'th' sound. Not neutral, not Latin American." },
+      { "emoji": "📅", "strong": "A1 → B1 in 12 weeks", "text": "structured around ser/estar, the past tenses, and the subjunctive so you actually finish." },
+      { "emoji": "⏱", "strong": "Short daily sessions", "text": "15 to 30 minutes, sized to fit your day." },
+      { "emoji": "❤️", "strong": "Free, no signup", "text": "your progress saves to this device." }
+    ]
+  },
+  "levels": [
+    { "code": "A1", "title": "A1 Foundations", "weeks": [1, 4], "blurb": "Greet, introduce yourself, order tapas, describe your day." },
+    { "code": "A2", "title": "A2 Building", "weeks": [5, 8], "blurb": "Tell stories in the past. Travel, health, everyday life." },
+    { "code": "B1", "title": "B1 Threshold", "weeks": [9, 12], "blurb": "Opinions, hypotheticals, real conversations — and the subjunctive without fear." }
+  ],
+  "cast": [
+    { "name": "Lucía", "role": "Madrid comms lead, main narrator" },
+    { "name": "Rafa", "role": "bar friend, the learner's cotilleo partner" },
+    { "name": "Sofía", "role": "moves Madrid → Valencia mid-arc" },
+    { "name": "Nacho", "role": "architect from a pueblo, routine and immersion voice" }
+  ],
+  "weeks": [
+    { "week": 1, "module": "M01", "title": "Sonidos y primeras palabras", "days": ["day-01", "day-02", "day-03", "day-04", "day-05", "day-06", "day-07"] },
+    { "week": 2, "module": "M02", "title": "Números, tiempo y el presente", "days": ["day-08", "day-09", "day-10", "day-11", "day-12", "day-13", "day-14"] },
+    { "week": 3, "module": "M03", "title": "Gente y lugares", "days": ["day-15", "day-16", "day-17", "day-18", "day-19", "day-20", "day-21"] },
+    { "week": 4, "module": "M04", "title": "Comida, el bar y el presente", "days": ["day-22", "day-23", "day-24", "day-25", "day-26", "day-27", "day-28"] },
+    { "week": 5, "module": "M05", "title": "El pretérito perfecto compuesto", "days": ["day-29", "day-30", "day-31", "day-32", "day-33", "day-34", "day-35"] },
+    { "week": 6, "module": "M06", "title": "Salud, sentimientos, consejos", "days": ["day-36", "day-37", "day-38", "day-39", "day-40", "day-41", "day-42"] },
+    { "week": 7, "module": "M07", "title": "El indefinido y el imperfecto", "days": ["day-43", "day-44", "day-45", "day-46", "day-47", "day-48", "day-49"] },
+    { "week": 8, "module": "M08", "title": "Futuro, opiniones y el subjuntivo", "days": ["day-50", "day-51", "day-52", "day-53", "day-54", "day-55", "day-56"] },
+    { "week": 9, "module": "M09", "title": "El subjuntivo se extiende", "days": ["day-57", "day-58", "day-59", "day-60", "day-61", "day-62", "day-63"] },
+    { "week": 10, "module": "M10", "title": "Imperativos, pronombres y conectores", "days": ["day-64", "day-65", "day-66", "day-67", "day-68", "day-69", "day-70"] },
+    { "week": 11, "module": "M11", "title": "Sonar a español", "days": ["day-71", "day-72", "day-73", "day-74", "day-75", "day-76", "day-77"] },
+    { "week": 12, "module": "M12", "title": "Español de la calle y el final", "days": ["day-78", "day-79", "day-80", "day-81", "day-82", "day-83", "day-84"] }
+  ],
+  "footer": {
+    "donation": true,
+    "donationText": "I built this learning app out of love. If you're enjoying it, share it with a friend learning Spanish, send some feedback, or chip in below.",
+    "storageDisclosure": "Progress is saved on this device only, your dashboard won't sync to other browsers."
+  }
+}
