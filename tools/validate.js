@@ -175,18 +175,32 @@ if (lessons.length) {
     else weekEmoji[l.week][l.emoji] = l.dayId;
   }
 
-  // Every capstone carries the growing self-intro ("mijn verhaal").
-  for (const l of lessons) {
-    if (l.kind === 'capstone' && !/verhaal/i.test(l.raw)) {
-      err(`${l.dayId}: capstone has no "mijn verhaal" self-intro (product invariant)`);
+  // The following two checks are pack-specific and therefore CONFIGURED IN THE
+  // MANIFEST, not hardcoded here — the validator stays language-agnostic (a
+  // Dutch word or character name must never live in engine code). Absent config
+  // = check skipped, so any pack validates without opting in.
+  const ci = manifest.contentInvariants || {};
+
+  // Every capstone carries the growing self-intro. The manifest names the token
+  // that self-intro block is tagged with (Dutch pack: "verhaal").
+  if (ci.selfIntroTag) {
+    const tag = new RegExp(ci.selfIntroTag, 'i');
+    for (const l of lessons) {
+      if (l.kind === 'capstone' && !tag.test(l.raw)) {
+        err(`${l.dayId}: capstone missing self-intro tag "${ci.selfIntroTag}" (product invariant)`);
+      }
     }
   }
 
-  // Story-arc continuity: Sanne is not tied to Utrecht before her news (day 62);
-  // she relocates on day 69. Co-occurrence earlier is a likely arc leak.
-  for (const l of lessons) {
-    if (l.day < 62 && /Sanne/.test(l.raw) && /Utrecht/.test(l.raw)) {
-      warn(`${l.dayId}: mentions Sanne and Utrecht before day 62 — check the move arc (she relocates on day 69)`);
+  // Story-arc continuity: the mid-arc character must not be tied to their
+  // destination before the reveal day. Manifest supplies character/place/revealDay.
+  if (ci.arc && ci.arc.character && ci.arc.place && ci.arc.revealDay) {
+    const { character, place, revealDay } = ci.arc;
+    const nameRe = new RegExp(character), placeRe = new RegExp(place);
+    for (const l of lessons) {
+      if (l.day < revealDay && nameRe.test(l.raw) && placeRe.test(l.raw)) {
+        warn(`${l.dayId}: mentions ${character} and ${place} before reveal day ${revealDay} — check the arc`);
+      }
     }
   }
 }

@@ -49,5 +49,9 @@
     "donation": true,
     "donationText": "I built this learning app out of love. If you're enjoying it, share it with a friend learning Dutch, send some feedback, or chip in below.",
     "storageDisclosure": "Progress is saved on this device only, your dashboard won't sync to other browsers."
+  },
+  "contentInvariants": {
+    "selfIntroTag": "verhaal",
+    "arc": { "character": "Sanne", "place": "Utrecht", "revealDay": 62 }
   }
 }
