@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-67",
+  "day": 67,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Oraciones de relativo",
+  "emoji": "🧵",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Joining ideas with relative pronouns: que, quien, lo que, el que and cuyo",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "que — el todoterreno",
+      "body": "**que** is the all-purpose relative — *that / which / who*. It welds two sentences into one and works for **people and things**: *el libro **que** leí* (the book that I read), *la chica **que** vino* (the girl who came).",
+      "callout": "You can't drop *que* the way English drops «that»: *el libro que leí*, never *el libro leí*."
+    },
+    {
+      "type": "card",
+      "title": "quien / lo que",
+      "body": "**quien / quienes** = *who*, **only for people**, mostly after a preposition or between commas: *la persona **con quien** hablo*. **lo que** = *what / the thing that*, pointing at a **whole idea**, not a noun: *No entiendo **lo que** dices*.",
+      "callout": "*lo que* has no gender — it stands for an idea, not a thing."
+    },
+    {
+      "type": "card",
+      "title": "el que / cuyo",
+      "body": "**el que / la que / los que / las que** = *the one(s) that*, for choosing among options or after prepositions: *Ese es **el que** más me gusta*. **cuyo / cuya / cuyos / cuyas** = *whose*, and it agrees with the **thing owned**, not the owner: *el amigo **cuya** casa visité*.",
+      "table": {
+        "headers": ["Relativo", "Uso", "Ejemplo"],
+        "rows": [
+          ["que", "cosas y personas", "el bar que abrió"],
+          ["quien(es)", "solo personas", "la vecina con quien hablo"],
+          ["lo que", "una idea entera", "lo que me dijiste"],
+          ["el/la que", "«the one that»", "la que prefiero"],
+          ["cuyo/a", "posesión («whose»)", "el chico cuyo perro ladra"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Toca para oír los relativos",
+      "items": [
+        { "nl": "el amigo que me lo contó", "en": "the friend who told me", "speak": "el amigo que me lo contó" },
+        { "nl": "la ciudad a la que se muda", "en": "the city she's moving to", "speak": "la ciudad a la que se muda" },
+        { "nl": "no entiendo lo que dices", "en": "I don't get what you're saying", "speak": "no entiendo lo que dices" },
+        { "nl": "la persona con quien vivo", "en": "the person I live with", "speak": "la persona con quien vivo" },
+        { "nl": "el vecino cuyo perro ladra", "en": "the neighbor whose dog barks", "speak": "el vecino cuyo perro ladra" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Sofía es la amiga ___ se muda a Valencia.» ¿Qué relativo va aquí?",
+      "options": ["que", "lo que", "cuya"],
+      "correct": 0,
+      "explain": "*que* sirve para personas y cosas en la frase básica: *la amiga que se muda*. *lo que* sería para una idea, y *cuya* para posesión."
+    },
+    {
+      "type": "mcq",
+      "prompt": "«___ más me sorprende es su decisión.» Completa.",
+      "options": ["El que", "Lo que", "Quien"],
+      "correct": 1,
+      "explain": "*Lo que* se refiere a una idea entera («the thing that»): *Lo que más me sorprende…*. No hay detrás un sustantivo concreto."
+    },
+    {
+      "type": "typed",
+      "prompt": "Une con un relativo: «Ese es el piso. Sofía lo alquila.» → «Ese es el piso ___ Sofía alquila.»",
+      "answers": ["que"],
+      "explain": "*que* conecta las dos frases: *el piso que Sofía alquila*."
+    },
+    {
+      "type": "builder",
+      "title": "Monta una frase de relativo",
+      "prompt": "Describe algo con una oración de relativo, eligiendo una opción por columna.",
+      "slots": [
+        { "label": "Cosa/persona", "chips": ["Ese es el bar", "Esa es la amiga", "Ese es el trabajo"] },
+        { "label": "Relativo", "chips": ["que", "en el que", "por el que"] },
+        { "label": "Resto", "chips": ["más me gusta", "quedamos siempre", "se muda a Valencia"] }
+      ],
+      "sample": "Ese es el bar en el que quedamos siempre."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa intenta reconstruir los detalles de la oferta de Sofía (aún sin decidir).",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Oye, ¿cómo se llama la empresa a la que se va Sofía?", "en": "Hey, what's the name of the company Sofía's going to?" },
+        { "speaker": "You", "nl": "Es una que hace apps, en el centro de Valencia.", "en": "It's one that makes apps, in the center of Valencia." },
+        { "speaker": "Rafa", "nl": "Ah, ¿la que salió en las noticias?", "en": "Ah, the one that was in the news?" },
+        { "speaker": "You", "nl": "Esa misma. Le ofrecieron un puesto que no podía rechazar.", "en": "That very one. They offered her a job she couldn't turn down.", "spotlight": "un puesto que no podía rechazar — relative clause on a thing." },
+        { "speaker": "Rafa", "nl": "Buah. ¿Y el piso que ha visto es caro?", "en": "Wow. And the flat she's seen, is it expensive?" },
+        { "speaker": "You", "nl": "Menos que aquí. Lo que le preocupa es dejar el barrio.", "en": "Less than here. What worries her is leaving the neighborhood.", "spotlight": "lo que le preocupa — refers to a whole idea." },
+        { "speaker": "Rafa", "nl": "Normal, tío. Madrid es lo que conoce.", "en": "Understandable, man. Madrid is what she knows." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Qué tipo de empresa es a la que se va Sofía?", "options": ["Una que hace apps", "Una editorial", "Un banco"], "correct": 0 },
+        { "q": "¿Qué es lo que le preocupa a Sofía?", "options": ["El sueldo", "Dejar el barrio", "El piso"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe tres lugares o personas de tu vida usando oraciones de relativo (*que, en el que, con quien, lo que*): el barrio en el que vives, la persona con quien más hablas, lo que más te gusta de tu ciudad.",
+      "starters": ["El sitio que más me gusta es…", "La persona con quien…", "Lo que más echo de menos es…"],
+      "minSentences": 3
+    }
+  ]
+}

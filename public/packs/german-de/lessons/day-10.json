@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "day-10",
+  "day": 10,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Uhrzeit, Tage und Monate",
+  "emoji": "🕐",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Telling time the everyday way — including the classic halb-sechs trap — plus the days of the week and the months",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Tage der Woche und Monate",
+      "body": "The week: *Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag*. Say \"on Monday\" with *am*: *am Montag*. Months work almost like English — *Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember* — and \"in March\" is simply *im März*. Berliners sometimes say *Sonnabend* instead of *Samstag* for Saturday — same day, local flavor.",
+      "table": {
+        "headers": ["Deutsch", "Englisch"],
+        "rows": [
+          ["Montag", "Monday"],
+          ["Dienstag", "Tuesday"],
+          ["Mittwoch", "Wednesday"],
+          ["Donnerstag", "Thursday"],
+          ["Freitag", "Friday"],
+          ["Samstag", "Saturday"],
+          ["Sonntag", "Sunday"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tage und Monate hören",
+      "items": [
+        { "nl": "Montag", "en": "Monday", "speak": "Montag" },
+        { "nl": "Freitag", "en": "Friday", "speak": "Freitag" },
+        { "nl": "Sonntag", "en": "Sunday", "speak": "Sonntag" },
+        { "nl": "am Montag", "en": "on Monday", "speak": "am Montag" },
+        { "nl": "Januar", "en": "January", "speak": "Januar" },
+        { "nl": "Juli", "en": "July", "speak": "Juli" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Die Uhrzeit: der Trick mit halb",
+      "body": "Telling time the everyday way: *Viertel nach* + hour (quarter past) and *Viertel vor* + the **next** hour (quarter to). Now the trap: **halb** + hour means half **to** that hour, not half past the one before it. *halb sechs* = **5:30**, not 6:30! Germans count forward to the next full hour; English counts back from the last one.",
+      "callout": "Say it out loud a few times — *halb sechs, halb sechs, halb sechs* — until 5:30 feels automatic."
+    },
+    {
+      "type": "contrast",
+      "title": "5:30 ist nicht 6:30",
+      "pairs": [
+        { "left": "halb sechs — Deutsch", "right": "5:30, nicht 6:30!", "note": "*halb* always points at the coming hour, not the one just passed." },
+        { "left": "Viertel nach drei", "right": "3:15", "note": "*nach* = after/past." },
+        { "left": "Viertel vor vier", "right": "3:45", "note": "*vor* = before — already looking at the next hour." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Uhrzeiten hören",
+      "items": [
+        { "nl": "Es ist halb sechs", "en": "it's five-thirty", "speak": "Es ist halb sechs" },
+        { "nl": "Viertel nach drei", "en": "quarter past three", "speak": "Viertel nach drei" },
+        { "nl": "Viertel vor vier", "en": "quarter to four", "speak": "Viertel vor vier" },
+        { "nl": "Es ist zwei Uhr", "en": "it's two o'clock", "speak": "Es ist zwei Uhr" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wie spät ist *halb neun*?",
+      "options": ["9:30", "8:30", "8:15"],
+      "correct": 1,
+      "explain": "*halb neun* points forward to nine, so it's half **to** nine — 8:30."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the German for 5:30 (the everyday way).",
+      "answers": ["halb sechs", "Es ist halb sechs"],
+      "hint": "Half TO the next hour, not half past the last one.",
+      "explain": "5:30 = halb sechs — the classic trap, worth repeating until it's automatic."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the time.",
+      "speak": "Viertel nach acht",
+      "answers": ["Viertel nach acht"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Jonas wants to meet up this weekend and you're finding a time that works.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Ey, hast du am Samstag Zeit?", "en": "Hey, do you have time on Saturday?" },
+        { "speaker": "You", "nl": "Klar! Wann denn?", "en": "Sure! What time?" },
+        { "speaker": "Jonas", "nl": "Sagen wir halb sechs, im Park?", "en": "Let's say five-thirty, at the park?", "spotlight": "*halb sechs* = 5:30 — remember, it points forward." },
+        { "speaker": "You", "nl": "Halb sechs ist früh, oder? Vielleicht Viertel nach sechs?", "en": "Five-thirty is early, isn't it? Maybe quarter past six?" },
+        { "speaker": "Jonas", "nl": "Na ja, Viertel nach sechs, passt!", "en": "Well, quarter past six works!" },
+        { "speaker": "You", "nl": "Super, bis Samstag!", "en": "Great, see you Saturday!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What day are they meeting?", "options": ["Friday", "Saturday", "Sunday"], "correct": 1 },
+        { "q": "What time do they agree on?", "options": ["5:30", "6:15", "6:30"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write your week: pick one day and one time (using halb, Viertel vor/nach, or Uhr) for something you're doing this week.",
+      "starters": ["Am … um …", "Es ist halb …"]
+    }
+  ]
+}

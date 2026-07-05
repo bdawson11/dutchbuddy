@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-81",
+  "day": 81,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "Dal barbiere e in negozio",
+  "emoji": "💈",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Service-counter Italian: getting a trim, browsing and trying things on, and the polite Lei you'll hear back",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Scene di tutti i giorni",
+      "body": "A haircut, a pair of shoes, a gift — small errands, big confidence boosts. Two things to know. First, staff will address **you** with **Lei**: *Posso aiutarLa?* (can I help you?), *Mi dica* (go ahead). Second, you don't need much — a handful of set phrases carries the whole exchange. Listen for the Lei, answer relaxed.",
+      "callout": "*Posso aiutarLa?* — the shop greeting. A calm *No grazie, sto solo dando un'occhiata* is the perfect reply."
+    },
+    {
+      "type": "chips",
+      "title": "Dal barbiere / parrucchiere",
+      "items": [
+        { "nl": "Solo una spuntatina.", "en": "Just a little trim.", "speak": "Solo una spuntatina." },
+        { "nl": "Corti ai lati.", "en": "Short on the sides.", "speak": "Corti ai lati." },
+        { "nl": "Lasci pure sopra.", "en": "Leave it long on top.", "speak": "Lasci pure sopra." },
+        { "nl": "La barba, la sistemo.", "en": "The beard, I'll tidy it up.", "speak": "La barba, la sistemo." },
+        { "nl": "Va bene così, grazie.", "en": "That's fine like that, thanks.", "speak": "Va bene così, grazie." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "In negozio",
+      "body": "Browsing and buying, phrase by phrase: *Sto solo dando un'occhiata* (just looking), *Che taglia porta?* (what size do you take?), *Posso provarlo?* (can I try it on?), *Dov'è il camerino?* (where's the fitting room?), *Avete una taglia più grande?*, and the closer — *Lo prendo* (I'll take it) or *Ci penso* (I'll think about it). To ask the price: *Quanto viene?*",
+      "callout": "*Ci penso* is a graceful escape — 'I'll think about it' — with zero awkwardness."
+    },
+    {
+      "type": "contrast",
+      "title": "Il commesso (Lei) vs tu",
+      "pairs": [
+        { "left": "*Posso aiutarLa? Mi dica.* — staff, to you (Lei)", "right": "*Sto dando un'occhiata, grazie.* — you, relaxed", "note": "Staff use Lei with you; you can answer simply and politely. No need to match the full formal register back." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Il commesso dice: 'Posso aiutarLa?'. Stai solo guardando. Cosa rispondi?",
+      "options": ["Sto solo dando un'occhiata, grazie.", "Offro io!", "Mi dica."],
+      "correct": 0,
+      "explain": "*Sto solo dando un'occhiata* = 'just looking' — educato e perfetto. *Mi dica* lo direbbe il commesso, non tu."
+    },
+    {
+      "type": "typed",
+      "prompt": "Chiedi se puoi provare una cosa (un maglione).",
+      "answers": ["posso provarlo", "posso provarlo?", "lo posso provare", "posso provarlo per favore"],
+      "hint": "provare + the clitic *lo* for 'it'.",
+      "explain": "*Posso provarlo?* — provare + *lo* attached, or *Lo posso provare?* with the clitic before. Both are right."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Dal barbiere chiedi 'una spuntatina'. Cosa vuoi?",
+      "options": ["Un taglio molto corto", "Solo accorciare un po'", "Cambiare colore"],
+      "correct": 1,
+      "explain": "*Una spuntatina* è un diminutivo di 'spuntata' — solo accorciare le punte, un ritocco leggero."
+    },
+    {
+      "type": "shadow",
+      "title": "Piccoli scambi — ripeti",
+      "lines": [
+        { "nl": "Quanto viene questo?", "en": "How much is this one?" },
+        { "nl": "Avete una taglia più grande?", "en": "Do you have a bigger size?" },
+        { "nl": "Perfetto, lo prendo.", "en": "Perfect, I'll take it." },
+        { "nl": "Grazie, ci penso.", "en": "Thanks, I'll think about it." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "You drop by the bookshop where Marco works, hunting for a gift for Giulia.",
+      "lines": [
+        { "speaker": "Marco", "nl": "Ehi! Dimmi, cerchi qualcosa in particolare?", "en": "Hey! Tell me, are you looking for something in particular?" },
+        { "speaker": "You", "nl": "Sto solo dando un'occhiata… cerco un regalo per Giulia.", "en": "Just looking… I'm after a gift for Giulia." },
+        { "speaker": "Marco", "nl": "Guarda, questo è appena uscito. Un romanzo bolognese, le piacerà.", "en": "Look, this one just came out. A Bologna novel — she'll like it.", "spotlight": "*Le piacerà* — piacere with the indirect *le* (to her) + future." },
+        { "speaker": "You", "nl": "Bello. Quanto viene?", "en": "Nice. How much is it?" },
+        { "speaker": "Marco", "nl": "Diciotto euro. Se lo prendi, te lo incarto.", "en": "Eighteen euros. If you take it, I'll wrap it for you.", "spotlight": "*Te lo incarto* — combined clitics te + lo, a callback to Week 10." },
+        { "speaker": "You", "nl": "Perfetto, lo prendo. Grazie!", "en": "Perfect, I'll take it. Thanks!" },
+        { "speaker": "Marco", "nl": "Figurati. Salutamela, eh.", "en": "Don't mention it. Say hi to her for me, eh.", "spotlight": "*Salutamela* — saluta + me + la, three pieces fused into one command." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai capito?",
+      "questions": [
+        { "q": "Per chi è il regalo?", "options": ["Per Marco", "Per Giulia", "Per Sofia"], "correct": 1 },
+        { "q": "Cosa fa Marco se 'You' prende il libro?", "options": ["Glielo incarta", "Gli fa uno sconto", "Lo ordina domani"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Racconta un piccolo giro di commissioni: entri in un negozio (o dal barbiere), cosa dici, cosa ti dicono, cosa compri. Usa 'sto dando un'occhiata' e 'lo prendo' o 'ci penso'.",
+      "starters": ["Entro e il commesso dice…", "Io rispondo…", "Alla fine…"],
+      "minSentences": 3
+    }
+  ]
+}

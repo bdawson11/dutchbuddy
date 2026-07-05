@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "day-81",
+  "day": 81,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "En la peluquería y la tienda",
+  "emoji": "✂️",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Service scenes and small-talk scripts: the hairdresser's, the shop, and holding your tú/usted register",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Escenas de servicio: ¿tú o usted?",
+      "body": "In a Spanish shop or **peluquería** (hairdresser's), the default is friendly **tú** — Spain tutea even across the counter, especially with anyone under about sixty. Older customers or very formal places may get **usted**. Either way there's a **small-talk script**: the weather, the weekend, *¿algo más?*. Learn the script and you glide through.",
+      "callout": "When unsure, mirror what they use. Start with *hola, buenas* and let them set the register."
+    },
+    {
+      "type": "chips",
+      "title": "En la tienda — toca para oír",
+      "items": [
+        { "nl": "¿Me lo puedo probar?", "en": "can I try it on?", "speak": "¿Me lo puedo probar?" },
+        { "nl": "¿Tenéis otra talla?", "en": "do you have another size?", "speak": "¿Tenéis otra talla?" },
+        { "nl": "Me lo llevo.", "en": "I'll take it", "speak": "Me lo llevo." },
+        { "nl": "Solo estoy mirando, gracias.", "en": "I'm just looking, thanks", "speak": "Solo estoy mirando, gracias." },
+        { "nl": "¿Me cobras con tarjeta?", "en": "can I pay by card?", "speak": "¿Me cobras con tarjeta?" }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "En la peluquería — escucha y repite",
+      "lines": [
+        { "nl": "Hola, ¿qué te hacemos hoy?", "en": "Hi, what are we doing today?" },
+        { "nl": "Córtame un poco las puntas, por favor.", "en": "Just trim the ends, please." },
+        { "nl": "¿Y por los lados? ¿Más corto?", "en": "And the sides? Shorter?" },
+        { "nl": "Un pelín, pero no mucho.", "en": "A tiny bit, but not much." },
+        { "nl": "¿Te lo seco?", "en": "Shall I blow-dry it?" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "El guion del mostrador",
+      "body": "Service small talk is nearly scripted — and it's how you sound human, not robotic. Openers: *¿qué tal la mañana?* / *¡qué calor hace!, ¿eh?*. Their closers: **¿algo más?** (anything else?), **¿te lo envuelvo?** (shall I wrap it?), **¿en efectivo o con tarjeta?**. Your line to pay: **¿me cobras?** (can you charge me?).",
+      "callout": "*¿Me cobras?* is how you ask to pay at a shop or bar counter — save *¿la cuenta?* for a sit-down restaurant."
+    },
+    {
+      "type": "mcq",
+      "prompt": "En una tienda de ropa quieres probarte una camiseta. ¿Qué dices?",
+      "options": ["¿Me lo puedo probar?", "¿Me cobras?", "¿Pagamos a escote?"],
+      "correct": 0,
+      "explain": "*¿Me lo puedo probar?* = can I try it on. *¿Me cobras?* asks to pay, and *a escote* is splitting a bill with friends — wrong scene."
+    },
+    {
+      "type": "typed",
+      "prompt": "The shop assistant asks *¿algo más?* You've finished. Type 'no thanks, that's all' in Spanish.",
+      "answers": ["no, gracias, eso es todo", "nada más, gracias", "no, nada más, gracias", "eso es todo, gracias"],
+      "hint": "'Nothing else' + thanks.",
+      "explain": "*No, nada más, gracias* or *eso es todo, gracias* — the natural way to close a purchase."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía comes clothes-shopping with you and coaches your counter Spanish",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Mira, pregúntale por la talla tú mismo. Tú puedes.", "en": "Look, ask about the size yourself. You can do it." },
+        { "speaker": "You", "nl": "Vale. Perdona, ¿tenéis esta camiseta en talla mediana?", "en": "Okay. Excuse me, do you have this shirt in medium?" },
+        { "speaker": "Lucía", "nl": "Muy bien. Y si quieres probártela, se lo dices.", "en": "Great. And if you want to try it on, you tell them." },
+        { "speaker": "You", "nl": "¿Me la puedo probar? ¿Hay probador?", "en": "Can I try it on? Is there a fitting room?", "spotlight": "clitic *la* for *la camiseta* — day-65 pronouns, now automatic." },
+        { "speaker": "Lucía", "nl": "Perfecto. Suenas de aquí ya.", "en": "Perfect. You already sound local." },
+        { "speaker": "You", "nl": "Me la llevo. ¿Me cobras con tarjeta?", "en": "I'll take it. Can I pay by card?" },
+        { "speaker": "Lucía", "nl": "¡Hala, mira qué suelto! Nos tomamos una caña para celebrarlo.", "en": "Whoa, look how smooth you are! Let's grab a beer to celebrate." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Qué talla pide?", "options": ["Pequeña", "Mediana", "Grande"], "correct": 1 },
+        { "q": "¿Cómo va a pagar al final?", "options": ["En efectivo", "Con tarjeta", "A escote con Lucía"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe un pequeño guion para una escena de servicio (peluquería, tienda o cafetería): saluda, pide lo que quieres, responde a *¿algo más?* y despídete. Cuida el registro: ¿tú o usted?",
+      "starters": ["Hola, buenas. Quería…", "¿Tenéis…?", "No, nada más, gracias."],
+      "minSentences": 3
+    }
+  ]
+}

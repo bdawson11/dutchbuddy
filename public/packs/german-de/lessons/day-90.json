@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "day-90",
+  "day": 90,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "review",
+  "title": "Was würdest du tun, wenn …?",
+  "emoji": "💬",
+  "level": "B2",
+  "durationMin": [20, 30],
+  "summary": "Week 13 review — Konjunktiv II in the wild: a 'what would you do if…' round at the Kneipe where Jonas quietly plants the season-2 music seed.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Woche 13: der Konjunktiv II sitzt",
+      "body": "Fünf Bausteine, ein Werkzeug. **würde + Infinitiv** für Rat und Hypothese (*ich würde sagen…*). Die **Kurzformen** *wäre / hätte / könnte* für sein, haben, Modalverben (*das wäre schön*). Die **Vergangenheit** *hätte / wäre + Partizip II* für Reue (*ich hätte fragen sollen*). Die **Höflichkeit** (*könnten Sie…?, ich hätte gern…*). Und **als ob** + irreale Wünsche (*als wäre nichts, wenn ich nur…!*).",
+      "callout": "Heute keine neue Regel — heute hörst du zu, wie Lena und Jonas das alles benutzen."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ergänze natürlich: „Das ___ super!\"",
+      "options": ["würde super sein", "wäre super", "hätte super"],
+      "correct": 1,
+      "explain": "sein → wäre. *Das wäre super.* Niemals *würde sein*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Sag als höflichen Rat: 'In your place I'd wait.' (warten)",
+      "answers": ["An deiner Stelle würde ich warten"],
+      "hint": "An deiner Stelle würde ich … + Infinitiv.",
+      "explain": "*An deiner Stelle würde ich warten.* — der Rat-Rahmen aus Tag 85."
+    },
+    {
+      "type": "shadow",
+      "title": "Aufwärmen: die Woche im Ohr",
+      "lines": [
+        { "nl": "Was würdest du machen, wenn …?", "en": "What would you do if …?" },
+        { "nl": "An deiner Stelle würde ich das längst machen.", "en": "In your place I'd have done that long ago." },
+        { "nl": "Wenn ich nur mehr Mut hätte!", "en": "If only I had more courage!" },
+        { "nl": "Hätte ich mich früher getraut, wäre ich jetzt weiter.", "en": "Had I dared earlier, I'd be further along now." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Friday, Feierabend at the Kneipe. Lena kicks off a round of 'what would you do if…' — and Jonas gets unexpectedly serious.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Neue Runde: Was würdest du machen, wenn du morgen deinen Job verlieren würdest?", "en": "New round: what would you do if you lost your job tomorrow?" },
+        { "speaker": "You", "nl": "Puh. Ich würde erst mal in Panik geraten. Und du?", "en": "Phew. First I'd panic. And you?" },
+        { "speaker": "Lena", "nl": "Ich hätte ehrlich ein bisschen Angst. Aber ich würde was Eigenes probieren.", "en": "Honestly I'd be a little scared. But I'd try something of my own." },
+        { "speaker": "Jonas", "nl": "Wisst ihr, was ich machen würde? Ich würde einfach nur noch Musik machen.", "en": "You know what I'd do? I'd just do nothing but music.", "spotlight": "würde + Infinitiv — Jonas names his dream out loud. The season-2 seed." },
+        { "speaker": "Lena", "nl": "Im Ernst? Du würdest den Laden hinschmeißen?", "en": "Seriously? You'd chuck in the shop?", "spotlight": "*den Laden hinschmeißen* — colloquial for quitting a job/business." },
+        { "speaker": "Jonas", "nl": "Wenn ich mich trauen würde — ja. Wenn ich nur nicht so ein Feigling wäre.", "en": "If I dared — yes. If only I weren't such a coward.", "spotlight": "An irreal wish: *Wenn ich nur … wäre.*" },
+        { "speaker": "You", "nl": "Du bist kein Feigling. An deiner Stelle hätte ich das längst gemacht.", "en": "You're no coward. In your place I'd have done it long ago.", "spotlight": "Past-hypothetical advice: *an deiner Stelle hätte ich … gemacht*." },
+        { "speaker": "Jonas", "nl": "Na ja. Vielleicht. Hätte ich mich früher getraut, wäre ich jetzt weiter.", "en": "Well. Maybe. Had I dared earlier, I'd be further along now.", "spotlight": "A wenn-less past conditional — the verb *hätte* leads the clause." },
+        { "speaker": "Lena", "nl": "Es ist nicht zu spät, Jonas.", "en": "It's not too late, Jonas." },
+        { "speaker": "Jonas", "nl": "Tja. Mal sehen. Wäre schon schön.", "en": "Well. We'll see. It would be nice, though." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Verstanden?",
+      "questions": [
+        { "q": "Was würde Jonas machen, wenn er könnte?", "options": ["Ein eigenes Geschäft eröffnen.", "Nur noch Musik machen.", "In eine andere Stadt ziehen."], "correct": 1 },
+        { "q": "Warum macht er es (noch) nicht?", "options": ["Er hat kein Geld.", "Er traut sich nicht.", "Er mag Musik nicht mehr."], "correct": 1 },
+        { "q": "Was bedeutet „den Laden hinschmeißen\"?", "options": ["den Laden aufräumen", "die Arbeit / das Geschäft aufgeben", "den Laden verkaufen"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Spiel selbst mit: Was würdest du machen, wenn du morgen ganz frei wählen könntest? Schreib mindestens vier Sätze im Konjunktiv II — mit mindestens einem Wunsch (Wenn ich nur …!) und einem Rückblick (Hätte ich …, wäre ich …).",
+      "starters": ["Wenn ich frei wählen könnte,…", "Ich würde…", "Wenn ich nur…", "Hätte ich früher…, wäre ich…"],
+      "minSentences": 4
+    }
+  ]
+}

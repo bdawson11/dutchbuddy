@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "day-19",
+  "day": 19,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Com'è? Descrivere le persone",
+  "emoji": "🧑",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Describing people's looks and personality, plus the invariable idiom essere in gamba",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Com'è? — l'aspetto fisico",
+      "body": "To describe how someone looks: *alto/alta* (tall), *basso/bassa* (short), *giovane* (young — same for m/f), *anziano/anziana* (older, the polite word for people), *biondo/bionda* (blond).",
+      "table": {
+        "headers": ["Italiano", "English"],
+        "rows": [
+          ["alto / alta", "tall"],
+          ["basso / bassa", "short"],
+          ["giovane", "young"],
+          ["anziano / anziana", "older (polite)"],
+          ["biondo / bionda", "blond"]
+        ]
+      },
+      "callout": "For people, anziano is the polite choice — vecchio can sound blunt."
+    },
+    {
+      "type": "chips",
+      "title": "L'aspetto — tap through",
+      "items": [
+        { "nl": "alto", "en": "tall (m.)", "speak": "alto" },
+        { "nl": "basso", "en": "short (m.)", "speak": "basso" },
+        { "nl": "giovane", "en": "young", "speak": "giovane" },
+        { "nl": "anziano", "en": "older (m.)", "speak": "anziano" },
+        { "nl": "biondo", "en": "blond (m.)", "speak": "biondo" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Com'è? — il carattere, e in gamba",
+      "body": "For personality: *simpatico/simpatica* (nice, likeable), *gentile* (kind — two-ending), *divertente* (funny), *timido/timida* (shy). One handy idiom never changes shape: **in gamba** — literally 'on the leg', it means capable, switched-on, sharp: *è in gamba*, *sono in gamba*, *siete in gamba* — same words every time.",
+      "callout": "in gamba is invariable — no agreement, just drop it in after essere."
+    },
+    {
+      "type": "chips",
+      "title": "Il carattere — tap through",
+      "items": [
+        { "nl": "simpatico", "en": "nice (m.)", "speak": "simpatico" },
+        { "nl": "gentile", "en": "kind", "speak": "gentile" },
+        { "nl": "divertente", "en": "funny", "speak": "divertente" },
+        { "nl": "timido", "en": "shy (m.)", "speak": "timido" },
+        { "nl": "in gamba", "en": "sharp / capable", "speak": "in gamba" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "vecchio vs anziano — same idea, different tone",
+      "pairs": [
+        { "left": "*vecchio/vecchia* — old (blunt, fine for things)", "right": "*anziano/anziana* — older (polite, for people)", "note": "Un tavolo vecchio is fine; call a person anziano, not vecchio, to stay polite." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct: 'Giulia is very nice'?",
+      "options": ["Giulia è molto simpatico", "Giulia è molto simpatica", "Giulia è molto simpatici"],
+      "correct": 1,
+      "explain": "simpatico is a four-ending adjective; Giulia is feminine singular, so simpatica."
+    },
+    {
+      "type": "mcq",
+      "prompt": "What does 'è in gamba' mean?",
+      "options": ["She's tall", "She's sharp / capable", "She's tired"],
+      "correct": 1,
+      "explain": "in gamba is an idiom for capable, switched-on, sharp — nothing to do with legs anymore."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'he is very nice' in Italian.",
+      "answers": ["è molto simpatico", "lui è molto simpatico"],
+      "hint": "simpatico agrees with a masculine subject here.",
+      "explain": "*È molto simpatico* — simpatico stays masculine since 'he' is male."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole line.",
+      "speak": "È una persona molto gentile.",
+      "answers": ["è una persona molto gentile"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Giulia describes your mutual friends over coffee",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora, conosci già Marco: è simpatico, ma un po' pigro.", "en": "So, you already know Marco: he's nice, but a bit lazy." },
+        { "speaker": "You", "nl": "Sì, ed è molto divertente.", "en": "Yes, and he's very funny." },
+        { "speaker": "Giulia", "nl": "Esatto. E Sofia? È timida all'inizio, ma è davvero in gamba.", "en": "Exactly. And Sofia? She's shy at first, but she's really sharp.", "spotlight": "in gamba doesn't change with gender — same phrase for anyone." },
+        { "speaker": "You", "nl": "Anche gentile, no?", "en": "Also kind, right?" },
+        { "speaker": "Giulia", "nl": "Gentilissima. È una persona speciale.", "en": "Really kind. She's a special person." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe two people you know — one physical trait and one personality trait each. Try using in gamba for someone impressive!",
+      "starters": ["Lui è…", "Lei è…", "È in gamba perché…"]
+    }
+  ]
+}

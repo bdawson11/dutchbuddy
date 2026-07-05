@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "day-53",
+  "day": 53,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "La puerta del subjuntivo",
+  "emoji": "🚪",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "First contact with the present subjunctive — the B1 gate: quiero que, es importante que",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "La puerta del subjuntivo",
+      "body": "Hasta ahora has usado el **indicativo** para hechos. El **subjuntivo** aparece cuando hay un cambio de sujeto después de verbos de **deseo o necesidad**: *quiero que, es importante que*. Si el sujeto es el mismo, usas el infinitivo: *quiero viajar*. Si cambia, necesitas **que + subjuntivo**: *quiero que **vengas**.*",
+      "callout": "No es un tiempo más — es un **modo**: habla de deseos, necesidad, emoción, no de hechos."
+    },
+    {
+      "type": "card",
+      "title": "Cómo se forma: las vocales opuestas",
+      "body": "El subjuntivo regular se forma desde el presente de indicativo (yo), quitando la **-o** y añadiendo la vocal **opuesta**: los verbos en **-ar** toman **-e**, los verbos en **-er/-ir** toman **-a**.",
+      "table": {
+        "headers": ["Persona", "hablar", "comer"],
+        "rows": [
+          ["yo", "hable", "coma"],
+          ["tú", "hables", "comas"],
+          ["él/ella/usted", "hable", "coma"],
+          ["nosotros/as", "hablemos", "comamos"],
+          ["vosotros/as", "habléis", "comáis"],
+          ["ellos/ellas/ustedes", "hablen", "coman"]
+        ]
+      },
+      "callout": "*vivir* sigue el mismo patrón que *comer*: viva, vivas, viva, vivamos, viváis, vivan."
+    },
+    {
+      "type": "chips",
+      "title": "Escucha: primeros disparadores",
+      "items": [
+        { "nl": "quiero que vengas", "en": "I want you to come", "speak": "quiero que vengas" },
+        { "nl": "es importante que estudies", "en": "it's important that you study", "speak": "es importante que estudies" },
+        { "nl": "espero que sí", "en": "I hope so", "speak": "espero que sí" },
+        { "nl": "ojalá que llueva", "en": "hopefully it rains", "speak": "ojalá que llueva" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Los disparadores: quiero que, es importante que…",
+      "body": "Estos verbos y expresiones **exigen** subjuntivo cuando hay un sujeto distinto detrás: **quiero que, es importante que, es necesario que, espero que, ojalá (que)**.",
+      "table": {
+        "headers": ["Disparador", "Ejemplo"],
+        "rows": [
+          ["quiero que", "Quiero que estudies más."],
+          ["es importante que", "Es importante que hables español."],
+          ["espero que", "Espero que todo vaya bien."],
+          ["ojalá (que)", "Ojalá que venga Sofía."]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "Mismo sujeto vs. sujeto distinto",
+      "pairs": [
+        { "left": "mismo sujeto → infinitivo: quiero viajar", "right": "sujeto distinto → que + subjuntivo: quiero que viajes", "note": "Es la trampa más común: si el sujeto no cambia, **nunca** uses *que + subjuntivo* — usa el infinitivo directamente." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Quiero ___ español todos los días. (yo quiero, yo estudio — no cambia el sujeto)",
+      "options": ["que estudie", "estudiar"],
+      "correct": 1,
+      "explain": "El sujeto es el mismo (yo quiero, yo estudio) → **infinitivo**: *quiero estudiar*. Solo usamos *que + subjuntivo* si el sujeto cambia."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa: Es importante que (tú) ___ (hablar) español en clase.",
+      "answers": ["hables"],
+      "hint": "subjuntivo de hablar, tú",
+      "explain": "*hables* — presente de subjuntivo de *hablar*, segunda persona."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa: Espero que (vosotros) ___ (comer) bien esta noche.",
+      "answers": ["comáis"],
+      "hint": "subjuntivo de comer, vosotros",
+      "explain": "*comáis* — presente de subjuntivo de *comer*, vosotros. Los verbos en -er toman la vocal -a: com-áis."
+    },
+    {
+      "type": "dictation",
+      "speak": "quiero que vengas",
+      "answers": ["quiero que vengas"]
+    },
+    {
+      "type": "builder",
+      "title": "Es importante que…",
+      "prompt": "Construye una frase con un disparador de subjuntivo.",
+      "slots": [
+        { "label": "Disparador", "chips": ["Es importante que", "Quiero que", "Espero que"] },
+        { "label": "Sujeto + verbo", "chips": ["estudies más", "hables español", "vengas al bar", "comamos juntos"] }
+      ],
+      "sample": "Es importante que hables español."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía te da un consejo sobre tu español — la puerta del subjuntivo en directo.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Mira, es importante que hables más en español, aunque cometas errores.", "en": "Look, it's important that you speak more in Spanish, even if you make mistakes.", "spotlight": "es importante que + subjuntivo — el primer disparador del modo." },
+        { "speaker": "You", "nl": "Ya, lo sé. Pero me da vergüenza.", "en": "Yeah, I know. But I get embarrassed." },
+        { "speaker": "Lucía", "nl": "Qué va, hombre. Aquí nadie te va a juzgar.", "en": "No way. Nobody here is going to judge you." },
+        { "speaker": "You", "nl": "Vale, espero que tengas razón.", "en": "Okay, I hope you're right." },
+        { "speaker": "Lucía", "nl": "¡Claro que sí! Venga, va, practica conmigo ahora.", "en": "Of course! Come on, practice with me now." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe dos frases: una con 'quiero que' y otra con 'es importante que', sobre tu aprendizaje de español.",
+      "starters": ["Quiero que…", "Es importante que…"]
+    }
+  ]
+}
