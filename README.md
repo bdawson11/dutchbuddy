@@ -1,6 +1,15 @@
 # LanguageBuddy
 
-Reusable engine for conversational language-learning apps. First content pack: **DutchBuddy** (Netherlands Dutch, A1 → B1, 84 days). Full plan: `docs/plan.md`.
+Reusable engine for conversational language-learning apps. Full plan: `docs/plan.md`; multilingual expansion roadmap: `docs/roadmap-multilingual.md`.
+
+Content packs:
+
+| Pack | App | Status |
+|------|-----|--------|
+| `dutch-nl` | DutchBuddy (Netherlands Dutch, A1 → B1) | Complete — 84/84 days |
+| `german-de` | GermanBuddy (Hochdeutsch) | Scaffolded — roadmap, manifest, Week 1 (`docs/roadmap-german-de.md`) |
+| `italian-it` | ItalianBuddy (standard Italian) | Scaffolded — roadmap, manifest, Week 1 (`docs/roadmap-italian-it.md`) |
+| `spanish-es` | SpanishBuddy (Peninsular Castilian, name TBD) | Scaffolded — roadmap, manifest, Week 1 (`docs/roadmap-spanish-es.md`) |
 
 ## Architecture
 
@@ -12,10 +21,13 @@ Reusable engine for conversational language-learning apps. First content pack: *
 ## Commands
 
 ```
-npm run dev              # local dev server
+npm run dev              # local dev server (dutch-nl default)
+npm run dev:<pack>       # e.g. npm run dev:german-de
 npm run build            # production build (Vercel-ready static output)
-npm run validate         # validate the dutch-nl pack (missing days = warnings)
-npm run validate:strict  # missing days = errors (pre-release gate)
+npm run build:<pack>     # per-pack branded build → dist/<pack>
+npm run validate         # validate every pack (missing days = warnings)
+npm run validate:<pack>  # validate one pack
+npm run validate:strict  # missing days = errors (pre-release gate, dutch-nl)
 ```
 
 ## Content workflow
