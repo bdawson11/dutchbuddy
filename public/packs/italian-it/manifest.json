@@ -6,6 +6,7 @@
   "language": "Italian",
   "locale": "it-IT",
   "flag": "🇮🇹",
+  "accent": "#1e874b",
   "ui": {
     "dayComplete": "Giorno {day} fatto!",
     "typedPlaceholder": "Scrivi in italiano…",

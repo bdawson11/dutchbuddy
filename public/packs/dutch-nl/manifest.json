@@ -6,6 +6,7 @@
   "language": "Dutch",
   "locale": "nl-NL",
   "flag": "🇳🇱",
+  "accent": "#e8590c",
   "ui": {
     "dayComplete": "Dag {day} klaar!",
     "typedPlaceholder": "Type in Dutch…",

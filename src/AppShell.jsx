@@ -81,6 +81,9 @@ export default function AppShell() {
     if (!packId || !catalog) {
       setManifest(null);
       setLessonIndex({});
+      // Back to the YapWorld shell — drop the per-language accent so the
+      // umbrella brand colour (from base.css :root) takes over again.
+      document.documentElement.style.removeProperty('--accent');
       return;
     }
     const entry = catalog.packs.find((p) => p.packId === packId);
@@ -90,6 +93,12 @@ export default function AppShell() {
     configureAudio(entry.manifest.locale);
     configureGrading(entry.manifest.grading);
     configureUi(entry.manifest);
+    // Per-language theming: every surface derives its tints from this one hook.
+    if (entry.manifest.accent) {
+      document.documentElement.style.setProperty('--accent', entry.manifest.accent);
+    } else {
+      document.documentElement.style.removeProperty('--accent');
+    }
     let cancelled = false;
     (async () => {
       const dayIds = entry.manifest.weeks.flatMap((w) => w.days);

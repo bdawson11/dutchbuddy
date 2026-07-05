@@ -6,6 +6,7 @@
   "language": "Spanish",
   "locale": "es-ES",
   "flag": "🇪🇸",
+  "accent": "#c21a32",
   "ui": {
     "dayComplete": "¡Día {day} hecho!",
     "typedPlaceholder": "Escribe en español…",

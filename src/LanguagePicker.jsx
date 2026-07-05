@@ -20,7 +20,12 @@ export default function LanguagePicker({ catalog, user, onPick, onLogout }) {
           const levels = manifest.levels || [];
           const range = levels.length ? `${levels[0].code}–${levels[levels.length - 1].code}` : '';
           return (
-            <button key={packId} className="lang-card" onClick={() => onPick(packId)}>
+            <button
+              key={packId}
+              className="lang-card"
+              onClick={() => onPick(packId)}
+              style={manifest.accent ? { '--accent': manifest.accent } : undefined}
+            >
               <span className="lang-flag">{manifest.flag || '🌍'}</span>
               <span className="lang-name">{manifest.language}</span>
               <span className="lang-tagline">{manifest.tagline}</span>
