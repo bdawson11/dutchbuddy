@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-07",
+  "day": 7,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "capstone",
+  "title": "Il mio racconto: mi presento",
+  "emoji": "🎉",
+  "level": "A1",
+  "durationMin": [20, 30],
+  "summary": "Week 1 capstone: sounds, greetings, essere & avere — then build your first real self-introduction",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Uno sguardo indietro: settimana 1",
+      "body": "In one week you've met the **pure vowels** and the **c/g** rules, the **gn/gli/sc** sounds and **double consonants**, how to **greet** by register, the bar, and two verbs that run everything: **essere** (sono/sei/è…) and **avere** (ho/hai/ha…), plus **non** for no and **c'è / ci sono** for pointing things out. Bel lavoro — un caffè te lo sei meritato.",
+      "callout": "This is the end of Week 1. Everything from here builds on essere + avere."
+    },
+    {
+      "type": "chips",
+      "title": "Quick refresh — tap through",
+      "items": [
+        { "nl": "buongiorno", "en": "good morning / hello", "speak": "buongiorno" },
+        { "nl": "Sono di…", "en": "I'm from…", "speak": "Sono di Torino." },
+        { "nl": "Ho fame.", "en": "I'm hungry.", "speak": "Ho fame." },
+        { "nl": "Non c'è problema.", "en": "There's no problem.", "speak": "Non c'è problema." },
+        { "nl": "Mi chiamo…", "en": "My name is…", "speak": "Mi chiamo Alex." }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Warm up — shadow the week",
+      "lines": [
+        { "nl": "Ciao, mi chiamo Alex.", "en": "Hi, my name's Alex." },
+        { "nl": "Sono di Toronto e sto imparando l'italiano.", "en": "I'm from Toronto and I'm learning Italian." },
+        { "nl": "Un caffè, per favore. Grazie!", "en": "An espresso, please. Thanks!" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is correct for 'I'm hungry'?",
+      "options": ["Sono fame", "Ho fame", "C'è fame"],
+      "correct": 1,
+      "explain": "*Ho fame* — Italian *has* hunger. A week-1 keeper."
+    },
+    {
+      "type": "mcq",
+      "prompt": "You greet a shop owner you don't know, at 9am. Best choice?",
+      "options": ["Ciao", "Buongiorno", "Buonanotte"],
+      "correct": 1,
+      "explain": "*Buongiorno* — polite and time-appropriate. Save *ciao* for friends."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'I'm from Rome' — and try dropping the pronoun.",
+      "answers": ["sono di roma", "io sono di roma"],
+      "hint": "essere for 'I' is *sono*; the pronoun is optional.",
+      "explain": "*Sono di Roma.* The -o ending already means 'I', so *io* is usually dropped."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole line.",
+      "speak": "Mi chiamo Sara e sono italiana.",
+      "answers": ["mi chiamo sara e sono italiana", "mi chiamo sara e sono italiana."]
+    },
+    {
+      "type": "contrast",
+      "title": "Recap: ciao vs buongiorno",
+      "pairs": [
+        { "left": "*Ciao* — friends, peers, kids", "right": "*Buongiorno* — strangers, shops, formal", "note": "Same greeting job, different register. When in doubt, buongiorno." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Giulia introduces you to Pietro, visiting from Naples — a first hello",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Lui è Pietro, un amico di Napoli.", "en": "This is Pietro, a friend from Naples." },
+        { "speaker": "Pietro", "nl": "Piacere! Buongiorno.", "en": "Pleasure! Good morning." },
+        { "speaker": "You", "nl": "Piacere, Pietro. Mi chiamo Alex, sono canadese.", "en": "Nice to meet you, Pietro. My name's Alex, I'm Canadian.", "spotlight": "Your first full self-intro in the wild: name + where you're from." },
+        { "speaker": "Pietro", "nl": "E sei qui a Bologna per studiare?", "en": "And are you here in Bologna to study?" },
+        { "speaker": "You", "nl": "Sono qui da poco e sto imparando l'italiano.", "en": "I've been here a little while and I'm learning Italian." },
+        { "speaker": "Pietro", "nl": "Bravo! Vai alla grande, eh.", "en": "Well done! You're doing great." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "Where is Pietro from?", "options": ["Bologna", "Naples", "Toronto"], "correct": 1 },
+        { "q": "What is 'You' doing in Bologna?", "options": ["Working as a barista", "Learning Italian", "Visiting for one day"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Il mio racconto — livello 1",
+      "prompt": "Build your first self-introduction: your name, where you're from, and that you're learning Italian.",
+      "slots": [
+        { "label": "Nome", "chips": ["Ciao, mi chiamo Alex", "Mi chiamo Sara", "Buongiorno, mi chiamo Sam"] },
+        { "label": "Provenienza", "chips": ["e sono di Toronto", "e sono di Boston", "e sono italiano", "e vengo dalla Spagna"] },
+        { "label": "Cosa fai", "chips": ["e sto imparando l'italiano", "e sono qui a Bologna da poco", "e imparo l'italiano ogni giorno"] }
+      ],
+      "sample": "Ciao, mi chiamo Alex, e sono di Toronto, e sto imparando l'italiano."
+    },
+    {
+      "type": "journal",
+      "prompt": "Il mio racconto — livello 1! Write your own short self-introduction: your name, where you're from, and that you're learning Italian. Use essere and, if you like, avere. This intro grows every week — keep it somewhere. Complimenti per la prima settimana!",
+      "starters": ["Mi chiamo…", "Sono di…", "Sto imparando l'italiano…"],
+      "minSentences": 3
+    }
+  ]
+}
