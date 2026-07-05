@@ -11,6 +11,10 @@ export default function Dashboard({ manifest, lessonIndex, onOpenDay }) {
   const [openWeeks, setOpenWeeks] = useState(() => new Set([1]));
 
   const allDays = manifest.weeks.flatMap((w) => w.days);
+  const levels = manifest.levels || [];
+  const levelRange = levels.length
+    ? `${levels[0].code} → ${levels[levels.length - 1].code}`
+    : '';
   const nextDay = allDays.find((d) => progress.days[d]?.status !== 'complete') || allDays[0];
   const nextMeta = lessonIndex[nextDay];
 
@@ -46,7 +50,7 @@ export default function Dashboard({ manifest, lessonIndex, onOpenDay }) {
       </section>
 
       <section className="stats-banner">
-        <p className="stats-label">{manifest.flag || '🌍'} {manifest.language.toUpperCase()} · A1 → B1</p>
+        <p className="stats-label">{manifest.flag || '🌍'} {manifest.language.toUpperCase()}{levelRange && ` · ${levelRange}`}</p>
         <div className="stats-grid">
           <div><span className="stat-num">{s.daysComplete}/{allDays.length}</span><span className="stat-label">days done</span></div>
           <div><span className="stat-num">{s.stepsDone}</span><span className="stat-label">steps done</span></div>

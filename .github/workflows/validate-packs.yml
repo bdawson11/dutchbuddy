@@ -19,10 +19,11 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          # Released packs are strict: every day listed in the manifest must exist.
+          # All packs are mid-expansion to 18 weeks (126 days); missing days are
+          # warnings, schema errors still fail. Flip a pack to --strict once its
+          # manifest days are all authored (pre-release gate).
           - pack: dutch-nl
-            flags: --strict
-          # In-development packs: missing days are warnings, schema errors still fail.
+            flags: ""
           - pack: german-de
             flags: ""
           - pack: italian-it
