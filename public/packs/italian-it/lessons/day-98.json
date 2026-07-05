@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-98",
+  "day": 98,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "capstone",
+  "title": "Il mio racconto: un'ipotesi e un rimpianto",
+  "emoji": "🎉",
+  "level": "B2",
+  "durationMin": [25, 35],
+  "summary": "Week 14 capstone: the three conditionals, then add a hypothetical and a regret to your self-intro",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Uno sguardo indietro: settimana 14",
+      "body": "Questa settimana hai imparato a **immaginare**: i tre periodi ipotetici (reale, possibile, irreale), il condizionale passato e la lingua dei desideri e dei rimpianti. Oggi aggiungi al tuo racconto un **'se' ipotetico** e un **rimpianto** — perché una storia adulta ha anche i suoi *e se…*.",
+      "callout": "Il tuo racconto cresce: oggi un'ipotesi e un rimpianto. (livello 14)"
+    },
+    {
+      "type": "chips",
+      "title": "Ipotesi e rimpianti per il racconto",
+      "items": [
+        { "nl": "Se non fossi venuto/a in Italia…", "en": "If I hadn't come to Italy…", "speak": "Se non fossi venuto in Italia…" },
+        { "nl": "Se avessi cominciato prima…", "en": "If I'd started sooner…", "speak": "Se avessi cominciato prima…" },
+        { "nl": "Avrei voluto studiare di più.", "en": "I'd have liked to study more.", "speak": "Avrei voluto studiare di più." },
+        { "nl": "Se potessi, resterei per sempre.", "en": "If I could, I'd stay forever.", "speak": "Se potessi, resterei per sempre." },
+        { "nl": "Magari avessi più tempo!", "en": "I wish I had more time!", "speak": "Magari avessi più tempo!" },
+        { "nl": "Rifarei tutto da capo.", "en": "I'd do it all again from scratch.", "speak": "Rifarei tutto da capo." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Se non ___ in Italia, non avrei mai imparato l'italiano.»",
+      "options": ["venissi", "fossi venuto", "sarei venuto"],
+      "correct": 1,
+      "explain": "Tipo III (rimpianto/passato): *se fossi venuto* + condizionale passato *non avrei imparato*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Se ___ ricominciare, lo rifarei subito.»",
+      "options": ["potessi", "posso", "potrei"],
+      "correct": 0,
+      "explain": "Tipo II: *se potessi* (congiuntivo imperfetto) + *rifarei* (condizionale)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Dì: 'If I'd started sooner, I'd already speak better.' — usa *se avessi cominciato prima…*",
+      "answers": ["se avessi cominciato prima, parlerei già meglio", "se avessi cominciato prima parlerei già meglio"],
+      "hint": "condizione al passato (avessi cominciato) + risultato al presente (parlerei) — un misto possibile!",
+      "explain": "*Se avessi cominciato prima, parlerei già meglio.* Condizione passata, conseguenza nel presente: si può mescolare."
+    },
+    {
+      "type": "contrast",
+      "title": "Sogno vs rimpianto nel racconto",
+      "pairs": [
+        { "left": "Se potessi, resterei per sempre.", "right": "Se avessi cominciato prima, saprei di più.", "note": "tipo II = sogno attuale; tipo III/misto = occasione passata." },
+        { "left": "Magari avessi più tempo!", "right": "Avrei dovuto iniziare anni fa.", "note": "desiderio vs rimprovero gentile a se stessi." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci un 'e se…'",
+      "prompt": "Immagina come sarebbe la tua vita diversa.",
+      "slots": [
+        { "label": "Se + condizione", "chips": ["Se non fossi venuto/a qui", "Se avessi più tempo", "Se potessi tornare indietro"] },
+        { "label": "Risultato (condizionale)", "chips": ["non avrei conosciuto questa gente", "studierei ogni giorno", "rifarei le stesse scelte"] }
+      ],
+      "sample": "Se non fossi venuto qui, non avrei conosciuto questa gente."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Giulia asks if you have any regrets about your Italian adventure.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Ti penti di qualcosa di questo anno?", "en": "Do you regret anything about this year?" },
+        { "speaker": "You", "nl": "Poco. Magari avessi cominciato a studiare prima!", "en": "Little. I wish I'd started studying sooner!", "spotlight": "'magari + congiuntivo' = desiderio." },
+        { "speaker": "Giulia", "nl": "Ma dai, sei arrivato lontano lo stesso.", "en": "Come on, you've come far anyway." },
+        { "speaker": "You", "nl": "È vero. Se non fossi venuto qui, non avrei imparato tutto questo.", "en": "True. If I hadn't come here, I wouldn't have learned all this.", "spotlight": "tipo III: rimpianto rovesciato in positivo." },
+        { "speaker": "Giulia", "nl": "E se potessi tornare indietro, rifaresti la stessa scelta?", "en": "And if you could go back, would you make the same choice?" },
+        { "speaker": "You", "nl": "Assolutamente. Rifarei tutto, anche gli errori.", "en": "Absolutely. I'd do it all again, even the mistakes.", "spotlight": "condizionale: 'rifarei'." },
+        { "speaker": "Giulia", "nl": "Questa sì che è una bella risposta.", "en": "Now that's a lovely answer." },
+        { "speaker": "You", "nl": "Merito anche tuo, sai? Grazie di tutto.", "en": "Partly thanks to you, you know? Thanks for everything." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai capito?",
+      "questions": [
+        { "q": "Di cosa si rammarica un po' 'You'?", "options": ["Di non aver cominciato prima", "Di essere venuto in Italia", "Di aver studiato troppo"], "correct": 0 },
+        { "q": "Se potesse tornare indietro, 'You'…", "options": ["Rifarebbe la stessa scelta", "Resterebbe a casa", "Studierebbe un'altra lingua"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Il mio racconto — livello 14",
+      "prompt": "Aggiungi al tuo racconto un'ipotesi e un rimpianto: come sarebbe stata la tua vita senza l'italiano? E cosa avresti fatto diversamente? Usa il periodo ipotetico (tipo II o III) e almeno un *avrei voluto/dovuto* o *magari*.",
+      "slots": [
+        { "label": "L'ipotesi", "chips": ["Se non avessi studiato l'italiano,", "Se potessi ricominciare,", "Se avessi più tempo,"] },
+        { "label": "Il risultato (condizionale)", "chips": ["non avrei conosciuto queste persone", "rifarei tutto uguale", "studierei ancora di più"] },
+        { "label": "Il rimpianto / desiderio", "chips": ["Magari avessi cominciato prima!", "Avrei voluto viaggiare di più.", "Avrei dovuto parlare di più."] }
+      ],
+      "sample": "Se non avessi studiato l'italiano, non avrei conosciuto queste persone. Magari avessi cominciato prima!"
+    },
+    {
+      "type": "journal",
+      "prompt": "Il mio racconto — livello 14! Riprendi la tua presentazione e aggiungi un 'e se…' e un rimpianto. Come sarebbe diversa la tua vita? Cosa rifaresti? Usa i periodi ipotetici. Due settimane della seconda parte, fatte: bravo!",
+      "starters": ["Se non fossi…", "Se potessi…", "Avrei voluto…"],
+      "minSentences": 4
+    }
+  ]
+}

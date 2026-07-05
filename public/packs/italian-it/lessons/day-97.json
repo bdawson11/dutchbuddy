@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "day-97",
+  "day": 97,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "review",
+  "title": "Sofia guarda indietro",
+  "emoji": "💬",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Week 14 review + immersion: Sofia in Milano looks back on her move with hypotheticals and regret",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Settimana 14: i tre periodi ipotetici",
+      "body": "This week you built all three 'if' sentences — **reale** (*se piove, resto*), **possibile** (*se piovesse, resterei*), **irreale nel passato** (*se fosse piovuto, sarei rimasto*) — plus the **condizionale passato** and the language of **wishes and regrets** (*magari…, se solo…, avrei dovuto…*). Oggi Sofia, da Milano, guarda indietro alla sua grande decisione.",
+      "callout": "Ricorda: nel 'se' non va mai il condizionale. *Se avessi…*, non *se avrei…*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Se ___ più coraggio, mi trasferirei anch'io.» (tipo II)",
+      "options": ["avessi", "avrei", "ho"],
+      "correct": 0,
+      "explain": "Tipo II: condizione col congiuntivo imperfetto *avessi*, risultato al condizionale."
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Se non ___ quel lavoro, non avrei mai conosciuto Milano.» (tipo III)",
+      "options": ["accettassi", "avessi accettato", "avrei accettato"],
+      "correct": 1,
+      "explain": "Tipo III (rimpianto/passato): *se avessi accettato* + condizionale passato."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduci: 'If I'd known, I would have come.' — tipo III.",
+      "answers": ["se avessi saputo, sarei venuto", "se avessi saputo sarei venuto"],
+      "hint": "se + avessi saputo → sarei venuto.",
+      "explain": "*Se avessi saputo, sarei venuto.* Il rimpianto per eccellenza."
+    },
+    {
+      "type": "dialogue",
+      "scene": "A video call with Sofia in Milano, a year after her move.",
+      "lines": [
+        { "speaker": "Sofia", "nl": "Allora, ci credi che è già passato un anno da quando mi sono trasferita?", "en": "So, can you believe it's already a year since I moved?" },
+        { "speaker": "You", "nl": "Incredibile. E, col senno di poi, rifaresti tutto?", "en": "Incredible. And, in hindsight, would you do it all again?" },
+        { "speaker": "Sofia", "nl": "Sì. Se fossi rimasta a Bologna, non sarei cresciuta così.", "en": "Yes. If I'd stayed in Bologna, I wouldn't have grown like this.", "spotlight": "tipo III: se fossi rimasta… non sarei cresciuta." },
+        { "speaker": "Sofia", "nl": "Certo, all'inizio è stata dura. Magari avessi conosciuto qualcuno prima!", "en": "Sure, at first it was hard. I wish I'd met someone sooner!", "spotlight": "'magari + congiuntivo' = desiderio." },
+        { "speaker": "You", "nl": "Ti capisco. Se non avessi accettato, però, cosa avresti fatto?", "en": "I get it. But if you hadn't accepted, what would you have done?" },
+        { "speaker": "Sofia", "nl": "Boh. Forse sarei ancora lì a lamentarmi. Avrei dovuto rischiare comunque.", "en": "Dunno. Maybe I'd still be there complaining. I should have taken the risk anyway.", "spotlight": "'avrei dovuto' — rimpianto ipotetico." },
+        { "speaker": "You", "nl": "Beh, hai rischiato. E adesso sei felice.", "en": "Well, you took it. And now you're happy." },
+        { "speaker": "Sofia", "nl": "Molto. Se solo Bologna fosse più vicina, saresti già stato a trovarmi!", "en": "Very. If only Bologna were closer, you'd have already visited!", "spotlight": "'se solo… fosse… saresti stato' — misto ipotetico." },
+        { "speaker": "You", "nl": "Vero! Prometto che vengo presto.", "en": "True! I promise I'll come soon." },
+        { "speaker": "Sofia", "nl": "Ti aspetto, davvero. Un abbraccio!", "en": "I'll be waiting, really. A hug!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai seguito Sofia?",
+      "questions": [
+        { "q": "Sofia rifarebbe la scelta di trasferirsi?", "options": ["Sì, senza dubbi", "No, se ne pente", "Non lo sa"], "correct": 0 },
+        { "q": "Cosa dice Sofia con «se fossi rimasta a Bologna…»?", "options": ["Non sarebbe cresciuta così", "Sarebbe più ricca", "Avrebbe più amici"], "correct": 0 },
+        { "q": "Cosa avrebbe voluto Sofia all'inizio?", "options": ["Conoscere qualcuno prima", "Tornare subito indietro", "Un lavoro diverso"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Pensa a una tua decisione importante. Col senno di poi, cosa sarebbe successo se avessi scelto diversamente? Scrivi tre frasi ipotetiche (tipo II e III).",
+      "starters": ["Se fossi rimasto/a…", "Se avessi scelto…", "Magari avessi…"],
+      "minSentences": 3
+    }
+  ]
+}

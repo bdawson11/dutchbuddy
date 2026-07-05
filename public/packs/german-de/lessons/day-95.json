@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-95",
+  "day": 95,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "lesson",
+  "title": "Nachrichtendeutsch: man werde prüfen",
+  "emoji": "📺",
+  "level": "B2",
+  "durationMin": [20, 30],
+  "summary": "News German — the reporting frames (laut, zufolge, erklärte, man werde) and reading a short Tagesschau-style report for the mood, not the vocab.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Die neutrale Distanz",
+      "body": "In Nachrichten **berichtet** man, ohne selbst Position zu beziehen — deshalb der Konjunktiv I. Dazu gibt es feste Bausteine: **Berichts-Verben** (*erklären, betonen, mitteilen, hinzufügen*), die Quellen-Wendungen **laut + Dativ** (*laut der Polizei*) und **… zufolge** (*dem Bericht zufolge*), und die Standard-Floskel **man werde…** (= es ist geplant).",
+      "callout": "laut / zufolge = „so heißt es\". Der Reporter zitiert, er behauptet nichts selbst."
+    },
+    {
+      "type": "card",
+      "title": "Lies wie die Tagesschau",
+      "body": "Eine kurze Meldung — achte nicht auf jedes Wort, sondern auf die **Konjunktiv-I-Formen**, die zeigen, was *berichtet* und was *Kritik* ist:\n\n*„Die Stadt Berlin hat neue Radwege angekündigt. Eine Sprecherin erklärte, das Projekt **werde** noch dieses Jahr **beginnen**. Laut der Verwaltung **sollen** bis 2027 rund 100 Kilometer entstehen. Kritiker meinen jedoch, der Plan **sei** zu teuer und **komme** zu spät. Die Sprecherin betonte, man **werde** alle Bezirke einbeziehen.\"*",
+      "callout": "werde, sei, komme — jedes Mal ein Signal: das sagt jemand, nicht der Reporter."
+    },
+    {
+      "type": "comprehension",
+      "title": "Meldung verstanden?",
+      "questions": [
+        { "q": "Wann soll das Projekt beginnen?", "options": ["nächstes Jahr", "noch dieses Jahr", "erst 2027"], "correct": 1 },
+        { "q": "Was sagen die Kritiker?", "options": ["Der Plan sei perfekt.", "Der Plan sei zu teuer und komme zu spät.", "Es gebe keine Kritik."], "correct": 1 },
+        { "q": "Woran erkennt man, dass die Aussagen berichtet sind?", "options": ["An den Anführungszeichen.", "Am Konjunktiv I (werde, sei, komme).", "An der Vergangenheitsform."], "correct": 1 }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Nachrichten-Bausteine",
+      "items": [
+        { "nl": "Laut der Polizei sei niemand verletzt.", "en": "According to the police, no one was hurt.", "speak": "Laut der Polizei sei niemand verletzt." },
+        { "nl": "Dem Bericht zufolge werde geprüft.", "en": "According to the report, it's being examined.", "speak": "Dem Bericht zufolge werde geprüft." },
+        { "nl": "Die Sprecherin erklärte, man werde handeln.", "en": "The spokesperson said action would be taken.", "speak": "Die Sprecherin erklärte, man werde handeln." },
+        { "nl": "Der Minister betonte, es gebe keine Kürzungen.", "en": "The minister stressed there'd be no cuts.", "speak": "Der Minister betonte, es gebe keine Kürzungen." },
+        { "nl": "Es heißt, die Preise würden steigen.", "en": "Word is prices will rise.", "speak": "Es heißt, die Preise würden steigen." },
+        { "nl": "Wie es weiter heißt, sei die Lage stabil.", "en": "It's further reported the situation is stable.", "speak": "Wie es weiter heißt, sei die Lage stabil." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Was signalisiert „man werde prüfen\" in einer Nachricht?",
+      "options": [
+        "Es ist schon geprüft worden.",
+        "Es ist ein berichtetes, geplantes Vorhaben (Konjunktiv I).",
+        "Es ist die persönliche Meinung der Reporterin."
+      ],
+      "correct": 1,
+      "explain": "*werde* ist Konjunktiv I: die Reporterin gibt ein angekündigtes Vorhaben wieder, ohne es selbst zu versprechen."
+    },
+    {
+      "type": "typed",
+      "prompt": "Ergänze die Nachrichten-Wendung: 'Die Sprecherin sagte, man ___ alle Bezirke einbeziehen.' (werden, Konjunktiv I)",
+      "answers": ["werde", "man werde alle Bezirke einbeziehen"],
+      "hint": "werden in der 3. Person Konjunktiv I.",
+      "explain": "*man werde alle Bezirke einbeziehen* — die Standard-Floskel für ein berichtetes Vorhaben."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe.",
+      "speak": "Laut der Polizei sei niemand verletzt.",
+      "answers": ["Laut der Polizei sei niemand verletzt"]
+    },
+    {
+      "type": "builder",
+      "title": "Eine Meldung formulieren",
+      "prompt": "Bau eine Nachrichten-Meldung: Quelle zuerst, dann der berichtete Inhalt im Konjunktiv I (Verb an zweiter Stelle).",
+      "slots": [
+        { "label": "Quelle", "chips": ["Laut der Stadt", "Dem Bericht zufolge", "Nach Angaben der Polizei"] },
+        { "label": "Meldung (Konjunktiv I)", "chips": ["werde das Projekt bald beginnen", "sei niemand verletzt", "gebe es keine Kürzungen"] }
+      ],
+      "sample": "Laut der Stadt werde das Projekt bald beginnen."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You just read the bike-lane article aloud. Lena — a cyclist whose friend Aylin once had her bike stolen — has opinions.",
+      "lines": [
+        { "speaker": "Lena", "nl": "100 Kilometer Radwege? Die sagen jedes Jahr, es werde besser.", "en": "100 kilometres of bike lanes? Every year they say it'll get better." },
+        { "speaker": "You", "nl": "Steht so drin. Eine Sprecherin erklärte, das Projekt beginne noch dieses Jahr.", "en": "That's what it says. A spokesperson explained the project would begin this year.", "spotlight": "*beginne* — Konjunktiv I, 3rd person singular; *erklärte* frames it as reported." },
+        { "speaker": "Lena", "nl": "Klar. Und die Kritiker?", "en": "Sure. And the critics?" },
+        { "speaker": "You", "nl": "Die meinen, der Plan sei zu teuer und komme zu spät.", "en": "They reckon the plan's too expensive and comes too late.", "spotlight": "*sei / komme* mark this as the critics' claim, not the fact." },
+        { "speaker": "Lena", "nl": "Da hätten sie recht. Aylin hätte damals fast kein Rad mehr gehabt.", "en": "They'd have a point. Aylin nearly lost her bike back then." },
+        { "speaker": "You", "nl": "Immerhin. Die Sprecherin hat betont, man werde alle Bezirke einbeziehen.", "en": "Still. The spokesperson stressed all districts would be included.", "spotlight": "*man werde* — the classic news formula for a reported plan." },
+        { "speaker": "Lena", "nl": "Schöne Worte. Ich glaub's, wenn ich den Radweg sehe.", "en": "Nice words. I'll believe it when I see the lane." },
+        { "speaker": "You", "nl": "Typisch Berlin. Laut Plan sei ja alles bis 2027 fertig.", "en": "Typical Berlin. According to the plan it's all done by 2027.", "spotlight": "*laut + Konjunktiv I* — reported, distanced from any promise." },
+        { "speaker": "Lena", "nl": "Bis dahin fahr ich weiter mutig zwischen den Autos.", "en": "Until then I'll keep riding bravely between the cars." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Such dir eine echte oder erfundene Nachricht und gib sie im Nachrichtenstil wieder: Wer hat was gesagt oder geplant, und was sagen Kritiker? Nutze mindestens drei Konjunktiv-I-Formen und eine Wendung wie laut … oder … zufolge. Mindestens vier Sätze.",
+      "starters": ["Laut … …", "Eine Sprecherin erklärte, …", "Man werde …", "Kritiker meinen, … sei …"],
+      "minSentences": 4
+    }
+  ]
+}

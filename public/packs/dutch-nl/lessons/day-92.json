@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "day-92",
+  "day": 92,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "lesson",
+  "title": "Het verleden vóór het verleden",
+  "emoji": "⏮️",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The pluperfect (voltooid verleden tijd): had/was + participle for the past-before-the-past, and sequencing events with nadat and toen",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "De voltooid verleden tijd",
+      "body": "De **voltooid verleden tijd** (vvt) vertelt over iets dat al klaar was op een moment in het verleden: het verleden vóór het verleden. Bouw: **had / was + voltooid deelwoord**. *Toen ik aankwam, was de trein al **vertrokken**.* *Ik **had** al **gegeten** toen ze belde.* Zelfde *hebben/zijn*-keuze als bij het perfect — alleen *had/was* in plaats van *heb/ben*.",
+      "table": {
+        "headers": ["Perfect (heb/ben)", "Vvt (had/was)"],
+        "rows": [
+          ["Ik heb gegeten.", "Ik had gegeten."],
+          ["Zij is vertrokken.", "Zij was vertrokken."],
+          ["We hebben het gezien.", "We hadden het gezien."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Al gebeurd — tik om te horen",
+      "items": [
+        { "nl": "Ik had het helemaal vergeten.", "en": "I'd completely forgotten it.", "speak": "Ik had het helemaal vergeten." },
+        { "nl": "De film was al begonnen.", "en": "The film had already started.", "speak": "De film was al begonnen." },
+        { "nl": "Ze waren al naar huis gegaan.", "en": "They'd already gone home.", "speak": "Ze waren al naar huis gegaan." },
+        { "nl": "Ik had nog nooit stroopwafels geproefd.", "en": "I'd never tasted stroopwafels.", "speak": "Ik had nog nooit stroopwafels geproefd." },
+        { "nl": "Hij had de mail nog niet gelezen.", "en": "He hadn't read the email yet.", "speak": "Hij had de mail nog niet gelezen." },
+        { "nl": "We hadden de trein net gemist.", "en": "We'd just missed the train.", "speak": "We hadden de trein net gemist." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Volgorde: eerst dit, toen dat",
+      "body": "De vvt laat zien wat **eerder** gebeurde. Combineer met *nadat, toen, omdat*: *Nadat ik **gegeten had**, ging ik weg.* *Toen ze belde, **was** ik al **vertrokken**.* Het eerdere feit staat in de vvt; wat daarna kwam, in de gewone verleden tijd.",
+      "callout": "*nadat* + vvt is bijna een vaste combinatie: *nadat ik … had gedaan*."
+    },
+    {
+      "type": "contrast",
+      "title": "Perfect tegenover voltooid verleden tijd",
+      "pairs": [
+        { "left": "Ik heb mijn sleutels verloren.", "right": "Ik had mijn sleutels verloren.", "note": "Perfect: relevant voor nu. Vvt: al kwijt op een moment in het verleden." },
+        { "left": "Ze is net aangekomen.", "right": "Ze was net aangekomen toen het begon.", "note": "De vvt zet het vast vóór een ander verleden moment." },
+        { "left": "We hebben gegeten.", "right": "We hadden al gegeten toen jullie kwamen.", "note": "*al … toen* — klassieke vvt-context." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Toen ik op het station kwam, ___ de trein al vertrokken.* Welke past?",
+      "options": ["is", "was", "wordt"],
+      "correct": 1,
+      "explain": "*was … vertrokken* — het vertrekken gebeurde vóór je aankomst: voltooid verleden tijd met *zijn* (was)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Zet in de voltooid verleden tijd: *Ik heb gegeten.* Vul aan: Ik … al … toen ze belde.",
+      "answers": ["Ik had al gegeten toen ze belde", "Ik had al gegeten toen ze belde.", "Ik had al gegeten"],
+      "hint": "*heb* → *had*; deelwoord *gegeten*.",
+      "explain": "*Ik had al gegeten toen ze belde.* Het eten was klaar vóór het telefoontje."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Bram explains why he was late — a chain of things that had already gone wrong that morning.",
+      "lines": [
+        { "speaker": "Bram", "nl": "Sorry dat ik laat was. Alles ging mis vanmorgen.", "en": "Sorry I was late. Everything went wrong this morning." },
+        { "speaker": "You", "nl": "Wat was er dan?", "en": "What happened?" },
+        { "speaker": "Bram", "nl": "Toen ik bij het station kwam, was mijn trein al vertrokken.", "en": "When I got to the station, my train had already left.", "spotlight": "Vvt: *was al vertrokken* vóór zijn aankomst." },
+        { "speaker": "You", "nl": "Balen. En toen?", "en": "Bummer. And then?" },
+        { "speaker": "Bram", "nl": "De volgende was geschrapt. En ik had mijn OV-kaart thuis laten liggen.", "en": "The next one was cancelled. And I'd left my OV card at home." },
+        { "speaker": "You", "nl": "Au. Alles tegelijk.", "en": "Ouch. All at once." },
+        { "speaker": "Bram", "nl": "Ja. Tegen de tijd dat ik er was, had de vergadering al een uur geduurd.", "en": "Yeah. By the time I got there, the meeting had already gone on for an hour.", "spotlight": "*had al een uur geduurd* — eerder afgelopen tijd." },
+        { "speaker": "You", "nl": "Nou, je bent er nu. Dat telt ook.", "en": "Well, you're here now. That counts too." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Wat was er misgegaan?",
+      "questions": [
+        { "q": "Waarom was Bram te laat?", "options": ["Zijn trein was al weg en meer ging mis", "Hij had geen zin", "Hij was ziek"], "correct": 0 },
+        { "q": "Wat had Bram thuis laten liggen?", "options": ["Zijn telefoon", "Zijn OV-kaart", "Zijn jas"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Vertel over een dag waarop alles al misgegaan wás voordat hij goed begon. Gebruik de voltooid verleden tijd (*had/was + deelwoord*) minstens drie keer. In het Nederlands, minstens drie zinnen.",
+      "starters": ["Die ochtend was alles al misgegaan.", "Toen ik …, had ik al …", "De … was al … toen ik …"],
+      "minSentences": 3
+    }
+  ]
+}

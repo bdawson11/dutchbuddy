@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "day-93",
+  "day": 93,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "lesson",
+  "title": "Il periodo ipotetico II: la possibilità",
+  "emoji": "🤔",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The possible conditional: se + congiuntivo imperfetto, condizionale — se avessi tempo, verrei",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il periodo ipotetico II: la possibilità",
+      "body": "Type two — for things that are **possible but not real right now**, or unlikely. Structure: **se + congiuntivo imperfetto**, **condizionale presente**. *Se **avessi** tempo, **verrei**.* *Se **fossi** in te, non lo **farei**.* You already know both halves: cong. imperfetto (day 86) + condizionale (day 60).",
+      "table": {
+        "headers": ["se + cong. imperfetto", "condizionale presente"],
+        "rows": [
+          ["Se avessi tempo,", "verrei."],
+          ["Se fossi ricco,", "viaggerei."],
+          ["Se potessi,", "ti aiuterei."]
+        ]
+      },
+      "callout": "*Se fossi in te…* ('if I were you…') è la formula per dare consigli."
+    },
+    {
+      "type": "card",
+      "title": "Reale vs possibile",
+      "body": "The difference from type I is **how likely** it is. *Se ho tempo, vengo* (tipo I) = probabilmente sì. *Se avessi tempo, verrei* (tipo II) = ma non ce l'ho, in realtà. Il tipo II mette le cose sul piano dell'ipotesi.",
+      "callout": "Mai *se avrei…* — nel 'se' va il congiuntivo, non il condizionale. Il condizionale sta nel risultato."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta e ripeti",
+      "items": [
+        { "nl": "Se avessi tempo, verrei con te.", "en": "If I had time, I'd come with you.", "speak": "Se avessi tempo, verrei con te." },
+        { "nl": "Se fossi in te, ci penserei.", "en": "If I were you, I'd think about it.", "speak": "Se fossi in te, ci penserei." },
+        { "nl": "Se potessi, partirei subito.", "en": "If I could, I'd leave right away.", "speak": "Se potessi, partirei subito." },
+        { "nl": "Se vincessi alla lotteria, comprerei una casa.", "en": "If I won the lottery, I'd buy a house.", "speak": "Se vincessi alla lotteria, comprerei una casa." },
+        { "nl": "Se sapessi la risposta, te la direi.", "en": "If I knew the answer, I'd tell you.", "speak": "Se sapessi la risposta, te la direi." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Tipo I vs Tipo II",
+      "pairs": [
+        { "left": "Se ho tempo, vengo.", "right": "Se avessi tempo, verrei.", "note": "tipo I = probabile; tipo II = ipotetico (ma non ce l'ho)." },
+        { "left": "Se fa freddo, resto.", "right": "Se facesse freddo, resterei.", "note": "congiuntivo imperfetto + condizionale nel tipo II." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Se ___ più tempo, imparerei anche il francese.»",
+      "options": ["ho", "avessi", "avrei"],
+      "correct": 1,
+      "explain": "Tipo II: la condizione vuole il congiuntivo imperfetto *avessi*. Mai *avrei* nel 'se'!"
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduci: 'If I were you, I wouldn't do it.' — usa *se fossi in te…*",
+      "answers": ["se fossi in te, non lo farei", "se fossi in te non lo farei"],
+      "hint": "se + fossi (cong. imperf.) → non lo farei (condizionale).",
+      "explain": "*Se fossi in te, non lo farei.* La formula classica per un consiglio."
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci una possibilità",
+      "prompt": "Metti insieme un periodo ipotetico di tipo II.",
+      "slots": [
+        { "label": "Se + cong. imperfetto", "chips": ["Se avessi tempo", "Se fossi ricco", "Se potessi", "Se vivessi in Italia"] },
+        { "label": "Condizionale presente", "chips": ["viaggerei di più", "ti aiuterei", "verrei subito", "parlerei meglio l'italiano"] }
+      ],
+      "sample": "Se avessi tempo, viaggerei di più."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Daydreaming with Giulia over coffee.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Se potessi vivere ovunque, dove andresti?", "en": "If you could live anywhere, where would you go?" },
+        { "speaker": "You", "nl": "Bella domanda. Se avessi i soldi, resterei in Italia.", "en": "Good question. If I had the money, I'd stay in Italy.", "spotlight": "tipo II: se avessi… resterei." },
+        { "speaker": "Giulia", "nl": "Ma dai! E cosa faresti?", "en": "Aw! And what would you do?" },
+        { "speaker": "You", "nl": "Se trovassi un buon lavoro, aprirei uno studio qui.", "en": "If I found a good job, I'd open a studio here." },
+        { "speaker": "Giulia", "nl": "Se fossi in te, ci proverei davvero.", "en": "If I were you, I'd really give it a shot.", "spotlight": "'se fossi in te' — un consiglio." },
+        { "speaker": "You", "nl": "Ci penso. Se non provassi, me ne pentirei.", "en": "I'm thinking about it. If I didn't try, I'd regret it." },
+        { "speaker": "Giulia", "nl": "Esatto! La vita è una.", "en": "Exactly! You only live once." },
+        { "speaker": "You", "nl": "Hai ragione. Magari un giorno.", "en": "You're right. Maybe one day." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Sogna un po': se avessi più tempo, più soldi o più coraggio, cosa faresti? Scrivi tre frasi di tipo II (*se + congiuntivo imperfetto, condizionale*).",
+      "starters": ["Se avessi più tempo,…", "Se potessi,…", "Se fossi…,"],
+      "minSentences": 3
+    }
+  ]
+}

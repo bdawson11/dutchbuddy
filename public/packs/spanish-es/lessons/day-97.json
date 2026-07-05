@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "day-97",
+  "day": 97,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "review",
+  "title": "Los caminos que no tomamos",
+  "emoji": "🍺",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Week 14 review woven into a reflective bar chat with Rafa about roads not taken and conjecture.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso de la semana 14",
+      "body": "Esta semana has completado el **sistema condicional**: el condicional compuesto (*habría hecho*), la hipótesis irreal del presente (*si tuviera, iría*), la del pasado (*si hubiera sabido, habría venido*), las **mixtas** (*si hubiera…, ahora sería…*) y el **reproche** (*deberías haber…*). Y de propina, la **conjetura** (*serán las diez, tendría veinte años*). Hoy todo eso sale solo, en una charla de bar.",
+      "callout": "El 'y si…' es la conversación más humana que existe. Ya la puedes tener en español."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Repaso rápido: «Si me ___ caso, no estaríamos así.» (hacer, tú)",
+      "options": ["hicieras", "hubieras hecho", "harías", "haces"],
+      "correct": 1,
+      "explain": "Mixta: condición pasada (*hubieras hecho caso*) con resultado presente (*no estaríamos*). Pasado que *hubiera* + presente que *estaría*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "A quiet evening. Rafa gets philosophical over a beer.",
+      "lines": [
+        { "speaker": "Rafa", "nl": "¿Tú alguna vez piensas en cómo sería tu vida si no te hubieras mudado aquí?", "en": "Do you ever think about what your life would be like if you hadn't moved here?" },
+        { "speaker": "You", "nl": "Buah, constantemente. Si me hubiera quedado en mi país, ahora tendría un trabajo estable… y me aburriría como una ostra.", "en": "Ugh, all the time. If I'd stayed in my country, I'd have a stable job now… and I'd be bored stiff.", "spotlight": "Mixta: *si me hubiera quedado* (pasado) → *tendría, aburriría* (presente)." },
+        { "speaker": "Rafa", "nl": "Ya ves. Yo, si hubiera hecho caso a mis padres, habría estudiado Derecho.", "en": "Right? Me, if I'd listened to my parents, I'd have studied Law." },
+        { "speaker": "You", "nl": "¿Y no te arrepientes?", "en": "And you don't regret it?" },
+        { "speaker": "Rafa", "nl": "A veces. Podría haber ganado más pasta, pero no habría tocado en mi vida.", "en": "Sometimes. I could've earned more money, but I'd never have played music.", "spotlight": "*podría haber ganado* (reproche a uno mismo) + *habría tocado* (resultado irreal)." },
+        { "speaker": "You", "nl": "En el fondo hiciste bien. Si no te arriesgaras, no serías tú.", "en": "Deep down you did the right thing. If you didn't take risks, you wouldn't be you." },
+        { "speaker": "Rafa", "nl": "Anda, qué profundo te has puesto. Serán las copas.", "en": "Well, aren't you deep tonight. Must be the drinks.", "spotlight": "*serán las copas*: futuro de probabilidad, pura conjetura." },
+        { "speaker": "You", "nl": "Serán, sí. Pero lo digo en serio, ¿eh?", "en": "Probably, yeah. But I mean it, you know?" },
+        { "speaker": "Rafa", "nl": "Ya, ya. Ojalá lo hubiéramos hablado antes, tío.", "en": "Sure, sure. I wish we'd talked about this sooner, man." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Has seguido la charla?",
+      "questions": [
+        { "q": "Si You se hubiera quedado en su país, ¿cómo se sentiría?", "options": ["Aburrido/a", "Feliz y realizado/a", "Más rico y contento/a"], "correct": 0 },
+        { "q": "¿Por qué no se arrepiente Rafa del todo?", "options": ["Porque ganó mucho dinero", "Porque, si no, no habría tocado música", "Porque estudió Derecho"], "correct": 1 },
+        { "q": "¿Qué quiere decir Rafa con «Serán las copas»?", "options": ["Es una certeza", "Es una conjetura: probablemente sea el alcohol", "Es una orden"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa el reproche a uno mismo: «___ haber estudiado más idiomas de joven.» (deber, yo)",
+      "answers": ["Debería", "debería", "deberia"],
+      "hint": "Condicional de deber + haber + participio.",
+      "explain": "**Debería haber estudiado más idiomas.** El clásico lamento maduro: *debería haber + participio*."
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe tu propia reflexión sobre 'los caminos que no tomaste'. Usa al menos: una condicional del pasado (*si hubiera…, habría…*), una mixta (*si hubiera…, ahora…*) y una conjetura (*serán…, sería…*).",
+      "starters": ["Si no me hubiera…", "Si hubiera tomado otro camino, ahora…", "A veces pienso que debería haber…", "Serían otras las cosas si…"],
+      "minSentences": 4
+    }
+  ]
+}

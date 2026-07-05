@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "day-94",
+  "day": 94,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "lesson",
+  "title": "Il periodo ipotetico III: l'irrealtà nel passato",
+  "emoji": "😔",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The impossible past conditional: se avessi saputo, sarei venuto — the grammar of regret",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il periodo ipotetico III: l'irrealtà nel passato",
+      "body": "Type three — for what **could have happened but didn't**. This is the grammar of **regret**. Structure: **se + congiuntivo trapassato**, **condizionale passato**. *Se **avessi saputo**, **sarei venuto*** — if I had known, I would have come (but I didn't know, so I didn't come).",
+      "table": {
+        "headers": ["se + cong. trapassato", "condizionale passato"],
+        "rows": [
+          ["Se avessi saputo,", "sarei venuto."],
+          ["Se avessi studiato,", "avrei passato l'esame."],
+          ["Se fossimo partiti prima,", "non avremmo perso il treno."]
+        ]
+      },
+      "callout": "Tutto è già successo (o non successo). È il tempo del 'se solo avessi…'."
+    },
+    {
+      "type": "card",
+      "title": "Le tre 'se' a confronto",
+      "body": "The whole system, side by side. **I (reale):** *Se piove, resto.* **II (possibile):** *Se piovesse, resterei.* **III (irreale, passato):** *Se fosse piovuto, sarei rimasto.* Ogni gradino si allontana di più dalla realtà.",
+      "table": {
+        "headers": ["tipo", "condizione", "risultato"],
+        "rows": [
+          ["I reale", "Se piove", "resto"],
+          ["II possibile", "Se piovesse", "resterei"],
+          ["III irreale (passato)", "Se fosse piovuto", "sarei rimasto"]
+        ]
+      },
+      "callout": "Nel tipo III entrambe le metà guardano al passato."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta e ripeti",
+      "items": [
+        { "nl": "Se avessi saputo, sarei venuto.", "en": "If I'd known, I'd have come.", "speak": "Se avessi saputo, sarei venuto." },
+        { "nl": "Se avessi studiato, avrei passato l'esame.", "en": "If I'd studied, I'd have passed the exam.", "speak": "Se avessi studiato, avrei passato l'esame." },
+        { "nl": "Se me l'avessi detto, ti avrei aiutato.", "en": "If you'd told me, I'd have helped you.", "speak": "Se me l'avessi detto, ti avrei aiutato." },
+        { "nl": "Se fossimo partiti prima, non avremmo perso il treno.", "en": "If we'd left earlier, we wouldn't have missed the train.", "speak": "Se fossimo partiti prima, non avremmo perso il treno." },
+        { "nl": "Se avesse piovuto, saremmo rimasti a casa.", "en": "If it had rained, we'd have stayed home.", "speak": "Se avesse piovuto, saremmo rimasti a casa." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Possibile (adesso) vs perso (allora)",
+      "pairs": [
+        { "left": "Se avessi tempo, verrei.", "right": "Se avessi avuto tempo, sarei venuto.", "note": "tipo II = ancora possibile; tipo III = occasione ormai passata." },
+        { "left": "Se studiassi, passeresti.", "right": "Se avessi studiato, avresti passato.", "note": "il tipo III è tutto al passato: il treno è passato." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Ieri non ti ho chiamato perché non avevo il numero. Se ___, ti avrei chiamato.»",
+      "options": ["l'avessi avuto", "l'avessi", "l'avrei avuto"],
+      "correct": 0,
+      "explain": "Tipo III: la condizione vuole il congiuntivo trapassato *l'avessi avuto* (già passato). Mai *avrei* nel 'se'."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduci: 'If I had known, I would have come.' — tipo III.",
+      "answers": ["se avessi saputo, sarei venuto", "se avessi saputo sarei venuto"],
+      "hint": "se + avessi saputo (cong. trapassato) → sarei venuto (cond. passato).",
+      "explain": "*Se avessi saputo, sarei venuto.* La frase-simbolo del rimpianto italiano."
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci un rimpianto",
+      "prompt": "Metti insieme un periodo ipotetico di tipo III.",
+      "slots": [
+        { "label": "Se + cong. trapassato", "chips": ["Se avessi saputo", "Se avessi studiato", "Se fossi partito prima", "Se me l'avessi detto"] },
+        { "label": "Condizionale passato", "chips": ["sarei venuto", "avrei passato l'esame", "non avrei perso il treno", "ti avrei aiutato"] }
+      ],
+      "sample": "Se avessi saputo, sarei venuto."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You bump into Giulia, who missed a party you were at.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Non sapevo che ci fosse la festa da Marco ieri!", "en": "I didn't know there was a party at Marco's yesterday!" },
+        { "speaker": "You", "nl": "Peccato! Se te l'avessi detto, saresti venuta.", "en": "Shame! If I'd told you, you'd have come.", "spotlight": "tipo III: se avessi detto… saresti venuta." },
+        { "speaker": "Giulia", "nl": "Eh, se avessi saputo, avrei cambiato i piani.", "en": "Yeah, if I'd known, I'd have changed my plans." },
+        { "speaker": "You", "nl": "C'era anche Sofia, venuta apposta da Milano.", "en": "Sofia was there too, came up specially from Milan." },
+        { "speaker": "Giulia", "nl": "Ma no! Se me l'avessi scritto, sarei corsa lì.", "en": "No way! If you'd texted me, I'd have rushed over.", "spotlight": "'se avessi scritto… sarei corsa' — rimpianto." },
+        { "speaker": "You", "nl": "Mi dispiace davvero. La prossima volta ti avviso.", "en": "I'm really sorry. Next time I'll let you know." },
+        { "speaker": "Giulia", "nl": "Va bene, dai. Non potevi sapere.", "en": "It's okay, come on. You couldn't have known." },
+        { "speaker": "You", "nl": "Ci facciamo un caffè per rimediare?", "en": "Shall we grab a coffee to make up for it?" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Pensa a un'occasione persa. Scrivi tre frasi di tipo III (*se avessi…, sarei/avrei…*). Cosa sarebbe successo?",
+      "starters": ["Se avessi saputo,…", "Se fossi…,", "Se me l'avessero detto,…"],
+      "minSentences": 3
+    }
+  ]
+}

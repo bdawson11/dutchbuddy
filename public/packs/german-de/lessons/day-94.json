@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-94",
+  "day": 94,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "lesson",
+  "title": "Wenn Konjunktiv I versagt: die Ausweichform",
+  "emoji": "🔀",
+  "level": "B2",
+  "durationMin": [20, 30],
+  "summary": "The native repair: when Konjunktiv I looks identical to the indicative (plural and ich), hop to Konjunktiv II — sie sagten, sie hätten.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Das Problem: habe = habe",
+      "body": "Der Konjunktiv I hat eine Schwäche. In der **3. Person Singular** ist er klar (*er hat* → *er habe*). Aber im **Plural** und in der **1. Person** sieht er oft **genau wie der Indikativ** aus: *sie haben* (Indikativ) = *sie haben* (Konjunktiv I). Dann merkt niemand, dass du berichtest. Die Lösung der Muttersprachler: **auf den Konjunktiv II ausweichen** — *sie **hätten***.",
+      "callout": "Ausnahme: sein hat auch im Plural eine eigene Form — seien (nicht sind). Da musst du nicht ausweichen."
+    },
+    {
+      "type": "card",
+      "title": "Wann bleiben, wann ausweichen",
+      "body": "Faustregel: **3. Person Singular → Konjunktiv I** (klingt anders als der Indikativ). **Plural und ich → Konjunktiv II** (weil Konjunktiv I dort wie der Indikativ klingt).",
+      "table": {
+        "headers": ["Person", "Konjunktiv I", "Klingt wie Indikativ?", "Man sagt"],
+        "rows": [
+          ["er/sie hat", "habe", "nein", "habe (Konj. I)"],
+          ["ich habe", "habe", "ja", "hätte (Konj. II)"],
+          ["wir/sie haben", "haben", "ja", "hätten (Konj. II)"]
+        ]
+      },
+      "callout": "Notfalls immer erlaubt: würde + Infinitiv (sie würden kommen). Nie falsch, nur manchmal etwas schlichter."
+    },
+    {
+      "type": "contrast",
+      "title": "Bleiben vs. ausweichen",
+      "pairs": [
+        { "left": "Er sagt, er habe keine Zeit. — 3rd sg: habe ≠ hat, stays Konjunktiv I", "right": "Sie sagen, sie hätten keine Zeit. — plural: haben = haben, so hop to hätten", "note": "If Konjunktiv I looks exactly like the indicative, escape to Konjunktiv II so the reported signal survives." },
+        { "left": "Er meint, er komme später.", "right": "Sie meinen, sie kämen später. / sie würden später kommen.", "note": "kommen = kommen in the plural, so kämen (short form) or the würde-escape." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Ausweichen im Ohr",
+      "items": [
+        { "nl": "Sie sagen, sie hätten keine Zeit.", "en": "They say they have no time.", "speak": "Sie sagen, sie hätten keine Zeit." },
+        { "nl": "Die Kollegen meinen, sie kämen später.", "en": "The colleagues reckon they'll come later.", "speak": "Die Kollegen meinen, sie kämen später." },
+        { "nl": "Er sagt, er sei dafür.", "en": "He says he's in favour.", "speak": "Er sagt, er sei dafür." },
+        { "nl": "Sie behaupten, sie würden das anders machen.", "en": "They claim they'd do it differently.", "speak": "Sie behaupten, sie würden das anders machen." },
+        { "nl": "Ich habe gesagt, ich hätte keine Ahnung.", "en": "I said I had no idea.", "speak": "Ich habe gesagt, ich hätte keine Ahnung." },
+        { "nl": "Sie meinen, sie hätten recht.", "en": "They think they're right.", "speak": "Sie meinen, sie hätten recht." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wie berichtest du klar? 'Wir haben keine Zeit', sagen sie.",
+      "options": [
+        "Sie sagen, sie haben keine Zeit.",
+        "Sie sagen, sie hätten keine Zeit.",
+        "Sie sagen, sie habe keine Zeit."
+      ],
+      "correct": 1,
+      "explain": "Im Plural ist Konjunktiv I (*haben*) identisch mit dem Indikativ — man weicht auf *hätten* (Konjunktiv II) aus. Option 3 (*habe*) ist Singular und passt nicht zu *sie*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Berichte klar: 'Wir haben keine Zeit', sagen sie. → Sie sagen, sie ___ keine Zeit.",
+      "answers": ["hätten", "Sie sagen, sie hätten keine Zeit", "sie hätten keine Zeit"],
+      "hint": "Plural von haben weicht auf Konjunktiv II aus.",
+      "explain": "*Sie sagen, sie hätten keine Zeit.* — weil *haben* = *haben* wäre, rettet *hätten* den Bericht."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe.",
+      "speak": "Die Kollegen meinen, sie hätten recht.",
+      "answers": ["Die Kollegen meinen, sie hätten recht"]
+    },
+    {
+      "type": "builder",
+      "title": "Eine Gruppe zitieren",
+      "prompt": "Bau einen berichteten Plural-Satz. Weil Konjunktiv I hier wie der Indikativ klänge, nimmst du die Ausweichform (hätten / kämen / würden).",
+      "slots": [
+        { "label": "Einleitung", "chips": ["Sie sagen,", "Die Kollegen meinen,", "Die anderen behaupten,"] },
+        { "label": "Aussage (Ausweich-Konjunktiv)", "chips": ["sie hätten keine Zeit", "sie kämen später", "sie würden lieber warten"] }
+      ],
+      "sample": "Die Kollegen meinen, sie hätten keine Zeit."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Jonas asks what the rest of the group thinks about a weekend trip. You report the mixed replies — mostly plural, so they hop to Konjunktiv II.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Und? Was sagen die anderen zum Ausflug?", "en": "So? What do the others say about the trip?" },
+        { "speaker": "You", "nl": "Gemischt. Lena und Aylin sagen, sie hätten am Samstag Zeit.", "en": "Mixed. Lena and Aylin say they have time on Saturday.", "spotlight": "Plural haben → hätten, or it would sound just like the indicative." },
+        { "speaker": "Jonas", "nl": "Und Klaus?", "en": "And Klaus?" },
+        { "speaker": "You", "nl": "Er meint, er komme vielleicht später.", "en": "He reckons he might come later.", "spotlight": "3rd person singular → Konjunktiv I stays: komme." },
+        { "speaker": "Jonas", "nl": "Typisch. Und der Preis?", "en": "Typical. And the price?" },
+        { "speaker": "You", "nl": "Die beiden sagen, sie würden lieber was Günstiges nehmen.", "en": "The two of them say they'd rather take something cheap.", "spotlight": "Plural nehmen → the würde-escape." },
+        { "speaker": "Jonas", "nl": "Okay. Also hätten wir grob einen Plan.", "en": "Okay. So we'd roughly have a plan." },
+        { "speaker": "You", "nl": "Genau. Ich hab gesagt, ich hätte nichts dagegen.", "en": "Exactly. I said I had nothing against it.", "spotlight": "1st person → hätte, because habe would sound like the indicative." },
+        { "speaker": "Jonas", "nl": "Super. Dann sag ihnen, sie sollen sich den Samstag freihalten.", "en": "Great. Then tell them to keep Saturday free.", "spotlight": "A request reported with sollen." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Berichte, was eine Gruppe (Freunde, Kollegen, Familie) über etwas denkt. Nutze mindestens drei Plural- oder Ich-Aussagen — da musst du auf den Konjunktiv II ausweichen (hätten, wären, kämen, würden …). Denk an die Ausnahme sein (seien).",
+      "starters": ["Sie sagen, sie hätten…", "Die anderen meinen, sie würden…", "Ich habe gesagt, ich hätte…", "Er sagt, er sei…"],
+      "minSentences": 3
+    }
+  ]
+}

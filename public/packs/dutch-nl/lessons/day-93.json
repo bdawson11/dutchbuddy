@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "day-93",
+  "day": 93,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "lesson",
+  "title": "Zou — het beleefde en het hypothetische",
+  "emoji": "🤔",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Conditional zou revisited and deepened: politeness, wishes, advice, and the future-in-the-past",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "*Zou* — vier smaken",
+      "body": "*Zou(den)* is de verleden vorm van *zullen*, maar je gebruikt hem vooral om iets **zachter of hypothetisch** te maken. Vier smaken: **beleefd** (*zou u kunnen…?*), **wens** (*ik zou graag…*), **advies** (*je zou moeten…*), en **toekomst in het verleden** (*hij zei dat hij zou komen*).",
+      "callout": "*zou* + hele werkwoord (infinitief): *ik zou willen*, *hij zou komen*."
+    },
+    {
+      "type": "chips",
+      "title": "Zou — tik om te horen",
+      "items": [
+        { "nl": "Zou je me kunnen helpen?", "en": "Could you help me?", "speak": "Zou je me kunnen helpen?" },
+        { "nl": "Ik zou graag een koffie willen.", "en": "I'd like a coffee.", "speak": "Ik zou graag een koffie willen." },
+        { "nl": "Je zou eens moeten uitrusten.", "en": "You should get some rest sometime.", "speak": "Je zou eens moeten uitrusten." },
+        { "nl": "Dat zou ik nooit doen.", "en": "I'd never do that.", "speak": "Dat zou ik nooit doen." },
+        { "nl": "Zou dat mogen?", "en": "Would that be allowed?", "speak": "Zou dat mogen?" },
+        { "nl": "We zouden het kunnen proberen.", "en": "We could give it a try.", "speak": "We zouden het kunnen proberen." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Direct tegenover met *zou*",
+      "pairs": [
+        { "left": "Help me even.", "right": "Zou je me even kunnen helpen?", "note": "*zou … kunnen* maakt van een bevel een beleefd verzoek." },
+        { "left": "Ik wil een afspraak.", "right": "Ik zou graag een afspraak willen.", "note": "*zou graag willen* = de nette wens." },
+        { "left": "Je moet stoppen.", "right": "Je zou echt moeten stoppen.", "note": "*zou moeten* = advies, minder hard dan *moeten*." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Toekomst in het verleden",
+      "body": "Verslag je iets wat iemand van plan wás? Dan wordt *zullen* → *zou*. *Hij zegt: 'Ik kom morgen.'* → *Hij zei dat hij de volgende dag **zou** komen.* Het is de 'toekomst', maar gezien vanuit het verleden."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Beleefd om hulp vragen aan een onbekende — wat past het best?",
+      "options": ["Help me.", "Kun je me helpen?", "Zou u me misschien kunnen helpen?"],
+      "correct": 2,
+      "explain": "*Zou u me misschien kunnen helpen?* — *zou* + *u* + *misschien* stapelt de beleefdheid. Precies goed voor een vreemde."
+    },
+    {
+      "type": "typed",
+      "prompt": "Maak beleefd met *zou*: *Kun je het raam opendoen?*",
+      "answers": ["Zou je het raam kunnen opendoen", "Zou je het raam kunnen opendoen?", "Zou je het raam open kunnen doen", "Zou je het raam open kunnen doen?"],
+      "hint": "*Zou je … kunnen* + werkwoord.",
+      "explain": "*Zou je het raam kunnen opendoen?* — meteen een stuk vriendelijker."
+    },
+    {
+      "type": "builder",
+      "title": "Bouw een beleefd verzoek of een wens",
+      "prompt": "Zet een zin met *zou* in elkaar.",
+      "slots": [
+        { "label": "Start", "chips": ["Zou je", "Ik zou graag", "We zouden"] },
+        { "label": "Kern", "chips": ["me kunnen", "een dag vrij willen", "het kunnen"] },
+        { "label": "Werkwoord", "chips": ["helpen?", "nemen.", "proberen."] }
+      ],
+      "sample": "Zou je me kunnen helpen?"
+    },
+    {
+      "type": "dialogue",
+      "scene": "Daan floats a vague plan for the weekend. Everything stays tentative.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Zeg, zou je zin hebben om zaterdag iets te doen?", "en": "Say, would you feel like doing something Saturday?" },
+        { "speaker": "You", "nl": "Misschien. Wat zou je willen?", "en": "Maybe. What would you like?" },
+        { "speaker": "Daan", "nl": "Ik zou wel naar dat nieuwe café willen. Of we zouden kunnen fietsen.", "en": "I'd fancy that new café. Or we could go cycling.", "spotlight": "*zou willen* (wens) + *zouden kunnen* (mogelijkheid)." },
+        { "speaker": "You", "nl": "Fietsen zou leuk zijn, als het niet regent.", "en": "Cycling would be nice, if it doesn't rain." },
+        { "speaker": "Daan", "nl": "Anders zouden we ook gewoon binnen kunnen blijven.", "en": "Otherwise we could just stay in." },
+        { "speaker": "You", "nl": "Zou kunnen. Ik zou het rond het weekend even laten weten.", "en": "Could be. I'd let you know around the weekend." },
+        { "speaker": "Daan", "nl": "Prima. Dan zou ik het aan Emma kunnen vragen.", "en": "Fine. Then I could ask Emma." },
+        { "speaker": "You", "nl": "Doe maar. Klinkt goed.", "en": "Go ahead. Sounds good." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Vage plannen",
+      "questions": [
+        { "q": "Wat zou Daan zaterdag willen doen?", "options": ["Werken", "Naar een café of fietsen", "Niets"], "correct": 1 },
+        { "q": "Wanneer laat You het weten?", "options": ["Nu meteen", "Rond het weekend", "Nooit"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf drie beleefde verzoeken of wensen met *zou* — voor situaties uit jouw leven (op je werk, in een winkel, bij de dokter). In het Nederlands, minstens drie zinnen.",
+      "starters": ["Zou u …", "Ik zou graag …", "We zouden …"],
+      "minSentences": 3
+    }
+  ]
+}

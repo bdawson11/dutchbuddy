@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "day-96",
+  "day": 96,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "lesson",
+  "title": "Rimpianti e desideri",
+  "emoji": "✨",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Wishes and regrets: magari + congiuntivo, se solo…, avrei dovuto/potuto/voluto",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Magari, se solo, avrei dovuto",
+      "body": "Three ready-made ways to say what you wish. **magari + congiuntivo** (a wish): *Magari **fossi** in vacanza!* (I wish I were on holiday!). **se solo…** (if only): *Se solo **avessi** più tempo!* And **avrei dovuto / potuto + infinito** (should have / could have): *Avrei **dovuto** studiare di più.*",
+      "callout": "Attenzione: qui *magari* significa 'I wish' + congiuntivo, non 'maybe'."
+    },
+    {
+      "type": "card",
+      "title": "I 'dovuti' del rimpianto",
+      "body": "The trio of hindsight: **avrei dovuto** (I should have), **avrei potuto** (I could have), **avrei voluto** (I would have liked). Condizionale passato del modale + infinito. *Avrei dovuto ascoltarti.* *Avresti potuto dirmelo!*",
+      "callout": "Con i verbi di movimento all'infinito: *sarei dovuto andare* (essere) accanto ad *avrei dovuto andare* — entrambi si sentono."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta e ripeti",
+      "items": [
+        { "nl": "Magari fossi in vacanza!", "en": "I wish I were on holiday!", "speak": "Magari fossi in vacanza!" },
+        { "nl": "Se solo avessi più tempo!", "en": "If only I had more time!", "speak": "Se solo avessi più tempo!" },
+        { "nl": "Avrei dovuto ascoltarti.", "en": "I should have listened to you.", "speak": "Avrei dovuto ascoltarti." },
+        { "nl": "Avresti potuto dirmelo!", "en": "You could have told me!", "speak": "Avresti potuto dirmelo!" },
+        { "nl": "Vorrei tanto che tu fossi qui.", "en": "I so wish you were here.", "speak": "Vorrei tanto che tu fossi qui." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Desiderio vs rimprovero (a se stessi)",
+      "pairs": [
+        { "left": "Magari fossi ricco!", "right": "Avrei dovuto risparmiare.", "note": "a sinistra un desiderio; a destra un rimpianto/rimprovero." },
+        { "left": "Se solo potessi!", "right": "Avresti potuto avvisarmi.", "note": "'se solo' + congiuntivo; 'avresti potuto' + infinito." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«___ studiato di più al liceo!» (rimpianto: I should have)",
+      "options": ["Avrei dovuto", "Dovrei", "Ho dovuto"],
+      "correct": 0,
+      "explain": "*Avrei dovuto studiare* = 'I should have studied'. Condizionale passato del modale + infinito."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduci: 'If only I had more time!' — usa *se solo*.",
+      "answers": ["se solo avessi più tempo", "se solo avessi piu tempo"],
+      "hint": "se solo + congiuntivo imperfetto (avessi).",
+      "explain": "*Se solo avessi più tempo!* Un desiderio irrealizzato, col congiuntivo."
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci un desiderio o un rimpianto",
+      "prompt": "Fai una frase di desiderio o di rimpianto.",
+      "slots": [
+        { "label": "Attacco", "chips": ["Magari", "Se solo", "Avrei dovuto", "Avrei voluto"] },
+        { "label": "Seguito", "chips": ["fossi in vacanza", "avessi più tempo", "studiare di più", "dirtelo prima"] }
+      ],
+      "sample": "Se solo avessi più tempo!"
+    },
+    {
+      "type": "dialogue",
+      "scene": "Marco is kicking himself over a missed opportunity with his band.",
+      "lines": [
+        { "speaker": "Marco", "nl": "Avrei dovuto accettare quel concerto, che stupido.", "en": "I should have taken that gig, how stupid." },
+        { "speaker": "You", "nl": "Dai, non potevi sapere come sarebbe andata.", "en": "Come on, you couldn't have known how it'd go." },
+        { "speaker": "Marco", "nl": "Magari avessi avuto più coraggio!", "en": "I wish I'd had more courage!", "spotlight": "'magari + congiuntivo' = un desiderio." },
+        { "speaker": "You", "nl": "Ti capisco. Anch'io avrei voluto rischiare di più, a volte.", "en": "I get it. I'd have liked to take more risks too, sometimes.", "spotlight": "'avrei voluto' — rammarico." },
+        { "speaker": "Marco", "nl": "Se solo avessi detto di sì… boh.", "en": "If only I'd said yes… dunno." },
+        { "speaker": "You", "nl": "Beh, avresti potuto. Ma ci saranno altre occasioni.", "en": "Well, you could have. But there'll be other chances." },
+        { "speaker": "Marco", "nl": "Speriamo. La prossima non me la faccio scappare.", "en": "Let's hope. I won't let the next one slip away." },
+        { "speaker": "You", "nl": "Così si dice! Ti offro da bere.", "en": "That's the spirit! Drinks on me." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi tre desideri o rimpianti: uno con *magari + congiuntivo*, uno con *se solo*, uno con *avrei dovuto/potuto*.",
+      "starters": ["Magari…", "Se solo…", "Avrei dovuto…"],
+      "minSentences": 3
+    }
+  ]
+}

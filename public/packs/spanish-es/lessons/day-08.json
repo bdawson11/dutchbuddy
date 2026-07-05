@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "day-08",
+  "day": 8,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Números del 0 al 100",
+  "emoji": "🔢",
+  "level": "A1",
+  "durationMin": [15, 22],
+  "summary": "Counting from zero to a hundred — cardinal numbers, the tricky teens, and the tens pattern",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Del cero al diez",
+      "body": "Los números en español son la base para hablar de precios, horas y edades. Empezamos por los primeros diez: son cortos y no cambian nunca.",
+      "table": {
+        "headers": ["Número", "Español"],
+        "rows": [
+          ["0", "cero"],
+          ["1", "uno"],
+          ["2", "dos"],
+          ["3", "tres"],
+          ["4", "cuatro"],
+          ["5", "cinco"],
+          ["6", "seis"],
+          ["7", "siete"],
+          ["8", "ocho"],
+          ["9", "nueve"],
+          ["10", "diez"]
+        ]
+      },
+      "callout": "*uno* se convierte en **un** delante de un sustantivo masculino: *un café*, no *uno café*."
+    },
+    {
+      "type": "card",
+      "title": "Del once al veinte — las excepciones",
+      "body": "Del **once al quince** cada número tiene su propia palabra: *once, doce, trece, catorce, quince*. Del **dieciséis al diecinueve** son *diez* + *y* + la unidad, escritos como una sola palabra: *dieciséis, diecisiete, dieciocho, diecinueve*. Y **veinte** vuelve a ser una palabra suelta.",
+      "table": {
+        "headers": ["Número", "Español"],
+        "rows": [
+          ["11", "once"],
+          ["12", "doce"],
+          ["13", "trece"],
+          ["14", "catorce"],
+          ["15", "quince"],
+          ["16", "dieciséis"],
+          ["17", "diecisiete"],
+          ["18", "dieciocho"],
+          ["19", "diecinueve"],
+          ["20", "veinte"]
+        ]
+      },
+      "callout": "Ojo con el acento: *dieciséis* lo lleva, *diecisiete* no."
+    },
+    {
+      "type": "chips",
+      "title": "Escucha y repite",
+      "items": [
+        { "nl": "quince", "en": "fifteen", "speak": "quince" },
+        { "nl": "dieciséis", "en": "sixteen", "speak": "dieciséis" },
+        { "nl": "veinte", "en": "twenty", "speak": "veinte" },
+        { "nl": "veintidós", "en": "twenty-two", "speak": "veintidós" },
+        { "nl": "treinta", "en": "thirty", "speak": "treinta" },
+        { "nl": "cien", "en": "one hundred", "speak": "cien" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Veintiuno... pero treinta y uno",
+      "body": "Del **veintiuno** al veintinueve los números se escriben **juntos, en una palabra**: *veintiuno, veintidós, veintitrés*… A partir de **treinta**, se escriben **separados con *y***: *treinta y uno, cuarenta y dos, cincuenta y tres*. Las decenas: *treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien*.",
+      "callout": "Nada de *veinte y dos* — eso ya no se usa en España. Aquí: *veintidós*, todo junto."
+    },
+    {
+      "type": "contrast",
+      "title": "Veintidós vs. treinta y dos",
+      "pairs": [
+        { "left": "veintidós — una palabra, sin espacio", "right": "treinta y dos — tres palabras, con *y*", "note": "La frontera está en el 30: antes se funden, después se separan." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cómo se escribe correctamente el número 25?",
+      "options": ["veinticinco", "veinte y cinco", "veinte cinco"],
+      "correct": 0,
+      "explain": "Entre el 21 y el 29 los números van juntos, en una sola palabra: **veinticinco**."
+    },
+    {
+      "type": "typed",
+      "prompt": "Escribe el número 47 en palabras.",
+      "answers": ["cuarenta y siete"],
+      "hint": "Es una decena (cuarenta) + *y* + la unidad (siete).",
+      "explain": "A partir de treinta, la decena y la unidad van separadas con *y*: **cuarenta y siete**."
+    },
+    {
+      "type": "dictation",
+      "speak": "sesenta y ocho",
+      "answers": ["sesenta y ocho"]
+    },
+    {
+      "type": "builder",
+      "title": "Construye el número",
+      "prompt": "Combina una decena con una unidad.",
+      "slots": [
+        { "label": "Decena", "chips": ["treinta", "cuarenta", "cincuenta"] },
+        { "label": "Unidad", "chips": ["y dos", "y tres", "y cuatro"] }
+      ],
+      "sample": "treinta y dos"
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, Rafa asks about ages — numbers in the wild",
+      "lines": [
+        { "speaker": "Rafa", "nl": "¿Cuántos años tienes?", "en": "How old are you?" },
+        { "speaker": "You", "nl": "Tengo treinta y dos años. ¿Y tú?", "en": "I'm thirty-two. And you?" },
+        { "speaker": "Rafa", "nl": "Yo tengo veintinueve. Todavía soy joven, ¿eh?", "en": "I'm twenty-nine. Still young, huh?", "spotlight": "tener + años is how Spanish states age — never ser." },
+        { "speaker": "Lucía", "nl": "Y yo, treinta y uno. ¡Venga, una foto de los tres!", "en": "And me, thirty-one. Come on, a photo of the three of us!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "¿Cuántos años tiene Rafa?", "options": ["Treinta y dos", "Veintinueve", "Treinta y uno"], "correct": 1 },
+        { "q": "¿Qué expresión usa el español para decir la edad?", "options": ["ser + número", "tener + número + años", "estar + número"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Practica los números: escribe tu edad, tu número de la suerte y un número entre 60 y 99, todos en palabras.",
+      "starters": ["Tengo…", "Mi número de la suerte es…"]
+    }
+  ]
+}

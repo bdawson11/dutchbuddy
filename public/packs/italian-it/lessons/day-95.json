@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "day-95",
+  "day": 95,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "lesson",
+  "title": "Il condizionale passato",
+  "emoji": "💭",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The past conditional: avrei voluto (would-have) and the future-in-the-past (ha detto che sarebbe venuto)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il condizionale passato",
+      "body": "You met it in the type-III 'if' sentence — now on its own. Form: **condizionale presente of avere/essere** (*avrei, sarei*) + participle. Two big jobs: **1) regret / would-have** (*Avrei voluto venire, ma non ho potuto*), and **2) the future-in-the-past** (below).",
+      "table": {
+        "headers": ["con avere", "con essere"],
+        "rows": [
+          ["avrei parlato", "sarei andato/a"],
+          ["avresti parlato", "saresti andato/a"],
+          ["avrebbe parlato", "sarebbe andato/a"],
+          ["avremmo parlato", "saremmo andati/e"],
+          ["avrebbero parlato", "sarebbero andati/e"]
+        ]
+      },
+      "callout": "*Avrei voluto* = 'I would have liked'. Il grande veicolo del rammarico gentile."
+    },
+    {
+      "type": "card",
+      "title": "Il futuro nel passato",
+      "body": "Here's the surprise: to say what **was going to happen** — a future seen from a past moment — Italian uses the **condizionale passato**, not the present. *Ha detto che **sarebbe venuto***: he said he **would come**. English uses 'would come'; Italian insists on the *passato*.",
+      "callout": "Marco ha detto che *sarebbe arrivato* alle otto. (English 'would arrive' → italiano: condizionale passato.)"
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta e ripeti",
+      "items": [
+        { "nl": "Avrei voluto venire, ma non ho potuto.", "en": "I'd have liked to come, but I couldn't.", "speak": "Avrei voluto venire, ma non ho potuto." },
+        { "nl": "Al posto tuo, non l'avrei fatto.", "en": "In your place, I wouldn't have done it.", "speak": "Al posto tuo, non l'avrei fatto." },
+        { "nl": "Ha detto che sarebbe venuto.", "en": "He said he would come.", "speak": "Ha detto che sarebbe venuto." },
+        { "nl": "Pensavo che avrebbe chiamato.", "en": "I thought he would call.", "speak": "Pensavo che avrebbe chiamato." },
+        { "nl": "Sarei uscito, ma pioveva.", "en": "I would have gone out, but it was raining.", "speak": "Sarei uscito, ma pioveva." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Rammarico vs futuro nel passato",
+      "pairs": [
+        { "left": "Avrei voluto aiutarti.", "right": "Sapevo che mi avresti aiutato.", "note": "a sinistra: rammarico; a destra: un futuro visto dal passato." },
+        { "left": "Sarei venuto volentieri.", "right": "Ha promesso che sarebbe venuto.", "note": "stesso tempo, due usi diversi del condizionale passato." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Marco mi ha detto che ___ alle otto.» (futuro visto dal passato)",
+      "options": ["viene", "sarebbe venuto", "verrebbe"],
+      "correct": 1,
+      "explain": "Il futuro nel passato in italiano è il **condizionale passato**: *sarebbe venuto*. (English 'would come'.)"
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduci: 'I would have liked to come.' — usa *volere*.",
+      "answers": ["avrei voluto venire", "sarei voluto venire"],
+      "hint": "condizionale di avere (avrei) + participio (voluto) + infinito.",
+      "explain": "*Avrei voluto venire.* Con i modali si accetta anche *sarei voluto venire*, seguendo l'ausiliare del verbo all'infinito."
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci col condizionale passato",
+      "prompt": "Fai una frase con il condizionale passato.",
+      "slots": [
+        { "label": "Soggetto / attacco", "chips": ["Avrei voluto", "Sarei venuto", "Ha detto che", "Pensavo che"] },
+        { "label": "Seguito", "chips": ["aiutarti di più", "ma non ho potuto", "sarebbe arrivato tardi", "avrebbe chiamato"] }
+      ],
+      "sample": "Avrei voluto aiutarti di più."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Sofia calls from Milano; you'd hoped to visit.",
+      "lines": [
+        { "speaker": "Sofia", "nl": "Peccato che non sei venuto a Milano il weekend scorso!", "en": "Shame you didn't come to Milan last weekend!" },
+        { "speaker": "You", "nl": "Lo so. Sarei venuto volentieri, ma avevo troppo lavoro.", "en": "I know. I'd have gladly come, but I had too much work.", "spotlight": "condizionale passato: rammarico." },
+        { "speaker": "Sofia", "nl": "Ti avevo detto che ti avrei fatto da guida!", "en": "I told you I'd show you around!", "spotlight": "'avrei fatto' — futuro nel passato." },
+        { "speaker": "You", "nl": "Me l'avevi promesso, è vero. Avrei dovuto organizzarmi meglio.", "en": "You'd promised, true. I should have organized myself better." },
+        { "speaker": "Sofia", "nl": "Vabbè. Pensavo che saresti arrivato di sabato.", "en": "Oh well. I thought you'd arrive on Saturday." },
+        { "speaker": "You", "nl": "Sarebbe stato perfetto. La prossima volta vengo di sicuro.", "en": "It would have been perfect. Next time I'll definitely come." },
+        { "speaker": "Sofia", "nl": "Bene! Ti aspetto.", "en": "Good! I'll be waiting." },
+        { "speaker": "You", "nl": "Promesso. Un bacio, Sofia!", "en": "Promise. Hugs, Sofia!" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi tre frasi col condizionale passato: una di rammarico (*avrei voluto…*) e una col futuro nel passato (*avevo detto che sarei…*).",
+      "starters": ["Avrei voluto…", "Sarei venuto/a, ma…", "Avevo detto che sarei…"],
+      "minSentences": 3
+    }
+  ]
+}

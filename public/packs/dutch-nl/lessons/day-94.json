@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "day-94",
+  "day": 94,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "lesson",
+  "title": "Als het anders was — de irreële voorwaarde",
+  "emoji": "🔀",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The counterfactual conditional: present/future unreal (als + past, zou + infinitive) and past unreal (als + pluperfect, conditional perfect)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "De irreële voorwaarde",
+      "body": "Praat je over iets wat **niet echt zo is** (of niet zo was)? Dan gebruik je de irreële voorwaarde. **Nu/altijd:** *als* + verleden tijd, dan *zou* + infinitief. *Als ik meer tijd **had**, **zou** ik meer **lezen**.* **In het verleden:** *als* + vvt, dan *zou* + *hebben/zijn* + deelwoord. *Als ik het **had geweten**, **zou** ik iets **hebben gezegd**.*",
+      "callout": "Verzonnen situatie → verleden tijd, ook al bedoel je 'nu'."
+    },
+    {
+      "type": "chips",
+      "title": "Wat als… — tik om te horen",
+      "items": [
+        { "nl": "Als ik rijk was, zou ik minder werken.", "en": "If I were rich, I'd work less.", "speak": "Als ik rijk was, zou ik minder werken." },
+        { "nl": "Als het niet regende, gingen we naar het strand.", "en": "If it weren't raining, we'd go to the beach.", "speak": "Als het niet regende, gingen we naar het strand." },
+        { "nl": "Als ik jou was, zou ik het doen.", "en": "If I were you, I'd do it.", "speak": "Als ik jou was, zou ik het doen." },
+        { "nl": "Had ik dat geweten, dan was ik gebleven.", "en": "Had I known that, I'd have stayed.", "speak": "Had ik dat geweten, dan was ik gebleven." },
+        { "nl": "Als je eerder had gebeld, had ik geholpen.", "en": "If you'd called earlier, I'd have helped.", "speak": "Als je eerder had gebeld, had ik geholpen." },
+        { "nl": "Zonder jou was het niet gelukt.", "en": "Without you it wouldn't have worked.", "speak": "Zonder jou was het niet gelukt." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Woordvolgorde — en de 'zou hebben'-vorm",
+      "body": "In de *als*-zin staat het werkwoord achteraan: *als ik het **geweten had*** (of *had geweten* — beide mogen). In de hoofdzin komt de **voltooid conditionalis**: *zou* + *hebben/zijn* + deelwoord — *dan zou ik zijn **gekomen***. Vaak korten Nederlanders in tot alleen de vvt: *dan was ik gekomen*.",
+      "callout": "*zou zijn gegaan* / *zou hebben gedaan* — zelfde *hebben/zijn*-keuze als altijd."
+    },
+    {
+      "type": "contrast",
+      "title": "Reëel tegenover irreëel",
+      "pairs": [
+        { "left": "Als het regent, blijf ik thuis.", "right": "Als het regende, zou ik thuisblijven.", "note": "Links: echte kans (tegenwoordige tijd). Rechts: hypothetisch (verleden tijd + zou)." },
+        { "left": "Als ik tijd heb, bel ik je.", "right": "Als ik tijd had, zou ik je bellen.", "note": "Van reëel naar irreëel: alleen door de tijd te verschuiven." },
+        { "left": "Ik kom als ik kan.", "right": "Ik was gekomen als ik had gekund.", "note": "Verleden irreëel: het is niet gebeurd." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Als ik het eerder ___, had ik je gewaarschuwd.* Welke past?",
+      "options": ["weet", "wist", "had geweten"],
+      "correct": 2,
+      "explain": "Verleden irreëel: *als* + vvt → *had geweten*, met in de hoofdzin *had ik gewaarschuwd*. Het is niet gebeurd, dus vvt."
+    },
+    {
+      "type": "typed",
+      "prompt": "Maak de irreële zin af: *Als ik meer tijd had, … (ik / meer lezen).*",
+      "answers": ["zou ik meer lezen", "zou ik meer lezen.", "Als ik meer tijd had, zou ik meer lezen", "las ik meer"],
+      "hint": "hoofdzin: *zou* + ik + infinitief.",
+      "explain": "*Als ik meer tijd had, zou ik meer lezen* (of *…las ik meer*). Verzonnen 'nu' → verleden tijd + *zou*."
+    },
+    {
+      "type": "builder",
+      "title": "Bouw een irreële voorwaarde",
+      "prompt": "Zet een 'als… dan zou…'-zin over jouw leven in elkaar.",
+      "slots": [
+        { "label": "Als … (voorwaarde, verleden tijd)", "chips": ["Als ik meer geld had", "Als ik vloeiend Nederlands sprak", "Als ik meer tijd had"] },
+        { "label": "dan zou ik …", "chips": ["dan zou ik een jaar reizen", "dan zou ik hier solliciteren", "dan zou ik een boek schrijven"] }
+      ],
+      "sample": "Als ik vloeiend Nederlands sprak, zou ik hier solliciteren."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Sanne, over from Utrecht for the day, wonders aloud how things might have gone differently.",
+      "lines": [
+        { "speaker": "Sanne", "nl": "Weet je, soms denk ik: als ik niet naar Utrecht was verhuisd, was alles anders geweest.", "en": "You know, sometimes I think: if I hadn't moved to Utrecht, everything would've been different.", "spotlight": "Verleden irreëel: *als … was verhuisd, was … geweest*." },
+        { "speaker": "You", "nl": "Denk je? Je bent er toch gelukkig?", "en": "You think? You're happy there, right?" },
+        { "speaker": "Sanne", "nl": "Heel gelukkig. Maar als ik toen 'nee' had gezegd, had ik jullie vaker gezien.", "en": "Very happy. But if I'd said 'no' back then, I'd have seen you all more often." },
+        { "speaker": "You", "nl": "Dat is waar. Al zou je die baan gemist hebben.", "en": "That's true. Though you'd have missed that job." },
+        { "speaker": "Sanne", "nl": "Precies. En zonder die baan had ik mijn beste vrienden daar niet ontmoet.", "en": "Exactly. And without that job I wouldn't have met my best friends there." },
+        { "speaker": "You", "nl": "Zie je. Het is goed zo gelopen.", "en": "See. It turned out well." },
+        { "speaker": "Sanne", "nl": "Ja. Al zou ik zonder de verhuizing waarschijnlijk nog in de Pijp wonen.", "en": "Yeah. Though without the move I'd probably still live in de Pijp." },
+        { "speaker": "You", "nl": "En dan hadden we nu geen excuus om naar Utrecht te fietsen.", "en": "And then we'd have no excuse to cycle to Utrecht now." },
+        { "speaker": "Sanne", "nl": "Haha, precies. Dan was er iets belangrijks verloren gegaan.", "en": "Haha, exactly. Then something important would've been lost." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Wat als Sanne was gebleven?",
+      "questions": [
+        { "q": "Is Sanne gelukkig in Utrecht?", "options": ["Ja, heel gelukkig", "Nee, ze wil terug", "Ze twijfelt sterk"], "correct": 0 },
+        { "q": "Wat had Sanne zonder de baan niet gehad?", "options": ["Een fiets", "Haar beste vrienden daar", "Een huis"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Denk terug aan een keuze in je leven. Schrijf: hoe zou het gelopen zijn als je iets anders had gedaan? Gebruik de irreële voorwaarde (*als ik … had …, zou ik … hebben …*). In het Nederlands, minstens drie zinnen.",
+      "starters": ["Als ik toen … had …", "Dan zou ik … hebben …", "Zonder … was …"],
+      "minSentences": 3
+    }
+  ]
+}
