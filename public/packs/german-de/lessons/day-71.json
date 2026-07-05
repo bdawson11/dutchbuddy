@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "day-71",
+  "day": 71,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Verben mit fester Präposition",
+  "emoji": "🔗",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The verb-preposition pairs (warten auf, denken an, sich freuen auf/über) — and the fixed case each one drags along",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Manche Verben kleben an einer Präposition",
+      "body": "Lots of German verbs come **glued to a fixed preposition**, and that preposition drags a **fixed case** you just have to learn as a pair. *warten* alone isn't enough — it's *warten* **auf** + Akkusativ: *Ich warte auf den Bus.* The case here is **lexical**, not the *wohin/wo* rule — memorise the whole unit: verb + preposition + case.",
+      "table": {
+        "headers": ["Verb + Präposition", "Fall", "Beispiel"],
+        "rows": [
+          ["warten auf", "Akkusativ", "Ich warte auf den Bus."],
+          ["denken an", "Akkusativ", "Ich denke an dich."],
+          ["sich freuen auf", "Akkusativ", "Ich freue mich auf das Wochenende."],
+          ["Angst haben vor", "Dativ", "Ich habe Angst vor der Prüfung."],
+          ["träumen von", "Dativ", "Ich träume von einem Haus."]
+        ]
+      },
+      "callout": "Learn the preposition and the case in one breath: *warten-auf-Akkusativ*."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the pairs in action",
+      "items": [
+        { "nl": "Ich interessiere mich für Architektur.", "en": "I'm interested in architecture.", "speak": "Ich interessiere mich für Architektur." },
+        { "nl": "Ich ärgere mich über den Regen.", "en": "I'm annoyed about the rain.", "speak": "Ich ärgere mich über den Regen." },
+        { "nl": "Erinnerst du dich an Aylin?", "en": "Do you remember Aylin?", "speak": "Erinnerst du dich an Aylin?" },
+        { "nl": "Ich kümmere mich um die Kinder.", "en": "I look after the kids.", "speak": "Ich kümmere mich um die Kinder." },
+        { "nl": "Wir sprechen über die Arbeit.", "en": "We're talking about work.", "speak": "Wir sprechen über die Arbeit." },
+        { "nl": "Ich nehme an dem Kurs teil.", "en": "I'm taking part in the course.", "speak": "Ich nehme an dem Kurs teil." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Same verb, two prepositions, two meanings",
+      "pairs": [
+        { "left": "Ich freue mich auf das Wochenende.", "right": "Ich freue mich über dein Geschenk.", "note": "*sich freuen auf* + Akk = look forward to something **still coming**. *sich freuen über* + Akk = be happy about something **already here**." },
+        { "left": "Ich denke an dich. (Akk)", "right": "Ich träume von dir. (Dat)", "note": "*denken an* takes Akkusativ, *träumen von* takes Dativ. The preposition decides the case — there's no shortcut but memory." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Ask back: thing vs person",
+      "body": "To ask about the object of these verbs, you split by **thing** or **person**. For a **thing**, fuse *wo(r)-* onto the preposition: *Woran denkst du?* For a **person**, keep the preposition and add *wen/wem*: *An wen denkst du?* Same trick for answers with *da(r)-*: *Ich denke **daran**.* (I'm thinking about it.)",
+      "table": {
+        "headers": ["Sache (thing)", "Person"],
+        "rows": [
+          ["Woran denkst du?", "An wen denkst du?"],
+          ["Worauf wartest du?", "Auf wen wartest du?"]
+        ]
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Vervollständige: „Ich freue mich schon ___ das Konzert am Samstag.“",
+      "options": ["über", "auf", "an", "von"],
+      "correct": 1,
+      "explain": "The concert is **still coming**, so it's *sich freuen* **auf** + Akkusativ: *auf das Konzert*. *über* would mean you're happy about something that already happened."
+    },
+    {
+      "type": "typed",
+      "prompt": "Schreib auf Deutsch: „I'm waiting for the bus.“ (Bus = der)",
+      "answers": ["Ich warte auf den Bus.", "Ich warte auf den Bus", "Ich warte auf den Bus (Akkusativ)"],
+      "hint": "warten auf + Akkusativ — and *der Bus* → *den Bus*.",
+      "explain": "*Ich warte auf den Bus.* — *auf* here is lexical (part of the verb), and it takes the Akkusativ: *der → den*."
+    },
+    {
+      "type": "builder",
+      "title": "Bau einen Satz mit fester Präposition",
+      "prompt": "Build: 'I'm interested in the new course.' Watch the case after *für*.",
+      "slots": [
+        { "label": "Subjekt + Verb", "chips": ["Ich interessiere mich", "Ich freue mich"] },
+        { "label": "Präposition", "chips": ["für", "auf", "über"] },
+        { "label": "Objekt (Akkusativ)", "chips": ["den neuen Kurs", "das neue Projekt", "die neue Stadt"] }
+      ],
+      "sample": "Ich interessiere mich für den neuen Kurs."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena messages you on a Thursday, already half into the weekend in her head.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Na? Freust du dich schon aufs Wochenende?", "en": "Hey! Looking forward to the weekend already?", "spotlight": "*aufs* = *auf das*. *sich freuen auf* + Akkusativ — something still to come." },
+        { "speaker": "You", "nl": "Total. Ich freue mich riesig auf den Samstag. Und du?", "en": "Totally. I'm super excited about Saturday. And you?" },
+        { "speaker": "Lena", "nl": "Ja, aber ich ärgere mich über das Wetter — es soll regnen.", "en": "Yeah, but I'm annoyed about the weather — it's supposed to rain." },
+        { "speaker": "You", "nl": "Quatsch, denk nicht an den Regen. Woran denkst du sonst noch?", "en": "Nonsense, don't think about the rain. What else are you thinking about?", "spotlight": "*Woran* asks about a **thing**; *denken an* keeps its Akkusativ." },
+        { "speaker": "Lena", "nl": "Also, ich interessiere mich neuerdings für Töpfern. Es gibt einen Kurs.", "en": "Well, I've recently gotten into pottery. There's a course." },
+        { "speaker": "You", "nl": "Echt? Nimmst du an dem Kurs teil?", "en": "Really? Are you taking part in the course?", "spotlight": "*teilnehmen an* + Dativ: *an dem Kurs*. The separable *teil-* jumps to the end." },
+        { "speaker": "Lena", "nl": "Vielleicht. Ich warte noch auf die Antwort von der Lehrerin.", "en": "Maybe. I'm still waiting for the teacher's reply." },
+        { "speaker": "You", "nl": "Cool! Ich drücke dir die Daumen.", "en": "Cool! Fingers crossed for you." }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und schreib den Satz.",
+      "speak": "Ich denke oft an meine Familie.",
+      "answers": ["Ich denke oft an meine Familie.", "Ich denke oft an meine Familie"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Worauf freust du dich gerade? Woran denkst du oft? Schreib drei Sätze mit festen Verb-Präpositionen (z. B. *sich freuen auf*, *denken an*, *sich interessieren für*).",
+      "starters": ["Ich freue mich auf…", "Ich denke oft an…", "Ich interessiere mich für…"],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "day-26",
+  "day": 26,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Al mercato",
+  "emoji": "🛒",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Market and supermarket quantities — un etto, un chilo, una fetta — and paying.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Etto, chilo, fetta",
+      "body": "At an Italian market or deli counter, quantities come in specific units: **un etto** (100 grams — the classic deli unit for cured meats and cheese), **un chilo** (1 kilogram), **una fetta** (a slice), and **un pacco** (a pack/package). You can lead with the request yourself: **'Mi dà un etto di prosciutto, per favore.'**",
+      "callout": "*Un etto* is doing a lot of work here — ask for *cento grammi* and you'll get a smile, but *un etto* is what people actually say."
+    },
+    {
+      "type": "chips",
+      "title": "Le quantità — ascolta",
+      "items": [
+        { "nl": "un etto di prosciutto", "en": "100g of prosciutto", "speak": "un etto di prosciutto" },
+        { "nl": "un chilo di mele", "en": "a kilo of apples", "speak": "un chilo di mele" },
+        { "nl": "una fetta di torta", "en": "a slice of cake", "speak": "una fetta di torta" },
+        { "nl": "un pacco di pasta", "en": "a pack of pasta", "speak": "un pacco di pasta" },
+        { "nl": "mezzo chilo di pomodori", "en": "half a kilo of tomatoes", "speak": "mezzo chilo di pomodori" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Le quantità",
+      "body": "Match the unit to what you're buying — weight for deli and produce, pieces for baked goods.",
+      "table": {
+        "headers": ["Quantità", "Uso tipico"],
+        "rows": [
+          ["un etto", "affettati, formaggio"],
+          ["un chilo / mezzo chilo", "frutta, verdura"],
+          ["una fetta", "torta, pane"],
+          ["un pacco", "pasta, biscotti"]
+        ]
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "How many grams are in *un etto*?",
+      "options": ["10", "100", "1000"],
+      "correct": 1,
+      "explain": "*Un etto* = 100 grams — the everyday unit at the deli counter, smaller than *un chilo*."
+    },
+    {
+      "type": "contrast",
+      "title": "Mi dà… vs Vorrei…",
+      "pairs": [
+        { "left": "*Mi dà…?* — market/deli counter: 'would you give me…'", "right": "*Vorrei…* — anywhere: bar, trattoria, shop", "note": "Both are polite. *Mi dà* feels especially natural pointing at something on a stall." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'I would like a kilo of apples.'",
+      "answers": ["vorrei un chilo di mele", "vorrei un chilo di mele."],
+      "hint": "vorrei + un chilo di + mele",
+      "explain": "*Vorrei un chilo di mele.* — quantity + di + the thing."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole line.",
+      "speak": "Mi dà un etto di prosciutto, per favore.",
+      "answers": ["mi dà un etto di prosciutto, per favore", "mi dà un etto di prosciutto per favore"]
+    },
+    {
+      "type": "shadow",
+      "title": "Al banco del mercato",
+      "lines": [
+        { "nl": "Mi dà due etti di parmigiano?", "en": "Could you give me 200g of parmesan?" },
+        { "nl": "Un chilo di pomodori, grazie.", "en": "A kilo of tomatoes, thanks." },
+        { "nl": "Basta così, quant'è?", "en": "That's enough, how much is it?" }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "La mia lista della spesa",
+      "prompt": "Build a market request: quantity + item + please.",
+      "slots": [
+        { "label": "Quantità", "chips": ["Un etto di", "Un chilo di", "Una fetta di", "Mezzo chilo di"] },
+        { "label": "Prodotto", "chips": ["prosciutto", "mele", "formaggio", "pane"] },
+        { "label": "Cortesia", "chips": ["per favore.", "grazie."] }
+      ],
+      "sample": "Un etto di prosciutto, per favore."
+    },
+    {
+      "type": "journal",
+      "prompt": "Write your own shopping list for the market: three items, each with a quantity.",
+      "starters": ["Vorrei…", "Mi dà…?", "E anche…"],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "day-25",
+  "day": 25,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Mi piace, mi piacciono",
+  "emoji": "😍",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "The piacere construction — mi piace vs mi piacciono, the classic beginner trap.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il trucco di piacere",
+      "body": "*Piacere* works backwards from English 'to like': the **thing liked** is the grammatical subject, and the person is an indirect object. So it's **mi piace il caffè** (literally 'coffee is pleasing to me') with one thing, but **mi piacciono i libri** with more than one. Before an infinitive, it's always singular: **mi piace leggere** (I like to read).",
+      "callout": "Check the noun after *piace/piacciono*, not 'I' — singular thing → *piace*, plural things → *piacciono*."
+    },
+    {
+      "type": "chips",
+      "title": "Mi piace… — ascolta",
+      "items": [
+        { "nl": "Mi piace il caffè.", "en": "I like coffee.", "speak": "Mi piace il caffè." },
+        { "nl": "Mi piacciono i libri.", "en": "I like books.", "speak": "Mi piacciono i libri." },
+        { "nl": "Mi piace leggere.", "en": "I like to read.", "speak": "Mi piace leggere." },
+        { "nl": "Non mi piace la pioggia.", "en": "I don't like rain.", "speak": "Non mi piace la pioggia." },
+        { "nl": "Ti piace la pizza?", "en": "Do you like pizza?", "speak": "Ti piace la pizza?" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Non solo 'mi'",
+      "body": "*Piacere* uses the same indirect-object pronouns you'll meet everywhere else.",
+      "table": {
+        "headers": ["Persona", "Pronome", "Esempio"],
+        "rows": [
+          ["io", "mi", "mi piace il tè"],
+          ["tu", "ti", "ti piace il tè?"],
+          ["Marco (lui)", "gli", "gli piace il tè"],
+          ["Giulia (lei)", "le", "le piace il tè"]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "piace vs piacciono",
+      "pairs": [
+        { "left": "*mi piace* — one thing or an infinitive: *mi piace il vino*", "right": "*mi piacciono* — more than one thing: *mi piacciono i tortellini*", "note": "The classic beginner trap: don't conjugate for 'I', conjugate for what's liked." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "How do you say 'I like the books' (i libri)?",
+      "options": ["Mi piace i libri.", "Mi piacciono i libri.", "Piaccio i libri."],
+      "correct": 1,
+      "explain": "*I libri* is plural, so the verb has to be *piacciono* — it agrees with the books, not with 'I'."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'I like coffee' using piacere.",
+      "answers": ["mi piace il caffè", "mi piace il caffè."],
+      "hint": "mi piace + il caffè (singular)",
+      "explain": "*Mi piace il caffè.* — one thing, singular *piace*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole line.",
+      "speak": "Mi piacciono i tortellini.",
+      "answers": ["mi piacciono i tortellini", "mi piacciono i tortellini."]
+    },
+    {
+      "type": "shadow",
+      "title": "Piace o piacciono?",
+      "lines": [
+        { "nl": "Mi piace la pasta.", "en": "I like pasta." },
+        { "nl": "Mi piacciono le lasagne.", "en": "I like lasagna." },
+        { "nl": "Non mi piace il pesce crudo.", "en": "I don't like raw fish." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Giulia asks about your food tastes over an aperitivo in Bologna",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora, ti piace la cucina bolognese?", "en": "So, do you like Bologna cooking?" },
+        { "speaker": "You", "nl": "Sì, mi piacciono molto i tortellini.", "en": "Yes, I really like tortellini." },
+        { "speaker": "Giulia", "nl": "E la mortadella? A me piace tantissimo.", "en": "And mortadella? I love it.", "spotlight": "*A me piace* doubles the pronoun for emphasis — the 'mi' is still there, just reinforced." },
+        { "speaker": "You", "nl": "Mi piace, ma non mi piace il fegato.", "en": "I like it, but I don't like liver." },
+        { "speaker": "Giulia", "nl": "Guarda, neanche a Marco piace il fegato — sei in buona compagnia.", "en": "Look, Marco doesn't like liver either — you're in good company." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write three sentences about your own food tastes: something you like a lot, something you like less, and one thing using mi piace + an infinitive (e.g., mi piace cucinare).",
+      "starters": ["Mi piace…", "Mi piacciono…", "Non mi piace…"],
+      "minSentences": 3
+    }
+  ]
+}

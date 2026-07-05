@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "day-17",
+  "day": 17,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Possessivartikel im Akkusativ",
+  "emoji": "📸",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "mein/dein/sein/ihr in the accusative — showing photos of family",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Possessivartikel: mein, dein, sein, ihr",
+      "body": "Just like *der* and *ein*, possessives get the **-en** ending on masculine nouns in the accusative: **mein Bruder → meinen Bruder**, **dein Bruder → deinen Bruder**, **sein Bruder → seinen Bruder** (his brother), **ihr Bruder → ihren Bruder** (her brother). Feminine and neuter possessives never change: *meine Schwester*, *mein Kind* — same in both cases.",
+      "table": {
+        "headers": ["Person", "Nominative", "Accusative (masc.)"],
+        "rows": [
+          ["ich", "mein Bruder", "meinen Bruder"],
+          ["du", "dein Bruder", "deinen Bruder"],
+          ["er", "sein Bruder", "seinen Bruder"],
+          ["sie", "ihr Bruder", "ihren Bruder"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the possessives",
+      "items": [
+        { "nl": "mein Bruder", "en": "my brother", "speak": "mein Bruder" },
+        { "nl": "deine Schwester", "en": "your sister", "speak": "deine Schwester" },
+        { "nl": "sein Kind", "en": "his child", "speak": "sein Kind" },
+        { "nl": "ihre Mutter", "en": "her mother", "speak": "ihre Mutter" },
+        { "nl": "mein Vater", "en": "my father", "speak": "mein Vater" },
+        { "nl": "ihr Bruder", "en": "her brother", "speak": "ihr Bruder" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Only masculine moves",
+      "pairs": [
+        { "left": "mein Bruder — nominative", "right": "meinen Bruder — accusative", "note": "Masculine: -en appears in the accusative." },
+        { "left": "meine Schwester — nominative", "right": "meine Schwester — accusative", "note": "Feminine: identical in both cases." },
+        { "left": "sein Kind — nominative", "right": "sein Kind — accusative", "note": "Neuter: identical too — only masculine moves." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wie sagt man 'I like her brother'? (mögen + accusative)",
+      "options": ["Ich mag ihr Bruder.", "Ich mag ihren Bruder.", "Ich mag ihre Bruder."],
+      "correct": 1,
+      "explain": "*Bruder* is masculine, so *ihr* becomes *ihren* in the accusative after *mögen*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'my brother' as a direct object (e.g. after ich mag ___).",
+      "answers": ["meinen Bruder"],
+      "hint": "mein + masculine accusative -en.",
+      "explain": "*meinen Bruder* — masculine possessive in the accusative."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ich mag deinen Bruder sehr.",
+      "answers": ["Ich mag deinen Bruder sehr"]
+    },
+    {
+      "type": "shadow",
+      "title": "Repeat after the audio",
+      "lines": [
+        { "nl": "Hier ist ein Foto.", "en": "Here's a photo." },
+        { "nl": "Das ist meine Schwester.", "en": "That's my sister." },
+        { "nl": "Ich mag seinen Bruder.", "en": "I like his brother." },
+        { "nl": "Ihre Mutter ist sehr nett.", "en": "Her mother is very nice." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Zeig mir dein Foto",
+      "prompt": "Build a sentence about someone in a photo, using a possessive + accusative after ich mag, then add how they are.",
+      "slots": [
+        { "label": "Ich mag", "chips": ["meinen Bruder", "deine Schwester", "seinen Vater", "ihre Mutter", "mein Kind", "ihren Bruder"] },
+        { "label": "Und er/sie ist…", "chips": ["Er ist lustig.", "Sie ist nett.", "Es ist süß.", "Er ist ruhig.", "Sie ist klug."] }
+      ],
+      "sample": "Ich mag meinen Bruder. Er ist lustig."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You pull out your phone to show Lena a family photo at the café.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Was ist das? Zeig mal!", "en": "What's that? Show me!" },
+        { "speaker": "You", "nl": "Das ist meine Familie. Das ist meine Schwester.", "en": "That's my family. That's my sister." },
+        { "speaker": "Lena", "nl": "Schön! Und wer ist das?", "en": "Nice! And who's that?" },
+        { "speaker": "You", "nl": "Das ist mein Bruder. Ich mag meinen Bruder sehr — er ist total lustig.", "en": "That's my brother. I really like my brother — he's totally funny.", "spotlight": "meinen Bruder — accusative after mögen, the masculine -en again." },
+        { "speaker": "Lena", "nl": "Süß! Meine Familie ist in Hannover.", "en": "Sweet! My family is in Hannover." },
+        { "speaker": "You", "nl": "Ach, du bist nicht aus Berlin?", "en": "Oh, you're not from Berlin?" },
+        { "speaker": "Lena", "nl": "Nein, aber ich liebe die Stadt.", "en": "No, but I love the city." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschreib ein Familienfoto: wer ist da, und wie sind sie? Use ich habe / ich mag + accusative, and sein + adjective.",
+      "starters": ["Das ist…", "Ich mag…", "Er/Sie ist…"],
+      "minSentences": 3
+    }
+  ]
+}

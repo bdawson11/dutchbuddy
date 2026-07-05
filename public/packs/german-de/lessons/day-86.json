@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-86",
+  "day": 86,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "wäre, hätte, könnte: die Kurzformen",
+  "emoji": "🧩",
+  "level": "B2",
+  "durationMin": [20, 30],
+  "summary": "The one-word Konjunktiv II — wäre, hätte, könnte, plus strong forms käme/ginge/wüsste/bräuchte — and when the short form beats würde.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Nicht alles braucht würde",
+      "body": "*würde + Infinitiv* ist der Allrounder — aber bei ein paar sehr häufigen Verben klingt er **umständlich**. Für *sein*, *haben* und die **Modalverben** nimmt man fast immer die **Kurzform**: *wäre, hätte, könnte, müsste, dürfte, sollte, wollte*. Sag also **nie** *würde sein* oder *würde haben*.",
+      "callout": "Faustregel: sein / haben / Modalverb → Kurzform. Fast alles andere → würde + Infinitiv."
+    },
+    {
+      "type": "card",
+      "title": "Die wichtigsten Kurzformen",
+      "body": "*sein* und *haben* lernst du als Block. Dazu kommt eine Handvoll **starker Verben**, deren Kurzform man wirklich hört — der Rest dieser Verben läuft über *würde*.",
+      "table": {
+        "headers": ["Infinitiv", "Kurzform (ich)", "Beispiel"],
+        "rows": [
+          ["sein", "wäre", "Das wäre schön."],
+          ["haben", "hätte", "Ich hätte Zeit."],
+          ["können", "könnte", "Ich könnte helfen."],
+          ["müssen", "müsste", "Ich müsste los."],
+          ["kommen", "käme", "Ich käme später."],
+          ["wissen", "wüsste", "Wüsste ich es doch!"],
+          ["brauchen", "bräuchte", "Ich bräuchte mehr Zeit."]
+        ]
+      },
+      "callout": "Auch dabei: gäbe (es gäbe), ginge (das ginge), fände (ich fände). Ungewohnt? Ja. Aber genau das klingt gebildet."
+    },
+    {
+      "type": "chips",
+      "title": "Kurzformen zum Anhören",
+      "items": [
+        { "nl": "Das wäre super.", "en": "That would be great.", "speak": "Das wäre super." },
+        { "nl": "Ich hätte da eine Idee.", "en": "I'd have an idea there.", "speak": "Ich hätte da eine Idee." },
+        { "nl": "Könntest du kurz warten?", "en": "Could you wait a moment?", "speak": "Könntest du kurz warten?" },
+        { "nl": "Ich müsste eigentlich los.", "en": "I really should get going.", "speak": "Ich müsste eigentlich los." },
+        { "nl": "So bräuchte ich kein Auto.", "en": "That way I wouldn't need a car.", "speak": "So bräuchte ich kein Auto." },
+        { "nl": "Es gäbe da eine Möglichkeit.", "en": "There would be an option there.", "speak": "Es gäbe da eine Möglichkeit." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Umständlich vs. natürlich",
+      "pairs": [
+        { "left": "Das würde schön sein. ✗", "right": "Das wäre schön. ✓", "note": "sein wird nie umschrieben. Immer die Kurzform wäre." },
+        { "left": "Ich würde mehr Zeit haben. ✗", "right": "Ich hätte mehr Zeit. ✓", "note": "haben → hätte. würde haben klingt für Deutsche falsch." },
+        { "left": "Ich würde das machen. ✓", "right": "Ich täte das machen. ✗", "note": "Umgekehrt: normale Verben laufen über würde. täte + Infinitiv gilt als umgangssprachlich/falsch." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wie sagt es ein Muttersprachler am natürlichsten? 'That would be great.'",
+      "options": ["Das würde toll sein.", "Das wäre toll.", "Das würde toll."],
+      "correct": 1,
+      "explain": "sein → wäre. *Das wäre toll.* Niemals *würde sein* (Option 1), und Option 3 hat gar kein Verb."
+    },
+    {
+      "type": "typed",
+      "prompt": "Sag natürlich mit Kurzform: 'Then I'd have more time.' (dann, mehr Zeit)",
+      "answers": ["Dann hätte ich mehr Zeit", "Ich hätte dann mehr Zeit"],
+      "hint": "haben → hätte. Nicht würde haben.",
+      "explain": "*Dann hätte ich mehr Zeit.* — Kurzform *hätte* auf Position 2 (nach dem Vorfeld *dann*)."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe.",
+      "speak": "Das wäre wirklich schön.",
+      "answers": ["Das wäre wirklich schön", "Das waere wirklich schoen"]
+    },
+    {
+      "type": "builder",
+      "title": "Wenn …, dann …",
+      "prompt": "Bau einen hypothetischen Wunsch. Merke: im wenn-Satz steht die Kurzform am Ende, der Hauptsatz beginnt direkt mit dem Verb.",
+      "slots": [
+        { "label": "wenn-Satz", "chips": ["Wenn ich mehr Zeit hätte", "Wenn ich reich wäre", "Wenn ich das könnte"] },
+        { "label": "Hauptsatz", "chips": ["würde ich öfter kochen", "würde ich mehr reisen", "wäre ich glücklicher"] }
+      ],
+      "sample": "Wenn ich mehr Zeit hätte, würde ich öfter kochen."
+    },
+    {
+      "type": "dialogue",
+      "scene": "A slow evening at the Kneipe. Jonas is in a dreamy mood and starts a round of 'if I were…'.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Sag mal — wenn du eine Million hättest, was würdest du machen?", "en": "Tell me — if you had a million, what would you do?", "spotlight": "*hättest* (short form of haben) sits at the end of the wenn-clause." },
+        { "speaker": "You", "nl": "Puh. Ich würde erst mal weniger arbeiten.", "en": "Phew. First off I'd work less." },
+        { "speaker": "Jonas", "nl": "Langweilig! Ich wäre sofort weg — Weltreise.", "en": "Boring! I'd be gone instantly — trip around the world.", "spotlight": "*wäre*, not *würde sein*. sein always uses the short form." },
+        { "speaker": "You", "nl": "Und dann? Irgendwann hättest du kein Geld mehr.", "en": "And then? At some point you'd have no money left." },
+        { "speaker": "Jonas", "nl": "Dann käme ich halt zurück und würde wieder im Laden stehen.", "en": "Then I'd just come back and stand in the shop again.", "spotlight": "*käme* — the strong one-word form of kommen." },
+        { "speaker": "You", "nl": "Ehrlich? Ich glaube, du wärst nach zwei Wochen gelangweilt.", "en": "Honestly? I think you'd be bored after two weeks." },
+        { "speaker": "Jonas", "nl": "Kann sein. Ohne Musik wüsste ich echt nicht, was ich machen sollte.", "en": "Could be. Without music I really wouldn't know what to do.", "spotlight": "*wüsste* (wissen) and *sollte* (modal) — both short forms. And a first hint about Jonas and music…" },
+        { "speaker": "You", "nl": "Vielleicht bräuchtest du gar keine Million dafür.", "en": "Maybe you wouldn't even need a million for that." },
+        { "speaker": "Jonas", "nl": "Tja. Das wäre dann die eigentliche Frage, ne?", "en": "Well. That would be the real question, right?" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Träum ein bisschen: Wenn du alles ändern könntest, wie wäre dein perfekter Tag? Schreib mindestens vier Sätze mit Kurzformen (wäre, hätte, könnte, käme, wüsste …).",
+      "starters": ["Wenn ich könnte,…", "Ich hätte gern…", "Es wäre schön, wenn…", "Ich müsste nicht…"],
+      "minSentences": 4
+    }
+  ]
+}

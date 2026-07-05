@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "day-57",
+  "day": 57,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Nebensätze II: obwohl, bevor, nachdem",
+  "emoji": "🧩",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "More subclause connectors — obwohl, bevor, nachdem, während, seitdem, damit — plus a first gentle taste of the genitive with wegen. The finite verb still goes to the end.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Neue Konjunktionen, gleiche Regel",
+      "body": "In Woche 8 hast du *weil*, *dass* und *wenn* gelernt — und die Regel, dass im Nebensatz das **finite Verb ganz ans Ende** wandert. Diese Woche machen wir den Werkzeugkasten größer. Neue Konjunktionen, **dieselbe Regel**: *obwohl* (although), *bevor* (before), *nachdem* (after), *während* (while), *seitdem* (since) und *damit* (so that) schieben das Verb alle ans Ende.",
+      "table": {
+        "headers": ["Konjunktion", "Bedeutung", "Beispiel"],
+        "rows": [
+          ["obwohl", "although", "Obwohl es spät ist, bleibe ich."],
+          ["bevor", "before", "Bevor ich gehe, esse ich."],
+          ["nachdem", "after", "Nachdem ich gegessen habe, gehe ich."],
+          ["während", "while", "Während du kochst, decke ich."],
+          ["seitdem", "since", "Seitdem ich hier wohne, lerne ich viel."],
+          ["damit", "so that", "Ich spare, damit ich reisen kann."]
+        ]
+      },
+      "callout": "Eine Regel für die ganze Woche: **Nebensatz = Verb ans Ende.**"
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the connectors in action",
+      "items": [
+        { "nl": "Obwohl es regnet, fahre ich mit dem Rad.", "en": "Although it's raining, I'm cycling.", "speak": "Obwohl es regnet, fahre ich mit dem Rad." },
+        { "nl": "Bevor ich schlafe, lese ich noch.", "en": "Before I sleep, I read a bit.", "speak": "Bevor ich schlafe, lese ich noch." },
+        { "nl": "Nachdem ich gefrühstückt habe, gehe ich los.", "en": "After I've had breakfast, I set off.", "speak": "Nachdem ich gefrühstückt habe, gehe ich los." },
+        { "nl": "Ich lerne Deutsch, damit ich hier arbeiten kann.", "en": "I'm learning German so that I can work here.", "speak": "Ich lerne Deutsch, damit ich hier arbeiten kann." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "bevor vs. nachdem — which comes first?",
+      "pairs": [
+        { "left": "Bevor ich gehe, trinke ich einen Kaffee. — before", "right": "Nachdem ich Kaffee getrunken habe, gehe ich. — after", "note": "*bevor* looks forward (the coffee comes first), *nachdem* looks back (it already happened — so it often pairs with the Perfekt: *getrunken habe*)." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence puts the verb correctly at the end of the subclause?",
+      "options": [
+        "Ich bleibe zu Hause, obwohl das Wetter ist schön.",
+        "Ich bleibe zu Hause, obwohl das Wetter schön ist.",
+        "Ich bleibe zu Hause, obwohl ist das Wetter schön."
+      ],
+      "correct": 1,
+      "explain": "After *obwohl* the finite verb (*ist*) goes to the very end: *…obwohl das Wetter schön ist.* That's the same rule as *weil* and *dass*."
+    },
+    {
+      "type": "card",
+      "title": "Ein Hauch Genitiv: wegen",
+      "body": "Zeit für einen ersten, sanften Kontakt mit dem **Genitiv** — German's 'of' case. You meet it mostly after a few prepositions, and the handiest is **wegen** (because of). It takes the genitive: masculine and neuter nouns add an **-s** and *der/das → des*, *die → der*.",
+      "table": {
+        "headers": ["Nominativ", "wegen + Genitiv"],
+        "rows": [
+          ["das Wetter", "wegen des Wetters"],
+          ["der Regen", "wegen des Regens"],
+          ["die Arbeit", "wegen der Arbeit"]
+        ]
+      },
+      "callout": "Umgangssprachlich hört man oft *wegen dem Wetter* (Dativ) — aber die saubere Standardform ist der Genitiv: *wegen des Wetters*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the subclause in German: 'although it's raining' (obwohl · es · regnen).",
+      "answers": ["obwohl es regnet"],
+      "hint": "Connector, then subject, then the verb last.",
+      "explain": "*obwohl es regnet* — *obwohl* opens the clause and the verb *regnet* lands at the end."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole sentence.",
+      "speak": "Bevor ich zur Arbeit gehe, trinke ich einen Kaffee.",
+      "answers": ["Bevor ich zur Arbeit gehe, trinke ich einen Kaffee.", "Bevor ich zur Arbeit gehe trinke ich einen Kaffee"]
+    },
+    {
+      "type": "builder",
+      "title": "Bau einen Zwei-Satz",
+      "prompt": "Pick one subclause and one main clause. Watch the word order: verb last in the subclause, verb second in the main clause.",
+      "slots": [
+        { "label": "Nebensatz", "chips": ["Nachdem ich gefrühstückt habe", "Bevor ich losfahre", "Obwohl ich müde bin"] },
+        { "label": "Hauptsatz", "chips": ["gehe ich zur Arbeit", "trinke ich noch einen Kaffee", "fahre ich mit dem Rad"] }
+      ],
+      "sample": "Nachdem ich gefrühstückt habe, gehe ich zur Arbeit."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena drops by your desk, still buzzing from a chaotic morning.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Also, heute war schon viel los, bevor ich überhaupt im Büro war.", "en": "So, a lot was already going on before I even got to the office.", "spotlight": "*bevor ich überhaupt im Büro war* — subclause, verb (*war*) at the end." },
+        { "speaker": "You", "nl": "Echt? Was ist denn passiert?", "en": "Really? What happened?" },
+        { "speaker": "Lena", "nl": "Nachdem ich aufgestanden bin, war kein Kaffee mehr da. Ein Drama.", "en": "After I got up, there was no coffee left. A disaster." },
+        { "speaker": "You", "nl": "Und du gehst nie ohne Kaffee aus dem Haus, oder?", "en": "And you never leave the house without coffee, right?" },
+        { "speaker": "Lena", "nl": "Genau. Obwohl ich spät dran war, bin ich noch schnell zum Bäcker.", "en": "Exactly. Although I was running late, I quickly popped to the bakery.", "spotlight": "*Obwohl ich spät dran war* — concession up front, main verb *bin* right after the comma." },
+        { "speaker": "You", "nl": "Und? Hat sich das gelohnt?", "en": "And? Was it worth it?" },
+        { "speaker": "Lena", "nl": "Na klar. Wegen des Kaffees war der Tag gerettet.", "en": "Of course. Because of the coffee the day was saved.", "spotlight": "*wegen des Kaffees* — the genitive in the wild." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschreib deinen Morgen. Nutze mindestens einen Nebensatz mit *bevor*, *nachdem* oder *obwohl* — und wenn du dich traust, ein *wegen* + Genitiv.",
+      "starters": ["Bevor ich zur Arbeit gehe, …", "Nachdem ich aufgestanden bin, …", "Obwohl ich müde bin, …", "Wegen des Wetters …"],
+      "minSentences": 3
+    }
+  ]
+}

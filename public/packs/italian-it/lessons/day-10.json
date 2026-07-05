@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "day-10",
+  "day": 10,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Che ore sono? Giorni e mesi",
+  "emoji": "🕐",
+  "level": "A1",
+  "durationMin": [18, 25],
+  "summary": "Telling time (è l'una vs sono le due), the days of the week, and the months of the year",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Che ore sono?",
+      "body": "To ask the time: **Che ore sono?** For one o'clock, Italian uses the singular: **è l'una**. For every other hour, it's plural: **sono le due, sono le tre**... Add minutes with **e**: *le tre **e** dieci*, *le tre **e** mezza* (half past), *le tre **e** un quarto* (quarter past); go past the half hour with **meno**: *le quattro **meno** un quarto* (quarter to four).",
+      "callout": "l'una is the one lonely singular hour — everything else is sono le + plural."
+    },
+    {
+      "type": "chips",
+      "title": "Che ore sono?",
+      "items": [
+        { "nl": "È l'una.", "en": "It's one o'clock.", "speak": "È l'una." },
+        { "nl": "Sono le due.", "en": "It's two o'clock.", "speak": "Sono le due." },
+        { "nl": "Sono le tre e mezza.", "en": "It's half past three.", "speak": "Sono le tre e mezza." },
+        { "nl": "Sono le quattro meno un quarto.", "en": "It's quarter to four.", "speak": "Sono le quattro meno un quarto." },
+        { "nl": "È mezzogiorno.", "en": "It's noon.", "speak": "È mezzogiorno." },
+        { "nl": "È mezzanotte.", "en": "It's midnight.", "speak": "È mezzanotte." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct for 1:00?",
+      "options": ["Sono l'una.", "È l'una.", "È le una."],
+      "correct": 1,
+      "explain": "**È l'una** — one o'clock is the one hour that stays singular."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'it's half past three' in Italian.",
+      "answers": ["sono le tre e mezza"],
+      "hint": "tre is plural, so sono, not è.",
+      "explain": "**Sono le tre e mezza** — plural hour, plural verb."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the time.",
+      "speak": "Sono le sette e un quarto.",
+      "answers": ["sono le sette e un quarto"]
+    },
+    {
+      "type": "card",
+      "title": "I giorni della settimana",
+      "body": "Days of the week are **not capitalized** in Italian (unlike English). A specific day usually takes no article (*Vengo lunedì* — I'm coming Monday), but add **il** for something habitual (*il lunedì lavoro da casa* — on Mondays I work from home).",
+      "table": {
+        "headers": ["Italiano", "English"],
+        "rows": [
+          ["lunedì", "Monday"],
+          ["martedì", "Tuesday"],
+          ["mercoledì", "Wednesday"],
+          ["giovedì", "Thursday"],
+          ["venerdì", "Friday"],
+          ["sabato", "Saturday"],
+          ["domenica", "Sunday"]
+        ]
+      }
+    },
+    {
+      "type": "shadow",
+      "title": "Ripeti i giorni",
+      "lines": [
+        { "nl": "lunedì", "en": "Monday" },
+        { "nl": "mercoledì", "en": "Wednesday" },
+        { "nl": "venerdì", "en": "Friday" },
+        { "nl": "sabato", "en": "Saturday" },
+        { "nl": "domenica", "en": "Sunday" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "I mesi dell'anno",
+      "body": "Months are also **lowercase**, and you don't need an article: *Sono nato a marzo* (I was born in March).",
+      "table": {
+        "headers": ["Italiano", "English"],
+        "rows": [
+          ["gennaio", "January"],
+          ["febbraio", "February"],
+          ["marzo", "March"],
+          ["aprile", "April"],
+          ["maggio", "May"],
+          ["giugno", "June"],
+          ["luglio", "July"],
+          ["agosto", "August"],
+          ["settembre", "September"],
+          ["ottobre", "October"],
+          ["novembre", "November"],
+          ["dicembre", "December"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Qualche mese",
+      "items": [
+        { "nl": "gennaio", "en": "January", "speak": "gennaio" },
+        { "nl": "aprile", "en": "April", "speak": "aprile" },
+        { "nl": "agosto", "en": "August", "speak": "agosto" },
+        { "nl": "dicembre", "en": "December", "speak": "dicembre" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which month comes right after aprile?",
+      "options": ["marzo", "maggio", "giugno"],
+      "correct": 1,
+      "explain": "**maggio** comes right after aprile — marzo is before, giugno is two months later."
+    },
+    {
+      "type": "journal",
+      "prompt": "Write your own schedule line: what day and time you usually do something (wake up, work, meet friends...).",
+      "starters": ["Il lunedì...", "Alle..."]
+    }
+  ]
+}

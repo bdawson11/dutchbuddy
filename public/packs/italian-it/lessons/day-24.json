@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "day-24",
+  "day": 24,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Potere, volere, dovere",
+  "emoji": "🙏",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "The modal verbs potere, volere, dovere + infinitive — Italian's politeness engine.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "I tre modali",
+      "body": "Three verbs do enormous work in Italian: **potere** (can/may — permission, ability), **volere** (want), and **dovere** (must/have to). Each pairs with a plain **infinitive**: *posso entrare?* (can I come in?), *voglio provare* (I want to try), *devo andare* (I have to go). This modal + infinitive pattern is the engine behind almost every polite request.",
+      "table": {
+        "headers": ["", "potere", "volere", "dovere"],
+        "rows": [
+          ["io", "posso", "voglio", "devo"],
+          ["tu", "puoi", "vuoi", "devi"],
+          ["lui/lei", "può", "vuole", "deve"]
+        ]
+      },
+      "callout": "Same three endings (-o / -i / -e) as every other verb you've drilled — just irregular stems."
+    },
+    {
+      "type": "chips",
+      "title": "I modali in frase — ascolta",
+      "items": [
+        { "nl": "Posso entrare?", "en": "Can I come in?", "speak": "Posso entrare?" },
+        { "nl": "Vuoi venire?", "en": "Do you want to come?", "speak": "Vuoi venire?" },
+        { "nl": "Devo andare.", "en": "I have to go.", "speak": "Devo andare." },
+        { "nl": "Vuole un caffè?", "en": "Would you like a coffee? (formal)", "speak": "Vuole un caffè?" },
+        { "nl": "Non posso oggi.", "en": "I can't today.", "speak": "Non posso oggi." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Potere vs dovere",
+      "pairs": [
+        { "left": "*potere* — permission/ability: *posso uscire?*", "right": "*dovere* — obligation: *devo uscire.*", "note": "Same verb 'uscire' (to go out), totally different meaning depending on the modal." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which verb means 'must / have to'?",
+      "options": ["potere", "volere", "dovere"],
+      "correct": 2,
+      "explain": "*Dovere* — obligation. *Devo studiare* = I have to study, whether I like it or not."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'Can I have a coffee?' using potere.",
+      "answers": ["posso avere un caffè?", "posso avere un caffè"],
+      "hint": "posso + avere + un caffè",
+      "explain": "*Posso avere un caffè?* — polite, and works everywhere from a bar to a friend's kitchen."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole line.",
+      "speak": "Devo andare a casa.",
+      "answers": ["devo andare a casa", "devo andare a casa."]
+    },
+    {
+      "type": "shadow",
+      "title": "I modali in azione",
+      "lines": [
+        { "nl": "Posso provare questo vino?", "en": "Can I try this wine?" },
+        { "nl": "Vuoi un caffè?", "en": "Do you want a coffee?" },
+        { "nl": "Devo tornare al lavoro.", "en": "I have to go back to work." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Una richiesta gentile",
+      "prompt": "Build a polite request using a modal verb + infinitive.",
+      "slots": [
+        { "label": "Modale", "chips": ["Posso", "Puoi", "Devo", "Vuoi"] },
+        { "label": "Infinito", "chips": ["avere il menù?", "aiutarmi?", "andare adesso.", "provare la pizza?"] }
+      ],
+      "sample": "Posso avere il menù?"
+    },
+    {
+      "type": "journal",
+      "prompt": "Write three sentences about today: one thing you can do, one thing you want to do, and one thing you must do.",
+      "starters": ["Posso…", "Voglio…", "Devo…"],
+      "minSentences": 3
+    }
+  ]
+}

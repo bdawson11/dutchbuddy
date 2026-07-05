@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "day-57",
+  "day": 57,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Subjuntivo II: emoción y duda",
+  "emoji": "🎭",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The subjunctive after feelings and doubt: me alegro de que, es una pena que, no creo que, dudo que",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El subjuntivo se abre",
+      "body": "La semana pasada abriste la puerta del subjuntivo con *quiero que…* y *espero que…*. Esta semana lo extendemos. La idea de fondo no cambia: cuando en la segunda parte de la frase no afirmas un **hecho**, sino que lo filtras por una **emoción** o una **duda**, el verbo se pone en **subjuntivo**.",
+      "callout": "Regla base: dos sujetos distintos + *que* + emoción o duda → **subjuntivo**."
+    },
+    {
+      "type": "card",
+      "title": "Dos familias de disparadores",
+      "body": "Dos grupos nuevos exigen subjuntivo. **Emoción:** reaccionas a algo (te alegras, te da pena, te molesta). **Duda / negación:** no lo das por seguro (*no creo que…, dudo que…, puede que…*). Fíjate en el contraste clave: *creo que* afirma (indicativo), pero *no creo que* duda (subjuntivo).",
+      "table": {
+        "headers": ["Disparador", "Ejemplo"],
+        "rows": [
+          ["Me alegro de que", "Me alegro de que estés aquí."],
+          ["Es una pena que", "Es una pena que no puedas venir."],
+          ["No creo que", "No creo que sea verdad."],
+          ["Dudo que", "Dudo que llegue a tiempo."],
+          ["Puede que", "Puede que llueva mañana."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Escucha las reacciones",
+      "items": [
+        { "nl": "Me alegro de que estés aquí.", "en": "I'm glad you're here.", "speak": "Me alegro de que estés aquí." },
+        { "nl": "Es una pena que no puedas venir.", "en": "It's a shame you can't come.", "speak": "Es una pena que no puedas venir." },
+        { "nl": "No creo que sea verdad.", "en": "I don't think it's true.", "speak": "No creo que sea verdad." },
+        { "nl": "Dudo que llegue a tiempo.", "en": "I doubt he'll get here on time.", "speak": "Dudo que llegue a tiempo." },
+        { "nl": "Puede que llueva mañana.", "en": "It might rain tomorrow.", "speak": "Puede que llueva mañana." },
+        { "nl": "¡Ojalá tengas suerte!", "en": "I hope you're lucky!", "speak": "¡Ojalá tengas suerte!" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "creo que vs no creo que",
+      "pairs": [
+        { "left": "Creo que viene. (indicativo)", "right": "No creo que venga. (subjuntivo)", "note": "Afirmar una creencia → indicativo. **Negarla** o dudarla → subjuntivo. Es el mismo verbo, el disparador cambia el modo." },
+        { "left": "Es verdad que está enfadado.", "right": "No es verdad que esté enfadado.", "note": "*Es verdad que* afirma un hecho (indicativo); *no es verdad que* lo niega (subjuntivo)." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Elige la forma correcta: «Dudo que Rafa ___ a la fiesta.»",
+      "options": ["viene", "venga", "vendrá"],
+      "correct": 1,
+      "explain": "*Dudar que* expresa duda, así que pide subjuntivo: *dudo que Rafa **venga***. *Viene* y *vendrá* son indicativo, para hechos que sí afirmas."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa con el subjuntivo de *ser*: «No creo que ___ buena idea.»",
+      "answers": ["sea", "no creo que sea buena idea"],
+      "hint": "Verbo ser, tercera persona, en subjuntivo.",
+      "explain": "*No creo que* duda, así que va en subjuntivo: *no creo que **sea** buena idea*."
+    },
+    {
+      "type": "builder",
+      "title": "Construye una reacción",
+      "prompt": "Junta un disparador de emoción o duda con el resto de la frase. El verbo ya está en subjuntivo.",
+      "slots": [
+        { "label": "Disparador", "chips": ["Me alegro de que", "Es una pena que", "No creo que"] },
+        { "label": "Resto", "chips": ["vengas a la fiesta", "puedas venir", "sea buena idea"] }
+      ],
+      "sample": "Me alegro de que vengas a la fiesta."
+    },
+    {
+      "type": "dialogue",
+      "scene": "En el bar, Rafa suelta una novedad y todos reaccionan",
+      "lines": [
+        { "speaker": "Rafa", "nl": "¿Sabéis que igual me cambio de piso?", "en": "You know I might move flats?" },
+        { "speaker": "You", "nl": "¿En serio? Me alegro de que por fin te decidas.", "en": "Really? I'm glad you're finally making up your mind.", "spotlight": "me alegro de que + subjuntivo (te decidas)." },
+        { "speaker": "Rafa", "nl": "Bueno, no creo que sea fácil encontrar algo barato en el centro.", "en": "Well, I don't think it'll be easy to find something cheap downtown.", "spotlight": "no creo que + subjuntivo (sea)." },
+        { "speaker": "Lucía", "nl": "Hombre, dudo que sea barato, pero seguro que encuentras algo majo.", "en": "I mean, I doubt it'll be cheap, but you'll definitely find somewhere nice." },
+        { "speaker": "You", "nl": "Es una pena que los alquileres estén tan caros aquí.", "en": "It's a shame rents are so expensive here.", "spotlight": "es una pena que + subjuntivo (estén)." },
+        { "speaker": "Rafa", "nl": "Ya ves. Espero que no me suban el precio otra vez.", "en": "Tell me about it. I hope they don't raise the price on me again." },
+        { "speaker": "Lucía", "nl": "Tranquilo. Ojalá te salga algo pronto, tío.", "en": "Relax. Hopefully something turns up soon, mate." },
+        { "speaker": "Rafa", "nl": "Gracias, majos. A ver si hay suerte.", "en": "Thanks, you two. Let's see if I get lucky." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Qué se plantea Rafa?", "options": ["Cambiarse de piso", "Irse de Madrid", "Dejar el trabajo"], "correct": 0 },
+        { "q": "¿Por qué le costará encontrar algo?", "options": ["Los alquileres están muy caros", "No conoce a nadie", "No le gusta el centro"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe tres reacciones a noticias de tus amigos, cada una con un disparador distinto (*me alegro de que…, es una pena que…, no creo que…*). Recuerda: el verbo va en subjuntivo.",
+      "starters": ["Me alegro de que…", "Es una pena que…", "No creo que…"],
+      "minSentences": 3
+    }
+  ]
+}

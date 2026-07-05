@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "day-27",
+  "day": 27,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "review",
+  "title": "Pietro e la sua pizzeria",
+  "emoji": "🍕",
+  "level": "A1",
+  "durationMin": [15, 20],
+  "summary": "Week 4 review and immersion: Pietro's Naples routine and his favorite pizzeria.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Una settimana a tavola",
+      "body": "This week: meal structure (*colazione, pranzo, cena, il primo, il secondo*), ordering with **vorrei / per me / mi porta… / il conto**, the modal engine **potere/volere/dovere**, the *piacere* trap (**mi piace** vs **mi piacciono**), and market quantities (*un etto, un chilo*). Time to put it all in one native voice.",
+      "callout": "Everything below uses this week's targets — read for the story, then check what you caught."
+    },
+    {
+      "type": "mcq",
+      "prompt": "How do you say 'I like tortellini' (i tortellini, plural)?",
+      "options": ["Mi piace i tortellini", "Mi piacciono i tortellini", "Piaccio i tortellini"],
+      "correct": 1,
+      "explain": "*Tortellini* is plural, so it's *mi piacciono* — the verb agrees with what's liked."
+    },
+    {
+      "type": "contrast",
+      "title": "Vorrei vs devo",
+      "pairs": [
+        { "left": "*vorrei* — a polite wish: *vorrei provare la pizza*", "right": "*devo* — an obligation: *devo tornare a casa*", "note": "Both pair with a plain infinitive — the modal engine from this week." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'a kilo of tomatoes'.",
+      "answers": ["un chilo di pomodori"],
+      "hint": "un chilo di + pomodori",
+      "explain": "*Un chilo di pomodori* — quantity + di + the thing, same pattern as at the market."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Pietro tells you about his daily routine in Naples and his favorite neighborhood pizzeria",
+      "lines": [
+        { "speaker": "Pietro", "nl": "Allora, qui a Napoli la giornata comincia presto: un caffè al banco, in piedi, due chiacchiere col barista.", "en": "So, here in Naples the day starts early: a coffee at the counter, standing, a quick chat with the barista." },
+        { "speaker": "Pietro", "nl": "Dopo il lavoro, la sera, vado quasi sempre nella stessa pizzeria — la stessa famiglia la gestisce da trent'anni.", "en": "After work, in the evening, I almost always go to the same pizzeria — the same family has run it for thirty years." },
+        { "speaker": "You", "nl": "Cosa ordini di solito?", "en": "What do you usually order?" },
+        { "speaker": "Pietro", "nl": "Una margherita, sempre. Qui diciamo che la vera pizza si mangia solo a Napoli.", "en": "A margherita, always. Here we say real pizza can only be eaten in Naples.", "spotlight": "Southern pride, said with a smile — not aggressive, just certain." },
+        { "speaker": "Pietro", "nl": "A casa, con mia moglie e mia figlia, a volte parliamo napoletano — ma con te parlo sempre in italiano standard.", "en": "At home, with my wife and daughter, we sometimes speak Neapolitan — but with you I always speak standard Italian.", "spotlight": "Pietro code-switches with family but keeps standard Italian with you — dialect is real, just not what we teach." },
+        { "speaker": "You", "nl": "Posso venire con te alla pizzeria, una sera?", "en": "Can I come with you to the pizzeria one evening?" },
+        { "speaker": "Pietro", "nl": "Certo! Sono sicuro che ti piace — è meglio della pizza del nord, te lo dico io.", "en": "Of course! I'm sure you'll like it — it's better than pizza from the north, I'm telling you.", "spotlight": "A gentle jab at the north — classic Pietro." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "Where does Pietro have his coffee in the morning?", "options": ["At home", "Standing at the counter of a bar", "In his car"], "correct": 1 },
+        { "q": "What does Pietro always order at his favorite pizzeria?", "options": ["Diavola", "Margherita", "Quattro stagioni"], "correct": 1 },
+        { "q": "What does Pietro say about speaking Neapolitan?", "options": ["He never speaks it", "He speaks it sometimes at home with his family", "He speaks it with the learner"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "What would you order at Pietro's pizzeria? Write one or two sentences using vorrei or mi piace.",
+      "starters": ["Vorrei…", "Mi piace…"],
+      "minSentences": 2
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-66",
+  "day": 66,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Pronomi combinati: me lo, glielo, ce n'è",
+  "emoji": "🔗",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Stacking two clitics — indirect + direct — and where they land on infinitives and imperatives",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Due pronomi insieme: mi + lo → me lo",
+      "body": "Put an indirect and a direct pronoun together and the **indirect one changes its -i to -e**: *mi/ti/ci/vi → **me/te/ce/ve***, and it comes **first**. *Mi dai il libro?* → ***Me lo** dai?* The order is always **indirect + direct**.",
+      "table": {
+        "headers": ["+ lo", "+ la", "+ li/le", "+ ne"],
+        "rows": [
+          ["me lo", "me la", "me li / me le", "me ne"],
+          ["te lo", "te la", "te li / te le", "te ne"],
+          ["ce lo", "ce la", "ce li / ce le", "ce ne"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta le coppie",
+      "items": [
+        { "nl": "Me lo dici domani?", "en": "Will you tell me (it) tomorrow?", "speak": "Me lo dici domani?" },
+        { "nl": "Te la mando stasera.", "en": "I'll send it to you tonight.", "speak": "Te la mando stasera." },
+        { "nl": "Ce li porti tu?", "en": "Will you bring them to us?", "speak": "Ce li porti tu?" },
+        { "nl": "Ce n'è ancora un po'.", "en": "There's still a bit (of it) left.", "speak": "Ce n'è ancora un po'." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "gli / le → glie- (e si attacca)",
+      "body": "For 'to him' **and** 'to her', both *gli* and *le* become **glie-** and **fuse** with the direct pronoun into one word: **glielo, gliela, glieli, gliele, gliene**. *Do il regalo a Marco* → ***Glielo** do.* *Do il regalo a Sofia* → ***Glielo** do* — **same form** for him or her. Context tells you which.",
+      "callout": "One shape, *glielo*, covers a lui *and* a lei. That's a relief, not a trap."
+    },
+    {
+      "type": "contrast",
+      "title": "me lo vs glielo",
+      "pairs": [
+        { "left": "*Me lo dai?* — Will you give it **to me**?", "right": "*Glielo dai?* — Will you give it **to him/her**?", "note": "*me/te/ce/ve* stay two words; *glie-* fuses into one. Same slot, different person." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Dove vanno? Prima del verbo, o attaccati",
+      "body": "Combined clitics sit **before a finite verb** (*Me lo dice.*), but they **attach to the end** of an infinitive, a gerund, or an informal imperative. *Voglio dir**telo*** = ***Te lo** voglio dire* (both fine). *Dammelo!* (give it to me!), *Portaglielo!* (take it to him/her!).",
+      "callout": "With *potere/volere/dovere* + infinitive you get a free choice: *te lo voglio dire* or *voglio dirtelo*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Devo dare questo indirizzo a Sofia.* Riscrivi con i pronomi: ___",
+      "options": ["Me lo devo dare", "Glielo devo dare", "Te lo devo dare"],
+      "correct": 1,
+      "explain": "*a Sofia* → glie-, *l'indirizzo* (masch.) → lo: ***Glielo** devo dare* (o *devo dar**glielo***)."
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Quanti cartoni servono ancora?* — Completa: *___ servono altri tre.*",
+      "options": ["Ce ne", "Ce li", "Me ne"],
+      "correct": 0,
+      "explain": "*ci + ne → ce ne* per una quantità: *Ce ne servono altri tre* (of them, we need three more)."
+    },
+    {
+      "type": "typed",
+      "prompt": "'Give it to me!' — un solo comando informale, con i due pronomi attaccati (l'oggetto è maschile, *il numero*).",
+      "answers": ["dammelo", "dammelo!"],
+      "hint": "da' + me + lo, tutto attaccato; la 'm' raddoppia.",
+      "explain": "*Dammelo!* — imperative *da'* + *me* + *lo*, fused, with the doubled -mm-."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Glielo dico domani mattina.",
+      "answers": ["glielo dico domani mattina", "glielo dico domani mattina."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Marco vuole sapere se Sofia ha deciso. La decisione pende verso il sì, ma non è ancora ufficiale.",
+      "lines": [
+        { "speaker": "Marco", "nl": "Allora, Sofia si è decisa? Te l'ha detto qualcosa?", "en": "So, has Sofia decided? Did she tell you anything?" },
+        { "speaker": "You", "nl": "Me l'ha detto ieri: è quasi sicura di accettare. Ma non l'ha ancora firmato.", "en": "She told me yesterday: she's almost sure she'll accept. But she hasn't signed yet.", "spotlight": "*Me l'ha detto* — me + lo, con l'elisione davanti a *ha*." },
+        { "speaker": "Marco", "nl": "E al suo capo? Gliel'ha già comunicato?", "en": "And her boss? Has she told him already?" },
+        { "speaker": "You", "nl": "Non ancora. Vuole pensarci un altro paio di giorni.", "en": "Not yet. She wants to think about it a couple more days." },
+        { "speaker": "Marco", "nl": "Se accetta, la festa gliela organizziamo noi, eh.", "en": "If she accepts, we're throwing her the party, yeah?" },
+        { "speaker": "You", "nl": "Certo. Glielo diciamo domani, così si commuove.", "en": "Of course. We'll tell her tomorrow, so she gets all emotional." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Pensa a una cosa che devi dire o dare a qualcuno. Scrivi due frasi con i pronomi combinati (*glielo dico*, *te lo mando*, *me lo dai?*).",
+      "starters": ["Glielo…", "Te lo…", "Me la…"],
+      "minSentences": 2
+    }
+  ]
+}

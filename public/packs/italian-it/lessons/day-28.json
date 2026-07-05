@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "day-28",
+  "day": 28,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "capstone",
+  "title": "Ordino, descrivo, mi presento",
+  "emoji": "🎉",
+  "level": "A1",
+  "durationMin": [20, 25],
+  "summary": "Week 4 capstone: order food, describe your tastes, and grow your self-intro with food likes and a modal wish.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Settimana 4: a tavola",
+      "body": "You can now navigate an Italian meal start to finish: **colazione/pranzo/cena** and *il primo/il secondo*, ordering with **vorrei / per me / mi porta… / il conto**, the modal engine **potere/volere/dovere**, the *piacere* trap (**mi piace** vs **mi piacciono**), and market quantities (*un etto, un chilo*). Today you use all of it — and grow *il mio racconto* one more layer.",
+      "callout": "Four weeks of A1 down. This is the last stop before the past tense arrives in Week 5."
+    },
+    {
+      "type": "chips",
+      "title": "Ripasso lampo — ascolta",
+      "items": [
+        { "nl": "Vorrei il primo.", "en": "I'd like the first course.", "speak": "Vorrei il primo." },
+        { "nl": "Posso avere il conto?", "en": "Can I have the bill?", "speak": "Posso avere il conto?" },
+        { "nl": "Mi piacciono i tortellini.", "en": "I like tortellini.", "speak": "Mi piacciono i tortellini." },
+        { "nl": "Devo tornare a casa.", "en": "I have to go home.", "speak": "Devo tornare a casa." },
+        { "nl": "Un etto di prosciutto, per favore.", "en": "100g of prosciutto, please.", "speak": "Un etto di prosciutto, per favore." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct for 'I must go'?",
+      "options": ["Posso andare", "Voglio andare", "Devo andare"],
+      "correct": 2,
+      "explain": "*Devo andare* — obligation, not desire or permission."
+    },
+    {
+      "type": "mcq",
+      "prompt": "How do you say 'I like the tortellini' (plural)?",
+      "options": ["Mi piace i tortellini", "Mi piacciono i tortellini", "Piaccio i tortellini"],
+      "correct": 1,
+      "explain": "*Tortellini* is plural, so *piacciono* — it agrees with the thing liked, not with 'I'."
+    },
+    {
+      "type": "contrast",
+      "title": "Vorrei vs devo",
+      "pairs": [
+        { "left": "*vorrei* — a polite wish, softened", "right": "*devo* — an obligation, plain fact", "note": "Both take a plain infinitive: *vorrei provare* / *devo tornare*." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'Could you bring me the bill?'",
+      "answers": ["mi porta il conto?", "mi porta il conto"],
+      "hint": "mi porta + il conto",
+      "explain": "*Mi porta il conto?* — the same polite request pattern as asking for the menu."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole line.",
+      "speak": "Un chilo di mele, per favore.",
+      "answers": ["un chilo di mele, per favore", "un chilo di mele per favore"]
+    },
+    {
+      "type": "shadow",
+      "title": "Tutta la settimana in tre frasi",
+      "lines": [
+        { "nl": "Vorrei il primo, per favore.", "en": "I'd like the first course, please." },
+        { "nl": "Mi piacciono molto le tagliatelle.", "en": "I really like tagliatelle." },
+        { "nl": "Devo andare, ma prima il conto.", "en": "I have to go, but first the bill." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "You, Giulia, and Marco order a full lunch together at a trattoria in Bologna",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora, cosa vuoi ordinare oggi?", "en": "So, what do you want to order today?" },
+        { "speaker": "You", "nl": "Vorrei il primo — le tagliatelle al ragù.", "en": "I'd like the first course — tagliatelle with ragù." },
+        { "speaker": "Marco", "nl": "Ottima scelta. Per me un secondo, la cotoletta.", "en": "Great choice. For me a second course, the cutlet." },
+        { "speaker": "You", "nl": "Mi piacciono tantissimo le tagliatelle qui.", "en": "I really like the tagliatelle here." },
+        { "speaker": "Giulia", "nl": "Anche a me piace questo posto. Prendiamo anche un contorno insieme?", "en": "I like this place too. Shall we also get a side to share?" },
+        { "speaker": "You", "nl": "Sì, e alla fine mi porta il conto, per favore?", "en": "Yes, and at the end could you bring me the bill, please?" },
+        { "speaker": "Marco", "nl": "Guarda, ormai ordini come un vero bolognese.", "en": "Look, you order like a real Bolognese now.", "spotlight": "Four weeks in and the modal + piacere + ordering patterns all show up in one exchange." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does 'You' order as a first course?", "options": ["La pizza", "Le tagliatelle al ragù", "Il pesce"], "correct": 1 },
+        { "q": "What does Giulia suggest sharing?", "options": ["Un dolce", "Un contorno", "Un caffè"], "correct": 1 },
+        { "q": "What does Marco say about how 'You' order now?", "options": ["Like a tourist", "Like a real Bolognese", "Like a child"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Il mio racconto — livello 4",
+      "prompt": "Add what you like to eat and drink, plus a polite wish, to your growing self-intro.",
+      "slots": [
+        { "label": "Cosa mi piace", "chips": ["Mi piace la pasta", "Mi piace il caffè italiano", "Mi piacciono i tortellini", "Mi piacciono le verdure"] },
+        { "label": "Cosa vorrei", "chips": ["e vorrei provare una vera pizza napoletana", "e vorrei imparare a cucinare", "e vorrei mangiare al mercato ogni sabato"] },
+        { "label": "Un desiderio", "chips": ["Mi piacerebbe visitare Napoli.", "Mi piacerebbe cucinare come gli italiani.", "Mi piacerebbe tornare in trattoria ogni settimana."] }
+      ],
+      "sample": "Mi piace la pasta, e vorrei provare una vera pizza napoletana. Mi piacerebbe visitare Napoli."
+    },
+    {
+      "type": "journal",
+      "prompt": "Il mio racconto — livello 4! Extend your growing self-intro: keep your name, where you're from, your daily routine, and your family & quartiere — then add what you like to eat and drink, plus a polite wish with vorrei or mi piacerebbe. Write at least 4 sentences. Complimenti — hai finito le basi del cibo!",
+      "starters": ["Mi chiamo…", "Mi piace…", "Vorrei…", "Mi piacerebbe…"],
+      "minSentences": 4
+    }
+  ]
+}

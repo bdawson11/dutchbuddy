@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "day-58",
+  "day": 58,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Subjuntivo III: cuando, para que, antes de que",
+  "emoji": "⏳",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The subjunctive of the not-yet: cuando + future, para que, antes de que, hasta que",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El subjuntivo de lo que aún no ha pasado",
+      "body": "Hay conjunciones de tiempo y de finalidad que miran al **futuro**, a algo que todavía no ha ocurrido. Cuando ese momento aún no es un hecho, el verbo va en **subjuntivo**. La estrella es **cuando**: *cuando llegue a casa, te llamo* (aún no he llegado).",
+      "callout": "Si el momento todavía no ha pasado, *cuando* + **subjuntivo**."
+    },
+    {
+      "type": "contrast",
+      "title": "cuando: costumbre vs futuro",
+      "pairs": [
+        { "left": "Cuando llego a casa, ceno. (indicativo)", "right": "Cuando llegue a casa, cenaré. (subjuntivo)", "note": "Costumbre / algo que ya pasa siempre → indicativo. Un momento **futuro** que aún no ha ocurrido → subjuntivo." },
+        { "left": "Cuando era pequeño, jugaba fuera. (pasado)", "right": "Cuando sea mayor, viajaré. (futuro)", "note": "El pasado habitual va en imperfecto; el futuro no realizado, en subjuntivo." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Finalidad y límite: para que, antes de que, hasta que",
+      "body": "Estas tres conjunciones piden subjuntivo casi siempre que hay **dos sujetos** o un momento aún no cumplido: **para que** (finalidad), **antes de que** (anterioridad), **hasta que** (límite futuro).",
+      "table": {
+        "headers": ["Conjunción", "Ejemplo"],
+        "rows": [
+          ["para que", "Te lo digo para que lo sepas."],
+          ["antes de que", "Vámonos antes de que empiece a llover."],
+          ["hasta que", "Espera aquí hasta que yo vuelva."],
+          ["cuando", "Cuando tengas tiempo, me llamas."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Escucha las conjunciones",
+      "items": [
+        { "nl": "Cuando termine, te aviso.", "en": "When I finish, I'll let you know.", "speak": "Cuando termine, te aviso." },
+        { "nl": "Te lo digo para que lo sepas.", "en": "I'm telling you so you know.", "speak": "Te lo digo para que lo sepas." },
+        { "nl": "Vámonos antes de que llueva.", "en": "Let's go before it rains.", "speak": "Vámonos antes de que llueva." },
+        { "nl": "Espera hasta que yo vuelva.", "en": "Wait until I come back.", "speak": "Espera hasta que yo vuelva." },
+        { "nl": "En cuanto llegue, te escribo.", "en": "As soon as I arrive, I'll text you.", "speak": "En cuanto llegue, te escribo." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Elige la forma correcta: «Cuando ___ del trabajo, te llamo.»",
+      "options": ["salgo", "salga", "saldré"],
+      "correct": 1,
+      "explain": "El *cuando* mira a un momento futuro que aún no ha pasado, así que va en subjuntivo: *cuando **salga** del trabajo*. *Salgo* sería costumbre; *saldré* no encaja tras *cuando*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál necesita subjuntivo?",
+      "options": ["Cuando llego a casa siempre pongo la radio.", "Te espero hasta que termines."],
+      "correct": 1,
+      "explain": "La primera es una costumbre (indicativo). En la segunda, *hasta que* apunta a un momento aún no cumplido, así que pide subjuntivo: *hasta que **termines***."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa con el subjuntivo de *tener*: «Cuando ___ tiempo, quedamos.»",
+      "answers": ["tengas", "cuando tengas tiempo quedamos"],
+      "hint": "Verbo tener, tú, en subjuntivo.",
+      "explain": "*Cuando* + futuro no realizado → subjuntivo: *cuando **tengas** tiempo*."
+    },
+    {
+      "type": "builder",
+      "title": "Construye un plan",
+      "prompt": "Une la conjunción con el resto. Todos los verbos ya están en subjuntivo porque miran al futuro.",
+      "slots": [
+        { "label": "Conjunción", "chips": ["Cuando", "Antes de que", "Hasta que"] },
+        { "label": "Resto", "chips": ["llegues, empezamos", "se haga de noche, volvemos", "yo te avise, no salgas"] }
+      ],
+      "sample": "Cuando llegues, empezamos."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía y tú organizáis un plan para el finde",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Oye, ¿quedamos este finde?", "en": "Hey, shall we meet up this weekend?" },
+        { "speaker": "You", "nl": "Vale. Cuando termine de currar el viernes, te escribo.", "en": "Sure. When I finish work on Friday, I'll message you.", "spotlight": "cuando + subjuntivo (termine), acción futura." },
+        { "speaker": "Lucía", "nl": "Perfecto. Podemos vernos antes de que lleguen los demás y así charlamos.", "en": "Perfect. We can meet before the others arrive so we can chat.", "spotlight": "antes de que + subjuntivo (lleguen)." },
+        { "speaker": "You", "nl": "Buena idea. Te aviso en cuanto salga de la oficina.", "en": "Good idea. I'll let you know as soon as I leave the office." },
+        { "speaker": "Lucía", "nl": "Genial. Voy a reservar mesa para que no tengamos que esperar.", "en": "Great. I'll book a table so we don't have to wait.", "spotlight": "para que + subjuntivo (tengamos), finalidad." },
+        { "speaker": "You", "nl": "Sí, mejor. La última vez esperamos hasta que se quedó libre una, ¿te acuerdas?", "en": "Yes, better. Last time we waited until one freed up, remember?", "spotlight": "Aquí es pasado real: hasta que + indicativo (se quedó)." },
+        { "speaker": "Lucía", "nl": "Uf, sí. Pues eso: cuando sepas la hora, me dices y lo cierro.", "en": "Ugh, yeah. So then: when you know the time, tell me and I'll lock it in." },
+        { "speaker": "You", "nl": "Hecho. En cuanto lo confirme, te llamo.", "en": "Done. As soon as I confirm it, I'll call you." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe tu plan para el próximo finde usando al menos tres conjunciones de hoy (*cuando…, para que…, antes de que…, hasta que…*). Todo lo que aún no ha pasado va en subjuntivo.",
+      "starters": ["Cuando tenga tiempo…", "Voy a avisar a mis amigos para que…", "No pienso salir hasta que…"],
+      "minSentences": 3
+    }
+  ]
+}

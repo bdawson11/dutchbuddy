@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "day-15",
+  "day": 15,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Familie und der Akkusativ",
+  "emoji": "👪",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Family vocabulary plus the accusative case — only the masculine article moves",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Familie: der, die, das — und der Akkusativ",
+      "body": "Family words each have their own gender: **der Bruder** (brother), **die Schwester** (sister), **das Kind** (child). Here's the twist: when the family member is the **object** of a sentence — *ich habe…* — only the **masculine** article changes: **der → den**, **ein → einen**. Feminine and neuter stay exactly the same. So *ich habe einen Bruder*, but *ich habe eine Schwester* and *ich habe ein Kind* — no change there at all.",
+      "table": {
+        "headers": ["Nominative (subject)", "Accusative (object)"],
+        "rows": [
+          ["der Bruder / ein Bruder", "den Bruder / einen Bruder"],
+          ["die Schwester / eine Schwester", "die Schwester / eine Schwester"],
+          ["das Kind / ein Kind", "das Kind / ein Kind"]
+        ]
+      },
+      "callout": "Merk dir: nur maskulin bewegt sich. Just the 'der' words move."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the family",
+      "items": [
+        { "nl": "der Bruder", "en": "brother", "speak": "der Bruder" },
+        { "nl": "die Schwester", "en": "sister", "speak": "die Schwester" },
+        { "nl": "das Kind", "en": "child", "speak": "das Kind" },
+        { "nl": "die Eltern", "en": "parents", "speak": "die Eltern" },
+        { "nl": "die Mutter", "en": "mother", "speak": "die Mutter" },
+        { "nl": "der Vater", "en": "father", "speak": "der Vater" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Subject vs. object — watch the masculine",
+      "pairs": [
+        { "left": "Der Bruder ist hier. — subject", "right": "Ich habe einen Bruder. — object", "note": "Same word, but 'einen' only shows up when the brother is the object." },
+        { "left": "Die Schwester ist hier. — subject", "right": "Ich habe eine Schwester. — object", "note": "Feminine doesn't change at all." },
+        { "left": "Das Kind ist hier. — subject", "right": "Ich habe ein Kind. — object", "note": "Neuter doesn't change either." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wie sagt man 'I have a brother'?",
+      "options": ["Ich habe ein Bruder.", "Ich habe einen Bruder.", "Ich habe eine Bruder."],
+      "correct": 1,
+      "explain": "*Bruder* is masculine, so the accusative after *haben* is *einen Bruder*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Give the accusative: 'a brother' (as in ich habe ___).",
+      "answers": ["einen Bruder"],
+      "hint": "Bruder is masculine — the 'ein' moves.",
+      "explain": "*einen Bruder* — masculine nouns take -en in the accusative."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ich habe einen Bruder.",
+      "answers": ["Ich habe einen Bruder"]
+    },
+    {
+      "type": "shadow",
+      "title": "Repeat after the audio",
+      "lines": [
+        { "nl": "Ich habe einen Bruder.", "en": "I have a brother." },
+        { "nl": "Ich habe eine Schwester.", "en": "I have a sister." },
+        { "nl": "Ich habe ein Kind.", "en": "I have a child." },
+        { "nl": "Ich habe keine Geschwister.", "en": "I have no siblings." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Meine Familie",
+      "prompt": "Build: 'Ich habe ___ ___.' — describe your family with the accusative.",
+      "slots": [
+        { "label": "Person 1", "chips": ["einen Bruder", "eine Schwester", "ein Kind", "einen Onkel", "eine Tante", "keine Geschwister"] },
+        { "label": "Person 2 (optional)", "chips": ["und eine Schwester", "und einen Bruder", "und ein Kind", "und einen Onkel", "und eine Tante", "und das war's"] }
+      ],
+      "sample": "Ich habe einen Bruder und eine Schwester."
+    },
+    {
+      "type": "journal",
+      "prompt": "Wer ist in deiner Familie? Write 2-3 sentences about your family using ich habe + the accusative (einen/eine/ein).",
+      "starters": ["Ich habe…", "Ich habe keine…"],
+      "minSentences": 2
+    }
+  ]
+}

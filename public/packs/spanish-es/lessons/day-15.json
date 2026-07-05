@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "day-15",
+  "day": 15,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "La familia y los posesivos",
+  "emoji": "👪",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Family vocabulary and possessives — mi, tu, su, nuestro, vuestro.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "La familia",
+      "body": "Meet the core family words. Most follow the **-o/-a** pattern you already know: **el hermano / la hermana** (brother/sister), **el abuelo / la abuela** (grandfather/grandmother), **el hijo / la hija** (son/daughter), **el tío / la tía** (uncle/aunt — yes, the same word you know as 'mate/dude'). **Los padres** means 'parents', not just 'fathers'.",
+      "table": {
+        "headers": ["Spanish", "English"],
+        "rows": [
+          ["el padre / la madre", "father / mother"],
+          ["el hermano / la hermana", "brother / sister"],
+          ["el abuelo / la abuela", "grandfather / grandmother"],
+          ["el hijo / la hija", "son / daughter"],
+          ["el tío / la tía", "uncle / aunt"],
+          ["el primo / la prima", "cousin (m/f)"]
+        ]
+      },
+      "callout": "Ojo: *tío/tía* means 'uncle/aunt' at home and 'mate/dude' at the bar — context tells you which."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear la familia",
+      "items": [
+        { "nl": "mi hermano", "en": "my brother", "speak": "mi hermano" },
+        { "nl": "mi hermana", "en": "my sister", "speak": "mi hermana" },
+        { "nl": "mis abuelos", "en": "my grandparents", "speak": "mis abuelos" },
+        { "nl": "mi tío", "en": "my uncle", "speak": "mi tío" },
+        { "nl": "mi prima", "en": "my cousin (f)", "speak": "mi prima" },
+        { "nl": "nuestros padres", "en": "our parents", "speak": "nuestros padres" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Posesivos: mi, tu, su…",
+      "body": "Possessives agree in **number** with the thing owned, not the owner: **mi hermano, mis hermanos** (my brother/brothers). **Nuestro** and **vuestro** also agree in **gender**: **nuestro padre, nuestra madre, vuestros hijos, vuestras hijas**. **Su/sus** covers his, her, your (formal), and their — context decides.",
+      "table": {
+        "headers": ["Posesivo", "Ejemplo"],
+        "rows": [
+          ["mi / mis", "mi hermano, mis hermanos"],
+          ["tu / tus", "tu hermana, tus hermanas"],
+          ["su / sus", "su padre, sus padres"],
+          ["nuestro/a(s)", "nuestro tío, nuestra tía"],
+          ["vuestro/a(s)", "vuestro primo, vuestra prima"]
+        ]
+      },
+      "callout": "**Vuestro** is Spain's plural-informal 'your' — it belongs to the *vosotros* family."
+    },
+    {
+      "type": "contrast",
+      "title": "mi/tu/su vs nuestro/vuestro",
+      "pairs": [
+        { "left": "mi hermano / mis hermanos", "right": "nuestro hermano / nuestra hermana", "note": "mi/tu/su only change for number; nuestro/vuestro change for gender too." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cómo se dice 'our house' (la casa)?",
+      "options": ["nuestro casa", "nuestra casa", "nuestros casa"],
+      "correct": 1,
+      "explain": "*casa* is feminine singular, so it's *nuestra casa*. Nuestro/vuestro agree in gender **and** number with the noun."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'my sisters' (hermanas).",
+      "answers": ["mis hermanas"],
+      "hint": "Possessives like mi/tu/su only change for number, not gender.",
+      "explain": "*mis hermanas* — **mis** marks the plural; *hermana* already shows feminine with -a."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "mi abuela",
+      "answers": ["mi abuela"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía asks about your family over coffee.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "¿Tienes hermanos?", "en": "Do you have siblings?" },
+        { "speaker": "You", "nl": "Sí, tengo una hermana y un hermano. ¿Y tú?", "en": "Yes, I have a sister and a brother. And you?" },
+        { "speaker": "Lucía", "nl": "Yo tengo un hermano mayor. Vive con nuestros padres.", "en": "I have an older brother. He lives with our parents.", "spotlight": "nuestros padres — nuestro agrees in gender/number with padres." },
+        { "speaker": "You", "nl": "¡Qué bien! ¿Y tus abuelos?", "en": "Nice! And your grandparents?" },
+        { "speaker": "Lucía", "nl": "Mira, mi abuela vive en Madrid, cerca de mi barrio.", "en": "Look, my grandmother lives in Madrid, close to my neighborhood." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe tu familia: ¿cuántos hermanos tienes? ¿Dónde viven tus padres o tus abuelos?",
+      "starters": ["Tengo…", "Mi madre…", "Mis abuelos…"],
+      "minSentences": 3
+    }
+  ]
+}

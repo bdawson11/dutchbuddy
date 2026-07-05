@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-87",
+  "day": 87,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "Hätte, wäre, gemacht: die Reue-Vergangenheit",
+  "emoji": "🕰",
+  "level": "B2",
+  "durationMin": [20, 30],
+  "summary": "Past-hypothetical Konjunktiv II — hätte/wäre + Partizip II — for regret and counterfactuals: 'if I had known, I wouldn't have come'.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Der Konjunktiv der Vergangenheit",
+      "body": "Bis jetzt war alles noch offen (*wenn ich Zeit hätte…*). Für Dinge, die **vorbei sind und nicht mehr zu ändern**, brauchst du eine Vergangenheitsform: **hätte / wäre + Partizip II**. *Wenn ich das gewusst **hätte**, **wäre** ich nicht **gekommen**.* Das Hilfsverb wählst du wie im Perfekt: die meisten Verben mit *hätte*, Bewegungs- und Zustandsverben mit *wäre*.",
+      "callout": "Perfekt: ich bin gekommen → Konjunktiv: ich wäre gekommen. Perfekt: ich habe gemacht → ich hätte gemacht."
+    },
+    {
+      "type": "card",
+      "title": "Das Reue-Muster mit Modalverb",
+      "body": "Willst du sagen, dass du etwas hättest **tun sollen**, kommt am Ende ein **Doppel-Infinitiv**: *hätte + Vollverb + Modal*. *Ich **hätte** früher **anfangen sollen**.* / *Das **hätte** ich sehen **wollen**.* Das Modal steht ganz zum Schluss und bleibt im Infinitiv (kein Partizip).",
+      "callout": "Die drei Klassiker der Reue: hätte … machen sollen / müssen / können."
+    },
+    {
+      "type": "contrast",
+      "title": "Noch offen vs. schon vorbei",
+      "pairs": [
+        { "left": "Wenn ich Zeit hätte, würde ich kommen. — present: still possible", "right": "Wenn ich Zeit gehabt hätte, wäre ich gekommen. — past: it didn't happen", "note": "Present = one-word short form + würde. Past = hätte/wäre + Partizip II. The second sentence says: I had no time, and I didn't come." },
+        { "left": "Ich sollte mehr üben. — I should practise more (still can)", "right": "Ich hätte mehr üben sollen. — I should have practised more (too late)", "note": "The past regret pushes sollen to the very end as a bare infinitive." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Reue & Rückblick",
+      "items": [
+        { "nl": "Das hätte ich nicht gedacht.", "en": "I wouldn't have thought that.", "speak": "Das hätte ich nicht gedacht." },
+        { "nl": "Ich hätte fast alles verpasst.", "en": "I would have missed almost everything.", "speak": "Ich hätte fast alles verpasst." },
+        { "nl": "Wäre ich doch früher losgefahren!", "en": "If only I'd left earlier!", "speak": "Wäre ich doch früher losgefahren!" },
+        { "nl": "Du hättest fragen sollen.", "en": "You should have asked.", "speak": "Du hättest fragen sollen." },
+        { "nl": "Das hätte schiefgehen können.", "en": "That could have gone wrong.", "speak": "Das hätte schiefgehen können." },
+        { "nl": "Beinahe wäre ich zu spät gekommen.", "en": "I almost came too late.", "speak": "Beinahe wäre ich zu spät gekommen." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "'If I had known that, I wouldn't have come.' — welche Hilfsverben stimmen?",
+      "options": [
+        "Wenn ich das gewusst hätte, wäre ich nicht gekommen.",
+        "Wenn ich das gewusst wäre, hätte ich nicht gekommen.",
+        "Wenn ich das gewusst hätte, hätte ich nicht gekommen."
+      ],
+      "correct": 0,
+      "explain": "Jedes Verb behält sein Perfekt-Hilfsverb: *wissen* → *hätte gewusst*, *kommen* (Bewegung) → *wäre gekommen*. Deshalb hätte im wenn-Satz, wäre im Hauptsatz."
+    },
+    {
+      "type": "typed",
+      "prompt": "Sag als Reue: 'I should have started earlier.' (früher anfangen, sollen)",
+      "answers": ["Ich hätte früher anfangen sollen"],
+      "hint": "hätte … + Vollverb + sollen ganz am Ende.",
+      "explain": "*Ich hätte früher anfangen sollen.* — Doppel-Infinitiv: erst *anfangen*, dann das Modal *sollen*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe.",
+      "speak": "Das hätte ich nicht gedacht.",
+      "answers": ["Das hätte ich nicht gedacht"]
+    },
+    {
+      "type": "builder",
+      "title": "Wenn …, dann wäre alles anders",
+      "prompt": "Bau einen Rückblick, der so nicht passiert ist. Beide Teile stehen in der Vergangenheit (hätte/wäre + Partizip II).",
+      "slots": [
+        { "label": "wenn-Satz", "chips": ["Wenn ich mehr geübt hätte", "Wenn ich früher losgefahren wäre", "Wenn du mir das gesagt hättest"] },
+        { "label": "Hauptsatz", "chips": ["hätte ich die Prüfung bestanden", "wäre ich pünktlich gewesen", "wäre alles anders gelaufen"] }
+      ],
+      "sample": "Wenn ich mehr geübt hätte, hätte ich die Prüfung bestanden."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You skipped a small gig last Friday — turns out it was special. Lena teases, then consoles.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Du warst am Freitag nicht beim Konzert? Mann, das war so gut!", "en": "You weren't at the concert on Friday? Man, it was so good!" },
+        { "speaker": "You", "nl": "Ich weiß. Wenn ich das gewusst hätte, wäre ich natürlich gekommen.", "en": "I know. If I'd known, I would of course have come.", "spotlight": "Past counterfactual across two clauses: hätte in the wenn-clause, wäre in the main clause." },
+        { "speaker": "Lena", "nl": "Jonas hat sogar mitgespielt. Zwei Songs.", "en": "Jonas even played along. Two songs." },
+        { "speaker": "You", "nl": "Was? Das hätte ich echt sehen wollen.", "en": "What? I really would have wanted to see that.", "spotlight": "Regret with a modal: *hätte … sehen wollen* — double infinitive at the end." },
+        { "speaker": "Lena", "nl": "Tja. Du hättest einfach fragen sollen.", "en": "Well. You just should have asked." },
+        { "speaker": "You", "nl": "Stimmt. Ich hätte nicht so früh nach Hause gehen sollen.", "en": "True. I shouldn't have gone home so early." },
+        { "speaker": "Lena", "nl": "Halb so wild. Beim nächsten Mal sag ich dir Bescheid.", "en": "No big deal. Next time I'll let you know." },
+        { "speaker": "You", "nl": "Danke. Ohne dich hätte ich das eh nie erfahren.", "en": "Thanks. Without you I'd never have found out anyway." },
+        { "speaker": "Lena", "nl": "Siehst du — wärst du mal mitgekommen, hättest du's live gehabt.", "en": "See — had you just come along, you'd have had it live.", "spotlight": "A conditional without *wenn*: the verb *wärst* jumps to the front instead." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Denk an eine Entscheidung, die du heute anders treffen würdest. Was hättest du anders gemacht — und was wäre dann passiert? Schreib mindestens vier Sätze im Konjunktiv II der Vergangenheit (hätte/wäre + Partizip II).",
+      "starters": ["Wenn ich … gewusst hätte,…", "Ich hätte … sollen.", "Dann wäre ich…", "Ohne … hätte ich…"],
+      "minSentences": 4
+    }
+  ]
+}

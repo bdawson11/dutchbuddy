@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "day-67",
+  "day": 67,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Riflessivi e il si impersonale",
+  "emoji": "🔁",
+  "level": "B1",
+  "durationMin": [20, 25],
+  "summary": "Reflexives in the passato prossimo (essere + agreement) and the impersonal si — si mangia bene",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "I riflessivi al passato: essere + accordo",
+      "body": "Reflexive verbs (*alzarsi, vestirsi, sentirsi, decidersi*) always take **essere** in the passato prossimo, so the participle **agrees with the subject**. *Sofia si è alzat**a*** presto. *I ragazzi si sono divertit**i***. *Mi sono decis**o/a***. Get the ending wrong and it grates — *si è alzato* for a woman is a classic slip.",
+      "callout": "Reflexive ⇒ *essere* ⇒ participle agrees: -o / -a / -i / -e with the subject."
+    },
+    {
+      "type": "chips",
+      "title": "La mia mattina (riflessivi)",
+      "items": [
+        { "nl": "Mi sveglio alle sette.", "en": "I wake up at seven.", "speak": "Mi sveglio alle sette." },
+        { "nl": "Mi sono alzata tardi.", "en": "I got up late.", "speak": "Mi sono alzata tardi." },
+        { "nl": "Ci siamo preparati in fretta.", "en": "We got ready in a hurry.", "speak": "Ci siamo preparati in fretta." },
+        { "nl": "Si è decisa finalmente.", "en": "She finally made up her mind.", "speak": "Si è decisa finalmente." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Parliamo di Sofia. Completa: *Ieri Sofia ___ molto presto.*",
+      "options": ["si è alzato", "si è alzata", "si sono alzata"],
+      "correct": 1,
+      "explain": "Reflexive + *essere*, subject Sofia (fem. sing.) → *si è alzat**a***."
+    },
+    {
+      "type": "card",
+      "title": "Il si impersonale: 'si mangia bene'",
+      "body": "**si + verb in the 3rd person** = *one / people / you-in-general*, no specific subject. *In Italia **si mangia** bene.* *A Milano **si lavora** tanto.* *Come **si dice** in italiano?* It's how Italians make a statement about everybody. (With a plural object it agrees: *qui **si vendono** case*.)",
+      "callout": "*Si mangia, si vive, si dice* — the everyday impersonal. No 'they', no 'you', just *si*."
+    },
+    {
+      "type": "contrast",
+      "title": "si riflessivo vs si impersonale",
+      "pairs": [
+        { "left": "*Sofia si veste.* — Sofia dresses **herself**. (reflexive)", "right": "*A Milano si veste bene.* — In Milan **people** dress well. (impersonal)", "note": "Same little word *si*, two jobs: reflexive points back to a subject; impersonal means 'one / everybody'." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "'Here one eats really well.' Traduci con il *si* impersonale (usa *qui*).",
+      "answers": ["qui si mangia molto bene", "qui si mangia davvero bene", "qui si mangia benissimo"],
+      "hint": "si + mangia (3ª persona) + un avverbio.",
+      "explain": "*Qui si mangia molto bene.* Impersonal *si* + 3rd-person verb = a statement about everyone."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "In Italia si cena tardi.",
+      "answers": ["in italia si cena tardi", "in italia si cena tardi."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Pietro racconta il ritmo di Napoli; si finisce a parlare di Sofia, ancora indecisa.",
+      "lines": [
+        { "speaker": "Pietro", "nl": "Guarda, qui a Napoli si mangia bene e si vive con più calma.", "en": "Look, here in Naples people eat well and live at a calmer pace.", "spotlight": "*si mangia / si vive* — il si impersonale in azione." },
+        { "speaker": "You", "nl": "A Milano invece si corre sempre, dicono.", "en": "In Milan, on the other hand, everyone's always rushing, they say." },
+        { "speaker": "Pietro", "nl": "Eh, ognuno si abitua al suo ritmo, prima o poi.", "en": "Well, everyone gets used to their own rhythm, sooner or later." },
+        { "speaker": "You", "nl": "Sofia si sta ancora decidendo per quel posto a Milano.", "en": "Sofia is still making up her mind about that job in Milan." },
+        { "speaker": "Pietro", "nl": "Se ci si trasferisce per lavoro, ci si trova bene ovunque, se uno è in gamba.", "en": "If you move for work, you settle in fine anywhere, if you're sharp." },
+        { "speaker": "You", "nl": "Speriamo. Lei è in gamba, questo è sicuro.", "en": "Let's hope so. She's sharp, that's for sure." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai colto le differenze?",
+      "questions": [
+        { "q": "Secondo Pietro, com'è la vita a Napoli?", "options": ["Si vive di corsa", "Si vive con più calma", "Si lavora troppo"], "correct": 1 },
+        { "q": "A che punto è la decisione di Sofia?", "options": ["Ha già firmato", "Si sta ancora decidendo", "Ha detto di no"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Descrivi la tua città o il tuo quartiere con il *si* impersonale: cosa si mangia, come si vive, cosa si fa la sera. Poi una frase su come ti sei svegliato/a stamattina (riflessivo al passato).",
+      "starters": ["Qui si…", "La sera si…", "Stamattina mi sono…"],
+      "minSentences": 3
+    }
+  ]
+}

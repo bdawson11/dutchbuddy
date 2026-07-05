@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "day-18",
+  "day": 18,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Dein Kiez",
+  "emoji": "🏘️",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Neighborhood vocabulary and Berlin Kiez culture — where you live and what you like about it",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Dein Kiez",
+      "body": "*Kiez* is very Berlin — it means your **neighborhood**, but with real affection: your streets, your *Späti* (the 24-hour corner kiosk), your regulars. Every Berliner has a Kiez story. Learn to say where you live: **Ich wohne in + [Stadtteil]**, e.g. *Ich wohne in Neukölln*.",
+      "table": {
+        "headers": ["Deutsch", "Englisch"],
+        "rows": [
+          ["der Kiez", "neighborhood"],
+          ["die Straße", "street"],
+          ["die Ecke", "corner"],
+          ["der Späti", "24-hour corner kiosk"],
+          ["wohnen", "to live"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the vocab",
+      "items": [
+        { "nl": "der Kiez", "en": "neighborhood", "speak": "der Kiez" },
+        { "nl": "die Straße", "en": "street", "speak": "die Straße" },
+        { "nl": "die Ecke", "en": "corner", "speak": "die Ecke" },
+        { "nl": "der Park", "en": "park", "speak": "der Park" },
+        { "nl": "der Späti", "en": "24-hour corner kiosk", "speak": "der Späti" },
+        { "nl": "die U-Bahn-Station", "en": "subway station", "speak": "die U-Bahn-Station" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Berlins Kieze",
+      "body": "Berlin is a patchwork of Kieze, each with its own personality: **Neukölln** — young, mixed, a Späti on every corner (that's Lena's Kiez). **Kreuzberg** — punky, multicultural, Turkish bakeries. **Prenzlauer Berg** — leafy, families, expensive coffee. **Friedrichshain** — clubs, students, graffiti. Berliners will happily debate which Kiez is best for twenty minutes.",
+      "callout": "Frag einfach: 'In welchem Kiez wohnst du?'"
+    },
+    {
+      "type": "mcq",
+      "prompt": "What is a 'Späti'?",
+      "options": ["A type of bread", "A 24-hour corner kiosk", "A train station"],
+      "correct": 1,
+      "explain": "*Späti* (short for *Spätkauf*) — the beloved Berlin corner shop that never closes."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the German word for 'neighborhood' (the Berlin word, with feeling).",
+      "answers": ["Kiez", "der Kiez"],
+      "hint": "Four letters, very Berlin.",
+      "explain": "*der Kiez* — not just 'neighborhood', it's yours."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ich wohne in Neukölln.",
+      "answers": ["Ich wohne in Neukölln", "Ich wohne in Neukoelln"]
+    },
+    {
+      "type": "shadow",
+      "title": "Repeat after the audio",
+      "lines": [
+        { "nl": "Wo wohnst du?", "en": "Where do you live?" },
+        { "nl": "Ich wohne in Kreuzberg.", "en": "I live in Kreuzberg." },
+        { "nl": "Der Späti an der Ecke ist super.", "en": "The Späti on the corner is great." },
+        { "nl": "Mein Kiez ist laut, aber ich mag ihn.", "en": "My neighborhood is loud, but I like it." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena and you are walking through her neighborhood, Neukölln, on a Saturday.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Das ist mein Kiez! Ich wohne hier in Neukölln.", "en": "This is my neighborhood! I live here in Neukölln.", "spotlight": "Kiez — Berlin-speak for neighborhood, said with real pride." },
+        { "speaker": "You", "nl": "Sehr schön! Ist der Späti gut?", "en": "Very nice! Is the Späti good?" },
+        { "speaker": "Lena", "nl": "Total gut. Ich kaufe dort oft ein Bier.", "en": "Really good. I often buy a beer there.", "spotlight": "ein Bier — neuter, accusative, no change from nominative." },
+        { "speaker": "You", "nl": "Und der Park — ist er auch hier?", "en": "And the park — is it also here?" },
+        { "speaker": "Lena", "nl": "Ja, klar! Der Park ist super für den Feierabend.", "en": "Yes, of course! The park is great for after-work time.", "spotlight": "für + accusative — den Feierabend (masculine, -en)." },
+        { "speaker": "You", "nl": "Alles klar. Ich mag deinen Kiez schon jetzt.", "en": "Got it. I already like your neighborhood.", "spotlight": "deinen Kiez — accusative masculine again, after mögen." },
+        { "speaker": "Lena", "nl": "Freut mich! Willkommen in Neukölln.", "en": "Glad to hear it! Welcome to Neukölln." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "Which neighborhood does Lena live in?", "options": ["Kreuzberg", "Neukölln", "Friedrichshain"], "correct": 1 },
+        { "q": "What does Lena buy at the Späti?", "options": ["Bread", "A beer", "Coffee"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mein Kiez",
+      "prompt": "Say where you live and one thing you like about your neighborhood.",
+      "slots": [
+        { "label": "Ich wohne in", "chips": ["Neukölln", "Kreuzberg", "Friedrichshain", "Toronto", "Hamburg"] },
+        { "label": "Ich mag", "chips": ["meinen Park", "meinen Späti", "meine Straße", "meine Nachbarn"] }
+      ],
+      "sample": "Ich wohne in Neukölln. Ich mag meinen Späti."
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschreib deinen Kiez (or your neighborhood): where you live, and one place you like (a park, a café, a Späti…).",
+      "starters": ["Ich wohne in…", "Ich mag…"],
+      "minSentences": 2
+    }
+  ]
+}

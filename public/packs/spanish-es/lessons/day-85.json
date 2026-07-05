@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "day-85",
+  "day": 85,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "El subjuntivo imperfecto: las formas",
+  "emoji": "🧩",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Form the imperfect subjunctive off the third-person-plural preterite: the -ra and -se endings.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "De dónde sale la forma",
+      "body": "Ya usas el subjuntivo presente sin miedo. Ahora llega su versión en pasado: el **subjuntivo imperfecto**. La receta es mecánica y **siempre funciona**: coge la **tercera persona del plural del indefinido** (*ellos hablaron, comieron, tuvieron*), quita **-ron** y añade **-ra**. Como parte del indefinido, todos los irregulares **ya vienen resueltos** (*tuvieron → tuviera*): ni una irregularidad nueva.",
+      "table": {
+        "headers": ["Infinitivo", "Ellos (indefinido)", "Subj. imperfecto (yo)"],
+        "rows": [
+          ["hablar", "hablaron", "hablara"],
+          ["comer", "comieron", "comiera"],
+          ["vivir", "vivieron", "viviera"],
+          ["tener", "tuvieron", "tuviera"],
+          ["ir / ser", "fueron", "fuera"],
+          ["hacer", "hicieron", "hiciera"]
+        ]
+      },
+      "callout": "Regla de oro: si sabes el indefinido, ya sabes el subjuntivo imperfecto."
+    },
+    {
+      "type": "contrast",
+      "title": "Dos terminaciones, el mismo tiempo",
+      "pairs": [
+        { "left": "hablara · comiera · fuera  (-ra)", "right": "hablase · comiese · fuese  (-se)", "note": "Las dos son **equivalentes**. La forma **-ra** domina en el habla de España; la **-se** suena algo más formal o escrita. Elige una y sé coherente dentro de una frase." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Conjuga en tu cabeza — toca y repite",
+      "items": [
+        { "nl": "quisiera un café", "en": "I'd like a coffee (polite)", "speak": "quisiera un café" },
+        { "nl": "si pudieras…", "en": "if you could…", "speak": "si pudieras" },
+        { "nl": "me dijo que fuera", "en": "he told me to go", "speak": "me dijo que fuera" },
+        { "nl": "ojalá tuviéramos tiempo", "en": "I wish we had time", "speak": "ojalá tuviéramos tiempo" },
+        { "nl": "que vinierais todos", "en": "that you all came", "speak": "que vinierais todos" },
+        { "nl": "para que lo supieran", "en": "so they'd know it", "speak": "para que lo supieran" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Partiendo de *ellos tuvieron*, la forma **-ra** del subjuntivo imperfecto para *yo* es…",
+      "options": ["tendría", "tenía", "tuviera", "tuvo"],
+      "correct": 2,
+      "explain": "*Tuvieron* − *-ron* + *-ra* = **tuviera**. *Tendría* es condicional, *tenía* es imperfecto de indicativo y *tuvo* es indefinido."
+    },
+    {
+      "type": "typed",
+      "prompt": "Escribe el subjuntivo imperfecto (forma -ra) de *poder* para *nosotros*. Pista: *ellos pudieron*.",
+      "answers": ["pudiéramos", "pudieramos", "pudiésemos", "pudiesemos"],
+      "hint": "Ellos pudieron → quita -ron, añade -ramos… y cuidado con la tilde.",
+      "explain": "*Pudieron → **pudiéramos*** (o *pudiésemos*). Ojo con la **tilde** en la forma de *nosotros*: pudi**é**ramos."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe (subjuntivo imperfecto).",
+      "speak": "esperaba que fuera fácil",
+      "answers": ["esperaba que fuera fácil", "esperaba que fuese fácil", "esperaba que fuera facil"]
+    },
+    {
+      "type": "builder",
+      "title": "Monta la frase",
+      "prompt": "Combina un verbo principal en pasado con un subjuntivo imperfecto que concuerde con el sujeto.",
+      "slots": [
+        { "label": "Principal (pasado)", "chips": ["Quería que", "Me gustaría que", "Era raro que"] },
+        { "label": "Sujeto", "chips": ["tú", "vosotros", "ellos"] },
+        { "label": "Subj. imperfecto", "chips": ["vinieras", "vinierais", "vinieran"] }
+      ],
+      "sample": "Quería que vinieras."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía tells you an old story from her first agency job.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Cuando entré en la agencia, mi jefa quería que llegáramos a las ocho en punto.", "en": "When I joined the agency, my boss wanted us in at eight sharp.", "spotlight": "Main verb *quería* (past) pulls the subordinate into subjuntivo imperfecto: *llegáramos*." },
+        { "speaker": "You", "nl": "¿En serio? ¿Y también esperaba que trabajarais hasta tarde?", "en": "Really? And did she also expect you all to work late?" },
+        { "speaker": "Lucía", "nl": "Total. Exigía que lo diéramos todo, todos los días.", "en": "Totally. She demanded we give it our all, every day." },
+        { "speaker": "You", "nl": "Madre mía. Yo preferiría que me dejaran organizarme a mi manera.", "en": "Wow. I'd rather they let me organize myself my own way." },
+        { "speaker": "Lucía", "nl": "Normal. Por eso al final busqué algo donde valoraran eso.", "en": "Makes sense. That's why in the end I found somewhere that valued that." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Qué quería la jefa de Lucía?", "options": ["Que llegaran a las ocho", "Que llegaran tarde", "Que no fueran a la oficina"], "correct": 0 },
+        { "q": "¿Qué preferiría You?", "options": ["Trabajar hasta muy tarde", "Que le dejaran organizarse a su manera", "Cambiar de ciudad"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Piensa en un jefe, un profe o un entrenador del pasado. ¿Qué quería o exigía de ti? Escribe 3–4 frases con subjuntivo imperfecto (*quería que…, esperaba que…, no le gustaba que…*).",
+      "starters": ["Mi antiguo jefe quería que…", "Esperaba que yo…", "No le gustaba que…", "Al final preferí que…"],
+      "minSentences": 3
+    }
+  ]
+}

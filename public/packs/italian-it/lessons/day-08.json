@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "day-08",
+  "day": 8,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "I numeri da zero a cento",
+  "emoji": "🔢",
+  "level": "A1",
+  "durationMin": [15, 20],
+  "summary": "Counting 0-100, with the vowel-drop joins in the tens (ventuno, trentotto) and the accent on -tré",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Zero, uno, due... i primi dieci",
+      "body": "Numbers 1-10 you just have to **memorize** — there's no shortcut. Say them out loud a few times: *uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci*. Notice *sei* and *sette* look similar on the page but sound nothing alike out loud.",
+      "callout": "Ten numbers, zero shortcuts — drill these until they're automatic.",
+      "table": {
+        "headers": ["Italiano", "English"],
+        "rows": [
+          ["zero", "zero"],
+          ["uno", "one"],
+          ["due", "two"],
+          ["tre", "three"],
+          ["quattro", "four"],
+          ["cinque", "five"],
+          ["sei", "six"],
+          ["sette", "seven"],
+          ["otto", "eight"],
+          ["nove", "nine"],
+          ["dieci", "ten"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Batti i primi dieci",
+      "items": [
+        { "nl": "zero", "en": "zero", "speak": "zero" },
+        { "nl": "tre", "en": "three", "speak": "tre" },
+        { "nl": "sei", "en": "six", "speak": "sei" },
+        { "nl": "sette", "en": "seven", "speak": "sette" },
+        { "nl": "dieci", "en": "ten", "speak": "dieci" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Undici... venti: la famiglia -dici",
+      "body": "11-19 mostly follow the **-dici** pattern (like '-teen'): *tre-dici, quattor-dici, quin-dici*... but two numbers misbehave: **undici** (not *unodici*) and **sedici** (not *seidici* — the *s* comes first). **Venti** (20) is clean and regular — your launchpad for everything after.",
+      "callout": "sedici flips the order — say it a few extra times so it sticks.",
+      "table": {
+        "headers": ["Italiano", "English"],
+        "rows": [
+          ["undici", "eleven"],
+          ["dodici", "twelve"],
+          ["tredici", "thirteen"],
+          ["quattordici", "fourteen"],
+          ["quindici", "fifteen"],
+          ["sedici", "sixteen"],
+          ["diciassette", "seventeen"],
+          ["diciotto", "eighteen"],
+          ["diciannove", "nineteen"],
+          ["venti", "twenty"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Batti gli undici-venti",
+      "items": [
+        { "nl": "undici", "en": "eleven", "speak": "undici" },
+        { "nl": "sedici", "en": "sixteen", "speak": "sedici" },
+        { "nl": "diciassette", "en": "seventeen", "speak": "diciassette" },
+        { "nl": "diciannove", "en": "nineteen", "speak": "diciannove" },
+        { "nl": "venti", "en": "twenty", "speak": "venti" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Da venti a cento: incolla i pezzi",
+      "body": "From 20 on, Italian **glues pieces together** into one word. The tens: *venti, trenta, quaranta, cinquanta, sessanta, settanta, ottanta, novanta, cento*. To build a number in between, just add the units — **venti + due = ventidue**. Two traps: before **uno** and **otto** (both start with a vowel), the tens word **drops its final vowel** — *venti + uno = **ventuno*** (not *ventiuno*), *venti + otto = **ventotto***. And when a number ends in **tre**, it gets a written accent — *venti + tre = **ventitré***, *trenta + tre = **trentatré***.",
+      "callout": "ventuno, ventotto, ventitré — memorize these three shapes and the rest of the century follows.",
+      "table": {
+        "headers": ["Italiano", "English"],
+        "rows": [
+          ["venti", "twenty"],
+          ["trenta", "thirty"],
+          ["quaranta", "forty"],
+          ["cinquanta", "fifty"],
+          ["sessanta", "sixty"],
+          ["settanta", "seventy"],
+          ["ottanta", "eighty"],
+          ["novanta", "ninety"],
+          ["cento", "one hundred"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Batti le decine",
+      "items": [
+        { "nl": "trenta", "en": "thirty", "speak": "trenta" },
+        { "nl": "quaranta", "en": "forty", "speak": "quaranta" },
+        { "nl": "sessanta", "en": "sixty", "speak": "sessanta" },
+        { "nl": "ottanta", "en": "eighty", "speak": "ottanta" },
+        { "nl": "cento", "en": "one hundred", "speak": "cento" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "How do you write 21 in Italian?",
+      "options": ["ventiuno", "ventuno", "vent'uno"],
+      "correct": 1,
+      "explain": "**ventuno** — venti drops its final *i* before a number starting with a vowel (uno)."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which spelling of 23 is correct?",
+      "options": ["ventitre", "ventitré", "venti e tre"],
+      "correct": 1,
+      "explain": "**ventitré** — one word, and it takes a written accent because the stress falls on the final *é*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the Italian word for 38.",
+      "answers": ["trentotto"],
+      "hint": "trenta + otto — remember the vowel drop.",
+      "explain": "**trentotto** — trenta loses its final *a* before otto, the same trick as ventotto."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the number you hear.",
+      "speak": "quarantadue",
+      "answers": ["quarantadue", "42"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write out, in Italian words, your age, and one two-digit number you'd say out loud often (a house number, a bus number...). Use at least one vowel-drop number (like -uno or -otto).",
+      "starters": ["Ho... anni.", "Il numero è..."]
+    }
+  ]
+}

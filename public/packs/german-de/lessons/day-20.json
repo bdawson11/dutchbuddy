@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "day-20",
+  "day": 20,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "review",
+  "title": "Lenas Kiez",
+  "emoji": "🚶",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Review week 3's accusative targets, then meet Lena narrating her Berlin Kiez",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Rückblick: Woche 3",
+      "body": "You've built the whole accusative case this week: **family** as direct objects (*einen Bruder*), **predicate adjectives** (*ist nett*, no endings), **possessives** in the accusative (*meinen, deinen, seinen, ihren*), your **Kiez** vocabulary, and the five **accusative prepositions** (*für, ohne, gegen, um, durch*). Time to hear it all in the wild — Lena's about to tell you about her neighborhood.",
+      "callout": "Nur maskulin bewegt sich — den ganzen Fall auf einmal, easy."
+    },
+    {
+      "type": "chips",
+      "title": "Quick refresh — tap to hear",
+      "items": [
+        { "nl": "einen Bruder", "en": "a brother (obj.)", "speak": "einen Bruder" },
+        { "nl": "ist lustig", "en": "is funny", "speak": "ist lustig" },
+        { "nl": "meinen Vater", "en": "my father (obj.)", "speak": "meinen Vater" },
+        { "nl": "der Kiez", "en": "neighborhood", "speak": "der Kiez" },
+        { "nl": "durch den Park", "en": "through the park", "speak": "durch den Park" },
+        { "nl": "ohne dich", "en": "without you", "speak": "ohne dich" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Lena sagt: 'Ich habe ___ Bruder.' Welches Wort passt?",
+      "options": ["ein", "einen", "eine"],
+      "correct": 1,
+      "explain": "*Bruder* is masculine — accusative after *haben* → *einen*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the missing possessive: 'Ich mag ___ Nachbarn.' (my — masculine accusative)",
+      "answers": ["meinen"],
+      "hint": "Masculine accusative possessive.",
+      "explain": "*meinen Nachbarn* — masculine noun, accusative after mögen."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena walks you through Neukölln on a Sunday afternoon, telling you about her life here.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Also, das ist mein Kiez. Ich wohne schon lange hier.", "en": "So, this is my neighborhood. I've lived here a long time already." },
+        { "speaker": "You", "nl": "Schön! Wie ist er so, dein Kiez?", "en": "Nice! What's it like, your neighborhood?" },
+        { "speaker": "Lena", "nl": "Laut, bunt, ein bisschen chaotisch — aber ich mag ihn total.", "en": "Loud, colorful, a bit chaotic — but I really like it.", "spotlight": "ihn — the accusative pronoun for der Kiez (masculine)." },
+        { "speaker": "You", "nl": "Und deine Familie? Wohnt sie auch in Berlin?", "en": "And your family? Do they live in Berlin too?" },
+        { "speaker": "Lena", "nl": "Nein, ich habe einen Bruder, aber er wohnt noch in Hannover. Er ist ruhig — ganz anders als ich!", "en": "No, I have a brother, but he still lives in Hannover. He's quiet — totally different from me!", "spotlight": "einen Bruder — masculine accusative after haben, right on cue." },
+        { "speaker": "You", "nl": "Lustig! Und dein Lieblingsort hier?", "en": "Funny! And your favorite spot here?" },
+        { "speaker": "Lena", "nl": "Der Späti um die Ecke ist mein Favorit — und ich gehe oft durch den Park.", "en": "The Späti around the corner is my favorite — and I often walk through the park.", "spotlight": "um die Ecke, durch den Park — two of the five accusative prepositions, live." },
+        { "speaker": "You", "nl": "Klingt gut. Ich mag deinen Kiez schon jetzt.", "en": "Sounds good. I already like your neighborhood." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "Where does Lena's brother live?", "options": ["Hamburg", "Hannover", "Cologne"], "correct": 1 },
+        { "q": "How does Lena describe her Kiez?", "options": ["Quiet and boring", "Loud, colorful, a bit chaotic", "Empty and clean"], "correct": 1 },
+        { "q": "Where does Lena often walk?", "options": ["To the Bäckerei", "Through the park", "To the train station"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Was denkst du über Lenas Kiez? And what's your own neighborhood like? Write 2-3 sentences, try using ich mag + accusative.",
+      "starters": ["Lenas Kiez ist…", "Mein Kiez ist…", "Ich mag…"],
+      "minSentences": 2
+    }
+  ]
+}

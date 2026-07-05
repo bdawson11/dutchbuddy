@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "day-16",
+  "day": 16,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Beschreiben: Adjektive nach sein",
+  "emoji": "🎭",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Describe people with predicate adjectives after sein — no endings needed at A1",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Beschreiben: Adjektive nach sein",
+      "body": "To describe someone, put the adjective after **sein** (or *werden/bleiben*) — and here's the good news: it never changes. *Der Bruder ist nett. Die Schwester ist nett. Das Kind ist nett.* No endings, no gender, no case — that's the deal until B1. (You'll meet the fancier endings — *ein netter Bruder* — much later; for now keep adjectives simple and predicate.)",
+      "callout": "Regel: nach sein/ist bleibt das Adjektiv immer gleich."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the adjectives",
+      "items": [
+        { "nl": "nett", "en": "nice", "speak": "nett" },
+        { "nl": "freundlich", "en": "friendly", "speak": "freundlich" },
+        { "nl": "lustig", "en": "funny", "speak": "lustig" },
+        { "nl": "ernst", "en": "serious", "speak": "ernst" },
+        { "nl": "groß", "en": "tall / big", "speak": "groß" },
+        { "nl": "klein", "en": "small / short", "speak": "klein" },
+        { "nl": "laut", "en": "loud", "speak": "laut" },
+        { "nl": "ruhig", "en": "quiet, calm", "speak": "ruhig" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Opposites, no endings needed",
+      "pairs": [
+        { "left": "groß — tall / big", "right": "klein — small / short", "note": "Height or size — the adjective doesn't move here." },
+        { "left": "laut — loud", "right": "ruhig — quiet", "note": "Great for describing a WG-Mitbewohner (flatmate)." },
+        { "left": "lustig — funny", "right": "ernst — serious", "note": "Both fine to describe your Geschwister." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is correct?",
+      "options": ["Mein Bruder ist netter.", "Mein Bruder ist nett.", "Mein Bruder ist nette."],
+      "correct": 1,
+      "explain": "After *sein*, the adjective takes **no ending** at A1: *ist nett* — never *nette*, and *netter* is a comparative (later)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'My sister is funny.'",
+      "answers": ["Meine Schwester ist lustig"],
+      "hint": "sein + adjective, no ending.",
+      "explain": "*Meine Schwester ist lustig* — the adjective stays exactly as it is in the dictionary."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Mein Bruder ist laut, aber lustig.",
+      "answers": ["Mein Bruder ist laut, aber lustig"]
+    },
+    {
+      "type": "shadow",
+      "title": "Repeat after the audio",
+      "lines": [
+        { "nl": "Meine Schwester ist sehr nett.", "en": "My sister is very nice." },
+        { "nl": "Mein Bruder ist laut.", "en": "My brother is loud." },
+        { "nl": "Das Kind ist schüchtern.", "en": "The child is shy." },
+        { "nl": "Meine Oma ist klug und ruhig.", "en": "My grandma is smart and calm." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Wie sind sie?",
+      "prompt": "Describe a family member: person + sein + adjective.",
+      "slots": [
+        { "label": "Person", "chips": ["Mein Bruder", "Meine Schwester", "Mein Kind", "Meine Mutter", "Mein Vater"] },
+        { "label": "Adjektiv", "chips": ["ist nett", "ist lustig", "ist ernst", "ist schüchtern", "ist laut", "ist ruhig"] }
+      ],
+      "sample": "Mein Bruder ist lustig."
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe three people in your life with sein + an adjective (no endings needed!). Try at least two different adjectives.",
+      "starters": ["Mein(e) … ist …", "Ich bin …"],
+      "minSentences": 3
+    }
+  ]
+}
