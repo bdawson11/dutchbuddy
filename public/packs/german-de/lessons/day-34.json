@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "day-34",
+  "day": 34,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "review",
+  "title": "Lenas Wochenende an der Ostsee",
+  "emoji": "🌊",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Recap the Perfekt, then hear Lena narrate a whole weekend in it",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Das Perfekt — die ganze Woche im Überblick",
+      "body": "Du hast diese Woche das Perfekt aufgebaut: eine Form von *haben* oder *sein* an Position zwei, plus ein **Partizip** ganz am Ende. Nimm **sein** für Bewegung und Zustandsänderung (*gehen, fahren, bleiben, werden*), **haben** für den Rest. Regelmäßige Partizipien enden auf *-t* oder *-et*; einige Verben sind aber unregelmäßig — zum Beispiel *gewesen, gesehen, getrunken*.",
+      "table": {
+        "headers": ["Typ", "Beispiel"],
+        "rows": [
+          ["haben + regelmäßig", "Ich habe gearbeitet."],
+          ["haben + unregelmäßig", "Ich habe ein Buch gelesen."],
+          ["sein + Bewegung", "Ich bin nach Hause gegangen."],
+          ["trennbar", "Ich bin früh aufgestanden."]
+        ]
+      },
+      "callout": "Testfrage für sein: Bewegt sich das Subjekt irgendwohin, oder wird es zu etwas Neuem? Dann fast immer sein."
+    },
+    {
+      "type": "contrast",
+      "title": "haben oder sein?",
+      "pairs": [
+        { "left": "Ich habe das Auto gefahren. — drove the car", "right": "Ich bin nach Berlin gefahren. — traveled to Berlin", "note": "Gleiches Verb *fahren*: mit Objekt → haben; mit Ziel → sein." },
+        { "left": "Es hat geregnet. — it rained", "right": "Es ist kalt geworden. — it got cold", "note": "regnen ist eine Tätigkeit → haben; werden ist eine Zustandsänderung → sein." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Lena ___ gestern ins Kino ___.* Fill both blanks.",
+      "options": ["hat … gegangen", "ist … gegangen", "ist … gegangt"],
+      "correct": 1,
+      "explain": "gehen ist Bewegung → **sein**, und das Partizip ist unregelmäßig **gegangen**: *Lena ist gestern ins Kino gegangen.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Sag: 'We drank coffee and talked.' (benutze *trinken*, *reden*)",
+      "answers": ["Wir haben Kaffee getrunken und geredet"],
+      "hint": "Beide nehmen haben; getrunken (unregelmäßig), geredet (regelmäßig).",
+      "explain": "*Wir haben Kaffee getrunken und geredet.* — ein haben trägt beide Partizipien am Ende."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Coffee with Lena. She's just back from a weekend at the Ostsee (Baltic Sea) and can't wait to tell you everything.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Guck mal, ich habe dieses Wochenende richtig viel erlebt! Wir sind Freitag mit dem Zug an die Ostsee gefahren.", "en": "Look, I really experienced a lot this weekend! We took the train to the Baltic Sea on Friday.", "spotlight": "*erlebt* (haben) und *gefahren* (sein) — zwei Hilfsverben in einem Satz." },
+        { "speaker": "You", "nl": "Wie schön! Was habt ihr da gemacht?", "en": "How nice! What did you all do there?" },
+        { "speaker": "Lena", "nl": "Vieles! Wir sind lange am Strand spazieren gegangen und haben Fisch gegessen.", "en": "All sorts of things! We took long walks on the beach and ate fish.", "spotlight": "*gegangen* (unregelmäßig, sein) direkt neben *gegessen* (unregelmäßig, haben)." },
+        { "speaker": "Lena", "nl": "Abends sind wir in eine Kneipe gegangen und haben Bier getrunken.", "en": "In the evening we went to a pub and drank beer." },
+        { "speaker": "You", "nl": "Und das Wetter? Ist es schön gewesen?", "en": "And the weather? Was it nice?", "spotlight": "*ist … gewesen* — das Perfekt von sein selbst." },
+        { "speaker": "Lena", "nl": "Zuerst ist es schön gewesen, aber am Sonntag hat es angefangen zu regnen. Da sind wir drinnen geblieben.", "en": "At first it was nice, but on Sunday it started to rain. Then we stayed inside.", "spotlight": "*geblieben* — noch ein klassisches sein-Verb." },
+        { "speaker": "You", "nl": "Klingt richtig gut!", "en": "Sounds really good!" },
+        { "speaker": "Lena", "nl": "Auf jeden Fall! Ich bin Sonntagabend total entspannt nach Hause gekommen.", "en": "Definitely! I got home Sunday evening totally relaxed.", "spotlight": "*gekommen* nimmt sein — nach Hause kommen." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hast du Lenas Geschichte verstanden?",
+      "questions": [
+        { "q": "Wie ist Lena an die Ostsee gefahren?", "options": ["Mit dem Auto", "Mit dem Zug", "Mit dem Bus"], "correct": 1 },
+        { "q": "Was haben sie am Strand gemacht?", "options": ["Sind Rad gefahren", "Sind spazieren gegangen", "Haben Volleyball gespielt"], "correct": 1 },
+        { "q": "Was ist am Sonntag passiert?", "options": ["Es hat angefangen zu regnen", "Der Zug hatte Verspätung", "Sie sind krank geworden"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Kurzes Tagebuch. In 3-4 sentences, tell Lena about your last weekend in the Perfekt — mit mindestens einem sein-Verb und einem haben-Verb.",
+      "starters": ["Letztes Wochenende bin ich…", "Ich habe…"],
+      "minSentences": 3
+    }
+  ]
+}

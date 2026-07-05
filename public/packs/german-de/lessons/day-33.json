@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "day-33",
+  "day": 33,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "Mit der Bahn unterwegs",
+  "emoji": "🚆",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Deutsche Bahn, S-Bahn/U-Bahn, umsteigen, Verspätung and platform announcements",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Mit der Bahn",
+      "body": "Die Deutsche Bahn (kurz: **DB**) ist Fluch und Segen zugleich — schnell, aber berühmt für Verspätungen. In Berlin nutzt du oft die **S-Bahn** (Schnellbahn, oft oberirdisch) oder die **U-Bahn** (Untergrundbahn).",
+      "table": {
+        "headers": ["Deutsch", "English"],
+        "rows": [
+          ["die Bahn", "the railway"],
+          ["die S-Bahn / die U-Bahn", "the suburban/underground train"],
+          ["umsteigen", "to change / transfer"],
+          ["die Verspätung", "the delay"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "Am Gleis",
+      "body": "Am Bahnhof wartest du auf dem Bahnsteig, und jeder Zug hat eine Nummer — das **Gleis**. Achte auf die Durchsage: „Der Zug nach München fährt von **Gleis** 5 ab.“ (The train to Munich departs from track 5.)",
+      "callout": "Tipp: Wird eine Verspätung angesagt, ist das bei der Bahn fast schon Tradition."
+    },
+    {
+      "type": "chips",
+      "title": "Bahn-Wörter zum Hören",
+      "items": [
+        { "nl": "die Bahn", "en": "the railway", "speak": "die Bahn" },
+        { "nl": "der Zug", "en": "the train", "speak": "der Zug" },
+        { "nl": "die S-Bahn", "en": "the suburban train", "speak": "die S-Bahn" },
+        { "nl": "die U-Bahn", "en": "the underground", "speak": "die U-Bahn" },
+        { "nl": "umsteigen", "en": "to transfer", "speak": "umsteigen" },
+        { "nl": "die Verspätung", "en": "the delay", "speak": "die Verspätung" },
+        { "nl": "das Gleis", "en": "the track", "speak": "das Gleis" },
+        { "nl": "der Bahnsteig", "en": "the platform", "speak": "der Bahnsteig" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Auseinanderhalten",
+      "pairs": [
+        { "left": "der Bahnsteig — platform", "right": "das Gleis — track (number)", "note": "Du stehst auf dem Bahnsteig; der Zug fährt von einem Gleis mit Nummer." },
+        { "left": "die S-Bahn — suburban train", "right": "die U-Bahn — underground", "note": "S-Bahn fährt oft oberirdisch, U-Bahn meistens unter der Erde." },
+        { "left": "pünktlich — on time", "right": "Verspätung haben — to be delayed", "note": "Bei der Bahn leider oft der zweite Fall." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Du hörst: „Der Zug nach Köln fährt von Gleis 8 ab.“ Was ist *Gleis 8*?",
+      "options": ["Bahnsteig für 8 Personen", "Gleisnummer 8", "Zugnummer 8"],
+      "correct": 1,
+      "explain": "*Gleis* = die nummerierte Spur. Der Zug nach Köln fährt von Gleis 8, du gehst also zu diesem Bahnsteig."
+    },
+    {
+      "type": "typed",
+      "prompt": "Sag: 'We changed trains in Hannover.' (benutze *umsteigen*, *in Hannover*)",
+      "answers": ["Wir sind in Hannover umgestiegen", "In Hannover sind wir umgestiegen"],
+      "hint": "umsteigen → umgestiegen, mit sein.",
+      "explain": "*Wir sind in Hannover umgestiegen.* — trennbar: um-ge-stiegen, und es nimmt sein (Bewegung)."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At Berlin Hauptbahnhof, you and Jonas are catching a train together.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Na, welches Gleis ist das noch mal?", "en": "So, which platform is it again?" },
+        { "speaker": "You", "nl": "Gleis 9. Der Zug fährt in fünf Minuten.", "en": "Platform 9. The train leaves in five minutes." },
+        { "speaker": "Jonas", "nl": "Fünf Minuten? Echt jetzt? Wir müssen rennen!", "en": "Five minutes? Seriously? We have to run!" },
+        { "speaker": "You", "nl": "Keine Sorge, er hat bestimmt eh Verspätung.", "en": "Don't worry, it's probably delayed anyway.", "spotlight": "*Verspätung haben* — der klassische Deutsche-Bahn-Witz." },
+        { "speaker": "Jonas", "nl": "Haha, stimmt. Müssen wir in Leipzig umsteigen?", "en": "Haha, true. Do we have to change in Leipzig?" },
+        { "speaker": "You", "nl": "Ja, wir steigen dort um und nehmen die Regionalbahn weiter.", "en": "Yes, we change there and take the regional train onward." },
+        { "speaker": "Jonas", "nl": "Alles klar. Hauptsache, wir kommen pünktlich an.", "en": "Alright. Main thing is we arrive on time." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hast du zugehört?",
+      "questions": [
+        { "q": "Von welchem Gleis fährt der Zug?", "options": ["Gleis 5", "Gleis 9", "Gleis 11"], "correct": 1 },
+        { "q": "Wo müssen sie umsteigen?", "options": ["In München", "In Leipzig", "In Köln"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe die Durchsage.",
+      "speak": "Der Zug nach Köln fährt von Gleis acht ab.",
+      "answers": ["Der Zug nach Köln fährt von Gleis acht ab", "Der Zug nach Köln fährt von Gleis 8 ab"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschreibe eine Zugreise. Write about a train trip you took: where you went and whether you had to umsteigen, using the Perfekt.",
+      "starters": ["Ich bin mit dem Zug nach … gefahren", "Wir sind in … umgestiegen"],
+      "minSentences": 3
+    }
+  ]
+}

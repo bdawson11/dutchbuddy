@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "day-31",
+  "day": 31,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "Unregelmäßige Partizipien",
+  "emoji": "🃏",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "The top fifteen irregular participles you'll use every day",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Unregelmäßige Partizipien (1)",
+      "body": "Viele sehr häufige Verben ignorieren das einfache ge-…-t-Muster — ihr Partizip wechselt den Vokal oder die Endung, und du lernst sie einfach auswendig. *gewesen, gegangen* und *gekommen* nehmen **sein**; der Rest nimmt **haben**.",
+      "table": {
+        "headers": ["Infinitiv", "Partizip", "English"],
+        "rows": [
+          ["sein", "gewesen (ist)", "been"],
+          ["gehen", "gegangen (ist)", "gone"],
+          ["kommen", "gekommen (ist)", "come"],
+          ["tun", "getan", "done"],
+          ["haben", "gehabt", "had"],
+          ["geben", "gegeben", "given"],
+          ["sagen", "gesagt", "said"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "Unregelmäßige Partizipien (2)",
+      "body": "Die zweite Runde — alle mit **haben**. Achte auf den Vokalwechsel: *trinken → getrunken*, *nehmen → genommen*.",
+      "table": {
+        "headers": ["Infinitiv", "Partizip", "English"],
+        "rows": [
+          ["sehen", "gesehen", "seen"],
+          ["essen", "gegessen", "eaten"],
+          ["trinken", "getrunken", "drunk"],
+          ["nehmen", "genommen", "taken"],
+          ["lesen", "gelesen", "read"],
+          ["schreiben", "geschrieben", "written"],
+          ["sprechen", "gesprochen", "spoken"],
+          ["finden", "gefunden", "found"]
+        ]
+      },
+      "callout": "*nehmen → genommen* — sogar das h verschwindet. Kein Muster, einfach goldene Wörter zum Lernen."
+    },
+    {
+      "type": "chips",
+      "title": "Zum Hören",
+      "items": [
+        { "nl": "gewesen", "en": "been", "speak": "gewesen" },
+        { "nl": "gegangen", "en": "gone", "speak": "gegangen" },
+        { "nl": "gesehen", "en": "seen", "speak": "gesehen" },
+        { "nl": "gegessen", "en": "eaten", "speak": "gegessen" },
+        { "nl": "getrunken", "en": "drunk", "speak": "getrunken" },
+        { "nl": "gekommen", "en": "come", "speak": "gekommen" },
+        { "nl": "genommen", "en": "taken", "speak": "genommen" },
+        { "nl": "geschrieben", "en": "written", "speak": "geschrieben" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Der Vokal wechselt",
+      "pairs": [
+        { "left": "trinken — to drink", "right": "getrunken — drunk", "note": "i → u, ein sehr häufiges Muster bei starken Verben." },
+        { "left": "nehmen — to take", "right": "genommen — taken", "note": "e → o, und das h fällt weg." },
+        { "left": "sprechen — to speak", "right": "gesprochen — spoken", "note": "auch e → o — hör auf das Muster." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Ich habe einen Kaffee ___.* (trinken)",
+      "options": ["getrinkt", "getrunken", "trinkte"],
+      "correct": 1,
+      "explain": "*trinken* → **getrunken**. Unregelmäßig: der Vokal wechselt i → u, mit haben."
+    },
+    {
+      "type": "typed",
+      "prompt": "Gib das Partizip von *sehen* (to see).",
+      "answers": ["gesehen"],
+      "explain": "gesehen — einer der Top-Verben, immer mit haben."
+    },
+    {
+      "type": "typed",
+      "prompt": "Sag: 'I ate bread.' (benutze *essen*, *Brot*)",
+      "answers": ["Ich habe Brot gegessen", "Ich habe das Brot gegessen"],
+      "hint": "essen → gegessen, mit haben.",
+      "explain": "*Ich habe Brot gegessen.* — gegessen ist unregelmäßig, mit doppeltem s."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe die Frage.",
+      "speak": "Was hast du gemacht?",
+      "answers": ["Was hast du gemacht"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Coffee together — Jonas is nosy as ever about your evening.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Ey, was hast du gestern Abend gemacht?", "en": "Hey, what did you do last night?" },
+        { "speaker": "You", "nl": "Ich habe ein Buch gelesen und Tee getrunken.", "en": "I read a book and drank tea." },
+        { "speaker": "Jonas", "nl": "Langweilig! Ich bin auf ein Konzert gegangen.", "en": "Boring! I went to a concert.", "spotlight": "*gegangen* nimmt sein: ich bin gegangen." },
+        { "speaker": "You", "nl": "Echt jetzt? Was hast du gesehen?", "en": "Really? What did you see?" },
+        { "speaker": "Jonas", "nl": "Die Band ist einfach geil gewesen, ehrlich. Ich habe sogar ein Shirt gekauft.", "en": "The band was just awesome, honestly. I even bought a shirt." },
+        { "speaker": "You", "nl": "Na, dann hast du ja richtig Spaß gehabt.", "en": "Well, then you really had fun.", "spotlight": "*gehabt* — das Partizip von haben selbst." },
+        { "speaker": "Jonas", "nl": "Auf jeden Fall! Und du bist wohl brav zu Hause geblieben, oder?", "en": "Definitely! And you probably behaved and stayed home, huh?", "spotlight": "*geblieben* — bleiben nimmt sein." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hast du zugehört?",
+      "questions": [
+        { "q": "Was hat Jonas gestern Abend gemacht?", "options": ["Ein Buch gelesen", "Ist auf ein Konzert gegangen", "Tee getrunken"], "correct": 1 },
+        { "q": "Was hat Jonas gekauft?", "options": ["Ein Buch", "Ein Shirt", "Eine CD"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Benutze drei unregelmäßige Partizipien. Write three sentences about your day with irregular participles from the list (gesehen, gegessen, getrunken, gelesen…).",
+      "starters": ["Heute habe ich…", "Ich habe … gesehen"],
+      "minSentences": 3
+    }
+  ]
+}

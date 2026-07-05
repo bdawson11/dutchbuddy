@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-29",
+  "day": 29,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "Das Perfekt mit haben",
+  "emoji": "🕰",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "The everyday past begins: haben + a ge-…-t/-et participle for regular verbs",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Das Perfekt — die Vergangenheit im Alltag",
+      "body": "Wenn Deutsche im Alltag über die Vergangenheit sprechen, benutzen sie meistens **das Perfekt**: eine Form von *haben* an Position zwei, und ein **Partizip** ganz am Ende. *Ich **habe** gestern **gearbeitet**.* (I worked yesterday.) *Habe* besetzt den V2-Platz, *gearbeitet* wartet bis zum Schluss — auch in langen Sätzen.",
+      "table": {
+        "headers": ["Deutsch", "English"],
+        "rows": [
+          ["Ich habe gemacht.", "I made / did."],
+          ["Sie hat gekauft.", "She bought."],
+          ["Wir haben gearbeitet.", "We worked."]
+        ]
+      },
+      "callout": "Egal wie lang der Satz wird — das Partizip bleibt ganz am Ende: *Ich habe gestern den ganzen Tag gearbeitet.*"
+    },
+    {
+      "type": "card",
+      "title": "ge- + Stamm + -t oder -et",
+      "body": "Ein regelmäßiges Partizip hat drei Teile: **ge-** + den **Stamm** (Infinitiv ohne *-en*) + **-t**. *machen* → *mach* → *gemacht*. Endet der Stamm auf **-d** oder **-t**, wird die Aussprache schwer — deshalb kommt **-et** statt nur **-t**: *arbeiten* → *arbeit* → *gearbeitet*; *reden* → *red* → *geredet*.",
+      "table": {
+        "headers": ["Stamm endet auf…", "Endung", "Beispiel"],
+        "rows": [
+          ["normaler Konsonant", "-t", "machen → gemacht"],
+          ["-t", "-et", "arbeiten → gearbeitet"],
+          ["-d", "-et", "reden → geredet"]
+        ]
+      },
+      "callout": "Merkregel: probier mal 'gearbt' zu sagen — das zusätzliche e macht es aussprechbar."
+    },
+    {
+      "type": "chips",
+      "title": "Partizipien zum Hören",
+      "items": [
+        { "nl": "gemacht", "en": "made / did", "speak": "gemacht" },
+        { "nl": "gesagt", "en": "said", "speak": "gesagt" },
+        { "nl": "gekauft", "en": "bought", "speak": "gekauft" },
+        { "nl": "gearbeitet", "en": "worked", "speak": "gearbeitet" },
+        { "nl": "gelernt", "en": "learned", "speak": "gelernt" },
+        { "nl": "gespielt", "en": "played", "speak": "gespielt" },
+        { "nl": "gewohnt", "en": "lived", "speak": "gewohnt" },
+        { "nl": "gekocht", "en": "cooked", "speak": "gekocht" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "-t oder -et?",
+      "pairs": [
+        { "left": "gemacht — made", "right": "gearbeitet — worked", "note": "mach endet auf ch → -t; arbeit endet auf t → -et (sonst unaussprechbar)." },
+        { "left": "gekauft — bought", "right": "geredet — talked", "note": "kauf endet auf f → -t; red endet auf d → -et." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*arbeiten* → 'worked'. Welches Partizip stimmt?",
+      "options": ["gearbt", "gearbeitet", "arbeitete"],
+      "correct": 1,
+      "explain": "Der Stamm *arbeit* endet auf -t, also kommt -et dazu: **gearbeitet**. (*arbeitete* ist eine andere Vergangenheitsform, die du erst später lernst.)"
+    },
+    {
+      "type": "typed",
+      "prompt": "Gib das Partizip von *kaufen* (to buy).",
+      "answers": ["gekauft"],
+      "hint": "Regelmäßig: ge- + Stamm + -t.",
+      "explain": "gekauft — kauf endet nicht auf d/t, also nur -t."
+    },
+    {
+      "type": "typed",
+      "prompt": "Sag: 'I made coffee.' (benutze *machen*, *Kaffee*)",
+      "answers": ["Ich habe Kaffee gemacht", "Ich habe einen Kaffee gemacht"],
+      "hint": "habe an Position zwei, gemacht ganz am Ende.",
+      "explain": "*Ich habe Kaffee gemacht.* — habe zweite Position, gemacht am Ende."
+    },
+    {
+      "type": "builder",
+      "title": "Bau den Satz",
+      "prompt": "Baue: 'We worked a lot today.'",
+      "slots": [
+        { "label": "Subjekt", "chips": ["Wir", "Ich", "Sie"] },
+        { "label": "Hilfsverb", "chips": ["haben", "habe", "hat"] },
+        { "label": "Rest", "chips": ["heute viel", "gestern viel"] },
+        { "label": "Partizip", "chips": ["gearbeitet", "gemacht"] }
+      ],
+      "sample": "Wir haben heute viel gearbeitet."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe den Satz.",
+      "speak": "Ich habe viel gearbeitet.",
+      "answers": ["Ich habe viel gearbeitet"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Was hast du gestern gemacht? Write three things you did yesterday, each with *ich habe* + a participle.",
+      "starters": ["Ich habe…", "Gestern habe ich…"],
+      "minSentences": 3
+    }
+  ]
+}

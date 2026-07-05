@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "day-35",
+  "day": 35,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "capstone",
+  "title": "Was hast du gemacht?",
+  "emoji": "🎉",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Storytelling in the Perfekt with Jonas, plus Meine Geschichte layer 5",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Was hast du gemacht? — deine Geschichte",
+      "body": "Diese Woche hast du das Perfekt aufgebaut — jetzt benutzt du es, um wirklich eine Geschichte zu erzählen. Reihe Ereignisse mit Zeitwörtern aneinander, wähle *haben* oder *sein*, und das Partizip landet ganz am Ende. Jonas wartet im Café und will alles hören.",
+      "callout": "Eine Geschichte lebt von ihren Zeitwörtern: *zuerst* (first), *dann* (then), *danach* (after that), *schließlich* (in the end)."
+    },
+    {
+      "type": "chips",
+      "title": "Erzählwörter — tippe zum Hören",
+      "items": [
+        { "nl": "zuerst", "en": "first", "speak": "zuerst" },
+        { "nl": "dann", "en": "then", "speak": "dann" },
+        { "nl": "danach", "en": "after that", "speak": "danach" },
+        { "nl": "morgens", "en": "in the morning", "speak": "morgens" },
+        { "nl": "gestern", "en": "yesterday", "speak": "gestern" },
+        { "nl": "letzte Woche", "en": "last week", "speak": "letzte Woche" },
+        { "nl": "abends", "en": "in the evening", "speak": "abends" },
+        { "nl": "schließlich", "en": "in the end", "speak": "schließlich" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "'Jonas stayed home all weekend.' — *Jonas ___ das Wochenende zu Hause ___.*",
+      "options": ["hat … geblieben", "ist … geblieben", "ist … gebliebt"],
+      "correct": 1,
+      "explain": "bleiben nimmt **sein**, und das Partizip ist unregelmäßig: **geblieben**. *Jonas ist das Wochenende zu Hause geblieben.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Gib das Partizip von *schreiben* (to write).",
+      "answers": ["geschrieben"],
+      "explain": "geschrieben — unregelmäßig (ei → ie), mit haben."
+    },
+    {
+      "type": "typed",
+      "prompt": "Sag: 'Yesterday I got up early and went to the market.' (benutze *aufstehen*, *auf den Markt gehen*)",
+      "answers": ["Gestern bin ich früh aufgestanden und auf den Markt gegangen"],
+      "hint": "Beide nehmen sein; aufgestanden, gegangen.",
+      "explain": "*Gestern bin ich früh aufgestanden und auf den Markt gegangen.* — ein *bin* trägt beide sein-Partizipien am Ende."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe Jonas' Frage.",
+      "speak": "Was hast du am Wochenende gemacht?",
+      "answers": ["Was hast du am Wochenende gemacht"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Monday, the café. Jonas slides into the seat across from you, coffee in hand.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "So, erzähl! Was hast du dieses Wochenende gemacht?", "en": "So, tell me! What did you do this weekend?" },
+        { "speaker": "You", "nl": "Na ja, ich habe es ruhig angehen lassen. Ich habe viel gelesen.", "en": "Well, I took it easy. I read a lot." },
+        { "speaker": "Jonas", "nl": "Langweilig, ey! Ich bin auf eine Party gegangen und habe bis vier Uhr getanzt.", "en": "Boring! I went to a party and danced until four.", "spotlight": "*gegangen* (sein) und *getanzt* (haben) — direkt nebeneinander." },
+        { "speaker": "You", "nl": "Vier Uhr? Echt jetzt? Und wie bist du nach Hause gekommen?", "en": "Four? Really? And how did you get home?" },
+        { "speaker": "Jonas", "nl": "Ich habe den Nachtbus genommen. Ich bin erst heute Nachmittag aufgestanden, ehrlich.", "en": "I took the night bus. I only got up this afternoon, honestly." },
+        { "speaker": "You", "nl": "Haha, typisch Jonas!", "en": "Haha, typical Jonas!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hast du zugehört?",
+      "questions": [
+        { "q": "Was hat Jonas auf der Party gemacht?", "options": ["Geredet", "Bis vier Uhr getanzt", "Gelesen"], "correct": 1 },
+        { "q": "Wie ist Jonas nach Hause gekommen?", "options": ["Mit dem Fahrrad", "Mit dem Nachtbus", "Mit der U-Bahn"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Erzähl eine Mini-Geschichte",
+      "prompt": "Build one story sentence with a connector.",
+      "slots": [
+        { "label": "Zeit", "chips": ["Gestern", "Zuerst", "Danach"] },
+        { "label": "Hilfsverb", "chips": ["habe", "bin"] },
+        { "label": "Subjekt", "chips": ["ich"] },
+        { "label": "Rest + Partizip", "chips": ["ein Brötchen gegessen", "nach Hause gefahren"] }
+      ],
+      "sample": "Gestern habe ich ein Brötchen gegessen."
+    },
+    {
+      "type": "card",
+      "title": "Meine Geschichte — Teil 5",
+      "body": "Jede Woche wächst deine persönliche Vorstellung. Bisher: **dein Name und deine Herkunft**, deine **Tagesroutine**, deine **Familie und dein Kiez**, und **was du gern isst/trinkst und ein Wunsch**. Diese Woche fügst du **eine Sache hinzu, die du kürzlich gemacht hast** — im Perfekt. *„Letzte Woche habe ich…“* / *„Am Wochenende bin ich…“*",
+      "callout": "Du behältst alles von vorher — und ergänzt einen Satz im Perfekt."
+    },
+    {
+      "type": "builder",
+      "title": "Meine Geschichte — Teil 5",
+      "prompt": "Add your 'something I did recently' line to your intro.",
+      "slots": [
+        { "label": "Zeit", "chips": ["Letzte Woche", "Am Wochenende", "Gestern"] },
+        { "label": "Hilfsverb", "chips": ["habe ich", "bin ich"] },
+        { "label": "Was", "chips": ["ein neues Restaurant ausprobiert", "nach Potsdam gefahren", "einen guten Film gesehen"] }
+      ],
+      "sample": "Am Wochenende bin ich nach Potsdam gefahren."
+    },
+    {
+      "type": "journal",
+      "prompt": "Glückwunsch — du kannst jetzt in der Vergangenheit erzählen! Write your full Meine Geschichte (all five layers), ending with the new sentence about something you did recently.",
+      "starters": ["Ich heiße…", "Ich komme aus…", "Letzte Woche habe ich…"],
+      "minSentences": 5
+    }
+  ]
+}

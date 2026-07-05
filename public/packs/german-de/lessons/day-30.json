@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-30",
+  "day": 30,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "Das Perfekt mit sein",
+  "emoji": "🚶",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Motion and change-of-state verbs take sein, plus the haben-vs-sein choice",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Perfekt mit sein",
+      "body": "Nicht jedes Verb nimmt *haben*. Verben der **Bewegung** und Verben, die eine **Zustandsänderung** beschreiben, bilden das Perfekt mit **sein**: *Ich **bin** nach Potsdam **gefahren**.* Das *bin* sitzt an Position zwei, das Partizip bleibt am Ende. Faustregel: Bewegt sich das Subjekt von A nach B, oder wird es zu etwas Neuem? Dann *sein*.",
+      "callout": "Testfrage: Kommt am Ende ein neuer Ort oder ein neuer Zustand heraus? Dann fast immer *sein*."
+    },
+    {
+      "type": "card",
+      "title": "Welche Verben nehmen sein?",
+      "body": "Eine begrenzte Gruppe nimmt **sein** — den Rest merkst du dir mit *haben*. Es geht um **gehen, fahren, bleiben, werden** — und *sein* selbst.",
+      "table": {
+        "headers": ["Verb", "Partizip", "Bedeutung"],
+        "rows": [
+          ["gehen", "gegangen", "to go"],
+          ["fahren", "gefahren", "to drive/travel"],
+          ["bleiben", "geblieben", "to stay"],
+          ["werden", "geworden", "to become"],
+          ["sein", "gewesen", "to be"]
+        ]
+      },
+      "callout": "*sein* ist selbst ein sein-Verb: *Ich bin dort gewesen* (I have been there)."
+    },
+    {
+      "type": "chips",
+      "title": "Zum Hören",
+      "items": [
+        { "nl": "Ich bin gegangen", "en": "I went", "speak": "Ich bin gegangen" },
+        { "nl": "Ich bin gefahren", "en": "I traveled", "speak": "Ich bin gefahren" },
+        { "nl": "Ich bin geblieben", "en": "I stayed", "speak": "Ich bin geblieben" },
+        { "nl": "Es ist geworden", "en": "it became", "speak": "Es ist geworden" },
+        { "nl": "Ich bin gewesen", "en": "I have been", "speak": "Ich bin gewesen" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "haben oder sein?",
+      "pairs": [
+        { "left": "Ich habe gearbeitet. — worked", "right": "Ich bin gefahren. — traveled", "note": "arbeiten is an activity → haben. fahren is movement → sein." },
+        { "left": "Sie hat gekocht. — cooked", "right": "Sie ist gekommen. — came", "note": "Cooking stays put → haben. Coming is movement → sein." },
+        { "left": "Wir haben geredet. — talked", "right": "Wir sind geblieben. — stayed", "note": "bleiben (to stay) takes sein, even without movement." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "'We drove to Hamburg.' — *Wir ___ nach Hamburg gefahren.*",
+      "options": ["haben", "sind", "hatten"],
+      "correct": 1,
+      "explain": "*fahren* ist Bewegung → Hilfsverb **sein**: *Wir sind nach Hamburg gefahren.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Sag: 'I stayed home.' (benutze *bleiben*, *zu Hause*)",
+      "answers": ["Ich bin zu Hause geblieben", "Zu Hause bin ich geblieben"],
+      "hint": "bleiben nimmt sein.",
+      "explain": "*Ich bin zu Hause geblieben.* — bleiben ist ein sein-Verb; geblieben am Ende."
+    },
+    {
+      "type": "builder",
+      "title": "Bau den Satz",
+      "prompt": "Baue: 'Lena arrived too late.'",
+      "slots": [
+        { "label": "Subjekt", "chips": ["Lena", "Der Zug", "Ich"] },
+        { "label": "Hilfsverb", "chips": ["ist", "hat", "bin"] },
+        { "label": "Rest", "chips": ["zu spät", "pünktlich"] },
+        { "label": "Partizip", "chips": ["gekommen", "gegangen"] }
+      ],
+      "sample": "Lena ist zu spät gekommen."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Monday morning at a Berlin café — Lena is curious what you got up to over the weekend.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Na, was hast du am Wochenende gemacht?", "en": "So, what did you do this weekend?" },
+        { "speaker": "You", "nl": "Ich bin nach Potsdam gefahren.", "en": "I went to Potsdam.", "spotlight": "*gefahren* — fahren ist ein Bewegungsverb, also sein." },
+        { "speaker": "Lena", "nl": "Schön! Hast du den Zug genommen?", "en": "Nice! Did you take the train?" },
+        { "speaker": "You", "nl": "Ja, und ich bin dort zwei Nächte geblieben.", "en": "Yes, and I stayed there two nights.", "spotlight": "*geblieben* — bleiben nimmt auch sein." },
+        { "speaker": "Lena", "nl": "Ist sonst noch was passiert?", "en": "Did anything else happen?" },
+        { "speaker": "You", "nl": "Nein, es ist einfach ruhig geworden.", "en": "No, it just got quiet.", "spotlight": "*geworden* — werden (Zustandsänderung) nimmt sein; *ruhig* bleibt hier ohne Endung." },
+        { "speaker": "Lena", "nl": "Klingt gut. Ich bin dieses Wochenende zu Hause geblieben.", "en": "Sounds good. I stayed home this weekend." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hast du zugehört?",
+      "questions": [
+        { "q": "Wohin bist du im Dialog gefahren?", "options": ["Nach Hamburg", "Nach Potsdam", "Nach München"], "correct": 1 },
+        { "q": "Was ist sonst am Wochenende passiert?", "options": ["Der Zug hatte Verspätung", "Nichts Besonderes", "Es hat geregnet"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Wo bist du dieses Wochenende gewesen? Write 3 sentences about a recent trip or weekend using sein-verbs (ich bin … gefahren / geblieben / gegangen).",
+      "starters": ["Ich bin …", "Ich bin nach … gefahren"],
+      "minSentences": 3
+    }
+  ]
+}

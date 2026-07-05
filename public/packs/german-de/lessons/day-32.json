@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-32",
+  "day": 32,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "lesson",
+  "title": "Trennbare Verben",
+  "emoji": "✂️",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Separable verbs split in the present and tuck -ge- inside in the Perfekt",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Trennbare Verben — sie trennen sich",
+      "body": "Manche deutschen Verben haben ein trennbares Präfix. Im Präsens im Hauptsatz **fliegt das Präfix ans Ende**: *aufstehen* (to get up) wird zu *ich stehe um sieben Uhr **auf***. Das Präfix trägt die Bedeutung — lass es nie weg.",
+      "table": {
+        "headers": ["Infinitiv", "Im Satz (jetzt)"],
+        "rows": [
+          ["aufstehen — to get up", "Ich stehe früh auf."],
+          ["mitnehmen — to bring along", "Ich nehme einen Schirm mit."],
+          ["ankommen — to arrive", "Der Zug kommt um acht Uhr an."],
+          ["anrufen — to call", "Ich rufe meine Mutter an."],
+          ["ausgehen — to go out", "Wir gehen heute Abend aus."]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "Im Perfekt: -ge- landet in der Mitte",
+      "body": "Im Perfekt rutscht das *ge-* des Partizips **zwischen Präfix und Verb**: *aufstehen* → *auf**ge**standen*, *mitnehmen* → *mit**ge**nommen*. Bewegungsverben wie *aufstehen, ankommen, ausgehen* nehmen **sein**; *mitnehmen* und *anrufen* nehmen **haben**.",
+      "table": {
+        "headers": ["Infinitiv", "Partizip", "Hilfsverb"],
+        "rows": [
+          ["aufstehen", "aufgestanden", "ist"],
+          ["mitnehmen", "mitgenommen", "hat"],
+          ["ankommen", "angekommen", "ist"],
+          ["anrufen", "angerufen", "hat"],
+          ["ausgehen", "ausgegangen", "ist"]
+        ]
+      },
+      "callout": "Das innere Verb behält sein eigenes Partizip — regelmäßig (*angerufen*) oder unregelmäßig (*mitgenommen*, von *nehmen → genommen*)."
+    },
+    {
+      "type": "chips",
+      "title": "Partizipien zum Hören",
+      "items": [
+        { "nl": "aufgestanden", "en": "got up", "speak": "aufgestanden" },
+        { "nl": "mitgenommen", "en": "brought along", "speak": "mitgenommen" },
+        { "nl": "angekommen", "en": "arrived", "speak": "angekommen" },
+        { "nl": "angerufen", "en": "called", "speak": "angerufen" },
+        { "nl": "ausgegangen", "en": "went out", "speak": "ausgegangen" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Jetzt vs. Perfekt",
+      "pairs": [
+        { "left": "Ich stehe auf. — I get up", "right": "Ich bin aufgestanden. — I got up", "note": "Präsens: Präfix ans Ende. Perfekt: -ge- innen, mit sein." },
+        { "left": "Ich nehme mit. — I bring along", "right": "Ich habe mitgenommen. — I brought along", "note": "mitnehmen nimmt haben; mit-ge-nommen." },
+        { "left": "Wir gehen aus. — we go out", "right": "Wir sind ausgegangen. — we went out", "note": "ausgehen nimmt sein; aus-ge-gangen." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "'The train arrived late.' — *Der Zug ist zu spät ___.*",
+      "options": ["ankommen", "angekommen", "geankommen"],
+      "correct": 1,
+      "explain": "Das -ge- geht **hinein**: an**ge**kommen. Niemals geankommen. *ankommen* nimmt sein."
+    },
+    {
+      "type": "typed",
+      "prompt": "Sag: 'I get up at seven.' (benutze *aufstehen*, *um sieben Uhr*)",
+      "answers": ["Ich stehe um sieben Uhr auf", "Um sieben Uhr stehe ich auf"],
+      "hint": "Trenn das Verb: stehe … auf.",
+      "explain": "*Ich stehe um sieben Uhr auf.* — das Präfix *auf* springt im Präsens ans Ende."
+    },
+    {
+      "type": "typed",
+      "prompt": "Sag: 'We went out yesterday.' (benutze *ausgehen*, *gestern*)",
+      "answers": ["Wir sind gestern ausgegangen", "Gestern sind wir ausgegangen"],
+      "hint": "ausgehen → ausgegangen, mit sein.",
+      "explain": "*Wir sind gestern ausgegangen.* — -ge- innen, und ausgehen nimmt sein."
+    },
+    {
+      "type": "builder",
+      "title": "Bau den Satz",
+      "prompt": "Baue (Präsens): 'I'm calling my mother tonight.'",
+      "slots": [
+        { "label": "Subjekt", "chips": ["Ich", "Wir"] },
+        { "label": "Verb", "chips": ["rufe", "nehme"] },
+        { "label": "Rest", "chips": ["heute Abend meine Mutter", "meine Mutter heute Abend"] },
+        { "label": "Präfix", "chips": ["an", "mit"] }
+      ],
+      "sample": "Ich rufe heute Abend meine Mutter an."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe den Satz.",
+      "speak": "Ich bin früh aufgestanden.",
+      "answers": ["Ich bin früh aufgestanden"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschreibe deinen Morgen. Describe your morning with two separable verbs in the Perfekt (ich bin aufgestanden…, ich habe … mitgenommen).",
+      "starters": ["Heute Morgen bin ich…", "Ich habe … mitgenommen"],
+      "minSentences": 3
+    }
+  ]
+}
