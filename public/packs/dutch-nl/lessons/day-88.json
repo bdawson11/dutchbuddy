@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "day-88",
+  "day": 88,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "Er wordt gedanst — het onpersoonlijk passief",
+  "emoji": "🏗️",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The impersonal, agentless passive with er (er wordt gedanst) — activity verbs, word order, and the register of signs and notices",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Het onpersoonlijk passief — *er wordt gedanst*",
+      "body": "Soms is er helemaal geen 'ding' waar iets mee gebeurt — alleen een activiteit. Dan gebruik je **er + worden + deelwoord**. *Er wordt gedanst.* *Er werd veel gelachen.* Geen dader, geen object: puur de handeling. Perfect voor bordjes en algemene uitspraken.",
+      "callout": "*er* houdt de plek van het onderwerp bezet — er ís geen echt onderwerp."
+    },
+    {
+      "type": "chips",
+      "title": "Bordjes & mededelingen — tik om te horen",
+      "items": [
+        { "nl": "Hier wordt gewerkt.", "en": "Work in progress here.", "speak": "Hier wordt gewerkt." },
+        { "nl": "Er wordt niet gerookt.", "en": "No smoking.", "speak": "Er wordt niet gerookt." },
+        { "nl": "Er wordt hard gestudeerd.", "en": "There's hard studying going on.", "speak": "Er wordt hard gestudeerd." },
+        { "nl": "In de bibliotheek wordt niet gepraat.", "en": "No talking in the library.", "speak": "In de bibliotheek wordt niet gepraat." },
+        { "nl": "Er werd de hele avond gedanst.", "en": "There was dancing all evening.", "speak": "Er werd de hele avond gedanst." },
+        { "nl": "Er wordt vaak geklaagd over het weer.", "en": "People often complain about the weather.", "speak": "Er wordt vaak geklaagd over het weer." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Waar staat *er*?",
+      "body": "Begint de zin met iets anders (een tijd, een plaats), dan verhuist *er* naar áchter de persoonsvorm — of valt weg in nette taal. *Er wordt gedanst.* → *Op het feest wordt **er** gedanst.* → (formeel) *Op het feest wordt gedanst.* De persoonsvorm *wordt* blijft altijd op plek twee."
+    },
+    {
+      "type": "contrast",
+      "title": "Persoonlijk tegenover onpersoonlijk",
+      "pairs": [
+        { "left": "De kamer wordt schoongemaakt.", "right": "Er wordt schoongemaakt.", "note": "Links: een object (de kamer). Rechts: alleen de activiteit — onpersoonlijk." },
+        { "left": "Het lied werd gezongen.", "right": "Er werd gezongen.", "note": "Zonder object → *er* + passief." },
+        { "left": "Iedereen lacht.", "right": "Er wordt gelachen.", "note": "Van een gewone zin naar de handeling zelf, zonder onderwerp." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Op een bordje bij een bouwplaats staat het net het meest natuurlijk als…",
+      "options": ["Hier wordt gewerkt.", "Er werkt hier.", "Men werkt hier."],
+      "correct": 0,
+      "explain": "*Hier wordt gewerkt* — onpersoonlijk passief, precies de toon van een bordje. *Er werkt hier* mist een onderwerp; *Men werkt* klinkt oubollig."
+    },
+    {
+      "type": "typed",
+      "prompt": "Maak er een onpersoonlijk passief van: *Iedereen danst op het feest.* Begin met: Op het feest …",
+      "answers": ["Op het feest wordt er gedanst", "Op het feest wordt gedanst", "Op het feest wordt er gedanst.", "Op het feest wordt gedanst."],
+      "hint": "Op het feest + *wordt* (+ er) + *gedanst*.",
+      "explain": "*Op het feest wordt (er) gedanst.* De activiteit staat centraal; *er* mag, en mag in nette taal weg."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Bram walks You past a building site in Rotterdam on a Sunday. He can't help narrating it.",
+      "lines": [
+        { "speaker": "Bram", "nl": "Kijk, hier wordt de hele kade opnieuw gebouwd.", "en": "Look, the whole quay is being rebuilt here.", "spotlight": "Gewoon passief mét object: *de kade wordt gebouwd*." },
+        { "speaker": "You", "nl": "Wordt er nog steeds gewerkt? Het is zondag.", "en": "Is work still going on? It's Sunday." },
+        { "speaker": "Bram", "nl": "Nee, op zondag wordt er niet gebouwd. Alleen bewaakt.", "en": "No, on Sundays there's no building. Just guarding.", "spotlight": "Onpersoonlijk: *er wordt (niet) gebouwd*." },
+        { "speaker": "You", "nl": "In Rotterdam wordt veel gebouwd, hè.", "en": "A lot gets built in Rotterdam, huh." },
+        { "speaker": "Bram", "nl": "Altijd. Er wordt hier nooit stilgezeten.", "en": "Always. Nobody ever sits still here.", "spotlight": "Idiomatisch: *er wordt niet stilgezeten*." },
+        { "speaker": "You", "nl": "Geen woorden maar daden.", "en": "No words, just action." },
+        { "speaker": "Bram", "nl": "Precies. Zie je dat bordje? 'Hier wordt gebouwd.'", "en": "Exactly. See that sign? 'Building in progress.'" },
+        { "speaker": "You", "nl": "Snap ik. Dan blijven we op de stoep.", "en": "Got it. Then we'll stay on the pavement." },
+        { "speaker": "Bram", "nl": "Verstandig. Er is al genoeg gedoe geweest.", "en": "Wise. There's been enough hassle already." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Kwam het binnen?",
+      "questions": [
+        { "q": "Wat gebeurt er met de kade in Rotterdam?", "options": ["Hij wordt opnieuw gebouwd", "Hij wordt verkocht", "Er gebeurt niets"], "correct": 0 },
+        { "q": "Waarom wordt er op zondag niet gebouwd?", "options": ["Het regent", "Het is zondag — geen werkdag", "Er is geen geld"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschrijf een plek die je kent (je buurt, je werk, een station) met het onpersoonlijk passief: wat wordt er gedaan, gebouwd, gegeten, gelachen? Minstens drie zinnen met *er wordt / er werd*, in het Nederlands.",
+      "starters": ["In mijn buurt wordt er …", "Op mijn werk wordt er vaak …", "Vroeger werd er hier …"],
+      "minSentences": 3
+    }
+  ]
+}

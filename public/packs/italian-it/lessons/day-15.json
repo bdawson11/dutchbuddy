@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "day-15",
+  "day": 15,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Mio, mia, miei: la famiglia",
+  "emoji": "👪",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Family vocabulary, the possessives mio/mia/miei/mie, and the no-article quirk with singular family words",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "La famiglia",
+      "body": "Meet the family words: *la madre* (mother), *il padre* (father), *il fratello* (brother), *la sorella* (sister), *il nonno* (grandfather), *la nonna* (grandmother), *lo zio* (uncle), *la zia* (aunt), *il cugino / la cugina* (cousin, m/f), *il marito* (husband), *la moglie* (wife).",
+      "callout": "Notice lo zio — zio starts like a tricky s+consonant word, so it takes lo, not il."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the family",
+      "items": [
+        { "nl": "la madre", "en": "mother", "speak": "la madre" },
+        { "nl": "il padre", "en": "father", "speak": "il padre" },
+        { "nl": "il fratello", "en": "brother", "speak": "il fratello" },
+        { "nl": "la sorella", "en": "sister", "speak": "la sorella" },
+        { "nl": "il nonno", "en": "grandfather", "speak": "il nonno" },
+        { "nl": "la nonna", "en": "grandmother", "speak": "la nonna" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "mio, mia — and a family quirk",
+      "body": "Possessives agree with the thing owned: **mio** (m. sing.), **mia** (f. sing.), **miei** (m. pl.), **mie** (f. pl.) — same pattern for *tuo/tua/tuoi/tue*. Here's the quirk: with a **singular, plain family word**, Italian drops the article entirely — *mia madre*, not *la mia madre*; *mio fratello*, not *il mio fratello*. Everything else keeps its article as usual.",
+      "table": {
+        "headers": ["Possessive", "With family (sing.)", "With any other noun"],
+        "rows": [
+          ["mio (m.)", "mio padre — my father", "il mio libro — my book"],
+          ["mia (f.)", "mia madre — my mother", "la mia casa — my house"]
+        ]
+      },
+      "callout": "The drop only works for one plain family word at a time — plurals bring the article back."
+    },
+    {
+      "type": "contrast",
+      "title": "Family drops the article — objects don't",
+      "pairs": [
+        { "left": "*mia madre* — my mother (no article)", "right": "*la mia macchina* — my car (article stays)", "note": "Singular, unmodified family words skip il/la after a possessive; everything else keeps it." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct for 'my brother'?",
+      "options": ["il mio fratello", "mio fratello", "mia fratello"],
+      "correct": 1,
+      "explain": "Singular family words drop the article after a possessive: mio fratello, not il mio fratello."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct for 'my sisters' (plural)?",
+      "options": ["mie sorelle", "le mie sorelle", "la mia sorelle"],
+      "correct": 1,
+      "explain": "Plural family words bring the article back: le mie sorelle."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'my mother' in Italian.",
+      "answers": ["mia madre"],
+      "hint": "Family word, singular, possessive — no article needed.",
+      "explain": "*Mia madre* — the article disappears with a plain singular family word."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole line.",
+      "speak": "Mia sorella abita qui.",
+      "answers": ["mia sorella abita qui"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Marco asks about your family over a coffee at the bar",
+      "lines": [
+        { "speaker": "Marco", "nl": "Allora, com'è la tua famiglia?", "en": "So, what's your family like?" },
+        { "speaker": "You", "nl": "Ho un fratello e una sorella. Mio fratello abita a Roma.", "en": "I have a brother and a sister. My brother lives in Rome.", "spotlight": "mio fratello — singular family word, no article." },
+        { "speaker": "Marco", "nl": "Bello! E i tuoi genitori?", "en": "Nice! And your parents?" },
+        { "speaker": "You", "nl": "Mia madre è insegnante, mio padre è ingegnere.", "en": "My mother's a teacher, my father's an engineer." },
+        { "speaker": "Marco", "nl": "Ma dai, anche mio padre è ingegnere!", "en": "No way, my dad's an engineer too!" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write three or four sentences about your family using mio/mia/miei/mie — remember, no article with a plain singular family word!",
+      "starters": ["Ho…", "Mia madre…", "Mio padre…"]
+    }
+  ]
+}

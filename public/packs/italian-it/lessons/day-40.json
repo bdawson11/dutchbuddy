@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "day-40",
+  "day": 40,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "Un consiglio da amici",
+  "emoji": "💡",
+  "level": "A2",
+  "durationMin": [16, 24],
+  "summary": "Giving advice with devi/dovresti and the perché non…? suggestion pattern",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Devi o dovresti?",
+      "body": "*Devi* (you must / have to) is strong — an order or a real obligation: *devi andare dal medico*. *Dovresti* is softer — 'you should,' a gentle suggestion: *dovresti riposare*. It's the conditional of *dovere*, a tense you'll meet properly later; for now, reach for *dovresti* whenever you're giving friendly advice, not orders.",
+      "callout": "Devi = do it. Dovresti = maybe think about it, friend."
+    },
+    {
+      "type": "chips",
+      "title": "Frasi di consiglio",
+      "items": [
+        { "nl": "devi riposare", "en": "you have to rest", "speak": "devi riposare" },
+        { "nl": "dovresti bere più acqua", "en": "you should drink more water", "speak": "dovresti bere più acqua" },
+        { "nl": "devi andare dal medico", "en": "you have to go to the doctor", "speak": "devi andare dal medico" },
+        { "nl": "dovresti prendere un'aspirina", "en": "you should take an aspirin", "speak": "dovresti prendere un'aspirina" },
+        { "nl": "devi dormire di più", "en": "you have to sleep more", "speak": "devi dormire di più" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Stessa parola, forza diversa",
+      "pairs": [
+        { "left": "*Devi andare dal medico.* — strong, real obligation", "right": "*Dovresti andare dal medico.* — softer, a suggestion", "note": "Same idea, different force — dovresti leaves room to say no." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "A friend mentions a mild headache. Which sounds like friendly advice, not an order?",
+      "options": ["Devi andare in ospedale!", "Dovresti bere un po' d'acqua.", "Devi chiamare il 112!"],
+      "correct": 1,
+      "explain": "*Dovresti* is the gentle-suggestion register — perfect for a small ache, not orders."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'You should rest.'",
+      "answers": ["dovresti riposare", "dovresti riposare."],
+      "hint": "dovere, conditional tu-form + infinitive.",
+      "explain": "*Dovresti riposare* — the softer 'should', not the blunt 'must'."
+    },
+    {
+      "type": "card",
+      "title": "Perché non…?",
+      "body": "Another everyday way to suggest something: **Perché non + present tense?** — literally 'why not', used just like the English suggestion. *Perché non vai dal medico?* (Why don't you go to the doctor?), *Perché non bevi un tè caldo?* (Why don't you have a hot tea?).",
+      "callout": "Perché non…? — same shape as English 'why don't you…?'"
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the question.",
+      "speak": "Perché non bevi un tè caldo?",
+      "answers": ["perché non bevi un tè caldo", "perché non bevi un tè caldo?"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "'You' mention feeling run down at the bar — Marco gives advice, blunt then softened",
+      "lines": [
+        { "speaker": "You", "nl": "Marco, sono stanco e ho mal di testa da due giorni.", "en": "Marco, I'm tired and I've had a headache for two days." },
+        { "speaker": "Marco", "nl": "Due giorni? Devi andare dal medico, dai.", "en": "Two days? You have to go to the doctor, come on." },
+        { "speaker": "You", "nl": "Forse è solo stanchezza…", "en": "Maybe it's just tiredness…" },
+        { "speaker": "Marco", "nl": "Boh, magari. Comunque dovresti almeno riposare un po' stasera.", "en": "Well, maybe. Anyway you should at least rest a bit tonight.", "spotlight": "Marco's blunt devi softens into dovresti one line later — very him." },
+        { "speaker": "Marco", "nl": "E perché non bevi meno caffè per un paio di giorni, eh?", "en": "And why don't you drink less coffee for a couple of days, eh?" },
+        { "speaker": "You", "nl": "Va bene, ci provo.", "en": "Okay, I'll try." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "How long has 'You' had a headache?", "options": ["One day", "Two days", "A week"], "correct": 1 },
+        { "q": "What does Marco suggest besides resting?", "options": ["Drinking more coffee", "Drinking less coffee", "Going to the gym"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Pensa a un amico o un'amica stanco/a o stressato/a. Scrivi 3 consigli usando devi, dovresti o perché non…?",
+      "starters": ["Dovresti…", "Perché non…?"]
+    }
+  ]
+}

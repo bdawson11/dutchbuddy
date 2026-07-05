@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "day-49",
+  "day": 49,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "capstone",
+  "title": "Il mio racconto: da bambino/a",
+  "emoji": "📖",
+  "level": "A2",
+  "durationMin": [20, 25],
+  "summary": "Week 7 capstone: passato prossimo vs imperfetto, childhood vocab — then add a childhood memory to your growing self-intro",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ripasso: settimana 7",
+      "body": "Questa settimana hai imparato un secondo passato: l'**imperfetto** (-avo/-evo/-ivo, ero/avevo/facevo) per descrivere, e la differenza con il **passato prossimo** — evento preciso vs sfondo/abitudine. Hai anche imparato le parole della scuola (**la maestra, il cortile, la ricreazione**), il tempo nel passato (**pioveva, faceva caldo, c'era il sole**) e gli avverbi di frequenza (**sempre… non… mai**). Oggi aggiungi un ricordo d'infanzia al tuo racconto.",
+      "callout": "Layer 7: da bambino/a…"
+    },
+    {
+      "type": "chips",
+      "title": "Ripasso veloce",
+      "items": [
+        { "nl": "ero", "en": "I was", "speak": "ero" },
+        { "nl": "avevo", "en": "I had / used to have", "speak": "avevo" },
+        { "nl": "facevo", "en": "I used to do / make", "speak": "facevo" },
+        { "nl": "sempre", "en": "always", "speak": "sempre" },
+        { "nl": "mai", "en": "never (with non)", "speak": "mai" },
+        { "nl": "da bambino/a", "en": "as a kid", "speak": "da bambino" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Quale frase parla di UN EVENTO preciso, non di un'abitudine?",
+      "options": ["Ogni sabato giocavamo insieme.", "Da bambina giocavo sempre a nascondino.", "Ieri ho giocato a calcio con Marco."],
+      "correct": 2,
+      "explain": "*ho giocato* (passato prossimo) = un evento singolo, ieri. Le altre due usano l'imperfetto per abitudini ripetute."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Come si dice 'the teacher' (elementari) in italiano?",
+      "options": ["il compagno", "la maestra", "il cortile"],
+      "correct": 1,
+      "explain": "*la maestra* — la parola classica per l'insegnante delle elementari."
+    },
+    {
+      "type": "typed",
+      "prompt": "Scrivi la forma imperfetto di essere per 'io', in 'I was shy'.",
+      "answers": ["ero timido", "ero timida"],
+      "hint": "essere: ero, eri, era…",
+      "explain": "*ero timido/a* — l'imperfetto irregolare di essere."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Da bambino ero molto curioso.",
+      "answers": ["da bambino ero molto curioso", "da bambino ero molto curioso."]
+    },
+    {
+      "type": "contrast",
+      "title": "Ripasso: due passati",
+      "pairs": [
+        { "left": "*Ho vissuto a Roma per un anno.* — evento chiuso, con una durata precisa", "right": "*Da bambino vivevo a Roma.* — sfondo/abitudine, senza confini precisi", "note": "Stesso verbo (vivere), significato diverso a seconda del tempo scelto." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Un ricordo d'infanzia",
+      "prompt": "Costruisci una frase su come eri o cosa facevi da bambino/a.",
+      "slots": [
+        { "label": "Com'eri", "chips": ["Ero timido/a", "Ero vivace", "Ero curioso/a"] },
+        { "label": "Cosa facevi", "chips": ["e giocavo sempre fuori", "e leggevo un sacco di libri", "e disegnavo ogni giorno"] }
+      ],
+      "sample": "Ero curioso/a, e leggevo un sacco di libri."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Giulia asks about your childhood as you build your racconto together",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora, com'eri da bambino/a?", "en": "So, what were you like as a kid?" },
+        { "speaker": "You", "nl": "Ero abbastanza timido/a, e leggevo un sacco di libri.", "en": "I was pretty shy, and I read a ton of books." },
+        { "speaker": "Giulia", "nl": "Che bello! E la tua famiglia, cosa faceva insieme?", "en": "That's nice! And your family, what did you do together?" },
+        { "speaker": "You", "nl": "La domenica, mangiavamo sempre tutti insieme.", "en": "On Sundays, we always used to eat together." },
+        { "speaker": "Giulia", "nl": "Proprio come da Pietro a Napoli, allora!", "en": "Just like at Pietro's in Naples, then!", "spotlight": "Giulia collega il tuo ricordo a quello di Pietro — il cast che nota gli echi nella storia." },
+        { "speaker": "You", "nl": "Esatto! E tu, cosa facevi da bambina?", "en": "Exactly! And you, what did you do as a kid?" },
+        { "speaker": "Giulia", "nl": "Giocavo sempre in cortile con i vicini, qui a Parma.", "en": "I always used to play in the courtyard with the neighbors, back in Parma." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "questions": [
+        { "q": "Where did Giulia grow up before Bologna?", "options": ["Naples", "Parma", "Milano"], "correct": 1 },
+        { "q": "What did 'You' do a lot of as a kid?", "options": ["Play soccer", "Read books", "Travel"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Il mio racconto — livello 7",
+      "prompt": "Aggiungi un ricordo d'infanzia al tuo racconto in crescita: com'eri o cosa facevi da bambino/a.",
+      "slots": [
+        { "label": "Da bambino/a", "chips": ["Da bambino ero timido", "Da bambina ero curiosa", "Da piccolo/a giocavo sempre fuori"] },
+        { "label": "Un'abitudine", "chips": ["e ogni estate andavo al mare", "e leggevo sempre di sera", "e giocavo a calcio con gli amici"] }
+      ],
+      "sample": "Da bambino ero timido, e ogni estate andavo al mare."
+    },
+    {
+      "type": "journal",
+      "prompt": "Il mio racconto — livello 7! Adesso racconta tutto quello che hai finora: il tuo nome, da dove vieni, la tua routine, la tua famiglia/il tuo quartiere, cosa ti piace mangiare, qualcosa che hai fatto di recente, come ti sei sentito/a, e ora — un ricordo d'infanzia. Prenditi il tuo tempo: il tuo racconto non è mai stato così lungo!",
+      "starters": ["Mi chiamo…", "Da bambino/a…"],
+      "minSentences": 5
+    }
+  ]
+}

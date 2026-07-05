@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "day-62",
+  "day": 62,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "review",
+  "title": "La notizia di Sofia",
+  "emoji": "📰",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Week 9 review: complex sentences pulled together, then Sofia's news lands — a job offer in Milano, via reported speech",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Settimana 9: le frasi complesse",
+      "body": "This week you built real, grown-up sentences: the **congiuntivo** for opinion and doubt (*penso che sia…*), the **condizionale** for politeness and wishes (*vorrei…, dovresti…*), the **discorso indiretto** for reporting (*mi ha detto che…*), and the **periodo ipotetico** for real conditions (*se… allora…*). Oggi li usiamo tutti insieme — e c'è una novità.",
+      "callout": "Un ripasso veloce, poi una notizia da Sofia."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Quale frase usa bene il congiuntivo?",
+      "options": ["Penso che è una buona idea.", "Penso che sia una buona idea.", "So che sia una buona idea."],
+      "correct": 1,
+      "explain": "*penso che* → congiuntivo (*sia*). *So che* è certezza → indicativo (*è*)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Riporta al passato: «Ho una notizia», dice Sofia. (comincia con *Sofia ha detto che…*)",
+      "answers": ["sofia ha detto che aveva una notizia", "ha detto che aveva una notizia", "sofia ha detto che aveva una notizia."],
+      "hint": "Reporting verb al passato → *ho* diventa *aveva*.",
+      "explain": "*Sofia ha detto che aveva una notizia.* The present *ho* shifts to the imperfetto *aveva*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, Sofia has something to tell you and Giulia.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora Sofia, che c'è? Hai una faccia strana.", "en": "So Sofia, what's up? You've got a funny look." },
+        { "speaker": "Sofia", "nl": "Ragazzi, oggi ho ricevuto una telefonata. Un'azienda di Milano mi ha chiamato.", "en": "Guys, today I got a phone call. A company in Milano called me.", "spotlight": "The news lands: a call from Milano — the season's story pivots here." },
+        { "speaker": "You", "nl": "Di Milano? E cosa ti hanno detto?", "en": "From Milano? And what did they tell you?" },
+        { "speaker": "Sofia", "nl": "Mi hanno detto che cercano una designer e mi hanno chiesto se voglio un colloquio.", "en": "They told me they're looking for a designer and asked if I want an interview.", "spotlight": "Reported speech: *mi hanno detto che… / mi hanno chiesto se…*" },
+        { "speaker": "Giulia", "nl": "Ma dai! È una bella occasione. E tu che pensi?", "en": "No way! It's a great chance. And what do you think?" },
+        { "speaker": "Sofia", "nl": "Boh, penso che sia un'opportunità importante, ma ho paura che Milano sia troppo lontana.", "en": "Dunno, I think it's an important opportunity, but I'm afraid Milano is too far.", "spotlight": "Congiuntivo after opinion and fear: *penso che sia… / ho paura che sia…*" },
+        { "speaker": "You", "nl": "Ti capisco. Però se accetti, potresti crescere molto.", "en": "I get you. But if you accept, you could grow a lot." },
+        { "speaker": "Sofia", "nl": "Lo so. Mi hanno detto che mi faranno sapere presto. Devo pensarci bene.", "en": "I know. They told me they'll let me know soon. I need to think it over." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai capito la notizia?",
+      "questions": [
+        { "q": "Chi ha chiamato Sofia?", "options": ["Un'azienda di Milano", "Un'amica di Bologna", "Il suo medico"], "correct": 0 },
+        { "q": "Come si sente Sofia riguardo a Milano?", "options": ["È già sicura di accettare", "Ha paura che sia troppo lontana", "Non le interessa affatto"], "correct": 1 },
+        { "q": "Sofia ha già deciso?", "options": ["Sì, si trasferisce subito", "No, deve ancora pensarci", "No, ha già detto di no"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Nella frase «mi hanno chiesto se voglio un colloquio», *se* serve a…",
+      "options": ["riportare una domanda sì/no", "esprimere una condizione", "introdurre il congiuntivo"],
+      "correct": 0,
+      "explain": "Qui *se* riporta una domanda sì/no (discorso indiretto): «Vuoi un colloquio?» → *mi hanno chiesto **se** voglio…*"
+    },
+    {
+      "type": "journal",
+      "prompt": "Sofia ha ricevuto un'offerta di lavoro a Milano, ma non ha ancora deciso. Cosa ne pensi? Scrivi tre frasi: una con *penso che*, una con un consiglio al condizionale (*dovrebbe…*) e una con *se* (*se accetta, …*).",
+      "starters": ["Penso che…", "Secondo me dovrebbe…", "Se accetta,…"],
+      "minSentences": 3
+    }
+  ]
+}

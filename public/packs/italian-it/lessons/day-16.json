@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "day-16",
+  "day": 16,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Alto o alta? Gli aggettivi e l'accordo",
+  "emoji": "🧩",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Adjective agreement (four endings vs two), where adjectives go, and the shortened bello/buono",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Adjectives agree",
+      "body": "Adjectives must **agree** with the noun they describe, in gender and number. Adjectives ending in **-o** have four shapes: *alto/alta/alti/alte* (tall). Adjectives ending in **-e** only have two shapes — the same for masculine and feminine: *intelligente* (sing., either gender), *intelligenti* (pl., either gender).",
+      "table": {
+        "headers": ["Ending type", "masc. sing.", "fem. sing.", "masc. pl.", "fem. pl."],
+        "rows": [
+          ["-o (four shapes)", "alto", "alta", "alti", "alte"],
+          ["-e (two shapes)", "intelligente", "intelligente", "intelligenti", "intelligenti"]
+        ]
+      },
+      "callout": "Four shapes or two — the adjective always has to match its noun."
+    },
+    {
+      "type": "chips",
+      "title": "Tap and match",
+      "items": [
+        { "nl": "alto", "en": "tall (m.)", "speak": "alto" },
+        { "nl": "alta", "en": "tall (f.)", "speak": "alta" },
+        { "nl": "alti", "en": "tall (m. pl.)", "speak": "alti" },
+        { "nl": "intelligente", "en": "smart (sing.)", "speak": "intelligente" },
+        { "nl": "intelligenti", "en": "smart (pl.)", "speak": "intelligenti" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Before or after? bello & buono",
+      "body": "Most adjectives **follow** the noun (*una casa grande*). But a handful of everyday ones — **bello**, **buono**, **grande** — usually go **before**, and they shorten a little there, almost like *un/il* do: *un buon caffè* (a good coffee), *una buona idea* (a good idea), *un bel libro* (a nice book), *una bella giornata* (a nice day).",
+      "callout": "After essere they stay full-length: 'il caffè è buono', not shortened — the shrinking only happens right before the noun."
+    },
+    {
+      "type": "contrast",
+      "title": "Four endings vs two endings",
+      "pairs": [
+        { "left": "*alto → alta, alti, alte* — four shapes", "right": "*intelligente → intelligenti* — just two shapes", "note": "-o adjectives flex for gender and number; -e adjectives only flex for number." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct: 'the girls are intelligent'?",
+      "options": ["Le ragazze sono intelligente", "Le ragazze sono intelligenti", "Le ragazze sono intelligento"],
+      "correct": 1,
+      "explain": "intelligente only changes for number, not gender: plural is intelligenti either way."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct for 'a good coffee'?",
+      "options": ["un buono caffè", "un buon caffè", "una buon caffè"],
+      "correct": 1,
+      "explain": "buono shortens to buon before a masculine singular noun starting with a consonant: un buon caffè."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'a nice house' in Italian — bello goes before the noun here.",
+      "answers": ["una bella casa"],
+      "hint": "casa is feminine — bello agrees and sits before it.",
+      "explain": "*Una bella casa* — bella agrees with the feminine casa and comes before it."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole line.",
+      "speak": "Una casa grande.",
+      "answers": ["una casa grande"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Marco tells you about Giulia's cozy apartment near Via Mazzini",
+      "lines": [
+        { "speaker": "Marco", "nl": "L'appartamento di Giulia è bello, ma piccolo.", "en": "Giulia's apartment is nice, but small.", "spotlight": "bello here follows essere, so it keeps its full form — shortening only happens right before the noun." },
+        { "speaker": "You", "nl": "Piccolo? Quante stanze ha?", "en": "Small? How many rooms does it have?" },
+        { "speaker": "Marco", "nl": "Due stanze, ma luminose. E lei è una persona molto ordinata.", "en": "Two rooms, but bright. And she's a very tidy person." },
+        { "speaker": "You", "nl": "Giulia sembra una donna intelligente e simpatica.", "en": "Giulia seems like an intelligent and nice woman." },
+        { "speaker": "Marco", "nl": "Esatto! E il suo caffè è sempre buono.", "en": "Exactly! And her coffee is always good." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe two people you know using at least three different adjectives — check that the endings agree!",
+      "starters": ["Il mio amico è…", "La mia amica è…"]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "day-80",
+  "day": 80,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "L'aperitivo e la vita sociale",
+  "emoji": "🍹",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The aperitivo ritual: ordering a spritz and a tagliere, buying the round, and the toast that seals it",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "L'ora dell'aperitivo",
+      "body": "Between work and dinner, Italy stops for **l'aperitivo**: a drink, a few **stuzzichini** (nibbles) or a **tagliere** (a board of cheese and cured meats), and an hour of talking. It's less about the alcohol than the **ritual** — sitting, unwinding, being seen. The classic order is a **spritz** (Aperol or Campari), but a *calice di vino* or a *birra* is just as at home.",
+      "callout": "Aperitivo is a verb-shaped noun: *ci facciamo un aperitivo?* = shall we grab a drink?"
+    },
+    {
+      "type": "chips",
+      "title": "Al banco — cosa ordini",
+      "items": [
+        { "nl": "uno spritz", "en": "a spritz", "speak": "Uno spritz, per favore." },
+        { "nl": "un calice di bianco", "en": "a glass of white wine", "speak": "Un calice di bianco." },
+        { "nl": "una birra media", "en": "a medium beer", "speak": "Una birra media." },
+        { "nl": "un tagliere misto", "en": "a mixed board", "speak": "Un tagliere misto." },
+        { "nl": "gli stuzzichini", "en": "the nibbles", "speak": "gli stuzzichini" },
+        { "nl": "delle olive", "en": "some olives", "speak": "delle olive" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Ordinare, con garbo",
+      "body": "You've got the phrases from way back — now string them for a group. *Che cosa prendete?* (what are you all having?). To order for yourself: **per me…** (*per me uno spritz*) or **io prendo…** (*io prendo un calice di rosso*). For the table: *un tagliere per tutti?* Then the crucial social move: **who pays**.",
+      "callout": "*Per me…* is the smoothest way to order — 'for me, a…'. No verb needed."
+    },
+    {
+      "type": "shadow",
+      "title": "Le frasi della serata — ripeti",
+      "lines": [
+        { "nl": "Che cosa prendete?", "en": "What are you all having?" },
+        { "nl": "Offro io, dai!", "en": "It's on me, come on!" },
+        { "nl": "No, questo giro lo offri tu la prossima volta.", "en": "No — you get the next round." },
+        { "nl": "Cin cin! Alla nostra!", "en": "Cheers! To us!" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Un amico dice 'Offro io!'. Cosa significa?",
+      "options": ["Devi pagare tu.", "Paga lui, è un suo regalo.", "Pagate metà ciascuno."],
+      "correct": 1,
+      "explain": "*Offro io* = 'it's on me / my treat'. Se volete dividere, si dice *facciamo alla romana*."
+    },
+    {
+      "type": "contrast",
+      "title": "Chi paga?",
+      "pairs": [
+        { "left": "*Offro io.* — my treat", "right": "*Facciamo alla romana.* — let's split it", "note": "*Offro io* is a warm gift (and a small game — everyone fights to pay). *Alla romana* means each pays their share." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Ordina uno spritz per te, con gentilezza.",
+      "answers": ["per me uno spritz", "per me uno spritz per favore", "io prendo uno spritz", "uno spritz per favore"],
+      "hint": "Start with *per me…* — smooth and native.",
+      "explain": "*Per me uno spritz, per favore.* — the natural way to order for yourself in a group."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Alzate i bicchieri. Cosa dite?",
+      "options": ["Buon appetito!", "Cin cin!", "Prego!"],
+      "correct": 1,
+      "explain": "*Cin cin!* o *Salute!* per brindare. *Buon appetito* è per il cibo; *prego* è 'you're welcome'."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Aperitivo hour in Bologna — you, Giulia and Marco order the first round.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora, che cosa prendete? Io uno spritz.", "en": "So, what's everyone having? I'll have a spritz." },
+        { "speaker": "Marco", "nl": "Per me una birra media. E un tagliere misto per tutti?", "en": "A medium beer for me. And a mixed board for everyone?" },
+        { "speaker": "You", "nl": "Sì, dai. Per me un calice di bianco.", "en": "Yes, go on. A glass of white for me." },
+        { "speaker": "Giulia", "nl": "Perfetto. Questo giro lo offro io, eh.", "en": "Perfect. This round's on me, okay.", "spotlight": "*Questo giro lo offro io* — 'il giro' is the round; *lo* is the clitic." },
+        { "speaker": "Marco", "nl": "Ma no, offro io! Tu hai pagato l'ultima volta.", "en": "No way, it's on me! You paid last time." },
+        { "speaker": "You", "nl": "Facciamo così: la prossima la offro io.", "en": "Let's do this: I'll get the next one." },
+        { "speaker": "Giulia", "nl": "Va bene. Allora… cin cin! Alla nostra!", "en": "Alright. So… cheers! To us!" },
+        { "speaker": "Marco", "nl": "Salute! Un anno di italiano, mica male, eh.", "en": "Cheers! A year of Italian, not bad at all, eh." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai seguito?",
+      "questions": [
+        { "q": "Chi vuole offrire il primo giro?", "options": ["Marco", "Giulia", "Nessuno"], "correct": 1 },
+        { "q": "Cosa ordina 'You'?", "options": ["Una birra", "Uno spritz", "Un calice di bianco"], "correct": 2 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Descrivi il tuo aperitivo ideale: dove, con chi, cosa ordini e chi offre. Usa almeno una frase per ordinare e un brindisi.",
+      "starters": ["Il mio aperitivo ideale è…", "Prendo…", "E alla fine dico: cin cin!"],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "day-79",
+  "day": 79,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "El semáforo del argot",
+  "emoji": "🚦",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Spain's slang traffic-light: green (guay, mola), yellow (tío, flipar, currar), red (joder, coño, hostia) — flagged honestly, recognition first",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El semáforo del argot",
+      "body": "Spain slangs and swears **far more freely** than English speakers expect — but not everything is safe everywhere. Think of it as a **traffic light**. 🟢 **Verde**: safe with anyone. 🟡 **Amarillo**: friends and peers, not strangers or *usted*. 🔴 **Rojo**: genuinely strong — real swearing. Today's rule for red: **recognize it before you reproduce it**.",
+      "callout": "The goal isn't to swear. It's to *understand* Spain and control your own register."
+    },
+    {
+      "type": "card",
+      "title": "Las tres luces",
+      "body": "Learn where each word sits. The reds are common in casual Spain — you **will** hear them — but they stay off-limits in any formal, service or professional setting, and never with *usted*.",
+      "table": {
+        "headers": ["Luz", "Palabras", "Cuándo"],
+        "rows": [
+          ["🟢 Verde", "guay, vale, majo/a, mola", "con cualquiera"],
+          ["🟡 Amarillo", "tío/a, flipar, currar, pasta, movida, chungo", "con amigos, no con desconocidos"],
+          ["🔴 Rojo", "joder, coño, hostia", "muy fuerte — reconoce, no repitas"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Verde — seguro con todos",
+      "items": [
+        { "nl": "¡Qué guay!", "en": "how cool!", "speak": "¡Qué guay!" },
+        { "nl": "mola mucho", "en": "it's really cool", "speak": "mola mucho" },
+        { "nl": "es muy majo", "en": "he's really nice", "speak": "es muy majo" },
+        { "nl": "vale, venga", "en": "okay, come on", "speak": "vale, venga" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "🟡 Amarillo: entre colegas",
+      "body": "These are the everyday slang of friends — warm, informal, but out of place with a stranger or your boss. **tío/tía** (mate/dude), **flipar** (to be amazed — *flipo contigo*), **currar** (to work; *el curro* = the job), **pasta** (money/dough), **movida** (a hassle/scene), **chungo** (dodgy/rough/tricky). Use them with the cast; drop them in a job interview.",
+      "callout": "*Menuda movida* = what a mess. *Está la cosa chunga* = things are tricky."
+    },
+    {
+      "type": "card",
+      "title": "🔴 Rojo: reconócelo, no lo sueltes",
+      "body": "Spain uses **joder** (damn / stronger), **coño** (a strong 'damn / hell') and **hostia / la hostia** (bloody hell) casually among friends — genuinely more than English does. But they are **real swearing**. The honest rule: **learn to recognize them** so you understand what's said, and hold off using them until you truly feel the register. **Never** with *usted*, never in a shop, an office, or with someone you've just met.",
+      "callout": "*¡La hostia!* can also mean 'amazing' (*es la hostia* = it's brilliant) — same word, opposite feel. Context is everything."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Estás en una entrevista de trabajo. ¿Qué frase NO deberías usar?",
+      "options": ["Me interesa mucho el puesto", "Tengo experiencia en el sector", "Joder, me flipa el proyecto"],
+      "correct": 2,
+      "explain": "**Joder** is red-tier swearing and **flipar** is yellow slang — both are wrong in an interview. Keep it neutral: *me interesa mucho el proyecto*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the green-tier way to say 'it's really cool' (use *mola* + an intensifier).",
+      "answers": ["mola mucho", "mola un montón", "¡mola mucho!"],
+      "hint": "*mola* + 'a lot'.",
+      "explain": "*Mola mucho* — safe with anyone, warm and very Spain. *Mola un montón* works too."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa tells you about a rough day at the bookshop — spot the register",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Tío, menudo día de curro llevo.", "en": "Mate, what a workday I'm having." },
+        { "speaker": "You", "nl": "¿Qué ha pasado? ¿Una movida?", "en": "What happened? Some hassle?" },
+        { "speaker": "Rafa", "nl": "Buah, el ordenador se ha roto y he perdido un pedido gordo. Joder.", "en": "Ugh, the computer broke and I lost a big order. Damn.", "spotlight": "*Joder* is red-tier — Rafa uses it among friends. You recognize it; you don't have to copy it." },
+        { "speaker": "You", "nl": "Jolín, qué chungo. ¿Y la pasta del pedido?", "en": "Darn, that's rough. And the money from the order?" },
+        { "speaker": "Rafa", "nl": "Pues la recupero, pero flipo con la mala suerte.", "en": "I'll get it back, but I can't believe my bad luck." },
+        { "speaker": "Lucía", "nl": "Venga, hombre, invito yo a la caña. Que no ha sido para tanto.", "en": "Come on, my treat on the beer. It wasn't that big a deal." },
+        { "speaker": "Rafa", "nl": "Eres la leche, Lucía. Gracias, tía.", "en": "You're the best, Lucía. Thanks." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Por qué está Rafa de mal humor?", "options": ["Ha perdido un pedido en el curro", "Se ha peleado con Lucía", "No le gusta la caña"], "correct": 0 },
+        { "q": "*Joder* es una palabra…", "options": ["verde, para cualquiera", "roja, fuerte — mejor reconocer que repetir", "formal, para el jefe"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Haz tu propio semáforo. Escribe una palabra 🟢 verde, una 🟡 amarilla y una 🔴 roja que hayas oído en España, y anota con quién la usarías (o no). Sé honesto/a con el registro.",
+      "starters": ["Con cualquiera puedo decir…", "Solo con mis amigos diría…", "Reconozco pero no uso…"],
+      "minSentences": 3
+    }
+  ]
+}

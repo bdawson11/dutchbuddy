@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "day-72",
+  "day": 72,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Le paroline: l'anima del parlato",
+  "emoji": "🗣️",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Discourse markers — allora, dai, magari, insomma, boh, guarda, senti, comunque — and using them to soften the blunt thing",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Le paroline: l'anima dell'italiano parlato",
+      "body": "Queste paroline non pesano molto nel dizionario — portano la **musica** e l'**atteggiamento** della conversazione. *Allora* apre e collega. *Dai* spinge ('forza!'). *Magari* sogna ('magari!/forse'). *Insomma* frena ('così così'). *Boh* alza le spalle ('non ne ho idea'). *Guarda* e *senti* chiedono attenzione. *Comunque* cambia discorso. Spargile nel discorso e smetti di suonare come un libro di testo.",
+      "callout": "Non si traducono una a una. Impara cosa **fa** ognuna nella conversazione."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta le paroline",
+      "items": [
+        { "nl": "Allora, cominciamo.", "en": "So, let's start.", "speak": "Allora, cominciamo." },
+        { "nl": "Dai, andiamo!", "en": "Come on, let's go!", "speak": "Dai, andiamo!" },
+        { "nl": "Magari!", "en": "I wish! / Maybe!", "speak": "Magari!" },
+        { "nl": "Boh, non lo so.", "en": "Dunno, no idea.", "speak": "Boh, non lo so." },
+        { "nl": "Insomma…", "en": "Well… so-so…", "speak": "Insomma…" },
+        { "nl": "Guarda, ti spiego.", "en": "Look, let me explain.", "speak": "Guarda, ti spiego." },
+        { "nl": "Senti, ho un'idea.", "en": "Listen, I've got an idea.", "speak": "Senti, ho un'idea." },
+        { "nl": "Comunque, cambiamo discorso.", "en": "Anyway, let's change the subject.", "speak": "Comunque, cambiamo discorso." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Diretto vs ammorbidito",
+      "pairs": [
+        { "left": "«No.» (secco, può suonare brusco)", "right": "«Mah, insomma… non proprio.» (ammorbidito)", "note": "Le paroline ammorbidiscono un rifiuto o un'opinione, così non suoni tagliente." },
+        { "left": "«Vieni?» → «No.»", "right": "«Vieni?» → «Magari! Ma non posso.»", "note": "*Magari!* dice 'mi piacerebbe tanto' prima del rifiuto — molto più gentile." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Un amico ti chiede: «Andiamo al mare domani?» Ti piacerebbe tanto ma non puoi. Cosa dici?",
+      "options": ["Boh.", "Magari! Ma domani lavoro.", "Insomma."],
+      "correct": 1,
+      "explain": "*Magari!* da solo esprime un desiderio forte ('magari fosse possibile!'). Perfetto prima di un 'ma…'."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Cosa vuol dire «boh»?",
+      "options": ["Sono d'accordo", "Non lo so / non ne ho idea", "Certo!"],
+      "correct": 1,
+      "explain": "*Boh* è la scrollata di spalle a parole: 'non ne ho idea'. Informale, ma si sente ovunque."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa con una parolina che chiede attenzione: «___, ti spiego io.»",
+      "answers": ["guarda", "senti"],
+      "hint": "Serve un imperativo-parolina tipo 'look' o 'listen'.",
+      "explain": "*Guarda* o *senti* aprono la frase e chiedono attenzione: 'guarda, ti spiego io'."
+    },
+    {
+      "type": "shadow",
+      "title": "Ripeti con le paroline",
+      "lines": [
+        { "nl": "Allora, senti, ho un'idea.", "en": "So, listen, I've got an idea." },
+        { "nl": "Boh, magari domani.", "en": "Dunno, maybe tomorrow." },
+        { "nl": "Dai, comunque non importa.", "en": "Come on, anyway it doesn't matter." },
+        { "nl": "Guarda, insomma, non è male.", "en": "Look, well, it's not bad." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Al bar, Marco commenta la notizia di Sofia con tutte le sue paroline.",
+      "lines": [
+        { "speaker": "Marco", "nl": "Allora, hai sentito di Sofia a Milano? Boh, io non ci sarei mai andato.", "en": "So, did you hear about Sofia in Milan? Dunno, I'd never have gone." },
+        { "speaker": "You", "nl": "Dai, a lei piace! Sembra contenta.", "en": "Come on, she likes it! She seems happy." },
+        { "speaker": "Marco", "nl": "Sì, insomma… Milano è cara, eh. Però magari ha ragione lei.", "en": "Yeah, well… Milan's expensive, you know. But maybe she's right.", "spotlight": "Marco fa la cosa diretta ('è cara, eh') e poi la ammorbidisce ('magari ha ragione lei')." },
+        { "speaker": "You", "nl": "Comunque possiamo andare a trovarla.", "en": "Anyway, we could go visit her." },
+        { "speaker": "Marco", "nl": "Magari! Guarda, un weekend a Milano non mi dispiace.", "en": "I'd love to! Look, a weekend in Milan wouldn't bother me." },
+        { "speaker": "You", "nl": "Senti, e la partita di domenica?", "en": "Hey, what about Sunday's match?" },
+        { "speaker": "Marco", "nl": "Boh, vediamo. Comunque ci sentiamo, eh!", "en": "Dunno, we'll see. Anyway, we'll be in touch!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai capito Marco?",
+      "questions": [
+        { "q": "Cosa pensa Marco di Milano all'inizio?", "options": ["Ci vuole andare subito", "Lui non ci sarebbe mai andato", "Ci abita già"], "correct": 1 },
+        { "q": "Alla fine, Marco andrebbe a Milano un weekend?", "options": ["Sì, magari", "No, mai", "Solo per la partita"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi un mini-dialogo di quattro battute usando almeno tre paroline diverse (allora, dai, boh, magari, insomma, guarda, senti, comunque).",
+      "starters": ["Allora,…", "Boh,…", "Dai,…"],
+      "minSentences": 4
+    }
+  ]
+}

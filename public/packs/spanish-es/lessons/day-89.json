@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "day-89",
+  "day": 89,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "lesson",
+  "title": "Suavizar: la cortesía del condicional",
+  "emoji": "🙏",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Soften requests and opinions with the courtesy imperfect and conditional: quería preguntarte, ¿te importaría?",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Pedir sin dar órdenes",
+      "body": "En España, pedir algo en presente directo (*dame, quiero, necesito*) puede sonar **seco**. El truco de la gente educada es **alejar el verbo del presente**: el **imperfecto de cortesía** (*quería preguntarte…* en vez de *quiero*) y el **condicional** (*¿podrías…?, ¿te importaría…?, me gustaría…*). No cambia lo que pides; cambia cómo aterriza.",
+      "table": {
+        "headers": ["Directo (seco)", "Suavizado (educado)"],
+        "rows": [
+          ["Quiero un favor.", "Quería pedirte un favor."],
+          ["¿Me ayudas?", "¿Te importaría ayudarme?"],
+          ["Dame tu opinión.", "¿Podrías darme tu opinión?"],
+          ["Haz esto mejor.", "Yo que tú lo haría distinto."]
+        ]
+      },
+      "callout": "Regla de oro social: cuanto más lejos del presente, más educado suena."
+    },
+    {
+      "type": "chips",
+      "title": "Fórmulas para suavizar — toca y repite",
+      "items": [
+        { "nl": "quería preguntarte una cosa", "en": "I wanted to ask you something", "speak": "quería preguntarte una cosa" },
+        { "nl": "¿te importaría echarme una mano?", "en": "would you mind giving me a hand?", "speak": "¿te importaría echarme una mano?" },
+        { "nl": "¿no sería mejor esperar?", "en": "wouldn't it be better to wait?", "speak": "¿no sería mejor esperar?" },
+        { "nl": "me vendría genial", "en": "it would be great for me", "speak": "me vendría genial" },
+        { "nl": "yo diría que sí", "en": "I'd say yes", "speak": "yo diría que sí" },
+        { "nl": "¿te vendría bien el jueves?", "en": "would Thursday work for you?", "speak": "¿te vendría bien el jueves?" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Misma petición, otro tono",
+      "pairs": [
+        { "left": "¿Me pasas la sal?", "right": "¿Te importaría pasarme la sal?", "note": "Ambas valen entre amigos; la segunda es la que usarías con alguien que acabas de conocer o en un tono más cuidado." },
+        { "left": "Quiero hablar con el jefe.", "right": "Quería ver si podría hablar con el jefe.", "note": "*Quería* (imperfecto) + *podría* (condicional): doble amortiguador, muy típico al pedir por teléfono o en una oficina." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Estás pidiendo un favor a un vecino que apenas conoces. ¿Cuál suena mejor?",
+      "options": ["Necesito que me riegues las plantas.", "¿Te importaría regarme las plantas estos días?", "Riégame las plantas."],
+      "correct": 1,
+      "explain": "*¿Te importaría…?* es la fórmula educada por defecto para pedir a alguien con quien no tienes confianza. Las otras dos suenan a orden."
+    },
+    {
+      "type": "typed",
+      "prompt": "Suaviza esta frase directa: «Quiero pedirte un favor.» → «___ pedirte un favor.» (imperfecto de cortesía)",
+      "answers": ["Quería", "quería", "queria"],
+      "hint": "El mismo verbo, pero en imperfecto.",
+      "explain": "**Quería pedirte un favor.** El imperfecto de cortesía es la forma estándar de arrancar una petición sin sonar exigente."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "¿te importaría ayudarme?",
+      "answers": ["¿te importaría ayudarme?", "te importaría ayudarme", "¿te importaria ayudarme?"]
+    },
+    {
+      "type": "builder",
+      "title": "Pide con guante de seda",
+      "prompt": "Monta una petición educada.",
+      "slots": [
+        { "label": "Apertura suave", "chips": ["Quería preguntarte", "Perdona, ¿te importaría", "Oye, ¿podrías"] },
+        { "label": "Petición", "chips": ["si podrías ayudarme", "echarme una mano", "revisarme una cosa"] },
+        { "label": "Cierre", "chips": ["cuando puedas?", "si no es mucha molestia?", "un momentito?"] }
+      ],
+      "sample": "Quería preguntarte si podrías ayudarme cuando puedas."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You need a favor from Lucía before a trip — ask it the polite way.",
+      "lines": [
+        { "speaker": "You", "nl": "Lucía, quería pedirte una cosa, si no es mucha molestia.", "en": "Lucía, I wanted to ask you something, if it's not too much trouble.", "spotlight": "Imperfecto de cortesía *quería* + amortiguador *si no es mucha molestia*." },
+        { "speaker": "Lucía", "nl": "Claro, dime, ¿qué necesitas?", "en": "Sure, tell me, what do you need?" },
+        { "speaker": "You", "nl": "¿Te importaría regarme las plantas la semana que viene? Me voy a Valencia.", "en": "Would you mind watering my plants next week? I'm going to Valencia." },
+        { "speaker": "Lucía", "nl": "Sin problema. ¿Te vendría bien dejarme las llaves el domingo?", "en": "No problem. Would it work for you to leave me the keys on Sunday?" },
+        { "speaker": "You", "nl": "Genial, me vendría fenomenal. Muchísimas gracias, de verdad.", "en": "Great, that'd be perfect for me. Thank you so much, really." },
+        { "speaker": "Lucía", "nl": "Nada, mujer. Para eso estamos, ¿no?", "en": "Don't mention it. That's what we're here for, right?" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Te has enterado?",
+      "questions": [
+        { "q": "¿Qué favor pide You?", "options": ["Que le riegue las plantas", "Que le lleve a Valencia", "Que le guarde el gato"], "correct": 0 },
+        { "q": "¿Cómo lo pide?", "options": ["Con una orden directa", "Con fórmulas suaves (quería…, ¿te importaría…?)", "Sin dar las gracias"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe un mensaje corto pidiéndole un favor a alguien con quien no tienes mucha confianza (un vecino, un compañero nuevo). Usa el imperfecto de cortesía y el condicional; suaviza al menos dos veces.",
+      "starters": ["Hola, quería preguntarte…", "¿Te importaría…?", "Si no es mucha molestia…", "Me vendría genial…"],
+      "minSentences": 3
+    }
+  ]
+}

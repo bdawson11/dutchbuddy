@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "day-55",
+  "day": 55,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "review",
+  "title": "Rückblick: Muss man Deutsch lernen?",
+  "emoji": "🗣️",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Week 8 recap — future, opinions, subclauses, comparatives — then Lena and Jonas debate whether expats must learn German",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Rückblick: Woche 8",
+      "body": "This week: the **Futur** (werden + infinitive, or just present + a time word), **wollen/möchten** for plans and **Sollen wir…?** for offers, **opinions** (ich finde, ich glaube, meiner Meinung nach), the big **subclause flip** (weil/dass/wenn → verb to the end), and **comparatives/superlatives** (größer als, am größten). Time to hear it all in one real conversation."
+    },
+    {
+      "type": "chips",
+      "title": "Woche 8 in Wörtern",
+      "items": [
+        { "nl": "Ich werde…", "en": "I will…", "speak": "Ich werde" },
+        { "nl": "Sollen wir…?", "en": "Shall we…?", "speak": "Sollen wir" },
+        { "nl": "Ich finde, dass…", "en": "I think that…", "speak": "Ich finde, dass" },
+        { "nl": "…, weil…", "en": "…, because…", "speak": "weil" },
+        { "nl": "am besten", "en": "the best", "speak": "am besten" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence correctly combines an opinion with a subclause?",
+      "options": ["Ich finde, dass Deutsch schwer ist.", "Ich finde, dass Deutsch ist schwer.", "Ich finde dass ist Deutsch schwer."],
+      "correct": 0,
+      "explain": "Ich finde, dass Deutsch schwer ist. — after dass, the verb (ist) has to go to the end."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I think German is harder than English.' (Use ich finde + schwerer als)",
+      "answers": ["Ich finde, Deutsch ist schwerer als Englisch.", "Ich finde Deutsch ist schwerer als Englisch."],
+      "hint": "ich finde + comparative + als",
+      "explain": "Ich finde, Deutsch ist schwerer als Englisch. — comparative (schwerer) + als, wrapped in an opinion."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the Kneipe, Jonas gets provocative: must every expat in Germany learn German?",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Ich finde, dass man hier Deutsch lernen muss. Punkt.", "en": "I think you have to learn German here. Period.", "spotlight": "dass-clause: the modal (muss) closes it out, after the infinitive (lernen)." },
+        { "speaker": "Lena", "nl": "Na ja, so einfach ist das nicht. Manche arbeiten nur auf Englisch.", "en": "Well, it's not that simple. Some people only work in English." },
+        { "speaker": "Jonas", "nl": "Trotzdem — wenn man hier lebt, sollte man es wenigstens versuchen.", "en": "Still — if you live here, you should at least try.", "spotlight": "wenn man hier lebt — verb (lebt) at the end of the wenn-clause." },
+        { "speaker": "You", "nl": "Meiner Meinung nach ist es am besten, langsam anzufangen.", "en": "In my opinion, it's best to start slowly." },
+        { "speaker": "Jonas", "nl": "Echt jetzt? Na gut — ich geb's zu, Deutsch ist auch für mich manchmal schwerer als gedacht.", "en": "Really? Okay fine — I admit it, German is sometimes harder than I thought, even for me.", "spotlight": "Jonas softens his blunt opening — his classic move." },
+        { "speaker": "Lena", "nl": "Siehst du? Wir werden das schon gemeinsam schaffen.", "en": "See? We'll manage it together." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What is Jonas's opening position?", "options": ["Expats shouldn't bother learning German", "You have to learn German if you live here", "Only some people need German"], "correct": 1 },
+        { "q": "What does Jonas admit by the end?", "options": ["He was wrong to have an opinion", "German is sometimes harder than he thought, even for him", "He doesn't like Lena's answer"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Kurz: do you agree with Jonas or Lena? Write 2 sentences using an opinion phrase and one subclause (weil, dass, or wenn).",
+      "starters": ["Ich finde, dass…", "…, weil…"]
+    }
+  ]
+}

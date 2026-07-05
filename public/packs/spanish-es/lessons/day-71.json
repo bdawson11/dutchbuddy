@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "day-71",
+  "day": 71,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Verbos con preposición fija",
+  "emoji": "🔗",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Fifteen core verbs welded to their preposition — soñar con, pensar en, quedar con, acordarse de",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El verbo elige su preposición",
+      "body": "In Spanish, lots of verbs come **welded to a specific preposition**, and you can't guess it from English. *Soñar* takes **con**, *pensar* takes **en**, *acordarse* takes **de**. Learn each pair as one unit: **soñar con**, **pensar en**, **acordarse de**. It's memory, not logic.",
+      "callout": "*Pienso en ti* (I think about you) — never *pienso a ti*, never *pienso sobre ti*."
+    },
+    {
+      "type": "card",
+      "title": "Quince que tienes que saberte",
+      "body": "The core set for this week. Say each verb with its preposition attached, out loud, until they feel inseparable.",
+      "table": {
+        "headers": ["Verbo + prep", "Significado"],
+        "rows": [
+          ["soñar con", "to dream about"],
+          ["pensar en", "to think about"],
+          ["contar con", "to count on"],
+          ["quedar con", "to arrange to meet (someone)"],
+          ["acordarse de", "to remember"],
+          ["olvidarse de", "to forget"],
+          ["depender de", "to depend on"],
+          ["empezar a", "to start to"],
+          ["aprender a", "to learn to"],
+          ["ayudar a", "to help (to)"],
+          ["dejar de", "to stop / quit"],
+          ["tratar de", "to try to"],
+          ["enamorarse de", "to fall in love with"],
+          ["fijarse en", "to notice"],
+          ["preocuparse por", "to worry about"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Escucha las combinaciones",
+      "items": [
+        { "nl": "Quedo con Rafa a las ocho.", "en": "I'm meeting Rafa at eight.", "speak": "Quedo con Rafa a las ocho." },
+        { "nl": "¿Te acuerdas de aquel día?", "en": "Do you remember that day?", "speak": "¿Te acuerdas de aquel día?" },
+        { "nl": "Cuento contigo.", "en": "I'm counting on you.", "speak": "Cuento contigo." },
+        { "nl": "No dejes de intentarlo.", "en": "Don't stop trying.", "speak": "No dejes de intentarlo." },
+        { "nl": "Me he enamorado de Madrid.", "en": "I've fallen in love with Madrid.", "speak": "Me he enamorado de Madrid." },
+        { "nl": "Todo depende de ti.", "en": "It all depends on you.", "speak": "Todo depende de ti." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "pensar en / pensar de / soñar con",
+      "pairs": [
+        { "left": "pensar EN algo (have it in mind)", "right": "*Pienso en las vacaciones.* — I'm thinking about the holidays.", "note": "*en* = what's on your mind, the default." },
+        { "left": "pensar DE algo (opinion)", "right": "*¿Qué piensas de Valencia?* — What do you think of Valencia?", "note": "*de* appears only in the opinion question *¿qué piensas de…?*" },
+        { "left": "soñar CON algo", "right": "*Sueño con vivir en la playa.* — I dream of living by the sea.", "note": "*soñar* is always *con*, never *de* ni *en*." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Elige la preposición: «No me acuerdo ___ su nombre.»",
+      "options": ["de", "en", "con", "a"],
+      "correct": 0,
+      "explain": "*acordarse* siempre va con **de**: *no me acuerdo de su nombre*. (Con *recordar* no hay preposición: *no recuerdo su nombre*.)"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Elige la preposición: «Hemos quedado ___ Sofía el sábado.»",
+      "options": ["con", "a", "de", "en"],
+      "correct": 0,
+      "explain": "*quedar con alguien* = to arrange to meet someone. Ojo: *quedar en* = to agree on something (*quedamos en vernos el sábado*)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Escribe 'I'm counting on you' usando *contar con* + *ti*.",
+      "answers": ["cuento contigo"],
+      "hint": "con + ti se funden en una sola palabra.",
+      "explain": "*Cuento contigo.* — *con + ti* → **contigo** (igual que *conmigo*). No se dice *con ti*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe la frase.",
+      "speak": "Sueño con vivir en Valencia.",
+      "answers": ["sueño con vivir en valencia", "sueño con vivir en Valencia"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa quizzes you about your week at the bar — every verb drags a preposition along.",
+      "lines": [
+        { "speaker": "Rafa", "nl": "¿Qué, has quedado con alguien esta semana?", "en": "So, have you made plans with anyone this week?", "spotlight": "quedar con alguien = to arrange to meet." },
+        { "speaker": "You", "nl": "Sí, he quedado con Lucía el jueves. Quiero aprender a hacer paella.", "en": "Yeah, I'm meeting Lucía on Thursday. I want to learn to make paella." },
+        { "speaker": "Rafa", "nl": "¡Anda! Pues no te olvides de invitarme, ¿eh?", "en": "Oh! Well don't forget to invite me!" },
+        { "speaker": "You", "nl": "Cuento contigo, tío. Aunque todo depende del tiempo.", "en": "I'm counting on you, mate. Though it all depends on the weather." },
+        { "speaker": "Rafa", "nl": "Bueno, si llueve, nos quedamos en el bar y ya está.", "en": "Well, if it rains, we stay at the bar and that's that." },
+        { "speaker": "You", "nl": "Oye, ¿tú todavía sueñas con montar tu grupo?", "en": "Hey, do you still dream of starting your band?" },
+        { "speaker": "Rafa", "nl": "Hombre, claro. No he dejado de pensar en eso ni un día.", "en": "Man, of course. I haven't stopped thinking about it for a single day.", "spotlight": "dejar de + pensar en, back to back." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "¿Con qué sueñas? ¿En qué piensas últimamente? Escribe cuatro frases usando cuatro verbos con preposición distintos (soñar con, pensar en, acordarse de, contar con…).",
+      "starters": ["Sueño con…", "Pienso mucho en…", "No me acuerdo de…", "Cuento con…"],
+      "minSentences": 4
+    }
+  ]
+}

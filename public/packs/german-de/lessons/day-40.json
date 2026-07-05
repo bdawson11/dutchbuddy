@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "day-40",
+  "day": 40,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "Ratschläge geben",
+  "emoji": "💡",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "du musst, du solltest, a first taste of würde, and the dative check-in wie geht es dir",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Du musst... — starker Ratschlag",
+      "body": "**Du musst** + infinitive is the strongest kind of advice — a real 'you must'. *Du musst zum Arzt gehen* (You must go to the doctor — *zum* = *zu* + *dem*, a little dative preview; the full set of dative prepositions comes in Week 10).",
+      "callout": "Du musst — blunt, but that's how close German friends look out for you."
+    },
+    {
+      "type": "chips",
+      "title": "Ratschlag-Wörter",
+      "items": [
+        { "nl": "Du musst ruhen.", "en": "You must rest.", "speak": "Du musst ruhen." },
+        { "nl": "Du solltest viel trinken.", "en": "You should drink a lot.", "speak": "Du solltest viel trinken." },
+        { "nl": "An deiner Stelle würde ich schlafen.", "en": "In your place, I'd sleep.", "speak": "An deiner Stelle würde ich schlafen." },
+        { "nl": "Wie geht es dir?", "en": "How are you?", "speak": "Wie geht es dir?" },
+        { "nl": "Es geht mir schlecht.", "en": "I'm doing badly.", "speak": "Es geht mir schlecht." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Du solltest... — die sanftere Variante",
+      "body": "**Du solltest** (you should) softens *musst* into a recommendation — it's *sollen* in the gentle **Konjunktiv II**. *Du solltest viel Wasser trinken* (You should drink lots of water).",
+      "callout": "solltest — the same softening move as English 'should' vs 'must'."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is the gentlest way to give advice?",
+      "options": ["Du musst schlafen.", "Du solltest schlafen.", "An deiner Stelle würde ich schlafen."],
+      "correct": 2,
+      "explain": "An deiner Stelle würde ich... (in your place, I would...) is the softest — a first taste of würde, the conditional you'll meet properly later."
+    },
+    {
+      "type": "card",
+      "title": "Wie geht es dir? — mir/dir again",
+      "body": "When a friend looks rough, ask **Wie geht es dir?** (How are you? — literally 'how goes it to-you', dative *dir*). Answer with **Es geht mir gut / schlecht** (I'm doing well / badly — dative *mir*). The dative is quietly everywhere this week.",
+      "callout": "Never Wie bist du? — that asks what kind of person you are, not how you feel."
+    },
+    {
+      "type": "contrast",
+      "title": "Ratschlag und der Dativ-Check",
+      "pairs": [
+        {
+          "left": "Du musst ruhen. — You must rest. (direct)",
+          "right": "Du solltest ruhen. — You should rest. (softer)",
+          "note": "musst is an order, solltest is a recommendation."
+        },
+        {
+          "left": "Wie geht es dir? — dative dir",
+          "right": "Es geht mir nicht so gut. — dative mir",
+          "note": "geht + dative is the standard well-being exchange."
+        }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'You should drink a lot of water.'",
+      "answers": ["Du solltest viel Wasser trinken"],
+      "hint": "du solltest + viel Wasser + trinken",
+      "explain": "Du solltest viel Wasser trinken — solltest second, and trinken (the infinitive) pushed to the end."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Es geht mir schlecht.",
+      "answers": ["Es geht mir schlecht"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena spots you looking rough and doesn't hold back with advice.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Na, du siehst aber nicht gut aus. Wie geht es dir?", "en": "Hey, you don't look so good. How are you?", "spotlight": "Wie geht es dir? — dative dir, the standard check-in" },
+        { "speaker": "You", "nl": "Ehrlich gesagt, es geht mir nicht so gut. Ich habe Kopfschmerzen.", "en": "Honestly, I'm not doing so well. I have a headache." },
+        { "speaker": "Lena", "nl": "Du musst dich sofort hinlegen.", "en": "You must lie down right away." },
+        { "speaker": "You", "nl": "Ich habe aber gleich einen Termin.", "en": "But I have an appointment soon." },
+        { "speaker": "Lena", "nl": "Den solltest du verschieben. An deiner Stelle würde ich absagen und schlafen.", "en": "You should reschedule that. In your place, I'd cancel and sleep.", "spotlight": "würde — the first taste of the conditional" },
+        { "speaker": "You", "nl": "Vielleicht hast du recht.", "en": "Maybe you're right." },
+        { "speaker": "Lena", "nl": "Klar hab ich recht. Trink viel Wasser und ruf mich später an.", "en": "Of course I'm right. Drink lots of water and call me later." },
+        { "speaker": "You", "nl": "Mach ich. Danke, Lena.", "en": "Will do. Thanks, Lena." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Lena tell you to do first?", "options": ["Go to bed", "Call 112", "Go to work"], "correct": 0 },
+        { "q": "What does 'You' consider doing?", "options": ["Cancel the appointment forever", "Reschedule and rest", "Ignore it and go anyway"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "A friend texts you that they feel terrible. Write two pieces of advice — one with du musst, one with du solltest.",
+      "starters": ["Du musst...", "Du solltest..."]
+    }
+  ]
+}
