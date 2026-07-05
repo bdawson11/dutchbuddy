@@ -14,7 +14,7 @@
     {
       "type": "card",
       "title": "Week 3, alles bij elkaar",
-      "body": "Deze week: familie plus de warme *-je*, de **-e-regel** voor adjectieven, possessives (*mijn, jouw, zijn, haar, ons/onze, hun*), en je eigen *buurt*. Tijd om het allemaal te gebruiken — en je verhaal verder te bouwen."
+      "body": "This week: family plus the warm *-je*, the **-e rule** for adjectives, possessives (*mijn, jouw, zijn, haar, ons/onze, hun*), and your own *buurt*. Time to use it all — and grow your story further."
     },
     {
       "type": "mcq",
@@ -77,13 +77,14 @@
     },
     {
       "type": "journal",
-      "prompt": "Mijn verhaal — hoofdstuk 3. Voeg je familie en je buurt toe aan je verhaal (naam, waar je vandaan komt, dat je Nederlands leert, je dagelijkse routine — en nu je familie en buurt). Gebruik possessives (mijn/onze/haar) en adjectieven met -e.",
+      "title": "Mijn verhaal — hoofdstuk 3",
+      "prompt": "Add your family and your buurt to your growing self-intro. Keep last week's layers (name, where you're from, that you're learning Dutch, your daily routine) and add your family and neighborhood, using possessives (mijn/onze/haar) and -e adjectives.",
       "starters": ["Mijn familie...", "Ik heb een...", "Onze buurt is..."],
       "minSentences": 4
     },
     {
       "type": "journal",
-      "prompt": "Je hebt Week 3 afgerond! Familie, buurt, adjectieven, possessives — allemaal binnen. Schrijf één zin die viert wat je deze week geleerd hebt.",
+      "prompt": "Three weeks in — knap gedaan! Family, buurt, adjectives, possessives — all in the bag. Write one sentence celebrating what you learned this week, in Dutch if you can.",
       "starters": ["Deze week heb ik geleerd..."]
     }
   ]

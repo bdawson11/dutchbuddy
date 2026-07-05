@@ -71,7 +71,7 @@
     {
       "type": "typed",
       "prompt": "Type: 'Can you help me?' — use kunnen.",
-      "answers": ["kun je me helpen", "kan je me helpen"],
+      "answers": ["kun je me helpen", "kan je me helpen", "kun je mij helpen", "kan je mij helpen"],
       "hint": "Modal + je + me + helpen, infinitive at the end.",
       "explain": "*Kun je me helpen?* — inversion drops the -t: *kun je*, not *kunt je*."
     },

@@ -75,7 +75,7 @@
       "prompt": "Build a sentence about something you like.",
       "slots": [
         { "label": "Zeg het", "chips": ["Ik houd van", "Ik eet graag"] },
-        { "label": "Waarover", "chips": ["kaas", "verse groente", "de zomer", "patat"] }
+        { "label": "Waarover", "chips": ["kaas", "verse groente", "vers fruit", "patat"] }
       ],
       "sample": "Ik houd van kaas."
     },
