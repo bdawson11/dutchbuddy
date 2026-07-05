@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "day-47",
+  "day": 47,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Lo que pasó y lo que pasaba",
+  "emoji": "📖",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Combining indefinido and imperfecto to narrate — background versus the event that interrupts it",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Dos pasados, dos trabajos",
+      "body": "El **imperfecto** pinta el fondo: el tiempo, la hora, lo que ya estaba pasando, sin límites claros. El **indefinido** cuenta el hecho concreto que ocurre y termina. Juntos cuentan una historia entera: *[imperfecto] cuando [indefinido]*.",
+      "table": {
+        "headers": ["Función", "Tiempo", "Ejemplo"],
+        "rows": [
+          ["Fondo, sin límite claro", "imperfecto", "Hacía sol y la gente paseaba."],
+          ["Hecho concreto que interrumpe", "indefinido", "De repente, empezó a llover."],
+          ["Los dos juntos", "imperfecto + indefinido", "Paseábamos cuando empezó a llover."]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "Palabras que ayudan",
+      "body": "**Mientras** conecta dos fondos en imperfecto: *Nacho cocinaba mientras Lucía ponía la mesa.* **De repente** y **de pronto** anuncian el hecho puntual en indefinido: *De repente, se fue la luz.*",
+      "callout": "*cuando* es el conector estrella: fondo (imperfecto) + cuando + hecho (indefinido)."
+    },
+    {
+      "type": "contrast",
+      "title": "Mismo hecho, forma distinta",
+      "pairs": [
+        { "left": "Llovía cuando salí. (fondo + hecho que interrumpe)", "right": "Salí y luego empezó a llover. (dos hechos seguidos)", "note": "Con 'cuando', el imperfecto pone la escena que el hecho interrumpe; dos indefinidos solo ordenan hechos uno tras otro." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Conectores de la narración",
+      "items": [
+        { "nl": "mientras", "en": "while", "speak": "mientras" },
+        { "nl": "cuando", "en": "when", "speak": "cuando" },
+        { "nl": "de repente", "en": "suddenly", "speak": "de repente" },
+        { "nl": "de pronto", "en": "all of a sudden", "speak": "de pronto" },
+        { "nl": "en ese momento", "en": "at that moment", "speak": "en ese momento" },
+        { "nl": "entonces", "en": "then", "speak": "entonces" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Elige la combinación correcta para 'It was raining when I left the house.'",
+      "options": ["Llovía cuando salí de casa", "Llovió cuando salía de casa", "Llovía cuando salía de casa"],
+      "correct": 0,
+      "explain": "El fondo (llovía, imperfecto) + el hecho puntual de salir (salí, indefinido). La tercera opción pone las dos acciones en imperfecto, como si las dos fueran continuas — pero 'salí' es un hecho concreto, no un fondo."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Estaba en la ducha cuando ____ (sonar) el teléfono.",
+      "options": ["sonaba", "sonó", "suena"],
+      "correct": 1,
+      "explain": "El hecho que interrumpe el fondo (estaba en la ducha) va en indefinido: *sonó*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I was walking when I saw Rafa.'",
+      "answers": ["Caminaba cuando vi a Rafa.", "caminaba cuando vi a rafa", "yo caminaba cuando vi a rafa"],
+      "hint": "fondo (caminaba) + hecho (vi)",
+      "explain": "*Caminaba cuando vi a Rafa.* — imperfecto para el fondo, indefinido para el hecho."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "dormía cuando sonó el teléfono",
+      "answers": ["Dormía cuando sonó el teléfono.", "dormia cuando sono el telefono"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Sofía tells you about something strange she saw on her way to work",
+      "lines": [
+        { "speaker": "Sofía", "nl": "Esta mañana caminaba al trabajo cuando vi algo muy raro.", "en": "This morning I was walking to work when I saw something really strange." },
+        { "speaker": "You", "nl": "¿Qué viste?", "en": "What did you see?" },
+        { "speaker": "Sofía", "nl": "Un hombre paseaba a su gato con correa, ¡como si fuera un perro!", "en": "A man was walking his cat on a leash, like it was a dog!", "spotlight": "paseaba — imperfecto para describir la escena en curso." },
+        { "speaker": "You", "nl": "Jajaja, ¡qué fuerte! ¿Y qué hiciste?", "en": "Haha, no way! And what did you do?" },
+        { "speaker": "Sofía", "nl": "Me paré, saqué el móvil e hice una foto.", "en": "I stopped, took out my phone, and took a photo." },
+        { "speaker": "You", "nl": "Buena historia para contar en el bar.", "en": "Good story to tell at the bar." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Cuenta una pequeña historia, real o inventada: describe la escena con el imperfecto y añade un hecho con el indefinido.",
+      "starters": ["Hacía...", "Yo estaba...", "De repente..."],
+      "minSentences": 3
+    }
+  ]
+}

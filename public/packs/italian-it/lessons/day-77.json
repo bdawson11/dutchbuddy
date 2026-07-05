@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-77",
+  "day": 77,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "capstone",
+  "title": "Il mio racconto: formale e informale",
+  "emoji": "🎭",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Week 11 capstone: verb+prep, paroline, alterati, congiuntivo and tu/Lei — then build your self-intro twice, formal (Lei) and casual (tu), with one congiuntivo (layer 11)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Uno sguardo indietro: settimana 11",
+      "body": "Questa settimana hai imparato a **suonare** italiano: i verbi con la preposizione (*riuscire a, finire di, pensare a/di*), le **paroline** che danno musica al parlato (*allora, dai, magari, boh, insomma*), gli **alterati** (*caffettino, giornataccia, macchinone*), il **congiuntivo senza paura** (le tre impalcature: *penso che… / spero che… / è meglio che…*) e il controllo del registro **tu vs Lei**. Oggi metti tutto in un racconto: la stessa presentazione, in versione formale e informale.",
+      "callout": "Traguardo della settimana 11: la stessa storia, detta col *tu* e col *Lei*."
+    },
+    {
+      "type": "chips",
+      "title": "Ripasso lampo — la settimana",
+      "items": [
+        { "nl": "Cerco di parlare ogni giorno.", "en": "I try to speak every day.", "speak": "Cerco di parlare ogni giorno." },
+        { "nl": "Dai, magari!", "en": "Come on, I wish!", "speak": "Dai, magari!" },
+        { "nl": "Un caffettino al tavolino.", "en": "A little coffee at the café table.", "speak": "un caffettino al tavolino" },
+        { "nl": "Penso che l'italiano sia bellissimo.", "en": "I think Italian is beautiful.", "speak": "Penso che l'italiano sia bellissimo." },
+        { "nl": "Lei come si chiama?", "en": "What's your name? (formal)", "speak": "Lei come si chiama?" }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Riscalda la voce",
+      "lines": [
+        { "nl": "Allora, ci proviamo?", "en": "So, shall we give it a go?" },
+        { "nl": "Comincio a capire tutto.", "en": "I'm starting to understand everything." },
+        { "nl": "Penso che sia giusto così.", "en": "I think it's right this way." },
+        { "nl": "Buongiorno, piacere di conoscerLa.", "en": "Good morning, pleased to meet you." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Completa: «Finalmente sono riuscito ___ parlare senza tradurre.»",
+      "options": ["a", "di", "per"],
+      "correct": 0,
+      "explain": "*riuscire a* + infinito. *Sono riuscito a parlare.* Coppia fissa della famiglia 'a'."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Vuoi dire 'mi piacerebbe tanto, ma…'. Quale parolina apre bene la frase?",
+      "options": ["Boh…", "Magari! Ma…", "Insomma…"],
+      "correct": 1,
+      "explain": "*Magari!* esprime un desiderio forte ('magari fosse possibile!'). Perfetto prima di un 'ma'."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Quale frase è nel registro giusto per l'opinione?",
+      "options": ["Spero che l'italiano è facile.", "Spero che l'italiano sia facile.", "Spero che l'italiano essere facile."],
+      "correct": 1,
+      "explain": "*Sperare che* → congiuntivo: *sia*. E ricorda: se sbagli, non succede niente."
+    },
+    {
+      "type": "typed",
+      "prompt": "Trasforma al formale: «Ciao, come ti chiami?»",
+      "answers": ["buongiorno, lei come si chiama?", "buongiorno, come si chiama?", "lei come si chiama?", "come si chiama?", "buongiorno lei come si chiama"],
+      "hint": "Saluto formale + Lei + terza persona.",
+      "explain": "Formale: saluto + *Lei* + terza persona. *Buongiorno, Lei come si chiama?*"
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase formale.",
+      "speak": "Piacere di conoscerLa.",
+      "answers": ["piacere di conoscerla", "piacere di conoscerla."]
+    },
+    {
+      "type": "contrast",
+      "title": "Il mio racconto: formale vs informale",
+      "pairs": [
+        { "left": "**Informale (tu):** *Ciao! Mi chiamo Alex, e tu?*", "right": "**Formale (Lei):** *Buongiorno, mi chiamo Alex. E Lei?*", "note": "La parte su di te non cambia (*mi chiamo…*). Cambia come saluti e come ti rivolgi all'altro." },
+        { "left": "*E tu, come ti chiami?* (chiusura informale)", "right": "*E Lei, come si chiama?* (chiusura formale)", "note": "La chiusura cambia col registro; il congiuntivo (*penso che sia…*) resta uguale in tutti e due." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Il mio racconto — livello 11",
+      "prompt": "Costruisci la tua presentazione controllando il registro. Scegli la versione formale o informale, e infila un congiuntivo.",
+      "slots": [
+        { "label": "Saluto", "chips": ["Buongiorno, piacere di conoscerLa", "Ciao, piacere!"] },
+        { "label": "Chi sono", "chips": ["mi chiamo Alex e sono di Boston", "sono Sara, vengo dal Canada"] },
+        { "label": "Cosa faccio", "chips": ["vivo a Bologna e sto imparando l'italiano", "sono qui da un anno e cerco di parlare ogni giorno"] },
+        { "label": "Un congiuntivo", "chips": ["e penso che l'italiano sia bellissimo", "e spero che il mio italiano migliori", "credo che sia la lingua più bella del mondo"] },
+        { "label": "Chiudo", "chips": ["E Lei, come si chiama?", "E tu, come ti chiami?"] }
+      ],
+      "sample": "Buongiorno, piacere di conoscerLa, mi chiamo Alex e sono di Boston, vivo a Bologna e sto imparando l'italiano, e penso che l'italiano sia bellissimo. E Lei, come si chiama?"
+    },
+    {
+      "type": "journal",
+      "prompt": "Il mio racconto — livello 11! Scrivi la tua presentazione **due volte**: una col *tu* (a un amico) e una col *Lei* (a chi non conosci). In tutte e due infila almeno un congiuntivo (*penso che… sia…*, *spero che…*). Ricorda i livelli di prima (nome, provenienza, famiglia, cosa ti piace, cosa hai fatto…) e aggiungi il controllo del registro. Complimenti: hai finito la settimana 11 — adesso non solo parli italiano, cominci a suonare italiano!",
+      "starters": ["Ciao! Mi chiamo…", "Buongiorno, mi chiamo…", "…e penso che l'italiano sia…"],
+      "minSentences": 4
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-45",
+  "day": 45,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Cuando era pequeño",
+  "emoji": "🖼",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Imperfecto conjugation — regular endings plus the three irregulars ser/ir/ver — for description, habit and background",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El imperfecto: cómo eran las cosas",
+      "body": "El **imperfecto** describe: cómo era algo, qué se hacía siempre, qué pasaba de fondo — sin un final marcado. *Vivía en un pueblo. Hablábamos todos los días.* Es el tiempo de la infancia y de las costumbres.",
+      "table": {
+        "headers": ["Persona", "hablar", "comer", "vivir"],
+        "rows": [
+          ["yo", "hablaba", "comía", "vivía"],
+          ["tú", "hablabas", "comías", "vivías"],
+          ["él/ella/usted", "hablaba", "comía", "vivía"],
+          ["nosotros/as", "hablábamos", "comíamos", "vivíamos"],
+          ["vosotros/as", "hablabais", "comíais", "vivíais"],
+          ["ellos/ellas/ustedes", "hablaban", "comían", "vivían"]
+        ]
+      },
+      "callout": "*hablábamos* lleva tilde — es la única forma de -ar que la necesita, para marcar dónde cae el golpe de voz."
+    },
+    {
+      "type": "card",
+      "title": "Los tres irregulares: ser, ir, ver",
+      "body": "Solo **tres verbos** son irregulares en imperfecto — el resto sigue siempre la regla de arriba. *Era pequeño, iba al colegio, veía la tele* — la base de cualquier recuerdo de infancia.",
+      "table": {
+        "headers": ["Persona", "ser", "ir", "ver"],
+        "rows": [
+          ["yo", "era", "iba", "veía"],
+          ["tú", "eras", "ibas", "veías"],
+          ["él/ella/usted", "era", "iba", "veía"],
+          ["nosotros/as", "éramos", "íbamos", "veíamos"],
+          ["vosotros/as", "erais", "ibais", "veíais"],
+          ["ellos/ellas/ustedes", "eran", "iban", "veían"]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "era vs fui",
+      "pairs": [
+        { "left": "era profesor (imperfecto — describe, sin límite claro)", "right": "fui profesor durante un año (indefinido — un hecho cerrado)", "note": "El imperfecto pinta el fondo; el indefinido marca el hecho concreto. Volveremos a esto en profundidad." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Frases de infancia",
+      "items": [
+        { "nl": "cuando era pequeño", "en": "when I was little", "speak": "cuando era pequeño" },
+        { "nl": "vivía en un pueblo", "en": "I used to live in a village", "speak": "vivía en un pueblo" },
+        { "nl": "íbamos a la playa", "en": "we used to go to the beach", "speak": "íbamos a la playa" },
+        { "nl": "veía dibujos animados", "en": "I used to watch cartoons", "speak": "veía dibujos animados" },
+        { "nl": "hablábamos mucho", "en": "we used to talk a lot", "speak": "hablábamos mucho" },
+        { "nl": "no tenía coche", "en": "I didn't have a car", "speak": "no tenía coche" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Qué frase describe una costumbre, sin final marcado?",
+      "options": ["Comí paella una vez", "Comía paella todos los domingos"],
+      "correct": 1,
+      "explain": "*Comía paella todos los domingos* — costumbre repetida, imperfecto. *Comí... una vez* es un hecho puntual, indefinido."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Vosotros, ir, imperfecto — ¿cuál es la forma correcta?",
+      "options": ["ibais", "íbais", "fuisteis"],
+      "correct": 0,
+      "explain": "*ibais* — sin tilde, ya suena bien con el patrón normal de acentuación. *Fuisteis* es indefinido, no imperfecto."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I used to live in a village.'",
+      "answers": ["Vivía en un pueblo.", "vivía en un pueblo", "yo vivía en un pueblo"],
+      "hint": "vivir → vivía (yo)",
+      "explain": "*Vivía en un pueblo.* — descripción de cómo era tu vida, sin final marcado."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "veíamos la tele",
+      "answers": ["Veíamos la tele.", "veiamos la tele"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía describes what her Madrid neighborhood was like when she was a child",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Cuando era pequeña, vivía en Lavapiés con mis padres.", "en": "When I was little, I lived in Lavapiés with my parents." },
+        { "speaker": "You", "nl": "¿Cómo era el barrio entonces?", "en": "What was the neighborhood like back then?" },
+        { "speaker": "Lucía", "nl": "Era muy diferente. Había menos bares y más tiendas de barrio.", "en": "It was very different. There were fewer bars and more neighborhood shops.", "spotlight": "había — imperfecto de 'hay', para describir el fondo." },
+        { "speaker": "You", "nl": "¿E ibas al colegio cerca de casa?", "en": "And did you go to school near home?" },
+        { "speaker": "Lucía", "nl": "Sí, iba andando todos los días con Rafa.", "en": "Yes, I walked there every day with Rafa." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Cuando eras pequeño o pequeña, ¿cómo era tu barrio? ¿Qué hacías cada día? Usa el imperfecto: era, vivía, iba, veía...",
+      "starters": ["Cuando era pequeño...", "Cuando era pequeña...", "Mi barrio era..."],
+      "minSentences": 3
+    }
+  ]
+}

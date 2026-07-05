@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "day-84",
+  "day": 84,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "capstone",
+  "title": "Mi historia, definitiva",
+  "emoji": "🎉",
+  "level": "B1",
+  "durationMin": [20, 35],
+  "summary": "The finale: twelve-week recap, the definitive B1 self-intro with every cumulative layer, a letter to your past self, farewells with the whole cast",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Doce semanas. Míralo.",
+      "body": "Empezaste con cinco vocales y *hola*. Ahora entiendes el subjuntivo, cuentas historias en pasado, controlas el registro y pides a escote sin pensar. **Doce semanas, de la A1 al umbral del B1.** Hoy juntas todo — tu *Mi historia* definitiva, una carta a tu yo del pasado y las despedidas. Y ya está. Lo has hecho.",
+      "callout": "🎉 84 días · 4 amigos · 1 idioma nuevo. Enhorabuena de verdad."
+    },
+    {
+      "type": "card",
+      "title": "Mi historia — las doce capas",
+      "body": "Cada semana añadiste una capa. Aquí está tu historia completa, **un movimiento de tiempo verbal por casilla**. Hoy las usas todas.",
+      "table": {
+        "headers": ["Capa", "El movimiento"],
+        "rows": [
+          ["Quién soy", "presente: me llamo…, soy de…"],
+          ["Mi rutina", "presente + hora: todos los días…"],
+          ["Familia y barrio", "posesivos + ser/estar"],
+          ["Gustos y un deseo", "me gusta… / quiero…"],
+          ["Algo reciente", "perfecto: he…"],
+          ["Cómo me he sentido", "me he sentido… / me dolía…"],
+          ["Un recuerdo", "imperfecto: cuando era pequeño…"],
+          ["Un plan y una opinión", "voy a… / creo que… / espero que…"],
+          ["Algo que me dijeron", "estilo indirecto: me dijo que…"],
+          ["Una decisión", "con relativo o conector: decidí que…"],
+          ["El registro", "lo mismo en tú y en usted"],
+          ["La despedida", "una carta a mi yo del pasado"]
+        ]
+      }
+    },
+    {
+      "type": "shadow",
+      "title": "Escucha una *mi historia* completa",
+      "lines": [
+        { "nl": "Me llamo Alex, soy de Toronto y vivo en Madrid.", "en": "My name's Alex, I'm from Toronto and I live in Madrid." },
+        { "nl": "Llegué hace un año sin hablar español.", "en": "I arrived a year ago without speaking Spanish." },
+        { "nl": "Al principio me sentía perdido, pero he aprendido muchísimo.", "en": "At first I felt lost, but I've learned a lot." },
+        { "nl": "Cuando era pequeño soñaba con vivir en otro país.", "en": "When I was little I dreamed of living in another country." },
+        { "nl": "Espero que el año que viene hable aún mejor.", "en": "I hope that next year I'll speak even better." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Completa: 'Espero que el año que viene ___ aún mejor.'",
+      "options": ["hablo", "hable", "hablaré"],
+      "correct": 1,
+      "explain": "After *espero que…* Spanish takes the **subjuntivo**: *espero que hable*. The B1 gate you walked through in weeks 8 and 9."
+    },
+    {
+      "type": "typed",
+      "prompt": "Say 'I've learned a lot this year' in Spanish — use the perfecto with *este año*.",
+      "answers": ["he aprendido mucho este año", "este año he aprendido mucho", "he aprendido muchísimo este año"],
+      "hint": "*he* + participle, plus 'this year'.",
+      "explain": "*Este año he aprendido mucho* — *este año* stays in the present time-frame, so it's the perfecto, Spain's recent past."
+    },
+    {
+      "type": "contrast",
+      "title": "La misma historia, dos registros",
+      "pairs": [
+        { "left": "Tú: ¿De dónde eres? — Soy de Toronto y vivo aquí.", "right": "Usted: ¿De dónde es usted? — Soy de Toronto y vivo aquí.", "note": "Same story, register dial turned. To a group of friends it becomes *vosotros*: *¿de dónde sois?*. Command of this is pure B1." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Despedidas de España — toca para oír",
+      "items": [
+        { "nl": "¡Nos vemos!", "en": "see you!", "speak": "¡Nos vemos!" },
+        { "nl": "¡Un beso!", "en": "hugs / bye (warm)", "speak": "¡Un beso!" },
+        { "nl": "¡Cuídate!", "en": "take care!", "speak": "¡Cuídate!" },
+        { "nl": "¡Hasta pronto!", "en": "see you soon!", "speak": "¡Hasta pronto!" },
+        { "nl": "¡Mucha suerte!", "en": "good luck!", "speak": "¡Mucha suerte!" },
+        { "nl": "Venga, ¡adiós!", "en": "okay, bye!", "speak": "Venga, ¡adiós!" }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mi historia, definitiva",
+      "prompt": "Build the definitive version — one move per slot: who you are, a recent perfecto, a childhood imperfecto, a plan with subjunctive, and a farewell.",
+      "slots": [
+        { "label": "Quién soy", "chips": ["Me llamo Alex y soy de Toronto", "Me llamo Sam y soy de Londres"] },
+        { "label": "Ahora", "chips": ["y vivo en Madrid desde hace un año", "y ahora vivo en España"] },
+        { "label": "Reciente (perfecto)", "chips": ["He aprendido español casi de cero", "Este año he cambiado mucho"] },
+        { "label": "Recuerdo (imperfecto)", "chips": ["De pequeño soñaba con vivir fuera", "Antes no me atrevía a hablar"] },
+        { "label": "Deseo (subjuntivo)", "chips": ["y espero que siga mejorando", "y ojalá hable aún mejor pronto"] },
+        { "label": "Despedida", "chips": ["¡Un beso y hasta pronto!", "Venga, ¡nos vemos!"] }
+      ],
+      "sample": "Me llamo Alex y soy de Toronto, y vivo en Madrid desde hace un año. He aprendido español casi de cero. De pequeño soñaba con vivir fuera. Y espero que siga mejorando. ¡Un beso y hasta pronto!"
+    },
+    {
+      "type": "dialogue",
+      "scene": "The last round of the night — the friends toast you and say goodbye",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Bueno, chicos, por Alex, que llegó sin hablar y mira ahora.", "en": "Well, everyone, to Alex, who arrived not speaking and look now." },
+        { "speaker": "Rafa", "nl": "¡Por Alex! Tío, eres la leche. En serio.", "en": "To Alex! Mate, you're the best. Seriously." },
+        { "speaker": "Sofía", "nl": "Me alegro un montón de que lo hayas conseguido.", "en": "I'm so glad you pulled it off.", "spotlight": "*alegrarse de que* + subjunctive — the B1 move, one year on." },
+        { "speaker": "Nacho", "nl": "Cuando quieras te vienes al pueblo, que allí se practica mejor.", "en": "Whenever you like, come to the village — you practise better there." },
+        { "speaker": "You", "nl": "Gracias de verdad. Sin vosotros no habría aprendido tanto.", "en": "Thank you truly. Without you all I wouldn't have learned so much.", "spotlight": "condicional compuesto + *vosotros* — register nailed." },
+        { "speaker": "Lucía", "nl": "¡Venga, no te pongas moñas! Un beso, majo.", "en": "Come on, don't get sappy! Hugs, you." },
+        { "speaker": "Rafa", "nl": "Nos vemos en el bar de siempre, ¿eh?", "en": "See you at the usual bar, yeah?" },
+        { "speaker": "You", "nl": "Ahí estaré. ¡Un abrazo a todos!", "en": "I'll be there. A hug to you all!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Por qué brindan?", "options": ["Por Alex y su año aprendiendo español", "Por Valencia", "Por el pueblo de Nacho"], "correct": 0 },
+        { "q": "¿Qué le ofrece Nacho a Alex?", "options": ["Un trabajo nuevo", "Ir a practicar a su pueblo", "Un billete a Valencia"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Carta a tu yo del pasado. Escríbete a ti mismo del primer día, cuando no sabías ni pedir un café. Cuéntale quién eres ahora, qué has aprendido, un recuerdo de estos meses y un deseo para el futuro. Usa presente, perfecto, imperfecto y un *espero que…* con subjuntivo. Termina con una despedida española.",
+      "starters": ["Querido yo del pasado:", "No te lo vas a creer, pero ahora…", "Este año he…", "Cuando empezaste…", "Espero que…"],
+      "minSentences": 5
+    },
+    {
+      "type": "journal",
+      "prompt": "Última casilla. En una frase, ¿cómo te sientes al terminar las doce semanas? Y una promesa: ¿cómo vas a seguir con tu español? ¡Enhorabuena! Lo has conseguido. 🎉",
+      "starters": ["Me siento…", "A partir de ahora voy a…", "¡Gracias, y hasta pronto!"],
+      "minSentences": 2
+    }
+  ]
+}

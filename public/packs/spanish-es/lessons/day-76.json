@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "day-76",
+  "day": 76,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "review",
+  "title": "Repaso: Lucía visita a Sofía en Valencia",
+  "emoji": "☕",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Week-11 review woven into the arc — Lucía visits Sofía in Valencia, settled and happier",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso: sonar a español",
+      "body": "Esta semana has aprendido a **sonar más español**: verbos con preposición fija (*soñar con, quedar con, acordarse de*), *muletillas* (*pues, o sea, en plan, es que*), diminutivos para suavizar (*un momentito, una cañita*) y el gran tema de España: cuándo *tú*, cuándo *usted* y cuándo *vosotros*. Hoy lo escuchas todo junto: **Lucía visita a Sofía en Valencia**.",
+      "callout": "Sofía se mudó a Valencia hace unas semanas. Toca ver qué tal le va."
+    },
+    {
+      "type": "mcq",
+      "prompt": "«¿Te acuerdas ___ la primera vez que viniste?» Elige la preposición.",
+      "options": ["de", "con", "a", "en"],
+      "correct": 0,
+      "explain": "*acordarse de* — siempre con *de*. Es uno de los verbos con preposición fija de la semana."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Sofía quiere suavizar «espera» al ofrecerte café. Lo más natural entre amigas es…",
+      "options": ["Espera un momentito, ¿un cafelito?", "Esperad, ahorita", "Espere usted un momento"],
+      "correct": 0,
+      "explain": "Diminutivos *momentito/cafelito* = cercanía y cariño, y de tú con una amiga. *Ahorita* es latinoamericano; el usted aquí sonaría frío."
+    },
+    {
+      "type": "typed",
+      "prompt": "A un grupo de amigos, pasa a vosotros: «¿(tú) quieres un café?» → «¿___ un café?»",
+      "answers": ["queréis"],
+      "hint": "querer → quer__ ; -er lleva -éis.",
+      "explain": "*querer* → *queréis*: *¿queréis un café?*. El plural informal en España es vosotros."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Saturday in Valencia — Lucía visits Sofía in her new flat near the beach.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "¡Tía, qué piso! Y a dos pasos de la playa. ¿Contenta?", "en": "Girl, what a flat! And two steps from the beach. Happy?" },
+        { "speaker": "Sofía", "nl": "Pues mira, la verdad es que sí. Me costó al principio, pero ya me he hecho a esto.", "en": "Well look, honestly, yeah. It was hard at first, but I've gotten used to it now.", "spotlight": "hacerse a algo = to get used to; note the muletillas." },
+        { "speaker": "Lucía", "nl": "Se te ve genial. ¿Qué tal el curro?", "en": "You look great. How's work?" },
+        { "speaker": "Sofía", "nl": "Muy bien, en plan mucho más tranquilo. Cuento con un equipo majísimo.", "en": "Really good, like way calmer. I've got a lovely team.", "spotlight": "contar con + el aumentativo cariñoso majísimo." },
+        { "speaker": "Lucía", "nl": "¡Cómo me alegro! Oye, ¿te acuerdas de lo nerviosa que estabas en la mudanza?", "en": "I'm so glad! Hey, remember how nervous you were on moving day?" },
+        { "speaker": "Sofía", "nl": "Buah, no me lo recuerdes. Pensaba en volverme a Madrid cada dos por tres.", "en": "Ugh, don't remind me. I kept thinking about going back to Madrid all the time." },
+        { "speaker": "Lucía", "nl": "Pues nada, mira ahora. ¿Quedamos con la gente de aquí esta noche?", "en": "Well, look at you now. Shall we meet up with your people here tonight?" },
+        { "speaker": "Sofía", "nl": "Claro. He quedado con unos compañeros en una terraza. Os vais a caer genial.", "en": "Sure. I'm meeting some colleagues on a terrace. You'll all really hit it off.", "spotlight": "os = vosotros: Sofía habla a Lucía y al grupo." },
+        { "speaker": "Lucía", "nl": "Venga, pues me ducho en un momentito y salimos.", "en": "Alright, I'll shower in a jiffy and we head out." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Qué has entendido?",
+      "questions": [
+        { "q": "¿Cómo se siente Sofía en Valencia ahora?", "options": ["Se arrepiente y quiere volver", "Le costó, pero ya está a gusto", "Odia la ciudad"], "correct": 1 },
+        { "q": "¿Qué dice Sofía de su trabajo nuevo?", "options": ["Es muy estresante", "Es más tranquilo y tiene buen equipo", "No le gusta el equipo"], "correct": 1 },
+        { "q": "¿Qué plan tienen para la noche?", "options": ["Quedar con compañeros de Sofía en una terraza", "Quedarse en casa", "Volver a Madrid"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "¿Alguna vez te has mudado o has empezado algo que te costó al principio? Cuéntalo en tres o cuatro frases, con al menos una muletilla y un verbo con preposición (acostumbrarse a, acordarse de, contar con).",
+      "starters": ["Al principio me costó, pero…", "Me acuerdo de que…", "Poco a poco me he acostumbrado a…"],
+      "minSentences": 3
+    }
+  ]
+}

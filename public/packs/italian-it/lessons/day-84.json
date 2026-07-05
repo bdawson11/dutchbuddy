@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "day-84",
+  "day": 84,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "capstone",
+  "title": "Il mio racconto, definitivo",
+  "emoji": "🎉",
+  "level": "B1",
+  "durationMin": [20, 35],
+  "summary": "The finale: twelve weeks recapped, a letter to your day-one self, the definitive B1 self-intro with every layer, and Italian farewells",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ottantaquattro giorni",
+      "body": "Look back at the whole climb. You started with **pure vowels** and *ciao*. You built the **present**, then the **passato prossimo** and the **imperfetto** and learned to choose between them. You met **piacere**, the **futuro**, **opinions**, the **clitics**, and — the fear you faced down — the **congiuntivo**. This week you learned to sound like you live here. From here, you don't study Italian. You *use* it.",
+      "callout": "84 giorni. 12 settimane. Un anno. Da 'ciao' al congiuntivo senza paura."
+    },
+    {
+      "type": "chips",
+      "title": "Il viaggio in una frase ciascuno",
+      "items": [
+        { "nl": "Mi chiamo Alex e sono di Boston.", "en": "present — where you started", "speak": "Mi chiamo Alex e sono di Boston." },
+        { "nl": "Ieri ho preso un caffè al banco.", "en": "passato prossimo — the everyday past", "speak": "Ieri ho preso un caffè al banco." },
+        { "nl": "Da bambino sognavo l'Italia.", "en": "imperfetto — background & memory", "speak": "Da bambino sognavo l'Italia." },
+        { "nl": "L'anno prossimo resterò qui.", "en": "futuro — your plan", "speak": "L'anno prossimo resterò qui." },
+        { "nl": "Penso che sia la scelta giusta.", "en": "congiuntivo — the fear, faced", "speak": "Penso che sia la scelta giusta." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Quale frase racconta un'abitudine del passato (imperfetto), non un evento?",
+      "options": ["Ieri ho visto Marco al bar.", "Da bambino andavo al mare ogni estate.", "Sono arrivato in Italia un anno fa."],
+      "correct": 1,
+      "explain": "*Andavo… ogni estate* = abitudine e sfondo → imperfetto. Gli altri due sono eventi conclusi → passato prossimo."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Dopo 'Penso che…', quale forma del verbo usi?",
+      "options": ["Penso che è giusto.", "Penso che sia giusto.", "Penso che era giusto."],
+      "correct": 1,
+      "explain": "*Penso che* richiede il congiuntivo: *sia*. E ricorda: quando sbagli il congiuntivo, non succede niente — ma ormai lo sai fare."
+    },
+    {
+      "type": "typed",
+      "prompt": "Di' la tua opinione con lo scaffold: 'I think it's worth it.' (usa il congiuntivo di valere)",
+      "answers": ["penso che valga la pena", "credo che valga la pena", "penso che ne valga la pena"],
+      "hint": "Penso che + valga la pena.",
+      "explain": "*Penso che valga la pena* — congiuntivo di *valere*. Uno dei tre scaffold della settimana della paura: penso che… / è meglio che… / spero che…"
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi tutta la frase.",
+      "speak": "Ci ho pensato molto e ho deciso di restare in Italia.",
+      "answers": ["ci ho pensato molto e ho deciso di restare in italia", "ci ho pensato molto e ho deciso di restare in italia."]
+    },
+    {
+      "type": "contrast",
+      "title": "L'ultimo controllo: tu vs Lei",
+      "pairs": [
+        { "left": "*Ciao, come stai? Ti presento un amico.* — tu", "right": "*Buongiorno, come sta? Le presento un amico.* — Lei", "note": "Same message, two registers. Choosing correctly is the mark of a real B1 speaker — and you do it now without thinking." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "The buddy signs off. Giulia and Marco toast one year of Italian with you.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora ci siamo. Un anno fa non sapevi dire 'buongiorno', e guardati adesso.", "en": "So here we are. A year ago you couldn't say 'good morning', and look at you now." },
+        { "speaker": "Marco", "nl": "Ma dai, parla meglio di certi italiani. Sono quasi commosso, eh.", "en": "Come on, you speak better than some Italians. I'm almost moved, eh." },
+        { "speaker": "Giulia", "nl": "Guarda, se sei arrivato fin qui, puoi arrivare ovunque. Continua così.", "en": "Look, if you've made it this far, you can go anywhere. Keep it up.", "spotlight": "*Continua così* — a soft command to close on." },
+        { "speaker": "You", "nl": "Grazie di tutto. Ho imparato più di quanto pensassi.", "en": "Thanks for everything. I learned more than I thought I would.", "spotlight": "*Più di quanto pensassi* — a congiuntivo imperfetto, no fear left." },
+        { "speaker": "Marco", "nl": "E non dimenticarti di noi, eh. Torna al bar quando vuoi.", "en": "And don't forget us, eh. Come back to the bar whenever you like." },
+        { "speaker": "Giulia", "nl": "In bocca al lupo per tutto il resto. Ci sentiamo presto!", "en": "Good luck with everything else. We'll speak soon!" },
+        { "speaker": "You", "nl": "Crepi! A presto, ragazzi.", "en": "Thanks! See you soon, everyone." },
+        { "speaker": "Giulia", "nl": "Un bacio! E… benvenuto in Italia, per davvero.", "en": "A kiss! And… welcome to Italy, for real." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "L'ultima verifica",
+      "questions": [
+        { "q": "Un anno fa, cosa non sapeva dire 'You'?", "options": ["Buongiorno", "Il congiuntivo", "Assolutamente niente"], "correct": 0 },
+        { "q": "Come si saluta Giulia alla fine?", "options": ["Addio per sempre", "Ci sentiamo presto, un bacio", "Non tornare più"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Il mio racconto — livello 12: definitivo",
+      "prompt": "Costruisci la versione finale della tua presentazione: una mossa di tempo verbale per ogni tassello. Presente, passato, imperfetto, futuro, congiuntivo, discorso indiretto, e la tua decisione.",
+      "slots": [
+        { "label": "Chi sono (presente)", "chips": ["Mi chiamo Alex, sono di Boston e vivo a Bologna", "Mi chiamo Sara e vengo dal Canada", "Sono Sam, e ormai casa mia è qui in Italia"] },
+        { "label": "La mia routine (riflessivo)", "chips": ["Ogni mattina mi sveglio presto e prendo un caffè al banco", "Mi alzo alle sette e vado al lavoro in bici", "La mattina mi preparo con calma, senza fretta"] },
+        { "label": "Cos'ho fatto (passato prossimo)", "chips": ["Un anno fa ho cominciato a studiare l'italiano", "L'anno scorso mi sono trasferito qui", "Ho deciso di imparare la lingua sul serio"] },
+        { "label": "Com'ero all'inizio (imperfetto)", "chips": ["All'inizio mi sentivo insicuro e sbagliavo tutto", "Da piccolo sognavo di vivere all'estero", "Non capivo quasi niente, ma non mollavo"] },
+        { "label": "I miei progetti (futuro)", "chips": ["L'anno prossimo resterò in Italia", "Continuerò a studiare e viaggerò di più", "Voglio migliorare ancora, un po' ogni giorno"] },
+        { "label": "La mia opinione (congiuntivo)", "chips": ["e penso che sia la scelta giusta", "e credo che valga la pena", "e spero che tutto vada bene"] },
+        { "label": "Cosa mi hanno detto (discorso indiretto)", "chips": ["Una mia amica mi ha detto che parlo molto meglio di prima", "Giulia mi ha detto che sono in gamba", "Mi hanno detto che ormai sembro quasi italiano"] },
+        { "label": "La mia decisione (clitico + perché)", "chips": ["Ci ho pensato molto e ho deciso di restare, perché qui mi sento a casa", "Ne sono sicuro: resto, perché amo questa vita", "Ci tengo troppo per andarmene, perché Bologna è casa mia"] }
+      ],
+      "sample": "Mi chiamo Alex, sono di Boston e vivo a Bologna. Ogni mattina mi sveglio presto e prendo un caffè al banco. Un anno fa ho cominciato a studiare l'italiano; all'inizio mi sentivo insicuro e sbagliavo tutto. L'anno prossimo resterò in Italia, e penso che sia la scelta giusta. Una mia amica mi ha detto che parlo molto meglio di prima. Ci ho pensato molto e ho deciso di restare, perché qui mi sento a casa."
+    },
+    {
+      "type": "journal",
+      "prompt": "Una lettera al te di un anno fa. Scrivi tre righe alla persona che eri il primo giorno: di cosa aveva paura, cosa non riusciva a dire, e cosa le diresti adesso che ce l'hai fatta.",
+      "starters": ["Caro me di un anno fa,", "Non ci crederai, ma…", "Avevi paura di…, e invece…", "Ce l'hai fatta."],
+      "minSentences": 3
+    },
+    {
+      "type": "journal",
+      "prompt": "L'ultima pagina. Salutati come un italiano e festeggia: dodici settimane, ottantaquattro giorni, dai suoni del primo giorno al congiuntivo di oggi. Scrivi di cosa sei più orgoglioso di saper dire adesso — e poi, in bocca al lupo per il resto del viaggio. Ce l'hai fatta! 🎉",
+      "starters": ["Oggi sono orgoglioso di saper dire…", "So raccontare…", "Grazie, ItalianBuddy.", "Ci sentiamo, Italia!"],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "day-23",
+  "day": 23,
+  "module": "M04",
+  "unit": "U04",
+  "kind": "lesson",
+  "title": "Ponme una caña",
+  "emoji": "🍺",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Ordering at the bar de tapas — ponme, una ración, tapear, and the vale/venga glue",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ordering at the bar: ponme",
+      "body": "At the bar counter, the most natural way to order isn't *quiero* — it's **ponme**, from the verb *poner* ('to put'). *Ponme una caña* ('pour me a small beer') sounds warm and natural; *quiero una caña* isn't wrong, but it lands a bit blunt. With friends, always **ponme**.",
+      "callout": "*Ponme* = *pon* (the tú-imperative of *poner*) + *me*. Nothing to do with 'placing' things — here it means 'serve me'."
+    },
+    {
+      "type": "card",
+      "title": "una ración, tapear, and la ronda",
+      "body": "**Una ración** is a full sharing plate — bigger than a single tapa. **Tapear** is the verb: to go bar to bar, having a drink and a bite at each one. And when someone's treating, that's **una ronda** — *esta ronda la pago yo* means 'this round's on me'.",
+      "table": {
+        "headers": ["Frase", "Significado"],
+        "rows": [
+          ["ponme una caña", "pour me a small beer"],
+          ["una ración de...", "a full plate of... (to share)"],
+          ["vamos a tapear", "let's go bar-hopping for tapas"],
+          ["esta ronda la pago yo", "this round's on me"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "En la barra",
+      "items": [
+        { "nl": "ponme una caña", "en": "pour me a small beer", "speak": "ponme una caña" },
+        { "nl": "una ración de jamón", "en": "a plate of ham", "speak": "una ración de jamón" },
+        { "nl": "vamos a tapear", "en": "let's go bar-hopping for tapas", "speak": "vamos a tapear" },
+        { "nl": "¿qué vais a tomar?", "en": "what will you all have?", "speak": "¿qué vais a tomar?" },
+        { "nl": "la cuenta, por favor", "en": "the bill, please", "speak": "la cuenta, por favor" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You want to order a beer at the bar counter, in a warm, casual way. What do you say?",
+      "options": ["Tráeme una caña.", "Ponme una caña.", "Tengo una caña."],
+      "correct": 1,
+      "explain": "**Ponme** (from *poner*) is the classic, friendly way to order at a Spanish bar counter."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the verb that means 'to go bar-hopping for tapas'.",
+      "answers": ["tapear"],
+      "hint": "It comes from the word *tapa*.",
+      "explain": "*tapear* — to go from bar to bar having tapas. Very Spanish."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "vamos a tapear",
+      "answers": ["vamos a tapear"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "You and Rafa go bar-hopping — ordering at the bar and starting a round",
+      "lines": [
+        { "speaker": "You", "nl": "¡Ponme una caña, por favor!", "en": "Pour me a small beer, please!" },
+        { "speaker": "Rafa", "nl": "Y para mí, un vino. ¿Pedimos una ración de jamón?", "en": "And a wine for me. Shall we order a plate of ham?" },
+        { "speaker": "You", "nl": "Vale, venga. Y otra de patatas bravas.", "en": "Sure, let's. And another one of patatas bravas.", "spotlight": "*otra de...* — 'another one of...', skipping the repeated noun." },
+        { "speaker": "Rafa", "nl": "Perfecto, tío. Esta ronda la pago yo.", "en": "Perfect, mate. This round's on me." },
+        { "speaker": "You", "nl": "¡Qué majo! Gracias.", "en": "How nice of you! Thanks." },
+        { "speaker": "Rafa", "nl": "Nada, nada. La próxima, tú.", "en": "No worries. Next one's yours." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Rafa order besides wine?", "options": ["A coffee", "A plate of ham", "A dessert"], "correct": 1 },
+        { "q": "Who pays this round?", "options": ["You", "Rafa", "They split it"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write your own bar order: greet, use *ponme* for a drink, ask for a *ración* of something, and say you're going to *tapear* tonight.",
+      "starters": ["¡Ponme...!", "Una ración de...", "Esta noche vamos a tapear..."]
+    }
+  ]
+}

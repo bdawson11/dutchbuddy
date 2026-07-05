@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "day-36",
+  "day": 36,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "El cuerpo y lo que duele",
+  "emoji": "💪",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Body vocabulary and the gustar-type verb doler — me duele, me duelen.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El cuerpo, de la cabeza a los pies",
+      "body": "Antes de hablar con el médico necesitas el vocabulario básico: **la cabeza** (head), **la garganta** (throat), **el estómago** (stomach), **la espalda** (back), **el brazo** (arm), **la pierna** (leg), **la mano** (hand), **el pie** (foot). Fíjate en el género — no siempre es lo que esperas.",
+      "table": {
+        "headers": ["Parte del cuerpo", "Gloss"],
+        "rows": [
+          ["la cabeza", "head"],
+          ["la garganta", "throat"],
+          ["el estómago", "stomach"],
+          ["la espalda", "back"],
+          ["el brazo", "arm"],
+          ["la pierna", "leg"],
+          ["la mano", "hand"],
+          ["el pie", "foot"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Escucha y repite — el cuerpo",
+      "items": [
+        { "nl": "la cabeza", "en": "head", "speak": "la cabeza" },
+        { "nl": "la garganta", "en": "throat", "speak": "la garganta" },
+        { "nl": "el estómago", "en": "stomach", "speak": "el estómago" },
+        { "nl": "la espalda", "en": "back", "speak": "la espalda" },
+        { "nl": "el brazo", "en": "arm", "speak": "el brazo" },
+        { "nl": "la pierna", "en": "leg", "speak": "la pierna" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Doler funciona como gustar",
+      "body": "**Doler** (to hurt) se comporta igual que *gustar*: la persona lleva **me/te/le/nos/os/les**, y el verbo concuerda con lo que duele, no con la persona. *Me duele la cabeza* (mi cabeza duele — singular), *me duelen los pies* (mis pies duelen — plural).",
+      "callout": "Nunca digas *yo duelo* — el sujeto siempre es la parte del cuerpo."
+    },
+    {
+      "type": "contrast",
+      "title": "Me duele vs. me duelen",
+      "pairs": [
+        { "left": "me duele la cabeza — one thing hurting → duele", "right": "me duelen las piernas — more than one thing → duelen", "note": "Same rule as me gusta el café / me gustan los libros: the verb agrees with what hurts." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cómo se dice 'my feet hurt'?",
+      "options": ["Me duele los pies", "Me duelen los pies", "Yo duelo los pies"],
+      "correct": 1,
+      "explain": "*los pies* es plural, así que el verbo va en plural: **me duelen los pies**."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Nacho dice: '_____ mucho la espalda de cargar cajas.' ¿Qué falta?",
+      "options": ["Me duele", "Me duelen", "Me duelo"],
+      "correct": 0,
+      "explain": "*la espalda* es singular → **me duele**."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduce: 'My throat hurts.'",
+      "answers": ["me duele la garganta"],
+      "hint": "garganta es singular.",
+      "explain": "**Me duele la garganta.** — garganta singular, duele singular."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "me duelen los pies",
+      "answers": ["me duelen los pies"]
+    },
+    {
+      "type": "builder",
+      "title": "Construye tu queja",
+      "prompt": "Arma una frase con lo que te duele.",
+      "slots": [
+        { "label": "Empieza", "chips": ["me duele", "me duelen"] },
+        { "label": "la parte del cuerpo", "chips": ["la cabeza", "la espalda", "los pies", "el estómago"] }
+      ],
+      "sample": "Me duele la cabeza."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You bump into Lucía at work looking rough after a long week.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "¡Hola! ¿Qué tal? Tienes mala cara.", "en": "Hi! How's it going? You look rough." },
+        { "speaker": "You", "nl": "Uf, fatal. Me duele la cabeza y me duele la espalda.", "en": "Ugh, terrible. My head hurts and my back hurts." },
+        { "speaker": "Lucía", "nl": "¿Y eso? ¿Has dormido bien?", "en": "Why's that? Have you slept well?", "spotlight": "perfecto (¿has dormido?) for a recent-past question — week 5 grammar in action." },
+        { "speaker": "You", "nl": "La verdad es que no. Y me duelen los ojos de mirar la pantalla.", "en": "Honestly, no. And my eyes hurt from looking at the screen." },
+        { "speaker": "Lucía", "nl": "Pues deberías descansar la vista y dormir más.", "en": "Well, you should rest your eyes and sleep more." },
+        { "speaker": "You", "nl": "Sí, vale. Mañana me tomo el día con calma.", "en": "Yeah, okay. Tomorrow I'll take it easy." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "¿Qué te duele hoy (de verdad o en broma)? Escribe dos o tres frases con doler.",
+      "starters": ["Me duele…", "Me duelen…"],
+      "minSentences": 2
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "day-37",
+  "day": 37,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "lesson",
+  "title": "En el médico y en la farmacia",
+  "emoji": "🩺",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Booking a doctor's appointment and picking up medicine — the Spanish health system in practice.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El sistema de salud, en corto",
+      "body": "En España casi todo el mundo tiene **la Seguridad Social**: vas a tu **centro de salud**, pides **cita** con tu **médico de cabecera** (por teléfono, por app o en persona), y si necesitas medicinas, el médico te da una **receta** para la **farmacia** — reconocible por la cruz verde.",
+      "callout": "La farmacia también aconseja sin cita — para cosas pequeñas, vas directo."
+    },
+    {
+      "type": "chips",
+      "title": "Frases para la consulta",
+      "items": [
+        { "nl": "pedir cita", "en": "to book an appointment", "speak": "pedir cita" },
+        { "nl": "el médico de cabecera", "en": "the GP / family doctor", "speak": "el médico de cabecera" },
+        { "nl": "la receta", "en": "the prescription", "speak": "la receta" },
+        { "nl": "tener fiebre", "en": "to have a fever", "speak": "tener fiebre" },
+        { "nl": "las pastillas", "en": "the pills", "speak": "las pastillas" },
+        { "nl": "el jarabe", "en": "the syrup", "speak": "el jarabe" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Lo que te pregunta el médico",
+      "body": "El médico puede empezar con *¿qué le pasa?* (con **usted** — un registro algo más formal que el de tus amigos). Tú contestas con **doler** o **tener**: *me duele la garganta desde hace tres días*, *tengo fiebre y tos*.",
+      "callout": "*desde hace + tiempo* = 'for [duration] now' — útil para describir síntomas."
+    },
+    {
+      "type": "contrast",
+      "title": "Médico vs. farmacia",
+      "pairs": [
+        { "left": "el médico — diagnostica, te examina, te da la receta", "right": "la farmacia — vende medicinas, aconseja síntomas leves sin cita", "note": "Para algo grave: médico o urgencias. Para un resfriado normal: puedes empezar en la farmacia." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Qué necesitas para comprar antibióticos en la farmacia?",
+      "options": ["Nada, se compran libremente", "Una receta del médico", "Solo el DNI"],
+      "correct": 1,
+      "explain": "Los antibióticos en España requieren **receta** — no se venden sin ella."
+    },
+    {
+      "type": "mcq",
+      "prompt": "El médico te pregunta '¿qué le pasa?'. ¿Qué registro usa?",
+      "options": ["Tú, informal", "Usted, formal"],
+      "correct": 1,
+      "explain": "En la consulta médica es habitual un registro algo más formal — de ahí el **usted**: '¿qué le pasa?'."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduce: 'I have a fever and a cough.'",
+      "answers": ["tengo fiebre y tos"],
+      "explain": "**Tengo fiebre y tos.**"
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "necesito pedir cita",
+      "answers": ["necesito pedir cita"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "You call the centro de salud to book an appointment; Lucía, who's over at your place, catches the tail end and asks about it.",
+      "lines": [
+        { "speaker": "You", "nl": "Buenos días, necesito pedir cita con el médico de cabecera.", "en": "Good morning, I need to book an appointment with my GP." },
+        { "speaker": "Lucía", "nl": "¿Todo bien? Te he oído hablar con la clínica.", "en": "Everything okay? I heard you talking to the clinic.", "spotlight": "perfecto again: te he oído." },
+        { "speaker": "You", "nl": "Sí, nada grave. Me duele la garganta desde hace tres días.", "en": "Yeah, nothing serious. My throat's been hurting for three days." },
+        { "speaker": "Lucía", "nl": "Pues vale, y si empeora, vete derecho a la farmacia.", "en": "Okay, and if it gets worse, go straight to the pharmacy." },
+        { "speaker": "You", "nl": "Vale, gracias. A ver qué dice el médico.", "en": "Okay, thanks. We'll see what the doctor says." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Qué has entendido?",
+      "questions": [
+        { "q": "¿Qué está haciendo You al principio del diálogo?", "options": ["Comprando medicinas", "Pidiendo cita con el médico", "Llamando a urgencias"], "correct": 1 },
+        { "q": "¿Desde cuándo le duele la garganta?", "options": ["Un día", "Tres días", "Una semana"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Imagina que llamas al centro de salud. Escribe lo que dirías: qué síntoma tienes y desde cuándo.",
+      "starters": ["Necesito pedir cita…", "Me duele…", "Tengo…desde hace…"],
+      "minSentences": 2
+    }
+  ]
+}

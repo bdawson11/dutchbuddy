@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "day-70",
+  "day": 70,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "capstone",
+  "title": "Mi historia: mi gran decisión",
+  "emoji": "✉️",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Week-10 capstone: commands, clusters, por/para, relatives and connectors — then Mi historia layer 10, a big decision",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso: semana 10",
+      "body": "In one week you've learned to **command** (*ven, hazlo, dímelo, no me lo digas*), to choose between **por and para**, to link sentences with **relativos** (*que, lo que, cuyo, el que*) and to **argue** with connectors (*además, sin embargo, aunque, por eso, así que*). And you lived Sofía's big move. Today you turn it into **your** story.",
+      "callout": "Capa 10 de *Mi historia*: **una gran decisión**, con una oración de relativo o un conector. El modelo es la decisión de Sofía."
+    },
+    {
+      "type": "chips",
+      "title": "Repaso rápido — toca para oír",
+      "items": [
+        { "nl": "Dímelo sin miedo.", "en": "Tell me without fear.", "speak": "dímelo sin miedo" },
+        { "nl": "Lo hago por mí, no por nadie más.", "en": "I do it for me, no one else.", "speak": "lo hago por mí, no por nadie más" },
+        { "nl": "la decisión que más me ha costado", "en": "the decision that was hardest", "speak": "la decisión que más me ha costado" },
+        { "nl": "Aunque da miedo, merece la pena.", "en": "Even though it's scary, it's worth it.", "speak": "aunque da miedo, merece la pena" },
+        { "nl": "Es un cambio grande; sin embargo, estoy lista.", "en": "It's a big change; however, I'm ready.", "speak": "es un cambio grande, sin embargo, estoy lista" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Recap: por vs para",
+      "pairs": [
+        { "left": "*Lo hago por ti.* (because of you)", "right": "*Lo hago para ti.* (to give to you)", "note": "*por* = motivo/causa; *para* = destino/finalidad." },
+        { "left": "*Salgo para Valencia.* (heading there)", "right": "*Paso por Valencia.* (through it)", "note": "*para* = destino; *por* = recorrido." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál es la orden negativa correcta de «dímelo»?",
+      "options": ["No me lo digas", "No me lo dices", "No dímelo"],
+      "correct": 0,
+      "explain": "En negativo los pronombres van delante y el verbo en subjuntivo: *no me lo digas*. Nunca se pegan detrás en negativo (*no dímelo* ✗)."
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Sofía se muda ___ empezar de cero.» Completa (finalidad).",
+      "options": ["por", "para"],
+      "correct": 1,
+      "explain": "*para + infinitivo* = finalidad: *para empezar de cero* (in order to start fresh)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Une con un relativo de lugar: «Valencia es la ciudad. Sofía vive allí ahora.» → «Valencia es la ciudad ___ vive Sofía ahora.»",
+      "answers": ["en la que", "donde"],
+      "explain": "Con un lugar puedes usar *en la que* o *donde*: *la ciudad en la que / donde vive Sofía*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe la frase con conector.",
+      "speak": "aunque me da pena, me alegro por ella",
+      "answers": ["aunque me da pena, me alegro por ella", "aunque me da pena me alegro por ella"]
+    },
+    {
+      "type": "builder",
+      "title": "Una gran decisión",
+      "prompt": "Describe una decisión importante usando una oración de relativo o un conector, como hizo Sofía. Elige una opción por columna.",
+      "slots": [
+        { "label": "La decisión", "chips": ["He decidido mudarme", "He decidido cambiar de trabajo", "He decidido aprender español"] },
+        { "label": "Relativo/detalle", "chips": ["a una ciudad que no conozco", "algo que llevaba tiempo pensando", "por una razón que me importa"] },
+        { "label": "Conector + cierre", "chips": ["aunque me da un poco de miedo", "así que empiezo de cero", "sin embargo, no me arrepiento"] }
+      ],
+      "sample": "He decidido mudarme a una ciudad que no conozco, aunque me da un poco de miedo."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Una semana después de la mudanza, Sofía te llama desde Valencia, ya en su piso nuevo.",
+      "lines": [
+        { "speaker": "Sofía", "nl": "¡Hola! Ya estoy instalada. Bueno, casi: todavía hay cajas por todas partes.", "en": "Hi! I'm settled in. Well, almost: there are still boxes everywhere." },
+        { "speaker": "You", "nl": "¡Qué alegría! ¿Y qué tal? ¿No te arrepientes?", "en": "How lovely! And how's it going? No regrets?" },
+        { "speaker": "Sofía", "nl": "Para nada. Fue la decisión que más me ha costado, pero la que más ilusión me hace.", "en": "Not at all. It was the hardest decision, but the one I'm most excited about.", "spotlight": "The Mi-historia model: la decisión que más me ha costado (relative) + contrast." },
+        { "speaker": "You", "nl": "Se te nota contenta. ¿Cómo es el barrio?", "en": "You sound happy. What's the neighborhood like?" },
+        { "speaker": "Sofía", "nl": "Mira, es tranquilo y está cerca del mar. Aunque echo de menos a Lucía, aquí se respira otra cosa.", "en": "Look, it's quiet and near the sea. Even though I miss Lucía, it's a different vibe here." },
+        { "speaker": "You", "nl": "Me alegro un montón por ti, de verdad.", "en": "I'm really so glad for you." },
+        { "speaker": "Sofía", "nl": "Gracias. Oye, venid a verme pronto, ¿eh? Traeos el bañador.", "en": "Thanks. Hey, come visit me soon, okay? Bring your swimsuits.", "spotlight": "vosotros commands: venid + traeos (reflexive drops the -d)." },
+        { "speaker": "You", "nl": "¡Hecho! En cuanto pueda, me planto en Valencia.", "en": "Done! As soon as I can, I'm off to Valencia." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Cómo describe Sofía su decisión?", "options": ["La más fácil de su vida", "La que más le ha costado pero más ilusión le hace", "Un error"], "correct": 1 },
+        { "q": "¿Qué echa de menos Sofía?", "options": ["Su trabajo antiguo", "A Lucía", "El ruido de Madrid"], "correct": 1 },
+        { "q": "¿Qué les pide a sus amigos?", "options": ["Que la llamen menos", "Que vayan a verla y se lleven el bañador", "Que le manden las cajas"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mi historia — capa 10",
+      "prompt": "Añade a tu historia una gran decisión (real o inventada), con una oración de relativo o un conector, igual que Sofía. Sigue con tus capas anteriores (nombre, rutina, familia, gustos, algo que has hecho, un recuerdo, un plan, algo que te contaron).",
+      "slots": [
+        { "label": "La decisión", "chips": ["He tomado una decisión importante:", "Hace poco decidí algo grande:", "Voy a dar un paso importante:"] },
+        { "label": "Qué es (con relativo)", "chips": ["mudarme a un país que apenas conozco", "un cambio que llevaba años pensando", "estudiar algo que siempre me ha gustado"] },
+        { "label": "Cierre con conector", "chips": ["aunque me asusta, estoy convencido/a", "así que empiezo una etapa nueva", "sin embargo, sé que merece la pena"] }
+      ],
+      "sample": "He tomado una decisión importante: mudarme a un país que apenas conozco. Aunque me asusta, estoy convencido de que merece la pena."
+    },
+    {
+      "type": "journal",
+      "prompt": "**Mi historia, semana 10.** Escribe una carta breve titulada «Mi gran decisión». Cuenta una decisión importante (real o inventada), con la mudanza de Sofía como modelo: qué decidiste, con una oración de relativo (*una ciudad que…, algo que…*) y un conector (*aunque, así que, sin embargo*). Enlázala con tu historia de las semanas anteriores. ¡Enhorabuena, has terminado la semana 10!",
+      "starters": ["He tomado una decisión que…", "Aunque no fue fácil,…", "Lo hago para… y por…", "Así que…"],
+      "minSentences": 5
+    }
+  ]
+}

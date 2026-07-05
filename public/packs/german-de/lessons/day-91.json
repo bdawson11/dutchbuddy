@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "day-91",
+  "day": 91,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "capstone",
+  "title": "Meine Geschichte: Wenn ich könnte …",
+  "emoji": "✨",
+  "level": "B2",
+  "durationMin": [25, 35],
+  "summary": "Week 13 capstone — pull the whole Konjunktiv II toolkit together and add the season-2 self-intro layer: a hypothetical and a hedged wish about your own path.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Kapitel 13: Meine Geschichte trifft den Konjunktiv",
+      "body": "Erste B2-Woche geschafft. Du kannst jetzt **hypothetisch** reden (*ich würde…, das wäre…*), **Reue** ausdrücken (*ich hätte fragen sollen*), **höflich abfedern** (*könnten Sie…?*) und **so tun, als ob**. Heute kommt das in deine **Selbstvorstellung**: die neue Schicht ist eine **Hypothese** über deinen Weg (*Wenn ich…, wäre/würde ich…*) und ein **Wunsch** (*Ich würde gern…*). Alle früheren Schichten (Name, Herkunft, Routine, Perfekt, Umzug…) zählen weiter.",
+      "callout": "Deine Geschichte wächst — jetzt nicht nur, was war, sondern auch, was sein könnte."
+    },
+    {
+      "type": "chips",
+      "title": "Kurzer Refresh — antippen zum Hören",
+      "items": [
+        { "nl": "Wenn ich könnte, …", "en": "If I could, …", "speak": "Wenn ich könnte" },
+        { "nl": "Ich würde gern …", "en": "I'd like to …", "speak": "Ich würde gern" },
+        { "nl": "Das wäre ein Traum.", "en": "That would be a dream.", "speak": "Das wäre ein Traum." },
+        { "nl": "Hätte ich früher angefangen …", "en": "Had I started earlier …", "speak": "Hätte ich früher angefangen" },
+        { "nl": "An deiner Stelle würde ich …", "en": "In your place I'd …", "speak": "An deiner Stelle würde ich" },
+        { "nl": "Ich hätte da eine Frage.", "en": "I'd have a question there.", "speak": "Ich hätte da eine Frage." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welche Kurzform passt? 'That would be a dream.'",
+      "options": ["Das würde ein Traum sein.", "Das wäre ein Traum.", "Das hätte ein Traum."],
+      "correct": 1,
+      "explain": "sein → wäre. *Das wäre ein Traum.* Nie *würde sein*, und *hätte* passt hier nicht."
+    },
+    {
+      "type": "typed",
+      "prompt": "Reue-Satz bilden: 'I should have practised more.' (mehr üben, sollen)",
+      "answers": ["Ich hätte mehr üben sollen"],
+      "hint": "hätte … + üben + sollen ans Ende.",
+      "explain": "*Ich hätte mehr üben sollen.* — Doppel-Infinitiv der Reue."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe.",
+      "speak": "Ich würde gern flüssiger sprechen.",
+      "answers": ["Ich würde gern flüssiger sprechen", "Ich würde gerne flüssiger sprechen"]
+    },
+    {
+      "type": "contrast",
+      "title": "Fakt vs. Wunsch — deine Geschichte",
+      "pairs": [
+        { "left": "Ich lerne seit anderthalb Jahren Deutsch. — a fact", "right": "Wenn ich früher angefangen hätte, wäre ich schon weiter. — a hypothetical about it", "note": "Season-2 self-intro adds the could-have-been layer on top of the facts." },
+        { "left": "Mein Deutsch ist okay. — plain", "right": "Ich würde gern irgendwann fließend sprechen. — a hedged wish", "note": "würde gern turns a goal into a modest, human wish." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "A year and a half in. Over coffee, Lena asks how you feel about your German — and you get honest.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Sag mal, wie zufrieden bist du mit deinem Deutsch inzwischen?", "en": "Tell me, how happy are you with your German by now?" },
+        { "speaker": "You", "nl": "Besser als früher. Aber ehrlich gesagt würde ich gern noch flüssiger reden.", "en": "Better than before. But honestly I'd like to speak even more fluently." },
+        { "speaker": "Lena", "nl": "Das kommt. Weißt du noch, wie du am Anfang nur „ein Brötchen, bitte\" gesagt hast?", "en": "That'll come. Remember how at the start you only said 'a roll, please'?" },
+        { "speaker": "You", "nl": "Oh Gott, ja. Hätte mir damals jemand das hier gezeigt, hätte ich's nicht geglaubt.", "en": "Oh God, yes. Had someone shown me this back then, I wouldn't have believed it.", "spotlight": "A wenn-less past hypothetical — *hätte* leads both clauses." },
+        { "speaker": "Lena", "nl": "Und jetzt diskutierst du mit Jonas über den Konjunktiv. Wahnsinn.", "en": "And now you argue about the subjunctive with Jonas. Wild." },
+        { "speaker": "You", "nl": "Na ja. Wenn ich nur nicht immer die Endungen verhauen würde!", "en": "Well. If only I didn't always mess up the endings!", "spotlight": "An irreal wish about your own weak spot." },
+        { "speaker": "Lena", "nl": "Ach, das machen sogar Deutsche. An deiner Stelle wäre ich stolz.", "en": "Oh, even Germans do that. In your place I'd be proud." },
+        { "speaker": "You", "nl": "Bin ich auch, ein bisschen. Ich würde sagen: gar nicht so schlecht für anderthalb Jahre.", "en": "I am, a little. I'd say: not bad at all for a year and a half." },
+        { "speaker": "Lena", "nl": "Überhaupt nicht schlecht. Prost auf Staffel zwei!", "en": "Not bad at all. Cheers to season two!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Verstanden?",
+      "questions": [
+        { "q": "Wie fühlt sich die sprechende Person über ihr Deutsch?", "options": ["Unzufrieden und frustriert.", "Stolz, will aber noch flüssiger werden.", "Völlig zufrieden, will nichts mehr lernen."], "correct": 1 },
+        { "q": "Was war laut Lena der Anfang?", "options": ["Nur „ein Brötchen, bitte\".", "Ein Sprachkurs an der Uni.", "Ein Jahr in Österreich."], "correct": 0 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Meine Geschichte — die Konjunktiv-Schicht",
+      "prompt": "Bau die neue Schicht: eine Hypothese über deinen Sprach-Weg. wenn-Teil + Folge. (Danach setzt du sie im Journal in deine ganze Vorstellung ein.)",
+      "slots": [
+        { "label": "Wenn ich …", "chips": ["Wenn ich früher angefangen hätte,", "Wenn ich mehr Zeit hätte,", "Wenn ich mutiger wäre,"] },
+        { "label": "… dann", "chips": ["wäre mein Deutsch schon besser", "würde ich jeden Tag mehr reden", "würde ich einfach loslegen"] }
+      ],
+      "sample": "Wenn ich mehr Zeit hätte, würde ich jeden Tag mehr reden."
+    },
+    {
+      "type": "journal",
+      "prompt": "Meine Geschichte, Staffel 2 — Woche 13! Erzähl kurz deine Selbstvorstellung (Name, Herkunft, wie lange du schon Deutsch lernst) und füg neu hinzu: eine Hypothese über deinen Weg (Wenn ich …, wäre/würde ich …) und einen Wunsch (Ich würde gern …). Mindestens fünf Sätze. Anderthalb Jahre — schau, wie weit du gekommen bist!",
+      "starters": ["Ich heiße… und ich lerne seit… Deutsch.", "Wenn ich früher angefangen hätte,…", "Ich würde gern…", "Es wäre ein Traum, wenn…"],
+      "minSentences": 5
+    }
+  ]
+}

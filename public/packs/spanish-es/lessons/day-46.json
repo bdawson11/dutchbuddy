@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "day-46",
+  "day": 46,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Hoy o ayer: el gran cambio",
+  "emoji": "⚖️",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Choosing between pretérito perfecto compuesto and indefinido by time marker — Spain's core past-tense rule",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El gran truco: mira el marcador de tiempo",
+      "body": "En España, el marcador de tiempo decide el tiempo verbal. **Hoy, esta mañana, esta semana, ya, todavía no, alguna vez, nunca** → **perfecto** (*he comido*). **Ayer, anteayer, el lunes, la semana pasada, en 2019, hace dos años** → **indefinido** (*comí*).",
+      "table": {
+        "headers": ["Marcador de tiempo", "Tiempo verbal", "Ejemplo"],
+        "rows": [
+          ["hoy, esta mañana, esta semana", "perfecto", "He comido paella hoy."],
+          ["ya, todavía no, alguna vez, nunca", "perfecto", "¿Has estado en Sevilla alguna vez?"],
+          ["ayer, anteayer, el lunes", "indefinido", "Comí paella ayer."],
+          ["la semana/el año pasado, en 2019", "indefinido", "Viví en Valencia hace dos años."]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "El error que un español nota al instante",
+      "body": "**Nunca** digas *comí hoy* — en España es *he comido hoy*. Y **nunca** digas *he comido ayer* — eso es *comí ayer*. El verbo es el mismo, *comer*; lo que cambia es el marcador.",
+      "callout": "Regla de oro: el marcador de tiempo manda, no la costumbre de tu idioma."
+    },
+    {
+      "type": "contrast",
+      "title": "Mismo verbo, marcador distinto",
+      "pairs": [
+        { "left": "He comido hoy. (perfecto + hoy)", "right": "Comí ayer. (indefinido + ayer)", "note": "Comer es el mismo verbo en los dos casos — el marcador de tiempo decide la forma." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "¿Perfecto o indefinido?",
+      "items": [
+        { "nl": "hoy", "en": "today — perfecto", "speak": "hoy" },
+        { "nl": "ya", "en": "already — perfecto", "speak": "ya" },
+        { "nl": "ayer", "en": "yesterday — indefinido", "speak": "ayer" },
+        { "nl": "la semana pasada", "en": "last week — indefinido", "speak": "la semana pasada" },
+        { "nl": "esta semana", "en": "this week — perfecto", "speak": "esta semana" },
+        { "nl": "hace un año", "en": "a year ago — indefinido", "speak": "hace un año" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Qué marcador va con indefinido, no con perfecto?",
+      "options": ["esta semana", "ayer", "todavía no"],
+      "correct": 1,
+      "explain": "*ayer* cierra el marco de tiempo → indefinido. Los otros dos siguen conectados con el presente → perfecto."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ayer ____ (yo/comer) paella.",
+      "options": ["he comido", "comí", "como"],
+      "correct": 1,
+      "explain": "*Ayer* → indefinido: *comí*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "____ (yo/comer) paella hoy.",
+      "options": ["comí", "he comido", "comía"],
+      "correct": 1,
+      "explain": "*Hoy* → perfecto: *he comido*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I've already eaten.'",
+      "answers": ["Ya he comido.", "he comido ya", "ya he comido"],
+      "hint": "ya + he + participio",
+      "explain": "*Ya he comido.* — marcador *ya*, perfecto."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "el año pasado viví en Valencia",
+      "answers": ["El año pasado viví en Valencia.", "el año pasado vivi en valencia"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía and you catch up — notice how the time marker decides the tense",
+      "lines": [
+        { "speaker": "Lucía", "nl": "¿Qué tal? ¿Has comido ya?", "en": "How's it going? Have you eaten yet?" },
+        { "speaker": "You", "nl": "Sí, he comido hace un momento. ¿Y tú?", "en": "Yes, I ate a moment ago. And you?" },
+        { "speaker": "Lucía", "nl": "Yo también, pero ayer no comí nada hasta las cuatro.", "en": "Me too, but yesterday I didn't eat anything until four." },
+        { "speaker": "You", "nl": "¿En serio? ¿Por qué?", "en": "Really? Why?" },
+        { "speaker": "Lucía", "nl": "Tuve una reunión larguísima en el trabajo.", "en": "I had a really long meeting at work." },
+        { "speaker": "You", "nl": "Vaya. Bueno, esta semana ha sido rara para todos, ¿no?", "en": "Wow. Well, this week has been strange for everyone, hasn't it?", "spotlight": "esta semana + perfecto (ha sido) — el marco sigue abierto." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Cuenta algo que hiciste ayer y algo que has hecho hoy — usa los dos tiempos correctamente.",
+      "starters": ["Ayer...", "Hoy ya he..."],
+      "minSentences": 3
+    }
+  ]
+}
