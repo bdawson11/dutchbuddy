@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "day-11",
+  "day": 11,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Io parlo, tu lavori: i verbi in -are",
+  "emoji": "💬",
+  "level": "A1",
+  "durationMin": [15, 22],
+  "summary": "Present tense of regular -are verbs (parlare, lavorare, abitare) and Italian's subject-drop",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il motore regolare: i verbi in -are",
+      "body": "Most Italian verbs end in **-are**, and they all conjugate the same way. Take **parlare** (to speak): *parlo, parli, parla, parliamo, parlate, parlano*. Notice the ending already tells you **who** — that's why Italian usually **drops the subject pronoun**: *parlo italiano*, not *io parlo italiano*.",
+      "callout": "The ending IS the subject. Pronouns are for emphasis, not for grammar."
+    },
+    {
+      "type": "chips",
+      "title": "Parlare, coniugato",
+      "items": [
+        { "nl": "parlo", "en": "I speak", "speak": "parlo" },
+        { "nl": "parli", "en": "you speak", "speak": "parli" },
+        { "nl": "parla", "en": "he/she speaks", "speak": "parla" },
+        { "nl": "parliamo", "en": "we speak", "speak": "parliamo" },
+        { "nl": "parlate", "en": "you all speak", "speak": "parlate" },
+        { "nl": "parlano", "en": "they speak", "speak": "parlano" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Altri verbi in -are",
+      "body": "Same pattern, new meanings: **lavorare** (to work), **abitare** (to live somewhere), **studiare** (to study), **guardare** (to watch/look at), **ascoltare** (to listen to). Swap the ending onto any of these and you're conjugating.",
+      "table": {
+        "headers": ["Italiano", "English"],
+        "rows": [
+          ["lavorare", "to work"],
+          ["abitare", "to live (somewhere)"],
+          ["studiare", "to study"],
+          ["guardare", "to watch / look at"],
+          ["ascoltare", "to listen to"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "In una frase",
+      "items": [
+        { "nl": "Lavoro a Bologna.", "en": "I work in Bologna.", "speak": "Lavoro a Bologna." },
+        { "nl": "Abiti vicino alla piazza.", "en": "You live near the square.", "speak": "Abiti vicino alla piazza." },
+        { "nl": "Studiamo l'italiano.", "en": "We study Italian.", "speak": "Studiamo l'italiano." },
+        { "nl": "Guardano la partita.", "en": "They watch the game.", "speak": "Guardano la partita." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Quando serve il pronome",
+      "pairs": [
+        { "left": "*Lavoro* a Bologna. — plain statement", "right": "**Io** lavoro, **tu** studi! — contrast/emphasis", "note": "Drop the pronoun by default; bring it back only to contrast two people." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Complete: Tu ___ italiano molto bene.",
+      "options": ["parlo", "parli", "parla"],
+      "correct": 1,
+      "explain": "**parli** — the -i ending is the 'tu' form."
+    },
+    {
+      "type": "typed",
+      "prompt": "Conjugate 'lavorare' for 'noi' (we).",
+      "answers": ["lavoriamo"],
+      "hint": "-are verbs: noi always ends in -iamo.",
+      "explain": "**lavoriamo** — the -iamo ending is the same for every regular -are verb."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the sentence.",
+      "speak": "Marco lavora in libreria.",
+      "answers": ["marco lavora in libreria", "marco lavora in libreria."]
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci una frase",
+      "prompt": "Build a sentence: who + the -are verb, then where.",
+      "slots": [
+        { "label": "Soggetto + verbo", "chips": ["Io lavoro", "Tu lavori", "Marco lavora", "Noi lavoriamo", "Io studio", "Sofia studia"] },
+        { "label": "Dove", "chips": ["a Bologna.", "in libreria.", "vicino alla piazza.", "qui vicino."] }
+      ],
+      "sample": "Marco lavora in libreria."
+    },
+    {
+      "type": "journal",
+      "prompt": "Write three sentences about what you and people you know do — pick from lavorare, abitare, studiare, guardare, ascoltare.",
+      "starters": ["Io...", "Il mio amico / La mia amica..."]
+    }
+  ]
+}

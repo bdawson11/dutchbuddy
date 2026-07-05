@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "day-72",
+  "day": 72,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Modalpartikeln: die Seele des gesprochenen Deutsch",
+  "emoji": "✨",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "doch, mal, halt, ja, denn, eben, wohl, schon — the little flavour words that carry attitude and make you sound German",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Kleine Wörter, große Wirkung",
+      "body": "German sprinkles tiny **flavour words** into almost every spoken sentence: *doch, mal, halt, ja, denn, eben, wohl, schon*. They barely translate — they don't change the **literal** meaning, they change the **attitude**. *Komm mit* is an order; *Komm doch mit* is a warm invitation. The **one new thing today: these particles carry the vibe**, and leaving them out makes you sound stiff and textbook.",
+      "table": {
+        "headers": ["Partikel", "Vibe", "Beispiel"],
+        "rows": [
+          ["mal", "casual, 'just'", "Warte mal!"],
+          ["denn", "friendly curiosity", "Was machst du denn?"],
+          ["halt / eben", "resignation, 'just how it is'", "Das ist halt so."],
+          ["ja", "shared knowledge / surprise", "Das ist ja toll!"],
+          ["wohl", "probably, presumably", "Er ist wohl krank."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the attitude",
+      "items": [
+        { "nl": "Warte mal!", "en": "Hold on a sec!", "speak": "Warte mal!" },
+        { "nl": "Was machst du denn?", "en": "So what are you up to?", "speak": "Was machst du denn?" },
+        { "nl": "Das ist halt so.", "en": "That's just how it is.", "speak": "Das ist halt so." },
+        { "nl": "Das ist ja toll!", "en": "Oh, that's great!", "speak": "Das ist ja toll!" },
+        { "nl": "Das schaffst du schon.", "en": "You'll manage, don't worry.", "speak": "Das schaffst du schon." },
+        { "nl": "Dann müssen wir eben warten.", "en": "Then we'll just have to wait.", "speak": "Dann müssen wir eben warten." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Blunt → soft: what a particle adds",
+      "pairs": [
+        { "left": "Komm mit. (blunt order)", "right": "Komm doch mit. (warm invite)", "note": "*doch* turns a command into a friendly nudge — 'oh come on, join us'." },
+        { "left": "Was machst du? (flat)", "right": "Was machst du denn? (interested)", "note": "*denn* in a question shows friendly curiosity, never demands." },
+        { "left": "Das ist so. (factual)", "right": "Das ist halt so. (resigned)", "note": "*halt/eben* = a shrug: nothing to be done, it just is." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "doch, der Alleskönner",
+      "body": "*doch* is the busiest particle. Three big jobs: **(1)** it **contradicts a negative** — answer 'yes!' to a no-question or no-statement: *„Du kommst nicht mit?“ — „Doch, klar!“* **(2)** it **urges** in a request: *Setz dich doch!* (do sit down). **(3)** it reminds of shared knowledge: *Das weißt du doch.* (you know that, after all). One word, read the sentence for which job it's doing.",
+      "callout": "Only *doch* can flip a negative back to positive — English needs a whole 'yes I am!' for it."
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Du magst keinen Kaffee?“ — „___, ich liebe Kaffee!“ Welches Wort passt?",
+      "options": ["Ja", "Nein", "Doch", "Schon"],
+      "correct": 2,
+      "explain": "The question is **negative** ('you don't like coffee?'), and you want to contradict it. Only *Doch!* does that — *Ja* can't answer a negative question cleanly."
+    },
+    {
+      "type": "typed",
+      "prompt": "Mach den Befehl freundlicher. Aus „Warte!“ mach eine sanftere Version mit einer Partikel.",
+      "answers": ["Warte mal!", "Warte mal", "Warte doch mal!", "Warte doch!", "Warte doch mal"],
+      "hint": "*mal* is the classic softener for 'just a second'.",
+      "explain": "*Warte mal!* — *mal* takes the sting out of the imperative and means 'hang on just a sec'. *Warte doch mal!* is even warmer."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und schreib den Satz mit der Partikel.",
+      "speak": "Komm doch mit!",
+      "answers": ["Komm doch mit!", "Komm doch mit"]
+    },
+    {
+      "type": "shadow",
+      "title": "Sprich nach — mit Gefühl",
+      "lines": [
+        { "nl": "Na ja, so ist das halt.", "en": "Well, that's just how it is." },
+        { "nl": "Das weißt du doch!", "en": "You know that, come on!" },
+        { "nl": "Was ist denn los?", "en": "So what's the matter?" },
+        { "nl": "Das schaffst du schon.", "en": "You'll manage, don't worry." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Jonas flags you down at the Kneipe, already halfway into a bit of gossip.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Ey, hast du das schon gehört von Aylin?", "en": "Hey, have you heard the thing about Aylin?", "spotlight": "*schon* here = 'already', but note how loose and casual the whole line feels." },
+        { "speaker": "You", "nl": "Nö, was denn?", "en": "Nope, what is it?", "spotlight": "*denn* softens the question — friendly, not demanding." },
+        { "speaker": "Jonas", "nl": "Na ja, sie wohnt jetzt halt in München und ist echt glücklich.", "en": "Well, she lives in Munich now and she's really happy." },
+        { "speaker": "You", "nl": "Das ist doch schön! Warum sagst du das so komisch?", "en": "But that's lovely! Why do you say it so oddly?", "spotlight": "*doch* pushes back gently — 'but that's a good thing'." },
+        { "speaker": "Jonas", "nl": "Ach, ich vermisse sie halt. Berlin ist ohne sie irgendwie leerer.", "en": "Ah, I just miss her. Berlin feels emptier without her." },
+        { "speaker": "You", "nl": "Komm, besuch sie doch mal. Das schaffst du schon.", "en": "Come on, just go visit her. You'll manage it." },
+        { "speaker": "Jonas", "nl": "Stimmt. Machen wir das mal zusammen, oder?", "en": "True. Let's do it together some time, yeah?" },
+        { "speaker": "You", "nl": "Klar! Aber jetzt trink erst mal dein Bier.", "en": "Sure! But first, drink your beer." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schreib drei kurze Sätze, wie du sie wirklich sagen würdest — mit je einer Partikel (*doch, mal, halt, denn, ja*). Zum Beispiel eine Einladung, eine Frage und ein Trost.",
+      "starters": ["Komm doch…", "Was machst du denn…", "Das ist halt…"],
+      "minSentences": 3
+    }
+  ]
+}

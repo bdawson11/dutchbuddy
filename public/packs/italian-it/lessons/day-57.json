@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "day-57",
+  "day": 57,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "lesson",
+  "title": "Il congiuntivo presente",
+  "emoji": "🧩",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Meet the subjunctive: its forms and the trigger verbs (penso che, voglio che, è importante che)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il congiuntivo: il modo dell'opinione",
+      "body": "Italian has a special verb mood, the **congiuntivo**, for what you *think*, *want*, *hope*, or *doubt* — not for plain facts. It almost always lives after **che**: *penso **che** sia giusto, voglio **che** tu venga*. The main verb (*penso, voglio, spero*) is the trigger; the second verb changes shape. **One new thing: after a verb of opinion or wish + *che*, use the congiuntivo.**",
+      "callout": "Fact → indicativo (*so che è vero*). Opinion / wish → congiuntivo (*penso che sia vero*)."
+    },
+    {
+      "type": "card",
+      "title": "Le forme del congiuntivo presente",
+      "body": "Good news: the three singular persons are **identical**, so Italians often add the pronoun for clarity: *penso che **tu** parli, penso che **lui** parta*. The **-are** verbs take **-i** endings; **-ere** and **-ire** take **-a** endings. The key irregulars to memorise: *essere → **sia***, *avere → **abbia***, *fare → **faccia***, *andare → **vada***, *venire → **venga***.",
+      "table": {
+        "headers": ["persona", "-are (parlare)", "-ere (prendere)", "-ire (partire)"],
+        "rows": [
+          ["che io", "parli", "prenda", "parta"],
+          ["che tu", "parli", "prenda", "parta"],
+          ["che lui/lei", "parli", "prenda", "parta"],
+          ["che noi", "parliamo", "prendiamo", "partiamo"],
+          ["che voi", "parliate", "prendiate", "partiate"],
+          ["che loro", "parlino", "prendano", "partano"]
+        ]
+      },
+      "callout": "Same form for io / tu / lui — add the subject pronoun so it's clear who you mean."
+    },
+    {
+      "type": "chips",
+      "title": "Frasi con il congiuntivo — ascolta",
+      "items": [
+        { "nl": "Penso che sia giusto.", "en": "I think it's right.", "speak": "Penso che sia giusto." },
+        { "nl": "Voglio che tu venga.", "en": "I want you to come.", "speak": "Voglio che tu venga." },
+        { "nl": "Spero che vada bene.", "en": "I hope it goes well.", "speak": "Spero che vada bene." },
+        { "nl": "È importante che tu studi.", "en": "It's important that you study.", "speak": "È importante che tu studi." },
+        { "nl": "Credo che abbia ragione.", "en": "I think he's right.", "speak": "Credo che abbia ragione." },
+        { "nl": "È meglio che parta presto.", "en": "It's better he leaves early.", "speak": "È meglio che parta presto." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Fatto o opinione?",
+      "pairs": [
+        { "left": "*So che è a Bologna.* — I know he's in Bologna.", "right": "*Penso che sia a Bologna.* — I think he's in Bologna.", "note": "Certainty / fact → indicativo (*è*). Opinion / doubt → congiuntivo (*sia*)." },
+        { "left": "*È vero che lavora qui.*", "right": "*Credo che lavori qui.*", "note": "*sapere* and *è vero* keep the indicativo; *credere / pensare* trigger the congiuntivo." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Completa: «Voglio che tu ___ con me.»",
+      "options": ["vieni", "venga", "verrai"],
+      "correct": 1,
+      "explain": "*Voglio che* triggers the congiuntivo: *che tu venga*. *Vieni* is the plain present (indicativo)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Scrivi in italiano: 'I think it's important.' (usa *penso che* + il congiuntivo di *essere*)",
+      "answers": ["penso che sia importante", "io penso che sia importante"],
+      "hint": "*penso che* + *essere* al congiuntivo → *sia*.",
+      "explain": "*Penso che sia importante.* After *penso che*, *è* becomes *sia*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Spero che tu stia bene.",
+      "answers": ["spero che tu stia bene", "spero che tu stia bene."]
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci: penso che…",
+      "prompt": "Metti insieme un'opinione con il congiuntivo.",
+      "slots": [
+        { "label": "Trigger", "chips": ["Penso che", "Credo che", "Spero che", "È importante che"] },
+        { "label": "Chi", "chips": ["tu", "lui", "lei", "Marco"] },
+        { "label": "Congiuntivo", "chips": ["venga alla festa", "abbia ragione", "parta domani", "stia bene"] }
+      ],
+      "sample": "Penso che Marco venga alla festa."
+    },
+    {
+      "type": "journal",
+      "prompt": "E tu? Scrivi tre opinioni con il congiuntivo su Bologna, il tuo lavoro o i tuoi amici. Comincia ogni frase con *penso che*, *credo che* o *spero che*.",
+      "starters": ["Penso che…", "Credo che…", "Spero che…"],
+      "minSentences": 3
+    }
+  ]
+}

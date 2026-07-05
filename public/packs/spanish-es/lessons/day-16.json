@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "day-16",
+  "day": 16,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Los adjetivos concuerdan",
+  "emoji": "🎨",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Adjective agreement in gender and number, and where adjectives go in a sentence.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Los adjetivos concuerdan",
+      "body": "Adjectives agree with the noun in **gender** and **number**: **alto → alta → altos → altas**. Most adjectives go **after** the noun: **una casa blanca**, **un coche rojo** (not *una blanca casa*).",
+      "table": {
+        "headers": ["Masculino", "Femenino"],
+        "rows": [
+          ["alto (tall)", "alta"],
+          ["bajo (short)", "baja"],
+          ["rojo (red)", "roja"],
+          ["blanco (white)", "blanca"],
+          ["pequeño (small)", "pequeña"]
+        ]
+      },
+      "callout": "Plural just adds **-s**: *altos, altas, rojas*."
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear los adjetivos",
+      "items": [
+        { "nl": "una casa blanca", "en": "a white house", "speak": "una casa blanca" },
+        { "nl": "un coche rojo", "en": "a red car", "speak": "un coche rojo" },
+        { "nl": "unos pisos pequeños", "en": "some small flats", "speak": "unos pisos pequeños" },
+        { "nl": "una calle tranquila", "en": "a quiet street", "speak": "una calle tranquila" },
+        { "nl": "dos hermanas altas", "en": "two tall sisters", "speak": "dos hermanas altas" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Adjetivos en -e y en consonante",
+      "body": "Adjectives ending in **-e** don't change for gender, only number: **grande → grandes** (*un piso grande, una ciudad grande*). Adjectives ending in a **consonant** add **-es** for the plural: **feliz → felices**, **fácil → fáciles**.",
+      "table": {
+        "headers": ["Singular", "Plural"],
+        "rows": [
+          ["grande", "grandes"],
+          ["feliz", "felices"],
+          ["fácil", "fáciles"],
+          ["joven", "jóvenes"]
+        ]
+      },
+      "callout": "*Grande* shortens to *gran* right before a singular noun: *una gran ciudad* — and the meaning shifts a bit too."
+    },
+    {
+      "type": "contrast",
+      "title": "Posición y significado",
+      "pairs": [
+        { "left": "una ciudad grande — a big city (size, after noun)", "right": "una gran ciudad — a great city (impressive, before noun)", "note": "Moving *grande* before the noun changes size into praise." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál es correcta?",
+      "options": ["Mis hermanas son alto.", "Mis hermanas son altas."],
+      "correct": 1,
+      "explain": "*hermanas* is feminine plural, so the adjective must match: *altas*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Translate: 'the red car'.",
+      "answers": ["el coche rojo"],
+      "hint": "coche is masculine singular.",
+      "explain": "*el coche rojo* — *rojo* agrees with the masculine singular noun *coche*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "una casa blanca",
+      "answers": ["una casa blanca"]
+    },
+    {
+      "type": "builder",
+      "title": "Describe tu barrio",
+      "prompt": "Elige piezas para describir tu barrio o tu calle. Recuerda: los adjetivos concuerdan.",
+      "slots": [
+        { "label": "Mi barrio es", "chips": ["tranquilo", "grande", "pequeño", "muy animado"] },
+        { "label": "y las calles son", "chips": ["estrechas", "anchas", "bonitas", "tranquilas"] }
+      ],
+      "sample": "Mi barrio es tranquilo y las calles son bonitas."
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe tres cosas de tu barrio o tu casa usando adjetivos (color, tamaño, personalidad). Recuerda la concordancia de género y número.",
+      "starters": ["Mi casa es…", "Las calles son…", "Mi barrio es…"],
+      "minSentences": 3
+    }
+  ]
+}

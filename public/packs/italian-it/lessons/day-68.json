@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "day-68",
+  "day": 68,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Sto facendo, sto per partire",
+  "emoji": "⏳",
+  "level": "B1",
+  "durationMin": [20, 25],
+  "summary": "stare + gerundio for what's happening now, and stare per + infinito for what's about to happen",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "stare + gerundio: adesso, in questo momento",
+      "body": "To say something is happening **right now**, use **stare + gerundio**. Form the gerund: *-are → -ando* (*parlare → parlando*), *-ere / -ire → -endo* (*leggere → leggendo*, *dormire → dormendo*). *Cosa **stai facendo**?* — ***Sto studiando** l'italiano.* A few irregulars: *fare → facendo*, *dire → dicendo*, *bere → bevendo*.",
+      "callout": "Not for the future — *stare + gerundio* is strictly the here-and-now."
+    },
+    {
+      "type": "chips",
+      "title": "Cosa stai facendo?",
+      "items": [
+        { "nl": "Sto preparando le scatole.", "en": "I'm packing the boxes.", "speak": "Sto preparando le scatole." },
+        { "nl": "Stiamo mangiando, richiamo dopo.", "en": "We're eating, I'll call back later.", "speak": "Stiamo mangiando, richiamo dopo." },
+        { "nl": "Sta piovendo forte.", "en": "It's raining hard.", "speak": "Sta piovendo forte." },
+        { "nl": "Cosa stai dicendo?", "en": "What are you saying?", "speak": "Cosa stai dicendo?" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Qual è il gerundio corretto del verbo *fare*?",
+      "options": ["farando", "facendo", "fando"],
+      "correct": 1,
+      "explain": "*fare* è irregolare: il gerundio è **facendo** (dalla radice latina *fac-*). Così *sto facendo*."
+    },
+    {
+      "type": "card",
+      "title": "stare per + infinito: sto per partire",
+      "body": "For something **on the verge of happening** — about to, any second now — use **stare per + infinito**. *Il treno **sta per partire**.* ***Sto per uscire**, ti richiamo.* And, right on cue: *Sofia **sta per trasferirsi** a Milano* — she's about to move. Pronoun clitics can attach to the infinitive: *sto per dir**telo***.",
+      "callout": "*sto facendo* = I'm doing it now. *sto per farlo* = I'm about to do it."
+    },
+    {
+      "type": "contrast",
+      "title": "In corso vs sul punto di",
+      "pairs": [
+        { "left": "*Sto preparando le valigie.* — I'm packing (now).", "right": "*Sto per partire.* — I'm about to leave.", "note": "*stare + gerundio* = the action is underway; *stare per + infinito* = it hasn't started but it's imminent." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "'The train is about to leave.' Traduci con *stare per* (*il treno*).",
+      "answers": ["il treno sta per partire", "il treno sta per partire."],
+      "hint": "stare per + infinito.",
+      "explain": "*Il treno sta per partire.* — imminent action, *stare per* + infinitive."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Sto finendo di preparare le valigie.",
+      "answers": ["sto finendo di preparare le valigie", "sto finendo di preparare le valigie."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "La sera prima del trasloco. Sofia ha deciso: domani parte per Milano. Sta facendo le ultime scatole.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora ci siamo davvero. Domani stai per partire.", "en": "So this is really it. Tomorrow you're about to leave.", "spotlight": "*stai per partire* — l'azione imminente, non ancora iniziata." },
+        { "speaker": "Sofia", "nl": "Eh sì. Sto finendo di chiudere le ultime scatole adesso.", "en": "Yeah. I'm just finishing sealing the last boxes now." },
+        { "speaker": "You", "nl": "Come ti senti? Un po' agitata?", "en": "How do you feel? A bit nervous?" },
+        { "speaker": "Sofia", "nl": "Boh, sto ancora realizzando che domani cambio città.", "en": "Dunno, I'm still processing that tomorrow I'm changing cities." },
+        { "speaker": "Giulia", "nl": "Milano ti aspetta. Ce la farai alla grande, vedrai.", "en": "Milan's waiting for you. You'll do great, you'll see." },
+        { "speaker": "Sofia", "nl": "Il furgone sta per arrivare alle otto, quindi vado a dormire. Vi voglio bene, ragazzi.", "en": "The van's due at eight, so I'm off to bed. I love you guys." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai capito la scena?",
+      "questions": [
+        { "q": "Quando parte Sofia?", "options": ["Fra una settimana", "Domani", "Stasera"], "correct": 1 },
+        { "q": "Cosa sta facendo Sofia in questo momento?", "options": ["Sta chiudendo le ultime scatole", "Sta guidando il furgone", "Sta già a Milano"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi cosa stai facendo proprio adesso (*sto…* + gerundio) e una cosa che stai per fare a breve (*sto per…* + infinito).",
+      "starters": ["In questo momento sto…", "Tra poco sto per…"],
+      "minSentences": 2
+    }
+  ]
+}
