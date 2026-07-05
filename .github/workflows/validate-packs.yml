@@ -1,0 +1,37 @@
+name: Validate content packs
+
+on:
+  push:
+    paths:
+      - "public/packs/**"
+      - "tools/validate.js"
+      - ".github/workflows/validate-packs.yml"
+  pull_request:
+    paths:
+      - "public/packs/**"
+      - "tools/validate.js"
+      - ".github/workflows/validate-packs.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # Released packs are strict: every day listed in the manifest must exist.
+          - pack: dutch-nl
+            flags: --strict
+          # In-development packs: missing days are warnings, schema errors still fail.
+          - pack: german-de
+            flags: ""
+          - pack: italian-it
+            flags: ""
+          - pack: spanish-es
+            flags: ""
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/validate.js public/packs/${{ matrix.pack }} ${{ matrix.flags }}
