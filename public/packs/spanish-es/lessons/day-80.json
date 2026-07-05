@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "day-80",
+  "day": 80,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "El tapeo y la caña",
+  "emoji": "🍺",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "The choreography of going for tapas: ordering, la ronda, invitar, pagar a escote and la sobremesa",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El arte del tapeo",
+      "body": "Going for tapas isn't one drink and out — it's a **social choreography**. You move bar to bar, someone shouts the order, drinks come in **rondas** (rounds), and the meal dissolves into **la sobremesa**, the long talk after eating. Master the flow and you master Spanish social life.",
+      "callout": "*Ir de tapas / ir de cañas / tapear* — all mean 'let's go for tapas and beers'."
+    },
+    {
+      "type": "chips",
+      "title": "El pedido — toca para oír",
+      "items": [
+        { "nl": "¿Qué vais a tomar?", "en": "what are you all having?", "speak": "¿Qué vais a tomar?" },
+        { "nl": "Ponme una caña, porfa.", "en": "pour me a small beer, please", "speak": "Ponme una caña, porfa." },
+        { "nl": "¿Nos pones unas bravas?", "en": "can you bring us some patatas bravas?", "speak": "¿Nos pones unas bravas?" },
+        { "nl": "Yo invito.", "en": "my treat", "speak": "Yo invito." },
+        { "nl": "Esta ronda la pago yo.", "en": "I'll get this round", "speak": "Esta ronda la pago yo." },
+        { "nl": "¿Pagamos a escote?", "en": "shall we split it?", "speak": "¿Pagamos a escote?" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "¿Quién paga? — invitar, la ronda, a escote",
+      "body": "Three things to get right at the bar. **invitar** = to treat / pay for someone (*te invito* = it's on me — it does **not** mean 'to invite'!). **Una ronda** = a round; you take turns (*esta ronda la pago yo*). **Pagar a escote** = split the bill evenly. And the final ritual, **la sobremesa** — nobody's leaving; you sit and talk for another hour.",
+      "callout": "*Te invito* = my treat. To invite someone *somewhere* is *invitar a*: *te invito a una caña*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Rafa dice *esta ronda la pago yo*. ¿Qué significa?",
+      "options": ["Vamos a dividir la cuenta", "Él paga esta ronda de bebidas", "No quiere pagar"],
+      "correct": 1,
+      "explain": "*Pagar una ronda* = to pay for this round of drinks for everyone. Splitting evenly would be *pagar a escote*."
+    },
+    {
+      "type": "contrast",
+      "title": "Invitar vs pagar a escote",
+      "pairs": [
+        { "left": "Te invito — it's on me, I'm paying for you", "right": "Pagamos a escote — we split the bill evenly", "note": "*Invitar* here means 'to treat', not 'to invite'. *A escote* = everyone chips in the same amount." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Pide en el bar",
+      "prompt": "Order like a local: get the barman's attention, ask for a drink, add a tapa, and offer to pay.",
+      "slots": [
+        { "label": "Llamar", "chips": ["Perdona", "Oye", "Perdona, ¿nos pones…?"] },
+        { "label": "La bebida", "chips": ["una caña", "un tinto de verano", "una clara"] },
+        { "label": "La tapa", "chips": ["y unas bravas", "y una ración de jamón", "y unas croquetas"] },
+        { "label": "Pagar", "chips": ["esta la pago yo", "invito yo", "¿pagamos a escote?"] }
+      ],
+      "sample": "Perdona, ¿nos pones una caña y unas bravas? Esta la pago yo."
+    },
+    {
+      "type": "dialogue",
+      "scene": "A round of cañas with Rafa and Lucía — the full tapeo flow",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Venga, ¿qué tomáis? Empiezo yo la ronda.", "en": "Come on, what are you having? I'll start the round." },
+        { "speaker": "Rafa", "nl": "Ponme una caña y unas bravas, porfa.", "en": "A small beer and some bravas, please." },
+        { "speaker": "You", "nl": "Para mí una clara. ¿Pedimos jamón para compartir?", "en": "A shandy for me. Shall we get some ham to share?" },
+        { "speaker": "Lucía", "nl": "¡Hombre, claro! Oye, ¿nos pones una ración de jamón?", "en": "Of course! Hey, can you bring us a plate of ham?" },
+        { "speaker": "Rafa", "nl": "La próxima ronda la pago yo, ¿eh?", "en": "Next round's on me, okay?", "spotlight": "*la próxima ronda la pago yo* — taking your turn, the heart of the ronda." },
+        { "speaker": "You", "nl": "O pagamos a escote y ya está.", "en": "Or we just split it and be done." },
+        { "speaker": "Lucía", "nl": "Eso, y nos quedamos de sobremesa. No tengo prisa.", "en": "That, and we stay for the sobremesa. I'm in no rush." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Quién empieza pagando la primera ronda?", "options": ["Rafa", "Lucía", "Nadie, van a escote"], "correct": 1 },
+        { "q": "¿Qué quieren hacer después de comer?", "options": ["Irse a casa", "Quedarse de sobremesa", "Pagar y salir corriendo"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe tu tapeo ideal: ¿a qué bar irías, qué pedirías y con quién? Usa *ponme…, invito yo / a escote* y termina con la sobremesa. Escribe tres o cuatro frases.",
+      "starters": ["Iría a un bar de…", "Pediría…", "Y después, de sobremesa…"],
+      "minSentences": 3
+    }
+  ]
+}

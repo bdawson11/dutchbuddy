@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "day-73",
+  "day": 73,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "lesson",
+  "title": "Gli alterati: ino, one, accio",
+  "emoji": "📏",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Diminutives, augmentatives and pejoratives (-ino/-etto/-one/-accio), the feelings they add, and the frozen ones (panino, tavolino)",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Alterati: cambiare taglia e colore alle parole",
+      "body": "L'italiano ridimensiona e ricolora i nomi con dei suffissi. **-ino/-etto** rendono piccolo o affettuoso (*un tavolo → un tavolino*, il tavolo del bar; *un momento → un momentino*, giusto un attimo). **-one** rende grande (*una macchina → un macchinone*, un macchinone enorme — e diventa maschile!). **-accio** rende brutto o sgradevole (*una parola → una parolaccia*; *una giornata → una giornataccia*). Stessa radice, sentimento diverso.",
+      "callout": "**-ino** = piccolo/carino · **-one** = grande · **-accio** = brutto/cattivo."
+    },
+    {
+      "type": "chips",
+      "title": "Senti come cambiano",
+      "items": [
+        { "nl": "un momentino", "en": "just a moment", "speak": "Aspetta un momentino." },
+        { "nl": "un tavolino", "en": "a little café table", "speak": "un tavolino" },
+        { "nl": "un caffettino", "en": "a nice little coffee", "speak": "un caffettino" },
+        { "nl": "una parolaccia", "en": "a swear word", "speak": "una parolaccia" },
+        { "nl": "una giornataccia", "en": "a rotten day", "speak": "che giornataccia" },
+        { "nl": "un macchinone", "en": "a huge car", "speak": "un macchinone" },
+        { "nl": "un ragazzino", "en": "a little kid", "speak": "un ragazzino" },
+        { "nl": "benino", "en": "pretty well / so-so", "speak": "Sto benino." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "-ino, -one, -accio",
+      "pairs": [
+        { "left": "*-ino / -etto* → piccolo o affettuoso: *un cagnolino*, *una casetta*", "right": "*-one* → grande: *un librone*, *il portone*", "note": "*-one* spesso rende il nome maschile: *la porta → il portone*, *la macchina → il macchinone*." },
+        { "left": "*una parola* (a word)", "right": "*una parolaccia* (a swear word)", "note": "*-accio/-accia* aggiunge disprezzo o fastidio: *tempaccio*, *giornataccia*." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Attenzione: alcuni sono 'congelati'",
+      "body": "Alcune parole alterate si sono **congelate** in un significato tutto loro — non le puoi smontare. *un panino* non è 'un pane piccolo', è **un panino da mangiare**. *un tavolino* è proprio **il tavolo del bar**. *il pallone* non è 'una palla grande', è **il pallone da calcio**. Imparale come parole a sé.",
+      "callout": "*panino* (sandwich), *pallone* (football), *tavolino* (café table): congelati, non alterati 'letterali'."
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Che giornataccia!» Cosa aggiunge il suffisso *-accia*?",
+      "options": ["Che bella giornata", "Che brutta, pessima giornata", "Una giornata piccola"],
+      "correct": 1,
+      "explain": "*-accio/-accia* = disprezzo o fastidio. *Giornataccia* = una giornata storta, andata male."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Vuoi chiedere di aspettare pochissimo, in modo gentile. Cosa dici?",
+      "options": ["Aspetta un momentone!", "Aspetta un momentino!", "Aspetta una giornataccia!"],
+      "correct": 1,
+      "explain": "*-ino* rende la cosa piccola e gentile: *un momentino* = 'giusto un attimo'. Più morbido di *un momento*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Trasforma in diminutivo (il tavolo del bar): *un tavolo* → ___",
+      "answers": ["un tavolino", "tavolino"],
+      "hint": "Suffisso -ino.",
+      "explain": "*-ino*: *tavolo → tavolino*. E ricorda: *tavolino* significa proprio il tavolo del bar."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Prendo un caffè al tavolino.",
+      "answers": ["prendo un caffè al tavolino", "prendo un caffe al tavolino", "prendo un caffè al tavolino."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Al bar con Giulia: ordini e chiacchiere, piene di alterati.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Ci sediamo a quel tavolino fuori? Ho trovato un posticino tranquillo.", "en": "Shall we sit at that little table outside? I found a nice quiet little spot.", "spotlight": "*tavolino* (café table) e *posticino* (a nice little spot): alterati che scaldano la frase." },
+        { "speaker": "You", "nl": "Volentieri. Prendo un caffettino, ho avuto una giornataccia.", "en": "Gladly. I'll have a little coffee, I've had a rotten day." },
+        { "speaker": "Giulia", "nl": "Ma dai, cos'è successo?", "en": "Oh come on, what happened?" },
+        { "speaker": "You", "nl": "Niente di grave, solo tanto lavoro. Mi serve un momentino di pausa.", "en": "Nothing serious, just a lot of work. I need a little break." },
+        { "speaker": "Giulia", "nl": "Allora rilassati. Guarda che bel cagnolino lì!", "en": "So relax. Look at that cute little dog over there!" },
+        { "speaker": "You", "nl": "Che carino! Un pochino di tranquillità ci vuole.", "en": "How sweet! A little bit of calm is just what I need." },
+        { "speaker": "Giulia", "nl": "Esatto. Un caffè, un tavolino, e la giornataccia passa.", "en": "Exactly. A coffee, a little table, and the rotten day passes." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Racconta una tua *giornataccia* o una giornata speciale, usando almeno due alterati (per esempio *un caffettino*, *un momentino*, *un posticino*, *una parolaccia*).",
+      "starters": ["Ieri è stata una giornataccia…", "Ho trovato un posticino…"],
+      "minSentences": 3
+    }
+  ]
+}

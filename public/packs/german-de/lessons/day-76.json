@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "day-76",
+  "day": 76,
+  "module": "M11",
+  "unit": "U11",
+  "kind": "review",
+  "title": "Lena besucht Aylin in München",
+  "emoji": "🥨",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Week 11 immersion — a Saturday catch-up in Munich braiding verb-prepositions, particles and adjective endings, with a light Bavarian cameo",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Woche 11 — alles zusammen",
+      "body": "This week you polished the way you **sound**: verb-preposition pairs (*sich freuen auf, denken an*), the flavour particles (*doch, mal, halt, na ja*), attributive adjective endings (*eine schöne Wohnung*), how to keep talking through a case wobble, and *du/Sie*. Now hear it all braided into one real conversation. **Aylin moved to Munich in Week 10 — today Lena takes the train down to visit her, months later.**",
+      "callout": "Aylin now lives in München. She's settled in and happier — listen for it."
+    },
+    {
+      "type": "chips",
+      "title": "Kurzer Warm-up — die Woche auf einen Blick",
+      "items": [
+        { "nl": "Ich freue mich auf die Arbeit.", "en": "I look forward to work.", "speak": "Ich freue mich auf die Arbeit." },
+        { "nl": "Das ist halt so.", "en": "That's just how it is.", "speak": "Das ist halt so." },
+        { "nl": "eine schöne, helle Wohnung", "en": "a lovely, bright flat", "speak": "eine schöne, helle Wohnung" },
+        { "nl": "Daran gewöhne ich mich noch.", "en": "I'm still getting used to it.", "speak": "Daran gewöhne ich mich noch." },
+        { "nl": "Komm doch rein!", "en": "Come on in!", "speak": "Komm doch rein!" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Vervollständige: „Aylin hat ___ neue Wohnung gefunden.“ (die Wohnung, Akkusativ)",
+      "options": ["eine schöne", "einen schönen", "ein schönes", "eine schönen"],
+      "correct": 0,
+      "explain": "*die Wohnung* is feminine; accusative feminine looks like the nominative, so *eine* + *-e*: *eine schöne neue Wohnung*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Schreib auf Deutsch: „I'm looking forward to the weekend.“ (das Wochenende)",
+      "answers": ["Ich freue mich auf das Wochenende.", "Ich freue mich auf das Wochenende", "Ich freue mich aufs Wochenende.", "Ich freue mich aufs Wochenende"],
+      "hint": "*sich freuen auf* + Akkusativ; *auf das* → *aufs* is fine too.",
+      "explain": "*Ich freue mich auf das Wochenende.* — the *auf* is lexical and takes Akkusativ. Spoken German often shortens *auf das* to *aufs*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Saturday, midday. Lena has just arrived at Aylin's new flat in Munich, suitcase still in hand.",
+      "lines": [
+        { "speaker": "Lena", "nl": "So schön hier! Du hast wirklich eine tolle Wohnung gefunden.", "en": "So lovely here! You really found a great flat.", "spotlight": "*eine tolle Wohnung* — feminine accusative, adjective takes *-e*." },
+        { "speaker": "Aylin", "nl": "Ne? Ich freue mich riesig, dass du da bist. Komm doch rein!", "en": "Right? I'm so glad you're here. Come on in!", "spotlight": "*Komm doch rein* — the particle *doch* makes the invitation warm." },
+        { "speaker": "Lena", "nl": "Wie läuft's denn so? Hast du dich schon eingelebt?", "en": "So how's it going? Have you settled in yet?", "spotlight": "*denn* softens the question; *sich einleben* = to settle in." },
+        { "speaker": "Aylin", "nl": "Na ja, langsam. Hier sagen alle „Servus“ und „Grüß Gott“ — daran gewöhne ich mich noch.", "en": "Well, slowly. Everyone here says 'Servus' and 'Grüß Gott' — I'm still getting used to it.", "spotlight": "Bavarian colour, noted with a smile — *sich gewöhnen an* + Akk, here as the *da*-compound *daran*." },
+        { "speaker": "Lena", "nl": "Haha, und beim Bäcker? Sagst du jetzt „Semmel“ statt „Brötchen“?", "en": "Haha, and at the bakery? Do you say 'Semmel' now instead of 'Brötchen'?" },
+        { "speaker": "Aylin", "nl": "Niemals! Ein frisches Brötchen bleibt ein Brötchen. Aber die Brezn hier sind echt gut.", "en": "Never! A fresh roll stays a Brötchen. But the pretzels here are really good.", "spotlight": "She keeps her Hochdeutsch (*Brötchen*) while enjoying the local *Brezn* — colour, not the norm." },
+        { "speaker": "Lena", "nl": "Und der neue Job?", "en": "And the new job?" },
+        { "speaker": "Aylin", "nl": "Richtig gut. Ich freue mich jeden Morgen auf die Arbeit — das kannte ich in Berlin gar nicht.", "en": "Really good. I look forward to work every morning — I never knew that in Berlin.", "spotlight": "*sich freuen auf die Arbeit* — the whole week's grammar, said like a normal happy person." },
+        { "speaker": "Lena", "nl": "Das ist ja wunderbar. Ich bin so froh für dich.", "en": "That's just wonderful. I'm so happy for you." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hast du alles verstanden?",
+      "questions": [
+        { "q": "Wo wohnt Aylin jetzt?", "options": ["In Berlin", "In München", "In Köln"], "correct": 1 },
+        { "q": "Was sagt Aylin über die Brötchen?", "options": ["Sie sagt jetzt „Semmel“", "Ein Brötchen bleibt ein Brötchen", "Sie isst keine mehr"], "correct": 1 },
+        { "q": "Wie geht es Aylin mit dem neuen Job?", "options": ["Schlecht, sie sucht noch", "Sie freut sich auf die Arbeit", "Sie will zurück nach Berlin"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Stell dir vor, du besuchst Aylin auch. Schreib drei Fragen, die du ihr über ihr neues Leben in München stellen würdest — mit mindestens einer festen Verb-Präposition (*sich freuen auf, sich gewöhnen an, denken an*).",
+      "starters": ["Freust du dich auf…?", "Hast du dich schon an … gewöhnt?", "Denkst du manchmal an…?"],
+      "minSentences": 3
+    }
+  ]
+}

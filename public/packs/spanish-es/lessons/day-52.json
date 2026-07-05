@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "day-52",
+  "day": 52,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "lesson",
+  "title": "Creo que… dar tu opinión",
+  "emoji": "💬",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Giving opinions with creo que, pienso que, para mí, and the agreement ladder",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Dar tu opinión: creo que, pienso que…",
+      "body": "Para dar tu opinión, usa **creo que / pienso que** + una frase con verbo en indicativo: *Creo que Madrid es una ciudad increíble.* También puedes empezar con **para mí**: *Para mí, la mejor tapa es la tortilla.*",
+      "callout": "*Creo que* y *pienso que* significan casi lo mismo — usa el que te suene mejor."
+    },
+    {
+      "type": "chips",
+      "title": "Escucha: abrir una opinión",
+      "items": [
+        { "nl": "creo que", "en": "I think that…", "speak": "creo que" },
+        { "nl": "pienso que", "en": "I think that…", "speak": "pienso que" },
+        { "nl": "para mí", "en": "for me / in my opinion", "speak": "para mí" },
+        { "nl": "me parece que", "en": "it seems to me that…", "speak": "me parece que" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "La escalera del acuerdo",
+      "body": "Para reaccionar a una opinión: **(estoy) de acuerdo** (estoy de acuerdo), **tienes razón** (you're right), **no estoy de acuerdo** (I disagree), **depende** (it depends), **puede ser** (maybe). Son las palabras que oirás en cualquier sobremesa española.",
+      "table": {
+        "headers": ["Español", "Uso"],
+        "rows": [
+          ["Estoy de acuerdo", "agree fully"],
+          ["Tienes razón", "you're right"],
+          ["No estoy de acuerdo", "disagree"],
+          ["Depende", "it depends"],
+          ["Puede ser", "maybe / could be"]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "creo que vs. me parece que",
+      "pairs": [
+        { "left": "creo que + frase → yo pienso (sujeto yo)", "right": "me parece que + frase → a mí me da esa impresión (como gustar)", "note": "Las dos funcionan igual en la práctica, pero *me parece* usa la estructura de *gustar*: **me** parece, **te** parece, **le** parece…" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál NO es una forma de dar tu opinión?",
+      "options": ["Creo que…", "Me parece que…", "Estoy en Madrid"],
+      "correct": 2,
+      "explain": "*Estoy en Madrid* es un hecho de ubicación (estar), no una opinión. Las otras dos introducen lo que piensas."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa con tu opinión: '___ el español es más fácil que el inglés.' (usa creo que)",
+      "answers": ["Creo que", "creo que"],
+      "hint": "empieza con creo que",
+      "explain": "*Creo que* + frase con indicativo — así se da una opinión sencilla."
+    },
+    {
+      "type": "typed",
+      "prompt": "Responde de acuerdo: 'El fútbol es el mejor deporte.' — '___.'",
+      "answers": ["Estoy de acuerdo", "estoy de acuerdo", "Tienes razón", "tienes razón"],
+      "hint": "la escalera del acuerdo",
+      "explain": "*Estoy de acuerdo* o *tienes razón* — las dos muestran que piensas lo mismo."
+    },
+    {
+      "type": "dictation",
+      "speak": "me parece que tienes razón",
+      "answers": ["me parece que tienes razón"]
+    },
+    {
+      "type": "builder",
+      "title": "Tu opinión sobre Madrid",
+      "prompt": "Construye una opinión completa.",
+      "slots": [
+        { "label": "Apertura", "chips": ["Creo que", "Para mí", "Me parece que"] },
+        { "label": "Opinión", "chips": ["Madrid es una ciudad increíble", "el bar de Rafa mola mucho", "la tortilla es la mejor tapa"] }
+      ],
+      "sample": "Para mí, la tortilla es la mejor tapa."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa y tú discutís sobre cuál es el mejor bar del barrio.",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Tío, para mí, el mejor bar del barrio es este. Punto.", "en": "Dude, for me, this is the best bar in the neighborhood. Full stop." },
+        { "speaker": "You", "nl": "¿En serio? Yo creo que el de la esquina es mejor.", "en": "Really? I think the one on the corner is better.", "spotlight": "creo que + frase — dar una opinión distinta." },
+        { "speaker": "Rafa", "nl": "¡Qué va! Aquí las tapas son mejores.", "en": "No way! The tapas here are better." },
+        { "speaker": "You", "nl": "Bueno, depende. A mí me parece que las dos están bien.", "en": "Well, it depends. I think both are fine." },
+        { "speaker": "Rafa", "nl": "Puede ser… pero yo no estoy de acuerdo, ¿eh?", "en": "Could be… but I don't agree, you know?" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "¿Cuál es tu opinión sobre algo de tu ciudad — la comida, el transporte, la gente? Usa creo que / me parece que / para mí.",
+      "starters": ["Creo que…", "Para mí…", "Me parece que…"]
+    }
+  ]
+}

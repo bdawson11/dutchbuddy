@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "day-63",
+  "day": 63,
+  "module": "M09",
+  "unit": "U09",
+  "kind": "capstone",
+  "title": "Il mio racconto: la notizia",
+  "emoji": "🎉",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Week 9 capstone: gossip about Sofia's news with Marco, then add the reported-speech layer to your growing self-intro",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ripasso della settimana: la notizia",
+      "body": "Una settimana intensa! Hai imparato il **congiuntivo** (*penso che sia…*), il **condizionale** (*vorrei…, dovresti…*), il **discorso indiretto** (*mi ha detto che…*) e il **periodo ipotetico** (*se… allora…*). E hai saputo la novità: **Sofia** ha ricevuto un'offerta di lavoro a **Milano** — ci sta ancora pensando. Oggi la racconti a Marco. Bel lavoro: sei a un passo dal parlare da vero italiano.",
+      "callout": "This closes Week 9. Sofia has the offer — she hasn't decided yet."
+    },
+    {
+      "type": "chips",
+      "title": "Le frasi della settimana — ascolta",
+      "items": [
+        { "nl": "Penso che sia una bella occasione.", "en": "I think it's a great opportunity.", "speak": "Penso che sia una bella occasione." },
+        { "nl": "Mi ha detto che ci sta pensando.", "en": "She told me she's thinking about it.", "speak": "Mi ha detto che ci sta pensando." },
+        { "nl": "Secondo me dovrebbe accettare.", "en": "I think she should accept.", "speak": "Secondo me dovrebbe accettare." },
+        { "nl": "Se accetta, va a Milano.", "en": "If she accepts, she goes to Milano.", "speak": "Se accetta, va a Milano." },
+        { "nl": "Spero che vada tutto bene.", "en": "I hope it all goes well.", "speak": "Spero che vada tutto bene." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Completa: «Spero che tutto ___ bene.»",
+      "options": ["va", "vada", "andrà"],
+      "correct": 1,
+      "explain": "*spero che* → congiuntivo: *che tutto **vada** bene*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Come dai un consiglio gentile: 'She should accept.'?",
+      "options": ["Deve accettare.", "Dovrebbe accettare.", "Accetta!"],
+      "correct": 1,
+      "explain": "*Dovrebbe* (condizionale) ammorbidisce il consiglio. *Deve* è un obbligo, *accetta!* è un ordine."
+    },
+    {
+      "type": "typed",
+      "prompt": "Riporta cosa ha detto Sofia: «Ci sto pensando.» → Mi ha detto che… (usa il passato)",
+      "answers": ["mi ha detto che ci stava pensando", "ha detto che ci stava pensando", "mi ha detto che ci stava pensando."],
+      "hint": "Reporting verb al passato → *sto* diventa *stava*.",
+      "explain": "*Mi ha detto che ci stava pensando.* The present *sto* shifts to the imperfetto *stava*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Ascolta e scrivi la frase.",
+      "speak": "Marco pensa che sia una buona idea.",
+      "answers": ["marco pensa che sia una buona idea", "marco pensa che sia una buona idea."]
+    },
+    {
+      "type": "contrast",
+      "title": "Certezza o dubbio?",
+      "pairs": [
+        { "left": "*So che Sofia è a Bologna.*", "right": "*Penso che Sofia sia a Bologna.*", "note": "Fatto → indicativo (*è*); opinione → congiuntivo (*sia*)." },
+        { "left": "*Voglio parlarle.*", "right": "*Vorrei parlarle.*", "note": "Il condizionale è più gentile." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, you fill Marco in on Sofia's news.",
+      "lines": [
+        { "speaker": "You", "nl": "Marco, hai saputo di Sofia?", "en": "Marco, did you hear about Sofia?" },
+        { "speaker": "Marco", "nl": "No, cosa? Racconta, dai!", "en": "No, what? Tell me, come on!" },
+        { "speaker": "You", "nl": "Mi ha detto che un'azienda di Milano le ha offerto un lavoro.", "en": "She told me a company in Milano offered her a job.", "spotlight": "Reported speech: *mi ha detto che…*" },
+        { "speaker": "Marco", "nl": "Ma dai! Davvero? E lei che ha detto?", "en": "No way! Really? And what did she say?" },
+        { "speaker": "You", "nl": "Mi ha detto che ci sta pensando. Ha paura che Milano sia troppo lontana.", "en": "She told me she's thinking about it. She's afraid Milano is too far.", "spotlight": "Congiuntivo after *ha paura che*: *sia*." },
+        { "speaker": "Marco", "nl": "Boh, io penso che dovrebbe accettare. È una bella occasione, no?", "en": "Dunno, I think she should accept. It's a great chance, isn't it?" },
+        { "speaker": "You", "nl": "Sì, però se accetta deve lasciare Bologna e tutti noi.", "en": "Yeah, but if she accepts she has to leave Bologna and all of us." },
+        { "speaker": "Marco", "nl": "Eh, hai ragione. Speriamo che decida bene.", "en": "Yeah, you're right. Let's hope she decides well." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai capito il pettegolezzo?",
+      "questions": [
+        { "q": "Cosa ha offerto l'azienda a Sofia?", "options": ["Un lavoro a Milano", "Una casa a Bologna", "Una vacanza"], "correct": 0 },
+        { "q": "Cosa pensa Marco?", "options": ["Che dovrebbe accettare", "Che dovrebbe rifiutare", "Che è una brutta idea"], "correct": 0 },
+        { "q": "Sofia ha già lasciato Bologna?", "options": ["Sì, è già a Milano", "No, ci sta ancora pensando", "Sì, parte oggi"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Il mio racconto — livello 9",
+      "prompt": "Aggiungi al tuo racconto una notizia che ti ha dato qualcuno. Usa il discorso indiretto (*… mi ha detto che…*) e una tua opinione.",
+      "slots": [
+        { "label": "Chi te l'ha detto", "chips": ["Un amico mi ha detto che", "Una collega mi ha detto che", "Mia sorella mi ha raccontato che", "Un vicino mi ha detto che"] },
+        { "label": "La notizia", "chips": ["ha trovato un nuovo lavoro", "si sposa in primavera", "torna a vivere qui", "parte per un lungo viaggio"] },
+        { "label": "La mia reazione", "chips": ["e penso che sia una bella notizia", "e credo che sia una buona idea", "e spero che vada tutto bene", "e secondo me è la scelta giusta"] }
+      ],
+      "sample": "Un amico mi ha detto che ha trovato un nuovo lavoro, e penso che sia una bella notizia."
+    },
+    {
+      "type": "journal",
+      "prompt": "Il mio racconto — livello 9! Aggiungi al tuo racconto una notizia che qualcuno ti ha dato di recente, con il discorso indiretto (*mi ha detto che…*) e una tua reazione con il congiuntivo o il condizionale. Rileggi tutto dall'inizio: nome, provenienza, routine, famiglia, gusti, un ricordo, un progetto… e ora una notizia. Complimenti, sei arrivato al livello B1!",
+      "starters": ["Di recente, un amico mi ha detto che…", "Mi ha raccontato che…", "Penso che…"],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "day-17",
+  "day": 17,
+  "module": "M03",
+  "unit": "U03",
+  "kind": "lesson",
+  "title": "Questo qui, quello là: le foto di famiglia",
+  "emoji": "📸",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "questo vs quello, demonstrative agreement, and showing photos of family and places",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "questo — right here",
+      "body": "*questo* means 'this' — pointing at something close. It agrees like a regular -o adjective: **questo** (m. sing.), **questa** (f. sing.), **questi** (m. pl.), **queste** (f. pl.). *Questo libro* (this book), *questa foto* (this photo).",
+      "callout": "Showing someone a photo? questa foto è… is your go-to opener."
+    },
+    {
+      "type": "card",
+      "title": "quello — over there",
+      "body": "*quello* means 'that' — pointing at something farther away. It changes shape just like *il/lo/la* does, depending on what follows: **quel** (before most masc. sing. nouns), **quello** (before masc. sing. s+consonant/z), **quella** (fem. sing.), **quei** (masc. pl.), **quegli** (masc. pl. before vowel/s+consonant), **quelle** (fem. pl.).",
+      "table": {
+        "headers": ["Form", "Before", "Example"],
+        "rows": [
+          ["quel", "masc. sing., most nouns", "quel ragazzo — that guy"],
+          ["quello", "masc. sing., s+cons./z", "quello zio — that uncle"],
+          ["quella", "fem. sing.", "quella donna — that woman"],
+          ["quei", "masc. pl., most nouns", "quei bambini — those kids"],
+          ["quelle", "fem. pl.", "quelle foto — those photos"]
+        ]
+      },
+      "callout": "Same pattern as il/lo/la — if you know the article, you basically know quello."
+    },
+    {
+      "type": "chips",
+      "title": "Near or far — tap through",
+      "items": [
+        { "nl": "questo libro", "en": "this book", "speak": "questo libro" },
+        { "nl": "questa foto", "en": "this photo", "speak": "questa foto" },
+        { "nl": "quel ragazzo", "en": "that guy", "speak": "quel ragazzo" },
+        { "nl": "quella donna", "en": "that woman", "speak": "quella donna" },
+        { "nl": "quei bambini", "en": "those kids", "speak": "quei bambini" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "questo vs quello — close vs far",
+      "pairs": [
+        { "left": "*questa foto* — this photo (in your hand)", "right": "*quella foto* — that photo (across the room)", "note": "questo points at what's near you; quello points at what's farther away." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Your cousins are in a photo across the room. How do you say 'those kids'?",
+      "options": ["questi bambini", "quei bambini", "quelle bambini"],
+      "correct": 1,
+      "explain": "bambini is masculine plural and it's far away, so quello becomes quei: quei bambini."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct for 'that uncle' (zio, across the room)?",
+      "options": ["quel zio", "quello zio", "quella zio"],
+      "correct": 1,
+      "explain": "zio starts with the s+consonant-like z pattern, so quello keeps its full form — same rule as lo zio."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'this house' in Italian.",
+      "answers": ["questa casa"],
+      "hint": "casa is feminine singular — questo agrees.",
+      "explain": "*Questa casa* — casa is feminine, so questo becomes questa."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the whole line.",
+      "speak": "Questa è mia madre.",
+      "answers": ["questa è mia madre"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "You show Giulia old family photos on your phone",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Che belle foto! Chi è questo?", "en": "What lovely photos! Who's this?" },
+        { "speaker": "You", "nl": "Questo è mio nonno, e questa è mia nonna.", "en": "This is my grandfather, and this is my grandmother." },
+        { "speaker": "Giulia", "nl": "E quella donna, vicino a loro?", "en": "And that woman, next to them?" },
+        { "speaker": "You", "nl": "Quella è mia zia, la sorella di mia madre.", "en": "That's my aunt, my mother's sister.", "spotlight": "sorella takes la here because it's modified by di mia madre — the no-article rule is only for a plain, unmodified family word." },
+        { "speaker": "Giulia", "nl": "Che famiglia numerosa! Bellissima foto.", "en": "What a big family! Really lovely photo." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Imagine showing a friend three photos. Write one line for each using questo/questa or quello/quella/quei/quelle.",
+      "starters": ["Questo è…", "Questa è…", "Quella è…"]
+    }
+  ]
+}

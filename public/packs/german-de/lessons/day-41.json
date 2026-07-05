@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "day-41",
+  "day": 41,
+  "module": "M06",
+  "unit": "U06",
+  "kind": "review",
+  "title": "Aylins schwere Woche",
+  "emoji": "🚲",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Recap of week 6 (body, Hausarzt, feelings, advice) plus an immersion catch-up with Aylin",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Woche 6 im Rückblick",
+      "body": "This week: **Schmerzen** compounds (*Kopfschmerzen, Halsschmerzen*), the Hausarzt system, Notfall phrases (**112 / 110**), feelings with **sich fühlen**, and giving advice (**musst, solltest, würde**). Let's see what stuck.",
+      "table": {
+        "headers": ["Deutsch", "Bedeutung"],
+        "rows": [
+          ["Ich habe Kopfschmerzen.", "I have a headache."],
+          ["Mir tut der Rücken weh.", "My back hurts."],
+          ["Ich fühle mich müde.", "I feel tired."],
+          ["Du solltest dich ausruhen.", "You should rest."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Mix aus dieser Woche",
+      "items": [
+        { "nl": "Halsschmerzen", "en": "sore throat", "speak": "Halsschmerzen" },
+        { "nl": "der Termin", "en": "the appointment", "speak": "der Termin" },
+        { "nl": "nervös", "en": "nervous", "speak": "nervös" },
+        { "nl": "du solltest", "en": "you should", "speak": "du solltest" },
+        { "nl": "es geht mir...", "en": "I'm doing...", "speak": "es geht mir" },
+        { "nl": "die Krankschreibung", "en": "the sick note", "speak": "die Krankschreibung" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence correctly means 'My stomach hurts'?",
+      "options": ["Ich bin Bauch weh.", "Mir tut der Bauch weh.", "Ich tue Bauch weh."],
+      "correct": 1,
+      "explain": "wehtun is separable: the dative pronoun (mir) comes first, weh jumps to the end."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I feel a little sick.'",
+      "answers": ["Ich fühle mich ein bisschen krank", "Ich fuehle mich ein bisschen krank"],
+      "hint": "sich fühlen + ein bisschen + adjective",
+      "explain": "Ich fühle mich ein bisschen krank — the reflexive mich matches ich."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Aylin calls you — it's been one thing after another this week.",
+      "lines": [
+        { "speaker": "Aylin", "nl": "Hey... ich hatte echt eine schwere Woche, ehrlich gesagt.", "en": "Hey... I've had a really rough week, honestly." },
+        { "speaker": "You", "nl": "Oh nein, was ist denn passiert?", "en": "Oh no, what happened?" },
+        { "speaker": "Aylin", "nl": "Man hat mir mein Fahrrad geklaut, mitten in Berlin!", "en": "Someone stole my bike, right in the middle of Berlin!", "spotlight": "mir — dative: klauen takes a dative person and an accusative thing" },
+        { "speaker": "You", "nl": "Wie ärgerlich! Und dann?", "en": "How annoying! And then?" },
+        { "speaker": "Aylin", "nl": "Und dann bin ich auch noch krank geworden. Mir ging es richtig schlecht — Fieber, Kopfschmerzen, alles.", "en": "And then I got sick on top of it. I felt really bad — fever, headache, everything.", "spotlight": "bin... geworden — the Perfekt with sein, back from Week 5" },
+        { "speaker": "You", "nl": "Bist du beim Hausarzt gewesen?", "en": "Did you go to the GP?" },
+        { "speaker": "Aylin", "nl": "Ja, gestern. Sie hat gesagt: 'Das ist nur eine Erkältung.' Ich soll mich ausruhen.", "en": "Yes, yesterday. She said: 'It's just a cold.' I'm supposed to rest." },
+        { "speaker": "You", "nl": "Na, dann musst du jetzt wirklich ausruhen.", "en": "Well, then you really must rest now." },
+        { "speaker": "Aylin", "nl": "Mach ich. Danke, dass du fragst.", "en": "I will. Thanks for asking." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What happened to Aylin's Fahrrad?", "options": ["It broke", "It was stolen", "She sold it"], "correct": 1 },
+        { "q": "What did the Hausarzt say Aylin had?", "options": ["A broken arm", "Just a cold", "Nothing at all"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Aylin had one thing after another this week. Has something like this ever happened to you? Write two sentences.",
+      "starters": ["Mir ist auch schon mal...", "Zum Glück habe ich noch nie..."]
+    }
+  ]
+}

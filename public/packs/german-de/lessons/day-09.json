@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "day-09",
+  "day": 9,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Preise, Euro und Telefonnummern",
+  "emoji": "💶",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Hundreds and thousands, euro prices, and how Germans read phone numbers aloud",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Große Zahlen: hundert & tausend",
+      "body": "**hundert** (100) and **tausend** (1000) just glue onto the front of a number: 200 = *zweihundert*, 300 = *dreihundert*, 2000 = *zweitausend*. Big numbers stay **one word**, however long: 150 = *hundertfünfzig*. You'll rarely need more than a few hundred day-to-day — Bäckerei prices, rent, phone numbers.",
+      "table": {
+        "headers": ["Zahl", "Deutsch"],
+        "rows": [
+          ["100", "hundert"],
+          ["150", "hundertfünfzig"],
+          ["200", "zweihundert"],
+          ["1000", "tausend"],
+          ["2000", "zweitausend"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Höre die großen Zahlen",
+      "items": [
+        { "nl": "hundert", "en": "one hundred", "speak": "hundert" },
+        { "nl": "zweihundert", "en": "two hundred", "speak": "zweihundert" },
+        { "nl": "hundertfünfzig", "en": "one hundred fifty", "speak": "hundertfünfzig" },
+        { "nl": "tausend", "en": "one thousand", "speak": "tausend" },
+        { "nl": "zweitausend", "en": "two thousand", "speak": "zweitausend" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Preise: Euro und Cent",
+      "body": "Money talk: **der Euro**, **der Cent**. Ask a price with *Wie viel kostet das?* (\"How much does that cost?\") and answer with *Das kostet …* or *Das macht …* (\"that comes to…\"). Euro and Cent don't change in the plural after a number — *zwei Euro*, not *zwei Euros*.",
+      "callout": "3,50 € is said *drei Euro fünfzig* — just like English \"three fifty\", drop the word Cent."
+    },
+    {
+      "type": "contrast",
+      "title": "Komma und Punkt: die Zahlenfalle",
+      "pairs": [
+        { "left": "Deutsch: 3,50 €", "right": "Englisch: $3.50", "note": "German uses a **comma** where English uses a period for the decimal — read *3,50* as *drei Euro fünfzig*, never \"three comma five zero\"." },
+        { "left": "Deutsch: 1.000", "right": "Englisch: 1,000", "note": "For thousands, German flips it again: a **period** (or a space) marks the thousands, not a comma." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Preise hören",
+      "items": [
+        { "nl": "Das kostet vier Euro zwanzig", "en": "that costs four twenty", "speak": "Das kostet vier Euro zwanzig" },
+        { "nl": "Was kostet das?", "en": "what does that cost?", "speak": "Was kostet das?" },
+        { "nl": "Das macht sechs Euro fünfzig", "en": "that comes to six fifty", "speak": "Das macht sechs Euro fünfzig" },
+        { "nl": "zwei Euro", "en": "two euros", "speak": "zwei Euro" },
+        { "nl": "fünfzig Cent", "en": "fifty cents", "speak": "fünfzig Cent" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "How do you say €7.30 in German?",
+      "options": ["sieben Euro dreißig", "sieben komma drei Euro", "dreißig Euro sieben"],
+      "correct": 0,
+      "explain": "Say the euros, then the cents as a plain number — no \"Cent\" needed, just like English \"seven thirty\"."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the German for 'That costs four euros twenty.'",
+      "answers": ["Das kostet vier Euro zwanzig"],
+      "hint": "Das kostet + Euro-Betrag.",
+      "explain": "Das kostet vier Euro zwanzig — no comma word, no \"Cent\", just run the numbers together."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the price.",
+      "speak": "Das macht neun Euro fünfzig.",
+      "answers": ["Das macht neun Euro fünfzig."]
+    },
+    {
+      "type": "shadow",
+      "title": "Telefonnummern lesen",
+      "lines": [
+        { "nl": "Wie ist deine Nummer?", "en": "What's your number?" },
+        { "nl": "Null eins fünf eins…", "en": "Zero one five one… (mobiles start with 0)" },
+        { "nl": "Ich sage die Zahlen einzeln.", "en": "I say the numbers one by one." },
+        { "nl": "Zwei, zwei, fünf, fünf — doppelt.", "en": "Two, two, five, five — repeated." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena buys breakfast at the Bäckerei and you get her number to meet again.",
+      "lines": [
+        { "speaker": "Lena", "nl": "So, zwei Brötchen und ein Kaffee — das macht drei Euro zwanzig.", "en": "So, two rolls and a coffee — that comes to three twenty.", "spotlight": "*Das macht …* is how you hear a total at the counter." },
+        { "speaker": "You", "nl": "Perfekt, danke! Sag, wie ist deine Telefonnummer?", "en": "Perfect, thanks! Hey, what's your phone number?" },
+        { "speaker": "Lena", "nl": "Klar! Null eins fünf eins, zwei drei vier, fünf sechs sieben acht.", "en": "Sure! 0151, 234, 5678." },
+        { "speaker": "You", "nl": "Danke! Ich notiere das.", "en": "Thanks! I'll note that down." },
+        { "speaker": "Lena", "nl": "Bis bald!", "en": "See you soon!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does the breakfast order come to?", "options": ["Two twenty", "Three twenty", "Three fifty"], "correct": 1 },
+        { "q": "What does Lena give you?", "options": ["Her address", "Her phone number", "Her email"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write out a price you saw today (real or made up) and a phone number, fully spelled out in German words.",
+      "starters": ["Das kostet…", "Meine Nummer ist…"]
+    }
+  ]
+}

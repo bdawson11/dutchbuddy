@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "day-56",
+  "day": 56,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "capstone",
+  "title": "Mein kommendes Jahr",
+  "emoji": "🌟",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Week 8 capstone — plans, opinions and subclauses, then add them to your growing self-introduction",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Rückblick: Woche 8",
+      "body": "Acht Wochen! You can now talk about the **future** (werden + infinitive, or present + time word), make **plans and offers** (wollen, möchten, Sollen wir…?), give **opinions** (ich finde, ich glaube, meiner Meinung nach), build the crucial **subclause** (weil, dass, wenn → verb to the end — the A2→B1 gate!), and **compare** things (größer als, am besten). Today: pull it all into your own story.",
+      "callout": "Der Nebensatz sitzt jetzt in deinem Kopf. Das ist der Sprung zu B1."
+    },
+    {
+      "type": "chips",
+      "title": "Woche 8 — Quick refresh",
+      "items": [
+        { "nl": "Ich werde…", "en": "I will…", "speak": "Ich werde" },
+        { "nl": "Ich möchte…", "en": "I'd like to…", "speak": "Ich möchte" },
+        { "nl": "Ich finde, dass…", "en": "I think that…", "speak": "Ich finde, dass" },
+        { "nl": "…, weil…", "en": "…, because…", "speak": "weil" },
+        { "nl": "besser als", "en": "better than", "speak": "besser als" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence uses werden + infinitive correctly?",
+      "options": ["Ich werde nächstes Jahr mehr Deutsch sprechen.", "Ich werde nächstes Jahr sprechen mehr Deutsch.", "Ich nächstes Jahr werde mehr Deutsch sprechen."],
+      "correct": 0,
+      "explain": "werden stays in position two; the infinitive (sprechen) waits until the very end."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I think that Berlin is expensive, because rents are rising.' (Use ich finde, dass… weil…)",
+      "answers": ["Ich finde, dass Berlin teuer ist, weil die Mieten steigen.", "Ich finde dass Berlin teuer ist, weil die Mieten steigen."],
+      "hint": "Two verb-final clauses in one sentence: dass … ist, weil … steigen.",
+      "explain": "Ich finde, dass Berlin teuer ist, weil die Mieten steigen. — both dass and weil push their verb to the end of their own clause."
+    },
+    {
+      "type": "mcq",
+      "prompt": "How do you say 'the best' idiomatically?",
+      "options": ["am besten", "am gutsten", "meistens gut"],
+      "correct": 0,
+      "explain": "am besten — gut/besser/am besten is fully irregular."
+    },
+    {
+      "type": "builder",
+      "title": "Baue einen Plan mit Meinung",
+      "prompt": "Build a sentence combining a future plan with an opinion and a weil-clause.",
+      "slots": [
+        { "label": "Zukunft", "chips": ["Ich werde nächstes Jahr mehr reisen", "Ich werde mehr Deutsch üben", "Ich werde einen neuen Job suchen"] },
+        { "label": "Meinung", "chips": ["weil ich glaube, dass", "und ich finde, dass"] },
+        { "label": "Grund/Meinung-Ende", "chips": ["es sich lohnt", "das wichtig ist", "das mein Leben besser macht"] }
+      ],
+      "sample": "Ich werde mehr Deutsch üben, weil ich glaube, dass es sich lohnt."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lena asks about your plans for the coming year over a Feierabendbier.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Und, was wirst du dieses Jahr noch machen?", "en": "So, what else will you do this year?" },
+        { "speaker": "You", "nl": "Ich werde weiter Deutsch lernen, weil ich hier richtig leben will.", "en": "I'll keep learning German, because I really want to live here." },
+        { "speaker": "Lena", "nl": "Sehr gut! Und was ist deine Meinung — wird es einfacher?", "en": "Very good! And what's your opinion — will it get easier?" },
+        { "speaker": "You", "nl": "Ich glaube, dass es Schritt für Schritt einfacher wird.", "en": "I think it's getting easier step by step." },
+        { "speaker": "Lena", "nl": "Genau! Und meiner Meinung nach bist du jetzt schon besser als am Anfang.", "en": "Exactly! And in my opinion, you're already better than at the start." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does 'you' plan to keep doing?", "options": ["Stop learning German", "Keep learning German", "Move away"], "correct": 1 },
+        { "q": "What does Lena think about your progress?", "options": ["You're worse than before", "You're already better than at the start", "She doesn't say"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Recap: der Nebensatz-Trick",
+      "pairs": [
+        { "left": "Hauptsatz: Ich bin froh.", "right": "Nebensatz: …, weil ich froh bin.", "note": "The verb always waits at the end after weil/dass/wenn — the single biggest habit to keep from this week." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Meine Geschichte — Teil 8",
+      "prompt": "Extend your growing self-introduction: add a plan for the future and an opinion, using a subclause.",
+      "slots": [
+        { "label": "Plan", "chips": ["Ich werde weiter in Berlin leben", "Ich will mein Deutsch verbessern", "Ich werde nächstes Jahr mehr reisen"] },
+        { "label": "Meinung + Nebensatz", "chips": ["weil ich hier glücklich bin", "weil ich glaube, dass es sich lohnt", "und ich finde, dass das wichtig ist"] }
+      ],
+      "sample": "Ich werde weiter in Berlin leben, weil ich hier glücklich bin."
+    },
+    {
+      "type": "journal",
+      "prompt": "Meine Geschichte, Woche 8! Write your full self-introduction so far: your name, where you're from, your routine, your family and Kiez, food you like, something you did recently, how you've felt, a childhood memory — and now add a plan for next year and an opinion with a weil- or dass-clause. Acht Wochen geschafft — auf dem Weg zu B1!",
+      "starters": ["Ich heiße…", "Ich wohne…", "Früher, als ich klein war,…", "Nächstes Jahr werde ich…", "Ich finde, dass…"],
+      "minSentences": 6
+    }
+  ]
+}
