@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "day-92",
+  "day": 92,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "lesson",
+  "title": "Il periodo ipotetico I: la realtà",
+  "emoji": "🌦",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The real conditional: se + indicativo — likely, everyday 'if' sentences",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il periodo ipotetico I: la realtà",
+      "body": "The 'if' sentence, type one — for things that are **real or likely**. Structure: **se + indicativo**, and an indicativo (or imperative) in the other half. *Se **piove**, **resto** a casa.* *Se **hai** fame, **mangia**!* For a likely future, both halves can go future: *Se **studierai**, **passerai** l'esame.*",
+      "table": {
+        "headers": ["se + ...", "risultato", "esempio"],
+        "rows": [
+          ["presente", "presente", "Se piove, resto a casa."],
+          ["presente", "imperativo", "Se hai fame, mangia!"],
+          ["futuro", "futuro", "Se studierai, passerai."]
+        ]
+      },
+      "callout": "Tipo I = mondo reale. Niente congiuntivo qui: solo indicativo."
+    },
+    {
+      "type": "card",
+      "title": "Tre tipi, una settimana",
+      "body": "This week has three 'if' sentences, from real to impossible. Today: **reale** (*se piove, resto*). Domani: **possibile** (*se avessi tempo, verrei*). Poi: **irreale nel passato** (*se avessi saputo, sarei venuto*). Ogni tipo ha i suoi tempi — li vediamo uno alla volta.",
+      "callout": "Reale = indicativo. Possibile e irreale = congiuntivo + condizionale (giorni 93–94)."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta e ripeti",
+      "items": [
+        { "nl": "Se piove, prendo l'ombrello.", "en": "If it rains, I'll take the umbrella.", "speak": "Se piove, prendo l'ombrello." },
+        { "nl": "Se hai tempo, chiamami.", "en": "If you have time, call me.", "speak": "Se hai tempo, chiamami." },
+        { "nl": "Se parti presto, arrivi in orario.", "en": "If you leave early, you arrive on time.", "speak": "Se parti presto, arrivi in orario." },
+        { "nl": "Se vieni, ti offro un caffè.", "en": "If you come, I'll buy you a coffee.", "speak": "Se vieni, ti offro un caffè." },
+        { "nl": "Se studierai, passerai l'esame.", "en": "If you study, you'll pass the exam.", "speak": "Se studierai, passerai l'esame." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Se + presente vs se + futuro",
+      "pairs": [
+        { "left": "Se piove, resto a casa.", "right": "Se pioverà, resterò a casa.", "note": "stesso senso; il futuro insiste di più sul 'quando succederà'." },
+        { "left": "Se hai fame, mangia.", "right": "Se avrai fame, mangerai.", "note": "il tipo I ammette anche l'imperativo nel risultato." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Se domani ___ bel tempo, andiamo al mare.» (condizione reale)",
+      "options": ["ci sia", "c'è", "ci fosse"],
+      "correct": 1,
+      "explain": "Tipo I = indicativo. *Se c'è bel tempo…* Niente congiuntivo nella condizione reale."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduci: 'If you have time, call me.' — usa *se* + presente.",
+      "answers": ["se hai tempo, chiamami", "se hai tempo chiamami"],
+      "hint": "se + presente (hai) → imperativo (chiamami).",
+      "explain": "*Se hai tempo, chiamami.* Condizione reale: indicativo + imperativo."
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci una condizione reale",
+      "prompt": "Metti insieme un periodo ipotetico di tipo I.",
+      "slots": [
+        { "label": "Se + condizione", "chips": ["Se piove", "Se hai fame", "Se vieni alla festa", "Se parti presto"] },
+        { "label": "Risultato", "chips": ["resto a casa", "mangiamo qualcosa", "ti presento i miei amici", "arrivi in orario"] }
+      ],
+      "sample": "Se piove, resto a casa."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Marco and you make loose weekend plans.",
+      "lines": [
+        { "speaker": "Marco", "nl": "Che fai questo weekend?", "en": "What are you up to this weekend?" },
+        { "speaker": "You", "nl": "Boh, dipende. Se fa bel tempo, vado in bici.", "en": "Dunno, depends. If the weather's nice, I'll bike.", "spotlight": "tipo I: se + presente, presente." },
+        { "speaker": "Marco", "nl": "E se piove?", "en": "And if it rains?" },
+        { "speaker": "You", "nl": "Se piove, resto a casa a studiare.", "en": "If it rains, I'll stay home and study." },
+        { "speaker": "Marco", "nl": "Dai, se hai voglia, passa al bar.", "en": "Come on, if you feel like it, drop by the bar.", "spotlight": "se + presente → imperativo." },
+        { "speaker": "You", "nl": "Volentieri. Se finisco presto, ti raggiungo.", "en": "Gladly. If I finish early, I'll join you." },
+        { "speaker": "Marco", "nl": "Perfetto. Se non ti vedo, ti scrivo.", "en": "Perfect. If I don't see you, I'll text you." },
+        { "speaker": "You", "nl": "Ci sto. A sabato!", "en": "Deal. See you Saturday!" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi tre condizioni reali sul tuo weekend: *se… allora…*. Usa solo l'indicativo (tipo I).",
+      "starters": ["Se fa bel tempo,…", "Se ho tempo,…", "Se piove,…"],
+      "minSentences": 3
+    }
+  ]
+}
