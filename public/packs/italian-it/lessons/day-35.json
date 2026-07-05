@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "day-35",
+  "day": 35,
+  "module": "M05",
+  "unit": "U05",
+  "kind": "capstone",
+  "title": "Cosa hai fatto? Il mio racconto",
+  "emoji": "📖",
+  "level": "A2",
+  "durationMin": [20, 28],
+  "summary": "Week 5 capstone: passato prossimo storytelling with Marco, then layer 5 of the growing self-intro",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Uno sguardo indietro: settimana 5",
+      "body": "This week you learned the **passato prossimo**: with **avere** for most verbs (*ho parlato, ho fatto*), with **essere** for motion and reflexives, with **agreement** on the participle (*sono andata*), the most common **irregular participles**, and how to **choose the right auxiliary**. Plus the train and *timbrare*. Now let's put it all together.",
+      "callout": "From here on, you can tell the story of anything you've done."
+    },
+    {
+      "type": "chips",
+      "title": "Quick refresh — tap through",
+      "items": [
+        { "nl": "Ho fatto colazione.", "en": "I had breakfast.", "speak": "Ho fatto colazione." },
+        { "nl": "Sono andata al mare.", "en": "I went to the sea. (a woman)", "speak": "Sono andata al mare." },
+        { "nl": "Mi sono svegliato presto.", "en": "I woke up early. (a man)", "speak": "Mi sono svegliato presto." },
+        { "nl": "Ho preso il treno regionale.", "en": "I took the regional train.", "speak": "Ho preso il treno regionale." },
+        { "nl": "Ho visto un bel tramonto.", "en": "I saw a beautiful sunset.", "speak": "Ho visto un bel tramonto." }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Warm up — shadow the week",
+      "lines": [
+        { "nl": "Ho parlato con Marco ieri.", "en": "I talked with Marco yesterday." },
+        { "nl": "Sono andata al mercato sabato.", "en": "I went to the market on Saturday. (a woman)" },
+        { "nl": "Ho preso il treno regionale.", "en": "I took the regional train." },
+        { "nl": "Mi sono svegliato presto.", "en": "I woke up early. (a man)" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Marco, about last night: 'I stayed home.' (he's a man) Which is correct?",
+      "options": ["Ho rimasto a casa.", "Sono rimasto a casa.", "Sono rimasta a casa."],
+      "correct": 1,
+      "explain": "*Rimanere* takes essere; Marco is a man, so -o: *sono rimasto*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which participle goes with *prendere* (to take)?",
+      "options": ["prendetto", "preso", "prenduto"],
+      "correct": 1,
+      "explain": "*Prendere → preso* — irregular, one of the most common of all."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'I woke up late.' (a woman speaking)",
+      "answers": ["mi sono svegliata tardi"],
+      "hint": "reflexive + essere + feminine agreement.",
+      "explain": "*Mi sono svegliata tardi* — reflexive, essere, -a agreement."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ho comprato del formaggio al mercato.",
+      "answers": ["ho comprato del formaggio al mercato", "ho comprato del formaggio al mercato."]
+    },
+    {
+      "type": "contrast",
+      "title": "Check the auxiliary before you finish the sentence",
+      "pairs": [
+        { "left": "*Ho dormito* — avere, no agreement", "right": "*Sono rimasto/a* — essere, agrees with the subject", "note": "The auxiliary changes the rules — check it before you finish the sentence." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, Marco wants to hear all about your week",
+      "lines": [
+        { "speaker": "Marco", "nl": "Allora, cosa hai fatto questa settimana? Raccontami tutto!", "en": "So, what did you do this week? Tell me everything!" },
+        { "speaker": "You", "nl": "Ho fatto un sacco di cose! Ho preso il treno e ho visitato il mercato.", "en": "I did a ton of things! I took the train and visited the market." },
+        { "speaker": "Marco", "nl": "Bello! Hai comprato qualcosa di buono?", "en": "Nice! Did you buy anything good?" },
+        { "speaker": "You", "nl": "Sì, ho comprato del formaggio e ho parlato con un contadino simpatico.", "en": "Yes, I bought some cheese and talked with a nice farmer." },
+        { "speaker": "Marco", "nl": "E poi? Hai fatto altro?", "en": "And then? Did you do anything else?" },
+        { "speaker": "You", "nl": "Ho letto un libro e ho dormito tanto — una settimana perfetta.", "en": "I read a book and slept a lot — a perfect week.", "spotlight": "All avere-verbs here: no agreement to worry about, even though several are irregular." },
+        { "speaker": "Marco", "nl": "Che invidia! Io invece sono rimasto in ufficio tutta la settimana.", "en": "So jealous! I, on the other hand, stayed in the office all week." },
+        { "speaker": "You", "nl": "Magari vieni anche tu la prossima volta?", "en": "Maybe you'll come too next time?" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch the story?",
+      "questions": [
+        { "q": "What did 'You' buy at the market?", "options": ["Cheese, and talked with a farmer", "Shoes", "Nothing"], "correct": 0 },
+        { "q": "Where did Marco stay all week?", "options": ["At the beach", "In the office", "At the market"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Il mio racconto — livello 5",
+      "prompt": "Add to your growing self-intro: something you did recently, in the passato prossimo.",
+      "slots": [
+        { "label": "Cosa hai fatto", "chips": ["Ho visto un amico", "Sono andato al mercato", "Sono andata al mercato", "Ho preso il treno per Firenze"] },
+        { "label": "Quando", "chips": ["ieri", "la settimana scorsa", "sabato scorso", "stamattina"] },
+        { "label": "Con chi / dove", "chips": ["con Marco", "al bar", "in centro", "da solo/a"] }
+      ],
+      "sample": "La settimana scorsa sono andata al mercato con Giulia."
+    },
+    {
+      "type": "journal",
+      "prompt": "Il mio racconto — livello 5! Add a sentence to your growing self-intro about something you did recently, using the passato prossimo — avere or essere, and don't forget the agreement if you use essere. This is the halfway point of A2. Complimenti!",
+      "starters": ["La settimana scorsa…", "Ieri ho…", "Il weekend scorso sono…"],
+      "minSentences": 3
+    }
+  ]
+}

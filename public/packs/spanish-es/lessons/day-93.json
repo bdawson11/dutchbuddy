@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-93",
+  "day": 93,
+  "module": "M14",
+  "unit": "U14",
+  "kind": "lesson",
+  "title": "Si tuviera… : la hipótesis irreal",
+  "emoji": "🔀",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Type-2 conditionals: si + imperfect subjunctive, simple conditional — and never 'si + condicional'.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El esquema que no falla",
+      "body": "Para una hipótesis **irreal o poco probable del presente**, España usa un esquema fijo: **Si + imperfecto de subjuntivo, + condicional simple**. *Si **tuviera** tiempo, **iría** al gimnasio* (pero no lo tengo). Las dos mitades pueden ir en cualquier orden; si empiezas por *si*, pon coma. Todo tu trabajo de la semana 13 (el subjuntivo imperfecto) era para llegar aquí.",
+      "table": {
+        "headers": ["Si + imperf. subjuntivo", "Condicional"],
+        "rows": [
+          ["Si tuviera dinero,", "viajaría más"],
+          ["Si fuera tú,", "no lo haría"],
+          ["Si pudieras venir,", "sería genial"],
+          ["Si supiera la respuesta,", "te la diría"]
+        ]
+      },
+      "callout": "Si + IMPERFECTO DE SUBJUNTIVO → CONDICIONAL."
+    },
+    {
+      "type": "card",
+      "title": "El error que delata al extranjero",
+      "body": "En la parte del *si* **nunca** va el condicional. *Si **tendría** tiempo* está **mal**; lo correcto es *si **tuviera** tiempo*. Este fallo es la señal número uno de que alguien no es nativo, así que grábatelo: **detrás de *si* hipotético, subjuntivo; el condicional va en la otra mitad.**",
+      "callout": "❌ Si tendría… → ✅ Si tuviera…"
+    },
+    {
+      "type": "contrast",
+      "title": "Real vs irreal",
+      "pairs": [
+        { "left": "Si tengo tiempo, iré. (real)", "right": "Si tuviera tiempo, iría. (irreal)", "note": "*Tengo/iré*: lo veo posible hoy. *Tuviera/iría*: hipótesis que no espero que ocurra." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Toca y repite",
+      "items": [
+        { "nl": "si pudiera, te ayudaría", "en": "if I could, I'd help you", "speak": "si pudiera, te ayudaría" },
+        { "nl": "si fuera rico, no trabajaría", "en": "if I were rich, I wouldn't work", "speak": "si fuera rico, no trabajaría" },
+        { "nl": "yo que tú, lo pensaría", "en": "if I were you, I'd think about it", "speak": "yo que tú, lo pensaría" },
+        { "nl": "si viviéramos más cerca…", "en": "if we lived closer…", "speak": "si viviéramos más cerca" },
+        { "nl": "¿qué harías si te tocara la lotería?", "en": "what would you do if you won the lottery?", "speak": "¿qué harías si te tocara la lotería?" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Completa: «Si ___ más barato, me lo compraría.» (ser)",
+      "options": ["es", "fuera", "sería", "será"],
+      "correct": 1,
+      "explain": "Tras *si* hipotético va **subjuntivo imperfecto**: *fuera*. *Sería* iría en la otra mitad (*me lo compraría*), nunca detrás de *si*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduce: «If I were you, I wouldn't say anything.» → Si ___ tú, no diría nada.",
+      "answers": ["fuera", "fuese"],
+      "hint": "Imperfecto de subjuntivo de ser.",
+      "explain": "**Si fuera tú, no diría nada.** *Fuera* (subjuntivo) en la condición; *diría* (condicional) en el resultado."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "si tuviera más tiempo, leería más",
+      "answers": ["si tuviera más tiempo, leería más", "si tuviera mas tiempo, leeria mas", "si tuviese más tiempo, leería más"]
+    },
+    {
+      "type": "builder",
+      "title": "Sueña un poco",
+      "prompt": "Monta una hipótesis irreal completa.",
+      "slots": [
+        { "label": "Si + imperf. subj.", "chips": ["Si me tocara la lotería,", "Si no trabajara,", "Si hablara cinco idiomas,"] },
+        { "label": "Condicional", "chips": ["me iría a vivir al mar", "viajaría por todo el mundo", "trabajaría en lo que quisiera"] }
+      ],
+      "sample": "Si me tocara la lotería, me iría a vivir al mar."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You and Rafa play the classic lottery daydream.",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Va, dime: si te tocara el Gordo mañana, ¿qué harías?", "en": "Come on, tell me: if you won the jackpot tomorrow, what would you do?" },
+        { "speaker": "You", "nl": "Uf, si me tocara, dejaría el trabajo y me dedicaría a viajar.", "en": "Ugh, if I won, I'd quit my job and spend my time traveling.", "spotlight": "*si me tocara* (subj.) → *dejaría, dedicaría* (condicional)." },
+        { "speaker": "Rafa", "nl": "¿Ni un mes aguantarías currando?", "en": "You wouldn't last even a month working?" },
+        { "speaker": "You", "nl": "¡Qué va! Y si fueras tú, ¿no harías lo mismo?", "en": "No way! And if you were me, wouldn't you do the same?" },
+        { "speaker": "Rafa", "nl": "Hombre, yo montaría un estudio de grabación y me haría famoso. Modestamente.", "en": "Well, I'd set up a recording studio and become famous. Modestly." },
+        { "speaker": "You", "nl": "Ya, ya. Si fuera tan fácil, todos seríamos estrellas.", "en": "Sure, sure. If it were that easy, we'd all be stars." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Qué harían?",
+      "questions": [
+        { "q": "¿Qué haría You si le tocara la lotería?", "options": ["Seguiría trabajando", "Dejaría el trabajo y viajaría", "Montaría un estudio"], "correct": 1 },
+        { "q": "¿Y Rafa?", "options": ["Un estudio de grabación", "Se iría al mar", "Nada distinto"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe 4 hipótesis irreales sobre tu vida: *Si pudiera…, si viviera en…, si hablara…, si no tuviera que…* + condicional. Cuidado: detrás de *si*, subjuntivo, nunca condicional.",
+      "starters": ["Si pudiera vivir en cualquier sitio,…", "Si no tuviera que trabajar,…", "Si hablara español perfecto,…"],
+      "minSentences": 4
+    }
+  ]
+}
