@@ -1,5 +1,11 @@
 # DutchBuddy → Claude Design handoff
 
+> **⚠️ SUPERSEDED.** The app is now the unified multi-language **YapWorld** (login
+> → language picker → course), not the single DutchBuddy build this doc assumes.
+> Use **`docs/DESIGN-HANDOFF.md`** as the canonical handoff. In particular the
+> "No login UI" constraint below is no longer true. This file remains only as
+> per-pack fixture notes for the Dutch course.
+
 The **content deck is complete**: `manifest.json` + `lessons/day-01.json … day-84.json`
 (84 lessons), all passing `tools/validate.js --strict` with zero errors/warnings.
 This is the data your components render. Everything below is *feel*, not a clone.
