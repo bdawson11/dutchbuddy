@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-12",
+  "day": 12,
+  "module": "M02",
+  "unit": "U02",
+  "kind": "lesson",
+  "title": "Fragen und Inversion",
+  "emoji": "❓",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "How to ask yes/no questions by inversion, and the six W-words that start every real question",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ja/Nein-Fragen: Inversion",
+      "body": "To ask a yes/no question, just **swap the verb and subject**: *Du kommst.* → *Kommst du?* (You're coming. → Are you coming?) *Du hast Zeit.* → *Hast du Zeit?* No extra word needed — German doesn't do an English-style \"do you…\".",
+      "table": {
+        "headers": ["Aussage", "Frage"],
+        "rows": [
+          ["Du kommst.", "Kommst du?"],
+          ["Du hast Zeit.", "Hast du Zeit?"],
+          ["Sie wohnt in Berlin.", "Wohnt sie in Berlin?"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Fragen hören",
+      "items": [
+        { "nl": "Kommst du?", "en": "are you coming?", "speak": "Kommst du?" },
+        { "nl": "Hast du Zeit?", "en": "do you have time?", "speak": "Hast du Zeit?" },
+        { "nl": "Wohnt sie in Berlin?", "en": "does she live in Berlin?", "speak": "Wohnt sie in Berlin?" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "W-Fragen: wer, was, wo, wann, wie, warum",
+      "body": "Question words start the sentence, and the verb still comes right after — **slot two, no exceptions**: *Wo wohnst du?* (Where do you live?), *Wann kommst du?* (When are you coming?), *Warum lernst du Deutsch?* (Why are you learning German?). The six essentials: **wer** (who), **was** (what), **wo** (where), **wann** (when), **wie** (how), **warum** (why).",
+      "callout": "Same V2 law as everywhere else — the question word just takes slot one."
+    },
+    {
+      "type": "chips",
+      "title": "W-Wörter hören",
+      "items": [
+        { "nl": "wer", "en": "who", "speak": "wer" },
+        { "nl": "was", "en": "what", "speak": "was" },
+        { "nl": "wo", "en": "where", "speak": "wo" },
+        { "nl": "wann", "en": "when", "speak": "wann" },
+        { "nl": "wie", "en": "how", "speak": "wie" },
+        { "nl": "warum", "en": "why", "speak": "warum" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Zwei Fragetypen, ein Verbplatz",
+      "pairs": [
+        { "left": "Du wohnst in Berlin.", "right": "Wo wohnst du?", "note": "Swap in a question word up front; the verb still sits in slot two." },
+        { "left": "Kommst du?", "right": "Wann kommst du?", "note": "Yes/no inversion vs. a W-question — same verb position either way." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is the correct question for 'Where do you live?'",
+      "options": ["Du wohnst wo?", "Wo wohnst du?", "Wo du wohnst?"],
+      "correct": 1,
+      "explain": "*Wo* takes slot one, the verb *wohnst* takes slot two, and *du* follows — Wo wohnst du?"
+    },
+    {
+      "type": "typed",
+      "prompt": "Turn into a question: 'Du hast Zeit.'",
+      "answers": ["Hast du Zeit?"],
+      "hint": "Swap the verb and the subject.",
+      "explain": "Hast du Zeit? — the verb *hast* jumps to the front, no extra word needed."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type the question.",
+      "speak": "Wann kommst du?",
+      "answers": ["Wann kommst du?"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Aylin is getting to know you better over coffee and asks about your life in Berlin.",
+      "lines": [
+        { "speaker": "Aylin", "nl": "Wie lange wohnst du schon in Berlin?", "en": "How long have you been living in Berlin already?" },
+        { "speaker": "You", "nl": "Erst drei Monate.", "en": "Only three months." },
+        { "speaker": "Aylin", "nl": "Und wo wohnst du genau?", "en": "And where exactly do you live?" },
+        { "speaker": "You", "nl": "In Neukölln. Die Wohnung ist klein, aber schön.", "en": "In Neukölln. The apartment is small, but nice." },
+        { "speaker": "Aylin", "nl": "Warum bist du in Berlin?", "en": "Why are you in Berlin?" },
+        { "speaker": "You", "nl": "Ich lerne Deutsch und ich arbeite hier.", "en": "I'm learning German and I work here." },
+        { "speaker": "Aylin", "nl": "Wie findest du die Stadt?", "en": "How do you find the city?", "spotlight": "*Wie findest du…?* — a natural way to ask someone's opinion." },
+        { "speaker": "You", "nl": "Ich finde sie super!", "en": "I think it's great!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "How long has the learner lived in Berlin?", "options": ["One month", "Three months", "One year"], "correct": 1 },
+        { "q": "What does Aylin ask about?", "options": ["Where exactly you live", "How much rent costs", "Who your roommate is"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write 3 questions you'd ask a new friend in Berlin — use at least one W-word and one yes/no inversion question.",
+      "starters": ["Wo…", "Wann…", "Hast du…"]
+    }
+  ]
+}

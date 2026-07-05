@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-68",
+  "day": 68,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "lesson",
+  "title": "Conectores: hilar el argumento",
+  "emoji": "🔀",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Linking your ideas into an argument: además, sin embargo, aunque, por eso, así que, es que",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Añadir y contrastar",
+      "body": "Connectors glue your ideas into an argument. To **add**: *además* (besides), *también*. To **contrast**: *pero* (but), *sin embargo* (however), *aunque* (although).",
+      "callout": "*sin embargo* usually opens a new sentence with a comma: *…. Sin embargo, no estoy de acuerdo.*"
+    },
+    {
+      "type": "card",
+      "title": "Consecuencia y causa",
+      "body": "To show a **result**: *por eso* (that's why), *así que* (so), *por lo tanto* (therefore, more formal). To give a **reason** casually, Spain leans on *es que*: *No voy, **es que** estoy cansado.*",
+      "table": {
+        "headers": ["Conector", "Función", "Ejemplo"],
+        "rows": [
+          ["además", "añade", "Es tarde; además, llueve"],
+          ["sin embargo", "contrasta", "Quiero ir; sin embargo, no puedo"],
+          ["aunque", "concede", "Aunque llueve, salgo"],
+          ["por eso", "consecuencia", "Llueve, por eso me quedo"],
+          ["así que", "consecuencia", "Llueve, así que me quedo"]
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "title": "aunque: indicativo o subjuntivo",
+      "body": "**aunque** takes the **indicative** for a **real fact** — *Aunque **está** lloviendo, salgo* (it IS raining) — but the **subjunctive** for something **hypothetical** or merely conceded — *Aunque **llueva**, saldré* (even if it rains).",
+      "callout": "Real fact → indicativo. «Even if» (incierto) → subjuntivo."
+    },
+    {
+      "type": "chips",
+      "title": "Toca para oír los conectores",
+      "items": [
+        { "nl": "Está lejos; sin embargo, va.", "en": "It's far; however, she's going.", "speak": "está lejos, sin embargo, va" },
+        { "nl": "Llueve, así que nos quedamos.", "en": "It's raining, so we're staying.", "speak": "llueve, así que nos quedamos" },
+        { "nl": "Aunque es difícil, lo hace.", "en": "Although it's hard, she does it.", "speak": "aunque es difícil, lo hace" },
+        { "nl": "Por eso se muda.", "en": "That's why she's moving.", "speak": "por eso se muda" },
+        { "nl": "Además, gana más.", "en": "Besides, she earns more.", "speak": "además, gana más" },
+        { "nl": "Es que no tengo tiempo.", "en": "The thing is, I don't have time.", "speak": "es que no tengo tiempo" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Valencia le gusta mucho; ___, echará de menos Madrid.» ¿Qué conector encaja?",
+      "options": ["además", "sin embargo", "así que"],
+      "correct": 1,
+      "explain": "Hay un contraste (le gusta / pero echará de menos) → *sin embargo*. *además* añadiría, *así que* daría una consecuencia."
+    },
+    {
+      "type": "mcq",
+      "prompt": "«___ mañana, la ayudamos con la mudanza.» (aún no sabemos si lloverá)",
+      "options": ["Aunque llueve", "Aunque llueva", "Aunque llovía"],
+      "correct": 1,
+      "explain": "Es hipotético («even if it rains», no lo sabemos) → subjuntivo: *aunque llueva*. Con un hecho real usarías indicativo: *aunque llueve*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Une marcando la consecuencia («that's why»): «Le ofrecieron el puesto. ___, acepta.»",
+      "answers": ["por eso", "Por eso"],
+      "explain": "*Por eso* marca la consecuencia: le ofrecieron el puesto, *por eso* acepta."
+    },
+    {
+      "type": "builder",
+      "title": "Monta un argumento",
+      "prompt": "Encadena dos ideas con un conector, eligiendo una opción por columna.",
+      "slots": [
+        { "label": "Idea 1", "chips": ["Valencia es más barata", "El trabajo es mejor", "Tiene playa"] },
+        { "label": "Conector", "chips": ["sin embargo,", "además,", "así que"] },
+        { "label": "Idea 2", "chips": ["está lejos de sus amigos", "gana más dinero", "se muda en junio"] }
+      ],
+      "sample": "El trabajo es mejor; además, gana más dinero."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía y tú sopesáis los pros y los contras de la decisión de Sofía (aún sin cerrar).",
+      "lines": [
+        { "speaker": "Lucía", "nl": "A ver, el trabajo es una pasada; sin embargo, se va sola.", "en": "Look, the job is amazing; however, she's going alone." },
+        { "speaker": "You", "nl": "Ya, aunque en Valencia tiene a su prima, ¿no?", "en": "Right, although she's got her cousin in Valencia, no?" },
+        { "speaker": "Lucía", "nl": "Es verdad. Además, la ciudad le encanta.", "en": "True. Besides, she loves the city." },
+        { "speaker": "You", "nl": "Entonces, ¿tú qué crees que va a hacer?", "en": "So, what do you think she's going to do?" },
+        { "speaker": "Lucía", "nl": "Yo creo que acepta. Es una oportunidad enorme, así que…", "en": "I think she'll accept. It's a huge opportunity, so…", "spotlight": "así que introduces the consequence." },
+        { "speaker": "You", "nl": "Sí. Aunque le dé pena, es lo mejor para ella.", "en": "Yeah. Even if it makes her sad, it's the best thing for her.", "spotlight": "aunque le dé pena — subjunctive: conceding the hypothetical." },
+        { "speaker": "Lucía", "nl": "Exacto. Por eso deberíamos apoyarla, no darle pena.", "en": "Exactly. That's why we should support her, not make her feel bad." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Qué duda hay sobre la mudanza, según Lucía?", "options": ["Que se va sola", "Que el trabajo es malo", "Que no le gusta la ciudad"], "correct": 0 },
+        { "q": "¿A quién tiene Sofía en Valencia?", "options": ["A su hermano", "A su prima", "A nadie"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe un pequeño argumento (4–5 frases) sobre una decisión importante, encadenando ideas con *además, sin embargo, aunque, por eso* y *así que*.",
+      "starters": ["Por un lado…; sin embargo,…", "Además,…", "Aunque…, creo que…"],
+      "minSentences": 4
+    }
+  ]
+}

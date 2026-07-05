@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-82",
+  "day": 82,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "Modismos y dichos",
+  "emoji": "🎭",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Twelve Spanish idioms that don't translate word-for-word — estar en las nubes, ser la leche, dar la lata, ponerse las botas…",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Modismos: cuando las palabras mienten",
+      "body": "Spanish is full of **modismos** — idioms whose words say one thing and mean another. *Estar en las nubes* isn't about clouds; it's daydreaming. Learn a handful and you'll catch jokes, headlines and *cotilleo* you'd otherwise miss. Today: **twelve** that don't translate word-for-word.",
+      "callout": "Don't translate them literally — learn each one as a single block of meaning."
+    },
+    {
+      "type": "card",
+      "title": "Doce modismos que no se traducen",
+      "body": "Read the meaning first, then enjoy how strange the literal image is.",
+      "table": {
+        "headers": ["Modismo", "Significado (literal)"],
+        "rows": [
+          ["estar en las nubes", "distraído, soñando (to be in the clouds)"],
+          ["ser la leche", "increíble, el mejor (to be the milk)"],
+          ["dar la lata", "molestar, insistir (to give the tin)"],
+          ["ponerse las botas", "hartarse de comer (to put your boots on)"],
+          ["estar hasta las narices", "estar harto (to be up to your noses)"],
+          ["costar un ojo de la cara", "ser carísimo (to cost an eye)"],
+          ["tomar el pelo", "engañar en broma (to take the hair)"],
+          ["meter la pata", "cometer un error (to put the paw in)"],
+          ["ser pan comido", "ser muy fácil (to be eaten bread)"],
+          ["echar una mano", "ayudar (to throw a hand)"],
+          ["estar como una cabra", "estar loco (to be like a goat)"],
+          ["no tener pelos en la lengua", "hablar sin filtro (no hairs on the tongue)"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Toca para oír cinco",
+      "items": [
+        { "nl": "¡Es la leche!", "en": "it's amazing!", "speak": "¡Es la leche!" },
+        { "nl": "¡No me tomes el pelo!", "en": "don't pull my leg!", "speak": "¡No me tomes el pelo!" },
+        { "nl": "Me estás dando la lata.", "en": "you're bugging me", "speak": "Me estás dando la lata." },
+        { "nl": "Ha sido pan comido.", "en": "it was a piece of cake", "speak": "Ha sido pan comido." },
+        { "nl": "¿Me echas una mano?", "en": "can you give me a hand?", "speak": "¿Me echas una mano?" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Tu amigo lleva media hora insistiendo con el mismo tema. ¿Qué modismo encaja?",
+      "options": ["Me está dando la lata", "Es pan comido", "Se ha puesto las botas"],
+      "correct": 0,
+      "explain": "*Dar la lata* = to pester or nag on and on. *Pan comido* = super easy; *ponerse las botas* = to stuff yourself — neither fits being pestered."
+    },
+    {
+      "type": "contrast",
+      "title": "Lo que dice vs lo que significa",
+      "pairs": [
+        { "left": "costar un ojo de la cara (to cost an eye of the face)", "right": "= ser carísimo (to be really expensive)", "note": "The literal image is gruesome; the meaning is just 'it cost a fortune'. *El piso costó un ojo de la cara.*" }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Your friend says the exam was really easy. Complete the idiom: 'Ha sido ___ ___.' (a piece of cake)",
+      "answers": ["pan comido", "ha sido pan comido"],
+      "hint": "'bread' + a past participle.",
+      "explain": "*Ha sido pan comido* — 'it was eaten bread', i.e. a piece of cake."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa tells Lucía about last night's dinner — idioms flying",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Anoche cenamos en casa de Nacho y nos pusimos las botas.", "en": "Last night we had dinner at Nacho's and we stuffed ourselves." },
+        { "speaker": "Lucía", "nl": "¡Qué envidia! ¿Cocinó él?", "en": "So jealous! Did he cook?" },
+        { "speaker": "Rafa", "nl": "Sí, y está como una cabra: hizo cinco platos.", "en": "Yeah, and he's nuts: he made five dishes.", "spotlight": "*estar como una cabra* = to be (lovably) crazy." },
+        { "speaker": "Lucía", "nl": "Ese Nacho es la leche. ¿Y el peque?", "en": "That Nacho is the best. And the little one?" },
+        { "speaker": "Rafa", "nl": "Dando la lata hasta las doce, pero majísimo.", "en": "Being a pest until midnight, but so lovely." },
+        { "speaker": "You", "nl": "Jo, y yo estaba en las nubes y me olvidé de ir.", "en": "Ugh, and I was daydreaming and forgot to go." },
+        { "speaker": "Rafa", "nl": "¡No me tomes el pelo! ¿Te lo perdiste?", "en": "Don't pull my leg! You missed it?" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Qué hizo Nacho anoche?", "options": ["Cocinó cinco platos", "Dio la lata", "Se quedó en las nubes"], "correct": 0 },
+        { "q": "*Ponerse las botas* significa…", "options": ["ponerse los zapatos", "comer muchísimo", "enfadarse"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Elige tres modismos de hoy y escribe una frase con cada uno sobre tu vida real: algo que te costó un ojo de la cara, algo que fue pan comido, alguien que está como una cabra… ¡Sé creativo/a!",
+      "starters": ["El otro día me puse las botas con…", "Fue pan comido…", "Mi… está como una cabra."],
+      "minSentences": 3
+    }
+  ]
+}

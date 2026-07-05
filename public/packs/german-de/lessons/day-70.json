@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "day-70",
+  "day": 70,
+  "module": "M10",
+  "unit": "U10",
+  "kind": "capstone",
+  "title": "Meine Geschichte: meine große Entscheidung",
+  "emoji": "✉️",
+  "level": "B1",
+  "durationMin": [20, 30],
+  "summary": "Week-10 capstone — pull the dative, two-way prepositions, reflexives and verb clusters together, then add a big decision (dative + subclause) to your growing self-introduction.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Rückblick: Woche 10 — die dichte Woche",
+      "body": "Das war die gefürchtete Woche — und du hast sie überlebt. **Dativ-Präpositionen** (*mit, bei, zu, aus…*), **Dativ-Verben** (*helfen, danken, gefallen*), die **Wechselpräpositionen** (*wohin?* → Akkusativ, *wo?* → Dativ), das **Passiv** (*hier wird gebaut*), **reflexive** Verben (*sich freuen, sich entscheiden*) und die **Satzklammer**. Und Aylin? Die ist jetzt in München. Heute geht's um **deine** große Entscheidung.",
+      "callout": "Fälle unter Zeitdruck sind schwer. Du machst das schon richtig gut — weiter so."
+    },
+    {
+      "type": "chips",
+      "title": "Woche 10 auf einen Blick — tap to hear",
+      "items": [
+        { "nl": "Ich helfe dir gern.", "en": "I'm glad to help you.", "speak": "Ich helfe dir gern." },
+        { "nl": "Das gefällt mir.", "en": "I like that.", "speak": "Das gefällt mir." },
+        { "nl": "Ich stelle es auf den Tisch.", "en": "I put it on the table.", "speak": "Ich stelle es auf den Tisch." },
+        { "nl": "Es steht auf dem Tisch.", "en": "It's on the table.", "speak": "Es steht auf dem Tisch." },
+        { "nl": "Ich habe mich entschieden.", "en": "I've decided.", "speak": "Ich habe mich entschieden." },
+        { "nl": "Ich will nach München ziehen.", "en": "I want to move to Munich.", "speak": "Ich will nach München ziehen." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wähl den richtigen Satz.",
+      "options": ["Die neue Stadt gefällt mich.", "Die neue Stadt gefällt mir.", "Die neue Stadt gefällt ich."],
+      "correct": 1,
+      "explain": "*gefallen* takes the **Dativ** → *mir*. Die Stadt is the subject; *mir* is the one it pleases."
+    },
+    {
+      "type": "mcq",
+      "prompt": "'The lamp is standing on the desk.' — Welcher Satz stimmt?",
+      "options": ["Die Lampe steht auf den Schreibtisch.", "Die Lampe steht auf dem Schreibtisch.", "Die Lampe steht auf der Schreibtisch."],
+      "correct": 1,
+      "explain": "*stehen* = position, *wo?* → **Dativ**. Masculine *der → dem*: *auf dem Schreibtisch*."
+    },
+    {
+      "type": "typed",
+      "prompt": "'I've decided.' → Ich ___ ___ entschieden.",
+      "answers": ["habe mich", "Ich habe mich entschieden", "Ich habe mich entschieden."],
+      "hint": "Perfekt of *sich entscheiden* — reflexive pronoun after the finite verb.",
+      "explain": "*Ich habe mich entschieden.* Reflexive *mich* right after *habe*, participle *entschieden* at the end."
+    },
+    {
+      "type": "contrast",
+      "title": "Noch einmal: wohin ↔ wo",
+      "pairs": [
+        { "left": "Ich ziehe nach München. (wohin)", "right": "Ich wohne in München. (wo)", "note": "*nach* + city for the goal; *in München* (Dativ) for living there." },
+        { "left": "Ich stelle die Kiste in den Flur. (wohin, Akk.)", "right": "Die Kiste steht im Flur. (wo, Dat.)", "note": "*in den Flur* → *im Flur* (*in dem*)." }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type it.",
+      "speak": "Ich habe mich entschieden, nach München zu ziehen.",
+      "answers": ["Ich habe mich entschieden, nach München zu ziehen", "Ich habe mich entschieden nach München zu ziehen", "Ich habe mich entschieden, nach München zu ziehen."]
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the Kneipe with Jonas, a week after Aylin's move. He wants the full story.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Und? Wie war Aylins Umzug? Erzähl mal.", "en": "So? How was Aylin's move? Tell me.", "spotlight": "*Erzähl mal* — Jonas the gossip, particle *mal* softening the command." },
+        { "speaker": "You", "nl": "Anstrengend, aber schön. Wir haben ihr mit allem geholfen.", "en": "Exhausting, but nice. We helped her with everything.", "spotlight": "*Wir haben ihr … geholfen* — *helfen* + Dativ *ihr*." },
+        { "speaker": "Jonas", "nl": "Und? Gefällt ihr München?", "en": "And? Does she like Munich?", "spotlight": "*Gefällt ihr München?* — gefallen + Dativ." },
+        { "speaker": "You", "nl": "Total. Sie hat mir geschrieben, dass sie sich schon zu Hause fühlt.", "en": "Totally. She wrote me that she already feels at home.", "spotlight": "*…, dass sie sich … fühlt* — reported speech + reflexive at the clause end." },
+        { "speaker": "Jonas", "nl": "Krass, wie schnell so eine Entscheidung alles ändert. Ne?", "en": "Wild how fast a decision like that changes everything. Right?", "spotlight": "*Ne?* — Jonas's tag question." },
+        { "speaker": "You", "nl": "Ja. Ehrlich, es macht mir auch Mut für meine eigenen Pläne.", "en": "Yeah. Honestly, it gives me courage for my own plans too.", "spotlight": "*es macht mir Mut* — Dativ *mir*." },
+        { "speaker": "Jonas", "nl": "Oh? Hast du auch eine große Entscheidung getroffen?", "en": "Oh? Have you made a big decision too?" },
+        { "speaker": "You", "nl": "Vielleicht. Ich erzähl's dir gleich — in meiner Geschichte.", "en": "Maybe. I'll tell you in a sec — in my story." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Verstanden?",
+      "questions": [
+        { "q": "Wobei haben alle Aylin geholfen?", "options": ["mit allem beim Umzug", "bei der Jobsuche", "beim Deutschlernen"], "correct": 0 },
+        { "q": "Wie fühlt sich Aylin in München laut Nachricht?", "options": ["fremd", "schon zu Hause", "unglücklich"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Meine Geschichte — Teil 10: meine große Entscheidung",
+      "prompt": "Add this week's layer: a big decision, with a subclause and the dative. Aylin's move is your model — but make it yours (real or invented).",
+      "slots": [
+        { "label": "Die Entscheidung", "chips": ["Ich habe mich entschieden,", "Ich habe beschlossen,", "Vor Kurzem habe ich mich entschieden,"] },
+        { "label": "… was du tust (zu + Infinitiv)", "chips": ["nach Berlin zu ziehen", "einen neuen Job zu suchen", "in Deutschland zu bleiben"] },
+        { "label": "Grund mit Dativ (weil …)", "chips": ["weil mir die Stadt gefällt", "weil mir die Arbeit wichtig ist", "weil es mir hier gut geht"] }
+      ],
+      "sample": "Ich habe mich entschieden, nach Berlin zu ziehen, weil mir die Stadt gefällt."
+    },
+    {
+      "type": "journal",
+      "prompt": "Meine Geschichte, Woche 10! Erzähl deine ganze Geschichte weiter — und füg diese Woche eine **große Entscheidung** hinzu: Was hast du entschieden, und warum (mit *weil* und einem Dativ wie *mir gefällt…* / *mir ist … wichtig*)? Denk an alle Schichten: Name, Herkunft, Familie, was du gern machst, etwas aus der Vergangenheit, ein Plan, und jetzt deine Entscheidung. Aylins Umzug war dein Vorbild. Woche 10 geschafft — die schwerste Woche liegt hinter dir!",
+      "starters": ["Ich heiße … und ich komme aus …", "Ich lerne Deutsch, weil …", "Vor Kurzem habe ich eine große Entscheidung getroffen:", "Ich habe mich entschieden, … zu …, weil mir …"],
+      "minSentences": 5
+    }
+  ]
+}

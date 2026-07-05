@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-82",
+  "day": 82,
+  "module": "M12",
+  "unit": "U12",
+  "kind": "lesson",
+  "title": "Modi di dire e proverbi",
+  "emoji": "🐺",
+  "level": "B1",
+  "durationMin": [15, 25],
+  "summary": "Twelve idioms and proverbs that make no sense word-for-word — and everything sense in Italian",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Non tradurre, capisci",
+      "body": "Every language has phrases that fall apart if you translate them literally. In Italian you wish someone luck by sending them **into the wolf's mouth**, and you say something 'cost an eye out of your head'. Learn the **meaning**, not the words — and suddenly you understand jokes, headlines, and grandmothers. Here are twelve to carry with you.",
+      "callout": "*In bocca al lupo!* literally = 'into the wolf's mouth'. It means: good luck!"
+    },
+    {
+      "type": "chips",
+      "title": "I primi — tap to hear",
+      "items": [
+        { "nl": "In bocca al lupo!", "en": "Good luck! (lit. into the wolf's mouth)", "speak": "In bocca al lupo!" },
+        { "nl": "Non vedo l'ora!", "en": "I can't wait! (lit. I don't see the hour)", "speak": "Non vedo l'ora!" },
+        { "nl": "Sei in gamba.", "en": "You're sharp / capable. (lit. on the leg)", "speak": "Sei in gamba." },
+        { "nl": "Acqua in bocca!", "en": "Keep it secret! (lit. water in the mouth)", "speak": "Acqua in bocca!" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Alla lettera, e sul serio",
+      "body": "The gap between the literal picture and the real meaning is the whole fun of an idiom. Read across each row.",
+      "table": {
+        "headers": ["Modo di dire", "Alla lettera", "Significato"],
+        "rows": [
+          ["Costare un occhio della testa", "cost an eye of the head", "to cost a fortune"],
+          ["Prendere due piccioni con una fava", "two pigeons with one bean", "kill two birds with one stone"],
+          ["Avere una fame da lupi", "to have a wolf's hunger", "to be starving"],
+          ["Piove sul bagnato", "it rains on the wet", "when it rains, it pours"],
+          ["Non avere peli sulla lingua", "no hairs on the tongue", "to be blunt, speak your mind"]
+        ]
+      },
+      "callout": "The wolf shows up twice — Italians clearly respect a hungry wolf."
+    },
+    {
+      "type": "chips",
+      "title": "Ancora qualcuno",
+      "items": [
+        { "nl": "Costa un occhio della testa!", "en": "It costs a fortune!", "speak": "Costa un occhio della testa!" },
+        { "nl": "Ho una fame da lupi.", "en": "I'm starving.", "speak": "Ho una fame da lupi." },
+        { "nl": "Facciamo il ponte.", "en": "Let's take the long weekend.", "speak": "Facciamo il ponte." },
+        { "nl": "Due piccioni con una fava.", "en": "Two birds, one stone.", "speak": "Due piccioni con una fava." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Un amico ha un esame domani. Cosa gli dici?",
+      "options": ["Buon appetito!", "In bocca al lupo!", "Acqua in bocca!"],
+      "correct": 1,
+      "explain": "*In bocca al lupo!* = 'good luck!'. *Acqua in bocca* significa 'tienilo segreto'; *buon appetito* è per il cibo."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ti dicono 'In bocca al lupo!'. La risposta tradizionale è…",
+      "options": ["Grazie mille!", "Crepi!", "Prego!"],
+      "correct": 1,
+      "explain": "Si risponde *Crepi!* (sottinteso 'crepi il lupo' — 'may the wolf die'). Un semplice *grazie* funziona, ma *crepi* è quello vero."
+    },
+    {
+      "type": "typed",
+      "prompt": "Di' 'I can't wait!' con un modo di dire.",
+      "answers": ["non vedo l'ora", "non vedo l'ora!", "non vedo l ora"],
+      "hint": "Literally: 'I don't see the hour'.",
+      "explain": "*Non vedo l'ora!* — the go-to for excitement. Add *che*/*di*: *non vedo l'ora di partire*."
+    },
+    {
+      "type": "card",
+      "title": "Due proverbi da nonni",
+      "body": "Proverbs are idioms with a moral. Two you'll actually hear: **Chi va piano va sano e va lontano** — 'who goes slowly goes safely and goes far' (slow and steady wins). And **Non tutte le ciambelle riescono col buco** — 'not every doughnut comes out with a hole' (things don't always go to plan, and that's okay).",
+      "callout": "Perfect for your own year of Italian: *chi va piano, va lontano.*"
+    },
+    {
+      "type": "dialogue",
+      "scene": "Pietro calls from Naples to wish you luck before a big day — and can't resist a proverb.",
+      "lines": [
+        { "speaker": "Pietro", "nl": "Allora, domani è il grande giorno. In bocca al lupo!", "en": "So, tomorrow's the big day. Good luck!" },
+        { "speaker": "You", "nl": "Crepi! Sono un po' nervoso, non ti nascondo.", "en": "Thanks! I'm a bit nervous, I won't lie to you." },
+        { "speaker": "Pietro", "nl": "Tranquillo. Chi va piano va sano e va lontano.", "en": "Relax. Slow and steady goes far.", "spotlight": "A proverb dropped in as gentle advice — very Pietro." },
+        { "speaker": "Pietro", "nl": "E ricordati: non tutte le ciambelle riescono col buco. Se qualcosa va storto, pazienza.", "en": "And remember: not everything goes to plan. If something goes wrong, no big deal." },
+        { "speaker": "You", "nl": "Hai ragione. Comunque non vedo l'ora che finisca!", "en": "You're right. Either way, I can't wait for it to be over!", "spotlight": "*Non vedo l'ora che finisca* — the idiom plus a congiuntivo." },
+        { "speaker": "Pietro", "nl": "Ti capisco. Ma sei in gamba, andrà bene. Fammi sapere!", "en": "I get you. But you're sharp, it'll go well. Let me know!" },
+        { "speaker": "You", "nl": "Grazie Pietro. Ti chiamo domani sera.", "en": "Thanks Pietro. I'll call you tomorrow evening." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai afferrato i modi di dire?",
+      "questions": [
+        { "q": "Cosa augura Pietro a 'You'?", "options": ["Buon viaggio", "Buona fortuna (in bocca al lupo)", "Buon appetito"], "correct": 1 },
+        { "q": "Il proverbio 'chi va piano va sano e va lontano' consiglia di…", "options": ["andare di fretta", "avere pazienza e costanza", "non provarci"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scegli il tuo modo di dire preferito di oggi e scrivi due frasi con una situazione vera della tua vita in cui lo useresti. Poi provane un secondo.",
+      "starters": ["Il mio preferito è…", "Lo direi quando…", "Un altro utile è…"],
+      "minSentences": 3
+    }
+  ]
+}

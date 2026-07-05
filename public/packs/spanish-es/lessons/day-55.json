@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "day-55",
+  "day": 55,
+  "module": "M08",
+  "unit": "U08",
+  "kind": "review",
+  "title": "¿Hay que hablar español?",
+  "emoji": "🗣️",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Week 8 review: Lucía and Rafa debate whether you have to speak Spanish to live in Spain",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso: semana 8",
+      "body": "Esta semana has aprendido a hablar del **futuro** (*voy a…, hablaré*), a combinar **pronombres de objeto** (*se lo doy*), a dar **opiniones** (*creo que, me parece que*), a cruzar **la puerta del subjuntivo** (*quiero que, es importante que*) y a **comparar** (*más… que, el mejor*). Hoy lo pones todo en práctica con Lucía y Rafa.",
+      "callout": "Después de esta semana, ¡ya casi has terminado el nivel A2!"
+    },
+    {
+      "type": "contrast",
+      "title": "Recuerda: mismo sujeto vs. sujeto distinto",
+      "pairs": [
+        { "left": "quiero + infinitivo (mismo sujeto)", "right": "quiero que + subjuntivo (sujeto distinto)", "note": "*Quiero aprender* vs *quiero que aprendas* — la trampa de la semana." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Rafa me presta su guitarra. → Rafa ___ presta.",
+      "options": ["me la", "se la", "me lo"],
+      "correct": 0,
+      "explain": "*su guitarra* es femenino singular → **la**; el indirecto *me* no cambia y va primero: **me la** presta."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa: Es importante que (nosotros) ___ (hablar) español todos los días.",
+      "answers": ["hablemos"],
+      "hint": "subjuntivo de hablar, nosotros",
+      "explain": "*hablemos* — presente de subjuntivo de *hablar*, nosotros."
+    },
+    {
+      "type": "dictation",
+      "speak": "creo que el pueblo es más tranquilo",
+      "answers": ["creo que el pueblo es más tranquilo"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "En el bar, Lucía y Rafa debaten: ¿hay que hablar español para vivir en España?",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Tío, para mí está claro: si vives aquí, tienes que hablar español. Punto.", "en": "Dude, for me it's clear: if you live here, you have to speak Spanish. Full stop." },
+        { "speaker": "Lucía", "nl": "Hombre, no sé, Rafa. Hay mucha gente que vive aquí años y se apaña con el inglés.", "en": "Well, I don't know, Rafa. There are lots of people who live here for years and get by with English." },
+        { "speaker": "Rafa", "nl": "Ya, pero eso no es vivir de verdad. Es importante que hagas el esfuerzo, ¿no?", "en": "Sure, but that's not really living here. It's important that you make the effort, right?", "spotlight": "es importante que + subjuntivo — la semana entera resumida en una frase." },
+        { "speaker": "Lucía", "nl": "Puede ser. Pero también entiendo que da miedo. A mí me parece que lo importante es intentarlo.", "en": "Could be. But I also understand it's scary. I think what matters is trying." },
+        { "speaker": "Rafa", "nl": "Vale, vale, tienes razón. Pero yo creo que en un año hablarás mejor que muchos españoles, ¿eh?", "en": "Okay, okay, you're right. But I think in a year you'll speak better than a lot of Spaniards, huh?" },
+        { "speaker": "Lucía", "nl": "¡Eso espero! Bueno, ¿qué vamos a pedir? ¿Una ronda?", "en": "I hope so! Well, what are we going to order? A round?" },
+        { "speaker": "You", "nl": "Voy a pedir una caña. Y voy a intentar pedirla en español perfecto.", "en": "I'm going to order a beer. And I'm going to try to order it in perfect Spanish." },
+        { "speaker": "Rafa", "nl": "¡Así se habla! Bueno… ¡una caña, por favor!", "en": "That's the spirit! Well… a beer, please!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Lo has pillado?",
+      "questions": [
+        { "q": "¿Qué opina Rafa al principio?", "options": ["Que no hace falta hablar español", "Que hay que hablar español para vivir aquí", "Que el inglés es más útil"], "correct": 1 },
+        { "q": "¿Qué le parece importante a Lucía?", "options": ["Ganar dinero", "Intentarlo, aunque dé miedo", "Volver a Inglaterra"], "correct": 1 },
+        { "q": "¿Qué va a pedir 'You' al final?", "options": ["Un café", "Una caña", "Nada"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "¿Tú qué opinas? ¿Hay que hablar el idioma local para vivir de verdad en un país? Da tu opinión con creo que / me parece que.",
+      "starters": ["Creo que…", "Me parece que…"]
+    }
+  ]
+}

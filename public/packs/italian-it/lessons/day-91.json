@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-91",
+  "day": 91,
+  "module": "M13",
+  "unit": "U13",
+  "kind": "capstone",
+  "title": "Il mio racconto: un'opinione sfumata",
+  "emoji": "🎉",
+  "level": "B2",
+  "durationMin": [25, 35],
+  "summary": "Week 13 capstone: the full congiuntivo, then add a nuanced opinion with connectors to your self-intro",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Uno sguardo indietro: settimana 13",
+      "body": "In una settimana hai completato il congiuntivo: **passato**, **imperfetto**, **trapassato**, la **concordanza dei tempi** e le **congiunzioni** che lo richiedono. Non è poco. Oggi lo usi per fare la cosa più adulta che ci sia in una lingua: **esprimere un'opinione sfumata** — con dei *ma*, dei *benché*, dei *tuttavia*.",
+      "callout": "Il tuo racconto cresce: oggi aggiungi un'opinione con connettivi. (livello 13)"
+    },
+    {
+      "type": "chips",
+      "title": "Connettivi per un'opinione sfumata",
+      "items": [
+        { "nl": "Secondo me…", "en": "In my opinion…", "speak": "Secondo me…" },
+        { "nl": "Penso che sia vero, però…", "en": "I think it's true, but…", "speak": "Penso che sia vero, però…" },
+        { "nl": "Benché sia difficile,…", "en": "Although it's hard,…", "speak": "Benché sia difficile," },
+        { "nl": "Tuttavia, non sono d'accordo.", "en": "However, I don't agree.", "speak": "Tuttavia, non sono d'accordo." },
+        { "nl": "Da un lato… dall'altro…", "en": "On one hand… on the other…", "speak": "Da un lato, dall'altro…" },
+        { "nl": "In fin dei conti,…", "en": "When all's said and done,…", "speak": "In fin dei conti," }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Benché l'italiano ___ difficile, mi piace tantissimo.»",
+      "options": ["è", "sia", "fosse"],
+      "correct": 1,
+      "explain": "*Benché* + congiuntivo **presente**: *sia*. (Trigger al presente, azione contemporanea.)"
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Da bambino pensavo che studiare le lingue ___ inutile.»",
+      "options": ["sia", "fosse", "è"],
+      "correct": 1,
+      "explain": "Trigger passato (*pensavo*) → congiuntivo imperfetto: *fosse*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Dì la tua opinione: 'I think Italian is beautiful, although it's hard.' — usa *penso che* e *benché*.",
+      "answers": ["penso che l'italiano sia bello, benché sia difficile", "penso che l'italiano sia bello benché sia difficile", "penso che l'italiano sia bellissimo benché sia difficile"],
+      "hint": "penso che + sia; benché + sia.",
+      "explain": "*Penso che l'italiano sia bello, benché sia difficile.* Due congiuntivi, un'opinione sfumata."
+    },
+    {
+      "type": "contrast",
+      "title": "Opinione netta vs sfumata",
+      "pairs": [
+        { "left": "Mi piace, punto.", "right": "Mi piace, benché non sia perfetto.", "note": "la sfumatura ammette un limite: suona più adulto e più credibile." },
+        { "left": "Ha ragione lui.", "right": "Da un lato ha ragione, dall'altro esagera.", "note": "i connettivi mostrano che hai pensato a tutti e due i lati." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci un'opinione sfumata",
+      "prompt": "Metti insieme un'opinione con un connettivo.",
+      "slots": [
+        { "label": "Opinione (con congiuntivo)", "chips": ["Penso che l'italiano sia bello", "Secondo me Bologna è cara", "Credo che valga la pena studiare"] },
+        { "label": "Connettivo", "chips": ["benché", "però", "tuttavia", "anche se"] },
+        { "label": "Limite / secondo lato", "chips": ["sia difficile", "sia una città stupenda", "ci voglia tempo", "non sia sempre facile"] }
+      ],
+      "sample": "Penso che l'italiano sia bello, benché sia difficile."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Giulia asks what you really think of learning Italian, now that you've come this far.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora, dopo tutti questi mesi: ne è valsa la pena?", "en": "So, after all these months: was it worth it?" },
+        { "speaker": "You", "nl": "Assolutamente. Penso che sia la cosa migliore che abbia fatto qui.", "en": "Absolutely. I think it's the best thing I've done here.", "spotlight": "'che abbia fatto' — congiuntivo passato nella relativa." },
+        { "speaker": "Giulia", "nl": "Anche col congiuntivo che ti faceva tanta paura?", "en": "Even with the subjunctive that scared you so much?" },
+        { "speaker": "You", "nl": "Eh sì. Benché sia complicato, ormai mi viene quasi naturale.", "en": "Yeah. Even though it's complicated, by now it almost comes naturally.", "spotlight": "'benché sia' + una sfumatura." },
+        { "speaker": "Giulia", "nl": "Si sente, davvero. Parli in modo più sciolto.", "en": "You can tell, honestly. You speak more fluently." },
+        { "speaker": "You", "nl": "Tuttavia, ho ancora molto da imparare, lo so.", "en": "However, I still have a lot to learn, I know.", "spotlight": "'tuttavia' — un connettivo da adulto." },
+        { "speaker": "Giulia", "nl": "Certo, ma sei sulla strada giusta. Sono fiera di te.", "en": "Sure, but you're on the right path. I'm proud of you." },
+        { "speaker": "You", "nl": "Grazie, Giulia. Da un lato sono stanco, dall'altro non vedo l'ora di continuare.", "en": "Thanks, Giulia. On one hand I'm tired, on the other I can't wait to keep going." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai capito?",
+      "questions": [
+        { "q": "Cosa pensa 'You' dell'aver studiato italiano?", "options": ["Che sia la cosa migliore fatta lì", "Che sia stato inutile", "Che sia stato troppo facile"], "correct": 0 },
+        { "q": "Come si sente 'You' alla fine?", "options": ["Stanco ma motivato a continuare", "Pronto a smettere", "Deluso"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Il mio racconto — livello 13",
+      "prompt": "Aggiungi al tuo racconto un'opinione sfumata su un tema che ti sta a cuore (l'italiano, la tua città, il tuo lavoro). Usa un congiuntivo e almeno un connettivo (*benché, però, tuttavia, da un lato… dall'altro*).",
+      "slots": [
+        { "label": "La tua opinione (con congiuntivo)", "chips": ["Penso che imparare l'italiano sia…", "Secondo me vivere qui sia…", "Credo che il mio lavoro sia…"] },
+        { "label": "Il connettivo", "chips": ["benché", "però", "tuttavia", "da un lato… dall'altro"] },
+        { "label": "La sfumatura", "chips": ["a volte sia faticoso", "non sia sempre facile", "ne valga la pena", "ci voglia pazienza"] }
+      ],
+      "sample": "Penso che imparare l'italiano sia bellissimo, benché a volte sia faticoso; tuttavia ne vale la pena."
+    },
+    {
+      "type": "journal",
+      "prompt": "Il mio racconto — livello 13! Riprendi la tua presentazione e aggiungi un'opinione sfumata: cosa pensi davvero di una cosa importante per te? Usa il congiuntivo e i connettivi. Complimenti: hai domato il congiuntivo. In bocca al lupo per la seconda parte del viaggio!",
+      "starters": ["Secondo me…", "Penso che… benché…", "Da un lato… dall'altro…"],
+      "minSentences": 4
+    }
+  ]
+}
