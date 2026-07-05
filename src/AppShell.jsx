@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import Dashboard from './engine/Dashboard';
 import Player from './engine/Player';
 import { configureAudio } from './engine/audio';
+import { configureGrading } from './engine/grading';
+import { configureUi } from './engine/ui';
 
 const PACK = import.meta.env.VITE_PACK || 'dutch-nl';
 const base = `${import.meta.env.BASE_URL}packs/${PACK}`;
@@ -18,6 +20,8 @@ export default function AppShell() {
         const m = await (await fetch(`${base}/manifest.json`)).json();
         setManifest(m);
         configureAudio(m.locale);
+        configureGrading(m.grading);
+        configureUi(m);
         // Index available lessons (missing days render as "coming soon").
         const dayIds = m.weeks.flatMap((w) => w.days);
         const entries = await Promise.all(
@@ -39,7 +43,7 @@ export default function AppShell() {
   }, []);
 
   if (error) return <div className="loading">Couldn't load the course pack. {error}</div>;
-  if (!manifest) return <div className="loading">Laden…</div>;
+  if (!manifest) return <div className="loading">Loading…</div>;
 
   if (openLesson) {
     return (

@@ -46,7 +46,7 @@ export default function Dashboard({ manifest, lessonIndex, onOpenDay }) {
       </section>
 
       <section className="stats-banner">
-        <p className="stats-label">🇳🇱 {manifest.language.toUpperCase()} · A1 → B1</p>
+        <p className="stats-label">{manifest.flag || '🌍'} {manifest.language.toUpperCase()} · A1 → B1</p>
         <div className="stats-grid">
           <div><span className="stat-num">{s.daysComplete}/{allDays.length}</span><span className="stat-label">days done</span></div>
           <div><span className="stat-num">{s.stepsDone}</span><span className="stat-label">steps done</span></div>

@@ -5,6 +5,14 @@
   "tagline": "Nederlands, echt waar.",
   "language": "Dutch",
   "locale": "nl-NL",
+  "flag": "🇳🇱",
+  "ui": {
+    "dayComplete": "Dag {day} klaar!",
+    "typedPlaceholder": "Type in Dutch…",
+    "correctFeedback": "Goed zo!",
+    "journalPlaceholder": "Schrijf hier…"
+  },
+  "grading": { "diacriticTolerant": true },
   "dialect": {
     "identity": "Netherlands Dutch",
     "contrast": "Not Flemish",

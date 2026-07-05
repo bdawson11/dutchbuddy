@@ -7,6 +7,7 @@
 import { useState } from 'react';
 import { speak } from '../audio';
 import { grade } from '../grading';
+import { ui, packLanguage } from '../ui';
 import { saveJournal, loadJournal } from '../progress';
 
 // --- tiny markdown: **bold** and *italic* only ---
@@ -135,13 +136,13 @@ function TypedInput({ prompt, answers, hint, explain, done, onDone, preSpeak }) 
           value={value}
           onChange={(e) => { setValue(e.target.value); setResult(null); }}
           onKeyDown={(e) => e.key === 'Enter' && check()}
-          placeholder="Type in Dutch…"
+          placeholder={ui('typedPlaceholder', `Type in ${packLanguage()}…`)}
           disabled={done}
           autoCapitalize="none" autoCorrect="off" spellCheck="false"
         />
         <button onClick={check} disabled={done || !value.trim()}>Check</button>
       </div>
-      {result?.correct && <p className="feedback correct">✓ {result.note || 'Goed zo!'}</p>}
+      {result?.correct && <p className="feedback correct">✓ {result.note || ui('correctFeedback', 'Nice!')}</p>}
       {done && explain && <p className="feedback explain">{md(explain)}</p>}
       {result && !result.correct && (
         <p className="feedback wrong">Not yet. {hint ? md(`Hint: ${hint}`) : ''}</p>
@@ -287,7 +288,7 @@ export function Journal({ block, done, onDone, packId, dayId, blockIndex }) {
       {block.starters && (
         <p className="hint-text">Starters: {block.starters.join(' · ')}</p>
       )}
-      <textarea rows={4} value={text} onChange={(e) => setText(e.target.value)} placeholder="Schrijf hier…" />
+      <textarea rows={4} value={text} onChange={(e) => setText(e.target.value)} placeholder={ui('journalPlaceholder', 'Write here…')} />
       <button className="done-btn" onClick={save} disabled={!text.trim()}>
         {done ? '✓ Saved — save again' : 'Save entry'}
       </button>

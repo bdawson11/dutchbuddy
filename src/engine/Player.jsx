@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { BLOCK_COMPONENTS } from './blocks';
 import { loadProgress, recordStep, recordTime } from './progress';
 import { stopSpeaking } from './audio';
+import { ui } from './ui';
 
 export default function Player({ packId, lesson, onExit }) {
   const [doneSteps, setDoneSteps] = useState(() => {
@@ -67,7 +68,7 @@ export default function Player({ packId, lesson, onExit }) {
 
       {complete && (
         <div className="lesson-complete">
-          <h3>🎉 Dag {lesson.day} klaar!</h3>
+          <h3>🎉 {ui('dayComplete', 'Day {day} done!').replace('{day}', lesson.day)}</h3>
           <p>Come back tomorrow for the next one.</p>
           <button className="done-btn" onClick={onExit}>Back to dashboard</button>
         </div>
