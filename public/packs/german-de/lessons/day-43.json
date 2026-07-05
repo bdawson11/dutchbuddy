@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-43",
+  "day": 43,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Präteritum: war und hatte",
+  "emoji": "🕰",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Intro to the Präteritum — war/hatte/konnte/wollte, the forms Germans actually use in speech, plus the regular -te pattern",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Das Präteritum: die andere Vergangenheit",
+      "body": "German has two pasts. You already know the **Perfekt** (*ich habe gemacht*) for everyday speech. This week: the **Präteritum** — mostly a written/narrative tense, except for a handful of verbs Germans use in Präteritum *even when talking*: **war** (was), **hatte** (had), **konnte** (could), **wollte** (wanted to). Learn these cold — you'll use them constantly.",
+      "table": {
+        "headers": ["Person", "sein → war", "haben → hatte"],
+        "rows": [
+          ["ich", "war", "hatte"],
+          ["du", "warst", "hattest"],
+          ["er/sie/es", "war", "hatte"],
+          ["wir", "waren", "hatten"],
+          ["ihr", "wart", "hattet"],
+          ["sie/Sie", "waren", "hatten"]
+        ]
+      },
+      "callout": "Notice: no 'ge-', no 'habe/bin' — war and hatte stand alone as full verb forms."
+    },
+    {
+      "type": "card",
+      "title": "Regelmäßige Verben: die -te-Endung",
+      "body": "Most other verbs just add **-te** (plus the personal ending) to the stem: *machen → machte, sagen → sagte, wohnen → wohnte, spielen → spielte*. This is the pattern you'll meet in stories and news articles. In speech, though, people usually reach for the Perfekt instead for these (*ich habe gemacht*) — more on that split tomorrow."
+    },
+    {
+      "type": "contrast",
+      "title": "Regelmäßig vs. unregelmäßig",
+      "pairs": [
+        {
+          "left": "machen → machte — regelmäßig, einfach -te dran",
+          "right": "sein → war — unregelmäßig, eigene Form",
+          "note": "Regular verbs just add -te. sein, haben and the modal verbs have their own special Präteritum forms you memorize."
+        }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Die wichtigsten Formen zum Sprechen",
+      "items": [
+        { "nl": "war", "en": "was", "speak": "war" },
+        { "nl": "hatte", "en": "had", "speak": "hatte" },
+        { "nl": "konnte", "en": "could", "speak": "konnte" },
+        { "nl": "wollte", "en": "wanted to", "speak": "wollte" },
+        { "nl": "musste", "en": "had to", "speak": "musste" },
+        { "nl": "sollte", "en": "was supposed to", "speak": "sollte" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welche Form ist richtig? 'Du ___ gestern nicht da.' (sein)",
+      "options": ["du war", "du warst", "du wart"],
+      "correct": 1,
+      "explain": "du warst — the du-form adds -st, just like the present-tense pattern."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Gestern ___ ich Musik. (spielen)",
+      "options": ["spielte", "spielen", "gespielt"],
+      "correct": 0,
+      "explain": "spielte — stem spiel- plus the regular -te ending for ich."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I had a headache.' (use hatte)",
+      "answers": ["Ich hatte Kopfschmerzen"],
+      "hint": "hatte + accusative noun",
+      "explain": "Ich hatte Kopfschmerzen — hatte is the Präteritum of haben, used constantly in speech."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ich war müde und hatte Hunger.",
+      "answers": ["Ich war müde und hatte Hunger.", "Ich war muede und hatte Hunger."]
+    },
+    {
+      "type": "builder",
+      "title": "Baue einen Satz mit war/hatte",
+      "prompt": "Build a sentence using war or hatte.",
+      "slots": [
+        { "label": "Subjekt", "chips": ["Ich", "Er", "Wir"] },
+        { "label": "war/hatte", "chips": ["war müde.", "hatte Hunger.", "war zu Hause.", "hatte keine Zeit."] }
+      ],
+      "sample": "Ich war müde."
+    },
+    {
+      "type": "journal",
+      "prompt": "Schreib zwei Sätze über gestern im Präteritum: Wie war dein Tag? Was hattest du?",
+      "starters": ["Gestern war ich...", "Ich hatte..."]
+    }
+  ]
+}

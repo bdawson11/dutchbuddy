@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "day-46",
+  "day": 46,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Wetter und Orte von früher",
+  "emoji": "🌧️",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Describing past places and weather: es war, es gab, es regnete, die Sonne schien",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Das Wetter von früher",
+      "body": "To describe a place or the weather in the past, lean on **es war** (it was), **es gab** (there was/were), and weather verbs in the Präteritum: *es regnete* (it rained — regular), *es schneite* (it snowed — regular), *die Sonne schien* (the sun shone — strong, from *scheinen*).",
+      "table": {
+        "headers": ["Deutsch", "Bedeutung"],
+        "rows": [
+          ["Es war sonnig.", "It was sunny."],
+          ["Es regnete den ganzen Tag.", "It rained all day."],
+          ["Es gab keinen Schnee.", "There was no snow."],
+          ["Die Sonne schien.", "The sun was shining."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Wetter & Orte",
+      "items": [
+        { "nl": "sonnig", "en": "sunny", "speak": "sonnig" },
+        { "nl": "wolkig", "en": "cloudy", "speak": "wolkig" },
+        { "nl": "kalt", "en": "cold", "speak": "kalt" },
+        { "nl": "warm", "en": "warm", "speak": "warm" },
+        { "nl": "das Dorf", "en": "the village", "speak": "das Dorf" },
+        { "nl": "die Stadt", "en": "the city/town", "speak": "die Stadt" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "regnete vs. schien",
+      "pairs": [
+        {
+          "left": "es regnete — schwach, -te dran (regnen)",
+          "right": "die Sonne schien — stark, Vokal ändert sich (scheinen)",
+          "note": "Same pattern as yesterday: most weather verbs are regular, but scheinen is strong."
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the correct Präteritum: 'Es ___ den ganzen Tag.' (regnen)",
+      "options": ["regnete", "regnet", "geregnet"],
+      "correct": 0,
+      "explain": "regnete — regnen is a regular weak verb, just add -te."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wie sagt man 'The sun was shining' im Präteritum?",
+      "options": ["Die Sonne schien.", "Die Sonne scheinte.", "Die Sonne hat geschienen."],
+      "correct": 0,
+      "explain": "Die Sonne schien — scheinen is strong: schien, no -te."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'It was cold and there was snow.'",
+      "answers": ["Es war kalt und es gab Schnee"],
+      "hint": "es war + es gab",
+      "explain": "Es war kalt und es gab Schnee — combining es war and es gab."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Es regnete, aber wir waren glücklich.",
+      "answers": ["Es regnete, aber wir waren glücklich.", "Es regnete, aber wir waren gluecklich."]
+    },
+    {
+      "type": "builder",
+      "title": "Beschreib einen Ort von früher",
+      "prompt": "Build a sentence describing a past place.",
+      "slots": [
+        { "label": "Ort", "chips": ["In meinem Dorf", "In der Stadt", "Am Meer"] },
+        { "label": "Wetter/Ereignis", "chips": ["war es immer ruhig.", "gab es viele Parks.", "regnete es oft im Winter."] }
+      ],
+      "sample": "In meinem Dorf war es immer ruhig."
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschreib einen Ort aus deiner Vergangenheit — wie war das Wetter dort? Was gab es?",
+      "starters": ["Es war...", "Es gab..."]
+    }
+  ]
+}

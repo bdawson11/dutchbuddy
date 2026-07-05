@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "day-45",
+  "day": 45,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Als ich klein war",
+  "emoji": "🧸",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Childhood memories and the strong Präteritum: ging, kam, sah, gab",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Als ich klein war...",
+      "body": "Some of the most common verbs don't add -te at all — they change their **vowel** instead. These are called strong verbs, and you just learn each form: *gehen → ging, kommen → kam, sehen → sah, geben → gab*. You'll need these constantly for childhood stories.",
+      "table": {
+        "headers": ["Infinitiv", "Präteritum", "Beispiel"],
+        "rows": [
+          ["gehen", "ging", "Ich ging jeden Tag zur Schule."],
+          ["kommen", "kam", "Meine Oma kam oft zu Besuch."],
+          ["sehen", "sah", "Ich sah viele Kinder auf dem Spielplatz."],
+          ["geben", "gab", "Es gab immer Kuchen bei Oma."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Kindheit — Wortschatz",
+      "items": [
+        { "nl": "die Kindheit", "en": "the childhood", "speak": "die Kindheit" },
+        { "nl": "der Spielplatz", "en": "the playground", "speak": "der Spielplatz" },
+        { "nl": "die Grundschule", "en": "elementary school", "speak": "die Grundschule" },
+        { "nl": "das Spielzeug", "en": "the toy(s)", "speak": "das Spielzeug" },
+        { "nl": "die Sommerferien", "en": "the summer holidays", "speak": "die Sommerferien" },
+        { "nl": "die Nachbarschaft", "en": "the neighborhood", "speak": "die Nachbarschaft" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Schwach vs. stark",
+      "pairs": [
+        {
+          "left": "machen → machte — schwach, -te bleibt",
+          "right": "gehen → ging — stark, der Vokal ändert sich",
+          "note": "Strong verbs swap their vowel instead of adding -te. There's no shortcut — you learn each one by heart."
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Was ist die richtige Präteritum-Form von 'sehen'?",
+      "options": ["sah", "sahte", "geseht"],
+      "correct": 0,
+      "explain": "sah — sehen is a strong verb: the vowel changes (e → a), no -te ending."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Complete: 'Es ___ immer Kuchen bei meiner Oma.'",
+      "options": ["gab", "gib", "gegeben"],
+      "correct": 0,
+      "explain": "gab — the Präteritum of geben, used in the fixed phrase es gab (there was/were)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I went to school every day.'",
+      "answers": ["Ich ging jeden Tag zur Schule"],
+      "hint": "ging + jeden Tag",
+      "explain": "Ich ging jeden Tag zur Schule — ging is the strong Präteritum of gehen."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ich kam oft zu spät zur Schule.",
+      "answers": ["Ich kam oft zu spät zur Schule.", "Ich kam oft zu spaet zur Schule."]
+    },
+    {
+      "type": "builder",
+      "title": "Erinnerungen an die Kindheit",
+      "prompt": "Build a childhood-memory sentence.",
+      "slots": [
+        { "label": "Zeit", "chips": ["Als Kind", "Jeden Tag", "In der Grundschule"] },
+        { "label": "Ereignis", "chips": ["ging ich zum Spielplatz.", "sah ich meine Freunde.", "gab es immer viel zu tun.", "kam meine Oma zu Besuch."] }
+      ],
+      "sample": "Als Kind ging ich zum Spielplatz."
+    },
+    {
+      "type": "journal",
+      "prompt": "Erzähl von deiner Kindheit: Wohin bist du oft gegangen? Was hast du oft gesehen?",
+      "starters": ["Als ich klein war, ging ich...", "Es gab..."]
+    }
+  ]
+}

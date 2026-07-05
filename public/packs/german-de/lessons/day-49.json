@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "day-49",
+  "day": 49,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "capstone",
+  "title": "Mein Kindheitsporträt",
+  "emoji": "📖",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Production day across week 7, plus Meine Geschichte layer 7 — a childhood memory",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Rückblick: Präteritum & Kindheit",
+      "body": "This week you built the **Präteritum**: the spoken-forms set (**war, hatte, konnte, wollte**), the regular **-te** pattern, strong forms (**ging, kam, sah, gab**), weather and places in the past, and **früher vs. heute** habits. Today you use it all for your own childhood portrait.",
+      "table": {
+        "headers": ["Deutsch", "Bedeutung"],
+        "rows": [
+          ["Ich war klein und hatte lange Haare.", "I was little and had long hair."],
+          ["Als Kind ging ich oft zum Spielplatz.", "As a child I often went to the playground."],
+          ["Es gab immer Kuchen bei Oma.", "There was always cake at Grandma's."],
+          ["Früher spielte ich draußen, heute spiele ich am Handy.", "Before I used to play outside, now I play on my phone."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Mix: Kindheit & Präteritum",
+      "items": [
+        { "nl": "war", "en": "was", "speak": "war" },
+        { "nl": "hatte", "en": "had", "speak": "hatte" },
+        { "nl": "ging", "en": "went", "speak": "ging" },
+        { "nl": "sah", "en": "saw", "speak": "sah" },
+        { "nl": "gab", "en": "there was/were", "speak": "gab" },
+        { "nl": "früher", "en": "back then", "speak": "früher" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welches Verb braucht kein -te, sondern ändert den Vokal?",
+      "options": ["machen", "gehen", "spielen"],
+      "correct": 1,
+      "explain": "gehen → ging — a strong verb. machen and spielen are regular: machte, spielte."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Was ist typisch für gesprochenes Deutsch bei 'sein' in der Vergangenheit?",
+      "options": ["Ich bin gewesen.", "Ich war.", "Ich habe gewesen."],
+      "correct": 1,
+      "explain": "Ich war — sein almost always shows up in its Präteritum form, even in speech."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'When I was little, I had a dog.'",
+      "answers": ["Als ich klein war, hatte ich einen Hund"],
+      "hint": "Als ich klein war, + hatte + accusative",
+      "explain": "Als ich klein war, hatte ich einen Hund — war and hatte, the two forms you now know cold."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Als ich klein war, wohnte ich in einem Dorf.",
+      "answers": ["Als ich klein war, wohnte ich in einem Dorf."]
+    },
+    {
+      "type": "shadow",
+      "title": "Kindheitserinnerungen — hör zu und sprich nach",
+      "lines": [
+        { "nl": "Als ich klein war, wohnte ich in einem Dorf.", "en": "When I was little, I lived in a village." },
+        { "nl": "Ich hatte lange Haare und spielte oft draußen.", "en": "I had long hair and often played outside." },
+        { "nl": "Es gab jeden Sommer ein Fest im Dorf.", "en": "There was a festival in the village every summer." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Früher vs. heute — recap",
+      "pairs": [
+        {
+          "left": "Früher wohnte ich in einem Dorf.",
+          "right": "Heute wohne ich in einer Stadt.",
+          "note": "Präteritum for then, Präsens for now — the pattern from this week."
+        }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Baue dein Kindheitsporträt",
+      "prompt": "Build a sentence about your childhood.",
+      "slots": [
+        { "label": "Zeit", "chips": ["Als ich klein war,", "Früher"] },
+        { "label": "Ereignis", "chips": ["hatte ich einen Hund.", "ging ich oft zum Spielplatz.", "wohnte ich in einem Dorf.", "gab es jeden Sommer ein Fest."] }
+      ],
+      "sample": "Als ich klein war, hatte ich einen Hund."
+    },
+    {
+      "type": "builder",
+      "title": "Meine Geschichte — Teil 7",
+      "prompt": "Add to your growing self-introduction: a memory from your childhood.",
+      "slots": [
+        { "label": "Meine Kindheit", "chips": ["Als ich klein war, hatte ich einen Hund.", "Ich ging oft zum Spielplatz.", "Es gab bei uns immer viel zu tun."] },
+        { "label": "Heute", "chips": ["Aber heute ist alles anders.", "Und das vermisse ich manchmal."] }
+      ],
+      "sample": "Als ich klein war, hatte ich einen Hund, aber heute ist alles anders."
+    },
+    {
+      "type": "journal",
+      "prompt": "Meine Geschichte, Woche 7 — sieben Wochen, sieben Schichten! Say your whole self-introduction out loud, start to finish: your name, where you're from, your daily routine, your family and Kiez, what you like to eat, something you did recently, how you've been feeling — and now, a memory from your childhood. Write today's new sentences below to lock them in.",
+      "starters": ["Als ich klein war...", "Ich hatte...", "Es gab..."]
+    }
+  ]
+}

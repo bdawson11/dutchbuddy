@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "day-47",
+  "day": 47,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Früher vs. heute",
+  "emoji": "🔁",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Habitual past and frequency adverbs: immer, oft, manchmal, selten, nie",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Früher... aber heute...",
+      "body": "Use **früher** (back then) with the Präteritum to describe habits that used to be true, and contrast with **heute** (today) in the present: *Früher spielte ich draußen, aber heute spiele ich am Handy.* Frequency adverbs make the habit precise.",
+      "table": {
+        "headers": ["Deutsch", "Bedeutung"],
+        "rows": [
+          ["immer", "always"],
+          ["oft", "often"],
+          ["manchmal", "sometimes"],
+          ["selten", "rarely"],
+          ["nie", "never"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Früher & heute",
+      "items": [
+        { "nl": "früher", "en": "back then / in the past", "speak": "früher" },
+        { "nl": "heute", "en": "today", "speak": "heute" },
+        { "nl": "immer", "en": "always", "speak": "immer" },
+        { "nl": "nie", "en": "never", "speak": "nie" },
+        { "nl": "jeden Tag", "en": "every day", "speak": "jeden Tag" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Gewohnheit: früher vs. heute",
+      "pairs": [
+        {
+          "left": "Früher spielte ich draußen. — Back then I used to play outside.",
+          "right": "Heute spiele ich am Handy. — Today I play on my phone.",
+          "note": "Präteritum for the old habit, Präsens for the new one — a clean before/after pair."
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence describes a habitual PAST action?",
+      "options": ["Ich spiele oft Fußball.", "Ich spielte früher oft Fußball.", "Ich werde Fußball spielen."],
+      "correct": 1,
+      "explain": "Ich spielte früher oft Fußball — Präteritum + früher signals a repeated past habit."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Complete: 'Früher ___ ich nie Zeit für Sport.'",
+      "options": ["hatte", "habe", "gehabt"],
+      "correct": 0,
+      "explain": "hatte — the Präteritum of haben, exactly the form you use for past habits."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'I always went to the playground.'",
+      "answers": ["Ich ging immer zum Spielplatz"],
+      "hint": "ging + immer",
+      "explain": "Ich ging immer zum Spielplatz — immer comes right after the conjugated verb."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Früher hatte ich nie Zeit.",
+      "answers": ["Früher hatte ich nie Zeit.", "Frueher hatte ich nie Zeit."]
+    },
+    {
+      "type": "builder",
+      "title": "Früher vs. heute",
+      "prompt": "Build a früher-vs-heute pair.",
+      "slots": [
+        { "label": "Früher", "chips": ["Früher spielte ich draußen.", "Früher wohnte ich in einem Dorf.", "Früher hatte ich keine Zeit für Hobbys."] },
+        { "label": "Heute", "chips": ["Heute spiele ich am Handy.", "Heute wohne ich in Berlin.", "Heute habe ich viele Hobbys."] }
+      ],
+      "sample": "Früher spielte ich draußen, heute spiele ich am Handy."
+    },
+    {
+      "type": "journal",
+      "prompt": "Was hat sich verändert? Schreib zwei Sätze: früher und heute.",
+      "starters": ["Früher...", "Heute..."]
+    }
+  ]
+}

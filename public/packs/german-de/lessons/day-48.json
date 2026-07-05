@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "day-48",
+  "day": 48,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "review",
+  "title": "Klaus' Kindheit in Köln",
+  "emoji": "🎭",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "Recap of week 7 (Präteritum, childhood, weather-in-past) plus an immersion visit to Klaus's Cologne childhood",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Woche 7 im Rückblick",
+      "body": "This week: the **Präteritum** — war/hatte/konnte/wollte (used even in speech), the regular **-te** pattern, strong forms **ging/kam/sah/gab**, weather and places in the past, and **früher vs. heute** habits. Let's see what stuck, then visit Klaus's childhood in Köln.",
+      "table": {
+        "headers": ["Deutsch", "Bedeutung"],
+        "rows": [
+          ["Ich war klein und hatte lange Haare.", "I was little and had long hair."],
+          ["Als Kind ging ich oft zum Spielplatz.", "As a child I often went to the playground."],
+          ["Es gab immer Kuchen bei Oma.", "There was always cake at Grandma's."],
+          ["Früher spielte ich draußen, heute spiele ich am Handy.", "Before I used to play outside, now I play on my phone."]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Mix aus dieser Woche",
+      "items": [
+        { "nl": "war", "en": "was", "speak": "war" },
+        { "nl": "hatte", "en": "had", "speak": "hatte" },
+        { "nl": "ging", "en": "went", "speak": "ging" },
+        { "nl": "gab", "en": "there was/were", "speak": "gab" },
+        { "nl": "früher", "en": "back then", "speak": "früher" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welche Form ist richtig? 'Als Kind ___ ich oft zum Rhein.'",
+      "options": ["ging", "gehte", "gegangen"],
+      "correct": 0,
+      "explain": "ging — the strong Präteritum of gehen, no -te and a vowel change."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type: 'My childhood was nice.'",
+      "answers": ["Meine Kindheit war schön", "Meine Kindheit war schoen"],
+      "hint": "war + predicate adjective",
+      "explain": "Meine Kindheit war schön — schön stays a predicate adjective after war, no ending."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Klaus erzählt dir von seiner Kindheit in Köln, am Rhein.",
+      "lines": [
+        { "speaker": "Klaus", "nl": "Als ich klein war, wohnte ich mit meiner Familie in Köln, direkt am Rhein.", "en": "When I was little, I lived with my family in Cologne, right on the Rhine." },
+        { "speaker": "You", "nl": "Wie war deine Kindheit dort?", "en": "What was your childhood like there?" },
+        { "speaker": "Klaus", "nl": "Schön! Wir hatten immer viel Platz zum Spielen, und im Februar gab es jedes Jahr Karneval.", "en": "Nice! We always had lots of space to play, and every February there was Karneval.", "spotlight": "gab es — the fixed impersonal phrase for 'there was/were'." },
+        { "speaker": "You", "nl": "Was habt ihr an Karneval gemacht?", "en": "What did you do at Karneval?" },
+        { "speaker": "Klaus", "nl": "Wir verkleideten uns und gingen durch die Straßen. Meine Mutter machte jedes Jahr Kostüme für uns.", "en": "We dressed up and walked through the streets. My mother made costumes for us every year.", "spotlight": "machte — the regular -te Präteritum of machen." },
+        { "speaker": "You", "nl": "Klingt lustig! Und die Schule?", "en": "Sounds fun! And school?" },
+        { "speaker": "Klaus", "nl": "Die Schule war streng, aber ich hatte viele Freunde. Wir sahen uns jeden Tag.", "en": "School was strict, but I had lots of friends. We saw each other every day." },
+        { "speaker": "You", "nl": "Vermisst du deine Kindheit?", "en": "Do you miss your childhood?" },
+        { "speaker": "Klaus", "nl": "Na klar, aber Köln ist immer noch meine Stadt — Karneval und alles.", "en": "Of course, but Cologne is still my city — Karneval and everything." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "Wo wohnte Klaus als Kind?", "options": ["In Berlin", "In Köln, am Rhein", "In München"], "correct": 1 },
+        { "q": "Was gab es jedes Jahr im Februar?", "options": ["Weihnachten", "Karneval", "Ferien"], "correct": 1 },
+        { "q": "Wer machte die Kostüme?", "options": ["Klaus' Mutter", "Klaus selbst", "Die Schule"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Was hat dich an Klaus' Kindheit überrascht oder an deine eigene erinnert? Schreib zwei Sätze im Präteritum.",
+      "starters": ["Als ich klein war...", "Wir hatten..."]
+    }
+  ]
+}

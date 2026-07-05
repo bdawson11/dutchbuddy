@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "day-44",
+  "day": 44,
+  "module": "M07",
+  "unit": "U07",
+  "kind": "lesson",
+  "title": "Perfekt oder Präteritum?",
+  "emoji": "⚖️",
+  "level": "A2",
+  "durationMin": [15, 25],
+  "summary": "The usage split: Perfekt in speech, Präteritum in stories — except sein/haben/modals, which stay Präteritum even when talking",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Die Arbeitsteilung: gesprochen vs. geschrieben",
+      "body": "In **gesprochenem Deutsch** (everyday talk), most verbs use the **Perfekt**: *Ich habe eine Pizza gegessen.* In **geschriebenem/erzähltem Deutsch** (books, news, stories), the **Präteritum** runs the whole show: *Ich aß eine Pizza.* But **sein**, **haben**, and the modal verbs (*können, wollen, müssen...*) break the rule — Germans use their Präteritum forms (*war, hatte, konnte, wollte*) in speech too. Saying *ich bin gewesen* out loud sounds stiff; *ich war* is what people actually say.",
+      "table": {
+        "headers": ["Verb", "gesprochen (Perfekt)", "erzählt (Präteritum)"],
+        "rows": [
+          ["machen", "ich habe gemacht", "ich machte"],
+          ["gehen", "ich bin gegangen", "ich ging"],
+          ["sein", "kaum: ich bin gewesen", "ich war — auch gesprochen!"],
+          ["haben", "kaum: ich habe gehabt", "ich hatte — auch gesprochen!"]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "Alltag vs. Erzählung",
+      "pairs": [
+        {
+          "left": "Ich habe das Buch gelesen. — everyday talk",
+          "right": "Ich las das Buch. — a written story",
+          "note": "Same meaning, different register. You'll mostly speak Perfekt, but you need to recognize Präteritum everywhere you read."
+        }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Immer Präteritum, auch beim Sprechen",
+      "items": [
+        { "nl": "war", "en": "was", "speak": "war" },
+        { "nl": "hatte", "en": "had", "speak": "hatte" },
+        { "nl": "konnte", "en": "could", "speak": "konnte" },
+        { "nl": "wollte", "en": "wanted to", "speak": "wollte" },
+        { "nl": "musste", "en": "had to", "speak": "musste" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wie sagt man 'I was tired' natürlich im Gespräch?",
+      "options": ["Ich bin müde gewesen.", "Ich war müde.", "Ich habe müde gehabt."],
+      "correct": 1,
+      "explain": "Ich war müde — sein almost always shows up as war, even in speech. 'Ich bin gewesen' sounds stiff."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welcher Satz klingt nach einer geschriebenen Geschichte, nicht nach einem Gespräch?",
+      "options": ["Ich habe eine Pizza gegessen.", "Ich aß eine Pizza.", "Ich esse eine Pizza."],
+      "correct": 1,
+      "explain": "Ich aß eine Pizza — full Präteritum on a regular verb signals written/narrative style."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type the natural spoken way to say: 'I had no time.'",
+      "answers": ["Ich hatte keine Zeit"],
+      "hint": "hatte, not 'ich habe gehabt'",
+      "explain": "Ich hatte keine Zeit — hatte is what people actually say, even in casual conversation."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "Ich konnte gestern nicht kommen.",
+      "answers": ["Ich konnte gestern nicht kommen."]
+    },
+    {
+      "type": "builder",
+      "title": "Sprich wie ein echter Sprecher",
+      "prompt": "Build a sentence using a modal in the Präteritum.",
+      "slots": [
+        { "label": "Ich", "chips": ["Ich"] },
+        { "label": "Modal-Satz", "chips": ["konnte nicht kommen.", "wollte anrufen.", "musste arbeiten.", "sollte früher gehen."] }
+      ],
+      "sample": "Ich konnte nicht kommen."
+    },
+    {
+      "type": "journal",
+      "prompt": "Schreib einen Satz, wie du es im Gespräch sagen würdest, und einen, wie es in einer Geschichte stehen könnte.",
+      "starters": ["Ich habe...", "Ich..."]
+    }
+  ]
+}
