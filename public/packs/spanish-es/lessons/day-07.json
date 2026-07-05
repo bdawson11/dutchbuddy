@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "day-07",
+  "day": 7,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "capstone",
+  "title": "Mi historia: quién soy",
+  "emoji": "🎉",
+  "level": "A1",
+  "durationMin": [20, 30],
+  "summary": "Week-1 capstone: sounds, greetings, ser/estar/tener — then your first self-intro layer",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso: semana 1",
+      "body": "In one week you've met the **five vowels** and the **acento**, the Castilian **'th' (distinción)** and the **jota**, greetings with **vale/venga**, the verbs **ser / estar / tener**, negation with **no**, and gender with **el/la, un/una**. That's the whole foundation. Vamos a juntarlo todo.",
+      "callout": "This is the end of week 1. Ponte una caña mental — has hecho mucho, ¿eh?"
+    },
+    {
+      "type": "chips",
+      "title": "Repaso rápido — tap through",
+      "items": [
+        { "nl": "buenas, ¿qué tal?", "en": "hey, how's it going?", "speak": "buenas, ¿qué tal?" },
+        { "nl": "me llamo…", "en": "my name is…", "speak": "me llamo" },
+        { "nl": "soy de…", "en": "I'm from…", "speak": "soy de" },
+        { "nl": "estoy bien", "en": "I'm good", "speak": "estoy bien" },
+        { "nl": "tengo hambre", "en": "I'm hungry", "speak": "tengo hambre" },
+        { "nl": "una caña, por favor", "en": "a beer, please", "speak": "una caña, por favor" }
+      ]
+    },
+    {
+      "type": "shadow",
+      "title": "Warm up — shadow the week",
+      "lines": [
+        { "nl": "Hola, me llamo Alex.", "en": "Hi, my name's Alex." },
+        { "nl": "Soy de Canadá y estoy en Madrid.", "en": "I'm from Canada and I'm in Madrid." },
+        { "nl": "Aprendo español.", "en": "I'm learning Spanish." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which verb goes with location — 'I'm in Madrid'?",
+      "options": ["Soy en Madrid", "Estoy en Madrid"],
+      "correct": 1,
+      "explain": "Location = **estar**: *estoy en Madrid*. Origin would be *soy de Madrid* (ser)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Type 'I'm learning Spanish.' — Aprendo ___.",
+      "answers": ["español", "el español", "castellano"],
+      "hint": "The language itself, lowercase.",
+      "explain": "*Aprendo español.* (In Spain you'll also hear *castellano* for the language.)"
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "soy de Canadá",
+      "answers": ["soy de canadá", "soy de canada", "soy de Canadá"]
+    },
+    {
+      "type": "contrast",
+      "title": "Recap: ser vs estar",
+      "pairs": [
+        { "left": "ser → who you are, where you're from", "right": "estar → how you feel, where you are now", "note": "*Soy de Toronto* (identity) vs *estoy cansado* (state). The pack's biggest idea — you'll master it in week 3." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía introduces you to Rafa at the bar — put the whole week together",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Rafa, este es Alex. Está aprendiendo español.", "en": "Rafa, this is Alex. He's learning Spanish." },
+        { "speaker": "Rafa", "nl": "¡Hombre, qué bien! ¿De dónde eres?", "en": "Oh nice! Where are you from?" },
+        { "speaker": "You", "nl": "Soy de Toronto, pero ahora estoy en Madrid.", "en": "I'm from Toronto, but now I'm in Madrid.", "spotlight": "ser de (origin) + estar en (location) in one line." },
+        { "speaker": "Rafa", "nl": "¡Genial! ¿Tienes hambre? Hay tapas.", "en": "Great! Are you hungry? There are tapas." },
+        { "speaker": "You", "nl": "Un poco. Y sed. ¡Una caña, por favor!", "en": "A little. And thirsty. A beer, please!" },
+        { "speaker": "Rafa", "nl": "¡Marchando! Bienvenido, ¿eh?", "en": "Coming right up! Welcome!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "Where is Alex from?", "options": ["Madrid", "Toronto", "Canada — the city"], "correct": 1 },
+        { "q": "What does Alex order?", "options": ["A coffee", "A beer (una caña)", "Tapas"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mi historia — capa 1",
+      "prompt": "Build your first self-introduction: your name, where you're from, and that you're learning Spanish.",
+      "slots": [
+        { "label": "Nombre", "chips": ["Me llamo Alex", "Me llamo Sam", "Me llamo María"] },
+        { "label": "Origen", "chips": ["soy de Toronto", "soy de Londres", "soy de Berlín"] },
+        { "label": "Ahora", "chips": ["y estoy en Madrid", "y ahora vivo en Madrid"] },
+        { "label": "El motivo", "chips": ["y aprendo español", "y estoy aprendiendo español"] }
+      ],
+      "sample": "Me llamo Alex, soy de Toronto y estoy en Madrid, y aprendo español."
+    },
+    {
+      "type": "journal",
+      "prompt": "¡Mi historia, semana 1! Write your self-introduction: your name, where you're from, where you are now, and that you're learning Spanish. Every week you'll add a new layer to this. ¡Enhorabuena por la primera semana!",
+      "starters": ["Me llamo…", "Soy de…", "Estoy en…", "Aprendo español…"],
+      "minSentences": 3
+    }
+  ]
+}

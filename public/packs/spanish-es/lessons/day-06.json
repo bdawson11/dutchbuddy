@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "day-06",
+  "day": 6,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "El, la, un, una: el género",
+  "emoji": "⚥",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Grammatical gender, the articles el/la and un/una, and the classic exceptions",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Every noun has a gender",
+      "body": "In Spanish every noun is **masculine** or **feminine**, and its article must match. The reliable clue: nouns ending in **-o** are usually masculine (**el/un**), nouns ending in **-a** are usually feminine (**la/una**). *el libro* (the book), *la mesa* (the table).",
+      "table": {
+        "headers": ["Masculine (el/un)", "Feminine (la/una)"],
+        "rows": [
+          ["el libro — the book", "la mesa — the table"],
+          ["el vino — the wine", "la casa — the house"],
+          ["un café — a coffee", "una caña — a beer"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap to hear the articles",
+      "items": [
+        { "nl": "el libro", "en": "the book", "speak": "el libro" },
+        { "nl": "la mesa", "en": "the table", "speak": "la mesa" },
+        { "nl": "un café", "en": "a coffee", "speak": "un café" },
+        { "nl": "una caña", "en": "a beer", "speak": "una caña" },
+        { "nl": "el vino", "en": "the wine", "speak": "el vino" },
+        { "nl": "la calle", "en": "the street", "speak": "la calle" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "the vs a",
+      "pairs": [
+        { "left": "el / la = the (specific)", "right": "un / una = a/an (any one)", "note": "*el café* = the coffee (that one). *un café* = a coffee (order me one). Both must match the noun's gender." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "The traps you have to just learn",
+      "body": "The -o/-a clue is *usually* right, but Spanish loves exceptions. Some **-a words are masculine**: *el problema, el día, el mapa, el idioma*. Some **-o words are feminine**: *la mano, la foto, la moto*. And nouns ending in -e or a consonant go either way (*la calle*, *el coche*). When unsure, learn the noun **with its article**.",
+      "callout": "Learn *la mano* and *el día* as whole units now — they trip up everyone forever otherwise."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is correct?",
+      "options": ["la problema", "el problema"],
+      "correct": 1,
+      "explain": "*el problema* — masculine despite the -a. Words like *problema, tema, idioma* (often from Greek) are masculine. A classic trap."
+    },
+    {
+      "type": "mcq",
+      "prompt": "'the hand' is…",
+      "options": ["el mano", "la mano"],
+      "correct": 1,
+      "explain": "*la mano* — feminine despite the -o. Pair it with *la foto* and *la moto* in the same 'exceptions' box."
+    },
+    {
+      "type": "typed",
+      "prompt": "Add the right definite article for 'the house': ___ casa.",
+      "answers": ["la", "la casa"],
+      "hint": "-a ending, feminine.",
+      "explain": "*la casa* — regular -a → feminine → *la*."
+    },
+    {
+      "type": "builder",
+      "title": "Match article to noun",
+      "prompt": "Build 'a coffee and a beer, please' — pick the right articles.",
+      "slots": [
+        { "label": "Coffee", "chips": ["un café", "una café"] },
+        { "label": "Beer", "chips": ["una caña", "un caña"] },
+        { "label": "Close", "chips": ["por favor"] }
+      ],
+      "sample": "Un café y una caña, por favor."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "speak": "una caña, por favor",
+      "answers": ["una caña, por favor", "una caña por favor"]
+    },
+    {
+      "type": "journal",
+      "prompt": "List five things around you in Spanish, each with its article (el/la or un/una). Guess from the ending, then check the tricky ones.",
+      "starters": ["el…", "la…", "un…", "una…"]
+    }
+  ]
+}

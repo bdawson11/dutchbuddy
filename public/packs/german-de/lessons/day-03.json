@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "day-03",
+  "day": 3,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "Begrüßungen und die Bäckerei",
+  "emoji": "🥐",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Greetings by time of day, bitte and danke, and your first exchange at the bakery",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Hello, by the clock",
+      "body": "German greets you by the time of day. *Guten Morgen* in the morning, *Guten Tag* through the day, *Guten Abend* in the evening. **Hallo** works any time and is friendly; **Moin** is the northern hello you'll hear all over Berlin and Hamburg — morning or not. To leave: **Tschüss** (casual) or **Auf Wiedersehen** (formal).",
+      "table": {
+        "headers": ["German", "When"],
+        "rows": [
+          ["Guten Morgen", "morning"],
+          ["Guten Tag", "daytime, neutral"],
+          ["Guten Abend", "evening"],
+          ["Hallo / Moin", "any time, friendly"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Tap the greetings",
+      "items": [
+        { "nl": "Guten Morgen", "en": "good morning", "speak": "Guten Morgen" },
+        { "nl": "Guten Tag", "en": "hello (daytime)", "speak": "Guten Tag" },
+        { "nl": "Hallo", "en": "hi", "speak": "Hallo" },
+        { "nl": "Moin", "en": "hi (northern)", "speak": "Moin" },
+        { "nl": "Tschüss", "en": "bye", "speak": "Tschüss" },
+        { "nl": "Auf Wiedersehen", "en": "goodbye (formal)", "speak": "Auf Wiedersehen" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "bitte and danke — the whole engine",
+      "body": "**danke** is thanks; *danke schön* and *vielen Dank* are \"thank you very much\". **bitte** is the Swiss-army word: it means **please**, **you're welcome**, and **here you go** — all decided by context. Miss a word? *Entschuldigung* (excuse me / sorry) opens every door.",
+      "callout": "Say *bitte* when you ask, and *bitte* again when you hand something over."
+    },
+    {
+      "type": "chips",
+      "title": "Please, thanks, sorry",
+      "items": [
+        { "nl": "bitte", "en": "please / you're welcome", "speak": "bitte" },
+        { "nl": "danke", "en": "thanks", "speak": "danke" },
+        { "nl": "danke schön", "en": "thank you very much", "speak": "danke schön" },
+        { "nl": "vielen Dank", "en": "many thanks", "speak": "vielen Dank" },
+        { "nl": "Entschuldigung", "en": "excuse me / sorry", "speak": "Entschuldigung" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Casual vs formal",
+      "pairs": [
+        { "left": "Hallo / Tschüss — casual", "right": "Guten Tag / Auf Wiedersehen — formal", "note": "Use the formal pair with strangers, officials, and older people. Tomorrow: the du/Sie system underneath this." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "You walk into the Bäckerei at 8 a.m. Which greeting fits?",
+      "options": ["Guten Abend", "Guten Morgen", "Gute Nacht"],
+      "correct": 1,
+      "explain": "*Guten Morgen* — morning. *Guten Abend* is evening; *Gute Nacht* is only for going to bed."
+    },
+    {
+      "type": "shadow",
+      "title": "Bakery phrases — repeat after the audio",
+      "lines": [
+        { "nl": "Guten Morgen!", "en": "Good morning!" },
+        { "nl": "Zwei Brötchen, bitte.", "en": "Two bread rolls, please." },
+        { "nl": "Danke schön!", "en": "Thank you very much!" },
+        { "nl": "Tschüss, bis morgen!", "en": "Bye, see you tomorrow!" }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Your first morning at the Bäckerei. Lena goes first and shows you how it's done.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Guten Morgen! Zwei Brötchen, bitte.", "en": "Good morning! Two rolls, please." },
+        { "speaker": "You", "nl": "Guten Morgen. Und für mich einen Kaffee, bitte.", "en": "Good morning. And a coffee for me, please.", "spotlight": "*bitte* closes almost every order — polite and effortless." },
+        { "speaker": "Lena", "nl": "Super. Danke schön!", "en": "Great. Thank you very much!" },
+        { "speaker": "You", "nl": "Danke. Tschüss!", "en": "Thanks. Bye!" },
+        { "speaker": "Lena", "nl": "Tschüss! Bis morgen.", "en": "Bye! See you tomorrow.", "spotlight": "*Tschüss* is the everyday bye; *bis morgen* = see you tomorrow." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Did you catch it?",
+      "questions": [
+        { "q": "What does Lena order?", "options": ["A coffee", "Two bread rolls", "Nothing"], "correct": 1 },
+        { "q": "How do they say goodbye?", "options": ["Guten Tag", "Tschüss", "Danke"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Type a polite 'thank you very much'.",
+      "answers": ["danke schön", "vielen Dank", "danke sehr", "danke schoen"],
+      "hint": "Two common options — either works.",
+      "explain": "*danke schön* or *vielen Dank* — both are warm, everyday thank-yous."
+    },
+    {
+      "type": "journal",
+      "prompt": "Write the greeting you'd use walking into your local Bäckerei tomorrow morning, plus how you'd order two rolls and say bye.",
+      "starters": ["Guten Morgen…", "…, bitte.", "Tschüss…"]
+    }
+  ]
+}

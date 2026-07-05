@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "day-06",
+  "day": 6,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "Il, lo, la: genere e articoli",
+  "emoji": "🔤",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "Nouns are masculine or feminine, the il/lo/la article choice, and how plurals flip the ending",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Every noun has a gender",
+      "body": "Italian nouns are **masculine** or **feminine** — even objects. A handy first rule from the ending: nouns in **-o** are usually masculine (*il libro*, book), nouns in **-a** usually feminine (*la casa*, house). Nouns in **-e** can be **either** — so you just learn the gender with the word (*il fiore* m, *la notte* f).",
+      "callout": "Learn the article *with* the noun: not *casa* but *la casa*."
+    },
+    {
+      "type": "card",
+      "title": "'The' for masculine: il vs lo",
+      "body": "Masculine 'the' is usually **il** (*il libro*, *il caffè*). But before tricky starts — **s+consonant, z, gn, ps, y** — it becomes **lo** (*lo studente*, *lo zaino*, *lo gnocco*). Before a vowel, both shrink to **l'** (*l'amico*). Feminine 'the' is **la**, or **l'** before a vowel (*la casa*, *l'amica*).",
+      "table": {
+        "headers": ["Article", "Used before", "Example"],
+        "rows": [
+          ["il", "most masculine words", "il libro — the book"],
+          ["lo", "s+cons., z, gn, ps (masc.)", "lo studente — the student"],
+          ["la", "feminine words", "la casa — the house"],
+          ["l'", "any vowel start", "l'amico / l'amica"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Article + noun — tap to hear",
+      "items": [
+        { "nl": "il libro", "en": "the book (m)", "speak": "il libro" },
+        { "nl": "la casa", "en": "the house (f)", "speak": "la casa" },
+        { "nl": "lo studente", "en": "the student (m)", "speak": "lo studente" },
+        { "nl": "l'amica", "en": "the friend (f)", "speak": "l'amica" },
+        { "nl": "il caffè", "en": "the coffee (m)", "speak": "il caffè" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which article goes with *studente* (student)?",
+      "options": ["il", "lo", "la"],
+      "correct": 1,
+      "explain": "*studente* starts with s+consonant, so masculine 'the' is *lo*: *lo studente*."
+    },
+    {
+      "type": "card",
+      "title": "Plurals flip the vowel",
+      "body": "To make a noun plural, change the **final vowel**, don't add -s. Masculine **-o → -i** (*libro → libri*). Feminine **-a → -e** (*casa → case*). Anything in **-e → -i**, whatever the gender (*studente → studenti*, *notte → notti*). The plural 'the' is *i* / *gli* (masc.) and *le* (fem.).",
+      "table": {
+        "headers": ["Singular", "Plural"],
+        "rows": [
+          ["il libro — the book", "i libri — the books"],
+          ["la casa — the house", "le case — the houses"],
+          ["lo studente", "gli studenti"],
+          ["l'amica", "le amiche"]
+        ]
+      }
+    },
+    {
+      "type": "contrast",
+      "title": "-o/-a to -i/-e",
+      "pairs": [
+        { "left": "*il libro* — the book", "right": "*i libri* — the books", "note": "Masculine -o becomes -i." },
+        { "left": "*la casa* — the house", "right": "*le case* — the houses", "note": "Feminine -a becomes -e." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "What's the plural of *la casa*?",
+      "options": ["le casi", "le case", "i case"],
+      "correct": 1,
+      "explain": "Feminine -a → -e, and 'the' plural feminine is *le*: *le case*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Write 'the books' (plural of *il libro*).",
+      "answers": ["i libri"],
+      "hint": "Masculine -o → -i, and 'the' becomes *i*.",
+      "explain": "*I libri.* The noun flips -o → -i and the article *il* → *i*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type. (It means 'the student', masculine.)",
+      "speak": "lo studente",
+      "answers": ["lo studente"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Pick four objects around you. Write each with its article (il/lo/la/l'), then make two of them plural. Guess the gender from the ending and check yourself.",
+      "starters": ["Vedo il…", "Vedo la…", "Al plurale:…"]
+    }
+  ]
+}

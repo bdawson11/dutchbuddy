@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "day-05",
+  "day": 5,
+  "module": "M01",
+  "unit": "U01",
+  "kind": "lesson",
+  "title": "Avere e dire di no",
+  "emoji": "🙅",
+  "level": "A1",
+  "durationMin": [15, 25],
+  "summary": "The verb avere, saying no with non, and pointing things out with c'è / ci sono",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "avere — to have",
+      "body": "The other verb you can't live without. **io ho, tu hai, lui/lei ha, noi abbiamo, voi avete, loro hanno.** The *h* is **always silent** — it's just there to keep these forms from looking like other words. *ho* sounds exactly like *o*.",
+      "table": {
+        "headers": ["Person", "Form"],
+        "rows": [
+          ["io — I", "ho"],
+          ["tu — you", "hai"],
+          ["lui / lei", "ha"],
+          ["noi — we", "abbiamo"],
+          ["voi — you all", "avete"],
+          ["loro — they", "hanno"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "avere in action",
+      "items": [
+        { "nl": "Ho fame.", "en": "I'm hungry (lit. I have hunger).", "speak": "Ho fame." },
+        { "nl": "Hai tempo?", "en": "Do you have time?", "speak": "Hai tempo?" },
+        { "nl": "Abbiamo una domanda.", "en": "We have a question.", "speak": "Abbiamo una domanda." },
+        { "nl": "Ha sete.", "en": "He/she is thirsty (has thirst).", "speak": "Ha sete." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Italian 'has' feelings",
+      "body": "Where English *is* hungry/thirsty/right, Italian **has** them: *ho fame* (I'm hungry), *ho sete* (I'm thirsty), *ho ragione* (I'm right), *ho freddo* (I'm cold). Learn these as fixed *avere* phrases — you'll use them daily.",
+      "callout": "Not *sono fame*. Always *ho fame*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "How do you say 'I'm hungry' in Italian?",
+      "options": ["Sono fame", "Ho fame", "Ho fama"],
+      "correct": 1,
+      "explain": "*Ho fame* — literally 'I have hunger'. Italian uses *avere* for these states."
+    },
+    {
+      "type": "card",
+      "title": "Saying no: non before the verb",
+      "body": "To make a sentence negative, put **non** right before the verb. *Ho tempo* → *Non ho tempo* (I don't have time). *Sono italiano* → *Non sono italiano*. That's it — one word, always just before the verb. No 'do/don't' helper like English.",
+      "callout": "*non* + verb. *Non ho fame. Non è vero.*"
+    },
+    {
+      "type": "typed",
+      "prompt": "Make it negative: say 'I don't have time.'",
+      "answers": ["non ho tempo", "io non ho tempo"],
+      "hint": "*non* goes right before *ho*.",
+      "explain": "*Non ho tempo.* Just *non* before the verb — nothing else changes."
+    },
+    {
+      "type": "card",
+      "title": "c'è and ci sono — 'there is / there are'",
+      "body": "To say something exists or is present: **c'è** (there is, one thing) and **ci sono** (there are, several). *C'è un bar qui vicino* (there's a bar nearby). *Ci sono due caffè sul tavolo* (there are two coffees on the table). Make it a question just by raising your voice: *C'è un problema?*",
+      "callout": "*c'è* = ci + è, one thing. *ci sono* = more than one."
+    },
+    {
+      "type": "shadow",
+      "title": "Repeat — pointing things out",
+      "lines": [
+        { "nl": "C'è un bar qui vicino?", "en": "Is there a bar nearby?" },
+        { "nl": "Sì, ci sono due bar in piazza.", "en": "Yes, there are two bars in the square." },
+        { "nl": "Non c'è tempo.", "en": "There's no time." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Complete: '___ due amici al bar.' (There are two friends at the bar.)",
+      "options": ["C'è", "Ci sono", "Ho"],
+      "correct": 1,
+      "explain": "Two friends = plural, so *ci sono*. *C'è* would be for a single thing."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type. (It means 'Do you have time?')",
+      "speak": "Hai tempo?",
+      "answers": ["hai tempo?", "hai tempo"]
+    },
+    {
+      "type": "journal",
+      "prompt": "Write two things you have and one you don't, using avere and non. Add whether there's a bar or a park near you with c'è.",
+      "starters": ["Ho…", "Non ho…", "Qui vicino c'è…"]
+    }
+  ]
+}
