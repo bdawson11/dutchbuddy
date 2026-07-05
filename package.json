@@ -13,7 +13,9 @@
     "validate:german-de": "node tools/validate.js public/packs/german-de",
     "validate:italian-it": "node tools/validate.js public/packs/italian-it",
     "validate:spanish-es": "node tools/validate.js public/packs/spanish-es",
-    "validate:strict": "node tools/validate.js public/packs/dutch-nl --strict"
+    "validate:strict": "node tools/validate.js public/packs/dutch-nl --strict",
+    "tts:extract": "node tools/tts/extract.mjs public/packs/dutch-nl",
+    "tts:check": "node tools/tts/extract.mjs public/packs/dutch-nl --check"
   },
   "dependencies": {
     "react": "^19.2.7",
