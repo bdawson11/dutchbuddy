@@ -132,6 +132,17 @@ def write_clip(out: Path, pcm: bytes, fmt: str):
 def build_xtts(args, locale):
     """XTTS-v2 via the maintained coqui-tts fork. Returns render(text)->pcm."""
     import torch
+
+    # coqui-tts declares transformers>=4.57 with no upper bound, but recent
+    # transformers releases dropped transformers.pytorch_utils.isin_mps_friendly
+    # (an MPS shim over torch.isin) that TTS's bundled Tortoise-layer code still
+    # imports at module load time. No transformers version satisfies both, so
+    # restore the missing helper before importing TTS rather than pin a broken
+    # combination.
+    import transformers.pytorch_utils as _ptu
+    if not hasattr(_ptu, "isin_mps_friendly"):
+        _ptu.isin_mps_friendly = lambda elements, test_elements: torch.isin(elements, test_elements)
+
     from TTS.api import TTS
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
