@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render a pack's spoken lines to audio clips with Tortoise TTS (Dutch).
+"""Render a pack's spoken lines to audio clips with a neural TTS engine.
 
 Pipeline:
 
@@ -7,28 +7,43 @@ Pipeline:
     python tools/tts/generate.py public/packs/dutch-nl   # writes clips + index.json
 
 This reads the job list produced by extract.mjs (never re-deriving what to
-speak), synthesises each still-missing clip with the fine-tuned Dutch model
-at https://huggingface.co/arrivederci19/tortoise_tts_dutch, and writes
-audio/index.json mapping each spoken line to its clip file. The runtime
-(src/engine/audio.js) loads that index and plays the clips, falling back to the
-browser voice for anything absent.
+speak), synthesises each still-missing clip, and writes audio/index.json
+mapping each spoken line to its clip file. The runtime (src/engine/audio.js)
+loads that index and plays the clips, falling back to the browser voice for
+anything absent.
 
-Tortoise is autoregressive and GPU-bound — generation is an offline build step,
-not something the app does live. Run it on a CUDA box, commit the resulting
-audio/ directory (or host it as static assets), and ship.
+Engines (--engine):
 
-Requirements (install on the generation machine, not in this web project):
-    pip install tortoise-tts huggingface_hub torch torchaudio psutil
-    # psutil is imported by tortoise at runtime but missing from its deps
+    xtts (default)  Coqui XTTS-v2. Natural flow and intonation, supports Dutch
+                    out of the box, and is fast enough that a full pack is
+                    feasible on a laptop CPU. The voice is cloned from either a
+                    bundled studio speaker (--speaker) or a short reference
+                    recording (--speaker-wav, ~6-10s of clean speech — a native
+                    Dutch speaker gives the most accurate accent).
+                    License: Coqui Public Model License (NON-COMMERCIAL). The
+                    first download asks you to accept it.
+                    Install: pip install coqui-tts
+
+    tortoise        The fine-tuned Dutch Tortoise checkpoint
+                    (arrivederci19/tortoise_tts_dutch). Slower — GPU strongly
+                    recommended for a full pack.
+                    Install: pip install tortoise-tts huggingface_hub psutil
+                    (psutil is imported by tortoise at runtime but missing
+                    from its declared deps)
+
+The two engines pin conflicting transformers versions — install them in
+separate venvs. Both are heavyweight neural models: generation is an offline
+build step, not something the app does live. Run it once, commit the
+resulting audio/ directory (or host it as static assets), and ship.
 
 Modes:
     --dry-run   Write short silent placeholder clips + a valid index.json with
                 no model at all. Lets you exercise the full runtime path (the
-                app will "play" real files) before committing to a GPU run.
+                app will "play" real files) before committing to a long render.
     --limit N   Only generate the first N missing clips (smoke test).
-    --preset    Tortoise quality preset: ultra_fast | fast (default) | standard
-                | high_quality.
     --format    mp3 (default; ~10x smaller, needs ffmpeg) | wav.
+    --preset    Tortoise-only quality preset: ultra_fast | fast (default) |
+                standard | high_quality.
 """
 
 import argparse
@@ -41,8 +56,9 @@ import sys
 import wave
 from pathlib import Path
 
-MODEL_REPO = "arrivederci19/tortoise_tts_dutch"
-SAMPLE_RATE = 24000  # Tortoise renders at 24 kHz
+XTTS_MODEL = "tts_models/multilingual/multi-dataset/xtts_v2"
+TORTOISE_REPO = "arrivederci19/tortoise_tts_dutch"
+SAMPLE_RATE = 24000  # both XTTS-v2 and Tortoise render at 24 kHz
 
 
 def load_jobs(audio_dir: Path):
@@ -51,14 +67,14 @@ def load_jobs(audio_dir: Path):
         sys.exit(
             f"No {jobs_path}. Run: node tools/tts/extract.mjs {audio_dir.parent}"
         )
-    return json.loads(jobs_path.read_text())["jobs"]
+    return json.loads(jobs_path.read_text())
 
 
 def load_index(audio_dir: Path):
     index_path = audio_dir / "index.json"
     if index_path.exists():
         return json.loads(index_path.read_text())
-    return {"model": MODEL_REPO, "clips": {}}
+    return {"clips": {}}
 
 
 def write_index(audio_dir: Path, index: dict):
@@ -72,48 +88,18 @@ def silent_pcm(seconds: float = 0.35) -> bytes:
     return struct.pack("<%dh" % int(SAMPLE_RATE * seconds), *([0] * int(SAMPLE_RATE * seconds)))
 
 
-def build_tts(preset: str):
-    """Download the Dutch checkpoint and build a Tortoise engine around it.
-    Imported lazily so --dry-run needs none of the ML stack."""
-    from huggingface_hub import snapshot_download
-    import torch
-    import torchaudio  # noqa: F401  (import surfaces a clear error early if missing)
-    from tortoise.api import TextToSpeech
-
-    print(f"Fetching {MODEL_REPO} …")
-    repo = Path(snapshot_download(MODEL_REPO))
-
-    # Tortoise loads its autoregressive model from <models_dir>/autoregressive.pth.
-    # Point models_dir at whatever directory holds the fine-tuned checkpoint,
-    # normalising the filename if the repo ships it under another name. The
-    # diffusion/vocoder/CLVP models stay the English defaults (downloaded by
-    # Tortoise on first run) — only the AR model carries the Dutch voice.
-    ar = repo / "autoregressive.pth"
-    if not ar.exists():
-        candidates = sorted(repo.rglob("*.pth")) + sorted(repo.rglob("*.safetensors"))
-        if not candidates:
-            sys.exit(f"No .pth/.safetensors checkpoint found under {repo}")
-        src = candidates[0]
-        print(f"Using checkpoint {src.name} as the autoregressive model")
-        ar.write_bytes(src.read_bytes())
-
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    if device == "cpu":
-        print("WARNING: no CUDA device — Tortoise on CPU is extremely slow.")
-    tts = TextToSpeech(models_dir=str(repo), device=device)
-    return tts, preset
-
-
-def to_pcm16(wav) -> bytes:
-    """A Tortoise float waveform (mono, [-1, 1]) -> raw 16-bit PCM bytes.
+def floats_to_pcm(wav) -> bytes:
+    """A float waveform (mono, [-1, 1], list/array/tensor) -> raw 16-bit PCM.
 
     Deliberately avoids torchaudio.save(): newer torchaudio routes saving
     through the separate `torchcodec` package (plus a matching ffmpeg), which
-    is fragile to install. Encoding this ourselves works on any torch version."""
-    import torch
+    is fragile to install. Encoding this ourselves works everywhere."""
+    import numpy as np
 
-    samples = torch.clamp(wav.detach().cpu().float().reshape(-1), -1.0, 1.0)
-    return (samples * 32767.0).to(torch.int16).numpy().tobytes()
+    if hasattr(wav, "detach"):  # torch tensor
+        wav = wav.detach().cpu().float().numpy()
+    samples = np.clip(np.asarray(wav, dtype=np.float32).reshape(-1), -1.0, 1.0)
+    return (samples * 32767.0).astype(np.int16).tobytes()
 
 
 def write_wav(out: Path, pcm: bytes, sr: int = SAMPLE_RATE):
@@ -141,26 +127,92 @@ def write_clip(out: Path, pcm: bytes, fmt: str):
     (write_mp3 if fmt == "mp3" else write_wav)(out, pcm)
 
 
-def synth_pcm(tts_bundle, text: str) -> bytes:
-    import torch
+# ---------- engines ----------
 
-    tts, preset = tts_bundle
-    with torch.no_grad():
-        # No reference voice samples: the fine-tuned model supplies the Dutch
-        # timbre. Swap in load_voices([...]) here to clone a specific speaker.
-        gen = tts.tts_with_preset(
-            text, voice_samples=None, conditioning_latents=None, preset=preset
-        )
-    return to_pcm16(gen.squeeze(0))
+def build_xtts(args, locale):
+    """XTTS-v2 via the maintained coqui-tts fork. Returns render(text)->pcm."""
+    import torch
+    from TTS.api import TTS
+
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    print(f"Loading {XTTS_MODEL} on {device} …")
+    tts = TTS(XTTS_MODEL).to(device)
+
+    lang = locale.split("-")[0].lower()
+    # A reference recording beats a bundled studio speaker for accent accuracy;
+    # use --speaker-wav with ~6-10s of clean native speech when you have one.
+    if args.speaker_wav:
+        voice_kwargs = {"speaker_wav": args.speaker_wav}
+        print(f"Voice: cloned from {args.speaker_wav}")
+    else:
+        voice_kwargs = {"speaker": args.speaker}
+        print(f"Voice: bundled speaker {args.speaker!r} "
+              "(pass --speaker-wav <native-dutch.wav> for the most accurate accent)")
+
+    def render(text):
+        return floats_to_pcm(tts.tts(text=text, language=lang, **voice_kwargs))
+
+    return render, XTTS_MODEL
+
+
+def build_tortoise(args, locale):
+    """Fine-tuned Dutch Tortoise. Returns render(text)->pcm."""
+    from huggingface_hub import snapshot_download
+    import torch
+    from tortoise.api import TextToSpeech
+
+    print(f"Fetching {TORTOISE_REPO} …")
+    repo = Path(snapshot_download(TORTOISE_REPO))
+
+    # Tortoise loads its autoregressive model from <models_dir>/autoregressive.pth.
+    # Point models_dir at whatever directory holds the fine-tuned checkpoint,
+    # normalising the filename if the repo ships it under another name. The
+    # diffusion/vocoder/CLVP models stay the English defaults (downloaded by
+    # Tortoise on first run) — only the AR model carries the Dutch voice.
+    ar = repo / "autoregressive.pth"
+    if not ar.exists():
+        candidates = sorted(repo.rglob("*.pth")) + sorted(repo.rglob("*.safetensors"))
+        if not candidates:
+            sys.exit(f"No .pth/.safetensors checkpoint found under {repo}")
+        src = candidates[0]
+        print(f"Using checkpoint {src.name} as the autoregressive model")
+        ar.write_bytes(src.read_bytes())
+
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    if device == "cpu":
+        print("WARNING: no CUDA device — Tortoise on CPU is extremely slow.")
+    tts = TextToSpeech(models_dir=str(repo), device=device)
+
+    def render(text):
+        with torch.no_grad():
+            # No reference voice samples: the fine-tune supplies the Dutch
+            # timbre. Swap in load_voices([...]) here to clone a speaker.
+            gen = tts.tts_with_preset(
+                text, voice_samples=None, conditioning_latents=None, preset=args.preset
+            )
+        return floats_to_pcm(gen.squeeze(0))
+
+    return render, TORTOISE_REPO
+
+
+ENGINES = {"xtts": build_xtts, "tortoise": build_tortoise}
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("pack_dir", help="e.g. public/packs/dutch-nl")
+    ap.add_argument("--engine", default="xtts", choices=sorted(ENGINES),
+                    help="TTS engine (default: xtts)")
+    ap.add_argument("--speaker", default="Ana Florence",
+                    help="XTTS bundled studio speaker name")
+    ap.add_argument("--speaker-wav",
+                    help="XTTS reference recording (~6-10s clean speech) to clone; "
+                         "overrides --speaker")
     ap.add_argument("--dry-run", action="store_true", help="silent placeholders, no model")
     ap.add_argument("--limit", type=int, default=0, help="only the first N missing clips")
     ap.add_argument("--preset", default="fast",
-                    choices=["ultra_fast", "fast", "standard", "high_quality"])
+                    choices=["ultra_fast", "fast", "standard", "high_quality"],
+                    help="tortoise-only quality preset")
     ap.add_argument("--format", default="mp3", choices=["mp3", "wav"],
                     help="mp3 (default, ~10x smaller, needs ffmpeg) or wav")
     ap.add_argument("--force", action="store_true", help="regenerate clips that already exist")
@@ -177,10 +229,11 @@ def main():
     def clip_name(job):
         return f"{job['file']}.{args.format}"
 
-    jobs = load_jobs(audio_dir)
+    data = load_jobs(audio_dir)
+    jobs = data["jobs"]
+    locale = data.get("locale", "nl-NL")
     index = load_index(audio_dir)
     clips = index.setdefault("clips", {})
-    index["model"] = MODEL_REPO
 
     todo = [
         j for j in jobs
@@ -190,19 +243,22 @@ def main():
         todo = todo[: args.limit]
 
     print(f"{len(jobs)} spoken lines, {len(todo)} to generate as {args.format}"
-          + (" (dry run)" if args.dry_run else ""))
+          + (" (dry run)" if args.dry_run else f" via {args.engine}"))
     if not todo:
         write_index(audio_dir, index)
         return
 
-    tts_bundle = None if args.dry_run else build_tts(args.preset)
+    render = None
+    if not args.dry_run:
+        render, model_id = ENGINES[args.engine](args, locale)
+        index["model"] = model_id
 
     for i, job in enumerate(todo, 1):
         fname = clip_name(job)
         out = audio_dir / fname
         print(f"[{i}/{len(todo)}] {job['text']!r} -> {fname}")
         try:
-            pcm = silent_pcm() if args.dry_run else synth_pcm(tts_bundle, job["text"])
+            pcm = silent_pcm() if args.dry_run else render(job["text"])
             write_clip(out, pcm, args.format)
         except Exception as e:  # keep going; a bad line shouldn't lose the batch
             print(f"    FAILED: {e}", file=sys.stderr)
