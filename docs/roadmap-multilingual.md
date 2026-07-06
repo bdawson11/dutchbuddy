@@ -6,13 +6,17 @@ this file:
 
 | Pack | App | Identity | Roadmap | Status |
 |------|-----|----------|---------|--------|
-| `dutch-nl` | DutchBuddy | Netherlands Dutch, not Flemish | `docs/plan.md` §3 | **Complete** — 84/84 days |
-| `german-de` | GermanBuddy | Germany Hochdeutsch, not Austrian/Swiss | `docs/roadmap-german-de.md` | Scaffolded — manifest + bible + W1 |
-| `italian-it` | ItalianBuddy | Standard Italian, dialect-aware | `docs/roadmap-italian-it.md` | Scaffolded — manifest + bible + W1 |
-| `spanish-es` | SpanishBuddy* | Peninsular Castilian, not LatAm | `docs/roadmap-spanish-es.md` | Scaffolded — manifest + bible + W1 |
+| `dutch-nl` | DutchBuddy | Netherlands Dutch, not Flemish | `docs/plan.md` §3 | 98/126 days — A1–B1 core + B2 W13–14; W15–18 pending |
+| `german-de` | GermanBuddy | Germany Hochdeutsch, not Austrian/Swiss | `docs/roadmap-german-de.md` | 98/126 days — A1–B1 core + B2 W13–14; W15–18 pending |
+| `italian-it` | ItalianBuddy | Standard Italian, dialect-aware | `docs/roadmap-italian-it.md` | 98/126 days — A1–B1 core + B2 W13–14; W15–18 pending |
+| `spanish-es` | SpanishBuddy* | Peninsular Castilian, not LatAm | `docs/roadmap-spanish-es.md` | 98/126 days — A1–B1 core + B2 W13–14; W15–18 pending |
 
-\* Name clash with the reference app spanishbuddy.app cited in `docs/plan.md` —
-naming/domain decision is an open item (see §6).
+\* Name clash resolved by the YapWorld unified app (see §6) — per-language app
+names are legacy manifest fields, unused by the UI.
+
+Languages **5 and beyond** (French, Portuguese-BR, Korean, …), the tooling that
+makes each addition near-zero engine work, and the app-feature roadmap live in
+**`docs/roadmap-expansion.md`**.
 
 ---
 

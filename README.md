@@ -3,7 +3,8 @@
 One app, many languages. A reusable engine for conversational language-learning
 built as a single static SPA: learners log in, pick a language, and work through
 a per-language content pack. Full plan: `docs/plan.md`; multilingual expansion
-roadmap: `docs/roadmap-multilingual.md`.
+roadmap: `docs/roadmap-multilingual.md`; next languages, pack-factory tooling,
+and feature roadmap: `docs/roadmap-expansion.md`.
 
 Content packs (each a language "course" inside YapWorld):
 
