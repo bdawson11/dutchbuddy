@@ -59,10 +59,10 @@ Ordered by leverage; items 1–3 are pre-launch blockers for any second pack:
 2. **Build scripts per pack** — `build:german-de` etc. (`VITE_PACK=german-de
    vite build --outDir dist/german-de`), plus per-pack `validate` scripts
    (done in `package.json` alongside this roadmap).
-3. **TTS voice audit per locale** — Web Speech API quality varies widely for
-   `de-DE` / `it-IT` / `es-ES` across browsers. Verify `audio.js` falls back
-   gracefully when no locale voice exists; keep the v2 pre-generated-TTS
-   swap on the roadmap (schema already supports it).
+3. **TTS voice audit per locale** — ~~Web Speech API quality varies widely~~
+   Superseded: the v2 pre-generated-clip backend shipped (XTTS-v2 clips with
+   Web Speech fallback). Rollout plan, tooling, and licensing notes:
+   `docs/roadmap-audio.md`.
 4. **Grading config per pack** — diacritic tolerance is right for Dutch;
    Spanish (ñ, á…), German (ü, ß — accept `ss` for `ß`), Italian (à, è, é)
    need per-pack normalization flags in the manifest rather than engine
@@ -139,3 +139,5 @@ the spanishbuddy.app collision is moot; Spanish is a course inside YapWorld.
   fetched at runtime by design now) and the authoring `.md` docs inside
   `public/packs/*` — exclude the docs before public launch.
 - Weeks 15–18 (days 99–126) content authoring per language.
+- Real-voice audio rollout per language (Dutch in progress) — see
+  `docs/roadmap-audio.md` for the per-language runbook and who-does-what split.

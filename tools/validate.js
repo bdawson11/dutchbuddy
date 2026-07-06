@@ -49,6 +49,18 @@ allDayIds.forEach((d, i) => {
 
 const castNames = new Set((manifest.cast || []).map((c) => c.name));
 
+// media (optional): the dashboard's classic shows & films section
+if (manifest.media !== undefined) {
+  if (!Array.isArray(manifest.media.items) || manifest.media.items.length === 0) {
+    err('manifest.media: items[] required');
+  } else {
+    manifest.media.items.forEach((it, i) => {
+      if (!it.title || !it.note) err(`manifest.media item ${i}: needs title and note`);
+      if (!['series', 'film'].includes(it.kind)) err(`manifest.media item ${i}: kind must be "series" or "film"`);
+    });
+  }
+}
+
 // ---------- lesson block validation ----------
 const BLOCK_VALIDATORS = {
   card: (b) => {

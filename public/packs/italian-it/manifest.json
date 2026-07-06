@@ -63,6 +63,69 @@
     { "week": 17, "module": "M17", "title": "Sfumature: ironia, colloquiale, accenti", "days": ["day-113", "day-114", "day-115", "day-116", "day-117", "day-118", "day-119"] },
     { "week": 18, "module": "M18", "title": "La volata verso il C1: il finale", "days": ["day-120", "day-121", "day-122", "day-123", "day-124", "day-125", "day-126"] }
   ],
+  "media": {
+    "title": "Learn by watching",
+    "blurb": "Classic Italian TV and film, tagged by the level where they start to feel comfortable. RaiPlay is free with Italian subtitles — turn them on and let the melody sink in.",
+    "items": [
+      {
+        "kind": "series",
+        "title": "Un medico in famiglia",
+        "year": "1998–2016",
+        "level": "A2",
+        "note": "The cozy family staple — domestic vocabulary on endless, gentle repeat."
+      },
+      {
+        "kind": "series",
+        "title": "Don Matteo",
+        "year": "2000–",
+        "level": "A2",
+        "note": "A bicycle-riding priest solves crimes in Umbria. Clear, kind, everyday Italian."
+      },
+      {
+        "kind": "series",
+        "title": "Il Commissario Montalbano",
+        "year": "1999–2021",
+        "level": "B1",
+        "note": "The national institution: standard Italian with a warm Sicilian accent."
+      },
+      {
+        "kind": "series",
+        "title": "Boris",
+        "year": "2007–2010",
+        "level": "B2",
+        "note": "Cult comedy about a trash TV set — fast, idiomatic, and endlessly quoted."
+      },
+      {
+        "kind": "film",
+        "title": "La vita è bella",
+        "year": "1997",
+        "level": "A2",
+        "note": "Benigni's classic — expressive, theatrical, clearly enunciated Italian."
+      },
+      {
+        "kind": "film",
+        "title": "Ladri di biciclette",
+        "year": "1948",
+        "level": "B1",
+        "note": "The neorealist landmark. Simple, powerful, everyday speech."
+      },
+      {
+        "kind": "film",
+        "title": "Nuovo Cinema Paradiso",
+        "year": "1988",
+        "level": "B1",
+        "note": "The beloved classic — standard Italian with Sicilian colour in the village scenes."
+      },
+      {
+        "kind": "film",
+        "title": "Perfetti sconosciuti",
+        "year": "2016",
+        "level": "B2",
+        "note": "One dinner party, nothing but conversation — pure dialogue practice."
+      }
+    ],
+    "footnote": "L'amica geniale (My Brilliant Friend) is magnificent but largely in Neapolitan — watch it for love, not for listening practice."
+  },
   "footer": {
     "donation": true,
     "donationText": "I built this learning app out of love. If you're enjoying it, share it with a friend learning Italian, send some feedback, or chip in below.",

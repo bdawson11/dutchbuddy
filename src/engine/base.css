@@ -573,6 +573,55 @@ button.wordmark:hover { color: var(--accent-ink); }
 }
 .is-complete .day-status { color: var(--good-ink); }
 
+/* --- Learn by watching: per-language classic shows & films --- */
+.media-section { margin-top: 38px; }
+.media-section > h2 { font-size: 21px; margin: 0 0 4px; }
+.media-blurb { color: var(--muted); margin: 6px 0 14px; font-size: 14px; max-width: 640px; line-height: 1.55; }
+.media-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.media-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 14px 16px;
+}
+.media-kind {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  color: var(--accent-ink);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.media-year { color: var(--muted); font-weight: 800; text-transform: none; letter-spacing: 0.02em; }
+.media-level {
+  margin-left: auto;
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-border);
+  color: var(--accent-ink);
+  border-radius: 999px;
+  padding: 2px 9px;
+  font-size: 10.5px;
+}
+.media-title { font-family: var(--font-display); font-weight: 800; font-size: 16.5px; line-height: 1.25; }
+.media-note { font-size: 12.5px; color: var(--muted); line-height: 1.5; }
+.media-footnote {
+  margin: 12px 0 0;
+  font-size: 12.5px;
+  color: var(--muted);
+  font-style: italic;
+  max-width: 640px;
+  line-height: 1.5;
+}
+
 .footer { margin: 44px 0 20px; text-align: left; }
 .footer .donation,
 .footer .disclosure,

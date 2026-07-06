@@ -64,6 +64,69 @@
     { "week": 17, "module": "M17", "title": "Registro, ironía y la calle de verdad", "days": ["day-113", "day-114", "day-115", "day-116", "day-117", "day-118", "day-119"] },
     { "week": 18, "module": "M18", "title": "Español profesional, trámites y el final", "days": ["day-120", "day-121", "day-122", "day-123", "day-124", "day-125", "day-126"] }
   ],
+  "media": {
+    "title": "Learn by watching",
+    "blurb": "Classic Spanish TV and film, tagged by the level where they start to feel comfortable. RTVE Play is free with Spanish subtitles — most of these classics live there.",
+    "items": [
+      {
+        "kind": "series",
+        "title": "Cuéntame cómo pasó",
+        "year": "2001–2023",
+        "level": "B1",
+        "note": "The institution: one family through five decades of Spanish history."
+      },
+      {
+        "kind": "series",
+        "title": "Aquí no hay quien viva",
+        "year": "2003–2006",
+        "level": "B1",
+        "note": "The classic apartment-block sitcom — rapid-fire madrileño with vosotros everywhere."
+      },
+      {
+        "kind": "series",
+        "title": "La casa de papel",
+        "year": "2017–2021",
+        "level": "B1",
+        "note": "The modern global hit, peninsular through and through."
+      },
+      {
+        "kind": "series",
+        "title": "El Ministerio del Tiempo",
+        "year": "2015–2020",
+        "level": "B2",
+        "note": "Cult time-travel drama through Spanish history — literature cameos included."
+      },
+      {
+        "kind": "film",
+        "title": "Volver",
+        "year": "2006",
+        "level": "B1",
+        "note": "Almodóvar in La Mancha — everyday Castilian rhythms, women doing the talking."
+      },
+      {
+        "kind": "film",
+        "title": "Ocho apellidos vascos",
+        "year": "2014",
+        "level": "B1",
+        "note": "The record-smashing comedy about Spain's regional accents — you'll hear the differences."
+      },
+      {
+        "kind": "film",
+        "title": "Mar adentro",
+        "year": "2004",
+        "level": "B2",
+        "note": "The Oscar winner: Bardem in Galicia, unhurried and moving."
+      },
+      {
+        "kind": "film",
+        "title": "Bienvenido, Mister Marshall",
+        "year": "1953",
+        "level": "B2",
+        "note": "Berlanga's village satire, a cornerstone of Spanish cinema."
+      }
+    ],
+    "footnote": "Latin American hits (Narcos, Club de Cuervos…) teach a different Spanish — brilliant TV, but it's ustedes-land. This course speaks vosotros."
+  },
   "footer": {
     "donation": true,
     "donationText": "I built this learning app out of love. If you're enjoying it, share it with a friend learning Spanish, send some feedback, or chip in below.",

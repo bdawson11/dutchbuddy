@@ -63,6 +63,69 @@
     { "week": 17, "module": "M17", "title": "Nuance: particles, irony & register-switching", "days": ["day-113", "day-114", "day-115", "day-116", "day-117", "day-118", "day-119"] },
     { "week": 18, "module": "M18", "title": "Professional & media Dutch, and the leap", "days": ["day-120", "day-121", "day-122", "day-123", "day-124", "day-125", "day-126"] }
   ],
+  "media": {
+    "title": "Learn by watching",
+    "blurb": "Classic Dutch TV and film, tagged by the level where they start to feel comfortable. Dutch subtitles on (NPO Start has them on nearly everything), English subtitles off as soon as you dare.",
+    "items": [
+      {
+        "kind": "series",
+        "title": "Het Klokhuis",
+        "year": "1988–",
+        "level": "A1",
+        "note": "NPO's legendary kids' educational show — short segments in crystal-clear Dutch."
+      },
+      {
+        "kind": "series",
+        "title": "NOS Jeugdjournaal",
+        "year": "1981–",
+        "level": "A2",
+        "note": "The daily news for kids: slow, clear, and full of current everyday vocabulary."
+      },
+      {
+        "kind": "series",
+        "title": "Baantjer",
+        "year": "1995–2006",
+        "level": "B1",
+        "note": "The classic Amsterdam detective. Procedural plots make the dialogue easy to follow."
+      },
+      {
+        "kind": "series",
+        "title": "Flikken Maastricht",
+        "year": "2007–",
+        "level": "B1",
+        "note": "Long-running cop favourite — everyday speech at natural pace."
+      },
+      {
+        "kind": "film",
+        "title": "Minoes",
+        "year": "2001",
+        "level": "A2",
+        "note": "Beloved family film about a cat who becomes a woman. Gentle, clearly spoken Dutch."
+      },
+      {
+        "kind": "film",
+        "title": "Alles is Liefde",
+        "year": "2007",
+        "level": "B1",
+        "note": "Feel-good Amsterdam ensemble rom-com set around Sinterklaas — a culture lesson included."
+      },
+      {
+        "kind": "film",
+        "title": "Soldaat van Oranje",
+        "year": "1977",
+        "level": "B2",
+        "note": "The WWII resistance classic every Dutch person knows."
+      },
+      {
+        "kind": "film",
+        "title": "Turks fruit",
+        "year": "1973",
+        "level": "B2",
+        "note": "Paul Verhoeven's raw classic — regularly voted the greatest Dutch film ever made."
+      }
+    ],
+    "footnote": "Belgian crime hits like Undercover are Flemish — great TV, but the accent and vocab drift from the Netherlands Dutch this course teaches."
+  },
   "footer": {
     "donation": true,
     "donationText": "I built this learning app out of love. If you're enjoying it, share it with a friend learning Dutch, send some feedback, or chip in below.",

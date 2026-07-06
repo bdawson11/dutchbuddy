@@ -64,6 +64,69 @@
     { "week": 17, "module": "M17", "title": "Deutsch im Berufsleben", "days": ["day-113", "day-114", "day-115", "day-116", "day-117", "day-118", "day-119"] },
     { "week": 18, "module": "M18", "title": "Schnelles Deutsch, Farbe & das Finale", "days": ["day-120", "day-121", "day-122", "day-123", "day-124", "day-125", "day-126"] }
   ],
+  "media": {
+    "title": "Learn by watching",
+    "blurb": "Classic German TV and film, tagged by the level where they start to feel comfortable. The ARD and ZDF Mediathek apps are free and subtitled — German subtitles on, English off when you're brave.",
+    "items": [
+      {
+        "kind": "series",
+        "title": "Die Sendung mit der Maus",
+        "year": "1971–",
+        "level": "A1",
+        "note": "The legendary Sunday kids' explainer — slow, precise Hochdeutsch, loved by generations."
+      },
+      {
+        "kind": "series",
+        "title": "Derrick",
+        "year": "1974–1998",
+        "level": "A2",
+        "note": "The classic Munich detective, famous for slow, deliberate, perfectly clear German."
+      },
+      {
+        "kind": "series",
+        "title": "Türkisch für Anfänger",
+        "year": "2006–2008",
+        "level": "B1",
+        "note": "Cult Berlin patchwork-family sitcom — everyday colloquial German at its best."
+      },
+      {
+        "kind": "series",
+        "title": "Tatort",
+        "year": "1970–",
+        "level": "B1",
+        "note": "The Sunday-night crime institution. Accents vary by city — Münster and Munich cases are gentlest."
+      },
+      {
+        "kind": "film",
+        "title": "Lola rennt",
+        "year": "1998",
+        "level": "A2",
+        "note": "80 minutes, three loops of the same day — built-in repetition is a learner's friend."
+      },
+      {
+        "kind": "film",
+        "title": "Good Bye, Lenin!",
+        "year": "2003",
+        "level": "B1",
+        "note": "The modern classic: clear German with a divided-Germany history lesson included."
+      },
+      {
+        "kind": "film",
+        "title": "Das Leben der Anderen",
+        "year": "2006",
+        "level": "B2",
+        "note": "Oscar-winning Stasi drama in careful, deliberate Hochdeutsch."
+      },
+      {
+        "kind": "film",
+        "title": "Das Boot",
+        "year": "1981",
+        "level": "B2",
+        "note": "The submarine classic — gripping, though the naval jargon runs deep."
+      }
+    ],
+    "footnote": "Austrian and Swiss films are great cinema but a different German — save them for after B1, like this course saves Bairisch for never."
+  },
   "footer": {
     "donation": true,
     "donationText": "I built this learning app out of love. If you're enjoying it, share it with a friend learning German, send some feedback, or chip in below.",

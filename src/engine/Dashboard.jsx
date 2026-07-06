@@ -113,6 +113,27 @@ export default function Dashboard({ manifest, lessonIndex, onOpenDay }) {
         </section>
       ))}
 
+      {manifest.media && (
+        <section className="media-section">
+          <h2>📺 {manifest.media.title || 'Learn by watching'}</h2>
+          {manifest.media.blurb && <p className="media-blurb">{manifest.media.blurb}</p>}
+          <div className="media-grid">
+            {manifest.media.items.map((m, i) => (
+              <div key={i} className="media-card">
+                <span className="media-kind">
+                  {m.kind === 'film' ? '🎬 Film' : '📺 Series'}
+                  {m.year && <span className="media-year"> · {m.year}</span>}
+                  {m.level && <span className="media-level">{m.level}</span>}
+                </span>
+                <span className="media-title">{m.title}</span>
+                <span className="media-note">{m.note}</span>
+              </div>
+            ))}
+          </div>
+          {manifest.media.footnote && <p className="media-footnote">{manifest.media.footnote}</p>}
+        </section>
+      )}
+
       <footer className="footer">
         {manifest.footer.donation && <p className="donation">❤️ {manifest.footer.donationText}</p>}
         <p className="disclosure">{manifest.footer.storageDisclosure}</p>
