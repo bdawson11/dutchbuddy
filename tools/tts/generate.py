@@ -18,7 +18,8 @@ not something the app does live. Run it on a CUDA box, commit the resulting
 audio/ directory (or host it as static assets), and ship.
 
 Requirements (install on the generation machine, not in this web project):
-    pip install tortoise-tts huggingface_hub torch torchaudio
+    pip install tortoise-tts huggingface_hub torch torchaudio psutil
+    # psutil is imported by tortoise at runtime but missing from its deps
 
 Modes:
     --dry-run   Write short silent placeholder clips + a valid index.json with

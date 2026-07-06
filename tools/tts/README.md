@@ -43,7 +43,8 @@ npm run tts:check     # report how many spoken lines still lack a clip
 Generation runs on a machine with a CUDA GPU (not this web project):
 
 ```bash
-pip install tortoise-tts huggingface_hub torch torchaudio
+# psutil is used by tortoise at runtime but not declared as a dependency
+pip install tortoise-tts huggingface_hub torch torchaudio psutil
 python tools/tts/generate.py public/packs/dutch-nl              # full run
 python tools/tts/generate.py public/packs/dutch-nl --dry-run    # silent placeholders, no model — smoke-test the runtime
 python tools/tts/generate.py public/packs/dutch-nl --limit 5    # generate a handful first
