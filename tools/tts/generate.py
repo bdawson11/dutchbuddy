@@ -107,9 +107,26 @@ def build_tts(preset: str):
     return tts, preset
 
 
+def save_wav(out: Path, wav, sr: int = SAMPLE_RATE):
+    """Write a Tortoise float waveform to a 16-bit PCM WAV using the stdlib.
+
+    Deliberately avoids torchaudio.save(): newer torchaudio routes saving
+    through the separate `torchcodec` package (plus a matching ffmpeg), which
+    is fragile to install. The clips are mono float32 in [-1, 1] — trivial to
+    encode ourselves, and this works on any torch/torchaudio version."""
+    import torch
+
+    samples = torch.clamp(wav.detach().cpu().float().reshape(-1), -1.0, 1.0)
+    pcm = (samples * 32767.0).to(torch.int16).numpy().tobytes()
+    with wave.open(str(out), "wb") as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(sr)
+        w.writeframes(pcm)
+
+
 def synth(tts_bundle, text: str, out: Path):
     import torch
-    import torchaudio
 
     tts, preset = tts_bundle
     with torch.no_grad():
@@ -118,7 +135,7 @@ def synth(tts_bundle, text: str, out: Path):
         gen = tts.tts_with_preset(
             text, voice_samples=None, conditioning_latents=None, preset=preset
         )
-    torchaudio.save(str(out), gen.squeeze(0).cpu(), SAMPLE_RATE)
+    save_wav(out, gen.squeeze(0), SAMPLE_RATE)
 
 
 def main():
