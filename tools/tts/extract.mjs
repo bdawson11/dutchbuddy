@@ -77,8 +77,10 @@ for (const id of dayIds) {
   for (const text of spokenFromLesson(lesson)) {
     const key = normalizeSpoken(text);
     if (!key || byKey.has(key)) continue;
-    const hash = crypto.createHash('sha1').update(key).digest('hex').slice(0, 16);
-    byKey.set(key, { key, text, file: `${hash}.wav` });
+    // Extension-less hash id: generate.py appends the chosen container (.mp3 /
+    // .wav), so the audio format can change without re-keying any jobs.
+    const file = crypto.createHash('sha1').update(key).digest('hex').slice(0, 16);
+    byKey.set(key, { key, text, file });
   }
 }
 

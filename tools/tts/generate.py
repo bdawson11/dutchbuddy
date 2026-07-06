@@ -28,12 +28,15 @@ Modes:
     --limit N   Only generate the first N missing clips (smoke test).
     --preset    Tortoise quality preset: ultra_fast | fast (default) | standard
                 | high_quality.
+    --format    mp3 (default; ~10x smaller, needs ffmpeg) | wav.
 """
 
 import argparse
 import json
 import os
+import shutil
 import struct
+import subprocess
 import sys
 import wave
 from pathlib import Path
@@ -64,15 +67,9 @@ def write_index(audio_dir: Path, index: dict):
     print(f"Wrote {index_path} ({len(index['clips'])} clips)")
 
 
-def write_silence(path: Path, seconds: float = 0.35):
-    """A valid, tiny silent WAV — enough for the runtime to treat the line as
-    'has a clip' during a --dry-run."""
-    frames = int(SAMPLE_RATE * seconds)
-    with wave.open(str(path), "wb") as w:
-        w.setnchannels(1)
-        w.setsampwidth(2)
-        w.setframerate(SAMPLE_RATE)
-        w.writeframes(struct.pack("<%dh" % frames, *([0] * frames)))
+def silent_pcm(seconds: float = 0.35) -> bytes:
+    """Raw 16-bit PCM silence — used for --dry-run placeholders."""
+    return struct.pack("<%dh" % int(SAMPLE_RATE * seconds), *([0] * int(SAMPLE_RATE * seconds)))
 
 
 def build_tts(preset: str):
@@ -107,17 +104,19 @@ def build_tts(preset: str):
     return tts, preset
 
 
-def save_wav(out: Path, wav, sr: int = SAMPLE_RATE):
-    """Write a Tortoise float waveform to a 16-bit PCM WAV using the stdlib.
+def to_pcm16(wav) -> bytes:
+    """A Tortoise float waveform (mono, [-1, 1]) -> raw 16-bit PCM bytes.
 
     Deliberately avoids torchaudio.save(): newer torchaudio routes saving
     through the separate `torchcodec` package (plus a matching ffmpeg), which
-    is fragile to install. The clips are mono float32 in [-1, 1] — trivial to
-    encode ourselves, and this works on any torch/torchaudio version."""
+    is fragile to install. Encoding this ourselves works on any torch version."""
     import torch
 
     samples = torch.clamp(wav.detach().cpu().float().reshape(-1), -1.0, 1.0)
-    pcm = (samples * 32767.0).to(torch.int16).numpy().tobytes()
+    return (samples * 32767.0).to(torch.int16).numpy().tobytes()
+
+
+def write_wav(out: Path, pcm: bytes, sr: int = SAMPLE_RATE):
     with wave.open(str(out), "wb") as w:
         w.setnchannels(1)
         w.setsampwidth(2)
@@ -125,7 +124,24 @@ def save_wav(out: Path, wav, sr: int = SAMPLE_RATE):
         w.writeframes(pcm)
 
 
-def synth(tts_bundle, text: str, out: Path):
+def write_mp3(out: Path, pcm: bytes, sr: int = SAMPLE_RATE, bitrate: str = "64k"):
+    """Encode raw PCM to MP3 via ffmpeg. 64 kbps mono is transparent for speech
+    and ~10x smaller than WAV — small enough to commit all clips to the repo.
+    MP3 plays in every browser (incl. Safari) with no runtime change."""
+    if not shutil.which("ffmpeg"):
+        raise RuntimeError("ffmpeg not found — run `brew install ffmpeg`, or pass --format wav")
+    cmd = ["ffmpeg", "-y", "-f", "s16le", "-ar", str(sr), "-ac", "1",
+           "-i", "pipe:0", "-b:a", bitrate, str(out)]
+    r = subprocess.run(cmd, input=pcm, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+    if r.returncode != 0:
+        raise RuntimeError(f"ffmpeg failed: {r.stderr.decode(errors='replace')[-300:]}")
+
+
+def write_clip(out: Path, pcm: bytes, fmt: str):
+    (write_mp3 if fmt == "mp3" else write_wav)(out, pcm)
+
+
+def synth_pcm(tts_bundle, text: str) -> bytes:
     import torch
 
     tts, preset = tts_bundle
@@ -135,7 +151,7 @@ def synth(tts_bundle, text: str, out: Path):
         gen = tts.tts_with_preset(
             text, voice_samples=None, conditioning_latents=None, preset=preset
         )
-    save_wav(out, gen.squeeze(0), SAMPLE_RATE)
+    return to_pcm16(gen.squeeze(0))
 
 
 def main():
@@ -145,11 +161,21 @@ def main():
     ap.add_argument("--limit", type=int, default=0, help="only the first N missing clips")
     ap.add_argument("--preset", default="fast",
                     choices=["ultra_fast", "fast", "standard", "high_quality"])
+    ap.add_argument("--format", default="mp3", choices=["mp3", "wav"],
+                    help="mp3 (default, ~10x smaller, needs ffmpeg) or wav")
     ap.add_argument("--force", action="store_true", help="regenerate clips that already exist")
     args = ap.parse_args()
 
     audio_dir = Path(args.pack_dir) / "audio"
     audio_dir.mkdir(parents=True, exist_ok=True)
+
+    if args.format == "mp3" and not shutil.which("ffmpeg"):
+        sys.exit("ffmpeg not found — run `brew install ffmpeg`, or pass --format wav")
+
+    # jobs.json stores an extension-less hash id; the clip filename is that id
+    # plus the chosen container, so switching format never re-keys anything.
+    def clip_name(job):
+        return f"{job['file']}.{args.format}"
 
     jobs = load_jobs(audio_dir)
     index = load_index(audio_dir)
@@ -158,12 +184,12 @@ def main():
 
     todo = [
         j for j in jobs
-        if args.force or j["key"] not in clips or not (audio_dir / j["file"]).exists()
+        if args.force or j["key"] not in clips or not (audio_dir / clip_name(j)).exists()
     ]
     if args.limit:
         todo = todo[: args.limit]
 
-    print(f"{len(jobs)} spoken lines, {len(todo)} to generate"
+    print(f"{len(jobs)} spoken lines, {len(todo)} to generate as {args.format}"
           + (" (dry run)" if args.dry_run else ""))
     if not todo:
         write_index(audio_dir, index)
@@ -172,18 +198,17 @@ def main():
     tts_bundle = None if args.dry_run else build_tts(args.preset)
 
     for i, job in enumerate(todo, 1):
-        out = audio_dir / job["file"]
-        print(f"[{i}/{len(todo)}] {job['text']!r} -> {job['file']}")
+        fname = clip_name(job)
+        out = audio_dir / fname
+        print(f"[{i}/{len(todo)}] {job['text']!r} -> {fname}")
         try:
-            if args.dry_run:
-                write_silence(out)
-            else:
-                synth(tts_bundle, job["text"], out)
+            pcm = silent_pcm() if args.dry_run else synth_pcm(tts_bundle, job["text"])
+            write_clip(out, pcm, args.format)
         except Exception as e:  # keep going; a bad line shouldn't lose the batch
             print(f"    FAILED: {e}", file=sys.stderr)
             continue
-        clips[job["key"]] = job["file"]
-        # Persist after every clip so a long GPU run is resumable on interrupt.
+        clips[job["key"]] = fname
+        # Persist after every clip so a long run is resumable on interrupt.
         write_index(audio_dir, index)
 
     if not args.dry_run:

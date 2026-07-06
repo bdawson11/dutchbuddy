@@ -40,18 +40,35 @@ npm run tts:extract   # regenerate public/packs/dutch-nl/audio/jobs.json
 npm run tts:check     # report how many spoken lines still lack a clip
 ```
 
-Generation runs on a machine with a CUDA GPU (not this web project):
+Generation runs where the model lives — a CUDA GPU box is fastest, but CPU
+(e.g. a Mac) works for a full pack if you leave it running for a few hours.
 
 ```bash
-# psutil is used by tortoise at runtime but not declared as a dependency
+# psutil is used by tortoise at runtime but not declared as a dependency;
+# ffmpeg does the MP3 encoding (brew install ffmpeg on macOS)
 pip install tortoise-tts huggingface_hub torch torchaudio psutil
-python tools/tts/generate.py public/packs/dutch-nl              # full run
-python tools/tts/generate.py public/packs/dutch-nl --dry-run    # silent placeholders, no model — smoke-test the runtime
+
+python tools/tts/generate.py public/packs/dutch-nl              # full run (MP3)
 python tools/tts/generate.py public/packs/dutch-nl --limit 5    # generate a handful first
+python tools/tts/generate.py public/packs/dutch-nl --format wav # WAV instead of MP3
+python tools/tts/generate.py public/packs/dutch-nl --dry-run    # silent placeholders, no model — smoke-test the runtime
 ```
 
+On a CPU-only Mac, wrap the full run in `caffeinate -i …` so the machine
+doesn't sleep, and tee the log:
+
+```bash
+caffeinate -i python tools/tts/generate.py public/packs/dutch-nl --preset ultra_fast 2>&1 | tee ~/tts-run.log
+```
+
+**Output format:** MP3 by default (64 kbps mono — transparent for speech, ~10x
+smaller than WAV, so all ~1150 clips commit to ~20 MB instead of ~180 MB). MP3
+plays in every browser including Safari, and the runtime plays whatever
+`index.json` names, so the format is invisible to the app. Pass `--format wav`
+if you'd rather not depend on ffmpeg.
+
 `generate.py` writes `index.json` after every clip, so a long run is resumable
-and re-running only fills the gaps. Commit `audio/*.wav` and `audio/index.json`
+and re-running only fills the gaps. Commit the clips + `audio/index.json`
 (or host them as static assets) to ship the voice. **Do not** commit `--dry-run`
 output — those clips are silent.
 
