@@ -35,7 +35,9 @@ Single unified app; the language is chosen at runtime, not at build time.
   Pure data; the engine never contains language content. `catalog.json` lists
   the packs YapWorld offers.
 - `tools/validate.js` — pack validator. CI gate for content batches.
-- `src/engine/base.css` — placeholder styling; replaced by the Claude Design pass.
+- `src/engine/base.css` — the shipped cozy theme; every colour derives from the
+  single `--accent` hook (per-language accents come from each pack manifest).
+  Next design round: `docs/DESIGN-BRIEF.md`.
 
 ## Commands
 

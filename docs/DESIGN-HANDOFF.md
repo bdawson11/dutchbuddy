@@ -1,5 +1,12 @@
 # YapWorld → Claude Design handoff
 
+> **Status (July 2026): executed.** `base.css` now carries the cozy YapWorld
+> theme with per-language accents — the "replace the placeholder" job below is
+> done, including the recommended manifest `accent` field. This doc remains the
+> canonical **code-side contract** (class hooks, fixtures, constraints) for
+> landing any future restyle in the repo. For the next visual round in the
+> Claude Design chat, hand over **`docs/DESIGN-BRIEF.md`** instead.
+
 **Read this first in the design chat.** It is the single source of truth for the
 visual pass. Everything here is *feel* and *style* — the DOM structure, class
 names, and behavior are final. Your job is to replace the placeholder stylesheet
