@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "day-105",
+  "day": 105,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "capstone",
+  "title": "Mijn verhaal — de professionele versie",
+  "emoji": "👔",
+  "level": "B2",
+  "durationMin": [25, 35],
+  "summary": "Week 15 capstone: produce a complete formal message and add the mijn-verhaal layer — a professional self-presentation in formal, nominalized register",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 15 — formeel Nederlands, en jouw professionele ik",
+      "body": "Je beheerst nu het register-schuifje: van appje tot ambtelijke brief. Vandaag zet je alles in: je schrijft één complete formele boodschap, en je voegt aan **mijn verhaal** een nieuwe laag toe — je **professionele zelfpresentatie**: hetzelfde 'ik', maar in pak.",
+      "table": {
+        "headers": ["Gereedschap", "Formule"],
+        "rows": [
+          ["Aanhef & groet", "Geachte …, Met vriendelijke groet"],
+          ["Indirect verzoek", "Zou u … kunnen …?"],
+          ["Nominalisatie", "na ontvangst van, het verzoek tot"],
+          ["Sollicitatietaal", "verantwoordelijk voor, ervaring met"],
+          ["Ambtelijk decoderen", "u dient … te = u moet"]
+        ]
+      },
+      "callout": "Registerbeheersing is de echte B2-superkracht: kúnnen schakelen, en weten wanneer."
+    },
+    {
+      "type": "chips",
+      "title": "Jezelf voorstellen, formeel — tik om te horen",
+      "items": [
+        { "nl": "Mag ik mij even voorstellen?", "en": "May I introduce myself?", "speak": "Mag ik mij even voorstellen?" },
+        { "nl": "Ik heb ruime ervaring met internationale teams.", "en": "I have extensive experience with international teams.", "speak": "Ik heb ruime ervaring met internationale teams." },
+        { "nl": "In mijn huidige functie ben ik verantwoordelijk voor de planning.", "en": "In my current role I am responsible for planning.", "speak": "In mijn huidige functie ben ik verantwoordelijk voor de planning." },
+        { "nl": "Ik ben van mening dat ik snel zou kunnen bijdragen.", "en": "I believe I could contribute quickly.", "speak": "Ik ben van mening dat ik snel zou kunnen bijdragen." },
+        { "nl": "Ik zou graag een afspraak willen maken.", "en": "I would like to make an appointment.", "speak": "Ik zou graag een afspraak willen maken." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welke zin hoort in een formele kennismaking?",
+      "options": ["Hoi, ik ben d'r! Wie ben jij?", "Mag ik mij even voorstellen? Ik ben …", "Yo! Alles goed?"],
+      "correct": 1,
+      "explain": "*Mag ik mij even voorstellen?* — de nette opening van een formele kennismaking. De andere twee zijn voor de borrel mét vrienden."
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Na ___ van uw bericht neem ik contact met u op.* Welke past?",
+      "options": ["ontvangst", "ontvangen", "het ontvangst"],
+      "correct": 0,
+      "explain": "*Na ontvangst van uw bericht* — de nominalisatie, en het is *de* ontvangst, dus zonder *het*."
+    },
+    {
+      "type": "typed",
+      "prompt": "De formele afmelding — maak af met één woord: *Helaas ben ik morgen …*",
+      "answers": ["verhinderd", "verhinderd."],
+      "hint": "Het formele woord voor 'ik kan niet komen'.",
+      "explain": "*Helaas ben ik morgen verhinderd.* — dé formele manier om je af te melden, zonder smoesjes of partikels."
+    },
+    {
+      "type": "builder",
+      "title": "De formele boodschap — de hele dans",
+      "prompt": "Bouw één complete formele e-mail: je meldt je af voor een afspraak bij een instantie en vraagt om een nieuwe datum.",
+      "slots": [
+        { "label": "Aanhef", "chips": ["Geachte heer/mevrouw,", "Geachte mevrouw De Vries,"] },
+        { "label": "Aanleiding", "chips": ["Ik schrijf u naar aanleiding van onze afspraak van aanstaande dinsdag.", "Naar aanleiding van uw uitnodiging voor dinsdag schrijf ik u."] },
+        { "label": "De boodschap", "chips": ["Helaas ben ik die dag verhinderd.", "Tot mijn spijt moet ik de afspraak verzetten."] },
+        { "label": "Het verzoek", "chips": ["Zou u mij kunnen laten weten wanneer het u wel schikt?", "Zou u mij een nieuw voorstel kunnen doen?"] },
+        { "label": "Afronding + groet", "chips": ["Alvast hartelijk dank. Met vriendelijke groet,", "Ik hoor graag van u. Met vriendelijke groet,"] }
+      ],
+      "sample": "Geachte heer/mevrouw, ik schrijf u naar aanleiding van onze afspraak van aanstaande dinsdag. Helaas ben ik die dag verhinderd. Zou u mij kunnen laten weten wanneer het u wel schikt? Alvast hartelijk dank. Met vriendelijke groet,"
+    },
+    {
+      "type": "card",
+      "title": "Mijn verhaal — laag 15: jouw professionele visitekaartje",
+      "body": "Je verhaal heeft al veel lagen: wie je bent, je meningen, je wat-als van vorige week. Vandaag komt er een **formele stand** bij: dezelfde persoon, gepresenteerd zoals in een sollicitatiegesprek — met **met ervaring in…**, **verantwoordelijk voor…** en **ik ben van mening dat…**, en waar het kan een nominalisatie. Not a new story: the same story, wearing a suit.",
+      "callout": "Dit is het bewijs van registerbeheersing: één 'ik', twee standen van het schuifje."
+    },
+    {
+      "type": "builder",
+      "title": "Mijn verhaal — laag 15: de professionele zelfpresentatie",
+      "prompt": "Bouw je formele zelfpresentatie. Kies per gleuf — of schrijf je eigen versie in dezelfde vorm.",
+      "slots": [
+        { "label": "Wie u bent (formeel)", "chips": ["Mag ik mij even voorstellen? Ik woon en werk nu ruim een jaar in Nederland", "Graag stel ik mij kort aan u voor: ik ben onlangs naar Nederland verhuisd"] },
+        { "label": "Uw ervaring (met ervaring in…)", "chips": ["met ervaring in internationale projecten", "met ruime ervaring in mijn vakgebied", "met ervaring in het werken in twee talen"] },
+        { "label": "Uw verantwoordelijkheid (verantwoordelijk voor…)", "chips": ["in mijn huidige functie ben ik verantwoordelijk voor de dagelijkse planning", "ik ben verantwoordelijk voor het contact met internationale klanten", "ik ben verantwoordelijk voor een klein team"] },
+        { "label": "Uw overtuiging (ik ben van mening dat…)", "chips": ["ik ben van mening dat ik in een Nederlandstalig team goed zou functioneren", "ik ben van mening dat mijn tweetaligheid een sterk punt is", "ik ben van mening dat ik snel zou kunnen bijdragen"] }
+      ],
+      "sample": "Mag ik mij even voorstellen? Ik woon en werk nu ruim een jaar in Nederland, met ervaring in internationale projecten. In mijn huidige functie ben ik verantwoordelijk voor de dagelijkse planning, en ik ben van mening dat ik in een Nederlandstalig team goed zou functioneren."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Friday drinks at Emma's office. She introduces you to Youssef, her project manager — your chance to deploy the formal register, and to feel it relax.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Ah, daar ben je! Youssef, dit is de vriend over wie ik je vertelde.", "en": "Ah, there you are! Youssef, this is the friend I told you about." },
+        { "speaker": "You", "nl": "Aangenaam. Mag ik mij even voorstellen? Ik woon nu ruim een jaar in Nederland.", "en": "Pleased to meet you. May I introduce myself? I've been living in the Netherlands for just over a year now.", "spotlight": "De formele kennismaking — schuifje op *u*." },
+        { "speaker": "Youssef", "nl": "Aangenaam kennis te maken. Emma vertelde dat u Nederlands leert — dat is te merken, in positieve zin.", "en": "Pleased to make your acquaintance. Emma mentioned you're learning Dutch — it shows, in the best way." },
+        { "speaker": "You", "nl": "Dank u. Ik ben van mening dat het echt de moeite waard is.", "en": "Thank you. I believe it is genuinely worth the effort.", "spotlight": "*ik ben van mening dat…* — werkwoord keurig aan het eind." },
+        { "speaker": "Youssef", "nl": "Zegt u eens: wat doet u voor werk?", "en": "Tell me: what do you do for work?" },
+        { "speaker": "You", "nl": "Ik ben verantwoordelijk voor projecten bij een internationaal bedrijf. En u?", "en": "I'm responsible for projects at an international company. And you?" },
+        { "speaker": "Youssef", "nl": "Ik begeleid het team van Emma. Trouwens — zeg maar gewoon 'je', hoor. Zo formeel zijn we hier op vrijdag niet.", "en": "I manage Emma's team. By the way — do just say 'je'. We're not that formal here on a Friday.", "spotlight": "Het klassieke schakelmoment: van *u* naar *je*." },
+        { "speaker": "You", "nl": "Gelukkig. Dat 'u' voelde als een net pak dat een maatje te strak zit.", "en": "Thank goodness. That 'u' felt like a good suit one size too tight." },
+        { "speaker": "Youssef", "nl": "Precies. Voor brieven onmisbaar, voor de borrel overbodig.", "en": "Exactly. Indispensable for letters, unnecessary at drinks." },
+        { "speaker": "Emma", "nl": "Kijk, jullie kunnen het al prima vinden. Zal ik nog wat te drinken halen?", "en": "Look at that, you two are getting along already. Shall I get us another round?" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "De kennismaking",
+      "questions": [
+        { "q": "Hoe begint You het gesprek met Youssef?", "options": ["Formeel, met 'u'", "Met een grapje in het Engels", "Met 'yo, alles goed?'"], "correct": 0 },
+        { "q": "Wat stelt Youssef na een paar zinnen voor?", "options": ["Om Engels te praten", "Om 'je' te zeggen in plaats van 'u'", "Om een brief te schrijven"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Mijn verhaal — nu ook in pak. Schrijf je zelfpresentatie in formeel register: wie u bent, uw ervaring (*met ervaring in…*), uw verantwoordelijkheid (*verantwoordelijk voor…*) en uw overtuiging (*ik ben van mening dat…*). Gebruik waar het kan een nominalisatie, en sluit af met *Met vriendelijke groet* en je naam. Minstens vier zinnen.",
+      "starters": ["Mag ik mij even voorstellen? Ik ben …", "Met ervaring in …", "Ik ben verantwoordelijk voor …", "Ik ben van mening dat …"],
+      "minSentences": 4
+    },
+    {
+      "type": "journal",
+      "prompt": "Week 15 zit erop — je kunt nu formeel schrijven én het schuifje weer terugzetten. Wat voelde deze week het meest 'volwassen'? Vier het even, in het Nederlands.",
+      "starters": ["Deze week kon ik ineens …", "Het mooiste ambtelijke woord vond ik …", "Volgende week wil ik …"],
+      "minSentences": 3
+    }
+  ]
+}

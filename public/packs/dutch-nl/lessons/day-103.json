@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "day-103",
+  "day": 103,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Post van de gemeente — ambtelijke taal ontcijferen",
+  "emoji": "🧾",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Official letters from instanties: naar aanleiding van, bijgaand, conform, u dient te — decoding the register (and its deadlines), not memorising it",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "De envelop met het logo",
+      "body": "Vroeg of laat valt hij op de mat: een brief van de **gemeente**, de **Belastingdienst** of je zorgverzekeraar. Goed nieuws: dit register hoef je nooit te *schrijven* — alleen te **ontcijferen**. Elke officiële brief heeft dezelfde onderdelen: *Betreft* (het onderwerp), *kenmerk* (het referentienummer), *dagtekening* (de datum van de brief) en ergens een zin die begint met *u dient…* — daar staat wat je moet doen.",
+      "table": {
+        "headers": ["Briefwoord", "Gewone taal"],
+        "rows": [
+          ["naar aanleiding van", "als reactie op"],
+          ["bijgaand", "hierbij / in de bijlage"],
+          ["conform", "volgens"],
+          ["u dient … te …", "u moet …"],
+          ["de dagtekening", "de datum van de brief"],
+          ["het kenmerk", "het referentienummer"]
+        ]
+      },
+      "callout": "Zoek altijd twee dingen: wat moet ik **doen**, en vóór welke **datum**?"
+    },
+    {
+      "type": "chips",
+      "title": "Ambtelijk Nederlands — tik om te horen",
+      "items": [
+        { "nl": "Naar aanleiding van uw aanvraag…", "en": "Further to your application…", "speak": "Naar aanleiding van uw aanvraag" },
+        { "nl": "Bijgaand ontvangt u de beschikking.", "en": "Enclosed you will find the decision.", "speak": "Bijgaand ontvangt u de beschikking." },
+        { "nl": "Conform de voorwaarden…", "en": "In accordance with the terms…", "speak": "Conform de voorwaarden" },
+        { "nl": "U dient dit formulier binnen twee weken te retourneren.", "en": "You must return this form within two weeks.", "speak": "U dient dit formulier binnen twee weken te retourneren." },
+        { "nl": "binnen zes weken na dagtekening", "en": "within six weeks of the date of this letter", "speak": "binnen zes weken na dagtekening" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "De ontcijfer-strategie",
+      "body": "Drie stappen. **Stap 1**: vertaal *u dient te* meteen naar *u moet* — dan zie je de opdracht. **Step 2**: strip de naamwoordstijl terug naar een werkwoord: *bij het uitblijven van een reactie* = *als u niet reageert*. **Stap 3**: zoek de termijn (*binnen … na dagtekening*) en zet hem in je agenda. De rest van de brief is meestal versiering.",
+      "callout": "Ambtelijke taal is geen moeilijk Nederlands — het is gewoon Nederlands in vermomming."
+    },
+    {
+      "type": "contrast",
+      "title": "Ambtelijk → gewoon",
+      "pairs": [
+        { "left": "U dient de betaling vóór 1 augustus te voldoen.", "right": "U moet vóór 1 augustus betalen.", "note": "*dient te* = *moet*; *de betaling voldoen* = gewoon *betalen*." },
+        { "left": "Bijgaand treft u de beschikking aan.", "right": "De beslissing zit in de bijlage.", "note": "*bijgaand aantreffen* — ambtelijk voor 'het zit erbij'." },
+        { "left": "Bij het uitblijven van een reactie wordt het dossier gesloten.", "right": "Als u niet reageert, sluiten we het dossier.", "note": "Nominalisatie (*het uitblijven van*) terugvertaald naar een gewone bijzin." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Lees mee: een brief van de gemeente",
+      "body": "*Betreft: uw aanvraag parkeervergunning — Kenmerk: PV-2026-118*  \n*Geachte heer, mevrouw,*  \n*Naar aanleiding van uw aanvraag van 12 juni delen wij u mee dat uw parkeervergunning is toegekend. Bijgaand ontvangt u de vergunning. U dient het bijgevoegde formulier binnen twee weken na dagtekening ondertekend te retourneren. Conform de voorwaarden wordt het tarief jaarlijks aangepast.*  \n*Hoogachtend,*  \n*Gemeente Amsterdam*",
+      "callout": "*Hoogachtend* — de allerformeelste groet. Instanties gebruiken hem nog; jij mag bij *Met vriendelijke groet* blijven."
+    },
+    {
+      "type": "comprehension",
+      "title": "Wat staat er nou echt?",
+      "questions": [
+        { "q": "Wat is er met de aanvraag gebeurd?", "options": ["De vergunning is toegekend", "De aanvraag is afgewezen", "Er ontbreekt nog informatie"], "correct": 0 },
+        { "q": "Wat moet er binnen twee weken gebeuren?", "options": ["Bellen met de gemeente", "Het formulier ondertekend terugsturen", "Een nieuwe aanvraag indienen"], "correct": 1 },
+        { "q": "Wat betekent *conform de voorwaarden*?", "options": ["Volgens de voorwaarden", "Ondanks de voorwaarden", "Zonder voorwaarden"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*U dient dit formulier te retourneren.* Wat betekent dat gewoon?",
+      "options": ["U moet het formulier terugsturen.", "U mag het formulier houden.", "U kunt een nieuw formulier aanvragen."],
+      "correct": 0,
+      "explain": "*dienen te* = *moeten*, *retourneren* = *terugsturen*. Twee dure woorden, één simpele opdracht."
+    },
+    {
+      "type": "typed",
+      "prompt": "Vertaal naar gewone taal: *U dient de betaling vóór vrijdag te voldoen.* → *U moet vóór vrijdag …*",
+      "answers": ["betalen", "U moet vóór vrijdag betalen", "U moet vóór vrijdag betalen."],
+      "hint": "*de betaling voldoen* — welk gewoon werkwoord zit daarin verstopt?",
+      "explain": "*U moet vóór vrijdag betalen.* De nominalisatie (*de betaling*) wordt weer gewoon een werkwoord."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ de ambtelijke zin.",
+      "speak": "Naar aanleiding van uw aanvraag sturen wij u bijgaand de vergunning.",
+      "answers": ["Naar aanleiding van uw aanvraag sturen wij u bijgaand de vergunning", "Naar aanleiding van uw aanvraag sturen wij u bijgaand de vergunning."]
+    },
+    {
+      "type": "journal",
+      "prompt": "Heb je weleens een officiële brief of e-mail in het Nederlands gekregen — van de gemeente, de bank, de Belastingdienst? Wat begreep je wel en niet? Schrijf erover, en 'vertaal' minstens één ambtelijke zin naar gewone taal. Minstens drie zinnen.",
+      "starters": ["Ooit kreeg ik een brief van …", "Er stond: '…' — dat betekent gewoon: …", "Wat ik nog steeds gek vind, is dat …"],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "day-102",
+  "day": 102,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "De sollicitatiebrief — jezelf verkopen, op z'n Nederlands",
+  "emoji": "💼",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The motivation letter: verantwoordelijk voor, ervaring met, ik ben van mening dat — structure, verb-final under dat, and hedged Dutch confidence",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "De vier alinea's van de sollicitatiebrief",
+      "body": "Ook de sollicitatiebrief is een dans met vaste passen — vier alinea's, elk met eigen formules. A Dutch motivation letter is short, concrete and a little modest: one page, no superlatives, every claim backed by something you actually did.",
+      "table": {
+        "headers": ["Alinea", "Vaste formule"],
+        "rows": [
+          ["Aanleiding", "Met veel belangstelling heb ik uw vacature gelezen."],
+          ["Wie u bent + ervaring", "In mijn huidige functie ben ik verantwoordelijk voor …"],
+          ["Waarom u", "Ik ben van mening dat ik … zou kunnen …"],
+          ["Afsluiting", "Graag licht ik mijn motivatie toe in een gesprek."]
+        ]
+      },
+      "callout": "Kort, concreet, één pagina. De brief opent de deur; het gesprek doet de rest."
+    },
+    {
+      "type": "chips",
+      "title": "Sollicitatieformules — tik om te horen",
+      "items": [
+        { "nl": "Met veel belangstelling heb ik uw vacature gelezen.", "en": "I read your vacancy with great interest.", "speak": "Met veel belangstelling heb ik uw vacature gelezen." },
+        { "nl": "Ik ben verantwoordelijk voor de planning van campagnes.", "en": "I am responsible for planning campaigns.", "speak": "Ik ben verantwoordelijk voor de planning van campagnes." },
+        { "nl": "Ik heb ruime ervaring met projectmanagement.", "en": "I have extensive experience with project management.", "speak": "Ik heb ruime ervaring met projectmanagement." },
+        { "nl": "Ik ben van mening dat ik goed in uw team zou passen.", "en": "I believe I would fit well in your team.", "speak": "Ik ben van mening dat ik goed in uw team zou passen." },
+        { "nl": "Graag licht ik mijn motivatie toe in een persoonlijk gesprek.", "en": "I would gladly explain my motivation in a personal meeting.", "speak": "Graag licht ik mijn motivatie toe in een persoonlijk gesprek." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Bescheiden zelfvertrouwen",
+      "body": "Nederlanders houden niet van opscheppen — *doe maar gewoon* geldt ook in een brief. Je verkoopt jezelf **gehedged**: *ik ben ervan overtuigd dat ik … zou kunnen bijdragen*, *ik denk dat mijn ervaring goed aansluit*. Maar niet té zacht: *misschien kan ik wel een beetje helpen* verkoopt niets. En let op de grammatica van de kernformule: na **dat** gaat alles naar het eind — *ik ben van mening **dat** ik deze rol goed **zou kunnen vervullen***.",
+      "callout": "De balans: geen borstklopperij, geen valse bescheidenheid. Concreet is overtuigend."
+    },
+    {
+      "type": "contrast",
+      "title": "Borrelpraat → brieftaal",
+      "pairs": [
+        { "left": "Ik ben echt supergoed met social media, joh.", "right": "Ik heb ruime ervaring met contentcampagnes.", "note": "Zelfde claim, maar zakelijk en controleerbaar geformuleerd." },
+        { "left": "Ik ben gewoon de beste kandidaat, punt.", "right": "Ik ben ervan overtuigd dat ik veel zou kunnen bijdragen.", "note": "Gehedged zelfvertrouwen: overtuigd, maar met *zou kunnen*." },
+        { "left": "Ik regel daar nu eigenlijk alles.", "right": "In mijn huidige functie ben ik verantwoordelijk voor de dagelijkse planning.", "note": "*verantwoordelijk voor* + een concreet naamwoord — dé briefformule." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Ik ben van mening dat ik deze functie goed ___.* Welke volgorde hoort in de bijzin?",
+      "options": ["zou kunnen vervullen", "kunnen vervullen zou", "vervullen zou kunnen"],
+      "correct": 0,
+      "explain": "Na *dat* kruipt de hele werkwoordgroep naar het eind, in deze volgorde: *…dat ik deze functie goed zou kunnen vervullen*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Vul de vaste formule aan (twee woorden): *In mijn huidige functie ben ik ___ ___ de planning.*",
+      "answers": ["verantwoordelijk voor"],
+      "hint": "De formule waarmee je in elke brief je takenpakket beschrijft.",
+      "explain": "*verantwoordelijk voor* + naamwoord — zo beschrijf je je taken zonder op te scheppen."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ de openingszin van de brief.",
+      "speak": "Met veel belangstelling heb ik uw vacature gelezen.",
+      "answers": ["Met veel belangstelling heb ik uw vacature gelezen", "Met veel belangstelling heb ik uw vacature gelezen."]
+    },
+    {
+      "type": "builder",
+      "title": "Bouw je kernalinea",
+      "prompt": "Stapel de vier passen tot de kern van een sollicitatiebrief. Kies per gleuf — of schrijf straks je eigen versie in het dagboek.",
+      "slots": [
+        { "label": "Aanleiding", "chips": ["Met veel belangstelling heb ik uw vacature gelezen.", "Naar aanleiding van uw vacature schrijf ik u deze brief."] },
+        { "label": "Ervaring", "chips": ["Ik heb ruime ervaring met internationale projecten.", "In mijn huidige functie ben ik verantwoordelijk voor de dagelijkse planning.", "Ik heb de afgelopen jaren veel ervaring opgedaan met klantcontact."] },
+        { "label": "Waarom u (gehedged)", "chips": ["Ik ben van mening dat ik goed in uw team zou passen.", "Ik ben ervan overtuigd dat ik snel zou kunnen bijdragen."] },
+        { "label": "Afsluiting", "chips": ["Graag licht ik mijn motivatie toe in een persoonlijk gesprek.", "Ik kijk uit naar uw reactie."] }
+      ],
+      "sample": "Met veel belangstelling heb ik uw vacature gelezen. In mijn huidige functie ben ik verantwoordelijk voor de dagelijkse planning. Ik ben van mening dat ik goed in uw team zou passen. Graag licht ik mijn motivatie toe in een persoonlijk gesprek."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma shows you the draft of her internal application for the creative-director role. Her new project manager, Youssef, encouraged her to go for it.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Oké, eerlijke mening graag. Ik solliciteer intern — op de rol van creative director.", "en": "Okay, honest opinion please. I'm applying internally — for the creative-director role." },
+        { "speaker": "You", "nl": "Echt? Wat goed! Laat lezen.", "en": "Really? That's great! Let me read." },
+        { "speaker": "Emma", "nl": "'Met veel belangstelling reageer ik op de interne vacature…' Klinkt dat niet vreselijk stijf?", "en": "'It is with great interest that I respond to the internal vacancy…' Doesn't that sound terribly stiff?" },
+        { "speaker": "You", "nl": "Het is een sollicitatiebrief. Die mág stijf.", "en": "It's a motivation letter. It's allowed to be stiff." },
+        { "speaker": "Emma", "nl": "Dat zei Youssef ook al — mijn nieuwe projectmanager. Die schrijft dit soort brieven in zijn slaap.", "en": "Youssef said the same — my new project manager. He writes letters like this in his sleep." },
+        { "speaker": "You", "nl": "En wat schrijf je over je ervaring?", "en": "And what do you write about your experience?" },
+        { "speaker": "Emma", "nl": "'In mijn huidige functie ben ik verantwoordelijk voor de campagnestrategie.'", "en": "'In my current role I am responsible for campaign strategy.'", "spotlight": "*verantwoordelijk voor* — dé formule voor je takenpakket." },
+        { "speaker": "You", "nl": "Sterk. En waarom jij?", "en": "Strong. And why you?" },
+        { "speaker": "Emma", "nl": "'Ik ben van mening dat ik het team een duidelijke creatieve richting zou kunnen geven.'", "en": "'I believe I could give the team a clear creative direction.'", "spotlight": "Bijzin na *dat*: de hele werkwoordgroep keurig aan het eind." },
+        { "speaker": "You", "nl": "Bescheiden én zelfverzekerd. Aannemen, die vrouw.", "en": "Modest and confident at once. Hire that woman." },
+        { "speaker": "Emma", "nl": "Nou, eerst nog durven versturen. Spannend, hoor.", "en": "Well, first I have to dare to send it. Nerve-racking, I tell you." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Emma's brief",
+      "questions": [
+        { "q": "Waarop solliciteert Emma?", "options": ["De rol van creative director", "Een baan in Utrecht", "Een functie bij de gemeente"], "correct": 0 },
+        { "q": "Wie moedigde haar aan om te solliciteren?", "options": ["Daan", "Youssef, haar nieuwe projectmanager", "Bram"], "correct": 1 },
+        { "q": "Wat vindt You van de zin over creatieve richting?", "options": ["Te opschepperig", "Bescheiden én zelfverzekerd", "Te informeel"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf de kern van jouw sollicitatiebrief, echt of gedroomd: één zin over de aanleiding, één over je ervaring (*verantwoordelijk voor / ervaring met*) en één met *ik ben van mening dat …*. Formeel register, in het Nederlands, minstens drie zinnen.",
+      "starters": ["Met veel belangstelling heb ik …", "In mijn huidige functie ben ik verantwoordelijk voor …", "Ik ben van mening dat …"],
+      "minSentences": 3
+    }
+  ]
+}

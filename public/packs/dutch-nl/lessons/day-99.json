@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-99",
+  "day": 99,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Het register-schuifje — van joh naar u",
+  "emoji": "🎚️",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The register slider: informeel, neutraal and formeel — the same message at three settings, jij becomes u, the particles come out",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Drie standen: informeel, neutraal, formeel",
+      "body": "Nederlands heeft een schuifje. **Informeel** ken je al: *je/jij*, partikels, korte zinnen. Daarboven zit **neutraal/verzorgd** — *u*, volledige zinnen, minder franje: het register van een nette e-mail aan een onbekende. Helemaal bovenin zit **formeel/geschreven**: vaste formules, naamwoordstijl, passief. This week you learn to slide up — and, just as important, back down.",
+      "table": {
+        "headers": ["Register", "Dezelfde boodschap"],
+        "rows": [
+          ["Informeel", "Kun je me ff terugbellen, joh?"],
+          ["Neutraal", "Kunt u mij terugbellen?"],
+          ["Formeel", "U wordt verzocht contact op te nemen."]
+        ]
+      },
+      "callout": "Zelfde boodschap, drie standen. B2 is: zelf kunnen kiezen welke."
+    },
+    {
+      "type": "chips",
+      "title": "Laag en hoog — tik om te horen",
+      "items": [
+        { "nl": "Kun je dat even doen?", "en": "Can you just do that? (informal)", "speak": "Kun je dat even doen?" },
+        { "nl": "Zou u dat kunnen doen?", "en": "Could you do that? (formal)", "speak": "Zou u dat kunnen doen?" },
+        { "nl": "Sorry hoor, ik ben te laat!", "en": "Sorry, I'm late! (informal)", "speak": "Sorry hoor, ik ben te laat!" },
+        { "nl": "Mijn excuses voor de vertraging.", "en": "My apologies for the delay. (formal)", "speak": "Mijn excuses voor de vertraging." },
+        { "nl": "Thanks, joh!", "en": "Thanks, man! (informal)", "speak": "Thanks, joh!" },
+        { "nl": "Hartelijk dank voor uw hulp.", "en": "Thank you kindly for your help. (formal)", "speak": "Hartelijk dank voor uw hulp." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Dezelfde boodschap, twee standen",
+      "pairs": [
+        { "left": "Hoi Jan, morgen lukt niet, sorry!", "right": "Geachte heer Jansen, helaas ben ik morgen verhinderd.", "note": "Van appje naar nette afmelding: *verhinderd zijn* is dé formele afzegging." },
+        { "left": "Kun je me morgen bellen?", "right": "Zou u mij morgen kunnen bellen?", "note": "*jij → u*, en *zou … kunnen* maakt het verzoek indirect." },
+        { "left": "Ff wachten hoor.", "right": "Een moment geduld, alstublieft.", "note": "Partikels (*ff, hoor*) verdwijnen; er komt een vaste formule voor terug." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Wat verschuift er precies?",
+      "body": "Drie dingen schuiven mee. **De aanspreekvorm**: *jij/je* wordt *u*, *jouw* wordt *uw*. **De partikels**: *even, hoor, joh, nou, ff* verdwijnen bijna helemaal — formeel Nederlands is partikel-arm. **De vorm**: geen samentrekkingen (*m'n → mijn*, *'t → het*), volledige zinnen, vaste formules (*alvast dank, met vriendelijke groet*). Hoe formeler, hoe onpersoonlijker: bovenin duiken het passief en de naamwoordstijl op — die krijg je morgen.",
+      "callout": "Andersom schuiven is óók een vaardigheid: te formeel tegen een vriend klinkt koud."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je schrijft de gemeente een e-mail. Welke zin past?",
+      "options": ["Kunnen jullie m'n vraag ff checken?", "Zou u mijn vraag kunnen bekijken?", "Check je m'n vraag even, joh?"],
+      "correct": 1,
+      "explain": "*Zou u mijn vraag kunnen bekijken?* — *u*, geen partikels, geen samentrekkingen. De andere twee staan in de Daan-stand."
+    },
+    {
+      "type": "typed",
+      "prompt": "Zet de schuif omhoog. Maak formeel met *u* en *zou … kunnen*: *Kun je me morgen bellen?*",
+      "answers": ["Zou u mij morgen kunnen bellen?", "Zou u mij morgen kunnen bellen", "Zou u me morgen kunnen bellen?", "Zou u me morgen kunnen bellen", "Kunt u mij morgen bellen?", "Kunt u mij morgen bellen"],
+      "hint": "*Zou u …* + infinitieven aan het eind.",
+      "explain": "*Zou u mij morgen kunnen bellen?* — *je* wordt *u*, het verzoek wordt indirect, en *kunnen bellen* verzamelt zich aan het eind."
+    },
+    {
+      "type": "builder",
+      "title": "De register-wissel: dezelfde afmelding, twee standen",
+      "prompt": "Je kunt morgen niet. Bouw eerst de informele versie (aan Daan), dan de formele (aan een instantie).",
+      "slots": [
+        { "label": "Informeel — aan Daan", "chips": ["Hé Daan, morgen lukt niet, sorry joh!", "Hoi! Ik red morgen echt niet, balen.", "Morgen wordt 'm niet — andere keer?"] },
+        { "label": "Formeel — aan een instantie", "chips": ["Geachte heer/mevrouw, helaas ben ik morgen verhinderd.", "Tot mijn spijt moet ik onze afspraak van morgen verzetten.", "Helaas kan ik morgen niet aanwezig zijn."] },
+        { "label": "Formele afronding", "chips": ["Ik hoor graag wanneer het u wel schikt. Met vriendelijke groet,", "Alvast dank voor uw begrip. Met vriendelijke groet,", "Zou u mij een nieuw voorstel kunnen doen? Met vriendelijke groet,"] }
+      ],
+      "sample": "Hé Daan, morgen lukt niet, sorry joh! — Geachte heer/mevrouw, helaas ben ik morgen verhinderd. Ik hoor graag wanneer het u wel schikt. Met vriendelijke groet,"
+    },
+    {
+      "type": "dialogue",
+      "scene": "Your heating broke. You drafted a message to the landlord — and Emma reads it over your shoulder at the café.",
+      "lines": [
+        { "speaker": "You", "nl": "Emma, luister even: 'Hoi! De verwarming doet het niet, kun je 'm ff komen fixen?'", "en": "Emma, listen: 'Hi! The heating's broken, can you come fix it real quick?'" },
+        { "speaker": "Emma", "nl": "Kijk, aan míj mag je dat zo sturen. Aan je huisbaas… nou, nee.", "en": "Look, you can send that to ME like that. To your landlord… well, no.", "spotlight": "Register is: weten wíé je schrijft." },
+        { "speaker": "You", "nl": "Te informeel?", "en": "Too informal?" },
+        { "speaker": "Emma", "nl": "Een tikje. 'Ff fixen' zeg je tegen Daan, niet tegen meneer Van Dam.", "en": "A touch. 'Fix it real quick' is for Daan, not for Mr Van Dam." },
+        { "speaker": "You", "nl": "Hoe moet het dan wel?", "en": "So how should it go?" },
+        { "speaker": "Emma", "nl": "'Geachte heer Van Dam' — of 'Beste heer Van Dam', dat is net iets losser. En dan: 'de verwarming doet het sinds gisteren niet meer.'", "en": "'Dear Mr Van Dam' — or 'Beste', which is a notch more relaxed. Then: 'the heating has stopped working since yesterday.'", "spotlight": "*Geachte* = formeel, *Beste* = neutraal, *Hoi* = Daan." },
+        { "speaker": "You", "nl": "Zou u iemand kunnen sturen om ernaar te kijken?", "en": "Could you send someone to look at it?" },
+        { "speaker": "Emma", "nl": "Perfect! *Zou u kunnen* — precies de goede stand van het schuifje.", "en": "Perfect! *Could you* — exactly the right setting on the slider." },
+        { "speaker": "You", "nl": "En afsluiten met 'met vriendelijke groet'?", "en": "And close with 'kind regards'?" },
+        { "speaker": "Emma", "nl": "Ja. En geen 'doeioei' erachter, hè.", "en": "Yes. And no 'byeee' after it, okay?" },
+        { "speaker": "You", "nl": "Jammer. 'Doeioei' stond er al.", "en": "Shame. 'Byeee' was already in there." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Het berichtje aan de huisbaas",
+      "questions": [
+        { "q": "Wat vindt Emma van de eerste versie van het berichtje?", "options": ["Te informeel voor een huisbaas", "Te formeel voor een huisbaas", "Precies goed"], "correct": 0 },
+        { "q": "Welke aanhef raadt Emma aan?", "options": ["Hoi!", "Geachte heer Van Dam", "Joh, Van Dam"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf dezelfde boodschap twee keer: eerst als appje aan een vriend, daarna als nette e-mail met *u* aan een instantie of je verhuurder. Kies zelf de boodschap — iets vragen, een afspraak verzetten, je afmelden. In het Nederlands, minstens drie zinnen.",
+      "starters": ["Hé …, lukt het om …?", "Geachte heer/mevrouw, …", "Met vriendelijke groet, …"],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "day-101",
+  "day": 101,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Geachte heer, beste mevrouw — de formele e-mail",
+  "emoji": "📧",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The formal email: openings and closings (Geachte…, Met vriendelijke groet), indirect requests with zou u … kunnen, and the fixed choreography in between",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "De vaste dans van de formele e-mail",
+      "body": "Een formele e-mail is een dans met vaste passen: **aanhef → aanleiding → verzoek → afronding → groet**. Wie de passen kent, hoeft nooit meer te twijfelen. The good news: it is almost fill-in-the-blank — the formulas below cover ninety percent of every formal email you will ever send.",
+      "table": {
+        "headers": ["Onderdeel", "Vaste formule"],
+        "rows": [
+          ["Aanhef (naam onbekend)", "Geachte heer/mevrouw,"],
+          ["Aanhef (naam bekend)", "Geachte mevrouw De Vries,"],
+          ["Aanleiding", "Ik schrijf u naar aanleiding van …"],
+          ["Verzoek", "Zou u … kunnen/willen …?"],
+          ["Afronding", "Alvast hartelijk dank voor uw reactie."],
+          ["Groet", "Met vriendelijke groet,"]
+        ]
+      },
+      "callout": "*Geachte heer Jansen* = formeel, *Beste Jan* = neutraal, *Hoi!* = Daan."
+    },
+    {
+      "type": "chips",
+      "title": "E-mailformules — tik om te horen",
+      "items": [
+        { "nl": "Geachte mevrouw De Vries,", "en": "Dear Ms De Vries,", "speak": "Geachte mevrouw De Vries," },
+        { "nl": "Ik schrijf u naar aanleiding van uw bericht.", "en": "I am writing further to your message.", "speak": "Ik schrijf u naar aanleiding van uw bericht." },
+        { "nl": "Zou u mij kunnen laten weten of dat mogelijk is?", "en": "Could you let me know whether that is possible?", "speak": "Zou u mij kunnen laten weten of dat mogelijk is?" },
+        { "nl": "Ik zou graag een afspraak willen maken.", "en": "I would like to make an appointment.", "speak": "Ik zou graag een afspraak willen maken." },
+        { "nl": "Alvast hartelijk dank voor uw reactie.", "en": "Many thanks in advance for your reply.", "speak": "Alvast hartelijk dank voor uw reactie." },
+        { "nl": "Met vriendelijke groet,", "en": "Kind regards,", "speak": "Met vriendelijke groet," }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Het indirecte verzoek",
+      "body": "In een formele mail vraag je niets rechtstreeks — je verpakt het. Drie lagen beleefdheid: **Zou u … kunnen** + infinitief (*Zou u mij kunnen laten weten of…*), **ik zou graag … willen** (*Ik zou graag een afspraak willen maken*) en, het meest formeel, **ik verzoek u vriendelijk om…**. Let op de grammatica: alle werkwoorden verzamelen zich aan het eind, en in een ingebedde vraag (*…of dat mogelijk **is***) staat het werkwoord helemaal achteraan.",
+      "callout": "Hoe indirecter het verzoek, hoe formeler de mail. *Stuur me de factuur* is geen verzoek maar een bevel."
+    },
+    {
+      "type": "contrast",
+      "title": "Direct → verpakt",
+      "pairs": [
+        { "left": "Stuur me de factuur even.", "right": "Zou u mij de factuur kunnen toesturen?", "note": "Van bevel naar verzoek: *zou u … kunnen* + infinitief aan het eind." },
+        { "left": "Wanneer kan ik langskomen?", "right": "Zou u mij kunnen laten weten wanneer het u schikt?", "note": "Ingebedde vraag: het werkwoord (*schikt*) gaat naar het eind." },
+        { "left": "Ik wil een afspraak.", "right": "Ik zou graag een afspraak willen maken.", "note": "*zou graag … willen* — de beleefde wens in plaats van de kale eis." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je mailt een onbekende medewerker van de gemeente. Welke aanhef kies je?",
+      "options": ["Hoi!", "Beste meneer,", "Geachte heer/mevrouw,"],
+      "correct": 2,
+      "explain": "Naam onbekend → *Geachte heer/mevrouw,* — dé standaard. *Beste meneer* zonder naam klinkt scheef, en *Hoi!* bewaar je voor mensen die je kent."
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Zou u mij ___ of de vergunning al verstuurd is?* Welke volgorde klopt?",
+      "options": ["kunnen laten weten", "laten kunnen weten", "weten kunnen laten"],
+      "correct": 0,
+      "explain": "*Zou u mij kunnen laten weten of…* — de werkwoordgroep hangt in deze vaste volgorde aan elkaar, en in de *of*-bijzin staat *is* achteraan."
+    },
+    {
+      "type": "typed",
+      "prompt": "Typ de standaard formele afsluitgroet (drie woorden).",
+      "answers": ["Met vriendelijke groet", "Met vriendelijke groet,", "met vriendelijke groet"],
+      "hint": "Je ziet hem onder vrijwel elke Nederlandse zakelijke mail.",
+      "explain": "*Met vriendelijke groet,* — soms afgekort tot *mvg*, maar voluit is netter."
+    },
+    {
+      "type": "shadow",
+      "title": "De mail hardop — luister en zeg na",
+      "lines": [
+        { "nl": "Geachte mevrouw De Vries,", "en": "Dear Ms De Vries," },
+        { "nl": "Ik schrijf u naar aanleiding van uw bericht van drie juli.", "en": "I am writing further to your message of the third of July." },
+        { "nl": "Zou u mij kunnen laten weten wanneer de monteur langskomt?", "en": "Could you let me know when the technician will come by?" },
+        { "nl": "Alvast hartelijk dank. Met vriendelijke groet,", "en": "Many thanks in advance. Kind regards," }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "De verwarmingsmail, nu netjes",
+      "prompt": "Weet je de kapotte verwarming van dag 99 nog? Bouw nu de nette versie aan huisbaas Van Dam.",
+      "slots": [
+        { "label": "Aanhef", "chips": ["Geachte heer Van Dam,", "Beste heer Van Dam,"] },
+        { "label": "Aanleiding", "chips": ["Ik schrijf u omdat de verwarming sinds gisteren niet meer werkt.", "Ik schrijf u naar aanleiding van een probleem met de verwarming in mijn woning."] },
+        { "label": "Verzoek", "chips": ["Zou u iemand kunnen sturen om ernaar te kijken?", "Zou u mij kunnen laten weten wanneer een monteur kan langskomen?"] },
+        { "label": "Afronding + groet", "chips": ["Alvast hartelijk dank. Met vriendelijke groet,", "Ik hoor graag van u. Met vriendelijke groet,"] }
+      ],
+      "sample": "Geachte heer Van Dam, ik schrijf u omdat de verwarming sinds gisteren niet meer werkt. Zou u iemand kunnen sturen om ernaar te kijken? Alvast hartelijk dank. Met vriendelijke groet,"
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf een korte formele e-mail, echt of verzonnen: een vraag aan een instantie, een klacht bij een webshop, een verzoek aan je verhuurder. Gebruik de vaste dans — aanhef, aanleiding, indirect verzoek, groet. In het Nederlands, minstens vier zinnen.",
+      "starters": ["Geachte heer/mevrouw,", "Ik schrijf u naar aanleiding van …", "Zou u … kunnen …?", "Met vriendelijke groet,"],
+      "minSentences": 4
+    }
+  ]
+}

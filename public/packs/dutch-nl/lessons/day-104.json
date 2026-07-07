@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "day-104",
+  "day": 104,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "review",
+  "title": "Bram en de brief — formeel als het moet",
+  "emoji": "✒️",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Week 15 review and immersion: a letter from the gemeente needs answering, and Bram — the most businesslike of the group — coaches you through the formal reply",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 15, op een rij",
+      "body": "Deze week ging over het **register-schuifje**: van appje naar ambtenaar en weer terug. Vandaag geen nieuwe stof — vandaag schrijf je, met Bram als coach, een echte formele e-mail. **Blijf in het Nederlands.**",
+      "table": {
+        "headers": ["Deze week", "Formule om te onthouden"],
+        "rows": [
+          ["Het register-schuifje", "jij → u, partikels eruit"],
+          ["Nominalisatie", "na ontvangst van, het verzoek tot"],
+          ["De formele e-mail", "Geachte …, Met vriendelijke groet"],
+          ["De sollicitatiebrief", "verantwoordelijk voor, ik ben van mening dat"],
+          ["Ambtelijke post", "u dient … te = u moet"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Opwarmen — tik om te horen",
+      "items": [
+        { "nl": "Zou u mij kunnen laten weten of dat klopt?", "en": "Could you let me know whether that is correct?", "speak": "Zou u mij kunnen laten weten of dat klopt?" },
+        { "nl": "Naar aanleiding van uw brief…", "en": "Further to your letter…", "speak": "Naar aanleiding van uw brief" },
+        { "nl": "Helaas ben ik verhinderd.", "en": "Unfortunately I am unavailable.", "speak": "Helaas ben ik verhinderd." },
+        { "nl": "Bijgaand stuur ik u het ondertekende formulier.", "en": "Enclosed I am sending you the signed form.", "speak": "Bijgaand stuur ik u het ondertekende formulier." },
+        { "nl": "Alvast hartelijk dank voor uw reactie.", "en": "Many thanks in advance for your reply.", "speak": "Alvast hartelijk dank voor uw reactie." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Dezelfde vraag, maar dan formeel. Welke versie stuur je naar een instantie?",
+      "options": ["Kun je me ff laten weten of het doorgaat?", "Zou u mij kunnen laten weten of de afspraak doorgaat?", "Gaat 't nou door of niet, joh?"],
+      "correct": 1,
+      "explain": "*Zou u mij kunnen laten weten of…* — *u*, indirect verzoek, werkwoord aan het eind van de *of*-bijzin. De andere twee zijn prima… voor Daan."
+    },
+    {
+      "type": "typed",
+      "prompt": "Maak er naamwoordstijl van: *nadat wij uw betaling hebben ontvangen* → *na … van uw betaling*",
+      "answers": ["ontvangst", "na ontvangst van uw betaling", "Na ontvangst van uw betaling"],
+      "hint": "*ontvangen → de ontvangst*.",
+      "explain": "*Na ontvangst van uw betaling* — de hele bijzin gecomprimeerd tot één nominalisatie."
+    },
+    {
+      "type": "dialogue",
+      "scene": "The gemeente writes that your parking-permit form is 'incomplete'. You video-call Bram, the most businesslike of the group, to help you draft the reply.",
+      "lines": [
+        { "speaker": "You", "nl": "Bram, help. De gemeente schrijft dat mijn formulier 'onvolledig' is.", "en": "Bram, help. The gemeente writes that my form is 'incomplete'." },
+        { "speaker": "Bram", "nl": "Rustig aan. Wat staat er precies?", "en": "Easy now. What does it say exactly?" },
+        { "speaker": "You", "nl": "'Bij het uitblijven van een reactie binnen twee weken wordt de aanvraag niet in behandeling genomen.'", "en": "'In the absence of a response within two weeks, the application will not be processed.'" },
+        { "speaker": "Bram", "nl": "Keurig ambtelijk proza. Ze bedoelen: reageer snel, anders gebeurt er niks.", "en": "Textbook officialese. They mean: respond quickly, or nothing happens.", "spotlight": "Bram vertaalt de naamwoordstijl terug naar gewone taal." },
+        { "speaker": "You", "nl": "Oké. Dan schrijf ik: 'Hoi! Hierbij m'n handtekening, sorry voor het gedoe!'", "en": "Okay. Then I'll write: 'Hi! Here's my signature, sorry for the hassle!'" },
+        { "speaker": "Bram", "nl": "Nee. 'Geachte heer/mevrouw'. Bij de gemeente begin je formeel — altijd.", "en": "No. 'Dear Sir/Madam'. With the gemeente you start formal — always.", "spotlight": "Instantie = schuifje omhoog, geen uitzonderingen." },
+        { "speaker": "You", "nl": "Geachte heer/mevrouw… Naar aanleiding van uw brief stuur ik u bijgaand het ondertekende formulier.", "en": "Dear Sir/Madam… Further to your letter, I am enclosing the signed form." },
+        { "speaker": "Bram", "nl": "Zo. Dat is netjes. Heb je nog een vraag voor ze? Nu kan het.", "en": "There. That's proper. Do you have a question for them? Now's the moment." },
+        { "speaker": "You", "nl": "Zou u mij kunnen laten weten wanneer de vergunning ingaat?", "en": "Could you let me know when the permit takes effect?" },
+        { "speaker": "Bram", "nl": "Perfect. Afsluiten met 'Met vriendelijke groet' en je volledige naam. Klaar.", "en": "Perfect. Close with 'Kind regards' and your full name. Done." },
+        { "speaker": "You", "nl": "Geen 'Hoogachtend'?", "en": "No 'Yours faithfully'?" },
+        { "speaker": "Bram", "nl": "Mag, hoeft niet. En in Rotterdam zeggen we: geen woorden maar daden — verstuur dat ding gewoon.", "en": "Allowed, not required. And in Rotterdam we say: deeds, not words — just send the thing." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "De brief aan de gemeente",
+      "questions": [
+        { "q": "Wat was er mis met het formulier?", "options": ["Er ontbrak een handtekening", "Het was te laat verstuurd", "Het adres klopte niet"], "correct": 0 },
+        { "q": "Hoe begin je een e-mail aan de gemeente, volgens Bram?", "options": ["Met 'Hoi!'", "Met 'Geachte heer/mevrouw'", "Met een grapje"], "correct": 1 },
+        { "q": "Wat betekent *bij het uitblijven van een reactie*?", "options": ["Als je niet reageert", "Als je te vaak reageert", "Als de gemeente niet reageert"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf de e-mail aan de gemeente nu helemaal uit: aanhef, aanleiding (*naar aanleiding van uw brief…*), wat je meestuurt (*bijgaand…*), je vraag (*zou u…*) en de groet. Formeel register, in het Nederlands, minstens vier zinnen.",
+      "starters": ["Geachte heer/mevrouw,", "Naar aanleiding van uw brief van … stuur ik u bijgaand …", "Zou u mij kunnen laten weten …?", "Met vriendelijke groet,"],
+      "minSentences": 4
+    }
+  ]
+}

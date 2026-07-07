@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "day-100",
+  "day": 100,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Bij aankomst — de naamwoordstijl",
+  "emoji": "🏛️",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Nominalization: turning verbs into nouns (aankomen → bij aankomst, verzoeken → het verzoek tot) and why official Dutch loves it",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Van werkwoord naar naamwoord",
+      "body": "Formeel Nederlands zet werkwoorden om in naamwoorden — de **naamwoordstijl** (nominalisatie). *Zodra u aankomt* wordt *bij aankomst*; *wij hebben uw bericht ontvangen* wordt *na ontvangst van uw bericht*. It compresses the sentence and removes the people from it: nobody *does* anything anymore, things simply *occur*. Vandaag leer je de stijl herkennen én bouwen.",
+      "table": {
+        "headers": ["Werkwoord", "Nominalisatie"],
+        "rows": [
+          ["aankomen", "bij aankomst"],
+          ["vertrekken", "vóór vertrek"],
+          ["ontvangen", "na ontvangst van"],
+          ["betalen", "de betaling"],
+          ["verzoeken", "het verzoek tot"],
+          ["aanvragen", "de aanvraag"]
+        ]
+      },
+      "callout": "Zie je *-ing*, *het … van* of een kaal naamwoord na een voorzetsel? Naamwoordstijl."
+    },
+    {
+      "type": "chips",
+      "title": "Ambtelijke bouwstenen — tik om te horen",
+      "items": [
+        { "nl": "bij aankomst", "en": "on arrival", "speak": "bij aankomst" },
+        { "nl": "na ontvangst van uw betaling", "en": "after receipt of your payment", "speak": "na ontvangst van uw betaling" },
+        { "nl": "het verzoek tot verlenging", "en": "the request for extension", "speak": "het verzoek tot verlenging" },
+        { "nl": "in afwachting van uw reactie", "en": "awaiting your reply", "speak": "in afwachting van uw reactie" },
+        { "nl": "bij het invullen van het formulier", "en": "when filling in the form", "speak": "bij het invullen van het formulier" },
+        { "nl": "ter bevestiging van uw afspraak", "en": "in confirmation of your appointment", "speak": "ter bevestiging van uw afspraak" }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Drie machines om een naamwoord te maken",
+      "body": "Waarom nominaliseren instanties? Afstand en compactheid: een naamwoord heeft geen onderwerp en geen tijd nodig. Zo bouw je ze. **Machine 1 — het vaste naamwoord**: veel werkwoorden hebben er al één (*aankomen → de aankomst*, *vertrekken → het vertrek*, *verzoeken → het verzoek*). **Machine 2 — -ing**: werkt bijna altijd (*betalen → de betaling*, *verlengen → de verlenging*) en die woorden zijn altijd **de**. **Machine 3 — het + infinitief**: kan met elk werkwoord (*het invullen van het formulier*) en is altijd **het**.",
+      "callout": "*-ing*-woorden: altijd **de**. *Het + infinitief*: altijd **het**. Gratis lidwoord-zekerheid."
+    },
+    {
+      "type": "contrast",
+      "title": "Werkwoordstijl → naamwoordstijl",
+      "pairs": [
+        { "left": "Zodra u betaald hebt, sturen wij de tickets.", "right": "Na ontvangst van uw betaling worden de tickets verstuurd.", "note": "Nominalisatie plus passief: er 'doet' niemand meer iets." },
+        { "left": "Voordat u vertrekt, moet u uitchecken.", "right": "Vóór vertrek dient u uit te checken.", "note": "*vóór vertrek* — de hele bijzin vervangen door één naamwoord." },
+        { "left": "U vraagt of wij uw contract willen verlengen.", "right": "uw verzoek tot verlenging van het contract", "note": "Twee werkwoorden (*vragen, verlengen*) → twee naamwoorden (*verzoek, verlenging*)." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Zodra wij uw bericht hebben ontvangen, nemen wij contact op.* Welke nominalisatie zegt precies hetzelfde?",
+      "options": ["Na ontvangst van uw bericht nemen wij contact op.", "Na het ontvangst van uw bericht nemen wij contact op.", "Na uw bericht ontvangen nemen wij contact op."],
+      "correct": 0,
+      "explain": "*Na ontvangst van uw bericht* is de vaste formule — en het is *de* ontvangst, dus zonder *het*. De derde optie is Engels-vormig Nederlands."
+    },
+    {
+      "type": "typed",
+      "prompt": "Maak er naamwoordstijl van: *zodra u aankomt* → *bij …*",
+      "answers": ["bij aankomst", "Bij aankomst", "bij aankomst."],
+      "hint": "*aankomen → de aankomst*, machine 1.",
+      "explain": "*Bij aankomst* — het vaste naamwoord bij *aankomen*. Geen lidwoord nodig na het voorzetsel."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ de ambtelijke zin.",
+      "speak": "Na ontvangst van uw betaling sturen wij een bevestiging.",
+      "answers": ["Na ontvangst van uw betaling sturen wij een bevestiging", "Na ontvangst van uw betaling sturen wij een bevestiging."]
+    },
+    {
+      "type": "builder",
+      "title": "Bouw een ambtelijke zin",
+      "prompt": "Stapel de bouwstenen tot één zin die zo van de gemeente had kunnen komen.",
+      "slots": [
+        { "label": "Tijdsbepaling (nominalisatie)", "chips": ["Na ontvangst van uw aanvraag", "Na afronding van de controle", "Bij goedkeuring van het verzoek"] },
+        { "label": "Kern", "chips": ["ontvangt u een bevestiging", "sturen wij u de vergunning", "krijgt u bericht"] },
+        { "label": "Staart", "chips": ["per e-mail.", "per post.", "binnen vijf werkdagen."] }
+      ],
+      "sample": "Na ontvangst van uw aanvraag ontvangt u een bevestiging per e-mail."
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf jouw ochtend op als een ambtelijk bericht — met minstens drie nominalisaties (*na het opstaan, bij aankomst op het werk, na ontvangst van de eerste koffie…*). Maak het zo droog mogelijk: dat is precies de stijl. Minstens drie zinnen.",
+      "starters": ["Na het opstaan …", "Bij aankomst …", "Na ontvangst van … werd …"],
+      "minSentences": 3
+    }
+  ]
+}
