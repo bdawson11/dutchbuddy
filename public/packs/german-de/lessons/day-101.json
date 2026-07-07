@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "day-101",
+  "day": 101,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Von wem? Wodurch? Täter, Mittel & man",
+  "emoji": "🔍",
+  "level": "B2",
+  "durationMin": [20, 30],
+  "summary": "The agent in the passive — von for the doer, durch for the means or cause, when to name an agent at all, and man as the active escape hatch.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Wer steckt dahinter? von + Dativ",
+      "body": "Das Passiv braucht **keinen** Täter — das ist ja gerade sein Trick. Wenn du ihn doch nennen willst: **von + Dativ** für den **Täter** — eine Person, Firma oder Behörde, die handelt: *Der Antrag wird **von der Behörde** geprüft. Ich wurde **von einer Freundin** eingeladen.* English safety net: *von* marks **who did it** — the agent with a will of its own.",
+      "callout": "Erst fragen: Muss der Täter überhaupt in den Satz? Meistens nicht — deshalb steht da ja Passiv."
+    },
+    {
+      "type": "card",
+      "title": "durch + Akkusativ — das Mittel, die Ursache",
+      "body": "**durch + Akkusativ** nennt kein **Wer**, sondern ein **Wodurch**: das Mittel, den Weg, die Ursache. *Der Flug wurde **durch den Streik** verhindert. Die Tür wurde **durch den Wind** geöffnet.* Safety net: *durch* = the means or cause, not the doer — storms, strikes, e-mails, accidents. Und wenn du gar kein Passiv willst: **man** ist die Aktiv-Fluchttür — *Man hat mich sofort informiert.*",
+      "callout": "von = wer. durch = wodurch. man = das Aktiv-Hintertürchen."
+    },
+    {
+      "type": "chips",
+      "title": "Täter & Mittel",
+      "items": [
+        { "nl": "Der Antrag wird von der Behörde geprüft.", "en": "The application is examined by the authority.", "speak": "Der Antrag wird von der Behörde geprüft." },
+        { "nl": "Ich wurde von einer Freundin eingeladen.", "en": "I was invited by a friend.", "speak": "Ich wurde von einer Freundin eingeladen." },
+        { "nl": "Der Flug wurde durch den Streik verhindert.", "en": "The flight was prevented by the strike.", "speak": "Der Flug wurde durch den Streik verhindert." },
+        { "nl": "Die Tür wurde durch den Wind geöffnet.", "en": "The door was blown open by the wind.", "speak": "Die Tür wurde durch den Wind geöffnet." },
+        { "nl": "Das Paket wird durch einen Boten geliefert.", "en": "The parcel is delivered by courier.", "speak": "Das Paket wird durch einen Boten geliefert." },
+        { "nl": "Man hat mich sofort informiert.", "en": "I was informed right away (lit.: one informed me).", "speak": "Man hat mich sofort informiert." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "von oder durch?",
+      "pairs": [
+        { "left": "von der Chefin unterschrieben — the doer", "right": "durch eine E-Mail bestätigt — the means", "note": "Die Chefin will etwas (von); die E-Mail ist nur der Weg (durch)." },
+        { "left": "Das Dach wurde von den Nachbarn beschädigt. — sie waren's", "right": "Das Dach wurde durch den Sturm beschädigt. — die Ursache", "note": "Naturgewalten und Ereignisse nehmen fast immer durch." },
+        { "left": "Der Fehler wurde von uns korrigiert. — Passiv mit Täter", "right": "Man hat den Fehler korrigiert. — Aktiv mit man", "note": "man sagt dasselbe aktiver — die bessere Wahl beim Sprechen." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "„Das Konzert wurde ___ den Sturm abgesagt.“",
+      "options": ["von", "durch", "mit"],
+      "correct": 1,
+      "explain": "Der Sturm ist kein handelnder Täter, sondern die Ursache: **durch den Sturm** (Akkusativ). *von* wäre für Personen und Institutionen mit Absicht."
+    },
+    {
+      "type": "typed",
+      "prompt": "„Der Bescheid wurde ___ der Behörde geschickt.“ — die Behörde handelt selbst. Welche Präposition?",
+      "answers": ["von"],
+      "hint": "Täter mit Absicht → von + Dativ.",
+      "explain": "*von der Behörde* — von + Dativ für den Täter. (durch + Akkusativ wäre das Mittel, z. B. durch die Post.)"
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe.",
+      "speak": "Der Antrag wird von der Behörde geprüft.",
+      "answers": ["Der Antrag wird von der Behörde geprüft", "Der Antrag wird von der Behoerde geprueft"]
+    },
+    {
+      "type": "builder",
+      "title": "Passiv + Agent",
+      "prompt": "Bau einen Passivsatz mit Agent. Überleg vorher: Täter (von) oder Mittel/Ursache (durch)?",
+      "slots": [
+        { "label": "Satzanfang", "chips": ["Der Antrag wird", "Die Rechnung wurde", "Der Termin wurde"] },
+        { "label": "Agent", "chips": ["von der Behörde", "von meiner Chefin", "durch einen Streik", "durch eine E-Mail"] },
+        { "label": "Partizip", "chips": ["geprüft", "bezahlt", "verschoben", "bestätigt"] }
+      ],
+      "sample": "Der Termin wurde durch eine E-Mail bestätigt."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Klaus calls from Cologne. His new building project has hit the Bauamt wall — a masterclass in passive agents from a man who reads Amtsdeutsch for a living.",
+      "lines": [
+        { "speaker": "Klaus", "nl": "Hallo! Na, wie läuft's in Berlin?", "en": "Hello! So, how's Berlin treating you?" },
+        { "speaker": "You", "nl": "Gut! Und bei dir? Was macht das große Projekt?", "en": "Good! And you? How's the big project doing?" },
+        { "speaker": "Klaus", "nl": "Frag nicht. Der Entwurf wurde vom Bauamt erst mal abgelehnt.", "en": "Don't ask. The design was rejected by the building authority for now.", "spotlight": "*vom Bauamt* = von + dem: the authority is the doer." },
+        { "speaker": "You", "nl": "Oh nein. Warum denn?", "en": "Oh no. Why?" },
+        { "speaker": "Klaus", "nl": "Durch eine neue Vorschrift hat sich alles verzögert. Das Treppenhaus muss jetzt neu geplant werden.", "en": "Everything got delayed because of a new regulation. The stairwell has to be redesigned now.", "spotlight": "*durch eine Vorschrift* — the cause, no doer; plus *muss … geplant werden*, passive with a modal." },
+        { "speaker": "You", "nl": "Passiv mit Modalverb — genau das üben wir diese Woche.", "en": "Passive with a modal verb — that's exactly what we're practising this week." },
+        { "speaker": "Klaus", "nl": "In Köln nennen wir das einfach Alltag. Und bei euch? Was macht die Musik von Jonas?", "en": "In Cologne we just call that everyday life. And with you lot? How's Jonas's music?" },
+        { "speaker": "You", "nl": "Man wartet. Ihm wurde ein Slot halb versprochen, aber entschieden ist noch nichts.", "en": "We're waiting. He was half-promised a slot, but nothing's decided yet.", "spotlight": "*man wartet* — the active escape hatch; *entschieden ist noch nichts* — yesterday's Zustandspassiv." },
+        { "speaker": "Klaus", "nl": "Halb versprochen wird viel. Sag ihm: Erst wenn es vom Veranstalter schriftlich bestätigt wird, ist es echt.", "en": "A lot gets half-promised. Tell him: only when it's confirmed in writing by the promoter is it real.", "spotlight": "*vom Veranstalter bestätigt* — the doer again, with von." },
+        { "speaker": "You", "nl": "Mach ich. Ach ja — mir wurde ein Brief vom Bürgeramt geschickt. Samstag wird er entschlüsselt.", "en": "Will do. Oh right — I got sent a letter from the Bürgeramt. Saturday it gets deciphered." },
+        { "speaker": "Klaus", "nl": "Gute Idee. So ein Brief wird von Profis geschrieben — und von normalen Menschen nicht verstanden.", "en": "Good idea. A letter like that is written by professionals — and understood by normal people not at all." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Erzähl von etwas, das dir passiert ist — aber im Passiv: Was wurde von wem gemacht? Was wurde durch etwas verursacht oder verhindert? Und einmal die Aktiv-Fluchttür mit man. Mindestens vier Sätze.",
+      "starters": ["Letzte Woche wurde …", "… wurde von … organisiert.", "Durch … wurde alles …", "Man hat mir gesagt, dass …"],
+      "minSentences": 4
+    }
+  ]
+}

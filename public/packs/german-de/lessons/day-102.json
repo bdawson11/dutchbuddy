@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "day-102",
+  "day": 102,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Das ist noch zu klären",
+  "emoji": "🔧",
+  "level": "B2",
+  "durationMin": [20, 30],
+  "summary": "sein + zu + Infinitiv and its friends — das ist zu klären, das lässt sich machen: elegant ways to sound passive without werden.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "sein + zu + Infinitiv — das versteckte Passiv",
+      "body": "Amtsdeutsch liebt diese Form: **sein + zu + Infinitiv** heißt **müssen** oder **können** im Passiv — der Kontext entscheidet. *Die Unterlagen **sind** bis Freitag **einzureichen*** = sie müssen eingereicht werden. *Seine Schrift **ist** kaum **zu lesen*** = sie kann kaum gelesen werden. English safety net: *is to be handed in* (necessity) vs *can hardly be read* (possibility) — same German shape, two meanings.",
+      "callout": "Trennbare Verben klemmen das zu in die Mitte: einreichen → einzureichen, abgeben → abzugeben."
+    },
+    {
+      "type": "card",
+      "title": "lässt sich — die freundliche Schwester",
+      "body": "**sich lassen + Infinitiv** ist das Können-Passiv fürs echte Leben: *Das **lässt sich** machen* (= das kann gemacht werden — kein Problem). *Der Fehler **lässt sich** leicht **beheben**.* Verneint genauso ehrlich: *Das lässt sich leider nicht ändern.* Klingt lösungsorientiert statt bürokratisch — deshalb hörst du es ständig im Büro.",
+      "callout": "„Das lässt sich machen“ — der deutsche Weg, freundlich Ja zu sagen."
+    },
+    {
+      "type": "chips",
+      "title": "Die zu-Sätze des Alltags",
+      "items": [
+        { "nl": "Das ist noch zu klären.", "en": "That still needs clarifying.", "speak": "Das ist noch zu klären." },
+        { "nl": "Die Unterlagen sind bis Freitag einzureichen.", "en": "The documents are to be handed in by Friday.", "speak": "Die Unterlagen sind bis Freitag einzureichen." },
+        { "nl": "Der Termin ist nicht mehr zu verschieben.", "en": "The appointment can't be moved any more.", "speak": "Der Termin ist nicht mehr zu verschieben." },
+        { "nl": "Das lässt sich machen.", "en": "That can be done.", "speak": "Das lässt sich machen." },
+        { "nl": "Der Fehler lässt sich leicht beheben.", "en": "The mistake is easy to fix.", "speak": "Der Fehler lässt sich leicht beheben." },
+        { "nl": "So ein Brief ist kaum zu verstehen.", "en": "A letter like that is barely comprehensible.", "speak": "So ein Brief ist kaum zu verstehen." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Dreimal dasselbe Muss (und Kann)",
+      "pairs": [
+        { "left": "Das Formular muss eingereicht werden. — Passiv mit Modalverb", "right": "Das Formular ist einzureichen. — Amts-Kurzform", "note": "Gleiche Pflicht, halber Satz — deshalb liebt das Amt die zu-Form." },
+        { "left": "Man kann das Problem lösen.", "right": "Das Problem lässt sich lösen.", "note": "lässt sich = kann … werden, nur eleganter." },
+        { "left": "Der Text kann kaum gelesen werden.", "right": "Der Text ist kaum zu lesen.", "note": "sein + zu kann auch Können heißen — das kaum verrät es." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Was bedeutet: „Der Antrag ist bis Montag einzureichen“?",
+      "options": [
+        "Der Antrag kann bis Montag eingereicht werden — freiwillig.",
+        "Der Antrag muss bis Montag eingereicht werden.",
+        "Der Antrag wurde am Montag eingereicht."
+      ],
+      "correct": 1,
+      "explain": "Mit einer Frist heißt sein + zu fast immer **müssen**: eine Pflicht im Amtsgewand. Freiwillig ist da gar nichts."
+    },
+    {
+      "type": "typed",
+      "prompt": "Schreib es eleganter: „Man kann das Problem lösen.“ → „Das Problem lässt sich ___.“",
+      "answers": ["lösen", "Das Problem lässt sich lösen", "loesen"],
+      "hint": "Der Infinitiv bleibt einfach stehen.",
+      "explain": "*Das Problem lässt sich lösen.* — sich lassen + Infinitiv = kann gelöst werden."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe.",
+      "speak": "Das ist noch zu klären.",
+      "answers": ["Das ist noch zu klären", "Das ist noch zu klaeren"]
+    },
+    {
+      "type": "builder",
+      "title": "Pflichten & Möglichkeiten",
+      "prompt": "Bau drei Sätze im versteckten Passiv — Pflicht (ist … einzureichen), Möglichkeit (lässt sich …), offen (ist … zu klären).",
+      "slots": [
+        { "label": "Anfang", "chips": ["Das Formular ist", "Der Fehler lässt sich", "Diese Frage ist"] },
+        { "label": "Ende", "chips": ["bis Freitag einzureichen", "leicht beheben", "noch zu klären"] }
+      ],
+      "sample": "Das Formular ist bis Freitag einzureichen."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Text thread with Lena about the Bürgeramt letter — which, you now discover, contains a deadline.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Na, was macht der Amtsbrief? Schon geöffnet?", "en": "So, how's the Amt letter doing? Opened yet?" },
+        { "speaker": "You", "nl": "Geöffnet ja, verstanden nein. Die Schrift ist ja noch zu lesen — aber der Inhalt ist kaum zu entziffern.", "en": "Opened yes, understood no. The print can still be read — but the content is barely decipherable.", "spotlight": "sein + zu twice, both meaning can: readable print, near-undecipherable content." },
+        { "speaker": "Lena", "nl": "Klassiker. Steht irgendwo eine Frist drin?", "en": "Classic. Is there a deadline in there somewhere?" },
+        { "speaker": "You", "nl": "Ja: „Die Unterlagen sind bis zum 15. einzureichen.“ Was auch immer das heißt.", "en": "Yes: 'The documents are to be submitted by the 15th.' Whatever that means.", "spotlight": "*sind einzureichen* — the Amt short form for müssen eingereicht werden." },
+        { "speaker": "Lena", "nl": "Heißt: Du musst denen bis zum Fünfzehnten Papiere schicken. Pflicht, nicht Angebot.", "en": "It means: you have to send them papers by the fifteenth. Obligation, not offer." },
+        { "speaker": "You", "nl": "Bis zum Fünfzehnten?! Das ist doch kaum zu schaffen!", "en": "By the fifteenth?! That's barely doable!" },
+        { "speaker": "Lena", "nl": "Doch, das lässt sich machen. Samstag setzen wir uns dran, versprochen.", "en": "It is, it can be done. Saturday we'll sit down with it, promise.", "spotlight": "*lässt sich machen* — the friendly can-do passive." },
+        { "speaker": "You", "nl": "Okay. Ohne dich wäre das nicht zu schaffen.", "en": "Okay. Without you this wouldn't be manageable." },
+        { "speaker": "Lena", "nl": "Quatsch. Amtsdeutsch ist lernbar — sogar für Deutsche.", "en": "Nonsense. Officialese is learnable — even for Germans." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Deine Woche in Pflichten und Möglichkeiten: Was ist bis wann zu erledigen? Was lässt sich leicht machen, was lässt sich nicht ändern? Mindestens vier Sätze mit sein + zu oder lässt sich.",
+      "starters": ["Bis Freitag ist … zu erledigen.", "… lässt sich zum Glück leicht …", "… lässt sich leider nicht ändern.", "Das ist noch zu klären: …"],
+      "minSentences": 4
+    }
+  ]
+}

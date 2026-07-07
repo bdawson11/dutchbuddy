@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-105",
+  "day": 105,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "capstone",
+  "title": "Meine Geschichte: Mein Werdegang",
+  "emoji": "🖋",
+  "level": "B2",
+  "durationMin": [25, 35],
+  "summary": "Week 15 capstone — the formal, written-German version of your story: a passive and light-Nominalstil Werdegang layer for Meine Geschichte.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Kapitel 15: Meine Geschichte, ganz offiziell",
+      "body": "Dritte B2-Woche geschafft. Du kannst jetzt das **Passiv durch die Zeiten** (*wird/wurde/ist … worden*), **Zustände** (*ist erledigt*), **Agenten** (*von/durch*), die **Amts-Kurzformen** (*ist einzureichen, lässt sich machen*) und den **Nominalstil** — lesen **und** selbst dosieren. Heute bekommt deine Selbstvorstellung die **Schriftdeutsch-Schicht**: deinen **Werdegang**, die formelle, geschriebene Version deines Lebenswegs (*Ich wurde in … geboren; nach dem Studium wurde mir klar, dass …*). Alle früheren Schichten zählen weiter.",
+      "callout": "Werdegang = wörtlich „der Weg des Werdens“ — dein Lebensweg, amtstauglich erzählt."
+    },
+    {
+      "type": "chips",
+      "title": "Werdegang-Bausteine — antippen zum Hören",
+      "items": [
+        { "nl": "Ich wurde 1995 in Manchester geboren.", "en": "I was born in Manchester in 1995.", "speak": "Ich wurde 1995 in Manchester geboren." },
+        { "nl": "Nach dem Abschluss folgte ein Umzug nach Berlin.", "en": "After graduation came a move to Berlin.", "speak": "Nach dem Abschluss folgte ein Umzug nach Berlin." },
+        { "nl": "Mir wurde klar, dass ich bleiben will.", "en": "It became clear to me that I want to stay.", "speak": "Mir wurde klar, dass ich bleiben will." },
+        { "nl": "der Werdegang", "en": "career path, personal history", "speak": "der Werdegang" },
+        { "nl": "Erfahrungen wurden gesammelt — viele.", "en": "Experience was gathered — plenty of it.", "speak": "Erfahrungen wurden gesammelt — viele." },
+        { "nl": "Seitdem wird täglich Deutsch gelernt.", "en": "German has been studied daily ever since.", "speak": "Seitdem wird täglich Deutsch gelernt." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Im schriftlichen Werdegang: „Ich ___ 1995 in Dublin geboren.“",
+      "options": ["wurde", "habe", "worden"],
+      "correct": 0,
+      "explain": "Schriftlich-formell: *Ich wurde … geboren* (Präteritum-Passiv). Gesprochen geht auch *Ich bin … geboren* — beides korrekt, aber der Werdegang nimmt wurde."
+    },
+    {
+      "type": "typed",
+      "prompt": "Nominalisier fürs Formelle: Deutsch lernen → „das ___ der deutschen Sprache“",
+      "answers": ["Erlernen", "das Erlernen"],
+      "hint": "Der nominalisierte Infinitiv, mit Er- davor.",
+      "explain": "*das Erlernen der deutschen Sprache* — klingt sofort nach Lebenslauf. Sag so etwas bitte nie in der Kneipe."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe.",
+      "speak": "Nach dem Studium wurde mir klar, was ich will.",
+      "answers": ["Nach dem Studium wurde mir klar, was ich will"]
+    },
+    {
+      "type": "contrast",
+      "title": "Kneipe vs. Papier — dieselbe Geschichte",
+      "pairs": [
+        { "left": "Ich bin in Leeds geboren und hab dann einfach losgelegt. — gesprochen, du-Welt", "right": "Geboren wurde ich in Leeds; es folgte eine Ausbildung zur Designerin. — geschrieben, Sie-Welt", "note": "Gleiche Person, zwei Register: locker-verbal vs. Passiv + Nominalstil." },
+        { "left": "Dann bin ich nach Berlin gezogen.", "right": "2024 erfolgte der Umzug nach Berlin.", "note": "erfolgen + Nomen: die Schriftdeutsch-Patina. Wirkt — aber sparsam dosieren!" },
+        { "left": "Ich hab bei einer kleinen Firma gearbeitet.", "right": "Berufserfahrung wurde in einem kleinen Unternehmen gesammelt.", "note": "Das Passiv rückt die Erfahrung ins Zentrum, nicht dich — typisch Werdegang." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "So klingt ein Werdegang",
+      "body": "Lenas Kurz-Bio für die Studio-Website — lies sie einmal laut, nur für den Klang:\n\n*„Lena Berger wurde 1994 in Hannover geboren. Nach dem Abschluss ihres Design-Studiums erfolgte der Umzug nach Berlin, wo sie seit sechs Jahren in einem Studio in Kreuzberg arbeitet. Ihre Plakatserie für ein Neuköllner Theater wurde 2023 ausgezeichnet. Derzeit wird an einer eigenen Ausstellung gearbeitet.“*\n\nZähl mit: zwei Passive, ein *erfolgte*, ein unpersönliches *wird gearbeitet* — und trotzdem bleibt es lesbar. **Das** ist die richtige Dosis.",
+      "callout": "Formell heißt nicht steif: zwei, drei Passiv-Tupfer reichen völlig."
+    },
+    {
+      "type": "comprehension",
+      "title": "Verstanden?",
+      "questions": [
+        { "q": "Wo wurde Lena geboren?", "options": ["in Berlin", "in Hannover", "in Kreuzberg"], "correct": 1 },
+        { "q": "Was wurde 2023 ausgezeichnet?", "options": ["ihr Studium", "ihre Plakatserie für ein Theater", "ihre eigene Ausstellung"], "correct": 1 },
+        { "q": "Woran wird derzeit gearbeitet?", "options": ["an einer eigenen Ausstellung", "an einem neuen Studio", "an einem Umzug nach Hannover"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Meine Geschichte — die Werdegang-Schicht",
+      "prompt": "Bau die neue Schicht: Geburt im Passiv, eine Station im Nominalstil, eine Einsicht mit „mir wurde klar“.",
+      "slots": [
+        { "label": "Geburt (Passiv)", "chips": ["Geboren wurde ich in …,", "Ich wurde 19… in … geboren,"] },
+        { "label": "Station (Nominalstil)", "chips": ["nach der Schule folgte eine Ausbildung,", "nach dem Studium erfolgte der Umzug nach Berlin,", "es folgten Jahre in einem kleinen Unternehmen,"] },
+        { "label": "Einsicht", "chips": ["und irgendwann wurde mir klar, dass ich Deutsch lernen will.", "und mir wurde klar, was mir noch fehlt.", "und seitdem wird täglich Deutsch gelernt."] }
+      ],
+      "sample": "Ich wurde 19… in … geboren, nach dem Studium erfolgte der Umzug nach Berlin, und irgendwann wurde mir klar, dass ich Deutsch lernen will."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Kneipe table read: you premiere the formal version of your story for Lena and Jonas — then translate yourself back into a human being.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Also los, lies vor. Dein Werdegang, ganz offiziell.", "en": "Go on then, read it out. Your Werdegang, fully official." },
+        { "speaker": "You", "nl": "„Geboren wurde ich in — äh, sagen wir: im Ausland. Nach der Schule folgte ein Studium.“", "en": "'Born was I in — er, let's say: abroad. After school followed a degree.'", "spotlight": "Fronted passive *Geboren wurde ich* — the classic Werdegang opener." },
+        { "speaker": "Jonas", "nl": "„Geboren wurde ich“ — sehr elegant. Klingt wie Wikipedia.", "en": "'Born was I' — very elegant. Sounds like Wikipedia." },
+        { "speaker": "You", "nl": "„Vor anderthalb Jahren erfolgte der Umzug nach Berlin. Seitdem wird täglich Deutsch gelernt.“", "en": "'A year and a half ago the move to Berlin occurred. Since then, German has been studied daily.'", "spotlight": "*erfolgte der Umzug* (Nominalstil) + *wird gelernt* (impersonal passive) — the full formal kit." },
+        { "speaker": "Lena", "nl": "„Seitdem wird täglich Deutsch gelernt“ — großartig. Und es stimmt ja sogar.", "en": "'Since then German has been studied daily' — magnificent. And it's even true." },
+        { "speaker": "Jonas", "nl": "Okay, und jetzt das Ganze bitte nochmal wie ein Mensch.", "en": "Okay, and now the whole thing again like a human being, please." },
+        { "speaker": "You", "nl": "Ich bin im Ausland geboren, hab studiert, bin nach Berlin gezogen — und lerne jeden Tag Deutsch.", "en": "I was born abroad, studied, moved to Berlin — and I learn German every day.", "spotlight": "The register down-shift: same facts, spoken warmth, *bin geboren* instead of *wurde geboren*." },
+        { "speaker": "Lena", "nl": "Beides gut. Formell fürs Papier, locker für die Kneipe — genau darum geht's.", "en": "Both good. Formal for paper, relaxed for the pub — that's exactly the point." },
+        { "speaker": "Jonas", "nl": "Apropos Papier: Die Entscheidung des Veranstalters befindet sich übrigens weiterhin in Bearbeitung.", "en": "Speaking of paper: the promoter's decision, by the way, remains in processing.", "spotlight": "Jonas weaponizes Nominalstil to joke about his still-pending festival slot." },
+        { "speaker": "You", "nl": "Dein Bescheid kommt, Jonas. Und wenn er kommt, wird gefeiert.", "en": "Your Bescheid will come, Jonas. And when it comes, there shall be celebrating." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Meine Geschichte, Staffel 2 — Woche 15! Schreib die formelle, schriftliche Version deines Hintergrunds: Geburt im Passiv (Ich wurde … geboren), mindestens eine Station im Nominalstil (es folgte …, … erfolgte …), eine Einsicht (mir wurde klar, dass …) — und zum Schluss ein Satz ganz locker, wie du es Jonas erzählen würdest. Frühere Schichten (woher du kommst, seit wann du Deutsch lernst) dürfen einfließen. Mindestens fünf Sätze.",
+      "starters": ["Geboren wurde ich in …", "Nach … folgte …", "Mir wurde klar, dass …", "Und auf Menschisch: …"],
+      "minSentences": 5
+    }
+  ]
+}

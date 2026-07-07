@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "day-99",
+  "day": 99,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Hier wird gebaut: das Vorgangspassiv",
+  "emoji": "🚧",
+  "level": "B2",
+  "durationMin": [20, 30],
+  "summary": "Vorgangspassiv — werden + Partizip II across the tenses (wird, wurde, ist … worden): the process-passive of signs, news and offices.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Der Blickwechsel: wichtig ist, was passiert",
+      "body": "Bis jetzt hast du erzählt, **wer** etwas tut. Das **Vorgangspassiv** dreht den Blick: wichtig ist, **was passiert** — nicht, wer es tut. Bauplan: **werden** an Position 2 **+ Partizip II** am Ende: *Der Antrag **wird geprüft**.* Das Akkusativ-Objekt des Aktivsatzes wird dabei zum Nominativ-Subjekt: *Man prüft **den Antrag** → **Der Antrag** wird geprüft.* English safety net: this is the passive German plasters on every fence and form — *Hier wird gebaut* (building work in progress), no doer in sight.",
+      "callout": "werden an Position 2, Partizip II ans Ende — das V2-Gesetz gilt auch im Passiv."
+    },
+    {
+      "type": "card",
+      "title": "Das Passiv durch die Zeiten",
+      "body": "Vier Formen trägst du ab heute im Gepäck. Die große Falle sitzt im Perfekt: **worden**, nie *geworden*. *geworden* gehört zu *werden* als Vollverb (*Sie ist Ärztin geworden* — she became a doctor).",
+      "table": {
+        "headers": ["Zeit", "Beispiel", "Merke"],
+        "rows": [
+          ["Präsens", "Der Antrag wird geprüft.", "wird + Partizip II"],
+          ["Präteritum", "Der Antrag wurde geprüft.", "wurde + Partizip II"],
+          ["Perfekt", "Der Antrag ist geprüft worden.", "ist + Partizip II + worden"],
+          ["mit Modalverb", "Der Antrag muss geprüft werden.", "Modal + Partizip II + werden"]
+        ]
+      },
+      "callout": "ist … worden = Passiv Perfekt. ist … geworden = became. Nicht verwechseln!"
+    },
+    {
+      "type": "chips",
+      "title": "Schilder & Schlagzeilen",
+      "items": [
+        { "nl": "Hier wird gebaut.", "en": "Building work in progress here.", "speak": "Hier wird gebaut." },
+        { "nl": "Der Laden wird renoviert.", "en": "The shop is being renovated.", "speak": "Der Laden wird renoviert." },
+        { "nl": "Die Straße wurde gestern gesperrt.", "en": "The street was closed yesterday.", "speak": "Die Straße wurde gestern gesperrt." },
+        { "nl": "Mein Antrag ist endlich bearbeitet worden.", "en": "My application has finally been processed.", "speak": "Mein Antrag ist endlich bearbeitet worden." },
+        { "nl": "Das Formular muss unterschrieben werden.", "en": "The form has to be signed.", "speak": "Das Formular muss unterschrieben werden." },
+        { "nl": "2019 wurde das Café eröffnet.", "en": "The café was opened in 2019.", "speak": "2019 wurde das Café eröffnet." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Aktiv → Passiv",
+      "pairs": [
+        { "left": "Man prüft den Antrag. — Aktiv", "right": "Der Antrag wird geprüft. — Passiv", "note": "Das Akkusativ-Objekt (den Antrag) wird zum Nominativ-Subjekt (der Antrag)." },
+        { "left": "Die Stadt hat die Straße gesperrt. — Aktiv Perfekt", "right": "Die Straße ist gesperrt worden. — Passiv Perfekt", "note": "Im Passiv Perfekt heißt es worden — das ge- fällt weg." },
+        { "left": "Sie ist Designerin geworden. — werden als Vollverb", "right": "Das Logo ist entworfen worden. — Passiv Perfekt", "note": "geworden = became; worden = Passiv-Marker. Kleiner Unterschied, große Wirkung." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Wie heißt das Passiv im Perfekt? „Der Brief ___ gestern ___.“",
+      "options": [
+        "ist … geschickt worden",
+        "ist … geschickt geworden",
+        "hat … geschickt worden"
+      ],
+      "correct": 0,
+      "explain": "Passiv Perfekt = *sein* + Partizip II + **worden** (ohne ge-). *geworden* hieße „became“, und *haben* hat im Passiv Perfekt nichts verloren."
+    },
+    {
+      "type": "typed",
+      "prompt": "Bilde das Passiv: „Man renoviert die Wohnung.“ → „Die Wohnung ___ renoviert.“",
+      "answers": ["wird", "Die Wohnung wird renoviert"],
+      "hint": "werden im Präsens, 3. Person Singular.",
+      "explain": "*Die Wohnung wird renoviert.* — werden an Position 2, Partizip II am Ende."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe.",
+      "speak": "Die Straße wurde gestern gesperrt.",
+      "answers": ["Die Straße wurde gestern gesperrt", "Die Strasse wurde gestern gesperrt"]
+    },
+    {
+      "type": "builder",
+      "title": "Passiv in drei Zeiten",
+      "prompt": "Bau Passivsätze durch die Zeiten. Achtung: Nach „ist“ gehört am Ende ein „worden“.",
+      "slots": [
+        { "label": "Anfang", "chips": ["Der Antrag wird gerade", "Der Antrag wurde letzte Woche", "Der Antrag ist schon"] },
+        { "label": "Ende", "chips": ["geprüft", "bearbeitet", "geprüft worden", "bearbeitet worden"] }
+      ],
+      "sample": "Der Antrag ist schon geprüft worden."
+    },
+    {
+      "type": "dialogue",
+      "scene": "An evening walk through Neukölln with Lena — half the Kiez is a construction site, and passive forms hang on every fence.",
+      "lines": [
+        { "speaker": "Lena", "nl": "Na? Komm, wir gehen die lange Runde. Obwohl — die Weserstraße ist ja gesperrt.", "en": "Hey! Come on, let's take the long loop. Although — Weserstraße is closed off." },
+        { "speaker": "You", "nl": "Schon wieder? Da wurde doch erst letztes Jahr gebaut.", "en": "Again? There was construction there just last year.", "spotlight": "*wurde gebaut* — Präteritum-Passiv, the past event." },
+        { "speaker": "Lena", "nl": "Willkommen in Berlin. Hier wird immer irgendwo gebaut.", "en": "Welcome to Berlin. Something is always being built somewhere here.", "spotlight": "*Hier wird gebaut* — the impersonal passive: no subject, no doer, pure process." },
+        { "speaker": "You", "nl": "Guck mal, die alte Kneipe — die wird renoviert!", "en": "Look, the old pub — it's being renovated!" },
+        { "speaker": "Lena", "nl": "Endlich! Die ist seit Jahren geschlossen.", "en": "Finally! It's been closed for years.", "spotlight": "*ist geschlossen* — a state, not an event. Tomorrow's topic, sneak preview." },
+        { "speaker": "You", "nl": "Und daneben? Da ist doch ein neues Café eröffnet worden, oder?", "en": "And next door? A new café got opened there, right?", "spotlight": "*ist eröffnet worden* — Perfekt-Passiv, with bare worden." },
+        { "speaker": "Lena", "nl": "Genau, letzte Woche. Von zwei Schwestern aus dem Kiez — der Kuchen soll super sein.", "en": "Exactly, last week. By two sisters from the neighbourhood — the cake is supposed to be great." },
+        { "speaker": "You", "nl": "Ach, übrigens — mir wurde ein Brief vom Bürgeramt geschickt. Ich versteh kein Wort.", "en": "Oh, by the way — a letter from the Bürgeramt was sent to me. I don't understand a word.", "spotlight": "The dative survives the passive: *mir wurde … geschickt*." },
+        { "speaker": "Lena", "nl": "Oh, Post vom Amt! Heb ihn gut auf — den nehmen wir uns am Samstag zusammen vor.", "en": "Ooh, mail from the Amt! Keep it safe — we'll tackle it together on Saturday." },
+        { "speaker": "You", "nl": "Deal. Beziehungsweise: Der Brief wird am Samstag entziffert.", "en": "Deal. Or rather: the letter will be deciphered on Saturday." },
+        { "speaker": "Lena", "nl": "Sehr gut! Du klingst jetzt schon wie ein Bescheid.", "en": "Very good! You already sound like an official notice." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Dein Viertel im Passiv: Was wird gerade gebaut oder renoviert? Was wurde letztes Jahr geändert? Was ist neu eröffnet worden? Schreib mindestens vier Sätze und benutz alle drei Zeiten (wird / wurde / ist … worden).",
+      "starters": ["Bei mir um die Ecke wird gerade …", "Letztes Jahr wurde …", "Vor Kurzem ist … eröffnet worden.", "Die Straße …"],
+      "minSentences": 4
+    }
+  ]
+}

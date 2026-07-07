@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "day-104",
+  "day": 104,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "review",
+  "title": "Post vom Amt: der Entschlüsselungs-Samstag",
+  "emoji": "📬",
+  "level": "B2",
+  "durationMin": [20, 30],
+  "summary": "Week 15 review — Saturday at Lena's kitchen table: decoding your Bürgeramt letter and a Nominalstil job posting with the whole passive toolkit.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Woche 15: dein Amts-Werkzeugkasten",
+      "body": "Diese Woche hast du das komplette Überlebenspaket gepackt: das **Vorgangspassiv** durch die Zeiten (*wird/wurde/ist … worden*), den **Zustandspassiv** (*ist geschlossen*), die Agenten **von** (Täter) und **durch** (Mittel), die Kurzformen **sein + zu** (*ist einzureichen*) und **lässt sich**, und den **Nominalstil** (*die Bearbeitung Ihres Antrags*). Heute wird alles gebraucht: Der Brief vom Bürgeramt liegt auf Lenas Küchentisch.",
+      "callout": "Heute keine neue Regel — heute wird entschlüsselt."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Der Brief sagt: „Zur Bearbeitung Ihres Antrags sind weitere Unterlagen einzureichen.“ Was heißt das?",
+      "options": [
+        "Ihre Unterlagen sind schon eingereicht worden.",
+        "Sie müssen dem Amt noch Unterlagen schicken, sonst geht es nicht weiter.",
+        "Das Amt schickt Ihnen weitere Unterlagen zu."
+      ],
+      "correct": 1,
+      "explain": "*sind einzureichen* = müssen eingereicht werden — und zwar von **dir**. Nominalstil (Bearbeitung) plus sein + zu: die volle Amts-Kombination."
+    },
+    {
+      "type": "typed",
+      "prompt": "Der Termin platzt wegen des Streiks. Vollende: „Der Termin wurde ___ den Streik verhindert.“",
+      "answers": ["durch"],
+      "hint": "Ursache, kein Täter.",
+      "explain": "*durch den Streik* — Ursachen und Ereignisse nehmen durch + Akkusativ; von wäre für handelnde Personen oder Institutionen."
+    },
+    {
+      "type": "shadow",
+      "title": "Sätze für den Amts-Ernstfall",
+      "lines": [
+        { "nl": "Was genau ist einzureichen?", "en": "What exactly needs to be submitted?" },
+        { "nl": "Bis wann läuft die Frist?", "en": "Until when does the deadline run?" },
+        { "nl": "Wann wird mein Antrag bearbeitet?", "en": "When will my application be processed?" },
+        { "nl": "Könnte die Frist verlängert werden?", "en": "Could the deadline be extended?" }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Saturday, Lena's kitchen. Coffee, the dreaded Bürgeramt envelope — and, because Lena plans ahead, a job ad she has saved for you.",
+      "lines": [
+        { "speaker": "Lena", "nl": "So. Kaffee ist gekocht, der Tisch ist geräumt — her mit dem Brief.", "en": "Right. Coffee's made, the table's cleared — hand over the letter.", "spotlight": "Two Zustandspassiv states to open the mission." },
+        { "speaker": "You", "nl": "Okay … „Sehr geehrte Damen und Herren, zur Bearbeitung Ihres Antrags auf Verlängerung sind weitere Unterlagen einzureichen.“", "en": "Okay … 'Dear Sir or Madam, for the processing of your application for extension, further documents are to be submitted.'", "spotlight": "Nominalstil chain + sein + zu — the week's grammar in one sentence." },
+        { "speaker": "Lena", "nl": "Übersetzung: Die brauchen noch Papiere von dir, sonst geht gar nichts weiter.", "en": "Translation: they still need papers from you, otherwise nothing moves forward." },
+        { "speaker": "You", "nl": "„Die Frist endet am 15. des Monats. Nach Prüfung erhalten Sie einen Bescheid.“", "en": "'The deadline ends on the 15th of the month. After examination you will receive a decision.'" },
+        { "speaker": "Lena", "nl": "Heißt: bis zum Fünfzehnten schicken, dann entscheiden sie und schreiben dir das Ergebnis. Der Bescheid ist einfach die Entscheidung — auf Papier.", "en": "Meaning: send it by the fifteenth, then they decide and write you the result. The Bescheid is just the decision — on paper.", "spotlight": "Bescheid = the written decision; un-nominalize Prüfung to 'sie prüfen'." },
+        { "speaker": "You", "nl": "Warum sagt das niemand einfach so?", "en": "Why does nobody just say it like that?" },
+        { "speaker": "Lena", "nl": "Weil beim Amt nicht geredet wird, sondern formuliert. Guck, ich hab dir übrigens was mitgebracht — eine Stellenanzeige.", "en": "Because at the Amt there's no talking, only formulating. Look, by the way, I brought you something — a job ad.", "spotlight": "*wird nicht geredet* — the impersonal passive, used for a dry joke." },
+        { "speaker": "You", "nl": "„Gesucht wird eine engagierte Persönlichkeit. Zu Ihren Aufgaben gehören die Betreuung unserer Kunden sowie die Erstellung von Angeboten.“", "en": "'Sought is a committed personality. Your tasks include the care of our clients as well as the creation of offers.'", "spotlight": "*Gesucht wird …* — fronted passive; Betreuung/Erstellung — job-ad Nominalstil." },
+        { "speaker": "Lena", "nl": "Auf Menschisch: Du kümmerst dich um Kunden und schreibst Angebote. Klingt doch machbar.", "en": "In human terms: you look after clients and write offers. Sounds doable, no?" },
+        { "speaker": "You", "nl": "Ehrlich gesagt, ja. Vielleicht bewerbe ich mich irgendwann mal auf so was — auf Deutsch.", "en": "Honestly, yes. Maybe some day I'll apply for something like that — in German." },
+        { "speaker": "Lena", "nl": "Warum nicht? Dein Amtsdeutsch ist ja kaum noch zu stoppen. Und falls es so weit ist: Ich kenne da ein paar Leute.", "en": "Why not? Your officialese can hardly be stopped any more. And when the time comes: I know a few people.", "spotlight": "*kaum noch zu stoppen* — sein + zu as a compliment; Lena seeding your job hunt." },
+        { "speaker": "You", "nl": "Erst wird der Antrag gerettet, dann die Karriere.", "en": "First the application gets rescued, then the career." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Verstanden?",
+      "questions": [
+        { "q": "Was muss bis zum 15. passieren?", "options": ["Das Amt schickt den Bescheid.", "Die fehlenden Unterlagen müssen eingereicht werden.", "Der Antrag muss neu gestellt werden."], "correct": 1 },
+        { "q": "Was ist ein „Bescheid“?", "options": ["die schriftliche Entscheidung des Amts", "eine mündliche Auskunft am Telefon", "ein anderes Wort für Antrag"], "correct": 0 },
+        { "q": "Was bietet Lena am Ende an?", "options": ["Sie will den Antrag für dich stellen.", "Sie kennt Leute — falls du dich irgendwann bewerben willst.", "Sie schreibt die Bewerbung für dich."], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Fass den Amtsbrief zusammen — aber auf Menschisch: Was wird vom Amt verlangt, bis wann ist was einzureichen, und was passiert danach? Und ein Satz zur Stellenanzeige: Wäre das was für dich? Mindestens vier Sätze.",
+      "starters": ["Das Amt verlangt, dass …", "Bis zum 15. ist … einzureichen.", "Danach wird … geschickt.", "Die Stelle klingt …"],
+      "minSentences": 4
+    }
+  ]
+}

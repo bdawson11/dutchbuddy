@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "day-103",
+  "day": 103,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Die Bearbeitung Ihres Antrags: der Nominalstil",
+  "emoji": "📑",
+  "level": "B2",
+  "durationMin": [20, 30],
+  "summary": "Nominalstil — turning verbs into nouns (bearbeiten → die Bearbeitung), the survival kit for Behörden letters, and when to un-nominalize to sound human.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Wenn Verben zu Nomen werden",
+      "body": "Behörden schreiben nicht *wir bearbeiten Ihren Antrag*, sondern *die **Bearbeitung** Ihres Antrags*. Das ist der **Nominalstil**: Das Verb wird zum Nomen, die Handlung wird zum Ding. Meistens mit **-ung** — und -ung-Nomen sind **immer feminin**: *bearbeiten → die Bearbeitung, prüfen → die Prüfung, anmelden → die Anmeldung*. Dahinter hängt gern ein Genitiv: *die Verlängerung **Ihres Vertrags***. English safety net: it's *the processing of your application* instead of *we're processing it* — denser, colder, very official. Dein Trick beim Lesen: **such das Verb hinter dem Nomen.**",
+      "callout": "-ung-Nomen sind immer die. Ein Geschenk in einer Woche voller Bürokratie."
+    },
+    {
+      "type": "card",
+      "title": "Das Amts-Überlebenspaket",
+      "body": "Sechs Wörter, mit denen du achtzig Prozent jedes Behörden-Briefs entschlüsselst. *Bescheid* kennst du übrigens längst menschlich — *Sag mir Bescheid!* Beim Amt ist der Bescheid die **schriftliche Entscheidung**, die dir zugeschickt wird.",
+      "table": {
+        "headers": ["Amtswort", "Verb dahinter", "Heißt"],
+        "rows": [
+          ["die Anmeldung", "sich anmelden", "registering your address"],
+          ["der Antrag", "beantragen", "the (official) application"],
+          ["der Bescheid", "Bescheid geben", "the official decision letter"],
+          ["die Frist", "—", "the deadline"],
+          ["die Unterlagen", "—", "the documents"],
+          ["die Verlängerung", "verlängern", "the extension"]
+        ]
+      },
+      "callout": "Wer Anmeldung, Antrag, Bescheid und Frist kennt, hat beim Amt schon halb gewonnen."
+    },
+    {
+      "type": "chips",
+      "title": "Amtsdeutsch zum Anhören",
+      "items": [
+        { "nl": "die Anmeldung", "en": "registration (of your address)", "speak": "die Anmeldung" },
+        { "nl": "der Bescheid", "en": "official decision letter", "speak": "der Bescheid" },
+        { "nl": "einen Antrag stellen", "en": "to file an application", "speak": "einen Antrag stellen" },
+        { "nl": "die Frist verlängern", "en": "to extend the deadline", "speak": "die Frist verlängern" },
+        { "nl": "Ihr Antrag ist in Bearbeitung.", "en": "Your application is being processed.", "speak": "Ihr Antrag ist in Bearbeitung." },
+        { "nl": "Bitte reichen Sie die Unterlagen ein.", "en": "Please submit the documents.", "speak": "Bitte reichen Sie die Unterlagen ein." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Entschlüssle: „Nach Prüfung Ihrer Unterlagen erhalten Sie einen Bescheid.“",
+      "options": [
+        "Sie müssen Ihre Unterlagen selbst prüfen und bekommen dann Besuch.",
+        "Das Amt prüft Ihre Unterlagen und schickt Ihnen danach seine Entscheidung.",
+        "Ihre Unterlagen wurden schon geprüft — alles ist entschieden."
+      ],
+      "correct": 1,
+      "explain": "*Prüfung* = das Amt prüft (noch!), *Bescheid* = die schriftliche Entscheidung danach. Nominalstil versteckt Handlungen in Nomen — such immer das Verb dahinter."
+    },
+    {
+      "type": "typed",
+      "prompt": "Mach das Nomen: verlängern → die ___",
+      "answers": ["Verlängerung", "die Verlängerung", "Verlaengerung"],
+      "hint": "-ung dran, und damit automatisch feminin.",
+      "explain": "*verlängern → die Verlängerung.* Das -ung-Rezept funktioniert bei Hunderten von Verben."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe.",
+      "speak": "Ihr Antrag ist noch in Bearbeitung.",
+      "answers": ["Ihr Antrag ist noch in Bearbeitung"]
+    },
+    {
+      "type": "contrast",
+      "title": "Dieselbe Nachricht, zwei Welten — du vs. Sie",
+      "pairs": [
+        { "left": "Sag mir kurz Bescheid, wenn du das gelesen hast! — an einen Freund (du, Verbalstil)", "right": "Um kurze Rückmeldung nach Erhalt wird gebeten. — vom Amt (Sie, Nominalstil + Passiv)", "note": "Gleiche Bitte — einmal warm und verbal, einmal distanziert und nominal." },
+        { "left": "Wir müssen deinen Vertrag noch verlängern. — du-Welt", "right": "Die Verlängerung Ihres Vertrags ist in Bearbeitung. — Sie-Welt", "note": "du + Verb wird zu Ihres + -ung-Nomen: der klassische Registerwechsel." },
+        { "left": "Kannst du mir die Papiere bis Freitag schicken?", "right": "Die Unterlagen sind bis Freitag einzureichen.", "note": "Gestern gelernt: sein + zu ist die Amts-Pflichtform — im du-Register fragst du einfach." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mach es menschlich",
+      "prompt": "Übersetz das Amt zurück ins Leben: Bau aus dem Nominalstil einen Verbalsatz mit wir + Verb.",
+      "slots": [
+        { "label": "Anfang", "chips": ["Wir bearbeiten gerade", "Wir prüfen noch", "Wir verlängern gern"] },
+        { "label": "Ende", "chips": ["Ihren Antrag", "Ihre Unterlagen", "Ihren Vertrag"] }
+      ],
+      "sample": "Wir bearbeiten gerade Ihren Antrag."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Jonas finally hears back from the festival's booking office — in purest Nominalstil. Decoding duty falls to you.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Ey, jetzt haben die vom Festival endlich geschrieben. Aber ich versteh nur Bahnhof.", "en": "Hey, the festival people finally wrote back. But it's all Greek to me." },
+        { "speaker": "You", "nl": "Zeig her. „Die Bestätigung Ihres Auftritts erfolgt nach Prüfung des Programms.“", "en": "Show me. 'The confirmation of your performance will occur after examination of the programme.'", "spotlight": "Two -ung nouns and a Genitiv chain — peak Nominalstil." },
+        { "speaker": "Jonas", "nl": "Siehst du?! Was heißt das jetzt — ja oder nein?", "en": "See?! So what does that mean — yes or no?" },
+        { "speaker": "You", "nl": "Weder noch. Auf Deutsch: Sie prüfen noch das Programm und bestätigen euch danach.", "en": "Neither. In plain German: they're still checking the programme and will confirm you afterwards.", "spotlight": "Un-nominalizing: Prüfung → sie prüfen, Bestätigung → sie bestätigen." },
+        { "speaker": "Jonas", "nl": "Warum schreiben die das dann nicht einfach so?", "en": "Then why don't they just write it like that?" },
+        { "speaker": "You", "nl": "Nominalstil. Klingt offizieller: „Prüfung“ statt „wir prüfen“, „Bestätigung“ statt „wir bestätigen“.", "en": "Nominal style. Sounds more official: 'examination' instead of 'we're examining', 'confirmation' instead of 'we confirm'." },
+        { "speaker": "Jonas", "nl": "Verstehe. „Die Beantwortung Ihrer Frage erfolgt nach Einnahme meines Kaffees.“", "en": "Got it. 'The answering of your question will occur after intake of my coffee.'" },
+        { "speaker": "You", "nl": "Perfekt! Du amtest schon wie ein Profi.", "en": "Perfect! You're officialesing like a pro already." },
+        { "speaker": "Jonas", "nl": "Na ja. Hauptsache, irgendwann steht da mal: „Die Zusage erfolgt hiermit.“", "en": "Well. Main thing is that some day it says: 'The acceptance hereby occurs.'" },
+        { "speaker": "You", "nl": "Kommt bestimmt. Und dann wird gefeiert.", "en": "It'll come. And then there shall be celebrating.", "spotlight": "*dann wird gefeiert* — the impersonal passive from day 99, now used for joy." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Der Registerwechsel: Schreib dieselbe kurze Nachricht zweimal — erst an eine Freundin (du, locker, Verbalstil), dann als formelle Version (Sie, mit mindestens einem -ung-Nomen oder Passiv). Thema frei: eine Absage, eine Bitte, eine Erinnerung. Mindestens vier Sätze insgesamt.",
+      "starters": ["Hey, kannst du …?", "Sag mir kurz Bescheid, ob …", "Sehr geehrte Frau …, die … Ihres … ist …", "Um … wird gebeten."],
+      "minSentences": 4
+    }
+  ]
+}

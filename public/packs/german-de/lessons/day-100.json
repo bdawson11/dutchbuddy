@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "day-100",
+  "day": 100,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Geschlossen! Zustand oder Vorgang?",
+  "emoji": "🚪",
+  "level": "B2",
+  "durationMin": [20, 30],
+  "summary": "Zustandspassiv vs Vorgangspassiv — die Tür ist geschlossen (state) vs wird geschlossen (event): choosing between sein and werden.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "sein oder werden — der kleine große Unterschied",
+      "body": "*Die Tür **wird** geschlossen* — jemand schließt sie **gerade**: ein Vorgang, ein Ereignis. *Die Tür **ist** geschlossen* — sie ist einfach **zu**: ein Zustand, das Ergebnis. English safety net: the **werden**-passive means something is *happening*; the **sein**-passive (Zustandspassiv) means the *result* is simply there. Frag dich immer: Passiert da etwas — oder beschreibe ich nur, wie es jetzt ist?",
+      "callout": "Vorgang = werden. Zustand = sein. Ein Wort entscheidet, ob etwas passiert oder schon passiert ist."
+    },
+    {
+      "type": "card",
+      "title": "Beide Passive durch die Zeiten",
+      "body": "Der Zustandspassiv braucht kein eigenes Perfekt — *war geschlossen* erzählt den Zustand in der Vergangenheit. Und merke den Mini-Unterschied mit Maxi-Wirkung: *ist geschlossen* (Zustand jetzt) vs *ist geschlossen **worden*** (Vorgang im Perfekt). Das kleine *worden* macht aus dem Zustand ein Ereignis.",
+      "table": {
+        "headers": ["Zeit", "Vorgang (werden)", "Zustand (sein)"],
+        "rows": [
+          ["Präsens", "Die Tür wird geschlossen.", "Die Tür ist geschlossen."],
+          ["Präteritum", "Die Tür wurde geschlossen.", "Die Tür war geschlossen."],
+          ["Perfekt", "Die Tür ist geschlossen worden.", "— (nimm: war geschlossen)"]
+        ]
+      },
+      "callout": "ist geschlossen = zu. ist geschlossen worden = jemand hat sie zugemacht."
+    },
+    {
+      "type": "chips",
+      "title": "Zustände überall",
+      "items": [
+        { "nl": "Geöffnet — täglich ab neun.", "en": "Open — daily from nine.", "speak": "Geöffnet — täglich ab neun." },
+        { "nl": "Der Tisch ist leider reserviert.", "en": "The table is reserved, unfortunately.", "speak": "Der Tisch ist leider reserviert." },
+        { "nl": "Die Stelle ist schon besetzt.", "en": "The position is already filled.", "speak": "Die Stelle ist schon besetzt." },
+        { "nl": "Mein Konto ist gesperrt!", "en": "My account is blocked!", "speak": "Mein Konto ist gesperrt!" },
+        { "nl": "Das Formular ist ausgefüllt und unterschrieben.", "en": "The form is filled in and signed.", "speak": "Das Formular ist ausgefüllt und unterschrieben." },
+        { "nl": "Die Küche wird gerade geputzt.", "en": "The kitchen is being cleaned right now.", "speak": "Die Küche wird gerade geputzt." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Ereignis vs. Ergebnis",
+      "pairs": [
+        { "left": "Die Kneipe wird renoviert. — work in progress", "right": "Die Kneipe ist renoviert. — done, looks great", "note": "werden = es passiert gerade; sein = das Ergebnis steht." },
+        { "left": "Das Fenster wurde geöffnet. — someone opened it", "right": "Das Fenster war geöffnet. — it stood open", "note": "Auch in der Vergangenheit: wurde = Ereignis, war = Zustand." },
+        { "left": "Der Slot ist vergeben worden. — the moment it happened", "right": "Der Slot ist vergeben. — the situation now", "note": "Das worden macht aus dem Zustand das Ereignis." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Es ist 22 Uhr, der Laden hat längst zu. Was sagst du?",
+      "options": [
+        "Der Laden wird geschlossen.",
+        "Der Laden ist geschlossen.",
+        "Der Laden ist geschlossen worden."
+      ],
+      "correct": 1,
+      "explain": "Zustand: Er ist einfach zu — *ist geschlossen*. „wird geschlossen“ hieße, jemand schließt ihn genau jetzt; „ist geschlossen worden“ betont das Ereignis von vorhin."
+    },
+    {
+      "type": "typed",
+      "prompt": "Vorgang oder Zustand? „Moment, die Wohnung ___ gerade renoviert — überall Staub und Lärm.“",
+      "answers": ["wird"],
+      "hint": "Da passiert gerade etwas — also Vorgang.",
+      "explain": "*wird gerade renoviert* — der Vorgang läuft (Staub! Lärm!). *ist renoviert* wäre das fertige, stille Ergebnis."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Hör zu und tippe.",
+      "speak": "Die Tür ist schon geschlossen.",
+      "answers": ["Die Tür ist schon geschlossen", "Die Tuer ist schon geschlossen"]
+    },
+    {
+      "type": "builder",
+      "title": "Vorgang oder Zustand?",
+      "prompt": "Bau zwei saubere Sätze: einen Vorgang (werden + gerade) und einen Zustand (sein + schon).",
+      "slots": [
+        { "label": "Anfang", "chips": ["Der Tisch wird", "Der Tisch ist", "Das Konto wird", "Das Konto ist"] },
+        { "label": "Ende", "chips": ["gerade reserviert", "schon reserviert", "gerade gesperrt", "schon gesperrt"] }
+      ],
+      "sample": "Der Tisch ist schon reserviert."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Cake hunt with Jonas — reserved tables, an empty display case, and still no word from the festival promoter.",
+      "lines": [
+        { "speaker": "Jonas", "nl": "Ey, da vorne ist noch was frei — ah, nee. „Reserviert“.", "en": "Hey, there's a free one up front — ah, no. 'Reserved'." },
+        { "speaker": "You", "nl": "Der Tisch am Fenster ist auch besetzt. Da hinten vielleicht?", "en": "The window table is taken too. Maybe back there?", "spotlight": "*ist besetzt* — Zustandspassiv: the situation, not an event." },
+        { "speaker": "Jonas", "nl": "Passt. Oh Mann, ich sterbe für ein Stück Kuchen.", "en": "Works. Oh man, I'm dying for a piece of cake." },
+        { "speaker": "You", "nl": "Schlechte Nachricht: Die Vitrine ist leer. Die wird gerade neu bestückt, glaub ich.", "en": "Bad news: the display case is empty. It's being restocked right now, I think.", "spotlight": "*wird gerade bestückt* — werden + gerade: the process is running." },
+        { "speaker": "Jonas", "nl": "Na dann warten wir eben. Wie beim Veranstalter — da wird auch noch entschieden.", "en": "Then we wait. Like with the promoter — the deciding is still happening there too." },
+        { "speaker": "You", "nl": "Immer noch nichts? Er wollte sich doch diese Woche melden.", "en": "Still nothing? He was going to get in touch this week." },
+        { "speaker": "Jonas", "nl": "Tja. Der Slot ist jedenfalls noch nicht vergeben — das hat er immerhin geschrieben.", "en": "Well. At least the slot isn't given away yet — he did write that much.", "spotlight": "*ist noch nicht vergeben* — a state that leaves the door open." },
+        { "speaker": "You", "nl": "Noch nicht vergeben ist doch gut! Die Entscheidung wird halt noch getroffen.", "en": "Not given away yet is good! The decision is simply still being made." },
+        { "speaker": "Jonas", "nl": "Guck an — Vorgang und Zustand, sauber getrennt. Wer bist du, und was ist mit meinem Deutsch-Anfänger passiert?", "en": "Look at that — process and state, cleanly separated. Who are you, and what happened to my German beginner?" },
+        { "speaker": "You", "nl": "Der wurde durch einen B2-Lerner ersetzt.", "en": "He was replaced by a B2 learner.", "spotlight": "*ersetzt durch* — a teaser for tomorrow: durch marks the replacement, not a doer." },
+        { "speaker": "Jonas", "nl": "Unheimlich. Hallo? Zwei Kaffee bitte — falls hier noch bedient wird!", "en": "Creepy. Hello? Two coffees please — if there's still any serving being done here!" }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schau dich um: Beschreib deine Wohnung oder deinen Schreibtisch im Zustandspassiv (Das Fenster ist geöffnet, …) — und einen Vorgang, der gerade irgendwo läuft (… wird gerade …). Mindestens vier Sätze.",
+      "starters": ["Das Fenster ist …", "Die Tür ist …", "Draußen wird gerade …", "Mein Schreibtisch ist …"],
+      "minSentences": 4
+    }
+  ]
+}
