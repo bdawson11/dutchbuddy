@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "day-102",
+  "day": 102,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Llevo dos años viviendo aquí",
+  "emoji": "⏳",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Perífrasis with gerundio: llevar + gerundio for duration, plus ir, seguir and andar + gerundio.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Llevar + gerundio: el contador de tiempo",
+      "body": "La perífrasis estrella del B2: **llevar + tiempo + gerundio** = 'have been doing for…'. *Llevo dos años **viviendo** aquí, llevamos una hora **esperando***. Es LA manera nativa de contar cuánto tiempo llevas con algo — mucho más natural que *estoy viviendo aquí desde hace dos años*. Y el negativo va con **sin + infinitivo**: *llevo meses **sin** salir de la ciudad*. Fíjate: el verbo *llevar* carga con el tiempo, y el gerundio dice qué haces.",
+      "callout": "llevo + [tiempo] + gerundio. Negativo: llevo + [tiempo] + sin + infinitivo."
+    },
+    {
+      "type": "card",
+      "title": "Ir, seguir y andar + gerundio",
+      "body": "Tres matices más con gerundio. **ir + gerundio** = progreso **gradual**: *voy mejorando* (mejoro poco a poco), *ve preparando la cena* (vete empezando). **seguir + gerundio** = **todavía**: *sigo trabajando en la librería* (no lo he dejado). **andar + gerundio** = 'andar metido en algo' últimamente, con aire coloquial: *anda buscando piso, anda diciendo por ahí que…*. Think of them as slow-motion (*ir*), still-rolling (*seguir*) and lately-up-to (*andar*).",
+      "table": {
+        "headers": ["Perífrasis", "Matiz", "Ejemplo"],
+        "rows": [
+          ["ir + gerundio", "progreso gradual", "voy mejorando poco a poco"],
+          ["seguir + gerundio", "todavía, sin parar", "sigo trabajando allí"],
+          ["andar + gerundio", "últimamente, coloquial", "anda buscando piso"]
+        ]
+      },
+      "callout": "ir = poco a poco; seguir = todavía; andar = últimamente."
+    },
+    {
+      "type": "chips",
+      "title": "Trayectorias en marcha — toca y repite",
+      "items": [
+        { "nl": "llevo dos años viviendo aquí", "en": "I've been living here for two years", "speak": "llevo dos años viviendo aquí" },
+        { "nl": "voy mejorando poco a poco", "en": "I'm gradually getting better", "speak": "voy mejorando poco a poco" },
+        { "nl": "sigo trabajando en lo mismo", "en": "I'm still working at the same thing", "speak": "sigo trabajando en lo mismo" },
+        { "nl": "anda buscando piso", "en": "he's been flat-hunting lately", "speak": "anda buscando piso" },
+        { "nl": "llevamos una hora esperando", "en": "we've been waiting for an hour", "speak": "llevamos una hora esperando" },
+        { "nl": "¿cuánto lleváis saliendo?", "en": "how long have you two been dating?", "speak": "¿cuánto lleváis saliendo?" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Correcto vs nativo",
+      "pairs": [
+        { "left": "Vivo aquí desde hace dos años.", "right": "Llevo dos años viviendo aquí.", "note": "Las dos son correctas; la segunda es la que suelta un madrileño sin pensar." },
+        { "left": "Todavía trabajo en la librería.", "right": "Sigo trabajando en la librería.", "note": "*seguir + gerundio* absorbe el 'todavía' y suena más redondo." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Elige la perífrasis: «¿Cuánto tiempo ___ estudiando español?»",
+      "options": ["llevas", "estás", "haces", "tienes"],
+      "correct": 0,
+      "explain": "Duración hasta ahora = **llevar + gerundio**: *¿cuánto tiempo llevas estudiando?*. Con *tienes* o *haces* estaríamos en otro idioma (y no es el de Madrid)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduce con la perífrasis de hoy: «I'm still living in the same neighborhood.» → ___ viviendo en el mismo barrio.",
+      "answers": ["Sigo", "sigo"],
+      "hint": "'Still' + gerundio = una perífrasis concreta.",
+      "explain": "**Sigo viviendo en el mismo barrio.** *seguir + gerundio* = todavía. El 'still' inglés desaparece dentro del verbo."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "voy mejorando poco a poco",
+      "answers": ["voy mejorando poco a poco"]
+    },
+    {
+      "type": "builder",
+      "title": "Tu contador de tiempo",
+      "prompt": "Monta frases de duración con llevar + gerundio.",
+      "slots": [
+        { "label": "Llevar + tiempo", "chips": ["Llevo dos años", "Llevo unos meses", "Llevamos una hora", "Lleváis toda la vida"] },
+        { "label": "Gerundio", "chips": ["viviendo en Madrid", "aprendiendo español", "esperando el autobús", "trabajando en lo mismo"] }
+      ],
+      "sample": "Llevo dos años aprendiendo español."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Lucía does the math on how long you've been around — and likes the result.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Oye, ¿cuánto llevas ya en España? Es que se me pasa el tiempo volando contigo.", "en": "Hey, how long have you been in Spain now? Time just flies with you." },
+        { "speaker": "You", "nl": "Llevo casi dos años viviendo aquí. Dicho así, impresiona.", "en": "I've been living here almost two years. Said like that, it's impressive.", "spotlight": "*llevo dos años viviendo*: llevar carga el tiempo, el gerundio dice qué haces." },
+        { "speaker": "Lucía", "nl": "Dos años, qué fuerte. ¿Y sigues yendo a clase o ya vas por libre?", "en": "Two years, wow. And are you still going to class or are you on your own now?" },
+        { "speaker": "You", "nl": "Voy por libre. Sigo estudiando por mi cuenta y voy mejorando poco a poco.", "en": "On my own. I keep studying by myself and I'm gradually improving.", "spotlight": "*sigo estudiando* (todavía) + *voy mejorando* (poco a poco): dos matices en una frase." },
+        { "speaker": "Lucía", "nl": "¿Poco a poco, dice? Rafa y yo llevamos meses hablándote solo en español, ¿te has dado cuenta?", "en": "Gradually, they say? Rafa and I have been speaking to you only in Spanish for months, have you noticed?" },
+        { "speaker": "You", "nl": "¡Es verdad! Antes me lo traducíais todo. ¿Vosotros lleváis toda la vida siendo tan pacientes?", "en": "True! You used to translate everything for me. Have you two been this patient your whole lives?" },
+        { "speaker": "Lucía", "nl": "Qué va, es que tú vas sonando cada vez más de aquí. Da gusto.", "en": "Not at all, it's that you sound more and more local. It's a pleasure." },
+        { "speaker": "You", "nl": "Pues nada, sigamos así, que la cosa va funcionando.", "en": "Well then, let's keep it up — this thing is coming along." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Has llevado la cuenta?",
+      "questions": [
+        { "q": "¿Cuánto tiempo lleva You viviendo en España?", "options": ["Casi dos años", "Unos meses", "Toda la vida"], "correct": 0 },
+        { "q": "¿Qué llevan haciendo Lucía y Rafa desde hace meses?", "options": ["Hablándole solo en español", "Traduciéndole todo", "Dándole clases formales"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe tu trayectoria en marcha: ¿cuánto llevas haciendo qué, qué sigues haciendo, en qué vas mejorando y qué llevas tiempo sin hacer? Una perífrasis con gerundio por frase, mínimo.",
+      "starters": ["Llevo … años…", "Sigo…", "Voy mejorando en…", "Llevo meses sin…"],
+      "minSentences": 3
+    }
+  ]
+}

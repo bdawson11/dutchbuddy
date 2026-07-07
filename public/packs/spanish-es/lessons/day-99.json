@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "day-99",
+  "day": 99,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Aquí se habla español",
+  "emoji": "🪧",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The faces of se, part I: impersonal se (se cena tarde) and pasiva refleja (se venden pisos) with its agreement rule.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El se que no es nadie",
+      "body": "En español hay un *se* que no señala a nadie: el **se impersonal**. *Se* + verbo en **3.ª persona del singular** = la gente en general: *aquí **se come** de miedo, en España **se cena** tarde, no **se puede** fumar*. Es el 'one / you in general' del inglés, pero muchísimo más frecuente: España piensa en impersonal. Fíjate: no hay sujeto, no hay culpable, no hay nadie — solo la costumbre.",
+      "callout": "se + verbo en singular = todo el mundo y nadie a la vez."
+    },
+    {
+      "type": "card",
+      "title": "Se venden pisos — la pasiva refleja",
+      "body": "Cuando en la frase hay una **cosa**, el verbo **concuerda con ella**: *se vende **un piso*** pero *se venden **dos pisos***. Es la **pasiva refleja**, el idioma oficial de los carteles españoles: escaparates, portales, bares. La trampa clásica del B2 es dejar el verbo en singular con un plural: *~~se vende pisos~~* suena a error inmediatamente. In short: if the noun is plural, the verb goes plural.",
+      "table": {
+        "headers": ["Singular", "Plural"],
+        "rows": [
+          ["Se vende piso", "Se venden pisos"],
+          ["Se alquila habitación", "Se alquilan habitaciones"],
+          ["Se busca camarero", "Se buscan camareros"]
+        ]
+      },
+      "callout": "El verbo concuerda con la cosa: se vende piso, se venden pisos."
+    },
+    {
+      "type": "chips",
+      "title": "Carteles y costumbres — toca y repite",
+      "items": [
+        { "nl": "aquí se habla español", "en": "Spanish is spoken here", "speak": "aquí se habla español" },
+        { "nl": "se venden pisos", "en": "flats for sale", "speak": "se venden pisos" },
+        { "nl": "se busca camarero", "en": "waiter wanted", "speak": "se busca camarero" },
+        { "nl": "no se puede fumar", "en": "no smoking allowed", "speak": "no se puede fumar" },
+        { "nl": "en España se cena tarde", "en": "in Spain people eat dinner late", "speak": "en España se cena tarde" },
+        { "nl": "¿se puede?", "en": "may I come in?", "speak": "¿se puede?" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "¿Singular o plural? ¿Personas o costumbre?",
+      "pairs": [
+        { "left": "Se vende piso.", "right": "Se venden pisos.", "note": "Pasiva refleja: el verbo concuerda con la cosa. Un piso → vende; varios pisos → venden." },
+        { "left": "Los españoles cenan tarde.", "right": "En España se cena tarde.", "note": "Las dos valen, pero el impersonal generaliza sin señalar a nadie — y es como habla España de sus propias costumbres." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Pasiva refleja: «En este portal se ___ dos habitaciones.»",
+      "options": ["alquila", "alquilan", "alquiláis", "alquilamos"],
+      "correct": 1,
+      "explain": "*Dos habitaciones* es plural, así que el verbo va en plural: **se alquilan**. La pasiva refleja concuerda siempre con la cosa."
+    },
+    {
+      "type": "typed",
+      "prompt": "Escribe el cartel: «Bikes for sale» → Se ___ bicicletas.",
+      "answers": ["venden"],
+      "hint": "¿Cuántas bicicletas? Plural → verbo en plural.",
+      "explain": "**Se venden bicicletas.** *Bicicletas* es plural, así que *venden*. El clásico *se vende bicicletas* es EL error que delata a un guiri."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "se venden pisos con terraza",
+      "answers": ["se venden pisos con terraza"]
+    },
+    {
+      "type": "builder",
+      "title": "La ventana de la inmobiliaria",
+      "prompt": "Monta carteles correctos. Ojo a la concordancia: la cosa manda.",
+      "slots": [
+        { "label": "Se + verbo", "chips": ["Se vende", "Se venden", "Se alquila", "Se busca"] },
+        { "label": "Cosa", "chips": ["piso con terraza", "bicicletas de segunda mano", "habitación luminosa", "camarero con experiencia"] }
+      ],
+      "sample": "Se venden bicicletas de segunda mano."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Walking through the barrio with Lucía, reading every sign out loud.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Mira ese cartel: «Se alquila». Y ahí al lado: «Se venden pisos con terraza». Está el barrio entero en el escaparate.", "en": "Look at that sign: 'For rent'. And right there: 'Flats with terrace for sale'. The whole neighborhood is in the shop window." },
+        { "speaker": "You", "nl": "Un momento. ¿Por qué «se venden» y no «se vende»? ¿No era impersonal?", "en": "Hold on. Why 'se venden' and not 'se vende'? Wasn't it impersonal?" },
+        { "speaker": "Lucía", "nl": "Buena pregunta. Cuando hay una cosa, el verbo concuerda con ella: un piso se vende, dos pisos se venden.", "en": "Good question. When there's a thing, the verb agrees with it: one flat 'se vende', two flats 'se venden'.", "spotlight": "Pasiva refleja: el verbo concuerda con la cosa, no queda fijo en singular." },
+        { "speaker": "You", "nl": "Vale. ¿Y lo de «aquí se come de miedo» que pone en ese bar?", "en": "OK. And the 'people eat amazingly here' on that bar?" },
+        { "speaker": "Lucía", "nl": "Eso es el impersonal puro: la gente en general. Aquí se come bien, se cena tarde y se duerme poco.", "en": "That's the pure impersonal: people in general. Here one eats well, dines late and sleeps little.", "spotlight": "*se* impersonal: verbo en singular, sujeto nadie-y-todos." },
+        { "speaker": "You", "nl": "En mi país no se cena a las diez de la noche, te lo aseguro.", "en": "In my country people don't have dinner at ten at night, I assure you." },
+        { "speaker": "Lucía", "nl": "Pues ya sabes cómo va esto: donde se vive, se cena como se cena. Venga, ¿entramos? ¿Se puede, no?", "en": "Well, you know how this works: where you live, you dine how people dine. Come on, shall we go in? We may, right?" },
+        { "speaker": "You", "nl": "Se puede y se debe.", "en": "One may and one must." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Has leído bien los carteles?",
+      "questions": [
+        { "q": "¿Por qué el cartel dice «se venden pisos» y no «se vende pisos»?", "options": ["Porque el verbo concuerda con «pisos», que es plural", "Porque es un error del cartel", "Porque «venden» suena más formal"], "correct": 0 },
+        { "q": "¿Qué expresa «aquí se come bien»?", "options": ["Que una persona concreta come bien", "Que la gente en general come bien ahí", "Que está prohibido comer"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Describe tu barrio o tu ciudad con el *se* de hoy: ¿qué se hace, qué se come, a qué hora se cena, qué se vende y qué no se puede hacer? Mezcla el impersonal (*se vive bien*) y la pasiva refleja (*se venden…*).",
+      "starters": ["En mi barrio se…", "Aquí no se puede…", "Se venden…", "Se cena a las…"],
+      "minSentences": 3
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "day-100",
+  "day": 100,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "La culpa la tiene el se",
+  "emoji": "🤦",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The faces of se, part II: the accidental, de-blaming se — se me olvidó, se me cayó, se nos ha hecho tarde.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "El se de los accidentes",
+      "body": "Hoy, el *se* más español de todos: el de los **accidentes sin culpable**. La fórmula es **se + me/te/le/nos/os/les + verbo**, y el verbo concuerda con la **cosa**, no contigo: *se me olvidó **el libro***, *se me olvidaron **las llaves***. Tú no olvidaste nada: las cosas *se te* olvidaron solas. English can't really do this — 'the keys forgot themselves on me' is exactly the idea. Y ojo, España: si ha pasado **hoy**, va en perfecto: *se me **ha** olvidado, se me **han** caído*.",
+      "table": {
+        "headers": ["Una cosa", "Varias cosas"],
+        "rows": [
+          ["Se me olvidó el libro", "Se me olvidaron las llaves"],
+          ["Se le ha caído el móvil", "Se le han caído las monedas"],
+          ["Se nos ha roto el vaso", "Se nos han roto los platos"]
+        ]
+      },
+      "callout": "se + me/te/le… + verbo que concuerda con la cosa. Culpable: nadie."
+    },
+    {
+      "type": "contrast",
+      "title": "¿Culpa mía o accidente?",
+      "pairs": [
+        { "left": "Olvidé las llaves.", "right": "Se me olvidaron las llaves.", "note": "La primera asume la culpa; la segunda fue un accidente cósmico. España vive en la segunda." },
+        { "left": "He roto el vaso.", "right": "Se me ha roto el vaso.", "note": "Con *se me*, el vaso se rompió solo mientras tú, inocente, lo sostenías. Perfecto porque ha sido hoy." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Accidentes de hoy — toca y repite",
+      "items": [
+        { "nl": "se me ha olvidado", "en": "I forgot (it slipped my mind)", "speak": "se me ha olvidado" },
+        { "nl": "se me han caído las llaves", "en": "I dropped my keys", "speak": "se me han caído las llaves" },
+        { "nl": "se nos ha hecho tarde", "en": "we've run late", "speak": "se nos ha hecho tarde" },
+        { "nl": "se le ha estropeado el móvil", "en": "his/her phone has broken down", "speak": "se le ha estropeado el móvil" },
+        { "nl": "se me han pegado las sábanas", "en": "I overslept", "speak": "se me han pegado las sábanas" },
+        { "nl": "se me ha ido el santo al cielo", "en": "I completely lost track", "speak": "se me ha ido el santo al cielo" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Elige la forma correcta: «¡Ay, las llaves! Se me ___ dentro de casa.»",
+      "options": ["ha quedado", "han quedado", "he quedado", "habéis quedado"],
+      "correct": 1,
+      "explain": "El verbo concuerda con *las llaves* (plural) y, como ha pasado hoy, va en perfecto: **se me han quedado**. Tú solo eres la víctima (*me*)."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduce sin asumir la culpa (ha pasado hoy): «I've dropped the glass.» → Se me ___ el vaso.",
+      "answers": ["ha caído", "ha caido"],
+      "hint": "Una sola cosa (el vaso) + hoy = perfecto en singular.",
+      "explain": "**Se me ha caído el vaso.** El vaso es singular → *ha caído*; ha sido hoy → perfecto. Nadie tiró nada: el vaso se cayó."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "se nos ha hecho tarde",
+      "answers": ["se nos ha hecho tarde"]
+    },
+    {
+      "type": "builder",
+      "title": "La máquina de excusas",
+      "prompt": "Monta excusas perfectas: elige la víctima, el accidente y la cosa. Ojo a la concordancia.",
+      "slots": [
+        { "label": "Se + víctima", "chips": ["Se me", "Se te", "Se le", "Se nos"] },
+        { "label": "Accidente", "chips": ["ha olvidado", "han olvidado", "ha caído", "han caído", "ha roto"] },
+        { "label": "Cosa", "chips": ["el cumpleaños de Rafa", "las llaves", "el vaso bueno", "los billetes"] }
+      ],
+      "sample": "Se me ha olvidado el cumpleaños de Rafa."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You arrive at the bar late and flustered. Rafa is waiting with a raised eyebrow.",
+      "lines": [
+        { "speaker": "You", "nl": "Perdona, perdona. Se me ha hecho tardísimo.", "en": "Sorry, sorry. I've run super late." },
+        { "speaker": "Rafa", "nl": "¿Otra vez? ¿Y hoy qué ha pasado, a ver?", "en": "Again? And what happened today, let's hear it?" },
+        { "speaker": "You", "nl": "Primero se me han pegado las sábanas, y luego se me han caído las llaves por el hueco de la escalera.", "en": "First I overslept, and then I dropped my keys down the stairwell.", "spotlight": "Dos accidentes, cero culpables: *se me han pegado*, *se me han caído*." },
+        { "speaker": "Rafa", "nl": "Qué desastre, tío. ¿Y el móvil? Te he escrito tres veces.", "en": "What a disaster, man. And your phone? I texted you three times." },
+        { "speaker": "You", "nl": "Se me ha quedado sin batería. Te lo juro.", "en": "It ran out of battery on me. I swear." },
+        { "speaker": "Rafa", "nl": "Ya, ya. Qué curioso: nunca es culpa tuya, siempre es culpa del se.", "en": "Sure, sure. Funny thing: it's never your fault, it's always the se's fault.", "spotlight": "Rafa ha pillado la gramática: el *se* de accidente quita la culpa. Para eso está." },
+        { "speaker": "You", "nl": "¡Es que para eso lo inventasteis! El español tiene un pronombre entero para gente como yo.", "en": "That's what you invented it for! Spanish has a whole pronoun for people like me." },
+        { "speaker": "Rafa", "nl": "Hombre, pues úsalo bien: se te ha olvidado pedirme una caña, y de eso sí tienes la culpa, ¿eh?", "en": "Well then, use it properly: you forgot to order me a beer, and that one IS your fault, huh?" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Quién tiene la culpa?",
+      "questions": [
+        { "q": "¿Por qué llega tarde You?", "options": ["Se le han pegado las sábanas y se le han caído las llaves", "Porque no quería venir", "Porque Rafa le dio mal la hora"], "correct": 0 },
+        { "q": "¿Qué quiere decir Rafa con «siempre es culpa del se»?", "options": ["Que el se de accidente sirve para quitarse la culpa", "Que You miente siempre", "Que el se es un error gramatical"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Cuenta un día desastroso (real o inventado) en el que nada, absolutamente nada, fue culpa tuya. Usa al menos tres *se* de accidente (*se me olvidó…, se me ha caído…, se nos hizo tarde…*), con la concordancia bien puesta.",
+      "starters": ["Ese día se me…", "Primero se me olvidó…", "Luego se me cayeron…", "Al final se nos hizo tarde y…"],
+      "minSentences": 3
+    }
+  ]
+}

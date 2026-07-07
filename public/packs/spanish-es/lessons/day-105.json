@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-105",
+  "day": 105,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "capstone",
+  "title": "Mi historia: mi trayectoria profesional",
+  "emoji": "🎉",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Week 15 capstone: se, verbs of change and perífrasis in production — then the Mi historia professional self-presentation layer.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Cierre de la semana 15",
+      "body": "Ya sabes contar el **movimiento**: lo que se hace y se vende (*se*), cómo cambia la gente (*ponerse, volverse, hacerse, quedarse, llegar a ser*) y en qué fase está cada cosa (*llevo años…, sigo…, acabo de…, dejé de…, volví a…*). Eso, junto, tiene un nombre muy adulto: una **trayectoria**. Hoy le añades a tu historia la capa que Marta te enseñó ayer sin querer: tu **presentación profesional** — quién eres cuando alguien te pregunta, en serio, a qué te dedicas y de dónde vienes.",
+      "callout": "Una trayectoria no es un currículum: es tu historia con perífrasis."
+    },
+    {
+      "type": "chips",
+      "title": "Repaso de la semana — toca y repite",
+      "items": [
+        { "nl": "llevo años dedicándome a esto", "en": "I've been doing this for years", "speak": "llevo años dedicándome a esto" },
+        { "nl": "me he ido especializando", "en": "I've gradually specialized", "speak": "me he ido especializando" },
+        { "nl": "me hice un hueco", "en": "I carved out my place", "speak": "me hice un hueco" },
+        { "nl": "me he vuelto más paciente", "en": "I've become more patient", "speak": "me he vuelto más paciente" },
+        { "nl": "sigo aprendiendo cada día", "en": "I'm still learning every day", "speak": "sigo aprendiendo cada día" },
+        { "nl": "se me da bien mi trabajo", "en": "I'm good at my job", "speak": "se me da bien mi trabajo" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Correcto vs con trayectoria",
+      "pairs": [
+        { "left": "Trabajo aquí desde 2022.", "right": "Llevo desde 2022 trabajando aquí.", "note": "Las dos valen; la segunda suena a alguien que sabe presumir de recorrido." },
+        { "left": "Estudié mucho y ahora soy diseñador.", "right": "Me hice diseñador a base de estudiar.", "note": "*hacerse* = el cambio gradual y trabajado: la palabra clave de cualquier carrera." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Elige el verbo de cambio: «Al ver el precio del alquiler, me ___ rojo de vergüenza ajena.»",
+      "options": ["puse", "volví", "hice", "quedé"],
+      "correct": 0,
+      "explain": "Cambio pasajero y físico → **ponerse**: *me puse rojo*. *Volverse* sería un cambio de carácter; *hacerse* pide esfuerzo; y de la vergüenza por los alquileres, por desgracia, uno no se cura."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa tu presentación: «Llevo tres años ___ (dedicarse) a esto.»",
+      "answers": ["dedicándome", "dedicandome"],
+      "hint": "Gerundio con el pronombre pegado detrás.",
+      "explain": "**Llevo tres años dedicándome a esto.** El pronombre se engancha al gerundio (*dedicándome*), con su tilde para conservar el acento."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "me he ido especializando poco a poco",
+      "answers": ["me he ido especializando poco a poco"]
+    },
+    {
+      "type": "builder",
+      "title": "Tu pitch profesional",
+      "prompt": "Monta tu presentación profesional en tres movimientos: duración, dedicación y evolución.",
+      "slots": [
+        { "label": "Duración", "chips": ["Llevo cinco años", "Llevo casi una década", "Llevo un par de años"] },
+        { "label": "Dedicación", "chips": ["trabajando en diseño", "dedicándome a la enseñanza", "currando en hostelería", "trabajando por mi cuenta"] },
+        { "label": "Evolución", "chips": ["y me he ido especializando", "y sigo aprendiendo cada día", "y he llegado a llevar mi propio equipo"] }
+      ],
+      "sample": "Llevo cinco años trabajando en diseño y me he ido especializando."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Terraza with Lucía, who has decided you need to rehearse your professional pitch — Marta's orders, apparently.",
+      "lines": [
+        { "speaker": "Lucía", "nl": "Oye, que me ha contado Marta que estuvisteis hablando de trabajo. Venga, ensaya conmigo: véndete.", "en": "Hey, Marta told me you two were talking about work. Come on, rehearse with me: sell yourself." },
+        { "speaker": "You", "nl": "Uf, qué corte. Vale, allá voy: llevo varios años dedicándome a lo mío, y me he ido especializando poco a poco.", "en": "Ugh, how embarrassing. OK, here goes: I've been doing my thing for several years, and I've gradually specialized.", "spotlight": "*llevo años dedicándome* + *me he ido especializando*: el esqueleto de todo pitch." },
+        { "speaker": "Lucía", "nl": "Bien, muy bien. ¿Y qué más? Di algo de cómo has cambiado, que eso gusta.", "en": "Good, very good. And what else? Say something about how you've changed — people like that." },
+        { "speaker": "You", "nl": "Con el tiempo me he vuelto más resolutivo, y aquí me he hecho un hueco empezando de cero.", "en": "Over time I've become more decisive, and here I've carved out a place for myself starting from zero.", "spotlight": "*me he vuelto* (carácter) + *me he hecho un hueco* (logro trabajado): dos cambios, dos verbos." },
+        { "speaker": "Lucía", "nl": "«Empezando de cero», eso vende muchísimo. ¿Y ahora qué?", "en": "'Starting from zero' — that sells a lot. And now what?" },
+        { "speaker": "You", "nl": "Ahora sigo creciendo, y estoy a punto de dar el siguiente paso. O eso espero.", "en": "Now I keep growing, and I'm about to take the next step. Or so I hope." },
+        { "speaker": "Lucía", "nl": "Pues suena de maravilla. Te lo digo en serio: con lo que llevas currado, cualquier día de estos te llega una oferta de las buenas.", "en": "Well, it sounds wonderful. I mean it: with all the work you've put in, any day now a really good offer is going to land on you." },
+        { "speaker": "You", "nl": "Calla, calla, que me pongo nervioso solo de pensarlo.", "en": "Stop, stop — I get nervous just thinking about it." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Cómo ha ido el ensayo?",
+      "questions": [
+        { "q": "¿Qué le pide Lucía a You?", "options": ["Que ensaye su presentación profesional", "Que le escriba un correo a Marta", "Que deje su trabajo"], "correct": 0 },
+        { "q": "¿Qué le augura Lucía a You?", "options": ["Que cualquier día le llega una buena oferta", "Que nunca encontrará trabajo", "Que debería volver a su país"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Mi historia — capa 15",
+      "prompt": "Añade a tu presentación la capa profesional: trayectoria, cambio y momento actual.",
+      "slots": [
+        { "label": "Trayectoria", "chips": ["Llevo unos años construyéndome una vida aquí,", "Llevo tiempo dedicándome a lo que me gusta,", "Empecé desde abajo y"] },
+        { "label": "Cambio", "chips": ["me he ido haciendo un hueco,", "me he vuelto más valiente,", "me hice profesional a base de insistir,"] },
+        { "label": "Ahora", "chips": ["y sigo creciendo", "y estoy a punto de dar el siguiente paso", "y acabo de empezar lo mejor"] }
+      ],
+      "sample": "Llevo unos años construyéndome una vida aquí, me he ido haciendo un hueco, y sigo creciendo."
+    },
+    {
+      "type": "journal",
+      "prompt": "¡Mi historia, semana 15! Retoma tu presentación completa (quién eres, tu historia, tu opinión con matices de la semana 13, tu hipótesis o arrepentimiento de la 14) y añade la capa nueva: tu **presentación profesional**. Cuenta tu trayectoria con *llevar + gerundio*, al menos un verbo de cambio (*me hice…, me he vuelto…*) y una perífrasis más (*sigo…, acabo de…, dejé de…, estoy a punto de…*).",
+      "starters": ["Me llamo…", "Llevo … años dedicándome a…", "Con el tiempo me he vuelto…", "Me he ido especializando en…", "Ahora sigo… y estoy a punto de…"],
+      "minSentences": 5
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "day-104",
+  "day": 104,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "review",
+  "title": "La trayectoria de Marta",
+  "emoji": "💼",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Week 15 review: Marta narrates her career trajectory with llevar + gerundio, verbos de cambio and perífrasis — the professional set-up.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Repaso de la semana 15",
+      "body": "Esta semana has aprendido a contar **cómo cambian las cosas**: las caras de *se* (*se venden pisos, se me olvidó*), los **verbos de cambio** (*ponerse, volverse, hacerse, quedarse, llegar a ser*) y las **perífrasis** (*llevo años trabajando, sigo aprendiendo, acabo de, dejé de, volví a*). Hoy lo oyes todo junto: **Marta** te cuenta su trayectoria profesional, de becaria a jefa. Recuerda que Marta es **sevillana**: en Sevilla muchas eses finales se aspiran (*los dos* suena *«loh doh»*) y alguna *-d-* entre vocales se cae (*cansada → «cansá»*). Aquí lo escribimos todo en castellano estándar: **reconoce el acento, no lo imites**.",
+      "callout": "Una trayectoria bien contada = llevar + gerundio, un par de cambios y sus perífrasis."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Calentamiento: «Llevo diez años ___ en recursos humanos.»",
+      "options": ["trabajando", "trabajar", "trabajado", "que trabajo"],
+      "correct": 0,
+      "explain": "*Llevar + tiempo* pide **gerundio**: *llevo diez años trabajando*. Es la frase con la que empieza media España sus entrevistas."
+    },
+    {
+      "type": "dialogue",
+      "scene": "After-work coffee with Marta. You asked her how she got to where she is; she turns it into a masterclass.",
+      "lines": [
+        { "speaker": "Marta", "nl": "¿Así que quieres saber cómo he llegado hasta aquí? Cuéntame tú primero: ¿qué llevas haciendo todos estos años?", "en": "So you want to know how I got here? You tell me first: what have you been doing all these years?" },
+        { "speaker": "You", "nl": "Llevo unos años trabajando en lo mío, pero quiero crecer. Por eso te pregunto a ti.", "en": "I've been working in my field for a few years, but I want to grow. That's why I'm asking you.", "spotlight": "*llevo unos años trabajando*: la perífrasis de trayectoria, en acción." },
+        { "speaker": "Marta", "nl": "Pues mira, yo empecé desde abajo: de becaria, en una empresa pequeñita de Sevilla.", "en": "Well look, I started from the bottom: as an intern, at a tiny company in Seville." },
+        { "speaker": "You", "nl": "¿Y cómo pasaste de becaria a responsable de selección?", "en": "And how did you go from intern to head of recruitment?" },
+        { "speaker": "Marta", "nl": "Poco a poco. Me fui haciendo un hueco, me puse a estudiar por las noches y dejé de pensar que aquello no era para mí.", "en": "Little by little. I gradually carved out my place, I got down to studying at night and I stopped thinking it wasn't for me.", "spotlight": "*me fui haciendo* (ir + gerundio), *me puse a* (arranque), *dejé de* (abandono): tres perífrasis en una vida." },
+        { "speaker": "You", "nl": "¿Y nunca estuviste a punto de tirar la toalla?", "en": "And you were never on the verge of throwing in the towel?" },
+        { "speaker": "Marta", "nl": "Mil veces. Pero seguí insistiendo, y con los años me volví mucho más segura. Al final llegué a ser la que decide las contrataciones, fíjate tú.", "en": "A thousand times. But I kept at it, and over the years I became much more confident. In the end I got to be the one who decides the hires, imagine that.", "spotlight": "*me volví más segura* (cambio profundo) y *llegué a ser* (culminación): la cima de la trayectoria." },
+        { "speaker": "You", "nl": "Menuda trayectoria. Yo a veces pienso que se me ha hecho tarde para cambiar de rumbo.", "en": "What a trajectory. I sometimes think it's gotten too late for me to change course." },
+        { "speaker": "Marta", "nl": "¡Qué va, illo! Tarde no se le hace a nadie que sigue aprendiendo. Y te digo una cosa: aquí se valora a la gente que se mueve. Si algún día te llega una oferta seria, no te pongas nervioso… y llámame.", "en": "No way! It never gets too late for anyone who keeps learning. And I'll tell you something: here, people who make moves are valued. If a serious offer ever comes your way, don't get nervous… and call me.", "spotlight": "*se valora a la gente* (impersonal), *no te pongas nervioso* (ponerse). Y guárdate esa oferta en la cabeza…" },
+        { "speaker": "You", "nl": "Te tomo la palabra, Marta.", "en": "I'll hold you to that, Marta." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Has seguido la trayectoria?",
+      "questions": [
+        { "q": "¿Cómo empezó Marta su carrera?", "options": ["De becaria en una empresa pequeña de Sevilla", "Como responsable de selección", "Estudiando arquitectura en Madrid"], "correct": 0 },
+        { "q": "¿Qué hizo Marta para crecer profesionalmente?", "options": ["Se puso a estudiar por las noches y siguió insistiendo", "Cambió de país tres veces", "Dejó de trabajar durante años"], "correct": 0 },
+        { "q": "¿Qué le dice Marta a You para el futuro?", "options": ["Que la llame si le llega una oferta seria", "Que es demasiado tarde para cambiar de rumbo", "Que deje de aprender cosas nuevas"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa la trayectoria de Marta: «Poco a poco me ___ haciendo un hueco.» (ir, en indefinido)",
+      "answers": ["fui"],
+      "hint": "ir + gerundio, primera persona del indefinido.",
+      "explain": "**Me fui haciendo un hueco.** *ir + gerundio* en indefinido: el progreso gradual contado desde el final del camino."
+    },
+    {
+      "type": "shadow",
+      "title": "El pitch de Marta — escucha y repite",
+      "lines": [
+        { "nl": "Llevo quince años trabajando en esto.", "en": "I've been working in this for fifteen years." },
+        { "nl": "Empecé desde abajo, de becaria.", "en": "I started from the bottom, as an intern." },
+        { "nl": "Me fui haciendo un hueco poco a poco.", "en": "I gradually carved out my place." },
+        { "nl": "Llegué a ser responsable de selección.", "en": "I got to be head of recruitment." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Ahora tú: cuenta tu propia trayectoria (real o soñada) como si estuvieras en ese café con Marta. Usa como mínimo *llevar + gerundio*, un verbo de cambio y otra perífrasis de la semana (*dejé de…, me puse a…, sigo…*).",
+      "starters": ["Llevo … años…", "Empecé desde abajo…", "Me fui haciendo…", "Con el tiempo me he vuelto…", "Sigo…"],
+      "minSentences": 4
+    }
+  ]
+}

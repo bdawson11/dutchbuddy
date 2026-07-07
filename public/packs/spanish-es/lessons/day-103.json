@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "day-103",
+  "day": 103,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Acabo de llegar",
+  "emoji": "🔁",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Perífrasis II: acabar de, dejar de, volver a, ponerse a, estar a punto de and soler — the life-phase toolkit.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Seis perífrasis para las fases de la vida",
+      "body": "Hoy, la caja de herramientas de los **comienzos, finales y costumbres**. **acabar de + infinitivo** = ahora mismito: *acabo de llegar*. **dejar de** = parar o abandonar: *he dejado de fumar*. **volver a** = otra vez: *ha vuelto a llover*. **ponerse a** = empezar de golpe: *se puso a llorar*. **estar a punto de** = casi-casi: *estoy a punto de salir*. **soler + infinitivo** = la costumbre: *suelo madrugar*. Six little verbs that replace a whole English adverb each — just, again, suddenly, almost, usually.",
+      "table": {
+        "headers": ["Perífrasis", "Traducción", "Ejemplo"],
+        "rows": [
+          ["acabar de + inf.", "just did", "acabo de llegar"],
+          ["dejar de + inf.", "stop / quit", "he dejado de fumar"],
+          ["volver a + inf.", "do again", "ha vuelto a llover"],
+          ["ponerse a + inf.", "start suddenly", "se puso a llorar"],
+          ["estar a punto de + inf.", "be about to", "estoy a punto de salir"],
+          ["soler + inf.", "usually do", "suelo madrugar"]
+        ]
+      },
+      "callout": "just = acabo de; again = vuelvo a; usually = suelo. Adverbios que en español son verbos."
+    },
+    {
+      "type": "chips",
+      "title": "Fases y costumbres — toca y repite",
+      "items": [
+        { "nl": "acabo de llegar", "en": "I've just arrived", "speak": "acabo de llegar" },
+        { "nl": "ha dejado de llover", "en": "it's stopped raining", "speak": "ha dejado de llover" },
+        { "nl": "no vuelvas a hacerlo", "en": "don't do it again", "speak": "no vuelvas a hacerlo" },
+        { "nl": "se puso a llover de repente", "en": "it suddenly started to rain", "speak": "se puso a llover de repente" },
+        { "nl": "estoy a punto de salir", "en": "I'm about to leave", "speak": "estoy a punto de salir" },
+        { "nl": "suelo madrugar entre semana", "en": "I usually get up early on weekdays", "speak": "suelo madrugar entre semana" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Matices que se ganan con perífrasis",
+      "pairs": [
+        { "left": "Llueve otra vez.", "right": "Ha vuelto a llover.", "note": "*volver a + infinitivo* engulle el 'otra vez' y suena más nativo." },
+        { "left": "Empecé a estudiar a las ocho.", "right": "Me puse a estudiar de repente.", "note": "*empezar a* es neutro; *ponerse a* añade arranque súbito, casi impulsivo." },
+        { "left": "Normalmente ceno tarde.", "right": "Suelo cenar tarde.", "note": "*soler* es la costumbre hecha verbo, y en España se usa muchísimo." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Elige la perífrasis: «___ de llegar ahora mismo; dame un minuto y te cuento.»",
+      "options": ["Acabo", "Dejo", "Vuelvo", "Suelo"],
+      "correct": 0,
+      "explain": "'I've just arrived' = **acabo de llegar**. *Acabar de + infinitivo* en presente es el pasado inmediato: más reciente que el perfecto."
+    },
+    {
+      "type": "typed",
+      "prompt": "Traduce con perífrasis (ha pasado hoy): «It's started raining again.» → ___ a llover.",
+      "answers": ["Ha vuelto", "ha vuelto"],
+      "hint": "again = volver a; hoy = perfecto.",
+      "explain": "**Ha vuelto a llover.** *volver a + infinitivo* = otra vez, y como es de hoy, en perfecto. Nada de *otra vez* suelto: el verbo ya lo dice."
+    },
+    {
+      "type": "typed",
+      "prompt": "Cambio de registro exprés: pasa la pregunta a *usted*: «¿Sueles venir por aquí?» → «¿___ venir por aquí?»",
+      "answers": ["Suele", "suele", "Usted suele"],
+      "hint": "Tercera persona del singular, como siempre con usted.",
+      "explain": "**¿Suele venir por aquí?** Con *usted*, *soler* pasa a tercera persona. La perífrasis no cambia; el registro, sí."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "acabo de llegar a casa",
+      "answers": ["acabo de llegar a casa"]
+    },
+    {
+      "type": "builder",
+      "title": "Propósitos y recaídas",
+      "prompt": "Monta tu momento vital con una perífrasis y una acción.",
+      "slots": [
+        { "label": "Perífrasis", "chips": ["He dejado de", "He vuelto a", "Me he puesto a", "Estoy a punto de", "Acabo de"] },
+        { "label": "Acción", "chips": ["comer tanto azúcar", "hacer deporte", "estudiar en serio", "conseguirlo", "empezar de cero"] }
+      ],
+      "sample": "He dejado de comer tanto azúcar."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Rafa has news: a vice dropped, a band picked back up.",
+      "lines": [
+        { "speaker": "Rafa", "nl": "Te cuento una cosa: he dejado de fumar. Tres semanas ya.", "en": "Let me tell you something: I've quit smoking. Three weeks now.", "spotlight": "*dejar de + infinitivo*: abandonar un hábito." },
+        { "speaker": "You", "nl": "¡Enhorabuena, tío! ¿Y eso? ¿Así, de un día para otro?", "en": "Congratulations, man! How come? Just like that, overnight?" },
+        { "speaker": "Rafa", "nl": "Bueno, estaba a punto de cumplir los treinta y me puse a pensar en serio…", "en": "Well, I was about to turn thirty and I suddenly started thinking seriously…", "spotlight": "*estar a punto de* (casi) y *ponerse a* (arranque súbito), juntas." },
+        { "speaker": "You", "nl": "¿Y no has vuelto a caer ni una sola vez?", "en": "And you haven't relapsed even once?" },
+        { "speaker": "Rafa", "nl": "Una. En un concierto, para qué te voy a mentir. Pero dicen que acabo de pasar lo peor.", "en": "Once. At a concert, why would I lie to you. But they say I've just gotten past the worst part." },
+        { "speaker": "You", "nl": "¿Y qué haces ahora cuando te entran las ganas?", "en": "And what do you do now when the craving hits?" },
+        { "speaker": "Rafa", "nl": "Me pongo a tocar la guitarra. De hecho, he vuelto a ensayar con el grupo, ¿sabes?", "en": "I start playing the guitar. In fact, I've gone back to rehearsing with the band, you know?" },
+        { "speaker": "You", "nl": "O sea, que dejas un vicio y vuelves a otro. Muy bien jugado, oye.", "en": "So you quit one vice and go back to another. Well played, I must say." },
+        { "speaker": "Rafa", "nl": "Hombre, es que yo suelo elegir bien mis vicios.", "en": "Well, I usually choose my vices wisely.", "spotlight": "*soler + infinitivo*: la costumbre hecha verbo, con sorna rafiana." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Te has enterado de las novedades?",
+      "questions": [
+        { "q": "¿Qué acaba de conseguir Rafa?", "options": ["Dejar de fumar (lleva tres semanas)", "Comprarse una guitarra nueva", "Cumplir cuarenta años"], "correct": 0 },
+        { "q": "¿Qué hace Rafa cuando le entran ganas de fumar?", "options": ["Se pone a tocar la guitarra", "Vuelve a fumar sin más", "Se va del concierto"], "correct": 0 },
+        { "q": "¿Qué ha vuelto a hacer Rafa?", "options": ["Ensayar con su grupo", "Trabajar en la librería", "Estudiar Derecho"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Escribe sobre tus fases y costumbres: algo que acabas de hacer, algo que has dejado de hacer, algo que has vuelto a hacer y algo que sueles hacer. Una perífrasis distinta por frase.",
+      "starters": ["Acabo de…", "He dejado de…", "Hace poco he vuelto a…", "Suelo…", "Estoy a punto de…"],
+      "minSentences": 4
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-101",
+  "day": 101,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "El arte de cambiar",
+  "emoji": "🦋",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Verbs of change: ponerse, volverse, hacerse, quedarse and llegar a ser — five ways Spanish says 'to become'.",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Cinco maneras de convertirse en otro",
+      "body": "El inglés tiene un 'to become' para todo; el español reparte el cambio en **cinco verbos**, según cómo cambias. **ponerse** = cambio **pasajero**, de estado o de cara (*ponerse nervioso, rojo, triste*). **volverse** = cambio **profundo y duradero**, a menudo de carácter (*volverse desconfiado, loco*). **hacerse** = cambio **gradual, con esfuerzo o decisión** — profesión, ideología, edad (*hacerse médico, mayor, del Atleti*). **quedarse** = el **resultado** que te deja algo, muchas veces una pérdida (*quedarse en paro, de piedra, ciego*). **llegar a ser** = la **culminación** de un camino largo (*llegó a ser directora*).",
+      "table": {
+        "headers": ["Verbo", "Tipo de cambio", "Ejemplo"],
+        "rows": [
+          ["ponerse", "pasajero, de estado", "se puso nervioso"],
+          ["volverse", "profundo, de carácter", "se volvió desconfiada"],
+          ["hacerse", "gradual, con esfuerzo", "se hizo arquitecta"],
+          ["quedarse", "resultado (a menudo pérdida)", "se quedó en paro"],
+          ["llegar a ser", "culminación de un camino", "llegó a ser directora"]
+        ]
+      },
+      "callout": "Pregúntate: ¿pasajero, profundo, trabajado, resultado o culminación?"
+    },
+    {
+      "type": "contrast",
+      "title": "El mismo cambio, distinto verbo",
+      "pairs": [
+        { "left": "Se puso rojo.", "right": "Se volvió desconfiado.", "note": "*ponerse*: se pasa en cinco minutos. *volverse*: se queda para siempre." },
+        { "left": "Se hizo abogada.", "right": "Llegó a ser jueza.", "note": "*hacerse*: el cambio trabajado. *llegar a ser*: la cima después de un camino largo." }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Cambios de la vida — toca y repite",
+      "items": [
+        { "nl": "me puse nervioso", "en": "I got nervous", "speak": "me puse nervioso" },
+        { "nl": "se ha vuelto muy desconfiado", "en": "he's become very distrustful", "speak": "se ha vuelto muy desconfiado" },
+        { "nl": "se hizo médica", "en": "she became a doctor", "speak": "se hizo médica" },
+        { "nl": "me quedé de piedra", "en": "I was stunned", "speak": "me quedé de piedra" },
+        { "nl": "llegó a ser directora", "en": "she rose to be director", "speak": "llegó a ser directora" },
+        { "nl": "nos hemos hecho mayores", "en": "we've grown up / grown old", "speak": "nos hemos hecho mayores" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Elige el verbo de cambio: «Después del robo, se ___ muy desconfiada.»",
+      "options": ["volvió", "puso", "hizo", "llegó"],
+      "correct": 0,
+      "explain": "Un robo cambia el carácter de forma profunda y duradera: **se volvió desconfiada**. *Ponerse* sería un nerviosismo de un rato; *hacerse* pide esfuerzo o decisión."
+    },
+    {
+      "type": "typed",
+      "prompt": "Completa con el verbo de cambio adecuado en indefinido: «Mi abuela empezó de cero y ___ rica con los años.» (hacerse)",
+      "answers": ["se hizo"],
+      "hint": "Cambio gradual, a base de trabajo → hacerse.",
+      "explain": "**Se hizo rica.** Riqueza ganada poco a poco y con esfuerzo = *hacerse*. Si le hubiera tocado la lotería de golpe, ahí encajaría otro mundo de verbos."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe.",
+      "speak": "me quedé de piedra",
+      "answers": ["me quedé de piedra", "me quede de piedra"]
+    },
+    {
+      "type": "builder",
+      "title": "El drill de registro: calma los nervios en tres registros",
+      "prompt": "El drill de la semana: la misma frase — «que no te pongas nervioso» — dicha a un amigo (tú), a un cliente (usted) y a tu grupo (vosotros). Monta las tres.",
+      "slots": [
+        { "label": "A un amigo (tú)", "chips": ["No te pongas nervioso.", "Tranquilo, no te pongas así."] },
+        { "label": "A un cliente (usted)", "chips": ["No se ponga nervioso.", "Tranquilo, no se preocupe."] },
+        { "label": "Al grupo (vosotros)", "chips": ["No os pongáis nerviosos.", "Venga, no os pongáis así."] }
+      ],
+      "sample": "No te pongas nervioso. — No se ponga nervioso. — No os pongáis nerviosos."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Coffee with Nacho, who is in a philosophical mood about how people change.",
+      "lines": [
+        { "speaker": "Nacho", "nl": "¿Sabes qué? Mi hijo se ha hecho mayor de golpe. Ayer me corrigió un plano.", "en": "You know what? My son has grown up all of a sudden. Yesterday he corrected one of my blueprints." },
+        { "speaker": "You", "nl": "¡No me digas! ¿Y tú cómo te quedaste?", "en": "No way! And how did that leave you?" },
+        { "speaker": "Nacho", "nl": "Me quedé de piedra, hombre. Y a los dos segundos me puse orgullosísimo.", "en": "I was stunned, man. And two seconds later I got incredibly proud.", "spotlight": "*quedarse de piedra* (resultado) y *ponerse orgulloso* (estado pasajero) en la misma frase." },
+        { "speaker": "You", "nl": "Es ley de vida. ¿Y tú? ¿Has cambiado mucho desde que dejaste el pueblo?", "en": "That's the way of life. And you? Have you changed much since you left the village?" },
+        { "speaker": "Nacho", "nl": "Madrid te vuelve impaciente, eso seguro. Pero en el fondo sigo siendo de pueblo, y a mucha honra.", "en": "Madrid makes you impatient, that's for sure. But deep down I'm still a village man, and proud of it.", "spotlight": "*volverse impaciente*: cambio de carácter, profundo. Madrid como sujeto, muy Nacho." },
+        { "speaker": "You", "nl": "¿Y cómo llegaste a ser arquitecto? No me lo has contado nunca.", "en": "And how did you get to be an architect? You've never told me." },
+        { "speaker": "Nacho", "nl": "Me hice arquitecto a base de años y de café. Nadie se hace nada sin esfuerzo.", "en": "I became an architect through years and coffee. Nobody becomes anything without effort." },
+        { "speaker": "You", "nl": "Pues yo, desde que vivo aquí, me he vuelto más atrevido. O eso me digo.", "en": "Well, since I've lived here I've become bolder. Or so I tell myself." },
+        { "speaker": "Nacho", "nl": "Te has vuelto más español, que no es exactamente lo mismo, pero se le parece mucho.", "en": "You've become more Spanish, which isn't exactly the same thing, but it's pretty close." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "¿Quién ha cambiado y cómo?",
+      "questions": [
+        { "q": "¿Cómo reaccionó Nacho cuando su hijo le corrigió el plano?", "options": ["Se quedó de piedra y luego se puso orgulloso", "Se volvió loco de rabia", "No le dio importancia"], "correct": 0 },
+        { "q": "Según Nacho, ¿qué te hace Madrid?", "options": ["Te vuelve impaciente", "Te hace rico", "Te deja más tranquilo"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "¿Cómo has cambiado tú desde que aprendes español o desde que vives donde vives? Escribe tu pequeño retrato del cambio usando al menos tres verbos de cambio distintos (*me he vuelto…, me hice…, me quedé…, me pongo…*).",
+      "starters": ["Con el tiempo me he vuelto…", "Al principio me ponía…", "Un día me quedé…", "Poco a poco me estoy haciendo…"],
+      "minSentences": 3
+    }
+  ]
+}
