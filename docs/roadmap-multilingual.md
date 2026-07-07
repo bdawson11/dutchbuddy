@@ -138,4 +138,5 @@ the spanishbuddy.app collision is moot; Spanish is a course inside YapWorld.
 - The `dist/` build still ships every pack's lesson JSON (all languages are
   fetched at runtime by design now) and the authoring `.md` docs inside
   `public/packs/*` — exclude the docs before public launch.
-- Weeks 15–18 (days 99–126) content authoring per language.
+- Weeks 15–18 (days 99–126) content authoring per language — phased execution
+  plan in `docs/roadmap-expansion.md` (Phase 1 = Week 15 across all packs).
