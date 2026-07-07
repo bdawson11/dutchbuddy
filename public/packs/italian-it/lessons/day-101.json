@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "day-101",
+  "day": 101,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Sopravvivere alla burocrazia",
+  "emoji": "🏛️",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Bureaucracy survival Italian — permesso di soggiorno, anagrafe, codice fiscale, marca da bollo — and a fateful queue at the sportello",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il kit di sopravvivenza",
+      "body": "La burocrazia italiana è un genere letterario a sé. (Italian bureaucracy is its own literary genre.) Queste parole **non si traducono, si vivono**: imparale prima che ti servano, perché ti serviranno.",
+      "table": {
+        "headers": ["Parola", "Cos'è"],
+        "rows": [
+          ["il permesso di soggiorno", "residence permit — si richiede in questura"],
+          ["l'anagrafe", "registry office — qui si chiede la residenza"],
+          ["la residenza", "il tuo indirizzo ufficiale, registrato al comune"],
+          ["il codice fiscale", "tax code — serve per tutto, dall'affitto alla SIM"],
+          ["la marca da bollo", "tax stamp — si compra in tabaccheria, si incolla sul modulo"],
+          ["il modulo", "form — spesso «in duplice copia»"],
+          ["la raccomandata", "registered letter — la sorella cartacea della PEC"]
+        ]
+      },
+      "callout": "La marca da bollo si compra **dal tabaccaio**, non in comune. Nessuno te lo dice; ora lo sai."
+    },
+    {
+      "type": "card",
+      "title": "Il rito dello sportello",
+      "body": "Allo *sportello* (the counter window) c'è una liturgia: **si prende il numero**, si aspetta, si porta **ogni documento che esiste** — e uno in più. Con l'impiegato è **sempre Lei**, sempre gentile: la persona dietro il vetro può salvarti la giornata o rimandarti a casa. Frase magica: *«Mi scusi, avrei bisogno di un'informazione»* — quel condizionale (*avrei*) è mezza vittoria.",
+      "callout": "Regola d'oro: fotocopia tutto, arriva presto, e non discutere mai col numero in mano di un altro."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta e ripeti: allo sportello",
+      "items": [
+        { "nl": "Buongiorno, avrei bisogno di un'informazione.", "en": "Good morning, I'd need some information.", "speak": "Buongiorno, avrei bisogno di un'informazione." },
+        { "nl": "Che documenti servono per la residenza?", "en": "Which documents are needed for residency?", "speak": "Che documenti servono per la residenza?" },
+        { "nl": "Devo compilare questo modulo?", "en": "Do I have to fill in this form?", "speak": "Devo compilare questo modulo?" },
+        { "nl": "Serve una marca da bollo?", "en": "Is a tax stamp needed?", "speak": "Serve una marca da bollo?" },
+        { "nl": "A che sportello devo andare?", "en": "Which counter do I need to go to?", "speak": "A che sportello devo andare?" },
+        { "nl": "Quanto tempo ci vuole?", "en": "How long does it take?", "speak": "Quanto tempo ci vuole?" }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Il modulo dice: «allegare una marca da bollo». Dove la compri?",
+      "options": ["Allo sportello del comune", "In tabaccheria", "Alla posta, con la raccomandata"],
+      "correct": 1,
+      "explain": "La **marca da bollo** si compra **in tabaccheria** e si incolla sul modulo. Il tabaccaio è un ufficio pubblico non ufficiale d'Italia."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ti chiedono il codice fiscale per una SIM. Perché?",
+      "options": ["Perché il codice fiscale serve praticamente per tutto", "Perché è un documento solo per stranieri", "Perché sostituisce il passaporto"],
+      "correct": 0,
+      "explain": "Il **codice fiscale** è la chiave d'ingresso alla vita italiana: affitto, medico, banca, SIM. Non sostituisce i documenti d'identità — li accompagna, sempre."
+    },
+    {
+      "type": "typed",
+      "prompt": "Chiedi in modo formale quali documenti servono per la residenza (comincia con «Mi scusi»).",
+      "answers": [
+        "Mi scusi, che documenti servono per la residenza?",
+        "mi scusi, quali documenti servono per la residenza",
+        "mi scusi che documenti servono per la residenza",
+        "mi scusi, che documenti servono per la residenza",
+        "mi scusi quali documenti servono per la residenza"
+      ],
+      "hint": "Mi scusi + che/quali documenti servono per…",
+      "explain": "*Mi scusi, che documenti servono per la residenza?* Imperativo formale + domanda diretta ma gentile: il tono giusto per lo sportello."
+    },
+    {
+      "type": "dictation",
+      "speak": "Deve compilare il modulo e portare una marca da bollo.",
+      "prompt": "Scrivi quello che senti — la frase più italiana che esista.",
+      "answers": ["Deve compilare il modulo e portare una marca da bollo.", "deve compilare il modulo e portare una marca da bollo"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "The waiting room of the Bologna anagrafe. You clutch number A47. The brisk, well-dressed woman next to you glances at your stack of photocopies.",
+      "lines": [
+        { "speaker": "You", "nl": "Mi scusi, sa se questo è lo sportello giusto per la residenza?", "en": "Excuse me, do you know if this is the right counter for residency?", "spotlight": "con gli sconosciuti: sempre Lei, sempre «mi scusi»." },
+        { "speaker": "Elena", "nl": "Sì, sportello tre. Ma con calma: qui si aspetta, è un rito.", "en": "Yes, counter three. But take it easy: here one waits, it's a ritual." },
+        { "speaker": "You", "nl": "Grazie. È la mia prima volta all'anagrafe, sono un po' perso.", "en": "Thanks. It's my first time at the registry office, I'm a bit lost." },
+        { "speaker": "Elena", "nl": "Si vede che è straniero: ha ancora fiducia nei moduli.", "en": "You can tell you're foreign: you still have faith in forms.", "spotlight": "ironia bolognese in registro formale — si può essere spiritosi anche al Lei." },
+        { "speaker": "You", "nl": "Ho tutto in duplice copia: modulo, passaporto, marca da bollo… spero.", "en": "I have everything in duplicate: form, passport, tax stamp… I hope." },
+        { "speaker": "Elena", "nl": "Perfetto. Anch'io sono qui per documenti, per il mio studio. Sono Elena Moretti, piacere.", "en": "Perfect. I'm here for paperwork too, for my studio. I'm Elena Moretti, pleased to meet you." },
+        { "speaker": "You", "nl": "Piacere! Aspetti… lo studio di comunicazione in centro? Le ho appena mandato una PEC con la mia candidatura!", "en": "Pleased to meet you! Wait… the comms studio in the centro? I just sent you a PEC with my application!", "spotlight": "«Aspetti» — anche la sorpresa resta al Lei: imperativo formale." },
+        { "speaker": "Elena", "nl": "Ma davvero? Che piccola, Bologna. Allora l'ho già ricevuta: la leggerò con attenzione.", "en": "Really? What a small town, Bologna. Then I've already received it: I'll read it carefully." },
+        { "speaker": "Elena", "nl": "Cerchiamo proprio una persona per la comunicazione. Ci vediamo al colloquio, immagino.", "en": "We're looking for exactly someone for communications. I imagine we'll see each other at the interview." },
+        { "speaker": "You", "nl": "Lo spero davvero. La ringrazio, dottoressa!", "en": "I really hope so. Thank you, dottoressa!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai seguito la scena?",
+      "questions": [
+        { "q": "Chi è Elena?", "options": ["La titolare dello studio a cui hai mandato la candidatura", "Un'impiegata dell'anagrafe", "Un'amica di Sofia da Milano"], "correct": 0 },
+        { "q": "Perché sei all'anagrafe?", "options": ["Per la residenza", "Per il permesso di soggiorno", "Per comprare una marca da bollo"], "correct": 0 },
+        { "q": "Cosa lascia intendere Elena alla fine?", "options": ["Che probabilmente ti chiamerà per un colloquio", "Che il posto è già stato assegnato", "Che lo studio sta per chiudere"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Racconta (o immagina) la tua giornata all'anagrafe: che documenti servivano, cosa si doveva fare, com'è andata. Usa almeno due parole del kit e una frase al Lei.",
+      "starters": ["Sono andato/a allo sportello per…", "Servivano…", "L'impiegato mi ha detto: «Deve…»"],
+      "minSentences": 3
+    }
+  ]
+}

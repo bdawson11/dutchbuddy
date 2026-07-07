@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "day-103",
+  "day": 103,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "La riunione e il si impersonale",
+  "emoji": "📋",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Meeting Italian plus the si impersonale and si passivante — the engine of formal register — as you sit in on a riunione at Elena's studio",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il si: la voce senza volto del formale",
+      "body": "Il **si impersonale** toglie l'attore dalla frase: *qui **si lavora** in squadra* — chi lavora? Tutti, nessuno, la regola. (The impersonal *si* removes the actor — it states how things are done.) Quando c'è un oggetto, diventa **si passivante** e il verbo **si accorda**: *si cerca un grafico* ma *si **cercano** nuove idee*. È il motore degli avvisi (*si prega di…*), dei verbali (*si è deciso che…*) e delle regole della casa.",
+      "table": {
+        "headers": ["Esempio", "Perché"],
+        "rows": [
+          ["Qui si lavora in squadra.", "impersonale: nessun soggetto, verbo al singolare"],
+          ["Si cercano nuove idee.", "passivante: «idee» è plurale → verbo al plurale"],
+          ["Si prega di spegnere il telefono.", "la formula di cortesia degli avvisi"],
+          ["Si è deciso di rimandare.", "nei tempi composti il si prende sempre *essere*"]
+        ]
+      },
+      "callout": "Test rapido: se puoi chiedere «chi?» e la risposta è «boh, la regola», è un si impersonale."
+    },
+    {
+      "type": "card",
+      "title": "Le parole della riunione",
+      "body": "La *riunione* ha il suo dialetto: **l'ordine del giorno** (the agenda), **il verbale** (the minutes), *fissare / rimandare una riunione*, *prendere la parola*, *fare il punto* (to take stock), *passiamo al punto successivo*. Chi guida la riunione usa il *si* per suonare neutro: *si è deciso, si propone, si rimanda* — la decisione sembra della stanza, non di una persona.",
+      "callout": "*Fare il punto* = fermarsi e guardare a che punto si è. La riunione italiana per eccellenza."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta e ripeti: in riunione",
+      "items": [
+        { "nl": "Si comincia alle nove in punto.", "en": "We start at nine sharp.", "speak": "Si comincia alle nove in punto." },
+        { "nl": "Si prega di spegnere il telefono.", "en": "Please switch off your phone.", "speak": "Si prega di spegnere il telefono." },
+        { "nl": "Si è deciso di rimandare il progetto.", "en": "It's been decided to postpone the project.", "speak": "Si è deciso di rimandare il progetto." },
+        { "nl": "Qui si lavora molto in squadra.", "en": "Here we work very much as a team.", "speak": "Qui si lavora molto in squadra." },
+        { "nl": "Passiamo al punto successivo.", "en": "Let's move to the next item.", "speak": "Passiamo al punto successivo." },
+        { "nl": "Chi prende il verbale?", "en": "Who takes the minutes?", "speak": "Chi prende il verbale?" }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Personale vs impersonale",
+      "pairs": [
+        { "left": "Cominciamo alle nove.", "right": "Si comincia alle nove.", "note": "il si toglie l'attore: regola della casa, non ordine personale." },
+        { "left": "Abbiamo deciso di rimandare.", "right": "Si è deciso di rimandare.", "note": "nei tempi composti il si impersonale prende *essere*." },
+        { "left": "Firmiamo due contratti al mese.", "right": "Si firmano due contratti al mese.", "note": "si passivante: «contratti» è plurale, quindi *firmano*." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«In questo studio si ___ molti progetti internazionali.»",
+      "options": ["segue", "seguono", "seguiamo"],
+      "correct": 1,
+      "explain": "Si **passivante**: «molti progetti» è plurale, quindi il verbo va al plurale — *si seguono*. Col singolare sarebbe *si segue un progetto*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Un cartello dice: «Si prega di attendere il proprio turno.» Che registro è?",
+      "options": ["Formale-burocratico: la cortesia impersonale degli avvisi", "Informale: come parlare con gli amici", "Regionale: si usa solo a Bologna"],
+      "correct": 0,
+      "explain": "*Si prega di…* è la formula standard degli avvisi pubblici in tutta Italia: cortese, impersonale, senza un «tu» né un «Lei» — parla la regola, non una persona."
+    },
+    {
+      "type": "typed",
+      "prompt": "Rendi impersonale: «Qui lavoriamo così.»",
+      "answers": ["Qui si lavora così.", "qui si lavora così", "si lavora così", "qui si lavora cosi"],
+      "hint": "lavoriamo → si lavora (terza persona singolare).",
+      "explain": "*Qui si lavora così.* Sparisce il «noi», resta la regola della casa: il tono di ogni ufficio italiano."
+    },
+    {
+      "type": "dictation",
+      "speak": "Si è deciso di rimandare la riunione.",
+      "prompt": "Scrivi quello che senti.",
+      "answers": ["Si è deciso di rimandare la riunione.", "si è deciso di rimandare la riunione", "si e deciso di rimandare la riunione"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Elena has invited you to sit in on the studio's Monday riunione — a taste of how the team works while you wait for her decision.",
+      "lines": [
+        { "speaker": "Elena", "nl": "Benvenuto. Qui il lunedì si comincia con la riunione: si fa il punto sui progetti.", "en": "Welcome. Here on Mondays we start with the meeting: we take stock of the projects.", "spotlight": "«si comincia, si fa il punto» — le regole della casa parlano col si." },
+        { "speaker": "You", "nl": "Grazie dell'invito. Io osservo e prendo appunti.", "en": "Thanks for the invitation. I'll observe and take notes." },
+        { "speaker": "Elena", "nl": "Allora, primo punto: si è deciso di rimandare il progetto del museo alla prossima settimana.", "en": "So, first item: it's been decided to postpone the museum project to next week.", "spotlight": "«si è deciso» — il si nei tempi composti prende essere." },
+        { "speaker": "Elena", "nl": "Secondo punto: si cercano ancora idee per la campagna della libreria.", "en": "Second item: we're still looking for ideas for the bookshop campaign.", "spotlight": "«si cercano idee» — passivante: plurale → verbo plurale." },
+        { "speaker": "You", "nl": "Posso dire una cosa? Forse si potrebbe coinvolgere una libreria vera: un mio amico lavora in una, in centro.", "en": "May I say something? Maybe a real bookshop could be involved: a friend of mine works in one, in the centro." },
+        { "speaker": "Elena", "nl": "Vede? È già in riunione. Buona idea: la segno nel verbale.", "en": "See? You're already in the meeting. Good idea: I'll note it in the minutes." },
+        { "speaker": "You", "nl": "Qui si lavora bene, si sente subito.", "en": "People work well here, you can feel it right away." },
+        { "speaker": "Elena", "nl": "Le piace il nostro modo di lavorare? Perché ci sarebbe spazio per una persona come Lei, qui.", "en": "Do you like the way we work? Because there'd be room for a person like you here.", "spotlight": "un condizionale che pesa: non è un'offerta — ancora." },
+        { "speaker": "You", "nl": "Non mi dica così, che poi ci spero davvero.", "en": "Don't say that, or I'll really start hoping." },
+        { "speaker": "Elena", "nl": "Ci speri pure. Ne riparliamo molto presto.", "en": "Go ahead and hope. We'll talk about it again very soon." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai seguito la riunione?",
+      "questions": [
+        { "q": "Che cosa si è deciso sul progetto del museo?", "options": ["Di rimandarlo alla prossima settimana", "Di cancellarlo", "Di raddoppiare il budget"], "correct": 0 },
+        { "q": "Cosa lascia intendere Elena alla fine?", "options": ["Che ci sarebbe spazio per il learner nello studio", "Che la riunione è andata male", "Che lo studio non assume nessuno"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Descrivi come si lavora nel tuo posto di lavoro ideale: almeno tre frasi col si impersonale o passivante (*si comincia…, si lavora…, si fanno…*).",
+      "starters": ["Nel mio posto ideale si…", "Si lavora…", "Non si fanno mai…"],
+      "minSentences": 3
+    }
+  ]
+}

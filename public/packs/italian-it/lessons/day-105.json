@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "day-105",
+  "day": 105,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "capstone",
+  "title": "Il mio racconto: la presentazione professionale",
+  "emoji": "🎉",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Week 15 capstone: the formal register consolidated, then add a professional self-presentation in Lei to your self-intro",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Uno sguardo indietro: settimana 15",
+      "body": "In una settimana hai messo su l'italiano **professionale**: il *Lei* come sistema, l'email formale e la PEC, lo sportello, il colloquio, il *si* della riunione. Il tuo racconto finora parlava agli amici; oggi impara a **presentarsi in ufficio** — perché la stessa vita, detta al Lei, apre porte diverse. (Same life, formal register: different doors open.)",
+      "callout": "Il tuo racconto cresce: oggi la presentazione professionale, al Lei. (livello 15)"
+    },
+    {
+      "type": "chips",
+      "title": "Frasi per la presentazione professionale",
+      "items": [
+        { "nl": "Mi chiamo… e mi occupo di comunicazione.", "en": "My name is… and I work in communications.", "speak": "Mi chiamo e mi occupo di comunicazione." },
+        { "nl": "Ho esperienza in progetti digitali.", "en": "I have experience in digital projects.", "speak": "Ho esperienza in progetti digitali." },
+        { "nl": "Attualmente vivo a Bologna.", "en": "I currently live in Bologna.", "speak": "Attualmente vivo a Bologna." },
+        { "nl": "Credo che il mio punto di forza sia la costanza.", "en": "I believe my strength is consistency.", "speak": "Credo che il mio punto di forza sia la costanza." },
+        { "nl": "Resto a Sua disposizione.", "en": "I remain at your disposal.", "speak": "Resto a Sua disposizione." },
+        { "nl": "La ringrazio per l'attenzione.", "en": "Thank you for your attention.", "speak": "La ringrazio per l'attenzione." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Entri a un colloquio. Come saluti?",
+      "options": ["Ciao, come va?", "Buongiorno, piacere di conoscerLa.", "Ehi, tutto bene?"],
+      "correct": 1,
+      "explain": "*Buongiorno, piacere di conoscerLa.* — saluto formale + **La** (conoscere prende l'oggetto diretto). Il tu arriverà, ma lo propone l'altra persona."
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Credo che il mio profilo ___ adatto a questo ruolo.»",
+      "options": ["è", "sia", "fosse"],
+      "correct": 1,
+      "explain": "Trigger al presente (*credo che*) → congiuntivo **presente**: *sia*. (*Fosse* servirebbe con un trigger al passato: *credevo che fosse*.)"
+    },
+    {
+      "type": "typed",
+      "prompt": "Trasforma dal tu al Lei: «Ti ringrazio per il tuo tempo.»",
+      "answers": [
+        "La ringrazio per il Suo tempo.",
+        "la ringrazio per il suo tempo",
+        "la ringrazio per il tempo che mi ha dedicato"
+      ],
+      "hint": "ti → La; il tuo → il Suo.",
+      "explain": "*La ringrazio per il Suo tempo.* Pronome e possessivo passano insieme al formale — il sistema, non la parola singola."
+    },
+    {
+      "type": "contrast",
+      "title": "La tua presentazione, due registri",
+      "pairs": [
+        { "left": "Ciao, sono io: faccio comunicazione e sono curioso.", "right": "Buongiorno, mi chiamo…: mi occupo di comunicazione e credo che la curiosità sia la mia dote migliore.", "note": "stessa persona: al Lei la frase si allunga, si completa, e spunta un congiuntivo." },
+        { "left": "Se ti serve una mano, chiamami.", "right": "Resto a Sua disposizione per qualsiasi necessità.", "note": "l'offerta d'aiuto diventa una formula intera — e l'imperativo sparisce." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Una vita, due registri",
+      "prompt": "Costruisci la stessa presentazione due volte: prima per Marco, poi per Elena.",
+      "slots": [
+        { "label": "Versione tu (per Marco)", "chips": ["Faccio comunicazione e me la cavo bene.", "Lavoro col computer, contenuti e roba social.", "Sono uno preciso, dai."] },
+        { "label": "Versione Lei (per Elena)", "chips": ["Mi occupo di comunicazione digitale.", "Ho esperienza in contenuti e social media.", "Credo che il mio punto di forza sia la precisione."] }
+      ],
+      "sample": "Per Marco: faccio comunicazione e me la cavo bene. Per Elena: mi occupo di comunicazione digitale e credo che il mio punto di forza sia la precisione."
+    },
+    {
+      "type": "dictation",
+      "speak": "Mi occupo di comunicazione e resto a Sua disposizione.",
+      "prompt": "Scrivi quello che senti.",
+      "answers": ["Mi occupo di comunicazione e resto a Sua disposizione.", "mi occupo di comunicazione e resto a sua disposizione"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the bar, Marco makes you rehearse your professional self-presentation — then demands the version for him.",
+      "lines": [
+        { "speaker": "Marco", "nl": "Dai, fammi sentire questa presentazione da professionista. Fingi che io sia Elena.", "en": "Come on, let me hear this professional presentation. Pretend I'm Elena.", "spotlight": "«fingi che io sia» — Marco usa il congiuntivo anche per scherzo." },
+        { "speaker": "You", "nl": "Buongiorno. Mi occupo di comunicazione e ho esperienza in progetti digitali.", "en": "Good morning. I work in communications and have experience in digital projects." },
+        { "speaker": "Marco", "nl": "Madonna, sembri il telegiornale. Vai avanti, eh.", "en": "Wow, you sound like the evening news. Keep going, eh." },
+        { "speaker": "You", "nl": "I miei punti di forza sono la precisione e la curiosità. La ringrazio per il Suo tempo.", "en": "My strengths are precision and curiosity. Thank you for your time." },
+        { "speaker": "Marco", "nl": "Perfetto. E adesso dimmelo come lo diresti a me.", "en": "Perfect. And now tell it to me the way you'd say it to me." },
+        { "speaker": "You", "nl": "Faccio un po' di tutto col computer e sono curioso. Offrimi uno spritz.", "en": "I do a bit of everything with computers and I'm curious. Buy me a spritz.", "spotlight": "lo stesso messaggio, registro cambiato in una frase: il riflesso della stagione." },
+        { "speaker": "Marco", "nl": "Ecco! Stessa persona, due lingue. Questo è saper parlare italiano, eh.", "en": "There! Same person, two languages. That's knowing how to speak Italian, eh." },
+        { "speaker": "You", "nl": "Speriamo che a Elena basti la versione seria. Ancora niente risposta.", "en": "Let's hope the serious version is enough for Elena. Still no answer." },
+        { "speaker": "Marco", "nl": "Boh, secondo me ti chiama. E quando ti chiama, il giro lo offri tu.", "en": "Dunno, I think she'll call you. And when she calls, the round's on you." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai capito?",
+      "questions": [
+        { "q": "Cosa dimostra il learner con le due versioni della presentazione?", "options": ["Che sa cambiare registro tenendo lo stesso messaggio", "Che parla solo formale", "Che non sa presentarsi"], "correct": 0 },
+        { "q": "A che punto è la storia con Elena?", "options": ["Il learner aspetta ancora la risposta", "Elena ha già offerto il lavoro", "Elena ha detto di no"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Il mio racconto — livello 15",
+      "prompt": "Aggiungi al tuo racconto la presentazione professionale, al Lei: chi sei, di cosa ti occupi, un punto di forza con un congiuntivo, una chiusura formale.",
+      "slots": [
+        { "label": "Chi è Lei", "chips": ["Mi chiamo… e vivo a Bologna.", "Sono un professionista della comunicazione.", "Vengo dall'estero, ma ormai l'Italia è casa mia."] },
+        { "label": "Di cosa si occupa", "chips": ["Mi occupo di comunicazione digitale.", "Ho esperienza in progetti internazionali.", "Da più di un anno lavoro anche in italiano."] },
+        { "label": "Un punto di forza (con congiuntivo)", "chips": ["Credo che il mio punto di forza sia la costanza.", "Penso che la curiosità sia la mia dote migliore.", "Benché il mio italiano non sia perfetto, miglioro ogni giorno."] },
+        { "label": "Chiusura formale", "chips": ["Resto a Sua disposizione.", "La ringrazio per l'attenzione.", "In attesa di un Suo riscontro, distinti saluti."] }
+      ],
+      "sample": "Mi chiamo Alex, vivo a Bologna e mi occupo di comunicazione digitale. Credo che il mio punto di forza sia la costanza. La ringrazio per l'attenzione."
+    },
+    {
+      "type": "journal",
+      "prompt": "Il mio racconto — livello 15! Riprendi la tua presentazione e aggiungi la versione professionale: chi sei, di che cosa ti occupi, la tua esperienza, un punto di forza con un congiuntivo, una chiusura formale. Tutto al Lei. Quindici settimane di italiano: complimenti, dottore/dottoressa!",
+      "starters": ["Buongiorno, mi chiamo…", "Mi occupo di…", "Credo che il mio punto di forza sia…"],
+      "minSentences": 4
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "day-102",
+  "day": 102,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Il colloquio con Elena",
+  "emoji": "💼",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Job-interview Italian — mi occupo di, ho esperienza in, i miei punti di forza — with the congiuntivo in formal contexts, and Elena interviews you",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Le mosse del colloquio",
+      "body": "Il *colloquio di lavoro* ha le sue mosse fisse, come una partita a scacchi. (A job interview has set moves — learn the openings.) La domanda arriva al Lei; la risposta è una **frase completa**, mai una parola sola.",
+      "table": {
+        "headers": ["Domanda tipica", "La tua mossa"],
+        "rows": [
+          ["Mi parli di Lei.", "Mi occupo di… da … anni."],
+          ["Quali sono i Suoi punti di forza?", "I miei punti di forza sono… e…"],
+          ["Perché vuole lavorare con noi?", "Credo che questo ruolo sia adatto a me perché…"],
+          ["Ha domande per noi?", "Sì: com'è organizzata la settimana di lavoro?"]
+        ]
+      },
+      "callout": "«Ha domande per noi?» — la risposta giusta non è mai «no». Preparane una prima di entrare."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta e ripeti: frasi da colloquio",
+      "items": [
+        { "nl": "Mi occupo di comunicazione digitale.", "en": "I work in digital communications.", "speak": "Mi occupo di comunicazione digitale." },
+        { "nl": "Ho esperienza in progetti internazionali.", "en": "I have experience in international projects.", "speak": "Ho esperienza in progetti internazionali." },
+        { "nl": "I miei punti di forza sono la precisione e la curiosità.", "en": "My strengths are precision and curiosity.", "speak": "I miei punti di forza sono la precisione e la curiosità." },
+        { "nl": "Ho lavorato cinque anni in un'agenzia.", "en": "I worked five years at an agency.", "speak": "Ho lavorato cinque anni in un'agenzia." },
+        { "nl": "Mi piacerebbe crescere in un ambiente come il vostro.", "en": "I'd like to grow in an environment like yours.", "speak": "Mi piacerebbe crescere in un ambiente come il vostro." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Il congiuntivo, in giacca e cravatta",
+      "body": "Nei contesti formali il **congiuntivo** non è un lusso: è il segnale che sai stare nella stanza. (In formal settings the subjunctive signals you belong in the room.) *Credo che questa posizione **sia** perfetta per me* · *Benché il mio italiano non **sia** perfetto, miglioro ogni giorno* · *Spero che ci **siano** margini di crescita*. Un congiuntivo giusto al colloquio vale mezzo curriculum.",
+      "callout": "Concordanza: trigger al presente (*credo che*) → congiuntivo **presente** (*sia*). La scala della settimana 13 vale anche in ufficio."
+    },
+    {
+      "type": "contrast",
+      "title": "Lo stesso te, al bar vs al colloquio",
+      "pairs": [
+        { "left": "Faccio un po' di tutto col computer.", "right": "Mi occupo di comunicazione digitale.", "note": "stessa persona, stessa verità: «mi occupo di» la mette in giacca." },
+        { "left": "Me la cavo, dai.", "right": "Ho esperienza in progetti internazionali.", "note": "al colloquio niente modestia vaga: nomina l'esperienza." },
+        { "left": "Sono uno preciso.", "right": "Credo che il mio punto di forza sia la precisione.", "note": "frase completa + congiuntivo: la versione professionale di te." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«Benché il mio italiano non ___ perfetto, miglioro ogni giorno.»",
+      "options": ["è", "sia", "sarebbe"],
+      "correct": 1,
+      "explain": "*Benché* vuole **sempre** il congiuntivo: *benché non sia perfetto*. Detto a un colloquio, è la frase che smentisce se stessa."
+    },
+    {
+      "type": "typed",
+      "prompt": "Di' che cosa fai: 'I work in communications.' — usa *mi occupo di*.",
+      "answers": ["Mi occupo di comunicazione.", "mi occupo di comunicazione", "io mi occupo di comunicazione", "mi occupo della comunicazione"],
+      "hint": "occuparsi DI qualcosa: mi occupo di…",
+      "explain": "*Mi occupo di comunicazione.* Il verbo del lavoro per eccellenza: riflessivo + *di*."
+    },
+    {
+      "type": "builder",
+      "title": "Costruisci la tua risposta da colloquio",
+      "prompt": "«Mi parli di Lei.» Monta una risposta in tre mosse.",
+      "slots": [
+        { "label": "Chi sei / cosa fai", "chips": ["Mi occupo di comunicazione da cinque anni.", "Sono un professionista dei contenuti digitali.", "Vengo dall'estero e vivo a Bologna da un anno."] },
+        { "label": "L'esperienza", "chips": ["Ho esperienza in progetti internazionali.", "Ho lavorato in un'agenzia e come freelance.", "Ho seguito clienti piccoli e grandi."] },
+        { "label": "Il punto di forza (con congiuntivo)", "chips": ["Credo che il mio punto di forza sia la precisione.", "Penso che la curiosità sia la mia dote migliore.", "Benché il mio italiano non sia perfetto, miglioro ogni giorno."] }
+      ],
+      "sample": "Mi occupo di comunicazione da cinque anni. Ho esperienza in progetti internazionali. Credo che il mio punto di forza sia la precisione."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Elena's small studio in the centro: bookshelves, two desks, a moka gurgling in the corner. Your colloquio di lavoro begins.",
+      "lines": [
+        { "speaker": "Elena", "nl": "Buongiorno, si accomodi. Ha trovato facilmente lo studio?", "en": "Good morning, have a seat. Did you find the studio easily?", "spotlight": "«si accomodi» — l'imperativo formale dell'ospitalità professionale." },
+        { "speaker": "You", "nl": "Buongiorno, sì, grazie. È un piacere essere qui.", "en": "Good morning, yes, thank you. It's a pleasure to be here." },
+        { "speaker": "Elena", "nl": "Allora, mi parli un po' di Lei.", "en": "So, tell me a bit about yourself." },
+        { "speaker": "You", "nl": "Mi occupo di comunicazione da diversi anni: contenuti, social, un po' di grafica.", "en": "I've worked in communications for several years: content, social media, a bit of design.", "spotlight": "«mi occupo di» — la mossa d'apertura di ogni colloquio." },
+        { "speaker": "Elena", "nl": "E perché l'Italia? E perché uno studio piccolo come il nostro?", "en": "And why Italy? And why a small studio like ours?" },
+        { "speaker": "You", "nl": "Credo che in un ambiente piccolo si impari di più. E questa città ormai è casa mia.", "en": "I believe one learns more in a small environment. And this city is home now.", "spotlight": "«credo che si impari» — congiuntivo + si impersonale, in un colpo solo." },
+        { "speaker": "Elena", "nl": "Il Suo italiano è notevole, comunque. Quali sono i Suoi punti di forza?", "en": "Your Italian is remarkable, by the way. What are your strengths?" },
+        { "speaker": "You", "nl": "La precisione e la curiosità. E benché il mio italiano non sia ancora perfetto, miglioro ogni giorno.", "en": "Precision and curiosity. And although my Italian isn't perfect yet, I improve every day.", "spotlight": "«benché… sia» — il congiuntivo in giacca e cravatta." },
+        { "speaker": "Elena", "nl": "Guardi, questa frase col congiuntivo vale già mezzo colloquio.", "en": "Look, that sentence with the subjunctive is already worth half the interview." },
+        { "speaker": "Elena", "nl": "Le faremo sapere presto. Ma Le dico una cosa: mi ha fatto un'ottima impressione.", "en": "We'll let you know soon. But I'll tell you one thing: you've made an excellent impression on me.", "spotlight": "non è un'offerta — ma è molto più di un «arrivederci»." },
+        { "speaker": "You", "nl": "La ringrazio davvero. In attesa di un Suo riscontro… come si dice nelle email!", "en": "Thank you so much. 'Awaiting your reply'… as they say in emails!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Com'è andato il colloquio?",
+      "questions": [
+        { "q": "Perché il learner preferisce uno studio piccolo?", "options": ["Crede che in un ambiente piccolo si impari di più", "Perché paga meglio", "Perché è vicino a casa"], "correct": 0 },
+        { "q": "Cosa dice Elena alla fine del colloquio?", "options": ["Che il learner le ha fatto un'ottima impressione", "Che il posto è già occupato", "Che il colloquio è andato male"], "correct": 0 },
+        { "q": "Elena ha già offerto il lavoro?", "options": ["No: farà sapere qualcosa presto", "Sì, con contratto firmato", "No, ha detto di no chiaramente"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Prepara tre risposte per un tuo colloquio: chi sei, di che cosa ti occupi, un punto di forza — con almeno un congiuntivo (*credo che… sia*, *benché… sia*).",
+      "starters": ["Mi occupo di…", "Ho esperienza in…", "Credo che il mio punto di forza sia…"],
+      "minSentences": 3
+    }
+  ]
+}

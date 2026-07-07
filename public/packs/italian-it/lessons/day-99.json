@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "day-99",
+  "day": 99,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Dare del Lei, a fondo",
+  "emoji": "🎩",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Formal register as a system: Lei with La/Le/Suo everywhere, plus the courtesy formulas of written and spoken formal Italian",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Il Lei non è una parola: è un sistema",
+      "body": "Hai dato del *Lei* fin dalla settimana 1 — ma finora era una scelta di saluto. Ora diventa un **sistema**: verbo alla **terza persona singolare** (*Lei ha, Lei può*), pronome oggetto **La** (*La ringrazio*), pronome indiretto **Le** (*Le scrivo*), possessivo **Suo/Sua** — tutti **maiuscoli** nella scrittura curata. (In short: formal 'you' runs the whole sentence through the third person.) Si dà del Lei a sconosciuti, uffici, professionisti, persone più grandi — finché non è l'altra persona a proporre il tu.",
+      "table": {
+        "headers": ["tu (informale)", "Lei (formale)"],
+        "rows": [
+          ["Come stai?", "Come sta?"],
+          ["Ti ringrazio.", "La ringrazio."],
+          ["Ti scrivo domani.", "Le scrivo domani."],
+          ["il tuo indirizzo", "il Suo indirizzo"],
+          ["Scusa!", "Mi scusi!"]
+        ]
+      },
+      "callout": "«Diamoci del tu?» — lo propone sempre l'altra persona (o la più senior). Tu aspetti."
+    },
+    {
+      "type": "card",
+      "title": "Le formule di cortesia",
+      "body": "L'italiano formale ha frasi fatte che **si usano intere**, come mattoni: impararle a memoria è metà del lavoro. (These set phrases are used whole — memorize them as bricks.) Le più importanti aprono, ringraziano e chiudono.",
+      "table": {
+        "headers": ["Formula", "Quando si usa"],
+        "rows": [
+          ["Le scrivo per… — I'm writing to…", "aprire una lettera o un'email"],
+          ["La ringrazio per… — thank you for…", "ringraziare (mai «grazie mille!!»)"],
+          ["In attesa di un Suo riscontro — awaiting your reply", "chiudere prima dei saluti"],
+          ["Distinti saluti / Cordiali saluti", "la chiusura: distinti = più freddo, cordiali = più caldo"],
+          ["Gentile / Egregio + titolo + cognome", "Gentile è il default; Egregio è molto formale (maschile)"]
+        ]
+      },
+      "callout": "*La* ringrazio (oggetto diretto) ma *Le* scrivo (scrivere A qualcuno). Il sistema dei clitici che conosci già — vestito elegante."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta e ripeti: le formule",
+      "items": [
+        { "nl": "Le scrivo per chiederLe un'informazione.", "en": "I'm writing to ask you for some information.", "speak": "Le scrivo per chiederLe un'informazione." },
+        { "nl": "La ringrazio per la Sua disponibilità.", "en": "Thank you for your availability.", "speak": "La ringrazio per la Sua disponibilità." },
+        { "nl": "Mi scusi per il disturbo.", "en": "Sorry to bother you.", "speak": "Mi scusi per il disturbo." },
+        { "nl": "Potrebbe dirmi a chi devo rivolgermi?", "en": "Could you tell me who I should speak to?", "speak": "Potrebbe dirmi a chi devo rivolgermi?" },
+        { "nl": "In attesa di un Suo riscontro, distinti saluti.", "en": "Awaiting your reply, best regards.", "speak": "In attesa di un Suo riscontro, distinti saluti." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Lo stesso messaggio, tu vs Lei",
+      "pairs": [
+        { "left": "Ciao! Hai due minuti?", "right": "Buongiorno. Ha due minuti?", "note": "stesso bisogno, verbo alla terza persona. Il saluto cambia con il registro." },
+        { "left": "Scusa, puoi ripetere?", "right": "Mi scusi, potrebbe ripetere?", "note": "imperativo formale (*scusi*) + condizionale che addolcisce." },
+        { "left": "Grazie! Ti scrivo domani.", "right": "La ringrazio. Le scriverò domani.", "note": "ti → La (oggetto) / Le (a Lei); il futuro suona più formale del presente." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«___ ringrazio per la Sua disponibilità.»",
+      "options": ["Ti", "La", "Le"],
+      "correct": 1,
+      "explain": "*Ringraziare* prende l'oggetto diretto: ringrazio *chi?* → **La** ringrazio. (*Le* sarebbe l'indiretto: *Le scrivo*.)"
+    },
+    {
+      "type": "mcq",
+      "prompt": "«___ scrivo per chiederLe un appuntamento.»",
+      "options": ["La", "Le", "Lei"],
+      "correct": 1,
+      "explain": "*Scrivere A qualcuno* → indiretto: **Le** scrivo. La regola è quella di *gli/le* — solo maiuscola e formale."
+    },
+    {
+      "type": "typed",
+      "prompt": "Trasforma dal tu al Lei: «Ti ringrazio, mi puoi chiamare domani?»",
+      "answers": [
+        "La ringrazio, mi può chiamare domani?",
+        "la ringrazio, mi può chiamare domani",
+        "la ringrazio mi può chiamare domani",
+        "la ringrazio, mi potrebbe chiamare domani",
+        "la ringrazio, potrebbe chiamarmi domani",
+        "la ringrazio, può chiamarmi domani"
+      ],
+      "hint": "ti ringrazio → La ringrazio; puoi → può (o potrebbe).",
+      "explain": "*La ringrazio, mi può chiamare domani?* Ogni pezzo passa alla terza persona: pronome, verbo, tutto."
+    },
+    {
+      "type": "dictation",
+      "speak": "La ringrazio per la Sua disponibilità.",
+      "prompt": "Scrivi quello che senti.",
+      "answers": ["La ringrazio per la Sua disponibilità.", "la ringrazio per la sua disponibilità", "la ringrazio per la sua disponibilita"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Monday you have to phone the anagrafe about your residency. Tonight, Giulia makes you rehearse the formal register — she plays the clerk.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora, lunedì chiami l'anagrafe. Proviamo: io sono l'impiegata. Pronto?", "en": "So, Monday you call the registry office. Let's rehearse: I'm the clerk. Hello?" },
+        { "speaker": "You", "nl": "Buongiorno, La chiamo per un'informazione sulla residenza.", "en": "Good morning, I'm calling you about some information on residency.", "spotlight": "«La chiamo» — chiamare prende l'oggetto diretto: La, non ti." },
+        { "speaker": "Giulia", "nl": "Bene! Non «ti chiamo»: «La chiamo». Vai avanti.", "en": "Good! Not the informal 'ti chiamo': 'La chiamo'. Go on." },
+        { "speaker": "You", "nl": "Vorrei sapere che documenti servono. Potrebbe aiutarmi?", "en": "I'd like to know which documents are needed. Could you help me?" },
+        { "speaker": "Giulia", "nl": "«Potrebbe» — perfetto, il condizionale addolcisce tutto. E se non capisci?", "en": "'Potrebbe' — perfect, the conditional softens everything. And if you don't understand?" },
+        { "speaker": "You", "nl": "Mi scusi, potrebbe ripetere più lentamente?", "en": "Excuse me, could you repeat more slowly?", "spotlight": "«Mi scusi» — l'imperativo formale, non «scusa»." },
+        { "speaker": "Giulia", "nl": "E per chiudere la telefonata?", "en": "And to end the call?" },
+        { "speaker": "You", "nl": "La ringrazio per la Sua disponibilità. Buona giornata!", "en": "Thank you for your availability. Have a good day!" },
+        { "speaker": "Giulia", "nl": "Promosso! Guarda, al telefono sembri già più formale del mio commercialista.", "en": "You pass! Look, on the phone you already sound more formal than my accountant." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi un breve messaggio formale (3–4 frasi) a un ufficio: saluta, presentati, chiedi un'informazione, ringrazia. Tutto al Lei, con almeno una formula di oggi.",
+      "starters": ["Gentile…", "Le scrivo per…", "La ringrazio per…"],
+      "minSentences": 3
+    }
+  ]
+}

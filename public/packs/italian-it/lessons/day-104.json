@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "day-104",
+  "day": 104,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "review",
+  "title": "Il punto con Giulia: lavoro e scartoffie",
+  "emoji": "☕",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Week 15 review + immersion: Giulia debriefs your job hunt and paperwork week, with the formal register braided back through",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Settimana 15: l'italiano in giacca e cravatta",
+      "body": "Questa settimana hai messo l'italiano in giacca: il **Lei come sistema** (*La ringrazio, Le scrivo, il Suo*), l'**email formale e la PEC**, il kit della **burocrazia** (*anagrafe, marca da bollo, modulo*), il **colloquio** con Elena e il **si impersonale/passivante** della riunione. Oggi si fa il punto con Giulia, al bar — dove per fortuna si torna al tu.",
+      "callout": "Il riflesso della stagione: ogni messaggio sappilo dire **due volte** — al tu e al Lei."
+    },
+    {
+      "type": "shadow",
+      "title": "Ripeti le formule della settimana",
+      "lines": [
+        { "nl": "Le scrivo in merito alla mia candidatura.", "en": "I'm writing regarding my application." },
+        { "nl": "La ringrazio per la Sua disponibilità.", "en": "Thank you for your availability." },
+        { "nl": "Si è deciso di fissare un colloquio.", "en": "It's been decided to arrange an interview." },
+        { "nl": "In attesa di un Suo riscontro, distinti saluti.", "en": "Awaiting your reply, best regards." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "«___ scrivo per chiederLe se ci siano novità sulla mia candidatura.»",
+      "options": ["La", "Le", "Ti"],
+      "correct": 1,
+      "explain": "Scrivere **a** qualcuno → indiretto: **Le** scrivo. E nota il congiuntivo *ci siano* nella domanda indiretta formale — gentilezza pura."
+    },
+    {
+      "type": "typed",
+      "prompt": "Trasforma dal tu al Lei: «Grazie, ti scrivo domani!»",
+      "answers": [
+        "La ringrazio, Le scriverò domani.",
+        "la ringrazio, le scriverò domani",
+        "la ringrazio le scriverò domani",
+        "la ringrazio, le scrivo domani",
+        "la ringrazio, le scrivero domani"
+      ],
+      "hint": "grazie → La ringrazio; ti scrivo → Le scriverò (il futuro suona più formale).",
+      "explain": "*La ringrazio, Le scriverò domani.* Due cliticismi in una riga: **La** (oggetto di ringraziare) e **Le** (a Lei, di scrivere)."
+    },
+    {
+      "type": "contrast",
+      "title": "La stessa impazienza, tu vs Lei",
+      "pairs": [
+        { "left": "Elena, dai, quando mi fai sapere?", "right": "Gentile Dottoressa, Le scrivo per chiederLe se ci siano novità sulla mia candidatura.", "note": "stessa impazienza, due mondi: la versione formale la nasconde dietro un congiuntivo." },
+        { "left": "Grazie di tutto, eh!", "right": "La ringrazio per il tempo che mi ha dedicato.", "note": "il ringraziamento formale nomina la cosa per cui ringrazia." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Saturday at the usual bar. Giulia wants the entire saga — the anagrafe, the PEC, the interview, everything.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Allora, racconta tutto: l'anagrafe, la PEC, il colloquio. Voglio i dettagli!", "en": "So, tell me everything: the registry office, the PEC, the interview. I want details!" },
+        { "speaker": "You", "nl": "Da dove comincio? All'anagrafe ho aspettato due ore, ma in fila ho conosciuto Elena.", "en": "Where do I start? At the anagrafe I waited two hours, but in the queue I met Elena." },
+        { "speaker": "Giulia", "nl": "Ancora non ci credo: mandi una candidatura via PEC e la titolare è in fila con te!", "en": "I still can't believe it: you send an application via PEC and the owner is in the queue with you!" },
+        { "speaker": "You", "nl": "Bologna è un paese, dai. Poi il colloquio: le ho dato del Lei dall'inizio alla fine, giuro.", "en": "Bologna is a village, come on. Then the interview: I used Lei with her from start to finish, I swear.", "spotlight": "«dare del Lei» — l'espressione per parlare del registro stesso." },
+        { "speaker": "Giulia", "nl": "Brava scelta. Guarda, conosco lo studio di Elena: piccolo, ma fanno cose bellissime.", "en": "Good call. Look, I know Elena's studio: small, but they do beautiful work." },
+        { "speaker": "You", "nl": "Alla riunione si lavorava proprio bene. E lei ha detto che ci sarebbe spazio per una persona come me.", "en": "At the meeting the working vibe was really good. And she said there'd be room for a person like me.", "spotlight": "riferire le parole di Elena: «ha detto che ci sarebbe…» — un ponte verso la settimana 16." },
+        { "speaker": "Giulia", "nl": "Questo non è un indizio, è quasi un annuncio! E adesso?", "en": "That's not a hint, it's almost an announcement! And now?" },
+        { "speaker": "You", "nl": "Adesso aspetto. Mi ha detto che mi faranno sapere presto.", "en": "Now I wait. She told me they'll let me know soon." },
+        { "speaker": "Giulia", "nl": "Incrociamo le dita. E la residenza? Le scartoffie?", "en": "Fingers crossed. And the residency? The paperwork?" },
+        { "speaker": "You", "nl": "Modulo compilato, marca da bollo incollata. Mi sento quasi italiano.", "en": "Form filled in, tax stamp stuck on. I feel almost Italian." },
+        { "speaker": "Giulia", "nl": "Quando arriva quella risposta, offro io. A presto, eh!", "en": "When that answer comes, drinks are on me. See you soon!" }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Hai seguito il debriefing?",
+      "questions": [
+        { "q": "Dove hai conosciuto Elena?", "options": ["In fila all'anagrafe", "Al bar con Giulia", "A Milano da Sofia"], "correct": 0 },
+        { "q": "Cosa dice Giulia dello studio di Elena?", "options": ["Piccolo, ma fanno cose bellissime", "Grande e famoso", "Non lo conosce"], "correct": 0 },
+        { "q": "A che punto è la candidatura?", "options": ["Il learner aspetta una risposta", "Il lavoro è già suo", "Elena ha detto di no"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Fai il punto della settimana come lo faresti con Giulia: cosa hai fatto, cosa aspetti, come ti senti. Poi riscrivi UNA di quelle frasi come la diresti a Elena, al Lei.",
+      "starters": ["Questa settimana ho…", "Adesso aspetto…", "Versione formale: «Gentile Dottoressa,…»"],
+      "minSentences": 3
+    }
+  ]
+}

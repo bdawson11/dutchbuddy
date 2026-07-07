@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "day-100",
+  "day": 100,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "L'email formale e la PEC",
+  "emoji": "📧",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The anatomy of a formal Italian email, the PEC (certified email), and the register-switch drill: the same request in tu and in Lei",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "La PEC e la raccomandata",
+      "body": "La **PEC** (*posta elettronica certificata*) è un'email con **valore legale**: come una **raccomandata**, prova che hai spedito e che l'altro ha ricevuto. (A certified email with the legal weight of registered mail — very Italian, very unavoidable.) Si usa per uffici pubblici, contratti, disdette, candidature serie. La *raccomandata* cartacea vive ancora: si spedisce alla posta, spesso **con ricevuta di ritorno**.",
+      "callout": "In Italia, se una cosa conta davvero, viaggia via PEC o raccomandata. L'email normale è per il resto del mondo."
+    },
+    {
+      "type": "card",
+      "title": "L'anatomia dell'email formale",
+      "body": "Un'email formale italiana è una **struttura fissa**: ogni pezzo ha il suo posto e la sua formula. (Fixed structure — fill the slots, don't improvise.) Il tono resta al **Lei** dall'oggetto ai saluti, senza punti esclamativi.",
+      "table": {
+        "headers": ["Parte", "Esempio"],
+        "rows": [
+          ["Oggetto", "Candidatura — addetto/a alla comunicazione"],
+          ["Saluto", "Gentile Dott.ssa Moretti,"],
+          ["Apertura", "Le scrivo in merito all'annuncio pubblicato sul Suo sito."],
+          ["Corpo", "Mi occupo di comunicazione da cinque anni…"],
+          ["Allegati", "In allegato trova il mio curriculum."],
+          ["Chiusura", "In attesa di un Suo riscontro, distinti saluti."]
+        ]
+      },
+      "callout": "*Gentile* è il default per tutti; *Egregio* (maschile) è ancora più formale. Mai «Ciao» — e mai il cognome da solo."
+    },
+    {
+      "type": "chips",
+      "title": "Ascolta e ripeti: frasi da email",
+      "items": [
+        { "nl": "Le scrivo in merito all'annuncio.", "en": "I'm writing regarding the ad.", "speak": "Le scrivo in merito all'annuncio." },
+        { "nl": "In allegato trova il mio curriculum.", "en": "Please find my CV attached.", "speak": "In allegato trova il mio curriculum." },
+        { "nl": "Resto a disposizione per qualsiasi chiarimento.", "en": "I remain available for any clarification.", "speak": "Resto a disposizione per qualsiasi chiarimento." },
+        { "nl": "Le sarei grato/a se potesse ricontattarmi.", "en": "I'd be grateful if you could get back to me.", "speak": "Le sarei grato se potesse ricontattarmi." },
+        { "nl": "Cordiali saluti.", "en": "Kind regards.", "speak": "Cordiali saluti." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "La stessa richiesta: messaggio a Marco vs email formale",
+      "pairs": [
+        { "left": "Ciao! Mi mandi il documento quando puoi?", "right": "Gentile Dottoressa, potrebbe inviarmi il documento?", "note": "stesso bisogno: saluto formale, condizionale, verbo «inviare» al posto di «mandare»." },
+        { "left": "Ci vediamo, fammi sapere!", "right": "In attesa di un Suo riscontro, La saluto cordialmente.", "note": "la chiusura informale diventa una formula intera." },
+        { "left": "Grazie mille!!", "right": "La ringrazio per la Sua disponibilità.", "note": "niente punti esclamativi doppi: il formale ringrazia con una frase completa." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Scrivi a una professionista che non conosci. Come apri l'email?",
+      "options": ["Ciao Elena!", "Gentile Dott.ssa Moretti,", "Cara Moretti,"],
+      "correct": 1,
+      "explain": "**Gentile + titolo + cognome** è il default sicuro. «Ciao» è da amici; il cognome da solo con «Cara» suona brusco e sbagliato."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Che cos'ha di speciale una PEC rispetto a un'email normale?",
+      "options": ["Ha il valore legale di una raccomandata", "Arriva più velocemente", "Si può mandare solo dagli uffici pubblici"],
+      "correct": 0,
+      "explain": "La PEC certifica invio e ricezione: vale come una **raccomandata**. Per questo si usa per contratti, disdette e candidature serie."
+    },
+    {
+      "type": "typed",
+      "prompt": "Rendi formale la richiesta: «Mi mandi il contratto?»",
+      "answers": [
+        "Potrebbe inviarmi il contratto?",
+        "potrebbe mandarmi il contratto",
+        "mi potrebbe inviare il contratto",
+        "mi potrebbe mandare il contratto",
+        "può inviarmi il contratto",
+        "mi può inviare il contratto",
+        "mi può mandare il contratto",
+        "può mandarmi il contratto"
+      ],
+      "hint": "condizionale (potrebbe) + inviare suona più formale di mandare.",
+      "explain": "*Potrebbe inviarmi il contratto?* Condizionale + Lei: la richiesta diventa una cortesia, non un ordine."
+    },
+    {
+      "type": "builder",
+      "title": "Monta l'email formale",
+      "prompt": "Costruisci un'email di candidatura, pezzo per pezzo.",
+      "slots": [
+        { "label": "Saluto", "chips": ["Gentile Dott.ssa Moretti,", "Gentile Direttore,", "Egregio Dott. Bianchi,"] },
+        { "label": "Apertura", "chips": ["Le scrivo in merito all'annuncio sul Suo sito.", "Le scrivo per propormi come collaboratore.", "Mi permetto di scriverLe per una candidatura."] },
+        { "label": "Corpo", "chips": ["In allegato trova il mio curriculum.", "Resto a disposizione per un colloquio.", "Le sarei grato/a se potesse ricontattarmi."] },
+        { "label": "Chiusura", "chips": ["In attesa di un Suo riscontro, distinti saluti.", "La ringrazio per l'attenzione. Cordiali saluti.", "Distinti saluti."] }
+      ],
+      "sample": "Gentile Dott.ssa Moretti, Le scrivo in merito all'annuncio sul Suo sito. In allegato trova il mio curriculum. In attesa di un Suo riscontro, distinti saluti."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Giulia found a job ad from a small comms studio in the centro. Tonight, at her kitchen table, you draft the application — via PEC, no less.",
+      "lines": [
+        { "speaker": "Giulia", "nl": "Guarda qui: «studio di comunicazione in centro cerca una figura per contenuti e social». È perfetto per te!", "en": "Look at this: 'comms studio in the centro seeks someone for content and social'. It's perfect for you!" },
+        { "speaker": "You", "nl": "Davvero? E come mi candido?", "en": "Really? And how do I apply?" },
+        { "speaker": "Giulia", "nl": "Dice: «inviare candidatura via PEC alla titolare, Dott.ssa Elena Moretti».", "en": "It says: 'send applications via PEC to the owner, Dott.ssa Elena Moretti'.", "spotlight": "via PEC: quando un annuncio la chiede, la candidatura è cosa seria." },
+        { "speaker": "You", "nl": "Via PEC, addirittura. Va bene: «Gentile Dottoressa Moretti…»", "en": "Via PEC, no less. Okay: 'Dear Dott.ssa Moretti…'", "spotlight": "Gentile + titolo + cognome: l'apertura di default." },
+        { "speaker": "Giulia", "nl": "Poi l'oggetto, mi raccomando: «Candidatura — comunicazione». Chiaro e serio.", "en": "Then the subject line, please: 'Application — communications'. Clear and serious." },
+        { "speaker": "You", "nl": "«Le scrivo in merito all'annuncio pubblicato sul Suo sito…»", "en": "'I'm writing regarding the ad published on your site…'", "spotlight": "«Le scrivo in merito a» — l'apertura formale che apre tutte le porte." },
+        { "speaker": "Giulia", "nl": "Benissimo. Curriculum in allegato: «In allegato trova il mio curriculum».", "en": "Very good. CV attached: 'Please find my CV attached'." },
+        { "speaker": "You", "nl": "E chiudo con «In attesa di un Suo riscontro, distinti saluti»?", "en": "And I close with 'Awaiting your reply, best regards'?" },
+        { "speaker": "Giulia", "nl": "Esatto. Formale, pulito, niente «ciao». Adesso respira e clicca «invia».", "en": "Exactly. Formal, clean, no 'ciao'. Now breathe and click 'send'." },
+        { "speaker": "You", "nl": "Inviata! E adesso si aspetta.", "en": "Sent! And now one waits.", "spotlight": "«si aspetta» — un assaggio del si impersonale, in arrivo giovedì." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Scrivi una mini email formale di candidatura (4–6 righe): oggetto, saluto, un'apertura con «Le scrivo in merito a…», una frase su di te, una chiusura con formula. Tutto al Lei.",
+      "starters": ["Oggetto: candidatura…", "Gentile…", "Le scrivo in merito a…"],
+      "minSentences": 4
+    }
+  ]
+}
