@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-02",
   "day": 2,
   "module": "M01",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Tap to hear both ch sounds",
       "items": [
-        { "nl": "ich", "en": "I", "speak": "ich" },
-        { "nl": "echt", "en": "really", "speak": "echt" },
-        { "nl": "Küche", "en": "kitchen", "speak": "Küche" },
-        { "nl": "Buch", "en": "book", "speak": "Buch" },
-        { "nl": "machen", "en": "to do / make", "speak": "machen" },
-        { "nl": "auch", "en": "also", "speak": "auch" }
+        { "target": "ich", "en": "I", "speak": "ich" },
+        { "target": "echt", "en": "really", "speak": "echt" },
+        { "target": "Küche", "en": "kitchen", "speak": "Küche" },
+        { "target": "Buch", "en": "book", "speak": "Buch" },
+        { "target": "machen", "en": "to do / make", "speak": "machen" },
+        { "target": "auch", "en": "also", "speak": "auch" }
       ]
     },
     {
@@ -40,11 +40,11 @@
       "type": "shadow",
       "title": "Repeat after the audio",
       "lines": [
-        { "nl": "ich", "en": "I" },
-        { "nl": "auch", "en": "also" },
-        { "nl": "machen", "en": "to make / do" },
-        { "nl": "echt", "en": "really" },
-        { "nl": "doch", "en": "yes-it-is (little contradiction word)" }
+        { "target": "ich", "en": "I" },
+        { "target": "auch", "en": "also" },
+        { "target": "machen", "en": "to make / do" },
+        { "target": "echt", "en": "really" },
+        { "target": "doch", "en": "yes-it-is (little contradiction word)" }
       ]
     },
     {
@@ -78,11 +78,11 @@
       "type": "chips",
       "title": "Tap the tricky consonants",
       "items": [
-        { "nl": "Wasser", "en": "water", "speak": "Wasser" },
-        { "nl": "Vater", "en": "father", "speak": "Vater" },
-        { "nl": "Zeit", "en": "time", "speak": "Zeit" },
-        { "nl": "ja", "en": "yes", "speak": "ja" },
-        { "nl": "rot", "en": "red", "speak": "rot" }
+        { "target": "Wasser", "en": "water", "speak": "Wasser" },
+        { "target": "Vater", "en": "father", "speak": "Vater" },
+        { "target": "Zeit", "en": "time", "speak": "Zeit" },
+        { "target": "ja", "en": "yes", "speak": "ja" },
+        { "target": "rot", "en": "red", "speak": "rot" }
       ]
     },
     {

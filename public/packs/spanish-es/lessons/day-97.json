@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-97",
   "day": 97,
   "module": "M14",
@@ -28,15 +28,15 @@
       "type": "dialogue",
       "scene": "A quiet evening. Rafa gets philosophical over a beer.",
       "lines": [
-        { "speaker": "Rafa", "nl": "¿Tú alguna vez piensas en cómo sería tu vida si no te hubieras mudado aquí?", "en": "Do you ever think about what your life would be like if you hadn't moved here?" },
-        { "speaker": "You", "nl": "Buah, constantemente. Si me hubiera quedado en mi país, ahora tendría un trabajo estable… y me aburriría como una ostra.", "en": "Ugh, all the time. If I'd stayed in my country, I'd have a stable job now… and I'd be bored stiff.", "spotlight": "Mixta: *si me hubiera quedado* (pasado) → *tendría, aburriría* (presente)." },
-        { "speaker": "Rafa", "nl": "Ya ves. Yo, si hubiera hecho caso a mis padres, habría estudiado Derecho.", "en": "Right? Me, if I'd listened to my parents, I'd have studied Law." },
-        { "speaker": "You", "nl": "¿Y no te arrepientes?", "en": "And you don't regret it?" },
-        { "speaker": "Rafa", "nl": "A veces. Podría haber ganado más pasta, pero no habría tocado en mi vida.", "en": "Sometimes. I could've earned more money, but I'd never have played music.", "spotlight": "*podría haber ganado* (reproche a uno mismo) + *habría tocado* (resultado irreal)." },
-        { "speaker": "You", "nl": "En el fondo hiciste bien. Si no te arriesgaras, no serías tú.", "en": "Deep down you did the right thing. If you didn't take risks, you wouldn't be you." },
-        { "speaker": "Rafa", "nl": "Anda, qué profundo te has puesto. Serán las copas.", "en": "Well, aren't you deep tonight. Must be the drinks.", "spotlight": "*serán las copas*: futuro de probabilidad, pura conjetura." },
-        { "speaker": "You", "nl": "Serán, sí. Pero lo digo en serio, ¿eh?", "en": "Probably, yeah. But I mean it, you know?" },
-        { "speaker": "Rafa", "nl": "Ya, ya. Ojalá lo hubiéramos hablado antes, tío.", "en": "Sure, sure. I wish we'd talked about this sooner, man." }
+        { "speaker": "Rafa", "target": "¿Tú alguna vez piensas en cómo sería tu vida si no te hubieras mudado aquí?", "en": "Do you ever think about what your life would be like if you hadn't moved here?" },
+        { "speaker": "You", "target": "Buah, constantemente. Si me hubiera quedado en mi país, ahora tendría un trabajo estable… y me aburriría como una ostra.", "en": "Ugh, all the time. If I'd stayed in my country, I'd have a stable job now… and I'd be bored stiff.", "spotlight": "Mixta: *si me hubiera quedado* (pasado) → *tendría, aburriría* (presente)." },
+        { "speaker": "Rafa", "target": "Ya ves. Yo, si hubiera hecho caso a mis padres, habría estudiado Derecho.", "en": "Right? Me, if I'd listened to my parents, I'd have studied Law." },
+        { "speaker": "You", "target": "¿Y no te arrepientes?", "en": "And you don't regret it?" },
+        { "speaker": "Rafa", "target": "A veces. Podría haber ganado más pasta, pero no habría tocado en mi vida.", "en": "Sometimes. I could've earned more money, but I'd never have played music.", "spotlight": "*podría haber ganado* (reproche a uno mismo) + *habría tocado* (resultado irreal)." },
+        { "speaker": "You", "target": "En el fondo hiciste bien. Si no te arriesgaras, no serías tú.", "en": "Deep down you did the right thing. If you didn't take risks, you wouldn't be you." },
+        { "speaker": "Rafa", "target": "Anda, qué profundo te has puesto. Serán las copas.", "en": "Well, aren't you deep tonight. Must be the drinks.", "spotlight": "*serán las copas*: futuro de probabilidad, pura conjetura." },
+        { "speaker": "You", "target": "Serán, sí. Pero lo digo en serio, ¿eh?", "en": "Probably, yeah. But I mean it, you know?" },
+        { "speaker": "Rafa", "target": "Ya, ya. Ojalá lo hubiéramos hablado antes, tío.", "en": "Sure, sure. I wish we'd talked about this sooner, man." }
       ]
     },
     {

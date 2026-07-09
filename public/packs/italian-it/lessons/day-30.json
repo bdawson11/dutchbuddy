@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-30",
   "day": 30,
   "module": "M05",
@@ -35,11 +35,11 @@
       "type": "chips",
       "title": "Listen for the agreement",
       "items": [
-        { "nl": "Sono andato al mare.", "en": "I went to the sea. (a man)", "speak": "Sono andato al mare." },
-        { "nl": "Sono andata al mare.", "en": "I went to the sea. (a woman)", "speak": "Sono andata al mare." },
-        { "nl": "Siamo partiti presto.", "en": "We left early. (mixed/all-male group)", "speak": "Siamo partiti presto." },
-        { "nl": "È arrivata tardi.", "en": "She arrived late.", "speak": "È arrivata tardi." },
-        { "nl": "Sono tornato a casa.", "en": "I came back home. (a man)", "speak": "Sono tornato a casa." }
+        { "target": "Sono andato al mare.", "en": "I went to the sea. (a man)", "speak": "Sono andato al mare." },
+        { "target": "Sono andata al mare.", "en": "I went to the sea. (a woman)", "speak": "Sono andata al mare." },
+        { "target": "Siamo partiti presto.", "en": "We left early. (mixed/all-male group)", "speak": "Siamo partiti presto." },
+        { "target": "È arrivata tardi.", "en": "She arrived late.", "speak": "È arrivata tardi." },
+        { "target": "Sono tornato a casa.", "en": "I came back home. (a man)", "speak": "Sono tornato a casa." }
       ]
     },
     {
@@ -80,12 +80,12 @@
       "type": "dialogue",
       "scene": "Marco tells Giulia about his weekend, then she asks You too",
       "lines": [
-        { "speaker": "Marco", "nl": "Sono andato al mare sabato.", "en": "I went to the sea on Saturday." },
-        { "speaker": "Giulia", "nl": "Davvero? Sei tornato domenica sera?", "en": "Really? Did you get back Sunday evening?", "spotlight": "sei tornato — essere + participle agreeing masculine, since it's addressed to Marco." },
-        { "speaker": "Marco", "nl": "Sì, sono tornato tardi.", "en": "Yes, I got back late." },
-        { "speaker": "Giulia", "nl": "E tu? Hai visitato qualche posto questo weekend?", "en": "And you? Did you visit anywhere this weekend?" },
-        { "speaker": "You", "nl": "No, ho lavorato tutto il weekend.", "en": "No, I worked all weekend." },
-        { "speaker": "Marco", "nl": "Ah, peccato! La prossima volta vieni con noi.", "en": "Ah, too bad! Next time you're coming with us." }
+        { "speaker": "Marco", "target": "Sono andato al mare sabato.", "en": "I went to the sea on Saturday." },
+        { "speaker": "Giulia", "target": "Davvero? Sei tornato domenica sera?", "en": "Really? Did you get back Sunday evening?", "spotlight": "sei tornato — essere + participle agreeing masculine, since it's addressed to Marco." },
+        { "speaker": "Marco", "target": "Sì, sono tornato tardi.", "en": "Yes, I got back late." },
+        { "speaker": "Giulia", "target": "E tu? Hai visitato qualche posto questo weekend?", "en": "And you? Did you visit anywhere this weekend?" },
+        { "speaker": "You", "target": "No, ho lavorato tutto il weekend.", "en": "No, I worked all weekend." },
+        { "speaker": "Marco", "target": "Ah, peccato! La prossima volta vieni con noi.", "en": "Ah, too bad! Next time you're coming with us." }
       ]
     },
     {

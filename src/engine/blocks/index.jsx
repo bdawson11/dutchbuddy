@@ -62,7 +62,7 @@ export function Chips({ block, done, onDone }) {
       <div className="chip-grid">
         {block.items.map((item, i) => (
           <button key={i} className={`chip ${tapped.has(i) ? 'chip-tapped' : ''}`} onClick={() => tap(i, item)}>
-            <span className="chip-nl">🔊 {item.nl}</span>
+            <span className="chip-nl">🔊 {item.target ?? item.nl}</span>
             <span className="chip-en">{item.en}</span>
           </button>
         ))}
@@ -200,7 +200,7 @@ export function Builder({ block, done, onDone }) {
 export function Dialogue({ block, done, onDone }) {
   const [revealed, setRevealed] = useState(new Set());
   const reveal = (i, line) => {
-    speak(line.nl);
+    speak(line.target ?? line.nl);
     const next = new Set(revealed).add(i);
     setRevealed(next);
     if (next.size === block.lines.length && !done) onDone();
@@ -211,7 +211,7 @@ export function Dialogue({ block, done, onDone }) {
       {block.lines.map((line, i) => (
         <div key={i} className={`dialogue-line ${revealed.has(i) ? 'is-revealed' : ''}`} onClick={() => reveal(i, line)}>
           <span className="speaker">{line.speaker}</span>
-          <span className="line-nl">{line.nl}</span>
+          <span className="line-nl">{line.target ?? line.nl}</span>
           {revealed.has(i) && <span className="line-en">{line.en}</span>}
           {revealed.has(i) && line.spotlight && <span className="spotlight">💡 {md(line.spotlight)}</span>}
         </div>
@@ -224,7 +224,7 @@ export function Dialogue({ block, done, onDone }) {
 export function Shadow({ block, done, onDone }) {
   const [played, setPlayed] = useState(new Set());
   const play = (i, line) => {
-    speak(line.nl, { rate: 0.8 });
+    speak(line.target ?? line.nl, { rate: 0.8 });
     const next = new Set(played).add(i);
     setPlayed(next);
     if (next.size === block.lines.length && !done) onDone();
@@ -236,7 +236,7 @@ export function Shadow({ block, done, onDone }) {
       {block.lines.map((line, i) => (
         <div key={i} className="shadow-line">
           <button className={`speak-btn ${played.has(i) ? 'chip-tapped' : ''}`} onClick={() => play(i, line)}>🔊</button>
-          <span className="line-nl">{line.nl}</span>
+          <span className="line-nl">{line.target ?? line.nl}</span>
           <span className="line-en">{line.en}</span>
         </div>
       ))}

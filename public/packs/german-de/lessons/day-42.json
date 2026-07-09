@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-42",
   "day": 42,
   "module": "M06",
@@ -30,10 +30,10 @@
       "type": "chips",
       "title": "Mix: Gefühle & Ratschläge",
       "items": [
-        { "nl": "gestresst", "en": "stressed", "speak": "gestresst" },
-        { "nl": "traurig", "en": "sad", "speak": "traurig" },
-        { "nl": "an deiner Stelle würde ich...", "en": "in your place I'd...", "speak": "an deiner Stelle würde ich" },
-        { "nl": "die Krankschreibung", "en": "the sick note", "speak": "die Krankschreibung" }
+        { "target": "gestresst", "en": "stressed", "speak": "gestresst" },
+        { "target": "traurig", "en": "sad", "speak": "traurig" },
+        { "target": "an deiner Stelle würde ich...", "en": "in your place I'd...", "speak": "an deiner Stelle würde ich" },
+        { "target": "die Krankschreibung", "en": "the sick note", "speak": "die Krankschreibung" }
       ]
     },
     {

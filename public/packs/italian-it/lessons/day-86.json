@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-86",
   "day": 86,
   "module": "M13",
@@ -37,11 +37,11 @@
       "type": "chips",
       "title": "Ascolta e ripeti",
       "items": [
-        { "nl": "Pensavo che fosse a casa.", "en": "I thought he was home.", "speak": "Pensavo che fosse a casa." },
-        { "nl": "Volevo che tu venissi con me.", "en": "I wanted you to come with me.", "speak": "Volevo che tu venissi con me." },
-        { "nl": "Era importante che parlassimo.", "en": "It was important that we talked.", "speak": "Era importante che parlassimo." },
-        { "nl": "Speravo che facesse bel tempo.", "en": "I was hoping the weather would be nice.", "speak": "Speravo che facesse bel tempo." },
-        { "nl": "Non sapevo che tu abitassi qui.", "en": "I didn't know you lived here.", "speak": "Non sapevo che tu abitassi qui." }
+        { "target": "Pensavo che fosse a casa.", "en": "I thought he was home.", "speak": "Pensavo che fosse a casa." },
+        { "target": "Volevo che tu venissi con me.", "en": "I wanted you to come with me.", "speak": "Volevo che tu venissi con me." },
+        { "target": "Era importante che parlassimo.", "en": "It was important that we talked.", "speak": "Era importante che parlassimo." },
+        { "target": "Speravo che facesse bel tempo.", "en": "I was hoping the weather would be nice.", "speak": "Speravo che facesse bel tempo." },
+        { "target": "Non sapevo che tu abitassi qui.", "en": "I didn't know you lived here.", "speak": "Non sapevo che tu abitassi qui." }
       ]
     },
     {
@@ -82,14 +82,14 @@
       "type": "dialogue",
       "scene": "Giulia and you, remembering when you first arrived in Bologna.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Ti ricordi il tuo primo giorno qui?", "en": "Remember your first day here?" },
-        { "speaker": "You", "nl": "Come no. Pensavo che tutti parlassero velocissimo.", "en": "Of course. I thought everyone talked super fast.", "spotlight": "congiuntivo imperfetto dopo 'pensavo'." },
-        { "speaker": "Giulia", "nl": "Eh! E credevi che l'italiano fosse impossibile, vero?", "en": "Ha! And you thought Italian was impossible, right?" },
-        { "speaker": "You", "nl": "Sì, volevo che qualcuno mi aiutasse con il congiuntivo.", "en": "Yeah, I wanted someone to help me with the subjunctive.", "spotlight": "'volevo che… aiutasse' — un desiderio al passato." },
-        { "speaker": "Giulia", "nl": "E guarda adesso! Non sapevo che imparassi così in fretta.", "en": "And look now! I didn't know you learned so fast." },
-        { "speaker": "You", "nl": "Speravo solo che non fosse troppo tardi per cominciare.", "en": "I just hoped it wasn't too late to start." },
-        { "speaker": "Giulia", "nl": "Ma dai, non è mai tardi.", "en": "Come on, it's never too late." },
-        { "speaker": "You", "nl": "Grazie. Era importante che me lo dicessi.", "en": "Thanks. It mattered that you told me that." }
+        { "speaker": "Giulia", "target": "Ti ricordi il tuo primo giorno qui?", "en": "Remember your first day here?" },
+        { "speaker": "You", "target": "Come no. Pensavo che tutti parlassero velocissimo.", "en": "Of course. I thought everyone talked super fast.", "spotlight": "congiuntivo imperfetto dopo 'pensavo'." },
+        { "speaker": "Giulia", "target": "Eh! E credevi che l'italiano fosse impossibile, vero?", "en": "Ha! And you thought Italian was impossible, right?" },
+        { "speaker": "You", "target": "Sì, volevo che qualcuno mi aiutasse con il congiuntivo.", "en": "Yeah, I wanted someone to help me with the subjunctive.", "spotlight": "'volevo che… aiutasse' — un desiderio al passato." },
+        { "speaker": "Giulia", "target": "E guarda adesso! Non sapevo che imparassi così in fretta.", "en": "And look now! I didn't know you learned so fast." },
+        { "speaker": "You", "target": "Speravo solo che non fosse troppo tardi per cominciare.", "en": "I just hoped it wasn't too late to start." },
+        { "speaker": "Giulia", "target": "Ma dai, non è mai tardi.", "en": "Come on, it's never too late." },
+        { "speaker": "You", "target": "Grazie. Era importante che me lo dicessi.", "en": "Thanks. It mattered that you told me that." }
       ]
     },
     {

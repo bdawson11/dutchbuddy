@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-85",
   "day": 85,
   "module": "M13",
@@ -39,12 +39,12 @@
       "type": "chips",
       "title": "Conjuga en tu cabeza — toca y repite",
       "items": [
-        { "nl": "quisiera un café", "en": "I'd like a coffee (polite)", "speak": "quisiera un café" },
-        { "nl": "si pudieras…", "en": "if you could…", "speak": "si pudieras" },
-        { "nl": "me dijo que fuera", "en": "he told me to go", "speak": "me dijo que fuera" },
-        { "nl": "ojalá tuviéramos tiempo", "en": "I wish we had time", "speak": "ojalá tuviéramos tiempo" },
-        { "nl": "que vinierais todos", "en": "that you all came", "speak": "que vinierais todos" },
-        { "nl": "para que lo supieran", "en": "so they'd know it", "speak": "para que lo supieran" }
+        { "target": "quisiera un café", "en": "I'd like a coffee (polite)", "speak": "quisiera un café" },
+        { "target": "si pudieras…", "en": "if you could…", "speak": "si pudieras" },
+        { "target": "me dijo que fuera", "en": "he told me to go", "speak": "me dijo que fuera" },
+        { "target": "ojalá tuviéramos tiempo", "en": "I wish we had time", "speak": "ojalá tuviéramos tiempo" },
+        { "target": "que vinierais todos", "en": "that you all came", "speak": "que vinierais todos" },
+        { "target": "para que lo supieran", "en": "so they'd know it", "speak": "para que lo supieran" }
       ]
     },
     {
@@ -82,11 +82,11 @@
       "type": "dialogue",
       "scene": "Lucía tells you an old story from her first agency job.",
       "lines": [
-        { "speaker": "Lucía", "nl": "Cuando entré en la agencia, mi jefa quería que llegáramos a las ocho en punto.", "en": "When I joined the agency, my boss wanted us in at eight sharp.", "spotlight": "Main verb *quería* (past) pulls the subordinate into subjuntivo imperfecto: *llegáramos*." },
-        { "speaker": "You", "nl": "¿En serio? ¿Y también esperaba que trabajarais hasta tarde?", "en": "Really? And did she also expect you all to work late?" },
-        { "speaker": "Lucía", "nl": "Total. Exigía que lo diéramos todo, todos los días.", "en": "Totally. She demanded we give it our all, every day." },
-        { "speaker": "You", "nl": "Madre mía. Yo preferiría que me dejaran organizarme a mi manera.", "en": "Wow. I'd rather they let me organize myself my own way." },
-        { "speaker": "Lucía", "nl": "Normal. Por eso al final busqué algo donde valoraran eso.", "en": "Makes sense. That's why in the end I found somewhere that valued that." }
+        { "speaker": "Lucía", "target": "Cuando entré en la agencia, mi jefa quería que llegáramos a las ocho en punto.", "en": "When I joined the agency, my boss wanted us in at eight sharp.", "spotlight": "Main verb *quería* (past) pulls the subordinate into subjuntivo imperfecto: *llegáramos*." },
+        { "speaker": "You", "target": "¿En serio? ¿Y también esperaba que trabajarais hasta tarde?", "en": "Really? And did she also expect you all to work late?" },
+        { "speaker": "Lucía", "target": "Total. Exigía que lo diéramos todo, todos los días.", "en": "Totally. She demanded we give it our all, every day." },
+        { "speaker": "You", "target": "Madre mía. Yo preferiría que me dejaran organizarme a mi manera.", "en": "Wow. I'd rather they let me organize myself my own way." },
+        { "speaker": "Lucía", "target": "Normal. Por eso al final busqué algo donde valoraran eso.", "en": "Makes sense. That's why in the end I found somewhere that valued that." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-60",
   "day": 60,
   "module": "M09",
@@ -37,11 +37,11 @@
       "type": "chips",
       "title": "Escucha las peticiones educadas",
       "items": [
-        { "nl": "¿Podrías ayudarme un momento?", "en": "Could you help me for a sec?", "speak": "¿Podrías ayudarme un momento?" },
-        { "nl": "Me gustaría un café, por favor.", "en": "I'd like a coffee, please.", "speak": "Me gustaría un café, por favor." },
-        { "nl": "¿Te importaría cerrar la ventana?", "en": "Would you mind closing the window?", "speak": "¿Te importaría cerrar la ventana?" },
-        { "nl": "Yo que tú, hablaría con ella.", "en": "If I were you, I'd talk to her.", "speak": "Yo que tú, hablaría con ella." },
-        { "nl": "¿Podríais bajar la música?", "en": "Could you (all) turn the music down?", "speak": "¿Podríais bajar la música?" }
+        { "target": "¿Podrías ayudarme un momento?", "en": "Could you help me for a sec?", "speak": "¿Podrías ayudarme un momento?" },
+        { "target": "Me gustaría un café, por favor.", "en": "I'd like a coffee, please.", "speak": "Me gustaría un café, por favor." },
+        { "target": "¿Te importaría cerrar la ventana?", "en": "Would you mind closing the window?", "speak": "¿Te importaría cerrar la ventana?" },
+        { "target": "Yo que tú, hablaría con ella.", "en": "If I were you, I'd talk to her.", "speak": "Yo que tú, hablaría con ella." },
+        { "target": "¿Podríais bajar la música?", "en": "Could you (all) turn the music down?", "speak": "¿Podríais bajar la música?" }
       ]
     },
     {
@@ -76,14 +76,14 @@
       "type": "dialogue",
       "scene": "En la terraza del bar, pidiendo con educación (y con hambre)",
       "lines": [
-        { "speaker": "Lucía", "nl": "¿Te importaría que nos sentáramos dentro? Aquí hace un sol horrible.", "en": "Would you mind if we sat inside? The sun's brutal here." },
-        { "speaker": "You", "nl": "Para nada. Yo también preferiría estar a la sombra.", "en": "Not at all. I'd rather be in the shade too.", "spotlight": "preferiría: condicional para expresar preferencia con suavidad." },
-        { "speaker": "Rafa", "nl": "Buah, yo pediría ya, ¿eh? Me comería un plato entero de croquetas.", "en": "Man, I'd order now, honestly. I could eat a whole plate of croquettes." },
-        { "speaker": "Lucía", "nl": "Jaja, tranquilo. ¿Podrías pedirle la carta al camarero?", "en": "Haha, easy. Could you ask the waiter for the menu?", "spotlight": "¿podrías…?: petición educada." },
-        { "speaker": "You", "nl": "Claro. ¿Y a vosotros os apetecería compartir una ración?", "en": "Sure. And would you two fancy sharing a plate?", "spotlight": "os apetecería: condicional + vosotros." },
-        { "speaker": "Rafa", "nl": "Sí. Yo que tú, pediría las bravas, están de vicio.", "en": "Yeah. If I were you, I'd get the bravas, they're amazing.", "spotlight": "yo que tú + condicional: consejo." },
-        { "speaker": "Lucía", "nl": "Vale. Yo tomaría una caña, pero conduzco, así que una sin.", "en": "Okay. I'd have a beer, but I'm driving, so an alcohol-free one." },
-        { "speaker": "You", "nl": "Buena idea. ¿Nos pedimos un agua también?", "en": "Good idea. Shall we get a water too?" }
+        { "speaker": "Lucía", "target": "¿Te importaría que nos sentáramos dentro? Aquí hace un sol horrible.", "en": "Would you mind if we sat inside? The sun's brutal here." },
+        { "speaker": "You", "target": "Para nada. Yo también preferiría estar a la sombra.", "en": "Not at all. I'd rather be in the shade too.", "spotlight": "preferiría: condicional para expresar preferencia con suavidad." },
+        { "speaker": "Rafa", "target": "Buah, yo pediría ya, ¿eh? Me comería un plato entero de croquetas.", "en": "Man, I'd order now, honestly. I could eat a whole plate of croquettes." },
+        { "speaker": "Lucía", "target": "Jaja, tranquilo. ¿Podrías pedirle la carta al camarero?", "en": "Haha, easy. Could you ask the waiter for the menu?", "spotlight": "¿podrías…?: petición educada." },
+        { "speaker": "You", "target": "Claro. ¿Y a vosotros os apetecería compartir una ración?", "en": "Sure. And would you two fancy sharing a plate?", "spotlight": "os apetecería: condicional + vosotros." },
+        { "speaker": "Rafa", "target": "Sí. Yo que tú, pediría las bravas, están de vicio.", "en": "Yeah. If I were you, I'd get the bravas, they're amazing.", "spotlight": "yo que tú + condicional: consejo." },
+        { "speaker": "Lucía", "target": "Vale. Yo tomaría una caña, pero conduzco, así que una sin.", "en": "Okay. I'd have a beer, but I'm driving, so an alcohol-free one." },
+        { "speaker": "You", "target": "Buena idea. ¿Nos pedimos un agua también?", "en": "Good idea. Shall we get a water too?" }
       ]
     },
     {

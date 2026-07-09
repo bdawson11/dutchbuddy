@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-68",
   "day": 68,
   "module": "M10",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "Cosa stai facendo?",
       "items": [
-        { "nl": "Sto preparando le scatole.", "en": "I'm packing the boxes.", "speak": "Sto preparando le scatole." },
-        { "nl": "Stiamo mangiando, richiamo dopo.", "en": "We're eating, I'll call back later.", "speak": "Stiamo mangiando, richiamo dopo." },
-        { "nl": "Sta piovendo forte.", "en": "It's raining hard.", "speak": "Sta piovendo forte." },
-        { "nl": "Cosa stai dicendo?", "en": "What are you saying?", "speak": "Cosa stai dicendo?" }
+        { "target": "Sto preparando le scatole.", "en": "I'm packing the boxes.", "speak": "Sto preparando le scatole." },
+        { "target": "Stiamo mangiando, richiamo dopo.", "en": "We're eating, I'll call back later.", "speak": "Stiamo mangiando, richiamo dopo." },
+        { "target": "Sta piovendo forte.", "en": "It's raining hard.", "speak": "Sta piovendo forte." },
+        { "target": "Cosa stai dicendo?", "en": "What are you saying?", "speak": "Cosa stai dicendo?" }
       ]
     },
     {
@@ -64,12 +64,12 @@
       "type": "dialogue",
       "scene": "La sera prima del trasloco. Sofia ha deciso: domani parte per Milano. Sta facendo le ultime scatole.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Allora ci siamo davvero. Domani stai per partire.", "en": "So this is really it. Tomorrow you're about to leave.", "spotlight": "*stai per partire* — l'azione imminente, non ancora iniziata." },
-        { "speaker": "Sofia", "nl": "Eh sì. Sto finendo di chiudere le ultime scatole adesso.", "en": "Yeah. I'm just finishing sealing the last boxes now." },
-        { "speaker": "You", "nl": "Come ti senti? Un po' agitata?", "en": "How do you feel? A bit nervous?" },
-        { "speaker": "Sofia", "nl": "Boh, sto ancora realizzando che domani cambio città.", "en": "Dunno, I'm still processing that tomorrow I'm changing cities." },
-        { "speaker": "Giulia", "nl": "Milano ti aspetta. Ce la farai alla grande, vedrai.", "en": "Milan's waiting for you. You'll do great, you'll see." },
-        { "speaker": "Sofia", "nl": "Il furgone sta per arrivare alle otto, quindi vado a dormire. Vi voglio bene, ragazzi.", "en": "The van's due at eight, so I'm off to bed. I love you guys." }
+        { "speaker": "Giulia", "target": "Allora ci siamo davvero. Domani stai per partire.", "en": "So this is really it. Tomorrow you're about to leave.", "spotlight": "*stai per partire* — l'azione imminente, non ancora iniziata." },
+        { "speaker": "Sofia", "target": "Eh sì. Sto finendo di chiudere le ultime scatole adesso.", "en": "Yeah. I'm just finishing sealing the last boxes now." },
+        { "speaker": "You", "target": "Come ti senti? Un po' agitata?", "en": "How do you feel? A bit nervous?" },
+        { "speaker": "Sofia", "target": "Boh, sto ancora realizzando che domani cambio città.", "en": "Dunno, I'm still processing that tomorrow I'm changing cities." },
+        { "speaker": "Giulia", "target": "Milano ti aspetta. Ce la farai alla grande, vedrai.", "en": "Milan's waiting for you. You'll do great, you'll see." },
+        { "speaker": "Sofia", "target": "Il furgone sta per arrivare alle otto, quindi vado a dormire. Vi voglio bene, ragazzi.", "en": "The van's due at eight, so I'm off to bed. I love you guys." }
       ]
     },
     {

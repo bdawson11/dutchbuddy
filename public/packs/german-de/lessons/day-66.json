@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-66",
   "day": 66,
   "module": "M10",
@@ -29,12 +29,12 @@
       "type": "chips",
       "title": "Schilder und Nachrichten — tap to hear",
       "items": [
-        { "nl": "Hier wird gebaut.", "en": "Construction here.", "speak": "Hier wird gebaut." },
-        { "nl": "Hier wird gearbeitet.", "en": "Work in progress.", "speak": "Hier wird gearbeitet." },
-        { "nl": "Der Aufzug wird repariert.", "en": "The lift is being repaired.", "speak": "Der Aufzug wird repariert." },
-        { "nl": "Die Straße wird gesperrt.", "en": "The road is being closed.", "speak": "Die Straße wird gesperrt." },
-        { "nl": "Heute wird gestreikt.", "en": "There's a strike today.", "speak": "Heute wird gestreikt." },
-        { "nl": "Der Laden wird renoviert.", "en": "The shop is being renovated.", "speak": "Der Laden wird renoviert." }
+        { "target": "Hier wird gebaut.", "en": "Construction here.", "speak": "Hier wird gebaut." },
+        { "target": "Hier wird gearbeitet.", "en": "Work in progress.", "speak": "Hier wird gearbeitet." },
+        { "target": "Der Aufzug wird repariert.", "en": "The lift is being repaired.", "speak": "Der Aufzug wird repariert." },
+        { "target": "Die Straße wird gesperrt.", "en": "The road is being closed.", "speak": "Die Straße wird gesperrt." },
+        { "target": "Heute wird gestreikt.", "en": "There's a strike today.", "speak": "Heute wird gestreikt." },
+        { "target": "Der Laden wird renoviert.", "en": "The shop is being renovated.", "speak": "Der Laden wird renoviert." }
       ]
     },
     {
@@ -77,13 +77,13 @@
       "type": "dialogue",
       "scene": "You and Lena hit a wall of construction signs on the way to the café.",
       "lines": [
-        { "speaker": "Lena", "nl": "Guck mal, hier wird mal wieder gebaut. Die ganze Straße wird gesperrt.", "en": "Look, they're building here again. The whole street's being closed.", "spotlight": "*wird gebaut*, *wird gesperrt* — two passives, no doer named." },
-        { "speaker": "You", "nl": "Und die U-Bahn? Fährt die?", "en": "And the subway? Is it running?" },
-        { "speaker": "Lena", "nl": "Nein, steht da: Heute wird nicht gefahren. Streik.", "en": "No, it says: no service today. Strike.", "spotlight": "*Heute wird nicht gefahren* — subjectless passive, pure sign-German." },
-        { "speaker": "You", "nl": "Na super. Dann laufen wir.", "en": "Great. We'll walk, then." },
-        { "speaker": "Lena", "nl": "Passt. Übrigens — Aylins Sache wird gerade entschieden. Diese Woche noch.", "en": "Fine by me. By the way — Aylin's thing is being decided right now. This very week.", "spotlight": "*wird entschieden* — even Aylin's decision gets the passive; still not final." },
-        { "speaker": "You", "nl": "Ich drück ihr die Daumen.", "en": "I'll keep my fingers crossed for her." },
-        { "speaker": "Lena", "nl": "Ich auch. So, hier wird jetzt Kaffee getrunken.", "en": "Me too. Right — coffee is now being drunk here.", "spotlight": "A playful passive: *hier wird Kaffee getrunken*." }
+        { "speaker": "Lena", "target": "Guck mal, hier wird mal wieder gebaut. Die ganze Straße wird gesperrt.", "en": "Look, they're building here again. The whole street's being closed.", "spotlight": "*wird gebaut*, *wird gesperrt* — two passives, no doer named." },
+        { "speaker": "You", "target": "Und die U-Bahn? Fährt die?", "en": "And the subway? Is it running?" },
+        { "speaker": "Lena", "target": "Nein, steht da: Heute wird nicht gefahren. Streik.", "en": "No, it says: no service today. Strike.", "spotlight": "*Heute wird nicht gefahren* — subjectless passive, pure sign-German." },
+        { "speaker": "You", "target": "Na super. Dann laufen wir.", "en": "Great. We'll walk, then." },
+        { "speaker": "Lena", "target": "Passt. Übrigens — Aylins Sache wird gerade entschieden. Diese Woche noch.", "en": "Fine by me. By the way — Aylin's thing is being decided right now. This very week.", "spotlight": "*wird entschieden* — even Aylin's decision gets the passive; still not final." },
+        { "speaker": "You", "target": "Ich drück ihr die Daumen.", "en": "I'll keep my fingers crossed for her." },
+        { "speaker": "Lena", "target": "Ich auch. So, hier wird jetzt Kaffee getrunken.", "en": "Me too. Right — coffee is now being drunk here.", "spotlight": "A playful passive: *hier wird Kaffee getrunken*." }
       ]
     },
     {

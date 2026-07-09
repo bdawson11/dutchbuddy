@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-47",
   "day": 47,
   "module": "M07",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Quanto spesso? — tocca per sentire",
       "items": [
-        { "nl": "sempre", "en": "always", "speak": "sempre" },
-        { "nl": "spesso", "en": "often", "speak": "spesso" },
-        { "nl": "di solito", "en": "usually", "speak": "di solito" },
-        { "nl": "ogni tanto", "en": "once in a while", "speak": "ogni tanto" },
-        { "nl": "raramente", "en": "rarely", "speak": "raramente" },
-        { "nl": "mai", "en": "never (with non)", "speak": "mai" }
+        { "target": "sempre", "en": "always", "speak": "sempre" },
+        { "target": "spesso", "en": "often", "speak": "spesso" },
+        { "target": "di solito", "en": "usually", "speak": "di solito" },
+        { "target": "ogni tanto", "en": "once in a while", "speak": "ogni tanto" },
+        { "target": "raramente", "en": "rarely", "speak": "raramente" },
+        { "target": "mai", "en": "never (with non)", "speak": "mai" }
       ]
     },
     {
@@ -71,11 +71,11 @@
       "type": "dialogue",
       "scene": "Marco tells You how his habits have changed since working at the bookshop",
       "lines": [
-        { "speaker": "Marco", "nl": "Prima uscivo ogni sera, adesso raramente.", "en": "Before I used to go out every night, now rarely." },
-        { "speaker": "You", "nl": "Perché? Sei cambiato?", "en": "Why? Have you changed?" },
-        { "speaker": "Marco", "nl": "Boh, forse. Prima non pensavo mai al lavoro, adesso ci penso sempre.", "en": "Boh, maybe. Before I never used to think about work, now I think about it all the time.", "spotlight": "ci penso — un'anticipazione: ci + pensare, il clitico che padroneggerai bene in settimana 10." },
-        { "speaker": "You", "nl": "E la musica? Suoni ancora?", "en": "And the music? Do you still play?" },
-        { "speaker": "Marco", "nl": "Ogni tanto, la sera. Ma prima suonavo tutti i giorni.", "en": "Once in a while, in the evening. But before I used to play every day." }
+        { "speaker": "Marco", "target": "Prima uscivo ogni sera, adesso raramente.", "en": "Before I used to go out every night, now rarely." },
+        { "speaker": "You", "target": "Perché? Sei cambiato?", "en": "Why? Have you changed?" },
+        { "speaker": "Marco", "target": "Boh, forse. Prima non pensavo mai al lavoro, adesso ci penso sempre.", "en": "Boh, maybe. Before I never used to think about work, now I think about it all the time.", "spotlight": "ci penso — un'anticipazione: ci + pensare, il clitico che padroneggerai bene in settimana 10." },
+        { "speaker": "You", "target": "E la musica? Suoni ancora?", "en": "And the music? Do you still play?" },
+        { "speaker": "Marco", "target": "Ogni tanto, la sera. Ma prima suonavo tutti i giorni.", "en": "Once in a while, in the evening. But before I used to play every day." }
       ]
     },
     {

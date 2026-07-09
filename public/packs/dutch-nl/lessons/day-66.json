@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-66",
   "day": 66,
   "module": "M10",
@@ -28,12 +28,12 @@
       "type": "chips",
       "title": "Tik om te horen — borden & nieuws",
       "items": [
-        { "nl": "Hier wordt gewerkt.", "en": "Work in progress here.", "speak": "Hier wordt gewerkt." },
-        { "nl": "De weg wordt afgesloten.", "en": "The road is being closed.", "speak": "De weg wordt afgesloten." },
-        { "nl": "Er wordt gestaakt.", "en": "There's a strike on.", "speak": "Er wordt gestaakt." },
-        { "nl": "De winkel wordt verbouwd.", "en": "The shop is being renovated.", "speak": "De winkel wordt verbouwd." },
-        { "nl": "Er wordt gebeld.", "en": "Someone's at the door.", "speak": "Er wordt gebeld." },
-        { "nl": "Het pakket wordt vandaag bezorgd.", "en": "The parcel is being delivered today.", "speak": "Het pakket wordt vandaag bezorgd." }
+        { "target": "Hier wordt gewerkt.", "en": "Work in progress here.", "speak": "Hier wordt gewerkt." },
+        { "target": "De weg wordt afgesloten.", "en": "The road is being closed.", "speak": "De weg wordt afgesloten." },
+        { "target": "Er wordt gestaakt.", "en": "There's a strike on.", "speak": "Er wordt gestaakt." },
+        { "target": "De winkel wordt verbouwd.", "en": "The shop is being renovated.", "speak": "De winkel wordt verbouwd." },
+        { "target": "Er wordt gebeld.", "en": "Someone's at the door.", "speak": "Er wordt gebeld." },
+        { "target": "Het pakket wordt vandaag bezorgd.", "en": "The parcel is being delivered today.", "speak": "Het pakket wordt vandaag bezorgd." }
       ]
     },
     {
@@ -68,13 +68,13 @@
       "type": "dialogue",
       "scene": "Je loopt met Emma door de Pijp. Overal wordt gebouwd.",
       "lines": [
-        { "speaker": "Emma", "nl": "Kijk, hier wordt weer gewerkt. De hele straat wordt opnieuw gelegd.", "en": "Look, they're working here again. The whole street is being repaved.", "spotlight": "wordt gewerkt / wordt gelegd — impersonal passive and a normal passive side by side." },
-        { "speaker": "You", "nl": "Wat wordt daar gebouwd?", "en": "What's being built over there?" },
-        { "speaker": "Emma", "nl": "Een nieuw café, geloof ik. Het oude pand wordt verbouwd.", "en": "A new café, I think. The old building is being renovated." },
-        { "speaker": "You", "nl": "En de brug? Die is dicht.", "en": "And the bridge? It's closed." },
-        { "speaker": "Emma", "nl": "Ja, die wordt gerepareerd. Er wordt hier altijd wel iets gedaan, hoor.", "en": "Yeah, it's being repaired. There's always something being done here.", "spotlight": "er wordt … iets gedaan — the doer-less passive in the wild." },
-        { "speaker": "You", "nl": "Amsterdam: één grote bouwplaats.", "en": "Amsterdam: one big construction site." },
-        { "speaker": "Emma", "nl": "Precies! Zullen we koffie doen? Verderop wordt niet gewerkt.", "en": "Exactly! Shall we get coffee? Further along there's no work going on." }
+        { "speaker": "Emma", "target": "Kijk, hier wordt weer gewerkt. De hele straat wordt opnieuw gelegd.", "en": "Look, they're working here again. The whole street is being repaved.", "spotlight": "wordt gewerkt / wordt gelegd — impersonal passive and a normal passive side by side." },
+        { "speaker": "You", "target": "Wat wordt daar gebouwd?", "en": "What's being built over there?" },
+        { "speaker": "Emma", "target": "Een nieuw café, geloof ik. Het oude pand wordt verbouwd.", "en": "A new café, I think. The old building is being renovated." },
+        { "speaker": "You", "target": "En de brug? Die is dicht.", "en": "And the bridge? It's closed." },
+        { "speaker": "Emma", "target": "Ja, die wordt gerepareerd. Er wordt hier altijd wel iets gedaan, hoor.", "en": "Yeah, it's being repaired. There's always something being done here.", "spotlight": "er wordt … iets gedaan — the doer-less passive in the wild." },
+        { "speaker": "You", "target": "Amsterdam: één grote bouwplaats.", "en": "Amsterdam: one big construction site." },
+        { "speaker": "Emma", "target": "Precies! Zullen we koffie doen? Verderop wordt niet gewerkt.", "en": "Exactly! Shall we get coffee? Further along there's no work going on." }
       ]
     },
     {

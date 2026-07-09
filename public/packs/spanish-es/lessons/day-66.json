@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-66",
   "day": 66,
   "module": "M10",
@@ -59,12 +59,12 @@
       "type": "chips",
       "title": "Toca para oír por y para",
       "items": [
-        { "nl": "Gracias por todo.", "en": "Thanks for everything.", "speak": "gracias por todo" },
-        { "nl": "Esto es para ti.", "en": "This is for you.", "speak": "esto es para ti" },
-        { "nl": "Salgo para el trabajo.", "en": "I'm off to work.", "speak": "salgo para el trabajo" },
-        { "nl": "Lo hice por ti.", "en": "I did it for your sake.", "speak": "lo hice por ti" },
-        { "nl": "Para mí, un café.", "en": "For me, a coffee.", "speak": "para mí, un café" },
-        { "nl": "Te llamo por la tarde.", "en": "I'll call you in the afternoon.", "speak": "te llamo por la tarde" }
+        { "target": "Gracias por todo.", "en": "Thanks for everything.", "speak": "gracias por todo" },
+        { "target": "Esto es para ti.", "en": "This is for you.", "speak": "esto es para ti" },
+        { "target": "Salgo para el trabajo.", "en": "I'm off to work.", "speak": "salgo para el trabajo" },
+        { "target": "Lo hice por ti.", "en": "I did it for your sake.", "speak": "lo hice por ti" },
+        { "target": "Para mí, un café.", "en": "For me, a coffee.", "speak": "para mí, un café" },
+        { "target": "Te llamo por la tarde.", "en": "I'll call you in the afternoon.", "speak": "te llamo por la tarde" }
       ]
     },
     {
@@ -91,14 +91,14 @@
       "type": "dialogue",
       "scene": "Lucía te cuenta por qué Sofía se plantea el cambio (todavía no ha decidido).",
       "lines": [
-        { "speaker": "Lucía", "nl": "Mira, Sofía lo está pensando por el trabajo, sobre todo.", "en": "Look, Sofía's thinking about it mainly because of the job." },
-        { "speaker": "You", "nl": "Ya. Y el piso de Valencia, ¿es para ella sola?", "en": "Right. And the flat in Valencia, is it for her alone?" },
-        { "speaker": "Lucía", "nl": "Sí, es para ella. Pequeño, pero para empezar está bien.", "en": "Yeah, it's for her. Small, but to start out it's fine.", "spotlight": "para ella (recipient) + para empezar (purpose)." },
-        { "speaker": "You", "nl": "¿Y se va para siempre o…?", "en": "And is she going for good or…?" },
-        { "speaker": "Lucía", "nl": "De momento, para un año. Luego ya veremos.", "en": "For now, for a year. Then we'll see." },
-        { "speaker": "You", "nl": "Oye, ¿y hacemos algo por ella antes de que se vaya?", "en": "Hey, should we do something for her before she leaves?" },
-        { "speaker": "Lucía", "nl": "¡Claro! Una cena. Por los viejos tiempos, ¿no?", "en": "Of course! A dinner. For old times' sake, right?", "spotlight": "por ella / por los viejos tiempos = cause & sake." },
-        { "speaker": "You", "nl": "Perfecto. Para mí, cualquier día menos el lunes.", "en": "Perfect. For me, any day but Monday." }
+        { "speaker": "Lucía", "target": "Mira, Sofía lo está pensando por el trabajo, sobre todo.", "en": "Look, Sofía's thinking about it mainly because of the job." },
+        { "speaker": "You", "target": "Ya. Y el piso de Valencia, ¿es para ella sola?", "en": "Right. And the flat in Valencia, is it for her alone?" },
+        { "speaker": "Lucía", "target": "Sí, es para ella. Pequeño, pero para empezar está bien.", "en": "Yeah, it's for her. Small, but to start out it's fine.", "spotlight": "para ella (recipient) + para empezar (purpose)." },
+        { "speaker": "You", "target": "¿Y se va para siempre o…?", "en": "And is she going for good or…?" },
+        { "speaker": "Lucía", "target": "De momento, para un año. Luego ya veremos.", "en": "For now, for a year. Then we'll see." },
+        { "speaker": "You", "target": "Oye, ¿y hacemos algo por ella antes de que se vaya?", "en": "Hey, should we do something for her before she leaves?" },
+        { "speaker": "Lucía", "target": "¡Claro! Una cena. Por los viejos tiempos, ¿no?", "en": "Of course! A dinner. For old times' sake, right?", "spotlight": "por ella / por los viejos tiempos = cause & sake." },
+        { "speaker": "You", "target": "Perfecto. Para mí, cualquier día menos el lunes.", "en": "Perfect. For me, any day but Monday." }
       ]
     },
     {

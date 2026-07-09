@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-55",
   "day": 55,
   "module": "M08",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "Ripasso veloce",
       "items": [
-        { "nl": "Andrò a Roma il mese prossimo.", "en": "I'll go to Rome next month.", "speak": "Andrò a Roma il mese prossimo." },
-        { "nl": "Ho intenzione di imparare bene l'italiano.", "en": "I intend to learn Italian well.", "speak": "Ho intenzione di imparare bene l'italiano." },
-        { "nl": "Secondo me, ne vale la pena.", "en": "In my opinion, it's worth it.", "speak": "Secondo me, ne vale la pena." },
-        { "nl": "Il modo migliore per imparare è parlare.", "en": "The best way to learn is to speak.", "speak": "Il modo migliore per imparare è parlare." }
+        { "target": "Andrò a Roma il mese prossimo.", "en": "I'll go to Rome next month.", "speak": "Andrò a Roma il mese prossimo." },
+        { "target": "Ho intenzione di imparare bene l'italiano.", "en": "I intend to learn Italian well.", "speak": "Ho intenzione di imparare bene l'italiano." },
+        { "target": "Secondo me, ne vale la pena.", "en": "In my opinion, it's worth it.", "speak": "Secondo me, ne vale la pena." },
+        { "target": "Il modo migliore per imparare è parlare.", "en": "The best way to learn is to speak.", "speak": "Il modo migliore per imparare è parlare." }
       ]
     },
     {
@@ -45,14 +45,14 @@
       "type": "dialogue",
       "scene": "At the bar, Marco starts a debate: do you really need to learn Italian to live in Italy?",
       "lines": [
-        { "speaker": "Marco", "nl": "Allora, secondo me devi imparare l'italiano se vivi qui. Punto.", "en": "So, in my opinion you have to learn Italian if you live here. Full stop." },
-        { "speaker": "Giulia", "nl": "Dai Marco, non è così semplice. Tante persone vivono qui e parlano solo inglese.", "en": "Come on Marco, it's not that simple. Lots of people live here and only speak English." },
-        { "speaker": "Marco", "nl": "Sì, ma se non parli italiano, perdi tutto il bello della vita qui — le battute, il mercato, i vicini.", "en": "Yes, but if you don't speak Italian, you miss everything good about life here — the jokes, the market, the neighbors." },
-        { "speaker": "You", "nl": "Sono d'accordo con Marco. Quando parlo italiano, la gente è più aperta con me.", "en": "I agree with Marco. When I speak Italian, people are more open with me.", "spotlight": "quando + presente here, not futuro — this is a general habit, not a one-off future event." },
-        { "speaker": "Giulia", "nl": "Vero. E poi, imparare la lingua è anche più divertente che restare fuori.", "en": "True. Plus, learning the language is also more fun than staying on the outside.", "spotlight": "più… che before another verb — che replaces di when comparing to an infinitive." },
-        { "speaker": "Marco", "nl": "Esatto! Anche se, devo ammettere... il congiuntivo mi fa ancora paura.", "en": "Exactly! Although, I have to admit... the congiuntivo still scares me." },
-        { "speaker": "You", "nl": "Anche a me, un po'. Ma penso che, piano piano, ce la faremo.", "en": "Me too, a bit. But I think that, slowly, we'll manage." },
-        { "speaker": "Giulia", "nl": "Ci sarà sempre tempo per imparare bene. L'importante è provarci.", "en": "There will always be time to learn well. What matters is trying." }
+        { "speaker": "Marco", "target": "Allora, secondo me devi imparare l'italiano se vivi qui. Punto.", "en": "So, in my opinion you have to learn Italian if you live here. Full stop." },
+        { "speaker": "Giulia", "target": "Dai Marco, non è così semplice. Tante persone vivono qui e parlano solo inglese.", "en": "Come on Marco, it's not that simple. Lots of people live here and only speak English." },
+        { "speaker": "Marco", "target": "Sì, ma se non parli italiano, perdi tutto il bello della vita qui — le battute, il mercato, i vicini.", "en": "Yes, but if you don't speak Italian, you miss everything good about life here — the jokes, the market, the neighbors." },
+        { "speaker": "You", "target": "Sono d'accordo con Marco. Quando parlo italiano, la gente è più aperta con me.", "en": "I agree with Marco. When I speak Italian, people are more open with me.", "spotlight": "quando + presente here, not futuro — this is a general habit, not a one-off future event." },
+        { "speaker": "Giulia", "target": "Vero. E poi, imparare la lingua è anche più divertente che restare fuori.", "en": "True. Plus, learning the language is also more fun than staying on the outside.", "spotlight": "più… che before another verb — che replaces di when comparing to an infinitive." },
+        { "speaker": "Marco", "target": "Esatto! Anche se, devo ammettere... il congiuntivo mi fa ancora paura.", "en": "Exactly! Although, I have to admit... the congiuntivo still scares me." },
+        { "speaker": "You", "target": "Anche a me, un po'. Ma penso che, piano piano, ce la faremo.", "en": "Me too, a bit. But I think that, slowly, we'll manage." },
+        { "speaker": "Giulia", "target": "Ci sarà sempre tempo per imparare bene. L'importante è provarci.", "en": "There will always be time to learn well. What matters is trying." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-36",
   "day": 36,
   "module": "M06",
@@ -21,14 +21,14 @@
       "type": "chips",
       "title": "Le parti del corpo",
       "items": [
-        { "nl": "la testa", "en": "head", "speak": "la testa" },
-        { "nl": "lo stomaco", "en": "stomach", "speak": "lo stomaco" },
-        { "nl": "la schiena", "en": "back", "speak": "la schiena" },
-        { "nl": "il braccio", "en": "arm", "speak": "il braccio" },
-        { "nl": "la gamba", "en": "leg", "speak": "la gamba" },
-        { "nl": "il piede", "en": "foot", "speak": "il piede" },
-        { "nl": "la gola", "en": "throat", "speak": "la gola" },
-        { "nl": "l'orecchio", "en": "ear", "speak": "l'orecchio" }
+        { "target": "la testa", "en": "head", "speak": "la testa" },
+        { "target": "lo stomaco", "en": "stomach", "speak": "lo stomaco" },
+        { "target": "la schiena", "en": "back", "speak": "la schiena" },
+        { "target": "il braccio", "en": "arm", "speak": "il braccio" },
+        { "target": "la gamba", "en": "leg", "speak": "la gamba" },
+        { "target": "il piede", "en": "foot", "speak": "il piede" },
+        { "target": "la gola", "en": "throat", "speak": "la gola" },
+        { "target": "l'orecchio", "en": "ear", "speak": "l'orecchio" }
       ]
     },
     {

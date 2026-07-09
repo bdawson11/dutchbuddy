@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-49",
   "day": 49,
   "module": "M07",
@@ -60,11 +60,11 @@
       "type": "chips",
       "title": "Bouwstenen voor mijn verhaal",
       "items": [
-        { "nl": "Ik kom uit…", "en": "I'm from…", "speak": "ik kom uit" },
-        { "nl": "Ik leer Nederlands.", "en": "I'm learning Dutch.", "speak": "ik leer Nederlands" },
-        { "nl": "Ik houd van…", "en": "I love…", "speak": "ik houd van" },
-        { "nl": "Vorige week heb ik…", "en": "Last week I…", "speak": "vorige week heb ik" },
-        { "nl": "Toen ik klein was,…", "en": "When I was little,…", "speak": "toen ik klein was" }
+        { "target": "Ik kom uit…", "en": "I'm from…", "speak": "ik kom uit" },
+        { "target": "Ik leer Nederlands.", "en": "I'm learning Dutch.", "speak": "ik leer Nederlands" },
+        { "target": "Ik houd van…", "en": "I love…", "speak": "ik houd van" },
+        { "target": "Vorige week heb ik…", "en": "Last week I…", "speak": "vorige week heb ik" },
+        { "target": "Toen ik klein was,…", "en": "When I was little,…", "speak": "toen ik klein was" }
       ]
     },
     {
@@ -90,11 +90,11 @@
       "type": "dialogue",
       "scene": "Emma asks about your childhood over lunch. Try your new line out loud.",
       "lines": [
-        { "speaker": "Emma", "nl": "Kijk, ik ben benieuwd — waar groeide jij op?", "en": "So, I'm curious — where did you grow up?", "spotlight": "*groeide* — imperfectum of *groeien* (op) (to grow up)." },
-        { "speaker": "You", "nl": "Toen ik klein was, woonde ik op het platteland.", "en": "When I was little, I lived in the countryside." },
-        { "speaker": "Emma", "nl": "Wat leuk! En wat deed je daar zoal?", "en": "How nice! And what did you get up to there?" },
-        { "speaker": "You", "nl": "Ik speelde altijd buiten en ging vaak naar mijn oma.", "en": "I always played outside and often went to my grandma's." },
-        { "speaker": "Emma", "nl": "Gezellig, joh. Klinkt als een fijne jeugd.", "en": "How lovely. Sounds like a happy childhood.", "spotlight": "*jeugd* = childhood / youth." }
+        { "speaker": "Emma", "target": "Kijk, ik ben benieuwd — waar groeide jij op?", "en": "So, I'm curious — where did you grow up?", "spotlight": "*groeide* — imperfectum of *groeien* (op) (to grow up)." },
+        { "speaker": "You", "target": "Toen ik klein was, woonde ik op het platteland.", "en": "When I was little, I lived in the countryside." },
+        { "speaker": "Emma", "target": "Wat leuk! En wat deed je daar zoal?", "en": "How nice! And what did you get up to there?" },
+        { "speaker": "You", "target": "Ik speelde altijd buiten en ging vaak naar mijn oma.", "en": "I always played outside and often went to my grandma's." },
+        { "speaker": "Emma", "target": "Gezellig, joh. Klinkt als een fijne jeugd.", "en": "How lovely. Sounds like a happy childhood.", "spotlight": "*jeugd* = childhood / youth." }
       ]
     },
     {

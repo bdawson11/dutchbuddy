@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-18",
   "day": 18,
   "module": "M03",
@@ -31,12 +31,12 @@
       "type": "chips",
       "title": "Tap to hear them",
       "items": [
-        { "nl": "straat", "en": "street", "speak": "straat" },
-        { "nl": "plein", "en": "square", "speak": "plein" },
-        { "nl": "gracht", "en": "canal", "speak": "gracht" },
-        { "nl": "winkel", "en": "shop", "speak": "winkel" },
-        { "nl": "supermarkt", "en": "supermarket", "speak": "supermarkt" },
-        { "nl": "buurt", "en": "neighborhood", "speak": "buurt" }
+        { "target": "straat", "en": "street", "speak": "straat" },
+        { "target": "plein", "en": "square", "speak": "plein" },
+        { "target": "gracht", "en": "canal", "speak": "gracht" },
+        { "target": "winkel", "en": "shop", "speak": "winkel" },
+        { "target": "supermarkt", "en": "supermarket", "speak": "supermarkt" },
+        { "target": "buurt", "en": "neighborhood", "speak": "buurt" }
       ]
     },
     {
@@ -75,12 +75,12 @@
       "type": "dialogue",
       "scene": "At the café, Daan asks about your neighborhood.",
       "lines": [
-        { "speaker": "Daan", "nl": "Woon je nog in het centrum?", "en": "Do you still live in the center?" },
-        { "speaker": "You", "nl": "Nee, ik woon nu in de Pijp.", "en": "No, I live in the Pijp now." },
-        { "speaker": "Daan", "nl": "Leuke buurt, hoor! Is er een supermarkt dichtbij?", "en": "Nice neighborhood! Is there a supermarket nearby?", "spotlight": "buurt — neighborhood, today's theme word." },
-        { "speaker": "You", "nl": "Ja, en een gezellig plein om de hoek.", "en": "Yes, and a cozy square around the corner." },
-        { "speaker": "Daan", "nl": "Wat is je postcode?", "en": "What's your postcode?" },
-        { "speaker": "You", "nl": "1073 AB.", "en": "1073 AB." }
+        { "speaker": "Daan", "target": "Woon je nog in het centrum?", "en": "Do you still live in the center?" },
+        { "speaker": "You", "target": "Nee, ik woon nu in de Pijp.", "en": "No, I live in the Pijp now." },
+        { "speaker": "Daan", "target": "Leuke buurt, hoor! Is er een supermarkt dichtbij?", "en": "Nice neighborhood! Is there a supermarket nearby?", "spotlight": "buurt — neighborhood, today's theme word." },
+        { "speaker": "You", "target": "Ja, en een gezellig plein om de hoek.", "en": "Yes, and a cozy square around the corner." },
+        { "speaker": "Daan", "target": "Wat is je postcode?", "en": "What's your postcode?" },
+        { "speaker": "You", "target": "1073 AB.", "en": "1073 AB." }
       ]
     },
     {

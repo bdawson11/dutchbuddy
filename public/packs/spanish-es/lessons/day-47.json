@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-47",
   "day": 47,
   "module": "M07",
@@ -41,12 +41,12 @@
       "type": "chips",
       "title": "Conectores de la narración",
       "items": [
-        { "nl": "mientras", "en": "while", "speak": "mientras" },
-        { "nl": "cuando", "en": "when", "speak": "cuando" },
-        { "nl": "de repente", "en": "suddenly", "speak": "de repente" },
-        { "nl": "de pronto", "en": "all of a sudden", "speak": "de pronto" },
-        { "nl": "en ese momento", "en": "at that moment", "speak": "en ese momento" },
-        { "nl": "entonces", "en": "then", "speak": "entonces" }
+        { "target": "mientras", "en": "while", "speak": "mientras" },
+        { "target": "cuando", "en": "when", "speak": "cuando" },
+        { "target": "de repente", "en": "suddenly", "speak": "de repente" },
+        { "target": "de pronto", "en": "all of a sudden", "speak": "de pronto" },
+        { "target": "en ese momento", "en": "at that moment", "speak": "en ese momento" },
+        { "target": "entonces", "en": "then", "speak": "entonces" }
       ]
     },
     {
@@ -80,12 +80,12 @@
       "type": "dialogue",
       "scene": "Sofía tells you about something strange she saw on her way to work",
       "lines": [
-        { "speaker": "Sofía", "nl": "Esta mañana caminaba al trabajo cuando vi algo muy raro.", "en": "This morning I was walking to work when I saw something really strange." },
-        { "speaker": "You", "nl": "¿Qué viste?", "en": "What did you see?" },
-        { "speaker": "Sofía", "nl": "Un hombre paseaba a su gato con correa, ¡como si fuera un perro!", "en": "A man was walking his cat on a leash, like it was a dog!", "spotlight": "paseaba — imperfecto para describir la escena en curso." },
-        { "speaker": "You", "nl": "Jajaja, ¡qué fuerte! ¿Y qué hiciste?", "en": "Haha, no way! And what did you do?" },
-        { "speaker": "Sofía", "nl": "Me paré, saqué el móvil e hice una foto.", "en": "I stopped, took out my phone, and took a photo." },
-        { "speaker": "You", "nl": "Buena historia para contar en el bar.", "en": "Good story to tell at the bar." }
+        { "speaker": "Sofía", "target": "Esta mañana caminaba al trabajo cuando vi algo muy raro.", "en": "This morning I was walking to work when I saw something really strange." },
+        { "speaker": "You", "target": "¿Qué viste?", "en": "What did you see?" },
+        { "speaker": "Sofía", "target": "Un hombre paseaba a su gato con correa, ¡como si fuera un perro!", "en": "A man was walking his cat on a leash, like it was a dog!", "spotlight": "paseaba — imperfecto para describir la escena en curso." },
+        { "speaker": "You", "target": "Jajaja, ¡qué fuerte! ¿Y qué hiciste?", "en": "Haha, no way! And what did you do?" },
+        { "speaker": "Sofía", "target": "Me paré, saqué el móvil e hice una foto.", "en": "I stopped, took out my phone, and took a photo." },
+        { "speaker": "You", "target": "Buena historia para contar en el bar.", "en": "Good story to tell at the bar." }
       ]
     },
     {

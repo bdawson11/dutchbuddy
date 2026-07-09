@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-04",
   "day": 4,
   "module": "M01",
@@ -31,12 +31,12 @@
       "type": "chips",
       "title": "Tap to hear ser",
       "items": [
-        { "nl": "soy", "en": "I am", "speak": "soy" },
-        { "nl": "eres", "en": "you are", "speak": "eres" },
-        { "nl": "es", "en": "he/she is", "speak": "es" },
-        { "nl": "somos", "en": "we are", "speak": "somos" },
-        { "nl": "sois", "en": "you all are", "speak": "sois" },
-        { "nl": "son", "en": "they are", "speak": "son" }
+        { "target": "soy", "en": "I am", "speak": "soy" },
+        { "target": "eres", "en": "you are", "speak": "eres" },
+        { "target": "es", "en": "he/she is", "speak": "es" },
+        { "target": "somos", "en": "we are", "speak": "somos" },
+        { "target": "sois", "en": "you all are", "speak": "sois" },
+        { "target": "son", "en": "they are", "speak": "son" }
       ]
     },
     {
@@ -49,10 +49,10 @@
       "type": "chips",
       "title": "Presentarse — introduce yourself",
       "items": [
-        { "nl": "me llamo…", "en": "my name is…", "speak": "me llamo" },
-        { "nl": "¿cómo te llamas?", "en": "what's your name?", "speak": "¿cómo te llamas?" },
-        { "nl": "¿de dónde eres?", "en": "where are you from?", "speak": "¿de dónde eres?" },
-        { "nl": "soy de…", "en": "I'm from…", "speak": "soy de" }
+        { "target": "me llamo…", "en": "my name is…", "speak": "me llamo" },
+        { "target": "¿cómo te llamas?", "en": "what's your name?", "speak": "¿cómo te llamas?" },
+        { "target": "¿de dónde eres?", "en": "where are you from?", "speak": "¿de dónde eres?" },
+        { "target": "soy de…", "en": "I'm from…", "speak": "soy de" }
       ]
     },
     {
@@ -73,11 +73,11 @@
       "type": "dialogue",
       "scene": "Lucía introduces herself to you at a mutual friend's place",
       "lines": [
-        { "speaker": "Lucía", "nl": "Hola, me llamo Lucía. ¿Y tú?", "en": "Hi, my name's Lucía. And you?" },
-        { "speaker": "You", "nl": "Me llamo Alex. Encantado.", "en": "My name's Alex. Nice to meet you." },
-        { "speaker": "Lucía", "nl": "¿De dónde eres?", "en": "Where are you from?", "spotlight": "The origin question — answered with *soy de…*" },
-        { "speaker": "You", "nl": "Soy de Toronto, de Canadá.", "en": "I'm from Toronto, in Canada." },
-        { "speaker": "Lucía", "nl": "¡Qué bien! Yo soy de Madrid.", "en": "Cool! I'm from Madrid." }
+        { "speaker": "Lucía", "target": "Hola, me llamo Lucía. ¿Y tú?", "en": "Hi, my name's Lucía. And you?" },
+        { "speaker": "You", "target": "Me llamo Alex. Encantado.", "en": "My name's Alex. Nice to meet you." },
+        { "speaker": "Lucía", "target": "¿De dónde eres?", "en": "Where are you from?", "spotlight": "The origin question — answered with *soy de…*" },
+        { "speaker": "You", "target": "Soy de Toronto, de Canadá.", "en": "I'm from Toronto, in Canada." },
+        { "speaker": "Lucía", "target": "¡Qué bien! Yo soy de Madrid.", "en": "Cool! I'm from Madrid." }
       ]
     },
     {

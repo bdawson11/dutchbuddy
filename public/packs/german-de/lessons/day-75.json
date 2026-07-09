@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-75",
   "day": 75,
   "module": "M11",
@@ -39,12 +39,12 @@
       "type": "chips",
       "title": "Tap to hear both registers",
       "items": [
-        { "nl": "Wie heißen Sie?", "en": "What's your name? (formal)", "speak": "Wie heißen Sie?" },
-        { "nl": "Wie heißt du?", "en": "What's your name? (casual)", "speak": "Wie heißt du?" },
-        { "nl": "Können Sie mir helfen?", "en": "Can you help me? (formal)", "speak": "Können Sie mir helfen?" },
-        { "nl": "Kannst du mir helfen?", "en": "Can you help me? (casual)", "speak": "Kannst du mir helfen?" },
-        { "nl": "Wollen wir uns duzen?", "en": "Shall we use 'du'?", "speak": "Wollen wir uns duzen?" },
-        { "nl": "Sehr gern, ich bin Sam.", "en": "Gladly, I'm Sam.", "speak": "Sehr gern, ich bin Sam." }
+        { "target": "Wie heißen Sie?", "en": "What's your name? (formal)", "speak": "Wie heißen Sie?" },
+        { "target": "Wie heißt du?", "en": "What's your name? (casual)", "speak": "Wie heißt du?" },
+        { "target": "Können Sie mir helfen?", "en": "Can you help me? (formal)", "speak": "Können Sie mir helfen?" },
+        { "target": "Kannst du mir helfen?", "en": "Can you help me? (casual)", "speak": "Kannst du mir helfen?" },
+        { "target": "Wollen wir uns duzen?", "en": "Shall we use 'du'?", "speak": "Wollen wir uns duzen?" },
+        { "target": "Sehr gern, ich bin Sam.", "en": "Gladly, I'm Sam.", "speak": "Sehr gern, ich bin Sam." }
       ]
     },
     {
@@ -92,13 +92,13 @@
       "type": "dialogue",
       "scene": "A work get-together. You've crossed paths with Klaus a few times through Lena, always politely on Sie.",
       "lines": [
-        { "speaker": "Klaus", "nl": "Na, wie gefällt Ihnen die neue Stadt?", "en": "So, how do you like the new city?", "spotlight": "*Ihnen* is the dative of *Sie*. *gefallen* takes the dative: *wie gefällt Ihnen…*" },
-        { "speaker": "You", "nl": "Sehr gut, danke. Berlin ist manchmal ein bisschen viel.", "en": "Really good, thanks. Berlin's a bit much sometimes." },
-        { "speaker": "Klaus", "nl": "Das kenne ich. Wissen Sie was — wir kennen uns jetzt lange genug. Wollen wir uns nicht duzen?", "en": "I know the feeling. You know what — we've known each other long enough. Shall we switch to du?", "spotlight": "Klaus, the older one, **offers the du** — exactly who's supposed to." },
-        { "speaker": "You", "nl": "Sehr gern! Dann bin ich der Sam.", "en": "Gladly! Then I'm Sam." },
-        { "speaker": "Klaus", "nl": "Und ich bin der Klaus. In Köln sagen wir sowieso schnell „du“.", "en": "And I'm Klaus. In Cologne we go to 'du' quickly anyway.", "spotlight": "A little Rhineland pride — Klaus contrasting warm Cologne with cooler Berlin." },
-        { "speaker": "You", "nl": "Perfekt. Und wie geht's dir, Klaus?", "en": "Perfect. And how are you, Klaus?", "spotlight": "You flip straight to *du*: *geht's dir*, first names. No going back now." },
-        { "speaker": "Klaus", "nl": "Bestens! Siehst du, geht doch.", "en": "Great! See, it works." }
+        { "speaker": "Klaus", "target": "Na, wie gefällt Ihnen die neue Stadt?", "en": "So, how do you like the new city?", "spotlight": "*Ihnen* is the dative of *Sie*. *gefallen* takes the dative: *wie gefällt Ihnen…*" },
+        { "speaker": "You", "target": "Sehr gut, danke. Berlin ist manchmal ein bisschen viel.", "en": "Really good, thanks. Berlin's a bit much sometimes." },
+        { "speaker": "Klaus", "target": "Das kenne ich. Wissen Sie was — wir kennen uns jetzt lange genug. Wollen wir uns nicht duzen?", "en": "I know the feeling. You know what — we've known each other long enough. Shall we switch to du?", "spotlight": "Klaus, the older one, **offers the du** — exactly who's supposed to." },
+        { "speaker": "You", "target": "Sehr gern! Dann bin ich der Sam.", "en": "Gladly! Then I'm Sam." },
+        { "speaker": "Klaus", "target": "Und ich bin der Klaus. In Köln sagen wir sowieso schnell „du“.", "en": "And I'm Klaus. In Cologne we go to 'du' quickly anyway.", "spotlight": "A little Rhineland pride — Klaus contrasting warm Cologne with cooler Berlin." },
+        { "speaker": "You", "target": "Perfekt. Und wie geht's dir, Klaus?", "en": "Perfect. And how are you, Klaus?", "spotlight": "You flip straight to *du*: *geht's dir*, first names. No going back now." },
+        { "speaker": "Klaus", "target": "Bestens! Siehst du, geht doch.", "en": "Great! See, it works." }
       ]
     },
     {

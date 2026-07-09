@@ -5,34 +5,25 @@ on:
     paths:
       - "public/packs/**"
       - "tools/validate.js"
+      - "tools/validate-all.js"
       - ".github/workflows/validate-packs.yml"
   pull_request:
     paths:
       - "public/packs/**"
       - "tools/validate.js"
+      - "tools/validate-all.js"
       - ".github/workflows/validate-packs.yml"
 
 jobs:
   validate:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          # All packs are mid-expansion to 18 weeks (126 days); missing days are
-          # warnings, schema errors still fail. Flip a pack to --strict once its
-          # manifest days are all authored (pre-release gate).
-          - pack: dutch-nl
-            flags: ""
-          - pack: german-de
-            flags: ""
-          - pack: italian-it
-            flags: ""
-          - pack: spanish-es
-            flags: ""
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node tools/validate.js public/packs/${{ matrix.pack }} ${{ matrix.flags }}
+      # Validation is catalog-driven: validate-all.js reads
+      # public/packs/catalog.json and validates every listed pack. Strictness
+      # comes from each manifest's "released" field (released → missing days are
+      # errors), so adding a pack never touches this workflow.
+      - run: node tools/validate-all.js

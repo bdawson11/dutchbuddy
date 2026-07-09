@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-86",
   "day": 86,
   "module": "M13",
@@ -28,12 +28,12 @@
       "type": "chips",
       "title": "In het verleden — tik om te horen",
       "items": [
-        { "nl": "De fiets werd gestolen.", "en": "The bike was stolen.", "speak": "De fiets werd gestolen." },
-        { "nl": "De brief werd verstuurd.", "en": "The letter was sent.", "speak": "De brief werd verstuurd." },
-        { "nl": "Alle gasten werden uitgenodigd.", "en": "All the guests were invited.", "speak": "Alle gasten werden uitgenodigd." },
-        { "nl": "Het raam werd gebroken.", "en": "The window was broken.", "speak": "Het raam werd gebroken." },
-        { "nl": "De rekening werd betaald.", "en": "The bill was paid.", "speak": "De rekening werd betaald." },
-        { "nl": "De foto's werden gemaakt.", "en": "The photos were taken.", "speak": "De foto's werden gemaakt." }
+        { "target": "De fiets werd gestolen.", "en": "The bike was stolen.", "speak": "De fiets werd gestolen." },
+        { "target": "De brief werd verstuurd.", "en": "The letter was sent.", "speak": "De brief werd verstuurd." },
+        { "target": "Alle gasten werden uitgenodigd.", "en": "All the guests were invited.", "speak": "Alle gasten werden uitgenodigd." },
+        { "target": "Het raam werd gebroken.", "en": "The window was broken.", "speak": "Het raam werd gebroken." },
+        { "target": "De rekening werd betaald.", "en": "The bill was paid.", "speak": "De rekening werd betaald." },
+        { "target": "De foto's werden gemaakt.", "en": "The photos were taken.", "speak": "De foto's werden gemaakt." }
       ]
     },
     {
@@ -74,14 +74,14 @@
       "type": "dialogue",
       "scene": "Daan tells You what happened at the bookshop last week — a story full of the past passive.",
       "lines": [
-        { "speaker": "Daan", "nl": "Joh, vorige week werd bij ons de etalage ingegooid.", "en": "Man, last week our shop window got smashed.", "spotlight": "Verleden passief: *werd ingegooid*." },
-        { "speaker": "You", "nl": "Wat? Door wie?", "en": "What? By whom?" },
-        { "speaker": "Daan", "nl": "Geen idee. 's Nachts werd de ruit kapotgegooid, zomaar.", "en": "No idea. During the night the window was smashed, just like that." },
-        { "speaker": "You", "nl": "En nu?", "en": "And now?" },
-        { "speaker": "Daan", "nl": "Het is alweer gemaakt. De verzekering werd meteen gebeld.", "en": "It's already fixed. The insurance was called right away.", "spotlight": "*is gemaakt* (resultaat, nu) naast *werd gebeld* (daad, toen)." },
-        { "speaker": "You", "nl": "Gelukkig maar.", "en": "Good thing." },
-        { "speaker": "Daan", "nl": "Ja. En er werd niks gestolen, alleen troep gemaakt.", "en": "Yeah. And nothing was stolen, just a mess made." },
-        { "speaker": "You", "nl": "Dan viel het nog mee.", "en": "Then it wasn't so bad after all." }
+        { "speaker": "Daan", "target": "Joh, vorige week werd bij ons de etalage ingegooid.", "en": "Man, last week our shop window got smashed.", "spotlight": "Verleden passief: *werd ingegooid*." },
+        { "speaker": "You", "target": "Wat? Door wie?", "en": "What? By whom?" },
+        { "speaker": "Daan", "target": "Geen idee. 's Nachts werd de ruit kapotgegooid, zomaar.", "en": "No idea. During the night the window was smashed, just like that." },
+        { "speaker": "You", "target": "En nu?", "en": "And now?" },
+        { "speaker": "Daan", "target": "Het is alweer gemaakt. De verzekering werd meteen gebeld.", "en": "It's already fixed. The insurance was called right away.", "spotlight": "*is gemaakt* (resultaat, nu) naast *werd gebeld* (daad, toen)." },
+        { "speaker": "You", "target": "Gelukkig maar.", "en": "Good thing." },
+        { "speaker": "Daan", "target": "Ja. En er werd niks gestolen, alleen troep gemaakt.", "en": "Yeah. And nothing was stolen, just a mess made." },
+        { "speaker": "You", "target": "Dan viel het nog mee.", "en": "Then it wasn't so bad after all." }
       ]
     },
     {

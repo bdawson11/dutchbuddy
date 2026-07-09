@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-77",
   "day": 77,
   "module": "M11",
@@ -49,22 +49,22 @@
       "type": "chips",
       "title": "Je gereedschapskist deze week",
       "items": [
-        { "nl": "Mag ik het in het Nederlands proberen?", "en": "May I try it in Dutch?", "speak": "Mag ik het in het Nederlands proberen?" },
-        { "nl": "Even denken…", "en": "Let me think…", "speak": "Even denken." },
-        { "nl": "Doe maar een biertje.", "en": "Just make it a beer.", "speak": "Doe maar een biertje." },
-        { "nl": "Zeg maar je, hoor.", "en": "Just say je, really.", "speak": "Zeg maar je, hoor." }
+        { "target": "Mag ik het in het Nederlands proberen?", "en": "May I try it in Dutch?", "speak": "Mag ik het in het Nederlands proberen?" },
+        { "target": "Even denken…", "en": "Let me think…", "speak": "Even denken." },
+        { "target": "Doe maar een biertje.", "en": "Just make it a beer.", "speak": "Doe maar een biertje." },
+        { "target": "Zeg maar je, hoor.", "en": "Just say je, really.", "speak": "Zeg maar je, hoor." }
       ]
     },
     {
       "type": "dialogue",
       "scene": "Café with Daan — your weekly catch-up. You pull out everything from this week without thinking about it.",
       "lines": [
-        { "speaker": "Daan", "nl": "Hé, daar ben je! Doe je weer een biertje?", "en": "Hey, there you are! Having a beer again?", "spotlight": "biertje — the social diminutive, not a size." },
-        { "speaker": "You", "nl": "Doe maar, ja. Ik heb echt zin in het weekend, hoor.", "en": "Go on, yeah. I'm really looking forward to the weekend.", "spotlight": "doe maar + hoor — permission and warmth in one line." },
-        { "speaker": "Daan", "nl": "Nou, vertel. Hoe gaat het met je Nederlands?", "en": "Well, tell me. How's your Dutch going?", "spotlight": "nou — the classic conversational opener." },
-        { "speaker": "You", "nl": "Beter! Laatst schakelde iemand over op Engels, maar ik bleef gewoon Nederlands praten.", "en": "Better! The other day someone switched to English, but I just kept speaking Dutch.", "spotlight": "The whole point of day 74, in one proud sentence." },
-        { "speaker": "Daan", "nl": "Echt? Goed van je, joh. Daar houd ik van.", "en": "Really? Good for you, mate. I love that.", "spotlight": "houden van — fixed pair, and Daan's approval." },
-        { "speaker": "You", "nl": "Dank je. Even oefenen en dan gaat het toch vanzelf.", "en": "Thanks. A bit of practice and then it comes naturally after all.", "spotlight": "even + toch — two particles landing like a native." }
+        { "speaker": "Daan", "target": "Hé, daar ben je! Doe je weer een biertje?", "en": "Hey, there you are! Having a beer again?", "spotlight": "biertje — the social diminutive, not a size." },
+        { "speaker": "You", "target": "Doe maar, ja. Ik heb echt zin in het weekend, hoor.", "en": "Go on, yeah. I'm really looking forward to the weekend.", "spotlight": "doe maar + hoor — permission and warmth in one line." },
+        { "speaker": "Daan", "target": "Nou, vertel. Hoe gaat het met je Nederlands?", "en": "Well, tell me. How's your Dutch going?", "spotlight": "nou — the classic conversational opener." },
+        { "speaker": "You", "target": "Beter! Laatst schakelde iemand over op Engels, maar ik bleef gewoon Nederlands praten.", "en": "Better! The other day someone switched to English, but I just kept speaking Dutch.", "spotlight": "The whole point of day 74, in one proud sentence." },
+        { "speaker": "Daan", "target": "Echt? Goed van je, joh. Daar houd ik van.", "en": "Really? Good for you, mate. I love that.", "spotlight": "houden van — fixed pair, and Daan's approval." },
+        { "speaker": "You", "target": "Dank je. Even oefenen en dan gaat het toch vanzelf.", "en": "Thanks. A bit of practice and then it comes naturally after all.", "spotlight": "even + toch — two particles landing like a native." }
       ]
     },
     {

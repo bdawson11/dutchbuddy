@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-61",
   "day": 61,
   "module": "M09",
@@ -34,10 +34,10 @@
       "type": "chips",
       "title": "Escucha condiciones reales",
       "items": [
-        { "nl": "Si tengo tiempo, voy.", "en": "If I have time, I'll go.", "speak": "Si tengo tiempo, voy." },
-        { "nl": "Si llueve, no salimos.", "en": "If it rains, we won't go out.", "speak": "Si llueve, no salimos." },
-        { "nl": "Si puedes, llámame luego.", "en": "If you can, call me later.", "speak": "Si puedes, llámame luego." },
-        { "nl": "Si acaba pronto, cenamos juntos.", "en": "If he finishes early, we'll have dinner together.", "speak": "Si acaba pronto, cenamos juntos." }
+        { "target": "Si tengo tiempo, voy.", "en": "If I have time, I'll go.", "speak": "Si tengo tiempo, voy." },
+        { "target": "Si llueve, no salimos.", "en": "If it rains, we won't go out.", "speak": "Si llueve, no salimos." },
+        { "target": "Si puedes, llámame luego.", "en": "If you can, call me later.", "speak": "Si puedes, llámame luego." },
+        { "target": "Si acaba pronto, cenamos juntos.", "en": "If he finishes early, we'll have dinner together.", "speak": "Si acaba pronto, cenamos juntos." }
       ]
     },
     {
@@ -82,14 +82,14 @@
       "type": "dialogue",
       "scene": "En el bar, fantaseando con lo que haríais",
       "lines": [
-        { "speaker": "Rafa", "nl": "Tío, si me tocara la lotería, dejaría el curro mañana mismo.", "en": "Man, if I won the lottery, I'd quit my job tomorrow.", "spotlight": "si + imperfecto de subjuntivo (tocara) + condicional (dejaría): hipótesis." },
-        { "speaker": "You", "nl": "¿Ah, sí? ¿Y qué harías?", "en": "Oh yeah? And what would you do?" },
-        { "speaker": "Rafa", "nl": "Me compraría una furgoneta y me iría de gira con el grupo.", "en": "I'd buy a van and go on tour with the band." },
-        { "speaker": "You", "nl": "Qué grande. Yo, si tuviera más tiempo, viajaría por toda España.", "en": "Amazing. Me, if I had more time, I'd travel all over Spain.", "spotlight": "si tuviera + viajaría: otra hipótesis." },
-        { "speaker": "Lucía", "nl": "Pues si yo pudiera, me cogería un año sabático y ya está.", "en": "Well, if I could, I'd take a gap year and that's that." },
-        { "speaker": "Rafa", "nl": "¿Y si no te toca nada? Que es lo más probable, ¿eh?", "en": "And if you win nothing? Which is most likely, right?", "spotlight": "si no te toca: aquí es condición real (presente), no hipótesis." },
-        { "speaker": "You", "nl": "Pues si no me toca, sigo currando y a ahorrar.", "en": "Well, if I don't win, I keep working and start saving.", "spotlight": "si + presente + presente: condición real." },
-        { "speaker": "Lucía", "nl": "Jaja, muy realista. Venga, ¿quién pide la próxima ronda?", "en": "Haha, very realistic. Come on, who's getting the next round?" }
+        { "speaker": "Rafa", "target": "Tío, si me tocara la lotería, dejaría el curro mañana mismo.", "en": "Man, if I won the lottery, I'd quit my job tomorrow.", "spotlight": "si + imperfecto de subjuntivo (tocara) + condicional (dejaría): hipótesis." },
+        { "speaker": "You", "target": "¿Ah, sí? ¿Y qué harías?", "en": "Oh yeah? And what would you do?" },
+        { "speaker": "Rafa", "target": "Me compraría una furgoneta y me iría de gira con el grupo.", "en": "I'd buy a van and go on tour with the band." },
+        { "speaker": "You", "target": "Qué grande. Yo, si tuviera más tiempo, viajaría por toda España.", "en": "Amazing. Me, if I had more time, I'd travel all over Spain.", "spotlight": "si tuviera + viajaría: otra hipótesis." },
+        { "speaker": "Lucía", "target": "Pues si yo pudiera, me cogería un año sabático y ya está.", "en": "Well, if I could, I'd take a gap year and that's that." },
+        { "speaker": "Rafa", "target": "¿Y si no te toca nada? Que es lo más probable, ¿eh?", "en": "And if you win nothing? Which is most likely, right?", "spotlight": "si no te toca: aquí es condición real (presente), no hipótesis." },
+        { "speaker": "You", "target": "Pues si no me toca, sigo currando y a ahorrar.", "en": "Well, if I don't win, I keep working and start saving.", "spotlight": "si + presente + presente: condición real." },
+        { "speaker": "Lucía", "target": "Jaja, muy realista. Venga, ¿quién pide la próxima ronda?", "en": "Haha, very realistic. Come on, who's getting the next round?" }
       ]
     },
     {

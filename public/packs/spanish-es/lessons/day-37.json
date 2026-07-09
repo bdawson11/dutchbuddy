@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-37",
   "day": 37,
   "module": "M06",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Frases para la consulta",
       "items": [
-        { "nl": "pedir cita", "en": "to book an appointment", "speak": "pedir cita" },
-        { "nl": "el médico de cabecera", "en": "the GP / family doctor", "speak": "el médico de cabecera" },
-        { "nl": "la receta", "en": "the prescription", "speak": "la receta" },
-        { "nl": "tener fiebre", "en": "to have a fever", "speak": "tener fiebre" },
-        { "nl": "las pastillas", "en": "the pills", "speak": "las pastillas" },
-        { "nl": "el jarabe", "en": "the syrup", "speak": "el jarabe" }
+        { "target": "pedir cita", "en": "to book an appointment", "speak": "pedir cita" },
+        { "target": "el médico de cabecera", "en": "the GP / family doctor", "speak": "el médico de cabecera" },
+        { "target": "la receta", "en": "the prescription", "speak": "la receta" },
+        { "target": "tener fiebre", "en": "to have a fever", "speak": "tener fiebre" },
+        { "target": "las pastillas", "en": "the pills", "speak": "las pastillas" },
+        { "target": "el jarabe", "en": "the syrup", "speak": "el jarabe" }
       ]
     },
     {
@@ -72,11 +72,11 @@
       "type": "dialogue",
       "scene": "You call the centro de salud to book an appointment; Lucía, who's over at your place, catches the tail end and asks about it.",
       "lines": [
-        { "speaker": "You", "nl": "Buenos días, necesito pedir cita con el médico de cabecera.", "en": "Good morning, I need to book an appointment with my GP." },
-        { "speaker": "Lucía", "nl": "¿Todo bien? Te he oído hablar con la clínica.", "en": "Everything okay? I heard you talking to the clinic.", "spotlight": "perfecto again: te he oído." },
-        { "speaker": "You", "nl": "Sí, nada grave. Me duele la garganta desde hace tres días.", "en": "Yeah, nothing serious. My throat's been hurting for three days." },
-        { "speaker": "Lucía", "nl": "Pues vale, y si empeora, vete derecho a la farmacia.", "en": "Okay, and if it gets worse, go straight to the pharmacy." },
-        { "speaker": "You", "nl": "Vale, gracias. A ver qué dice el médico.", "en": "Okay, thanks. We'll see what the doctor says." }
+        { "speaker": "You", "target": "Buenos días, necesito pedir cita con el médico de cabecera.", "en": "Good morning, I need to book an appointment with my GP." },
+        { "speaker": "Lucía", "target": "¿Todo bien? Te he oído hablar con la clínica.", "en": "Everything okay? I heard you talking to the clinic.", "spotlight": "perfecto again: te he oído." },
+        { "speaker": "You", "target": "Sí, nada grave. Me duele la garganta desde hace tres días.", "en": "Yeah, nothing serious. My throat's been hurting for three days." },
+        { "speaker": "Lucía", "target": "Pues vale, y si empeora, vete derecho a la farmacia.", "en": "Okay, and if it gets worse, go straight to the pharmacy." },
+        { "speaker": "You", "target": "Vale, gracias. A ver qué dice el médico.", "en": "Okay, thanks. We'll see what the doctor says." }
       ]
     },
     {

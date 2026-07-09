@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-10",
   "day": 10,
   "module": "M02",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Che ore sono?",
       "items": [
-        { "nl": "È l'una.", "en": "It's one o'clock.", "speak": "È l'una." },
-        { "nl": "Sono le due.", "en": "It's two o'clock.", "speak": "Sono le due." },
-        { "nl": "Sono le tre e mezza.", "en": "It's half past three.", "speak": "Sono le tre e mezza." },
-        { "nl": "Sono le quattro meno un quarto.", "en": "It's quarter to four.", "speak": "Sono le quattro meno un quarto." },
-        { "nl": "È mezzogiorno.", "en": "It's noon.", "speak": "È mezzogiorno." },
-        { "nl": "È mezzanotte.", "en": "It's midnight.", "speak": "È mezzanotte." }
+        { "target": "È l'una.", "en": "It's one o'clock.", "speak": "È l'una." },
+        { "target": "Sono le due.", "en": "It's two o'clock.", "speak": "Sono le due." },
+        { "target": "Sono le tre e mezza.", "en": "It's half past three.", "speak": "Sono le tre e mezza." },
+        { "target": "Sono le quattro meno un quarto.", "en": "It's quarter to four.", "speak": "Sono le quattro meno un quarto." },
+        { "target": "È mezzogiorno.", "en": "It's noon.", "speak": "È mezzogiorno." },
+        { "target": "È mezzanotte.", "en": "It's midnight.", "speak": "È mezzanotte." }
       ]
     },
     {
@@ -70,11 +70,11 @@
       "type": "shadow",
       "title": "Ripeti i giorni",
       "lines": [
-        { "nl": "lunedì", "en": "Monday" },
-        { "nl": "mercoledì", "en": "Wednesday" },
-        { "nl": "venerdì", "en": "Friday" },
-        { "nl": "sabato", "en": "Saturday" },
-        { "nl": "domenica", "en": "Sunday" }
+        { "target": "lunedì", "en": "Monday" },
+        { "target": "mercoledì", "en": "Wednesday" },
+        { "target": "venerdì", "en": "Friday" },
+        { "target": "sabato", "en": "Saturday" },
+        { "target": "domenica", "en": "Sunday" }
       ]
     },
     {
@@ -103,10 +103,10 @@
       "type": "chips",
       "title": "Qualche mese",
       "items": [
-        { "nl": "gennaio", "en": "January", "speak": "gennaio" },
-        { "nl": "aprile", "en": "April", "speak": "aprile" },
-        { "nl": "agosto", "en": "August", "speak": "agosto" },
-        { "nl": "dicembre", "en": "December", "speak": "dicembre" }
+        { "target": "gennaio", "en": "January", "speak": "gennaio" },
+        { "target": "aprile", "en": "April", "speak": "aprile" },
+        { "target": "agosto", "en": "August", "speak": "agosto" },
+        { "target": "dicembre", "en": "December", "speak": "dicembre" }
       ]
     },
     {

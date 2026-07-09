@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-52",
   "day": 52,
   "module": "M08",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "Opinioni con secondo me",
       "items": [
-        { "nl": "Secondo me, hai ragione.", "en": "In my opinion, you're right.", "speak": "Secondo me, hai ragione." },
-        { "nl": "Secondo me, è troppo caro.", "en": "In my opinion, it's too expensive.", "speak": "Secondo me, è troppo caro." },
-        { "nl": "Secondo lui, il film è noioso.", "en": "In his opinion, the film is boring.", "speak": "Secondo lui, il film è noioso." },
-        { "nl": "Secondo noi, Bologna è bellissima.", "en": "In our opinion, Bologna is gorgeous.", "speak": "Secondo noi, Bologna è bellissima." }
+        { "target": "Secondo me, hai ragione.", "en": "In my opinion, you're right.", "speak": "Secondo me, hai ragione." },
+        { "target": "Secondo me, è troppo caro.", "en": "In my opinion, it's too expensive.", "speak": "Secondo me, è troppo caro." },
+        { "target": "Secondo lui, il film è noioso.", "en": "In his opinion, the film is boring.", "speak": "Secondo lui, il film è noioso." },
+        { "target": "Secondo noi, Bologna è bellissima.", "en": "In our opinion, Bologna is gorgeous.", "speak": "Secondo noi, Bologna è bellissima." }
       ]
     },
     {
@@ -79,11 +79,11 @@
       "type": "dialogue",
       "scene": "At the bar, Marco and you playfully disagree about coffee.",
       "lines": [
-        { "speaker": "Marco", "nl": "Secondo me il mio caffè fatto in casa è fantastico.", "en": "In my opinion, my home-made coffee is fantastic." },
-        { "speaker": "You", "nl": "Davvero? Io credo che sia troppo forte.", "en": "Really? I think it's too strong.", "spotlight": "credo che sia — the congiuntivo shape from today, sia not è." },
-        { "speaker": "Marco", "nl": "Ma dai, è perfetto! Sono sicuro che ti sbagli.", "en": "Come on, it's perfect! I'm sure you're wrong." },
-        { "speaker": "You", "nl": "Va bene, va bene. Ma secondo me il caffè del bar qui sotto è più buono.", "en": "Fine, fine. But in my opinion the coffee at the bar downstairs is better." },
-        { "speaker": "Marco", "nl": "Questo sì che è vero!", "en": "Now that is true!" }
+        { "speaker": "Marco", "target": "Secondo me il mio caffè fatto in casa è fantastico.", "en": "In my opinion, my home-made coffee is fantastic." },
+        { "speaker": "You", "target": "Davvero? Io credo che sia troppo forte.", "en": "Really? I think it's too strong.", "spotlight": "credo che sia — the congiuntivo shape from today, sia not è." },
+        { "speaker": "Marco", "target": "Ma dai, è perfetto! Sono sicuro che ti sbagli.", "en": "Come on, it's perfect! I'm sure you're wrong." },
+        { "speaker": "You", "target": "Va bene, va bene. Ma secondo me il caffè del bar qui sotto è più buono.", "en": "Fine, fine. But in my opinion the coffee at the bar downstairs is better." },
+        { "speaker": "Marco", "target": "Questo sì che è vero!", "en": "Now that is true!" }
       ]
     },
     {

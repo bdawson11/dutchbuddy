@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-59",
   "day": 59,
   "module": "M09",
@@ -27,11 +27,11 @@
       "type": "chips",
       "title": "Le frasi per riportare — ascolta",
       "items": [
-        { "nl": "Mi ha detto che era stanco.", "en": "He told me he was tired.", "speak": "Mi ha detto che era stanco." },
-        { "nl": "Mi ha chiesto se avevo tempo.", "en": "He asked if I had time.", "speak": "Mi ha chiesto se avevo tempo." },
-        { "nl": "Ha aggiunto che tornava presto.", "en": "He added he was coming back soon.", "speak": "Ha aggiunto che tornava presto." },
-        { "nl": "Mi ha chiesto dove abitavo.", "en": "He asked where I lived.", "speak": "Mi ha chiesto dove abitavo." },
-        { "nl": "Dice che va tutto bene.", "en": "He says everything's fine.", "speak": "Dice che va tutto bene." }
+        { "target": "Mi ha detto che era stanco.", "en": "He told me he was tired.", "speak": "Mi ha detto che era stanco." },
+        { "target": "Mi ha chiesto se avevo tempo.", "en": "He asked if I had time.", "speak": "Mi ha chiesto se avevo tempo." },
+        { "target": "Ha aggiunto che tornava presto.", "en": "He added he was coming back soon.", "speak": "Ha aggiunto che tornava presto." },
+        { "target": "Mi ha chiesto dove abitavo.", "en": "He asked where I lived.", "speak": "Mi ha chiesto dove abitavo." },
+        { "target": "Dice che va tutto bene.", "en": "He says everything's fine.", "speak": "Dice che va tutto bene." }
       ]
     },
     {
@@ -66,13 +66,13 @@
       "type": "dialogue",
       "scene": "You tell Giulia about a phone call with Pietro in Naples.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Allora, hai sentito Pietro? Cosa ti ha detto?", "en": "So, did you hear from Pietro? What did he tell you?" },
-        { "speaker": "You", "nl": "Mi ha detto che la prossima settimana viene a Bologna.", "en": "He told me he's coming to Bologna next week." },
-        { "speaker": "Giulia", "nl": "Ma dai, che bello! E ti ha detto perché?", "en": "No way, great! And did he say why?" },
-        { "speaker": "You", "nl": "Mi ha chiesto se conoscevo un buon ristorante in centro.", "en": "He asked me if I knew a good restaurant downtown.", "spotlight": "Reporting a yes/no question: *mi ha chiesto **se** conoscevo…*" },
-        { "speaker": "Giulia", "nl": "Certo! E gli hai detto del posto vicino a Via Mazzini?", "en": "Of course! And did you tell him about the place near Via Mazzini?" },
-        { "speaker": "You", "nl": "Sì, gli ho detto che era ottimo. Ha aggiunto che porta anche la figlia.", "en": "Yes, I told him it was great. He added he's bringing his daughter too." },
-        { "speaker": "Giulia", "nl": "Che carino. Spero che si fermino qualche giorno.", "en": "How nice. I hope they stay a few days." }
+        { "speaker": "Giulia", "target": "Allora, hai sentito Pietro? Cosa ti ha detto?", "en": "So, did you hear from Pietro? What did he tell you?" },
+        { "speaker": "You", "target": "Mi ha detto che la prossima settimana viene a Bologna.", "en": "He told me he's coming to Bologna next week." },
+        { "speaker": "Giulia", "target": "Ma dai, che bello! E ti ha detto perché?", "en": "No way, great! And did he say why?" },
+        { "speaker": "You", "target": "Mi ha chiesto se conoscevo un buon ristorante in centro.", "en": "He asked me if I knew a good restaurant downtown.", "spotlight": "Reporting a yes/no question: *mi ha chiesto **se** conoscevo…*" },
+        { "speaker": "Giulia", "target": "Certo! E gli hai detto del posto vicino a Via Mazzini?", "en": "Of course! And did you tell him about the place near Via Mazzini?" },
+        { "speaker": "You", "target": "Sì, gli ho detto che era ottimo. Ha aggiunto che porta anche la figlia.", "en": "Yes, I told him it was great. He added he's bringing his daughter too." },
+        { "speaker": "Giulia", "target": "Che carino. Spero che si fermino qualche giorno.", "en": "How nice. I hope they stay a few days." }
       ]
     },
     {

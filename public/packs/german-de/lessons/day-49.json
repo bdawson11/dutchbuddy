@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-49",
   "day": 49,
   "module": "M07",
@@ -29,12 +29,12 @@
       "type": "chips",
       "title": "Mix: Kindheit & Präteritum",
       "items": [
-        { "nl": "war", "en": "was", "speak": "war" },
-        { "nl": "hatte", "en": "had", "speak": "hatte" },
-        { "nl": "ging", "en": "went", "speak": "ging" },
-        { "nl": "sah", "en": "saw", "speak": "sah" },
-        { "nl": "gab", "en": "there was/were", "speak": "gab" },
-        { "nl": "früher", "en": "back then", "speak": "früher" }
+        { "target": "war", "en": "was", "speak": "war" },
+        { "target": "hatte", "en": "had", "speak": "hatte" },
+        { "target": "ging", "en": "went", "speak": "ging" },
+        { "target": "sah", "en": "saw", "speak": "sah" },
+        { "target": "gab", "en": "there was/were", "speak": "gab" },
+        { "target": "früher", "en": "back then", "speak": "früher" }
       ]
     },
     {
@@ -68,9 +68,9 @@
       "type": "shadow",
       "title": "Kindheitserinnerungen — hör zu und sprich nach",
       "lines": [
-        { "nl": "Als ich klein war, wohnte ich in einem Dorf.", "en": "When I was little, I lived in a village." },
-        { "nl": "Ich hatte lange Haare und spielte oft draußen.", "en": "I had long hair and often played outside." },
-        { "nl": "Es gab jeden Sommer ein Fest im Dorf.", "en": "There was a festival in the village every summer." }
+        { "target": "Als ich klein war, wohnte ich in einem Dorf.", "en": "When I was little, I lived in a village." },
+        { "target": "Ich hatte lange Haare und spielte oft draußen.", "en": "I had long hair and often played outside." },
+        { "target": "Es gab jeden Sommer ein Fest im Dorf.", "en": "There was a festival in the village every summer." }
       ]
     },
     {

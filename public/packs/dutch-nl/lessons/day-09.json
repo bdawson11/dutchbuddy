@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-09",
   "day": 9,
   "module": "M02",
@@ -31,11 +31,11 @@
       "type": "chips",
       "title": "Tap to hear the big ones",
       "items": [
-        { "nl": "honderd", "en": "100", "speak": "honderd" },
-        { "nl": "tweehonderd", "en": "200", "speak": "tweehonderd" },
-        { "nl": "duizend", "en": "1000", "speak": "duizend" },
-        { "nl": "honderdvijftig", "en": "150", "speak": "honderdvijftig" },
-        { "nl": "tweeduizend", "en": "2000", "speak": "tweeduizend" }
+        { "target": "honderd", "en": "100", "speak": "honderd" },
+        { "target": "tweehonderd", "en": "200", "speak": "tweehonderd" },
+        { "target": "duizend", "en": "1000", "speak": "duizend" },
+        { "target": "honderdvijftig", "en": "150", "speak": "honderdvijftig" },
+        { "target": "tweeduizend", "en": "2000", "speak": "tweeduizend" }
       ]
     },
     {
@@ -78,9 +78,9 @@
       "type": "dialogue",
       "scene": "At the snackbar counter — Daan is paying for you both",
       "lines": [
-        { "speaker": "Daan", "nl": "Twee patat, alsjeblieft. Wat kost dat?", "en": "Two fries, please. What does that cost?" },
-        { "speaker": "You", "nl": "Dat is vijf euro vijftig.", "en": "That's five euros fifty.", "spotlight": "€5,50 said the Dutch way — euros, euro, then the cents." },
-        { "speaker": "Daan", "nl": "Prima. Hier is zes euro.", "en": "Fine. Here's six euros.", "spotlight": "*zes euro* — euro stays singular after a number." }
+        { "speaker": "Daan", "target": "Twee patat, alsjeblieft. Wat kost dat?", "en": "Two fries, please. What does that cost?" },
+        { "speaker": "You", "target": "Dat is vijf euro vijftig.", "en": "That's five euros fifty.", "spotlight": "€5,50 said the Dutch way — euros, euro, then the cents." },
+        { "speaker": "Daan", "target": "Prima. Hier is zes euro.", "en": "Fine. Here's six euros.", "spotlight": "*zes euro* — euro stays singular after a number." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-16",
   "day": 16,
   "module": "M03",
@@ -33,14 +33,14 @@
       "type": "chips",
       "title": "Tap to hear them",
       "items": [
-        { "nl": "leuk", "en": "nice, fun", "speak": "leuk" },
-        { "nl": "mooi", "en": "beautiful", "speak": "mooi" },
-        { "nl": "klein", "en": "small", "speak": "klein" },
-        { "nl": "groot", "en": "big", "speak": "groot" },
-        { "nl": "oud", "en": "old", "speak": "oud" },
-        { "nl": "nieuw", "en": "new", "speak": "nieuw" },
-        { "nl": "lekker", "en": "tasty, nice", "speak": "lekker" },
-        { "nl": "gezellig", "en": "cozy, fun", "speak": "gezellig" }
+        { "target": "leuk", "en": "nice, fun", "speak": "leuk" },
+        { "target": "mooi", "en": "beautiful", "speak": "mooi" },
+        { "target": "klein", "en": "small", "speak": "klein" },
+        { "target": "groot", "en": "big", "speak": "groot" },
+        { "target": "oud", "en": "old", "speak": "oud" },
+        { "target": "nieuw", "en": "new", "speak": "nieuw" },
+        { "target": "lekker", "en": "tasty, nice", "speak": "lekker" },
+        { "target": "gezellig", "en": "cozy, fun", "speak": "gezellig" }
       ]
     },
     {
@@ -93,10 +93,10 @@
       "type": "dialogue",
       "scene": "You and Daan compare his apartment and the city.",
       "lines": [
-        { "speaker": "You", "nl": "Hoe is je huis?", "en": "How's your place?" },
-        { "speaker": "Daan", "nl": "Klein, maar gezellig, hoor. Een leuk huis, echt.", "en": "Small, but cozy. A nice place, really.", "spotlight": "een leuk huis — het-word, indefinite, bare adjective." },
-        { "speaker": "You", "nl": "En de stad?", "en": "And the city?" },
-        { "speaker": "Daan", "nl": "Amsterdam? Een hele leuke stad, hoor.", "en": "Amsterdam? A really nice city.", "spotlight": "leuke stad — stad is a de-word, always -e." }
+        { "speaker": "You", "target": "Hoe is je huis?", "en": "How's your place?" },
+        { "speaker": "Daan", "target": "Klein, maar gezellig, hoor. Een leuk huis, echt.", "en": "Small, but cozy. A nice place, really.", "spotlight": "een leuk huis — het-word, indefinite, bare adjective." },
+        { "speaker": "You", "target": "En de stad?", "en": "And the city?" },
+        { "speaker": "Daan", "target": "Amsterdam? Een hele leuke stad, hoor.", "en": "Amsterdam? A really nice city.", "spotlight": "leuke stad — stad is a de-word, always -e." }
       ]
     },
     {

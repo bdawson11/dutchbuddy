@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-55",
   "day": 55,
   "module": "M08",
@@ -48,14 +48,14 @@
       "type": "dialogue",
       "scene": "Café table. You mention you switched to English at the bakery today. Daan pounces; Emma referees.",
       "lines": [
-        { "speaker": "Daan", "nl": "Zie je wel! Ik vind dat je Nederlands moet leren als je hier woont.", "en": "See! I think you have to learn Dutch if you live here.", "spotlight": "Two subclauses stacked: dat … moet leren, als … woont." },
-        { "speaker": "You", "nl": "Rustig, joh. Ik doe echt mijn best, hoor.", "en": "Easy, mate. I really am doing my best." },
-        { "speaker": "Emma", "nl": "Kijk, ik denk dat mensen gewoon tijd nodig hebben.", "en": "Look, I think people just need time.", "spotlight": "Emma, warm: ik denk dat … hebben, verb last." },
-        { "speaker": "Daan", "nl": "Tuurlijk. Maar het gaat sneller als niemand meteen op Engels overschakelt.", "en": "Sure. But it goes faster if nobody switches to English right away.", "spotlight": "sneller (comparative) + als-subclause with overschakelt at the end." },
-        { "speaker": "Emma", "nl": "Precies. En dat is nou juist het probleem, Daan.", "en": "Exactly. And that's precisely the problem, Daan." },
-        { "speaker": "Daan", "nl": "Nou… oké. Eerlijk? Ik snap ook dat het echt moeilijk is.", "en": "Well… okay. Honestly? I get that it's really hard too.", "spotlight": "Daan softens: the honest turn, still a dat-clause." },
-        { "speaker": "You", "nl": "Dank je. Ik ga volgend jaar een cursus doen, beloofd.", "en": "Thanks. I'm going to take a course next year, promise.", "spotlight": "gaan-future: ik ga … doen." },
-        { "speaker": "Daan", "nl": "Goed plan. En ik zal langzamer praten, hoor.", "en": "Good plan. And I'll speak more slowly, you know.", "spotlight": "zullen promise + langzamer (comparative)." }
+        { "speaker": "Daan", "target": "Zie je wel! Ik vind dat je Nederlands moet leren als je hier woont.", "en": "See! I think you have to learn Dutch if you live here.", "spotlight": "Two subclauses stacked: dat … moet leren, als … woont." },
+        { "speaker": "You", "target": "Rustig, joh. Ik doe echt mijn best, hoor.", "en": "Easy, mate. I really am doing my best." },
+        { "speaker": "Emma", "target": "Kijk, ik denk dat mensen gewoon tijd nodig hebben.", "en": "Look, I think people just need time.", "spotlight": "Emma, warm: ik denk dat … hebben, verb last." },
+        { "speaker": "Daan", "target": "Tuurlijk. Maar het gaat sneller als niemand meteen op Engels overschakelt.", "en": "Sure. But it goes faster if nobody switches to English right away.", "spotlight": "sneller (comparative) + als-subclause with overschakelt at the end." },
+        { "speaker": "Emma", "target": "Precies. En dat is nou juist het probleem, Daan.", "en": "Exactly. And that's precisely the problem, Daan." },
+        { "speaker": "Daan", "target": "Nou… oké. Eerlijk? Ik snap ook dat het echt moeilijk is.", "en": "Well… okay. Honestly? I get that it's really hard too.", "spotlight": "Daan softens: the honest turn, still a dat-clause." },
+        { "speaker": "You", "target": "Dank je. Ik ga volgend jaar een cursus doen, beloofd.", "en": "Thanks. I'm going to take a course next year, promise.", "spotlight": "gaan-future: ik ga … doen." },
+        { "speaker": "Daan", "target": "Goed plan. En ik zal langzamer praten, hoor.", "en": "Good plan. And I'll speak more slowly, you know.", "spotlight": "zullen promise + langzamer (comparative)." }
       ]
     },
     {
@@ -70,9 +70,9 @@
       "type": "shadow",
       "title": "Shadow the key lines",
       "lines": [
-        { "nl": "Ik doe echt mijn best, hoor.", "en": "I really am doing my best." },
-        { "nl": "Ik snap dat het moeilijk is.", "en": "I get that it's hard." },
-        { "nl": "Ik ga volgend jaar een cursus doen.", "en": "I'm going to take a course next year." }
+        { "target": "Ik doe echt mijn best, hoor.", "en": "I really am doing my best." },
+        { "target": "Ik snap dat het moeilijk is.", "en": "I get that it's hard." },
+        { "target": "Ik ga volgend jaar een cursus doen.", "en": "I'm going to take a course next year." }
       ]
     },
     {

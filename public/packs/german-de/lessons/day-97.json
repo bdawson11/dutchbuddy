@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-97",
   "day": 97,
   "module": "M14",
@@ -39,27 +39,27 @@
       "type": "shadow",
       "title": "Aufwärmen: berichten",
       "lines": [
-        { "nl": "Er meinte, er könne uns einen Slot geben.", "en": "He said he could give us a slot." },
-        { "nl": "Sie sagt, sie habe schon zugesagt.", "en": "She says she already agreed." },
-        { "nl": "Laut Veranstalter sei es ein kleines Festival.", "en": "According to the promoter it's a small festival." },
-        { "nl": "Einerseits wenig Geld, andererseits eine echte Bühne.", "en": "Little money on one hand, a real stage on the other." }
+        { "target": "Er meinte, er könne uns einen Slot geben.", "en": "He said he could give us a slot." },
+        { "target": "Sie sagt, sie habe schon zugesagt.", "en": "She says she already agreed." },
+        { "target": "Laut Veranstalter sei es ein kleines Festival.", "en": "According to the promoter it's a small festival." },
+        { "target": "Einerseits wenig Geld, andererseits eine echte Bühne.", "en": "Little money on one hand, a real stage on the other." }
       ]
     },
     {
       "type": "dialogue",
       "scene": "Sunday call. Aylin phones in from Munich on speaker; Lena, Jonas and you are in the Berlin kitchen. Jonas has news — reported carefully, because nothing is certain yet.",
       "lines": [
-        { "speaker": "Aylin", "nl": "Hallo ihr! Ich hör, es gibt Neuigkeiten. Erzählt!", "en": "Hi you lot! I hear there's news. Tell me!" },
-        { "speaker": "Jonas", "nl": "Also — ich hab mit einem Veranstalter geredet. Er meinte, er könne uns vielleicht einen Slot geben.", "en": "So — I talked to a promoter. He said he might be able to give us a slot.", "spotlight": "*er könne* (Konjunktiv I) — reported, and deliberately not yet certain." },
-        { "speaker": "Lena", "nl": "Was?! Wo denn?", "en": "What?! Where?" },
-        { "speaker": "Jonas", "nl": "Er sagte, es sei ein kleines Festival im Herbst. Nichts Großes, aber echt.", "en": "He said it's a small festival in autumn. Nothing huge, but real.", "spotlight": "*es sei* — the reporting mood keeps Jonas from overpromising." },
-        { "speaker": "Aylin", "nl": "Jonas, das ist ja der Wahnsinn! Und wann wisst ihr Bescheid?", "en": "Jonas, that's amazing! And when will you know?" },
-        { "speaker": "Jonas", "nl": "Er hat gesagt, er melde sich nächste Woche. Ich soll erst mal nichts versprechen.", "en": "He said he'd get in touch next week. I'm not to promise anything yet.", "spotlight": "*er melde sich* (Konjunktiv I) plus a request reported with sollen." },
-        { "speaker": "You", "nl": "Klingt vorsichtig. Hat er was zur Bezahlung gesagt?", "en": "Sounds cautious. Did he say anything about pay?" },
-        { "speaker": "Jonas", "nl": "Na ja. Er meinte, viel Geld gebe es nicht, aber gute Leute seien da.", "en": "Well. He reckoned there wasn't much money, but good people would be there.", "spotlight": "*gebe / seien* — both Konjunktiv I (seien is sein's own plural form)." },
-        { "speaker": "Aylin", "nl": "Egal! Einerseits wenig Geld, andererseits eine echte Bühne. Das nimmst du, oder?", "en": "Doesn't matter! Little money on one hand, a real stage on the other. You'll take it, right?", "spotlight": "einerseits … andererseits — the weighing move from day 96." },
-        { "speaker": "Jonas", "nl": "Vielleicht. Ich sag nur: Wenn das klappt, wäre das der Anfang von was.", "en": "Maybe. I'll just say: if it works out, it'd be the start of something.", "spotlight": "back to Konjunktiv II: *wäre* — the hopeful hypothetical." },
-        { "speaker": "Lena", "nl": "Prost — schon mal auf das Vielleicht!", "en": "Cheers — to the maybe, already!" }
+        { "speaker": "Aylin", "target": "Hallo ihr! Ich hör, es gibt Neuigkeiten. Erzählt!", "en": "Hi you lot! I hear there's news. Tell me!" },
+        { "speaker": "Jonas", "target": "Also — ich hab mit einem Veranstalter geredet. Er meinte, er könne uns vielleicht einen Slot geben.", "en": "So — I talked to a promoter. He said he might be able to give us a slot.", "spotlight": "*er könne* (Konjunktiv I) — reported, and deliberately not yet certain." },
+        { "speaker": "Lena", "target": "Was?! Wo denn?", "en": "What?! Where?" },
+        { "speaker": "Jonas", "target": "Er sagte, es sei ein kleines Festival im Herbst. Nichts Großes, aber echt.", "en": "He said it's a small festival in autumn. Nothing huge, but real.", "spotlight": "*es sei* — the reporting mood keeps Jonas from overpromising." },
+        { "speaker": "Aylin", "target": "Jonas, das ist ja der Wahnsinn! Und wann wisst ihr Bescheid?", "en": "Jonas, that's amazing! And when will you know?" },
+        { "speaker": "Jonas", "target": "Er hat gesagt, er melde sich nächste Woche. Ich soll erst mal nichts versprechen.", "en": "He said he'd get in touch next week. I'm not to promise anything yet.", "spotlight": "*er melde sich* (Konjunktiv I) plus a request reported with sollen." },
+        { "speaker": "You", "target": "Klingt vorsichtig. Hat er was zur Bezahlung gesagt?", "en": "Sounds cautious. Did he say anything about pay?" },
+        { "speaker": "Jonas", "target": "Na ja. Er meinte, viel Geld gebe es nicht, aber gute Leute seien da.", "en": "Well. He reckoned there wasn't much money, but good people would be there.", "spotlight": "*gebe / seien* — both Konjunktiv I (seien is sein's own plural form)." },
+        { "speaker": "Aylin", "target": "Egal! Einerseits wenig Geld, andererseits eine echte Bühne. Das nimmst du, oder?", "en": "Doesn't matter! Little money on one hand, a real stage on the other. You'll take it, right?", "spotlight": "einerseits … andererseits — the weighing move from day 96." },
+        { "speaker": "Jonas", "target": "Vielleicht. Ich sag nur: Wenn das klappt, wäre das der Anfang von was.", "en": "Maybe. I'll just say: if it works out, it'd be the start of something.", "spotlight": "back to Konjunktiv II: *wäre* — the hopeful hypothetical." },
+        { "speaker": "Lena", "target": "Prost — schon mal auf das Vielleicht!", "en": "Cheers — to the maybe, already!" }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-16",
   "day": 16,
   "module": "M03",
@@ -28,11 +28,11 @@
       "type": "chips",
       "title": "Tap and match",
       "items": [
-        { "nl": "alto", "en": "tall (m.)", "speak": "alto" },
-        { "nl": "alta", "en": "tall (f.)", "speak": "alta" },
-        { "nl": "alti", "en": "tall (m. pl.)", "speak": "alti" },
-        { "nl": "intelligente", "en": "smart (sing.)", "speak": "intelligente" },
-        { "nl": "intelligenti", "en": "smart (pl.)", "speak": "intelligenti" }
+        { "target": "alto", "en": "tall (m.)", "speak": "alto" },
+        { "target": "alta", "en": "tall (f.)", "speak": "alta" },
+        { "target": "alti", "en": "tall (m. pl.)", "speak": "alti" },
+        { "target": "intelligente", "en": "smart (sing.)", "speak": "intelligente" },
+        { "target": "intelligenti", "en": "smart (pl.)", "speak": "intelligenti" }
       ]
     },
     {
@@ -79,11 +79,11 @@
       "type": "dialogue",
       "scene": "Marco tells you about Giulia's cozy apartment near Via Mazzini",
       "lines": [
-        { "speaker": "Marco", "nl": "L'appartamento di Giulia è bello, ma piccolo.", "en": "Giulia's apartment is nice, but small.", "spotlight": "bello here follows essere, so it keeps its full form — shortening only happens right before the noun." },
-        { "speaker": "You", "nl": "Piccolo? Quante stanze ha?", "en": "Small? How many rooms does it have?" },
-        { "speaker": "Marco", "nl": "Due stanze, ma luminose. E lei è una persona molto ordinata.", "en": "Two rooms, but bright. And she's a very tidy person." },
-        { "speaker": "You", "nl": "Giulia sembra una donna intelligente e simpatica.", "en": "Giulia seems like an intelligent and nice woman." },
-        { "speaker": "Marco", "nl": "Esatto! E il suo caffè è sempre buono.", "en": "Exactly! And her coffee is always good." }
+        { "speaker": "Marco", "target": "L'appartamento di Giulia è bello, ma piccolo.", "en": "Giulia's apartment is nice, but small.", "spotlight": "bello here follows essere, so it keeps its full form — shortening only happens right before the noun." },
+        { "speaker": "You", "target": "Piccolo? Quante stanze ha?", "en": "Small? How many rooms does it have?" },
+        { "speaker": "Marco", "target": "Due stanze, ma luminose. E lei è una persona molto ordinata.", "en": "Two rooms, but bright. And she's a very tidy person." },
+        { "speaker": "You", "target": "Giulia sembra una donna intelligente e simpatica.", "en": "Giulia seems like an intelligent and nice woman." },
+        { "speaker": "Marco", "target": "Esatto! E il suo caffè è sempre buono.", "en": "Exactly! And her coffee is always good." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-58",
   "day": 58,
   "module": "M09",
@@ -43,11 +43,11 @@
       "type": "chips",
       "title": "Escucha las conjunciones",
       "items": [
-        { "nl": "Cuando termine, te aviso.", "en": "When I finish, I'll let you know.", "speak": "Cuando termine, te aviso." },
-        { "nl": "Te lo digo para que lo sepas.", "en": "I'm telling you so you know.", "speak": "Te lo digo para que lo sepas." },
-        { "nl": "Vámonos antes de que llueva.", "en": "Let's go before it rains.", "speak": "Vámonos antes de que llueva." },
-        { "nl": "Espera hasta que yo vuelva.", "en": "Wait until I come back.", "speak": "Espera hasta que yo vuelva." },
-        { "nl": "En cuanto llegue, te escribo.", "en": "As soon as I arrive, I'll text you.", "speak": "En cuanto llegue, te escribo." }
+        { "target": "Cuando termine, te aviso.", "en": "When I finish, I'll let you know.", "speak": "Cuando termine, te aviso." },
+        { "target": "Te lo digo para que lo sepas.", "en": "I'm telling you so you know.", "speak": "Te lo digo para que lo sepas." },
+        { "target": "Vámonos antes de que llueva.", "en": "Let's go before it rains.", "speak": "Vámonos antes de que llueva." },
+        { "target": "Espera hasta que yo vuelva.", "en": "Wait until I come back.", "speak": "Espera hasta que yo vuelva." },
+        { "target": "En cuanto llegue, te escribo.", "en": "As soon as I arrive, I'll text you.", "speak": "En cuanto llegue, te escribo." }
       ]
     },
     {
@@ -85,14 +85,14 @@
       "type": "dialogue",
       "scene": "Lucía y tú organizáis un plan para el finde",
       "lines": [
-        { "speaker": "Lucía", "nl": "Oye, ¿quedamos este finde?", "en": "Hey, shall we meet up this weekend?" },
-        { "speaker": "You", "nl": "Vale. Cuando termine de currar el viernes, te escribo.", "en": "Sure. When I finish work on Friday, I'll message you.", "spotlight": "cuando + subjuntivo (termine), acción futura." },
-        { "speaker": "Lucía", "nl": "Perfecto. Podemos vernos antes de que lleguen los demás y así charlamos.", "en": "Perfect. We can meet before the others arrive so we can chat.", "spotlight": "antes de que + subjuntivo (lleguen)." },
-        { "speaker": "You", "nl": "Buena idea. Te aviso en cuanto salga de la oficina.", "en": "Good idea. I'll let you know as soon as I leave the office." },
-        { "speaker": "Lucía", "nl": "Genial. Voy a reservar mesa para que no tengamos que esperar.", "en": "Great. I'll book a table so we don't have to wait.", "spotlight": "para que + subjuntivo (tengamos), finalidad." },
-        { "speaker": "You", "nl": "Sí, mejor. La última vez esperamos hasta que se quedó libre una, ¿te acuerdas?", "en": "Yes, better. Last time we waited until one freed up, remember?", "spotlight": "Aquí es pasado real: hasta que + indicativo (se quedó)." },
-        { "speaker": "Lucía", "nl": "Uf, sí. Pues eso: cuando sepas la hora, me dices y lo cierro.", "en": "Ugh, yeah. So then: when you know the time, tell me and I'll lock it in." },
-        { "speaker": "You", "nl": "Hecho. En cuanto lo confirme, te llamo.", "en": "Done. As soon as I confirm it, I'll call you." }
+        { "speaker": "Lucía", "target": "Oye, ¿quedamos este finde?", "en": "Hey, shall we meet up this weekend?" },
+        { "speaker": "You", "target": "Vale. Cuando termine de currar el viernes, te escribo.", "en": "Sure. When I finish work on Friday, I'll message you.", "spotlight": "cuando + subjuntivo (termine), acción futura." },
+        { "speaker": "Lucía", "target": "Perfecto. Podemos vernos antes de que lleguen los demás y así charlamos.", "en": "Perfect. We can meet before the others arrive so we can chat.", "spotlight": "antes de que + subjuntivo (lleguen)." },
+        { "speaker": "You", "target": "Buena idea. Te aviso en cuanto salga de la oficina.", "en": "Good idea. I'll let you know as soon as I leave the office." },
+        { "speaker": "Lucía", "target": "Genial. Voy a reservar mesa para que no tengamos que esperar.", "en": "Great. I'll book a table so we don't have to wait.", "spotlight": "para que + subjuntivo (tengamos), finalidad." },
+        { "speaker": "You", "target": "Sí, mejor. La última vez esperamos hasta que se quedó libre una, ¿te acuerdas?", "en": "Yes, better. Last time we waited until one freed up, remember?", "spotlight": "Aquí es pasado real: hasta que + indicativo (se quedó)." },
+        { "speaker": "Lucía", "target": "Uf, sí. Pues eso: cuando sepas la hora, me dices y lo cierro.", "en": "Ugh, yeah. So then: when you know the time, tell me and I'll lock it in." },
+        { "speaker": "You", "target": "Hecho. En cuanto lo confirme, te llamo.", "en": "Done. As soon as I confirm it, I'll call you." }
       ]
     },
     {

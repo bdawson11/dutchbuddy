@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-48",
   "day": 48,
   "module": "M07",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Ripasso veloce",
       "items": [
-        { "nl": "ero", "en": "I was", "speak": "ero" },
-        { "nl": "avevo", "en": "I had / used to have", "speak": "avevo" },
-        { "nl": "giocavo", "en": "I used to play", "speak": "giocavo" },
-        { "nl": "pioveva", "en": "it was raining", "speak": "pioveva" },
-        { "nl": "sempre", "en": "always", "speak": "sempre" },
-        { "nl": "da bambino/a", "en": "as a kid", "speak": "da bambino" }
+        { "target": "ero", "en": "I was", "speak": "ero" },
+        { "target": "avevo", "en": "I had / used to have", "speak": "avevo" },
+        { "target": "giocavo", "en": "I used to play", "speak": "giocavo" },
+        { "target": "pioveva", "en": "it was raining", "speak": "pioveva" },
+        { "target": "sempre", "en": "always", "speak": "sempre" },
+        { "target": "da bambino/a", "en": "as a kid", "speak": "da bambino" }
       ]
     },
     {
@@ -47,14 +47,14 @@
       "type": "dialogue",
       "scene": "Pietro shares a memory of growing up in Naples, over coffee with You",
       "lines": [
-        { "speaker": "Pietro", "nl": "Da bambino, abitavo vicino al mare, qui a Napoli.", "en": "As a kid, I lived near the sea, here in Naples." },
-        { "speaker": "You", "nl": "Che ricordi hai della tua infanzia?", "en": "What memories do you have of your childhood?" },
-        { "speaker": "Pietro", "nl": "Tanti. Ogni pomeriggio giocavo a calcio in strada con gli amici.", "en": "Many. Every afternoon I used to play soccer in the street with my friends." },
-        { "speaker": "You", "nl": "E a scuola, com'eri?", "en": "And at school, what were you like?" },
-        { "speaker": "Pietro", "nl": "Ero un po' vivace, sinceramente. La maestra mi diceva sempre di stare fermo.", "en": "I was a bit lively, honestly. The teacher always used to tell me to sit still.", "spotlight": "mi diceva sempre — imperfetto per un rimprovero abituale, non un episodio singolo." },
-        { "speaker": "You", "nl": "E la domenica? Cosa facevate in famiglia?", "en": "And on Sundays? What did you do as a family?" },
-        { "speaker": "Pietro", "nl": "Si mangiava tutti insieme, dai nonni. Il pranzo durava ore.", "en": "We all used to eat together, at my grandparents'. Lunch would last for hours." },
-        { "speaker": "Pietro", "nl": "Qui a Napoli, la famiglia è sempre stata il centro di tutto.", "en": "Here in Naples, family has always been the center of everything." }
+        { "speaker": "Pietro", "target": "Da bambino, abitavo vicino al mare, qui a Napoli.", "en": "As a kid, I lived near the sea, here in Naples." },
+        { "speaker": "You", "target": "Che ricordi hai della tua infanzia?", "en": "What memories do you have of your childhood?" },
+        { "speaker": "Pietro", "target": "Tanti. Ogni pomeriggio giocavo a calcio in strada con gli amici.", "en": "Many. Every afternoon I used to play soccer in the street with my friends." },
+        { "speaker": "You", "target": "E a scuola, com'eri?", "en": "And at school, what were you like?" },
+        { "speaker": "Pietro", "target": "Ero un po' vivace, sinceramente. La maestra mi diceva sempre di stare fermo.", "en": "I was a bit lively, honestly. The teacher always used to tell me to sit still.", "spotlight": "mi diceva sempre — imperfetto per un rimprovero abituale, non un episodio singolo." },
+        { "speaker": "You", "target": "E la domenica? Cosa facevate in famiglia?", "en": "And on Sundays? What did you do as a family?" },
+        { "speaker": "Pietro", "target": "Si mangiava tutti insieme, dai nonni. Il pranzo durava ore.", "en": "We all used to eat together, at my grandparents'. Lunch would last for hours." },
+        { "speaker": "Pietro", "target": "Qui a Napoli, la famiglia è sempre stata il centro di tutto.", "en": "Here in Naples, family has always been the center of everything." }
       ]
     },
     {

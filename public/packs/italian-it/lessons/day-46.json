@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-46",
   "day": 46,
   "module": "M07",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Che tempo faceva — tocca per sentire",
       "items": [
-        { "nl": "Faceva caldo.", "en": "It was hot.", "speak": "Faceva caldo." },
-        { "nl": "Pioveva.", "en": "It was raining.", "speak": "Pioveva." },
-        { "nl": "C'era il sole.", "en": "It was sunny.", "speak": "C'era il sole." },
-        { "nl": "Tirava vento.", "en": "It was windy.", "speak": "Tirava vento." },
-        { "nl": "Nevicava.", "en": "It was snowing.", "speak": "Nevicava." },
-        { "nl": "Il cielo era grigio.", "en": "The sky was grey.", "speak": "Il cielo era grigio." }
+        { "target": "Faceva caldo.", "en": "It was hot.", "speak": "Faceva caldo." },
+        { "target": "Pioveva.", "en": "It was raining.", "speak": "Pioveva." },
+        { "target": "C'era il sole.", "en": "It was sunny.", "speak": "C'era il sole." },
+        { "target": "Tirava vento.", "en": "It was windy.", "speak": "Tirava vento." },
+        { "target": "Nevicava.", "en": "It was snowing.", "speak": "Nevicava." },
+        { "target": "Il cielo era grigio.", "en": "The sky was grey.", "speak": "Il cielo era grigio." }
       ]
     },
     {
@@ -76,11 +76,11 @@
       "type": "dialogue",
       "scene": "Giulia describes the seaside town of her childhood summers",
       "lines": [
-        { "speaker": "Giulia", "nl": "Da piccola, andavamo sempre al mare in agosto.", "en": "As a kid, we always used to go to the seaside in August." },
-        { "speaker": "You", "nl": "Com'era il posto?", "en": "What was the place like?" },
-        { "speaker": "Giulia", "nl": "Piccolo, tranquillo. C'era sempre il sole e faceva caldissimo.", "en": "Small, quiet. It was always sunny and it was really hot." },
-        { "speaker": "You", "nl": "E la casa?", "en": "And the house?" },
-        { "speaker": "Giulia", "nl": "Era una casetta bianca, vicino alla spiaggia.", "en": "It was a little white house, near the beach.", "spotlight": "era una casetta — imperfetto per descrivere com'era un luogo." }
+        { "speaker": "Giulia", "target": "Da piccola, andavamo sempre al mare in agosto.", "en": "As a kid, we always used to go to the seaside in August." },
+        { "speaker": "You", "target": "Com'era il posto?", "en": "What was the place like?" },
+        { "speaker": "Giulia", "target": "Piccolo, tranquillo. C'era sempre il sole e faceva caldissimo.", "en": "Small, quiet. It was always sunny and it was really hot." },
+        { "speaker": "You", "target": "E la casa?", "en": "And the house?" },
+        { "speaker": "Giulia", "target": "Era una casetta bianca, vicino alla spiaggia.", "en": "It was a little white house, near the beach.", "spotlight": "era una casetta — imperfetto per descrivere com'era un luogo." }
       ]
     },
     {

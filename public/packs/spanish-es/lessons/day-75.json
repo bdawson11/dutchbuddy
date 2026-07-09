@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-75",
   "day": 75,
   "module": "M11",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Frases de cortesía",
       "items": [
-        { "nl": "¿En qué puedo ayudarle?", "en": "How can I help you?", "speak": "¿En qué puedo ayudarle?" },
-        { "nl": "¿Sería tan amable de esperar?", "en": "Would you be so kind as to wait?", "speak": "¿Sería tan amable de esperar?" },
-        { "nl": "¿Podría repetírmelo, por favor?", "en": "Could you repeat that for me, please?", "speak": "¿Podría repetírmelo, por favor?" },
-        { "nl": "Perdone, ¿me puede decir la hora?", "en": "Excuse me, can you tell me the time?", "speak": "Perdone, ¿me puede decir la hora?" },
-        { "nl": "Tome asiento, por favor.", "en": "Take a seat, please.", "speak": "Tome asiento, por favor." },
-        { "nl": "Cuando usted quiera.", "en": "Whenever you're ready.", "speak": "Cuando usted quiera." }
+        { "target": "¿En qué puedo ayudarle?", "en": "How can I help you?", "speak": "¿En qué puedo ayudarle?" },
+        { "target": "¿Sería tan amable de esperar?", "en": "Would you be so kind as to wait?", "speak": "¿Sería tan amable de esperar?" },
+        { "target": "¿Podría repetírmelo, por favor?", "en": "Could you repeat that for me, please?", "speak": "¿Podría repetírmelo, por favor?" },
+        { "target": "Perdone, ¿me puede decir la hora?", "en": "Excuse me, can you tell me the time?", "speak": "Perdone, ¿me puede decir la hora?" },
+        { "target": "Tome asiento, por favor.", "en": "Take a seat, please.", "speak": "Tome asiento, por favor." },
+        { "target": "Cuando usted quiera.", "en": "Whenever you're ready.", "speak": "Cuando usted quiera." }
       ]
     },
     {
@@ -69,24 +69,24 @@
       "type": "shadow",
       "title": "Repite: al teléfono, de usted",
       "lines": [
-        { "nl": "¿Dígame?", "en": "Hello? (answering the phone)" },
-        { "nl": "Buenos días, ¿podría hablar con la doctora?", "en": "Good morning, could I speak with the doctor?" },
-        { "nl": "¿De parte de quién?", "en": "Who's calling?" },
-        { "nl": "De parte de Álex Ríos.", "en": "It's Álex Ríos." },
-        { "nl": "Un momento, le paso.", "en": "One moment, I'll put you through." }
+        { "target": "¿Dígame?", "en": "Hello? (answering the phone)" },
+        { "target": "Buenos días, ¿podría hablar con la doctora?", "en": "Good morning, could I speak with the doctor?" },
+        { "target": "¿De parte de quién?", "en": "Who's calling?" },
+        { "target": "De parte de Álex Ríos.", "en": "It's Álex Ríos." },
+        { "target": "Un momento, le paso.", "en": "One moment, I'll put you through." }
       ]
     },
     {
       "type": "dialogue",
       "scene": "Lucía has you rehearse phoning to book a doctor's appointment — stay in usted.",
       "lines": [
-        { "speaker": "Lucía", "nl": "Venga, ensayamos. Llamas al centro de salud. Yo te escucho.", "en": "Come on, let's rehearse. You call the health center. I'll listen." },
-        { "speaker": "You", "nl": "Buenos días. ¿Podría pedir una cita con el médico?", "en": "Good morning. Could I book an appointment with the doctor?", "spotlight": "podría + tercera persona: registro formal." },
-        { "speaker": "Lucía", "nl": "Perfecto, todo en usted. Sigue.", "en": "Perfect, all in usted. Keep going." },
-        { "speaker": "You", "nl": "¿Sería posible para esta semana? Me duele bastante la espalda.", "en": "Would it be possible for this week? My back hurts quite a bit." },
-        { "speaker": "Lucía", "nl": "Muy bien. ¿Ves cómo no dices 'tienes' ni 'puedes'?", "en": "Great. See how you don't say 'tienes' or 'puedes'?" },
-        { "speaker": "You", "nl": "Sí, todo en tercera persona. Gracias por su ayuda… digo, tu ayuda.", "en": "Yes, all third person. Thanks for your help… I mean, your help." },
-        { "speaker": "Lucía", "nl": "¡Ja! Conmigo de tú, que soy tu amiga.", "en": "Ha! With me it's tú, I'm your friend.", "spotlight": "over-formalizing with a friend is the classic slip." }
+        { "speaker": "Lucía", "target": "Venga, ensayamos. Llamas al centro de salud. Yo te escucho.", "en": "Come on, let's rehearse. You call the health center. I'll listen." },
+        { "speaker": "You", "target": "Buenos días. ¿Podría pedir una cita con el médico?", "en": "Good morning. Could I book an appointment with the doctor?", "spotlight": "podría + tercera persona: registro formal." },
+        { "speaker": "Lucía", "target": "Perfecto, todo en usted. Sigue.", "en": "Perfect, all in usted. Keep going." },
+        { "speaker": "You", "target": "¿Sería posible para esta semana? Me duele bastante la espalda.", "en": "Would it be possible for this week? My back hurts quite a bit." },
+        { "speaker": "Lucía", "target": "Muy bien. ¿Ves cómo no dices 'tienes' ni 'puedes'?", "en": "Great. See how you don't say 'tienes' or 'puedes'?" },
+        { "speaker": "You", "target": "Sí, todo en tercera persona. Gracias por su ayuda… digo, tu ayuda.", "en": "Yes, all third person. Thanks for your help… I mean, your help." },
+        { "speaker": "Lucía", "target": "¡Ja! Conmigo de tú, que soy tu amiga.", "en": "Ha! With me it's tú, I'm your friend.", "spotlight": "over-formalizing with a friend is the classic slip." }
       ]
     },
     {

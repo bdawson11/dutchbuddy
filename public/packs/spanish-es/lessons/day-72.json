@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-72",
   "day": 72,
   "module": "M11",
@@ -39,12 +39,12 @@
       "type": "chips",
       "title": "Escúchalas en contexto",
       "items": [
-        { "nl": "Pues no sé, la verdad.", "en": "Well, I don't know, honestly.", "speak": "Pues no sé, la verdad." },
-        { "nl": "O sea, que no vienes.", "en": "So (I mean), you're not coming.", "speak": "O sea, que no vienes." },
-        { "nl": "Es que no tengo tiempo.", "en": "It's just that I don't have time.", "speak": "Es que no tengo tiempo." },
-        { "nl": "Estaba, en plan, flipando.", "en": "I was, like, freaking out.", "speak": "Estaba, en plan, flipando." },
-        { "nl": "Bueno, ¿nos vamos?", "en": "Well, shall we go?", "speak": "Bueno, ¿nos vamos?" },
-        { "nl": "Venga, hasta luego.", "en": "Alright, see you.", "speak": "Venga, hasta luego." }
+        { "target": "Pues no sé, la verdad.", "en": "Well, I don't know, honestly.", "speak": "Pues no sé, la verdad." },
+        { "target": "O sea, que no vienes.", "en": "So (I mean), you're not coming.", "speak": "O sea, que no vienes." },
+        { "target": "Es que no tengo tiempo.", "en": "It's just that I don't have time.", "speak": "Es que no tengo tiempo." },
+        { "target": "Estaba, en plan, flipando.", "en": "I was, like, freaking out.", "speak": "Estaba, en plan, flipando." },
+        { "target": "Bueno, ¿nos vamos?", "en": "Well, shall we go?", "speak": "Bueno, ¿nos vamos?" },
+        { "target": "Venga, hasta luego.", "en": "Alright, see you.", "speak": "Venga, hasta luego." }
       ]
     },
     {
@@ -86,13 +86,13 @@
       "type": "dialogue",
       "scene": "Rafa tells you about a gig — count the muletillas.",
       "lines": [
-        { "speaker": "Rafa", "nl": "Pues nada, que anoche fui a un concierto, ¿no?", "en": "So anyway, I went to a gig last night, right?", "spotlight": "pues nada = the classic story opener." },
-        { "speaker": "You", "nl": "¿Ah sí? ¿Qué tal?", "en": "Oh yeah? How was it?" },
-        { "speaker": "Rafa", "nl": "Bueno… al principio, en plan, medio vacío. Pero luego se llenó.", "en": "Well… at first, like, half empty. But then it filled up." },
-        { "speaker": "You", "nl": "O sea, que al final mereció la pena.", "en": "So in the end it was worth it." },
-        { "speaker": "Rafa", "nl": "Hombre, sí. Es que el grupo tocaba de miedo, tío.", "en": "Man, yeah. It's just the band played amazingly, mate." },
-        { "speaker": "You", "nl": "¿Y no me dijiste nada? Me habría apuntado.", "en": "And you didn't tell me? I'd have joined." },
-        { "speaker": "Rafa", "nl": "Ya, ya… es que fue todo muy de última hora. Pero venga, la próxima te aviso.", "en": "Yeah, yeah… it's just it was all last-minute. But come on, next time I'll let you know." }
+        { "speaker": "Rafa", "target": "Pues nada, que anoche fui a un concierto, ¿no?", "en": "So anyway, I went to a gig last night, right?", "spotlight": "pues nada = the classic story opener." },
+        { "speaker": "You", "target": "¿Ah sí? ¿Qué tal?", "en": "Oh yeah? How was it?" },
+        { "speaker": "Rafa", "target": "Bueno… al principio, en plan, medio vacío. Pero luego se llenó.", "en": "Well… at first, like, half empty. But then it filled up." },
+        { "speaker": "You", "target": "O sea, que al final mereció la pena.", "en": "So in the end it was worth it." },
+        { "speaker": "Rafa", "target": "Hombre, sí. Es que el grupo tocaba de miedo, tío.", "en": "Man, yeah. It's just the band played amazingly, mate." },
+        { "speaker": "You", "target": "¿Y no me dijiste nada? Me habría apuntado.", "en": "And you didn't tell me? I'd have joined." },
+        { "speaker": "Rafa", "target": "Ya, ya… es que fue todo muy de última hora. Pero venga, la próxima te aviso.", "en": "Yeah, yeah… it's just it was all last-minute. But come on, next time I'll let you know." }
       ]
     },
     {

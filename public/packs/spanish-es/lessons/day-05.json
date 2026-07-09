@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-05",
   "day": 5,
   "module": "M01",
@@ -31,10 +31,10 @@
       "type": "chips",
       "title": "Tap to hear tener",
       "items": [
-        { "nl": "tengo hambre", "en": "I'm hungry", "speak": "tengo hambre" },
-        { "nl": "tengo sed", "en": "I'm thirsty", "speak": "tengo sed" },
-        { "nl": "tengo treinta años", "en": "I'm thirty (years old)", "speak": "tengo treinta años" },
-        { "nl": "¿tienes hambre?", "en": "are you hungry?", "speak": "¿tienes hambre?" }
+        { "target": "tengo hambre", "en": "I'm hungry", "speak": "tengo hambre" },
+        { "target": "tengo sed", "en": "I'm thirsty", "speak": "tengo sed" },
+        { "target": "tengo treinta años", "en": "I'm thirty (years old)", "speak": "tengo treinta años" },
+        { "target": "¿tienes hambre?", "en": "are you hungry?", "speak": "¿tienes hambre?" }
       ]
     },
     {
@@ -84,11 +84,11 @@
       "type": "dialogue",
       "scene": "Rafa checks in with you at the end of a long day",
       "lines": [
-        { "speaker": "Rafa", "nl": "¿Qué tal? ¿Estás bien?", "en": "How's it going? Are you OK?" },
-        { "speaker": "You", "nl": "Estoy un poco cansado, la verdad.", "en": "I'm a bit tired, honestly." },
-        { "speaker": "Rafa", "nl": "¿Tienes hambre? Hay tapas.", "en": "Are you hungry? There are tapas.", "spotlight": "*tener hambre* — 'have hunger' = to be hungry." },
-        { "speaker": "You", "nl": "No, no tengo hambre, gracias. Pero tengo sed.", "en": "No, I'm not hungry, thanks. But I'm thirsty." },
-        { "speaker": "Rafa", "nl": "¡Pues una caña! Venga.", "en": "A beer then! Come on." }
+        { "speaker": "Rafa", "target": "¿Qué tal? ¿Estás bien?", "en": "How's it going? Are you OK?" },
+        { "speaker": "You", "target": "Estoy un poco cansado, la verdad.", "en": "I'm a bit tired, honestly." },
+        { "speaker": "Rafa", "target": "¿Tienes hambre? Hay tapas.", "en": "Are you hungry? There are tapas.", "spotlight": "*tener hambre* — 'have hunger' = to be hungry." },
+        { "speaker": "You", "target": "No, no tengo hambre, gracias. Pero tengo sed.", "en": "No, I'm not hungry, thanks. But I'm thirsty." },
+        { "speaker": "Rafa", "target": "¡Pues una caña! Venga.", "en": "A beer then! Come on." }
       ]
     },
     {

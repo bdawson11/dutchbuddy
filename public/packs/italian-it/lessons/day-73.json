@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-73",
   "day": 73,
   "module": "M11",
@@ -21,14 +21,14 @@
       "type": "chips",
       "title": "Senti come cambiano",
       "items": [
-        { "nl": "un momentino", "en": "just a moment", "speak": "Aspetta un momentino." },
-        { "nl": "un tavolino", "en": "a little café table", "speak": "un tavolino" },
-        { "nl": "un caffettino", "en": "a nice little coffee", "speak": "un caffettino" },
-        { "nl": "una parolaccia", "en": "a swear word", "speak": "una parolaccia" },
-        { "nl": "una giornataccia", "en": "a rotten day", "speak": "che giornataccia" },
-        { "nl": "un macchinone", "en": "a huge car", "speak": "un macchinone" },
-        { "nl": "un ragazzino", "en": "a little kid", "speak": "un ragazzino" },
-        { "nl": "benino", "en": "pretty well / so-so", "speak": "Sto benino." }
+        { "target": "un momentino", "en": "just a moment", "speak": "Aspetta un momentino." },
+        { "target": "un tavolino", "en": "a little café table", "speak": "un tavolino" },
+        { "target": "un caffettino", "en": "a nice little coffee", "speak": "un caffettino" },
+        { "target": "una parolaccia", "en": "a swear word", "speak": "una parolaccia" },
+        { "target": "una giornataccia", "en": "a rotten day", "speak": "che giornataccia" },
+        { "target": "un macchinone", "en": "a huge car", "speak": "un macchinone" },
+        { "target": "un ragazzino", "en": "a little kid", "speak": "un ragazzino" },
+        { "target": "benino", "en": "pretty well / so-so", "speak": "Sto benino." }
       ]
     },
     {
@@ -76,13 +76,13 @@
       "type": "dialogue",
       "scene": "Al bar con Giulia: ordini e chiacchiere, piene di alterati.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Ci sediamo a quel tavolino fuori? Ho trovato un posticino tranquillo.", "en": "Shall we sit at that little table outside? I found a nice quiet little spot.", "spotlight": "*tavolino* (café table) e *posticino* (a nice little spot): alterati che scaldano la frase." },
-        { "speaker": "You", "nl": "Volentieri. Prendo un caffettino, ho avuto una giornataccia.", "en": "Gladly. I'll have a little coffee, I've had a rotten day." },
-        { "speaker": "Giulia", "nl": "Ma dai, cos'è successo?", "en": "Oh come on, what happened?" },
-        { "speaker": "You", "nl": "Niente di grave, solo tanto lavoro. Mi serve un momentino di pausa.", "en": "Nothing serious, just a lot of work. I need a little break." },
-        { "speaker": "Giulia", "nl": "Allora rilassati. Guarda che bel cagnolino lì!", "en": "So relax. Look at that cute little dog over there!" },
-        { "speaker": "You", "nl": "Che carino! Un pochino di tranquillità ci vuole.", "en": "How sweet! A little bit of calm is just what I need." },
-        { "speaker": "Giulia", "nl": "Esatto. Un caffè, un tavolino, e la giornataccia passa.", "en": "Exactly. A coffee, a little table, and the rotten day passes." }
+        { "speaker": "Giulia", "target": "Ci sediamo a quel tavolino fuori? Ho trovato un posticino tranquillo.", "en": "Shall we sit at that little table outside? I found a nice quiet little spot.", "spotlight": "*tavolino* (café table) e *posticino* (a nice little spot): alterati che scaldano la frase." },
+        { "speaker": "You", "target": "Volentieri. Prendo un caffettino, ho avuto una giornataccia.", "en": "Gladly. I'll have a little coffee, I've had a rotten day." },
+        { "speaker": "Giulia", "target": "Ma dai, cos'è successo?", "en": "Oh come on, what happened?" },
+        { "speaker": "You", "target": "Niente di grave, solo tanto lavoro. Mi serve un momentino di pausa.", "en": "Nothing serious, just a lot of work. I need a little break." },
+        { "speaker": "Giulia", "target": "Allora rilassati. Guarda che bel cagnolino lì!", "en": "So relax. Look at that cute little dog over there!" },
+        { "speaker": "You", "target": "Che carino! Un pochino di tranquillità ci vuole.", "en": "How sweet! A little bit of calm is just what I need." },
+        { "speaker": "Giulia", "target": "Esatto. Un caffè, un tavolino, e la giornataccia passa.", "en": "Exactly. A coffee, a little table, and the rotten day passes." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-80",
   "day": 80,
   "module": "M12",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Al banco — cosa ordini",
       "items": [
-        { "nl": "uno spritz", "en": "a spritz", "speak": "Uno spritz, per favore." },
-        { "nl": "un calice di bianco", "en": "a glass of white wine", "speak": "Un calice di bianco." },
-        { "nl": "una birra media", "en": "a medium beer", "speak": "Una birra media." },
-        { "nl": "un tagliere misto", "en": "a mixed board", "speak": "Un tagliere misto." },
-        { "nl": "gli stuzzichini", "en": "the nibbles", "speak": "gli stuzzichini" },
-        { "nl": "delle olive", "en": "some olives", "speak": "delle olive" }
+        { "target": "uno spritz", "en": "a spritz", "speak": "Uno spritz, per favore." },
+        { "target": "un calice di bianco", "en": "a glass of white wine", "speak": "Un calice di bianco." },
+        { "target": "una birra media", "en": "a medium beer", "speak": "Una birra media." },
+        { "target": "un tagliere misto", "en": "a mixed board", "speak": "Un tagliere misto." },
+        { "target": "gli stuzzichini", "en": "the nibbles", "speak": "gli stuzzichini" },
+        { "target": "delle olive", "en": "some olives", "speak": "delle olive" }
       ]
     },
     {
@@ -39,10 +39,10 @@
       "type": "shadow",
       "title": "Le frasi della serata — ripeti",
       "lines": [
-        { "nl": "Che cosa prendete?", "en": "What are you all having?" },
-        { "nl": "Offro io, dai!", "en": "It's on me, come on!" },
-        { "nl": "No, questo giro lo offri tu la prossima volta.", "en": "No — you get the next round." },
-        { "nl": "Cin cin! Alla nostra!", "en": "Cheers! To us!" }
+        { "target": "Che cosa prendete?", "en": "What are you all having?" },
+        { "target": "Offro io, dai!", "en": "It's on me, come on!" },
+        { "target": "No, questo giro lo offri tu la prossima volta.", "en": "No — you get the next round." },
+        { "target": "Cin cin! Alla nostra!", "en": "Cheers! To us!" }
       ]
     },
     {
@@ -77,14 +77,14 @@
       "type": "dialogue",
       "scene": "Aperitivo hour in Bologna — you, Giulia and Marco order the first round.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Allora, che cosa prendete? Io uno spritz.", "en": "So, what's everyone having? I'll have a spritz." },
-        { "speaker": "Marco", "nl": "Per me una birra media. E un tagliere misto per tutti?", "en": "A medium beer for me. And a mixed board for everyone?" },
-        { "speaker": "You", "nl": "Sì, dai. Per me un calice di bianco.", "en": "Yes, go on. A glass of white for me." },
-        { "speaker": "Giulia", "nl": "Perfetto. Questo giro lo offro io, eh.", "en": "Perfect. This round's on me, okay.", "spotlight": "*Questo giro lo offro io* — 'il giro' is the round; *lo* is the clitic." },
-        { "speaker": "Marco", "nl": "Ma no, offro io! Tu hai pagato l'ultima volta.", "en": "No way, it's on me! You paid last time." },
-        { "speaker": "You", "nl": "Facciamo così: la prossima la offro io.", "en": "Let's do this: I'll get the next one." },
-        { "speaker": "Giulia", "nl": "Va bene. Allora… cin cin! Alla nostra!", "en": "Alright. So… cheers! To us!" },
-        { "speaker": "Marco", "nl": "Salute! Un anno di italiano, mica male, eh.", "en": "Cheers! A year of Italian, not bad at all, eh." }
+        { "speaker": "Giulia", "target": "Allora, che cosa prendete? Io uno spritz.", "en": "So, what's everyone having? I'll have a spritz." },
+        { "speaker": "Marco", "target": "Per me una birra media. E un tagliere misto per tutti?", "en": "A medium beer for me. And a mixed board for everyone?" },
+        { "speaker": "You", "target": "Sì, dai. Per me un calice di bianco.", "en": "Yes, go on. A glass of white for me." },
+        { "speaker": "Giulia", "target": "Perfetto. Questo giro lo offro io, eh.", "en": "Perfect. This round's on me, okay.", "spotlight": "*Questo giro lo offro io* — 'il giro' is the round; *lo* is the clitic." },
+        { "speaker": "Marco", "target": "Ma no, offro io! Tu hai pagato l'ultima volta.", "en": "No way, it's on me! You paid last time." },
+        { "speaker": "You", "target": "Facciamo così: la prossima la offro io.", "en": "Let's do this: I'll get the next one." },
+        { "speaker": "Giulia", "target": "Va bene. Allora… cin cin! Alla nostra!", "en": "Alright. So… cheers! To us!" },
+        { "speaker": "Marco", "target": "Salute! Un anno di italiano, mica male, eh.", "en": "Cheers! A year of Italian, not bad at all, eh." }
       ]
     },
     {

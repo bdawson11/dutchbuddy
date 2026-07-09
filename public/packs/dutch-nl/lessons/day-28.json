@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-28",
   "day": 28,
   "module": "M04",
@@ -21,21 +21,21 @@
       "type": "chips",
       "title": "Tap for a quick vocab refresh",
       "items": [
-        { "nl": "een broodje kaas", "en": "a cheese roll", "speak": "een broodje kaas" },
-        { "nl": "mag ik…?", "en": "may I have…?", "speak": "mag ik…?" },
-        { "nl": "doe maar…", "en": "I'll have…", "speak": "doe maar…" },
-        { "nl": "ik wil graag…", "en": "I'd like…", "speak": "ik wil graag…" },
-        { "nl": "ik houd van…", "en": "I love…", "speak": "ik houd van…" },
-        { "nl": "een ons", "en": "100 grams", "speak": "een ons" }
+        { "target": "een broodje kaas", "en": "a cheese roll", "speak": "een broodje kaas" },
+        { "target": "mag ik…?", "en": "may I have…?", "speak": "mag ik…?" },
+        { "target": "doe maar…", "en": "I'll have…", "speak": "doe maar…" },
+        { "target": "ik wil graag…", "en": "I'd like…", "speak": "ik wil graag…" },
+        { "target": "ik houd van…", "en": "I love…", "speak": "ik houd van…" },
+        { "target": "een ons", "en": "100 grams", "speak": "een ons" }
       ]
     },
     {
       "type": "shadow",
       "title": "Warm up: shadow the week",
       "lines": [
-        { "nl": "Mag ik een broodje kaas, alstublieft?", "en": "May I have a cheese roll, please?" },
-        { "nl": "Ik wil graag een koffie bestellen.", "en": "I'd like to order a coffee." },
-        { "nl": "Ik houd van patat, maar niet van vis.", "en": "I love fries, but not fish." }
+        { "target": "Mag ik een broodje kaas, alstublieft?", "en": "May I have a cheese roll, please?" },
+        { "target": "Ik wil graag een koffie bestellen.", "en": "I'd like to order a coffee." },
+        { "target": "Ik houd van patat, maar niet van vis.", "en": "I love fries, but not fish." }
       ]
     },
     {
@@ -79,12 +79,12 @@
       "type": "dialogue",
       "scene": "A café table with Daan — ordering, sharing a preference, and a mini self-intro",
       "lines": [
-        { "speaker": "You", "nl": "Hoi Daan! Ik wil graag een koffie en een broodje kaas.", "en": "Hi Daan! I'd like a coffee and a cheese roll." },
-        { "speaker": "Daan", "nl": "Goed idee. Ik neem hetzelfde, doe maar.", "en": "Good idea. I'll have the same, sure." },
-        { "speaker": "You", "nl": "Ik houd wel van broodje kaas, het is altijd lekker.", "en": "I do love a cheese roll, it's always good." },
-        { "speaker": "Daan", "nl": "Ja, en jij? Vertel, wat doe je hier in Amsterdam?", "en": "Yeah, and you? Tell me, what are you doing here in Amsterdam?", "spotlight": "Daan invites the self-intro — callback to week 1." },
-        { "speaker": "You", "nl": "Ik kom uit Toronto, ik woon nu in Amsterdam en ik leer Nederlands!", "en": "I'm from Toronto, I live in Amsterdam now, and I'm learning Dutch!" },
-        { "speaker": "Daan", "nl": "Goed bezig, hoor! Dat is knap.", "en": "You're doing great! That's impressive." }
+        { "speaker": "You", "target": "Hoi Daan! Ik wil graag een koffie en een broodje kaas.", "en": "Hi Daan! I'd like a coffee and a cheese roll." },
+        { "speaker": "Daan", "target": "Goed idee. Ik neem hetzelfde, doe maar.", "en": "Good idea. I'll have the same, sure." },
+        { "speaker": "You", "target": "Ik houd wel van broodje kaas, het is altijd lekker.", "en": "I do love a cheese roll, it's always good." },
+        { "speaker": "Daan", "target": "Ja, en jij? Vertel, wat doe je hier in Amsterdam?", "en": "Yeah, and you? Tell me, what are you doing here in Amsterdam?", "spotlight": "Daan invites the self-intro — callback to week 1." },
+        { "speaker": "You", "target": "Ik kom uit Toronto, ik woon nu in Amsterdam en ik leer Nederlands!", "en": "I'm from Toronto, I live in Amsterdam now, and I'm learning Dutch!" },
+        { "speaker": "Daan", "target": "Goed bezig, hoor! Dat is knap.", "en": "You're doing great! That's impressive." }
       ]
     },
     {

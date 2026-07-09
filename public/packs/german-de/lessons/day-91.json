@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-91",
   "day": 91,
   "module": "M13",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Kurzer Refresh — antippen zum Hören",
       "items": [
-        { "nl": "Wenn ich könnte, …", "en": "If I could, …", "speak": "Wenn ich könnte" },
-        { "nl": "Ich würde gern …", "en": "I'd like to …", "speak": "Ich würde gern" },
-        { "nl": "Das wäre ein Traum.", "en": "That would be a dream.", "speak": "Das wäre ein Traum." },
-        { "nl": "Hätte ich früher angefangen …", "en": "Had I started earlier …", "speak": "Hätte ich früher angefangen" },
-        { "nl": "An deiner Stelle würde ich …", "en": "In your place I'd …", "speak": "An deiner Stelle würde ich" },
-        { "nl": "Ich hätte da eine Frage.", "en": "I'd have a question there.", "speak": "Ich hätte da eine Frage." }
+        { "target": "Wenn ich könnte, …", "en": "If I could, …", "speak": "Wenn ich könnte" },
+        { "target": "Ich würde gern …", "en": "I'd like to …", "speak": "Ich würde gern" },
+        { "target": "Das wäre ein Traum.", "en": "That would be a dream.", "speak": "Das wäre ein Traum." },
+        { "target": "Hätte ich früher angefangen …", "en": "Had I started earlier …", "speak": "Hätte ich früher angefangen" },
+        { "target": "An deiner Stelle würde ich …", "en": "In your place I'd …", "speak": "An deiner Stelle würde ich" },
+        { "target": "Ich hätte da eine Frage.", "en": "I'd have a question there.", "speak": "Ich hätte da eine Frage." }
       ]
     },
     {
@@ -61,15 +61,15 @@
       "type": "dialogue",
       "scene": "A year and a half in. Over coffee, Lena asks how you feel about your German — and you get honest.",
       "lines": [
-        { "speaker": "Lena", "nl": "Sag mal, wie zufrieden bist du mit deinem Deutsch inzwischen?", "en": "Tell me, how happy are you with your German by now?" },
-        { "speaker": "You", "nl": "Besser als früher. Aber ehrlich gesagt würde ich gern noch flüssiger reden.", "en": "Better than before. But honestly I'd like to speak even more fluently." },
-        { "speaker": "Lena", "nl": "Das kommt. Weißt du noch, wie du am Anfang nur „ein Brötchen, bitte\" gesagt hast?", "en": "That'll come. Remember how at the start you only said 'a roll, please'?" },
-        { "speaker": "You", "nl": "Oh Gott, ja. Hätte mir damals jemand das hier gezeigt, hätte ich's nicht geglaubt.", "en": "Oh God, yes. Had someone shown me this back then, I wouldn't have believed it.", "spotlight": "A wenn-less past hypothetical — *hätte* leads both clauses." },
-        { "speaker": "Lena", "nl": "Und jetzt diskutierst du mit Jonas über den Konjunktiv. Wahnsinn.", "en": "And now you argue about the subjunctive with Jonas. Wild." },
-        { "speaker": "You", "nl": "Na ja. Wenn ich nur nicht immer die Endungen verhauen würde!", "en": "Well. If only I didn't always mess up the endings!", "spotlight": "An irreal wish about your own weak spot." },
-        { "speaker": "Lena", "nl": "Ach, das machen sogar Deutsche. An deiner Stelle wäre ich stolz.", "en": "Oh, even Germans do that. In your place I'd be proud." },
-        { "speaker": "You", "nl": "Bin ich auch, ein bisschen. Ich würde sagen: gar nicht so schlecht für anderthalb Jahre.", "en": "I am, a little. I'd say: not bad at all for a year and a half." },
-        { "speaker": "Lena", "nl": "Überhaupt nicht schlecht. Prost auf Staffel zwei!", "en": "Not bad at all. Cheers to season two!" }
+        { "speaker": "Lena", "target": "Sag mal, wie zufrieden bist du mit deinem Deutsch inzwischen?", "en": "Tell me, how happy are you with your German by now?" },
+        { "speaker": "You", "target": "Besser als früher. Aber ehrlich gesagt würde ich gern noch flüssiger reden.", "en": "Better than before. But honestly I'd like to speak even more fluently." },
+        { "speaker": "Lena", "target": "Das kommt. Weißt du noch, wie du am Anfang nur „ein Brötchen, bitte\" gesagt hast?", "en": "That'll come. Remember how at the start you only said 'a roll, please'?" },
+        { "speaker": "You", "target": "Oh Gott, ja. Hätte mir damals jemand das hier gezeigt, hätte ich's nicht geglaubt.", "en": "Oh God, yes. Had someone shown me this back then, I wouldn't have believed it.", "spotlight": "A wenn-less past hypothetical — *hätte* leads both clauses." },
+        { "speaker": "Lena", "target": "Und jetzt diskutierst du mit Jonas über den Konjunktiv. Wahnsinn.", "en": "And now you argue about the subjunctive with Jonas. Wild." },
+        { "speaker": "You", "target": "Na ja. Wenn ich nur nicht immer die Endungen verhauen würde!", "en": "Well. If only I didn't always mess up the endings!", "spotlight": "An irreal wish about your own weak spot." },
+        { "speaker": "Lena", "target": "Ach, das machen sogar Deutsche. An deiner Stelle wäre ich stolz.", "en": "Oh, even Germans do that. In your place I'd be proud." },
+        { "speaker": "You", "target": "Bin ich auch, ein bisschen. Ich würde sagen: gar nicht so schlecht für anderthalb Jahre.", "en": "I am, a little. I'd say: not bad at all for a year and a half." },
+        { "speaker": "Lena", "target": "Überhaupt nicht schlecht. Prost auf Staffel zwei!", "en": "Not bad at all. Cheers to season two!" }
       ]
     },
     {

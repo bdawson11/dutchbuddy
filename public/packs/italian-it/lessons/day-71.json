@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-71",
   "day": 71,
   "module": "M11",
@@ -21,14 +21,14 @@
       "type": "chips",
       "title": "Le coppie da sapere",
       "items": [
-        { "nl": "cominciare a", "en": "to start (doing)", "speak": "Comincio a capire." },
-        { "nl": "riuscire a", "en": "to manage to", "speak": "Non riesco a dormire." },
-        { "nl": "imparare a", "en": "to learn to", "speak": "Imparo a cucinare." },
-        { "nl": "provare a", "en": "to try to", "speak": "Provo a parlare italiano." },
-        { "nl": "finire di", "en": "to finish (doing)", "speak": "Ho finito di studiare." },
-        { "nl": "cercare di", "en": "to try to", "speak": "Cerco di arrivare presto." },
-        { "nl": "smettere di", "en": "to stop (doing)", "speak": "Ho smesso di fumare." },
-        { "nl": "decidere di", "en": "to decide to", "speak": "Ho deciso di restare." }
+        { "target": "cominciare a", "en": "to start (doing)", "speak": "Comincio a capire." },
+        { "target": "riuscire a", "en": "to manage to", "speak": "Non riesco a dormire." },
+        { "target": "imparare a", "en": "to learn to", "speak": "Imparo a cucinare." },
+        { "target": "provare a", "en": "to try to", "speak": "Provo a parlare italiano." },
+        { "target": "finire di", "en": "to finish (doing)", "speak": "Ho finito di studiare." },
+        { "target": "cercare di", "en": "to try to", "speak": "Cerco di arrivare presto." },
+        { "target": "smettere di", "en": "to stop (doing)", "speak": "Ho smesso di fumare." },
+        { "target": "decidere di", "en": "to decide to", "speak": "Ho deciso di restare." }
       ]
     },
     {
@@ -80,13 +80,13 @@
       "type": "dialogue",
       "scene": "Al bar con Giulia: parli dei tuoi progressi con l'italiano.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Allora, come va con l'italiano? Riesci a seguire le conversazioni?", "en": "So, how's the Italian going? Are you managing to follow conversations?" },
-        { "speaker": "You", "nl": "Comincio a capire di più, ma non riesco ancora a parlare veloce.", "en": "I'm starting to understand more, but I still can't manage to speak fast.", "spotlight": "*cominciare a* e *riuscire a*: due verbi della famiglia 'a' in una frase sola." },
-        { "speaker": "Giulia", "nl": "Dai, è normale! L'importante è continuare a provare.", "en": "Come on, that's normal! The important thing is to keep trying." },
-        { "speaker": "You", "nl": "Infatti cerco di parlare ogni giorno, anche se sbaglio.", "en": "In fact I try to speak every day, even if I make mistakes." },
-        { "speaker": "Giulia", "nl": "Bravissimo. E hai smesso di tradurre tutto in testa?", "en": "Great. And have you stopped translating everything in your head?" },
-        { "speaker": "You", "nl": "Quasi! Sto imparando a pensare in italiano.", "en": "Almost! I'm learning to think in Italian." },
-        { "speaker": "Giulia", "nl": "Guarda, sei sulla strada giusta. Un caffè per festeggiare?", "en": "Look, you're on the right track. A coffee to celebrate?" }
+        { "speaker": "Giulia", "target": "Allora, come va con l'italiano? Riesci a seguire le conversazioni?", "en": "So, how's the Italian going? Are you managing to follow conversations?" },
+        { "speaker": "You", "target": "Comincio a capire di più, ma non riesco ancora a parlare veloce.", "en": "I'm starting to understand more, but I still can't manage to speak fast.", "spotlight": "*cominciare a* e *riuscire a*: due verbi della famiglia 'a' in una frase sola." },
+        { "speaker": "Giulia", "target": "Dai, è normale! L'importante è continuare a provare.", "en": "Come on, that's normal! The important thing is to keep trying." },
+        { "speaker": "You", "target": "Infatti cerco di parlare ogni giorno, anche se sbaglio.", "en": "In fact I try to speak every day, even if I make mistakes." },
+        { "speaker": "Giulia", "target": "Bravissimo. E hai smesso di tradurre tutto in testa?", "en": "Great. And have you stopped translating everything in your head?" },
+        { "speaker": "You", "target": "Quasi! Sto imparando a pensare in italiano.", "en": "Almost! I'm learning to think in Italian." },
+        { "speaker": "Giulia", "target": "Guarda, sei sulla strada giusta. Un caffè per festeggiare?", "en": "Look, you're on the right track. A coffee to celebrate?" }
       ]
     },
     {

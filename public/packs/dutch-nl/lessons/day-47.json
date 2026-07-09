@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-47",
   "day": 47,
   "module": "M07",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Hoe vaak?",
       "items": [
-        { "nl": "altijd", "en": "always", "speak": "altijd" },
-        { "nl": "meestal", "en": "usually", "speak": "meestal" },
-        { "nl": "vaak", "en": "often", "speak": "vaak" },
-        { "nl": "soms", "en": "sometimes", "speak": "soms" },
-        { "nl": "nooit", "en": "never", "speak": "nooit" }
+        { "target": "altijd", "en": "always", "speak": "altijd" },
+        { "target": "meestal", "en": "usually", "speak": "meestal" },
+        { "target": "vaak", "en": "often", "speak": "vaak" },
+        { "target": "soms", "en": "sometimes", "speak": "soms" },
+        { "target": "nooit", "en": "never", "speak": "nooit" }
       ]
     },
     {
@@ -84,10 +84,10 @@
       "type": "shadow",
       "title": "Toen en nu",
       "lines": [
-        { "nl": "Vroeger ging ik altijd op de fiets.", "en": "I always used to go by bike." },
-        { "nl": "Nu neem ik meestal de tram.", "en": "Now I usually take the tram." },
-        { "nl": "Vroeger keek ik nooit tv.", "en": "I never used to watch TV." },
-        { "nl": "Nu kijk ik soms een serie.", "en": "Now I sometimes watch a series." }
+        { "target": "Vroeger ging ik altijd op de fiets.", "en": "I always used to go by bike." },
+        { "target": "Nu neem ik meestal de tram.", "en": "Now I usually take the tram." },
+        { "target": "Vroeger keek ik nooit tv.", "en": "I never used to watch TV." },
+        { "target": "Nu kijk ik soms een serie.", "en": "Now I sometimes watch a series." }
       ]
     },
     {

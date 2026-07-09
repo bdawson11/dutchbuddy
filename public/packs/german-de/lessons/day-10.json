@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-10",
   "day": 10,
   "module": "M02",
@@ -32,12 +32,12 @@
       "type": "chips",
       "title": "Tage und Monate hören",
       "items": [
-        { "nl": "Montag", "en": "Monday", "speak": "Montag" },
-        { "nl": "Freitag", "en": "Friday", "speak": "Freitag" },
-        { "nl": "Sonntag", "en": "Sunday", "speak": "Sonntag" },
-        { "nl": "am Montag", "en": "on Monday", "speak": "am Montag" },
-        { "nl": "Januar", "en": "January", "speak": "Januar" },
-        { "nl": "Juli", "en": "July", "speak": "Juli" }
+        { "target": "Montag", "en": "Monday", "speak": "Montag" },
+        { "target": "Freitag", "en": "Friday", "speak": "Freitag" },
+        { "target": "Sonntag", "en": "Sunday", "speak": "Sonntag" },
+        { "target": "am Montag", "en": "on Monday", "speak": "am Montag" },
+        { "target": "Januar", "en": "January", "speak": "Januar" },
+        { "target": "Juli", "en": "July", "speak": "Juli" }
       ]
     },
     {
@@ -59,10 +59,10 @@
       "type": "chips",
       "title": "Uhrzeiten hören",
       "items": [
-        { "nl": "Es ist halb sechs", "en": "it's five-thirty", "speak": "Es ist halb sechs" },
-        { "nl": "Viertel nach drei", "en": "quarter past three", "speak": "Viertel nach drei" },
-        { "nl": "Viertel vor vier", "en": "quarter to four", "speak": "Viertel vor vier" },
-        { "nl": "Es ist zwei Uhr", "en": "it's two o'clock", "speak": "Es ist zwei Uhr" }
+        { "target": "Es ist halb sechs", "en": "it's five-thirty", "speak": "Es ist halb sechs" },
+        { "target": "Viertel nach drei", "en": "quarter past three", "speak": "Viertel nach drei" },
+        { "target": "Viertel vor vier", "en": "quarter to four", "speak": "Viertel vor vier" },
+        { "target": "Es ist zwei Uhr", "en": "it's two o'clock", "speak": "Es ist zwei Uhr" }
       ]
     },
     {
@@ -89,12 +89,12 @@
       "type": "dialogue",
       "scene": "Jonas wants to meet up this weekend and you're finding a time that works.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Ey, hast du am Samstag Zeit?", "en": "Hey, do you have time on Saturday?" },
-        { "speaker": "You", "nl": "Klar! Wann denn?", "en": "Sure! What time?" },
-        { "speaker": "Jonas", "nl": "Sagen wir halb sechs, im Park?", "en": "Let's say five-thirty, at the park?", "spotlight": "*halb sechs* = 5:30 — remember, it points forward." },
-        { "speaker": "You", "nl": "Halb sechs ist früh, oder? Vielleicht Viertel nach sechs?", "en": "Five-thirty is early, isn't it? Maybe quarter past six?" },
-        { "speaker": "Jonas", "nl": "Na ja, Viertel nach sechs, passt!", "en": "Well, quarter past six works!" },
-        { "speaker": "You", "nl": "Super, bis Samstag!", "en": "Great, see you Saturday!" }
+        { "speaker": "Jonas", "target": "Ey, hast du am Samstag Zeit?", "en": "Hey, do you have time on Saturday?" },
+        { "speaker": "You", "target": "Klar! Wann denn?", "en": "Sure! What time?" },
+        { "speaker": "Jonas", "target": "Sagen wir halb sechs, im Park?", "en": "Let's say five-thirty, at the park?", "spotlight": "*halb sechs* = 5:30 — remember, it points forward." },
+        { "speaker": "You", "target": "Halb sechs ist früh, oder? Vielleicht Viertel nach sechs?", "en": "Five-thirty is early, isn't it? Maybe quarter past six?" },
+        { "speaker": "Jonas", "target": "Na ja, Viertel nach sechs, passt!", "en": "Well, quarter past six works!" },
+        { "speaker": "You", "target": "Super, bis Samstag!", "en": "Great, see you Saturday!" }
       ]
     },
     {

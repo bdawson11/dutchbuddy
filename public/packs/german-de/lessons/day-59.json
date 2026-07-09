@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-59",
   "day": 59,
   "module": "M09",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "Tap to hear reported speech",
       "items": [
-        { "nl": "Sie hat gesagt, dass sie später kommt.", "en": "She said (that) she's coming later.", "speak": "Sie hat gesagt, dass sie später kommt." },
-        { "nl": "Er hat gesagt, dass er keine Zeit hat.", "en": "He said (that) he has no time.", "speak": "Er hat gesagt, dass er keine Zeit hat." },
-        { "nl": "Sie hat gefragt, ob ich mitkomme.", "en": "She asked whether I'm coming along.", "speak": "Sie hat gefragt, ob ich mitkomme." },
-        { "nl": "Er hat gefragt, wann der Film anfängt.", "en": "He asked when the film starts.", "speak": "Er hat gefragt, wann der Film anfängt." }
+        { "target": "Sie hat gesagt, dass sie später kommt.", "en": "She said (that) she's coming later.", "speak": "Sie hat gesagt, dass sie später kommt." },
+        { "target": "Er hat gesagt, dass er keine Zeit hat.", "en": "He said (that) he has no time.", "speak": "Er hat gesagt, dass er keine Zeit hat." },
+        { "target": "Sie hat gefragt, ob ich mitkomme.", "en": "She asked whether I'm coming along.", "speak": "Sie hat gefragt, ob ich mitkomme." },
+        { "target": "Er hat gefragt, wann der Film anfängt.", "en": "He asked when the film starts.", "speak": "Er hat gefragt, wann der Film anfängt." }
       ]
     },
     {
@@ -85,13 +85,13 @@
       "type": "dialogue",
       "scene": "Lena calls you right after getting off the phone with Klaus in Cologne.",
       "lines": [
-        { "speaker": "Lena", "nl": "Du, ich hab gerade mit Klaus telefoniert.", "en": "Hey, I just talked to Klaus on the phone." },
-        { "speaker": "You", "nl": "Ach schön! Was macht er so?", "en": "Oh nice! How's he doing?" },
-        { "speaker": "Lena", "nl": "Er hat gesagt, dass er bald nach Berlin kommt.", "en": "He said he's coming to Berlin soon.", "spotlight": "*dass er bald nach Berlin kommt* — reported statement, verb at the end." },
-        { "speaker": "You", "nl": "Echt? Beruflich?", "en": "Really? For work?" },
-        { "speaker": "Lena", "nl": "Genau. Er hat gefragt, ob wir alle mal zusammen essen gehen.", "en": "Exactly. He asked whether we could all go out to eat together.", "spotlight": "*ob wir … essen gehen* — a yes/no question reported with *ob*." },
-        { "speaker": "You", "nl": "Klar, gerne! Hat er gesagt, wann genau?", "en": "Sure, gladly! Did he say when exactly?" },
-        { "speaker": "Lena", "nl": "Noch nicht. Er meint, dass er sich meldet, sobald er den Termin hat.", "en": "Not yet. He says he'll be in touch as soon as he has the date." }
+        { "speaker": "Lena", "target": "Du, ich hab gerade mit Klaus telefoniert.", "en": "Hey, I just talked to Klaus on the phone." },
+        { "speaker": "You", "target": "Ach schön! Was macht er so?", "en": "Oh nice! How's he doing?" },
+        { "speaker": "Lena", "target": "Er hat gesagt, dass er bald nach Berlin kommt.", "en": "He said he's coming to Berlin soon.", "spotlight": "*dass er bald nach Berlin kommt* — reported statement, verb at the end." },
+        { "speaker": "You", "target": "Echt? Beruflich?", "en": "Really? For work?" },
+        { "speaker": "Lena", "target": "Genau. Er hat gefragt, ob wir alle mal zusammen essen gehen.", "en": "Exactly. He asked whether we could all go out to eat together.", "spotlight": "*ob wir … essen gehen* — a yes/no question reported with *ob*." },
+        { "speaker": "You", "target": "Klar, gerne! Hat er gesagt, wann genau?", "en": "Sure, gladly! Did he say when exactly?" },
+        { "speaker": "Lena", "target": "Noch nicht. Er meint, dass er sich meldet, sobald er den Termin hat.", "en": "Not yet. He says he'll be in touch as soon as he has the date." }
       ]
     },
     {

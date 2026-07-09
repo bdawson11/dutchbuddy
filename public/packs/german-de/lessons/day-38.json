@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-38",
   "day": 38,
   "module": "M06",
@@ -28,12 +28,12 @@
       "type": "chips",
       "title": "Nord-Wörter im Notfall",
       "items": [
-        { "nl": "Hilfe!", "en": "Help!", "speak": "Hilfe!" },
-        { "nl": "Ruf einen Krankenwagen!", "en": "Call an ambulance!", "speak": "Ruf einen Krankenwagen!" },
-        { "nl": "Es ist ein Notfall!", "en": "It's an emergency!", "speak": "Es ist ein Notfall!" },
-        { "nl": "Ich brauche einen Arzt.", "en": "I need a doctor.", "speak": "Ich brauche einen Arzt." },
-        { "nl": "Schnell!", "en": "Quick! Hurry!", "speak": "Schnell!" },
-        { "nl": "Au!", "en": "Ow!", "speak": "Au!" }
+        { "target": "Hilfe!", "en": "Help!", "speak": "Hilfe!" },
+        { "target": "Ruf einen Krankenwagen!", "en": "Call an ambulance!", "speak": "Ruf einen Krankenwagen!" },
+        { "target": "Es ist ein Notfall!", "en": "It's an emergency!", "speak": "Es ist ein Notfall!" },
+        { "target": "Ich brauche einen Arzt.", "en": "I need a doctor.", "speak": "Ich brauche einen Arzt." },
+        { "target": "Schnell!", "en": "Quick! Hurry!", "speak": "Schnell!" },
+        { "target": "Au!", "en": "Ow!", "speak": "Au!" }
       ]
     },
     {
@@ -77,15 +77,15 @@
       "type": "dialogue",
       "scene": "Jonas plays pharmacist behind an imaginary counter so you can rehearse before your real Apotheken-Besuch.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Okay, ich bin jetzt der Apotheker, ne? Guten Tag! Was fehlt Ihnen denn?", "en": "Okay, I'm the pharmacist now, right? Good day! What's wrong?" },
-        { "speaker": "You", "nl": "Ich brauche etwas gegen Halsschmerzen.", "en": "I need something for a sore throat." },
-        { "speaker": "Jonas", "nl": "Kein Problem, das ist rezeptfrei. Sonst noch was?", "en": "No problem, that's over the counter. Anything else?" },
-        { "speaker": "You", "nl": "Ist Ibuprofen auch rezeptfrei?", "en": "Is ibuprofen also over the counter?" },
-        { "speaker": "Jonas", "nl": "Ja, aber halt nur in kleinen Packungen. Für mehr brauchst du ein Rezept.", "en": "Yeah, but only in small packs. For more you need a prescription.", "spotlight": "rezeptfrei vs. verschreibungspflichtig, in the wild" },
-        { "speaker": "You", "nl": "Und die finde ich einfach bei dm, oder?", "en": "And I can just find that at dm, right?" },
-        { "speaker": "Jonas", "nl": "Quatsch! Echte Medikamente gibt's nur in der Apotheke, nicht in der Drogerie.", "en": "No way! Real medicine is only at the Apotheke, not the Drogerie." },
-        { "speaker": "You", "nl": "Ach so, gut zu wissen. Danke, Herr Apotheker.", "en": "Ah, good to know. Thanks, Mr. Pharmacist." },
-        { "speaker": "Jonas", "nl": "Immer gern. War doch gar nicht so schwer, oder?", "en": "Anytime. Wasn't so hard, right?" }
+        { "speaker": "Jonas", "target": "Okay, ich bin jetzt der Apotheker, ne? Guten Tag! Was fehlt Ihnen denn?", "en": "Okay, I'm the pharmacist now, right? Good day! What's wrong?" },
+        { "speaker": "You", "target": "Ich brauche etwas gegen Halsschmerzen.", "en": "I need something for a sore throat." },
+        { "speaker": "Jonas", "target": "Kein Problem, das ist rezeptfrei. Sonst noch was?", "en": "No problem, that's over the counter. Anything else?" },
+        { "speaker": "You", "target": "Ist Ibuprofen auch rezeptfrei?", "en": "Is ibuprofen also over the counter?" },
+        { "speaker": "Jonas", "target": "Ja, aber halt nur in kleinen Packungen. Für mehr brauchst du ein Rezept.", "en": "Yeah, but only in small packs. For more you need a prescription.", "spotlight": "rezeptfrei vs. verschreibungspflichtig, in the wild" },
+        { "speaker": "You", "target": "Und die finde ich einfach bei dm, oder?", "en": "And I can just find that at dm, right?" },
+        { "speaker": "Jonas", "target": "Quatsch! Echte Medikamente gibt's nur in der Apotheke, nicht in der Drogerie.", "en": "No way! Real medicine is only at the Apotheke, not the Drogerie." },
+        { "speaker": "You", "target": "Ach so, gut zu wissen. Danke, Herr Apotheker.", "en": "Ah, good to know. Thanks, Mr. Pharmacist." },
+        { "speaker": "Jonas", "target": "Immer gern. War doch gar nicht so schwer, oder?", "en": "Anytime. Wasn't so hard, right?" }
       ]
     },
     {

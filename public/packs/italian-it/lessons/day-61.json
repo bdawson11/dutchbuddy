@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-61",
   "day": 61,
   "module": "M09",
@@ -27,11 +27,11 @@
       "type": "chips",
       "title": "Condizioni reali — ascolta",
       "items": [
-        { "nl": "Se piove, resto a casa.", "en": "If it rains, I'll stay home.", "speak": "Se piove, resto a casa." },
-        { "nl": "Se hai tempo, chiamami.", "en": "If you have time, call me.", "speak": "Se hai tempo, chiamami." },
-        { "nl": "Se vuoi, andiamo insieme.", "en": "If you want, we'll go together.", "speak": "Se vuoi, andiamo insieme." },
-        { "nl": "Se finisco presto, ti scrivo.", "en": "If I finish early, I'll text you.", "speak": "Se finisco presto, ti scrivo." },
-        { "nl": "Se studi, passi l'esame.", "en": "If you study, you'll pass the exam.", "speak": "Se studi, passi l'esame." }
+        { "target": "Se piove, resto a casa.", "en": "If it rains, I'll stay home.", "speak": "Se piove, resto a casa." },
+        { "target": "Se hai tempo, chiamami.", "en": "If you have time, call me.", "speak": "Se hai tempo, chiamami." },
+        { "target": "Se vuoi, andiamo insieme.", "en": "If you want, we'll go together.", "speak": "Se vuoi, andiamo insieme." },
+        { "target": "Se finisco presto, ti scrivo.", "en": "If I finish early, I'll text you.", "speak": "Se finisco presto, ti scrivo." },
+        { "target": "Se studi, passi l'esame.", "en": "If you study, you'll pass the exam.", "speak": "Se studi, passi l'esame." }
       ]
     },
     {
@@ -76,13 +76,13 @@
       "type": "dialogue",
       "scene": "You and Marco make weekend plans that depend on the weather.",
       "lines": [
-        { "speaker": "Marco", "nl": "Allora, cosa facciamo sabato?", "en": "So, what are we doing Saturday?" },
-        { "speaker": "You", "nl": "Boh, dipende. Se c'è il sole, andiamo in bici fuori città.", "en": "Dunno, it depends. If it's sunny, we'll bike out of town.", "spotlight": "Real condition: *se c'è il sole* (presente) → *andiamo* (presente)." },
-        { "speaker": "Marco", "nl": "E se piove?", "en": "And if it rains?" },
-        { "speaker": "You", "nl": "Se piove, restiamo in centro e prendiamo un aperitivo.", "en": "If it rains, we'll stay downtown and get an aperitivo." },
-        { "speaker": "Marco", "nl": "Mi piace. Se vieni presto, passiamo prima dal mercato.", "en": "I like it. If you come early, we'll swing by the market first." },
-        { "speaker": "You", "nl": "Va bene. Se finisco di lavorare in tempo, arrivo per le dieci.", "en": "OK. If I finish work in time, I'll be there by ten." },
-        { "speaker": "Marco", "nl": "Perfetto. Se cambia qualcosa, mandami un messaggio.", "en": "Perfect. If anything changes, send me a message." }
+        { "speaker": "Marco", "target": "Allora, cosa facciamo sabato?", "en": "So, what are we doing Saturday?" },
+        { "speaker": "You", "target": "Boh, dipende. Se c'è il sole, andiamo in bici fuori città.", "en": "Dunno, it depends. If it's sunny, we'll bike out of town.", "spotlight": "Real condition: *se c'è il sole* (presente) → *andiamo* (presente)." },
+        { "speaker": "Marco", "target": "E se piove?", "en": "And if it rains?" },
+        { "speaker": "You", "target": "Se piove, restiamo in centro e prendiamo un aperitivo.", "en": "If it rains, we'll stay downtown and get an aperitivo." },
+        { "speaker": "Marco", "target": "Mi piace. Se vieni presto, passiamo prima dal mercato.", "en": "I like it. If you come early, we'll swing by the market first." },
+        { "speaker": "You", "target": "Va bene. Se finisco di lavorare in tempo, arrivo per le dieci.", "en": "OK. If I finish work in time, I'll be there by ten." },
+        { "speaker": "Marco", "target": "Perfetto. Se cambia qualcosa, mandami un messaggio.", "en": "Perfect. If anything changes, send me a message." }
       ]
     },
     {

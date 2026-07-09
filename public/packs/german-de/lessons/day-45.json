@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-45",
   "day": 45,
   "module": "M07",
@@ -29,12 +29,12 @@
       "type": "chips",
       "title": "Kindheit — Wortschatz",
       "items": [
-        { "nl": "die Kindheit", "en": "the childhood", "speak": "die Kindheit" },
-        { "nl": "der Spielplatz", "en": "the playground", "speak": "der Spielplatz" },
-        { "nl": "die Grundschule", "en": "elementary school", "speak": "die Grundschule" },
-        { "nl": "das Spielzeug", "en": "the toy(s)", "speak": "das Spielzeug" },
-        { "nl": "die Sommerferien", "en": "the summer holidays", "speak": "die Sommerferien" },
-        { "nl": "die Nachbarschaft", "en": "the neighborhood", "speak": "die Nachbarschaft" }
+        { "target": "die Kindheit", "en": "the childhood", "speak": "die Kindheit" },
+        { "target": "der Spielplatz", "en": "the playground", "speak": "der Spielplatz" },
+        { "target": "die Grundschule", "en": "elementary school", "speak": "die Grundschule" },
+        { "target": "das Spielzeug", "en": "the toy(s)", "speak": "das Spielzeug" },
+        { "target": "die Sommerferien", "en": "the summer holidays", "speak": "die Sommerferien" },
+        { "target": "die Nachbarschaft", "en": "the neighborhood", "speak": "die Nachbarschaft" }
       ]
     },
     {

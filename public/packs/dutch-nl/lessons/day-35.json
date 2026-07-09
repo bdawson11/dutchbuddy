@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-35",
   "day": 35,
   "module": "M05",
@@ -21,14 +21,14 @@
       "type": "chips",
       "title": "Verhaalwoorden — tik om te horen",
       "items": [
-        { "nl": "eerst", "en": "first", "speak": "eerst" },
-        { "nl": "toen", "en": "then", "speak": "toen" },
-        { "nl": "daarna", "en": "after that", "speak": "daarna" },
-        { "nl": "'s ochtends", "en": "in the morning", "speak": "'s ochtends" },
-        { "nl": "gisteren", "en": "yesterday", "speak": "gisteren" },
-        { "nl": "vorige week", "en": "last week", "speak": "vorige week" },
-        { "nl": "'s avonds", "en": "in the evening", "speak": "'s avonds" },
-        { "nl": "uiteindelijk", "en": "in the end", "speak": "uiteindelijk" }
+        { "target": "eerst", "en": "first", "speak": "eerst" },
+        { "target": "toen", "en": "then", "speak": "toen" },
+        { "target": "daarna", "en": "after that", "speak": "daarna" },
+        { "target": "'s ochtends", "en": "in the morning", "speak": "'s ochtends" },
+        { "target": "gisteren", "en": "yesterday", "speak": "gisteren" },
+        { "target": "vorige week", "en": "last week", "speak": "vorige week" },
+        { "target": "'s avonds", "en": "in the evening", "speak": "'s avonds" },
+        { "target": "uiteindelijk", "en": "in the end", "speak": "uiteindelijk" }
       ]
     },
     {
@@ -61,12 +61,12 @@
       "type": "dialogue",
       "scene": "Monday, the café. Daan slides into the seat across from you, coffee in hand.",
       "lines": [
-        { "speaker": "Daan", "nl": "Zo, vertel! Wat heb je dit weekend gedaan?", "en": "So, tell me! What did you do this weekend?" },
-        { "speaker": "You", "nl": "Nou, ik heb het rustig aan gedaan. Ik heb veel gelezen.", "en": "Well, I took it easy. I read a lot." },
-        { "speaker": "Daan", "nl": "Saai, joh! Ik ben naar een feestje geweest en heb tot vier uur gedanst.", "en": "Boring! I went to a party and danced until four.", "spotlight": "*geweest* → zijn; *gedanst* → hebben (dansen, kofschip -t)." },
-        { "speaker": "You", "nl": "Vier uur? Echt waar? En hoe ben je thuisgekomen?", "en": "Four? Really? And how did you get home?" },
-        { "speaker": "Daan", "nl": "Met de nachtbus. Ik ben vanmiddag pas opgestaan, hoor.", "en": "By night bus. I only got up this afternoon." },
-        { "speaker": "You", "nl": "Haha, typisch Daan!", "en": "Haha, typical Daan!" }
+        { "speaker": "Daan", "target": "Zo, vertel! Wat heb je dit weekend gedaan?", "en": "So, tell me! What did you do this weekend?" },
+        { "speaker": "You", "target": "Nou, ik heb het rustig aan gedaan. Ik heb veel gelezen.", "en": "Well, I took it easy. I read a lot." },
+        { "speaker": "Daan", "target": "Saai, joh! Ik ben naar een feestje geweest en heb tot vier uur gedanst.", "en": "Boring! I went to a party and danced until four.", "spotlight": "*geweest* → zijn; *gedanst* → hebben (dansen, kofschip -t)." },
+        { "speaker": "You", "target": "Vier uur? Echt waar? En hoe ben je thuisgekomen?", "en": "Four? Really? And how did you get home?" },
+        { "speaker": "Daan", "target": "Met de nachtbus. Ik ben vanmiddag pas opgestaan, hoor.", "en": "By night bus. I only got up this afternoon." },
+        { "speaker": "You", "target": "Haha, typisch Daan!", "en": "Haha, typical Daan!" }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-98",
   "day": 98,
   "module": "M14",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Repaso de la semana — toca y repite",
       "items": [
-        { "nl": "yo habría hecho lo mismo", "en": "I'd have done the same", "speak": "yo habría hecho lo mismo" },
-        { "nl": "si tuviera más tiempo…", "en": "if I had more time…", "speak": "si tuviera más tiempo" },
-        { "nl": "si lo hubiera sabido…", "en": "if I'd known…", "speak": "si lo hubiera sabido" },
-        { "nl": "deberías haberlo dicho", "en": "you should've said so", "speak": "deberías haberlo dicho" },
-        { "nl": "serán las diez", "en": "it's probably ten", "speak": "serán las diez" }
+        { "target": "yo habría hecho lo mismo", "en": "I'd have done the same", "speak": "yo habría hecho lo mismo" },
+        { "target": "si tuviera más tiempo…", "en": "if I had more time…", "speak": "si tuviera más tiempo" },
+        { "target": "si lo hubiera sabido…", "en": "if I'd known…", "speak": "si lo hubiera sabido" },
+        { "target": "deberías haberlo dicho", "en": "you should've said so", "speak": "deberías haberlo dicho" },
+        { "target": "serán las diez", "en": "it's probably ten", "speak": "serán las diez" }
       ]
     },
     {
@@ -70,12 +70,12 @@
       "type": "dialogue",
       "scene": "Lucía asks whether you regret the leap of moving here.",
       "lines": [
-        { "speaker": "Lucía", "nl": "Oye, sinceramente, ¿te arrepientes de haberte venido a vivir aquí?", "en": "Hey, honestly, do you regret coming to live here?" },
-        { "speaker": "You", "nl": "Para nada. Si no me hubiera mudado, no os habría conocido a vosotros.", "en": "Not at all. If I hadn't moved, I wouldn't have met you all.", "spotlight": "Pasado irreal: *si no me hubiera mudado → no os habría conocido*." },
-        { "speaker": "Lucía", "nl": "Ay, qué majo. ¿Y no cambiarías nada?", "en": "Aw, how sweet. And you wouldn't change anything?" },
-        { "speaker": "You", "nl": "Bueno, debería haber empezado con el idioma mucho antes. Habría sufrido menos.", "en": "Well, I should've started with the language much sooner. I'd have suffered less." },
-        { "speaker": "Lucía", "nl": "Ya, pero mírate ahora. Si pudieras volver atrás, ¿lo harías igual?", "en": "Sure, but look at you now. If you could go back, would you do it the same?" },
-        { "speaker": "You", "nl": "Lo haría igual, sin dudarlo. En el fondo, es la mejor decisión que he tomado.", "en": "I'd do it the same, no hesitation. Deep down, it's the best decision I've made." }
+        { "speaker": "Lucía", "target": "Oye, sinceramente, ¿te arrepientes de haberte venido a vivir aquí?", "en": "Hey, honestly, do you regret coming to live here?" },
+        { "speaker": "You", "target": "Para nada. Si no me hubiera mudado, no os habría conocido a vosotros.", "en": "Not at all. If I hadn't moved, I wouldn't have met you all.", "spotlight": "Pasado irreal: *si no me hubiera mudado → no os habría conocido*." },
+        { "speaker": "Lucía", "target": "Ay, qué majo. ¿Y no cambiarías nada?", "en": "Aw, how sweet. And you wouldn't change anything?" },
+        { "speaker": "You", "target": "Bueno, debería haber empezado con el idioma mucho antes. Habría sufrido menos.", "en": "Well, I should've started with the language much sooner. I'd have suffered less." },
+        { "speaker": "Lucía", "target": "Ya, pero mírate ahora. Si pudieras volver atrás, ¿lo harías igual?", "en": "Sure, but look at you now. If you could go back, would you do it the same?" },
+        { "speaker": "You", "target": "Lo haría igual, sin dudarlo. En el fondo, es la mejor decisión que he tomado.", "en": "I'd do it the same, no hesitation. Deep down, it's the best decision I've made." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-92",
   "day": 92,
   "module": "M14",
@@ -35,11 +35,11 @@
       "type": "chips",
       "title": "Ascolta e ripeti",
       "items": [
-        { "nl": "Se piove, prendo l'ombrello.", "en": "If it rains, I'll take the umbrella.", "speak": "Se piove, prendo l'ombrello." },
-        { "nl": "Se hai tempo, chiamami.", "en": "If you have time, call me.", "speak": "Se hai tempo, chiamami." },
-        { "nl": "Se parti presto, arrivi in orario.", "en": "If you leave early, you arrive on time.", "speak": "Se parti presto, arrivi in orario." },
-        { "nl": "Se vieni, ti offro un caffè.", "en": "If you come, I'll buy you a coffee.", "speak": "Se vieni, ti offro un caffè." },
-        { "nl": "Se studierai, passerai l'esame.", "en": "If you study, you'll pass the exam.", "speak": "Se studierai, passerai l'esame." }
+        { "target": "Se piove, prendo l'ombrello.", "en": "If it rains, I'll take the umbrella.", "speak": "Se piove, prendo l'ombrello." },
+        { "target": "Se hai tempo, chiamami.", "en": "If you have time, call me.", "speak": "Se hai tempo, chiamami." },
+        { "target": "Se parti presto, arrivi in orario.", "en": "If you leave early, you arrive on time.", "speak": "Se parti presto, arrivi in orario." },
+        { "target": "Se vieni, ti offro un caffè.", "en": "If you come, I'll buy you a coffee.", "speak": "Se vieni, ti offro un caffè." },
+        { "target": "Se studierai, passerai l'esame.", "en": "If you study, you'll pass the exam.", "speak": "Se studierai, passerai l'esame." }
       ]
     },
     {
@@ -78,14 +78,14 @@
       "type": "dialogue",
       "scene": "Marco and you make loose weekend plans.",
       "lines": [
-        { "speaker": "Marco", "nl": "Che fai questo weekend?", "en": "What are you up to this weekend?" },
-        { "speaker": "You", "nl": "Boh, dipende. Se fa bel tempo, vado in bici.", "en": "Dunno, depends. If the weather's nice, I'll bike.", "spotlight": "tipo I: se + presente, presente." },
-        { "speaker": "Marco", "nl": "E se piove?", "en": "And if it rains?" },
-        { "speaker": "You", "nl": "Se piove, resto a casa a studiare.", "en": "If it rains, I'll stay home and study." },
-        { "speaker": "Marco", "nl": "Dai, se hai voglia, passa al bar.", "en": "Come on, if you feel like it, drop by the bar.", "spotlight": "se + presente → imperativo." },
-        { "speaker": "You", "nl": "Volentieri. Se finisco presto, ti raggiungo.", "en": "Gladly. If I finish early, I'll join you." },
-        { "speaker": "Marco", "nl": "Perfetto. Se non ti vedo, ti scrivo.", "en": "Perfect. If I don't see you, I'll text you." },
-        { "speaker": "You", "nl": "Ci sto. A sabato!", "en": "Deal. See you Saturday!" }
+        { "speaker": "Marco", "target": "Che fai questo weekend?", "en": "What are you up to this weekend?" },
+        { "speaker": "You", "target": "Boh, dipende. Se fa bel tempo, vado in bici.", "en": "Dunno, depends. If the weather's nice, I'll bike.", "spotlight": "tipo I: se + presente, presente." },
+        { "speaker": "Marco", "target": "E se piove?", "en": "And if it rains?" },
+        { "speaker": "You", "target": "Se piove, resto a casa a studiare.", "en": "If it rains, I'll stay home and study." },
+        { "speaker": "Marco", "target": "Dai, se hai voglia, passa al bar.", "en": "Come on, if you feel like it, drop by the bar.", "spotlight": "se + presente → imperativo." },
+        { "speaker": "You", "target": "Volentieri. Se finisco presto, ti raggiungo.", "en": "Gladly. If I finish early, I'll join you." },
+        { "speaker": "Marco", "target": "Perfetto. Se non ti vedo, ti scrivo.", "en": "Perfect. If I don't see you, I'll text you." },
+        { "speaker": "You", "target": "Ci sto. A sabato!", "en": "Deal. See you Saturday!" }
       ]
     },
     {

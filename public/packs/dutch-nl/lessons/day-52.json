@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-52",
   "day": 52,
   "module": "M08",
@@ -42,10 +42,10 @@
       "type": "chips",
       "title": "Meningen — tap to hear",
       "items": [
-        { "nl": "Ik vind dat je gelijk hebt.", "en": "I think you're right.", "speak": "Ik vind dat je gelijk hebt." },
-        { "nl": "Ik denk dat het gaat regenen.", "en": "I think it's going to rain.", "speak": "Ik denk dat het gaat regenen." },
-        { "nl": "Volgens mij is dat te duur.", "en": "I reckon that's too expensive.", "speak": "Volgens mij is dat te duur." },
-        { "nl": "Ik vind Amsterdam te druk.", "en": "I find Amsterdam too busy.", "speak": "Ik vind Amsterdam te druk." }
+        { "target": "Ik vind dat je gelijk hebt.", "en": "I think you're right.", "speak": "Ik vind dat je gelijk hebt." },
+        { "target": "Ik denk dat het gaat regenen.", "en": "I think it's going to rain.", "speak": "Ik denk dat het gaat regenen." },
+        { "target": "Volgens mij is dat te duur.", "en": "I reckon that's too expensive.", "speak": "Volgens mij is dat te duur." },
+        { "target": "Ik vind Amsterdam te druk.", "en": "I find Amsterdam too busy.", "speak": "Ik vind Amsterdam te druk." }
       ]
     },
     {
@@ -85,10 +85,10 @@
       "type": "dialogue",
       "scene": "Emma and you walk past a packed terrace in the Pijp",
       "lines": [
-        { "speaker": "Emma", "nl": "Kijk, alweer vol. Ik vind dat de Pijp te druk wordt.", "en": "Look, full again. I think the Pijp is getting too busy.", "spotlight": "Ik vind dat … wordt — verb at the end." },
-        { "speaker": "You", "nl": "Mee eens. Volgens mij zijn er te veel toeristen.", "en": "Agreed. I reckon there are too many tourists.", "spotlight": "Volgens mij zijn … — main clause, verb stays second." },
-        { "speaker": "Emma", "nl": "Precies. Maar ik denk dat het buiten het centrum rustiger is.", "en": "Exactly. But I think it's quieter outside the centre." },
-        { "speaker": "You", "nl": "Daar ben ik het helemaal mee eens.", "en": "I totally agree with that." }
+        { "speaker": "Emma", "target": "Kijk, alweer vol. Ik vind dat de Pijp te druk wordt.", "en": "Look, full again. I think the Pijp is getting too busy.", "spotlight": "Ik vind dat … wordt — verb at the end." },
+        { "speaker": "You", "target": "Mee eens. Volgens mij zijn er te veel toeristen.", "en": "Agreed. I reckon there are too many tourists.", "spotlight": "Volgens mij zijn … — main clause, verb stays second." },
+        { "speaker": "Emma", "target": "Precies. Maar ik denk dat het buiten het centrum rustiger is.", "en": "Exactly. But I think it's quieter outside the centre." },
+        { "speaker": "You", "target": "Daar ben ik het helemaal mee eens.", "en": "I totally agree with that." }
       ]
     },
     {

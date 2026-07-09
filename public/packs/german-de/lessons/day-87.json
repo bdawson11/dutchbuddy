@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-87",
   "day": 87,
   "module": "M13",
@@ -35,12 +35,12 @@
       "type": "chips",
       "title": "Reue & Rückblick",
       "items": [
-        { "nl": "Das hätte ich nicht gedacht.", "en": "I wouldn't have thought that.", "speak": "Das hätte ich nicht gedacht." },
-        { "nl": "Ich hätte fast alles verpasst.", "en": "I would have missed almost everything.", "speak": "Ich hätte fast alles verpasst." },
-        { "nl": "Wäre ich doch früher losgefahren!", "en": "If only I'd left earlier!", "speak": "Wäre ich doch früher losgefahren!" },
-        { "nl": "Du hättest fragen sollen.", "en": "You should have asked.", "speak": "Du hättest fragen sollen." },
-        { "nl": "Das hätte schiefgehen können.", "en": "That could have gone wrong.", "speak": "Das hätte schiefgehen können." },
-        { "nl": "Beinahe wäre ich zu spät gekommen.", "en": "I almost came too late.", "speak": "Beinahe wäre ich zu spät gekommen." }
+        { "target": "Das hätte ich nicht gedacht.", "en": "I wouldn't have thought that.", "speak": "Das hätte ich nicht gedacht." },
+        { "target": "Ich hätte fast alles verpasst.", "en": "I would have missed almost everything.", "speak": "Ich hätte fast alles verpasst." },
+        { "target": "Wäre ich doch früher losgefahren!", "en": "If only I'd left earlier!", "speak": "Wäre ich doch früher losgefahren!" },
+        { "target": "Du hättest fragen sollen.", "en": "You should have asked.", "speak": "Du hättest fragen sollen." },
+        { "target": "Das hätte schiefgehen können.", "en": "That could have gone wrong.", "speak": "Das hätte schiefgehen können." },
+        { "target": "Beinahe wäre ich zu spät gekommen.", "en": "I almost came too late.", "speak": "Beinahe wäre ich zu spät gekommen." }
       ]
     },
     {
@@ -81,15 +81,15 @@
       "type": "dialogue",
       "scene": "You skipped a small gig last Friday — turns out it was special. Lena teases, then consoles.",
       "lines": [
-        { "speaker": "Lena", "nl": "Du warst am Freitag nicht beim Konzert? Mann, das war so gut!", "en": "You weren't at the concert on Friday? Man, it was so good!" },
-        { "speaker": "You", "nl": "Ich weiß. Wenn ich das gewusst hätte, wäre ich natürlich gekommen.", "en": "I know. If I'd known, I would of course have come.", "spotlight": "Past counterfactual across two clauses: hätte in the wenn-clause, wäre in the main clause." },
-        { "speaker": "Lena", "nl": "Jonas hat sogar mitgespielt. Zwei Songs.", "en": "Jonas even played along. Two songs." },
-        { "speaker": "You", "nl": "Was? Das hätte ich echt sehen wollen.", "en": "What? I really would have wanted to see that.", "spotlight": "Regret with a modal: *hätte … sehen wollen* — double infinitive at the end." },
-        { "speaker": "Lena", "nl": "Tja. Du hättest einfach fragen sollen.", "en": "Well. You just should have asked." },
-        { "speaker": "You", "nl": "Stimmt. Ich hätte nicht so früh nach Hause gehen sollen.", "en": "True. I shouldn't have gone home so early." },
-        { "speaker": "Lena", "nl": "Halb so wild. Beim nächsten Mal sag ich dir Bescheid.", "en": "No big deal. Next time I'll let you know." },
-        { "speaker": "You", "nl": "Danke. Ohne dich hätte ich das eh nie erfahren.", "en": "Thanks. Without you I'd never have found out anyway." },
-        { "speaker": "Lena", "nl": "Siehst du — wärst du mal mitgekommen, hättest du's live gehabt.", "en": "See — had you just come along, you'd have had it live.", "spotlight": "A conditional without *wenn*: the verb *wärst* jumps to the front instead." }
+        { "speaker": "Lena", "target": "Du warst am Freitag nicht beim Konzert? Mann, das war so gut!", "en": "You weren't at the concert on Friday? Man, it was so good!" },
+        { "speaker": "You", "target": "Ich weiß. Wenn ich das gewusst hätte, wäre ich natürlich gekommen.", "en": "I know. If I'd known, I would of course have come.", "spotlight": "Past counterfactual across two clauses: hätte in the wenn-clause, wäre in the main clause." },
+        { "speaker": "Lena", "target": "Jonas hat sogar mitgespielt. Zwei Songs.", "en": "Jonas even played along. Two songs." },
+        { "speaker": "You", "target": "Was? Das hätte ich echt sehen wollen.", "en": "What? I really would have wanted to see that.", "spotlight": "Regret with a modal: *hätte … sehen wollen* — double infinitive at the end." },
+        { "speaker": "Lena", "target": "Tja. Du hättest einfach fragen sollen.", "en": "Well. You just should have asked." },
+        { "speaker": "You", "target": "Stimmt. Ich hätte nicht so früh nach Hause gehen sollen.", "en": "True. I shouldn't have gone home so early." },
+        { "speaker": "Lena", "target": "Halb so wild. Beim nächsten Mal sag ich dir Bescheid.", "en": "No big deal. Next time I'll let you know." },
+        { "speaker": "You", "target": "Danke. Ohne dich hätte ich das eh nie erfahren.", "en": "Thanks. Without you I'd never have found out anyway." },
+        { "speaker": "Lena", "target": "Siehst du — wärst du mal mitgekommen, hättest du's live gehabt.", "en": "See — had you just come along, you'd have had it live.", "spotlight": "A conditional without *wenn*: the verb *wärst* jumps to the front instead." }
       ]
     },
     {

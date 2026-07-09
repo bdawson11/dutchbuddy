@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-18",
   "day": 18,
   "module": "M03",
@@ -31,11 +31,11 @@
       "type": "chips",
       "title": "Tap to hear el barrio",
       "items": [
-        { "nl": "la plaza", "en": "the square", "speak": "la plaza" },
-        { "nl": "la parada de metro", "en": "the metro stop", "speak": "la parada de metro" },
-        { "nl": "la esquina", "en": "the corner", "speak": "la esquina" },
-        { "nl": "cerca de aquí", "en": "near here", "speak": "cerca de aquí" },
-        { "nl": "al lado del bar", "en": "next to the bar", "speak": "al lado del bar" }
+        { "target": "la plaza", "en": "the square", "speak": "la plaza" },
+        { "target": "la parada de metro", "en": "the metro stop", "speak": "la parada de metro" },
+        { "target": "la esquina", "en": "the corner", "speak": "la esquina" },
+        { "target": "cerca de aquí", "en": "near here", "speak": "cerca de aquí" },
+        { "target": "al lado del bar", "en": "next to the bar", "speak": "al lado del bar" }
       ]
     },
     {
@@ -86,12 +86,12 @@
       "type": "dialogue",
       "scene": "You ask Lucía how to get to the metro from her street in Lavapiés.",
       "lines": [
-        { "speaker": "You", "nl": "Perdona, ¿cómo se llega al metro desde aquí?", "en": "Excuse me, how do you get to the metro from here?" },
-        { "speaker": "Lucía", "nl": "Fácil. Todo recto y luego a la izquierda en la plaza.", "en": "Easy. Straight ahead and then left at the square.", "spotlight": "todo recto + a la izquierda chain together with y." },
-        { "speaker": "You", "nl": "¿Está lejos?", "en": "Is it far?" },
-        { "speaker": "Lucía", "nl": "No, qué va, está muy cerca. Cinco minutos andando.", "en": "No, not at all, it's very close. Five minutes on foot." },
-        { "speaker": "You", "nl": "¿Y hay algún bar bueno por aquí?", "en": "And is there a good bar around here?" },
-        { "speaker": "Lucía", "nl": "Sí, hay uno al lado de la parada, justo en la esquina.", "en": "Yes, there's one next to the stop, right on the corner." }
+        { "speaker": "You", "target": "Perdona, ¿cómo se llega al metro desde aquí?", "en": "Excuse me, how do you get to the metro from here?" },
+        { "speaker": "Lucía", "target": "Fácil. Todo recto y luego a la izquierda en la plaza.", "en": "Easy. Straight ahead and then left at the square.", "spotlight": "todo recto + a la izquierda chain together with y." },
+        { "speaker": "You", "target": "¿Está lejos?", "en": "Is it far?" },
+        { "speaker": "Lucía", "target": "No, qué va, está muy cerca. Cinco minutos andando.", "en": "No, not at all, it's very close. Five minutes on foot." },
+        { "speaker": "You", "target": "¿Y hay algún bar bueno por aquí?", "en": "And is there a good bar around here?" },
+        { "speaker": "Lucía", "target": "Sí, hay uno al lado de la parada, justo en la esquina.", "en": "Yes, there's one next to the stop, right on the corner." }
       ]
     },
     {

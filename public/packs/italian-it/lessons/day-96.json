@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-96",
   "day": 96,
   "module": "M14",
@@ -27,11 +27,11 @@
       "type": "chips",
       "title": "Ascolta e ripeti",
       "items": [
-        { "nl": "Magari fossi in vacanza!", "en": "I wish I were on holiday!", "speak": "Magari fossi in vacanza!" },
-        { "nl": "Se solo avessi più tempo!", "en": "If only I had more time!", "speak": "Se solo avessi più tempo!" },
-        { "nl": "Avrei dovuto ascoltarti.", "en": "I should have listened to you.", "speak": "Avrei dovuto ascoltarti." },
-        { "nl": "Avresti potuto dirmelo!", "en": "You could have told me!", "speak": "Avresti potuto dirmelo!" },
-        { "nl": "Vorrei tanto che tu fossi qui.", "en": "I so wish you were here.", "speak": "Vorrei tanto che tu fossi qui." }
+        { "target": "Magari fossi in vacanza!", "en": "I wish I were on holiday!", "speak": "Magari fossi in vacanza!" },
+        { "target": "Se solo avessi più tempo!", "en": "If only I had more time!", "speak": "Se solo avessi più tempo!" },
+        { "target": "Avrei dovuto ascoltarti.", "en": "I should have listened to you.", "speak": "Avrei dovuto ascoltarti." },
+        { "target": "Avresti potuto dirmelo!", "en": "You could have told me!", "speak": "Avresti potuto dirmelo!" },
+        { "target": "Vorrei tanto che tu fossi qui.", "en": "I so wish you were here.", "speak": "Vorrei tanto che tu fossi qui." }
       ]
     },
     {
@@ -70,14 +70,14 @@
       "type": "dialogue",
       "scene": "Marco is kicking himself over a missed opportunity with his band.",
       "lines": [
-        { "speaker": "Marco", "nl": "Avrei dovuto accettare quel concerto, che stupido.", "en": "I should have taken that gig, how stupid." },
-        { "speaker": "You", "nl": "Dai, non potevi sapere come sarebbe andata.", "en": "Come on, you couldn't have known how it'd go." },
-        { "speaker": "Marco", "nl": "Magari avessi avuto più coraggio!", "en": "I wish I'd had more courage!", "spotlight": "'magari + congiuntivo' = un desiderio." },
-        { "speaker": "You", "nl": "Ti capisco. Anch'io avrei voluto rischiare di più, a volte.", "en": "I get it. I'd have liked to take more risks too, sometimes.", "spotlight": "'avrei voluto' — rammarico." },
-        { "speaker": "Marco", "nl": "Se solo avessi detto di sì… boh.", "en": "If only I'd said yes… dunno." },
-        { "speaker": "You", "nl": "Beh, avresti potuto. Ma ci saranno altre occasioni.", "en": "Well, you could have. But there'll be other chances." },
-        { "speaker": "Marco", "nl": "Speriamo. La prossima non me la faccio scappare.", "en": "Let's hope. I won't let the next one slip away." },
-        { "speaker": "You", "nl": "Così si dice! Ti offro da bere.", "en": "That's the spirit! Drinks on me." }
+        { "speaker": "Marco", "target": "Avrei dovuto accettare quel concerto, che stupido.", "en": "I should have taken that gig, how stupid." },
+        { "speaker": "You", "target": "Dai, non potevi sapere come sarebbe andata.", "en": "Come on, you couldn't have known how it'd go." },
+        { "speaker": "Marco", "target": "Magari avessi avuto più coraggio!", "en": "I wish I'd had more courage!", "spotlight": "'magari + congiuntivo' = un desiderio." },
+        { "speaker": "You", "target": "Ti capisco. Anch'io avrei voluto rischiare di più, a volte.", "en": "I get it. I'd have liked to take more risks too, sometimes.", "spotlight": "'avrei voluto' — rammarico." },
+        { "speaker": "Marco", "target": "Se solo avessi detto di sì… boh.", "en": "If only I'd said yes… dunno." },
+        { "speaker": "You", "target": "Beh, avresti potuto. Ma ci saranno altre occasioni.", "en": "Well, you could have. But there'll be other chances." },
+        { "speaker": "Marco", "target": "Speriamo. La prossima non me la faccio scappare.", "en": "Let's hope. I won't let the next one slip away." },
+        { "speaker": "You", "target": "Così si dice! Ti offro da bere.", "en": "That's the spirit! Drinks on me." }
       ]
     },
     {

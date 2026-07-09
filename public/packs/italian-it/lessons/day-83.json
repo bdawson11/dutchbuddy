@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-83",
   "day": 83,
   "module": "M12",
@@ -43,15 +43,15 @@
       "type": "dialogue",
       "scene": "One year on. The whole group is back in Bologna for an aperitivo — Sofia up from Milano, Pietro up from Naples.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Eccoci qua, tutti insieme! Sofia, che bello rivederti. Com'è Milano?", "en": "Here we all are, together! Sofia, so lovely to see you again. How's Milano?" },
-        { "speaker": "Sofia", "nl": "Bene, davvero. All'inizio è stata dura, ma ora mi trovo benissimo.", "en": "Good, really. At first it was tough, but now I'm getting on great.", "spotlight": "The past-tense split: *è stata dura* (event) vs *mi trovo* (state now)." },
-        { "speaker": "Marco", "nl": "Milano, boh. Troppa nebbia e troppa fretta. Dai, torna a Bologna!", "en": "Milano, meh. Too much fog and too much rush. Come on, move back to Bologna!", "spotlight": "*Boh* + the softened command *dai, torna* — pure Marco." },
-        { "speaker": "Sofia", "nl": "Ma dai, Marco! Vieni a trovarmi e poi ne parliamo.", "en": "Oh come on, Marco! Come visit me and then we'll talk.", "spotlight": "Command *vieni* + the clitic *ne* ('about it')." },
-        { "speaker": "Pietro", "nl": "Io sono salito apposta da Napoli. Un brindisi ci vuole. Offro io!", "en": "I came all the way up from Naples. A toast is in order. It's on me!", "spotlight": "*Ci vuole* ('it takes / is needed') + *offro io*." },
-        { "speaker": "Giulia", "nl": "E guarda chi parla bene italiano adesso… un anno fa non diceva una parola!", "en": "And look who speaks good Italian now… a year ago they couldn't say a word!" },
-        { "speaker": "You", "nl": "Eh, ci ho messo un anno. Ma ormai penso in italiano, quasi.", "en": "Well, it took me a year. But by now I almost think in Italian.", "spotlight": "*Ci ho messo un anno* = 'it took me a year' — idiomatic *ci*." },
-        { "speaker": "Marco", "nl": "Alla nostra, allora. Cin cin!", "en": "To us, then. Cheers!" },
-        { "speaker": "Sofia", "nl": "A noi, e al tuo italiano! Non vedo l'ora del prossimo anno.", "en": "To us, and to your Italian! I can't wait for next year." }
+        { "speaker": "Giulia", "target": "Eccoci qua, tutti insieme! Sofia, che bello rivederti. Com'è Milano?", "en": "Here we all are, together! Sofia, so lovely to see you again. How's Milano?" },
+        { "speaker": "Sofia", "target": "Bene, davvero. All'inizio è stata dura, ma ora mi trovo benissimo.", "en": "Good, really. At first it was tough, but now I'm getting on great.", "spotlight": "The past-tense split: *è stata dura* (event) vs *mi trovo* (state now)." },
+        { "speaker": "Marco", "target": "Milano, boh. Troppa nebbia e troppa fretta. Dai, torna a Bologna!", "en": "Milano, meh. Too much fog and too much rush. Come on, move back to Bologna!", "spotlight": "*Boh* + the softened command *dai, torna* — pure Marco." },
+        { "speaker": "Sofia", "target": "Ma dai, Marco! Vieni a trovarmi e poi ne parliamo.", "en": "Oh come on, Marco! Come visit me and then we'll talk.", "spotlight": "Command *vieni* + the clitic *ne* ('about it')." },
+        { "speaker": "Pietro", "target": "Io sono salito apposta da Napoli. Un brindisi ci vuole. Offro io!", "en": "I came all the way up from Naples. A toast is in order. It's on me!", "spotlight": "*Ci vuole* ('it takes / is needed') + *offro io*." },
+        { "speaker": "Giulia", "target": "E guarda chi parla bene italiano adesso… un anno fa non diceva una parola!", "en": "And look who speaks good Italian now… a year ago they couldn't say a word!" },
+        { "speaker": "You", "target": "Eh, ci ho messo un anno. Ma ormai penso in italiano, quasi.", "en": "Well, it took me a year. But by now I almost think in Italian.", "spotlight": "*Ci ho messo un anno* = 'it took me a year' — idiomatic *ci*." },
+        { "speaker": "Marco", "target": "Alla nostra, allora. Cin cin!", "en": "To us, then. Cheers!" },
+        { "speaker": "Sofia", "target": "A noi, e al tuo italiano! Non vedo l'ora del prossimo anno.", "en": "To us, and to your Italian! I can't wait for next year." }
       ]
     },
     {

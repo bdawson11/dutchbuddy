@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-13",
   "day": 13,
   "module": "M02",
@@ -28,10 +28,10 @@
       "type": "chips",
       "title": "es gibt hören",
       "items": [
-        { "nl": "Es gibt einen Park", "en": "there's a park", "speak": "Es gibt einen Park" },
-        { "nl": "Es gibt eine Bäckerei", "en": "there's a bakery", "speak": "Es gibt eine Bäckerei" },
-        { "nl": "Es gibt ein Café", "en": "there's a café", "speak": "Es gibt ein Café" },
-        { "nl": "Es gibt viele Leute", "en": "there are lots of people", "speak": "Es gibt viele Leute" }
+        { "target": "Es gibt einen Park", "en": "there's a park", "speak": "Es gibt einen Park" },
+        { "target": "Es gibt eine Bäckerei", "en": "there's a bakery", "speak": "Es gibt eine Bäckerei" },
+        { "target": "Es gibt ein Café", "en": "there's a café", "speak": "Es gibt ein Café" },
+        { "target": "Es gibt viele Leute", "en": "there are lots of people", "speak": "Es gibt viele Leute" }
       ]
     },
     {
@@ -44,10 +44,10 @@
       "type": "chips",
       "title": "dieser/diese/dieses hören",
       "items": [
-        { "nl": "dieser Mann", "en": "this man", "speak": "dieser Mann" },
-        { "nl": "diese Frau", "en": "this woman", "speak": "diese Frau" },
-        { "nl": "dieses Kind", "en": "this child", "speak": "dieses Kind" },
-        { "nl": "diesen Park", "en": "this park (accusative)", "speak": "diesen Park" }
+        { "target": "dieser Mann", "en": "this man", "speak": "dieser Mann" },
+        { "target": "diese Frau", "en": "this woman", "speak": "diese Frau" },
+        { "target": "dieses Kind", "en": "this child", "speak": "dieses Kind" },
+        { "target": "diesen Park", "en": "this park (accusative)", "speak": "diesen Park" }
       ]
     },
     {
@@ -82,11 +82,11 @@
       "type": "dialogue",
       "scene": "Lena points out spots in her neighborhood as you walk through Neukölln.",
       "lines": [
-        { "speaker": "Lena", "nl": "Guck mal, hier gibt es einen Park.", "en": "Look, there's a park here.", "spotlight": "*hier gibt es* — \"here there is\", a natural way to point something out." },
-        { "speaker": "You", "nl": "Schön! Und diese Straße hier?", "en": "Nice! And this street here?" },
-        { "speaker": "Lena", "nl": "Diese Straße hat viele Cafés. Es gibt auch eine Bäckerei, meine Lieblingsbäckerei.", "en": "This street has lots of cafés. There's also a bakery, my favorite bakery." },
-        { "speaker": "You", "nl": "Und dieses Gebäude? Es ist schön.", "en": "And this building? It's nice." },
-        { "speaker": "Lena", "nl": "Ja, alt, aber schön. Hier gibt es viel zu entdecken.", "en": "Yes, old, but nice. There's a lot to discover here." }
+        { "speaker": "Lena", "target": "Guck mal, hier gibt es einen Park.", "en": "Look, there's a park here.", "spotlight": "*hier gibt es* — \"here there is\", a natural way to point something out." },
+        { "speaker": "You", "target": "Schön! Und diese Straße hier?", "en": "Nice! And this street here?" },
+        { "speaker": "Lena", "target": "Diese Straße hat viele Cafés. Es gibt auch eine Bäckerei, meine Lieblingsbäckerei.", "en": "This street has lots of cafés. There's also a bakery, my favorite bakery." },
+        { "speaker": "You", "target": "Und dieses Gebäude? Es ist schön.", "en": "And this building? It's nice." },
+        { "speaker": "Lena", "target": "Ja, alt, aber schön. Hier gibt es viel zu entdecken.", "en": "Yes, old, but nice. There's a lot to discover here." }
       ]
     },
     {

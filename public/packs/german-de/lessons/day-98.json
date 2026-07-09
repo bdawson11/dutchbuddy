@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-98",
   "day": 98,
   "module": "M14",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Kurzer Refresh — antippen zum Hören",
       "items": [
-        { "nl": "Sie sagt, ich sei besser geworden.", "en": "She says I've gotten better.", "speak": "Sie sagt, ich sei besser geworden." },
-        { "nl": "Man sagt, dass …", "en": "People say that …", "speak": "Man sagt, dass" },
-        { "nl": "Einerseits …, andererseits …", "en": "On one hand …, on the other …", "speak": "Einerseits, andererseits" },
-        { "nl": "Zwar …, aber …", "en": "Admittedly …, but …", "speak": "Zwar, aber" },
-        { "nl": "Er meinte, ich hätte Talent.", "en": "He reckoned I had talent.", "speak": "Er meinte, ich hätte Talent." },
-        { "nl": "Trotzdem übe ich weiter.", "en": "I keep practising anyway.", "speak": "Trotzdem übe ich weiter." }
+        { "target": "Sie sagt, ich sei besser geworden.", "en": "She says I've gotten better.", "speak": "Sie sagt, ich sei besser geworden." },
+        { "target": "Man sagt, dass …", "en": "People say that …", "speak": "Man sagt, dass" },
+        { "target": "Einerseits …, andererseits …", "en": "On one hand …, on the other …", "speak": "Einerseits, andererseits" },
+        { "target": "Zwar …, aber …", "en": "Admittedly …, but …", "speak": "Zwar, aber" },
+        { "target": "Er meinte, ich hätte Talent.", "en": "He reckoned I had talent.", "speak": "Er meinte, ich hätte Talent." },
+        { "target": "Trotzdem übe ich weiter.", "en": "I keep practising anyway.", "speak": "Trotzdem übe ich weiter." }
       ]
     },
     {
@@ -65,16 +65,16 @@
       "type": "dialogue",
       "scene": "Jonas overheard you order confidently in German at the counter. He's impressed — and you get to practise a modest, nuanced reply.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Ey, hast du grad die ganze Bestellung auf Deutsch durchgezogen? Ohne Stocken?", "en": "Hey, did you just get the whole order out in German? Without stumbling?" },
-        { "speaker": "You", "nl": "So ungefähr. Ein paar Endungen hab ich sicher verhauen.", "en": "More or less. I definitely botched a few endings." },
-        { "speaker": "Jonas", "nl": "Quatsch. Die Frau meinte hinterher, dein Deutsch sei richtig gut.", "en": "Nonsense. The woman said afterwards your German's really good.", "spotlight": "A reported compliment, in Konjunktiv I: *sei*." },
-        { "speaker": "You", "nl": "Nett von ihr. Einerseits freut mich das, andererseits weiß ich, wie viel noch fehlt.", "en": "Nice of her. On one hand it makes me happy, on the other I know how much is still missing.", "spotlight": "einerseits … andererseits — a two-sided reaction." },
-        { "speaker": "Jonas", "nl": "Typisch du. Immer bescheiden.", "en": "Typical you. Always modest." },
-        { "speaker": "You", "nl": "Na ja. Zwar rede ich flüssiger, aber schnell sprechen kann ich noch nicht.", "en": "Well. I do speak more fluently, but I can't talk fast yet.", "spotlight": "zwar … aber — concede, then qualify." },
-        { "speaker": "Jonas", "nl": "Kommt noch. Weißt du noch, wie du am Anfang nur genickt hast?", "en": "That'll come. Remember how you just nodded at the start?" },
-        { "speaker": "You", "nl": "Oh Gott, ja. Man hat gesagt, ich sei viel zu schüchtern.", "en": "Oh God, yes. People said I was far too shy.", "spotlight": "*man hat gesagt … sei* — reported feedback about yourself." },
-        { "speaker": "Jonas", "nl": "Und jetzt diskutierst du mit mir über den Konjunktiv. Verrückt.", "en": "And now you argue about the subjunctive with me. Wild." },
-        { "speaker": "You", "nl": "Deshalb üben wir ja weiter. Prost!", "en": "That's why we keep practising. Cheers!" }
+        { "speaker": "Jonas", "target": "Ey, hast du grad die ganze Bestellung auf Deutsch durchgezogen? Ohne Stocken?", "en": "Hey, did you just get the whole order out in German? Without stumbling?" },
+        { "speaker": "You", "target": "So ungefähr. Ein paar Endungen hab ich sicher verhauen.", "en": "More or less. I definitely botched a few endings." },
+        { "speaker": "Jonas", "target": "Quatsch. Die Frau meinte hinterher, dein Deutsch sei richtig gut.", "en": "Nonsense. The woman said afterwards your German's really good.", "spotlight": "A reported compliment, in Konjunktiv I: *sei*." },
+        { "speaker": "You", "target": "Nett von ihr. Einerseits freut mich das, andererseits weiß ich, wie viel noch fehlt.", "en": "Nice of her. On one hand it makes me happy, on the other I know how much is still missing.", "spotlight": "einerseits … andererseits — a two-sided reaction." },
+        { "speaker": "Jonas", "target": "Typisch du. Immer bescheiden.", "en": "Typical you. Always modest." },
+        { "speaker": "You", "target": "Na ja. Zwar rede ich flüssiger, aber schnell sprechen kann ich noch nicht.", "en": "Well. I do speak more fluently, but I can't talk fast yet.", "spotlight": "zwar … aber — concede, then qualify." },
+        { "speaker": "Jonas", "target": "Kommt noch. Weißt du noch, wie du am Anfang nur genickt hast?", "en": "That'll come. Remember how you just nodded at the start?" },
+        { "speaker": "You", "target": "Oh Gott, ja. Man hat gesagt, ich sei viel zu schüchtern.", "en": "Oh God, yes. People said I was far too shy.", "spotlight": "*man hat gesagt … sei* — reported feedback about yourself." },
+        { "speaker": "Jonas", "target": "Und jetzt diskutierst du mit mir über den Konjunktiv. Verrückt.", "en": "And now you argue about the subjunctive with me. Wild." },
+        { "speaker": "You", "target": "Deshalb üben wir ja weiter. Prost!", "en": "That's why we keep practising. Cheers!" }
       ]
     },
     {

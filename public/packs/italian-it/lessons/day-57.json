@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-57",
   "day": 57,
   "module": "M09",
@@ -38,12 +38,12 @@
       "type": "chips",
       "title": "Frasi con il congiuntivo — ascolta",
       "items": [
-        { "nl": "Penso che sia giusto.", "en": "I think it's right.", "speak": "Penso che sia giusto." },
-        { "nl": "Voglio che tu venga.", "en": "I want you to come.", "speak": "Voglio che tu venga." },
-        { "nl": "Spero che vada bene.", "en": "I hope it goes well.", "speak": "Spero che vada bene." },
-        { "nl": "È importante che tu studi.", "en": "It's important that you study.", "speak": "È importante che tu studi." },
-        { "nl": "Credo che abbia ragione.", "en": "I think he's right.", "speak": "Credo che abbia ragione." },
-        { "nl": "È meglio che parta presto.", "en": "It's better he leaves early.", "speak": "È meglio che parta presto." }
+        { "target": "Penso che sia giusto.", "en": "I think it's right.", "speak": "Penso che sia giusto." },
+        { "target": "Voglio che tu venga.", "en": "I want you to come.", "speak": "Voglio che tu venga." },
+        { "target": "Spero che vada bene.", "en": "I hope it goes well.", "speak": "Spero che vada bene." },
+        { "target": "È importante che tu studi.", "en": "It's important that you study.", "speak": "È importante che tu studi." },
+        { "target": "Credo che abbia ragione.", "en": "I think he's right.", "speak": "Credo che abbia ragione." },
+        { "target": "È meglio che parta presto.", "en": "It's better he leaves early.", "speak": "È meglio che parta presto." }
       ]
     },
     {

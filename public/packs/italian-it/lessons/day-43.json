@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-43",
   "day": 43,
   "module": "M07",
@@ -38,12 +38,12 @@
       "type": "chips",
       "title": "Ero, eri, era… tocca per sentire",
       "items": [
-        { "nl": "ero", "en": "I was", "speak": "ero" },
-        { "nl": "eri", "en": "you were", "speak": "eri" },
-        { "nl": "era", "en": "he/she/it was", "speak": "era" },
-        { "nl": "eravamo", "en": "we were", "speak": "eravamo" },
-        { "nl": "eravate", "en": "you all were", "speak": "eravate" },
-        { "nl": "erano", "en": "they were", "speak": "erano" }
+        { "target": "ero", "en": "I was", "speak": "ero" },
+        { "target": "eri", "en": "you were", "speak": "eri" },
+        { "target": "era", "en": "he/she/it was", "speak": "era" },
+        { "target": "eravamo", "en": "we were", "speak": "eravamo" },
+        { "target": "eravate", "en": "you all were", "speak": "eravate" },
+        { "target": "erano", "en": "they were", "speak": "erano" }
       ]
     },
     {
@@ -77,20 +77,20 @@
       "type": "shadow",
       "title": "Ripeti — l'imperfetto in azione",
       "lines": [
-        { "nl": "Da bambina abitavo a Parma.", "en": "As a kid I lived in Parma." },
-        { "nl": "Non avevo la macchina, andavo sempre in bici.", "en": "I didn't have a car, I always went by bike." },
-        { "nl": "Facevo i compiti dopo cena.", "en": "I used to do homework after dinner." }
+        { "target": "Da bambina abitavo a Parma.", "en": "As a kid I lived in Parma." },
+        { "target": "Non avevo la macchina, andavo sempre in bici.", "en": "I didn't have a car, I always went by bike." },
+        { "target": "Facevo i compiti dopo cena.", "en": "I used to do homework after dinner." }
       ]
     },
     {
       "type": "dialogue",
       "scene": "Marco and You at the bar, comparing what you were like as kids",
       "lines": [
-        { "speaker": "Marco", "nl": "Da ragazzo, com'eri?", "en": "As a kid, what were you like?" },
-        { "speaker": "You", "nl": "Ero timido, e leggevo un sacco di libri.", "en": "I was shy, and I read a ton of books." },
-        { "speaker": "Marco", "nl": "Davvero? Io invece parlavo troppo, sempre.", "en": "Really? I on the other hand talked too much, always." },
-        { "speaker": "You", "nl": "E cosa facevi il sabato?", "en": "And what did you do on Saturdays?" },
-        { "speaker": "Marco", "nl": "Giocavo a calcio con gli amici, ogni settimana.", "en": "I played soccer with friends, every week.", "spotlight": "giocavo — imperfetto abituale: 'ogni settimana' segnala ripetizione, non un evento unico." }
+        { "speaker": "Marco", "target": "Da ragazzo, com'eri?", "en": "As a kid, what were you like?" },
+        { "speaker": "You", "target": "Ero timido, e leggevo un sacco di libri.", "en": "I was shy, and I read a ton of books." },
+        { "speaker": "Marco", "target": "Davvero? Io invece parlavo troppo, sempre.", "en": "Really? I on the other hand talked too much, always." },
+        { "speaker": "You", "target": "E cosa facevi il sabato?", "en": "And what did you do on Saturdays?" },
+        { "speaker": "Marco", "target": "Giocavo a calcio con gli amici, ogni settimana.", "en": "I played soccer with friends, every week.", "spotlight": "giocavo — imperfetto abituale: 'ogni settimana' segnala ripetizione, non un evento unico." }
       ]
     },
     {

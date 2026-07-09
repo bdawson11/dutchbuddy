@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-03",
   "day": 3,
   "module": "M01",
@@ -31,12 +31,12 @@
       "type": "chips",
       "title": "Tap to hear the greetings",
       "items": [
-        { "nl": "hoi", "en": "hi", "speak": "hoi" },
-        { "nl": "hallo", "en": "hello", "speak": "hallo" },
-        { "nl": "goedemorgen", "en": "good morning", "speak": "goedemorgen" },
-        { "nl": "goedemiddag", "en": "good afternoon", "speak": "goedemiddag" },
-        { "nl": "goedenavond", "en": "good evening", "speak": "goedenavond" },
-        { "nl": "doei", "en": "bye", "speak": "doei" }
+        { "target": "hoi", "en": "hi", "speak": "hoi" },
+        { "target": "hallo", "en": "hello", "speak": "hallo" },
+        { "target": "goedemorgen", "en": "good morning", "speak": "goedemorgen" },
+        { "target": "goedemiddag", "en": "good afternoon", "speak": "goedemiddag" },
+        { "target": "goedenavond", "en": "good evening", "speak": "goedenavond" },
+        { "target": "doei", "en": "bye", "speak": "doei" }
       ]
     },
     {
@@ -56,21 +56,21 @@
       "type": "chips",
       "title": "The politeness kit",
       "items": [
-        { "nl": "alsjeblieft", "en": "please / here you go", "speak": "alsjeblieft" },
-        { "nl": "dankjewel", "en": "thank you", "speak": "dankjewel" },
-        { "nl": "graag gedaan", "en": "you're welcome", "speak": "graag gedaan" },
-        { "nl": "sorry", "en": "sorry / excuse me", "speak": "sorry" }
+        { "target": "alsjeblieft", "en": "please / here you go", "speak": "alsjeblieft" },
+        { "target": "dankjewel", "en": "thank you", "speak": "dankjewel" },
+        { "target": "graag gedaan", "en": "you're welcome", "speak": "graag gedaan" },
+        { "target": "sorry", "en": "sorry / excuse me", "speak": "sorry" }
       ]
     },
     {
       "type": "dialogue",
       "scene": "A café on the Ferdinand Bolstraat. You're meeting Daan; he's already grabbed a table.",
       "lines": [
-        { "speaker": "Daan", "nl": "Hoi! Ga zitten. Wil je koffie of thee?", "en": "Hi! Have a seat. Do you want coffee or tea?", "spotlight": "*of* = or. Your first choice question." },
-        { "speaker": "You", "nl": "Een koffie, alsjeblieft.", "en": "A coffee, please." },
-        { "speaker": "Daan", "nl": "Twee koffie, alsjeblieft!", "en": "Two coffees, please!" },
-        { "speaker": "Daan", "nl": "Alsjeblieft, je koffie.", "en": "Here you go, your coffee.", "spotlight": "Same word *alsjeblieft* — now it means 'here you go'." },
-        { "speaker": "You", "nl": "Dankjewel!", "en": "Thank you!" }
+        { "speaker": "Daan", "target": "Hoi! Ga zitten. Wil je koffie of thee?", "en": "Hi! Have a seat. Do you want coffee or tea?", "spotlight": "*of* = or. Your first choice question." },
+        { "speaker": "You", "target": "Een koffie, alsjeblieft.", "en": "A coffee, please." },
+        { "speaker": "Daan", "target": "Twee koffie, alsjeblieft!", "en": "Two coffees, please!" },
+        { "speaker": "Daan", "target": "Alsjeblieft, je koffie.", "en": "Here you go, your coffee.", "spotlight": "Same word *alsjeblieft* — now it means 'here you go'." },
+        { "speaker": "You", "target": "Dankjewel!", "en": "Thank you!" }
       ]
     },
     {
@@ -85,10 +85,10 @@
       "type": "shadow",
       "title": "Shadow the café lines",
       "lines": [
-        { "nl": "Wil je koffie of thee?", "en": "Do you want coffee or tea?" },
-        { "nl": "Een koffie, alsjeblieft.", "en": "A coffee, please." },
-        { "nl": "Alsjeblieft, je koffie.", "en": "Here you go, your coffee." },
-        { "nl": "Dankjewel!", "en": "Thank you!" }
+        { "target": "Wil je koffie of thee?", "en": "Do you want coffee or tea?" },
+        { "target": "Een koffie, alsjeblieft.", "en": "A coffee, please." },
+        { "target": "Alsjeblieft, je koffie.", "en": "Here you go, your coffee." },
+        { "target": "Dankjewel!", "en": "Thank you!" }
       ]
     },
     {

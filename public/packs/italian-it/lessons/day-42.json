@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-42",
   "day": 42,
   "module": "M06",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Ripasso della settimana",
       "items": [
-        { "nl": "mal di testa", "en": "headache", "speak": "mal di testa" },
-        { "nl": "mi sento stanco", "en": "I feel tired", "speak": "mi sento stanco" },
-        { "nl": "dovresti riposare", "en": "you should rest", "speak": "dovresti riposare" },
-        { "nl": "in farmacia", "en": "at the pharmacy", "speak": "in farmacia" },
-        { "nl": "l'ambulanza", "en": "ambulance", "speak": "l'ambulanza" },
-        { "nl": "si è rotto", "en": "it broke down", "speak": "si è rotto" }
+        { "target": "mal di testa", "en": "headache", "speak": "mal di testa" },
+        { "target": "mi sento stanco", "en": "I feel tired", "speak": "mi sento stanco" },
+        { "target": "dovresti riposare", "en": "you should rest", "speak": "dovresti riposare" },
+        { "target": "in farmacia", "en": "at the pharmacy", "speak": "in farmacia" },
+        { "target": "l'ambulanza", "en": "ambulance", "speak": "l'ambulanza" },
+        { "target": "si è rotto", "en": "it broke down", "speak": "si è rotto" }
       ]
     },
     {
@@ -60,12 +60,12 @@
       "type": "dialogue",
       "scene": "Pietro calls from Naples to check in — 'You' tell him about your week",
       "lines": [
-        { "speaker": "Pietro", "nl": "Ciao! Tutto bene? Giulia mi ha detto che hai avuto una settimana difficile.", "en": "Hi! Everything okay? Giulia told me you had a tough week." },
-        { "speaker": "You", "nl": "Sì, un po'. Mi sono sentito male per due giorni — avevo mal di gola e un po' di febbre.", "en": "Yeah, a bit. I felt sick for two days — I had a sore throat and a bit of a fever." },
-        { "speaker": "Pietro", "nl": "Sei andato in farmacia?", "en": "Did you go to the pharmacy?" },
-        { "speaker": "You", "nl": "Sì, il farmacista mi ha detto di riposare. Adesso sto molto meglio.", "en": "Yes, the pharmacist told me to rest. Now I'm much better." },
-        { "speaker": "Pietro", "nl": "Bene! Qui a Napoli diciamo: la salute prima di tutto.", "en": "Good! Here in Naples we say: health above all.", "spotlight": "Pietro's regional pride even in a health check-in — right on brand." },
-        { "speaker": "You", "nl": "Hai ragione. Dovrei riposare di più in generale.", "en": "You're right. I should rest more in general." }
+        { "speaker": "Pietro", "target": "Ciao! Tutto bene? Giulia mi ha detto che hai avuto una settimana difficile.", "en": "Hi! Everything okay? Giulia told me you had a tough week." },
+        { "speaker": "You", "target": "Sì, un po'. Mi sono sentito male per due giorni — avevo mal di gola e un po' di febbre.", "en": "Yeah, a bit. I felt sick for two days — I had a sore throat and a bit of a fever." },
+        { "speaker": "Pietro", "target": "Sei andato in farmacia?", "en": "Did you go to the pharmacy?" },
+        { "speaker": "You", "target": "Sì, il farmacista mi ha detto di riposare. Adesso sto molto meglio.", "en": "Yes, the pharmacist told me to rest. Now I'm much better." },
+        { "speaker": "Pietro", "target": "Bene! Qui a Napoli diciamo: la salute prima di tutto.", "en": "Good! Here in Naples we say: health above all.", "spotlight": "Pietro's regional pride even in a health check-in — right on brand." },
+        { "speaker": "You", "target": "Hai ragione. Dovrei riposare di più in generale.", "en": "You're right. I should rest more in general." }
       ]
     },
     {

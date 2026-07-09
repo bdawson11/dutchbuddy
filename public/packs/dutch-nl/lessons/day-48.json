@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-48",
   "day": 48,
   "module": "M07",
@@ -43,14 +43,14 @@
       "type": "dialogue",
       "scene": "You ask Bram what Rotterdam was like when he was a kid. He sits back, coffee in hand — proud, measured.",
       "lines": [
-        { "speaker": "You", "nl": "Bram, hoe was Rotterdam toen jij klein was?", "en": "Bram, what was Rotterdam like when you were little?" },
-        { "speaker": "Bram", "nl": "Anders, hoor. Toen ik klein was, woonde ik in Zuid, vlak bij de haven.", "en": "Different, you know. When I was little, I lived in Zuid, right by the harbor.", "spotlight": "A *toen*-subclause (verb-final: *was*), then inversion: *woonde ik*." },
-        { "speaker": "You", "nl": "En wat deed je na school?", "en": "And what did you do after school?" },
-        { "speaker": "Bram", "nl": "We speelden altijd buiten. Er waren overal kranen en schepen.", "en": "We always played outside. There were cranes and ships everywhere.", "spotlight": "Habit plus description: *speelden* with *altijd*, *er waren* for the scene." },
-        { "speaker": "You", "nl": "Klinkt stoer. Was het niet gevaarlijk?", "en": "Sounds tough. Wasn't it dangerous?" },
-        { "speaker": "Bram", "nl": "Soms wel. Maar mijn vader zei altijd: geen woorden maar daden.", "en": "Sometimes, yeah. But my dad always said: no words, just action.", "spotlight": "*zei* — the irregular past of *zeggen* — and the Rotterdam motto." },
-        { "speaker": "You", "nl": "Miste je de stad toen je wegging?", "en": "Did you miss the city when you left?" },
-        { "speaker": "Bram", "nl": "Zeker. Amsterdam is mooi, maar Rotterdam had iets echts.", "en": "Definitely. Amsterdam is pretty, but Rotterdam had something real.", "spotlight": "*had* for a lasting past state — and a little Rotterdam pride." }
+        { "speaker": "You", "target": "Bram, hoe was Rotterdam toen jij klein was?", "en": "Bram, what was Rotterdam like when you were little?" },
+        { "speaker": "Bram", "target": "Anders, hoor. Toen ik klein was, woonde ik in Zuid, vlak bij de haven.", "en": "Different, you know. When I was little, I lived in Zuid, right by the harbor.", "spotlight": "A *toen*-subclause (verb-final: *was*), then inversion: *woonde ik*." },
+        { "speaker": "You", "target": "En wat deed je na school?", "en": "And what did you do after school?" },
+        { "speaker": "Bram", "target": "We speelden altijd buiten. Er waren overal kranen en schepen.", "en": "We always played outside. There were cranes and ships everywhere.", "spotlight": "Habit plus description: *speelden* with *altijd*, *er waren* for the scene." },
+        { "speaker": "You", "target": "Klinkt stoer. Was het niet gevaarlijk?", "en": "Sounds tough. Wasn't it dangerous?" },
+        { "speaker": "Bram", "target": "Soms wel. Maar mijn vader zei altijd: geen woorden maar daden.", "en": "Sometimes, yeah. But my dad always said: no words, just action.", "spotlight": "*zei* — the irregular past of *zeggen* — and the Rotterdam motto." },
+        { "speaker": "You", "target": "Miste je de stad toen je wegging?", "en": "Did you miss the city when you left?" },
+        { "speaker": "Bram", "target": "Zeker. Amsterdam is mooi, maar Rotterdam had iets echts.", "en": "Definitely. Amsterdam is pretty, but Rotterdam had something real.", "spotlight": "*had* for a lasting past state — and a little Rotterdam pride." }
       ]
     },
     {
@@ -66,10 +66,10 @@
       "type": "shadow",
       "title": "Bram nazeggen",
       "lines": [
-        { "nl": "Toen ik klein was, woonde ik in Zuid.", "en": "When I was little, I lived in Zuid." },
-        { "nl": "We speelden altijd buiten.", "en": "We always played outside." },
-        { "nl": "Er waren overal kranen en schepen.", "en": "There were cranes and ships everywhere." },
-        { "nl": "Rotterdam had iets echts.", "en": "Rotterdam had something real." }
+        { "target": "Toen ik klein was, woonde ik in Zuid.", "en": "When I was little, I lived in Zuid." },
+        { "target": "We speelden altijd buiten.", "en": "We always played outside." },
+        { "target": "Er waren overal kranen en schepen.", "en": "There were cranes and ships everywhere." },
+        { "target": "Rotterdam had iets echts.", "en": "Rotterdam had something real." }
       ]
     },
     {

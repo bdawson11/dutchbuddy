@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-84",
   "day": 84,
   "module": "M12",
@@ -103,27 +103,27 @@
       "type": "chips",
       "title": "Tap to hear the farewells",
       "items": [
-        { "nl": "Doei!", "en": "Bye!", "speak": "Doei!" },
-        { "nl": "Tot ziens.", "en": "Goodbye.", "speak": "Tot ziens." },
-        { "nl": "Tot snel!", "en": "See you soon!", "speak": "Tot snel!" },
-        { "nl": "Het ga je goed.", "en": "Take care, all the best.", "speak": "Het ga je goed." },
-        { "nl": "Succes!", "en": "Good luck!", "speak": "Succes!" },
-        { "nl": "Het beste!", "en": "All the best!", "speak": "Het beste!" }
+        { "target": "Doei!", "en": "Bye!", "speak": "Doei!" },
+        { "target": "Tot ziens.", "en": "Goodbye.", "speak": "Tot ziens." },
+        { "target": "Tot snel!", "en": "See you soon!", "speak": "Tot snel!" },
+        { "target": "Het ga je goed.", "en": "Take care, all the best.", "speak": "Het ga je goed." },
+        { "target": "Succes!", "en": "Good luck!", "speak": "Succes!" },
+        { "target": "Het beste!", "en": "All the best!", "speak": "Het beste!" }
       ]
     },
     {
       "type": "dialogue",
       "scene": "The last page. Emma walks You out after the borrel, with Daan and Sanne close behind. One year of Dutch behind you.",
       "lines": [
-        { "speaker": "Emma", "nl": "Kijk nou toch. Een jaar geleden begon je met 'hoi'. En moet je jezelf nu horen.", "en": "Just look at you. A year ago you started with 'hi'. And listen to yourself now.", "spotlight": "The whole arc, in one line." },
-        { "speaker": "You", "nl": "Ik had het niet gekund zonder jullie.", "en": "I couldn't have done it without you all." },
-        { "speaker": "Emma", "nl": "Onzin, joh. Jij hebt het gedaan. Elke dag weer.", "en": "Nonsense. You did it. Every single day." },
-        { "speaker": "You", "nl": "En wat nu?", "en": "And now what?" },
-        { "speaker": "Emma", "nl": "Nu ga je gewoon door. Praat, maak fouten, blijf in het Nederlands.", "en": "Now you just keep going. Talk, make mistakes, stay in Dutch.", "spotlight": "The core of the whole course — plus a last set of imperatives." },
-        { "speaker": "Daan", "nl": "En vergeet ons niet, hè. Kom gauw weer een borrel doen.", "en": "And don't forget us, alright. Come do a borrel again soon.", "spotlight": "Borrel callback." },
-        { "speaker": "Sanne", "nl": "Je bent altijd welkom in Utrecht, hoor.", "en": "You're always welcome in Utrecht, you know." },
-        { "speaker": "Emma", "nl": "Het ga je goed. Echt. Tot snel.", "en": "Take care. Really. See you soon.", "spotlight": "Het ga je goed — the warmest goodbye there is." },
-        { "speaker": "You", "nl": "Dankjewel. Voor alles. Doei!", "en": "Thank you. For everything. Bye!" }
+        { "speaker": "Emma", "target": "Kijk nou toch. Een jaar geleden begon je met 'hoi'. En moet je jezelf nu horen.", "en": "Just look at you. A year ago you started with 'hi'. And listen to yourself now.", "spotlight": "The whole arc, in one line." },
+        { "speaker": "You", "target": "Ik had het niet gekund zonder jullie.", "en": "I couldn't have done it without you all." },
+        { "speaker": "Emma", "target": "Onzin, joh. Jij hebt het gedaan. Elke dag weer.", "en": "Nonsense. You did it. Every single day." },
+        { "speaker": "You", "target": "En wat nu?", "en": "And now what?" },
+        { "speaker": "Emma", "target": "Nu ga je gewoon door. Praat, maak fouten, blijf in het Nederlands.", "en": "Now you just keep going. Talk, make mistakes, stay in Dutch.", "spotlight": "The core of the whole course — plus a last set of imperatives." },
+        { "speaker": "Daan", "target": "En vergeet ons niet, hè. Kom gauw weer een borrel doen.", "en": "And don't forget us, alright. Come do a borrel again soon.", "spotlight": "Borrel callback." },
+        { "speaker": "Sanne", "target": "Je bent altijd welkom in Utrecht, hoor.", "en": "You're always welcome in Utrecht, you know." },
+        { "speaker": "Emma", "target": "Het ga je goed. Echt. Tot snel.", "en": "Take care. Really. See you soon.", "spotlight": "Het ga je goed — the warmest goodbye there is." },
+        { "speaker": "You", "target": "Dankjewel. Voor alles. Doei!", "en": "Thank you. For everything. Bye!" }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-24",
   "day": 24,
   "module": "M04",
@@ -44,12 +44,12 @@
       "type": "chips",
       "title": "Tap para escuchar gustar",
       "items": [
-        { "nl": "me gusta", "en": "I like (it — singular)", "speak": "me gusta" },
-        { "nl": "me gustan", "en": "I like (them — plural)", "speak": "me gustan" },
-        { "nl": "me encanta", "en": "I love (it)", "speak": "me encanta" },
-        { "nl": "no me gusta nada", "en": "I don't like it at all", "speak": "no me gusta nada" },
-        { "nl": "¿te gusta?", "en": "do you like it?", "speak": "¿te gusta?" },
-        { "nl": "nos gusta", "en": "we like (it)", "speak": "nos gusta" }
+        { "target": "me gusta", "en": "I like (it — singular)", "speak": "me gusta" },
+        { "target": "me gustan", "en": "I like (them — plural)", "speak": "me gustan" },
+        { "target": "me encanta", "en": "I love (it)", "speak": "me encanta" },
+        { "target": "no me gusta nada", "en": "I don't like it at all", "speak": "no me gusta nada" },
+        { "target": "¿te gusta?", "en": "do you like it?", "speak": "¿te gusta?" },
+        { "target": "nos gusta", "en": "we like (it)", "speak": "nos gusta" }
       ]
     },
     {
@@ -86,11 +86,11 @@
       "type": "dialogue",
       "scene": "Sofía asks about your tastes over tapas",
       "lines": [
-        { "speaker": "Sofía", "nl": "¿Qué tapas te gustan más?", "en": "Which tapas do you like most?" },
-        { "speaker": "You", "nl": "Me encanta la tortilla, y también me gustan las croquetas.", "en": "I love tortilla, and I also like croquettes." },
-        { "speaker": "Sofía", "nl": "Uy, no sé... a mí me gusta el pulpo, pero no me gusta nada el picante.", "en": "Hmm, I don't know... I like octopus, but I don't like spicy food at all." },
-        { "speaker": "You", "nl": "¿Y el vino?", "en": "And wine?" },
-        { "speaker": "Sofía", "nl": "Me gusta, pero prefiero una caña.", "en": "I like it, but I prefer a beer." }
+        { "speaker": "Sofía", "target": "¿Qué tapas te gustan más?", "en": "Which tapas do you like most?" },
+        { "speaker": "You", "target": "Me encanta la tortilla, y también me gustan las croquetas.", "en": "I love tortilla, and I also like croquettes." },
+        { "speaker": "Sofía", "target": "Uy, no sé... a mí me gusta el pulpo, pero no me gusta nada el picante.", "en": "Hmm, I don't know... I like octopus, but I don't like spicy food at all." },
+        { "speaker": "You", "target": "¿Y el vino?", "en": "And wine?" },
+        { "speaker": "Sofía", "target": "Me gusta, pero prefiero una caña.", "en": "I like it, but I prefer a beer." }
       ]
     },
     {

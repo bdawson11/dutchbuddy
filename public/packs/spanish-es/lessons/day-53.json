@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-53",
   "day": 53,
   "module": "M08",
@@ -38,10 +38,10 @@
       "type": "chips",
       "title": "Escucha: primeros disparadores",
       "items": [
-        { "nl": "quiero que vengas", "en": "I want you to come", "speak": "quiero que vengas" },
-        { "nl": "es importante que estudies", "en": "it's important that you study", "speak": "es importante que estudies" },
-        { "nl": "espero que sí", "en": "I hope so", "speak": "espero que sí" },
-        { "nl": "ojalá que llueva", "en": "hopefully it rains", "speak": "ojalá que llueva" }
+        { "target": "quiero que vengas", "en": "I want you to come", "speak": "quiero que vengas" },
+        { "target": "es importante que estudies", "en": "it's important that you study", "speak": "es importante que estudies" },
+        { "target": "espero que sí", "en": "I hope so", "speak": "espero que sí" },
+        { "target": "ojalá que llueva", "en": "hopefully it rains", "speak": "ojalá que llueva" }
       ]
     },
     {
@@ -105,11 +105,11 @@
       "type": "dialogue",
       "scene": "Lucía te da un consejo sobre tu español — la puerta del subjuntivo en directo.",
       "lines": [
-        { "speaker": "Lucía", "nl": "Mira, es importante que hables más en español, aunque cometas errores.", "en": "Look, it's important that you speak more in Spanish, even if you make mistakes.", "spotlight": "es importante que + subjuntivo — el primer disparador del modo." },
-        { "speaker": "You", "nl": "Ya, lo sé. Pero me da vergüenza.", "en": "Yeah, I know. But I get embarrassed." },
-        { "speaker": "Lucía", "nl": "Qué va, hombre. Aquí nadie te va a juzgar.", "en": "No way. Nobody here is going to judge you." },
-        { "speaker": "You", "nl": "Vale, espero que tengas razón.", "en": "Okay, I hope you're right." },
-        { "speaker": "Lucía", "nl": "¡Claro que sí! Venga, va, practica conmigo ahora.", "en": "Of course! Come on, practice with me now." }
+        { "speaker": "Lucía", "target": "Mira, es importante que hables más en español, aunque cometas errores.", "en": "Look, it's important that you speak more in Spanish, even if you make mistakes.", "spotlight": "es importante que + subjuntivo — el primer disparador del modo." },
+        { "speaker": "You", "target": "Ya, lo sé. Pero me da vergüenza.", "en": "Yeah, I know. But I get embarrassed." },
+        { "speaker": "Lucía", "target": "Qué va, hombre. Aquí nadie te va a juzgar.", "en": "No way. Nobody here is going to judge you." },
+        { "speaker": "You", "target": "Vale, espero que tengas razón.", "en": "Okay, I hope you're right." },
+        { "speaker": "Lucía", "target": "¡Claro que sí! Venga, va, practica conmigo ahora.", "en": "Of course! Come on, practice with me now." }
       ]
     },
     {

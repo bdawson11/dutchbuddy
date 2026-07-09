@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-88",
   "day": 88,
   "module": "M13",
@@ -30,12 +30,12 @@
       "type": "chips",
       "title": "Der Abfeder-Werkzeugkasten",
       "items": [
-        { "nl": "Ich hätte da eine Frage.", "en": "I'd have a question there.", "speak": "Ich hätte da eine Frage." },
-        { "nl": "Könnten Sie mir helfen?", "en": "Could you help me?", "speak": "Könnten Sie mir helfen?" },
-        { "nl": "Wäre es möglich, …?", "en": "Would it be possible to …?", "speak": "Wäre es möglich" },
-        { "nl": "Dürfte ich kurz stören?", "en": "Might I bother you briefly?", "speak": "Dürfte ich kurz stören?" },
-        { "nl": "Ich würde ungern absagen.", "en": "I'd hate to cancel.", "speak": "Ich würde ungern absagen." },
-        { "nl": "Es wäre schön, wenn …", "en": "It would be nice if …", "speak": "Es wäre schön, wenn" }
+        { "target": "Ich hätte da eine Frage.", "en": "I'd have a question there.", "speak": "Ich hätte da eine Frage." },
+        { "target": "Könnten Sie mir helfen?", "en": "Could you help me?", "speak": "Könnten Sie mir helfen?" },
+        { "target": "Wäre es möglich, …?", "en": "Would it be possible to …?", "speak": "Wäre es möglich" },
+        { "target": "Dürfte ich kurz stören?", "en": "Might I bother you briefly?", "speak": "Dürfte ich kurz stören?" },
+        { "target": "Ich würde ungern absagen.", "en": "I'd hate to cancel.", "speak": "Ich würde ungern absagen." },
+        { "target": "Es wäre schön, wenn …", "en": "It would be nice if …", "speak": "Es wäre schön, wenn" }
       ]
     },
     {
@@ -76,16 +76,16 @@
       "type": "dialogue",
       "scene": "You need to email a landlord to ask for a viewing. Your draft is too blunt — Lena softens it with you (a first taste of the Sie-register you'll master in Week 17).",
       "lines": [
-        { "speaker": "You", "nl": "Ich hab geschrieben: „Ich will die Wohnung sehen. Schicken Sie mir einen Termin.\"", "en": "I wrote: 'I want to see the flat. Send me an appointment.'" },
-        { "speaker": "Lena", "nl": "Oje. Das klingt wie ein Befehl. Schreib lieber: „Ich hätte großes Interesse an der Wohnung.\"", "en": "Oh dear. That sounds like an order. Better write: 'I'd have great interest in the flat.'", "spotlight": "*Ich hätte…* turns a flat want into a modest, polite statement." },
-        { "speaker": "You", "nl": "Und statt „schicken Sie mir einen Termin\"?", "en": "And instead of 'send me an appointment'?" },
-        { "speaker": "Lena", "nl": "„Wäre es möglich, einen Besichtigungstermin zu bekommen?\"", "en": "'Would it be possible to get a viewing appointment?'", "spotlight": "*Wäre es möglich, … zu …* — the standard polite-request frame." },
-        { "speaker": "You", "nl": "Klingt gleich netter. Und wenn ich eine Frage habe?", "en": "Sounds nicer straight away. And if I have a question?" },
-        { "speaker": "Lena", "nl": "„Ich hätte da noch eine Frage\" — nie „Ich habe eine Frage, Punkt.\"", "en": "'I'd have one more question' — never 'I have a question, full stop.'" },
-        { "speaker": "You", "nl": "„Könnten Sie mir das kurz erklären?\" — so etwas?", "en": "'Could you explain that to me briefly?' — like that?" },
-        { "speaker": "Lena", "nl": "Genau. Könnten, würden, hätte — damit kommst du in Deutschland überall durch.", "en": "Exactly. Could, would, would-have — with those you get through anywhere in Germany." },
-        { "speaker": "You", "nl": "Gut. Dann würde ich sagen, die Mail ist jetzt fertig.", "en": "Good. Then I'd say the email is done now." },
-        { "speaker": "Lena", "nl": "Perfekt formuliert. Siehst du, du kannst das.", "en": "Perfectly phrased. See, you can do it." }
+        { "speaker": "You", "target": "Ich hab geschrieben: „Ich will die Wohnung sehen. Schicken Sie mir einen Termin.\"", "en": "I wrote: 'I want to see the flat. Send me an appointment.'" },
+        { "speaker": "Lena", "target": "Oje. Das klingt wie ein Befehl. Schreib lieber: „Ich hätte großes Interesse an der Wohnung.\"", "en": "Oh dear. That sounds like an order. Better write: 'I'd have great interest in the flat.'", "spotlight": "*Ich hätte…* turns a flat want into a modest, polite statement." },
+        { "speaker": "You", "target": "Und statt „schicken Sie mir einen Termin\"?", "en": "And instead of 'send me an appointment'?" },
+        { "speaker": "Lena", "target": "„Wäre es möglich, einen Besichtigungstermin zu bekommen?\"", "en": "'Would it be possible to get a viewing appointment?'", "spotlight": "*Wäre es möglich, … zu …* — the standard polite-request frame." },
+        { "speaker": "You", "target": "Klingt gleich netter. Und wenn ich eine Frage habe?", "en": "Sounds nicer straight away. And if I have a question?" },
+        { "speaker": "Lena", "target": "„Ich hätte da noch eine Frage\" — nie „Ich habe eine Frage, Punkt.\"", "en": "'I'd have one more question' — never 'I have a question, full stop.'" },
+        { "speaker": "You", "target": "„Könnten Sie mir das kurz erklären?\" — so etwas?", "en": "'Could you explain that to me briefly?' — like that?" },
+        { "speaker": "Lena", "target": "Genau. Könnten, würden, hätte — damit kommst du in Deutschland überall durch.", "en": "Exactly. Could, would, would-have — with those you get through anywhere in Germany." },
+        { "speaker": "You", "target": "Gut. Dann würde ich sagen, die Mail ist jetzt fertig.", "en": "Good. Then I'd say the email is done now." },
+        { "speaker": "Lena", "target": "Perfekt formuliert. Siehst du, du kannst das.", "en": "Perfectly phrased. See, you can do it." }
       ]
     },
     {

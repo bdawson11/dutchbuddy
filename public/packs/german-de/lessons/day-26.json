@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-26",
   "day": 26,
   "module": "M04",
@@ -30,12 +30,12 @@
       "type": "chips",
       "title": "Tap to hear the quantities",
       "items": [
-        { "nl": "ein Kilo", "en": "a kilo", "speak": "ein Kilo" },
-        { "nl": "200 Gramm", "en": "200 grams", "speak": "zweihundert Gramm" },
-        { "nl": "ein Liter", "en": "a liter", "speak": "ein Liter" },
-        { "nl": "eine Packung", "en": "a pack", "speak": "eine Packung" },
-        { "nl": "eine Flasche", "en": "a bottle", "speak": "eine Flasche" },
-        { "nl": "eine Dose", "en": "a can", "speak": "eine Dose" }
+        { "target": "ein Kilo", "en": "a kilo", "speak": "ein Kilo" },
+        { "target": "200 Gramm", "en": "200 grams", "speak": "zweihundert Gramm" },
+        { "target": "ein Liter", "en": "a liter", "speak": "ein Liter" },
+        { "target": "eine Packung", "en": "a pack", "speak": "eine Packung" },
+        { "target": "eine Flasche", "en": "a bottle", "speak": "eine Flasche" },
+        { "target": "eine Dose", "en": "a can", "speak": "eine Dose" }
       ]
     },
     {
@@ -69,9 +69,9 @@
       "type": "shadow",
       "title": "Repeat: an der Kasse",
       "lines": [
-        { "nl": "Brauchen Sie eine Tüte?", "en": "Do you need a bag?" },
-        { "nl": "Kontaktlos oder mit PIN?", "en": "Contactless or with PIN?" },
-        { "nl": "Ist da Pfand drauf?", "en": "Is there a deposit on that?" }
+        { "target": "Brauchen Sie eine Tüte?", "en": "Do you need a bag?" },
+        { "target": "Kontaktlos oder mit PIN?", "en": "Contactless or with PIN?" },
+        { "target": "Ist da Pfand drauf?", "en": "Is there a deposit on that?" }
       ]
     },
     {

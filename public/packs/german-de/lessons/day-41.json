@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-41",
   "day": 41,
   "module": "M06",
@@ -29,12 +29,12 @@
       "type": "chips",
       "title": "Mix aus dieser Woche",
       "items": [
-        { "nl": "Halsschmerzen", "en": "sore throat", "speak": "Halsschmerzen" },
-        { "nl": "der Termin", "en": "the appointment", "speak": "der Termin" },
-        { "nl": "nervös", "en": "nervous", "speak": "nervös" },
-        { "nl": "du solltest", "en": "you should", "speak": "du solltest" },
-        { "nl": "es geht mir...", "en": "I'm doing...", "speak": "es geht mir" },
-        { "nl": "die Krankschreibung", "en": "the sick note", "speak": "die Krankschreibung" }
+        { "target": "Halsschmerzen", "en": "sore throat", "speak": "Halsschmerzen" },
+        { "target": "der Termin", "en": "the appointment", "speak": "der Termin" },
+        { "target": "nervös", "en": "nervous", "speak": "nervös" },
+        { "target": "du solltest", "en": "you should", "speak": "du solltest" },
+        { "target": "es geht mir...", "en": "I'm doing...", "speak": "es geht mir" },
+        { "target": "die Krankschreibung", "en": "the sick note", "speak": "die Krankschreibung" }
       ]
     },
     {
@@ -55,15 +55,15 @@
       "type": "dialogue",
       "scene": "Aylin calls you — it's been one thing after another this week.",
       "lines": [
-        { "speaker": "Aylin", "nl": "Hey... ich hatte echt eine schwere Woche, ehrlich gesagt.", "en": "Hey... I've had a really rough week, honestly." },
-        { "speaker": "You", "nl": "Oh nein, was ist denn passiert?", "en": "Oh no, what happened?" },
-        { "speaker": "Aylin", "nl": "Man hat mir mein Fahrrad geklaut, mitten in Berlin!", "en": "Someone stole my bike, right in the middle of Berlin!", "spotlight": "mir — dative: klauen takes a dative person and an accusative thing" },
-        { "speaker": "You", "nl": "Wie ärgerlich! Und dann?", "en": "How annoying! And then?" },
-        { "speaker": "Aylin", "nl": "Und dann bin ich auch noch krank geworden. Mir ging es richtig schlecht — Fieber, Kopfschmerzen, alles.", "en": "And then I got sick on top of it. I felt really bad — fever, headache, everything.", "spotlight": "bin... geworden — the Perfekt with sein, back from Week 5" },
-        { "speaker": "You", "nl": "Bist du beim Hausarzt gewesen?", "en": "Did you go to the GP?" },
-        { "speaker": "Aylin", "nl": "Ja, gestern. Sie hat gesagt: 'Das ist nur eine Erkältung.' Ich soll mich ausruhen.", "en": "Yes, yesterday. She said: 'It's just a cold.' I'm supposed to rest." },
-        { "speaker": "You", "nl": "Na, dann musst du jetzt wirklich ausruhen.", "en": "Well, then you really must rest now." },
-        { "speaker": "Aylin", "nl": "Mach ich. Danke, dass du fragst.", "en": "I will. Thanks for asking." }
+        { "speaker": "Aylin", "target": "Hey... ich hatte echt eine schwere Woche, ehrlich gesagt.", "en": "Hey... I've had a really rough week, honestly." },
+        { "speaker": "You", "target": "Oh nein, was ist denn passiert?", "en": "Oh no, what happened?" },
+        { "speaker": "Aylin", "target": "Man hat mir mein Fahrrad geklaut, mitten in Berlin!", "en": "Someone stole my bike, right in the middle of Berlin!", "spotlight": "mir — dative: klauen takes a dative person and an accusative thing" },
+        { "speaker": "You", "target": "Wie ärgerlich! Und dann?", "en": "How annoying! And then?" },
+        { "speaker": "Aylin", "target": "Und dann bin ich auch noch krank geworden. Mir ging es richtig schlecht — Fieber, Kopfschmerzen, alles.", "en": "And then I got sick on top of it. I felt really bad — fever, headache, everything.", "spotlight": "bin... geworden — the Perfekt with sein, back from Week 5" },
+        { "speaker": "You", "target": "Bist du beim Hausarzt gewesen?", "en": "Did you go to the GP?" },
+        { "speaker": "Aylin", "target": "Ja, gestern. Sie hat gesagt: 'Das ist nur eine Erkältung.' Ich soll mich ausruhen.", "en": "Yes, yesterday. She said: 'It's just a cold.' I'm supposed to rest." },
+        { "speaker": "You", "target": "Na, dann musst du jetzt wirklich ausruhen.", "en": "Well, then you really must rest now." },
+        { "speaker": "Aylin", "target": "Mach ich. Danke, dass du fragst.", "en": "I will. Thanks for asking." }
       ]
     },
     {

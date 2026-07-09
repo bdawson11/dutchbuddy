@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-66",
   "day": 66,
   "module": "M10",
@@ -28,10 +28,10 @@
       "type": "chips",
       "title": "Ascolta le coppie",
       "items": [
-        { "nl": "Me lo dici domani?", "en": "Will you tell me (it) tomorrow?", "speak": "Me lo dici domani?" },
-        { "nl": "Te la mando stasera.", "en": "I'll send it to you tonight.", "speak": "Te la mando stasera." },
-        { "nl": "Ce li porti tu?", "en": "Will you bring them to us?", "speak": "Ce li porti tu?" },
-        { "nl": "Ce n'è ancora un po'.", "en": "There's still a bit (of it) left.", "speak": "Ce n'è ancora un po'." }
+        { "target": "Me lo dici domani?", "en": "Will you tell me (it) tomorrow?", "speak": "Me lo dici domani?" },
+        { "target": "Te la mando stasera.", "en": "I'll send it to you tonight.", "speak": "Te la mando stasera." },
+        { "target": "Ce li porti tu?", "en": "Will you bring them to us?", "speak": "Ce li porti tu?" },
+        { "target": "Ce n'è ancora un po'.", "en": "There's still a bit (of it) left.", "speak": "Ce n'è ancora un po'." }
       ]
     },
     {
@@ -84,12 +84,12 @@
       "type": "dialogue",
       "scene": "Marco vuole sapere se Sofia ha deciso. La decisione pende verso il sì, ma non è ancora ufficiale.",
       "lines": [
-        { "speaker": "Marco", "nl": "Allora, Sofia si è decisa? Te l'ha detto qualcosa?", "en": "So, has Sofia decided? Did she tell you anything?" },
-        { "speaker": "You", "nl": "Me l'ha detto ieri: è quasi sicura di accettare. Ma non l'ha ancora firmato.", "en": "She told me yesterday: she's almost sure she'll accept. But she hasn't signed yet.", "spotlight": "*Me l'ha detto* — me + lo, con l'elisione davanti a *ha*." },
-        { "speaker": "Marco", "nl": "E al suo capo? Gliel'ha già comunicato?", "en": "And her boss? Has she told him already?" },
-        { "speaker": "You", "nl": "Non ancora. Vuole pensarci un altro paio di giorni.", "en": "Not yet. She wants to think about it a couple more days." },
-        { "speaker": "Marco", "nl": "Se accetta, la festa gliela organizziamo noi, eh.", "en": "If she accepts, we're throwing her the party, yeah?" },
-        { "speaker": "You", "nl": "Certo. Glielo diciamo domani, così si commuove.", "en": "Of course. We'll tell her tomorrow, so she gets all emotional." }
+        { "speaker": "Marco", "target": "Allora, Sofia si è decisa? Te l'ha detto qualcosa?", "en": "So, has Sofia decided? Did she tell you anything?" },
+        { "speaker": "You", "target": "Me l'ha detto ieri: è quasi sicura di accettare. Ma non l'ha ancora firmato.", "en": "She told me yesterday: she's almost sure she'll accept. But she hasn't signed yet.", "spotlight": "*Me l'ha detto* — me + lo, con l'elisione davanti a *ha*." },
+        { "speaker": "Marco", "target": "E al suo capo? Gliel'ha già comunicato?", "en": "And her boss? Has she told him already?" },
+        { "speaker": "You", "target": "Non ancora. Vuole pensarci un altro paio di giorni.", "en": "Not yet. She wants to think about it a couple more days." },
+        { "speaker": "Marco", "target": "Se accetta, la festa gliela organizziamo noi, eh.", "en": "If she accepts, we're throwing her the party, yeah?" },
+        { "speaker": "You", "target": "Certo. Glielo diciamo domani, così si commuove.", "en": "Of course. We'll tell her tomorrow, so she gets all emotional." }
       ]
     },
     {

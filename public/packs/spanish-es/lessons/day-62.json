@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-62",
   "day": 62,
   "module": "M09",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Repaso rápido — toca para escuchar",
       "items": [
-        { "nl": "Me alegro de que estés bien.", "en": "I'm glad you're okay.", "speak": "Me alegro de que estés bien." },
-        { "nl": "No creo que sea fácil.", "en": "I don't think it's easy.", "speak": "No creo que sea fácil." },
-        { "nl": "Cuando lo sepa, te digo.", "en": "When I know, I'll tell you.", "speak": "Cuando lo sepa, te digo." },
-        { "nl": "Me dijo que estaba hecha un lío.", "en": "She told me she was in a muddle.", "speak": "Me dijo que estaba hecha un lío." },
-        { "nl": "Yo que tú, me lo pensaría.", "en": "If I were you, I'd think about it.", "speak": "Yo que tú, me lo pensaría." }
+        { "target": "Me alegro de que estés bien.", "en": "I'm glad you're okay.", "speak": "Me alegro de que estés bien." },
+        { "target": "No creo que sea fácil.", "en": "I don't think it's easy.", "speak": "No creo que sea fácil." },
+        { "target": "Cuando lo sepa, te digo.", "en": "When I know, I'll tell you.", "speak": "Cuando lo sepa, te digo." },
+        { "target": "Me dijo que estaba hecha un lío.", "en": "She told me she was in a muddle.", "speak": "Me dijo que estaba hecha un lío." },
+        { "target": "Yo que tú, me lo pensaría.", "en": "If I were you, I'd think about it.", "speak": "Yo que tú, me lo pensaría." }
       ]
     },
     {
@@ -46,16 +46,16 @@
       "type": "dialogue",
       "scene": "En el bar. Lucía habló ayer con Sofía y trae una noticia que contar — Sofía todavía no ha decidido nada",
       "lines": [
-        { "speaker": "Lucía", "nl": "¿Sabéis qué? Ayer hablé con Sofía y me contó una movida gorda.", "en": "You know what? Yesterday I spoke to Sofía and she told me some big news." },
-        { "speaker": "Rafa", "nl": "¿En serio? Cuenta, cuenta.", "en": "Really? Spill, spill." },
-        { "speaker": "Lucía", "nl": "Me dijo que le habían ofrecido un trabajo. En Valencia.", "en": "She told me she'd been offered a job. In Valencia.", "spotlight": "me dijo que + pluscuamperfecto (habían ofrecido): la noticia, en estilo indirecto." },
-        { "speaker": "You", "nl": "¿En Valencia? ¿Y qué le dijiste?", "en": "In Valencia? And what did you say to her?" },
-        { "speaker": "Lucía", "nl": "Le pregunté si se iba a ir. Me dijo que todavía no lo sabía, que se lo estaba pensando.", "en": "I asked if she was going to go. She told me she didn't know yet, that she was thinking about it.", "spotlight": "le pregunté si… + me dijo que… : decisión en marcha, aún sin decidir." },
-        { "speaker": "Rafa", "nl": "Buah. ¿Y el curro es bueno?", "en": "Whoa. And is the job good?" },
-        { "speaker": "Lucía", "nl": "Me contó que era mejor que el de aquí, pero que le daba pena dejar Madrid.", "en": "She told me it was better than her one here, but that she was sad about leaving Madrid." },
-        { "speaker": "You", "nl": "Es una decisión difícil. Espero que haga lo que la haga feliz.", "en": "It's a hard decision. I hope she does whatever makes her happy.", "spotlight": "espero que + subjuntivo (haga): repaso de la semana." },
-        { "speaker": "Lucía", "nl": "Eso le dije yo. Me pidió que no se lo contara a nadie todavía, así que… ¡chitón!", "en": "That's what I told her. She asked me not to tell anyone yet, so… zip it!", "spotlight": "me pidió que + imperfecto de subjuntivo (contara): estilo indirecto de una petición." },
-        { "speaker": "Rafa", "nl": "Tío, con nosotros ya es tarde, ¿eh?", "en": "Mate, with us it's already too late, eh?" }
+        { "speaker": "Lucía", "target": "¿Sabéis qué? Ayer hablé con Sofía y me contó una movida gorda.", "en": "You know what? Yesterday I spoke to Sofía and she told me some big news." },
+        { "speaker": "Rafa", "target": "¿En serio? Cuenta, cuenta.", "en": "Really? Spill, spill." },
+        { "speaker": "Lucía", "target": "Me dijo que le habían ofrecido un trabajo. En Valencia.", "en": "She told me she'd been offered a job. In Valencia.", "spotlight": "me dijo que + pluscuamperfecto (habían ofrecido): la noticia, en estilo indirecto." },
+        { "speaker": "You", "target": "¿En Valencia? ¿Y qué le dijiste?", "en": "In Valencia? And what did you say to her?" },
+        { "speaker": "Lucía", "target": "Le pregunté si se iba a ir. Me dijo que todavía no lo sabía, que se lo estaba pensando.", "en": "I asked if she was going to go. She told me she didn't know yet, that she was thinking about it.", "spotlight": "le pregunté si… + me dijo que… : decisión en marcha, aún sin decidir." },
+        { "speaker": "Rafa", "target": "Buah. ¿Y el curro es bueno?", "en": "Whoa. And is the job good?" },
+        { "speaker": "Lucía", "target": "Me contó que era mejor que el de aquí, pero que le daba pena dejar Madrid.", "en": "She told me it was better than her one here, but that she was sad about leaving Madrid." },
+        { "speaker": "You", "target": "Es una decisión difícil. Espero que haga lo que la haga feliz.", "en": "It's a hard decision. I hope she does whatever makes her happy.", "spotlight": "espero que + subjuntivo (haga): repaso de la semana." },
+        { "speaker": "Lucía", "target": "Eso le dije yo. Me pidió que no se lo contara a nadie todavía, así que… ¡chitón!", "en": "That's what I told her. She asked me not to tell anyone yet, so… zip it!", "spotlight": "me pidió que + imperfecto de subjuntivo (contara): estilo indirecto de una petición." },
+        { "speaker": "Rafa", "target": "Tío, con nosotros ya es tarde, ¿eh?", "en": "Mate, with us it's already too late, eh?" }
       ]
     },
     {

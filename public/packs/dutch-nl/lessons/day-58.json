@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-58",
   "day": 58,
   "module": "M09",
@@ -37,10 +37,10 @@
       "type": "chips",
       "title": "Tik om de bijzinnen te horen",
       "items": [
-        { "nl": "de buurman die altijd klust", "en": "the neighbour who's always doing DIY", "speak": "de buurman die altijd klust" },
-        { "nl": "het café dat om de hoek zit", "en": "the café that's around the corner", "speak": "het café dat om de hoek zit" },
-        { "nl": "de vrienden die ik gisteren zag", "en": "the friends I saw yesterday", "speak": "de vrienden die ik gisteren zag" },
-        { "nl": "het liedje dat je altijd zingt", "en": "the song you always sing", "speak": "het liedje dat je altijd zingt" }
+        { "target": "de buurman die altijd klust", "en": "the neighbour who's always doing DIY", "speak": "de buurman die altijd klust" },
+        { "target": "het café dat om de hoek zit", "en": "the café that's around the corner", "speak": "het café dat om de hoek zit" },
+        { "target": "de vrienden die ik gisteren zag", "en": "the friends I saw yesterday", "speak": "de vrienden die ik gisteren zag" },
+        { "target": "het liedje dat je altijd zingt", "en": "the song you always sing", "speak": "het liedje dat je altijd zingt" }
       ]
     },
     {
@@ -100,12 +100,12 @@
       "type": "dialogue",
       "scene": "Daan shows you around his favourite corner of the city",
       "lines": [
-        { "speaker": "Daan", "nl": "Kijk, dat is de boekwinkel waar ik werk.", "en": "Look, that's the bookshop where I work.", "spotlight": "plek + waar: *de boekwinkel **waar** ik werk.*" },
-        { "speaker": "You", "nl": "En dat café ernaast?", "en": "And that café next to it?" },
-        { "speaker": "Daan", "nl": "Dat is het café dat de beste koffie van de buurt heeft.", "en": "That's the café that has the best coffee in the neighbourhood.", "spotlight": "het café → *dat*." },
-        { "speaker": "You", "nl": "Is dat de vrouw die daar altijd zit?", "en": "Is that the woman who always sits there?", "spotlight": "de vrouw → *die*." },
-        { "speaker": "Daan", "nl": "Ja, joh! Dat is de schrijfster over wie ik je vertelde.", "en": "Yeah! That's the writer I told you about.", "spotlight": "persoon + voorzetsel: *over wie*, niet waarover." },
-        { "speaker": "You", "nl": "Echt? Dat is het boek waarmee ze bekend werd, toch?", "en": "Really? That's the book she got famous with, right?", "spotlight": "ding + voorzetsel: *waarmee*." }
+        { "speaker": "Daan", "target": "Kijk, dat is de boekwinkel waar ik werk.", "en": "Look, that's the bookshop where I work.", "spotlight": "plek + waar: *de boekwinkel **waar** ik werk.*" },
+        { "speaker": "You", "target": "En dat café ernaast?", "en": "And that café next to it?" },
+        { "speaker": "Daan", "target": "Dat is het café dat de beste koffie van de buurt heeft.", "en": "That's the café that has the best coffee in the neighbourhood.", "spotlight": "het café → *dat*." },
+        { "speaker": "You", "target": "Is dat de vrouw die daar altijd zit?", "en": "Is that the woman who always sits there?", "spotlight": "de vrouw → *die*." },
+        { "speaker": "Daan", "target": "Ja, joh! Dat is de schrijfster over wie ik je vertelde.", "en": "Yeah! That's the writer I told you about.", "spotlight": "persoon + voorzetsel: *over wie*, niet waarover." },
+        { "speaker": "You", "target": "Echt? Dat is het boek waarmee ze bekend werd, toch?", "en": "Really? That's the book she got famous with, right?", "spotlight": "ding + voorzetsel: *waarmee*." }
       ]
     },
     {

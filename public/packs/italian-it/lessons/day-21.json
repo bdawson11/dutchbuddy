@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-21",
   "day": 21,
   "module": "M03",
@@ -21,20 +21,20 @@
       "type": "chips",
       "title": "Quick refresh — tap through",
       "items": [
-        { "nl": "mia sorella", "en": "my sister", "speak": "mia sorella" },
-        { "nl": "una bella casa", "en": "a nice house", "speak": "una bella casa" },
-        { "nl": "questa piazza", "en": "this square", "speak": "questa piazza" },
-        { "nl": "quel negozio", "en": "that shop", "speak": "quel negozio" },
-        { "nl": "in gamba", "en": "sharp / capable", "speak": "in gamba" }
+        { "target": "mia sorella", "en": "my sister", "speak": "mia sorella" },
+        { "target": "una bella casa", "en": "a nice house", "speak": "una bella casa" },
+        { "target": "questa piazza", "en": "this square", "speak": "questa piazza" },
+        { "target": "quel negozio", "en": "that shop", "speak": "quel negozio" },
+        { "target": "in gamba", "en": "sharp / capable", "speak": "in gamba" }
       ]
     },
     {
       "type": "shadow",
       "title": "Warm up — shadow the week",
       "lines": [
-        { "nl": "Questa è mia sorella.", "en": "This is my sister." },
-        { "nl": "Il mio quartiere è tranquillo.", "en": "My neighborhood is quiet." },
-        { "nl": "Quella piazza è bellissima.", "en": "That square is really beautiful." }
+        { "target": "Questa è mia sorella.", "en": "This is my sister." },
+        { "target": "Il mio quartiere è tranquillo.", "en": "My neighborhood is quiet." },
+        { "target": "Quella piazza è bellissima.", "en": "That square is really beautiful." }
       ]
     },
     {
@@ -75,13 +75,13 @@
       "type": "dialogue",
       "scene": "Marco visits your apartment for the first time and spots a family photo on the shelf",
       "lines": [
-        { "speaker": "Marco", "nl": "Bel quartiere! E questa foto, chi sono?", "en": "Nice neighborhood! And this photo, who are they?" },
-        { "speaker": "You", "nl": "Questa è la mia famiglia. Quello è mio padre, e quella è mia madre.", "en": "This is my family. That's my father, and that's my mother.", "spotlight": "quello/quella point at people across the room — near vs far demonstratives in action." },
-        { "speaker": "Marco", "nl": "Sembrano simpatici. E quel ragazzo alto?", "en": "They seem nice. And that tall guy?" },
-        { "speaker": "You", "nl": "È mio fratello. Abita qui vicino, in quella via dietro la piazza.", "en": "That's my brother. He lives nearby, on that street behind the square." },
-        { "speaker": "Marco", "nl": "Ah, conosco quella via! C'è un bar molto buono all'angolo.", "en": "Ah, I know that street! There's a really good bar on the corner." },
-        { "speaker": "You", "nl": "Davvero? Il mio quartiere è piccolo, ma mi piace molto.", "en": "Really? My neighborhood is small, but I like it a lot." },
-        { "speaker": "Marco", "nl": "Ma dai, è perfetto: famiglia vicina e un buon bar. Cosa vuoi di più?", "en": "Come on, it's perfect: family nearby and a good bar. What more do you want?" }
+        { "speaker": "Marco", "target": "Bel quartiere! E questa foto, chi sono?", "en": "Nice neighborhood! And this photo, who are they?" },
+        { "speaker": "You", "target": "Questa è la mia famiglia. Quello è mio padre, e quella è mia madre.", "en": "This is my family. That's my father, and that's my mother.", "spotlight": "quello/quella point at people across the room — near vs far demonstratives in action." },
+        { "speaker": "Marco", "target": "Sembrano simpatici. E quel ragazzo alto?", "en": "They seem nice. And that tall guy?" },
+        { "speaker": "You", "target": "È mio fratello. Abita qui vicino, in quella via dietro la piazza.", "en": "That's my brother. He lives nearby, on that street behind the square." },
+        { "speaker": "Marco", "target": "Ah, conosco quella via! C'è un bar molto buono all'angolo.", "en": "Ah, I know that street! There's a really good bar on the corner." },
+        { "speaker": "You", "target": "Davvero? Il mio quartiere è piccolo, ma mi piace molto.", "en": "Really? My neighborhood is small, but I like it a lot." },
+        { "speaker": "Marco", "target": "Ma dai, è perfetto: famiglia vicina e un buon bar. Cosa vuoi di più?", "en": "Come on, it's perfect: family nearby and a good bar. What more do you want?" }
       ]
     },
     {

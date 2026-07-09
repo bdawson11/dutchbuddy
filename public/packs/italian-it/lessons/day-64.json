@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-64",
   "day": 64,
   "module": "M10",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "Ascolta — il pronome prima del verbo",
       "items": [
-        { "nl": "Il caffè? Lo prendo io.", "en": "The coffee? I'll get it.", "speak": "Il caffè? Lo prendo io." },
-        { "nl": "La chiave? La cerco.", "en": "The key? I'm looking for it.", "speak": "La chiave? La cerco." },
-        { "nl": "I biglietti? Li ho qui.", "en": "The tickets? I've got them here.", "speak": "I biglietti? Li ho qui." },
-        { "nl": "Le scatole? Le porto io.", "en": "The boxes? I'll carry them.", "speak": "Le scatole? Le porto io." }
+        { "target": "Il caffè? Lo prendo io.", "en": "The coffee? I'll get it.", "speak": "Il caffè? Lo prendo io." },
+        { "target": "La chiave? La cerco.", "en": "The key? I'm looking for it.", "speak": "La chiave? La cerco." },
+        { "target": "I biglietti? Li ho qui.", "en": "The tickets? I've got them here.", "speak": "I biglietti? Li ho qui." },
+        { "target": "Le scatole? Le porto io.", "en": "The boxes? I'll carry them.", "speak": "Le scatole? Le porto io." }
       ]
     },
     {
@@ -79,12 +79,12 @@
       "type": "dialogue",
       "scene": "Al bar. Marco non vede Sofia da giorni e chiede sue notizie (la decisione su Milano è ancora in ballo).",
       "lines": [
-        { "speaker": "Marco", "nl": "Senti, hai notizie di Sofia? Non la vedo da una settimana.", "en": "Hey, any news from Sofia? I haven't seen her in a week." },
-        { "speaker": "You", "nl": "L'ho vista ieri, sì. Sta ancora pensando a quel lavoro a Milano.", "en": "I saw her yesterday, yeah. She's still thinking about that job in Milan.", "spotlight": "*L'ho vista* — la → l', participle in -a for Sofia." },
-        { "speaker": "Marco", "nl": "Ma dai! E i suoi genitori? Li ha già avvisati?", "en": "No way! And her parents? Has she told them yet?" },
-        { "speaker": "You", "nl": "Boh, non lo so. È una decisione bella grande.", "en": "Dunno, no idea. It's a pretty big decision." },
-        { "speaker": "Marco", "nl": "Eh, lo è. Milano mica è dietro l'angolo.", "en": "Yeah, it is. Milan isn't exactly around the corner." },
-        { "speaker": "You", "nl": "La chiamo stasera, così ne parliamo con calma.", "en": "I'll call her tonight, so we can talk it over properly." }
+        { "speaker": "Marco", "target": "Senti, hai notizie di Sofia? Non la vedo da una settimana.", "en": "Hey, any news from Sofia? I haven't seen her in a week." },
+        { "speaker": "You", "target": "L'ho vista ieri, sì. Sta ancora pensando a quel lavoro a Milano.", "en": "I saw her yesterday, yeah. She's still thinking about that job in Milan.", "spotlight": "*L'ho vista* — la → l', participle in -a for Sofia." },
+        { "speaker": "Marco", "target": "Ma dai! E i suoi genitori? Li ha già avvisati?", "en": "No way! And her parents? Has she told them yet?" },
+        { "speaker": "You", "target": "Boh, non lo so. È una decisione bella grande.", "en": "Dunno, no idea. It's a pretty big decision." },
+        { "speaker": "Marco", "target": "Eh, lo è. Milano mica è dietro l'angolo.", "en": "Yeah, it is. Milan isn't exactly around the corner." },
+        { "speaker": "You", "target": "La chiamo stasera, così ne parliamo con calma.", "en": "I'll call her tonight, so we can talk it over properly." }
       ]
     },
     {

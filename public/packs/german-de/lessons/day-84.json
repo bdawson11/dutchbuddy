@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-84",
   "day": 84,
   "module": "M12",
@@ -29,12 +29,12 @@
       "type": "chips",
       "title": "Tap to hear German farewells",
       "items": [
-        { "nl": "Tschüss!", "en": "Bye!", "speak": "Tschüss!" },
-        { "nl": "Bis bald!", "en": "See you soon!", "speak": "Bis bald!" },
-        { "nl": "Mach's gut!", "en": "Take care!", "speak": "Mach's gut!" },
-        { "nl": "Wir hören uns!", "en": "We'll be in touch!", "speak": "Wir hören uns!" },
-        { "nl": "Alles Gute!", "en": "All the best!", "speak": "Alles Gute!" },
-        { "nl": "Prost auf dich!", "en": "Cheers to you!", "speak": "Prost auf dich!" }
+        { "target": "Tschüss!", "en": "Bye!", "speak": "Tschüss!" },
+        { "target": "Bis bald!", "en": "See you soon!", "speak": "Bis bald!" },
+        { "target": "Mach's gut!", "en": "Take care!", "speak": "Mach's gut!" },
+        { "target": "Wir hören uns!", "en": "We'll be in touch!", "speak": "Wir hören uns!" },
+        { "target": "Alles Gute!", "en": "All the best!", "speak": "Alles Gute!" },
+        { "target": "Prost auf dich!", "en": "Cheers to you!", "speak": "Prost auf dich!" }
       ]
     },
     {
@@ -104,13 +104,13 @@
       "type": "dialogue",
       "scene": "The end of the finale evening. Lena walks you to the U-Bahn — she opened this year, and she closes it.",
       "lines": [
-        { "speaker": "Lena", "nl": "Also, ein Jahr. Weißt du noch, unser erstes Gespräch im Café?", "en": "So, a year. Remember our first conversation at the café?" },
-        { "speaker": "You", "nl": "Klar. Ich konnte fast nichts sagen — nur „ich lerne Deutsch”.", "en": "Of course. I could barely say anything — just „I'm learning German”." },
-        { "speaker": "Lena", "nl": "Und guck dich jetzt an. Du hast das echt durchgezogen. Ich bin stolz auf dich.", "en": "And look at you now. You really saw it through. I'm proud of you.", "spotlight": "*Du hast das durchgezogen* (Perfekt) — Lena closing the arc she opened on day 7." },
-        { "speaker": "You", "nl": "Danke, Lena. Ohne euch hätte ich längst aufgegeben.", "en": "Thanks, Lena. Without you all I'd have given up long ago.", "spotlight": "*hätte … aufgegeben* — Konjunktiv II, the B1 finishing move." },
-        { "speaker": "Lena", "nl": "Quatsch. Das warst alles du. Also — mach's gut, und bleib dran, ja?", "en": "Nonsense. That was all you. So — take care, and keep at it, okay?", "spotlight": "*mach's gut* + *bleib dran* — warm imperatives to say goodbye." },
-        { "speaker": "You", "nl": "Mach ich. Bis bald — und Prost auf das nächste Jahr!", "en": "I will. See you soon — and cheers to next year!" },
-        { "speaker": "Lena", "nl": "Prost! Tschüss, mein Freund. Wir hören uns.", "en": "Cheers! Bye, my friend. We'll be in touch." }
+        { "speaker": "Lena", "target": "Also, ein Jahr. Weißt du noch, unser erstes Gespräch im Café?", "en": "So, a year. Remember our first conversation at the café?" },
+        { "speaker": "You", "target": "Klar. Ich konnte fast nichts sagen — nur „ich lerne Deutsch”.", "en": "Of course. I could barely say anything — just „I'm learning German”." },
+        { "speaker": "Lena", "target": "Und guck dich jetzt an. Du hast das echt durchgezogen. Ich bin stolz auf dich.", "en": "And look at you now. You really saw it through. I'm proud of you.", "spotlight": "*Du hast das durchgezogen* (Perfekt) — Lena closing the arc she opened on day 7." },
+        { "speaker": "You", "target": "Danke, Lena. Ohne euch hätte ich längst aufgegeben.", "en": "Thanks, Lena. Without you all I'd have given up long ago.", "spotlight": "*hätte … aufgegeben* — Konjunktiv II, the B1 finishing move." },
+        { "speaker": "Lena", "target": "Quatsch. Das warst alles du. Also — mach's gut, und bleib dran, ja?", "en": "Nonsense. That was all you. So — take care, and keep at it, okay?", "spotlight": "*mach's gut* + *bleib dran* — warm imperatives to say goodbye." },
+        { "speaker": "You", "target": "Mach ich. Bis bald — und Prost auf das nächste Jahr!", "en": "I will. See you soon — and cheers to next year!" },
+        { "speaker": "Lena", "target": "Prost! Tschüss, mein Freund. Wir hören uns.", "en": "Cheers! Bye, my friend. We'll be in touch." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-34",
   "day": 34,
   "module": "M05",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Repaso rápido — tap through",
       "items": [
-        { "nl": "he hecho", "en": "I've done", "speak": "he hecho" },
-        { "nl": "hemos ido", "en": "we've gone", "speak": "hemos ido" },
-        { "nl": "nos hemos levantado", "en": "we've gotten up", "speak": "nos hemos levantado" },
-        { "nl": "el andén", "en": "the platform", "speak": "el andén" },
-        { "nl": "ya", "en": "already", "speak": "ya" },
-        { "nl": "todavía no", "en": "not yet", "speak": "todavía no" }
+        { "target": "he hecho", "en": "I've done", "speak": "he hecho" },
+        { "target": "hemos ido", "en": "we've gone", "speak": "hemos ido" },
+        { "target": "nos hemos levantado", "en": "we've gotten up", "speak": "nos hemos levantado" },
+        { "target": "el andén", "en": "the platform", "speak": "el andén" },
+        { "target": "ya", "en": "already", "speak": "ya" },
+        { "target": "todavía no", "en": "not yet", "speak": "todavía no" }
       ]
     },
     {
@@ -47,15 +47,15 @@
       "type": "dialogue",
       "scene": "Monday morning at the office — Lucía tells you and Rafa about her weekend.",
       "lines": [
-        { "speaker": "Lucía", "nl": "¡Buenos días! Este finde he ido a la sierra, a Cercedilla.", "en": "Morning! This weekend I went to the sierra, to Cercedilla." },
-        { "speaker": "You", "nl": "¡Qué bien! ¿Qué habéis hecho?", "en": "Nice! What did you all do?" },
-        { "speaker": "Lucía", "nl": "Hemos cogido el Cercanías desde Atocha y hemos hecho una ruta por el monte.", "en": "We took the Cercanías from Atocha and did a hike through the mountains." },
-        { "speaker": "Rafa", "nl": "¿Y has vuelto viva? Esas rutas son duras, ¿eh?", "en": "And did you come back alive? Those hikes are tough, huh?" },
-        { "speaker": "Lucía", "nl": "¡Qué va! Hemos vuelto cansados pero contentos. Nos hemos levantado prontísimo y hemos visto un atardecer increíble.", "en": "No way! We came back tired but happy. We got up super early and saw an incredible sunset.", "spotlight": "hemos vuelto, nos hemos levantado, hemos visto — three perfecto forms in one line." },
-        { "speaker": "Rafa", "nl": "Pues yo el sábado no he salido de casa. He visto tres pelis y he dormido la siesta más rica del mundo.", "en": "Well, I didn't leave the house on Saturday. I watched three movies and took the best nap in the world." },
-        { "speaker": "You", "nl": "Cada uno con su finde perfecto, ¿no?", "en": "Everyone with their perfect weekend, right?" },
-        { "speaker": "Lucía", "nl": "Exacto. ¿Y tú qué has hecho?", "en": "Exactly. And what have you done?" },
-        { "speaker": "You", "nl": "Yo he estudiado español, ¡y he aprendido un montón de participios irregulares!", "en": "I studied Spanish, and I've learned a ton of irregular participles!" }
+        { "speaker": "Lucía", "target": "¡Buenos días! Este finde he ido a la sierra, a Cercedilla.", "en": "Morning! This weekend I went to the sierra, to Cercedilla." },
+        { "speaker": "You", "target": "¡Qué bien! ¿Qué habéis hecho?", "en": "Nice! What did you all do?" },
+        { "speaker": "Lucía", "target": "Hemos cogido el Cercanías desde Atocha y hemos hecho una ruta por el monte.", "en": "We took the Cercanías from Atocha and did a hike through the mountains." },
+        { "speaker": "Rafa", "target": "¿Y has vuelto viva? Esas rutas son duras, ¿eh?", "en": "And did you come back alive? Those hikes are tough, huh?" },
+        { "speaker": "Lucía", "target": "¡Qué va! Hemos vuelto cansados pero contentos. Nos hemos levantado prontísimo y hemos visto un atardecer increíble.", "en": "No way! We came back tired but happy. We got up super early and saw an incredible sunset.", "spotlight": "hemos vuelto, nos hemos levantado, hemos visto — three perfecto forms in one line." },
+        { "speaker": "Rafa", "target": "Pues yo el sábado no he salido de casa. He visto tres pelis y he dormido la siesta más rica del mundo.", "en": "Well, I didn't leave the house on Saturday. I watched three movies and took the best nap in the world." },
+        { "speaker": "You", "target": "Cada uno con su finde perfecto, ¿no?", "en": "Everyone with their perfect weekend, right?" },
+        { "speaker": "Lucía", "target": "Exacto. ¿Y tú qué has hecho?", "en": "Exactly. And what have you done?" },
+        { "speaker": "You", "target": "Yo he estudiado español, ¡y he aprendido un montón de participios irregulares!", "en": "I studied Spanish, and I've learned a ton of irregular participles!" }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-62",
   "day": 62,
   "module": "M09",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Tap to warm up the week's moves",
       "items": [
-        { "nl": "obwohl es spät ist", "en": "although it's late", "speak": "obwohl es spät ist" },
-        { "nl": "der Mann, den ich kenne", "en": "the man I know", "speak": "der Mann, den ich kenne" },
-        { "nl": "Sie hat gesagt, dass …", "en": "she said that …", "speak": "Sie hat gesagt, dass" },
-        { "nl": "Ich würde gern …", "en": "I'd like to …", "speak": "Ich würde gern" },
-        { "nl": "Wenn ich Zeit hätte, …", "en": "if I had time, …", "speak": "Wenn ich Zeit hätte" }
+        { "target": "obwohl es spät ist", "en": "although it's late", "speak": "obwohl es spät ist" },
+        { "target": "der Mann, den ich kenne", "en": "the man I know", "speak": "der Mann, den ich kenne" },
+        { "target": "Sie hat gesagt, dass …", "en": "she said that …", "speak": "Sie hat gesagt, dass" },
+        { "target": "Ich würde gern …", "en": "I'd like to …", "speak": "Ich würde gern" },
+        { "target": "Wenn ich Zeit hätte, …", "en": "if I had time, …", "speak": "Wenn ich Zeit hätte" }
       ]
     },
     {
@@ -46,15 +46,15 @@
       "type": "dialogue",
       "scene": "At the café, Aylin is visibly nervous. She stirs her coffee for a while before she finally spills it to Lena and you.",
       "lines": [
-        { "speaker": "Aylin", "nl": "Ich muss euch was erzählen. Ich bin total durcheinander.", "en": "I have to tell you something. I'm completely mixed up." },
-        { "speaker": "Lena", "nl": "Na? Erzähl, was ist los?", "en": "Well? Tell us, what's going on?" },
-        { "speaker": "Aylin", "nl": "Also … eine Design-Agentur aus München hat mir geschrieben.", "en": "So … a design agency in Munich wrote to me.", "spotlight": "München — the first time Munich enters the story. Aylin still lives in Berlin; this is only an email." },
-        { "speaker": "You", "nl": "Aus München? Und was wollen die?", "en": "From Munich? And what do they want?" },
-        { "speaker": "Aylin", "nl": "Sie haben gesagt, dass sie mich einstellen wollen. Eine Festanstellung, mehr Gehalt, alles.", "en": "They said they want to hire me. A permanent job, more money, everything.", "spotlight": "*Sie haben gesagt, dass sie mich einstellen wollen* — the news itself arrives as reported speech." },
-        { "speaker": "Lena", "nl": "Aylin, das ist ja der Wahnsinn! Und? Was hast du gesagt?", "en": "Aylin, that's amazing! And? What did you say?" },
-        { "speaker": "Aylin", "nl": "Noch nichts. Ich hab gefragt, ob ich Bedenkzeit haben kann.", "en": "Nothing yet. I asked whether I could have some time to think.", "spotlight": "*Ich hab gefragt, ob …* — a reported yes/no question. Nothing is decided." },
-        { "speaker": "You", "nl": "Klingt aber, als würdest du drüber nachdenken.", "en": "But it sounds like you're thinking about it." },
-        { "speaker": "Aylin", "nl": "Weg von Berlin … das ist eine Entscheidung, die alles verändert. Ich weiß es einfach noch nicht.", "en": "Away from Berlin … that's a decision that changes everything. I just don't know yet." }
+        { "speaker": "Aylin", "target": "Ich muss euch was erzählen. Ich bin total durcheinander.", "en": "I have to tell you something. I'm completely mixed up." },
+        { "speaker": "Lena", "target": "Na? Erzähl, was ist los?", "en": "Well? Tell us, what's going on?" },
+        { "speaker": "Aylin", "target": "Also … eine Design-Agentur aus München hat mir geschrieben.", "en": "So … a design agency in Munich wrote to me.", "spotlight": "München — the first time Munich enters the story. Aylin still lives in Berlin; this is only an email." },
+        { "speaker": "You", "target": "Aus München? Und was wollen die?", "en": "From Munich? And what do they want?" },
+        { "speaker": "Aylin", "target": "Sie haben gesagt, dass sie mich einstellen wollen. Eine Festanstellung, mehr Gehalt, alles.", "en": "They said they want to hire me. A permanent job, more money, everything.", "spotlight": "*Sie haben gesagt, dass sie mich einstellen wollen* — the news itself arrives as reported speech." },
+        { "speaker": "Lena", "target": "Aylin, das ist ja der Wahnsinn! Und? Was hast du gesagt?", "en": "Aylin, that's amazing! And? What did you say?" },
+        { "speaker": "Aylin", "target": "Noch nichts. Ich hab gefragt, ob ich Bedenkzeit haben kann.", "en": "Nothing yet. I asked whether I could have some time to think.", "spotlight": "*Ich hab gefragt, ob …* — a reported yes/no question. Nothing is decided." },
+        { "speaker": "You", "target": "Klingt aber, als würdest du drüber nachdenken.", "en": "But it sounds like you're thinking about it." },
+        { "speaker": "Aylin", "target": "Weg von Berlin … das ist eine Entscheidung, die alles verändert. Ich weiß es einfach noch nicht.", "en": "Away from Berlin … that's a decision that changes everything. I just don't know yet." }
       ]
     },
     {

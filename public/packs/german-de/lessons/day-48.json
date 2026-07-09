@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-48",
   "day": 48,
   "module": "M07",
@@ -29,11 +29,11 @@
       "type": "chips",
       "title": "Mix aus dieser Woche",
       "items": [
-        { "nl": "war", "en": "was", "speak": "war" },
-        { "nl": "hatte", "en": "had", "speak": "hatte" },
-        { "nl": "ging", "en": "went", "speak": "ging" },
-        { "nl": "gab", "en": "there was/were", "speak": "gab" },
-        { "nl": "früher", "en": "back then", "speak": "früher" }
+        { "target": "war", "en": "was", "speak": "war" },
+        { "target": "hatte", "en": "had", "speak": "hatte" },
+        { "target": "ging", "en": "went", "speak": "ging" },
+        { "target": "gab", "en": "there was/were", "speak": "gab" },
+        { "target": "früher", "en": "back then", "speak": "früher" }
       ]
     },
     {
@@ -54,15 +54,15 @@
       "type": "dialogue",
       "scene": "Klaus erzählt dir von seiner Kindheit in Köln, am Rhein.",
       "lines": [
-        { "speaker": "Klaus", "nl": "Als ich klein war, wohnte ich mit meiner Familie in Köln, direkt am Rhein.", "en": "When I was little, I lived with my family in Cologne, right on the Rhine." },
-        { "speaker": "You", "nl": "Wie war deine Kindheit dort?", "en": "What was your childhood like there?" },
-        { "speaker": "Klaus", "nl": "Schön! Wir hatten immer viel Platz zum Spielen, und im Februar gab es jedes Jahr Karneval.", "en": "Nice! We always had lots of space to play, and every February there was Karneval.", "spotlight": "gab es — the fixed impersonal phrase for 'there was/were'." },
-        { "speaker": "You", "nl": "Was habt ihr an Karneval gemacht?", "en": "What did you do at Karneval?" },
-        { "speaker": "Klaus", "nl": "Wir verkleideten uns und gingen durch die Straßen. Meine Mutter machte jedes Jahr Kostüme für uns.", "en": "We dressed up and walked through the streets. My mother made costumes for us every year.", "spotlight": "machte — the regular -te Präteritum of machen." },
-        { "speaker": "You", "nl": "Klingt lustig! Und die Schule?", "en": "Sounds fun! And school?" },
-        { "speaker": "Klaus", "nl": "Die Schule war streng, aber ich hatte viele Freunde. Wir sahen uns jeden Tag.", "en": "School was strict, but I had lots of friends. We saw each other every day." },
-        { "speaker": "You", "nl": "Vermisst du deine Kindheit?", "en": "Do you miss your childhood?" },
-        { "speaker": "Klaus", "nl": "Na klar, aber Köln ist immer noch meine Stadt — Karneval und alles.", "en": "Of course, but Cologne is still my city — Karneval and everything." }
+        { "speaker": "Klaus", "target": "Als ich klein war, wohnte ich mit meiner Familie in Köln, direkt am Rhein.", "en": "When I was little, I lived with my family in Cologne, right on the Rhine." },
+        { "speaker": "You", "target": "Wie war deine Kindheit dort?", "en": "What was your childhood like there?" },
+        { "speaker": "Klaus", "target": "Schön! Wir hatten immer viel Platz zum Spielen, und im Februar gab es jedes Jahr Karneval.", "en": "Nice! We always had lots of space to play, and every February there was Karneval.", "spotlight": "gab es — the fixed impersonal phrase for 'there was/were'." },
+        { "speaker": "You", "target": "Was habt ihr an Karneval gemacht?", "en": "What did you do at Karneval?" },
+        { "speaker": "Klaus", "target": "Wir verkleideten uns und gingen durch die Straßen. Meine Mutter machte jedes Jahr Kostüme für uns.", "en": "We dressed up and walked through the streets. My mother made costumes for us every year.", "spotlight": "machte — the regular -te Präteritum of machen." },
+        { "speaker": "You", "target": "Klingt lustig! Und die Schule?", "en": "Sounds fun! And school?" },
+        { "speaker": "Klaus", "target": "Die Schule war streng, aber ich hatte viele Freunde. Wir sahen uns jeden Tag.", "en": "School was strict, but I had lots of friends. We saw each other every day." },
+        { "speaker": "You", "target": "Vermisst du deine Kindheit?", "en": "Do you miss your childhood?" },
+        { "speaker": "Klaus", "target": "Na klar, aber Köln ist immer noch meine Stadt — Karneval und alles.", "en": "Of course, but Cologne is still my city — Karneval and everything." }
       ]
     },
     {

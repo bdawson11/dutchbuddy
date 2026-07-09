@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-86",
   "day": 86,
   "module": "M13",
@@ -39,12 +39,12 @@
       "type": "chips",
       "title": "Kurzformen zum Anhören",
       "items": [
-        { "nl": "Das wäre super.", "en": "That would be great.", "speak": "Das wäre super." },
-        { "nl": "Ich hätte da eine Idee.", "en": "I'd have an idea there.", "speak": "Ich hätte da eine Idee." },
-        { "nl": "Könntest du kurz warten?", "en": "Could you wait a moment?", "speak": "Könntest du kurz warten?" },
-        { "nl": "Ich müsste eigentlich los.", "en": "I really should get going.", "speak": "Ich müsste eigentlich los." },
-        { "nl": "So bräuchte ich kein Auto.", "en": "That way I wouldn't need a car.", "speak": "So bräuchte ich kein Auto." },
-        { "nl": "Es gäbe da eine Möglichkeit.", "en": "There would be an option there.", "speak": "Es gäbe da eine Möglichkeit." }
+        { "target": "Das wäre super.", "en": "That would be great.", "speak": "Das wäre super." },
+        { "target": "Ich hätte da eine Idee.", "en": "I'd have an idea there.", "speak": "Ich hätte da eine Idee." },
+        { "target": "Könntest du kurz warten?", "en": "Could you wait a moment?", "speak": "Könntest du kurz warten?" },
+        { "target": "Ich müsste eigentlich los.", "en": "I really should get going.", "speak": "Ich müsste eigentlich los." },
+        { "target": "So bräuchte ich kein Auto.", "en": "That way I wouldn't need a car.", "speak": "So bräuchte ich kein Auto." },
+        { "target": "Es gäbe da eine Möglichkeit.", "en": "There would be an option there.", "speak": "Es gäbe da eine Möglichkeit." }
       ]
     },
     {
@@ -90,15 +90,15 @@
       "type": "dialogue",
       "scene": "A slow evening at the Kneipe. Jonas is in a dreamy mood and starts a round of 'if I were…'.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Sag mal — wenn du eine Million hättest, was würdest du machen?", "en": "Tell me — if you had a million, what would you do?", "spotlight": "*hättest* (short form of haben) sits at the end of the wenn-clause." },
-        { "speaker": "You", "nl": "Puh. Ich würde erst mal weniger arbeiten.", "en": "Phew. First off I'd work less." },
-        { "speaker": "Jonas", "nl": "Langweilig! Ich wäre sofort weg — Weltreise.", "en": "Boring! I'd be gone instantly — trip around the world.", "spotlight": "*wäre*, not *würde sein*. sein always uses the short form." },
-        { "speaker": "You", "nl": "Und dann? Irgendwann hättest du kein Geld mehr.", "en": "And then? At some point you'd have no money left." },
-        { "speaker": "Jonas", "nl": "Dann käme ich halt zurück und würde wieder im Laden stehen.", "en": "Then I'd just come back and stand in the shop again.", "spotlight": "*käme* — the strong one-word form of kommen." },
-        { "speaker": "You", "nl": "Ehrlich? Ich glaube, du wärst nach zwei Wochen gelangweilt.", "en": "Honestly? I think you'd be bored after two weeks." },
-        { "speaker": "Jonas", "nl": "Kann sein. Ohne Musik wüsste ich echt nicht, was ich machen sollte.", "en": "Could be. Without music I really wouldn't know what to do.", "spotlight": "*wüsste* (wissen) and *sollte* (modal) — both short forms. And a first hint about Jonas and music…" },
-        { "speaker": "You", "nl": "Vielleicht bräuchtest du gar keine Million dafür.", "en": "Maybe you wouldn't even need a million for that." },
-        { "speaker": "Jonas", "nl": "Tja. Das wäre dann die eigentliche Frage, ne?", "en": "Well. That would be the real question, right?" }
+        { "speaker": "Jonas", "target": "Sag mal — wenn du eine Million hättest, was würdest du machen?", "en": "Tell me — if you had a million, what would you do?", "spotlight": "*hättest* (short form of haben) sits at the end of the wenn-clause." },
+        { "speaker": "You", "target": "Puh. Ich würde erst mal weniger arbeiten.", "en": "Phew. First off I'd work less." },
+        { "speaker": "Jonas", "target": "Langweilig! Ich wäre sofort weg — Weltreise.", "en": "Boring! I'd be gone instantly — trip around the world.", "spotlight": "*wäre*, not *würde sein*. sein always uses the short form." },
+        { "speaker": "You", "target": "Und dann? Irgendwann hättest du kein Geld mehr.", "en": "And then? At some point you'd have no money left." },
+        { "speaker": "Jonas", "target": "Dann käme ich halt zurück und würde wieder im Laden stehen.", "en": "Then I'd just come back and stand in the shop again.", "spotlight": "*käme* — the strong one-word form of kommen." },
+        { "speaker": "You", "target": "Ehrlich? Ich glaube, du wärst nach zwei Wochen gelangweilt.", "en": "Honestly? I think you'd be bored after two weeks." },
+        { "speaker": "Jonas", "target": "Kann sein. Ohne Musik wüsste ich echt nicht, was ich machen sollte.", "en": "Could be. Without music I really wouldn't know what to do.", "spotlight": "*wüsste* (wissen) and *sollte* (modal) — both short forms. And a first hint about Jonas and music…" },
+        { "speaker": "You", "target": "Vielleicht bräuchtest du gar keine Million dafür.", "en": "Maybe you wouldn't even need a million for that." },
+        { "speaker": "Jonas", "target": "Tja. Das wäre dann die eigentliche Frage, ne?", "en": "Well. That would be the real question, right?" }
       ]
     },
     {

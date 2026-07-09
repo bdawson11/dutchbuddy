@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-31",
   "day": 31,
   "module": "M05",
@@ -43,11 +43,11 @@
       "type": "chips",
       "title": "Listen to the most common ones",
       "items": [
-        { "nl": "ho fatto", "en": "I did / made", "speak": "ho fatto" },
-        { "nl": "ho visto", "en": "I saw", "speak": "ho visto" },
-        { "nl": "ho preso", "en": "I took", "speak": "ho preso" },
-        { "nl": "ho detto", "en": "I said", "speak": "ho detto" },
-        { "nl": "ho messo", "en": "I put", "speak": "ho messo" }
+        { "target": "ho fatto", "en": "I did / made", "speak": "ho fatto" },
+        { "target": "ho visto", "en": "I saw", "speak": "ho visto" },
+        { "target": "ho preso", "en": "I took", "speak": "ho preso" },
+        { "target": "ho detto", "en": "I said", "speak": "ho detto" },
+        { "target": "ho messo", "en": "I put", "speak": "ho messo" }
       ]
     },
     {

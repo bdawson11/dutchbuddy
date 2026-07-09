@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-65",
   "day": 65,
   "module": "M10",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "Ascolta gli indiretti",
       "items": [
-        { "nl": "Gli telefono più tardi.", "en": "I'll phone him later.", "speak": "Gli telefono più tardi." },
-        { "nl": "Le scrivo un messaggio.", "en": "I'll write her a message.", "speak": "Le scrivo un messaggio." },
-        { "nl": "Ti do una mano.", "en": "I'll give you a hand.", "speak": "Ti do una mano." },
-        { "nl": "Vi mando l'indirizzo.", "en": "I'll send you the address.", "speak": "Vi mando l'indirizzo." }
+        { "target": "Gli telefono più tardi.", "en": "I'll phone him later.", "speak": "Gli telefono più tardi." },
+        { "target": "Le scrivo un messaggio.", "en": "I'll write her a message.", "speak": "Le scrivo un messaggio." },
+        { "target": "Ti do una mano.", "en": "I'll give you a hand.", "speak": "Ti do una mano." },
+        { "target": "Vi mando l'indirizzo.", "en": "I'll send you the address.", "speak": "Vi mando l'indirizzo." }
       ]
     },
     {
@@ -77,12 +77,12 @@
       "type": "dialogue",
       "scene": "Sofia è combattuta sul lavoro a Milano. Ne parla con te davanti a un caffè.",
       "lines": [
-        { "speaker": "Sofia", "nl": "Ci penso giorno e notte, sai. Non riesco a decidermi.", "en": "I think about it day and night, you know. I can't make up my mind.", "spotlight": "*Ci penso* — *pensare a* + cosa diventa *ci*." },
-        { "speaker": "You", "nl": "Ne hai parlato con Giulia? Lei ti conosce bene.", "en": "Have you talked about it with Giulia? She knows you well." },
-        { "speaker": "Sofia", "nl": "Sì, le ho parlato ieri. Mi ha detto di pensarci con calma.", "en": "Yeah, I talked to her yesterday. She told me to think it over calmly." },
-        { "speaker": "You", "nl": "È un'occasione grande. Prenditi il tempo che ti serve.", "en": "It's a big opportunity. Take the time you need." },
-        { "speaker": "Sofia", "nl": "Lo so. Ma se dico di sì, cambia tutto.", "en": "I know. But if I say yes, everything changes." },
-        { "speaker": "You", "nl": "Qualsiasi cosa decidi, noi ci siamo. Non lo dimenticare.", "en": "Whatever you decide, we're here. Don't forget that." }
+        { "speaker": "Sofia", "target": "Ci penso giorno e notte, sai. Non riesco a decidermi.", "en": "I think about it day and night, you know. I can't make up my mind.", "spotlight": "*Ci penso* — *pensare a* + cosa diventa *ci*." },
+        { "speaker": "You", "target": "Ne hai parlato con Giulia? Lei ti conosce bene.", "en": "Have you talked about it with Giulia? She knows you well." },
+        { "speaker": "Sofia", "target": "Sì, le ho parlato ieri. Mi ha detto di pensarci con calma.", "en": "Yeah, I talked to her yesterday. She told me to think it over calmly." },
+        { "speaker": "You", "target": "È un'occasione grande. Prenditi il tempo che ti serve.", "en": "It's a big opportunity. Take the time you need." },
+        { "speaker": "Sofia", "target": "Lo so. Ma se dico di sì, cambia tutto.", "en": "I know. But if I say yes, everything changes." },
+        { "speaker": "You", "target": "Qualsiasi cosa decidi, noi ci siamo. Non lo dimenticare.", "en": "Whatever you decide, we're here. Don't forget that." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-63",
   "day": 63,
   "module": "M09",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Le frasi della settimana — ascolta",
       "items": [
-        { "nl": "Penso che sia una bella occasione.", "en": "I think it's a great opportunity.", "speak": "Penso che sia una bella occasione." },
-        { "nl": "Mi ha detto che ci sta pensando.", "en": "She told me she's thinking about it.", "speak": "Mi ha detto che ci sta pensando." },
-        { "nl": "Secondo me dovrebbe accettare.", "en": "I think she should accept.", "speak": "Secondo me dovrebbe accettare." },
-        { "nl": "Se accetta, va a Milano.", "en": "If she accepts, she goes to Milano.", "speak": "Se accetta, va a Milano." },
-        { "nl": "Spero che vada tutto bene.", "en": "I hope it all goes well.", "speak": "Spero che vada tutto bene." }
+        { "target": "Penso che sia una bella occasione.", "en": "I think it's a great opportunity.", "speak": "Penso che sia una bella occasione." },
+        { "target": "Mi ha detto che ci sta pensando.", "en": "She told me she's thinking about it.", "speak": "Mi ha detto che ci sta pensando." },
+        { "target": "Secondo me dovrebbe accettare.", "en": "I think she should accept.", "speak": "Secondo me dovrebbe accettare." },
+        { "target": "Se accetta, va a Milano.", "en": "If she accepts, she goes to Milano.", "speak": "Se accetta, va a Milano." },
+        { "target": "Spero che vada tutto bene.", "en": "I hope it all goes well.", "speak": "Spero che vada tutto bene." }
       ]
     },
     {
@@ -67,14 +67,14 @@
       "type": "dialogue",
       "scene": "At the bar, you fill Marco in on Sofia's news.",
       "lines": [
-        { "speaker": "You", "nl": "Marco, hai saputo di Sofia?", "en": "Marco, did you hear about Sofia?" },
-        { "speaker": "Marco", "nl": "No, cosa? Racconta, dai!", "en": "No, what? Tell me, come on!" },
-        { "speaker": "You", "nl": "Mi ha detto che un'azienda di Milano le ha offerto un lavoro.", "en": "She told me a company in Milano offered her a job.", "spotlight": "Reported speech: *mi ha detto che…*" },
-        { "speaker": "Marco", "nl": "Ma dai! Davvero? E lei che ha detto?", "en": "No way! Really? And what did she say?" },
-        { "speaker": "You", "nl": "Mi ha detto che ci sta pensando. Ha paura che Milano sia troppo lontana.", "en": "She told me she's thinking about it. She's afraid Milano is too far.", "spotlight": "Congiuntivo after *ha paura che*: *sia*." },
-        { "speaker": "Marco", "nl": "Boh, io penso che dovrebbe accettare. È una bella occasione, no?", "en": "Dunno, I think she should accept. It's a great chance, isn't it?" },
-        { "speaker": "You", "nl": "Sì, però se accetta deve lasciare Bologna e tutti noi.", "en": "Yeah, but if she accepts she has to leave Bologna and all of us." },
-        { "speaker": "Marco", "nl": "Eh, hai ragione. Speriamo che decida bene.", "en": "Yeah, you're right. Let's hope she decides well." }
+        { "speaker": "You", "target": "Marco, hai saputo di Sofia?", "en": "Marco, did you hear about Sofia?" },
+        { "speaker": "Marco", "target": "No, cosa? Racconta, dai!", "en": "No, what? Tell me, come on!" },
+        { "speaker": "You", "target": "Mi ha detto che un'azienda di Milano le ha offerto un lavoro.", "en": "She told me a company in Milano offered her a job.", "spotlight": "Reported speech: *mi ha detto che…*" },
+        { "speaker": "Marco", "target": "Ma dai! Davvero? E lei che ha detto?", "en": "No way! Really? And what did she say?" },
+        { "speaker": "You", "target": "Mi ha detto che ci sta pensando. Ha paura che Milano sia troppo lontana.", "en": "She told me she's thinking about it. She's afraid Milano is too far.", "spotlight": "Congiuntivo after *ha paura che*: *sia*." },
+        { "speaker": "Marco", "target": "Boh, io penso che dovrebbe accettare. È una bella occasione, no?", "en": "Dunno, I think she should accept. It's a great chance, isn't it?" },
+        { "speaker": "You", "target": "Sì, però se accetta deve lasciare Bologna e tutti noi.", "en": "Yeah, but if she accepts she has to leave Bologna and all of us." },
+        { "speaker": "Marco", "target": "Eh, hai ragione. Speriamo che decida bene.", "en": "Yeah, you're right. Let's hope she decides well." }
       ]
     },
     {

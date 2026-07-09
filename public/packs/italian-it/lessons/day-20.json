@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-20",
   "day": 20,
   "module": "M03",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "Quick tap before we start",
       "items": [
-        { "nl": "mia madre", "en": "my mother", "speak": "mia madre" },
-        { "nl": "questa piazza", "en": "this square", "speak": "questa piazza" },
-        { "nl": "quel negozio", "en": "that shop", "speak": "quel negozio" },
-        { "nl": "una bella chiesa", "en": "a beautiful church", "speak": "una bella chiesa" }
+        { "target": "mia madre", "en": "my mother", "speak": "mia madre" },
+        { "target": "questa piazza", "en": "this square", "speak": "questa piazza" },
+        { "target": "quel negozio", "en": "that shop", "speak": "quel negozio" },
+        { "target": "una bella chiesa", "en": "a beautiful church", "speak": "una bella chiesa" }
       ]
     },
     {
@@ -45,13 +45,13 @@
       "type": "dialogue",
       "scene": "Giulia takes you on a walk through her quartiere, near Via Mazzini",
       "lines": [
-        { "speaker": "Giulia", "nl": "Allora, questo è il mio quartiere, vicino a via Mazzini. Guarda quella piazza!", "en": "So, this is my neighborhood, near Via Mazzini. Look at that square!" },
-        { "speaker": "You", "nl": "Che bella! C'è un mercato qui?", "en": "How lovely! Is there a market here?" },
-        { "speaker": "Giulia", "nl": "Sì, ogni mattina, in quella via a destra. Compro la frutta da un signore molto gentile.", "en": "Yes, every morning, on that street to the right. I buy fruit from a very kind gentleman." },
-        { "speaker": "You", "nl": "E la tua famiglia? Abita qui vicino?", "en": "And your family? Do they live nearby?" },
-        { "speaker": "Giulia", "nl": "Mia madre abita ancora a Parma, ma mio fratello abita qui, in centro, in un appartamento piccolo ma carino.", "en": "My mother still lives in Parma, but my brother lives here, downtown, in a small but nice apartment.", "spotlight": "mia madre / mio fratello — plain singular family words, no article; a Parma — cities take a." },
-        { "speaker": "You", "nl": "E quella chiesa, lì in fondo?", "en": "And that church, over there at the end?" },
-        { "speaker": "Giulia", "nl": "È antica e bellissima. La domenica è piena di gente in piazza.", "en": "It's old and beautiful. On Sundays the square is full of people." }
+        { "speaker": "Giulia", "target": "Allora, questo è il mio quartiere, vicino a via Mazzini. Guarda quella piazza!", "en": "So, this is my neighborhood, near Via Mazzini. Look at that square!" },
+        { "speaker": "You", "target": "Che bella! C'è un mercato qui?", "en": "How lovely! Is there a market here?" },
+        { "speaker": "Giulia", "target": "Sì, ogni mattina, in quella via a destra. Compro la frutta da un signore molto gentile.", "en": "Yes, every morning, on that street to the right. I buy fruit from a very kind gentleman." },
+        { "speaker": "You", "target": "E la tua famiglia? Abita qui vicino?", "en": "And your family? Do they live nearby?" },
+        { "speaker": "Giulia", "target": "Mia madre abita ancora a Parma, ma mio fratello abita qui, in centro, in un appartamento piccolo ma carino.", "en": "My mother still lives in Parma, but my brother lives here, downtown, in a small but nice apartment.", "spotlight": "mia madre / mio fratello — plain singular family words, no article; a Parma — cities take a." },
+        { "speaker": "You", "target": "E quella chiesa, lì in fondo?", "en": "And that church, over there at the end?" },
+        { "speaker": "Giulia", "target": "È antica e bellissima. La domenica è piena di gente in piazza.", "en": "It's old and beautiful. On Sundays the square is full of people." }
       ]
     },
     {

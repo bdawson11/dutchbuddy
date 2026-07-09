@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-05",
   "day": 5,
   "module": "M01",
@@ -33,11 +33,11 @@
       "type": "chips",
       "title": "hebben in the wild",
       "items": [
-        { "nl": "Ik heb honger.", "en": "I'm hungry.", "speak": "Ik heb honger." },
-        { "nl": "Ik heb dorst.", "en": "I'm thirsty.", "speak": "Ik heb dorst." },
-        { "nl": "Ik heb tijd.", "en": "I have time.", "speak": "Ik heb tijd." },
-        { "nl": "Hij heeft een hond.", "en": "He has a dog.", "speak": "Hij heeft een hond." },
-        { "nl": "Wij hebben een huis.", "en": "We have a house.", "speak": "Wij hebben een huis." }
+        { "target": "Ik heb honger.", "en": "I'm hungry.", "speak": "Ik heb honger." },
+        { "target": "Ik heb dorst.", "en": "I'm thirsty.", "speak": "Ik heb dorst." },
+        { "target": "Ik heb tijd.", "en": "I have time.", "speak": "Ik heb tijd." },
+        { "target": "Hij heeft een hond.", "en": "He has a dog.", "speak": "Hij heeft een hond." },
+        { "target": "Wij hebben een huis.", "en": "We have a house.", "speak": "Wij hebben een huis." }
       ]
     },
     {
@@ -87,10 +87,10 @@
       "type": "dialogue",
       "scene": "Back at the café. Daan is deciding on a second round.",
       "lines": [
-        { "speaker": "Daan", "nl": "Nog een koffie?", "en": "Another coffee?" },
-        { "speaker": "You", "nl": "Nee, dankjewel. Ik drink geen koffie meer.", "en": "No, thanks. I'm not drinking any more coffee.", "spotlight": "*geen koffie* — negating the bare noun." },
-        { "speaker": "Daan", "nl": "Thee dan? Ik heb geen haast, hoor.", "en": "Tea then? I'm in no hurry, honestly.", "spotlight": "*geen haast* — 'no hurry', another bare noun." },
-        { "speaker": "You", "nl": "Nee joh, ik hoef niet.", "en": "No, I don't need anything.", "spotlight": "*niet* here negates the verb *hoef* (need)." }
+        { "speaker": "Daan", "target": "Nog een koffie?", "en": "Another coffee?" },
+        { "speaker": "You", "target": "Nee, dankjewel. Ik drink geen koffie meer.", "en": "No, thanks. I'm not drinking any more coffee.", "spotlight": "*geen koffie* — negating the bare noun." },
+        { "speaker": "Daan", "target": "Thee dan? Ik heb geen haast, hoor.", "en": "Tea then? I'm in no hurry, honestly.", "spotlight": "*geen haast* — 'no hurry', another bare noun." },
+        { "speaker": "You", "target": "Nee joh, ik hoef niet.", "en": "No, I don't need anything.", "spotlight": "*niet* here negates the verb *hoef* (need)." }
       ]
     },
     {

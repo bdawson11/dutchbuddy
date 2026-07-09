@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-20",
   "day": 20,
   "module": "M03",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Quick refresh — tap to hear",
       "items": [
-        { "nl": "einen Bruder", "en": "a brother (obj.)", "speak": "einen Bruder" },
-        { "nl": "ist lustig", "en": "is funny", "speak": "ist lustig" },
-        { "nl": "meinen Vater", "en": "my father (obj.)", "speak": "meinen Vater" },
-        { "nl": "der Kiez", "en": "neighborhood", "speak": "der Kiez" },
-        { "nl": "durch den Park", "en": "through the park", "speak": "durch den Park" },
-        { "nl": "ohne dich", "en": "without you", "speak": "ohne dich" }
+        { "target": "einen Bruder", "en": "a brother (obj.)", "speak": "einen Bruder" },
+        { "target": "ist lustig", "en": "is funny", "speak": "ist lustig" },
+        { "target": "meinen Vater", "en": "my father (obj.)", "speak": "meinen Vater" },
+        { "target": "der Kiez", "en": "neighborhood", "speak": "der Kiez" },
+        { "target": "durch den Park", "en": "through the park", "speak": "durch den Park" },
+        { "target": "ohne dich", "en": "without you", "speak": "ohne dich" }
       ]
     },
     {
@@ -47,14 +47,14 @@
       "type": "dialogue",
       "scene": "Lena walks you through Neukölln on a Sunday afternoon, telling you about her life here.",
       "lines": [
-        { "speaker": "Lena", "nl": "Also, das ist mein Kiez. Ich wohne schon lange hier.", "en": "So, this is my neighborhood. I've lived here a long time already." },
-        { "speaker": "You", "nl": "Schön! Wie ist er so, dein Kiez?", "en": "Nice! What's it like, your neighborhood?" },
-        { "speaker": "Lena", "nl": "Laut, bunt, ein bisschen chaotisch — aber ich mag ihn total.", "en": "Loud, colorful, a bit chaotic — but I really like it.", "spotlight": "ihn — the accusative pronoun for der Kiez (masculine)." },
-        { "speaker": "You", "nl": "Und deine Familie? Wohnt sie auch in Berlin?", "en": "And your family? Do they live in Berlin too?" },
-        { "speaker": "Lena", "nl": "Nein, ich habe einen Bruder, aber er wohnt noch in Hannover. Er ist ruhig — ganz anders als ich!", "en": "No, I have a brother, but he still lives in Hannover. He's quiet — totally different from me!", "spotlight": "einen Bruder — masculine accusative after haben, right on cue." },
-        { "speaker": "You", "nl": "Lustig! Und dein Lieblingsort hier?", "en": "Funny! And your favorite spot here?" },
-        { "speaker": "Lena", "nl": "Der Späti um die Ecke ist mein Favorit — und ich gehe oft durch den Park.", "en": "The Späti around the corner is my favorite — and I often walk through the park.", "spotlight": "um die Ecke, durch den Park — two of the five accusative prepositions, live." },
-        { "speaker": "You", "nl": "Klingt gut. Ich mag deinen Kiez schon jetzt.", "en": "Sounds good. I already like your neighborhood." }
+        { "speaker": "Lena", "target": "Also, das ist mein Kiez. Ich wohne schon lange hier.", "en": "So, this is my neighborhood. I've lived here a long time already." },
+        { "speaker": "You", "target": "Schön! Wie ist er so, dein Kiez?", "en": "Nice! What's it like, your neighborhood?" },
+        { "speaker": "Lena", "target": "Laut, bunt, ein bisschen chaotisch — aber ich mag ihn total.", "en": "Loud, colorful, a bit chaotic — but I really like it.", "spotlight": "ihn — the accusative pronoun for der Kiez (masculine)." },
+        { "speaker": "You", "target": "Und deine Familie? Wohnt sie auch in Berlin?", "en": "And your family? Do they live in Berlin too?" },
+        { "speaker": "Lena", "target": "Nein, ich habe einen Bruder, aber er wohnt noch in Hannover. Er ist ruhig — ganz anders als ich!", "en": "No, I have a brother, but he still lives in Hannover. He's quiet — totally different from me!", "spotlight": "einen Bruder — masculine accusative after haben, right on cue." },
+        { "speaker": "You", "target": "Lustig! Und dein Lieblingsort hier?", "en": "Funny! And your favorite spot here?" },
+        { "speaker": "Lena", "target": "Der Späti um die Ecke ist mein Favorit — und ich gehe oft durch den Park.", "en": "The Späti around the corner is my favorite — and I often walk through the park.", "spotlight": "um die Ecke, durch den Park — two of the five accusative prepositions, live." },
+        { "speaker": "You", "target": "Klingt gut. Ich mag deinen Kiez schon jetzt.", "en": "Sounds good. I already like your neighborhood." }
       ]
     },
     {

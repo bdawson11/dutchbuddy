@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-20",
   "day": 20,
   "module": "M03",
@@ -40,12 +40,12 @@
       "type": "dialogue",
       "scene": "Emma takes you on a walk through her neighborhood, de Pijp.",
       "lines": [
-        { "speaker": "Emma", "nl": "Kijk, dit is mijn buurt — de Pijp. Heel gezellig, hoor!", "en": "Look, this is my neighborhood — the Pijp. Really cozy!" },
-        { "speaker": "You", "nl": "Woon je hier al lang?", "en": "Have you lived here long?" },
-        { "speaker": "Emma", "nl": "Al zeven jaar! Onze straat is klein, maar er is een heerlijke markt om de hoek.", "en": "Seven years already! Our street is small, but there's a lovely market around the corner.", "spotlight": "onze straat — straat is a de-word, so onze." },
-        { "speaker": "You", "nl": "En je buren?", "en": "And your neighbors?" },
-        { "speaker": "Emma", "nl": "Heel aardig! Een beetje druk soms, met hun kinderen, maar altijd gezellig.", "en": "Very kind! A bit hyper sometimes, with their kids, but always fun." },
-        { "speaker": "Emma", "nl": "Mijn favoriete plek is het pleintje bij de gracht — klein plein, groot gevoel.", "en": "My favorite spot is the little square by the canal — small square, big feeling.", "spotlight": "het pleintje — diminutive of plein, still het (it already was)." }
+        { "speaker": "Emma", "target": "Kijk, dit is mijn buurt — de Pijp. Heel gezellig, hoor!", "en": "Look, this is my neighborhood — the Pijp. Really cozy!" },
+        { "speaker": "You", "target": "Woon je hier al lang?", "en": "Have you lived here long?" },
+        { "speaker": "Emma", "target": "Al zeven jaar! Onze straat is klein, maar er is een heerlijke markt om de hoek.", "en": "Seven years already! Our street is small, but there's a lovely market around the corner.", "spotlight": "onze straat — straat is a de-word, so onze." },
+        { "speaker": "You", "target": "En je buren?", "en": "And your neighbors?" },
+        { "speaker": "Emma", "target": "Heel aardig! Een beetje druk soms, met hun kinderen, maar altijd gezellig.", "en": "Very kind! A bit hyper sometimes, with their kids, but always fun." },
+        { "speaker": "Emma", "target": "Mijn favoriete plek is het pleintje bij de gracht — klein plein, groot gevoel.", "en": "My favorite spot is the little square by the canal — small square, big feeling.", "spotlight": "het pleintje — diminutive of plein, still het (it already was)." }
       ]
     },
     {

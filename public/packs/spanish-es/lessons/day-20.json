@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-20",
   "day": 20,
   "module": "M03",
@@ -41,14 +41,14 @@
       "type": "dialogue",
       "scene": "Lucía walks you through Lavapiés, her barrio, on a Sunday morning.",
       "lines": [
-        { "speaker": "Lucía", "nl": "Mira, este es mi barrio: Lavapiés. Es muy diferente del centro.", "en": "Look, this is my neighborhood: Lavapiés. It's very different from downtown." },
-        { "speaker": "You", "nl": "¿Cómo es vivir aquí?", "en": "What's it like living here?" },
-        { "speaker": "Lucía", "nl": "Pues es un barrio muy multicultural, con mucho ambiente. Y está muy bien conectado — el metro está a dos minutos.", "en": "Well it's a very multicultural neighborhood, with a lot of atmosphere. And it's very well connected — the metro is two minutes away.", "spotlight": "es (a lasting trait of the barrio) vs está (its location) in the same breath." },
-        { "speaker": "Lucía", "nl": "Mi piso está en esa calle, la que tiene la plaza pequeña al final.", "en": "My flat is on that street, the one with the small square at the end." },
-        { "speaker": "You", "nl": "¿Y tu familia también vive por aquí?", "en": "And does your family live around here too?" },
-        { "speaker": "Lucía", "nl": "No, mis padres viven en las afueras, pero mi hermano está aquí al lado, en la calle de arriba.", "en": "No, my parents live on the outskirts, but my brother is right here next door, on the street above." },
-        { "speaker": "You", "nl": "¿Es un barrio tranquilo?", "en": "Is it a quiet neighborhood?" },
-        { "speaker": "Lucía", "nl": "De día sí, tranquilo y majo. De noche… ¡está lleno de gente y de bares!", "en": "During the day yes, quiet and nice. At night… it's full of people and bars!" }
+        { "speaker": "Lucía", "target": "Mira, este es mi barrio: Lavapiés. Es muy diferente del centro.", "en": "Look, this is my neighborhood: Lavapiés. It's very different from downtown." },
+        { "speaker": "You", "target": "¿Cómo es vivir aquí?", "en": "What's it like living here?" },
+        { "speaker": "Lucía", "target": "Pues es un barrio muy multicultural, con mucho ambiente. Y está muy bien conectado — el metro está a dos minutos.", "en": "Well it's a very multicultural neighborhood, with a lot of atmosphere. And it's very well connected — the metro is two minutes away.", "spotlight": "es (a lasting trait of the barrio) vs está (its location) in the same breath." },
+        { "speaker": "Lucía", "target": "Mi piso está en esa calle, la que tiene la plaza pequeña al final.", "en": "My flat is on that street, the one with the small square at the end." },
+        { "speaker": "You", "target": "¿Y tu familia también vive por aquí?", "en": "And does your family live around here too?" },
+        { "speaker": "Lucía", "target": "No, mis padres viven en las afueras, pero mi hermano está aquí al lado, en la calle de arriba.", "en": "No, my parents live on the outskirts, but my brother is right here next door, on the street above." },
+        { "speaker": "You", "target": "¿Es un barrio tranquilo?", "en": "Is it a quiet neighborhood?" },
+        { "speaker": "Lucía", "target": "De día sí, tranquilo y majo. De noche… ¡está lleno de gente y de bares!", "en": "During the day yes, quiet and nice. At night… it's full of people and bars!" }
       ]
     },
     {

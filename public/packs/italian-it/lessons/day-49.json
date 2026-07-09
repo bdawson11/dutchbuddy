@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-49",
   "day": 49,
   "module": "M07",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Ripasso veloce",
       "items": [
-        { "nl": "ero", "en": "I was", "speak": "ero" },
-        { "nl": "avevo", "en": "I had / used to have", "speak": "avevo" },
-        { "nl": "facevo", "en": "I used to do / make", "speak": "facevo" },
-        { "nl": "sempre", "en": "always", "speak": "sempre" },
-        { "nl": "mai", "en": "never (with non)", "speak": "mai" },
-        { "nl": "da bambino/a", "en": "as a kid", "speak": "da bambino" }
+        { "target": "ero", "en": "I was", "speak": "ero" },
+        { "target": "avevo", "en": "I had / used to have", "speak": "avevo" },
+        { "target": "facevo", "en": "I used to do / make", "speak": "facevo" },
+        { "target": "sempre", "en": "always", "speak": "sempre" },
+        { "target": "mai", "en": "never (with non)", "speak": "mai" },
+        { "target": "da bambino/a", "en": "as a kid", "speak": "da bambino" }
       ]
     },
     {
@@ -77,13 +77,13 @@
       "type": "dialogue",
       "scene": "Giulia asks about your childhood as you build your racconto together",
       "lines": [
-        { "speaker": "Giulia", "nl": "Allora, com'eri da bambino/a?", "en": "So, what were you like as a kid?" },
-        { "speaker": "You", "nl": "Ero abbastanza timido/a, e leggevo un sacco di libri.", "en": "I was pretty shy, and I read a ton of books." },
-        { "speaker": "Giulia", "nl": "Che bello! E la tua famiglia, cosa faceva insieme?", "en": "That's nice! And your family, what did you do together?" },
-        { "speaker": "You", "nl": "La domenica, mangiavamo sempre tutti insieme.", "en": "On Sundays, we always used to eat together." },
-        { "speaker": "Giulia", "nl": "Proprio come da Pietro a Napoli, allora!", "en": "Just like at Pietro's in Naples, then!", "spotlight": "Giulia collega il tuo ricordo a quello di Pietro — il cast che nota gli echi nella storia." },
-        { "speaker": "You", "nl": "Esatto! E tu, cosa facevi da bambina?", "en": "Exactly! And you, what did you do as a kid?" },
-        { "speaker": "Giulia", "nl": "Giocavo sempre in cortile con i vicini, qui a Parma.", "en": "I always used to play in the courtyard with the neighbors, back in Parma." }
+        { "speaker": "Giulia", "target": "Allora, com'eri da bambino/a?", "en": "So, what were you like as a kid?" },
+        { "speaker": "You", "target": "Ero abbastanza timido/a, e leggevo un sacco di libri.", "en": "I was pretty shy, and I read a ton of books." },
+        { "speaker": "Giulia", "target": "Che bello! E la tua famiglia, cosa faceva insieme?", "en": "That's nice! And your family, what did you do together?" },
+        { "speaker": "You", "target": "La domenica, mangiavamo sempre tutti insieme.", "en": "On Sundays, we always used to eat together." },
+        { "speaker": "Giulia", "target": "Proprio come da Pietro a Napoli, allora!", "en": "Just like at Pietro's in Naples, then!", "spotlight": "Giulia collega il tuo ricordo a quello di Pietro — il cast che nota gli echi nella storia." },
+        { "speaker": "You", "target": "Esatto! E tu, cosa facevi da bambina?", "en": "Exactly! And you, what did you do as a kid?" },
+        { "speaker": "Giulia", "target": "Giocavo sempre in cortile con i vicini, qui a Parma.", "en": "I always used to play in the courtyard with the neighbors, back in Parma." }
       ]
     },
     {

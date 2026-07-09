@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-08",
   "day": 8,
   "module": "M02",
@@ -38,12 +38,12 @@
       "type": "chips",
       "title": "Höre die Basis-Zahlen",
       "items": [
-        { "nl": "eins", "en": "one", "speak": "eins" },
-        { "nl": "fünf", "en": "five", "speak": "fünf" },
-        { "nl": "sieben", "en": "seven", "speak": "sieben" },
-        { "nl": "zehn", "en": "ten", "speak": "zehn" },
-        { "nl": "elf", "en": "eleven", "speak": "elf" },
-        { "nl": "zwölf", "en": "twelve", "speak": "zwölf" }
+        { "target": "eins", "en": "one", "speak": "eins" },
+        { "target": "fünf", "en": "five", "speak": "fünf" },
+        { "target": "sieben", "en": "seven", "speak": "sieben" },
+        { "target": "zehn", "en": "ten", "speak": "zehn" },
+        { "target": "elf", "en": "eleven", "speak": "elf" },
+        { "target": "zwölf", "en": "twelve", "speak": "zwölf" }
       ]
     },
     {
@@ -77,12 +77,12 @@
       "type": "chips",
       "title": "Zehner und der Dreh",
       "items": [
-        { "nl": "dreizehn", "en": "thirteen", "speak": "dreizehn" },
-        { "nl": "sechzehn", "en": "sixteen", "speak": "sechzehn" },
-        { "nl": "siebzehn", "en": "seventeen", "speak": "siebzehn" },
-        { "nl": "zwanzig", "en": "twenty", "speak": "zwanzig" },
-        { "nl": "dreißig", "en": "thirty", "speak": "dreißig" },
-        { "nl": "einundzwanzig", "en": "twenty-one", "speak": "einundzwanzig" }
+        { "target": "dreizehn", "en": "thirteen", "speak": "dreizehn" },
+        { "target": "sechzehn", "en": "sixteen", "speak": "sechzehn" },
+        { "target": "siebzehn", "en": "seventeen", "speak": "siebzehn" },
+        { "target": "zwanzig", "en": "twenty", "speak": "zwanzig" },
+        { "target": "dreißig", "en": "thirty", "speak": "dreißig" },
+        { "target": "einundzwanzig", "en": "twenty-one", "speak": "einundzwanzig" }
       ]
     },
     {

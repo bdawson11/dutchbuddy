@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-92",
   "day": 92,
   "module": "M14",
@@ -39,12 +39,12 @@
       "type": "chips",
       "title": "Konjunktiv I im Ohr",
       "items": [
-        { "nl": "Er sagt, er sei krank.", "en": "He says he's ill.", "speak": "Er sagt, er sei krank." },
-        { "nl": "Sie meint, sie habe keine Zeit.", "en": "She reckons she has no time.", "speak": "Sie meint, sie habe keine Zeit." },
-        { "nl": "Es heißt, der Zug komme später.", "en": "Word is the train's coming later.", "speak": "Es heißt, der Zug komme später." },
-        { "nl": "Man sagt, es werde teurer.", "en": "They say it'll get more expensive.", "speak": "Man sagt, es werde teurer." },
-        { "nl": "Er behauptet, er könne das.", "en": "He claims he can do it.", "speak": "Er behauptet, er könne das." },
-        { "nl": "Sie sagt, sie wisse Bescheid.", "en": "She says she's in the know.", "speak": "Sie sagt, sie wisse Bescheid." }
+        { "target": "Er sagt, er sei krank.", "en": "He says he's ill.", "speak": "Er sagt, er sei krank." },
+        { "target": "Sie meint, sie habe keine Zeit.", "en": "She reckons she has no time.", "speak": "Sie meint, sie habe keine Zeit." },
+        { "target": "Es heißt, der Zug komme später.", "en": "Word is the train's coming later.", "speak": "Es heißt, der Zug komme später." },
+        { "target": "Man sagt, es werde teurer.", "en": "They say it'll get more expensive.", "speak": "Man sagt, es werde teurer." },
+        { "target": "Er behauptet, er könne das.", "en": "He claims he can do it.", "speak": "Er behauptet, er könne das." },
+        { "target": "Sie sagt, sie wisse Bescheid.", "en": "She says she's in the know.", "speak": "Sie sagt, sie wisse Bescheid." }
       ]
     },
     {
@@ -89,14 +89,14 @@
       "type": "dialogue",
       "scene": "Lena is scrolling the news and relays a couple of headlines to you — in the neutral reporting mood.",
       "lines": [
-        { "speaker": "Lena", "nl": "Hör mal: Die Bahn sagt, es gebe im Sommer weniger Verspätungen.", "en": "Listen: the railway says there'll be fewer delays in summer.", "spotlight": "*es gebe* — Konjunktiv I of geben; Lena reports, she doesn't vouch." },
-        { "speaker": "You", "nl": "Das glaube ich, wenn ich es sehe. Steht da noch mehr?", "en": "I'll believe that when I see it. Does it say more?" },
-        { "speaker": "Lena", "nl": "Ein Sprecher erklärt, man werde neue Züge kaufen.", "en": "A spokesperson explains that they'll buy new trains.", "spotlight": "*man werde* — the classic news formula: reported plan, no promise." },
-        { "speaker": "You", "nl": "Und die Preise?", "en": "And the prices?" },
-        { "speaker": "Lena", "nl": "Tja. Es heißt, das Ticket werde etwas teurer.", "en": "Well. Word is the ticket will get a bit more expensive." },
-        { "speaker": "You", "nl": "Natürlich. Neue Züge, alter Trick.", "en": "Of course. New trains, old trick." },
-        { "speaker": "Lena", "nl": "Ha. Ein Fahrgast sagt, er habe seit Jahren dasselbe gehört.", "en": "Ha. A passenger says he's been hearing the same thing for years.", "spotlight": "*er habe … gehört* — reported perfect, still Konjunktiv I via habe." },
-        { "speaker": "You", "nl": "Siehst du. Hört sich für mich an, als ob sich nichts ändern würde.", "en": "See. Sounds to me as if nothing's going to change." }
+        { "speaker": "Lena", "target": "Hör mal: Die Bahn sagt, es gebe im Sommer weniger Verspätungen.", "en": "Listen: the railway says there'll be fewer delays in summer.", "spotlight": "*es gebe* — Konjunktiv I of geben; Lena reports, she doesn't vouch." },
+        { "speaker": "You", "target": "Das glaube ich, wenn ich es sehe. Steht da noch mehr?", "en": "I'll believe that when I see it. Does it say more?" },
+        { "speaker": "Lena", "target": "Ein Sprecher erklärt, man werde neue Züge kaufen.", "en": "A spokesperson explains that they'll buy new trains.", "spotlight": "*man werde* — the classic news formula: reported plan, no promise." },
+        { "speaker": "You", "target": "Und die Preise?", "en": "And the prices?" },
+        { "speaker": "Lena", "target": "Tja. Es heißt, das Ticket werde etwas teurer.", "en": "Well. Word is the ticket will get a bit more expensive." },
+        { "speaker": "You", "target": "Natürlich. Neue Züge, alter Trick.", "en": "Of course. New trains, old trick." },
+        { "speaker": "Lena", "target": "Ha. Ein Fahrgast sagt, er habe seit Jahren dasselbe gehört.", "en": "Ha. A passenger says he's been hearing the same thing for years.", "spotlight": "*er habe … gehört* — reported perfect, still Konjunktiv I via habe." },
+        { "speaker": "You", "target": "Siehst du. Hört sich für mich an, als ob sich nichts ändern würde.", "en": "See. Sounds to me as if nothing's going to change." }
       ]
     },
     {

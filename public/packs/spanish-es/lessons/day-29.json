@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-29",
   "day": 29,
   "module": "M05",
@@ -32,12 +32,12 @@
       "type": "chips",
       "title": "Escucha el verbo haber en acción",
       "items": [
-        { "nl": "he hablado", "en": "I've spoken", "speak": "he hablado" },
-        { "nl": "has comido", "en": "you've eaten", "speak": "has comido" },
-        { "nl": "ha vivido", "en": "she's lived", "speak": "ha vivido" },
-        { "nl": "hemos trabajado", "en": "we've worked", "speak": "hemos trabajado" },
-        { "nl": "habéis comido", "en": "you all have eaten", "speak": "habéis comido" },
-        { "nl": "han hablado", "en": "they've spoken", "speak": "han hablado" }
+        { "target": "he hablado", "en": "I've spoken", "speak": "he hablado" },
+        { "target": "has comido", "en": "you've eaten", "speak": "has comido" },
+        { "target": "ha vivido", "en": "she's lived", "speak": "ha vivido" },
+        { "target": "hemos trabajado", "en": "we've worked", "speak": "hemos trabajado" },
+        { "target": "habéis comido", "en": "you all have eaten", "speak": "habéis comido" },
+        { "target": "han hablado", "en": "they've spoken", "speak": "han hablado" }
       ]
     },
     {
@@ -90,11 +90,11 @@
       "type": "dialogue",
       "scene": "You run into Lucía at the office and she asks about your day.",
       "lines": [
-        { "speaker": "Lucía", "nl": "¡Hola! ¿Qué tal? ¿Has trabajado mucho hoy?", "en": "Hey! How's it going? Have you worked a lot today?" },
-        { "speaker": "You", "nl": "Sí, he trabajado bastante. ¿Y tú?", "en": "Yes, I've worked quite a bit. And you?", "spotlight": "he trabajado — the perfecto for something tied to today." },
-        { "speaker": "Lucía", "nl": "He comido con Sofía y hemos hablado un montón.", "en": "I've had lunch with Sofía and we've talked a ton." },
-        { "speaker": "You", "nl": "¡Qué bien! ¿Habéis quedado para mañana también?", "en": "Nice! Have you all made plans for tomorrow too?" },
-        { "speaker": "Lucía", "nl": "No, pero hemos quedado para el finde.", "en": "No, but we've made plans for the weekend." }
+        { "speaker": "Lucía", "target": "¡Hola! ¿Qué tal? ¿Has trabajado mucho hoy?", "en": "Hey! How's it going? Have you worked a lot today?" },
+        { "speaker": "You", "target": "Sí, he trabajado bastante. ¿Y tú?", "en": "Yes, I've worked quite a bit. And you?", "spotlight": "he trabajado — the perfecto for something tied to today." },
+        { "speaker": "Lucía", "target": "He comido con Sofía y hemos hablado un montón.", "en": "I've had lunch with Sofía and we've talked a ton." },
+        { "speaker": "You", "target": "¡Qué bien! ¿Habéis quedado para mañana también?", "en": "Nice! Have you all made plans for tomorrow too?" },
+        { "speaker": "Lucía", "target": "No, pero hemos quedado para el finde.", "en": "No, but we've made plans for the weekend." }
       ]
     },
     {

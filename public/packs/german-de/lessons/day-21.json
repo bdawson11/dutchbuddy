@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-21",
   "day": 21,
   "module": "M03",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Quick refresh — tap to hear",
       "items": [
-        { "nl": "einen Bruder", "en": "a brother (obj.)", "speak": "einen Bruder" },
-        { "nl": "ist lustig", "en": "is funny", "speak": "ist lustig" },
-        { "nl": "meinen Vater", "en": "my father (obj.)", "speak": "meinen Vater" },
-        { "nl": "der Kiez", "en": "neighborhood", "speak": "der Kiez" },
-        { "nl": "durch den Park", "en": "through the park", "speak": "durch den Park" },
-        { "nl": "ohne dich", "en": "without you", "speak": "ohne dich" }
+        { "target": "einen Bruder", "en": "a brother (obj.)", "speak": "einen Bruder" },
+        { "target": "ist lustig", "en": "is funny", "speak": "ist lustig" },
+        { "target": "meinen Vater", "en": "my father (obj.)", "speak": "meinen Vater" },
+        { "target": "der Kiez", "en": "neighborhood", "speak": "der Kiez" },
+        { "target": "durch den Park", "en": "through the park", "speak": "durch den Park" },
+        { "target": "ohne dich", "en": "without you", "speak": "ohne dich" }
       ]
     },
     {
@@ -61,24 +61,24 @@
       "type": "shadow",
       "title": "Warm up: shadow the week",
       "lines": [
-        { "nl": "Ich habe einen Bruder und eine Schwester.", "en": "I have a brother and a sister." },
-        { "nl": "Meine Schwester ist sehr lustig.", "en": "My sister is very funny." },
-        { "nl": "Ich wohne in Neukölln — das ist mein Lieblingskiez.", "en": "I live in Neukölln — that's my favorite neighborhood." },
-        { "nl": "Ich gehe gern durch den Park, um die Ecke.", "en": "I like walking through the park, around the corner." }
+        { "target": "Ich habe einen Bruder und eine Schwester.", "en": "I have a brother and a sister." },
+        { "target": "Meine Schwester ist sehr lustig.", "en": "My sister is very funny." },
+        { "target": "Ich wohne in Neukölln — das ist mein Lieblingskiez.", "en": "I live in Neukölln — that's my favorite neighborhood." },
+        { "target": "Ich gehe gern durch den Park, um die Ecke.", "en": "I like walking through the park, around the corner." }
       ]
     },
     {
       "type": "dialogue",
       "scene": "Jonas meets you at a café and wants the full picture — your family, your Kiez, everything.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Ey, erzähl mal — hast du Geschwister?", "en": "Hey, tell me — do you have siblings?" },
-        { "speaker": "You", "nl": "Ja, ich habe einen Bruder und eine Schwester.", "en": "Yes, I have a brother and a sister." },
-        { "speaker": "Jonas", "nl": "Und wie sind sie so?", "en": "And what are they like?" },
-        { "speaker": "You", "nl": "Mein Bruder ist ernst, aber meine Schwester ist total lustig.", "en": "My brother is serious, but my sister is totally funny." },
-        { "speaker": "Jonas", "nl": "Klingt gut, oder? Und wo wohnst du hier in Berlin?", "en": "Sounds good, right? And where do you live here in Berlin?" },
-        { "speaker": "You", "nl": "Ich wohne in Neukölln. Ich mag meinen Kiez sehr.", "en": "I live in Neukölln. I like my neighborhood a lot.", "spotlight": "meinen Kiez — accusative masculine after mögen, one more time." },
-        { "speaker": "Jonas", "nl": "Na klar, Neukölln ist super — viele Spätis, viele Parks.", "en": "Of course, Neukölln is great — lots of Spätis, lots of parks." },
-        { "speaker": "You", "nl": "Genau! Ich gehe oft ohne Plan durch den Kiez.", "en": "Exactly! I often walk through the neighborhood without a plan." }
+        { "speaker": "Jonas", "target": "Ey, erzähl mal — hast du Geschwister?", "en": "Hey, tell me — do you have siblings?" },
+        { "speaker": "You", "target": "Ja, ich habe einen Bruder und eine Schwester.", "en": "Yes, I have a brother and a sister." },
+        { "speaker": "Jonas", "target": "Und wie sind sie so?", "en": "And what are they like?" },
+        { "speaker": "You", "target": "Mein Bruder ist ernst, aber meine Schwester ist total lustig.", "en": "My brother is serious, but my sister is totally funny." },
+        { "speaker": "Jonas", "target": "Klingt gut, oder? Und wo wohnst du hier in Berlin?", "en": "Sounds good, right? And where do you live here in Berlin?" },
+        { "speaker": "You", "target": "Ich wohne in Neukölln. Ich mag meinen Kiez sehr.", "en": "I live in Neukölln. I like my neighborhood a lot.", "spotlight": "meinen Kiez — accusative masculine after mögen, one more time." },
+        { "speaker": "Jonas", "target": "Na klar, Neukölln ist super — viele Spätis, viele Parks.", "en": "Of course, Neukölln is great — lots of Spätis, lots of parks." },
+        { "speaker": "You", "target": "Genau! Ich gehe oft ohne Plan durch den Kiez.", "en": "Exactly! I often walk through the neighborhood without a plan." }
       ]
     },
     {

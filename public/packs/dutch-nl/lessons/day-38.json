@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-38",
   "day": 38,
   "module": "M06",
@@ -31,12 +31,12 @@
       "type": "chips",
       "title": "Nood-woorden",
       "items": [
-        { "nl": "Help!", "en": "Help!", "speak": "Help!" },
-        { "nl": "Bel 112!", "en": "Call 112!", "speak": "Bel 112!" },
-        { "nl": "Ik heb hulp nodig.", "en": "I need help.", "speak": "Ik heb hulp nodig." },
-        { "nl": "Het is een noodgeval.", "en": "It's an emergency.", "speak": "Het is een noodgeval." },
-        { "nl": "Snel!", "en": "Quick! / Hurry!", "speak": "Snel!" },
-        { "nl": "Au!", "en": "Ow!", "speak": "Au!" }
+        { "target": "Help!", "en": "Help!", "speak": "Help!" },
+        { "target": "Bel 112!", "en": "Call 112!", "speak": "Bel 112!" },
+        { "target": "Ik heb hulp nodig.", "en": "I need help.", "speak": "Ik heb hulp nodig." },
+        { "target": "Het is een noodgeval.", "en": "It's an emergency.", "speak": "Het is een noodgeval." },
+        { "target": "Snel!", "en": "Quick! / Hurry!", "speak": "Snel!" },
+        { "target": "Au!", "en": "Ow!", "speak": "Au!" }
       ]
     },
     {
@@ -80,12 +80,12 @@
       "type": "dialogue",
       "scene": "Daan play-acts the apotheker behind the counter so you can rehearse before your real errand",
       "lines": [
-        { "speaker": "Daan", "nl": "Zegt u het maar!", "en": "Go ahead, tell me! (the standard pharmacist opener)" },
-        { "speaker": "You", "nl": "Ik heb dit recept van de huisarts.", "en": "I have this prescription from the GP." },
-        { "speaker": "Daan", "nl": "Prima. Heeft u ook een paracetamol nodig?", "en": "Great. Do you also need a paracetamol?", "spotlight": "paracetamol strikes again — even at the apotheek" },
-        { "speaker": "You", "nl": "Nee, dank u. Wel iets tegen keelpijn.", "en": "No, thank you. But something for a sore throat." },
-        { "speaker": "Daan", "nl": "Deze zuigtabletten zijn heel goed.", "en": "These lozenges are very good." },
-        { "speaker": "You", "nl": "Dank u wel!", "en": "Thank you very much!" }
+        { "speaker": "Daan", "target": "Zegt u het maar!", "en": "Go ahead, tell me! (the standard pharmacist opener)" },
+        { "speaker": "You", "target": "Ik heb dit recept van de huisarts.", "en": "I have this prescription from the GP." },
+        { "speaker": "Daan", "target": "Prima. Heeft u ook een paracetamol nodig?", "en": "Great. Do you also need a paracetamol?", "spotlight": "paracetamol strikes again — even at the apotheek" },
+        { "speaker": "You", "target": "Nee, dank u. Wel iets tegen keelpijn.", "en": "No, thank you. But something for a sore throat." },
+        { "speaker": "Daan", "target": "Deze zuigtabletten zijn heel goed.", "en": "These lozenges are very good." },
+        { "speaker": "You", "target": "Dank u wel!", "en": "Thank you very much!" }
       ]
     },
     {

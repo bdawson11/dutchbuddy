@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-82",
   "day": 82,
   "module": "M12",
@@ -48,12 +48,12 @@
       "type": "chips",
       "title": "Tap to hear the top six",
       "items": [
-        { "nl": "Ich verstehe nur Bahnhof.", "en": "I don't get a word of it.", "speak": "Ich verstehe nur Bahnhof." },
-        { "nl": "Das ist mir Wurst.", "en": "I couldn't care less.", "speak": "Das ist mir Wurst." },
-        { "nl": "Ich drück dir die Daumen.", "en": "Fingers crossed for you.", "speak": "Ich drück dir die Daumen." },
-        { "nl": "Schwein gehabt!", "en": "Lucky you!", "speak": "Schwein gehabt!" },
-        { "nl": "Das kannst du vergessen.", "en": "Forget it.", "speak": "Das kannst du vergessen." },
-        { "nl": "Jetzt haben wir den Salat.", "en": "Now we're in a mess.", "speak": "Jetzt haben wir den Salat." }
+        { "target": "Ich verstehe nur Bahnhof.", "en": "I don't get a word of it.", "speak": "Ich verstehe nur Bahnhof." },
+        { "target": "Das ist mir Wurst.", "en": "I couldn't care less.", "speak": "Das ist mir Wurst." },
+        { "target": "Ich drück dir die Daumen.", "en": "Fingers crossed for you.", "speak": "Ich drück dir die Daumen." },
+        { "target": "Schwein gehabt!", "en": "Lucky you!", "speak": "Schwein gehabt!" },
+        { "target": "Das kannst du vergessen.", "en": "Forget it.", "speak": "Das kannst du vergessen." },
+        { "target": "Jetzt haben wir den Salat.", "en": "Now we're in a mess.", "speak": "Jetzt haben wir den Salat." }
       ]
     },
     {
@@ -89,13 +89,13 @@
       "type": "dialogue",
       "scene": "Jonas tells you about his band's chaotic first paid gig — idioms flying.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Ey, gestern der Gig — totales Chaos. Der Verstärker ist ausgefallen.", "en": "Hey, yesterday's gig — total chaos. The amp died." },
-        { "speaker": "You", "nl": "Oh nein. Und dann?", "en": "Oh no. And then?" },
-        { "speaker": "Jonas", "nl": "Der Typ vom Club redet nur um den heißen Brei. Ich hab nur Bahnhof verstanden.", "en": "The guy from the club just beat around the bush. I didn't get a word.", "spotlight": "Two idioms in one line: *um den heißen Brei reden* + *nur Bahnhof verstehen*." },
-        { "speaker": "You", "nl": "Aber ihr habt trotzdem gespielt?", "en": "But you played anyway?" },
-        { "speaker": "Jonas", "nl": "Ja! Am Ende lief's — Schwein gehabt. Da steppte der Bär.", "en": "Yes! In the end it worked out — lucky us. The place was jumping.", "spotlight": "*Schwein gehabt* (lucky) + *Da steppt der Bär* (great party) — pure spoken German." },
-        { "speaker": "You", "nl": "Krass. Und die Bezahlung?", "en": "Wild. And the pay?" },
-        { "speaker": "Jonas", "nl": "Na ja, halb so viel wie versprochen. Aber das ist mir Wurst — es war geil.", "en": "Well, half what was promised. But I couldn't care less — it was awesome." }
+        { "speaker": "Jonas", "target": "Ey, gestern der Gig — totales Chaos. Der Verstärker ist ausgefallen.", "en": "Hey, yesterday's gig — total chaos. The amp died." },
+        { "speaker": "You", "target": "Oh nein. Und dann?", "en": "Oh no. And then?" },
+        { "speaker": "Jonas", "target": "Der Typ vom Club redet nur um den heißen Brei. Ich hab nur Bahnhof verstanden.", "en": "The guy from the club just beat around the bush. I didn't get a word.", "spotlight": "Two idioms in one line: *um den heißen Brei reden* + *nur Bahnhof verstehen*." },
+        { "speaker": "You", "target": "Aber ihr habt trotzdem gespielt?", "en": "But you played anyway?" },
+        { "speaker": "Jonas", "target": "Ja! Am Ende lief's — Schwein gehabt. Da steppte der Bär.", "en": "Yes! In the end it worked out — lucky us. The place was jumping.", "spotlight": "*Schwein gehabt* (lucky) + *Da steppt der Bär* (great party) — pure spoken German." },
+        { "speaker": "You", "target": "Krass. Und die Bezahlung?", "en": "Wild. And the pay?" },
+        { "speaker": "Jonas", "target": "Na ja, halb so viel wie versprochen. Aber das ist mir Wurst — es war geil.", "en": "Well, half what was promised. But I couldn't care less — it was awesome." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-69",
   "day": 69,
   "module": "M10",
@@ -35,15 +35,15 @@
       "type": "dialogue",
       "scene": "Verhuisdag. Voor Sannes oude huis in Amsterdam staat een volle vrachtwagen. Jij, Emma en Sanne sjouwen de laatste dozen.",
       "lines": [
-        { "speaker": "Sanne", "nl": "Zo, ik geloof dat alles er nu in staat. Er staan er nog twee in de gang, geloof ik.", "en": "There, I think everything's in now. There are still two (boxes) in the hall, I think.", "spotlight": "er … in / er staan er nog twee — locative er én de tel-er." },
-        { "speaker": "Emma", "nl": "Die pak ik wel. Joh, wordt de rest vandaag nog ingepakt?", "en": "I'll grab those. Hey, is the rest still being packed today?", "spotlight": "wordt … ingepakt — de passief met worden." },
-        { "speaker": "Sanne", "nl": "Nee hoor, alles is al ingepakt. Ik heb het gisteren allemaal kunnen doen.", "en": "No, everything's already packed. I managed to do it all yesterday.", "spotlight": "heb … kunnen doen — modaal in de voltooide tijd, infinitief." },
-        { "speaker": "You", "nl": "Hoe voel je je nu, Sanne?", "en": "How do you feel now, Sanne?", "spotlight": "voel je je — reflexief." },
-        { "speaker": "Sanne", "nl": "Een beetje raar, eerlijk gezegd. Maar ik verheug me er ook op.", "en": "A bit strange, honestly. But I'm looking forward to it too.", "spotlight": "ik verheug me er ook op — reflexief + er + op." },
-        { "speaker": "Emma", "nl": "Utrecht is dichtbij, hoor. We komen je gauw opzoeken.", "en": "Utrecht's close, you know. We'll come visit you soon." },
-        { "speaker": "Sanne", "nl": "Graag! Denk je eraan om je fiets mee te nemen als je komt?", "en": "Please do! Will you remember to bring your bike when you come?", "spotlight": "denk … eraan om … mee te nemen — voorzetsel-er + om…te + scheidbaar werkwoord." },
-        { "speaker": "You", "nl": "Zeker! Kom, de laatste doos wordt nu geladen.", "en": "Definitely! Come on, the last box is being loaded now." },
-        { "speaker": "Sanne", "nl": "Daar gaan we dan. Dag, Amsterdam!", "en": "Here we go then. Bye, Amsterdam!" }
+        { "speaker": "Sanne", "target": "Zo, ik geloof dat alles er nu in staat. Er staan er nog twee in de gang, geloof ik.", "en": "There, I think everything's in now. There are still two (boxes) in the hall, I think.", "spotlight": "er … in / er staan er nog twee — locative er én de tel-er." },
+        { "speaker": "Emma", "target": "Die pak ik wel. Joh, wordt de rest vandaag nog ingepakt?", "en": "I'll grab those. Hey, is the rest still being packed today?", "spotlight": "wordt … ingepakt — de passief met worden." },
+        { "speaker": "Sanne", "target": "Nee hoor, alles is al ingepakt. Ik heb het gisteren allemaal kunnen doen.", "en": "No, everything's already packed. I managed to do it all yesterday.", "spotlight": "heb … kunnen doen — modaal in de voltooide tijd, infinitief." },
+        { "speaker": "You", "target": "Hoe voel je je nu, Sanne?", "en": "How do you feel now, Sanne?", "spotlight": "voel je je — reflexief." },
+        { "speaker": "Sanne", "target": "Een beetje raar, eerlijk gezegd. Maar ik verheug me er ook op.", "en": "A bit strange, honestly. But I'm looking forward to it too.", "spotlight": "ik verheug me er ook op — reflexief + er + op." },
+        { "speaker": "Emma", "target": "Utrecht is dichtbij, hoor. We komen je gauw opzoeken.", "en": "Utrecht's close, you know. We'll come visit you soon." },
+        { "speaker": "Sanne", "target": "Graag! Denk je eraan om je fiets mee te nemen als je komt?", "en": "Please do! Will you remember to bring your bike when you come?", "spotlight": "denk … eraan om … mee te nemen — voorzetsel-er + om…te + scheidbaar werkwoord." },
+        { "speaker": "You", "target": "Zeker! Kom, de laatste doos wordt nu geladen.", "en": "Definitely! Come on, the last box is being loaded now." },
+        { "speaker": "Sanne", "target": "Daar gaan we dan. Dag, Amsterdam!", "en": "Here we go then. Bye, Amsterdam!" }
       ]
     },
     {
@@ -59,10 +59,10 @@
       "type": "shadow",
       "title": "Zeg Sanne gedag — herhaal",
       "lines": [
-        { "nl": "Alles is al ingepakt.", "en": "Everything's already packed." },
-        { "nl": "Ik verheug me erop.", "en": "I'm looking forward to it." },
-        { "nl": "Er staan er nog twee in de gang.", "en": "There are still two in the hall." },
-        { "nl": "Daar gaan we dan!", "en": "Here we go then!" }
+        { "target": "Alles is al ingepakt.", "en": "Everything's already packed." },
+        { "target": "Ik verheug me erop.", "en": "I'm looking forward to it." },
+        { "target": "Er staan er nog twee in de gang.", "en": "There are still two in the hall." },
+        { "target": "Daar gaan we dan!", "en": "Here we go then!" }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-23",
   "day": 23,
   "module": "M04",
@@ -35,11 +35,11 @@
       "type": "chips",
       "title": "En la barra",
       "items": [
-        { "nl": "ponme una caña", "en": "pour me a small beer", "speak": "ponme una caña" },
-        { "nl": "una ración de jamón", "en": "a plate of ham", "speak": "una ración de jamón" },
-        { "nl": "vamos a tapear", "en": "let's go bar-hopping for tapas", "speak": "vamos a tapear" },
-        { "nl": "¿qué vais a tomar?", "en": "what will you all have?", "speak": "¿qué vais a tomar?" },
-        { "nl": "la cuenta, por favor", "en": "the bill, please", "speak": "la cuenta, por favor" }
+        { "target": "ponme una caña", "en": "pour me a small beer", "speak": "ponme una caña" },
+        { "target": "una ración de jamón", "en": "a plate of ham", "speak": "una ración de jamón" },
+        { "target": "vamos a tapear", "en": "let's go bar-hopping for tapas", "speak": "vamos a tapear" },
+        { "target": "¿qué vais a tomar?", "en": "what will you all have?", "speak": "¿qué vais a tomar?" },
+        { "target": "la cuenta, por favor", "en": "the bill, please", "speak": "la cuenta, por favor" }
       ]
     },
     {
@@ -66,12 +66,12 @@
       "type": "dialogue",
       "scene": "You and Rafa go bar-hopping — ordering at the bar and starting a round",
       "lines": [
-        { "speaker": "You", "nl": "¡Ponme una caña, por favor!", "en": "Pour me a small beer, please!" },
-        { "speaker": "Rafa", "nl": "Y para mí, un vino. ¿Pedimos una ración de jamón?", "en": "And a wine for me. Shall we order a plate of ham?" },
-        { "speaker": "You", "nl": "Vale, venga. Y otra de patatas bravas.", "en": "Sure, let's. And another one of patatas bravas.", "spotlight": "*otra de...* — 'another one of...', skipping the repeated noun." },
-        { "speaker": "Rafa", "nl": "Perfecto, tío. Esta ronda la pago yo.", "en": "Perfect, mate. This round's on me." },
-        { "speaker": "You", "nl": "¡Qué majo! Gracias.", "en": "How nice of you! Thanks." },
-        { "speaker": "Rafa", "nl": "Nada, nada. La próxima, tú.", "en": "No worries. Next one's yours." }
+        { "speaker": "You", "target": "¡Ponme una caña, por favor!", "en": "Pour me a small beer, please!" },
+        { "speaker": "Rafa", "target": "Y para mí, un vino. ¿Pedimos una ración de jamón?", "en": "And a wine for me. Shall we order a plate of ham?" },
+        { "speaker": "You", "target": "Vale, venga. Y otra de patatas bravas.", "en": "Sure, let's. And another one of patatas bravas.", "spotlight": "*otra de...* — 'another one of...', skipping the repeated noun." },
+        { "speaker": "Rafa", "target": "Perfecto, tío. Esta ronda la pago yo.", "en": "Perfect, mate. This round's on me." },
+        { "speaker": "You", "target": "¡Qué majo! Gracias.", "en": "How nice of you! Thanks." },
+        { "speaker": "Rafa", "target": "Nada, nada. La próxima, tú.", "en": "No worries. Next one's yours." }
       ]
     },
     {

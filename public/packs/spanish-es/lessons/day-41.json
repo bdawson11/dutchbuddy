@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-41",
   "day": 41,
   "module": "M06",
@@ -40,16 +40,16 @@
       "type": "dialogue",
       "scene": "At the bar, Sofía finally tells Lucía, Rafa and You about the week she's had.",
       "lines": [
-        { "speaker": "Sofía", "nl": "Chicos, tengo que contaros algo. He tenido una semana horrible.", "en": "Guys, I have to tell you something. I've had a horrible week." },
-        { "speaker": "Lucía", "nl": "¿Qué ha pasado? Te hemos notado rara.", "en": "What happened? We've noticed you seem off." },
-        { "speaker": "Sofía", "nl": "Pues... esta semana me han robado el bolso en el metro.", "en": "Well... this week, my bag got stolen on the metro." },
-        { "speaker": "Rafa", "nl": "¡Qué fuerte! ¿Has ido a la policía?", "en": "No way! Have you gone to the police?" },
-        { "speaker": "Sofía", "nl": "Sí, he puesto una denuncia. Y para colmo, me he puesto enferma.", "en": "Yes, I've filed a police report. And to top it off, I've gotten sick." },
-        { "speaker": "Lucía", "nl": "Madre mía, Sofía... ¿Has ido al médico?", "en": "Oh my gosh, Sofía... Have you gone to the doctor?" },
-        { "speaker": "Sofía", "nl": "Sí. Me ha dado la baja dos días y una receta para la fiebre.", "en": "Yes. He's given me two sick days and a prescription for the fever." },
-        { "speaker": "You", "nl": "Qué semana más mala. ¿Ya estás mejor?", "en": "What a rough week. Are you feeling better now?" },
-        { "speaker": "Sofía", "nl": "Un poco. Todavía me duele la garganta, pero ya no tengo fiebre. Gracias por escuchar, sois un amor.", "en": "A little. My throat still hurts, but I don't have a fever anymore. Thanks for listening, you're all so sweet." },
-        { "speaker": "Rafa", "nl": "Pues nada, esta noche invitamos nosotros. Te lo has ganado.", "en": "Well then, tonight we're buying. You've earned it.", "spotlight": "perfecto: te lo has ganado — clitic + perfecto, a warm closing line." }
+        { "speaker": "Sofía", "target": "Chicos, tengo que contaros algo. He tenido una semana horrible.", "en": "Guys, I have to tell you something. I've had a horrible week." },
+        { "speaker": "Lucía", "target": "¿Qué ha pasado? Te hemos notado rara.", "en": "What happened? We've noticed you seem off." },
+        { "speaker": "Sofía", "target": "Pues... esta semana me han robado el bolso en el metro.", "en": "Well... this week, my bag got stolen on the metro." },
+        { "speaker": "Rafa", "target": "¡Qué fuerte! ¿Has ido a la policía?", "en": "No way! Have you gone to the police?" },
+        { "speaker": "Sofía", "target": "Sí, he puesto una denuncia. Y para colmo, me he puesto enferma.", "en": "Yes, I've filed a police report. And to top it off, I've gotten sick." },
+        { "speaker": "Lucía", "target": "Madre mía, Sofía... ¿Has ido al médico?", "en": "Oh my gosh, Sofía... Have you gone to the doctor?" },
+        { "speaker": "Sofía", "target": "Sí. Me ha dado la baja dos días y una receta para la fiebre.", "en": "Yes. He's given me two sick days and a prescription for the fever." },
+        { "speaker": "You", "target": "Qué semana más mala. ¿Ya estás mejor?", "en": "What a rough week. Are you feeling better now?" },
+        { "speaker": "Sofía", "target": "Un poco. Todavía me duele la garganta, pero ya no tengo fiebre. Gracias por escuchar, sois un amor.", "en": "A little. My throat still hurts, but I don't have a fever anymore. Thanks for listening, you're all so sweet." },
+        { "speaker": "Rafa", "target": "Pues nada, esta noche invitamos nosotros. Te lo has ganado.", "en": "Well then, tonight we're buying. You've earned it.", "spotlight": "perfecto: te lo has ganado — clitic + perfecto, a warm closing line." }
       ]
     },
     {

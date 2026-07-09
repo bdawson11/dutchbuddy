@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-76",
   "day": 76,
   "module": "M11",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "De grootste hits van de week",
       "items": [
-        { "nl": "Doe maar.", "en": "Go ahead / sure.", "speak": "Doe maar." },
-        { "nl": "Momentje, hoor.", "en": "One sec, okay.", "speak": "Momentje, hoor." },
-        { "nl": "Ik houd van deze buurt.", "en": "I love this neighbourhood.", "speak": "Ik houd van deze buurt." },
-        { "nl": "Een bakkie?", "en": "A coffee?", "speak": "Een bakkie?" },
-        { "nl": "Je komt toch wel?", "en": "You're coming, right?", "speak": "Je komt toch wel?" }
+        { "target": "Doe maar.", "en": "Go ahead / sure.", "speak": "Doe maar." },
+        { "target": "Momentje, hoor.", "en": "One sec, okay.", "speak": "Momentje, hoor." },
+        { "target": "Ik houd van deze buurt.", "en": "I love this neighbourhood.", "speak": "Ik houd van deze buurt." },
+        { "target": "Een bakkie?", "en": "A coffee?", "speak": "Een bakkie?" },
+        { "target": "Je komt toch wel?", "en": "You're coming, right?", "speak": "Je komt toch wel?" }
       ]
     },
     {
@@ -39,13 +39,13 @@
       "type": "dialogue",
       "scene": "Saturday, Utrecht. Emma has taken the train over. Sanne opens the door to her new place, visibly happier than in Amsterdam.",
       "lines": [
-        { "speaker": "Emma", "nl": "Hé Sanne! Wat een leuk huisje heb je hier, zeg.", "en": "Hey Sanne! What a lovely little place you've got here.", "spotlight": "huisje + zeg — diminutive warmth plus an admiring tag." },
-        { "speaker": "Sanne", "nl": "Dank je! Kom binnen, gezellig. Wil je een bakkie?", "en": "Thanks! Come in, lovely. Want a coffee?", "spotlight": "bakkie — the cosy slang diminutive for coffee." },
-        { "speaker": "Emma", "nl": "Lekker, doe maar. En, bevalt Utrecht een beetje?", "en": "Lovely, go ahead. So, are you liking Utrecht a bit?", "spotlight": "doe maar — permission particle; 'een beetje' underplays the big question." },
-        { "speaker": "Sanne", "nl": "Echt heel goed. Ik woon vlak bij een grachtje, en 's ochtends maak ik altijd even een wandelingetje.", "en": "Really well. I live right by a little canal, and in the mornings I always take a little walk.", "spotlight": "grachtje, wandelingetje + even — three light touches in one breath." },
-        { "speaker": "Emma", "nl": "Kijk, je klinkt echt gelukkig. In Amsterdam was je toch een beetje gestrest, hè.", "en": "See, you sound really happy. In Amsterdam you were a bit stressed, weren't you.", "spotlight": "toch … hè — Emma's gentle 'let's be honest' framing." },
-        { "speaker": "Sanne", "nl": "Klopt. Het was even wennen, hoor, maar nu voelt het als thuis.", "en": "True. It took some getting used to, but now it feels like home.", "spotlight": "even wennen + hoor — softening a real, honest admission." },
-        { "speaker": "Emma", "nl": "Wat fijn, joh. Ik mis je wel in de Pijp, maar dit gun ik je echt.", "en": "So glad, mate. I do miss you in the Pijp, but I truly wish this for you.", "spotlight": "wel + joh — warmth and a little ache at once." }
+        { "speaker": "Emma", "target": "Hé Sanne! Wat een leuk huisje heb je hier, zeg.", "en": "Hey Sanne! What a lovely little place you've got here.", "spotlight": "huisje + zeg — diminutive warmth plus an admiring tag." },
+        { "speaker": "Sanne", "target": "Dank je! Kom binnen, gezellig. Wil je een bakkie?", "en": "Thanks! Come in, lovely. Want a coffee?", "spotlight": "bakkie — the cosy slang diminutive for coffee." },
+        { "speaker": "Emma", "target": "Lekker, doe maar. En, bevalt Utrecht een beetje?", "en": "Lovely, go ahead. So, are you liking Utrecht a bit?", "spotlight": "doe maar — permission particle; 'een beetje' underplays the big question." },
+        { "speaker": "Sanne", "target": "Echt heel goed. Ik woon vlak bij een grachtje, en 's ochtends maak ik altijd even een wandelingetje.", "en": "Really well. I live right by a little canal, and in the mornings I always take a little walk.", "spotlight": "grachtje, wandelingetje + even — three light touches in one breath." },
+        { "speaker": "Emma", "target": "Kijk, je klinkt echt gelukkig. In Amsterdam was je toch een beetje gestrest, hè.", "en": "See, you sound really happy. In Amsterdam you were a bit stressed, weren't you.", "spotlight": "toch … hè — Emma's gentle 'let's be honest' framing." },
+        { "speaker": "Sanne", "target": "Klopt. Het was even wennen, hoor, maar nu voelt het als thuis.", "en": "True. It took some getting used to, but now it feels like home.", "spotlight": "even wennen + hoor — softening a real, honest admission." },
+        { "speaker": "Emma", "target": "Wat fijn, joh. Ik mis je wel in de Pijp, maar dit gun ik je echt.", "en": "So glad, mate. I do miss you in the Pijp, but I truly wish this for you.", "spotlight": "wel + joh — warmth and a little ache at once." }
       ]
     },
     {

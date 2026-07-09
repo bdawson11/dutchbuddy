@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-88",
   "day": 88,
   "module": "M13",
@@ -34,11 +34,11 @@
       "type": "chips",
       "title": "Ascolta le due file della scala",
       "items": [
-        { "nl": "Penso che tu abbia ragione.", "en": "I think you're right.", "speak": "Penso che tu abbia ragione." },
-        { "nl": "Pensavo che tu avessi ragione.", "en": "I thought you were right.", "speak": "Pensavo che tu avessi ragione." },
-        { "nl": "Credo che sia già uscito.", "en": "I think he's already gone out.", "speak": "Credo che sia già uscito." },
-        { "nl": "Credevo che fosse già uscito.", "en": "I thought he'd already gone out.", "speak": "Credevo che fosse già uscito." },
-        { "nl": "Spero che vada tutto bene.", "en": "I hope it all goes well.", "speak": "Spero che vada tutto bene." }
+        { "target": "Penso che tu abbia ragione.", "en": "I think you're right.", "speak": "Penso che tu abbia ragione." },
+        { "target": "Pensavo che tu avessi ragione.", "en": "I thought you were right.", "speak": "Pensavo che tu avessi ragione." },
+        { "target": "Credo che sia già uscito.", "en": "I think he's already gone out.", "speak": "Credo che sia già uscito." },
+        { "target": "Credevo che fosse già uscito.", "en": "I thought he'd already gone out.", "speak": "Credevo che fosse già uscito." },
+        { "target": "Spero che vada tutto bene.", "en": "I hope it all goes well.", "speak": "Spero che vada tutto bene." }
       ]
     },
     {
@@ -85,14 +85,14 @@
       "type": "dialogue",
       "scene": "Marco quizzes you on the congiuntivo, teasing.",
       "lines": [
-        { "speaker": "Marco", "nl": "Allora, ti sei arreso al congiuntivo o no?", "en": "So, have you given up on the subjunctive or not?" },
-        { "speaker": "You", "nl": "Ma va'! Adesso credo di averlo capito.", "en": "No way! Now I think I've got it." },
-        { "speaker": "Marco", "nl": "Ah sì? Pensavo che fosse ancora un incubo per te.", "en": "Oh yeah? I thought it was still a nightmare for you.", "spotlight": "'pensavo che fosse' — passato + imperfetto." },
-        { "speaker": "You", "nl": "Lo era. Ma ho capito che dipende dal verbo principale.", "en": "It was. But I realized it depends on the main verb." },
-        { "speaker": "Marco", "nl": "Esatto. Non credevo che avessi studiato così tanto.", "en": "Exactly. I didn't think you'd studied that much.", "spotlight": "'non credevo che avessi studiato' — trapassato: prima." },
-        { "speaker": "You", "nl": "Eh, penso che ormai sia diventato più facile.", "en": "Well, I think by now it's gotten easier." },
-        { "speaker": "Marco", "nl": "Bravo. Ti offro un caffè, te lo sei meritato.", "en": "Nice. I'll buy you a coffee, you've earned it." },
-        { "speaker": "You", "nl": "Volentieri!", "en": "Gladly!" }
+        { "speaker": "Marco", "target": "Allora, ti sei arreso al congiuntivo o no?", "en": "So, have you given up on the subjunctive or not?" },
+        { "speaker": "You", "target": "Ma va'! Adesso credo di averlo capito.", "en": "No way! Now I think I've got it." },
+        { "speaker": "Marco", "target": "Ah sì? Pensavo che fosse ancora un incubo per te.", "en": "Oh yeah? I thought it was still a nightmare for you.", "spotlight": "'pensavo che fosse' — passato + imperfetto." },
+        { "speaker": "You", "target": "Lo era. Ma ho capito che dipende dal verbo principale.", "en": "It was. But I realized it depends on the main verb." },
+        { "speaker": "Marco", "target": "Esatto. Non credevo che avessi studiato così tanto.", "en": "Exactly. I didn't think you'd studied that much.", "spotlight": "'non credevo che avessi studiato' — trapassato: prima." },
+        { "speaker": "You", "target": "Eh, penso che ormai sia diventato più facile.", "en": "Well, I think by now it's gotten easier." },
+        { "speaker": "Marco", "target": "Bravo. Ti offro un caffè, te lo sei meritato.", "en": "Nice. I'll buy you a coffee, you've earned it." },
+        { "speaker": "You", "target": "Volentieri!", "en": "Gladly!" }
       ]
     },
     {

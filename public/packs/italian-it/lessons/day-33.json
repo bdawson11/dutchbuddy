@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-33",
   "day": 33,
   "module": "M05",
@@ -39,11 +39,11 @@
       "type": "chips",
       "title": "Listen at the station",
       "items": [
-        { "nl": "Un biglietto per Firenze, per favore.", "en": "A ticket to Florence, please.", "speak": "Un biglietto per Firenze, per favore." },
-        { "nl": "Da che binario parte?", "en": "Which platform does it leave from?", "speak": "Da che binario parte?" },
-        { "nl": "Il treno è in ritardo.", "en": "The train is delayed.", "speak": "Il treno è in ritardo." },
-        { "nl": "Devo timbrare il biglietto.", "en": "I need to validate the ticket.", "speak": "Devo timbrare il biglietto." },
-        { "nl": "È un regionale o un'alta velocità?", "en": "Is it a regional or a high-speed train?", "speak": "È un regionale o un'alta velocità?" }
+        { "target": "Un biglietto per Firenze, per favore.", "en": "A ticket to Florence, please.", "speak": "Un biglietto per Firenze, per favore." },
+        { "target": "Da che binario parte?", "en": "Which platform does it leave from?", "speak": "Da che binario parte?" },
+        { "target": "Il treno è in ritardo.", "en": "The train is delayed.", "speak": "Il treno è in ritardo." },
+        { "target": "Devo timbrare il biglietto.", "en": "I need to validate the ticket.", "speak": "Devo timbrare il biglietto." },
+        { "target": "È un regionale o un'alta velocità?", "en": "Is it a regional or a high-speed train?", "speak": "È un regionale o un'alta velocità?" }
       ]
     },
     {
@@ -84,13 +84,13 @@
       "type": "dialogue",
       "scene": "At Bologna Centrale, Marco helps You find the right platform",
       "lines": [
-        { "speaker": "Marco", "nl": "Allora, hai il biglietto?", "en": "So, do you have the ticket?" },
-        { "speaker": "You", "nl": "Sì, ma non ho ancora timbrato.", "en": "Yes, but I haven't validated it yet." },
-        { "speaker": "Marco", "nl": "Meglio timbrarlo subito! Il binario è il sette.", "en": "Better validate it right away! The platform is seven.", "spotlight": "timbrare — the regionale rule, never skip it." },
-        { "speaker": "You", "nl": "Grazie! È un regionale, giusto?", "en": "Thanks! It's a regional train, right?" },
-        { "speaker": "Marco", "nl": "Sì, per il regionale devi sempre timbrare. Con l'alta velocità no.", "en": "Yes, for the regional you always have to validate. Not with the high-speed train." },
-        { "speaker": "You", "nl": "Perfetto, vado! Grazie ancora.", "en": "Perfect, I'm off! Thanks again." },
-        { "speaker": "Marco", "nl": "Buon viaggio! Mi scrivi quando arrivi?", "en": "Have a good trip! Will you text me when you arrive?" }
+        { "speaker": "Marco", "target": "Allora, hai il biglietto?", "en": "So, do you have the ticket?" },
+        { "speaker": "You", "target": "Sì, ma non ho ancora timbrato.", "en": "Yes, but I haven't validated it yet." },
+        { "speaker": "Marco", "target": "Meglio timbrarlo subito! Il binario è il sette.", "en": "Better validate it right away! The platform is seven.", "spotlight": "timbrare — the regionale rule, never skip it." },
+        { "speaker": "You", "target": "Grazie! È un regionale, giusto?", "en": "Thanks! It's a regional train, right?" },
+        { "speaker": "Marco", "target": "Sì, per il regionale devi sempre timbrare. Con l'alta velocità no.", "en": "Yes, for the regional you always have to validate. Not with the high-speed train." },
+        { "speaker": "You", "target": "Perfetto, vado! Grazie ancora.", "en": "Perfect, I'm off! Thanks again." },
+        { "speaker": "Marco", "target": "Buon viaggio! Mi scrivi quando arrivi?", "en": "Have a good trip! Will you text me when you arrive?" }
       ]
     },
     {

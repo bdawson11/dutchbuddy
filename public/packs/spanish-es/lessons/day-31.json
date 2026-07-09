@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-31",
   "day": 31,
   "module": "M05",
@@ -30,12 +30,12 @@
       "type": "chips",
       "title": "Escucha los marcadores",
       "items": [
-        { "nl": "hoy", "en": "today", "speak": "hoy" },
-        { "nl": "esta semana", "en": "this week", "speak": "esta semana" },
-        { "nl": "ya", "en": "already", "speak": "ya" },
-        { "nl": "todavía no", "en": "not yet", "speak": "todavía no" },
-        { "nl": "alguna vez", "en": "ever", "speak": "alguna vez" },
-        { "nl": "nunca", "en": "never", "speak": "nunca" }
+        { "target": "hoy", "en": "today", "speak": "hoy" },
+        { "target": "esta semana", "en": "this week", "speak": "esta semana" },
+        { "target": "ya", "en": "already", "speak": "ya" },
+        { "target": "todavía no", "en": "not yet", "speak": "todavía no" },
+        { "target": "alguna vez", "en": "ever", "speak": "alguna vez" },
+        { "target": "nunca", "en": "never", "speak": "nunca" }
       ]
     },
     {
@@ -80,11 +80,11 @@
       "type": "dialogue",
       "scene": "You catch up with Sofía over coffee.",
       "lines": [
-        { "speaker": "Sofía", "nl": "¿Ya has visto la nueva expo de fotografía?", "en": "Have you already seen the new photography exhibit?" },
-        { "speaker": "You", "nl": "No, todavía no. ¿Es buena?", "en": "No, not yet. Is it good?" },
-        { "speaker": "Sofía", "nl": "¡Sí, muy buena! Yo ya he ido dos veces esta semana.", "en": "Yes, very good! I've already gone twice this week.", "spotlight": "ya + he ido — already, right before haber." },
-        { "speaker": "You", "nl": "¿En serio? Yo nunca he ido a esa galería.", "en": "Really? I've never been to that gallery." },
-        { "speaker": "Sofía", "nl": "Pues tienes que ir alguna vez, te va a encantar.", "en": "Well you have to go sometime, you'll love it." }
+        { "speaker": "Sofía", "target": "¿Ya has visto la nueva expo de fotografía?", "en": "Have you already seen the new photography exhibit?" },
+        { "speaker": "You", "target": "No, todavía no. ¿Es buena?", "en": "No, not yet. Is it good?" },
+        { "speaker": "Sofía", "target": "¡Sí, muy buena! Yo ya he ido dos veces esta semana.", "en": "Yes, very good! I've already gone twice this week.", "spotlight": "ya + he ido — already, right before haber." },
+        { "speaker": "You", "target": "¿En serio? Yo nunca he ido a esa galería.", "en": "Really? I've never been to that gallery." },
+        { "speaker": "Sofía", "target": "Pues tienes que ir alguna vez, te va a encantar.", "en": "Well you have to go sometime, you'll love it." }
       ]
     },
     {

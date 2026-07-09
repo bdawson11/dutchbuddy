@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-29",
   "day": 29,
   "module": "M05",
@@ -34,11 +34,11 @@
       "type": "chips",
       "title": "Listen and repeat",
       "items": [
-        { "nl": "ho parlato", "en": "I spoke / I've spoken", "speak": "ho parlato" },
-        { "nl": "ho lavorato", "en": "I worked", "speak": "ho lavorato" },
-        { "nl": "ho mangiato", "en": "I ate", "speak": "ho mangiato" },
-        { "nl": "ho dormito", "en": "I slept", "speak": "ho dormito" },
-        { "nl": "ho capito", "en": "I understood", "speak": "ho capito" }
+        { "target": "ho parlato", "en": "I spoke / I've spoken", "speak": "ho parlato" },
+        { "target": "ho lavorato", "en": "I worked", "speak": "ho lavorato" },
+        { "target": "ho mangiato", "en": "I ate", "speak": "ho mangiato" },
+        { "target": "ho dormito", "en": "I slept", "speak": "ho dormito" },
+        { "target": "ho capito", "en": "I understood", "speak": "ho capito" }
       ]
     },
     {
@@ -79,11 +79,11 @@
       "type": "dialogue",
       "scene": "At the bar, Marco asks You about the day",
       "lines": [
-        { "speaker": "Marco", "nl": "Allora, cosa hai fatto oggi?", "en": "So, what did you do today?" },
-        { "speaker": "You", "nl": "Ho lavorato tutta la mattina, poi ho pranzato con Giulia.", "en": "I worked all morning, then I had lunch with Giulia.", "spotlight": "Two avere-verbs back to back: ho lavorato, ho pranzato." },
-        { "speaker": "Marco", "nl": "Avete parlato di lavoro, immagino.", "en": "You talked about work, I imagine." },
-        { "speaker": "You", "nl": "Un po', sì. Ho anche ascoltato un po' di musica al bar.", "en": "A little, yes. I also listened to some music at the bar." },
-        { "speaker": "Marco", "nl": "Bello! Io invece ho dormito fino a tardi.", "en": "Nice! I, on the other hand, slept in late." }
+        { "speaker": "Marco", "target": "Allora, cosa hai fatto oggi?", "en": "So, what did you do today?" },
+        { "speaker": "You", "target": "Ho lavorato tutta la mattina, poi ho pranzato con Giulia.", "en": "I worked all morning, then I had lunch with Giulia.", "spotlight": "Two avere-verbs back to back: ho lavorato, ho pranzato." },
+        { "speaker": "Marco", "target": "Avete parlato di lavoro, immagino.", "en": "You talked about work, I imagine." },
+        { "speaker": "You", "target": "Un po', sì. Ho anche ascoltato un po' di musica al bar.", "en": "A little, yes. I also listened to some music at the bar." },
+        { "speaker": "Marco", "target": "Bello! Io invece ho dormito fino a tardi.", "en": "Nice! I, on the other hand, slept in late." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-26",
   "day": 26,
   "module": "M04",
@@ -36,12 +36,12 @@
       "type": "chips",
       "title": "En el mercado",
       "items": [
-        { "nl": "un kilo de tomates", "en": "a kilo of tomatoes", "speak": "un kilo de tomates" },
-        { "nl": "medio kilo de queso", "en": "half a kilo of cheese", "speak": "medio kilo de queso" },
-        { "nl": "¿me pone...?", "en": "could you give me...?", "speak": "¿me pone...?" },
-        { "nl": "¿algo más?", "en": "anything else?", "speak": "¿algo más?" },
-        { "nl": "nada más, gracias", "en": "nothing else, thanks", "speak": "nada más, gracias" },
-        { "nl": "una docena de huevos", "en": "a dozen eggs", "speak": "una docena de huevos" }
+        { "target": "un kilo de tomates", "en": "a kilo of tomatoes", "speak": "un kilo de tomates" },
+        { "target": "medio kilo de queso", "en": "half a kilo of cheese", "speak": "medio kilo de queso" },
+        { "target": "¿me pone...?", "en": "could you give me...?", "speak": "¿me pone...?" },
+        { "target": "¿algo más?", "en": "anything else?", "speak": "¿algo más?" },
+        { "target": "nada más, gracias", "en": "nothing else, thanks", "speak": "nada más, gracias" },
+        { "target": "una docena de huevos", "en": "a dozen eggs", "speak": "una docena de huevos" }
       ]
     },
     {
@@ -78,11 +78,11 @@
       "type": "dialogue",
       "scene": "At the mercado with Lucía, doing la compra",
       "lines": [
-        { "speaker": "Lucía", "nl": "Vamos a la frutería primero.", "en": "Let's go to the fruit stall first." },
-        { "speaker": "You", "nl": "¡Buenas! ¿Me pone un kilo de tomates?", "en": "Hi! Could I get a kilo of tomatoes?" },
-        { "speaker": "Lucía", "nl": "Y medio kilo de fresas, por favor.", "en": "And half a kilo of strawberries, please." },
-        { "speaker": "You", "nl": "¿Algo más, Lucía?", "en": "Anything else, Lucía?" },
-        { "speaker": "Lucía", "nl": "No, nada más. ¡Vale, gracias!", "en": "No, nothing else. Great, thanks!" }
+        { "speaker": "Lucía", "target": "Vamos a la frutería primero.", "en": "Let's go to the fruit stall first." },
+        { "speaker": "You", "target": "¡Buenas! ¿Me pone un kilo de tomates?", "en": "Hi! Could I get a kilo of tomatoes?" },
+        { "speaker": "Lucía", "target": "Y medio kilo de fresas, por favor.", "en": "And half a kilo of strawberries, please." },
+        { "speaker": "You", "target": "¿Algo más, Lucía?", "en": "Anything else, Lucía?" },
+        { "speaker": "Lucía", "target": "No, nada más. ¡Vale, gracias!", "en": "No, nothing else. Great, thanks!" }
       ]
     },
     {

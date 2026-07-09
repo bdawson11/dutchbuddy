@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-32",
   "day": 32,
   "module": "M05",
@@ -32,12 +32,12 @@
       "type": "chips",
       "title": "Escucha el perfecto reflexivo",
       "items": [
-        { "nl": "me he levantado", "en": "I've gotten up", "speak": "me he levantado" },
-        { "nl": "te has duchado", "en": "you've showered", "speak": "te has duchado" },
-        { "nl": "se ha despertado", "en": "she's woken up", "speak": "se ha despertado" },
-        { "nl": "nos hemos vestido", "en": "we've gotten dressed", "speak": "nos hemos vestido" },
-        { "nl": "os habéis peinado", "en": "you all have combed your hair", "speak": "os habéis peinado" },
-        { "nl": "se han acostado", "en": "they've gone to bed", "speak": "se han acostado" }
+        { "target": "me he levantado", "en": "I've gotten up", "speak": "me he levantado" },
+        { "target": "te has duchado", "en": "you've showered", "speak": "te has duchado" },
+        { "target": "se ha despertado", "en": "she's woken up", "speak": "se ha despertado" },
+        { "target": "nos hemos vestido", "en": "we've gotten dressed", "speak": "nos hemos vestido" },
+        { "target": "os habéis peinado", "en": "you all have combed your hair", "speak": "os habéis peinado" },
+        { "target": "se han acostado", "en": "they've gone to bed", "speak": "se han acostado" }
       ]
     },
     {
@@ -81,13 +81,13 @@
       "type": "dialogue",
       "scene": "Nacho tells you about his morning before work.",
       "lines": [
-        { "speaker": "Nacho", "nl": "Hoy me he levantado a las seis, como siempre.", "en": "Today I got up at six, like always." },
-        { "speaker": "You", "nl": "¡Qué pronto! ¿Te has duchado en casa o en el gimnasio?", "en": "So early! Did you shower at home or at the gym?" },
-        { "speaker": "Nacho", "nl": "En casa. Mi hija se ha despertado también, muy temprano.", "en": "At home. My daughter woke up too, very early." },
-        { "speaker": "You", "nl": "¿Os habéis vestido rápido?", "en": "Did you all get dressed quickly?", "spotlight": "os habéis vestido — the vosotros reflexive perfecto." },
-        { "speaker": "Nacho", "nl": "Sí, nos hemos vestido en diez minutos. En el pueblo todo es más tranquilo, la verdad.", "en": "Yeah, we got dressed in ten minutes. Back in the village everything's calmer, honestly." },
-        { "speaker": "You", "nl": "Algún día tengo que ir a visitar tu pueblo.", "en": "One day I have to go visit your village." },
-        { "speaker": "Nacho", "nl": "Cuando quieras, hombre.", "en": "Whenever you like, man." }
+        { "speaker": "Nacho", "target": "Hoy me he levantado a las seis, como siempre.", "en": "Today I got up at six, like always." },
+        { "speaker": "You", "target": "¡Qué pronto! ¿Te has duchado en casa o en el gimnasio?", "en": "So early! Did you shower at home or at the gym?" },
+        { "speaker": "Nacho", "target": "En casa. Mi hija se ha despertado también, muy temprano.", "en": "At home. My daughter woke up too, very early." },
+        { "speaker": "You", "target": "¿Os habéis vestido rápido?", "en": "Did you all get dressed quickly?", "spotlight": "os habéis vestido — the vosotros reflexive perfecto." },
+        { "speaker": "Nacho", "target": "Sí, nos hemos vestido en diez minutos. En el pueblo todo es más tranquilo, la verdad.", "en": "Yeah, we got dressed in ten minutes. Back in the village everything's calmer, honestly." },
+        { "speaker": "You", "target": "Algún día tengo que ir a visitar tu pueblo.", "en": "One day I have to go visit your village." },
+        { "speaker": "Nacho", "target": "Cuando quieras, hombre.", "en": "Whenever you like, man." }
       ]
     },
     {

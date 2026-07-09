@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-74",
   "day": 74,
   "module": "M11",
@@ -27,12 +27,12 @@
       "type": "chips",
       "title": "Rettungssätze — tap to hear your lifelines",
       "items": [
-        { "nl": "Moment, wie sagt man das noch?", "en": "Hang on, how do you say it again?", "speak": "Moment, wie sagt man das noch?" },
-        { "nl": "Lass mich kurz überlegen.", "en": "Let me think for a sec.", "speak": "Lass mich kurz überlegen." },
-        { "nl": "Egal, du weißt, was ich meine.", "en": "Never mind, you know what I mean.", "speak": "Egal, du weißt, was ich meine." },
-        { "nl": "Wie heißt das noch mal?", "en": "What's it called again?", "speak": "Wie heißt das noch mal?" },
-        { "nl": "Ist auch egal — jedenfalls…", "en": "Doesn't matter anyway — anyway…", "speak": "Ist auch egal, jedenfalls…" },
-        { "nl": "Dem, den… ach, du verstehst mich.", "en": "Dem, den… ah, you get me.", "speak": "Dem, den, ach, du verstehst mich." }
+        { "target": "Moment, wie sagt man das noch?", "en": "Hang on, how do you say it again?", "speak": "Moment, wie sagt man das noch?" },
+        { "target": "Lass mich kurz überlegen.", "en": "Let me think for a sec.", "speak": "Lass mich kurz überlegen." },
+        { "target": "Egal, du weißt, was ich meine.", "en": "Never mind, you know what I mean.", "speak": "Egal, du weißt, was ich meine." },
+        { "target": "Wie heißt das noch mal?", "en": "What's it called again?", "speak": "Wie heißt das noch mal?" },
+        { "target": "Ist auch egal — jedenfalls…", "en": "Doesn't matter anyway — anyway…", "speak": "Ist auch egal, jedenfalls…" },
+        { "target": "Dem, den… ach, du verstehst mich.", "en": "Dem, den… ah, you get me.", "speak": "Dem, den, ach, du verstehst mich." }
       ]
     },
     {
@@ -72,14 +72,14 @@
       "type": "dialogue",
       "scene": "You just got off the phone with your landlord and you're rattled — you fumbled every case.",
       "lines": [
-        { "speaker": "You", "nl": "Ich habe eben mit dem Vermieter geredet und alle Fälle verwechselt.", "en": "I just talked to the landlord and mixed up all the cases." },
-        { "speaker": "Lena", "nl": "Na und? Hat er dich verstanden?", "en": "So what? Did he understand you?" },
-        { "speaker": "You", "nl": "Schon, aber ich habe ständig „den“ statt „dem“ gesagt.", "en": "Yeah, but I kept saying 'den' instead of 'dem'." },
-        { "speaker": "Lena", "nl": "Ehrlich, das merkt kaum jemand. Wir hören den Sinn, nicht die Endung.", "en": "Honestly, hardly anyone notices. We hear the meaning, not the ending.", "spotlight": "The core reassurance: natives decode **meaning**, and a wrong ending rarely blocks it." },
-        { "speaker": "You", "nl": "Aber ich friere jedes Mal ein, wenn ich nachdenken muss.", "en": "But I freeze up every time I have to think." },
-        { "speaker": "Lena", "nl": "Dann denk nicht nach. Sag's, reparier kurz, mach weiter. „Dem… den… egal.“ Fertig.", "en": "Then don't think. Say it, fix it briefly, keep going. 'Dem… den… whatever.' Done.", "spotlight": "Lena models default-and-repair out loud — exactly the move." },
-        { "speaker": "You", "nl": "Also einfach weiterreden?", "en": "So just keep talking?" },
-        { "speaker": "Lena", "nl": "Genau. Ein falscher Artikel ist kein Beinbruch. Stillschweigen schon.", "en": "Exactly. A wrong article is no big deal. Silence is.", "spotlight": "*kein Beinbruch* = 'no broken leg', i.e. no big deal — a very German way to say relax." }
+        { "speaker": "You", "target": "Ich habe eben mit dem Vermieter geredet und alle Fälle verwechselt.", "en": "I just talked to the landlord and mixed up all the cases." },
+        { "speaker": "Lena", "target": "Na und? Hat er dich verstanden?", "en": "So what? Did he understand you?" },
+        { "speaker": "You", "target": "Schon, aber ich habe ständig „den“ statt „dem“ gesagt.", "en": "Yeah, but I kept saying 'den' instead of 'dem'." },
+        { "speaker": "Lena", "target": "Ehrlich, das merkt kaum jemand. Wir hören den Sinn, nicht die Endung.", "en": "Honestly, hardly anyone notices. We hear the meaning, not the ending.", "spotlight": "The core reassurance: natives decode **meaning**, and a wrong ending rarely blocks it." },
+        { "speaker": "You", "target": "Aber ich friere jedes Mal ein, wenn ich nachdenken muss.", "en": "But I freeze up every time I have to think." },
+        { "speaker": "Lena", "target": "Dann denk nicht nach. Sag's, reparier kurz, mach weiter. „Dem… den… egal.“ Fertig.", "en": "Then don't think. Say it, fix it briefly, keep going. 'Dem… den… whatever.' Done.", "spotlight": "Lena models default-and-repair out loud — exactly the move." },
+        { "speaker": "You", "target": "Also einfach weiterreden?", "en": "So just keep talking?" },
+        { "speaker": "Lena", "target": "Genau. Ein falscher Artikel ist kein Beinbruch. Stillschweigen schon.", "en": "Exactly. A wrong article is no big deal. Silence is.", "spotlight": "*kein Beinbruch* = 'no broken leg', i.e. no big deal — a very German way to say relax." }
       ]
     },
     {

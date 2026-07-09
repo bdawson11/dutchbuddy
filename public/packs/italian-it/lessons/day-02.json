@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-02",
   "day": 2,
   "module": "M01",
@@ -29,12 +29,12 @@
       "type": "chips",
       "title": "Hear the hard/soft split",
       "items": [
-        { "nl": "cane", "en": "dog (hard: KA)", "speak": "cane" },
-        { "nl": "cena", "en": "dinner (soft: CHE)", "speak": "cena" },
-        { "nl": "gatto", "en": "cat (hard: GA)", "speak": "gatto" },
-        { "nl": "gelato", "en": "ice cream (soft: JE)", "speak": "gelato" },
-        { "nl": "chiave", "en": "key (h keeps it hard)", "speak": "chiave" },
-        { "nl": "spaghetti", "en": "spaghetti (gh = hard g)", "speak": "spaghetti" }
+        { "target": "cane", "en": "dog (hard: KA)", "speak": "cane" },
+        { "target": "cena", "en": "dinner (soft: CHE)", "speak": "cena" },
+        { "target": "gatto", "en": "cat (hard: GA)", "speak": "gatto" },
+        { "target": "gelato", "en": "ice cream (soft: JE)", "speak": "gelato" },
+        { "target": "chiave", "en": "key (h keeps it hard)", "speak": "chiave" },
+        { "target": "spaghetti", "en": "spaghetti (gh = hard g)", "speak": "spaghetti" }
       ]
     },
     {
@@ -54,10 +54,10 @@
       "type": "shadow",
       "title": "Repeat the tricky three",
       "lines": [
-        { "nl": "signora", "en": "lady / Mrs (gn = ny)" },
-        { "nl": "famiglia", "en": "family (gli = wet lli)" },
-        { "nl": "pesce", "en": "fish (sc = sh)" },
-        { "nl": "gnocchi", "en": "gnocchi (gn = ny)" }
+        { "target": "signora", "en": "lady / Mrs (gn = ny)" },
+        { "target": "famiglia", "en": "family (gli = wet lli)" },
+        { "target": "pesce", "en": "fish (sc = sh)" },
+        { "target": "gnocchi", "en": "gnocchi (gn = ny)" }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-93",
   "day": 93,
   "module": "M14",
@@ -35,11 +35,11 @@
       "type": "chips",
       "title": "Ascolta e ripeti",
       "items": [
-        { "nl": "Se avessi tempo, verrei con te.", "en": "If I had time, I'd come with you.", "speak": "Se avessi tempo, verrei con te." },
-        { "nl": "Se fossi in te, ci penserei.", "en": "If I were you, I'd think about it.", "speak": "Se fossi in te, ci penserei." },
-        { "nl": "Se potessi, partirei subito.", "en": "If I could, I'd leave right away.", "speak": "Se potessi, partirei subito." },
-        { "nl": "Se vincessi alla lotteria, comprerei una casa.", "en": "If I won the lottery, I'd buy a house.", "speak": "Se vincessi alla lotteria, comprerei una casa." },
-        { "nl": "Se sapessi la risposta, te la direi.", "en": "If I knew the answer, I'd tell you.", "speak": "Se sapessi la risposta, te la direi." }
+        { "target": "Se avessi tempo, verrei con te.", "en": "If I had time, I'd come with you.", "speak": "Se avessi tempo, verrei con te." },
+        { "target": "Se fossi in te, ci penserei.", "en": "If I were you, I'd think about it.", "speak": "Se fossi in te, ci penserei." },
+        { "target": "Se potessi, partirei subito.", "en": "If I could, I'd leave right away.", "speak": "Se potessi, partirei subito." },
+        { "target": "Se vincessi alla lotteria, comprerei una casa.", "en": "If I won the lottery, I'd buy a house.", "speak": "Se vincessi alla lotteria, comprerei una casa." },
+        { "target": "Se sapessi la risposta, te la direi.", "en": "If I knew the answer, I'd tell you.", "speak": "Se sapessi la risposta, te la direi." }
       ]
     },
     {
@@ -78,14 +78,14 @@
       "type": "dialogue",
       "scene": "Daydreaming with Giulia over coffee.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Se potessi vivere ovunque, dove andresti?", "en": "If you could live anywhere, where would you go?" },
-        { "speaker": "You", "nl": "Bella domanda. Se avessi i soldi, resterei in Italia.", "en": "Good question. If I had the money, I'd stay in Italy.", "spotlight": "tipo II: se avessi… resterei." },
-        { "speaker": "Giulia", "nl": "Ma dai! E cosa faresti?", "en": "Aw! And what would you do?" },
-        { "speaker": "You", "nl": "Se trovassi un buon lavoro, aprirei uno studio qui.", "en": "If I found a good job, I'd open a studio here." },
-        { "speaker": "Giulia", "nl": "Se fossi in te, ci proverei davvero.", "en": "If I were you, I'd really give it a shot.", "spotlight": "'se fossi in te' — un consiglio." },
-        { "speaker": "You", "nl": "Ci penso. Se non provassi, me ne pentirei.", "en": "I'm thinking about it. If I didn't try, I'd regret it." },
-        { "speaker": "Giulia", "nl": "Esatto! La vita è una.", "en": "Exactly! You only live once." },
-        { "speaker": "You", "nl": "Hai ragione. Magari un giorno.", "en": "You're right. Maybe one day." }
+        { "speaker": "Giulia", "target": "Se potessi vivere ovunque, dove andresti?", "en": "If you could live anywhere, where would you go?" },
+        { "speaker": "You", "target": "Bella domanda. Se avessi i soldi, resterei in Italia.", "en": "Good question. If I had the money, I'd stay in Italy.", "spotlight": "tipo II: se avessi… resterei." },
+        { "speaker": "Giulia", "target": "Ma dai! E cosa faresti?", "en": "Aw! And what would you do?" },
+        { "speaker": "You", "target": "Se trovassi un buon lavoro, aprirei uno studio qui.", "en": "If I found a good job, I'd open a studio here." },
+        { "speaker": "Giulia", "target": "Se fossi in te, ci proverei davvero.", "en": "If I were you, I'd really give it a shot.", "spotlight": "'se fossi in te' — un consiglio." },
+        { "speaker": "You", "target": "Ci penso. Se non provassi, me ne pentirei.", "en": "I'm thinking about it. If I didn't try, I'd regret it." },
+        { "speaker": "Giulia", "target": "Esatto! La vita è una.", "en": "Exactly! You only live once." },
+        { "speaker": "You", "target": "Hai ragione. Magari un giorno.", "en": "You're right. Maybe one day." }
       ]
     },
     {

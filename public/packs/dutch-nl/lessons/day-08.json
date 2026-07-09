@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-08",
   "day": 8,
   "module": "M02",
@@ -30,14 +30,14 @@
       "type": "chips",
       "title": "Tap to hear 0 to 10",
       "items": [
-        { "nl": "nul", "en": "0", "speak": "nul" },
-        { "nl": "een", "en": "1", "speak": "een" },
-        { "nl": "twee", "en": "2", "speak": "twee" },
-        { "nl": "drie", "en": "3", "speak": "drie" },
-        { "nl": "vier", "en": "4", "speak": "vier" },
-        { "nl": "vijf", "en": "5", "speak": "vijf" },
-        { "nl": "zes", "en": "6", "speak": "zes" },
-        { "nl": "zeven", "en": "7", "speak": "zeven" }
+        { "target": "nul", "en": "0", "speak": "nul" },
+        { "target": "een", "en": "1", "speak": "een" },
+        { "target": "twee", "en": "2", "speak": "twee" },
+        { "target": "drie", "en": "3", "speak": "drie" },
+        { "target": "vier", "en": "4", "speak": "vier" },
+        { "target": "vijf", "en": "5", "speak": "vijf" },
+        { "target": "zes", "en": "6", "speak": "zes" },
+        { "target": "zeven", "en": "7", "speak": "zeven" }
       ]
     },
     {
@@ -86,12 +86,12 @@
       "type": "chips",
       "title": "Hear the reversed tens",
       "items": [
-        { "nl": "eenentwintig", "en": "21", "speak": "eenentwintig" },
-        { "nl": "tweeëntwintig", "en": "22", "speak": "tweeentwintig" },
-        { "nl": "vierentwintig", "en": "24", "speak": "vierentwintig" },
-        { "nl": "zevenenveertig", "en": "47", "speak": "zevenenveertig" },
-        { "nl": "achtenzestig", "en": "68", "speak": "achtenzestig" },
-        { "nl": "negenennegentig", "en": "99", "speak": "negenennegentig" }
+        { "target": "eenentwintig", "en": "21", "speak": "eenentwintig" },
+        { "target": "tweeëntwintig", "en": "22", "speak": "tweeentwintig" },
+        { "target": "vierentwintig", "en": "24", "speak": "vierentwintig" },
+        { "target": "zevenenveertig", "en": "47", "speak": "zevenenveertig" },
+        { "target": "achtenzestig", "en": "68", "speak": "achtenzestig" },
+        { "target": "negenennegentig", "en": "99", "speak": "negenennegentig" }
       ]
     },
     {

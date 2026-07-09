@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-10",
   "day": 10,
   "module": "M02",
@@ -44,10 +44,10 @@
       "type": "chips",
       "title": "Escucha y repite",
       "items": [
-        { "nl": "¿qué hora es?", "en": "what time is it?", "speak": "¿qué hora es?" },
-        { "nl": "es la una", "en": "it's one o'clock", "speak": "es la una" },
-        { "nl": "son las tres y cuarto", "en": "it's quarter past three", "speak": "son las tres y cuarto" },
-        { "nl": "son las cinco menos cuarto", "en": "it's quarter to five", "speak": "son las cinco menos cuarto" }
+        { "target": "¿qué hora es?", "en": "what time is it?", "speak": "¿qué hora es?" },
+        { "target": "es la una", "en": "it's one o'clock", "speak": "es la una" },
+        { "target": "son las tres y cuarto", "en": "it's quarter past three", "speak": "son las tres y cuarto" },
+        { "target": "son las cinco menos cuarto", "en": "it's quarter to five", "speak": "son las cinco menos cuarto" }
       ]
     },
     {
@@ -107,10 +107,10 @@
       "type": "dialogue",
       "scene": "Nacho and You planning a coffee, mentioning day and time",
       "lines": [
-        { "speaker": "Nacho", "nl": "¿Quedamos el jueves?", "en": "Shall we meet on Thursday?" },
-        { "speaker": "You", "nl": "Vale, ¿a qué hora?", "en": "Okay, what time?" },
-        { "speaker": "Nacho", "nl": "A las diez y media de la mañana, en el bar de siempre.", "en": "At half past ten in the morning, at the usual bar.", "spotlight": "'de la mañana' clarifies AM, since Spanish doesn't use am/pm." },
-        { "speaker": "You", "nl": "Perfecto, el jueves a las diez y media. ¡Hasta entonces!", "en": "Perfect, Thursday at half past ten. See you then!" }
+        { "speaker": "Nacho", "target": "¿Quedamos el jueves?", "en": "Shall we meet on Thursday?" },
+        { "speaker": "You", "target": "Vale, ¿a qué hora?", "en": "Okay, what time?" },
+        { "speaker": "Nacho", "target": "A las diez y media de la mañana, en el bar de siempre.", "en": "At half past ten in the morning, at the usual bar.", "spotlight": "'de la mañana' clarifies AM, since Spanish doesn't use am/pm." },
+        { "speaker": "You", "target": "Perfecto, el jueves a las diez y media. ¡Hasta entonces!", "en": "Perfect, Thursday at half past ten. See you then!" }
       ]
     },
     {

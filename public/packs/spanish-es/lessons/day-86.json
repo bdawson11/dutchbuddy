@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-86",
   "day": 86,
   "module": "M13",
@@ -37,11 +37,11 @@
       "type": "chips",
       "title": "Detonadores en pasado — toca y repite",
       "items": [
-        { "nl": "me pidió que le ayudara", "en": "he asked me to help him", "speak": "me pidió que le ayudara" },
-        { "nl": "no creía que fuera verdad", "en": "I didn't think it was true", "speak": "no creía que fuera verdad" },
-        { "nl": "sería mejor que fuéramos", "en": "it'd be better if we went", "speak": "sería mejor que fuéramos" },
-        { "nl": "buscaba a alguien que supiera inglés", "en": "she was looking for someone who knew English", "speak": "buscaba a alguien que supiera inglés" },
-        { "nl": "me alegré de que vinieras", "en": "I was glad you came", "speak": "me alegré de que vinieras" }
+        { "target": "me pidió que le ayudara", "en": "he asked me to help him", "speak": "me pidió que le ayudara" },
+        { "target": "no creía que fuera verdad", "en": "I didn't think it was true", "speak": "no creía que fuera verdad" },
+        { "target": "sería mejor que fuéramos", "en": "it'd be better if we went", "speak": "sería mejor que fuéramos" },
+        { "target": "buscaba a alguien que supiera inglés", "en": "she was looking for someone who knew English", "speak": "buscaba a alguien que supiera inglés" },
+        { "target": "me alegré de que vinieras", "en": "I was glad you came", "speak": "me alegré de que vinieras" }
       ]
     },
     {
@@ -79,11 +79,11 @@
       "type": "dialogue",
       "scene": "Rafa is telling you about a friend's questionable advice.",
       "lines": [
-        { "speaker": "Rafa", "nl": "El otro día un colega me dijo que dejara el curro y montara una banda a tiempo completo.", "en": "The other day a mate told me to quit my job and start a band full-time.", "spotlight": "*Dijo* (past) → two subjuntivos imperfectos: *dejara* and *montara*." },
-        { "speaker": "You", "nl": "Hombre, no estaría mal… ¿y tú qué le dijiste?", "en": "I mean, that wouldn't be bad… and what did you tell him?" },
-        { "speaker": "Rafa", "nl": "Que ojalá pudiera, pero que no me parecía sensato que lo dejara todo así.", "en": "That I wish I could, but that it didn't seem sensible to me to drop everything like that." },
-        { "speaker": "You", "nl": "Ya. Yo también preferiría que no te arriesgaras tanto, la verdad.", "en": "Yeah. I'd also rather you didn't take such a big risk, honestly." },
-        { "speaker": "Rafa", "nl": "Buah, sois todos igual de aburridos. Pero tenéis razón, no era el momento.", "en": "Ugh, you're all equally boring. But you're right, it wasn't the moment." }
+        { "speaker": "Rafa", "target": "El otro día un colega me dijo que dejara el curro y montara una banda a tiempo completo.", "en": "The other day a mate told me to quit my job and start a band full-time.", "spotlight": "*Dijo* (past) → two subjuntivos imperfectos: *dejara* and *montara*." },
+        { "speaker": "You", "target": "Hombre, no estaría mal… ¿y tú qué le dijiste?", "en": "I mean, that wouldn't be bad… and what did you tell him?" },
+        { "speaker": "Rafa", "target": "Que ojalá pudiera, pero que no me parecía sensato que lo dejara todo así.", "en": "That I wish I could, but that it didn't seem sensible to me to drop everything like that." },
+        { "speaker": "You", "target": "Ya. Yo también preferiría que no te arriesgaras tanto, la verdad.", "en": "Yeah. I'd also rather you didn't take such a big risk, honestly." },
+        { "speaker": "Rafa", "target": "Buah, sois todos igual de aburridos. Pero tenéis razón, no era el momento.", "en": "Ugh, you're all equally boring. But you're right, it wasn't the moment." }
       ]
     },
     {

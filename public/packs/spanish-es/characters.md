@@ -91,13 +91,13 @@ dialogue must be in the manifest `cast` — that now includes **Marta** and **Da
 #### Marta — the professional anchor (Sevilla) — *Andalusian exposure*
 - **Who:** ~35, Sevillana, HR / recruitment lead. The learner meets her through work (Lucía's orbit). Warm, sharp, quick Sevillana wit; professional-but-relaxed.
 - **Role in the arc:** the **professional-Spanish** vehicle — the mock *entrevista de trabajo* (day 118 immersion), the *email formal* and *usted* register, and career-trajectory talk (day 104, setting up the professional weeks). Also the **Andalusian-accent exposure** voice.
-- **Accent handling (critical):** Marta's dialogue `nl`/`speak` is written in **standard Castilian spelling** so the learner isn't taught to reproduce a regional accent. Her Andalusian **features are described in card text only** (*aspiración de eses* → *"loh doh"*, dropped intervocalic *-d-* → *"cansá"*, *illo/quillo*, seseo in parts of Andalucía). **Exposure-only: Castilian stays the target.** Never make comprehension hinge on the accent; never rely on TTS to render it.
+- **Accent handling (critical):** Marta's dialogue `target`/`speak` is written in **standard Castilian spelling** so the learner isn't taught to reproduce a regional accent. Her Andalusian **features are described in card text only** (*aspiración de eses* → *"loh doh"*, dropped intervocalic *-d-* → *"cansá"*, *illo/quillo*, seseo in parts of Andalucía). **Exposure-only: Castilian stays the target.** Never make comprehension hinge on the accent; never rely on TTS to render it.
 - **Speech markers (lexical, safe to voice):** *illo, quillo, mi arma* (as warmth), *¿tú sabes?*, professional register when working (*¿te parece que…?, cuéntame*).
 
 #### Dani (Daniel) — canario exposure, cameo (Las Palmas)
 - **Who:** ~28, canario from Las Palmas, remote worker; the learner meets him through Sofía. Relaxed, friendly, island-paced.
 - **Role in the arc:** the **Canarian-accent exposure** voice — a **cameo** on the regional-exposure/finale immersion days (118 and 125), not a load-bearing character. His great teaching gift: Canarias uses **ustedes for informal plural** (the one corner of Spain that drops *vosotros*), plus *seseo* and island lexis.
-- **Accent handling:** same rule as Marta — standard spelling in `nl`, **features named in card text only** (*seseo*, *ustedes* not *vosotros*, *guagua* = bus, *chacho*). Exposure-only.
+- **Accent handling:** same rule as Marta — standard spelling in `target`, **features named in card text only** (*seseo*, *ustedes* not *vosotros*, *guagua* = bus, *chacho*). Exposure-only.
 - **Speech markers:** *chacho, ¿ustedes quieren…?* (informal!), *la guagua*, *fino* (nice).
 
 ### Season-2 story anchors (keep day-exact)

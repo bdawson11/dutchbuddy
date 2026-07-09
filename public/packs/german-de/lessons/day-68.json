@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-68",
   "day": 68,
   "module": "M10",
@@ -36,11 +36,11 @@
       "type": "chips",
       "title": "Zwei-Verb-Sätze — tap to hear",
       "items": [
-        { "nl": "Ich will morgen nach Hause fahren.", "en": "I want to go home tomorrow.", "speak": "Ich will morgen nach Hause fahren." },
-        { "nl": "Wir müssen die Kisten packen.", "en": "We have to pack the boxes.", "speak": "Wir müssen die Kisten packen." },
-        { "nl": "Kannst du mir am Samstag helfen?", "en": "Can you help me on Saturday?", "speak": "Kannst du mir am Samstag helfen?" },
-        { "nl": "Ich möchte bald umziehen.", "en": "I'd like to move soon.", "speak": "Ich möchte bald umziehen." },
-        { "nl": "Sie will den Job annehmen.", "en": "She wants to take the job.", "speak": "Sie will den Job annehmen." }
+        { "target": "Ich will morgen nach Hause fahren.", "en": "I want to go home tomorrow.", "speak": "Ich will morgen nach Hause fahren." },
+        { "target": "Wir müssen die Kisten packen.", "en": "We have to pack the boxes.", "speak": "Wir müssen die Kisten packen." },
+        { "target": "Kannst du mir am Samstag helfen?", "en": "Can you help me on Saturday?", "speak": "Kannst du mir am Samstag helfen?" },
+        { "target": "Ich möchte bald umziehen.", "en": "I'd like to move soon.", "speak": "Ich möchte bald umziehen." },
+        { "target": "Sie will den Job annehmen.", "en": "She wants to take the job.", "speak": "Sie will den Job annehmen." }
       ]
     },
     {
@@ -78,13 +78,13 @@
       "type": "dialogue",
       "scene": "Lena texts you about the weekend; a possible move is in the air.",
       "lines": [
-        { "speaker": "Lena", "nl": "Was hast du am Wochenende vor? Ich muss ein paar Sachen erledigen.", "en": "What are your plans this weekend? I've got a few things to get done.", "spotlight": "*Ich muss … erledigen* — modal slot 2, infinitive at the end." },
-        { "speaker": "You", "nl": "Nicht viel. Warum? Willst du etwas zusammen machen?", "en": "Not much. Why? Do you want to do something together?" },
-        { "speaker": "Lena", "nl": "Kann sein, dass wir Aylin beim Packen helfen müssen.", "en": "It might be that we'll have to help Aylin pack.", "spotlight": "*…, dass wir … helfen müssen* — finite *müssen* at the very end." },
-        { "speaker": "You", "nl": "Oh! Hat sie sich also entschieden?", "en": "Oh! So she's decided?" },
-        { "speaker": "Lena", "nl": "Fast. Sie will diese Woche endgültig zusagen. Dann geht's schnell.", "en": "Almost. She wants to say yes for good this week. Then it'll move fast.", "spotlight": "Still 'almost' — the decision lands this week, not done yet." },
-        { "speaker": "You", "nl": "Dann halte ich mir den Samstag frei.", "en": "Then I'll keep Saturday free." },
-        { "speaker": "Lena", "nl": "Perfekt. Ich schreib dir, sobald ich mehr weiß.", "en": "Perfect. I'll message you as soon as I know more." }
+        { "speaker": "Lena", "target": "Was hast du am Wochenende vor? Ich muss ein paar Sachen erledigen.", "en": "What are your plans this weekend? I've got a few things to get done.", "spotlight": "*Ich muss … erledigen* — modal slot 2, infinitive at the end." },
+        { "speaker": "You", "target": "Nicht viel. Warum? Willst du etwas zusammen machen?", "en": "Not much. Why? Do you want to do something together?" },
+        { "speaker": "Lena", "target": "Kann sein, dass wir Aylin beim Packen helfen müssen.", "en": "It might be that we'll have to help Aylin pack.", "spotlight": "*…, dass wir … helfen müssen* — finite *müssen* at the very end." },
+        { "speaker": "You", "target": "Oh! Hat sie sich also entschieden?", "en": "Oh! So she's decided?" },
+        { "speaker": "Lena", "target": "Fast. Sie will diese Woche endgültig zusagen. Dann geht's schnell.", "en": "Almost. She wants to say yes for good this week. Then it'll move fast.", "spotlight": "Still 'almost' — the decision lands this week, not done yet." },
+        { "speaker": "You", "target": "Dann halte ich mir den Samstag frei.", "en": "Then I'll keep Saturday free." },
+        { "speaker": "Lena", "target": "Perfekt. Ich schreib dir, sobald ich mehr weiß.", "en": "Perfect. I'll message you as soon as I know more." }
       ]
     },
     {

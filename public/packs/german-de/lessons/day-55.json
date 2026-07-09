@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-55",
   "day": 55,
   "module": "M08",
@@ -20,11 +20,11 @@
       "type": "chips",
       "title": "Woche 8 in Wörtern",
       "items": [
-        { "nl": "Ich werde…", "en": "I will…", "speak": "Ich werde" },
-        { "nl": "Sollen wir…?", "en": "Shall we…?", "speak": "Sollen wir" },
-        { "nl": "Ich finde, dass…", "en": "I think that…", "speak": "Ich finde, dass" },
-        { "nl": "…, weil…", "en": "…, because…", "speak": "weil" },
-        { "nl": "am besten", "en": "the best", "speak": "am besten" }
+        { "target": "Ich werde…", "en": "I will…", "speak": "Ich werde" },
+        { "target": "Sollen wir…?", "en": "Shall we…?", "speak": "Sollen wir" },
+        { "target": "Ich finde, dass…", "en": "I think that…", "speak": "Ich finde, dass" },
+        { "target": "…, weil…", "en": "…, because…", "speak": "weil" },
+        { "target": "am besten", "en": "the best", "speak": "am besten" }
       ]
     },
     {
@@ -45,12 +45,12 @@
       "type": "dialogue",
       "scene": "At the Kneipe, Jonas gets provocative: must every expat in Germany learn German?",
       "lines": [
-        { "speaker": "Jonas", "nl": "Ich finde, dass man hier Deutsch lernen muss. Punkt.", "en": "I think you have to learn German here. Period.", "spotlight": "dass-clause: the modal (muss) closes it out, after the infinitive (lernen)." },
-        { "speaker": "Lena", "nl": "Na ja, so einfach ist das nicht. Manche arbeiten nur auf Englisch.", "en": "Well, it's not that simple. Some people only work in English." },
-        { "speaker": "Jonas", "nl": "Trotzdem — wenn man hier lebt, sollte man es wenigstens versuchen.", "en": "Still — if you live here, you should at least try.", "spotlight": "wenn man hier lebt — verb (lebt) at the end of the wenn-clause." },
-        { "speaker": "You", "nl": "Meiner Meinung nach ist es am besten, langsam anzufangen.", "en": "In my opinion, it's best to start slowly." },
-        { "speaker": "Jonas", "nl": "Echt jetzt? Na gut — ich geb's zu, Deutsch ist auch für mich manchmal schwerer als gedacht.", "en": "Really? Okay fine — I admit it, German is sometimes harder than I thought, even for me.", "spotlight": "Jonas softens his blunt opening — his classic move." },
-        { "speaker": "Lena", "nl": "Siehst du? Wir werden das schon gemeinsam schaffen.", "en": "See? We'll manage it together." }
+        { "speaker": "Jonas", "target": "Ich finde, dass man hier Deutsch lernen muss. Punkt.", "en": "I think you have to learn German here. Period.", "spotlight": "dass-clause: the modal (muss) closes it out, after the infinitive (lernen)." },
+        { "speaker": "Lena", "target": "Na ja, so einfach ist das nicht. Manche arbeiten nur auf Englisch.", "en": "Well, it's not that simple. Some people only work in English." },
+        { "speaker": "Jonas", "target": "Trotzdem — wenn man hier lebt, sollte man es wenigstens versuchen.", "en": "Still — if you live here, you should at least try.", "spotlight": "wenn man hier lebt — verb (lebt) at the end of the wenn-clause." },
+        { "speaker": "You", "target": "Meiner Meinung nach ist es am besten, langsam anzufangen.", "en": "In my opinion, it's best to start slowly." },
+        { "speaker": "Jonas", "target": "Echt jetzt? Na gut — ich geb's zu, Deutsch ist auch für mich manchmal schwerer als gedacht.", "en": "Really? Okay fine — I admit it, German is sometimes harder than I thought, even for me.", "spotlight": "Jonas softens his blunt opening — his classic move." },
+        { "speaker": "Lena", "target": "Siehst du? Wir werden das schon gemeinsam schaffen.", "en": "See? We'll manage it together." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-30",
   "day": 30,
   "module": "M05",
@@ -34,14 +34,14 @@
       "type": "chips",
       "title": "Escucha los ocho irregulares",
       "items": [
-        { "nl": "he hecho", "en": "I've done / made", "speak": "he hecho" },
-        { "nl": "has dicho", "en": "you've said", "speak": "has dicho" },
-        { "nl": "ha visto", "en": "she's seen", "speak": "ha visto" },
-        { "nl": "hemos puesto", "en": "we've put", "speak": "hemos puesto" },
-        { "nl": "habéis vuelto", "en": "you all have returned", "speak": "habéis vuelto" },
-        { "nl": "han escrito", "en": "they've written", "speak": "han escrito" },
-        { "nl": "he roto", "en": "I've broken", "speak": "he roto" },
-        { "nl": "has abierto", "en": "you've opened", "speak": "has abierto" }
+        { "target": "he hecho", "en": "I've done / made", "speak": "he hecho" },
+        { "target": "has dicho", "en": "you've said", "speak": "has dicho" },
+        { "target": "ha visto", "en": "she's seen", "speak": "ha visto" },
+        { "target": "hemos puesto", "en": "we've put", "speak": "hemos puesto" },
+        { "target": "habéis vuelto", "en": "you all have returned", "speak": "habéis vuelto" },
+        { "target": "han escrito", "en": "they've written", "speak": "han escrito" },
+        { "target": "he roto", "en": "I've broken", "speak": "he roto" },
+        { "target": "has abierto", "en": "you've opened", "speak": "has abierto" }
       ]
     },
     {
@@ -92,12 +92,12 @@
       "type": "dialogue",
       "scene": "At the bookshop, Rafa brags about his day.",
       "lines": [
-        { "speaker": "Rafa", "nl": "Tío, ¿qué has hecho hoy?", "en": "Dude, what have you done today?" },
-        { "speaker": "You", "nl": "He escrito un correo importante y he visto a Nacho.", "en": "I've written an important email and I've seen Nacho.", "spotlight": "he escrito, he visto — two of the eight irregulars in one line." },
-        { "speaker": "Rafa", "nl": "¿En serio? Yo he abierto la librería a las nueve y he puesto música todo el día.", "en": "Really? I opened the bookshop at nine and I've played music all day." },
-        { "speaker": "You", "nl": "¿Y qué tal el día en la librería?", "en": "And how's the day at the bookshop going?" },
-        { "speaker": "Rafa", "nl": "Pues nada, un cliente ha roto un libro sin querer. Menos mal que no he roto nada yo.", "en": "Well, a customer accidentally broke a book. Good thing I haven't broken anything." },
-        { "speaker": "You", "nl": "¡Vaya día! Por suerte no es nada grave.", "en": "What a day! Luckily it's nothing serious." }
+        { "speaker": "Rafa", "target": "Tío, ¿qué has hecho hoy?", "en": "Dude, what have you done today?" },
+        { "speaker": "You", "target": "He escrito un correo importante y he visto a Nacho.", "en": "I've written an important email and I've seen Nacho.", "spotlight": "he escrito, he visto — two of the eight irregulars in one line." },
+        { "speaker": "Rafa", "target": "¿En serio? Yo he abierto la librería a las nueve y he puesto música todo el día.", "en": "Really? I opened the bookshop at nine and I've played music all day." },
+        { "speaker": "You", "target": "¿Y qué tal el día en la librería?", "en": "And how's the day at the bookshop going?" },
+        { "speaker": "Rafa", "target": "Pues nada, un cliente ha roto un libro sin querer. Menos mal que no he roto nada yo.", "en": "Well, a customer accidentally broke a book. Good thing I haven't broken anything." },
+        { "speaker": "You", "target": "¡Vaya día! Por suerte no es nada grave.", "en": "What a day! Luckily it's nothing serious." }
       ]
     },
     {

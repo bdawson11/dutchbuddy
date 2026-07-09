@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-62",
   "day": 62,
   "module": "M09",
@@ -39,14 +39,14 @@
       "type": "dialogue",
       "scene": "Sanne calls you and Emma, buzzing but nervous — she has news",
       "lines": [
-        { "speaker": "Sanne", "nl": "Jongens, ik moet iets vertellen. Een bedrijf in Utrecht belde me gisteren.", "en": "Guys, I have to tell you something. A company in Utrecht called me yesterday." },
-        { "speaker": "Emma", "nl": "Echt? Wat zeiden ze?", "en": "Really? What did they say?" },
-        { "speaker": "Sanne", "nl": "De manager zei dat ze me een baan willen aanbieden. Als UX-designer.", "en": "The manager said they want to offer me a job. As a UX designer.", "spotlight": "indirecte rede: *…zei dat ze me een baan willen aanbieden.*" },
-        { "speaker": "You", "nl": "Wauw, gefeliciteerd! Vroegen ze nog iets?", "en": "Wow, congrats! Did they ask anything?" },
-        { "speaker": "Sanne", "nl": "Ze vroegen of ik volgende week kon langskomen. En of ik snel kon beslissen.", "en": "They asked if I could come by next week. And if I could decide quickly.", "spotlight": "vraag doorvertellen: *of ik … kon langskomen.*" },
-        { "speaker": "Emma", "nl": "En? Ga je het doen?", "en": "And? Are you going to do it?" },
-        { "speaker": "Sanne", "nl": "Ik weet het nog niet, hoor. Hoewel het een geweldige kans is, twijfel ik echt.", "en": "I don't know yet, honestly. Although it's a great chance, I really doubt.", "spotlight": "hoewel + werkwoord achteraan; Sanne heeft nog niét besloten." },
-        { "speaker": "Sanne", "nl": "Als ik ja zou zeggen, zou ik naar Utrecht moeten verhuizen. Dat is nogal wat.", "en": "If I said yes, I'd have to move to Utrecht. That's quite something.", "spotlight": "hypothetische als-zin + zou: het is nog een dróóm, geen besluit." }
+        { "speaker": "Sanne", "target": "Jongens, ik moet iets vertellen. Een bedrijf in Utrecht belde me gisteren.", "en": "Guys, I have to tell you something. A company in Utrecht called me yesterday." },
+        { "speaker": "Emma", "target": "Echt? Wat zeiden ze?", "en": "Really? What did they say?" },
+        { "speaker": "Sanne", "target": "De manager zei dat ze me een baan willen aanbieden. Als UX-designer.", "en": "The manager said they want to offer me a job. As a UX designer.", "spotlight": "indirecte rede: *…zei dat ze me een baan willen aanbieden.*" },
+        { "speaker": "You", "target": "Wauw, gefeliciteerd! Vroegen ze nog iets?", "en": "Wow, congrats! Did they ask anything?" },
+        { "speaker": "Sanne", "target": "Ze vroegen of ik volgende week kon langskomen. En of ik snel kon beslissen.", "en": "They asked if I could come by next week. And if I could decide quickly.", "spotlight": "vraag doorvertellen: *of ik … kon langskomen.*" },
+        { "speaker": "Emma", "target": "En? Ga je het doen?", "en": "And? Are you going to do it?" },
+        { "speaker": "Sanne", "target": "Ik weet het nog niet, hoor. Hoewel het een geweldige kans is, twijfel ik echt.", "en": "I don't know yet, honestly. Although it's a great chance, I really doubt.", "spotlight": "hoewel + werkwoord achteraan; Sanne heeft nog niét besloten." },
+        { "speaker": "Sanne", "target": "Als ik ja zou zeggen, zou ik naar Utrecht moeten verhuizen. Dat is nogal wat.", "en": "If I said yes, I'd have to move to Utrecht. That's quite something.", "spotlight": "hypothetische als-zin + zou: het is nog een dróóm, geen besluit." }
       ]
     },
     {
@@ -62,9 +62,9 @@
       "type": "shadow",
       "title": "Zeg de sleutelzinnen na",
       "lines": [
-        { "nl": "De manager zei dat ze me een baan willen aanbieden.", "en": "The manager said they want to offer me a job." },
-        { "nl": "Ze vroegen of ik snel kon beslissen.", "en": "They asked if I could decide quickly." },
-        { "nl": "Als ik ja zou zeggen, zou ik moeten verhuizen.", "en": "If I said yes, I'd have to move." }
+        { "target": "De manager zei dat ze me een baan willen aanbieden.", "en": "The manager said they want to offer me a job." },
+        { "target": "Ze vroegen of ik snel kon beslissen.", "en": "They asked if I could decide quickly." },
+        { "target": "Als ik ja zou zeggen, zou ik moeten verhuizen.", "en": "If I said yes, I'd have to move." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-50",
   "day": 50,
   "module": "M08",
@@ -43,13 +43,13 @@
       "type": "chips",
       "title": "Wanneer? — time markers",
       "items": [
-        { "nl": "straks", "en": "in a bit (later today)", "speak": "straks" },
-        { "nl": "zo meteen", "en": "in a moment", "speak": "zo meteen" },
-        { "nl": "vanavond", "en": "tonight", "speak": "vanavond" },
-        { "nl": "morgen", "en": "tomorrow", "speak": "morgen" },
-        { "nl": "overmorgen", "en": "the day after tomorrow", "speak": "overmorgen" },
-        { "nl": "volgende week", "en": "next week", "speak": "volgende week" },
-        { "nl": "volgend jaar", "en": "next year", "speak": "volgend jaar" }
+        { "target": "straks", "en": "in a bit (later today)", "speak": "straks" },
+        { "target": "zo meteen", "en": "in a moment", "speak": "zo meteen" },
+        { "target": "vanavond", "en": "tonight", "speak": "vanavond" },
+        { "target": "morgen", "en": "tomorrow", "speak": "morgen" },
+        { "target": "overmorgen", "en": "the day after tomorrow", "speak": "overmorgen" },
+        { "target": "volgende week", "en": "next week", "speak": "volgende week" },
+        { "target": "volgend jaar", "en": "next year", "speak": "volgend jaar" }
       ]
     },
     {
@@ -92,10 +92,10 @@
       "type": "dialogue",
       "scene": "Emma texts you about the weekend",
       "lines": [
-        { "speaker": "Emma", "nl": "Wat ga jij dit weekend doen?", "en": "What are you going to do this weekend?", "spotlight": "ga jij … doen — infinitive parked at the end." },
-        { "speaker": "You", "nl": "Ik ga zaterdag naar de markt en zondag ga ik luieren.", "en": "I'm going to the market on Saturday and Sunday I'm going to laze around." },
-        { "speaker": "Emma", "nl": "Lekker! Zullen we morgen samen koffie drinken?", "en": "Nice! Shall we have coffee together tomorrow?", "spotlight": "Zullen we…? — that's tomorrow's lesson." },
-        { "speaker": "You", "nl": "Ja, gezellig. Straks stuur ik je een berichtje.", "en": "Yes, fun. I'll send you a message in a bit." }
+        { "speaker": "Emma", "target": "Wat ga jij dit weekend doen?", "en": "What are you going to do this weekend?", "spotlight": "ga jij … doen — infinitive parked at the end." },
+        { "speaker": "You", "target": "Ik ga zaterdag naar de markt en zondag ga ik luieren.", "en": "I'm going to the market on Saturday and Sunday I'm going to laze around." },
+        { "speaker": "Emma", "target": "Lekker! Zullen we morgen samen koffie drinken?", "en": "Nice! Shall we have coffee together tomorrow?", "spotlight": "Zullen we…? — that's tomorrow's lesson." },
+        { "speaker": "You", "target": "Ja, gezellig. Straks stuur ik je een berichtje.", "en": "Yes, fun. I'll send you a message in a bit." }
       ]
     },
     {

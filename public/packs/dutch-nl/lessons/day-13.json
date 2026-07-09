@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-13",
   "day": 13,
   "module": "M02",
@@ -29,10 +29,10 @@
       "type": "chips",
       "title": "Hear er is / er zijn",
       "items": [
-        { "nl": "Er is een probleem.", "en": "There is a problem.", "speak": "Er is een probleem." },
-        { "nl": "Er is een winkel om de hoek.", "en": "There's a shop around the corner.", "speak": "Er is een winkel om de hoek." },
-        { "nl": "Er zijn drie kamers.", "en": "There are three rooms.", "speak": "Er zijn drie kamers." },
-        { "nl": "Er zijn geen kaartjes meer.", "en": "There are no tickets left.", "speak": "Er zijn geen kaartjes meer." }
+        { "target": "Er is een probleem.", "en": "There is a problem.", "speak": "Er is een probleem." },
+        { "target": "Er is een winkel om de hoek.", "en": "There's a shop around the corner.", "speak": "Er is een winkel om de hoek." },
+        { "target": "Er zijn drie kamers.", "en": "There are three rooms.", "speak": "Er zijn drie kamers." },
+        { "target": "Er zijn geen kaartjes meer.", "en": "There are no tickets left.", "speak": "Er zijn geen kaartjes meer." }
       ]
     },
     {
@@ -58,10 +58,10 @@
       "type": "chips",
       "title": "Hear the demonstratives",
       "items": [
-        { "nl": "deze fiets", "en": "this bike (de fiets)", "speak": "deze fiets" },
-        { "nl": "die fiets", "en": "that bike", "speak": "die fiets" },
-        { "nl": "dit boek", "en": "this book (het boek)", "speak": "dit boek" },
-        { "nl": "dat boek", "en": "that book", "speak": "dat boek" }
+        { "target": "deze fiets", "en": "this bike (de fiets)", "speak": "deze fiets" },
+        { "target": "die fiets", "en": "that bike", "speak": "die fiets" },
+        { "target": "dit boek", "en": "this book (het boek)", "speak": "dit boek" },
+        { "target": "dat boek", "en": "that book", "speak": "dat boek" }
       ]
     },
     {
@@ -90,9 +90,9 @@
       "type": "dialogue",
       "scene": "At the market — Emma points things out at the cheese stall",
       "lines": [
-        { "speaker": "Emma", "nl": "Kijk, deze kaas is echt lekker.", "en": "Look, this cheese is really tasty.", "spotlight": "*deze kaas* — de-word, so deze. And there's Emma's trademark *Kijk*." },
-        { "speaker": "You", "nl": "En dat brood daar?", "en": "And that bread over there?", "spotlight": "*dat brood* — het-word and far away, so dat." },
-        { "speaker": "Emma", "nl": "Ook goed. En er is verse stroopwafel, hoor!", "en": "Also good. And there's fresh stroopwafel, you know!", "spotlight": "*er is* pointing out what exists at the stall." }
+        { "speaker": "Emma", "target": "Kijk, deze kaas is echt lekker.", "en": "Look, this cheese is really tasty.", "spotlight": "*deze kaas* — de-word, so deze. And there's Emma's trademark *Kijk*." },
+        { "speaker": "You", "target": "En dat brood daar?", "en": "And that bread over there?", "spotlight": "*dat brood* — het-word and far away, so dat." },
+        { "speaker": "Emma", "target": "Ook goed. En er is verse stroopwafel, hoor!", "en": "Also good. And there's fresh stroopwafel, you know!", "spotlight": "*er is* pointing out what exists at the stall." }
       ]
     },
     {

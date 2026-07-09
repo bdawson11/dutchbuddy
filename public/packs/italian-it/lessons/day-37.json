@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-37",
   "day": 37,
   "module": "M06",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "In farmacia e dal medico",
       "items": [
-        { "nl": "il farmacista", "en": "pharmacist", "speak": "il farmacista" },
-        { "nl": "la ricetta", "en": "prescription", "speak": "la ricetta" },
-        { "nl": "la compressa", "en": "pill / tablet", "speak": "la compressa" },
-        { "nl": "lo sciroppo", "en": "syrup", "speak": "lo sciroppo" },
-        { "nl": "l'appuntamento", "en": "appointment", "speak": "l'appuntamento" },
-        { "nl": "il dottore", "en": "doctor", "speak": "il dottore" }
+        { "target": "il farmacista", "en": "pharmacist", "speak": "il farmacista" },
+        { "target": "la ricetta", "en": "prescription", "speak": "la ricetta" },
+        { "target": "la compressa", "en": "pill / tablet", "speak": "la compressa" },
+        { "target": "lo sciroppo", "en": "syrup", "speak": "lo sciroppo" },
+        { "target": "l'appuntamento", "en": "appointment", "speak": "l'appuntamento" },
+        { "target": "il dottore", "en": "doctor", "speak": "il dottore" }
       ]
     },
     {
@@ -39,10 +39,10 @@
       "type": "shadow",
       "title": "Ascolta e ripeti — mal di…",
       "lines": [
-        { "nl": "Ho mal di testa.", "en": "I have a headache." },
-        { "nl": "Ho mal di gola.", "en": "I have a sore throat." },
-        { "nl": "Ho mal di pancia.", "en": "I have a stomach ache." },
-        { "nl": "Ho mal di denti.", "en": "I have a toothache." }
+        { "target": "Ho mal di testa.", "en": "I have a headache." },
+        { "target": "Ho mal di gola.", "en": "I have a sore throat." },
+        { "target": "Ho mal di pancia.", "en": "I have a stomach ache." },
+        { "target": "Ho mal di denti.", "en": "I have a toothache." }
       ]
     },
     {
@@ -69,12 +69,12 @@
       "type": "dialogue",
       "scene": "'You' mention feeling unwell to Giulia, who explains the farmacia-first habit and when to actually see a doctor",
       "lines": [
-        { "speaker": "You", "nl": "Non mi sento benissimo oggi.", "en": "I'm not feeling great today." },
-        { "speaker": "Giulia", "nl": "Cosa hai?", "en": "What's wrong?" },
-        { "speaker": "You", "nl": "Ho mal di testa e un po' di mal di gola.", "en": "I have a headache and a bit of a sore throat." },
-        { "speaker": "Giulia", "nl": "Allora vai in farmacia, qui all'angolo — il farmacista ti consiglia qualcosa subito.", "en": "Then go to the pharmacy, right on the corner — the pharmacist will recommend something right away.", "spotlight": "Giulia's first move is the farmacia, not the doctor — that's the everyday Italian order." },
-        { "speaker": "You", "nl": "E se non passa?", "en": "And if it doesn't go away?" },
-        { "speaker": "Giulia", "nl": "Se tra due o tre giorni stai ancora male, prendi un appuntamento dal dottore.", "en": "If in two or three days you still feel unwell, book an appointment with the doctor." }
+        { "speaker": "You", "target": "Non mi sento benissimo oggi.", "en": "I'm not feeling great today." },
+        { "speaker": "Giulia", "target": "Cosa hai?", "en": "What's wrong?" },
+        { "speaker": "You", "target": "Ho mal di testa e un po' di mal di gola.", "en": "I have a headache and a bit of a sore throat." },
+        { "speaker": "Giulia", "target": "Allora vai in farmacia, qui all'angolo — il farmacista ti consiglia qualcosa subito.", "en": "Then go to the pharmacy, right on the corner — the pharmacist will recommend something right away.", "spotlight": "Giulia's first move is the farmacia, not the doctor — that's the everyday Italian order." },
+        { "speaker": "You", "target": "E se non passa?", "en": "And if it doesn't go away?" },
+        { "speaker": "Giulia", "target": "Se tra due o tre giorni stai ancora male, prendi un appuntamento dal dottore.", "en": "If in two or three days you still feel unwell, book an appointment with the doctor." }
       ]
     },
     {

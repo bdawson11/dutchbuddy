@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-36",
   "day": 36,
   "module": "M06",
@@ -33,12 +33,12 @@
       "type": "chips",
       "title": "Escucha y repite — el cuerpo",
       "items": [
-        { "nl": "la cabeza", "en": "head", "speak": "la cabeza" },
-        { "nl": "la garganta", "en": "throat", "speak": "la garganta" },
-        { "nl": "el estómago", "en": "stomach", "speak": "el estómago" },
-        { "nl": "la espalda", "en": "back", "speak": "la espalda" },
-        { "nl": "el brazo", "en": "arm", "speak": "el brazo" },
-        { "nl": "la pierna", "en": "leg", "speak": "la pierna" }
+        { "target": "la cabeza", "en": "head", "speak": "la cabeza" },
+        { "target": "la garganta", "en": "throat", "speak": "la garganta" },
+        { "target": "el estómago", "en": "stomach", "speak": "el estómago" },
+        { "target": "la espalda", "en": "back", "speak": "la espalda" },
+        { "target": "el brazo", "en": "arm", "speak": "el brazo" },
+        { "target": "la pierna", "en": "leg", "speak": "la pierna" }
       ]
     },
     {
@@ -95,12 +95,12 @@
       "type": "dialogue",
       "scene": "You bump into Lucía at work looking rough after a long week.",
       "lines": [
-        { "speaker": "Lucía", "nl": "¡Hola! ¿Qué tal? Tienes mala cara.", "en": "Hi! How's it going? You look rough." },
-        { "speaker": "You", "nl": "Uf, fatal. Me duele la cabeza y me duele la espalda.", "en": "Ugh, terrible. My head hurts and my back hurts." },
-        { "speaker": "Lucía", "nl": "¿Y eso? ¿Has dormido bien?", "en": "Why's that? Have you slept well?", "spotlight": "perfecto (¿has dormido?) for a recent-past question — week 5 grammar in action." },
-        { "speaker": "You", "nl": "La verdad es que no. Y me duelen los ojos de mirar la pantalla.", "en": "Honestly, no. And my eyes hurt from looking at the screen." },
-        { "speaker": "Lucía", "nl": "Pues deberías descansar la vista y dormir más.", "en": "Well, you should rest your eyes and sleep more." },
-        { "speaker": "You", "nl": "Sí, vale. Mañana me tomo el día con calma.", "en": "Yeah, okay. Tomorrow I'll take it easy." }
+        { "speaker": "Lucía", "target": "¡Hola! ¿Qué tal? Tienes mala cara.", "en": "Hi! How's it going? You look rough." },
+        { "speaker": "You", "target": "Uf, fatal. Me duele la cabeza y me duele la espalda.", "en": "Ugh, terrible. My head hurts and my back hurts." },
+        { "speaker": "Lucía", "target": "¿Y eso? ¿Has dormido bien?", "en": "Why's that? Have you slept well?", "spotlight": "perfecto (¿has dormido?) for a recent-past question — week 5 grammar in action." },
+        { "speaker": "You", "target": "La verdad es que no. Y me duelen los ojos de mirar la pantalla.", "en": "Honestly, no. And my eyes hurt from looking at the screen." },
+        { "speaker": "Lucía", "target": "Pues deberías descansar la vista y dormir más.", "en": "Well, you should rest your eyes and sleep more." },
+        { "speaker": "You", "target": "Sí, vale. Mañana me tomo el día con calma.", "en": "Yeah, okay. Tomorrow I'll take it easy." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-41",
   "day": 41,
   "module": "M06",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Ripasso veloce",
       "items": [
-        { "nl": "mal di testa", "en": "headache", "speak": "mal di testa" },
-        { "nl": "mi sento stanco", "en": "I feel tired", "speak": "mi sento stanco" },
-        { "nl": "dovresti riposare", "en": "you should rest", "speak": "dovresti riposare" },
-        { "nl": "in farmacia", "en": "at the pharmacy", "speak": "in farmacia" },
-        { "nl": "l'ambulanza", "en": "ambulance", "speak": "l'ambulanza" }
+        { "target": "mal di testa", "en": "headache", "speak": "mal di testa" },
+        { "target": "mi sento stanco", "en": "I feel tired", "speak": "mi sento stanco" },
+        { "target": "dovresti riposare", "en": "you should rest", "speak": "dovresti riposare" },
+        { "target": "in farmacia", "en": "at the pharmacy", "speak": "in farmacia" },
+        { "target": "l'ambulanza", "en": "ambulance", "speak": "l'ambulanza" }
       ]
     },
     {
@@ -46,16 +46,16 @@
       "type": "dialogue",
       "scene": "At the bar, Sofia finally surfaces after a rough few days and tells Giulia, Marco, and 'You' what happened",
       "lines": [
-        { "speaker": "Giulia", "nl": "Sofia! Come stai? Sembri stanca morta.", "en": "Sofia! How are you? You look dead tired." },
-        { "speaker": "Sofia", "nl": "Ho avuto una settimana orribile, ragazzi.", "en": "I've had a horrible week, guys." },
-        { "speaker": "Marco", "nl": "Cosa è successo?", "en": "What happened?" },
-        { "speaker": "Sofia", "nl": "Lunedì lo scooter non è partito. Si è rotto, di nuovo!", "en": "On Monday the scooter wouldn't start. It broke down, again!", "spotlight": "si è rotto agrees with lo scooter, masculine — passato prossimo with essere." },
-        { "speaker": "Sofia", "nl": "E poi, mercoledì, mi sono sentita malissimo. Avevo la febbre e mal di gola.", "en": "And then, on Wednesday, I felt awful. I had a fever and a sore throat.", "spotlight": "mi sono sentita — feminine, because Sofia's talking about herself." },
-        { "speaker": "You", "nl": "Sei andata dal medico?", "en": "Did you go to the doctor?" },
-        { "speaker": "Sofia", "nl": "Prima sono andata in farmacia — il farmacista mi ha detto di riposare e bere tanta acqua.", "en": "First I went to the pharmacy — the pharmacist told me to rest and drink lots of water." },
-        { "speaker": "Sofia", "nl": "Ma la febbre non è passata, così sono andata dal medico giovedì.", "en": "But the fever didn't go away, so I went to the doctor on Thursday." },
-        { "speaker": "Marco", "nl": "Che disastro! Adesso stai meglio?", "en": "What a disaster! Are you better now?" },
-        { "speaker": "Sofia", "nl": "Sì, molto meglio, grazie. Ma che settimana!", "en": "Yes, much better, thanks. What a week!" }
+        { "speaker": "Giulia", "target": "Sofia! Come stai? Sembri stanca morta.", "en": "Sofia! How are you? You look dead tired." },
+        { "speaker": "Sofia", "target": "Ho avuto una settimana orribile, ragazzi.", "en": "I've had a horrible week, guys." },
+        { "speaker": "Marco", "target": "Cosa è successo?", "en": "What happened?" },
+        { "speaker": "Sofia", "target": "Lunedì lo scooter non è partito. Si è rotto, di nuovo!", "en": "On Monday the scooter wouldn't start. It broke down, again!", "spotlight": "si è rotto agrees with lo scooter, masculine — passato prossimo with essere." },
+        { "speaker": "Sofia", "target": "E poi, mercoledì, mi sono sentita malissimo. Avevo la febbre e mal di gola.", "en": "And then, on Wednesday, I felt awful. I had a fever and a sore throat.", "spotlight": "mi sono sentita — feminine, because Sofia's talking about herself." },
+        { "speaker": "You", "target": "Sei andata dal medico?", "en": "Did you go to the doctor?" },
+        { "speaker": "Sofia", "target": "Prima sono andata in farmacia — il farmacista mi ha detto di riposare e bere tanta acqua.", "en": "First I went to the pharmacy — the pharmacist told me to rest and drink lots of water." },
+        { "speaker": "Sofia", "target": "Ma la febbre non è passata, così sono andata dal medico giovedì.", "en": "But the fever didn't go away, so I went to the doctor on Thursday." },
+        { "speaker": "Marco", "target": "Che disastro! Adesso stai meglio?", "en": "What a disaster! Are you better now?" },
+        { "speaker": "Sofia", "target": "Sì, molto meglio, grazie. Ma che settimana!", "en": "Yes, much better, thanks. What a week!" }
       ]
     },
     {

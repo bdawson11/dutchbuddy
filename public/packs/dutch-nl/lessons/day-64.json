@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-64",
   "day": 64,
   "module": "M10",
@@ -35,12 +35,12 @@
       "type": "chips",
       "title": "Tik om te horen",
       "items": [
-        { "nl": "Er staat koffie op tafel.", "en": "There's coffee on the table.", "speak": "Er staat koffie op tafel." },
-        { "nl": "Er ligt sneeuw op straat.", "en": "There's snow on the street.", "speak": "Er ligt sneeuw op straat." },
-        { "nl": "Er zit een haar in mijn soep.", "en": "There's a hair in my soup.", "speak": "Er zit een haar in mijn soep." },
-        { "nl": "Er hangt een klok aan de muur.", "en": "There's a clock on the wall.", "speak": "Er hangt een klok aan de muur." },
-        { "nl": "Er is nog soep.", "en": "There's still soup.", "speak": "Er is nog soep." },
-        { "nl": "Er zijn geen stoelen.", "en": "There are no chairs.", "speak": "Er zijn geen stoelen." }
+        { "target": "Er staat koffie op tafel.", "en": "There's coffee on the table.", "speak": "Er staat koffie op tafel." },
+        { "target": "Er ligt sneeuw op straat.", "en": "There's snow on the street.", "speak": "Er ligt sneeuw op straat." },
+        { "target": "Er zit een haar in mijn soep.", "en": "There's a hair in my soup.", "speak": "Er zit een haar in mijn soep." },
+        { "target": "Er hangt een klok aan de muur.", "en": "There's a clock on the wall.", "speak": "Er hangt een klok aan de muur." },
+        { "target": "Er is nog soep.", "en": "There's still soup.", "speak": "Er is nog soep." },
+        { "target": "Er zijn geen stoelen.", "en": "There are no chairs.", "speak": "Er zijn geen stoelen." }
       ]
     },
     {
@@ -69,13 +69,13 @@
       "type": "dialogue",
       "scene": "Emma geeft je een rondleiding door haar woonkamer in de Pijp.",
       "lines": [
-        { "speaker": "Emma", "nl": "Kijk, dit is de woonkamer. Er staat niet veel, hoor.", "en": "Look, this is the living room. There isn't much here, honestly.", "spotlight": "er staat — existential with a posture verb, and an indefinite (niet veel)." },
-        { "speaker": "You", "nl": "Wat hangt er aan de muur?", "en": "What's hanging on the wall?" },
-        { "speaker": "Emma", "nl": "Er hangt een oude kaart van Amsterdam. Die vind ik echt leuk.", "en": "There's an old map of Amsterdam hanging there. I really like it." },
-        { "speaker": "You", "nl": "En wat ligt er op tafel?", "en": "And what's lying on the table?" },
-        { "speaker": "Emma", "nl": "Een stapel boeken. Er ligt altijd wel wat rommel, sorry!", "en": "A stack of books. There's always some clutter lying around, sorry!" },
-        { "speaker": "You", "nl": "Nee joh, het is hier juist gezellig.", "en": "No way, it's actually cozy here." },
-        { "speaker": "Emma", "nl": "Dank je! Er is koffie in de keuken — wil je?", "en": "Thanks! There's coffee in the kitchen — want some?" }
+        { "speaker": "Emma", "target": "Kijk, dit is de woonkamer. Er staat niet veel, hoor.", "en": "Look, this is the living room. There isn't much here, honestly.", "spotlight": "er staat — existential with a posture verb, and an indefinite (niet veel)." },
+        { "speaker": "You", "target": "Wat hangt er aan de muur?", "en": "What's hanging on the wall?" },
+        { "speaker": "Emma", "target": "Er hangt een oude kaart van Amsterdam. Die vind ik echt leuk.", "en": "There's an old map of Amsterdam hanging there. I really like it." },
+        { "speaker": "You", "target": "En wat ligt er op tafel?", "en": "And what's lying on the table?" },
+        { "speaker": "Emma", "target": "Een stapel boeken. Er ligt altijd wel wat rommel, sorry!", "en": "A stack of books. There's always some clutter lying around, sorry!" },
+        { "speaker": "You", "target": "Nee joh, het is hier juist gezellig.", "en": "No way, it's actually cozy here." },
+        { "speaker": "Emma", "target": "Dank je! Er is koffie in de keuken — wil je?", "en": "Thanks! There's coffee in the kitchen — want some?" }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-14",
   "day": 14,
   "module": "M02",
@@ -21,23 +21,23 @@
       "type": "chips",
       "title": "Schnelle Wiederholung",
       "items": [
-        { "nl": "fünfundvierzig", "en": "forty-five", "speak": "fünfundvierzig" },
-        { "nl": "Viertel nach drei", "en": "quarter past three", "speak": "Viertel nach drei" },
-        { "nl": "Ich arbeite", "en": "I work", "speak": "Ich arbeite" },
-        { "nl": "Wo wohnst du?", "en": "where do you live?", "speak": "Wo wohnst du?" },
-        { "nl": "es gibt eine Bäckerei", "en": "there's a bakery", "speak": "es gibt eine Bäckerei" },
-        { "nl": "diese Straße", "en": "this street", "speak": "diese Straße" }
+        { "target": "fünfundvierzig", "en": "forty-five", "speak": "fünfundvierzig" },
+        { "target": "Viertel nach drei", "en": "quarter past three", "speak": "Viertel nach drei" },
+        { "target": "Ich arbeite", "en": "I work", "speak": "Ich arbeite" },
+        { "target": "Wo wohnst du?", "en": "where do you live?", "speak": "Wo wohnst du?" },
+        { "target": "es gibt eine Bäckerei", "en": "there's a bakery", "speak": "es gibt eine Bäckerei" },
+        { "target": "diese Straße", "en": "this street", "speak": "diese Straße" }
       ]
     },
     {
       "type": "shadow",
       "title": "Aufwärmen: die Woche im Rückblick",
       "lines": [
-        { "nl": "Ich bin einunddreißig Jahre alt.", "en": "I'm thirty-one years old." },
-        { "nl": "Es ist halb sechs.", "en": "It's five-thirty." },
-        { "nl": "Heute lerne ich Deutsch.", "en": "Today I'm learning German." },
-        { "nl": "Wo wohnst du?", "en": "Where do you live?" },
-        { "nl": "Es gibt einen Park hier.", "en": "There's a park here." }
+        { "target": "Ich bin einunddreißig Jahre alt.", "en": "I'm thirty-one years old." },
+        { "target": "Es ist halb sechs.", "en": "It's five-thirty." },
+        { "target": "Heute lerne ich Deutsch.", "en": "Today I'm learning German." },
+        { "target": "Wo wohnst du?", "en": "Where do you live?" },
+        { "target": "Es gibt einen Park hier.", "en": "There's a park here." }
       ]
     },
     {
@@ -72,14 +72,14 @@
       "type": "dialogue",
       "scene": "Lena and Jonas want to know what a normal day looks like for you.",
       "lines": [
-        { "speaker": "Lena", "nl": "Na, wie sieht dein Tag aus?", "en": "So, what does your day look like?" },
-        { "speaker": "You", "nl": "Ich arbeite von neun bis fünf.", "en": "I work from nine to five." },
-        { "speaker": "Jonas", "nl": "Und abends? Hast du Feierabend?", "en": "And in the evenings? Are you off work?" },
-        { "speaker": "You", "nl": "Ja, abends lerne ich Deutsch oder ich koche.", "en": "Yes, in the evenings I study German or I cook." },
-        { "speaker": "Lena", "nl": "Um wie viel Uhr isst du normalerweise?", "en": "What time do you usually eat?" },
-        { "speaker": "You", "nl": "So um halb sieben.", "en": "Around six-thirty." },
-        { "speaker": "Jonas", "nl": "Passt! Und am Wochenende?", "en": "Sounds good! And on the weekend?" },
-        { "speaker": "You", "nl": "Am Wochenende gibt es keinen Stress — nur Kaffee und Freunde.", "en": "On the weekend there's no stress — just coffee and friends.", "spotlight": "*keinen Stress* — kein flips to keinen for a masculine noun, just like einen after es gibt." }
+        { "speaker": "Lena", "target": "Na, wie sieht dein Tag aus?", "en": "So, what does your day look like?" },
+        { "speaker": "You", "target": "Ich arbeite von neun bis fünf.", "en": "I work from nine to five." },
+        { "speaker": "Jonas", "target": "Und abends? Hast du Feierabend?", "en": "And in the evenings? Are you off work?" },
+        { "speaker": "You", "target": "Ja, abends lerne ich Deutsch oder ich koche.", "en": "Yes, in the evenings I study German or I cook." },
+        { "speaker": "Lena", "target": "Um wie viel Uhr isst du normalerweise?", "en": "What time do you usually eat?" },
+        { "speaker": "You", "target": "So um halb sieben.", "en": "Around six-thirty." },
+        { "speaker": "Jonas", "target": "Passt! Und am Wochenende?", "en": "Sounds good! And on the weekend?" },
+        { "speaker": "You", "target": "Am Wochenende gibt es keinen Stress — nur Kaffee und Freunde.", "en": "On the weekend there's no stress — just coffee and friends.", "spotlight": "*keinen Stress* — kein flips to keinen for a masculine noun, just like einen after es gibt." }
       ]
     },
     {

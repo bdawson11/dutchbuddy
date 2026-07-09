@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-77",
   "day": 77,
   "module": "M11",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Repaso rápido — toca y escucha",
       "items": [
-        { "nl": "¿Quedamos esta semana?", "en": "Shall we meet up this week?", "speak": "¿Quedamos esta semana?" },
-        { "nl": "Pues no me acuerdo, la verdad.", "en": "Well, I don't remember, honestly.", "speak": "Pues no me acuerdo, la verdad." },
-        { "nl": "Espera un momentito.", "en": "Wait just a sec.", "speak": "Espera un momentito." },
-        { "nl": "¿Vosotros de dónde sois?", "en": "Where are you all from?", "speak": "¿Vosotros de dónde sois?" },
-        { "nl": "¿Sería tan amable de repetirlo?", "en": "Would you be so kind as to repeat it?", "speak": "¿Sería tan amable de repetirlo?" },
-        { "nl": "O sea, que al final me quedo.", "en": "So, in the end I'm staying.", "speak": "O sea, que al final me quedo." }
+        { "target": "¿Quedamos esta semana?", "en": "Shall we meet up this week?", "speak": "¿Quedamos esta semana?" },
+        { "target": "Pues no me acuerdo, la verdad.", "en": "Well, I don't remember, honestly.", "speak": "Pues no me acuerdo, la verdad." },
+        { "target": "Espera un momentito.", "en": "Wait just a sec.", "speak": "Espera un momentito." },
+        { "target": "¿Vosotros de dónde sois?", "en": "Where are you all from?", "speak": "¿Vosotros de dónde sois?" },
+        { "target": "¿Sería tan amable de repetirlo?", "en": "Would you be so kind as to repeat it?", "speak": "¿Sería tan amable de repetirlo?" },
+        { "target": "O sea, que al final me quedo.", "en": "So, in the end I'm staying.", "speak": "O sea, que al final me quedo." }
       ]
     },
     {
@@ -69,14 +69,14 @@
       "type": "dialogue",
       "scene": "Rafa hasn't seen you in ages — bring him up to speed (ponerse al día).",
       "lines": [
-        { "speaker": "Rafa", "nl": "¡Hombre, cuánto tiempo! ¿Qué ha sido de tu vida?", "en": "Man, long time! What's been going on with you?" },
-        { "speaker": "You", "nl": "Pues nada, liado. He empezado a ir a clases de español en serio.", "en": "Well, busy. I've started going to Spanish classes seriously.", "spotlight": "empezar a + infinitivo, con muletilla de arranque." },
-        { "speaker": "Rafa", "nl": "¿En serio? ¡Se te nota, tío! Hablas un montón mejor.", "en": "Really? You can tell, mate! You speak loads better." },
-        { "speaker": "You", "nl": "Es que ya no me da vergüenza. O sea, todavía me lío con el usted.", "en": "It's just I'm not embarrassed anymore. I mean, I still get muddled with usted." },
-        { "speaker": "Rafa", "nl": "Bah, eso no lo usa casi nadie. De tú y para adelante.", "en": "Nah, hardly anyone uses that. Tú and off you go." },
-        { "speaker": "You", "nl": "Ya ves. Oye, ¿te acuerdas de que quería aprender a cocinar? Pues ya hago una tortilla decente.", "en": "There you go. Hey, remember I wanted to learn to cook? Well I make a decent tortilla now." },
-        { "speaker": "Rafa", "nl": "¡Anda! Pues quedamos y me invitas, ¿no?", "en": "Oh! Well let's meet up and you treat me, right?" },
-        { "speaker": "You", "nl": "Hecho. Cuento contigo el sábado.", "en": "Done. I'm counting on you Saturday.", "spotlight": "contar con para cerrar el plan." }
+        { "speaker": "Rafa", "target": "¡Hombre, cuánto tiempo! ¿Qué ha sido de tu vida?", "en": "Man, long time! What's been going on with you?" },
+        { "speaker": "You", "target": "Pues nada, liado. He empezado a ir a clases de español en serio.", "en": "Well, busy. I've started going to Spanish classes seriously.", "spotlight": "empezar a + infinitivo, con muletilla de arranque." },
+        { "speaker": "Rafa", "target": "¿En serio? ¡Se te nota, tío! Hablas un montón mejor.", "en": "Really? You can tell, mate! You speak loads better." },
+        { "speaker": "You", "target": "Es que ya no me da vergüenza. O sea, todavía me lío con el usted.", "en": "It's just I'm not embarrassed anymore. I mean, I still get muddled with usted." },
+        { "speaker": "Rafa", "target": "Bah, eso no lo usa casi nadie. De tú y para adelante.", "en": "Nah, hardly anyone uses that. Tú and off you go." },
+        { "speaker": "You", "target": "Ya ves. Oye, ¿te acuerdas de que quería aprender a cocinar? Pues ya hago una tortilla decente.", "en": "There you go. Hey, remember I wanted to learn to cook? Well I make a decent tortilla now." },
+        { "speaker": "Rafa", "target": "¡Anda! Pues quedamos y me invitas, ¿no?", "en": "Oh! Well let's meet up and you treat me, right?" },
+        { "speaker": "You", "target": "Hecho. Cuento contigo el sábado.", "en": "Done. I'm counting on you Saturday.", "spotlight": "contar con para cerrar el plan." }
       ]
     },
     {

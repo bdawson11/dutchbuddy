@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-54",
   "day": 54,
   "module": "M08",
@@ -43,10 +43,10 @@
       "type": "chips",
       "title": "Luister en vergelijk",
       "items": [
-        { "nl": "Utrecht is kleiner dan Amsterdam.", "en": "Utrecht is smaller than Amsterdam.", "speak": "Utrecht is kleiner dan Amsterdam." },
-        { "nl": "Deze koffie is lekkerder.", "en": "This coffee is tastier.", "speak": "Deze koffie is lekkerder." },
-        { "nl": "Dit is de mooiste gracht.", "en": "This is the prettiest canal.", "speak": "Dit is de mooiste gracht." },
-        { "nl": "In de winter is het het koudst.", "en": "In winter it's coldest.", "speak": "In de winter is het het koudst." }
+        { "target": "Utrecht is kleiner dan Amsterdam.", "en": "Utrecht is smaller than Amsterdam.", "speak": "Utrecht is kleiner dan Amsterdam." },
+        { "target": "Deze koffie is lekkerder.", "en": "This coffee is tastier.", "speak": "Deze koffie is lekkerder." },
+        { "target": "Dit is de mooiste gracht.", "en": "This is the prettiest canal.", "speak": "Dit is de mooiste gracht." },
+        { "target": "In de winter is het het koudst.", "en": "In winter it's coldest.", "speak": "In de winter is het het koudst." }
       ]
     },
     {
@@ -103,10 +103,10 @@
       "type": "dialogue",
       "scene": "Daan defends the smaller cities over a beer",
       "lines": [
-        { "speaker": "Daan", "nl": "Amsterdam is leuk, maar Utrecht is gezelliger, vind ik.", "en": "Amsterdam is nice, but Utrecht is cosier, I think.", "spotlight": "gezelliger — comparative of gezellig." },
-        { "speaker": "You", "nl": "Echt? Amsterdam is toch veel groter en drukker.", "en": "Really? Amsterdam is much bigger and busier though." },
-        { "speaker": "Daan", "nl": "Precies. Klein is beter. En het bier is er goedkoper, hoor.", "en": "Exactly. Small is better. And the beer's cheaper there, you know.", "spotlight": "beter — irregular; goedkoper — regular -er." },
-        { "speaker": "You", "nl": "Haha, dát is jouw beste argument.", "en": "Haha, that's your best argument.", "spotlight": "beste — superlative of goed, before a noun." }
+        { "speaker": "Daan", "target": "Amsterdam is leuk, maar Utrecht is gezelliger, vind ik.", "en": "Amsterdam is nice, but Utrecht is cosier, I think.", "spotlight": "gezelliger — comparative of gezellig." },
+        { "speaker": "You", "target": "Echt? Amsterdam is toch veel groter en drukker.", "en": "Really? Amsterdam is much bigger and busier though." },
+        { "speaker": "Daan", "target": "Precies. Klein is beter. En het bier is er goedkoper, hoor.", "en": "Exactly. Small is better. And the beer's cheaper there, you know.", "spotlight": "beter — irregular; goedkoper — regular -er." },
+        { "speaker": "You", "target": "Haha, dát is jouw beste argument.", "en": "Haha, that's your best argument.", "spotlight": "beste — superlative of goed, before a noun." }
       ]
     },
     {

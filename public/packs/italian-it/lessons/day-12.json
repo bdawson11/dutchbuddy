@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-12",
   "day": 12,
   "module": "M02",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Leggere, coniugato",
       "items": [
-        { "nl": "leggo", "en": "I read", "speak": "leggo" },
-        { "nl": "leggi", "en": "you read", "speak": "leggi" },
-        { "nl": "legge", "en": "he/she reads", "speak": "legge" },
-        { "nl": "leggiamo", "en": "we read", "speak": "leggiamo" },
-        { "nl": "leggete", "en": "you all read", "speak": "leggete" },
-        { "nl": "leggono", "en": "they read", "speak": "leggono" }
+        { "target": "leggo", "en": "I read", "speak": "leggo" },
+        { "target": "leggi", "en": "you read", "speak": "leggi" },
+        { "target": "legge", "en": "he/she reads", "speak": "legge" },
+        { "target": "leggiamo", "en": "we read", "speak": "leggiamo" },
+        { "target": "leggete", "en": "you all read", "speak": "leggete" },
+        { "target": "leggono", "en": "they read", "speak": "leggono" }
       ]
     },
     {
@@ -39,11 +39,11 @@
       "type": "chips",
       "title": "Dormire vs capire",
       "items": [
-        { "nl": "dormo", "en": "I sleep", "speak": "dormo" },
-        { "nl": "dormi", "en": "you sleep", "speak": "dormi" },
-        { "nl": "capisco", "en": "I understand", "speak": "capisco" },
-        { "nl": "capisci", "en": "you understand", "speak": "capisci" },
-        { "nl": "capiscono", "en": "they understand", "speak": "capiscono" }
+        { "target": "dormo", "en": "I sleep", "speak": "dormo" },
+        { "target": "dormi", "en": "you sleep", "speak": "dormi" },
+        { "target": "capisco", "en": "I understand", "speak": "capisco" },
+        { "target": "capisci", "en": "you understand", "speak": "capisci" },
+        { "target": "capiscono", "en": "they understand", "speak": "capiscono" }
       ]
     },
     {
@@ -77,11 +77,11 @@
       "type": "dialogue",
       "scene": "You run into Sofia near the university; she asks about your Italian.",
       "lines": [
-        { "speaker": "Sofia", "nl": "Ciao! Allora, capisci già un po' di italiano?", "en": "Hi! So, do you already understand a bit of Italian?" },
-        { "speaker": "You", "nl": "Sì, capisco molto, ma non scrivo ancora bene.", "en": "Yes, I understand a lot, but I don't write well yet.", "spotlight": "scrivo — scrivere is a regular -ere verb: scrivo, scrivi, scrive." },
-        { "speaker": "Sofia", "nl": "Leggi qualcosa in italiano ogni giorno?", "en": "Do you read something in Italian every day?" },
-        { "speaker": "You", "nl": "Sì, leggo un po' la sera.", "en": "Yes, I read a bit in the evening." },
-        { "speaker": "Sofia", "nl": "Bravo! Dormi bene stasera, allora — domani parliamo ancora.", "en": "Well done! Sleep well tonight then — tomorrow let's talk more." }
+        { "speaker": "Sofia", "target": "Ciao! Allora, capisci già un po' di italiano?", "en": "Hi! So, do you already understand a bit of Italian?" },
+        { "speaker": "You", "target": "Sì, capisco molto, ma non scrivo ancora bene.", "en": "Yes, I understand a lot, but I don't write well yet.", "spotlight": "scrivo — scrivere is a regular -ere verb: scrivo, scrivi, scrive." },
+        { "speaker": "Sofia", "target": "Leggi qualcosa in italiano ogni giorno?", "en": "Do you read something in Italian every day?" },
+        { "speaker": "You", "target": "Sì, leggo un po' la sera.", "en": "Yes, I read a bit in the evening." },
+        { "speaker": "Sofia", "target": "Bravo! Dormi bene stasera, allora — domani parliamo ancora.", "en": "Well done! Sleep well tonight then — tomorrow let's talk more." }
       ]
     },
     {

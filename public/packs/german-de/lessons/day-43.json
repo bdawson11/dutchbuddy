@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-43",
   "day": 43,
   "module": "M07",
@@ -48,12 +48,12 @@
       "type": "chips",
       "title": "Die wichtigsten Formen zum Sprechen",
       "items": [
-        { "nl": "war", "en": "was", "speak": "war" },
-        { "nl": "hatte", "en": "had", "speak": "hatte" },
-        { "nl": "konnte", "en": "could", "speak": "konnte" },
-        { "nl": "wollte", "en": "wanted to", "speak": "wollte" },
-        { "nl": "musste", "en": "had to", "speak": "musste" },
-        { "nl": "sollte", "en": "was supposed to", "speak": "sollte" }
+        { "target": "war", "en": "was", "speak": "war" },
+        { "target": "hatte", "en": "had", "speak": "hatte" },
+        { "target": "konnte", "en": "could", "speak": "konnte" },
+        { "target": "wollte", "en": "wanted to", "speak": "wollte" },
+        { "target": "musste", "en": "had to", "speak": "musste" },
+        { "target": "sollte", "en": "was supposed to", "speak": "sollte" }
       ]
     },
     {

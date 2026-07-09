@@ -4,10 +4,10 @@
 every lesson JSON. Follow it exactly so machine validation (`tools/validate.js`)
 passes on the first run and 84 days written in parallel read as one app.*
 
-**Schema note that never changes:** the target-language text field is called `nl` in
-**every** block (chips items, dialogue lines, shadow lines) even though this pack is
-Spanish — the engine hardcodes the key. Put Spanish in `nl`, English gloss in `en`,
-and the exact Spanish to voice in `speak`.
+**Schema note:** the target-language text field is called `target` in
+**every** block (chips items, dialogue lines, shadow lines). Put Spanish in `target`, English gloss in `en`,
+and the exact Spanish to voice in `speak`. (Schema v1 packs named this field `nl`; the engine reads
+`target ?? nl` for back-compat, but v2 content uses `target`.)
 
 ---
 
@@ -21,7 +21,7 @@ and the exact Spanish to voice in `speak`.
 ## 2. English ↔ Spanish formatting conventions
 
 - In `card`/`callout` **body** (markdown): Spanish example words in *italics* (`*hola*`), key rules or the "one new thing" in **bold**. Glosses in parentheses: `*hola* (hello)`.
-- In `chips`/`shadow`/`dialogue`: Spanish goes in the `nl` field (yes, `nl` — see the schema note), English gloss in `en`. Do **not** repeat the translation inside `nl`.
+- In `chips`/`shadow`/`dialogue`: Spanish goes in the `target` field (see the schema note), English gloss in `en`. Do **not** repeat the translation inside `target`.
 - Em dashes for "word — gloss" inside table cells: `"hola — hello"`.
 - Keep English glosses tight — a word or short phrase, not a sentence.
 - Only real markdown supported by the engine is `**bold**` and `*italic*`, plus tables via the `table` field. No headings, lists, links, or code in `body`.
@@ -47,21 +47,21 @@ A normal `lesson` should include **at least 3 graded blocks** (mcq/typed/dictati
 
 ## 5. Block authoring rules (schema + gotchas)
 
-Top-level lesson fields (all required): `schemaVersion` (always `1`), `id` (`"day-NN"`, zero-padded), `day` (int, matches id), `module` (`"MNN"`, matches the manifest week), `unit`, `kind`, `title` (Spanish, evocative), `emoji` (one, topical), `level` (`A1`/`A2`/`B1`), `durationMin` (`[15,25]` typical), `summary` (one English line), `blocks[]`.
+Top-level lesson fields (all required): `schemaVersion` (always `2`), `id` (`"day-NN"`, zero-padded), `day` (int, matches id), `module` (`"MNN"`, matches the manifest week), `unit`, `kind`, `title` (Spanish, evocative), `emoji` (one, topical), `level` (`A1`/`A2`/`B1`), `durationMin` (`[15,25]` typical), `summary` (one English line), `blocks[]`.
 
 `unit` convention: `"U"` + two digits; simplest is one unit per week (e.g. all of M05 = `"U05"`). Keep it consistent within a week.
 
 Per block type — **required fields and the traps:**
 
 - **card** — `title`, `body` (markdown). Optional `table` {`headers[]`, `rows[]`} — **every row array length must equal headers length** (validator fails otherwise). Optional `callout` (one punchy line). No audio.
-- **chips** — `items[]`, each `{nl, en, speak?}`. `nl` = the Spanish, `en` = gloss, `speak` = exact Spanish to voice (usually = `nl`). Optional `title`. 4–8 items.
+- **chips** — `items[]`, each `{target, en, speak?}`. `target` = the Spanish, `en` = gloss, `speak` = exact Spanish to voice (usually = `target`). Optional `title`. 4–8 items.
 - **contrast** — `pairs[]`, each `{left, right, note?}`. Use for ser/estar, c/z vs s, perfecto vs indefinido, tú vs usted. `note` explains the split.
 - **mcq** — `prompt`, `options[]` (≥2), `correct` (**0-based index**, in range), `explain`. Exactly one right option. `explain` teaches, doesn't just confirm.
 - **typed** — `prompt`, `answers[]` (≥1). List **every** acceptable spelling explicitly: with/without article (`"casa"`, `"la casa"`), contractions, spacing variants. Grading normalizes case/whitespace/terminal punctuation and is diacritic-tolerant, so a missing accent still passes — but **put the correctly accented form first** in `answers` (it's shown as the gentle correction). Accents are meaningful: always author them right.
 - **dictation** — `speak` (Spanish to voice), `answers[]`. `prompt` optional. Keep `speak` short enough to hold in memory (≤6 words early, longer later). Author the answer with correct `¿?`/`¡!` and accents.
 - **builder** — `slots[]`, each `{label, chips[]}` (**chips required and non-empty**). `sample` (a model full sentence). Optional `prompt`, `starters`. Great for word-order / clitic / ser-vs-estar practice: one slot per sentence position.
-- **dialogue** — `scene` (English stage-setting line), `lines[]` each `{speaker, nl, en, spotlight?}`. **`speaker` must be `"You"` or a name in the manifest cast** (Lucía/Rafa/Sofía/Nacho) — anything else fails validation. `spotlight` flags a teachable moment. 4–10 lines. Honor the arc timeline.
-- **shadow** — `lines[]` each `{nl, en}`. Listen→repeat. Optional `title`. 3–6 lines.
+- **dialogue** — `scene` (English stage-setting line), `lines[]` each `{speaker, target, en, spotlight?}`. **`speaker` must be `"You"` or a name in the manifest cast** (Lucía/Rafa/Sofía/Nacho) — anything else fails validation. `spotlight` flags a teachable moment. 4–10 lines. Honor the arc timeline.
+- **shadow** — `lines[]` each `{target, en}`. Listen→repeat. Optional `title`. 3–6 lines.
 - **comprehension** — `questions[]` each `{q, options[], correct}` (`correct` 0-based, in range). Use **after** a dialogue/passage in the same lesson.
 - **journal** — `prompt`. Optional `starters[]` (Spanish sentence openers), `minSentences`. Closes most lessons; free text, saved locally.
 
@@ -82,13 +82,13 @@ Per block type — **required fields and the traps:**
 
 ## 7. Difficulty ramp across the 84 days
 
-- **A1 (W1–4):** English scaffolding heavy. Short `nl`. Explanations in English. Dialogues 3–5 lines, simple present, ser/estar/tener/gustar.
+- **A1 (W1–4):** English scaffolding heavy. Short `target`. Explanations in English. Dialogues 3–5 lines, simple present, ser/estar/tener/gustar.
 - **A2 (W5–8):** glosses shorten; dialogues lengthen; introduce the perfecto then indefinido/imperfecto; some `explain`/`spotlight` text starts appearing in easy Spanish.
 - **B1 (W9–12):** dialogues run 6–10 lines; the subjunctive saturates; prompts increasingly in Spanish; comprehension questions in Spanish; journal prompts in Spanish. By W11 the learner calibrates tú/usted/vosotros consciously.
 
 ## 9. Difficulty ramp — Weeks 13–18 (B2 Depth → C1 Gateway)
 
-Season 2 extends the same schema to 126 days. Everything in §1–6 still holds (the `nl` field still carries Spanish, distinción still lives in card text, agreement/tense rules still non-negotiable). What changes is the *scaffolding density* and the *register demands*.
+Season 2 extends the same schema to 126 days. Everything in §1–6 still holds (the `target` field still carries Spanish, distinción still lives in card text, agreement/tense rules still non-negotiable). What changes is the *scaffolding density* and the *register demands*.
 
 - **The language of instruction shifts into Spanish.** W13–16 (B2): prompts, `explain`, and `spotlight` are **mixed** — Spanish carries the point, with a short English safety net where a stumble is likely. W17–18 (C1 gateway): **Spanish-first** — write `explain`/`spotlight`/prompts in Spanish, adding a brief English gloss only where a genuine safety net is needed. **Comprehension questions and journal prompts are in Spanish across all of S2.** (Chip/dialogue/shadow `en` glosses stay in English — they're the built-in support; keep them tight.)
 - **Dialogues run 8–12 lines.** Longer, more natural turns; real overlap and irony by W17. Honor the arc timeline and the cast voices (incl. **Marta**/**Dani** and their accent-in-card-text rule — never voice a regional accent, never make comprehension hinge on it).

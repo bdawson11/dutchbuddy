@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-54",
   "day": 54,
   "module": "M08",
@@ -85,11 +85,11 @@
       "type": "dialogue",
       "scene": "Nacho compara su pueblo con Madrid, como siempre — con orgullo.",
       "lines": [
-        { "speaker": "Nacho", "nl": "Hombre, en mi pueblo se vive mejor que aquí, te lo digo yo.", "en": "Well, life is better in my village than here, I'm telling you.", "spotlight": "mejor que — comparativo irregular de bueno." },
-        { "speaker": "You", "nl": "¿En serio? Pero Madrid tiene más de todo, ¿no?", "en": "Really? But Madrid has more of everything, right?" },
-        { "speaker": "Nacho", "nl": "Más ruido, más tráfico… El pueblo es tan bonito como Madrid, y más tranquilo.", "en": "More noise, more traffic… The village is as pretty as Madrid, and quieter." },
-        { "speaker": "You", "nl": "Buah, no sé. A mí me encanta la ciudad.", "en": "Ugh, I don't know. I love the city." },
-        { "speaker": "Nacho", "nl": "Cada uno con lo suyo. Pero el mejor bar de tapas, ese sí está en mi pueblo.", "en": "To each their own. But the best tapas bar, that one really is in my village." }
+        { "speaker": "Nacho", "target": "Hombre, en mi pueblo se vive mejor que aquí, te lo digo yo.", "en": "Well, life is better in my village than here, I'm telling you.", "spotlight": "mejor que — comparativo irregular de bueno." },
+        { "speaker": "You", "target": "¿En serio? Pero Madrid tiene más de todo, ¿no?", "en": "Really? But Madrid has more of everything, right?" },
+        { "speaker": "Nacho", "target": "Más ruido, más tráfico… El pueblo es tan bonito como Madrid, y más tranquilo.", "en": "More noise, more traffic… The village is as pretty as Madrid, and quieter." },
+        { "speaker": "You", "target": "Buah, no sé. A mí me encanta la ciudad.", "en": "Ugh, I don't know. I love the city." },
+        { "speaker": "Nacho", "target": "Cada uno con lo suyo. Pero el mejor bar de tapas, ese sí está en mi pueblo.", "en": "To each their own. But the best tapas bar, that one really is in my village." }
       ]
     },
     {

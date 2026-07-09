@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-36",
   "day": 36,
   "module": "M06",
@@ -33,12 +33,12 @@
       "type": "chips",
       "title": "Tap to hear each body part",
       "items": [
-        { "nl": "het hoofd", "en": "head", "speak": "het hoofd" },
-        { "nl": "de buik", "en": "belly", "speak": "de buik" },
-        { "nl": "de rug", "en": "back", "speak": "de rug" },
-        { "nl": "de keel", "en": "throat", "speak": "de keel" },
-        { "nl": "de arm", "en": "arm", "speak": "de arm" },
-        { "nl": "het been", "en": "leg", "speak": "het been" }
+        { "target": "het hoofd", "en": "head", "speak": "het hoofd" },
+        { "target": "de buik", "en": "belly", "speak": "de buik" },
+        { "target": "de rug", "en": "back", "speak": "de rug" },
+        { "target": "de keel", "en": "throat", "speak": "de keel" },
+        { "target": "de arm", "en": "arm", "speak": "de arm" },
+        { "target": "het been", "en": "leg", "speak": "het been" }
       ]
     },
     {
@@ -87,10 +87,10 @@
       "type": "shadow",
       "title": "Shadow the pijn patterns",
       "lines": [
-        { "nl": "Ik heb hoofdpijn.", "en": "I have a headache." },
-        { "nl": "Ik heb buikpijn.", "en": "I have a stomachache." },
-        { "nl": "Mijn rug doet pijn.", "en": "My back hurts." },
-        { "nl": "Mijn keel doet pijn.", "en": "My throat hurts." }
+        { "target": "Ik heb hoofdpijn.", "en": "I have a headache." },
+        { "target": "Ik heb buikpijn.", "en": "I have a stomachache." },
+        { "target": "Mijn rug doet pijn.", "en": "My back hurts." },
+        { "target": "Mijn keel doet pijn.", "en": "My throat hurts." }
       ]
     },
     {

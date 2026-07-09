@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-57",
   "day": 57,
   "module": "M09",
@@ -38,12 +38,12 @@
       "type": "chips",
       "title": "Tik om hele bijzinnen te horen",
       "items": [
-        { "nl": "Hoewel het regent, fietsen we toch.", "en": "Although it's raining, we cycle anyway.", "speak": "Hoewel het regent, fietsen we toch." },
-        { "nl": "Terwijl ik kook, dekt Daan de tafel.", "en": "While I cook, Daan sets the table.", "speak": "Terwijl ik kook, dekt Daan de tafel." },
-        { "nl": "Ik zet muziek aan zodat het gezelliger wordt.", "en": "I put music on so that it gets cozier.", "speak": "Ik zet muziek aan zodat het gezelliger wordt." },
-        { "nl": "Voordat ik ga slapen, lees ik nog even.", "en": "Before I go to sleep, I read a bit.", "speak": "Voordat ik ga slapen, lees ik nog even." },
-        { "nl": "Nadat we gegeten hadden, gingen we wandelen.", "en": "After we had eaten, we went for a walk.", "speak": "Nadat we gegeten hadden, gingen we wandelen." },
-        { "nl": "Sinds ik in Amsterdam woon, fiets ik elke dag.", "en": "Since I live in Amsterdam, I cycle every day.", "speak": "Sinds ik in Amsterdam woon, fiets ik elke dag." }
+        { "target": "Hoewel het regent, fietsen we toch.", "en": "Although it's raining, we cycle anyway.", "speak": "Hoewel het regent, fietsen we toch." },
+        { "target": "Terwijl ik kook, dekt Daan de tafel.", "en": "While I cook, Daan sets the table.", "speak": "Terwijl ik kook, dekt Daan de tafel." },
+        { "target": "Ik zet muziek aan zodat het gezelliger wordt.", "en": "I put music on so that it gets cozier.", "speak": "Ik zet muziek aan zodat het gezelliger wordt." },
+        { "target": "Voordat ik ga slapen, lees ik nog even.", "en": "Before I go to sleep, I read a bit.", "speak": "Voordat ik ga slapen, lees ik nog even." },
+        { "target": "Nadat we gegeten hadden, gingen we wandelen.", "en": "After we had eaten, we went for a walk.", "speak": "Nadat we gegeten hadden, gingen we wandelen." },
+        { "target": "Sinds ik in Amsterdam woon, fiets ik elke dag.", "en": "Since I live in Amsterdam, I cycle every day.", "speak": "Sinds ik in Amsterdam woon, fiets ik elke dag." }
       ]
     },
     {
@@ -99,12 +99,12 @@
       "type": "dialogue",
       "scene": "Emma explains her evening routine over coffee",
       "lines": [
-        { "speaker": "Emma", "nl": "Kijk, sinds ik minder werk, heb ik weer tijd voor mezelf.", "en": "Look, since I work less, I have time for myself again.", "spotlight": "sinds + werkwoord achteraan: *…sinds ik minder **werk**…*" },
-        { "speaker": "You", "nl": "Wat doe je dan 's avonds?", "en": "So what do you do in the evenings?" },
-        { "speaker": "Emma", "nl": "Nadat ik gegeten heb, ga ik meestal even wandelen.", "en": "After I've eaten, I usually go for a short walk.", "spotlight": "nadat + voltooide tijd: *nadat ik gegeten **heb**…*" },
-        { "speaker": "You", "nl": "Ook als het regent?", "en": "Even when it rains?" },
-        { "speaker": "Emma", "nl": "Hoewel het vaak regent, ga ik toch, hoor. Ik neem gewoon een paraplu mee.", "en": "Although it often rains, I still go, you know. I just take an umbrella.", "spotlight": "bijzin vooraan → *…regent, ga ik…* (inversie)." },
-        { "speaker": "You", "nl": "Slim. Ik zet 's avonds muziek aan zodat ik ontspan.", "en": "Smart. In the evening I put music on so that I relax.", "spotlight": "zodat-resultaat: *…zodat ik **ontspan**.*" }
+        { "speaker": "Emma", "target": "Kijk, sinds ik minder werk, heb ik weer tijd voor mezelf.", "en": "Look, since I work less, I have time for myself again.", "spotlight": "sinds + werkwoord achteraan: *…sinds ik minder **werk**…*" },
+        { "speaker": "You", "target": "Wat doe je dan 's avonds?", "en": "So what do you do in the evenings?" },
+        { "speaker": "Emma", "target": "Nadat ik gegeten heb, ga ik meestal even wandelen.", "en": "After I've eaten, I usually go for a short walk.", "spotlight": "nadat + voltooide tijd: *nadat ik gegeten **heb**…*" },
+        { "speaker": "You", "target": "Ook als het regent?", "en": "Even when it rains?" },
+        { "speaker": "Emma", "target": "Hoewel het vaak regent, ga ik toch, hoor. Ik neem gewoon een paraplu mee.", "en": "Although it often rains, I still go, you know. I just take an umbrella.", "spotlight": "bijzin vooraan → *…regent, ga ik…* (inversie)." },
+        { "speaker": "You", "target": "Slim. Ik zet 's avonds muziek aan zodat ik ontspan.", "en": "Smart. In the evening I put music on so that I relax.", "spotlight": "zodat-resultaat: *…zodat ik **ontspan**.*" }
       ]
     },
     {

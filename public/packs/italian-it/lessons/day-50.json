@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-50",
   "day": 50,
   "module": "M08",
@@ -48,11 +48,11 @@
       "type": "chips",
       "title": "Quando? — marcatori di tempo",
       "items": [
-        { "nl": "domani", "en": "tomorrow", "speak": "domani" },
-        { "nl": "dopodomani", "en": "the day after tomorrow", "speak": "dopodomani" },
-        { "nl": "la settimana prossima", "en": "next week", "speak": "la settimana prossima" },
-        { "nl": "tra due giorni", "en": "in two days", "speak": "tra due giorni" },
-        { "nl": "un giorno", "en": "someday", "speak": "un giorno" }
+        { "target": "domani", "en": "tomorrow", "speak": "domani" },
+        { "target": "dopodomani", "en": "the day after tomorrow", "speak": "dopodomani" },
+        { "target": "la settimana prossima", "en": "next week", "speak": "la settimana prossima" },
+        { "target": "tra due giorni", "en": "in two days", "speak": "tra due giorni" },
+        { "target": "un giorno", "en": "someday", "speak": "un giorno" }
       ]
     },
     {
@@ -92,12 +92,12 @@
       "type": "dialogue",
       "scene": "At the bar, Marco asks about your plans for the weekend.",
       "lines": [
-        { "speaker": "Marco", "nl": "Allora, cosa farai questo weekend?", "en": "So, what will you do this weekend?" },
-        { "speaker": "You", "nl": "Sabato vado al mercato, e domenica forse andrò a correre.", "en": "Saturday I'm going to the market, and Sunday maybe I'll go running.", "spotlight": "Present for the near, decided plan (sabato); futuro for the more open one (forse... domenica)." },
-        { "speaker": "Marco", "nl": "Io invece sarò impegnato venerdì sera — suonerò con la band.", "en": "I'll be busy Friday evening — I'll play with the band." },
-        { "speaker": "You", "nl": "Davvero? Dove sarà il concerto?", "en": "Really? Where will the concert be?" },
-        { "speaker": "Marco", "nl": "Sarà in un bar del centro.", "en": "It'll be at a bar downtown." },
-        { "speaker": "You", "nl": "Ci sarò!", "en": "I'll be there!", "spotlight": "ci sarò — the futuro of esserci, 'to be there'." }
+        { "speaker": "Marco", "target": "Allora, cosa farai questo weekend?", "en": "So, what will you do this weekend?" },
+        { "speaker": "You", "target": "Sabato vado al mercato, e domenica forse andrò a correre.", "en": "Saturday I'm going to the market, and Sunday maybe I'll go running.", "spotlight": "Present for the near, decided plan (sabato); futuro for the more open one (forse... domenica)." },
+        { "speaker": "Marco", "target": "Io invece sarò impegnato venerdì sera — suonerò con la band.", "en": "I'll be busy Friday evening — I'll play with the band." },
+        { "speaker": "You", "target": "Davvero? Dove sarà il concerto?", "en": "Really? Where will the concert be?" },
+        { "speaker": "Marco", "target": "Sarà in un bar del centro.", "en": "It'll be at a bar downtown." },
+        { "speaker": "You", "target": "Ci sarò!", "en": "I'll be there!", "spotlight": "ci sarò — the futuro of esserci, 'to be there'." }
       ]
     },
     {

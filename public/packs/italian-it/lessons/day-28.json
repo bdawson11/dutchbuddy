@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-28",
   "day": 28,
   "module": "M04",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Ripasso lampo — ascolta",
       "items": [
-        { "nl": "Vorrei il primo.", "en": "I'd like the first course.", "speak": "Vorrei il primo." },
-        { "nl": "Posso avere il conto?", "en": "Can I have the bill?", "speak": "Posso avere il conto?" },
-        { "nl": "Mi piacciono i tortellini.", "en": "I like tortellini.", "speak": "Mi piacciono i tortellini." },
-        { "nl": "Devo tornare a casa.", "en": "I have to go home.", "speak": "Devo tornare a casa." },
-        { "nl": "Un etto di prosciutto, per favore.", "en": "100g of prosciutto, please.", "speak": "Un etto di prosciutto, per favore." }
+        { "target": "Vorrei il primo.", "en": "I'd like the first course.", "speak": "Vorrei il primo." },
+        { "target": "Posso avere il conto?", "en": "Can I have the bill?", "speak": "Posso avere il conto?" },
+        { "target": "Mi piacciono i tortellini.", "en": "I like tortellini.", "speak": "Mi piacciono i tortellini." },
+        { "target": "Devo tornare a casa.", "en": "I have to go home.", "speak": "Devo tornare a casa." },
+        { "target": "Un etto di prosciutto, per favore.", "en": "100g of prosciutto, please.", "speak": "Un etto di prosciutto, per favore." }
       ]
     },
     {
@@ -66,22 +66,22 @@
       "type": "shadow",
       "title": "Tutta la settimana in tre frasi",
       "lines": [
-        { "nl": "Vorrei il primo, per favore.", "en": "I'd like the first course, please." },
-        { "nl": "Mi piacciono molto le tagliatelle.", "en": "I really like tagliatelle." },
-        { "nl": "Devo andare, ma prima il conto.", "en": "I have to go, but first the bill." }
+        { "target": "Vorrei il primo, per favore.", "en": "I'd like the first course, please." },
+        { "target": "Mi piacciono molto le tagliatelle.", "en": "I really like tagliatelle." },
+        { "target": "Devo andare, ma prima il conto.", "en": "I have to go, but first the bill." }
       ]
     },
     {
       "type": "dialogue",
       "scene": "You, Giulia, and Marco order a full lunch together at a trattoria in Bologna",
       "lines": [
-        { "speaker": "Giulia", "nl": "Allora, cosa vuoi ordinare oggi?", "en": "So, what do you want to order today?" },
-        { "speaker": "You", "nl": "Vorrei il primo — le tagliatelle al ragù.", "en": "I'd like the first course — tagliatelle with ragù." },
-        { "speaker": "Marco", "nl": "Ottima scelta. Per me un secondo, la cotoletta.", "en": "Great choice. For me a second course, the cutlet." },
-        { "speaker": "You", "nl": "Mi piacciono tantissimo le tagliatelle qui.", "en": "I really like the tagliatelle here." },
-        { "speaker": "Giulia", "nl": "Anche a me piace questo posto. Prendiamo anche un contorno insieme?", "en": "I like this place too. Shall we also get a side to share?" },
-        { "speaker": "You", "nl": "Sì, e alla fine mi porta il conto, per favore?", "en": "Yes, and at the end could you bring me the bill, please?" },
-        { "speaker": "Marco", "nl": "Guarda, ormai ordini come un vero bolognese.", "en": "Look, you order like a real Bolognese now.", "spotlight": "Four weeks in and the modal + piacere + ordering patterns all show up in one exchange." }
+        { "speaker": "Giulia", "target": "Allora, cosa vuoi ordinare oggi?", "en": "So, what do you want to order today?" },
+        { "speaker": "You", "target": "Vorrei il primo — le tagliatelle al ragù.", "en": "I'd like the first course — tagliatelle with ragù." },
+        { "speaker": "Marco", "target": "Ottima scelta. Per me un secondo, la cotoletta.", "en": "Great choice. For me a second course, the cutlet." },
+        { "speaker": "You", "target": "Mi piacciono tantissimo le tagliatelle qui.", "en": "I really like the tagliatelle here." },
+        { "speaker": "Giulia", "target": "Anche a me piace questo posto. Prendiamo anche un contorno insieme?", "en": "I like this place too. Shall we also get a side to share?" },
+        { "speaker": "You", "target": "Sì, e alla fine mi porta il conto, per favore?", "en": "Yes, and at the end could you bring me the bill, please?" },
+        { "speaker": "Marco", "target": "Guarda, ormai ordini come un vero bolognese.", "en": "Look, you order like a real Bolognese now.", "spotlight": "Four weeks in and the modal + piacere + ordering patterns all show up in one exchange." }
       ]
     },
     {

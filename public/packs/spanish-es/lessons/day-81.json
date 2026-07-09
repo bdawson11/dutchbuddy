@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-81",
   "day": 81,
   "module": "M12",
@@ -21,22 +21,22 @@
       "type": "chips",
       "title": "En la tienda — toca para oír",
       "items": [
-        { "nl": "¿Me lo puedo probar?", "en": "can I try it on?", "speak": "¿Me lo puedo probar?" },
-        { "nl": "¿Tenéis otra talla?", "en": "do you have another size?", "speak": "¿Tenéis otra talla?" },
-        { "nl": "Me lo llevo.", "en": "I'll take it", "speak": "Me lo llevo." },
-        { "nl": "Solo estoy mirando, gracias.", "en": "I'm just looking, thanks", "speak": "Solo estoy mirando, gracias." },
-        { "nl": "¿Me cobras con tarjeta?", "en": "can I pay by card?", "speak": "¿Me cobras con tarjeta?" }
+        { "target": "¿Me lo puedo probar?", "en": "can I try it on?", "speak": "¿Me lo puedo probar?" },
+        { "target": "¿Tenéis otra talla?", "en": "do you have another size?", "speak": "¿Tenéis otra talla?" },
+        { "target": "Me lo llevo.", "en": "I'll take it", "speak": "Me lo llevo." },
+        { "target": "Solo estoy mirando, gracias.", "en": "I'm just looking, thanks", "speak": "Solo estoy mirando, gracias." },
+        { "target": "¿Me cobras con tarjeta?", "en": "can I pay by card?", "speak": "¿Me cobras con tarjeta?" }
       ]
     },
     {
       "type": "shadow",
       "title": "En la peluquería — escucha y repite",
       "lines": [
-        { "nl": "Hola, ¿qué te hacemos hoy?", "en": "Hi, what are we doing today?" },
-        { "nl": "Córtame un poco las puntas, por favor.", "en": "Just trim the ends, please." },
-        { "nl": "¿Y por los lados? ¿Más corto?", "en": "And the sides? Shorter?" },
-        { "nl": "Un pelín, pero no mucho.", "en": "A tiny bit, but not much." },
-        { "nl": "¿Te lo seco?", "en": "Shall I blow-dry it?" }
+        { "target": "Hola, ¿qué te hacemos hoy?", "en": "Hi, what are we doing today?" },
+        { "target": "Córtame un poco las puntas, por favor.", "en": "Just trim the ends, please." },
+        { "target": "¿Y por los lados? ¿Más corto?", "en": "And the sides? Shorter?" },
+        { "target": "Un pelín, pero no mucho.", "en": "A tiny bit, but not much." },
+        { "target": "¿Te lo seco?", "en": "Shall I blow-dry it?" }
       ]
     },
     {
@@ -63,13 +63,13 @@
       "type": "dialogue",
       "scene": "Lucía comes clothes-shopping with you and coaches your counter Spanish",
       "lines": [
-        { "speaker": "Lucía", "nl": "Mira, pregúntale por la talla tú mismo. Tú puedes.", "en": "Look, ask about the size yourself. You can do it." },
-        { "speaker": "You", "nl": "Vale. Perdona, ¿tenéis esta camiseta en talla mediana?", "en": "Okay. Excuse me, do you have this shirt in medium?" },
-        { "speaker": "Lucía", "nl": "Muy bien. Y si quieres probártela, se lo dices.", "en": "Great. And if you want to try it on, you tell them." },
-        { "speaker": "You", "nl": "¿Me la puedo probar? ¿Hay probador?", "en": "Can I try it on? Is there a fitting room?", "spotlight": "clitic *la* for *la camiseta* — day-65 pronouns, now automatic." },
-        { "speaker": "Lucía", "nl": "Perfecto. Suenas de aquí ya.", "en": "Perfect. You already sound local." },
-        { "speaker": "You", "nl": "Me la llevo. ¿Me cobras con tarjeta?", "en": "I'll take it. Can I pay by card?" },
-        { "speaker": "Lucía", "nl": "¡Hala, mira qué suelto! Nos tomamos una caña para celebrarlo.", "en": "Whoa, look how smooth you are! Let's grab a beer to celebrate." }
+        { "speaker": "Lucía", "target": "Mira, pregúntale por la talla tú mismo. Tú puedes.", "en": "Look, ask about the size yourself. You can do it." },
+        { "speaker": "You", "target": "Vale. Perdona, ¿tenéis esta camiseta en talla mediana?", "en": "Okay. Excuse me, do you have this shirt in medium?" },
+        { "speaker": "Lucía", "target": "Muy bien. Y si quieres probártela, se lo dices.", "en": "Great. And if you want to try it on, you tell them." },
+        { "speaker": "You", "target": "¿Me la puedo probar? ¿Hay probador?", "en": "Can I try it on? Is there a fitting room?", "spotlight": "clitic *la* for *la camiseta* — day-65 pronouns, now automatic." },
+        { "speaker": "Lucía", "target": "Perfecto. Suenas de aquí ya.", "en": "Perfect. You already sound local." },
+        { "speaker": "You", "target": "Me la llevo. ¿Me cobras con tarjeta?", "en": "I'll take it. Can I pay by card?" },
+        { "speaker": "Lucía", "target": "¡Hala, mira qué suelto! Nos tomamos una caña para celebrarlo.", "en": "Whoa, look how smooth you are! Let's grab a beer to celebrate." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-48",
   "day": 48,
   "module": "M07",
@@ -41,15 +41,15 @@
       "type": "dialogue",
       "scene": "At the bar, Nacho tells you what life was like growing up in his pueblo in Castilla-La Mancha",
       "lines": [
-        { "speaker": "Nacho", "nl": "Yo soy de un pueblo pequeño de Castilla-La Mancha. Allí la vida era muy distinta.", "en": "I'm from a small village in Castilla-La Mancha. Life there was very different." },
-        { "speaker": "You", "nl": "¿Cómo era tu pueblo cuando eras niño?", "en": "What was your village like when you were a kid?" },
-        { "speaker": "Nacho", "nl": "Era tranquilo. No había coches en la calle, solo bicicletas.", "en": "It was quiet. There were no cars on the street, just bicycles." },
-        { "speaker": "Nacho", "nl": "Todos los veranos jugábamos en la plaza hasta muy tarde.", "en": "Every summer we used to play in the square until very late." },
-        { "speaker": "You", "nl": "¿Y tus padres? ¿Qué hacían?", "en": "And your parents? What did they do?" },
-        { "speaker": "Nacho", "nl": "Mi padre trabajaba en el campo y mi madre tenía una tienda pequeña.", "en": "My father worked in the fields and my mother had a small shop." },
-        { "speaker": "Nacho", "nl": "Un día me caí de un árbol y me rompí el brazo — ¡menudo susto!", "en": "One day I fell out of a tree and broke my arm — what a scare!", "spotlight": "el fondo está en imperfecto, pero este hecho puntual cambia al indefinido." },
-        { "speaker": "You", "nl": "¡Madre mía! ¿Y echas de menos el pueblo?", "en": "Good grief! And do you miss the village?" },
-        { "speaker": "Nacho", "nl": "Hombre, claro. En el pueblo se vive mejor, aunque aquí esté mi trabajo.", "en": "Well, of course. Life is better in the village, even though my job's here." }
+        { "speaker": "Nacho", "target": "Yo soy de un pueblo pequeño de Castilla-La Mancha. Allí la vida era muy distinta.", "en": "I'm from a small village in Castilla-La Mancha. Life there was very different." },
+        { "speaker": "You", "target": "¿Cómo era tu pueblo cuando eras niño?", "en": "What was your village like when you were a kid?" },
+        { "speaker": "Nacho", "target": "Era tranquilo. No había coches en la calle, solo bicicletas.", "en": "It was quiet. There were no cars on the street, just bicycles." },
+        { "speaker": "Nacho", "target": "Todos los veranos jugábamos en la plaza hasta muy tarde.", "en": "Every summer we used to play in the square until very late." },
+        { "speaker": "You", "target": "¿Y tus padres? ¿Qué hacían?", "en": "And your parents? What did they do?" },
+        { "speaker": "Nacho", "target": "Mi padre trabajaba en el campo y mi madre tenía una tienda pequeña.", "en": "My father worked in the fields and my mother had a small shop." },
+        { "speaker": "Nacho", "target": "Un día me caí de un árbol y me rompí el brazo — ¡menudo susto!", "en": "One day I fell out of a tree and broke my arm — what a scare!", "spotlight": "el fondo está en imperfecto, pero este hecho puntual cambia al indefinido." },
+        { "speaker": "You", "target": "¡Madre mía! ¿Y echas de menos el pueblo?", "en": "Good grief! And do you miss the village?" },
+        { "speaker": "Nacho", "target": "Hombre, claro. En el pueblo se vive mejor, aunque aquí esté mi trabajo.", "en": "Well, of course. Life is better in the village, even though my job's here." }
       ]
     },
     {

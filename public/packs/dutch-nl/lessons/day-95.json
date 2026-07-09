@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-95",
   "day": 95,
   "module": "M14",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Spijt — tik om te horen",
       "items": [
-        { "nl": "Ik had beter moeten opletten.", "en": "I should have paid better attention.", "speak": "Ik had beter moeten opletten." },
-        { "nl": "Dat had ik nooit moeten zeggen.", "en": "I should never have said that.", "speak": "Dat had ik nooit moeten zeggen." },
-        { "nl": "We hadden eerder kunnen vertrekken.", "en": "We could have left earlier.", "speak": "We hadden eerder kunnen vertrekken." },
-        { "nl": "Had ik maar geluisterd!", "en": "If only I'd listened!", "speak": "Had ik maar geluisterd!" },
-        { "nl": "Was ik maar thuisgebleven.", "en": "I wish I'd stayed home.", "speak": "Was ik maar thuisgebleven." },
-        { "nl": "Je had me kunnen waarschuwen.", "en": "You could have warned me.", "speak": "Je had me kunnen waarschuwen." }
+        { "target": "Ik had beter moeten opletten.", "en": "I should have paid better attention.", "speak": "Ik had beter moeten opletten." },
+        { "target": "Dat had ik nooit moeten zeggen.", "en": "I should never have said that.", "speak": "Dat had ik nooit moeten zeggen." },
+        { "target": "We hadden eerder kunnen vertrekken.", "en": "We could have left earlier.", "speak": "We hadden eerder kunnen vertrekken." },
+        { "target": "Had ik maar geluisterd!", "en": "If only I'd listened!", "speak": "Had ik maar geluisterd!" },
+        { "target": "Was ik maar thuisgebleven.", "en": "I wish I'd stayed home.", "speak": "Was ik maar thuisgebleven." },
+        { "target": "Je had me kunnen waarschuwen.", "en": "You could have warned me.", "speak": "Je had me kunnen waarschuwen." }
       ]
     },
     {
@@ -61,15 +61,15 @@
       "type": "dialogue",
       "scene": "Daan is kicking himself about a gig he turned down last month.",
       "lines": [
-        { "speaker": "Daan", "nl": "Ik baal echt. Ik had die gig gewoon moeten aannemen.", "en": "I'm really annoyed. I should've just taken that gig.", "spotlight": "*had moeten aannemen* — de spijtvorm." },
-        { "speaker": "You", "nl": "Welke gig?", "en": "Which gig?" },
-        { "speaker": "Daan", "nl": "Een support-optreden, vorige maand. Ik zei nee. Stom.", "en": "A support slot, last month. I said no. Stupid." },
-        { "speaker": "You", "nl": "Waarom zei je nee?", "en": "Why did you say no?" },
-        { "speaker": "Daan", "nl": "Ik was zenuwachtig. Ik had gewoon ja moeten zeggen, joh.", "en": "I was nervous. I should've just said yes, man." },
-        { "speaker": "You", "nl": "Je kon het toen niet weten.", "en": "You couldn't have known at the time." },
-        { "speaker": "Daan", "nl": "Had ik maar meer lef gehad. Nu is de kans weg.", "en": "If only I'd had more nerve. Now the chance is gone.", "spotlight": "*had ik maar …* — de wens/spijt." },
-        { "speaker": "You", "nl": "Er komen vast meer kansen. En als er weer een komt?", "en": "More chances will come. And if another one comes?" },
-        { "speaker": "Daan", "nl": "Dan zeg ik ja. Deze fout maak ik niet nog eens.", "en": "Then I say yes. I won't make this mistake again." }
+        { "speaker": "Daan", "target": "Ik baal echt. Ik had die gig gewoon moeten aannemen.", "en": "I'm really annoyed. I should've just taken that gig.", "spotlight": "*had moeten aannemen* — de spijtvorm." },
+        { "speaker": "You", "target": "Welke gig?", "en": "Which gig?" },
+        { "speaker": "Daan", "target": "Een support-optreden, vorige maand. Ik zei nee. Stom.", "en": "A support slot, last month. I said no. Stupid." },
+        { "speaker": "You", "target": "Waarom zei je nee?", "en": "Why did you say no?" },
+        { "speaker": "Daan", "target": "Ik was zenuwachtig. Ik had gewoon ja moeten zeggen, joh.", "en": "I was nervous. I should've just said yes, man." },
+        { "speaker": "You", "target": "Je kon het toen niet weten.", "en": "You couldn't have known at the time." },
+        { "speaker": "Daan", "target": "Had ik maar meer lef gehad. Nu is de kans weg.", "en": "If only I'd had more nerve. Now the chance is gone.", "spotlight": "*had ik maar …* — de wens/spijt." },
+        { "speaker": "You", "target": "Er komen vast meer kansen. En als er weer een komt?", "en": "More chances will come. And if another one comes?" },
+        { "speaker": "Daan", "target": "Dan zeg ik ja. Deze fout maak ik niet nog eens.", "en": "Then I say yes. I won't make this mistake again." }
       ]
     },
     {

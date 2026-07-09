@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-94",
   "day": 94,
   "module": "M14",
@@ -43,12 +43,12 @@
       "type": "chips",
       "title": "Ausweichen im Ohr",
       "items": [
-        { "nl": "Sie sagen, sie hätten keine Zeit.", "en": "They say they have no time.", "speak": "Sie sagen, sie hätten keine Zeit." },
-        { "nl": "Die Kollegen meinen, sie kämen später.", "en": "The colleagues reckon they'll come later.", "speak": "Die Kollegen meinen, sie kämen später." },
-        { "nl": "Er sagt, er sei dafür.", "en": "He says he's in favour.", "speak": "Er sagt, er sei dafür." },
-        { "nl": "Sie behaupten, sie würden das anders machen.", "en": "They claim they'd do it differently.", "speak": "Sie behaupten, sie würden das anders machen." },
-        { "nl": "Ich habe gesagt, ich hätte keine Ahnung.", "en": "I said I had no idea.", "speak": "Ich habe gesagt, ich hätte keine Ahnung." },
-        { "nl": "Sie meinen, sie hätten recht.", "en": "They think they're right.", "speak": "Sie meinen, sie hätten recht." }
+        { "target": "Sie sagen, sie hätten keine Zeit.", "en": "They say they have no time.", "speak": "Sie sagen, sie hätten keine Zeit." },
+        { "target": "Die Kollegen meinen, sie kämen später.", "en": "The colleagues reckon they'll come later.", "speak": "Die Kollegen meinen, sie kämen später." },
+        { "target": "Er sagt, er sei dafür.", "en": "He says he's in favour.", "speak": "Er sagt, er sei dafür." },
+        { "target": "Sie behaupten, sie würden das anders machen.", "en": "They claim they'd do it differently.", "speak": "Sie behaupten, sie würden das anders machen." },
+        { "target": "Ich habe gesagt, ich hätte keine Ahnung.", "en": "I said I had no idea.", "speak": "Ich habe gesagt, ich hätte keine Ahnung." },
+        { "target": "Sie meinen, sie hätten recht.", "en": "They think they're right.", "speak": "Sie meinen, sie hätten recht." }
       ]
     },
     {
@@ -89,15 +89,15 @@
       "type": "dialogue",
       "scene": "Jonas asks what the rest of the group thinks about a weekend trip. You report the mixed replies — mostly plural, so they hop to Konjunktiv II.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Und? Was sagen die anderen zum Ausflug?", "en": "So? What do the others say about the trip?" },
-        { "speaker": "You", "nl": "Gemischt. Lena und Aylin sagen, sie hätten am Samstag Zeit.", "en": "Mixed. Lena and Aylin say they have time on Saturday.", "spotlight": "Plural haben → hätten, or it would sound just like the indicative." },
-        { "speaker": "Jonas", "nl": "Und Klaus?", "en": "And Klaus?" },
-        { "speaker": "You", "nl": "Er meint, er komme vielleicht später.", "en": "He reckons he might come later.", "spotlight": "3rd person singular → Konjunktiv I stays: komme." },
-        { "speaker": "Jonas", "nl": "Typisch. Und der Preis?", "en": "Typical. And the price?" },
-        { "speaker": "You", "nl": "Die beiden sagen, sie würden lieber was Günstiges nehmen.", "en": "The two of them say they'd rather take something cheap.", "spotlight": "Plural nehmen → the würde-escape." },
-        { "speaker": "Jonas", "nl": "Okay. Also hätten wir grob einen Plan.", "en": "Okay. So we'd roughly have a plan." },
-        { "speaker": "You", "nl": "Genau. Ich hab gesagt, ich hätte nichts dagegen.", "en": "Exactly. I said I had nothing against it.", "spotlight": "1st person → hätte, because habe would sound like the indicative." },
-        { "speaker": "Jonas", "nl": "Super. Dann sag ihnen, sie sollen sich den Samstag freihalten.", "en": "Great. Then tell them to keep Saturday free.", "spotlight": "A request reported with sollen." }
+        { "speaker": "Jonas", "target": "Und? Was sagen die anderen zum Ausflug?", "en": "So? What do the others say about the trip?" },
+        { "speaker": "You", "target": "Gemischt. Lena und Aylin sagen, sie hätten am Samstag Zeit.", "en": "Mixed. Lena and Aylin say they have time on Saturday.", "spotlight": "Plural haben → hätten, or it would sound just like the indicative." },
+        { "speaker": "Jonas", "target": "Und Klaus?", "en": "And Klaus?" },
+        { "speaker": "You", "target": "Er meint, er komme vielleicht später.", "en": "He reckons he might come later.", "spotlight": "3rd person singular → Konjunktiv I stays: komme." },
+        { "speaker": "Jonas", "target": "Typisch. Und der Preis?", "en": "Typical. And the price?" },
+        { "speaker": "You", "target": "Die beiden sagen, sie würden lieber was Günstiges nehmen.", "en": "The two of them say they'd rather take something cheap.", "spotlight": "Plural nehmen → the würde-escape." },
+        { "speaker": "Jonas", "target": "Okay. Also hätten wir grob einen Plan.", "en": "Okay. So we'd roughly have a plan." },
+        { "speaker": "You", "target": "Genau. Ich hab gesagt, ich hätte nichts dagegen.", "en": "Exactly. I said I had nothing against it.", "spotlight": "1st person → hätte, because habe would sound like the indicative." },
+        { "speaker": "Jonas", "target": "Super. Dann sag ihnen, sie sollen sich den Samstag freihalten.", "en": "Great. Then tell them to keep Saturday free.", "spotlight": "A request reported with sollen." }
       ]
     },
     {

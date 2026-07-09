@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-06",
   "day": 6,
   "module": "M01",
@@ -38,12 +38,12 @@
       "type": "chips",
       "title": "Learn each noun with its article",
       "items": [
-        { "nl": "de man", "en": "the man", "speak": "de man" },
-        { "nl": "het huis", "en": "the house", "speak": "het huis" },
-        { "nl": "de vrouw", "en": "the woman", "speak": "de vrouw" },
-        { "nl": "het kind", "en": "the child", "speak": "het kind" },
-        { "nl": "het kopje", "en": "the little cup", "speak": "het kopje" },
-        { "nl": "de hond", "en": "the dog", "speak": "de hond" }
+        { "target": "de man", "en": "the man", "speak": "de man" },
+        { "target": "het huis", "en": "the house", "speak": "het huis" },
+        { "target": "de vrouw", "en": "the woman", "speak": "de vrouw" },
+        { "target": "het kind", "en": "the child", "speak": "het kind" },
+        { "target": "het kopje", "en": "the little cup", "speak": "het kopje" },
+        { "target": "de hond", "en": "the dog", "speak": "de hond" }
       ]
     },
     {

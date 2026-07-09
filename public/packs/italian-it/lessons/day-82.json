@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-82",
   "day": 82,
   "module": "M12",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "I primi — tap to hear",
       "items": [
-        { "nl": "In bocca al lupo!", "en": "Good luck! (lit. into the wolf's mouth)", "speak": "In bocca al lupo!" },
-        { "nl": "Non vedo l'ora!", "en": "I can't wait! (lit. I don't see the hour)", "speak": "Non vedo l'ora!" },
-        { "nl": "Sei in gamba.", "en": "You're sharp / capable. (lit. on the leg)", "speak": "Sei in gamba." },
-        { "nl": "Acqua in bocca!", "en": "Keep it secret! (lit. water in the mouth)", "speak": "Acqua in bocca!" }
+        { "target": "In bocca al lupo!", "en": "Good luck! (lit. into the wolf's mouth)", "speak": "In bocca al lupo!" },
+        { "target": "Non vedo l'ora!", "en": "I can't wait! (lit. I don't see the hour)", "speak": "Non vedo l'ora!" },
+        { "target": "Sei in gamba.", "en": "You're sharp / capable. (lit. on the leg)", "speak": "Sei in gamba." },
+        { "target": "Acqua in bocca!", "en": "Keep it secret! (lit. water in the mouth)", "speak": "Acqua in bocca!" }
       ]
     },
     {
@@ -47,10 +47,10 @@
       "type": "chips",
       "title": "Ancora qualcuno",
       "items": [
-        { "nl": "Costa un occhio della testa!", "en": "It costs a fortune!", "speak": "Costa un occhio della testa!" },
-        { "nl": "Ho una fame da lupi.", "en": "I'm starving.", "speak": "Ho una fame da lupi." },
-        { "nl": "Facciamo il ponte.", "en": "Let's take the long weekend.", "speak": "Facciamo il ponte." },
-        { "nl": "Due piccioni con una fava.", "en": "Two birds, one stone.", "speak": "Due piccioni con una fava." }
+        { "target": "Costa un occhio della testa!", "en": "It costs a fortune!", "speak": "Costa un occhio della testa!" },
+        { "target": "Ho una fame da lupi.", "en": "I'm starving.", "speak": "Ho una fame da lupi." },
+        { "target": "Facciamo il ponte.", "en": "Let's take the long weekend.", "speak": "Facciamo il ponte." },
+        { "target": "Due piccioni con una fava.", "en": "Two birds, one stone.", "speak": "Due piccioni con una fava." }
       ]
     },
     {
@@ -84,13 +84,13 @@
       "type": "dialogue",
       "scene": "Pietro calls from Naples to wish you luck before a big day — and can't resist a proverb.",
       "lines": [
-        { "speaker": "Pietro", "nl": "Allora, domani è il grande giorno. In bocca al lupo!", "en": "So, tomorrow's the big day. Good luck!" },
-        { "speaker": "You", "nl": "Crepi! Sono un po' nervoso, non ti nascondo.", "en": "Thanks! I'm a bit nervous, I won't lie to you." },
-        { "speaker": "Pietro", "nl": "Tranquillo. Chi va piano va sano e va lontano.", "en": "Relax. Slow and steady goes far.", "spotlight": "A proverb dropped in as gentle advice — very Pietro." },
-        { "speaker": "Pietro", "nl": "E ricordati: non tutte le ciambelle riescono col buco. Se qualcosa va storto, pazienza.", "en": "And remember: not everything goes to plan. If something goes wrong, no big deal." },
-        { "speaker": "You", "nl": "Hai ragione. Comunque non vedo l'ora che finisca!", "en": "You're right. Either way, I can't wait for it to be over!", "spotlight": "*Non vedo l'ora che finisca* — the idiom plus a congiuntivo." },
-        { "speaker": "Pietro", "nl": "Ti capisco. Ma sei in gamba, andrà bene. Fammi sapere!", "en": "I get you. But you're sharp, it'll go well. Let me know!" },
-        { "speaker": "You", "nl": "Grazie Pietro. Ti chiamo domani sera.", "en": "Thanks Pietro. I'll call you tomorrow evening." }
+        { "speaker": "Pietro", "target": "Allora, domani è il grande giorno. In bocca al lupo!", "en": "So, tomorrow's the big day. Good luck!" },
+        { "speaker": "You", "target": "Crepi! Sono un po' nervoso, non ti nascondo.", "en": "Thanks! I'm a bit nervous, I won't lie to you." },
+        { "speaker": "Pietro", "target": "Tranquillo. Chi va piano va sano e va lontano.", "en": "Relax. Slow and steady goes far.", "spotlight": "A proverb dropped in as gentle advice — very Pietro." },
+        { "speaker": "Pietro", "target": "E ricordati: non tutte le ciambelle riescono col buco. Se qualcosa va storto, pazienza.", "en": "And remember: not everything goes to plan. If something goes wrong, no big deal." },
+        { "speaker": "You", "target": "Hai ragione. Comunque non vedo l'ora che finisca!", "en": "You're right. Either way, I can't wait for it to be over!", "spotlight": "*Non vedo l'ora che finisca* — the idiom plus a congiuntivo." },
+        { "speaker": "Pietro", "target": "Ti capisco. Ma sei in gamba, andrà bene. Fammi sapere!", "en": "I get you. But you're sharp, it'll go well. Let me know!" },
+        { "speaker": "You", "target": "Grazie Pietro. Ti chiamo domani sera.", "en": "Thanks Pietro. I'll call you tomorrow evening." }
       ]
     },
     {

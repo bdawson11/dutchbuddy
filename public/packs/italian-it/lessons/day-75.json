@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-75",
   "day": 75,
   "module": "M11",
@@ -30,12 +30,12 @@
       "type": "chips",
       "title": "Formule di cortesia (Lei)",
       "items": [
-        { "nl": "Mi scusi…", "en": "Excuse me… (formal)", "speak": "Mi scusi." },
-        { "nl": "Lei come sta?", "en": "How are you? (formal)", "speak": "Lei come sta?" },
-        { "nl": "La ringrazio.", "en": "Thank you (formal).", "speak": "La ringrazio." },
-        { "nl": "Le dispiace?", "en": "Do you mind?", "speak": "Le dispiace?" },
-        { "nl": "Si accomodi.", "en": "Have a seat / come in.", "speak": "Si accomodi." },
-        { "nl": "Prego, mi dica.", "en": "Please, go ahead.", "speak": "Prego, mi dica." }
+        { "target": "Mi scusi…", "en": "Excuse me… (formal)", "speak": "Mi scusi." },
+        { "target": "Lei come sta?", "en": "How are you? (formal)", "speak": "Lei come sta?" },
+        { "target": "La ringrazio.", "en": "Thank you (formal).", "speak": "La ringrazio." },
+        { "target": "Le dispiace?", "en": "Do you mind?", "speak": "Le dispiace?" },
+        { "target": "Si accomodi.", "en": "Have a seat / come in.", "speak": "Si accomodi." },
+        { "target": "Prego, mi dica.", "en": "Please, go ahead.", "speak": "Prego, mi dica." }
       ]
     },
     {
@@ -75,15 +75,15 @@
       "type": "dialogue",
       "scene": "Pietro ti spiega quando usa il Lei al lavoro, a Napoli.",
       "lines": [
-        { "speaker": "Pietro", "nl": "Guarda, al lavoro con un cliente nuovo do sempre del Lei. «Buongiorno, mi dica pure.»", "en": "Look, at work with a new client I always use Lei. 'Good morning, please go ahead.'", "spotlight": "*mi dica* è l'imperativo di cortesia (Lei) di *dire*: formale e gentile." },
-        { "speaker": "You", "nl": "E se il cliente è giovane come me?", "en": "And if the client is young like me?" },
-        { "speaker": "Pietro", "nl": "Lo stesso, all'inizio. È una forma di rispetto. Poi, magari, ci diamo del tu.", "en": "The same, at first. It's a form of respect. Then, maybe, we switch to tu." },
-        { "speaker": "You", "nl": "E chi lo propone, il tu?", "en": "And who proposes it, the tu?" },
-        { "speaker": "Pietro", "nl": "Di solito il più grande. Io dico: «Diamoci del tu, ti va?»", "en": "Usually the older one. I say: 'Let's use tu, alright?'", "spotlight": "*Diamoci del tu* è la formula per proporre il passaggio all'informale." },
-        { "speaker": "You", "nl": "E con me? Do del tu o del Lei?", "en": "And with me? Do I use tu or Lei?" },
-        { "speaker": "Pietro", "nl": "Con me, del tu! Sei un amico, mica un cliente.", "en": "With me, tu! You're a friend, not a client." },
-        { "speaker": "You", "nl": "Meno male, il Lei mi fa ancora un po' paura.", "en": "Thank goodness, Lei still scares me a little." },
-        { "speaker": "Pietro", "nl": "Tranquillo, viene con il tempo. Qui a Napoli ci teniamo alle buone maniere.", "en": "Don't worry, it comes with time. Here in Naples we care about good manners." }
+        { "speaker": "Pietro", "target": "Guarda, al lavoro con un cliente nuovo do sempre del Lei. «Buongiorno, mi dica pure.»", "en": "Look, at work with a new client I always use Lei. 'Good morning, please go ahead.'", "spotlight": "*mi dica* è l'imperativo di cortesia (Lei) di *dire*: formale e gentile." },
+        { "speaker": "You", "target": "E se il cliente è giovane come me?", "en": "And if the client is young like me?" },
+        { "speaker": "Pietro", "target": "Lo stesso, all'inizio. È una forma di rispetto. Poi, magari, ci diamo del tu.", "en": "The same, at first. It's a form of respect. Then, maybe, we switch to tu." },
+        { "speaker": "You", "target": "E chi lo propone, il tu?", "en": "And who proposes it, the tu?" },
+        { "speaker": "Pietro", "target": "Di solito il più grande. Io dico: «Diamoci del tu, ti va?»", "en": "Usually the older one. I say: 'Let's use tu, alright?'", "spotlight": "*Diamoci del tu* è la formula per proporre il passaggio all'informale." },
+        { "speaker": "You", "target": "E con me? Do del tu o del Lei?", "en": "And with me? Do I use tu or Lei?" },
+        { "speaker": "Pietro", "target": "Con me, del tu! Sei un amico, mica un cliente.", "en": "With me, tu! You're a friend, not a client." },
+        { "speaker": "You", "target": "Meno male, il Lei mi fa ancora un po' paura.", "en": "Thank goodness, Lei still scares me a little." },
+        { "speaker": "Pietro", "target": "Tranquillo, viene con il tempo. Qui a Napoli ci teniamo alle buone maniere.", "en": "Don't worry, it comes with time. Here in Naples we care about good manners." }
       ]
     },
     {

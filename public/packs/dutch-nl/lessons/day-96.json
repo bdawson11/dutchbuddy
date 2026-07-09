@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-96",
   "day": 96,
   "module": "M14",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Verstopte voorwaarden — tik om te horen",
       "items": [
-        { "nl": "Neem een jas mee, anders word je nat.", "en": "Take a coat, or you'll get wet.", "speak": "Neem een jas mee, anders word je nat." },
-        { "nl": "Bel even, anders maak ik me zorgen.", "en": "Do call, otherwise I'll worry.", "speak": "Bel even, anders maak ik me zorgen." },
-        { "nl": "Zonder koffie functioneer ik niet.", "en": "Without coffee I don't function.", "speak": "Zonder koffie functioneer ik niet." },
-        { "nl": "Stel dat het misgaat, wat dan?", "en": "Suppose it goes wrong, then what?", "speak": "Stel dat het misgaat, wat dan?" },
-        { "nl": "Mocht je iets nodig hebben, zeg het.", "en": "Should you need anything, say so.", "speak": "Mocht je iets nodig hebben, zeg het." },
-        { "nl": "Mocht het regenen, dan blijven we binnen.", "en": "Should it rain, we'll stay in.", "speak": "Mocht het regenen, dan blijven we binnen." }
+        { "target": "Neem een jas mee, anders word je nat.", "en": "Take a coat, or you'll get wet.", "speak": "Neem een jas mee, anders word je nat." },
+        { "target": "Bel even, anders maak ik me zorgen.", "en": "Do call, otherwise I'll worry.", "speak": "Bel even, anders maak ik me zorgen." },
+        { "target": "Zonder koffie functioneer ik niet.", "en": "Without coffee I don't function.", "speak": "Zonder koffie functioneer ik niet." },
+        { "target": "Stel dat het misgaat, wat dan?", "en": "Suppose it goes wrong, then what?", "speak": "Stel dat het misgaat, wat dan?" },
+        { "target": "Mocht je iets nodig hebben, zeg het.", "en": "Should you need anything, say so.", "speak": "Mocht je iets nodig hebben, zeg het." },
+        { "target": "Mocht het regenen, dan blijven we binnen.", "en": "Should it rain, we'll stay in.", "speak": "Mocht het regenen, dan blijven we binnen." }
       ]
     },
     {
@@ -71,15 +71,15 @@
       "type": "dialogue",
       "scene": "Emma plans a team day out and covers every 'what if'.",
       "lines": [
-        { "speaker": "Emma", "nl": "Zaterdag doen we een teamuitje. Mocht het mooi weer zijn, gaan we varen.", "en": "Saturday we're doing a team outing. Should the weather be nice, we'll go boating.", "spotlight": "*mocht het … zijn* — voorwaardelijk, werkwoord vooraan." },
-        { "speaker": "You", "nl": "En als het regent?", "en": "And if it rains?" },
-        { "speaker": "Emma", "nl": "Anders wijken we uit naar het museum. Alles is geregeld.", "en": "Otherwise we'll switch to the museum. It's all arranged.", "spotlight": "*anders* = het plan-B zonder *als*." },
-        { "speaker": "You", "nl": "Slim. En stel dat er mensen afzeggen?", "en": "Smart. And suppose people cancel?" },
-        { "speaker": "Emma", "nl": "Dan gaan we gewoon met een kleinere groep. Geen probleem.", "en": "Then we just go with a smaller group. No problem." },
-        { "speaker": "You", "nl": "Jij denkt echt aan alles.", "en": "You really think of everything." },
-        { "speaker": "Emma", "nl": "Moet wel, als teamlead in spe. Mocht ik die functie aannemen, tenminste.", "en": "Have to, as prospective team lead. Should I take that role, at least." },
-        { "speaker": "You", "nl": "Ah, dus je neigt naar ja?", "en": "Ah, so you're leaning towards yes?" },
-        { "speaker": "Emma", "nl": "Misschien. Zonder een beetje lef word je nooit teamlead, hè.", "en": "Maybe. Without a bit of nerve you never become team lead, huh." }
+        { "speaker": "Emma", "target": "Zaterdag doen we een teamuitje. Mocht het mooi weer zijn, gaan we varen.", "en": "Saturday we're doing a team outing. Should the weather be nice, we'll go boating.", "spotlight": "*mocht het … zijn* — voorwaardelijk, werkwoord vooraan." },
+        { "speaker": "You", "target": "En als het regent?", "en": "And if it rains?" },
+        { "speaker": "Emma", "target": "Anders wijken we uit naar het museum. Alles is geregeld.", "en": "Otherwise we'll switch to the museum. It's all arranged.", "spotlight": "*anders* = het plan-B zonder *als*." },
+        { "speaker": "You", "target": "Slim. En stel dat er mensen afzeggen?", "en": "Smart. And suppose people cancel?" },
+        { "speaker": "Emma", "target": "Dan gaan we gewoon met een kleinere groep. Geen probleem.", "en": "Then we just go with a smaller group. No problem." },
+        { "speaker": "You", "target": "Jij denkt echt aan alles.", "en": "You really think of everything." },
+        { "speaker": "Emma", "target": "Moet wel, als teamlead in spe. Mocht ik die functie aannemen, tenminste.", "en": "Have to, as prospective team lead. Should I take that role, at least." },
+        { "speaker": "You", "target": "Ah, dus je neigt naar ja?", "en": "Ah, so you're leaning towards yes?" },
+        { "speaker": "Emma", "target": "Misschien. Zonder een beetje lef word je nooit teamlead, hè.", "en": "Maybe. Without a bit of nerve you never become team lead, huh." }
       ]
     },
     {

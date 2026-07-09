@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-68",
   "day": 68,
   "module": "M10",
@@ -28,12 +28,12 @@
       "type": "chips",
       "title": "Tik om te horen",
       "items": [
-        { "nl": "Ik wil vanavond thuisblijven.", "en": "I want to stay home tonight.", "speak": "Ik wil vanavond thuisblijven." },
-        { "nl": "Je moet echt eens langskomen.", "en": "You really must drop by sometime.", "speak": "Je moet echt eens langskomen." },
-        { "nl": "We kunnen morgen beginnen.", "en": "We can start tomorrow.", "speak": "We kunnen morgen beginnen." },
-        { "nl": "Ik ga volgende week verhuizen.", "en": "I'm moving next week.", "speak": "Ik ga volgende week verhuizen." },
-        { "nl": "Ze wil graag helpen.", "en": "She'd love to help.", "speak": "Ze wil graag helpen." },
-        { "nl": "Ik moet nog veel inpakken.", "en": "I still have a lot to pack.", "speak": "Ik moet nog veel inpakken." }
+        { "target": "Ik wil vanavond thuisblijven.", "en": "I want to stay home tonight.", "speak": "Ik wil vanavond thuisblijven." },
+        { "target": "Je moet echt eens langskomen.", "en": "You really must drop by sometime.", "speak": "Je moet echt eens langskomen." },
+        { "target": "We kunnen morgen beginnen.", "en": "We can start tomorrow.", "speak": "We kunnen morgen beginnen." },
+        { "target": "Ik ga volgende week verhuizen.", "en": "I'm moving next week.", "speak": "Ik ga volgende week verhuizen." },
+        { "target": "Ze wil graag helpen.", "en": "She'd love to help.", "speak": "Ze wil graag helpen." },
+        { "target": "Ik moet nog veel inpakken.", "en": "I still have a lot to pack.", "speak": "Ik moet nog veel inpakken." }
       ]
     },
     {
@@ -88,13 +88,13 @@
       "type": "dialogue",
       "scene": "Daan appt over het weekend — Sanne gaat verhuizen en jullie willen helpen.",
       "lines": [
-        { "speaker": "Daan", "nl": "Joh, Sanne gaat dit weekend verhuizen. Wil je helpen?", "en": "Hey, Sanne's moving this weekend. Want to help?" },
-        { "speaker": "You", "nl": "Ja, natuurlijk! Ik wil graag komen helpen.", "en": "Yes, of course! I'd love to come and help.", "spotlight": "wil … komen helpen — three verbs stacked at the end." },
-        { "speaker": "Daan", "nl": "Top. We moeten om acht uur bij haar zijn.", "en": "Great. We have to be at her place at eight.", "spotlight": "moeten … zijn — modal + infinitive to the end." },
-        { "speaker": "You", "nl": "Zo vroeg? Ik denk dat ik het wel kan halen.", "en": "That early? I think I can manage it.", "spotlight": "dat ik het wel kan halen — subclause cluster at the end." },
-        { "speaker": "Daan", "nl": "Ze zei dat ze bijna alles al heeft kunnen inpakken.", "en": "She said she's already been able to pack almost everything.", "spotlight": "heeft kunnen inpakken — modal perfect, infinitive not participle." },
-        { "speaker": "You", "nl": "Fijn. Dan hoeven we alleen maar te sjouwen.", "en": "Nice. Then we only have to lug stuff around." },
-        { "speaker": "Daan", "nl": "Precies. Ik zal wat dozen meenemen.", "en": "Exactly. I'll bring some boxes." }
+        { "speaker": "Daan", "target": "Joh, Sanne gaat dit weekend verhuizen. Wil je helpen?", "en": "Hey, Sanne's moving this weekend. Want to help?" },
+        { "speaker": "You", "target": "Ja, natuurlijk! Ik wil graag komen helpen.", "en": "Yes, of course! I'd love to come and help.", "spotlight": "wil … komen helpen — three verbs stacked at the end." },
+        { "speaker": "Daan", "target": "Top. We moeten om acht uur bij haar zijn.", "en": "Great. We have to be at her place at eight.", "spotlight": "moeten … zijn — modal + infinitive to the end." },
+        { "speaker": "You", "target": "Zo vroeg? Ik denk dat ik het wel kan halen.", "en": "That early? I think I can manage it.", "spotlight": "dat ik het wel kan halen — subclause cluster at the end." },
+        { "speaker": "Daan", "target": "Ze zei dat ze bijna alles al heeft kunnen inpakken.", "en": "She said she's already been able to pack almost everything.", "spotlight": "heeft kunnen inpakken — modal perfect, infinitive not participle." },
+        { "speaker": "You", "target": "Fijn. Dan hoeven we alleen maar te sjouwen.", "en": "Nice. Then we only have to lug stuff around." },
+        { "speaker": "Daan", "target": "Precies. Ik zal wat dozen meenemen.", "en": "Exactly. I'll bring some boxes." }
       ]
     },
     {

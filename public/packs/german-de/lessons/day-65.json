@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-65",
   "day": 65,
   "module": "M10",
@@ -38,13 +38,13 @@
       "type": "chips",
       "title": "Die neun mit einem Ort (wo? → Dativ) — tap to hear",
       "items": [
-        { "nl": "in der Wohnung", "en": "in the flat", "speak": "in der Wohnung" },
-        { "nl": "auf dem Balkon", "en": "on the balcony", "speak": "auf dem Balkon" },
-        { "nl": "an der Wand", "en": "on the wall", "speak": "an der Wand" },
-        { "nl": "unter dem Bett", "en": "under the bed", "speak": "unter dem Bett" },
-        { "nl": "vor dem Haus", "en": "in front of the house", "speak": "vor dem Haus" },
-        { "nl": "hinter der Tür", "en": "behind the door", "speak": "hinter der Tür" },
-        { "nl": "neben dem Sofa", "en": "next to the sofa", "speak": "neben dem Sofa" }
+        { "target": "in der Wohnung", "en": "in the flat", "speak": "in der Wohnung" },
+        { "target": "auf dem Balkon", "en": "on the balcony", "speak": "auf dem Balkon" },
+        { "target": "an der Wand", "en": "on the wall", "speak": "an der Wand" },
+        { "target": "unter dem Bett", "en": "under the bed", "speak": "unter dem Bett" },
+        { "target": "vor dem Haus", "en": "in front of the house", "speak": "vor dem Haus" },
+        { "target": "hinter der Tür", "en": "behind the door", "speak": "hinter der Tür" },
+        { "target": "neben dem Sofa", "en": "next to the sofa", "speak": "neben dem Sofa" }
       ]
     },
     {
@@ -89,14 +89,14 @@
       "type": "dialogue",
       "scene": "Aylin shows you photos of a flat she might take in Munich — she still hasn't decided.",
       "lines": [
-        { "speaker": "Aylin", "nl": "Guck mal, das ist die Wohnung in München. Falls ich zusage.", "en": "Look, this is the flat in Munich. In case I say yes.", "spotlight": "*Falls ich zusage* — still an *if*: the decision is open." },
-        { "speaker": "You", "nl": "Schön hell! Wo würde das Bett hinkommen?", "en": "Nice and bright! Where would the bed go?" },
-        { "speaker": "Aylin", "nl": "Das Bett stelle ich hier an die Wand, neben das Fenster.", "en": "The bed I'd put here against the wall, next to the window.", "spotlight": "*an die Wand*, *neben das Fenster* — wohin → Akkusativ." },
-        { "speaker": "You", "nl": "Und der Schreibtisch? Der muss ans Licht.", "en": "And the desk? That needs to be by the light." },
-        { "speaker": "Aylin", "nl": "Genau, der kommt vor das Fenster. Die Bücher stehen dann im Regal an der Wand.", "en": "Exactly, that goes in front of the window. The books then sit on the shelf on the wall.", "spotlight": "*vor das Fenster* (wohin, Akk.) but *an der Wand* (wo, Dat.) — both in one breath." },
-        { "speaker": "You", "nl": "Sieht gemütlich aus. Und? Machst du es?", "en": "Looks cozy. So? Are you doing it?" },
-        { "speaker": "Aylin", "nl": "Ich weiß noch nicht. Nächste Woche muss ich mich entscheiden.", "en": "I don't know yet. Next week I have to decide.", "spotlight": "Decision still pending — she decides next week." },
-        { "speaker": "You", "nl": "Kein Stress. Aber die Wohnung? Ein Traum.", "en": "No pressure. But the flat? A dream." }
+        { "speaker": "Aylin", "target": "Guck mal, das ist die Wohnung in München. Falls ich zusage.", "en": "Look, this is the flat in Munich. In case I say yes.", "spotlight": "*Falls ich zusage* — still an *if*: the decision is open." },
+        { "speaker": "You", "target": "Schön hell! Wo würde das Bett hinkommen?", "en": "Nice and bright! Where would the bed go?" },
+        { "speaker": "Aylin", "target": "Das Bett stelle ich hier an die Wand, neben das Fenster.", "en": "The bed I'd put here against the wall, next to the window.", "spotlight": "*an die Wand*, *neben das Fenster* — wohin → Akkusativ." },
+        { "speaker": "You", "target": "Und der Schreibtisch? Der muss ans Licht.", "en": "And the desk? That needs to be by the light." },
+        { "speaker": "Aylin", "target": "Genau, der kommt vor das Fenster. Die Bücher stehen dann im Regal an der Wand.", "en": "Exactly, that goes in front of the window. The books then sit on the shelf on the wall.", "spotlight": "*vor das Fenster* (wohin, Akk.) but *an der Wand* (wo, Dat.) — both in one breath." },
+        { "speaker": "You", "target": "Sieht gemütlich aus. Und? Machst du es?", "en": "Looks cozy. So? Are you doing it?" },
+        { "speaker": "Aylin", "target": "Ich weiß noch nicht. Nächste Woche muss ich mich entscheiden.", "en": "I don't know yet. Next week I have to decide.", "spotlight": "Decision still pending — she decides next week." },
+        { "speaker": "You", "target": "Kein Stress. Aber die Wohnung? Ein Traum.", "en": "No pressure. But the flat? A dream." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-81",
   "day": 81,
   "module": "M12",
@@ -30,12 +30,12 @@
       "type": "chips",
       "title": "Tap to hear the service phrases",
       "items": [
-        { "nl": "Ich hätte gern einen Termin.", "en": "I'd like an appointment.", "speak": "Ich hätte gern einen Termin." },
-        { "nl": "Nur schneiden, bitte.", "en": "Just a cut, please.", "speak": "Nur schneiden, bitte." },
-        { "nl": "Kann ich Ihnen helfen?", "en": "Can I help you?", "speak": "Kann ich Ihnen helfen?" },
-        { "nl": "Ich schaue nur, danke.", "en": "I'm just looking, thanks.", "speak": "Ich schaue nur, danke." },
-        { "nl": "Kann ich das anprobieren?", "en": "Can I try this on?", "speak": "Kann ich das anprobieren?" },
-        { "nl": "Ich nehme es.", "en": "I'll take it.", "speak": "Ich nehme es." }
+        { "target": "Ich hätte gern einen Termin.", "en": "I'd like an appointment.", "speak": "Ich hätte gern einen Termin." },
+        { "target": "Nur schneiden, bitte.", "en": "Just a cut, please.", "speak": "Nur schneiden, bitte." },
+        { "target": "Kann ich Ihnen helfen?", "en": "Can I help you?", "speak": "Kann ich Ihnen helfen?" },
+        { "target": "Ich schaue nur, danke.", "en": "I'm just looking, thanks.", "speak": "Ich schaue nur, danke." },
+        { "target": "Kann ich das anprobieren?", "en": "Can I try this on?", "speak": "Kann ich das anprobieren?" },
+        { "target": "Ich nehme es.", "en": "I'll take it.", "speak": "Ich nehme es." }
       ]
     },
     {
@@ -71,11 +71,11 @@
       "type": "shadow",
       "title": "Shadow the service script",
       "lines": [
-        { "nl": "Guten Tag, ich hätte gern einen Termin.", "en": "Hello, I'd like an appointment." },
-        { "nl": "Waschen, schneiden, föhnen?", "en": "Wash, cut, blow-dry?" },
-        { "nl": "Nur schneiden, bitte. Nicht zu kurz.", "en": "Just a cut, please. Not too short." },
-        { "nl": "Haben Sie das in Blau?", "en": "Do you have this in blue?" },
-        { "nl": "Kann ich das anprobieren?", "en": "Can I try this on?" }
+        { "target": "Guten Tag, ich hätte gern einen Termin.", "en": "Hello, I'd like an appointment." },
+        { "target": "Waschen, schneiden, föhnen?", "en": "Wash, cut, blow-dry?" },
+        { "target": "Nur schneiden, bitte. Nicht zu kurz.", "en": "Just a cut, please. Not too short." },
+        { "target": "Haben Sie das in Blau?", "en": "Do you have this in blue?" },
+        { "target": "Kann ich das anprobieren?", "en": "Can I try this on?" }
       ]
     },
     {
@@ -89,13 +89,13 @@
       "type": "dialogue",
       "scene": "You run into Lena — you just got a haircut and did a bit of shopping.",
       "lines": [
-        { "speaker": "Lena", "nl": "Oh, neue Frisur! Steht dir gut. Warst du beim Friseur?", "en": "Oh, new haircut! Suits you. Were you at the hairdresser's?" },
-        { "speaker": "You", "nl": "Ja, heute Morgen. Ich hab nur „nur schneiden, nicht zu kurz” gesagt — und es hat geklappt.", "en": "Yes, this morning. I just said „just a cut, not too short” — and it worked.", "spotlight": "*nur schneiden, nicht zu kurz* — the two phrases that get you a good haircut in German." },
-        { "speaker": "Lena", "nl": "Sehr gut! Und die Tasche da, neu?", "en": "Very good! And that bag, is it new?" },
-        { "speaker": "You", "nl": "Ja, im Geschäft nebenan. Die Verkäuferin war super nett.", "en": "Yes, in the shop next door. The saleswoman was really nice." },
-        { "speaker": "Lena", "nl": "Guck mal, dein Deutsch reicht jetzt sogar zum Shoppen. Stark.", "en": "Look at that, your German is even good enough for shopping now. Strong.", "spotlight": "*reicht zum…* — „is enough for…”. A nice way to praise progress." },
-        { "speaker": "You", "nl": "Na ja, ich hab „ich schaue nur” gesagt und bin trotzdem mit einer Tasche rausgegangen.", "en": "Well, I said „I'm just looking” and still walked out with a bag." },
-        { "speaker": "Lena", "nl": "Haha, typisch. Passt doch!", "en": "Haha, typical. Fair enough though!" }
+        { "speaker": "Lena", "target": "Oh, neue Frisur! Steht dir gut. Warst du beim Friseur?", "en": "Oh, new haircut! Suits you. Were you at the hairdresser's?" },
+        { "speaker": "You", "target": "Ja, heute Morgen. Ich hab nur „nur schneiden, nicht zu kurz” gesagt — und es hat geklappt.", "en": "Yes, this morning. I just said „just a cut, not too short” — and it worked.", "spotlight": "*nur schneiden, nicht zu kurz* — the two phrases that get you a good haircut in German." },
+        { "speaker": "Lena", "target": "Sehr gut! Und die Tasche da, neu?", "en": "Very good! And that bag, is it new?" },
+        { "speaker": "You", "target": "Ja, im Geschäft nebenan. Die Verkäuferin war super nett.", "en": "Yes, in the shop next door. The saleswoman was really nice." },
+        { "speaker": "Lena", "target": "Guck mal, dein Deutsch reicht jetzt sogar zum Shoppen. Stark.", "en": "Look at that, your German is even good enough for shopping now. Strong.", "spotlight": "*reicht zum…* — „is enough for…”. A nice way to praise progress." },
+        { "speaker": "You", "target": "Na ja, ich hab „ich schaue nur” gesagt und bin trotzdem mit einer Tasche rausgegangen.", "en": "Well, I said „I'm just looking” and still walked out with a bag." },
+        { "speaker": "Lena", "target": "Haha, typisch. Passt doch!", "en": "Haha, typical. Fair enough though!" }
       ]
     },
     {

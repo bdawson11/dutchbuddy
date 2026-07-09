@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-04",
   "day": 4,
   "module": "M01",
@@ -47,21 +47,21 @@
       "type": "chips",
       "title": "sein in the wild — tap to hear",
       "items": [
-        { "nl": "Ich bin müde.", "en": "I'm tired.", "speak": "Ich bin müde." },
-        { "nl": "Du bist nett.", "en": "You're nice.", "speak": "Du bist nett." },
-        { "nl": "Sie ist hier.", "en": "She's here.", "speak": "Sie ist hier." },
-        { "nl": "Wir sind da.", "en": "We're here.", "speak": "Wir sind da." },
-        { "nl": "Ihr seid lustig.", "en": "You all are funny.", "speak": "Ihr seid lustig." }
+        { "target": "Ich bin müde.", "en": "I'm tired.", "speak": "Ich bin müde." },
+        { "target": "Du bist nett.", "en": "You're nice.", "speak": "Du bist nett." },
+        { "target": "Sie ist hier.", "en": "She's here.", "speak": "Sie ist hier." },
+        { "target": "Wir sind da.", "en": "We're here.", "speak": "Wir sind da." },
+        { "target": "Ihr seid lustig.", "en": "You all are funny.", "speak": "Ihr seid lustig." }
       ]
     },
     {
       "type": "shadow",
       "title": "Repeat after the audio",
       "lines": [
-        { "nl": "Ich bin aus Berlin.", "en": "I'm from Berlin." },
-        { "nl": "Bist du bereit?", "en": "Are you ready?" },
-        { "nl": "Er ist nett.", "en": "He's nice." },
-        { "nl": "Wir sind neu hier.", "en": "We're new here." }
+        { "target": "Ich bin aus Berlin.", "en": "I'm from Berlin." },
+        { "target": "Bist du bereit?", "en": "Are you ready?" },
+        { "target": "Er ist nett.", "en": "He's nice." },
+        { "target": "Wir sind neu hier.", "en": "We're new here." }
       ]
     },
     {
@@ -100,11 +100,11 @@
       "type": "dialogue",
       "scene": "At a friend's Feierabend get-together, Jonas introduces himself. Everyone here says du.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Hallo! Ich bin Jonas. Und du?", "en": "Hi! I'm Jonas. And you?", "spotlight": "Casual *und du?* — he's on du from the first breath." },
-        { "speaker": "You", "nl": "Hallo Jonas. Ich bin neu hier. Ich bin aus Toronto.", "en": "Hi Jonas. I'm new here. I'm from Toronto." },
-        { "speaker": "Jonas", "nl": "Cool! Bist du auch müde? Es ist schon spät.", "en": "Cool! Are you tired too? It's late already." },
-        { "speaker": "You", "nl": "Ein bisschen. Aber es ist gemütlich hier.", "en": "A little. But it's cozy here." },
-        { "speaker": "Jonas", "nl": "Genau. Willkommen in Berlin!", "en": "Exactly. Welcome to Berlin!" }
+        { "speaker": "Jonas", "target": "Hallo! Ich bin Jonas. Und du?", "en": "Hi! I'm Jonas. And you?", "spotlight": "Casual *und du?* — he's on du from the first breath." },
+        { "speaker": "You", "target": "Hallo Jonas. Ich bin neu hier. Ich bin aus Toronto.", "en": "Hi Jonas. I'm new here. I'm from Toronto." },
+        { "speaker": "Jonas", "target": "Cool! Bist du auch müde? Es ist schon spät.", "en": "Cool! Are you tired too? It's late already." },
+        { "speaker": "You", "target": "Ein bisschen. Aber es ist gemütlich hier.", "en": "A little. But it's cozy here." },
+        { "speaker": "Jonas", "target": "Genau. Willkommen in Berlin!", "en": "Exactly. Welcome to Berlin!" }
       ]
     },
     {

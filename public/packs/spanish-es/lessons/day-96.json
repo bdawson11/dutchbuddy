@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-96",
   "day": 96,
   "module": "M14",
@@ -30,11 +30,11 @@
       "type": "chips",
       "title": "Suposiciones cotidianas — toca y repite",
       "items": [
-        { "nl": "serán las ocho", "en": "it's probably eight", "speak": "serán las ocho" },
-        { "nl": "estará de camino", "en": "he's probably on his way", "speak": "estará de camino" },
-        { "nl": "tendrá unos cuarenta", "en": "he's about forty", "speak": "tendrá unos cuarenta" },
-        { "nl": "no sé, sería sobre las tres", "en": "dunno, it was around three", "speak": "no sé, sería sobre las tres" },
-        { "nl": "habrá salido ya", "en": "she's probably already left", "speak": "habrá salido ya" }
+        { "target": "serán las ocho", "en": "it's probably eight", "speak": "serán las ocho" },
+        { "target": "estará de camino", "en": "he's probably on his way", "speak": "estará de camino" },
+        { "target": "tendrá unos cuarenta", "en": "he's about forty", "speak": "tendrá unos cuarenta" },
+        { "target": "no sé, sería sobre las tres", "en": "dunno, it was around three", "speak": "no sé, sería sobre las tres" },
+        { "target": "habrá salido ya", "en": "she's probably already left", "speak": "habrá salido ya" }
       ]
     },
     {
@@ -79,12 +79,12 @@
       "type": "dialogue",
       "scene": "You and Rafa are waiting for Lucía, who's running late.",
       "lines": [
-        { "speaker": "Rafa", "nl": "Lucía no llega. ¿Qué hora es?", "en": "Lucía's not here. What time is it?" },
-        { "speaker": "You", "nl": "Ni idea, serán las nueve y pico. Estará en un atasco.", "en": "No idea, must be gone nine. She's probably stuck in traffic.", "spotlight": "*serán* (hora) y *estará* (dónde): dos conjeturas sobre el presente." },
-        { "speaker": "Rafa", "nl": "O se habrá liado con el trabajo, como siempre.", "en": "Or she got caught up with work, as usual." },
-        { "speaker": "You", "nl": "Puede. Oye, ¿y su hermano? El de la foto, ¿qué edad tendría?", "en": "Could be. Hey, and her brother? The one in the photo, how old would he be?" },
-        { "speaker": "Rafa", "nl": "Uf, en esa foto tendría quince o así. Ahora ya rondará los treinta.", "en": "Ugh, in that photo he'd be fifteen or so. Now he's around thirty.", "spotlight": "*tendría* (pasado) y *rondará* (presente): conjetura en dos tiempos." },
-        { "speaker": "You", "nl": "Cómo pasa el tiempo. Mira, ahí viene Lucía, ¿ves? Te lo dije.", "en": "How time flies. Look, here comes Lucía, see? Told you." }
+        { "speaker": "Rafa", "target": "Lucía no llega. ¿Qué hora es?", "en": "Lucía's not here. What time is it?" },
+        { "speaker": "You", "target": "Ni idea, serán las nueve y pico. Estará en un atasco.", "en": "No idea, must be gone nine. She's probably stuck in traffic.", "spotlight": "*serán* (hora) y *estará* (dónde): dos conjeturas sobre el presente." },
+        { "speaker": "Rafa", "target": "O se habrá liado con el trabajo, como siempre.", "en": "Or she got caught up with work, as usual." },
+        { "speaker": "You", "target": "Puede. Oye, ¿y su hermano? El de la foto, ¿qué edad tendría?", "en": "Could be. Hey, and her brother? The one in the photo, how old would he be?" },
+        { "speaker": "Rafa", "target": "Uf, en esa foto tendría quince o así. Ahora ya rondará los treinta.", "en": "Ugh, in that photo he'd be fifteen or so. Now he's around thirty.", "spotlight": "*tendría* (pasado) y *rondará* (presente): conjetura en dos tiempos." },
+        { "speaker": "You", "target": "Cómo pasa el tiempo. Mira, ahí viene Lucía, ¿ves? Te lo dije.", "en": "How time flies. Look, here comes Lucía, see? Told you." }
       ]
     },
     {

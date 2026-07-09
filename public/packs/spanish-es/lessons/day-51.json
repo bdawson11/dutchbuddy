@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-51",
   "day": 51,
   "module": "M08",
@@ -30,10 +30,10 @@
       "type": "chips",
       "title": "Escucha: objeto directo",
       "items": [
-        { "nl": "lo tengo", "en": "I have it (masc.)", "speak": "lo tengo" },
-        { "nl": "la veo", "en": "I see her/it (fem.)", "speak": "la veo" },
-        { "nl": "los conozco", "en": "I know them (masc.)", "speak": "los conozco" },
-        { "nl": "las quiero", "en": "I love them (fem.)", "speak": "las quiero" }
+        { "target": "lo tengo", "en": "I have it (masc.)", "speak": "lo tengo" },
+        { "target": "la veo", "en": "I see her/it (fem.)", "speak": "la veo" },
+        { "target": "los conozco", "en": "I know them (masc.)", "speak": "los conozco" },
+        { "target": "las quiero", "en": "I love them (fem.)", "speak": "las quiero" }
       ]
     },
     {
@@ -116,11 +116,11 @@
       "type": "dialogue",
       "scene": "Sofía te pide prestado algo antes de salir — objeto directo e indirecto en acción.",
       "lines": [
-        { "speaker": "Sofía", "nl": "Oye, ¿me prestas tu paraguas? Creo que va a llover.", "en": "Hey, can you lend me your umbrella? I think it's going to rain." },
-        { "speaker": "You", "nl": "Claro, te lo presto. Tengo dos.", "en": "Sure, I'll lend it to you. I have two.", "spotlight": "te lo presto — indirecto (te) + directo (lo) juntos." },
-        { "speaker": "Sofía", "nl": "¡Gracias! Te lo devuelvo mañana, ¿vale?", "en": "Thanks! I'll give it back to you tomorrow, okay?" },
-        { "speaker": "You", "nl": "Vale, no te preocupes. ¿Y las llaves? ¿Las tienes?", "en": "Okay, don't worry. And the keys? Do you have them?" },
-        { "speaker": "Sofía", "nl": "Sí, las tengo aquí. ¡Nos vemos luego!", "en": "Yes, I have them here. See you later!" }
+        { "speaker": "Sofía", "target": "Oye, ¿me prestas tu paraguas? Creo que va a llover.", "en": "Hey, can you lend me your umbrella? I think it's going to rain." },
+        { "speaker": "You", "target": "Claro, te lo presto. Tengo dos.", "en": "Sure, I'll lend it to you. I have two.", "spotlight": "te lo presto — indirecto (te) + directo (lo) juntos." },
+        { "speaker": "Sofía", "target": "¡Gracias! Te lo devuelvo mañana, ¿vale?", "en": "Thanks! I'll give it back to you tomorrow, okay?" },
+        { "speaker": "You", "target": "Vale, no te preocupes. ¿Y las llaves? ¿Las tienes?", "en": "Okay, don't worry. And the keys? Do you have them?" },
+        { "speaker": "Sofía", "target": "Sí, las tengo aquí. ¡Nos vemos luego!", "en": "Yes, I have them here. See you later!" }
       ]
     },
     {

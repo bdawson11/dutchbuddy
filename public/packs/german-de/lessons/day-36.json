@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-36",
   "day": 36,
   "module": "M06",
@@ -33,12 +33,12 @@
       "type": "chips",
       "title": "Tap to hear each body part",
       "items": [
-        { "nl": "der Kopf", "en": "head", "speak": "der Kopf" },
-        { "nl": "der Bauch", "en": "belly", "speak": "der Bauch" },
-        { "nl": "der Rücken", "en": "back", "speak": "der Rücken" },
-        { "nl": "der Hals", "en": "throat", "speak": "der Hals" },
-        { "nl": "das Bein", "en": "leg", "speak": "das Bein" },
-        { "nl": "die Hand", "en": "hand", "speak": "die Hand" }
+        { "target": "der Kopf", "en": "head", "speak": "der Kopf" },
+        { "target": "der Bauch", "en": "belly", "speak": "der Bauch" },
+        { "target": "der Rücken", "en": "back", "speak": "der Rücken" },
+        { "target": "der Hals", "en": "throat", "speak": "der Hals" },
+        { "target": "das Bein", "en": "leg", "speak": "das Bein" },
+        { "target": "die Hand", "en": "hand", "speak": "die Hand" }
       ]
     },
     {
@@ -109,10 +109,10 @@
       "type": "shadow",
       "title": "Shadow the pain patterns",
       "lines": [
-        { "nl": "Ich habe Kopfschmerzen.", "en": "I have a headache." },
-        { "nl": "Ich habe Halsschmerzen.", "en": "I have a sore throat." },
-        { "nl": "Mir tut der Rücken weh.", "en": "My back hurts." },
-        { "nl": "Mir tun die Beine weh.", "en": "My legs hurt." }
+        { "target": "Ich habe Kopfschmerzen.", "en": "I have a headache." },
+        { "target": "Ich habe Halsschmerzen.", "en": "I have a sore throat." },
+        { "target": "Mir tut der Rücken weh.", "en": "My back hurts." },
+        { "target": "Mir tun die Beine weh.", "en": "My legs hurt." }
       ]
     },
     {

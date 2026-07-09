@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-19",
   "day": 19,
   "module": "M03",
@@ -31,11 +31,11 @@
       "type": "chips",
       "title": "Tap to hear them",
       "items": [
-        { "nl": "lang", "en": "tall", "speak": "lang" },
-        { "nl": "klein", "en": "short", "speak": "klein" },
-        { "nl": "donker haar", "en": "dark hair", "speak": "donker haar" },
-        { "nl": "blond haar", "en": "blonde hair", "speak": "blond haar" },
-        { "nl": "een bril", "en": "glasses", "speak": "een bril" }
+        { "target": "lang", "en": "tall", "speak": "lang" },
+        { "target": "klein", "en": "short", "speak": "klein" },
+        { "target": "donker haar", "en": "dark hair", "speak": "donker haar" },
+        { "target": "blond haar", "en": "blonde hair", "speak": "blond haar" },
+        { "target": "een bril", "en": "glasses", "speak": "een bril" }
       ]
     },
     {
@@ -58,12 +58,12 @@
       "type": "chips",
       "title": "Tap to hear them",
       "items": [
-        { "nl": "aardig", "en": "kind, nice", "speak": "aardig" },
-        { "nl": "gezellig", "en": "fun to be around", "speak": "gezellig" },
-        { "nl": "druk", "en": "busy, hyper", "speak": "druk" },
-        { "nl": "rustig", "en": "calm, quiet", "speak": "rustig" },
-        { "nl": "grappig", "en": "funny", "speak": "grappig" },
-        { "nl": "streng", "en": "strict", "speak": "streng" }
+        { "target": "aardig", "en": "kind, nice", "speak": "aardig" },
+        { "target": "gezellig", "en": "fun to be around", "speak": "gezellig" },
+        { "target": "druk", "en": "busy, hyper", "speak": "druk" },
+        { "target": "rustig", "en": "calm, quiet", "speak": "rustig" },
+        { "target": "grappig", "en": "funny", "speak": "grappig" },
+        { "target": "streng", "en": "strict", "speak": "streng" }
       ]
     },
     {
@@ -98,11 +98,11 @@
       "type": "dialogue",
       "scene": "Emma describes Daan to you at the café.",
       "lines": [
-        { "speaker": "Emma", "nl": "Daan? Hij is heel grappig, hoor.", "en": "Daan? He's really funny." },
-        { "speaker": "You", "nl": "En verder?", "en": "And other than that?" },
-        { "speaker": "Emma", "nl": "Best druk — altijd praten, praten, praten.", "en": "Pretty hyper — always talk, talk, talk.", "spotlight": "druk — here it means hyper, not 'busy with work'." },
-        { "speaker": "You", "nl": "Is hij ook aardig?", "en": "Is he also kind?" },
-        { "speaker": "Emma", "nl": "Heel aardig, ja. Een beetje streng over muziek, maar verder heel gezellig.", "en": "Very kind, yes. A bit strict about music, but otherwise really fun to be around." }
+        { "speaker": "Emma", "target": "Daan? Hij is heel grappig, hoor.", "en": "Daan? He's really funny." },
+        { "speaker": "You", "target": "En verder?", "en": "And other than that?" },
+        { "speaker": "Emma", "target": "Best druk — altijd praten, praten, praten.", "en": "Pretty hyper — always talk, talk, talk.", "spotlight": "druk — here it means hyper, not 'busy with work'." },
+        { "speaker": "You", "target": "Is hij ook aardig?", "en": "Is he also kind?" },
+        { "speaker": "Emma", "target": "Heel aardig, ja. Een beetje streng over muziek, maar verder heel gezellig.", "en": "Very kind, yes. A bit strict about music, but otherwise really fun to be around." }
       ]
     },
     {

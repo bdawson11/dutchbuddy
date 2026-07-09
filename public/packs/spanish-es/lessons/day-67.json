@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-67",
   "day": 67,
   "module": "M10",
@@ -42,11 +42,11 @@
       "type": "chips",
       "title": "Toca para oír los relativos",
       "items": [
-        { "nl": "el amigo que me lo contó", "en": "the friend who told me", "speak": "el amigo que me lo contó" },
-        { "nl": "la ciudad a la que se muda", "en": "the city she's moving to", "speak": "la ciudad a la que se muda" },
-        { "nl": "no entiendo lo que dices", "en": "I don't get what you're saying", "speak": "no entiendo lo que dices" },
-        { "nl": "la persona con quien vivo", "en": "the person I live with", "speak": "la persona con quien vivo" },
-        { "nl": "el vecino cuyo perro ladra", "en": "the neighbor whose dog barks", "speak": "el vecino cuyo perro ladra" }
+        { "target": "el amigo que me lo contó", "en": "the friend who told me", "speak": "el amigo que me lo contó" },
+        { "target": "la ciudad a la que se muda", "en": "the city she's moving to", "speak": "la ciudad a la que se muda" },
+        { "target": "no entiendo lo que dices", "en": "I don't get what you're saying", "speak": "no entiendo lo que dices" },
+        { "target": "la persona con quien vivo", "en": "the person I live with", "speak": "la persona con quien vivo" },
+        { "target": "el vecino cuyo perro ladra", "en": "the neighbor whose dog barks", "speak": "el vecino cuyo perro ladra" }
       ]
     },
     {
@@ -84,13 +84,13 @@
       "type": "dialogue",
       "scene": "Rafa intenta reconstruir los detalles de la oferta de Sofía (aún sin decidir).",
       "lines": [
-        { "speaker": "Rafa", "nl": "Oye, ¿cómo se llama la empresa a la que se va Sofía?", "en": "Hey, what's the name of the company Sofía's going to?" },
-        { "speaker": "You", "nl": "Es una que hace apps, en el centro de Valencia.", "en": "It's one that makes apps, in the center of Valencia." },
-        { "speaker": "Rafa", "nl": "Ah, ¿la que salió en las noticias?", "en": "Ah, the one that was in the news?" },
-        { "speaker": "You", "nl": "Esa misma. Le ofrecieron un puesto que no podía rechazar.", "en": "That very one. They offered her a job she couldn't turn down.", "spotlight": "un puesto que no podía rechazar — relative clause on a thing." },
-        { "speaker": "Rafa", "nl": "Buah. ¿Y el piso que ha visto es caro?", "en": "Wow. And the flat she's seen, is it expensive?" },
-        { "speaker": "You", "nl": "Menos que aquí. Lo que le preocupa es dejar el barrio.", "en": "Less than here. What worries her is leaving the neighborhood.", "spotlight": "lo que le preocupa — refers to a whole idea." },
-        { "speaker": "Rafa", "nl": "Normal, tío. Madrid es lo que conoce.", "en": "Understandable, man. Madrid is what she knows." }
+        { "speaker": "Rafa", "target": "Oye, ¿cómo se llama la empresa a la que se va Sofía?", "en": "Hey, what's the name of the company Sofía's going to?" },
+        { "speaker": "You", "target": "Es una que hace apps, en el centro de Valencia.", "en": "It's one that makes apps, in the center of Valencia." },
+        { "speaker": "Rafa", "target": "Ah, ¿la que salió en las noticias?", "en": "Ah, the one that was in the news?" },
+        { "speaker": "You", "target": "Esa misma. Le ofrecieron un puesto que no podía rechazar.", "en": "That very one. They offered her a job she couldn't turn down.", "spotlight": "un puesto que no podía rechazar — relative clause on a thing." },
+        { "speaker": "Rafa", "target": "Buah. ¿Y el piso que ha visto es caro?", "en": "Wow. And the flat she's seen, is it expensive?" },
+        { "speaker": "You", "target": "Menos que aquí. Lo que le preocupa es dejar el barrio.", "en": "Less than here. What worries her is leaving the neighborhood.", "spotlight": "lo que le preocupa — refers to a whole idea." },
+        { "speaker": "Rafa", "target": "Normal, tío. Madrid es lo que conoce.", "en": "Understandable, man. Madrid is what she knows." }
       ]
     },
     {

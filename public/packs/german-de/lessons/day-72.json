@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-72",
   "day": 72,
   "module": "M11",
@@ -30,12 +30,12 @@
       "type": "chips",
       "title": "Tap to hear the attitude",
       "items": [
-        { "nl": "Warte mal!", "en": "Hold on a sec!", "speak": "Warte mal!" },
-        { "nl": "Was machst du denn?", "en": "So what are you up to?", "speak": "Was machst du denn?" },
-        { "nl": "Das ist halt so.", "en": "That's just how it is.", "speak": "Das ist halt so." },
-        { "nl": "Das ist ja toll!", "en": "Oh, that's great!", "speak": "Das ist ja toll!" },
-        { "nl": "Das schaffst du schon.", "en": "You'll manage, don't worry.", "speak": "Das schaffst du schon." },
-        { "nl": "Dann müssen wir eben warten.", "en": "Then we'll just have to wait.", "speak": "Dann müssen wir eben warten." }
+        { "target": "Warte mal!", "en": "Hold on a sec!", "speak": "Warte mal!" },
+        { "target": "Was machst du denn?", "en": "So what are you up to?", "speak": "Was machst du denn?" },
+        { "target": "Das ist halt so.", "en": "That's just how it is.", "speak": "Das ist halt so." },
+        { "target": "Das ist ja toll!", "en": "Oh, that's great!", "speak": "Das ist ja toll!" },
+        { "target": "Das schaffst du schon.", "en": "You'll manage, don't worry.", "speak": "Das schaffst du schon." },
+        { "target": "Dann müssen wir eben warten.", "en": "Then we'll just have to wait.", "speak": "Dann müssen wir eben warten." }
       ]
     },
     {
@@ -77,24 +77,24 @@
       "type": "shadow",
       "title": "Sprich nach — mit Gefühl",
       "lines": [
-        { "nl": "Na ja, so ist das halt.", "en": "Well, that's just how it is." },
-        { "nl": "Das weißt du doch!", "en": "You know that, come on!" },
-        { "nl": "Was ist denn los?", "en": "So what's the matter?" },
-        { "nl": "Das schaffst du schon.", "en": "You'll manage, don't worry." }
+        { "target": "Na ja, so ist das halt.", "en": "Well, that's just how it is." },
+        { "target": "Das weißt du doch!", "en": "You know that, come on!" },
+        { "target": "Was ist denn los?", "en": "So what's the matter?" },
+        { "target": "Das schaffst du schon.", "en": "You'll manage, don't worry." }
       ]
     },
     {
       "type": "dialogue",
       "scene": "Jonas flags you down at the Kneipe, already halfway into a bit of gossip.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Ey, hast du das schon gehört von Aylin?", "en": "Hey, have you heard the thing about Aylin?", "spotlight": "*schon* here = 'already', but note how loose and casual the whole line feels." },
-        { "speaker": "You", "nl": "Nö, was denn?", "en": "Nope, what is it?", "spotlight": "*denn* softens the question — friendly, not demanding." },
-        { "speaker": "Jonas", "nl": "Na ja, sie wohnt jetzt halt in München und ist echt glücklich.", "en": "Well, she lives in Munich now and she's really happy." },
-        { "speaker": "You", "nl": "Das ist doch schön! Warum sagst du das so komisch?", "en": "But that's lovely! Why do you say it so oddly?", "spotlight": "*doch* pushes back gently — 'but that's a good thing'." },
-        { "speaker": "Jonas", "nl": "Ach, ich vermisse sie halt. Berlin ist ohne sie irgendwie leerer.", "en": "Ah, I just miss her. Berlin feels emptier without her." },
-        { "speaker": "You", "nl": "Komm, besuch sie doch mal. Das schaffst du schon.", "en": "Come on, just go visit her. You'll manage it." },
-        { "speaker": "Jonas", "nl": "Stimmt. Machen wir das mal zusammen, oder?", "en": "True. Let's do it together some time, yeah?" },
-        { "speaker": "You", "nl": "Klar! Aber jetzt trink erst mal dein Bier.", "en": "Sure! But first, drink your beer." }
+        { "speaker": "Jonas", "target": "Ey, hast du das schon gehört von Aylin?", "en": "Hey, have you heard the thing about Aylin?", "spotlight": "*schon* here = 'already', but note how loose and casual the whole line feels." },
+        { "speaker": "You", "target": "Nö, was denn?", "en": "Nope, what is it?", "spotlight": "*denn* softens the question — friendly, not demanding." },
+        { "speaker": "Jonas", "target": "Na ja, sie wohnt jetzt halt in München und ist echt glücklich.", "en": "Well, she lives in Munich now and she's really happy." },
+        { "speaker": "You", "target": "Das ist doch schön! Warum sagst du das so komisch?", "en": "But that's lovely! Why do you say it so oddly?", "spotlight": "*doch* pushes back gently — 'but that's a good thing'." },
+        { "speaker": "Jonas", "target": "Ach, ich vermisse sie halt. Berlin ist ohne sie irgendwie leerer.", "en": "Ah, I just miss her. Berlin feels emptier without her." },
+        { "speaker": "You", "target": "Komm, besuch sie doch mal. Das schaffst du schon.", "en": "Come on, just go visit her. You'll manage it." },
+        { "speaker": "Jonas", "target": "Stimmt. Machen wir das mal zusammen, oder?", "en": "True. Let's do it together some time, yeah?" },
+        { "speaker": "You", "target": "Klar! Aber jetzt trink erst mal dein Bier.", "en": "Sure! But first, drink your beer." }
       ]
     },
     {

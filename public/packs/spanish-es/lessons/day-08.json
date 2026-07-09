@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-08",
   "day": 8,
   "module": "M02",
@@ -58,12 +58,12 @@
       "type": "chips",
       "title": "Escucha y repite",
       "items": [
-        { "nl": "quince", "en": "fifteen", "speak": "quince" },
-        { "nl": "dieciséis", "en": "sixteen", "speak": "dieciséis" },
-        { "nl": "veinte", "en": "twenty", "speak": "veinte" },
-        { "nl": "veintidós", "en": "twenty-two", "speak": "veintidós" },
-        { "nl": "treinta", "en": "thirty", "speak": "treinta" },
-        { "nl": "cien", "en": "one hundred", "speak": "cien" }
+        { "target": "quince", "en": "fifteen", "speak": "quince" },
+        { "target": "dieciséis", "en": "sixteen", "speak": "dieciséis" },
+        { "target": "veinte", "en": "twenty", "speak": "veinte" },
+        { "target": "veintidós", "en": "twenty-two", "speak": "veintidós" },
+        { "target": "treinta", "en": "thirty", "speak": "treinta" },
+        { "target": "cien", "en": "one hundred", "speak": "cien" }
       ]
     },
     {
@@ -112,10 +112,10 @@
       "type": "dialogue",
       "scene": "At the bar, Rafa asks about ages — numbers in the wild",
       "lines": [
-        { "speaker": "Rafa", "nl": "¿Cuántos años tienes?", "en": "How old are you?" },
-        { "speaker": "You", "nl": "Tengo treinta y dos años. ¿Y tú?", "en": "I'm thirty-two. And you?" },
-        { "speaker": "Rafa", "nl": "Yo tengo veintinueve. Todavía soy joven, ¿eh?", "en": "I'm twenty-nine. Still young, huh?", "spotlight": "tener + años is how Spanish states age — never ser." },
-        { "speaker": "Lucía", "nl": "Y yo, treinta y uno. ¡Venga, una foto de los tres!", "en": "And me, thirty-one. Come on, a photo of the three of us!" }
+        { "speaker": "Rafa", "target": "¿Cuántos años tienes?", "en": "How old are you?" },
+        { "speaker": "You", "target": "Tengo treinta y dos años. ¿Y tú?", "en": "I'm thirty-two. And you?" },
+        { "speaker": "Rafa", "target": "Yo tengo veintinueve. Todavía soy joven, ¿eh?", "en": "I'm twenty-nine. Still young, huh?", "spotlight": "tener + años is how Spanish states age — never ser." },
+        { "speaker": "Lucía", "target": "Y yo, treinta y uno. ¡Venga, una foto de los tres!", "en": "And me, thirty-one. Come on, a photo of the three of us!" }
       ]
     },
     {

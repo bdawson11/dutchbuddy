@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-18",
   "day": 18,
   "module": "M03",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Around the quartiere",
       "items": [
-        { "nl": "la piazza", "en": "the square", "speak": "la piazza" },
-        { "nl": "la via", "en": "the street", "speak": "la via" },
-        { "nl": "il negozio", "en": "the shop", "speak": "il negozio" },
-        { "nl": "il mercato", "en": "the market", "speak": "il mercato" },
-        { "nl": "la chiesa", "en": "the church", "speak": "la chiesa" },
-        { "nl": "il parco", "en": "the park", "speak": "il parco" }
+        { "target": "la piazza", "en": "the square", "speak": "la piazza" },
+        { "target": "la via", "en": "the street", "speak": "la via" },
+        { "target": "il negozio", "en": "the shop", "speak": "il negozio" },
+        { "target": "il mercato", "en": "the market", "speak": "il mercato" },
+        { "target": "la chiesa", "en": "the church", "speak": "la chiesa" },
+        { "target": "il parco", "en": "the park", "speak": "il parco" }
       ]
     },
     {
@@ -80,11 +80,11 @@
       "type": "dialogue",
       "scene": "Marco gives you directions to find a market in his neighborhood",
       "lines": [
-        { "speaker": "You", "nl": "Marco, dov'è un buon mercato qui vicino?", "en": "Marco, where's a good market nearby?" },
-        { "speaker": "Marco", "nl": "Allora, c'è un mercato in piazza, vicino alla chiesa.", "en": "Well, there's a market in the square, near the church." },
-        { "speaker": "You", "nl": "E un negozio di frutta e verdura?", "en": "And a fruit and vegetable shop?" },
-        { "speaker": "Marco", "nl": "Certo, è in via Ugo Bassi, da un signore molto simpatico.", "en": "Sure, it's on Via Ugo Bassi, at a really nice guy's shop.", "spotlight": "da + person works for a shopkeeper too, not just friends." },
-        { "speaker": "You", "nl": "Perfetto, vado da lui domani.", "en": "Perfect, I'll go there tomorrow." }
+        { "speaker": "You", "target": "Marco, dov'è un buon mercato qui vicino?", "en": "Marco, where's a good market nearby?" },
+        { "speaker": "Marco", "target": "Allora, c'è un mercato in piazza, vicino alla chiesa.", "en": "Well, there's a market in the square, near the church." },
+        { "speaker": "You", "target": "E un negozio di frutta e verdura?", "en": "And a fruit and vegetable shop?" },
+        { "speaker": "Marco", "target": "Certo, è in via Ugo Bassi, da un signore molto simpatico.", "en": "Sure, it's on Via Ugo Bassi, at a really nice guy's shop.", "spotlight": "da + person works for a shopkeeper too, not just friends." },
+        { "speaker": "You", "target": "Perfetto, vado da lui domani.", "en": "Perfect, I'll go there tomorrow." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-19",
   "day": 19,
   "module": "M03",
@@ -31,11 +31,11 @@
       "type": "chips",
       "title": "L'aspetto — tap through",
       "items": [
-        { "nl": "alto", "en": "tall (m.)", "speak": "alto" },
-        { "nl": "basso", "en": "short (m.)", "speak": "basso" },
-        { "nl": "giovane", "en": "young", "speak": "giovane" },
-        { "nl": "anziano", "en": "older (m.)", "speak": "anziano" },
-        { "nl": "biondo", "en": "blond (m.)", "speak": "biondo" }
+        { "target": "alto", "en": "tall (m.)", "speak": "alto" },
+        { "target": "basso", "en": "short (m.)", "speak": "basso" },
+        { "target": "giovane", "en": "young", "speak": "giovane" },
+        { "target": "anziano", "en": "older (m.)", "speak": "anziano" },
+        { "target": "biondo", "en": "blond (m.)", "speak": "biondo" }
       ]
     },
     {
@@ -48,11 +48,11 @@
       "type": "chips",
       "title": "Il carattere — tap through",
       "items": [
-        { "nl": "simpatico", "en": "nice (m.)", "speak": "simpatico" },
-        { "nl": "gentile", "en": "kind", "speak": "gentile" },
-        { "nl": "divertente", "en": "funny", "speak": "divertente" },
-        { "nl": "timido", "en": "shy (m.)", "speak": "timido" },
-        { "nl": "in gamba", "en": "sharp / capable", "speak": "in gamba" }
+        { "target": "simpatico", "en": "nice (m.)", "speak": "simpatico" },
+        { "target": "gentile", "en": "kind", "speak": "gentile" },
+        { "target": "divertente", "en": "funny", "speak": "divertente" },
+        { "target": "timido", "en": "shy (m.)", "speak": "timido" },
+        { "target": "in gamba", "en": "sharp / capable", "speak": "in gamba" }
       ]
     },
     {
@@ -93,11 +93,11 @@
       "type": "dialogue",
       "scene": "Giulia describes your mutual friends over coffee",
       "lines": [
-        { "speaker": "Giulia", "nl": "Allora, conosci già Marco: è simpatico, ma un po' pigro.", "en": "So, you already know Marco: he's nice, but a bit lazy." },
-        { "speaker": "You", "nl": "Sì, ed è molto divertente.", "en": "Yes, and he's very funny." },
-        { "speaker": "Giulia", "nl": "Esatto. E Sofia? È timida all'inizio, ma è davvero in gamba.", "en": "Exactly. And Sofia? She's shy at first, but she's really sharp.", "spotlight": "in gamba doesn't change with gender — same phrase for anyone." },
-        { "speaker": "You", "nl": "Anche gentile, no?", "en": "Also kind, right?" },
-        { "speaker": "Giulia", "nl": "Gentilissima. È una persona speciale.", "en": "Really kind. She's a special person." }
+        { "speaker": "Giulia", "target": "Allora, conosci già Marco: è simpatico, ma un po' pigro.", "en": "So, you already know Marco: he's nice, but a bit lazy." },
+        { "speaker": "You", "target": "Sì, ed è molto divertente.", "en": "Yes, and he's very funny." },
+        { "speaker": "Giulia", "target": "Esatto. E Sofia? È timida all'inizio, ma è davvero in gamba.", "en": "Exactly. And Sofia? She's shy at first, but she's really sharp.", "spotlight": "in gamba doesn't change with gender — same phrase for anyone." },
+        { "speaker": "You", "target": "Anche gentile, no?", "en": "Also kind, right?" },
+        { "speaker": "Giulia", "target": "Gentilissima. È una persona speciale.", "en": "Really kind. She's a special person." }
       ]
     },
     {

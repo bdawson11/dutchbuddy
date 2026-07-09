@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-85",
   "day": 85,
   "module": "M13",
@@ -37,11 +37,11 @@
       "type": "chips",
       "title": "Ascolta e ripeti",
       "items": [
-        { "nl": "Penso che sia già partito.", "en": "I think he's already left.", "speak": "Penso che sia già partito." },
-        { "nl": "Credo che abbiano finito.", "en": "I think they've finished.", "speak": "Credo che abbiano finito." },
-        { "nl": "Mi dispiace che tu abbia avuto problemi.", "en": "I'm sorry you had problems.", "speak": "Mi dispiace che tu abbia avuto problemi." },
-        { "nl": "Non sono sicura che sia arrivata.", "en": "I'm not sure she's arrived.", "speak": "Non sono sicura che sia arrivata." },
-        { "nl": "È strano che non abbia chiamato.", "en": "It's strange he hasn't called.", "speak": "È strano che non abbia chiamato." }
+        { "target": "Penso che sia già partito.", "en": "I think he's already left.", "speak": "Penso che sia già partito." },
+        { "target": "Credo che abbiano finito.", "en": "I think they've finished.", "speak": "Credo che abbiano finito." },
+        { "target": "Mi dispiace che tu abbia avuto problemi.", "en": "I'm sorry you had problems.", "speak": "Mi dispiace che tu abbia avuto problemi." },
+        { "target": "Non sono sicura che sia arrivata.", "en": "I'm not sure she's arrived.", "speak": "Non sono sicura che sia arrivata." },
+        { "target": "È strano che non abbia chiamato.", "en": "It's strange he hasn't called.", "speak": "È strano che non abbia chiamato." }
       ]
     },
     {
@@ -89,14 +89,14 @@
       "type": "dialogue",
       "scene": "At the bar, Giulia wonders where Marco is.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Ma dov'è Marco? Non risponde.", "en": "Where's Marco? He's not answering." },
-        { "speaker": "You", "nl": "Boh… penso che sia ancora al lavoro.", "en": "Dunno… I think he's still at work.", "spotlight": "congiuntivo presente: azione che continua adesso." },
-        { "speaker": "Giulia", "nl": "A quest'ora? Credo che abbia già chiuso il negozio.", "en": "At this hour? I think he's already closed the shop." },
-        { "speaker": "You", "nl": "Allora forse è andato a provare con la band.", "en": "Then maybe he went to rehearse with the band." },
-        { "speaker": "Giulia", "nl": "Sì, mi sembra che abbia detto qualcosa ieri.", "en": "Yeah, I think he mentioned something yesterday.", "spotlight": "'abbia detto' — congiuntivo passato: già successo (ieri)." },
-        { "speaker": "You", "nl": "Speriamo che non si sia dimenticato di noi.", "en": "Let's hope he hasn't forgotten about us." },
-        { "speaker": "Giulia", "nl": "Figurati! Sono sicura che arrivi tra poco.", "en": "As if! I'm sure he'll be here soon." },
-        { "speaker": "Marco", "nl": "Eccomi! Scusate, credevo di essere in ritardo.", "en": "Here I am! Sorry, I thought I was late." }
+        { "speaker": "Giulia", "target": "Ma dov'è Marco? Non risponde.", "en": "Where's Marco? He's not answering." },
+        { "speaker": "You", "target": "Boh… penso che sia ancora al lavoro.", "en": "Dunno… I think he's still at work.", "spotlight": "congiuntivo presente: azione che continua adesso." },
+        { "speaker": "Giulia", "target": "A quest'ora? Credo che abbia già chiuso il negozio.", "en": "At this hour? I think he's already closed the shop." },
+        { "speaker": "You", "target": "Allora forse è andato a provare con la band.", "en": "Then maybe he went to rehearse with the band." },
+        { "speaker": "Giulia", "target": "Sì, mi sembra che abbia detto qualcosa ieri.", "en": "Yeah, I think he mentioned something yesterday.", "spotlight": "'abbia detto' — congiuntivo passato: già successo (ieri)." },
+        { "speaker": "You", "target": "Speriamo che non si sia dimenticato di noi.", "en": "Let's hope he hasn't forgotten about us." },
+        { "speaker": "Giulia", "target": "Figurati! Sono sicura che arrivi tra poco.", "en": "As if! I'm sure he'll be here soon." },
+        { "speaker": "Marco", "target": "Eccomi! Scusate, credevo di essere in ritardo.", "en": "Here I am! Sorry, I thought I was late." }
       ]
     },
     {

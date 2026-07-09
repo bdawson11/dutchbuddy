@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-23",
   "day": 23,
   "module": "M04",
@@ -28,11 +28,11 @@
       "type": "chips",
       "title": "Tap to hear the ordering phrases",
       "items": [
-        { "nl": "Ich hätte gern…", "en": "I would like…", "speak": "Ich hätte gern" },
-        { "nl": "Ich nehme…", "en": "I'll take…", "speak": "Ich nehme" },
-        { "nl": "für mich, bitte", "en": "for me, please", "speak": "für mich, bitte" },
-        { "nl": "Sonst noch etwas?", "en": "anything else?", "speak": "Sonst noch etwas?" },
-        { "nl": "Das wäre alles.", "en": "that's everything.", "speak": "Das wäre alles." }
+        { "target": "Ich hätte gern…", "en": "I would like…", "speak": "Ich hätte gern" },
+        { "target": "Ich nehme…", "en": "I'll take…", "speak": "Ich nehme" },
+        { "target": "für mich, bitte", "en": "for me, please", "speak": "für mich, bitte" },
+        { "target": "Sonst noch etwas?", "en": "anything else?", "speak": "Sonst noch etwas?" },
+        { "target": "Das wäre alles.", "en": "that's everything.", "speak": "Das wäre alles." }
       ]
     },
     {
@@ -46,12 +46,12 @@
       "type": "chips",
       "title": "An der Theke",
       "items": [
-        { "nl": "das Croissant", "en": "croissant", "speak": "das Croissant" },
-        { "nl": "der Kaffee", "en": "coffee", "speak": "der Kaffee" },
-        { "nl": "der Tee", "en": "tea", "speak": "der Tee" },
-        { "nl": "der Kuchen", "en": "cake", "speak": "der Kuchen" },
-        { "nl": "zum Mitnehmen", "en": "to go", "speak": "zum Mitnehmen" },
-        { "nl": "zum Hieressen", "en": "to eat in", "speak": "zum Hieressen" }
+        { "target": "das Croissant", "en": "croissant", "speak": "das Croissant" },
+        { "target": "der Kaffee", "en": "coffee", "speak": "der Kaffee" },
+        { "target": "der Tee", "en": "tea", "speak": "der Tee" },
+        { "target": "der Kuchen", "en": "cake", "speak": "der Kuchen" },
+        { "target": "zum Mitnehmen", "en": "to go", "speak": "zum Mitnehmen" },
+        { "target": "zum Hieressen", "en": "to eat in", "speak": "zum Hieressen" }
       ]
     },
     {
@@ -72,14 +72,14 @@
       "type": "dialogue",
       "scene": "Lena play-acts as the Bäckereiverkäuferin so you can practice your order before the real thing.",
       "lines": [
-        { "speaker": "Lena", "nl": "Guten Tag! Was hätten Sie gern?", "en": "Good day! What would you like?", "spotlight": "Lena switches to *Sie* — the shop-counter register, even in practice." },
-        { "speaker": "You", "nl": "Ich hätte gern zwei Brötchen und einen Kaffee, bitte.", "en": "I'd like two rolls and a coffee, please." },
-        { "speaker": "Lena", "nl": "Zum Hieressen oder zum Mitnehmen?", "en": "To eat in or to go?" },
-        { "speaker": "You", "nl": "Zum Mitnehmen, bitte.", "en": "To go, please." },
-        { "speaker": "Lena", "nl": "Sonst noch etwas?", "en": "Anything else?" },
-        { "speaker": "You", "nl": "Nein danke, das wäre alles.", "en": "No thanks, that's everything." },
-        { "speaker": "Lena", "nl": "Das macht dann sechs Euro fünfzig.", "en": "That'll be six euros fifty, then." },
-        { "speaker": "You", "nl": "Bitte sehr.", "en": "Here you go." }
+        { "speaker": "Lena", "target": "Guten Tag! Was hätten Sie gern?", "en": "Good day! What would you like?", "spotlight": "Lena switches to *Sie* — the shop-counter register, even in practice." },
+        { "speaker": "You", "target": "Ich hätte gern zwei Brötchen und einen Kaffee, bitte.", "en": "I'd like two rolls and a coffee, please." },
+        { "speaker": "Lena", "target": "Zum Hieressen oder zum Mitnehmen?", "en": "To eat in or to go?" },
+        { "speaker": "You", "target": "Zum Mitnehmen, bitte.", "en": "To go, please." },
+        { "speaker": "Lena", "target": "Sonst noch etwas?", "en": "Anything else?" },
+        { "speaker": "You", "target": "Nein danke, das wäre alles.", "en": "No thanks, that's everything." },
+        { "speaker": "Lena", "target": "Das macht dann sechs Euro fünfzig.", "en": "That'll be six euros fifty, then." },
+        { "speaker": "You", "target": "Bitte sehr.", "en": "Here you go." }
       ]
     },
     {

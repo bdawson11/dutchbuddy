@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-07",
   "day": 7,
   "module": "M01",
@@ -21,20 +21,20 @@
       "type": "chips",
       "title": "Quick refresh — tap through",
       "items": [
-        { "nl": "buongiorno", "en": "good morning / hello", "speak": "buongiorno" },
-        { "nl": "Sono di…", "en": "I'm from…", "speak": "Sono di Torino." },
-        { "nl": "Ho fame.", "en": "I'm hungry.", "speak": "Ho fame." },
-        { "nl": "Non c'è problema.", "en": "There's no problem.", "speak": "Non c'è problema." },
-        { "nl": "Mi chiamo…", "en": "My name is…", "speak": "Mi chiamo Alex." }
+        { "target": "buongiorno", "en": "good morning / hello", "speak": "buongiorno" },
+        { "target": "Sono di…", "en": "I'm from…", "speak": "Sono di Torino." },
+        { "target": "Ho fame.", "en": "I'm hungry.", "speak": "Ho fame." },
+        { "target": "Non c'è problema.", "en": "There's no problem.", "speak": "Non c'è problema." },
+        { "target": "Mi chiamo…", "en": "My name is…", "speak": "Mi chiamo Alex." }
       ]
     },
     {
       "type": "shadow",
       "title": "Warm up — shadow the week",
       "lines": [
-        { "nl": "Ciao, mi chiamo Alex.", "en": "Hi, my name's Alex." },
-        { "nl": "Sono di Toronto e sto imparando l'italiano.", "en": "I'm from Toronto and I'm learning Italian." },
-        { "nl": "Un caffè, per favore. Grazie!", "en": "An espresso, please. Thanks!" }
+        { "target": "Ciao, mi chiamo Alex.", "en": "Hi, my name's Alex." },
+        { "target": "Sono di Toronto e sto imparando l'italiano.", "en": "I'm from Toronto and I'm learning Italian." },
+        { "target": "Un caffè, per favore. Grazie!", "en": "An espresso, please. Thanks!" }
       ]
     },
     {
@@ -75,12 +75,12 @@
       "type": "dialogue",
       "scene": "Giulia introduces you to Pietro, visiting from Naples — a first hello",
       "lines": [
-        { "speaker": "Giulia", "nl": "Lui è Pietro, un amico di Napoli.", "en": "This is Pietro, a friend from Naples." },
-        { "speaker": "Pietro", "nl": "Piacere! Buongiorno.", "en": "Pleasure! Good morning." },
-        { "speaker": "You", "nl": "Piacere, Pietro. Mi chiamo Alex, sono canadese.", "en": "Nice to meet you, Pietro. My name's Alex, I'm Canadian.", "spotlight": "Your first full self-intro in the wild: name + where you're from." },
-        { "speaker": "Pietro", "nl": "E sei qui a Bologna per studiare?", "en": "And are you here in Bologna to study?" },
-        { "speaker": "You", "nl": "Sono qui da poco e sto imparando l'italiano.", "en": "I've been here a little while and I'm learning Italian." },
-        { "speaker": "Pietro", "nl": "Bravo! Vai alla grande, eh.", "en": "Well done! You're doing great." }
+        { "speaker": "Giulia", "target": "Lui è Pietro, un amico di Napoli.", "en": "This is Pietro, a friend from Naples." },
+        { "speaker": "Pietro", "target": "Piacere! Buongiorno.", "en": "Pleasure! Good morning." },
+        { "speaker": "You", "target": "Piacere, Pietro. Mi chiamo Alex, sono canadese.", "en": "Nice to meet you, Pietro. My name's Alex, I'm Canadian.", "spotlight": "Your first full self-intro in the wild: name + where you're from." },
+        { "speaker": "Pietro", "target": "E sei qui a Bologna per studiare?", "en": "And are you here in Bologna to study?" },
+        { "speaker": "You", "target": "Sono qui da poco e sto imparando l'italiano.", "en": "I've been here a little while and I'm learning Italian." },
+        { "speaker": "Pietro", "target": "Bravo! Vai alla grande, eh.", "en": "Well done! You're doing great." }
       ]
     },
     {

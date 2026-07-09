@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-25",
   "day": 25,
   "module": "M04",
@@ -56,11 +56,11 @@
       "type": "chips",
       "title": "Tap para escuchar",
       "items": [
-        { "nl": "quiero", "en": "I want", "speak": "quiero" },
-        { "nl": "¿puedes?", "en": "can you?", "speak": "¿puedes?" },
-        { "nl": "prefiero", "en": "I prefer", "speak": "prefiero" },
-        { "nl": "podemos", "en": "we can", "speak": "podemos" },
-        { "nl": "queréis", "en": "you all want", "speak": "queréis" }
+        { "target": "quiero", "en": "I want", "speak": "quiero" },
+        { "target": "¿puedes?", "en": "can you?", "speak": "¿puedes?" },
+        { "target": "prefiero", "en": "I prefer", "speak": "prefiero" },
+        { "target": "podemos", "en": "we can", "speak": "podemos" },
+        { "target": "queréis", "en": "you all want", "speak": "queréis" }
       ]
     },
     {
@@ -87,11 +87,11 @@
       "type": "dialogue",
       "scene": "Ordering with Rafa — practicing querer, poder, preferir",
       "lines": [
-        { "speaker": "Rafa", "nl": "¿Qué quieres tomar?", "en": "What do you want to drink?" },
-        { "speaker": "You", "nl": "Quiero una caña. ¿Y tú?", "en": "I want a small beer. And you?" },
-        { "speaker": "Rafa", "nl": "Prefiero un vino tinto.", "en": "I prefer a red wine." },
-        { "speaker": "You", "nl": "¿Podemos pedir también una ración de jamón?", "en": "Can we also order a plate of ham?" },
-        { "speaker": "Rafa", "nl": "¡Claro que podemos, tío! Venga.", "en": "Of course we can, mate! Come on." }
+        { "speaker": "Rafa", "target": "¿Qué quieres tomar?", "en": "What do you want to drink?" },
+        { "speaker": "You", "target": "Quiero una caña. ¿Y tú?", "en": "I want a small beer. And you?" },
+        { "speaker": "Rafa", "target": "Prefiero un vino tinto.", "en": "I prefer a red wine." },
+        { "speaker": "You", "target": "¿Podemos pedir también una ración de jamón?", "en": "Can we also order a plate of ham?" },
+        { "speaker": "Rafa", "target": "¡Claro que podemos, tío! Venga.", "en": "Of course we can, mate! Come on." }
       ]
     },
     {

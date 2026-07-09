@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-59",
   "day": 59,
   "module": "M09",
@@ -35,11 +35,11 @@
       "type": "chips",
       "title": "Escucha el estilo indirecto",
       "items": [
-        { "nl": "Me dijo que estaba cansada.", "en": "She told me she was tired.", "speak": "Me dijo que estaba cansada." },
-        { "nl": "Me contó que había cambiado de trabajo.", "en": "He told me he'd changed jobs.", "speak": "Me contó que había cambiado de trabajo." },
-        { "nl": "Dijo que iba a llegar tarde.", "en": "She said she was going to be late.", "speak": "Dijo que iba a llegar tarde." },
-        { "nl": "Me preguntó si tenía tiempo.", "en": "He asked me if I had time.", "speak": "Me preguntó si tenía tiempo." },
-        { "nl": "Me preguntó dónde vivía.", "en": "She asked me where I lived.", "speak": "Me preguntó dónde vivía." }
+        { "target": "Me dijo que estaba cansada.", "en": "She told me she was tired.", "speak": "Me dijo que estaba cansada." },
+        { "target": "Me contó que había cambiado de trabajo.", "en": "He told me he'd changed jobs.", "speak": "Me contó que había cambiado de trabajo." },
+        { "target": "Dijo que iba a llegar tarde.", "en": "She said she was going to be late.", "speak": "Dijo que iba a llegar tarde." },
+        { "target": "Me preguntó si tenía tiempo.", "en": "He asked me if I had time.", "speak": "Me preguntó si tenía tiempo." },
+        { "target": "Me preguntó dónde vivía.", "en": "She asked me where I lived.", "speak": "Me preguntó dónde vivía." }
       ]
     },
     {
@@ -85,14 +85,14 @@
       "type": "dialogue",
       "scene": "Rafa te pasa un poco de cotilleo sobre Nacho",
       "lines": [
-        { "speaker": "Rafa", "nl": "Oye, ¿sabes lo que me dijo Nacho ayer?", "en": "Hey, you know what Nacho told me yesterday?" },
-        { "speaker": "You", "nl": "No, ni idea. ¿Qué te dijo?", "en": "No, no clue. What did he tell you?" },
-        { "speaker": "Rafa", "nl": "Me contó que en su pueblo iban a hacer una fiesta enorme este verano.", "en": "He told me they were going to throw a huge party in his village this summer.", "spotlight": "me contó que + imperfecto (iban a hacer): estilo indirecto." },
-        { "speaker": "You", "nl": "¡Qué guay! ¿Y te preguntó si querías ir?", "en": "How cool! And did he ask if you wanted to go?", "spotlight": "me preguntó si + imperfecto (querías): pregunta indirecta." },
-        { "speaker": "Rafa", "nl": "Sí, me preguntó si me apuntaba. Le dije que sí, claro.", "en": "Yeah, he asked if I was in. I told him yes, of course." },
-        { "speaker": "You", "nl": "Yo también me apunto. ¿Dijo cuándo era?", "en": "I'm in too. Did he say when it was?" },
-        { "speaker": "Rafa", "nl": "Me dijo que era en agosto, pero que aún no sabía el día exacto.", "en": "He told me it was in August, but that he didn't know the exact day yet." },
-        { "speaker": "You", "nl": "Pues nada, cuando lo sepa, nos dices.", "en": "Alright then, when he knows, let us know.", "spotlight": "cuando + subjuntivo (sepa): repaso del día 58." }
+        { "speaker": "Rafa", "target": "Oye, ¿sabes lo que me dijo Nacho ayer?", "en": "Hey, you know what Nacho told me yesterday?" },
+        { "speaker": "You", "target": "No, ni idea. ¿Qué te dijo?", "en": "No, no clue. What did he tell you?" },
+        { "speaker": "Rafa", "target": "Me contó que en su pueblo iban a hacer una fiesta enorme este verano.", "en": "He told me they were going to throw a huge party in his village this summer.", "spotlight": "me contó que + imperfecto (iban a hacer): estilo indirecto." },
+        { "speaker": "You", "target": "¡Qué guay! ¿Y te preguntó si querías ir?", "en": "How cool! And did he ask if you wanted to go?", "spotlight": "me preguntó si + imperfecto (querías): pregunta indirecta." },
+        { "speaker": "Rafa", "target": "Sí, me preguntó si me apuntaba. Le dije que sí, claro.", "en": "Yeah, he asked if I was in. I told him yes, of course." },
+        { "speaker": "You", "target": "Yo también me apunto. ¿Dijo cuándo era?", "en": "I'm in too. Did he say when it was?" },
+        { "speaker": "Rafa", "target": "Me dijo que era en agosto, pero que aún no sabía el día exacto.", "en": "He told me it was in August, but that he didn't know the exact day yet." },
+        { "speaker": "You", "target": "Pues nada, cuando lo sepa, nos dices.", "en": "Alright then, when he knows, let us know.", "spotlight": "cuando + subjuntivo (sepa): repaso del día 58." }
       ]
     },
     {

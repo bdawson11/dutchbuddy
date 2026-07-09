@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-35",
   "day": 35,
   "module": "M05",
@@ -21,14 +21,14 @@
       "type": "chips",
       "title": "Repaso mezclado",
       "items": [
-        { "nl": "he hecho", "en": "I've done", "speak": "he hecho" },
-        { "nl": "ha dicho", "en": "she's said", "speak": "ha dicho" },
-        { "nl": "hemos visto", "en": "we've seen", "speak": "hemos visto" },
-        { "nl": "han escrito", "en": "they've written", "speak": "han escrito" },
-        { "nl": "ya", "en": "already", "speak": "ya" },
-        { "nl": "todavía no", "en": "not yet", "speak": "todavía no" },
-        { "nl": "alguna vez", "en": "ever", "speak": "alguna vez" },
-        { "nl": "nunca", "en": "never", "speak": "nunca" }
+        { "target": "he hecho", "en": "I've done", "speak": "he hecho" },
+        { "target": "ha dicho", "en": "she's said", "speak": "ha dicho" },
+        { "target": "hemos visto", "en": "we've seen", "speak": "hemos visto" },
+        { "target": "han escrito", "en": "they've written", "speak": "han escrito" },
+        { "target": "ya", "en": "already", "speak": "ya" },
+        { "target": "todavía no", "en": "not yet", "speak": "todavía no" },
+        { "target": "alguna vez", "en": "ever", "speak": "alguna vez" },
+        { "target": "nunca", "en": "never", "speak": "nunca" }
       ]
     },
     {
@@ -73,23 +73,23 @@
       "type": "shadow",
       "title": "Calienta la voz antes de contar tu día",
       "lines": [
-        { "nl": "¿Qué has hecho hoy?", "en": "What have you done today?" },
-        { "nl": "He hecho un montón de cosas.", "en": "I've done a ton of things." },
-        { "nl": "¡Cuéntamelo todo!", "en": "Tell me everything!" }
+        { "target": "¿Qué has hecho hoy?", "en": "What have you done today?" },
+        { "target": "He hecho un montón de cosas.", "en": "I've done a ton of things." },
+        { "target": "¡Cuéntamelo todo!", "en": "Tell me everything!" }
       ]
     },
     {
       "type": "dialogue",
       "scene": "At the bar, Rafa wants to hear about your whole day.",
       "lines": [
-        { "speaker": "Rafa", "nl": "Tío, ¿qué has hecho hoy? Cuéntame.", "en": "Dude, what have you done today? Tell me." },
-        { "speaker": "You", "nl": "Pues… me he levantado pronto, he ido a clase de español y he hecho los deberes.", "en": "Well… I got up early, went to Spanish class, and did my homework." },
-        { "speaker": "Rafa", "nl": "¿En serio? Yo todavía no he hecho nada, ¡vaya vago que soy!", "en": "Really? I haven't done anything yet, what a lazy guy I am!" },
-        { "speaker": "You", "nl": "¡Qué va! Además he visto a Nacho y hemos hablado del pueblo.", "en": "No way! Also I saw Nacho and we talked about the village." },
-        { "speaker": "Rafa", "nl": "Ah, ¿y qué te ha dicho? Seguro que ha dicho que en el pueblo se vive mejor, como siempre.", "en": "Ah, and what did he tell you? Bet he said life's better in the village, as always.", "spotlight": "ha dicho — one of the eight irregulars, referencing Nacho's running pueblo-pride line." },
-        { "speaker": "You", "nl": "Exacto, ¡ha dicho justo eso! Y por la tarde he sacado el billete para ir a la sierra el finde que viene.", "en": "Exactly, he said just that! And in the afternoon I got the ticket to go to the sierra next weekend." },
-        { "speaker": "Rafa", "nl": "¡Qué envidia! Yo nunca he estado en Cercedilla. ¿Me invitas?", "en": "I'm so jealous! I've never been to Cercedilla. Can I come?" },
-        { "speaker": "You", "nl": "Claro, ¡venga, te apuntas!", "en": "Sure, come on, you're in!" }
+        { "speaker": "Rafa", "target": "Tío, ¿qué has hecho hoy? Cuéntame.", "en": "Dude, what have you done today? Tell me." },
+        { "speaker": "You", "target": "Pues… me he levantado pronto, he ido a clase de español y he hecho los deberes.", "en": "Well… I got up early, went to Spanish class, and did my homework." },
+        { "speaker": "Rafa", "target": "¿En serio? Yo todavía no he hecho nada, ¡vaya vago que soy!", "en": "Really? I haven't done anything yet, what a lazy guy I am!" },
+        { "speaker": "You", "target": "¡Qué va! Además he visto a Nacho y hemos hablado del pueblo.", "en": "No way! Also I saw Nacho and we talked about the village." },
+        { "speaker": "Rafa", "target": "Ah, ¿y qué te ha dicho? Seguro que ha dicho que en el pueblo se vive mejor, como siempre.", "en": "Ah, and what did he tell you? Bet he said life's better in the village, as always.", "spotlight": "ha dicho — one of the eight irregulars, referencing Nacho's running pueblo-pride line." },
+        { "speaker": "You", "target": "Exacto, ¡ha dicho justo eso! Y por la tarde he sacado el billete para ir a la sierra el finde que viene.", "en": "Exactly, he said just that! And in the afternoon I got the ticket to go to the sierra next weekend." },
+        { "speaker": "Rafa", "target": "¡Qué envidia! Yo nunca he estado en Cercedilla. ¿Me invitas?", "en": "I'm so jealous! I've never been to Cercedilla. Can I come?" },
+        { "speaker": "You", "target": "Claro, ¡venga, te apuntas!", "en": "Sure, come on, you're in!" }
       ]
     },
     {

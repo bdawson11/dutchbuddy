@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-67",
   "day": 67,
   "module": "M10",
@@ -29,12 +29,12 @@
       "type": "chips",
       "title": "Tik om te horen — reflexieven",
       "items": [
-        { "nl": "Ik voel me prima.", "en": "I feel fine.", "speak": "Ik voel me prima." },
-        { "nl": "Je vergist je.", "en": "You're mistaken.", "speak": "Je vergist je." },
-        { "nl": "Ik herinner me die dag nog goed.", "en": "I still remember that day well.", "speak": "Ik herinner me die dag nog goed." },
-        { "nl": "Ik verheug me op het weekend.", "en": "I'm looking forward to the weekend.", "speak": "Ik verheug me op het weekend." },
-        { "nl": "Hij gedraagt zich netjes.", "en": "He behaves himself well.", "speak": "Hij gedraagt zich netjes." },
-        { "nl": "Maak je geen zorgen.", "en": "Don't worry.", "speak": "Maak je geen zorgen." }
+        { "target": "Ik voel me prima.", "en": "I feel fine.", "speak": "Ik voel me prima." },
+        { "target": "Je vergist je.", "en": "You're mistaken.", "speak": "Je vergist je." },
+        { "target": "Ik herinner me die dag nog goed.", "en": "I still remember that day well.", "speak": "Ik herinner me die dag nog goed." },
+        { "target": "Ik verheug me op het weekend.", "en": "I'm looking forward to the weekend.", "speak": "Ik verheug me op het weekend." },
+        { "target": "Hij gedraagt zich netjes.", "en": "He behaves himself well.", "speak": "Hij gedraagt zich netjes." },
+        { "target": "Maak je geen zorgen.", "en": "Don't worry.", "speak": "Maak je geen zorgen." }
       ]
     },
     {
@@ -76,13 +76,13 @@
       "type": "dialogue",
       "scene": "Sanne heeft besloten de baan aan te nemen. Ze belt je over de verhuizing die eraan komt.",
       "lines": [
-        { "speaker": "Sanne", "nl": "Ik heb besloten: ik ga het doen. Ik verhuis naar Utrecht.", "en": "I've decided: I'm going to do it. I'm moving to Utrecht.", "spotlight": "besloten — the decision is made; she still lives in Amsterdam and moves this weekend." },
-        { "speaker": "You", "nl": "Wat spannend! Hoe voel je je?", "en": "How exciting! How do you feel?", "spotlight": "voel je je — a reflexive question." },
-        { "speaker": "Sanne", "nl": "Eerlijk? Ik voel me een beetje zenuwachtig. Maar ik verheug me er ook op.", "en": "Honestly? I feel a bit nervous. But I'm looking forward to it too.", "spotlight": "ik verheug me er ook op — reflexive + er + op, all at once." },
-        { "speaker": "You", "nl": "Dat snap ik. Waarom Utrecht eigenlijk?", "en": "I get that. Why Utrecht, actually?" },
-        { "speaker": "Sanne", "nl": "Ik ga erheen om dichter bij mijn werk te wonen. En om iets nieuws te beginnen.", "en": "I'm going there to live closer to my work. And to start something new.", "spotlight": "om … te wonen / om … te beginnen — two purposes." },
-        { "speaker": "You", "nl": "Vergis je je niet? Amsterdam gaat je missen, hoor.", "en": "Aren't you making a mistake? Amsterdam's going to miss you.", "spotlight": "vergis je je — zich vergissen, to be mistaken." },
-        { "speaker": "Sanne", "nl": "Haha, misschien. Maar ik herinner me steeds waarom ik ga. Het voelt goed.", "en": "Haha, maybe. But I keep remembering why I'm going. It feels right." }
+        { "speaker": "Sanne", "target": "Ik heb besloten: ik ga het doen. Ik verhuis naar Utrecht.", "en": "I've decided: I'm going to do it. I'm moving to Utrecht.", "spotlight": "besloten — the decision is made; she still lives in Amsterdam and moves this weekend." },
+        { "speaker": "You", "target": "Wat spannend! Hoe voel je je?", "en": "How exciting! How do you feel?", "spotlight": "voel je je — a reflexive question." },
+        { "speaker": "Sanne", "target": "Eerlijk? Ik voel me een beetje zenuwachtig. Maar ik verheug me er ook op.", "en": "Honestly? I feel a bit nervous. But I'm looking forward to it too.", "spotlight": "ik verheug me er ook op — reflexive + er + op, all at once." },
+        { "speaker": "You", "target": "Dat snap ik. Waarom Utrecht eigenlijk?", "en": "I get that. Why Utrecht, actually?" },
+        { "speaker": "Sanne", "target": "Ik ga erheen om dichter bij mijn werk te wonen. En om iets nieuws te beginnen.", "en": "I'm going there to live closer to my work. And to start something new.", "spotlight": "om … te wonen / om … te beginnen — two purposes." },
+        { "speaker": "You", "target": "Vergis je je niet? Amsterdam gaat je missen, hoor.", "en": "Aren't you making a mistake? Amsterdam's going to miss you.", "spotlight": "vergis je je — zich vergissen, to be mistaken." },
+        { "speaker": "Sanne", "target": "Haha, misschien. Maar ik herinner me steeds waarom ik ga. Het voelt goed.", "en": "Haha, maybe. But I keep remembering why I'm going. It feels right." }
       ]
     },
     {

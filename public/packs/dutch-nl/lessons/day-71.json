@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-71",
   "day": 71,
   "module": "M11",
@@ -50,12 +50,12 @@
       "type": "chips",
       "title": "Tap to hear them in a sentence",
       "items": [
-        { "nl": "Ik wacht al een uur op de bus.", "en": "I've been waiting for the bus an hour.", "speak": "Ik wacht al een uur op de bus." },
-        { "nl": "Ik denk vaak aan vroeger.", "en": "I often think of the old days.", "speak": "Ik denk vaak aan vroeger." },
-        { "nl": "Ik houd echt van deze stad.", "en": "I really love this city.", "speak": "Ik houd echt van deze stad." },
-        { "nl": "Je kunt altijd op mij rekenen.", "en": "You can always count on me.", "speak": "Je kunt altijd op mij rekenen." },
-        { "nl": "Ik erger me aan het lawaai.", "en": "I'm annoyed at the noise.", "speak": "Ik erger me aan het lawaai." },
-        { "nl": "We lachen om zijn grap.", "en": "We laugh at his joke.", "speak": "We lachen om zijn grap." }
+        { "target": "Ik wacht al een uur op de bus.", "en": "I've been waiting for the bus an hour.", "speak": "Ik wacht al een uur op de bus." },
+        { "target": "Ik denk vaak aan vroeger.", "en": "I often think of the old days.", "speak": "Ik denk vaak aan vroeger." },
+        { "target": "Ik houd echt van deze stad.", "en": "I really love this city.", "speak": "Ik houd echt van deze stad." },
+        { "target": "Je kunt altijd op mij rekenen.", "en": "You can always count on me.", "speak": "Je kunt altijd op mij rekenen." },
+        { "target": "Ik erger me aan het lawaai.", "en": "I'm annoyed at the noise.", "speak": "Ik erger me aan het lawaai." },
+        { "target": "We lachen om zijn grap.", "en": "We laugh at his joke.", "speak": "We lachen om zijn grap." }
       ]
     },
     {
@@ -90,11 +90,11 @@
       "type": "dialogue",
       "scene": "Café De Ceuvel. Daan is fishing for gossip.",
       "lines": [
-        { "speaker": "Daan", "nl": "En, denk je nog weleens aan je oude baan?", "en": "So, do you ever think about your old job?", "spotlight": "denken aan — the fixed pair in the wild." },
-        { "speaker": "You", "nl": "Soms. Maar ik erger me niet meer aan de drukte daar.", "en": "Sometimes. But I'm not annoyed at the busyness there anymore.", "spotlight": "zich ergeren aan — with 'me' dragged along." },
-        { "speaker": "Daan", "nl": "Nou, ik reken op een goed verhaal, hoor.", "en": "Well, I'm counting on a good story.", "spotlight": "rekenen op — count on." },
-        { "speaker": "You", "nl": "Haha. We praten er later over, goed?", "en": "Haha. We'll talk about it later, okay?" },
-        { "speaker": "Daan", "nl": "Deal. Ik houd van een beetje spanning.", "en": "Deal. I love a bit of suspense." }
+        { "speaker": "Daan", "target": "En, denk je nog weleens aan je oude baan?", "en": "So, do you ever think about your old job?", "spotlight": "denken aan — the fixed pair in the wild." },
+        { "speaker": "You", "target": "Soms. Maar ik erger me niet meer aan de drukte daar.", "en": "Sometimes. But I'm not annoyed at the busyness there anymore.", "spotlight": "zich ergeren aan — with 'me' dragged along." },
+        { "speaker": "Daan", "target": "Nou, ik reken op een goed verhaal, hoor.", "en": "Well, I'm counting on a good story.", "spotlight": "rekenen op — count on." },
+        { "speaker": "You", "target": "Haha. We praten er later over, goed?", "en": "Haha. We'll talk about it later, okay?" },
+        { "speaker": "Daan", "target": "Deal. Ik houd van een beetje spanning.", "en": "Deal. I love a bit of suspense." }
       ]
     },
     {

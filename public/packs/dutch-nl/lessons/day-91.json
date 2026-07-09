@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-91",
   "day": 91,
   "module": "M13",
@@ -78,14 +78,14 @@
       "type": "dialogue",
       "scene": "Daan asks whether you think learning Dutch was worth it. He never takes the easy answer.",
       "lines": [
-        { "speaker": "Daan", "nl": "Eerlijk: vind je het de moeite waard, al dat Nederlands?", "en": "Honestly: do you think it's worth it, all that Dutch?" },
-        { "speaker": "You", "nl": "Ja, hoewel het soms zwaar is.", "en": "Yes, although it's sometimes hard.", "spotlight": "Meteen een reserve met *hoewel*." },
-        { "speaker": "Daan", "nl": "Zie je. De meesten geven na drie maanden op, hoor.", "en": "See. Most people quit after three months." },
-        { "speaker": "You", "nl": "Dat snap ik wel. Enerzijds is het veel werk, anderzijds hoor je er echt bij.", "en": "I get that. On one hand it's a lot of work, on the other you really belong.", "spotlight": "*enerzijds… anderzijds* — afwegen." },
-        { "speaker": "Daan", "nl": "Precies dát. Bovendien waardeert iedereen het dat je het probeert.", "en": "Exactly that. Moreover, everyone appreciates that you try." },
-        { "speaker": "You", "nl": "Al blijf ik fouten maken.", "en": "Even though I keep making mistakes." },
-        { "speaker": "Daan", "nl": "Joh, ik maak ook fouten, en het is mijn moedertaal. Toch verstaan mensen me.", "en": "Come on, I make mistakes too, and it's my native language. Still, people understand me.", "spotlight": "*toch* als tegenstelling." },
-        { "speaker": "You", "nl": "Dan komt het met mij ook wel goed.", "en": "Then I'll be fine too." }
+        { "speaker": "Daan", "target": "Eerlijk: vind je het de moeite waard, al dat Nederlands?", "en": "Honestly: do you think it's worth it, all that Dutch?" },
+        { "speaker": "You", "target": "Ja, hoewel het soms zwaar is.", "en": "Yes, although it's sometimes hard.", "spotlight": "Meteen een reserve met *hoewel*." },
+        { "speaker": "Daan", "target": "Zie je. De meesten geven na drie maanden op, hoor.", "en": "See. Most people quit after three months." },
+        { "speaker": "You", "target": "Dat snap ik wel. Enerzijds is het veel werk, anderzijds hoor je er echt bij.", "en": "I get that. On one hand it's a lot of work, on the other you really belong.", "spotlight": "*enerzijds… anderzijds* — afwegen." },
+        { "speaker": "Daan", "target": "Precies dát. Bovendien waardeert iedereen het dat je het probeert.", "en": "Exactly that. Moreover, everyone appreciates that you try." },
+        { "speaker": "You", "target": "Al blijf ik fouten maken.", "en": "Even though I keep making mistakes." },
+        { "speaker": "Daan", "target": "Joh, ik maak ook fouten, en het is mijn moedertaal. Toch verstaan mensen me.", "en": "Come on, I make mistakes too, and it's my native language. Still, people understand me.", "spotlight": "*toch* als tegenstelling." },
+        { "speaker": "You", "target": "Dan komt het met mij ook wel goed.", "en": "Then I'll be fine too." }
       ]
     },
     {

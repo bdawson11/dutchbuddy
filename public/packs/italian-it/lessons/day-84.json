@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-84",
   "day": 84,
   "module": "M12",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Il viaggio in una frase ciascuno",
       "items": [
-        { "nl": "Mi chiamo Alex e sono di Boston.", "en": "present — where you started", "speak": "Mi chiamo Alex e sono di Boston." },
-        { "nl": "Ieri ho preso un caffè al banco.", "en": "passato prossimo — the everyday past", "speak": "Ieri ho preso un caffè al banco." },
-        { "nl": "Da bambino sognavo l'Italia.", "en": "imperfetto — background & memory", "speak": "Da bambino sognavo l'Italia." },
-        { "nl": "L'anno prossimo resterò qui.", "en": "futuro — your plan", "speak": "L'anno prossimo resterò qui." },
-        { "nl": "Penso che sia la scelta giusta.", "en": "congiuntivo — the fear, faced", "speak": "Penso che sia la scelta giusta." }
+        { "target": "Mi chiamo Alex e sono di Boston.", "en": "present — where you started", "speak": "Mi chiamo Alex e sono di Boston." },
+        { "target": "Ieri ho preso un caffè al banco.", "en": "passato prossimo — the everyday past", "speak": "Ieri ho preso un caffè al banco." },
+        { "target": "Da bambino sognavo l'Italia.", "en": "imperfetto — background & memory", "speak": "Da bambino sognavo l'Italia." },
+        { "target": "L'anno prossimo resterò qui.", "en": "futuro — your plan", "speak": "L'anno prossimo resterò qui." },
+        { "target": "Penso che sia la scelta giusta.", "en": "congiuntivo — the fear, faced", "speak": "Penso che sia la scelta giusta." }
       ]
     },
     {
@@ -66,14 +66,14 @@
       "type": "dialogue",
       "scene": "The buddy signs off. Giulia and Marco toast one year of Italian with you.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Allora ci siamo. Un anno fa non sapevi dire 'buongiorno', e guardati adesso.", "en": "So here we are. A year ago you couldn't say 'good morning', and look at you now." },
-        { "speaker": "Marco", "nl": "Ma dai, parla meglio di certi italiani. Sono quasi commosso, eh.", "en": "Come on, you speak better than some Italians. I'm almost moved, eh." },
-        { "speaker": "Giulia", "nl": "Guarda, se sei arrivato fin qui, puoi arrivare ovunque. Continua così.", "en": "Look, if you've made it this far, you can go anywhere. Keep it up.", "spotlight": "*Continua così* — a soft command to close on." },
-        { "speaker": "You", "nl": "Grazie di tutto. Ho imparato più di quanto pensassi.", "en": "Thanks for everything. I learned more than I thought I would.", "spotlight": "*Più di quanto pensassi* — a congiuntivo imperfetto, no fear left." },
-        { "speaker": "Marco", "nl": "E non dimenticarti di noi, eh. Torna al bar quando vuoi.", "en": "And don't forget us, eh. Come back to the bar whenever you like." },
-        { "speaker": "Giulia", "nl": "In bocca al lupo per tutto il resto. Ci sentiamo presto!", "en": "Good luck with everything else. We'll speak soon!" },
-        { "speaker": "You", "nl": "Crepi! A presto, ragazzi.", "en": "Thanks! See you soon, everyone." },
-        { "speaker": "Giulia", "nl": "Un bacio! E… benvenuto in Italia, per davvero.", "en": "A kiss! And… welcome to Italy, for real." }
+        { "speaker": "Giulia", "target": "Allora ci siamo. Un anno fa non sapevi dire 'buongiorno', e guardati adesso.", "en": "So here we are. A year ago you couldn't say 'good morning', and look at you now." },
+        { "speaker": "Marco", "target": "Ma dai, parla meglio di certi italiani. Sono quasi commosso, eh.", "en": "Come on, you speak better than some Italians. I'm almost moved, eh." },
+        { "speaker": "Giulia", "target": "Guarda, se sei arrivato fin qui, puoi arrivare ovunque. Continua così.", "en": "Look, if you've made it this far, you can go anywhere. Keep it up.", "spotlight": "*Continua così* — a soft command to close on." },
+        { "speaker": "You", "target": "Grazie di tutto. Ho imparato più di quanto pensassi.", "en": "Thanks for everything. I learned more than I thought I would.", "spotlight": "*Più di quanto pensassi* — a congiuntivo imperfetto, no fear left." },
+        { "speaker": "Marco", "target": "E non dimenticarti di noi, eh. Torna al bar quando vuoi.", "en": "And don't forget us, eh. Come back to the bar whenever you like." },
+        { "speaker": "Giulia", "target": "In bocca al lupo per tutto il resto. Ci sentiamo presto!", "en": "Good luck with everything else. We'll speak soon!" },
+        { "speaker": "You", "target": "Crepi! A presto, ragazzi.", "en": "Thanks! See you soon, everyone." },
+        { "speaker": "Giulia", "target": "Un bacio! E… benvenuto in Italia, per davvero.", "en": "A kiss! And… welcome to Italy, for real." }
       ]
     },
     {

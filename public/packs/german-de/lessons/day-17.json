@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-17",
   "day": 17,
   "module": "M03",
@@ -29,12 +29,12 @@
       "type": "chips",
       "title": "Tap to hear the possessives",
       "items": [
-        { "nl": "mein Bruder", "en": "my brother", "speak": "mein Bruder" },
-        { "nl": "deine Schwester", "en": "your sister", "speak": "deine Schwester" },
-        { "nl": "sein Kind", "en": "his child", "speak": "sein Kind" },
-        { "nl": "ihre Mutter", "en": "her mother", "speak": "ihre Mutter" },
-        { "nl": "mein Vater", "en": "my father", "speak": "mein Vater" },
-        { "nl": "ihr Bruder", "en": "her brother", "speak": "ihr Bruder" }
+        { "target": "mein Bruder", "en": "my brother", "speak": "mein Bruder" },
+        { "target": "deine Schwester", "en": "your sister", "speak": "deine Schwester" },
+        { "target": "sein Kind", "en": "his child", "speak": "sein Kind" },
+        { "target": "ihre Mutter", "en": "her mother", "speak": "ihre Mutter" },
+        { "target": "mein Vater", "en": "my father", "speak": "mein Vater" },
+        { "target": "ihr Bruder", "en": "her brother", "speak": "ihr Bruder" }
       ]
     },
     {
@@ -70,10 +70,10 @@
       "type": "shadow",
       "title": "Repeat after the audio",
       "lines": [
-        { "nl": "Hier ist ein Foto.", "en": "Here's a photo." },
-        { "nl": "Das ist meine Schwester.", "en": "That's my sister." },
-        { "nl": "Ich mag seinen Bruder.", "en": "I like his brother." },
-        { "nl": "Ihre Mutter ist sehr nett.", "en": "Her mother is very nice." }
+        { "target": "Hier ist ein Foto.", "en": "Here's a photo." },
+        { "target": "Das ist meine Schwester.", "en": "That's my sister." },
+        { "target": "Ich mag seinen Bruder.", "en": "I like his brother." },
+        { "target": "Ihre Mutter ist sehr nett.", "en": "Her mother is very nice." }
       ]
     },
     {
@@ -90,13 +90,13 @@
       "type": "dialogue",
       "scene": "You pull out your phone to show Lena a family photo at the café.",
       "lines": [
-        { "speaker": "Lena", "nl": "Was ist das? Zeig mal!", "en": "What's that? Show me!" },
-        { "speaker": "You", "nl": "Das ist meine Familie. Das ist meine Schwester.", "en": "That's my family. That's my sister." },
-        { "speaker": "Lena", "nl": "Schön! Und wer ist das?", "en": "Nice! And who's that?" },
-        { "speaker": "You", "nl": "Das ist mein Bruder. Ich mag meinen Bruder sehr — er ist total lustig.", "en": "That's my brother. I really like my brother — he's totally funny.", "spotlight": "meinen Bruder — accusative after mögen, the masculine -en again." },
-        { "speaker": "Lena", "nl": "Süß! Meine Familie ist in Hannover.", "en": "Sweet! My family is in Hannover." },
-        { "speaker": "You", "nl": "Ach, du bist nicht aus Berlin?", "en": "Oh, you're not from Berlin?" },
-        { "speaker": "Lena", "nl": "Nein, aber ich liebe die Stadt.", "en": "No, but I love the city." }
+        { "speaker": "Lena", "target": "Was ist das? Zeig mal!", "en": "What's that? Show me!" },
+        { "speaker": "You", "target": "Das ist meine Familie. Das ist meine Schwester.", "en": "That's my family. That's my sister." },
+        { "speaker": "Lena", "target": "Schön! Und wer ist das?", "en": "Nice! And who's that?" },
+        { "speaker": "You", "target": "Das ist mein Bruder. Ich mag meinen Bruder sehr — er ist total lustig.", "en": "That's my brother. I really like my brother — he's totally funny.", "spotlight": "meinen Bruder — accusative after mögen, the masculine -en again." },
+        { "speaker": "Lena", "target": "Süß! Meine Familie ist in Hannover.", "en": "Sweet! My family is in Hannover." },
+        { "speaker": "You", "target": "Ach, du bist nicht aus Berlin?", "en": "Oh, you're not from Berlin?" },
+        { "speaker": "Lena", "target": "Nein, aber ich liebe die Stadt.", "en": "No, but I love the city." }
       ]
     },
     {

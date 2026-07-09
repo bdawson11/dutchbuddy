@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-02",
   "day": 2,
   "module": "M01",
@@ -30,12 +30,12 @@
       "type": "chips",
       "title": "Tap to hear each diphthong",
       "items": [
-        { "nl": "huis", "en": "house", "speak": "huis" },
-        { "nl": "wijn", "en": "wine", "speak": "wijn" },
-        { "nl": "trein", "en": "train", "speak": "trein" },
-        { "nl": "leuk", "en": "nice, fun", "speak": "leuk" },
-        { "nl": "goed", "en": "good", "speak": "goed" },
-        { "nl": "oud", "en": "old", "speak": "oud" }
+        { "target": "huis", "en": "house", "speak": "huis" },
+        { "target": "wijn", "en": "wine", "speak": "wijn" },
+        { "target": "trein", "en": "train", "speak": "trein" },
+        { "target": "leuk", "en": "nice, fun", "speak": "leuk" },
+        { "target": "goed", "en": "good", "speak": "goed" },
+        { "target": "oud", "en": "old", "speak": "oud" }
       ]
     },
     {
@@ -63,9 +63,9 @@
       "type": "dialogue",
       "scene": "Your first exchange — a café doorway in Amsterdam",
       "lines": [
-        { "speaker": "Emma", "nl": "Hoi! Alles goed?", "en": "Hi! Everything good?", "spotlight": "goed — there's your oe sound in the wild." },
-        { "speaker": "You", "nl": "Ja, goed! En met jou?", "en": "Yes, good! And with you?" },
-        { "speaker": "Emma", "nl": "Ook goed. Leuk je te zien!", "en": "Also good. Nice to see you!", "spotlight": "leuk — the eu diphthong, the most Dutch word of approval." }
+        { "speaker": "Emma", "target": "Hoi! Alles goed?", "en": "Hi! Everything good?", "spotlight": "goed — there's your oe sound in the wild." },
+        { "speaker": "You", "target": "Ja, goed! En met jou?", "en": "Yes, good! And with you?" },
+        { "speaker": "Emma", "target": "Ook goed. Leuk je te zien!", "en": "Also good. Nice to see you!", "spotlight": "leuk — the eu diphthong, the most Dutch word of approval." }
       ]
     },
     {
@@ -79,9 +79,9 @@
       "type": "shadow",
       "title": "Shadow the dialogue",
       "lines": [
-        { "nl": "Hoi! Alles goed?", "en": "Hi! Everything good?" },
-        { "nl": "Ja, goed! En met jou?", "en": "Yes, good! And with you?" },
-        { "nl": "Leuk je te zien!", "en": "Nice to see you!" }
+        { "target": "Hoi! Alles goed?", "en": "Hi! Everything good?" },
+        { "target": "Ja, goed! En met jou?", "en": "Yes, good! And with you?" },
+        { "target": "Leuk je te zien!", "en": "Nice to see you!" }
       ]
     },
     {

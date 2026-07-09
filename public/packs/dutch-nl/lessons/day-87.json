@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-87",
   "day": 87,
   "module": "M13",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Wat moet er gebeuren? — tik om te horen",
       "items": [
-        { "nl": "Dit moet vandaag afgemaakt worden.", "en": "This has to be finished today.", "speak": "Dit moet vandaag afgemaakt worden." },
-        { "nl": "De kamer kan nog geverfd worden.", "en": "The room can still be painted.", "speak": "De kamer kan nog geverfd worden." },
-        { "nl": "Het formulier moet ondertekend worden.", "en": "The form has to be signed.", "speak": "Het formulier moet ondertekend worden." },
-        { "nl": "Deze fout mag niet gemaakt worden.", "en": "This mistake must not be made.", "speak": "Deze fout mag niet gemaakt worden." },
-        { "nl": "De planning kan aangepast worden.", "en": "The planning can be adjusted.", "speak": "De planning kan aangepast worden." },
-        { "nl": "Alles moet vóór vrijdag geregeld worden.", "en": "Everything has to be arranged before Friday.", "speak": "Alles moet vóór vrijdag geregeld worden." }
+        { "target": "Dit moet vandaag afgemaakt worden.", "en": "This has to be finished today.", "speak": "Dit moet vandaag afgemaakt worden." },
+        { "target": "De kamer kan nog geverfd worden.", "en": "The room can still be painted.", "speak": "De kamer kan nog geverfd worden." },
+        { "target": "Het formulier moet ondertekend worden.", "en": "The form has to be signed.", "speak": "Het formulier moet ondertekend worden." },
+        { "target": "Deze fout mag niet gemaakt worden.", "en": "This mistake must not be made.", "speak": "Deze fout mag niet gemaakt worden." },
+        { "target": "De planning kan aangepast worden.", "en": "The planning can be adjusted.", "speak": "De planning kan aangepast worden." },
+        { "target": "Alles moet vóór vrijdag geregeld worden.", "en": "Everything has to be arranged before Friday.", "speak": "Alles moet vóór vrijdag geregeld worden." }
       ]
     },
     {
@@ -72,14 +72,14 @@
       "type": "dialogue",
       "scene": "Friday, 4pm. Emma runs through what still has to happen before the weekend.",
       "lines": [
-        { "speaker": "Emma", "nl": "Oké, even de lijst. Wat moet er nog gedaan worden?", "en": "Okay, the list. What still needs doing?", "spotlight": "Onpersoonlijk: *wat moet er gedaan worden*." },
-        { "speaker": "You", "nl": "De nieuwsbrief, toch?", "en": "The newsletter, right?" },
-        { "speaker": "Emma", "nl": "Ja, die moet nog verstuurd worden. En het rapport moet ondertekend worden.", "en": "Yes, that still has to be sent. And the report has to be signed." },
-        { "speaker": "You", "nl": "Kan het rapport niet maandag?", "en": "Can't the report wait till Monday?" },
-        { "speaker": "Emma", "nl": "Nee joh, het moet vandaag ingeleverd worden.", "en": "No way, it has to be handed in today." },
-        { "speaker": "You", "nl": "En de website?", "en": "And the website?" },
-        { "speaker": "Emma", "nl": "Die kan volgende week gelanceerd worden. Geen haast.", "en": "That can be launched next week. No rush." },
-        { "speaker": "You", "nl": "Dan doen we eerst de nieuwsbrief, zodat die de deur uit is.", "en": "Then we'll do the newsletter first, so it's out the door.", "spotlight": "Bijzin met *zodat* — werkwoord achteraan." }
+        { "speaker": "Emma", "target": "Oké, even de lijst. Wat moet er nog gedaan worden?", "en": "Okay, the list. What still needs doing?", "spotlight": "Onpersoonlijk: *wat moet er gedaan worden*." },
+        { "speaker": "You", "target": "De nieuwsbrief, toch?", "en": "The newsletter, right?" },
+        { "speaker": "Emma", "target": "Ja, die moet nog verstuurd worden. En het rapport moet ondertekend worden.", "en": "Yes, that still has to be sent. And the report has to be signed." },
+        { "speaker": "You", "target": "Kan het rapport niet maandag?", "en": "Can't the report wait till Monday?" },
+        { "speaker": "Emma", "target": "Nee joh, het moet vandaag ingeleverd worden.", "en": "No way, it has to be handed in today." },
+        { "speaker": "You", "target": "En de website?", "en": "And the website?" },
+        { "speaker": "Emma", "target": "Die kan volgende week gelanceerd worden. Geen haast.", "en": "That can be launched next week. No rush." },
+        { "speaker": "You", "target": "Dan doen we eerst de nieuwsbrief, zodat die de deur uit is.", "en": "Then we'll do the newsletter first, so it's out the door.", "spotlight": "Bijzin met *zodat* — werkwoord achteraan." }
       ]
     },
     {

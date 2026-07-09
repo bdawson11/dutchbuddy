@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-39",
   "day": 39,
   "module": "M06",
@@ -31,10 +31,10 @@
       "type": "chips",
       "title": "Cómo te sientes",
       "items": [
-        { "nl": "estoy contento/a", "en": "I'm happy", "speak": "estoy contento" },
-        { "nl": "estoy nervioso/a", "en": "I'm nervous", "speak": "estoy nervioso" },
-        { "nl": "estoy agobiado/a", "en": "I'm overwhelmed", "speak": "estoy agobiado" },
-        { "nl": "estoy harto/a", "en": "I'm fed up", "speak": "estoy harto" }
+        { "target": "estoy contento/a", "en": "I'm happy", "speak": "estoy contento" },
+        { "target": "estoy nervioso/a", "en": "I'm nervous", "speak": "estoy nervioso" },
+        { "target": "estoy agobiado/a", "en": "I'm overwhelmed", "speak": "estoy agobiado" },
+        { "target": "estoy harto/a", "en": "I'm fed up", "speak": "estoy harto" }
       ]
     },
     {
@@ -81,12 +81,12 @@
       "type": "dialogue",
       "scene": "At the bar, Rafa notices Lucía seems distracted and mentions Sofía's been acting a bit off too.",
       "lines": [
-        { "speaker": "Rafa", "nl": "Oye, ¿estás bien? Te noto rara hoy.", "en": "Hey, are you okay? You seem off today." },
-        { "speaker": "Lucía", "nl": "Un poco agobiada, la verdad. Con el trabajo y tal.", "en": "A bit overwhelmed, honestly. With work and everything." },
-        { "speaker": "Rafa", "nl": "Ya somos dos. Y Sofía anda un poco rara también, ¿no?", "en": "Same here. And Sofía's been a bit off too, hasn't she?", "spotlight": "foreshadow — sets up day 41's rough-week reveal." },
-        { "speaker": "Lucía", "nl": "Sí, la he notado nerviosa esta semana. No sé qué le pasa.", "en": "Yeah, I've noticed she's been nervous this week. I don't know what's up with her." },
-        { "speaker": "You", "nl": "A lo mejor solo está cansada. ¿Habéis quedado con ella?", "en": "Maybe she's just tired. Have you guys met up with her?", "spotlight": "vosotros: habéis quedado — plural informal 'you (all)'." },
-        { "speaker": "Rafa", "nl": "Vale, la llamamos este finde a ver qué tal está.", "en": "Okay, we'll call her this weekend to see how she's doing." }
+        { "speaker": "Rafa", "target": "Oye, ¿estás bien? Te noto rara hoy.", "en": "Hey, are you okay? You seem off today." },
+        { "speaker": "Lucía", "target": "Un poco agobiada, la verdad. Con el trabajo y tal.", "en": "A bit overwhelmed, honestly. With work and everything." },
+        { "speaker": "Rafa", "target": "Ya somos dos. Y Sofía anda un poco rara también, ¿no?", "en": "Same here. And Sofía's been a bit off too, hasn't she?", "spotlight": "foreshadow — sets up day 41's rough-week reveal." },
+        { "speaker": "Lucía", "target": "Sí, la he notado nerviosa esta semana. No sé qué le pasa.", "en": "Yeah, I've noticed she's been nervous this week. I don't know what's up with her." },
+        { "speaker": "You", "target": "A lo mejor solo está cansada. ¿Habéis quedado con ella?", "en": "Maybe she's just tired. Have you guys met up with her?", "spotlight": "vosotros: habéis quedado — plural informal 'you (all)'." },
+        { "speaker": "Rafa", "target": "Vale, la llamamos este finde a ver qué tal está.", "en": "Okay, we'll call her this weekend to see how she's doing." }
       ]
     },
     {

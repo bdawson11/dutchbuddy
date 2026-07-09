@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-31",
   "day": 31,
   "module": "M05",
@@ -51,14 +51,14 @@
       "type": "chips",
       "title": "Tik om te horen",
       "items": [
-        { "nl": "gedaan", "en": "done", "speak": "gedaan" },
-        { "nl": "gehad", "en": "had", "speak": "gehad" },
-        { "nl": "gezien", "en": "seen", "speak": "gezien" },
-        { "nl": "gegeten", "en": "eaten", "speak": "gegeten" },
-        { "nl": "gedronken", "en": "drunk", "speak": "gedronken" },
-        { "nl": "gekocht", "en": "bought", "speak": "gekocht" },
-        { "nl": "gelezen", "en": "read", "speak": "gelezen" },
-        { "nl": "geschreven", "en": "written", "speak": "geschreven" }
+        { "target": "gedaan", "en": "done", "speak": "gedaan" },
+        { "target": "gehad", "en": "had", "speak": "gehad" },
+        { "target": "gezien", "en": "seen", "speak": "gezien" },
+        { "target": "gegeten", "en": "eaten", "speak": "gegeten" },
+        { "target": "gedronken", "en": "drunk", "speak": "gedronken" },
+        { "target": "gekocht", "en": "bought", "speak": "gekocht" },
+        { "target": "gelezen", "en": "read", "speak": "gelezen" },
+        { "target": "geschreven", "en": "written", "speak": "geschreven" }
       ]
     },
     {
@@ -100,11 +100,11 @@
       "type": "dialogue",
       "scene": "At the café, Daan is as nosy as ever.",
       "lines": [
-        { "speaker": "Daan", "nl": "Joh, wat heb je gisteravond gedaan?", "en": "Hey, what did you do last night?" },
-        { "speaker": "You", "nl": "Ik heb een boek gelezen en thee gedronken.", "en": "I read a book and drank tea." },
-        { "speaker": "Daan", "nl": "Saai! Ik ben naar een concert geweest.", "en": "Boring! I went to a concert.", "spotlight": "*geweest* takes *zijn*: ik ben geweest." },
-        { "speaker": "You", "nl": "Echt? Wat heb je gezien?", "en": "Really? What did you see?" },
-        { "speaker": "Daan", "nl": "Een geweldige band. Ik heb zelfs een shirt gekocht, hoor.", "en": "An amazing band. I even bought a shirt." }
+        { "speaker": "Daan", "target": "Joh, wat heb je gisteravond gedaan?", "en": "Hey, what did you do last night?" },
+        { "speaker": "You", "target": "Ik heb een boek gelezen en thee gedronken.", "en": "I read a book and drank tea." },
+        { "speaker": "Daan", "target": "Saai! Ik ben naar een concert geweest.", "en": "Boring! I went to a concert.", "spotlight": "*geweest* takes *zijn*: ik ben geweest." },
+        { "speaker": "You", "target": "Echt? Wat heb je gezien?", "en": "Really? What did you see?" },
+        { "speaker": "Daan", "target": "Een geweldige band. Ik heb zelfs een shirt gekocht, hoor.", "en": "An amazing band. I even bought a shirt." }
       ]
     },
     {

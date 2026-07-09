@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-69",
   "day": 69,
   "module": "M10",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Umzugs-Vokabular — tap to hear",
       "items": [
-        { "nl": "der Umzug", "en": "the move", "speak": "der Umzug" },
-        { "nl": "der Umzugswagen", "en": "the moving van", "speak": "der Umzugswagen" },
-        { "nl": "die Kiste", "en": "the box", "speak": "die Kiste" },
-        { "nl": "packen / einpacken", "en": "to pack", "speak": "packen, einpacken" },
-        { "nl": "tragen", "en": "to carry", "speak": "tragen" },
-        { "nl": "einziehen / ausziehen", "en": "to move in / move out", "speak": "einziehen, ausziehen" }
+        { "target": "der Umzug", "en": "the move", "speak": "der Umzug" },
+        { "target": "der Umzugswagen", "en": "the moving van", "speak": "der Umzugswagen" },
+        { "target": "die Kiste", "en": "the box", "speak": "die Kiste" },
+        { "target": "packen / einpacken", "en": "to pack", "speak": "packen, einpacken" },
+        { "target": "tragen", "en": "to carry", "speak": "tragen" },
+        { "target": "einziehen / ausziehen", "en": "to move in / move out", "speak": "einziehen, ausziehen" }
       ]
     },
     {
@@ -47,16 +47,16 @@
       "type": "dialogue",
       "scene": "Moving day at Aylin's Berlin flat. Boxes everywhere, the van's downstairs, everyone's carrying, hauling and getting a little emotional.",
       "lines": [
-        { "speaker": "Aylin", "nl": "Ihr seid die Besten. Ohne euch würde ich das nie schaffen.", "en": "You're the best. Without you I'd never manage this.", "spotlight": "*ohne euch* — *ohne* + Akkusativ; *mit euch* would be dative. Watch the pair." },
-        { "speaker": "Jonas", "nl": "Ey, wo soll der ganze Kram hin? Diese Kiste ist mega schwer.", "en": "Man, where's all this stuff supposed to go? This box is super heavy.", "spotlight": "*wo … hin* → movement, wohin." },
-        { "speaker": "Aylin", "nl": "Die schweren Kisten kommen unten in den Wagen. Die Lampe stellst du vorsichtig neben die Tür.", "en": "The heavy boxes go down into the van. The lamp you put carefully next to the door.", "spotlight": "*in den Wagen*, *neben die Tür* — wohin → Akkusativ, both." },
-        { "speaker": "You", "nl": "Und das Bild an der Wand? Nehmen wir das mit?", "en": "And the picture on the wall? Are we taking it?", "spotlight": "*an der Wand* — wo → Dativ (it's still hanging there)." },
-        { "speaker": "Aylin", "nl": "Ja! Nimm es von der Wand und pack es zwischen die Decken.", "en": "Yes! Take it off the wall and pack it between the blankets.", "spotlight": "*von der Wand* (Dativ, *von*) → *zwischen die Decken* (Akkusativ, wohin)." },
-        { "speaker": "Lena", "nl": "So. Der Wagen ist fast voll. Aylin, wie fühlst du dich?", "en": "Right. The van's almost full. Aylin, how do you feel?", "spotlight": "*wie fühlst du dich* — reflexive, the feelings check-in." },
-        { "speaker": "Aylin", "nl": "Ehrlich? Ich freue mich und ich weine gleichzeitig. München, ich komme.", "en": "Honestly? I'm happy and crying at the same time. Munich, here I come.", "spotlight": "*ich freue mich* — the decision is made; she's moving." },
-        { "speaker": "Jonas", "nl": "Wir besuchen dich, sobald du dich eingerichtet hast. Versprochen.", "en": "We'll visit you as soon as you've settled in. Promise.", "spotlight": "*sobald du dich eingerichtet hast* — subclause, reflexive verb at the end." },
-        { "speaker": "You", "nl": "Fahr vorsichtig. Und schreib, wenn du in München angekommen bist.", "en": "Drive safely. And text when you've arrived in Munich." },
-        { "speaker": "Aylin", "nl": "Mach ich. Danke euch — für alles.", "en": "I will. Thank you all — for everything.", "spotlight": "*Danke euch* — *danken* + Dativ." }
+        { "speaker": "Aylin", "target": "Ihr seid die Besten. Ohne euch würde ich das nie schaffen.", "en": "You're the best. Without you I'd never manage this.", "spotlight": "*ohne euch* — *ohne* + Akkusativ; *mit euch* would be dative. Watch the pair." },
+        { "speaker": "Jonas", "target": "Ey, wo soll der ganze Kram hin? Diese Kiste ist mega schwer.", "en": "Man, where's all this stuff supposed to go? This box is super heavy.", "spotlight": "*wo … hin* → movement, wohin." },
+        { "speaker": "Aylin", "target": "Die schweren Kisten kommen unten in den Wagen. Die Lampe stellst du vorsichtig neben die Tür.", "en": "The heavy boxes go down into the van. The lamp you put carefully next to the door.", "spotlight": "*in den Wagen*, *neben die Tür* — wohin → Akkusativ, both." },
+        { "speaker": "You", "target": "Und das Bild an der Wand? Nehmen wir das mit?", "en": "And the picture on the wall? Are we taking it?", "spotlight": "*an der Wand* — wo → Dativ (it's still hanging there)." },
+        { "speaker": "Aylin", "target": "Ja! Nimm es von der Wand und pack es zwischen die Decken.", "en": "Yes! Take it off the wall and pack it between the blankets.", "spotlight": "*von der Wand* (Dativ, *von*) → *zwischen die Decken* (Akkusativ, wohin)." },
+        { "speaker": "Lena", "target": "So. Der Wagen ist fast voll. Aylin, wie fühlst du dich?", "en": "Right. The van's almost full. Aylin, how do you feel?", "spotlight": "*wie fühlst du dich* — reflexive, the feelings check-in." },
+        { "speaker": "Aylin", "target": "Ehrlich? Ich freue mich und ich weine gleichzeitig. München, ich komme.", "en": "Honestly? I'm happy and crying at the same time. Munich, here I come.", "spotlight": "*ich freue mich* — the decision is made; she's moving." },
+        { "speaker": "Jonas", "target": "Wir besuchen dich, sobald du dich eingerichtet hast. Versprochen.", "en": "We'll visit you as soon as you've settled in. Promise.", "spotlight": "*sobald du dich eingerichtet hast* — subclause, reflexive verb at the end." },
+        { "speaker": "You", "target": "Fahr vorsichtig. Und schreib, wenn du in München angekommen bist.", "en": "Drive safely. And text when you've arrived in Munich." },
+        { "speaker": "Aylin", "target": "Mach ich. Danke euch — für alles.", "en": "I will. Thank you all — for everything.", "spotlight": "*Danke euch* — *danken* + Dativ." }
       ]
     },
     {

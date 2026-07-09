@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-24",
   "day": 24,
   "module": "M04",
@@ -31,11 +31,11 @@
       "type": "chips",
       "title": "Tap to hear each modal",
       "items": [
-        { "nl": "ich kann", "en": "I can", "speak": "ich kann" },
-        { "nl": "ich will", "en": "I want to", "speak": "ich will" },
-        { "nl": "ich muss", "en": "I have to", "speak": "ich muss" },
-        { "nl": "ich darf", "en": "I'm allowed to", "speak": "ich darf" },
-        { "nl": "ich möchte", "en": "I would like to", "speak": "ich möchte" }
+        { "target": "ich kann", "en": "I can", "speak": "ich kann" },
+        { "target": "ich will", "en": "I want to", "speak": "ich will" },
+        { "target": "ich muss", "en": "I have to", "speak": "ich muss" },
+        { "target": "ich darf", "en": "I'm allowed to", "speak": "ich darf" },
+        { "target": "ich möchte", "en": "I would like to", "speak": "ich möchte" }
       ]
     },
     {
@@ -80,9 +80,9 @@
       "type": "shadow",
       "title": "Repeat: Modalverben im Satz",
       "lines": [
-        { "nl": "Ich kann gut kochen.", "en": "I can cook well." },
-        { "nl": "Ich muss noch einkaufen.", "en": "I still have to go shopping." },
-        { "nl": "Darf ich das Fenster öffnen?", "en": "May I open the window?" }
+        { "target": "Ich kann gut kochen.", "en": "I can cook well." },
+        { "target": "Ich muss noch einkaufen.", "en": "I still have to go shopping." },
+        { "target": "Darf ich das Fenster öffnen?", "en": "May I open the window?" }
       ]
     },
     {

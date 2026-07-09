@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-56",
   "day": 56,
   "module": "M08",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Ripasso veloce",
       "items": [
-        { "nl": "Domani sarò a casa presto.", "en": "Tomorrow I'll be home early.", "speak": "Domani sarò a casa presto." },
-        { "nl": "Ho intenzione di leggere di più.", "en": "I intend to read more.", "speak": "Ho intenzione di leggere di più." },
-        { "nl": "Penso che sia una buona idea.", "en": "I think it's a good idea.", "speak": "Penso che sia una buona idea." },
-        { "nl": "Quando avrò tempo, ti chiamerò.", "en": "When I have time, I'll call you.", "speak": "Quando avrò tempo, ti chiamerò." },
-        { "nl": "Questo caffè è migliore di quello.", "en": "This coffee is better than that one.", "speak": "Questo caffè è migliore di quello." }
+        { "target": "Domani sarò a casa presto.", "en": "Tomorrow I'll be home early.", "speak": "Domani sarò a casa presto." },
+        { "target": "Ho intenzione di leggere di più.", "en": "I intend to read more.", "speak": "Ho intenzione di leggere di più." },
+        { "target": "Penso che sia una buona idea.", "en": "I think it's a good idea.", "speak": "Penso che sia una buona idea." },
+        { "target": "Quando avrò tempo, ti chiamerò.", "en": "When I have time, I'll call you.", "speak": "Quando avrò tempo, ti chiamerò." },
+        { "target": "Questo caffè è migliore di quello.", "en": "This coffee is better than that one.", "speak": "Questo caffè è migliore di quello." }
       ]
     },
     {
@@ -66,14 +66,14 @@
       "type": "dialogue",
       "scene": "Sofia asks about your plans for next year, over a coffee.",
       "lines": [
-        { "speaker": "Sofia", "nl": "Allora, cosa farai il prossimo anno?", "en": "So, what will you do next year?" },
-        { "speaker": "You", "nl": "Penso di continuare a studiare l'italiano, e ho intenzione di viaggiare di più.", "en": "I'm thinking of continuing to study Italian, and I intend to travel more.", "spotlight": "pensare di and avere intenzione di, side by side — both take the infinitive." },
-        { "speaker": "Sofia", "nl": "Che bello! Secondo te, dove andrai?", "en": "How lovely! Where do you think you'll go?" },
-        { "speaker": "You", "nl": "Forse andrò in Sicilia, se avrò abbastanza ferie.", "en": "Maybe I'll go to Sicily, if I have enough vacation days.", "spotlight": "se + futuro, futuro — a real future condition, straight from this week." },
-        { "speaker": "Sofia", "nl": "Penso che sia un'ottima idea. La Sicilia è bellissima.", "en": "I think it's a great idea. Sicily is gorgeous." },
-        { "speaker": "You", "nl": "E tu? Hai progetti per il prossimo anno?", "en": "And you? Do you have plans for next year?" },
-        { "speaker": "Sofia", "nl": "Boh, non lo so ancora. Voglio solo migliorare nel mio lavoro.", "en": "Not sure yet. I just want to improve at my job." },
-        { "speaker": "You", "nl": "Ti auguro il meglio!", "en": "I wish you the best!" }
+        { "speaker": "Sofia", "target": "Allora, cosa farai il prossimo anno?", "en": "So, what will you do next year?" },
+        { "speaker": "You", "target": "Penso di continuare a studiare l'italiano, e ho intenzione di viaggiare di più.", "en": "I'm thinking of continuing to study Italian, and I intend to travel more.", "spotlight": "pensare di and avere intenzione di, side by side — both take the infinitive." },
+        { "speaker": "Sofia", "target": "Che bello! Secondo te, dove andrai?", "en": "How lovely! Where do you think you'll go?" },
+        { "speaker": "You", "target": "Forse andrò in Sicilia, se avrò abbastanza ferie.", "en": "Maybe I'll go to Sicily, if I have enough vacation days.", "spotlight": "se + futuro, futuro — a real future condition, straight from this week." },
+        { "speaker": "Sofia", "target": "Penso che sia un'ottima idea. La Sicilia è bellissima.", "en": "I think it's a great idea. Sicily is gorgeous." },
+        { "speaker": "You", "target": "E tu? Hai progetti per il prossimo anno?", "en": "And you? Do you have plans for next year?" },
+        { "speaker": "Sofia", "target": "Boh, non lo so ancora. Voglio solo migliorare nel mio lavoro.", "en": "Not sure yet. I just want to improve at my job." },
+        { "speaker": "You", "target": "Ti auguro il meglio!", "en": "I wish you the best!" }
       ]
     },
     {

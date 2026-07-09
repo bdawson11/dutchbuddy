@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-04",
   "day": 4,
   "module": "M01",
@@ -34,13 +34,13 @@
       "type": "chips",
       "title": "Tap to hear the pronouns",
       "items": [
-        { "nl": "ik", "en": "I", "speak": "ik" },
-        { "nl": "jij", "en": "you (casual)", "speak": "jij" },
-        { "nl": "u", "en": "you (polite)", "speak": "u" },
-        { "nl": "hij", "en": "he", "speak": "hij" },
-        { "nl": "zij", "en": "she / they", "speak": "zij" },
-        { "nl": "wij", "en": "we", "speak": "wij" },
-        { "nl": "jullie", "en": "you all", "speak": "jullie" }
+        { "target": "ik", "en": "I", "speak": "ik" },
+        { "target": "jij", "en": "you (casual)", "speak": "jij" },
+        { "target": "u", "en": "you (polite)", "speak": "u" },
+        { "target": "hij", "en": "he", "speak": "hij" },
+        { "target": "zij", "en": "she / they", "speak": "zij" },
+        { "target": "wij", "en": "we", "speak": "wij" },
+        { "target": "jullie", "en": "you all", "speak": "jullie" }
       ]
     },
     {
@@ -100,10 +100,10 @@
       "type": "dialogue",
       "scene": "A borrel at Emma's. She introduces you to the room.",
       "lines": [
-        { "speaker": "Emma", "nl": "Iedereen, dit is mijn vriend. Hij leert Nederlands!", "en": "Everyone, this is my friend. He's learning Dutch!", "spotlight": "*dit is* = this is — *is*, the hij/zij/het form of zijn." },
-        { "speaker": "You", "nl": "Hoi, ik ben nieuw hier.", "en": "Hi, I'm new here.", "spotlight": "*ik ben* — the form you drilled." },
-        { "speaker": "Emma", "nl": "Wij zijn allemaal aardig, hoor.", "en": "We're all nice, honestly." },
-        { "speaker": "You", "nl": "Dat is fijn!", "en": "That's good!" }
+        { "speaker": "Emma", "target": "Iedereen, dit is mijn vriend. Hij leert Nederlands!", "en": "Everyone, this is my friend. He's learning Dutch!", "spotlight": "*dit is* = this is — *is*, the hij/zij/het form of zijn." },
+        { "speaker": "You", "target": "Hoi, ik ben nieuw hier.", "en": "Hi, I'm new here.", "spotlight": "*ik ben* — the form you drilled." },
+        { "speaker": "Emma", "target": "Wij zijn allemaal aardig, hoor.", "en": "We're all nice, honestly." },
+        { "speaker": "You", "target": "Dat is fijn!", "en": "That's good!" }
       ]
     },
     {

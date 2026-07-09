@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-54",
   "day": 54,
   "module": "M08",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "Confronti — tap to hear",
       "items": [
-        { "nl": "Il vino è più caro della birra.", "en": "Wine is more expensive than beer.", "speak": "Il vino è più caro della birra." },
-        { "nl": "Questo zaino è meno pesante di quello.", "en": "This backpack is lighter than that one.", "speak": "Questo zaino è meno pesante di quello." },
-        { "nl": "Sofia è più giovane di Pietro.", "en": "Sofia is younger than Pietro.", "speak": "Sofia è più giovane di Pietro." },
-        { "nl": "Questo libro è meno interessante di quello.", "en": "This book is less interesting than that one.", "speak": "Questo libro è meno interessante di quello." }
+        { "target": "Il vino è più caro della birra.", "en": "Wine is more expensive than beer.", "speak": "Il vino è più caro della birra." },
+        { "target": "Questo zaino è meno pesante di quello.", "en": "This backpack is lighter than that one.", "speak": "Questo zaino è meno pesante di quello." },
+        { "target": "Sofia è più giovane di Pietro.", "en": "Sofia is younger than Pietro.", "speak": "Sofia è più giovane di Pietro." },
+        { "target": "Questo libro è meno interessante di quello.", "en": "This book is less interesting than that one.", "speak": "Questo libro è meno interessante di quello." }
       ]
     },
     {
@@ -83,12 +83,12 @@
       "type": "dialogue",
       "scene": "Giulia and Marco argue, warmly, about which neighborhood bar makes the better coffee.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Secondo me il bar di Via Mazzini è il migliore del quartiere.", "en": "In my opinion, the bar on Via Mazzini is the best in the neighborhood.", "spotlight": "il migliore — the superlative of buono, with the article." },
-        { "speaker": "Marco", "nl": "Ma dai, il caffè lì è più forte del solito, non è migliore!", "en": "Come on, the coffee there is stronger than usual, that doesn't make it better!" },
-        { "speaker": "Giulia", "nl": "Forte non vuol dire peggiore, Marco.", "en": "Strong doesn't mean worse, Marco." },
-        { "speaker": "Marco", "nl": "Boh, per me quello vicino a casa mia è meno caro e altrettanto buono.", "en": "Eh, to me the one near my place is less expensive and just as good." },
-        { "speaker": "Giulia", "nl": "Vabbè, sei di parte perché ci abiti vicino!", "en": "Well, you're biased because you live nearby!" },
-        { "speaker": "Marco", "nl": "Eh, forse hai ragione.", "en": "Eh, maybe you're right." }
+        { "speaker": "Giulia", "target": "Secondo me il bar di Via Mazzini è il migliore del quartiere.", "en": "In my opinion, the bar on Via Mazzini is the best in the neighborhood.", "spotlight": "il migliore — the superlative of buono, with the article." },
+        { "speaker": "Marco", "target": "Ma dai, il caffè lì è più forte del solito, non è migliore!", "en": "Come on, the coffee there is stronger than usual, that doesn't make it better!" },
+        { "speaker": "Giulia", "target": "Forte non vuol dire peggiore, Marco.", "en": "Strong doesn't mean worse, Marco." },
+        { "speaker": "Marco", "target": "Boh, per me quello vicino a casa mia è meno caro e altrettanto buono.", "en": "Eh, to me the one near my place is less expensive and just as good." },
+        { "speaker": "Giulia", "target": "Vabbè, sei di parte perché ci abiti vicino!", "en": "Well, you're biased because you live nearby!" },
+        { "speaker": "Marco", "target": "Eh, forse hai ragione.", "en": "Eh, maybe you're right." }
       ]
     },
     {

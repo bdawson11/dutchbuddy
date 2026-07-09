@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-45",
   "day": 45,
   "module": "M07",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "De basisschooltijd",
       "items": [
-        { "nl": "de basisschool", "en": "primary school", "speak": "de basisschool" },
-        { "nl": "de juf", "en": "the (female) teacher", "speak": "de juf" },
-        { "nl": "de meester", "en": "the (male) teacher", "speak": "de meester" },
-        { "nl": "het schoolplein", "en": "the schoolyard", "speak": "het schoolplein" },
-        { "nl": "buiten spelen", "en": "to play outside", "speak": "buiten spelen" },
-        { "nl": "mijn vriendjes", "en": "my little friends", "speak": "mijn vriendjes" }
+        { "target": "de basisschool", "en": "primary school", "speak": "de basisschool" },
+        { "target": "de juf", "en": "the (female) teacher", "speak": "de juf" },
+        { "target": "de meester", "en": "the (male) teacher", "speak": "de meester" },
+        { "target": "het schoolplein", "en": "the schoolyard", "speak": "het schoolplein" },
+        { "target": "buiten spelen", "en": "to play outside", "speak": "buiten spelen" },
+        { "target": "mijn vriendjes", "en": "my little friends", "speak": "mijn vriendjes" }
       ]
     },
     {
@@ -78,10 +78,10 @@
       "type": "shadow",
       "title": "Herinneringen nazeggen",
       "lines": [
-        { "nl": "Toen ik klein was, woonde ik in een dorp.", "en": "When I was little, I lived in a village." },
-        { "nl": "Ik ging elke dag met de fiets naar school.", "en": "I went to school by bike every day." },
-        { "nl": "De juf was heel aardig.", "en": "The teacher was very kind." },
-        { "nl": "We speelden op het schoolplein.", "en": "We played in the schoolyard." }
+        { "target": "Toen ik klein was, woonde ik in een dorp.", "en": "When I was little, I lived in a village." },
+        { "target": "Ik ging elke dag met de fiets naar school.", "en": "I went to school by bike every day." },
+        { "target": "De juf was heel aardig.", "en": "The teacher was very kind." },
+        { "target": "We speelden op het schoolplein.", "en": "We played in the schoolyard." }
       ]
     },
     {

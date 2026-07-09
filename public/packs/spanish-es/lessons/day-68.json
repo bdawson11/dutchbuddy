@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-68",
   "day": 68,
   "module": "M10",
@@ -42,12 +42,12 @@
       "type": "chips",
       "title": "Toca para oír los conectores",
       "items": [
-        { "nl": "Está lejos; sin embargo, va.", "en": "It's far; however, she's going.", "speak": "está lejos, sin embargo, va" },
-        { "nl": "Llueve, así que nos quedamos.", "en": "It's raining, so we're staying.", "speak": "llueve, así que nos quedamos" },
-        { "nl": "Aunque es difícil, lo hace.", "en": "Although it's hard, she does it.", "speak": "aunque es difícil, lo hace" },
-        { "nl": "Por eso se muda.", "en": "That's why she's moving.", "speak": "por eso se muda" },
-        { "nl": "Además, gana más.", "en": "Besides, she earns more.", "speak": "además, gana más" },
-        { "nl": "Es que no tengo tiempo.", "en": "The thing is, I don't have time.", "speak": "es que no tengo tiempo" }
+        { "target": "Está lejos; sin embargo, va.", "en": "It's far; however, she's going.", "speak": "está lejos, sin embargo, va" },
+        { "target": "Llueve, así que nos quedamos.", "en": "It's raining, so we're staying.", "speak": "llueve, así que nos quedamos" },
+        { "target": "Aunque es difícil, lo hace.", "en": "Although it's hard, she does it.", "speak": "aunque es difícil, lo hace" },
+        { "target": "Por eso se muda.", "en": "That's why she's moving.", "speak": "por eso se muda" },
+        { "target": "Además, gana más.", "en": "Besides, she earns more.", "speak": "además, gana más" },
+        { "target": "Es que no tengo tiempo.", "en": "The thing is, I don't have time.", "speak": "es que no tengo tiempo" }
       ]
     },
     {
@@ -85,13 +85,13 @@
       "type": "dialogue",
       "scene": "Lucía y tú sopesáis los pros y los contras de la decisión de Sofía (aún sin cerrar).",
       "lines": [
-        { "speaker": "Lucía", "nl": "A ver, el trabajo es una pasada; sin embargo, se va sola.", "en": "Look, the job is amazing; however, she's going alone." },
-        { "speaker": "You", "nl": "Ya, aunque en Valencia tiene a su prima, ¿no?", "en": "Right, although she's got her cousin in Valencia, no?" },
-        { "speaker": "Lucía", "nl": "Es verdad. Además, la ciudad le encanta.", "en": "True. Besides, she loves the city." },
-        { "speaker": "You", "nl": "Entonces, ¿tú qué crees que va a hacer?", "en": "So, what do you think she's going to do?" },
-        { "speaker": "Lucía", "nl": "Yo creo que acepta. Es una oportunidad enorme, así que…", "en": "I think she'll accept. It's a huge opportunity, so…", "spotlight": "así que introduces the consequence." },
-        { "speaker": "You", "nl": "Sí. Aunque le dé pena, es lo mejor para ella.", "en": "Yeah. Even if it makes her sad, it's the best thing for her.", "spotlight": "aunque le dé pena — subjunctive: conceding the hypothetical." },
-        { "speaker": "Lucía", "nl": "Exacto. Por eso deberíamos apoyarla, no darle pena.", "en": "Exactly. That's why we should support her, not make her feel bad." }
+        { "speaker": "Lucía", "target": "A ver, el trabajo es una pasada; sin embargo, se va sola.", "en": "Look, the job is amazing; however, she's going alone." },
+        { "speaker": "You", "target": "Ya, aunque en Valencia tiene a su prima, ¿no?", "en": "Right, although she's got her cousin in Valencia, no?" },
+        { "speaker": "Lucía", "target": "Es verdad. Además, la ciudad le encanta.", "en": "True. Besides, she loves the city." },
+        { "speaker": "You", "target": "Entonces, ¿tú qué crees que va a hacer?", "en": "So, what do you think she's going to do?" },
+        { "speaker": "Lucía", "target": "Yo creo que acepta. Es una oportunidad enorme, así que…", "en": "I think she'll accept. It's a huge opportunity, so…", "spotlight": "así que introduces the consequence." },
+        { "speaker": "You", "target": "Sí. Aunque le dé pena, es lo mejor para ella.", "en": "Yeah. Even if it makes her sad, it's the best thing for her.", "spotlight": "aunque le dé pena — subjunctive: conceding the hypothetical." },
+        { "speaker": "Lucía", "target": "Exacto. Por eso deberíamos apoyarla, no darle pena.", "en": "Exactly. That's why we should support her, not make her feel bad." }
       ]
     },
     {

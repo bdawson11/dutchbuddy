@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-29",
   "day": 29,
   "module": "M05",
@@ -43,14 +43,14 @@
       "type": "chips",
       "title": "De deelwoorden — tik om te horen",
       "items": [
-        { "nl": "gewerkt", "en": "worked", "speak": "gewerkt" },
-        { "nl": "gemaakt", "en": "made", "speak": "gemaakt" },
-        { "nl": "gehoord", "en": "heard", "speak": "gehoord" },
-        { "nl": "gespeeld", "en": "played", "speak": "gespeeld" },
-        { "nl": "gewoond", "en": "lived", "speak": "gewoond" },
-        { "nl": "gefietst", "en": "cycled", "speak": "gefietst" },
-        { "nl": "gekookt", "en": "cooked", "speak": "gekookt" },
-        { "nl": "gepraat", "en": "talked", "speak": "gepraat" }
+        { "target": "gewerkt", "en": "worked", "speak": "gewerkt" },
+        { "target": "gemaakt", "en": "made", "speak": "gemaakt" },
+        { "target": "gehoord", "en": "heard", "speak": "gehoord" },
+        { "target": "gespeeld", "en": "played", "speak": "gespeeld" },
+        { "target": "gewoond", "en": "lived", "speak": "gewoond" },
+        { "target": "gefietst", "en": "cycled", "speak": "gefietst" },
+        { "target": "gekookt", "en": "cooked", "speak": "gekookt" },
+        { "target": "gepraat", "en": "talked", "speak": "gepraat" }
       ]
     },
     {

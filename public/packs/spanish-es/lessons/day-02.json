@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-02",
   "day": 2,
   "module": "M01",
@@ -29,11 +29,11 @@
       "type": "chips",
       "title": "Tap to hear the 'th' — distinción",
       "items": [
-        { "nl": "cinco", "en": "five", "speak": "cinco" },
-        { "nl": "gracias", "en": "thank you", "speak": "gracias" },
-        { "nl": "plaza", "en": "square", "speak": "plaza" },
-        { "nl": "zapato", "en": "shoe", "speak": "zapato" },
-        { "nl": "cerveza", "en": "beer", "speak": "cerveza" }
+        { "target": "cinco", "en": "five", "speak": "cinco" },
+        { "target": "gracias", "en": "thank you", "speak": "gracias" },
+        { "target": "plaza", "en": "square", "speak": "plaza" },
+        { "target": "zapato", "en": "shoe", "speak": "zapato" },
+        { "target": "cerveza", "en": "beer", "speak": "cerveza" }
       ]
     },
     {
@@ -53,9 +53,9 @@
       "type": "shadow",
       "title": "Shadow the jota",
       "lines": [
-        { "nl": "jamón", "en": "ham" },
-        { "nl": "Juan", "en": "Juan (a name)" },
-        { "nl": "gente", "en": "people" }
+        { "target": "jamón", "en": "ham" },
+        { "target": "Juan", "en": "Juan (a name)" },
+        { "target": "gente", "en": "people" }
       ]
     },
     {
@@ -75,10 +75,10 @@
       "type": "shadow",
       "title": "ñ, ll, rr",
       "lines": [
-        { "nl": "España", "en": "Spain" },
-        { "nl": "calle", "en": "street" },
-        { "nl": "perro", "en": "dog (rolled rr)" },
-        { "nl": "pero", "en": "but (soft tap)" }
+        { "target": "España", "en": "Spain" },
+        { "target": "calle", "en": "street" },
+        { "target": "perro", "en": "dog (rolled rr)" },
+        { "target": "pero", "en": "but (soft tap)" }
       ]
     },
     {

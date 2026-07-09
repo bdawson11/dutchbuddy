@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-07",
   "day": 7,
   "module": "M01",
@@ -21,22 +21,22 @@
       "type": "chips",
       "title": "Quick refresh — tap to hear",
       "items": [
-        { "nl": "Guten Morgen", "en": "good morning", "speak": "Guten Morgen" },
-        { "nl": "Ich bin…", "en": "I am…", "speak": "Ich bin" },
-        { "nl": "Ich habe…", "en": "I have…", "speak": "Ich habe" },
-        { "nl": "kein / nicht", "en": "no / not", "speak": "kein, nicht" },
-        { "nl": "der Tisch", "en": "the table", "speak": "der Tisch" },
-        { "nl": "Tschüss", "en": "bye", "speak": "Tschüss" }
+        { "target": "Guten Morgen", "en": "good morning", "speak": "Guten Morgen" },
+        { "target": "Ich bin…", "en": "I am…", "speak": "Ich bin" },
+        { "target": "Ich habe…", "en": "I have…", "speak": "Ich habe" },
+        { "target": "kein / nicht", "en": "no / not", "speak": "kein, nicht" },
+        { "target": "der Tisch", "en": "the table", "speak": "der Tisch" },
+        { "target": "Tschüss", "en": "bye", "speak": "Tschüss" }
       ]
     },
     {
       "type": "shadow",
       "title": "Warm up: shadow the week",
       "lines": [
-        { "nl": "Ich bin aus Toronto.", "en": "I'm from Toronto." },
-        { "nl": "Ich habe keine Zeit.", "en": "I have no time." },
-        { "nl": "Guten Morgen! Zwei Brötchen, bitte.", "en": "Good morning! Two rolls, please." },
-        { "nl": "Ich lerne Deutsch.", "en": "I'm learning German." }
+        { "target": "Ich bin aus Toronto.", "en": "I'm from Toronto." },
+        { "target": "Ich habe keine Zeit.", "en": "I have no time." },
+        { "target": "Guten Morgen! Zwei Brötchen, bitte.", "en": "Good morning! Two rolls, please." },
+        { "target": "Ich lerne Deutsch.", "en": "I'm learning German." }
       ]
     },
     {
@@ -70,12 +70,12 @@
       "type": "dialogue",
       "scene": "Lena sits down next to you at a café and wants to know who this newcomer is.",
       "lines": [
-        { "speaker": "Lena", "nl": "Hallo! Ich bin Lena. Wie heißt du?", "en": "Hi! I'm Lena. What's your name?", "spotlight": "*Wie heißt du?* — \"what are you called?\", the everyday way to ask a name." },
-        { "speaker": "You", "nl": "Hallo Lena. Ich heiße Sam. Ich bin aus Toronto.", "en": "Hi Lena. My name is Sam. I'm from Toronto." },
-        { "speaker": "Lena", "nl": "Schön! Und was machst du hier in Berlin?", "en": "Nice! And what are you doing here in Berlin?" },
-        { "speaker": "You", "nl": "Ich lerne Deutsch. Es ist schwer, aber schön.", "en": "I'm learning German. It's hard, but nice.", "spotlight": "*Ich lerne Deutsch* — your core self-intro line from now on." },
-        { "speaker": "Lena", "nl": "Super! Dein Deutsch ist schon gut, echt.", "en": "Great! Your German is already good, really." },
-        { "speaker": "You", "nl": "Danke schön, Lena!", "en": "Thank you very much, Lena!" }
+        { "speaker": "Lena", "target": "Hallo! Ich bin Lena. Wie heißt du?", "en": "Hi! I'm Lena. What's your name?", "spotlight": "*Wie heißt du?* — \"what are you called?\", the everyday way to ask a name." },
+        { "speaker": "You", "target": "Hallo Lena. Ich heiße Sam. Ich bin aus Toronto.", "en": "Hi Lena. My name is Sam. I'm from Toronto." },
+        { "speaker": "Lena", "target": "Schön! Und was machst du hier in Berlin?", "en": "Nice! And what are you doing here in Berlin?" },
+        { "speaker": "You", "target": "Ich lerne Deutsch. Es ist schwer, aber schön.", "en": "I'm learning German. It's hard, but nice.", "spotlight": "*Ich lerne Deutsch* — your core self-intro line from now on." },
+        { "speaker": "Lena", "target": "Super! Dein Deutsch ist schon gut, echt.", "en": "Great! Your German is already good, really." },
+        { "speaker": "You", "target": "Danke schön, Lena!", "en": "Thank you very much, Lena!" }
       ]
     },
     {

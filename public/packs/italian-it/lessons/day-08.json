@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-08",
   "day": 8,
   "module": "M02",
@@ -37,11 +37,11 @@
       "type": "chips",
       "title": "Batti i primi dieci",
       "items": [
-        { "nl": "zero", "en": "zero", "speak": "zero" },
-        { "nl": "tre", "en": "three", "speak": "tre" },
-        { "nl": "sei", "en": "six", "speak": "sei" },
-        { "nl": "sette", "en": "seven", "speak": "sette" },
-        { "nl": "dieci", "en": "ten", "speak": "dieci" }
+        { "target": "zero", "en": "zero", "speak": "zero" },
+        { "target": "tre", "en": "three", "speak": "tre" },
+        { "target": "sei", "en": "six", "speak": "sei" },
+        { "target": "sette", "en": "seven", "speak": "sette" },
+        { "target": "dieci", "en": "ten", "speak": "dieci" }
       ]
     },
     {
@@ -69,11 +69,11 @@
       "type": "chips",
       "title": "Batti gli undici-venti",
       "items": [
-        { "nl": "undici", "en": "eleven", "speak": "undici" },
-        { "nl": "sedici", "en": "sixteen", "speak": "sedici" },
-        { "nl": "diciassette", "en": "seventeen", "speak": "diciassette" },
-        { "nl": "diciannove", "en": "nineteen", "speak": "diciannove" },
-        { "nl": "venti", "en": "twenty", "speak": "venti" }
+        { "target": "undici", "en": "eleven", "speak": "undici" },
+        { "target": "sedici", "en": "sixteen", "speak": "sedici" },
+        { "target": "diciassette", "en": "seventeen", "speak": "diciassette" },
+        { "target": "diciannove", "en": "nineteen", "speak": "diciannove" },
+        { "target": "venti", "en": "twenty", "speak": "venti" }
       ]
     },
     {
@@ -100,11 +100,11 @@
       "type": "chips",
       "title": "Batti le decine",
       "items": [
-        { "nl": "trenta", "en": "thirty", "speak": "trenta" },
-        { "nl": "quaranta", "en": "forty", "speak": "quaranta" },
-        { "nl": "sessanta", "en": "sixty", "speak": "sessanta" },
-        { "nl": "ottanta", "en": "eighty", "speak": "ottanta" },
-        { "nl": "cento", "en": "one hundred", "speak": "cento" }
+        { "target": "trenta", "en": "thirty", "speak": "trenta" },
+        { "target": "quaranta", "en": "forty", "speak": "quaranta" },
+        { "target": "sessanta", "en": "sixty", "speak": "sessanta" },
+        { "target": "ottanta", "en": "eighty", "speak": "ottanta" },
+        { "target": "cento", "en": "one hundred", "speak": "cento" }
       ]
     },
     {

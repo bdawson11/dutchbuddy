@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-94",
   "day": 94,
   "module": "M14",
@@ -43,11 +43,11 @@
       "type": "chips",
       "title": "Ascolta e ripeti",
       "items": [
-        { "nl": "Se avessi saputo, sarei venuto.", "en": "If I'd known, I'd have come.", "speak": "Se avessi saputo, sarei venuto." },
-        { "nl": "Se avessi studiato, avrei passato l'esame.", "en": "If I'd studied, I'd have passed the exam.", "speak": "Se avessi studiato, avrei passato l'esame." },
-        { "nl": "Se me l'avessi detto, ti avrei aiutato.", "en": "If you'd told me, I'd have helped you.", "speak": "Se me l'avessi detto, ti avrei aiutato." },
-        { "nl": "Se fossimo partiti prima, non avremmo perso il treno.", "en": "If we'd left earlier, we wouldn't have missed the train.", "speak": "Se fossimo partiti prima, non avremmo perso il treno." },
-        { "nl": "Se avesse piovuto, saremmo rimasti a casa.", "en": "If it had rained, we'd have stayed home.", "speak": "Se avesse piovuto, saremmo rimasti a casa." }
+        { "target": "Se avessi saputo, sarei venuto.", "en": "If I'd known, I'd have come.", "speak": "Se avessi saputo, sarei venuto." },
+        { "target": "Se avessi studiato, avrei passato l'esame.", "en": "If I'd studied, I'd have passed the exam.", "speak": "Se avessi studiato, avrei passato l'esame." },
+        { "target": "Se me l'avessi detto, ti avrei aiutato.", "en": "If you'd told me, I'd have helped you.", "speak": "Se me l'avessi detto, ti avrei aiutato." },
+        { "target": "Se fossimo partiti prima, non avremmo perso il treno.", "en": "If we'd left earlier, we wouldn't have missed the train.", "speak": "Se fossimo partiti prima, non avremmo perso il treno." },
+        { "target": "Se avesse piovuto, saremmo rimasti a casa.", "en": "If it had rained, we'd have stayed home.", "speak": "Se avesse piovuto, saremmo rimasti a casa." }
       ]
     },
     {
@@ -86,14 +86,14 @@
       "type": "dialogue",
       "scene": "You bump into Giulia, who missed a party you were at.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Non sapevo che ci fosse la festa da Marco ieri!", "en": "I didn't know there was a party at Marco's yesterday!" },
-        { "speaker": "You", "nl": "Peccato! Se te l'avessi detto, saresti venuta.", "en": "Shame! If I'd told you, you'd have come.", "spotlight": "tipo III: se avessi detto… saresti venuta." },
-        { "speaker": "Giulia", "nl": "Eh, se avessi saputo, avrei cambiato i piani.", "en": "Yeah, if I'd known, I'd have changed my plans." },
-        { "speaker": "You", "nl": "C'era anche Sofia, venuta apposta da Milano.", "en": "Sofia was there too, came up specially from Milan." },
-        { "speaker": "Giulia", "nl": "Ma no! Se me l'avessi scritto, sarei corsa lì.", "en": "No way! If you'd texted me, I'd have rushed over.", "spotlight": "'se avessi scritto… sarei corsa' — rimpianto." },
-        { "speaker": "You", "nl": "Mi dispiace davvero. La prossima volta ti avviso.", "en": "I'm really sorry. Next time I'll let you know." },
-        { "speaker": "Giulia", "nl": "Va bene, dai. Non potevi sapere.", "en": "It's okay, come on. You couldn't have known." },
-        { "speaker": "You", "nl": "Ci facciamo un caffè per rimediare?", "en": "Shall we grab a coffee to make up for it?" }
+        { "speaker": "Giulia", "target": "Non sapevo che ci fosse la festa da Marco ieri!", "en": "I didn't know there was a party at Marco's yesterday!" },
+        { "speaker": "You", "target": "Peccato! Se te l'avessi detto, saresti venuta.", "en": "Shame! If I'd told you, you'd have come.", "spotlight": "tipo III: se avessi detto… saresti venuta." },
+        { "speaker": "Giulia", "target": "Eh, se avessi saputo, avrei cambiato i piani.", "en": "Yeah, if I'd known, I'd have changed my plans." },
+        { "speaker": "You", "target": "C'era anche Sofia, venuta apposta da Milano.", "en": "Sofia was there too, came up specially from Milan." },
+        { "speaker": "Giulia", "target": "Ma no! Se me l'avessi scritto, sarei corsa lì.", "en": "No way! If you'd texted me, I'd have rushed over.", "spotlight": "'se avessi scritto… sarei corsa' — rimpianto." },
+        { "speaker": "You", "target": "Mi dispiace davvero. La prossima volta ti avviso.", "en": "I'm really sorry. Next time I'll let you know." },
+        { "speaker": "Giulia", "target": "Va bene, dai. Non potevi sapere.", "en": "It's okay, come on. You couldn't have known." },
+        { "speaker": "You", "target": "Ci facciamo un caffè per rimediare?", "en": "Shall we grab a coffee to make up for it?" }
       ]
     },
     {

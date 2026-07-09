@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-61",
   "day": 61,
   "module": "M09",
@@ -29,10 +29,10 @@
       "type": "chips",
       "title": "Echte voorwaarden — tik om te horen",
       "items": [
-        { "nl": "Als het regent, blijf ik thuis.", "en": "If it rains, I stay home.", "speak": "Als het regent, blijf ik thuis." },
-        { "nl": "Als je wilt, kunnen we samen koken.", "en": "If you want, we can cook together.", "speak": "Als je wilt, kunnen we samen koken." },
-        { "nl": "Ik bel je als ik thuis ben.", "en": "I'll call you when I'm home.", "speak": "Ik bel je als ik thuis ben." },
-        { "nl": "Als het lekker weer is, gaan we naar het park.", "en": "If the weather's nice, we go to the park.", "speak": "Als het lekker weer is, gaan we naar het park." }
+        { "target": "Als het regent, blijf ik thuis.", "en": "If it rains, I stay home.", "speak": "Als het regent, blijf ik thuis." },
+        { "target": "Als je wilt, kunnen we samen koken.", "en": "If you want, we can cook together.", "speak": "Als je wilt, kunnen we samen koken." },
+        { "target": "Ik bel je als ik thuis ben.", "en": "I'll call you when I'm home.", "speak": "Ik bel je als ik thuis ben." },
+        { "target": "Als het lekker weer is, gaan we naar het park.", "en": "If the weather's nice, we go to the park.", "speak": "Als het lekker weer is, gaan we naar het park." }
       ]
     },
     {
@@ -102,12 +102,12 @@
       "type": "dialogue",
       "scene": "You and Daan daydream at the café about winning the lottery",
       "lines": [
-        { "speaker": "Daan", "nl": "Stel je voor: als wij de loterij zouden winnen, wat zou jij doen?", "en": "Imagine: if we won the lottery, what would you do?", "spotlight": "droom: *als … zouden winnen* + *wat zou jij doen?*" },
-        { "speaker": "You", "nl": "Als ik zoveel geld had, zou ik een jaar reizen.", "en": "If I had that much money, I'd travel for a year.", "spotlight": "verleden tijd (*had*) + *zou*." },
-        { "speaker": "Daan", "nl": "Echt? Ik zou gewoon een platenzaak openen, joh.", "en": "Really? I'd just open a record shop, man." },
-        { "speaker": "You", "nl": "En als het niet zou lukken?", "en": "And if it didn't work out?" },
-        { "speaker": "Daan", "nl": "Dan zou ik terug naar de boekwinkel gaan. Geen ramp.", "en": "Then I'd go back to the bookshop. No disaster." },
-        { "speaker": "You", "nl": "Nou, als ik morgen win, hoor je het meteen.", "en": "Well, if I win tomorrow, you'll hear it right away.", "spotlight": "echte voorwaarde: *als ik morgen win* (tegenwoordige tijd)." }
+        { "speaker": "Daan", "target": "Stel je voor: als wij de loterij zouden winnen, wat zou jij doen?", "en": "Imagine: if we won the lottery, what would you do?", "spotlight": "droom: *als … zouden winnen* + *wat zou jij doen?*" },
+        { "speaker": "You", "target": "Als ik zoveel geld had, zou ik een jaar reizen.", "en": "If I had that much money, I'd travel for a year.", "spotlight": "verleden tijd (*had*) + *zou*." },
+        { "speaker": "Daan", "target": "Echt? Ik zou gewoon een platenzaak openen, joh.", "en": "Really? I'd just open a record shop, man." },
+        { "speaker": "You", "target": "En als het niet zou lukken?", "en": "And if it didn't work out?" },
+        { "speaker": "Daan", "target": "Dan zou ik terug naar de boekwinkel gaan. Geen ramp.", "en": "Then I'd go back to the bookshop. No disaster." },
+        { "speaker": "You", "target": "Nou, als ik morgen win, hoor je het meteen.", "en": "Well, if I win tomorrow, you'll hear it right away.", "spotlight": "echte voorwaarde: *als ik morgen win* (tegenwoordige tijd)." }
       ]
     },
     {

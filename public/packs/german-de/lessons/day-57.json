@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-57",
   "day": 57,
   "module": "M09",
@@ -32,10 +32,10 @@
       "type": "chips",
       "title": "Tap to hear the connectors in action",
       "items": [
-        { "nl": "Obwohl es regnet, fahre ich mit dem Rad.", "en": "Although it's raining, I'm cycling.", "speak": "Obwohl es regnet, fahre ich mit dem Rad." },
-        { "nl": "Bevor ich schlafe, lese ich noch.", "en": "Before I sleep, I read a bit.", "speak": "Bevor ich schlafe, lese ich noch." },
-        { "nl": "Nachdem ich gefrühstückt habe, gehe ich los.", "en": "After I've had breakfast, I set off.", "speak": "Nachdem ich gefrühstückt habe, gehe ich los." },
-        { "nl": "Ich lerne Deutsch, damit ich hier arbeiten kann.", "en": "I'm learning German so that I can work here.", "speak": "Ich lerne Deutsch, damit ich hier arbeiten kann." }
+        { "target": "Obwohl es regnet, fahre ich mit dem Rad.", "en": "Although it's raining, I'm cycling.", "speak": "Obwohl es regnet, fahre ich mit dem Rad." },
+        { "target": "Bevor ich schlafe, lese ich noch.", "en": "Before I sleep, I read a bit.", "speak": "Bevor ich schlafe, lese ich noch." },
+        { "target": "Nachdem ich gefrühstückt habe, gehe ich los.", "en": "After I've had breakfast, I set off.", "speak": "Nachdem ich gefrühstückt habe, gehe ich los." },
+        { "target": "Ich lerne Deutsch, damit ich hier arbeiten kann.", "en": "I'm learning German so that I can work here.", "speak": "Ich lerne Deutsch, damit ich hier arbeiten kann." }
       ]
     },
     {
@@ -97,13 +97,13 @@
       "type": "dialogue",
       "scene": "Lena drops by your desk, still buzzing from a chaotic morning.",
       "lines": [
-        { "speaker": "Lena", "nl": "Also, heute war schon viel los, bevor ich überhaupt im Büro war.", "en": "So, a lot was already going on before I even got to the office.", "spotlight": "*bevor ich überhaupt im Büro war* — subclause, verb (*war*) at the end." },
-        { "speaker": "You", "nl": "Echt? Was ist denn passiert?", "en": "Really? What happened?" },
-        { "speaker": "Lena", "nl": "Nachdem ich aufgestanden bin, war kein Kaffee mehr da. Ein Drama.", "en": "After I got up, there was no coffee left. A disaster." },
-        { "speaker": "You", "nl": "Und du gehst nie ohne Kaffee aus dem Haus, oder?", "en": "And you never leave the house without coffee, right?" },
-        { "speaker": "Lena", "nl": "Genau. Obwohl ich spät dran war, bin ich noch schnell zum Bäcker.", "en": "Exactly. Although I was running late, I quickly popped to the bakery.", "spotlight": "*Obwohl ich spät dran war* — concession up front, main verb *bin* right after the comma." },
-        { "speaker": "You", "nl": "Und? Hat sich das gelohnt?", "en": "And? Was it worth it?" },
-        { "speaker": "Lena", "nl": "Na klar. Wegen des Kaffees war der Tag gerettet.", "en": "Of course. Because of the coffee the day was saved.", "spotlight": "*wegen des Kaffees* — the genitive in the wild." }
+        { "speaker": "Lena", "target": "Also, heute war schon viel los, bevor ich überhaupt im Büro war.", "en": "So, a lot was already going on before I even got to the office.", "spotlight": "*bevor ich überhaupt im Büro war* — subclause, verb (*war*) at the end." },
+        { "speaker": "You", "target": "Echt? Was ist denn passiert?", "en": "Really? What happened?" },
+        { "speaker": "Lena", "target": "Nachdem ich aufgestanden bin, war kein Kaffee mehr da. Ein Drama.", "en": "After I got up, there was no coffee left. A disaster." },
+        { "speaker": "You", "target": "Und du gehst nie ohne Kaffee aus dem Haus, oder?", "en": "And you never leave the house without coffee, right?" },
+        { "speaker": "Lena", "target": "Genau. Obwohl ich spät dran war, bin ich noch schnell zum Bäcker.", "en": "Exactly. Although I was running late, I quickly popped to the bakery.", "spotlight": "*Obwohl ich spät dran war* — concession up front, main verb *bin* right after the comma." },
+        { "speaker": "You", "target": "Und? Hat sich das gelohnt?", "en": "And? Was it worth it?" },
+        { "speaker": "Lena", "target": "Na klar. Wegen des Kaffees war der Tag gerettet.", "en": "Of course. Because of the coffee the day was saved.", "spotlight": "*wegen des Kaffees* — the genitive in the wild." }
       ]
     },
     {

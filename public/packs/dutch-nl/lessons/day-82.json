@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-82",
   "day": 82,
   "module": "M12",
@@ -47,12 +47,12 @@
       "type": "chips",
       "title": "Tap to hear them in the wild",
       "items": [
-        { "nl": "Nu komt de aap uit de mouw.", "en": "Now the truth comes out.", "speak": "Nu komt de aap uit de mouw." },
-        { "nl": "Helaas pindakaas.", "en": "Oh well, tough luck.", "speak": "Helaas pindakaas." },
-        { "nl": "Even dimmen, joh.", "en": "Easy, calm down.", "speak": "Even dimmen, joh." },
-        { "nl": "Ik kijk de kat uit de boom.", "en": "I'm holding back to see how it goes.", "speak": "Ik kijk de kat uit de boom." },
-        { "nl": "Het regent pijpenstelen.", "en": "It's pouring down.", "speak": "Het regent pijpenstelen." },
-        { "nl": "Dat kost bijna niks — voor een appel en een ei.", "en": "That's almost free — dirt cheap.", "speak": "Dat kost bijna niks, voor een appel en een ei." }
+        { "target": "Nu komt de aap uit de mouw.", "en": "Now the truth comes out.", "speak": "Nu komt de aap uit de mouw." },
+        { "target": "Helaas pindakaas.", "en": "Oh well, tough luck.", "speak": "Helaas pindakaas." },
+        { "target": "Even dimmen, joh.", "en": "Easy, calm down.", "speak": "Even dimmen, joh." },
+        { "target": "Ik kijk de kat uit de boom.", "en": "I'm holding back to see how it goes.", "speak": "Ik kijk de kat uit de boom." },
+        { "target": "Het regent pijpenstelen.", "en": "It's pouring down.", "speak": "Het regent pijpenstelen." },
+        { "target": "Dat kost bijna niks — voor een appel en een ei.", "en": "That's almost free — dirt cheap.", "speak": "Dat kost bijna niks, voor een appel en een ei." }
       ]
     },
     {
@@ -80,25 +80,25 @@
       "type": "shadow",
       "title": "Shadow the idioms",
       "lines": [
-        { "nl": "Even dimmen, joh.", "en": "Easy, calm down." },
-        { "nl": "Helaas pindakaas.", "en": "Oh well, tough luck." },
-        { "nl": "Hij valt altijd met de deur in huis.", "en": "He always gets straight to the point." },
-        { "nl": "Zullen we de bloemetjes buitenzetten?", "en": "Shall we go out and paint the town?" }
+        { "target": "Even dimmen, joh.", "en": "Easy, calm down." },
+        { "target": "Helaas pindakaas.", "en": "Oh well, tough luck." },
+        { "target": "Hij valt altijd met de deur in huis.", "en": "He always gets straight to the point." },
+        { "target": "Zullen we de bloemetjes buitenzetten?", "en": "Shall we go out and paint the town?" }
       ]
     },
     {
       "type": "dialogue",
       "scene": "Daan has gossip about a mutual friend, at the café.",
       "lines": [
-        { "speaker": "Daan", "nl": "Joh, moet je horen. Weet je waarom Tom laatst zo aardig deed?", "en": "Hey, listen to this. Know why Tom was so nice the other day?" },
-        { "speaker": "You", "nl": "Geen idee. Vertel.", "en": "No idea. Tell me." },
-        { "speaker": "Daan", "nl": "Hij wil mijn auto lenen. Nu komt de aap uit de mouw.", "en": "He wants to borrow my car. Now the truth comes out.", "spotlight": "nu komt de aap uit de mouw — the real reason finally shows." },
-        { "speaker": "You", "nl": "Haha, typisch. En, leen je hem?", "en": "Ha, typical. So, are you lending it?" },
-        { "speaker": "Daan", "nl": "Nee joh. Helaas pindakaas voor Tom.", "en": "Nope. Tough luck for Tom.", "spotlight": "helaas pindakaas — 'tough luck', said with a grin." },
-        { "speaker": "You", "nl": "Je bent streng, hoor.", "en": "You're harsh, you know." },
-        { "speaker": "Daan", "nl": "Even dimmen, ik plaag maar. Ik denk er nog over na.", "en": "Easy, I'm only teasing. I'm still thinking it over.", "spotlight": "even dimmen — 'easy, calm down'." },
-        { "speaker": "You", "nl": "Nou, jij kijkt de kat uit de boom.", "en": "Well, you're waiting to see how it plays out." },
-        { "speaker": "Daan", "nl": "Precies. Eerst kijken, dan pas beslissen.", "en": "Exactly. Look first, decide later." }
+        { "speaker": "Daan", "target": "Joh, moet je horen. Weet je waarom Tom laatst zo aardig deed?", "en": "Hey, listen to this. Know why Tom was so nice the other day?" },
+        { "speaker": "You", "target": "Geen idee. Vertel.", "en": "No idea. Tell me." },
+        { "speaker": "Daan", "target": "Hij wil mijn auto lenen. Nu komt de aap uit de mouw.", "en": "He wants to borrow my car. Now the truth comes out.", "spotlight": "nu komt de aap uit de mouw — the real reason finally shows." },
+        { "speaker": "You", "target": "Haha, typisch. En, leen je hem?", "en": "Ha, typical. So, are you lending it?" },
+        { "speaker": "Daan", "target": "Nee joh. Helaas pindakaas voor Tom.", "en": "Nope. Tough luck for Tom.", "spotlight": "helaas pindakaas — 'tough luck', said with a grin." },
+        { "speaker": "You", "target": "Je bent streng, hoor.", "en": "You're harsh, you know." },
+        { "speaker": "Daan", "target": "Even dimmen, ik plaag maar. Ik denk er nog over na.", "en": "Easy, I'm only teasing. I'm still thinking it over.", "spotlight": "even dimmen — 'easy, calm down'." },
+        { "speaker": "You", "target": "Nou, jij kijkt de kat uit de boom.", "en": "Well, you're waiting to see how it plays out." },
+        { "speaker": "Daan", "target": "Precies. Eerst kijken, dan pas beslissen.", "en": "Exactly. Look first, decide later." }
       ]
     },
     {

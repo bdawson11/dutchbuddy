@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-59",
   "day": 59,
   "module": "M09",
@@ -29,10 +29,10 @@
       "type": "chips",
       "title": "Tik om te horen",
       "items": [
-        { "nl": "Emma zei dat ze laat was.", "en": "Emma said she was late.", "speak": "Emma zei dat ze laat was." },
-        { "nl": "Daan zei dat hij geen zin had.", "en": "Daan said he didn't feel like it.", "speak": "Daan zei dat hij geen zin had." },
-        { "nl": "Ze zei dat het lekker weer was.", "en": "She said the weather was nice.", "speak": "Ze zei dat het lekker weer was." },
-        { "nl": "Hij zei dat hij later zou bellen.", "en": "He said he would call later.", "speak": "Hij zei dat hij later zou bellen." }
+        { "target": "Emma zei dat ze laat was.", "en": "Emma said she was late.", "speak": "Emma zei dat ze laat was." },
+        { "target": "Daan zei dat hij geen zin had.", "en": "Daan said he didn't feel like it.", "speak": "Daan zei dat hij geen zin had." },
+        { "target": "Ze zei dat het lekker weer was.", "en": "She said the weather was nice.", "speak": "Ze zei dat het lekker weer was." },
+        { "target": "Hij zei dat hij later zou bellen.", "en": "He said he would call later.", "speak": "Hij zei dat hij later zou bellen." }
       ]
     },
     {
@@ -93,12 +93,12 @@
       "type": "dialogue",
       "scene": "You bump into Emma, who just got off the phone with Daan",
       "lines": [
-        { "speaker": "Emma", "nl": "Ik had net Daan aan de telefoon.", "en": "I just had Daan on the phone." },
-        { "speaker": "You", "nl": "O ja? Wat zei hij?", "en": "Oh yeah? What did he say?" },
-        { "speaker": "Emma", "nl": "Hij zei dat hij vanavond niet kon.", "en": "He said he couldn't make it tonight.", "spotlight": "dat + werkwoord achteraan: *…dat hij vanavond niet **kon**.*" },
-        { "speaker": "You", "nl": "Jammer. Vroeg hij nog iets?", "en": "Too bad. Did he ask anything?" },
-        { "speaker": "Emma", "nl": "Ja, hij vroeg of we morgen konden afspreken.", "en": "Yeah, he asked if we could meet tomorrow.", "spotlight": "ja/nee-vraag → *of we morgen konden afspreken.*" },
-        { "speaker": "You", "nl": "En ik vroeg me af waar we dan zouden afspreken.", "en": "And I was wondering where we'd meet then.", "spotlight": "vraagwoord → *waar* + werkwoord achteraan." }
+        { "speaker": "Emma", "target": "Ik had net Daan aan de telefoon.", "en": "I just had Daan on the phone." },
+        { "speaker": "You", "target": "O ja? Wat zei hij?", "en": "Oh yeah? What did he say?" },
+        { "speaker": "Emma", "target": "Hij zei dat hij vanavond niet kon.", "en": "He said he couldn't make it tonight.", "spotlight": "dat + werkwoord achteraan: *…dat hij vanavond niet **kon**.*" },
+        { "speaker": "You", "target": "Jammer. Vroeg hij nog iets?", "en": "Too bad. Did he ask anything?" },
+        { "speaker": "Emma", "target": "Ja, hij vroeg of we morgen konden afspreken.", "en": "Yeah, he asked if we could meet tomorrow.", "spotlight": "ja/nee-vraag → *of we morgen konden afspreken.*" },
+        { "speaker": "You", "target": "En ik vroeg me af waar we dan zouden afspreken.", "en": "And I was wondering where we'd meet then.", "spotlight": "vraagwoord → *waar* + werkwoord achteraan." }
       ]
     },
     {

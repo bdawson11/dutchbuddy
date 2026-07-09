@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-67",
   "day": 67,
   "module": "M10",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "La mia mattina (riflessivi)",
       "items": [
-        { "nl": "Mi sveglio alle sette.", "en": "I wake up at seven.", "speak": "Mi sveglio alle sette." },
-        { "nl": "Mi sono alzata tardi.", "en": "I got up late.", "speak": "Mi sono alzata tardi." },
-        { "nl": "Ci siamo preparati in fretta.", "en": "We got ready in a hurry.", "speak": "Ci siamo preparati in fretta." },
-        { "nl": "Si è decisa finalmente.", "en": "She finally made up her mind.", "speak": "Si è decisa finalmente." }
+        { "target": "Mi sveglio alle sette.", "en": "I wake up at seven.", "speak": "Mi sveglio alle sette." },
+        { "target": "Mi sono alzata tardi.", "en": "I got up late.", "speak": "Mi sono alzata tardi." },
+        { "target": "Ci siamo preparati in fretta.", "en": "We got ready in a hurry.", "speak": "Ci siamo preparati in fretta." },
+        { "target": "Si è decisa finalmente.", "en": "She finally made up her mind.", "speak": "Si è decisa finalmente." }
       ]
     },
     {
@@ -64,12 +64,12 @@
       "type": "dialogue",
       "scene": "Pietro racconta il ritmo di Napoli; si finisce a parlare di Sofia, ancora indecisa.",
       "lines": [
-        { "speaker": "Pietro", "nl": "Guarda, qui a Napoli si mangia bene e si vive con più calma.", "en": "Look, here in Naples people eat well and live at a calmer pace.", "spotlight": "*si mangia / si vive* — il si impersonale in azione." },
-        { "speaker": "You", "nl": "A Milano invece si corre sempre, dicono.", "en": "In Milan, on the other hand, everyone's always rushing, they say." },
-        { "speaker": "Pietro", "nl": "Eh, ognuno si abitua al suo ritmo, prima o poi.", "en": "Well, everyone gets used to their own rhythm, sooner or later." },
-        { "speaker": "You", "nl": "Sofia si sta ancora decidendo per quel posto a Milano.", "en": "Sofia is still making up her mind about that job in Milan." },
-        { "speaker": "Pietro", "nl": "Se ci si trasferisce per lavoro, ci si trova bene ovunque, se uno è in gamba.", "en": "If you move for work, you settle in fine anywhere, if you're sharp." },
-        { "speaker": "You", "nl": "Speriamo. Lei è in gamba, questo è sicuro.", "en": "Let's hope so. She's sharp, that's for sure." }
+        { "speaker": "Pietro", "target": "Guarda, qui a Napoli si mangia bene e si vive con più calma.", "en": "Look, here in Naples people eat well and live at a calmer pace.", "spotlight": "*si mangia / si vive* — il si impersonale in azione." },
+        { "speaker": "You", "target": "A Milano invece si corre sempre, dicono.", "en": "In Milan, on the other hand, everyone's always rushing, they say." },
+        { "speaker": "Pietro", "target": "Eh, ognuno si abitua al suo ritmo, prima o poi.", "en": "Well, everyone gets used to their own rhythm, sooner or later." },
+        { "speaker": "You", "target": "Sofia si sta ancora decidendo per quel posto a Milano.", "en": "Sofia is still making up her mind about that job in Milan." },
+        { "speaker": "Pietro", "target": "Se ci si trasferisce per lavoro, ci si trova bene ovunque, se uno è in gamba.", "en": "If you move for work, you settle in fine anywhere, if you're sharp." },
+        { "speaker": "You", "target": "Speriamo. Lei è in gamba, questo è sicuro.", "en": "Let's hope so. She's sharp, that's for sure." }
       ]
     },
     {

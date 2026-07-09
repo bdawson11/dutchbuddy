@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-60",
   "day": 60,
   "module": "M09",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "Tap to hear the polite forms",
       "items": [
-        { "nl": "Ich würde gern mitkommen.", "en": "I'd like to come along.", "speak": "Ich würde gern mitkommen." },
-        { "nl": "Könntest du mir helfen?", "en": "Could you help me?", "speak": "Könntest du mir helfen?" },
-        { "nl": "Ich hätte gern einen Kaffee.", "en": "I'd like a coffee.", "speak": "Ich hätte gern einen Kaffee." },
-        { "nl": "Das wäre super.", "en": "That would be great.", "speak": "Das wäre super." }
+        { "target": "Ich würde gern mitkommen.", "en": "I'd like to come along.", "speak": "Ich würde gern mitkommen." },
+        { "target": "Könntest du mir helfen?", "en": "Could you help me?", "speak": "Könntest du mir helfen?" },
+        { "target": "Ich hätte gern einen Kaffee.", "en": "I'd like a coffee.", "speak": "Ich hätte gern einen Kaffee." },
+        { "target": "Das wäre super.", "en": "That would be great.", "speak": "Das wäre super." }
       ]
     },
     {
@@ -87,13 +87,13 @@
       "type": "dialogue",
       "scene": "You need a hand getting a heavy shelf up into your flat, so you text Lena.",
       "lines": [
-        { "speaker": "You", "nl": "Du Lena, könntest du mir am Samstag kurz helfen?", "en": "Hey Lena, could you help me for a bit on Saturday?", "spotlight": "*könntest du mir … helfen* — the go-to polite ask, with *mir* in the dative." },
-        { "speaker": "Lena", "nl": "Klar, was brauchst du denn?", "en": "Sure, what do you need?" },
-        { "speaker": "You", "nl": "Ich würde gern mein Regal aufbauen, aber allein schaffe ich das nicht.", "en": "I'd like to put up my shelf, but I can't manage it alone.", "spotlight": "*Ich würde gern … aufbauen* — würde + infinitive at the end." },
-        { "speaker": "Lena", "nl": "Kein Problem. Ich würde sagen, ich komme so gegen elf?", "en": "No problem. I'd say I'll come around eleven?" },
-        { "speaker": "You", "nl": "Das wäre super. Hättest du danach Lust auf einen Kaffee?", "en": "That would be great. Would you fancy a coffee afterwards?" },
-        { "speaker": "Lena", "nl": "Immer. Ich würde sogar Kuchen mitbringen.", "en": "Always. I'd even bring cake." },
-        { "speaker": "You", "nl": "Perfekt, danke dir!", "en": "Perfect, thank you!" }
+        { "speaker": "You", "target": "Du Lena, könntest du mir am Samstag kurz helfen?", "en": "Hey Lena, could you help me for a bit on Saturday?", "spotlight": "*könntest du mir … helfen* — the go-to polite ask, with *mir* in the dative." },
+        { "speaker": "Lena", "target": "Klar, was brauchst du denn?", "en": "Sure, what do you need?" },
+        { "speaker": "You", "target": "Ich würde gern mein Regal aufbauen, aber allein schaffe ich das nicht.", "en": "I'd like to put up my shelf, but I can't manage it alone.", "spotlight": "*Ich würde gern … aufbauen* — würde + infinitive at the end." },
+        { "speaker": "Lena", "target": "Kein Problem. Ich würde sagen, ich komme so gegen elf?", "en": "No problem. I'd say I'll come around eleven?" },
+        { "speaker": "You", "target": "Das wäre super. Hättest du danach Lust auf einen Kaffee?", "en": "That would be great. Would you fancy a coffee afterwards?" },
+        { "speaker": "Lena", "target": "Immer. Ich würde sogar Kuchen mitbringen.", "en": "Always. I'd even bring cake." },
+        { "speaker": "You", "target": "Perfekt, danke dir!", "en": "Perfect, thank you!" }
       ]
     },
     {

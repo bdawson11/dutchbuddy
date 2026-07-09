@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-64",
   "day": 64,
   "module": "M10",
@@ -30,13 +30,13 @@
       "type": "chips",
       "title": "Die Dativ-Präpositionen — tap to hear",
       "items": [
-        { "nl": "mit dem Bus", "en": "by bus", "speak": "mit dem Bus" },
-        { "nl": "nach Hause", "en": "(to) home", "speak": "nach Hause" },
-        { "nl": "bei der Arbeit", "en": "at work", "speak": "bei der Arbeit" },
-        { "nl": "seit einem Jahr", "en": "for a year", "speak": "seit einem Jahr" },
-        { "nl": "von der Uni", "en": "from the university", "speak": "von der Uni" },
-        { "nl": "zum Arzt", "en": "to the doctor", "speak": "zum Arzt" },
-        { "nl": "aus der Stadt", "en": "out of the city", "speak": "aus der Stadt" }
+        { "target": "mit dem Bus", "en": "by bus", "speak": "mit dem Bus" },
+        { "target": "nach Hause", "en": "(to) home", "speak": "nach Hause" },
+        { "target": "bei der Arbeit", "en": "at work", "speak": "bei der Arbeit" },
+        { "target": "seit einem Jahr", "en": "for a year", "speak": "seit einem Jahr" },
+        { "target": "von der Uni", "en": "from the university", "speak": "von der Uni" },
+        { "target": "zum Arzt", "en": "to the doctor", "speak": "zum Arzt" },
+        { "target": "aus der Stadt", "en": "out of the city", "speak": "aus der Stadt" }
       ]
     },
     {
@@ -85,13 +85,13 @@
       "type": "dialogue",
       "scene": "You run into Lena at the U-Bahn station after work.",
       "lines": [
-        { "speaker": "Lena", "nl": "Na? Kommst du gerade von der Arbeit?", "en": "Hey! Just coming from work?", "spotlight": "*von der Arbeit* — *von* is always dative → *der Arbeit*." },
-        { "speaker": "You", "nl": "Ja, ich fahre jetzt mit der U-Bahn nach Hause.", "en": "Yeah, I'm taking the subway home now.", "spotlight": "*mit der U-Bahn*, *nach Hause* — two dative prepositions in one breath." },
-        { "speaker": "Lena", "nl": "Sag mal, hast du von Aylin gehört? Sie überlegt noch, ob sie den Job in München nimmt.", "en": "Say, have you heard from Aylin? She's still weighing whether to take the job in Munich.", "spotlight": "Aylin's decision is still open — *sie überlegt noch*." },
-        { "speaker": "You", "nl": "Echt? Und? Gefällt ihr die Idee?", "en": "Really? And? Does she like the idea?" },
-        { "speaker": "Lena", "nl": "Na ja, mal so, mal so. Ich helfe ihr gerade, alles abzuwägen.", "en": "Well, up and down. I'm helping her weigh it all up right now.", "spotlight": "*Ich helfe ihr* — *helfen* + dative *ihr*." },
-        { "speaker": "You", "nl": "Wenn sie Hilfe beim Umzug braucht, bin ich dabei.", "en": "If she needs help with the move, I'm in." },
-        { "speaker": "Lena", "nl": "Das ist lieb. Ich sag ihr das. Bis bald!", "en": "That's sweet. I'll tell her. See you soon!" }
+        { "speaker": "Lena", "target": "Na? Kommst du gerade von der Arbeit?", "en": "Hey! Just coming from work?", "spotlight": "*von der Arbeit* — *von* is always dative → *der Arbeit*." },
+        { "speaker": "You", "target": "Ja, ich fahre jetzt mit der U-Bahn nach Hause.", "en": "Yeah, I'm taking the subway home now.", "spotlight": "*mit der U-Bahn*, *nach Hause* — two dative prepositions in one breath." },
+        { "speaker": "Lena", "target": "Sag mal, hast du von Aylin gehört? Sie überlegt noch, ob sie den Job in München nimmt.", "en": "Say, have you heard from Aylin? She's still weighing whether to take the job in Munich.", "spotlight": "Aylin's decision is still open — *sie überlegt noch*." },
+        { "speaker": "You", "target": "Echt? Und? Gefällt ihr die Idee?", "en": "Really? And? Does she like the idea?" },
+        { "speaker": "Lena", "target": "Na ja, mal so, mal so. Ich helfe ihr gerade, alles abzuwägen.", "en": "Well, up and down. I'm helping her weigh it all up right now.", "spotlight": "*Ich helfe ihr* — *helfen* + dative *ihr*." },
+        { "speaker": "You", "target": "Wenn sie Hilfe beim Umzug braucht, bin ich dabei.", "en": "If she needs help with the move, I'm in." },
+        { "speaker": "Lena", "target": "Das ist lieb. Ich sag ihr das. Bis bald!", "en": "That's sweet. I'll tell her. See you soon!" }
       ]
     },
     {

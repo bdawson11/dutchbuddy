@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-97",
   "day": 97,
   "module": "M14",
@@ -30,11 +30,11 @@
       "type": "chips",
       "title": "Opwarmen — tik om te horen",
       "items": [
-        { "nl": "Als ik nee zeg, heb ik er weer spijt van.", "en": "If I say no, I'll regret it again.", "speak": "Als ik nee zeg, heb ik er weer spijt van." },
-        { "nl": "Had ik die vorige gig maar aangenomen.", "en": "If only I'd taken that last gig.", "speak": "Had ik die vorige gig maar aangenomen." },
-        { "nl": "Stel dat het een succes wordt?", "en": "Suppose it's a success?", "speak": "Stel dat het een succes wordt?" },
-        { "nl": "Mocht het misgaan, dan is het niet erg.", "en": "Should it go wrong, it's no big deal.", "speak": "Mocht het misgaan, dan is het niet erg." },
-        { "nl": "Ik zou het mezelf nooit vergeven.", "en": "I'd never forgive myself.", "speak": "Ik zou het mezelf nooit vergeven." }
+        { "target": "Als ik nee zeg, heb ik er weer spijt van.", "en": "If I say no, I'll regret it again.", "speak": "Als ik nee zeg, heb ik er weer spijt van." },
+        { "target": "Had ik die vorige gig maar aangenomen.", "en": "If only I'd taken that last gig.", "speak": "Had ik die vorige gig maar aangenomen." },
+        { "target": "Stel dat het een succes wordt?", "en": "Suppose it's a success?", "speak": "Stel dat het een succes wordt?" },
+        { "target": "Mocht het misgaan, dan is het niet erg.", "en": "Should it go wrong, it's no big deal.", "speak": "Mocht het misgaan, dan is het niet erg." },
+        { "target": "Ik zou het mezelf nooit vergeven.", "en": "I'd never forgive myself.", "speak": "Ik zou het mezelf nooit vergeven." }
       ]
     },
     {
@@ -55,17 +55,17 @@
       "type": "dialogue",
       "scene": "Daan calls You in a panic. A venue offered his band a support slot — the exact chance he'd regretted losing.",
       "lines": [
-        { "speaker": "Daan", "nl": "Je raadt het nooit. We zijn gevraagd als support-act! Volgende maand!", "en": "You'll never guess. We've been asked to be the support act! Next month!" },
-        { "speaker": "You", "nl": "Wat goed, Daan! Dat is precies wat je wilde.", "en": "That's great, Daan! That's exactly what you wanted." },
-        { "speaker": "Daan", "nl": "Ja… maar stel dat we het verprutsen? Voor honderden mensen?", "en": "Yeah… but suppose we blow it? In front of hundreds of people?", "spotlight": "*stel dat* — het gedachte-experiment van de twijfelaar." },
-        { "speaker": "You", "nl": "En stel dat het geweldig gaat?", "en": "And suppose it goes brilliantly?" },
-        { "speaker": "Daan", "nl": "Als ik nu nee zeg, heb ik er weer spijt van, net als vorige keer.", "en": "If I say no now, I'll regret it again, just like last time." },
-        { "speaker": "You", "nl": "Precies. Vorige keer zei je: 'volgende keer zeg ik ja'.", "en": "Exactly. Last time you said: 'next time I say yes'." },
-        { "speaker": "Daan", "nl": "Dat weet ik. Had ik toen maar meer lef gehad.", "en": "I know. If only I'd had more nerve back then.", "spotlight": "*had ik maar …* — spijt over de vorige keer." },
-        { "speaker": "You", "nl": "Nou dan. Mocht het misgaan, dan heb je het tenminste geprobeerd.", "en": "Well then. Should it go wrong, at least you tried.", "spotlight": "*mocht het …* — de geruststellende voorwaarde." },
-        { "speaker": "Daan", "nl": "En als het lukt, zou dit alles kunnen veranderen.", "en": "And if it works, this could change everything." },
-        { "speaker": "You", "nl": "Dus?", "en": "So?" },
-        { "speaker": "Daan", "nl": "Dus… we doen het. Ik zeg ja. Voordat ik me weer bedenk.", "en": "So… we're doing it. I say yes. Before I change my mind again." }
+        { "speaker": "Daan", "target": "Je raadt het nooit. We zijn gevraagd als support-act! Volgende maand!", "en": "You'll never guess. We've been asked to be the support act! Next month!" },
+        { "speaker": "You", "target": "Wat goed, Daan! Dat is precies wat je wilde.", "en": "That's great, Daan! That's exactly what you wanted." },
+        { "speaker": "Daan", "target": "Ja… maar stel dat we het verprutsen? Voor honderden mensen?", "en": "Yeah… but suppose we blow it? In front of hundreds of people?", "spotlight": "*stel dat* — het gedachte-experiment van de twijfelaar." },
+        { "speaker": "You", "target": "En stel dat het geweldig gaat?", "en": "And suppose it goes brilliantly?" },
+        { "speaker": "Daan", "target": "Als ik nu nee zeg, heb ik er weer spijt van, net als vorige keer.", "en": "If I say no now, I'll regret it again, just like last time." },
+        { "speaker": "You", "target": "Precies. Vorige keer zei je: 'volgende keer zeg ik ja'.", "en": "Exactly. Last time you said: 'next time I say yes'." },
+        { "speaker": "Daan", "target": "Dat weet ik. Had ik toen maar meer lef gehad.", "en": "I know. If only I'd had more nerve back then.", "spotlight": "*had ik maar …* — spijt over de vorige keer." },
+        { "speaker": "You", "target": "Nou dan. Mocht het misgaan, dan heb je het tenminste geprobeerd.", "en": "Well then. Should it go wrong, at least you tried.", "spotlight": "*mocht het …* — de geruststellende voorwaarde." },
+        { "speaker": "Daan", "target": "En als het lukt, zou dit alles kunnen veranderen.", "en": "And if it works, this could change everything." },
+        { "speaker": "You", "target": "Dus?", "en": "So?" },
+        { "speaker": "Daan", "target": "Dus… we doen het. Ik zeg ja. Voordat ik me weer bedenk.", "en": "So… we're doing it. I say yes. Before I change my mind again." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-53",
   "day": 53,
   "module": "M08",
@@ -41,10 +41,10 @@
       "type": "chips",
       "title": "Luister naar de bijzinnen",
       "items": [
-        { "nl": "Ik ga naar bed omdat ik moe ben.", "en": "I'm going to bed because I'm tired.", "speak": "Ik ga naar bed omdat ik moe ben." },
-        { "nl": "Bel me als je thuis bent.", "en": "Call me when you're home.", "speak": "Bel me als je thuis bent." },
-        { "nl": "Ik weet dat je gelijk hebt.", "en": "I know that you're right.", "speak": "Ik weet dat je gelijk hebt." },
-        { "nl": "We blijven binnen omdat het regent.", "en": "We're staying in because it's raining.", "speak": "We blijven binnen omdat het regent." }
+        { "target": "Ik ga naar bed omdat ik moe ben.", "en": "I'm going to bed because I'm tired.", "speak": "Ik ga naar bed omdat ik moe ben." },
+        { "target": "Bel me als je thuis bent.", "en": "Call me when you're home.", "speak": "Bel me als je thuis bent." },
+        { "target": "Ik weet dat je gelijk hebt.", "en": "I know that you're right.", "speak": "Ik weet dat je gelijk hebt." },
+        { "target": "We blijven binnen omdat het regent.", "en": "We're staying in because it's raining.", "speak": "We blijven binnen omdat het regent." }
       ]
     },
     {
@@ -113,10 +113,10 @@
       "type": "dialogue",
       "scene": "Daan cancels on you by text",
       "lines": [
-        { "speaker": "Daan", "nl": "Sorry joh, ik kom niet omdat ik moet werken.", "en": "Sorry mate, I'm not coming because I have to work.", "spotlight": "omdat ik moet werken — modal + infinitive, both at the end." },
-        { "speaker": "You", "nl": "Jammer! Bel je als je klaar bent?", "en": "Shame! Will you call when you're done?", "spotlight": "als je klaar bent — verb 'bent' last." },
-        { "speaker": "Daan", "nl": "Doe ik. Ik denk dat het rond acht uur wordt.", "en": "I will. I think it'll be around eight.", "spotlight": "dat het … wordt — verb last again." },
-        { "speaker": "You", "nl": "Prima. Ik ben blij dat je toch nog komt.", "en": "Fine. I'm glad you're still coming after all." }
+        { "speaker": "Daan", "target": "Sorry joh, ik kom niet omdat ik moet werken.", "en": "Sorry mate, I'm not coming because I have to work.", "spotlight": "omdat ik moet werken — modal + infinitive, both at the end." },
+        { "speaker": "You", "target": "Jammer! Bel je als je klaar bent?", "en": "Shame! Will you call when you're done?", "spotlight": "als je klaar bent — verb 'bent' last." },
+        { "speaker": "Daan", "target": "Doe ik. Ik denk dat het rond acht uur wordt.", "en": "I will. I think it'll be around eight.", "spotlight": "dat het … wordt — verb last again." },
+        { "speaker": "You", "target": "Prima. Ik ben blij dat je toch nog komt.", "en": "Fine. I'm glad you're still coming after all." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-52",
   "day": 52,
   "module": "M08",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Meinungs-Starter — tap to hear",
       "items": [
-        { "nl": "Ich finde…", "en": "I think/find…", "speak": "Ich finde" },
-        { "nl": "Ich glaube…", "en": "I believe…", "speak": "Ich glaube" },
-        { "nl": "Meiner Meinung nach…", "en": "In my opinion…", "speak": "Meiner Meinung nach" },
-        { "nl": "Das stimmt.", "en": "That's right.", "speak": "Das stimmt." },
-        { "nl": "Das sehe ich anders.", "en": "I see it differently.", "speak": "Das sehe ich anders." }
+        { "target": "Ich finde…", "en": "I think/find…", "speak": "Ich finde" },
+        { "target": "Ich glaube…", "en": "I believe…", "speak": "Ich glaube" },
+        { "target": "Meiner Meinung nach…", "en": "In my opinion…", "speak": "Meiner Meinung nach" },
+        { "target": "Das stimmt.", "en": "That's right.", "speak": "Das stimmt." },
+        { "target": "Das sehe ich anders.", "en": "I see it differently.", "speak": "Das sehe ich anders." }
       ]
     },
     {
@@ -54,11 +54,11 @@
       "type": "dialogue",
       "scene": "Jonas and you argue, cheerfully, about Currywurst vs. Döner at the Kneipe.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Ich finde, Currywurst ist das beste Essen in Berlin.", "en": "I think currywurst is the best food in Berlin.", "spotlight": "ich finde + opinion — no dass needed here." },
-        { "speaker": "You", "nl": "Na ja, ich glaube, Döner ist besser.", "en": "Well, I think döner is better." },
-        { "speaker": "Jonas", "nl": "Was?! Das sehe ich total anders!", "en": "What?! I see that completely differently!" },
-        { "speaker": "You", "nl": "Meiner Meinung nach ist Döner einfach praktischer.", "en": "In my opinion, döner is just more practical." },
-        { "speaker": "Jonas", "nl": "Na gut, da hast du vielleicht ein bisschen recht.", "en": "Alright, maybe you're a little bit right about that." }
+        { "speaker": "Jonas", "target": "Ich finde, Currywurst ist das beste Essen in Berlin.", "en": "I think currywurst is the best food in Berlin.", "spotlight": "ich finde + opinion — no dass needed here." },
+        { "speaker": "You", "target": "Na ja, ich glaube, Döner ist besser.", "en": "Well, I think döner is better." },
+        { "speaker": "Jonas", "target": "Was?! Das sehe ich total anders!", "en": "What?! I see that completely differently!" },
+        { "speaker": "You", "target": "Meiner Meinung nach ist Döner einfach praktischer.", "en": "In my opinion, döner is just more practical." },
+        { "speaker": "Jonas", "target": "Na gut, da hast du vielleicht ein bisschen recht.", "en": "Alright, maybe you're a little bit right about that." }
       ]
     },
     {

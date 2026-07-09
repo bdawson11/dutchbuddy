@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-47",
   "day": 47,
   "module": "M07",
@@ -30,11 +30,11 @@
       "type": "chips",
       "title": "Früher & heute",
       "items": [
-        { "nl": "früher", "en": "back then / in the past", "speak": "früher" },
-        { "nl": "heute", "en": "today", "speak": "heute" },
-        { "nl": "immer", "en": "always", "speak": "immer" },
-        { "nl": "nie", "en": "never", "speak": "nie" },
-        { "nl": "jeden Tag", "en": "every day", "speak": "jeden Tag" }
+        { "target": "früher", "en": "back then / in the past", "speak": "früher" },
+        { "target": "heute", "en": "today", "speak": "heute" },
+        { "target": "immer", "en": "always", "speak": "immer" },
+        { "target": "nie", "en": "never", "speak": "nie" },
+        { "target": "jeden Tag", "en": "every day", "speak": "jeden Tag" }
       ]
     },
     {

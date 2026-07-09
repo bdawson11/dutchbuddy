@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-97",
   "day": 97,
   "module": "M14",
@@ -42,16 +42,16 @@
       "type": "dialogue",
       "scene": "A video call with Sofia in Milano, a year after her move.",
       "lines": [
-        { "speaker": "Sofia", "nl": "Allora, ci credi che è già passato un anno da quando mi sono trasferita?", "en": "So, can you believe it's already a year since I moved?" },
-        { "speaker": "You", "nl": "Incredibile. E, col senno di poi, rifaresti tutto?", "en": "Incredible. And, in hindsight, would you do it all again?" },
-        { "speaker": "Sofia", "nl": "Sì. Se fossi rimasta a Bologna, non sarei cresciuta così.", "en": "Yes. If I'd stayed in Bologna, I wouldn't have grown like this.", "spotlight": "tipo III: se fossi rimasta… non sarei cresciuta." },
-        { "speaker": "Sofia", "nl": "Certo, all'inizio è stata dura. Magari avessi conosciuto qualcuno prima!", "en": "Sure, at first it was hard. I wish I'd met someone sooner!", "spotlight": "'magari + congiuntivo' = desiderio." },
-        { "speaker": "You", "nl": "Ti capisco. Se non avessi accettato, però, cosa avresti fatto?", "en": "I get it. But if you hadn't accepted, what would you have done?" },
-        { "speaker": "Sofia", "nl": "Boh. Forse sarei ancora lì a lamentarmi. Avrei dovuto rischiare comunque.", "en": "Dunno. Maybe I'd still be there complaining. I should have taken the risk anyway.", "spotlight": "'avrei dovuto' — rimpianto ipotetico." },
-        { "speaker": "You", "nl": "Beh, hai rischiato. E adesso sei felice.", "en": "Well, you took it. And now you're happy." },
-        { "speaker": "Sofia", "nl": "Molto. Se solo Bologna fosse più vicina, saresti già stato a trovarmi!", "en": "Very. If only Bologna were closer, you'd have already visited!", "spotlight": "'se solo… fosse… saresti stato' — misto ipotetico." },
-        { "speaker": "You", "nl": "Vero! Prometto che vengo presto.", "en": "True! I promise I'll come soon." },
-        { "speaker": "Sofia", "nl": "Ti aspetto, davvero. Un abbraccio!", "en": "I'll be waiting, really. A hug!" }
+        { "speaker": "Sofia", "target": "Allora, ci credi che è già passato un anno da quando mi sono trasferita?", "en": "So, can you believe it's already a year since I moved?" },
+        { "speaker": "You", "target": "Incredibile. E, col senno di poi, rifaresti tutto?", "en": "Incredible. And, in hindsight, would you do it all again?" },
+        { "speaker": "Sofia", "target": "Sì. Se fossi rimasta a Bologna, non sarei cresciuta così.", "en": "Yes. If I'd stayed in Bologna, I wouldn't have grown like this.", "spotlight": "tipo III: se fossi rimasta… non sarei cresciuta." },
+        { "speaker": "Sofia", "target": "Certo, all'inizio è stata dura. Magari avessi conosciuto qualcuno prima!", "en": "Sure, at first it was hard. I wish I'd met someone sooner!", "spotlight": "'magari + congiuntivo' = desiderio." },
+        { "speaker": "You", "target": "Ti capisco. Se non avessi accettato, però, cosa avresti fatto?", "en": "I get it. But if you hadn't accepted, what would you have done?" },
+        { "speaker": "Sofia", "target": "Boh. Forse sarei ancora lì a lamentarmi. Avrei dovuto rischiare comunque.", "en": "Dunno. Maybe I'd still be there complaining. I should have taken the risk anyway.", "spotlight": "'avrei dovuto' — rimpianto ipotetico." },
+        { "speaker": "You", "target": "Beh, hai rischiato. E adesso sei felice.", "en": "Well, you took it. And now you're happy." },
+        { "speaker": "Sofia", "target": "Molto. Se solo Bologna fosse più vicina, saresti già stato a trovarmi!", "en": "Very. If only Bologna were closer, you'd have already visited!", "spotlight": "'se solo… fosse… saresti stato' — misto ipotetico." },
+        { "speaker": "You", "target": "Vero! Prometto che vengo presto.", "en": "True! I promise I'll come soon." },
+        { "speaker": "Sofia", "target": "Ti aspetto, davvero. Un abbraccio!", "en": "I'll be waiting, really. A hug!" }
       ]
     },
     {

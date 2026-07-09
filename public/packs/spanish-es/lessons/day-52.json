@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-52",
   "day": 52,
   "module": "M08",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "Escucha: abrir una opinión",
       "items": [
-        { "nl": "creo que", "en": "I think that…", "speak": "creo que" },
-        { "nl": "pienso que", "en": "I think that…", "speak": "pienso que" },
-        { "nl": "para mí", "en": "for me / in my opinion", "speak": "para mí" },
-        { "nl": "me parece que", "en": "it seems to me that…", "speak": "me parece que" }
+        { "target": "creo que", "en": "I think that…", "speak": "creo que" },
+        { "target": "pienso que", "en": "I think that…", "speak": "pienso que" },
+        { "target": "para mí", "en": "for me / in my opinion", "speak": "para mí" },
+        { "target": "me parece que", "en": "it seems to me that…", "speak": "me parece que" }
       ]
     },
     {
@@ -89,11 +89,11 @@
       "type": "dialogue",
       "scene": "Rafa y tú discutís sobre cuál es el mejor bar del barrio.",
       "lines": [
-        { "speaker": "Rafa", "nl": "Tío, para mí, el mejor bar del barrio es este. Punto.", "en": "Dude, for me, this is the best bar in the neighborhood. Full stop." },
-        { "speaker": "You", "nl": "¿En serio? Yo creo que el de la esquina es mejor.", "en": "Really? I think the one on the corner is better.", "spotlight": "creo que + frase — dar una opinión distinta." },
-        { "speaker": "Rafa", "nl": "¡Qué va! Aquí las tapas son mejores.", "en": "No way! The tapas here are better." },
-        { "speaker": "You", "nl": "Bueno, depende. A mí me parece que las dos están bien.", "en": "Well, it depends. I think both are fine." },
-        { "speaker": "Rafa", "nl": "Puede ser… pero yo no estoy de acuerdo, ¿eh?", "en": "Could be… but I don't agree, you know?" }
+        { "speaker": "Rafa", "target": "Tío, para mí, el mejor bar del barrio es este. Punto.", "en": "Dude, for me, this is the best bar in the neighborhood. Full stop." },
+        { "speaker": "You", "target": "¿En serio? Yo creo que el de la esquina es mejor.", "en": "Really? I think the one on the corner is better.", "spotlight": "creo que + frase — dar una opinión distinta." },
+        { "speaker": "Rafa", "target": "¡Qué va! Aquí las tapas son mejores.", "en": "No way! The tapas here are better." },
+        { "speaker": "You", "target": "Bueno, depende. A mí me parece que las dos están bien.", "en": "Well, it depends. I think both are fine." },
+        { "speaker": "Rafa", "target": "Puede ser… pero yo no estoy de acuerdo, ¿eh?", "en": "Could be… but I don't agree, you know?" }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-89",
   "day": 89,
   "module": "M13",
@@ -30,12 +30,12 @@
       "type": "chips",
       "title": "Fórmulas para suavizar — toca y repite",
       "items": [
-        { "nl": "quería preguntarte una cosa", "en": "I wanted to ask you something", "speak": "quería preguntarte una cosa" },
-        { "nl": "¿te importaría echarme una mano?", "en": "would you mind giving me a hand?", "speak": "¿te importaría echarme una mano?" },
-        { "nl": "¿no sería mejor esperar?", "en": "wouldn't it be better to wait?", "speak": "¿no sería mejor esperar?" },
-        { "nl": "me vendría genial", "en": "it would be great for me", "speak": "me vendría genial" },
-        { "nl": "yo diría que sí", "en": "I'd say yes", "speak": "yo diría que sí" },
-        { "nl": "¿te vendría bien el jueves?", "en": "would Thursday work for you?", "speak": "¿te vendría bien el jueves?" }
+        { "target": "quería preguntarte una cosa", "en": "I wanted to ask you something", "speak": "quería preguntarte una cosa" },
+        { "target": "¿te importaría echarme una mano?", "en": "would you mind giving me a hand?", "speak": "¿te importaría echarme una mano?" },
+        { "target": "¿no sería mejor esperar?", "en": "wouldn't it be better to wait?", "speak": "¿no sería mejor esperar?" },
+        { "target": "me vendría genial", "en": "it would be great for me", "speak": "me vendría genial" },
+        { "target": "yo diría que sí", "en": "I'd say yes", "speak": "yo diría que sí" },
+        { "target": "¿te vendría bien el jueves?", "en": "would Thursday work for you?", "speak": "¿te vendría bien el jueves?" }
       ]
     },
     {
@@ -81,12 +81,12 @@
       "type": "dialogue",
       "scene": "You need a favor from Lucía before a trip — ask it the polite way.",
       "lines": [
-        { "speaker": "You", "nl": "Lucía, quería pedirte una cosa, si no es mucha molestia.", "en": "Lucía, I wanted to ask you something, if it's not too much trouble.", "spotlight": "Imperfecto de cortesía *quería* + amortiguador *si no es mucha molestia*." },
-        { "speaker": "Lucía", "nl": "Claro, dime, ¿qué necesitas?", "en": "Sure, tell me, what do you need?" },
-        { "speaker": "You", "nl": "¿Te importaría regarme las plantas la semana que viene? Me voy a Valencia.", "en": "Would you mind watering my plants next week? I'm going to Valencia." },
-        { "speaker": "Lucía", "nl": "Sin problema. ¿Te vendría bien dejarme las llaves el domingo?", "en": "No problem. Would it work for you to leave me the keys on Sunday?" },
-        { "speaker": "You", "nl": "Genial, me vendría fenomenal. Muchísimas gracias, de verdad.", "en": "Great, that'd be perfect for me. Thank you so much, really." },
-        { "speaker": "Lucía", "nl": "Nada, mujer. Para eso estamos, ¿no?", "en": "Don't mention it. That's what we're here for, right?" }
+        { "speaker": "You", "target": "Lucía, quería pedirte una cosa, si no es mucha molestia.", "en": "Lucía, I wanted to ask you something, if it's not too much trouble.", "spotlight": "Imperfecto de cortesía *quería* + amortiguador *si no es mucha molestia*." },
+        { "speaker": "Lucía", "target": "Claro, dime, ¿qué necesitas?", "en": "Sure, tell me, what do you need?" },
+        { "speaker": "You", "target": "¿Te importaría regarme las plantas la semana que viene? Me voy a Valencia.", "en": "Would you mind watering my plants next week? I'm going to Valencia." },
+        { "speaker": "Lucía", "target": "Sin problema. ¿Te vendría bien dejarme las llaves el domingo?", "en": "No problem. Would it work for you to leave me the keys on Sunday?" },
+        { "speaker": "You", "target": "Genial, me vendría fenomenal. Muchísimas gracias, de verdad.", "en": "Great, that'd be perfect for me. Thank you so much, really." },
+        { "speaker": "Lucía", "target": "Nada, mujer. Para eso estamos, ¿no?", "en": "Don't mention it. That's what we're here for, right?" }
       ]
     },
     {

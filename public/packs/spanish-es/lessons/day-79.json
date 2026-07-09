@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-79",
   "day": 79,
   "module": "M12",
@@ -34,10 +34,10 @@
       "type": "chips",
       "title": "Verde — seguro con todos",
       "items": [
-        { "nl": "¡Qué guay!", "en": "how cool!", "speak": "¡Qué guay!" },
-        { "nl": "mola mucho", "en": "it's really cool", "speak": "mola mucho" },
-        { "nl": "es muy majo", "en": "he's really nice", "speak": "es muy majo" },
-        { "nl": "vale, venga", "en": "okay, come on", "speak": "vale, venga" }
+        { "target": "¡Qué guay!", "en": "how cool!", "speak": "¡Qué guay!" },
+        { "target": "mola mucho", "en": "it's really cool", "speak": "mola mucho" },
+        { "target": "es muy majo", "en": "he's really nice", "speak": "es muy majo" },
+        { "target": "vale, venga", "en": "okay, come on", "speak": "vale, venga" }
       ]
     },
     {
@@ -70,13 +70,13 @@
       "type": "dialogue",
       "scene": "Rafa tells you about a rough day at the bookshop — spot the register",
       "lines": [
-        { "speaker": "Rafa", "nl": "Tío, menudo día de curro llevo.", "en": "Mate, what a workday I'm having." },
-        { "speaker": "You", "nl": "¿Qué ha pasado? ¿Una movida?", "en": "What happened? Some hassle?" },
-        { "speaker": "Rafa", "nl": "Buah, el ordenador se ha roto y he perdido un pedido gordo. Joder.", "en": "Ugh, the computer broke and I lost a big order. Damn.", "spotlight": "*Joder* is red-tier — Rafa uses it among friends. You recognize it; you don't have to copy it." },
-        { "speaker": "You", "nl": "Jolín, qué chungo. ¿Y la pasta del pedido?", "en": "Darn, that's rough. And the money from the order?" },
-        { "speaker": "Rafa", "nl": "Pues la recupero, pero flipo con la mala suerte.", "en": "I'll get it back, but I can't believe my bad luck." },
-        { "speaker": "Lucía", "nl": "Venga, hombre, invito yo a la caña. Que no ha sido para tanto.", "en": "Come on, my treat on the beer. It wasn't that big a deal." },
-        { "speaker": "Rafa", "nl": "Eres la leche, Lucía. Gracias, tía.", "en": "You're the best, Lucía. Thanks." }
+        { "speaker": "Rafa", "target": "Tío, menudo día de curro llevo.", "en": "Mate, what a workday I'm having." },
+        { "speaker": "You", "target": "¿Qué ha pasado? ¿Una movida?", "en": "What happened? Some hassle?" },
+        { "speaker": "Rafa", "target": "Buah, el ordenador se ha roto y he perdido un pedido gordo. Joder.", "en": "Ugh, the computer broke and I lost a big order. Damn.", "spotlight": "*Joder* is red-tier — Rafa uses it among friends. You recognize it; you don't have to copy it." },
+        { "speaker": "You", "target": "Jolín, qué chungo. ¿Y la pasta del pedido?", "en": "Darn, that's rough. And the money from the order?" },
+        { "speaker": "Rafa", "target": "Pues la recupero, pero flipo con la mala suerte.", "en": "I'll get it back, but I can't believe my bad luck." },
+        { "speaker": "Lucía", "target": "Venga, hombre, invito yo a la caña. Que no ha sido para tanto.", "en": "Come on, my treat on the beer. It wasn't that big a deal." },
+        { "speaker": "Rafa", "target": "Eres la leche, Lucía. Gracias, tía.", "en": "You're the best, Lucía. Thanks." }
       ]
     },
     {

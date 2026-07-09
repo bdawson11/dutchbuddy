@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-41",
   "day": 41,
   "module": "M06",
@@ -29,10 +29,10 @@
       "type": "chips",
       "title": "Mix van deze week",
       "items": [
-        { "nl": "buikpijn", "en": "stomachache", "speak": "buikpijn" },
-        { "nl": "de afspraak", "en": "the appointment", "speak": "de afspraak" },
-        { "nl": "zenuwachtig", "en": "nervous", "speak": "zenuwachtig" },
-        { "nl": "je kunt beter", "en": "you'd better", "speak": "je kunt beter" }
+        { "target": "buikpijn", "en": "stomachache", "speak": "buikpijn" },
+        { "target": "de afspraak", "en": "the appointment", "speak": "de afspraak" },
+        { "target": "zenuwachtig", "en": "nervous", "speak": "zenuwachtig" },
+        { "target": "je kunt beter", "en": "you'd better", "speak": "je kunt beter" }
       ]
     },
     {
@@ -53,15 +53,15 @@
       "type": "dialogue",
       "scene": "Sanne calls you — she's had one bad thing after another this week",
       "lines": [
-        { "speaker": "Sanne", "nl": "Hoi... ik heb een zware week gehad, eerlijk gezegd.", "en": "Hi... I've had a rough week, honestly." },
-        { "speaker": "You", "nl": "Oh nee, wat is er gebeurd?", "en": "Oh no, what happened?" },
-        { "speaker": "Sanne", "nl": "Mijn fiets is gestolen, midden in Amsterdam!", "en": "My bike got stolen, right in the middle of Amsterdam!", "spotlight": "is gestolen — perfect tense from week 5, back in the wild" },
-        { "speaker": "You", "nl": "Wat vervelend! En toen?", "en": "How annoying! And then?" },
-        { "speaker": "Sanne", "nl": "En toen werd ik ook nog ziek. Ik voelde me heel beroerd — koorts, hoofdpijn, alles.", "en": "And then I got sick on top of it. I felt awful — fever, headache, everything." },
-        { "speaker": "You", "nl": "Ben je naar de huisarts geweest?", "en": "Did you go to the GP?" },
-        { "speaker": "Sanne", "nl": "Ja, gisteren. Ze zei dat het gewoon griep was en dat ik rust moest nemen.", "en": "Yes, yesterday. She said it was just the flu and that I should rest." },
-        { "speaker": "You", "nl": "Nou, dan moet je nu vooral rust nemen, hoor.", "en": "Well, then you really must rest now." },
-        { "speaker": "Sanne", "nl": "Dat doe ik. Bedankt dat je vraagt.", "en": "That's what I'm doing. Thanks for asking." }
+        { "speaker": "Sanne", "target": "Hoi... ik heb een zware week gehad, eerlijk gezegd.", "en": "Hi... I've had a rough week, honestly." },
+        { "speaker": "You", "target": "Oh nee, wat is er gebeurd?", "en": "Oh no, what happened?" },
+        { "speaker": "Sanne", "target": "Mijn fiets is gestolen, midden in Amsterdam!", "en": "My bike got stolen, right in the middle of Amsterdam!", "spotlight": "is gestolen — perfect tense from week 5, back in the wild" },
+        { "speaker": "You", "target": "Wat vervelend! En toen?", "en": "How annoying! And then?" },
+        { "speaker": "Sanne", "target": "En toen werd ik ook nog ziek. Ik voelde me heel beroerd — koorts, hoofdpijn, alles.", "en": "And then I got sick on top of it. I felt awful — fever, headache, everything." },
+        { "speaker": "You", "target": "Ben je naar de huisarts geweest?", "en": "Did you go to the GP?" },
+        { "speaker": "Sanne", "target": "Ja, gisteren. Ze zei dat het gewoon griep was en dat ik rust moest nemen.", "en": "Yes, yesterday. She said it was just the flu and that I should rest." },
+        { "speaker": "You", "target": "Nou, dan moet je nu vooral rust nemen, hoor.", "en": "Well, then you really must rest now." },
+        { "speaker": "Sanne", "target": "Dat doe ik. Bedankt dat je vraagt.", "en": "That's what I'm doing. Thanks for asking." }
       ]
     },
     {

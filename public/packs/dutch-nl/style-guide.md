@@ -16,7 +16,7 @@ passes on the first run and 84 days written in parallel read as one app.*
 ## 2. English ↔ Dutch formatting conventions
 
 - In `card`/`callout` **body** (markdown): Dutch example words in *italics* (`*maan*`), key rules or the "one new thing" in **bold**. Glosses in parentheses: `*maan* (moon)`.
-- In `chips`/`shadow`/`dialogue`: Dutch goes in the `nl` field, English gloss in `en`. Do **not** repeat the translation inside `nl`.
+- In `chips`/`shadow`/`dialogue`: Dutch goes in the `target` field, English gloss in `en`. Do **not** repeat the translation inside `target`. (Schema v1 packs named this field `nl`; the engine reads `target ?? nl`, but new content uses `target`.)
 - Em dashes for "word — gloss" inside table cells: `"maan — moon"`.
 - Keep English glosses tight — a word or short phrase, not a sentence.
 - Only real markdown supported by the engine is `**bold**` and `*italic*` (see `blocks/index.jsx` `md()`), plus tables via the `table` field. No headings, lists, links, or code in `body`.
@@ -41,21 +41,21 @@ A normal `lesson` should include **at least 3 graded blocks** (mcq/typed/dictati
 
 ## 5. Block authoring rules (schema + gotchas)
 
-Top-level lesson fields (all required): `schemaVersion` (always `1`), `id` (`"day-NN"`, zero-padded), `day` (int, matches id), `module` (`"MNN"`, matches the manifest week), `unit`, `kind`, `title` (Dutch, evocative), `emoji` (one, topical), `level` (`A1`/`A2`/`B1`), `durationMin` (`[15,25]` typical), `summary` (one English line), `blocks[]`.
+Top-level lesson fields (all required): `schemaVersion` (always `2`), `id` (`"day-NN"`, zero-padded), `day` (int, matches id), `module` (`"MNN"`, matches the manifest week), `unit`, `kind`, `title` (Dutch, evocative), `emoji` (one, topical), `level` (`A1`/`A2`/`B1`), `durationMin` (`[15,25]` typical), `summary` (one English line), `blocks[]`.
 
 `unit` convention: `"U"` + two digits, incrementing within a module is fine; simplest is one unit per week (e.g. all of M05 = `"U05"`). Keep it consistent within a week.
 
 Per block type — **required fields and the traps:**
 
 - **card** — `title`, `body` (markdown). Optional `table` {`headers[]`, `rows[]`} — **every row array length must equal headers length** (validator fails otherwise). Optional `callout` (one punchy line). No audio.
-- **chips** — `items[]`, each `{nl, en, speak?}`. Set `speak` to the exact Dutch to voice (usually = `nl`). Optional `title`. 4–8 items.
+- **chips** — `items[]`, each `{target, en, speak?}`. Set `speak` to the exact Dutch to voice (usually = `target`). Optional `title`. 4–8 items.
 - **contrast** — `pairs[]`, each `{left, right, note?}`. Use for de/het, ij/ei, perfect vs imperfect, blunt vs soft particles. `note` explains the split.
 - **mcq** — `prompt`, `options[]` (≥2), `correct` (**0-based index**, in range), `explain`. Exactly one right option. `explain` teaches, doesn't just confirm.
 - **typed** — `prompt`, `answers[]` (≥1). List **every** acceptable spelling explicitly: contractions (`"'t is"` and `"het is"`), with/without article (`"maan"`, `"de maan"`), spacing variants. Optional `hint`, `explain`. Grading normalizes case/whitespace/terminal punctuation and is diacritic-tolerant, so `een`/`één` both pass — but still put the correct accented form **first** in `answers` (it's shown as the gentle correction).
 - **dictation** — `speak` (Dutch to voice), `answers[]`. `prompt` optional (defaults nicely). Keep `speak` short enough to hold in memory (≤6 words early, longer later).
 - **builder** — `slots[]`, each `{label, chips[]}` (**chips required and non-empty** — the schema needs chips even if you imagine free text). `sample` (a model full sentence). Optional `prompt`, `starters`. Great for V2/word-order practice: one slot per sentence position.
-- **dialogue** — `scene` (English stage-setting line), `lines[]` each `{speaker, nl, en, spotlight?}`. **`speaker` must be `"You"` or a name in the manifest cast** (Emma/Daan/Sanne/Bram) — anything else fails validation. `spotlight` flags a teachable moment on that line. 4–10 lines. Honor the arc timeline.
-- **shadow** — `lines[]` each `{nl, en}`. Listen→repeat. Optional `title`. 3–6 lines.
+- **dialogue** — `scene` (English stage-setting line), `lines[]` each `{speaker, target, en, spotlight?}`. **`speaker` must be `"You"` or a name in the manifest cast** (Emma/Daan/Sanne/Bram) — anything else fails validation. `spotlight` flags a teachable moment on that line. 4–10 lines. Honor the arc timeline.
+- **shadow** — `lines[]` each `{target, en}`. Listen→repeat. Optional `title`. 3–6 lines.
 - **comprehension** — `questions[]` each `{q, options[], correct}` (`correct` 0-based, in range). Use **after** a dialogue/passage in the same lesson.
 - **journal** — `prompt`. Optional `starters[]` (Dutch sentence openers), `minSentences`. Closes most lessons; free text, saved locally.
 
@@ -70,7 +70,7 @@ Per block type — **required fields and the traps:**
 
 ## 7. Difficulty ramp across the 84 days
 
-- **A1 (W1–4):** English scaffolding heavy. Short `nl`. Explanations in English. Dialogues 3–5 lines, simple.
+- **A1 (W1–4):** English scaffolding heavy. Short `target`. Explanations in English. Dialogues 3–5 lines, simple.
 - **A2 (W5–8):** glosses shorten; dialogues lengthen; introduce past tenses; some `explain`/`spotlight` text starts appearing in easy Dutch.
 - **B1 (W9–12):** dialogues run 6–10 lines; prompts increasingly in Dutch; comprehension questions in Dutch; journal prompts in Dutch. By W12 the learner is being asked to "blijf in het Nederlands."
 

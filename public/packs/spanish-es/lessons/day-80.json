@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-80",
   "day": 80,
   "module": "M12",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "El pedido — toca para oír",
       "items": [
-        { "nl": "¿Qué vais a tomar?", "en": "what are you all having?", "speak": "¿Qué vais a tomar?" },
-        { "nl": "Ponme una caña, porfa.", "en": "pour me a small beer, please", "speak": "Ponme una caña, porfa." },
-        { "nl": "¿Nos pones unas bravas?", "en": "can you bring us some patatas bravas?", "speak": "¿Nos pones unas bravas?" },
-        { "nl": "Yo invito.", "en": "my treat", "speak": "Yo invito." },
-        { "nl": "Esta ronda la pago yo.", "en": "I'll get this round", "speak": "Esta ronda la pago yo." },
-        { "nl": "¿Pagamos a escote?", "en": "shall we split it?", "speak": "¿Pagamos a escote?" }
+        { "target": "¿Qué vais a tomar?", "en": "what are you all having?", "speak": "¿Qué vais a tomar?" },
+        { "target": "Ponme una caña, porfa.", "en": "pour me a small beer, please", "speak": "Ponme una caña, porfa." },
+        { "target": "¿Nos pones unas bravas?", "en": "can you bring us some patatas bravas?", "speak": "¿Nos pones unas bravas?" },
+        { "target": "Yo invito.", "en": "my treat", "speak": "Yo invito." },
+        { "target": "Esta ronda la pago yo.", "en": "I'll get this round", "speak": "Esta ronda la pago yo." },
+        { "target": "¿Pagamos a escote?", "en": "shall we split it?", "speak": "¿Pagamos a escote?" }
       ]
     },
     {
@@ -65,13 +65,13 @@
       "type": "dialogue",
       "scene": "A round of cañas with Rafa and Lucía — the full tapeo flow",
       "lines": [
-        { "speaker": "Lucía", "nl": "Venga, ¿qué tomáis? Empiezo yo la ronda.", "en": "Come on, what are you having? I'll start the round." },
-        { "speaker": "Rafa", "nl": "Ponme una caña y unas bravas, porfa.", "en": "A small beer and some bravas, please." },
-        { "speaker": "You", "nl": "Para mí una clara. ¿Pedimos jamón para compartir?", "en": "A shandy for me. Shall we get some ham to share?" },
-        { "speaker": "Lucía", "nl": "¡Hombre, claro! Oye, ¿nos pones una ración de jamón?", "en": "Of course! Hey, can you bring us a plate of ham?" },
-        { "speaker": "Rafa", "nl": "La próxima ronda la pago yo, ¿eh?", "en": "Next round's on me, okay?", "spotlight": "*la próxima ronda la pago yo* — taking your turn, the heart of the ronda." },
-        { "speaker": "You", "nl": "O pagamos a escote y ya está.", "en": "Or we just split it and be done." },
-        { "speaker": "Lucía", "nl": "Eso, y nos quedamos de sobremesa. No tengo prisa.", "en": "That, and we stay for the sobremesa. I'm in no rush." }
+        { "speaker": "Lucía", "target": "Venga, ¿qué tomáis? Empiezo yo la ronda.", "en": "Come on, what are you having? I'll start the round." },
+        { "speaker": "Rafa", "target": "Ponme una caña y unas bravas, porfa.", "en": "A small beer and some bravas, please." },
+        { "speaker": "You", "target": "Para mí una clara. ¿Pedimos jamón para compartir?", "en": "A shandy for me. Shall we get some ham to share?" },
+        { "speaker": "Lucía", "target": "¡Hombre, claro! Oye, ¿nos pones una ración de jamón?", "en": "Of course! Hey, can you bring us a plate of ham?" },
+        { "speaker": "Rafa", "target": "La próxima ronda la pago yo, ¿eh?", "en": "Next round's on me, okay?", "spotlight": "*la próxima ronda la pago yo* — taking your turn, the heart of the ronda." },
+        { "speaker": "You", "target": "O pagamos a escote y ya está.", "en": "Or we just split it and be done." },
+        { "speaker": "Lucía", "target": "Eso, y nos quedamos de sobremesa. No tengo prisa.", "en": "That, and we stay for the sobremesa. I'm in no rush." }
       ]
     },
     {

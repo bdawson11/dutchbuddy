@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-75",
   "day": 75,
   "module": "M11",
@@ -36,12 +36,12 @@
       "type": "chips",
       "title": "Same question, both registers",
       "items": [
-        { "nl": "Wilt u koffie?", "en": "Would you like coffee? (u)", "speak": "Wilt u koffie?" },
-        { "nl": "Wil je koffie?", "en": "Want coffee? (je)", "speak": "Wil je koffie?" },
-        { "nl": "Kan ik u helpen?", "en": "Can I help you? (u)", "speak": "Kan ik u helpen?" },
-        { "nl": "Kan ik je helpen?", "en": "Can I help you? (je)", "speak": "Kan ik je helpen?" },
-        { "nl": "Hoe heet u?", "en": "What's your name? (u)", "speak": "Hoe heet u?" },
-        { "nl": "Hoe heet je?", "en": "What's your name? (je)", "speak": "Hoe heet je?" }
+        { "target": "Wilt u koffie?", "en": "Would you like coffee? (u)", "speak": "Wilt u koffie?" },
+        { "target": "Wil je koffie?", "en": "Want coffee? (je)", "speak": "Wil je koffie?" },
+        { "target": "Kan ik u helpen?", "en": "Can I help you? (u)", "speak": "Kan ik u helpen?" },
+        { "target": "Kan ik je helpen?", "en": "Can I help you? (je)", "speak": "Kan ik je helpen?" },
+        { "target": "Hoe heet u?", "en": "What's your name? (u)", "speak": "Hoe heet u?" },
+        { "target": "Hoe heet je?", "en": "What's your name? (je)", "speak": "Hoe heet je?" }
       ]
     },
     {
@@ -84,11 +84,11 @@
       "type": "dialogue",
       "scene": "You meet Bram, an architect through work — older, measured. You start formal; he opens the door.",
       "lines": [
-        { "speaker": "You", "nl": "Goedemiddag. Aangenaam. Werkt u ook aan dit project?", "en": "Good afternoon. Nice to meet you. Are you also working on this project?", "spotlight": "Opening high with u — safe and respectful." },
-        { "speaker": "Bram", "nl": "Zeker. Bram, aangenaam. En zeg maar je, hoor.", "en": "Sure am. Bram, likewise. And just say je, really.", "spotlight": "Bram offers tutoyeren — the senior person's move." },
-        { "speaker": "You", "nl": "Oké, dank je. Dan zeg ik ook je. Woon je in Rotterdam?", "en": "Okay, thanks. Then I'll use je too. Do you live in Rotterdam?", "spotlight": "Accept warmly and switch immediately." },
-        { "speaker": "Bram", "nl": "Klopt. Geen woorden maar daden, hè.", "en": "Correct. Actions, not words, eh.", "spotlight": "Bram's Rotterdam pride, on cue." },
-        { "speaker": "You", "nl": "Haha, dat merk ik. Leuk je te leren kennen.", "en": "Haha, I can tell. Nice to get to know you." }
+        { "speaker": "You", "target": "Goedemiddag. Aangenaam. Werkt u ook aan dit project?", "en": "Good afternoon. Nice to meet you. Are you also working on this project?", "spotlight": "Opening high with u — safe and respectful." },
+        { "speaker": "Bram", "target": "Zeker. Bram, aangenaam. En zeg maar je, hoor.", "en": "Sure am. Bram, likewise. And just say je, really.", "spotlight": "Bram offers tutoyeren — the senior person's move." },
+        { "speaker": "You", "target": "Oké, dank je. Dan zeg ik ook je. Woon je in Rotterdam?", "en": "Okay, thanks. Then I'll use je too. Do you live in Rotterdam?", "spotlight": "Accept warmly and switch immediately." },
+        { "speaker": "Bram", "target": "Klopt. Geen woorden maar daden, hè.", "en": "Correct. Actions, not words, eh.", "spotlight": "Bram's Rotterdam pride, on cue." },
+        { "speaker": "You", "target": "Haha, dat merk ik. Leuk je te leren kennen.", "en": "Haha, I can tell. Nice to get to know you." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-51",
   "day": 51,
   "module": "M08",
@@ -30,11 +30,11 @@
       "type": "chips",
       "title": "Pläne machen — tap to hear",
       "items": [
-        { "nl": "Ich will…", "en": "I want to…", "speak": "Ich will" },
-        { "nl": "Ich möchte…", "en": "I'd like to…", "speak": "Ich möchte" },
-        { "nl": "Hast du Lust?", "en": "Do you feel like it?", "speak": "Hast du Lust?" },
-        { "nl": "Sollen wir…?", "en": "Shall we…?", "speak": "Sollen wir" },
-        { "nl": "Gute Idee!", "en": "Good idea!", "speak": "Gute Idee!" }
+        { "target": "Ich will…", "en": "I want to…", "speak": "Ich will" },
+        { "target": "Ich möchte…", "en": "I'd like to…", "speak": "Ich möchte" },
+        { "target": "Hast du Lust?", "en": "Do you feel like it?", "speak": "Hast du Lust?" },
+        { "target": "Sollen wir…?", "en": "Shall we…?", "speak": "Sollen wir" },
+        { "target": "Gute Idee!", "en": "Good idea!", "speak": "Gute Idee!" }
       ]
     },
     {
@@ -77,11 +77,11 @@
       "type": "dialogue",
       "scene": "Jonas texts you about the weekend.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Ey, hast du Lust? Sollen wir am Samstag in die Kneipe gehen?", "en": "Hey, feel like it? Shall we go to the pub on Saturday?", "spotlight": "Sollen wir + infinitive: the go-to way to propose a plan." },
-        { "speaker": "You", "nl": "Gute Idee! Ich möchte auch Lena einladen.", "en": "Good idea! I'd like to invite Lena too." },
-        { "speaker": "Jonas", "nl": "Passt! Ich will auch Aylin fragen, aber sie hat oft viel zu tun.", "en": "Works for me! I want to ask Aylin too, but she's often got a lot going on." },
-        { "speaker": "You", "nl": "Okay, dann schreibe ich ihr auch kurz.", "en": "Okay, I'll message her too then." },
-        { "speaker": "Jonas", "nl": "Super, bis Samstag!", "en": "Great, see you Saturday!" }
+        { "speaker": "Jonas", "target": "Ey, hast du Lust? Sollen wir am Samstag in die Kneipe gehen?", "en": "Hey, feel like it? Shall we go to the pub on Saturday?", "spotlight": "Sollen wir + infinitive: the go-to way to propose a plan." },
+        { "speaker": "You", "target": "Gute Idee! Ich möchte auch Lena einladen.", "en": "Good idea! I'd like to invite Lena too." },
+        { "speaker": "Jonas", "target": "Passt! Ich will auch Aylin fragen, aber sie hat oft viel zu tun.", "en": "Works for me! I want to ask Aylin too, but she's often got a lot going on." },
+        { "speaker": "You", "target": "Okay, dann schreibe ich ihr auch kurz.", "en": "Okay, I'll message her too then." },
+        { "speaker": "Jonas", "target": "Super, bis Samstag!", "en": "Great, see you Saturday!" }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-19",
   "day": 19,
   "module": "M03",
@@ -30,12 +30,12 @@
       "type": "chips",
       "title": "Tap to hear the phrases",
       "items": [
-        { "nl": "für meinen Bruder", "en": "for my brother", "speak": "für meinen Bruder" },
-        { "nl": "ohne dich", "en": "without you", "speak": "ohne dich" },
-        { "nl": "gegen den Wind", "en": "against the wind", "speak": "gegen den Wind" },
-        { "nl": "um die Ecke", "en": "around the corner", "speak": "um die Ecke" },
-        { "nl": "durch den Park", "en": "through the park", "speak": "durch den Park" },
-        { "nl": "für den Feierabend", "en": "for after-work time", "speak": "für den Feierabend" }
+        { "target": "für meinen Bruder", "en": "for my brother", "speak": "für meinen Bruder" },
+        { "target": "ohne dich", "en": "without you", "speak": "ohne dich" },
+        { "target": "gegen den Wind", "en": "against the wind", "speak": "gegen den Wind" },
+        { "target": "um die Ecke", "en": "around the corner", "speak": "um die Ecke" },
+        { "target": "durch den Park", "en": "through the park", "speak": "durch den Park" },
+        { "target": "für den Feierabend", "en": "for after-work time", "speak": "für den Feierabend" }
       ]
     },
     {
@@ -71,10 +71,10 @@
       "type": "shadow",
       "title": "Repeat after the audio",
       "lines": [
-        { "nl": "Ich gehe für dich einkaufen.", "en": "I'll go shopping for you." },
-        { "nl": "Ohne meinen Kaffee bin ich nichts.", "en": "Without my coffee I'm nothing." },
-        { "nl": "Der Späti ist gleich um die Ecke.", "en": "The Späti is right around the corner." },
-        { "nl": "Wir gehen durch den Park.", "en": "We're walking through the park." }
+        { "target": "Ich gehe für dich einkaufen.", "en": "I'll go shopping for you." },
+        { "target": "Ohne meinen Kaffee bin ich nichts.", "en": "Without my coffee I'm nothing." },
+        { "target": "Der Späti ist gleich um die Ecke.", "en": "The Späti is right around the corner." },
+        { "target": "Wir gehen durch den Park.", "en": "We're walking through the park." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-63",
   "day": 63,
   "module": "M09",
@@ -21,20 +21,20 @@
       "type": "chips",
       "title": "Repaso rápido — toca para escuchar",
       "items": [
-        { "nl": "Me alegro de que te vaya bien.", "en": "I'm glad it's going well for you.", "speak": "Me alegro de que te vaya bien." },
-        { "nl": "Cuando lo decida, nos dice.", "en": "When she decides, she'll tell us.", "speak": "Cuando lo decida, nos dice." },
-        { "nl": "Me contó que estaba hecha un lío.", "en": "She told me she was all confused.", "speak": "Me contó que estaba hecha un lío." },
-        { "nl": "¿Podrías repetírmelo?", "en": "Could you say it again?", "speak": "¿Podrías repetírmelo?" },
-        { "nl": "Si fuera ella, lo aceptaría.", "en": "If I were her, I'd accept it.", "speak": "Si fuera ella, lo aceptaría." }
+        { "target": "Me alegro de que te vaya bien.", "en": "I'm glad it's going well for you.", "speak": "Me alegro de que te vaya bien." },
+        { "target": "Cuando lo decida, nos dice.", "en": "When she decides, she'll tell us.", "speak": "Cuando lo decida, nos dice." },
+        { "target": "Me contó que estaba hecha un lío.", "en": "She told me she was all confused.", "speak": "Me contó que estaba hecha un lío." },
+        { "target": "¿Podrías repetírmelo?", "en": "Could you say it again?", "speak": "¿Podrías repetírmelo?" },
+        { "target": "Si fuera ella, lo aceptaría.", "en": "If I were her, I'd accept it.", "speak": "Si fuera ella, lo aceptaría." }
       ]
     },
     {
       "type": "shadow",
       "title": "Calienta — repite en estilo indirecto",
       "lines": [
-        { "nl": "Me dijo que estaba muy contenta.", "en": "She told me she was really happy." },
-        { "nl": "Me contó que había cambiado de trabajo.", "en": "He told me he'd changed jobs." },
-        { "nl": "Me preguntó si quería ir con ellos.", "en": "She asked me if I wanted to go with them." }
+        { "target": "Me dijo que estaba muy contenta.", "en": "She told me she was really happy." },
+        { "target": "Me contó que había cambiado de trabajo.", "en": "He told me he'd changed jobs." },
+        { "target": "Me preguntó si quería ir con ellos.", "en": "She asked me if I wanted to go with them." }
       ]
     },
     {
@@ -62,14 +62,14 @@
       "type": "dialogue",
       "scene": "Ya se sabe la noticia. Cotilleas con Rafa sobre lo de Sofía — pero aún no ha decidido nada",
       "lines": [
-        { "speaker": "Rafa", "nl": "¿Te has enterado de lo de Sofía?", "en": "Have you heard about Sofía?" },
-        { "speaker": "You", "nl": "Sí, Lucía me lo contó. Me dijo que le habían ofrecido un trabajo en Valencia.", "en": "Yeah, Lucía told me. She said Sofía had been offered a job in Valencia.", "spotlight": "me dijo que + pluscuamperfecto: pasas el cotilleo en estilo indirecto." },
-        { "speaker": "Rafa", "nl": "Exacto. Y ayer hablé con ella. Me dijo que estaba hecha un lío.", "en": "Exactly. And yesterday I spoke to her. She told me she was all over the place." },
-        { "speaker": "You", "nl": "Normal, ¿no? Es una decisión enorme.", "en": "Understandable, right? It's a huge decision." },
-        { "speaker": "Rafa", "nl": "Ya. Le pregunté si se iba a ir y me dijo que aún no lo sabía.", "en": "Yeah. I asked if she was going to go and she said she didn't know yet.", "spotlight": "le pregunté si… + me dijo que…: pregunta indirecta + backshift." },
-        { "speaker": "You", "nl": "Yo le dije que hiciera lo que sintiera. Pero la voy a echar de menos.", "en": "I told her to do what she felt was right. But I'm going to miss her.", "spotlight": "le dije que + imperfecto de subjuntivo (hiciera, sintiera): consejo en estilo indirecto." },
-        { "speaker": "Rafa", "nl": "Y yo, tío. Pero, oye, si acepta, ¡nos vamos a Valencia de finde!", "en": "Me too, man. But hey, if she accepts, we're off to Valencia for the weekend!", "spotlight": "si acepta + presente: condición real, repaso del día 61." },
-        { "speaker": "You", "nl": "¡Eso seguro! Espero que se decida pronto.", "en": "For sure! I hope she makes up her mind soon.", "spotlight": "espero que + subjuntivo (se decida)." }
+        { "speaker": "Rafa", "target": "¿Te has enterado de lo de Sofía?", "en": "Have you heard about Sofía?" },
+        { "speaker": "You", "target": "Sí, Lucía me lo contó. Me dijo que le habían ofrecido un trabajo en Valencia.", "en": "Yeah, Lucía told me. She said Sofía had been offered a job in Valencia.", "spotlight": "me dijo que + pluscuamperfecto: pasas el cotilleo en estilo indirecto." },
+        { "speaker": "Rafa", "target": "Exacto. Y ayer hablé con ella. Me dijo que estaba hecha un lío.", "en": "Exactly. And yesterday I spoke to her. She told me she was all over the place." },
+        { "speaker": "You", "target": "Normal, ¿no? Es una decisión enorme.", "en": "Understandable, right? It's a huge decision." },
+        { "speaker": "Rafa", "target": "Ya. Le pregunté si se iba a ir y me dijo que aún no lo sabía.", "en": "Yeah. I asked if she was going to go and she said she didn't know yet.", "spotlight": "le pregunté si… + me dijo que…: pregunta indirecta + backshift." },
+        { "speaker": "You", "target": "Yo le dije que hiciera lo que sintiera. Pero la voy a echar de menos.", "en": "I told her to do what she felt was right. But I'm going to miss her.", "spotlight": "le dije que + imperfecto de subjuntivo (hiciera, sintiera): consejo en estilo indirecto." },
+        { "speaker": "Rafa", "target": "Y yo, tío. Pero, oye, si acepta, ¡nos vamos a Valencia de finde!", "en": "Me too, man. But hey, if she accepts, we're off to Valencia for the weekend!", "spotlight": "si acepta + presente: condición real, repaso del día 61." },
+        { "speaker": "You", "target": "¡Eso seguro! Espero que se decida pronto.", "en": "For sure! I hope she makes up her mind soon.", "spotlight": "espero que + subjuntivo (se decida)." }
       ]
     },
     {

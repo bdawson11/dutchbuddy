@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-78",
   "day": 78,
   "module": "M12",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Toca para oír las reacciones",
       "items": [
-        { "nl": "¡Qué va!", "en": "no way / not at all", "speak": "¡Qué va!" },
-        { "nl": "¡Anda!", "en": "oh! / wow / come on", "speak": "¡Anda!" },
-        { "nl": "¡Venga ya!", "en": "you're kidding / oh come on", "speak": "¡Venga ya!" },
-        { "nl": "¡Hala!", "en": "whoa / no way", "speak": "¡Hala!" },
-        { "nl": "¡Madre mía!", "en": "good grief / oh my", "speak": "¡Madre mía!" },
-        { "nl": "¡Qué fuerte!", "en": "that's intense / wow", "speak": "¡Qué fuerte!" }
+        { "target": "¡Qué va!", "en": "no way / not at all", "speak": "¡Qué va!" },
+        { "target": "¡Anda!", "en": "oh! / wow / come on", "speak": "¡Anda!" },
+        { "target": "¡Venga ya!", "en": "you're kidding / oh come on", "speak": "¡Venga ya!" },
+        { "target": "¡Hala!", "en": "whoa / no way", "speak": "¡Hala!" },
+        { "target": "¡Madre mía!", "en": "good grief / oh my", "speak": "¡Madre mía!" },
+        { "target": "¡Qué fuerte!", "en": "that's intense / wow", "speak": "¡Qué fuerte!" }
       ]
     },
     {
@@ -60,13 +60,13 @@
       "type": "dialogue",
       "scene": "Rafa drops some news on the terrace — react along with Lucía",
       "lines": [
-        { "speaker": "Rafa", "nl": "¿Te has enterado? Nacho se compra una casa en el pueblo.", "en": "Have you heard? Nacho's buying a house in the village." },
-        { "speaker": "Lucía", "nl": "¡Anda! ¿En serio?", "en": "Huh! Really?", "spotlight": "*¡Anda!* = spontaneous surprise, no translation needed." },
-        { "speaker": "Rafa", "nl": "Que sí, tía. Y dice que Madrid es un agobio.", "en": "Yeah, really. And he says Madrid is exhausting." },
-        { "speaker": "You", "nl": "¡Hombre, eso lo dice siempre!", "en": "Come on, he always says that!" },
-        { "speaker": "Lucía", "nl": "¡Qué va! Esta vez va en serio.", "en": "Not at all! This time he means it." },
-        { "speaker": "Rafa", "nl": "Jolín, pues le voy a echar de menos en el bar.", "en": "Darn, I'm going to miss him at the bar then." },
-        { "speaker": "You", "nl": "¡Venga ya, si el pueblo está a una hora!", "en": "Oh come on, the village is an hour away!" }
+        { "speaker": "Rafa", "target": "¿Te has enterado? Nacho se compra una casa en el pueblo.", "en": "Have you heard? Nacho's buying a house in the village." },
+        { "speaker": "Lucía", "target": "¡Anda! ¿En serio?", "en": "Huh! Really?", "spotlight": "*¡Anda!* = spontaneous surprise, no translation needed." },
+        { "speaker": "Rafa", "target": "Que sí, tía. Y dice que Madrid es un agobio.", "en": "Yeah, really. And he says Madrid is exhausting." },
+        { "speaker": "You", "target": "¡Hombre, eso lo dice siempre!", "en": "Come on, he always says that!" },
+        { "speaker": "Lucía", "target": "¡Qué va! Esta vez va en serio.", "en": "Not at all! This time he means it." },
+        { "speaker": "Rafa", "target": "Jolín, pues le voy a echar de menos en el bar.", "en": "Darn, I'm going to miss him at the bar then." },
+        { "speaker": "You", "target": "¡Venga ya, si el pueblo está a una hora!", "en": "Oh come on, the village is an hour away!" }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-58",
   "day": 58,
   "module": "M09",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "I trigger — ascolta",
       "items": [
-        { "nl": "È possibile che piova.", "en": "It might rain.", "speak": "È possibile che piova." },
-        { "nl": "Bisogna che tu vada.", "en": "You need to go.", "speak": "Bisogna che tu vada." },
-        { "nl": "Sono contento che tu sia qui.", "en": "I'm glad you're here.", "speak": "Sono contento che tu sia qui." },
-        { "nl": "Ho paura che sia tardi.", "en": "I'm afraid it's late.", "speak": "Ho paura che sia tardi." },
-        { "nl": "Dubito che venga.", "en": "I doubt he'll come.", "speak": "Dubito che venga." },
-        { "nl": "Non credo che sia vero.", "en": "I don't think it's true.", "speak": "Non credo che sia vero." }
+        { "target": "È possibile che piova.", "en": "It might rain.", "speak": "È possibile che piova." },
+        { "target": "Bisogna che tu vada.", "en": "You need to go.", "speak": "Bisogna che tu vada." },
+        { "target": "Sono contento che tu sia qui.", "en": "I'm glad you're here.", "speak": "Sono contento che tu sia qui." },
+        { "target": "Ho paura che sia tardi.", "en": "I'm afraid it's late.", "speak": "Ho paura che sia tardi." },
+        { "target": "Dubito che venga.", "en": "I doubt he'll come.", "speak": "Dubito che venga." },
+        { "target": "Non credo che sia vero.", "en": "I don't think it's true.", "speak": "Non credo che sia vero." }
       ]
     },
     {
@@ -74,12 +74,12 @@
       "type": "dialogue",
       "scene": "You and Marco argue over whether to go to a concert on Friday.",
       "lines": [
-        { "speaker": "Marco", "nl": "Allora, venerdì c'è un concerto. Penso che sia una serata perfetta.", "en": "So, there's a concert Friday. I think it'll be a perfect evening." },
-        { "speaker": "You", "nl": "Boh, non sono sicuro che ci siano ancora biglietti.", "en": "Hmm, I'm not sure there are still tickets.", "spotlight": "Doubt trigger → congiuntivo: *non sono sicuro che ci **siano***." },
-        { "speaker": "Marco", "nl": "Dubito che siano finiti così presto, dai.", "en": "I doubt they've sold out this early, come on." },
-        { "speaker": "You", "nl": "Va bene, però è importante che li compriamo oggi.", "en": "OK, but it's important we buy them today." },
-        { "speaker": "Marco", "nl": "Giusto. Spero che venga anche Giulia con noi.", "en": "Right. I hope Giulia comes with us too." },
-        { "speaker": "You", "nl": "Perfetto. Spero che sia una bella serata.", "en": "Perfect. I hope it's a great evening." }
+        { "speaker": "Marco", "target": "Allora, venerdì c'è un concerto. Penso che sia una serata perfetta.", "en": "So, there's a concert Friday. I think it'll be a perfect evening." },
+        { "speaker": "You", "target": "Boh, non sono sicuro che ci siano ancora biglietti.", "en": "Hmm, I'm not sure there are still tickets.", "spotlight": "Doubt trigger → congiuntivo: *non sono sicuro che ci **siano***." },
+        { "speaker": "Marco", "target": "Dubito che siano finiti così presto, dai.", "en": "I doubt they've sold out this early, come on." },
+        { "speaker": "You", "target": "Va bene, però è importante che li compriamo oggi.", "en": "OK, but it's important we buy them today." },
+        { "speaker": "Marco", "target": "Giusto. Spero che venga anche Giulia con noi.", "en": "Right. I hope Giulia comes with us too." },
+        { "speaker": "You", "target": "Perfetto. Spero che sia una bella serata.", "en": "Perfect. I hope it's a great evening." }
       ]
     },
     {

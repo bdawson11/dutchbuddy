@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-62",
   "day": 62,
   "module": "M09",
@@ -35,14 +35,14 @@
       "type": "dialogue",
       "scene": "At the bar, Sofia has something to tell you and Giulia.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Allora Sofia, che c'è? Hai una faccia strana.", "en": "So Sofia, what's up? You've got a funny look." },
-        { "speaker": "Sofia", "nl": "Ragazzi, oggi ho ricevuto una telefonata. Un'azienda di Milano mi ha chiamato.", "en": "Guys, today I got a phone call. A company in Milano called me.", "spotlight": "The news lands: a call from Milano — the season's story pivots here." },
-        { "speaker": "You", "nl": "Di Milano? E cosa ti hanno detto?", "en": "From Milano? And what did they tell you?" },
-        { "speaker": "Sofia", "nl": "Mi hanno detto che cercano una designer e mi hanno chiesto se voglio un colloquio.", "en": "They told me they're looking for a designer and asked if I want an interview.", "spotlight": "Reported speech: *mi hanno detto che… / mi hanno chiesto se…*" },
-        { "speaker": "Giulia", "nl": "Ma dai! È una bella occasione. E tu che pensi?", "en": "No way! It's a great chance. And what do you think?" },
-        { "speaker": "Sofia", "nl": "Boh, penso che sia un'opportunità importante, ma ho paura che Milano sia troppo lontana.", "en": "Dunno, I think it's an important opportunity, but I'm afraid Milano is too far.", "spotlight": "Congiuntivo after opinion and fear: *penso che sia… / ho paura che sia…*" },
-        { "speaker": "You", "nl": "Ti capisco. Però se accetti, potresti crescere molto.", "en": "I get you. But if you accept, you could grow a lot." },
-        { "speaker": "Sofia", "nl": "Lo so. Mi hanno detto che mi faranno sapere presto. Devo pensarci bene.", "en": "I know. They told me they'll let me know soon. I need to think it over." }
+        { "speaker": "Giulia", "target": "Allora Sofia, che c'è? Hai una faccia strana.", "en": "So Sofia, what's up? You've got a funny look." },
+        { "speaker": "Sofia", "target": "Ragazzi, oggi ho ricevuto una telefonata. Un'azienda di Milano mi ha chiamato.", "en": "Guys, today I got a phone call. A company in Milano called me.", "spotlight": "The news lands: a call from Milano — the season's story pivots here." },
+        { "speaker": "You", "target": "Di Milano? E cosa ti hanno detto?", "en": "From Milano? And what did they tell you?" },
+        { "speaker": "Sofia", "target": "Mi hanno detto che cercano una designer e mi hanno chiesto se voglio un colloquio.", "en": "They told me they're looking for a designer and asked if I want an interview.", "spotlight": "Reported speech: *mi hanno detto che… / mi hanno chiesto se…*" },
+        { "speaker": "Giulia", "target": "Ma dai! È una bella occasione. E tu che pensi?", "en": "No way! It's a great chance. And what do you think?" },
+        { "speaker": "Sofia", "target": "Boh, penso che sia un'opportunità importante, ma ho paura che Milano sia troppo lontana.", "en": "Dunno, I think it's an important opportunity, but I'm afraid Milano is too far.", "spotlight": "Congiuntivo after opinion and fear: *penso che sia… / ho paura che sia…*" },
+        { "speaker": "You", "target": "Ti capisco. Però se accetti, potresti crescere molto.", "en": "I get you. But if you accept, you could grow a lot." },
+        { "speaker": "Sofia", "target": "Lo so. Mi hanno detto che mi faranno sapere presto. Devo pensarci bene.", "en": "I know. They told me they'll let me know soon. I need to think it over." }
       ]
     },
     {

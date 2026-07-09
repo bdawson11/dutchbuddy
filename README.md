@@ -43,10 +43,13 @@ Single unified app; the language is chosen at runtime, not at build time.
 ```
 npm run dev              # local dev server (the unified YapWorld app)
 npm run build            # production build (Vercel-ready static output)
-npm run validate         # validate every pack (missing days = warnings)
+npm run validate         # validate every pack in catalog.json (missing days = warnings)
 npm run validate:<pack>  # validate one pack (e.g. validate:german-de)
-npm run validate:strict  # missing days = errors (pre-release gate, dutch-nl)
 ```
+
+`npm run validate` is catalog-driven (`tools/validate-all.js` reads
+`public/packs/catalog.json`). A pack whose manifest sets `"released": true` is
+validated strictly — missing days become errors (the pre-release gate).
 
 ## Content workflow
 

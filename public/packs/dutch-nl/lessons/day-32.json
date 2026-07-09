@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-32",
   "day": 32,
   "module": "M05",
@@ -46,11 +46,11 @@
       "type": "chips",
       "title": "Deelwoorden — tik om te horen",
       "items": [
-        { "nl": "opgestaan", "en": "got up", "speak": "opgestaan" },
-        { "nl": "meegenomen", "en": "brought along", "speak": "meegenomen" },
-        { "nl": "aangekomen", "en": "arrived", "speak": "aangekomen" },
-        { "nl": "opgebeld", "en": "called", "speak": "opgebeld" },
-        { "nl": "uitgegaan", "en": "went out", "speak": "uitgegaan" }
+        { "target": "opgestaan", "en": "got up", "speak": "opgestaan" },
+        { "target": "meegenomen", "en": "brought along", "speak": "meegenomen" },
+        { "target": "aangekomen", "en": "arrived", "speak": "aangekomen" },
+        { "target": "opgebeld", "en": "called", "speak": "opgebeld" },
+        { "target": "uitgegaan", "en": "went out", "speak": "uitgegaan" }
       ]
     },
     {

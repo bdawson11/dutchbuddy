@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-84",
   "day": 84,
   "module": "M12",
@@ -43,11 +43,11 @@
       "type": "shadow",
       "title": "Escucha una *mi historia* completa",
       "lines": [
-        { "nl": "Me llamo Alex, soy de Toronto y vivo en Madrid.", "en": "My name's Alex, I'm from Toronto and I live in Madrid." },
-        { "nl": "Llegué hace un año sin hablar español.", "en": "I arrived a year ago without speaking Spanish." },
-        { "nl": "Al principio me sentía perdido, pero he aprendido muchísimo.", "en": "At first I felt lost, but I've learned a lot." },
-        { "nl": "Cuando era pequeño soñaba con vivir en otro país.", "en": "When I was little I dreamed of living in another country." },
-        { "nl": "Espero que el año que viene hable aún mejor.", "en": "I hope that next year I'll speak even better." }
+        { "target": "Me llamo Alex, soy de Toronto y vivo en Madrid.", "en": "My name's Alex, I'm from Toronto and I live in Madrid." },
+        { "target": "Llegué hace un año sin hablar español.", "en": "I arrived a year ago without speaking Spanish." },
+        { "target": "Al principio me sentía perdido, pero he aprendido muchísimo.", "en": "At first I felt lost, but I've learned a lot." },
+        { "target": "Cuando era pequeño soñaba con vivir en otro país.", "en": "When I was little I dreamed of living in another country." },
+        { "target": "Espero que el año que viene hable aún mejor.", "en": "I hope that next year I'll speak even better." }
       ]
     },
     {
@@ -75,12 +75,12 @@
       "type": "chips",
       "title": "Despedidas de España — toca para oír",
       "items": [
-        { "nl": "¡Nos vemos!", "en": "see you!", "speak": "¡Nos vemos!" },
-        { "nl": "¡Un beso!", "en": "hugs / bye (warm)", "speak": "¡Un beso!" },
-        { "nl": "¡Cuídate!", "en": "take care!", "speak": "¡Cuídate!" },
-        { "nl": "¡Hasta pronto!", "en": "see you soon!", "speak": "¡Hasta pronto!" },
-        { "nl": "¡Mucha suerte!", "en": "good luck!", "speak": "¡Mucha suerte!" },
-        { "nl": "Venga, ¡adiós!", "en": "okay, bye!", "speak": "Venga, ¡adiós!" }
+        { "target": "¡Nos vemos!", "en": "see you!", "speak": "¡Nos vemos!" },
+        { "target": "¡Un beso!", "en": "hugs / bye (warm)", "speak": "¡Un beso!" },
+        { "target": "¡Cuídate!", "en": "take care!", "speak": "¡Cuídate!" },
+        { "target": "¡Hasta pronto!", "en": "see you soon!", "speak": "¡Hasta pronto!" },
+        { "target": "¡Mucha suerte!", "en": "good luck!", "speak": "¡Mucha suerte!" },
+        { "target": "Venga, ¡adiós!", "en": "okay, bye!", "speak": "Venga, ¡adiós!" }
       ]
     },
     {
@@ -101,14 +101,14 @@
       "type": "dialogue",
       "scene": "The last round of the night — the friends toast you and say goodbye",
       "lines": [
-        { "speaker": "Lucía", "nl": "Bueno, chicos, por Alex, que llegó sin hablar y mira ahora.", "en": "Well, everyone, to Alex, who arrived not speaking and look now." },
-        { "speaker": "Rafa", "nl": "¡Por Alex! Tío, eres la leche. En serio.", "en": "To Alex! Mate, you're the best. Seriously." },
-        { "speaker": "Sofía", "nl": "Me alegro un montón de que lo hayas conseguido.", "en": "I'm so glad you pulled it off.", "spotlight": "*alegrarse de que* + subjunctive — the B1 move, one year on." },
-        { "speaker": "Nacho", "nl": "Cuando quieras te vienes al pueblo, que allí se practica mejor.", "en": "Whenever you like, come to the village — you practise better there." },
-        { "speaker": "You", "nl": "Gracias de verdad. Sin vosotros no habría aprendido tanto.", "en": "Thank you truly. Without you all I wouldn't have learned so much.", "spotlight": "condicional compuesto + *vosotros* — register nailed." },
-        { "speaker": "Lucía", "nl": "¡Venga, no te pongas moñas! Un beso, majo.", "en": "Come on, don't get sappy! Hugs, you." },
-        { "speaker": "Rafa", "nl": "Nos vemos en el bar de siempre, ¿eh?", "en": "See you at the usual bar, yeah?" },
-        { "speaker": "You", "nl": "Ahí estaré. ¡Un abrazo a todos!", "en": "I'll be there. A hug to you all!" }
+        { "speaker": "Lucía", "target": "Bueno, chicos, por Alex, que llegó sin hablar y mira ahora.", "en": "Well, everyone, to Alex, who arrived not speaking and look now." },
+        { "speaker": "Rafa", "target": "¡Por Alex! Tío, eres la leche. En serio.", "en": "To Alex! Mate, you're the best. Seriously." },
+        { "speaker": "Sofía", "target": "Me alegro un montón de que lo hayas conseguido.", "en": "I'm so glad you pulled it off.", "spotlight": "*alegrarse de que* + subjunctive — the B1 move, one year on." },
+        { "speaker": "Nacho", "target": "Cuando quieras te vienes al pueblo, que allí se practica mejor.", "en": "Whenever you like, come to the village — you practise better there." },
+        { "speaker": "You", "target": "Gracias de verdad. Sin vosotros no habría aprendido tanto.", "en": "Thank you truly. Without you all I wouldn't have learned so much.", "spotlight": "condicional compuesto + *vosotros* — register nailed." },
+        { "speaker": "Lucía", "target": "¡Venga, no te pongas moñas! Un beso, majo.", "en": "Come on, don't get sappy! Hugs, you." },
+        { "speaker": "Rafa", "target": "Nos vemos en el bar de siempre, ¿eh?", "en": "See you at the usual bar, yeah?" },
+        { "speaker": "You", "target": "Ahí estaré. ¡Un abrazo a todos!", "en": "I'll be there. A hug to you all!" }
       ]
     },
     {

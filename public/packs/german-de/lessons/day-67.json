@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-67",
   "day": 67,
   "module": "M10",
@@ -30,12 +30,12 @@
       "type": "chips",
       "title": "Reflexive Verben — tap to hear",
       "items": [
-        { "nl": "Ich freue mich.", "en": "I'm glad / looking forward.", "speak": "Ich freue mich." },
-        { "nl": "Ich fühle mich gut.", "en": "I feel good.", "speak": "Ich fühle mich gut." },
-        { "nl": "Ich muss mich beeilen.", "en": "I have to hurry.", "speak": "Ich muss mich beeilen." },
-        { "nl": "Ich kann mich nicht entscheiden.", "en": "I can't decide.", "speak": "Ich kann mich nicht entscheiden." },
-        { "nl": "Ich ärgere mich.", "en": "I'm annoyed.", "speak": "Ich ärgere mich." },
-        { "nl": "Ich stelle mich vor.", "en": "I introduce myself.", "speak": "Ich stelle mich vor." }
+        { "target": "Ich freue mich.", "en": "I'm glad / looking forward.", "speak": "Ich freue mich." },
+        { "target": "Ich fühle mich gut.", "en": "I feel good.", "speak": "Ich fühle mich gut." },
+        { "target": "Ich muss mich beeilen.", "en": "I have to hurry.", "speak": "Ich muss mich beeilen." },
+        { "target": "Ich kann mich nicht entscheiden.", "en": "I can't decide.", "speak": "Ich kann mich nicht entscheiden." },
+        { "target": "Ich ärgere mich.", "en": "I'm annoyed.", "speak": "Ich ärgere mich." },
+        { "target": "Ich stelle mich vor.", "en": "I introduce myself.", "speak": "Ich stelle mich vor." }
       ]
     },
     {
@@ -87,14 +87,14 @@
       "type": "dialogue",
       "scene": "Aylin calls you, torn about the Munich job. She talks feelings — her specialty.",
       "lines": [
-        { "speaker": "Aylin", "nl": "Ich ärgere mich über mich selbst. Ich kann mich einfach nicht entscheiden.", "en": "I'm annoyed at myself. I just can't decide.", "spotlight": "*sich ärgern*, *sich entscheiden* — two reflexives, still no decision." },
-        { "speaker": "You", "nl": "Das ist doch normal. Wie fühlst du dich denn dabei?", "en": "That's totally normal. How do you feel about it?", "spotlight": "*Wie fühlst du dich?* — sich fühlen, the key feelings question." },
-        { "speaker": "Aylin", "nl": "Einerseits freue ich mich auf etwas Neues. Andererseits ist Berlin mein Zuhause.", "en": "On one hand I'm excited for something new. On the other, Berlin is my home.", "spotlight": "*freue ich mich auf* — looking forward → *auf* + Akkusativ." },
-        { "speaker": "You", "nl": "Nimmst du den Job, um deine Karriere zu pushen?", "en": "Would you take the job to boost your career?", "spotlight": "*um … zu pushen* — purpose clause." },
-        { "speaker": "Aylin", "nl": "Genau darum geht's. Ich ziehe ja nicht weg, um wegzulaufen.", "en": "That's exactly it. I'm not moving away to run away.", "spotlight": "*um wegzulaufen* — separable verb: *zu* slots inside → *wegzulaufen*." },
-        { "speaker": "You", "nl": "Dann hör auf dein Bauchgefühl. Du musst dich nicht heute entscheiden.", "en": "Then trust your gut. You don't have to decide today." },
-        { "speaker": "Aylin", "nl": "Danke. Es tut gut, mit dir zu reden.", "en": "Thanks. It feels good to talk to you." },
-        { "speaker": "You", "nl": "Immer. Und egal was — ich freue mich für dich.", "en": "Always. And whatever happens — I'm happy for you." }
+        { "speaker": "Aylin", "target": "Ich ärgere mich über mich selbst. Ich kann mich einfach nicht entscheiden.", "en": "I'm annoyed at myself. I just can't decide.", "spotlight": "*sich ärgern*, *sich entscheiden* — two reflexives, still no decision." },
+        { "speaker": "You", "target": "Das ist doch normal. Wie fühlst du dich denn dabei?", "en": "That's totally normal. How do you feel about it?", "spotlight": "*Wie fühlst du dich?* — sich fühlen, the key feelings question." },
+        { "speaker": "Aylin", "target": "Einerseits freue ich mich auf etwas Neues. Andererseits ist Berlin mein Zuhause.", "en": "On one hand I'm excited for something new. On the other, Berlin is my home.", "spotlight": "*freue ich mich auf* — looking forward → *auf* + Akkusativ." },
+        { "speaker": "You", "target": "Nimmst du den Job, um deine Karriere zu pushen?", "en": "Would you take the job to boost your career?", "spotlight": "*um … zu pushen* — purpose clause." },
+        { "speaker": "Aylin", "target": "Genau darum geht's. Ich ziehe ja nicht weg, um wegzulaufen.", "en": "That's exactly it. I'm not moving away to run away.", "spotlight": "*um wegzulaufen* — separable verb: *zu* slots inside → *wegzulaufen*." },
+        { "speaker": "You", "target": "Dann hör auf dein Bauchgefühl. Du musst dich nicht heute entscheiden.", "en": "Then trust your gut. You don't have to decide today." },
+        { "speaker": "Aylin", "target": "Danke. Es tut gut, mit dir zu reden.", "en": "Thanks. It feels good to talk to you." },
+        { "speaker": "You", "target": "Immer. Und egal was — ich freue mich für dich.", "en": "Always. And whatever happens — I'm happy for you." }
       ]
     },
     {

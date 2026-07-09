@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-35",
   "day": 35,
   "module": "M05",
@@ -21,21 +21,21 @@
       "type": "chips",
       "title": "Quick refresh — tap through",
       "items": [
-        { "nl": "Ho fatto colazione.", "en": "I had breakfast.", "speak": "Ho fatto colazione." },
-        { "nl": "Sono andata al mare.", "en": "I went to the sea. (a woman)", "speak": "Sono andata al mare." },
-        { "nl": "Mi sono svegliato presto.", "en": "I woke up early. (a man)", "speak": "Mi sono svegliato presto." },
-        { "nl": "Ho preso il treno regionale.", "en": "I took the regional train.", "speak": "Ho preso il treno regionale." },
-        { "nl": "Ho visto un bel tramonto.", "en": "I saw a beautiful sunset.", "speak": "Ho visto un bel tramonto." }
+        { "target": "Ho fatto colazione.", "en": "I had breakfast.", "speak": "Ho fatto colazione." },
+        { "target": "Sono andata al mare.", "en": "I went to the sea. (a woman)", "speak": "Sono andata al mare." },
+        { "target": "Mi sono svegliato presto.", "en": "I woke up early. (a man)", "speak": "Mi sono svegliato presto." },
+        { "target": "Ho preso il treno regionale.", "en": "I took the regional train.", "speak": "Ho preso il treno regionale." },
+        { "target": "Ho visto un bel tramonto.", "en": "I saw a beautiful sunset.", "speak": "Ho visto un bel tramonto." }
       ]
     },
     {
       "type": "shadow",
       "title": "Warm up — shadow the week",
       "lines": [
-        { "nl": "Ho parlato con Marco ieri.", "en": "I talked with Marco yesterday." },
-        { "nl": "Sono andata al mercato sabato.", "en": "I went to the market on Saturday. (a woman)" },
-        { "nl": "Ho preso il treno regionale.", "en": "I took the regional train." },
-        { "nl": "Mi sono svegliato presto.", "en": "I woke up early. (a man)" }
+        { "target": "Ho parlato con Marco ieri.", "en": "I talked with Marco yesterday." },
+        { "target": "Sono andata al mercato sabato.", "en": "I went to the market on Saturday. (a woman)" },
+        { "target": "Ho preso il treno regionale.", "en": "I took the regional train." },
+        { "target": "Mi sono svegliato presto.", "en": "I woke up early. (a man)" }
       ]
     },
     {
@@ -76,14 +76,14 @@
       "type": "dialogue",
       "scene": "At the bar, Marco wants to hear all about your week",
       "lines": [
-        { "speaker": "Marco", "nl": "Allora, cosa hai fatto questa settimana? Raccontami tutto!", "en": "So, what did you do this week? Tell me everything!" },
-        { "speaker": "You", "nl": "Ho fatto un sacco di cose! Ho preso il treno e ho visitato il mercato.", "en": "I did a ton of things! I took the train and visited the market." },
-        { "speaker": "Marco", "nl": "Bello! Hai comprato qualcosa di buono?", "en": "Nice! Did you buy anything good?" },
-        { "speaker": "You", "nl": "Sì, ho comprato del formaggio e ho parlato con un contadino simpatico.", "en": "Yes, I bought some cheese and talked with a nice farmer." },
-        { "speaker": "Marco", "nl": "E poi? Hai fatto altro?", "en": "And then? Did you do anything else?" },
-        { "speaker": "You", "nl": "Ho letto un libro e ho dormito tanto — una settimana perfetta.", "en": "I read a book and slept a lot — a perfect week.", "spotlight": "All avere-verbs here: no agreement to worry about, even though several are irregular." },
-        { "speaker": "Marco", "nl": "Che invidia! Io invece sono rimasto in ufficio tutta la settimana.", "en": "So jealous! I, on the other hand, stayed in the office all week." },
-        { "speaker": "You", "nl": "Magari vieni anche tu la prossima volta?", "en": "Maybe you'll come too next time?" }
+        { "speaker": "Marco", "target": "Allora, cosa hai fatto questa settimana? Raccontami tutto!", "en": "So, what did you do this week? Tell me everything!" },
+        { "speaker": "You", "target": "Ho fatto un sacco di cose! Ho preso il treno e ho visitato il mercato.", "en": "I did a ton of things! I took the train and visited the market." },
+        { "speaker": "Marco", "target": "Bello! Hai comprato qualcosa di buono?", "en": "Nice! Did you buy anything good?" },
+        { "speaker": "You", "target": "Sì, ho comprato del formaggio e ho parlato con un contadino simpatico.", "en": "Yes, I bought some cheese and talked with a nice farmer." },
+        { "speaker": "Marco", "target": "E poi? Hai fatto altro?", "en": "And then? Did you do anything else?" },
+        { "speaker": "You", "target": "Ho letto un libro e ho dormito tanto — una settimana perfetta.", "en": "I read a book and slept a lot — a perfect week.", "spotlight": "All avere-verbs here: no agreement to worry about, even though several are irregular." },
+        { "speaker": "Marco", "target": "Che invidia! Io invece sono rimasto in ufficio tutta la settimana.", "en": "So jealous! I, on the other hand, stayed in the office all week." },
+        { "speaker": "You", "target": "Magari vieni anche tu la prossima volta?", "en": "Maybe you'll come too next time?" }
       ]
     },
     {

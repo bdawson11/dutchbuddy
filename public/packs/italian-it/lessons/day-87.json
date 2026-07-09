@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-87",
   "day": 87,
   "module": "M13",
@@ -44,11 +44,11 @@
       "type": "chips",
       "title": "Ascolta e ripeti",
       "items": [
-        { "nl": "Credevo che fosse già partito.", "en": "I thought he'd already left.", "speak": "Credevo che fosse già partito." },
-        { "nl": "Non sapevo che aveste già mangiato.", "en": "I didn't know you'd already eaten.", "speak": "Non sapevo che aveste già mangiato." },
-        { "nl": "Era strano che non avesse chiamato.", "en": "It was strange he hadn't called.", "speak": "Era strano che non avesse chiamato." },
-        { "nl": "Pensavo che si fosse dimenticato.", "en": "I thought he'd forgotten.", "speak": "Pensavo che si fosse dimenticato." },
-        { "nl": "Speravo che fossero arrivati in tempo.", "en": "I hoped they'd arrived in time.", "speak": "Speravo che fossero arrivati in tempo." }
+        { "target": "Credevo che fosse già partito.", "en": "I thought he'd already left.", "speak": "Credevo che fosse già partito." },
+        { "target": "Non sapevo che aveste già mangiato.", "en": "I didn't know you'd already eaten.", "speak": "Non sapevo che aveste già mangiato." },
+        { "target": "Era strano che non avesse chiamato.", "en": "It was strange he hadn't called.", "speak": "Era strano che non avesse chiamato." },
+        { "target": "Pensavo che si fosse dimenticato.", "en": "I thought he'd forgotten.", "speak": "Pensavo che si fosse dimenticato." },
+        { "target": "Speravo che fossero arrivati in tempo.", "en": "I hoped they'd arrived in time.", "speak": "Speravo che fossero arrivati in tempo." }
       ]
     },
     {
@@ -88,14 +88,14 @@
       "type": "dialogue",
       "scene": "You arrive at Giulia's for dinner, late.",
       "lines": [
-        { "speaker": "You", "nl": "Scusa il ritardo! Pensavo che aveste iniziato senza di me.", "en": "Sorry I'm late! I thought you'd started without me." },
-        { "speaker": "Giulia", "nl": "Ma no! Ti abbiamo aspettato.", "en": "No way! We waited for you." },
-        { "speaker": "You", "nl": "Credevo che il treno fosse già passato.", "en": "I thought the train had already gone.", "spotlight": "trapassato: prima del mio arrivo." },
-        { "speaker": "Giulia", "nl": "Figurati, è sempre in ritardo. Marco pensava che ti fossi perso.", "en": "As if, it's always late. Marco thought you'd gotten lost." },
-        { "speaker": "You", "nl": "Quasi! Non sapevo che aveste cambiato casa.", "en": "Almost! I didn't know you'd moved.", "spotlight": "'aveste cambiato' — fatto anteriore." },
-        { "speaker": "Giulia", "nl": "Vero, non te l'avevo detto. Dai, siediti.", "en": "True, I hadn't told you. Come on, sit down." },
-        { "speaker": "You", "nl": "Speravo che non aveste mangiato tutto!", "en": "I was hoping you hadn't eaten everything!" },
-        { "speaker": "Giulia", "nl": "Tranquillo, il meglio è ancora in forno.", "en": "Relax, the best is still in the oven." }
+        { "speaker": "You", "target": "Scusa il ritardo! Pensavo che aveste iniziato senza di me.", "en": "Sorry I'm late! I thought you'd started without me." },
+        { "speaker": "Giulia", "target": "Ma no! Ti abbiamo aspettato.", "en": "No way! We waited for you." },
+        { "speaker": "You", "target": "Credevo che il treno fosse già passato.", "en": "I thought the train had already gone.", "spotlight": "trapassato: prima del mio arrivo." },
+        { "speaker": "Giulia", "target": "Figurati, è sempre in ritardo. Marco pensava che ti fossi perso.", "en": "As if, it's always late. Marco thought you'd gotten lost." },
+        { "speaker": "You", "target": "Quasi! Non sapevo che aveste cambiato casa.", "en": "Almost! I didn't know you'd moved.", "spotlight": "'aveste cambiato' — fatto anteriore." },
+        { "speaker": "Giulia", "target": "Vero, non te l'avevo detto. Dai, siediti.", "en": "True, I hadn't told you. Come on, sit down." },
+        { "speaker": "You", "target": "Speravo che non aveste mangiato tutto!", "en": "I was hoping you hadn't eaten everything!" },
+        { "speaker": "Giulia", "target": "Tranquillo, il meglio è ancora in forno.", "en": "Relax, the best is still in the oven." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-06",
   "day": 6,
   "module": "M01",
@@ -28,12 +28,12 @@
       "type": "chips",
       "title": "Tap to hear the articles",
       "items": [
-        { "nl": "el libro", "en": "the book", "speak": "el libro" },
-        { "nl": "la mesa", "en": "the table", "speak": "la mesa" },
-        { "nl": "un café", "en": "a coffee", "speak": "un café" },
-        { "nl": "una caña", "en": "a beer", "speak": "una caña" },
-        { "nl": "el vino", "en": "the wine", "speak": "el vino" },
-        { "nl": "la calle", "en": "the street", "speak": "la calle" }
+        { "target": "el libro", "en": "the book", "speak": "el libro" },
+        { "target": "la mesa", "en": "the table", "speak": "la mesa" },
+        { "target": "un café", "en": "a coffee", "speak": "un café" },
+        { "target": "una caña", "en": "a beer", "speak": "una caña" },
+        { "target": "el vino", "en": "the wine", "speak": "el vino" },
+        { "target": "la calle", "en": "the street", "speak": "la calle" }
       ]
     },
     {

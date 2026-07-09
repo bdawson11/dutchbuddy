@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-31",
   "day": 31,
   "module": "M05",
@@ -51,14 +51,14 @@
       "type": "chips",
       "title": "Zum Hören",
       "items": [
-        { "nl": "gewesen", "en": "been", "speak": "gewesen" },
-        { "nl": "gegangen", "en": "gone", "speak": "gegangen" },
-        { "nl": "gesehen", "en": "seen", "speak": "gesehen" },
-        { "nl": "gegessen", "en": "eaten", "speak": "gegessen" },
-        { "nl": "getrunken", "en": "drunk", "speak": "getrunken" },
-        { "nl": "gekommen", "en": "come", "speak": "gekommen" },
-        { "nl": "genommen", "en": "taken", "speak": "genommen" },
-        { "nl": "geschrieben", "en": "written", "speak": "geschrieben" }
+        { "target": "gewesen", "en": "been", "speak": "gewesen" },
+        { "target": "gegangen", "en": "gone", "speak": "gegangen" },
+        { "target": "gesehen", "en": "seen", "speak": "gesehen" },
+        { "target": "gegessen", "en": "eaten", "speak": "gegessen" },
+        { "target": "getrunken", "en": "drunk", "speak": "getrunken" },
+        { "target": "gekommen", "en": "come", "speak": "gekommen" },
+        { "target": "genommen", "en": "taken", "speak": "genommen" },
+        { "target": "geschrieben", "en": "written", "speak": "geschrieben" }
       ]
     },
     {
@@ -100,13 +100,13 @@
       "type": "dialogue",
       "scene": "Coffee together — Jonas is nosy as ever about your evening.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Ey, was hast du gestern Abend gemacht?", "en": "Hey, what did you do last night?" },
-        { "speaker": "You", "nl": "Ich habe ein Buch gelesen und Tee getrunken.", "en": "I read a book and drank tea." },
-        { "speaker": "Jonas", "nl": "Langweilig! Ich bin auf ein Konzert gegangen.", "en": "Boring! I went to a concert.", "spotlight": "*gegangen* nimmt sein: ich bin gegangen." },
-        { "speaker": "You", "nl": "Echt jetzt? Was hast du gesehen?", "en": "Really? What did you see?" },
-        { "speaker": "Jonas", "nl": "Die Band ist einfach geil gewesen, ehrlich. Ich habe sogar ein Shirt gekauft.", "en": "The band was just awesome, honestly. I even bought a shirt." },
-        { "speaker": "You", "nl": "Na, dann hast du ja richtig Spaß gehabt.", "en": "Well, then you really had fun.", "spotlight": "*gehabt* — das Partizip von haben selbst." },
-        { "speaker": "Jonas", "nl": "Auf jeden Fall! Und du bist wohl brav zu Hause geblieben, oder?", "en": "Definitely! And you probably behaved and stayed home, huh?", "spotlight": "*geblieben* — bleiben nimmt sein." }
+        { "speaker": "Jonas", "target": "Ey, was hast du gestern Abend gemacht?", "en": "Hey, what did you do last night?" },
+        { "speaker": "You", "target": "Ich habe ein Buch gelesen und Tee getrunken.", "en": "I read a book and drank tea." },
+        { "speaker": "Jonas", "target": "Langweilig! Ich bin auf ein Konzert gegangen.", "en": "Boring! I went to a concert.", "spotlight": "*gegangen* nimmt sein: ich bin gegangen." },
+        { "speaker": "You", "target": "Echt jetzt? Was hast du gesehen?", "en": "Really? What did you see?" },
+        { "speaker": "Jonas", "target": "Die Band ist einfach geil gewesen, ehrlich. Ich habe sogar ein Shirt gekauft.", "en": "The band was just awesome, honestly. I even bought a shirt." },
+        { "speaker": "You", "target": "Na, dann hast du ja richtig Spaß gehabt.", "en": "Well, then you really had fun.", "spotlight": "*gehabt* — das Partizip von haben selbst." },
+        { "speaker": "Jonas", "target": "Auf jeden Fall! Und du bist wohl brav zu Hause geblieben, oder?", "en": "Definitely! And you probably behaved and stayed home, huh?", "spotlight": "*geblieben* — bleiben nimmt sein." }
       ]
     },
     {

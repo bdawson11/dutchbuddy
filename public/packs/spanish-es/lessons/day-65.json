@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-65",
   "day": 65,
   "module": "M10",
@@ -43,12 +43,12 @@
       "type": "chips",
       "title": "Toca para oír los racimos de pronombres",
       "items": [
-        { "nl": "Dímelo, anda.", "en": "Tell it to me, come on.", "speak": "dímelo, anda" },
-        { "nl": "No me lo digas.", "en": "Don't tell me.", "speak": "no me lo digas" },
-        { "nl": "Dáselo a Rafa.", "en": "Give it to Rafa.", "speak": "dáselo a Rafa" },
-        { "nl": "Siéntate un momento.", "en": "Sit down a moment.", "speak": "siéntate un momento" },
-        { "nl": "No te preocupes.", "en": "Don't worry.", "speak": "no te preocupes" },
-        { "nl": "Cuéntamelo todo.", "en": "Tell me all of it.", "speak": "cuéntamelo todo" }
+        { "target": "Dímelo, anda.", "en": "Tell it to me, come on.", "speak": "dímelo, anda" },
+        { "target": "No me lo digas.", "en": "Don't tell me.", "speak": "no me lo digas" },
+        { "target": "Dáselo a Rafa.", "en": "Give it to Rafa.", "speak": "dáselo a Rafa" },
+        { "target": "Siéntate un momento.", "en": "Sit down a moment.", "speak": "siéntate un momento" },
+        { "target": "No te preocupes.", "en": "Don't worry.", "speak": "no te preocupes" },
+        { "target": "Cuéntamelo todo.", "en": "Tell me all of it.", "speak": "cuéntamelo todo" }
       ]
     },
     {
@@ -86,13 +86,13 @@
       "type": "dialogue",
       "scene": "En el bar, Rafa quiere cotilleo sobre la decisión de Sofía (que aún se lo está pensando).",
       "lines": [
-        { "speaker": "Rafa", "nl": "Oye, tío, cuéntamelo. ¿Al final Sofía se va a Valencia o no?", "en": "Hey, man, tell me. Is Sofía going to Valencia in the end or not?" },
-        { "speaker": "You", "nl": "No lo sé seguro. Todavía se lo está pensando.", "en": "I don't know for sure. She's still thinking it over." },
-        { "speaker": "Rafa", "nl": "Venga, no me mientas. Algo sabrás.", "en": "Come on, don't lie to me. You must know something.", "spotlight": "Negative command: no me mientas (pronoun before + subjunctive)." },
-        { "speaker": "You", "nl": "Que no, de verdad. Y si lo supiera, no te lo diría.", "en": "Honestly, no. And if I knew, I wouldn't tell you." },
-        { "speaker": "Rafa", "nl": "¡Hombre! Pues avísame en cuanto lo decida, ¿vale?", "en": "Come on! Well, let me know the second she decides, okay?" },
-        { "speaker": "You", "nl": "Vale, pero no se lo digas a nadie todavía.", "en": "Okay, but don't tell anyone yet.", "spotlight": "Cluster in the negative: no se lo digas." },
-        { "speaker": "Rafa", "nl": "Tranquilo, tío. Mis labios están sellados.", "en": "Relax, man. My lips are sealed." }
+        { "speaker": "Rafa", "target": "Oye, tío, cuéntamelo. ¿Al final Sofía se va a Valencia o no?", "en": "Hey, man, tell me. Is Sofía going to Valencia in the end or not?" },
+        { "speaker": "You", "target": "No lo sé seguro. Todavía se lo está pensando.", "en": "I don't know for sure. She's still thinking it over." },
+        { "speaker": "Rafa", "target": "Venga, no me mientas. Algo sabrás.", "en": "Come on, don't lie to me. You must know something.", "spotlight": "Negative command: no me mientas (pronoun before + subjunctive)." },
+        { "speaker": "You", "target": "Que no, de verdad. Y si lo supiera, no te lo diría.", "en": "Honestly, no. And if I knew, I wouldn't tell you." },
+        { "speaker": "Rafa", "target": "¡Hombre! Pues avísame en cuanto lo decida, ¿vale?", "en": "Come on! Well, let me know the second she decides, okay?" },
+        { "speaker": "You", "target": "Vale, pero no se lo digas a nadie todavía.", "en": "Okay, but don't tell anyone yet.", "spotlight": "Cluster in the negative: no se lo digas." },
+        { "speaker": "Rafa", "target": "Tranquilo, tío. Mis labios están sellados.", "en": "Relax, man. My lips are sealed." }
       ]
     },
     {

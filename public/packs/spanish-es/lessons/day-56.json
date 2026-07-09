@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-56",
   "day": 56,
   "module": "M08",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Repaso rápido — tap through",
       "items": [
-        { "nl": "voy a viajar el año que viene", "en": "I'm going to travel next year", "speak": "voy a viajar el año que viene" },
-        { "nl": "se lo doy", "en": "I give it to him/her", "speak": "se lo doy" },
-        { "nl": "creo que va a ser un buen año", "en": "I think it's going to be a good year", "speak": "creo que va a ser un buen año" },
-        { "nl": "espero que todo vaya bien", "en": "I hope everything goes well", "speak": "espero que todo vaya bien" },
-        { "nl": "es el mejor de todos", "en": "it's the best of all", "speak": "es el mejor de todos" }
+        { "target": "voy a viajar el año que viene", "en": "I'm going to travel next year", "speak": "voy a viajar el año que viene" },
+        { "target": "se lo doy", "en": "I give it to him/her", "speak": "se lo doy" },
+        { "target": "creo que va a ser un buen año", "en": "I think it's going to be a good year", "speak": "creo que va a ser un buen año" },
+        { "target": "espero que todo vaya bien", "en": "I hope everything goes well", "speak": "espero que todo vaya bien" },
+        { "target": "es el mejor de todos", "en": "it's the best of all", "speak": "es el mejor de todos" }
       ]
     },
     {
@@ -82,12 +82,12 @@
       "type": "dialogue",
       "scene": "Rafa te pregunta por tus planes para el año que viene — pones en práctica toda la semana.",
       "lines": [
-        { "speaker": "Rafa", "nl": "Tío, ¿qué vas a hacer el año que viene? ¿Algún plan majo?", "en": "Dude, what are you going to do next year? Any cool plan?" },
-        { "speaker": "You", "nl": "Pues voy a seguir estudiando español. Creo que para entonces hablaré mucho mejor.", "en": "Well, I'm going to keep studying Spanish. I think by then I'll speak a lot better." },
-        { "speaker": "Rafa", "nl": "¡Eso espero! Es importante que no lo dejes, ¿eh?", "en": "I hope so! It's important that you don't give up, right?", "spotlight": "es importante que + subjuntivo, otra vez — el disparador de la semana." },
-        { "speaker": "You", "nl": "Tranquilo, no lo voy a dejar. Para mí, hablar español ya es parte de mi vida.", "en": "Relax, I'm not going to give it up. For me, speaking Spanish is already part of my life." },
-        { "speaker": "Rafa", "nl": "Pues venga, ¡vamos a brindar por eso! Una caña para celebrar.", "en": "Well come on, let's go toast to that! A beer to celebrate." },
-        { "speaker": "You", "nl": "¡Venga, vale! Por el próximo año.", "en": "Come on, alright! To next year." }
+        { "speaker": "Rafa", "target": "Tío, ¿qué vas a hacer el año que viene? ¿Algún plan majo?", "en": "Dude, what are you going to do next year? Any cool plan?" },
+        { "speaker": "You", "target": "Pues voy a seguir estudiando español. Creo que para entonces hablaré mucho mejor.", "en": "Well, I'm going to keep studying Spanish. I think by then I'll speak a lot better." },
+        { "speaker": "Rafa", "target": "¡Eso espero! Es importante que no lo dejes, ¿eh?", "en": "I hope so! It's important that you don't give up, right?", "spotlight": "es importante que + subjuntivo, otra vez — el disparador de la semana." },
+        { "speaker": "You", "target": "Tranquilo, no lo voy a dejar. Para mí, hablar español ya es parte de mi vida.", "en": "Relax, I'm not going to give it up. For me, speaking Spanish is already part of my life." },
+        { "speaker": "Rafa", "target": "Pues venga, ¡vamos a brindar por eso! Una caña para celebrar.", "en": "Well come on, let's go toast to that! A beer to celebrate." },
+        { "speaker": "You", "target": "¡Venga, vale! Por el próximo año.", "en": "Come on, alright! To next year." }
       ]
     },
     {

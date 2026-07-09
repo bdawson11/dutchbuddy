@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-28",
   "day": 28,
   "module": "M04",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Repaso rápido — tap through",
       "items": [
-        { "nl": "soy de...", "en": "I'm from...", "speak": "soy de" },
-        { "nl": "tengo... años", "en": "I'm ... years old", "speak": "tengo años" },
-        { "nl": "me gusta...", "en": "I like...", "speak": "me gusta" },
-        { "nl": "quiero...", "en": "I want...", "speak": "quiero" },
-        { "nl": "¿me pone...?", "en": "could you give me...?", "speak": "¿me pone...?" },
-        { "nl": "ponme una caña", "en": "pour me a small beer", "speak": "ponme una caña" }
+        { "target": "soy de...", "en": "I'm from...", "speak": "soy de" },
+        { "target": "tengo... años", "en": "I'm ... years old", "speak": "tengo años" },
+        { "target": "me gusta...", "en": "I like...", "speak": "me gusta" },
+        { "target": "quiero...", "en": "I want...", "speak": "quiero" },
+        { "target": "¿me pone...?", "en": "could you give me...?", "speak": "¿me pone...?" },
+        { "target": "ponme una caña", "en": "pour me a small beer", "speak": "ponme una caña" }
       ]
     },
     {
@@ -60,13 +60,13 @@
       "type": "dialogue",
       "scene": "The whole gang at the bar — you order, describe your tastes, and introduce yourself again",
       "lines": [
-        { "speaker": "Lucía", "nl": "¡Alex! Ven, siéntate con nosotros.", "en": "Alex! Come sit with us." },
-        { "speaker": "You", "nl": "¡Hola a todos! Me llamo Alex y soy de Toronto.", "en": "Hi everyone! My name's Alex and I'm from Toronto." },
-        { "speaker": "Rafa", "nl": "¿Qué quieres tomar?", "en": "What do you want to drink?" },
-        { "speaker": "You", "nl": "Ponme una caña, por favor. Y tengo hambre — ¿me pone una ración de croquetas?", "en": "Pour me a small beer, please. And I'm hungry — could I get a plate of croquettes?" },
-        { "speaker": "Nacho", "nl": "Buena elección, hombre. A mí también me encantan las croquetas.", "en": "Good choice, man. I love croquettes too." },
-        { "speaker": "You", "nl": "Me gusta mucho la comida española. Prefiero cenar tarde, como aquí.", "en": "I really like Spanish food. I prefer having dinner late, like here." },
-        { "speaker": "Lucía", "nl": "¡Qué bien te va el español, en serio!", "en": "Your Spanish is coming along really well, seriously!" }
+        { "speaker": "Lucía", "target": "¡Alex! Ven, siéntate con nosotros.", "en": "Alex! Come sit with us." },
+        { "speaker": "You", "target": "¡Hola a todos! Me llamo Alex y soy de Toronto.", "en": "Hi everyone! My name's Alex and I'm from Toronto." },
+        { "speaker": "Rafa", "target": "¿Qué quieres tomar?", "en": "What do you want to drink?" },
+        { "speaker": "You", "target": "Ponme una caña, por favor. Y tengo hambre — ¿me pone una ración de croquetas?", "en": "Pour me a small beer, please. And I'm hungry — could I get a plate of croquettes?" },
+        { "speaker": "Nacho", "target": "Buena elección, hombre. A mí también me encantan las croquetas.", "en": "Good choice, man. I love croquettes too." },
+        { "speaker": "You", "target": "Me gusta mucho la comida española. Prefiero cenar tarde, como aquí.", "en": "I really like Spanish food. I prefer having dinner late, like here." },
+        { "speaker": "Lucía", "target": "¡Qué bien te va el español, en serio!", "en": "Your Spanish is coming along really well, seriously!" }
       ]
     },
     {

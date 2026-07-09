@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-93",
   "day": 93,
   "module": "M14",
@@ -35,12 +35,12 @@
       "type": "chips",
       "title": "Berichten zum Anhören",
       "items": [
-        { "nl": "Er sagt, er komme später.", "en": "He says he'll come later.", "speak": "Er sagt, er komme später." },
-        { "nl": "Sie sagt, sie habe schon angerufen.", "en": "She says she already called.", "speak": "Sie sagt, sie habe schon angerufen." },
-        { "nl": "Er fragt, ob ich Zeit habe.", "en": "He asks whether I have time.", "speak": "Er fragt, ob ich Zeit habe." },
-        { "nl": "Sie fragt, wann ich komme.", "en": "She asks when I'm coming.", "speak": "Sie fragt, wann ich komme." },
-        { "nl": "Er meint, er werde es schaffen.", "en": "He reckons he'll manage it.", "speak": "Er meint, er werde es schaffen." },
-        { "nl": "Sie sagt, ich solle warten.", "en": "She says I should wait.", "speak": "Sie sagt, ich solle warten." }
+        { "target": "Er sagt, er komme später.", "en": "He says he'll come later.", "speak": "Er sagt, er komme später." },
+        { "target": "Sie sagt, sie habe schon angerufen.", "en": "She says she already called.", "speak": "Sie sagt, sie habe schon angerufen." },
+        { "target": "Er fragt, ob ich Zeit habe.", "en": "He asks whether I have time.", "speak": "Er fragt, ob ich Zeit habe." },
+        { "target": "Sie fragt, wann ich komme.", "en": "She asks when I'm coming.", "speak": "Sie fragt, wann ich komme." },
+        { "target": "Er meint, er werde es schaffen.", "en": "He reckons he'll manage it.", "speak": "Er meint, er werde es schaffen." },
+        { "target": "Sie sagt, ich solle warten.", "en": "She says I should wait.", "speak": "Sie sagt, ich solle warten." }
       ]
     },
     {
@@ -81,16 +81,16 @@
       "type": "dialogue",
       "scene": "Your neighbour Herr Weber left a rushed voice message. You relay it to Lena, who's nosy.",
       "lines": [
-        { "speaker": "Lena", "nl": "Und? Was wollte der Herr Weber von dir?", "en": "So? What did Herr Weber want from you?" },
-        { "speaker": "You", "nl": "Er sagt, er sei übers Wochenende weg.", "en": "He says he's away over the weekend.", "spotlight": "*sei* — a reported present state." },
-        { "speaker": "Lena", "nl": "Aha. Und weiter?", "en": "Aha. And then?" },
-        { "speaker": "You", "nl": "Er hat gefragt, ob ich die Pakete annehmen könne.", "en": "He asked whether I could take in the parcels.", "spotlight": "Reported yes/no question → ob, with könne at the end." },
-        { "speaker": "Lena", "nl": "Nett. Hat er gesagt, wann sie kommen?", "en": "Nice. Did he say when they're coming?" },
-        { "speaker": "You", "nl": "Er meinte, das erste Paket komme wohl am Montag.", "en": "He reckoned the first parcel would come on Monday.", "spotlight": "*komme* — reported present/future in Konjunktiv I." },
-        { "speaker": "Lena", "nl": "Und was ist da drin?", "en": "And what's inside?" },
-        { "speaker": "You", "nl": "Keine Ahnung. Er hat nur gesagt, ich solle es nicht schütteln.", "en": "No idea. He only said I shouldn't shake it.", "spotlight": "A request reported with *sollen*." },
-        { "speaker": "Lena", "nl": "Ha! Jetzt bin ich neugierig.", "en": "Ha! Now I'm curious." },
-        { "speaker": "You", "nl": "Ich auch. Er hat nicht verraten, was es sei.", "en": "Me too. He didn't reveal what it is.", "spotlight": "An embedded reported W-question: *was es sei*." }
+        { "speaker": "Lena", "target": "Und? Was wollte der Herr Weber von dir?", "en": "So? What did Herr Weber want from you?" },
+        { "speaker": "You", "target": "Er sagt, er sei übers Wochenende weg.", "en": "He says he's away over the weekend.", "spotlight": "*sei* — a reported present state." },
+        { "speaker": "Lena", "target": "Aha. Und weiter?", "en": "Aha. And then?" },
+        { "speaker": "You", "target": "Er hat gefragt, ob ich die Pakete annehmen könne.", "en": "He asked whether I could take in the parcels.", "spotlight": "Reported yes/no question → ob, with könne at the end." },
+        { "speaker": "Lena", "target": "Nett. Hat er gesagt, wann sie kommen?", "en": "Nice. Did he say when they're coming?" },
+        { "speaker": "You", "target": "Er meinte, das erste Paket komme wohl am Montag.", "en": "He reckoned the first parcel would come on Monday.", "spotlight": "*komme* — reported present/future in Konjunktiv I." },
+        { "speaker": "Lena", "target": "Und was ist da drin?", "en": "And what's inside?" },
+        { "speaker": "You", "target": "Keine Ahnung. Er hat nur gesagt, ich solle es nicht schütteln.", "en": "No idea. He only said I shouldn't shake it.", "spotlight": "A request reported with *sollen*." },
+        { "speaker": "Lena", "target": "Ha! Jetzt bin ich neugierig.", "en": "Ha! Now I'm curious." },
+        { "speaker": "You", "target": "Ich auch. Er hat nicht verraten, was es sei.", "en": "Me too. He didn't reveal what it is.", "spotlight": "An embedded reported W-question: *was es sei*." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-53",
   "day": 53,
   "module": "M08",
@@ -29,11 +29,11 @@
       "type": "chips",
       "title": "Die drei Türsteher — tap to hear",
       "items": [
-        { "nl": "weil", "en": "because", "speak": "weil" },
-        { "nl": "dass", "en": "that", "speak": "dass" },
-        { "nl": "wenn", "en": "if / when(ever)", "speak": "wenn" },
-        { "nl": "Ich lerne Deutsch, weil…", "en": "I'm learning German because…", "speak": "Ich lerne Deutsch, weil" },
-        { "nl": "Ich glaube, dass…", "en": "I believe that…", "speak": "Ich glaube, dass" }
+        { "target": "weil", "en": "because", "speak": "weil" },
+        { "target": "dass", "en": "that", "speak": "dass" },
+        { "target": "wenn", "en": "if / when(ever)", "speak": "wenn" },
+        { "target": "Ich lerne Deutsch, weil…", "en": "I'm learning German because…", "speak": "Ich lerne Deutsch, weil" },
+        { "target": "Ich glaube, dass…", "en": "I believe that…", "speak": "Ich glaube, dass" }
       ]
     },
     {
@@ -70,11 +70,11 @@
       "type": "dialogue",
       "scene": "Lena explains over coffee why she loves living in Berlin.",
       "lines": [
-        { "speaker": "Lena", "nl": "Ich liebe Berlin, weil hier immer etwas los ist.", "en": "I love Berlin because there's always something going on here.", "spotlight": "weil … los ist — the verb (ist) sits at the very end." },
-        { "speaker": "You", "nl": "Und was, wenn es mal zu viel wird?", "en": "And what if it gets too much sometimes?" },
-        { "speaker": "Lena", "nl": "Wenn ich Ruhe brauche, fahre ich einfach in den Park.", "en": "When I need quiet, I just go to the park.", "spotlight": "Wenn-clause first: brauche sits at the end of the wenn-part, then fahre follows right after the comma." },
-        { "speaker": "You", "nl": "Ich glaube, dass das eine gute Idee ist.", "en": "I think that's a good idea." },
-        { "speaker": "Lena", "nl": "Genau! Und ich finde, dass Berlin trotzdem meine Stadt bleibt.", "en": "Exactly! And I think Berlin stays my city anyway." }
+        { "speaker": "Lena", "target": "Ich liebe Berlin, weil hier immer etwas los ist.", "en": "I love Berlin because there's always something going on here.", "spotlight": "weil … los ist — the verb (ist) sits at the very end." },
+        { "speaker": "You", "target": "Und was, wenn es mal zu viel wird?", "en": "And what if it gets too much sometimes?" },
+        { "speaker": "Lena", "target": "Wenn ich Ruhe brauche, fahre ich einfach in den Park.", "en": "When I need quiet, I just go to the park.", "spotlight": "Wenn-clause first: brauche sits at the end of the wenn-part, then fahre follows right after the comma." },
+        { "speaker": "You", "target": "Ich glaube, dass das eine gute Idee ist.", "en": "I think that's a good idea." },
+        { "speaker": "Lena", "target": "Genau! Und ich finde, dass Berlin trotzdem meine Stadt bleibt.", "en": "Exactly! And I think Berlin stays my city anyway." }
       ]
     },
     {

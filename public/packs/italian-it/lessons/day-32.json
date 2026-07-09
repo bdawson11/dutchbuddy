@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-32",
   "day": 32,
   "module": "M05",
@@ -34,11 +34,11 @@
       "type": "chips",
       "title": "Listen to the reflexives",
       "items": [
-        { "nl": "Mi sono svegliato presto.", "en": "I woke up early. (a man)", "speak": "Mi sono svegliato presto." },
-        { "nl": "Mi sono svegliata presto.", "en": "I woke up early. (a woman)", "speak": "Mi sono svegliata presto." },
-        { "nl": "Mi sono lavato le mani.", "en": "I washed my hands.", "speak": "Mi sono lavato le mani." },
-        { "nl": "Mi sono vestita in fretta.", "en": "I got dressed in a hurry. (a woman)", "speak": "Mi sono vestita in fretta." },
-        { "nl": "Mi sono divertito un sacco.", "en": "I had a blast. (a man)", "speak": "Mi sono divertito un sacco." }
+        { "target": "Mi sono svegliato presto.", "en": "I woke up early. (a man)", "speak": "Mi sono svegliato presto." },
+        { "target": "Mi sono svegliata presto.", "en": "I woke up early. (a woman)", "speak": "Mi sono svegliata presto." },
+        { "target": "Mi sono lavato le mani.", "en": "I washed my hands.", "speak": "Mi sono lavato le mani." },
+        { "target": "Mi sono vestita in fretta.", "en": "I got dressed in a hurry. (a woman)", "speak": "Mi sono vestita in fretta." },
+        { "target": "Mi sono divertito un sacco.", "en": "I had a blast. (a man)", "speak": "Mi sono divertito un sacco." }
       ]
     },
     {
@@ -80,11 +80,11 @@
       "type": "dialogue",
       "scene": "Marco tells Giulia about his morning, at the bar",
       "lines": [
-        { "speaker": "Marco", "nl": "Mi sono svegliato tardissimo stamattina.", "en": "I woke up really late this morning." },
-        { "speaker": "Giulia", "nl": "Ah no! Ti sei alzato dopo le dieci?", "en": "Oh no! Did you get up after ten?", "spotlight": "ti sei alzato — reflexive with masculine agreement, since it's addressed to Marco." },
-        { "speaker": "Marco", "nl": "Sì, e poi sono passato in libreria prima di aprire.", "en": "Yes, and then I stopped by the bookshop before opening." },
-        { "speaker": "Giulia", "nl": "Almeno ti sei divertito ieri sera, no?", "en": "At least you had fun last night, right?" },
-        { "speaker": "Marco", "nl": "Sì, mi sono divertito un sacco!", "en": "Yes, I had a blast!" }
+        { "speaker": "Marco", "target": "Mi sono svegliato tardissimo stamattina.", "en": "I woke up really late this morning." },
+        { "speaker": "Giulia", "target": "Ah no! Ti sei alzato dopo le dieci?", "en": "Oh no! Did you get up after ten?", "spotlight": "ti sei alzato — reflexive with masculine agreement, since it's addressed to Marco." },
+        { "speaker": "Marco", "target": "Sì, e poi sono passato in libreria prima di aprire.", "en": "Yes, and then I stopped by the bookshop before opening." },
+        { "speaker": "Giulia", "target": "Almeno ti sei divertito ieri sera, no?", "en": "At least you had fun last night, right?" },
+        { "speaker": "Marco", "target": "Sì, mi sono divertito un sacco!", "en": "Yes, I had a blast!" }
       ]
     },
     {

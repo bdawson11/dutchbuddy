@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-70",
   "day": 70,
   "module": "M10",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Repaso rápido — toca para oír",
       "items": [
-        { "nl": "Dímelo sin miedo.", "en": "Tell me without fear.", "speak": "dímelo sin miedo" },
-        { "nl": "Lo hago por mí, no por nadie más.", "en": "I do it for me, no one else.", "speak": "lo hago por mí, no por nadie más" },
-        { "nl": "la decisión que más me ha costado", "en": "the decision that was hardest", "speak": "la decisión que más me ha costado" },
-        { "nl": "Aunque da miedo, merece la pena.", "en": "Even though it's scary, it's worth it.", "speak": "aunque da miedo, merece la pena" },
-        { "nl": "Es un cambio grande; sin embargo, estoy lista.", "en": "It's a big change; however, I'm ready.", "speak": "es un cambio grande, sin embargo, estoy lista" }
+        { "target": "Dímelo sin miedo.", "en": "Tell me without fear.", "speak": "dímelo sin miedo" },
+        { "target": "Lo hago por mí, no por nadie más.", "en": "I do it for me, no one else.", "speak": "lo hago por mí, no por nadie más" },
+        { "target": "la decisión que más me ha costado", "en": "the decision that was hardest", "speak": "la decisión que más me ha costado" },
+        { "target": "Aunque da miedo, merece la pena.", "en": "Even though it's scary, it's worth it.", "speak": "aunque da miedo, merece la pena" },
+        { "target": "Es un cambio grande; sin embargo, estoy lista.", "en": "It's a big change; however, I'm ready.", "speak": "es un cambio grande, sin embargo, estoy lista" }
       ]
     },
     {
@@ -77,14 +77,14 @@
       "type": "dialogue",
       "scene": "Una semana después de la mudanza, Sofía te llama desde Valencia, ya en su piso nuevo.",
       "lines": [
-        { "speaker": "Sofía", "nl": "¡Hola! Ya estoy instalada. Bueno, casi: todavía hay cajas por todas partes.", "en": "Hi! I'm settled in. Well, almost: there are still boxes everywhere." },
-        { "speaker": "You", "nl": "¡Qué alegría! ¿Y qué tal? ¿No te arrepientes?", "en": "How lovely! And how's it going? No regrets?" },
-        { "speaker": "Sofía", "nl": "Para nada. Fue la decisión que más me ha costado, pero la que más ilusión me hace.", "en": "Not at all. It was the hardest decision, but the one I'm most excited about.", "spotlight": "The Mi-historia model: la decisión que más me ha costado (relative) + contrast." },
-        { "speaker": "You", "nl": "Se te nota contenta. ¿Cómo es el barrio?", "en": "You sound happy. What's the neighborhood like?" },
-        { "speaker": "Sofía", "nl": "Mira, es tranquilo y está cerca del mar. Aunque echo de menos a Lucía, aquí se respira otra cosa.", "en": "Look, it's quiet and near the sea. Even though I miss Lucía, it's a different vibe here." },
-        { "speaker": "You", "nl": "Me alegro un montón por ti, de verdad.", "en": "I'm really so glad for you." },
-        { "speaker": "Sofía", "nl": "Gracias. Oye, venid a verme pronto, ¿eh? Traeos el bañador.", "en": "Thanks. Hey, come visit me soon, okay? Bring your swimsuits.", "spotlight": "vosotros commands: venid + traeos (reflexive drops the -d)." },
-        { "speaker": "You", "nl": "¡Hecho! En cuanto pueda, me planto en Valencia.", "en": "Done! As soon as I can, I'm off to Valencia." }
+        { "speaker": "Sofía", "target": "¡Hola! Ya estoy instalada. Bueno, casi: todavía hay cajas por todas partes.", "en": "Hi! I'm settled in. Well, almost: there are still boxes everywhere." },
+        { "speaker": "You", "target": "¡Qué alegría! ¿Y qué tal? ¿No te arrepientes?", "en": "How lovely! And how's it going? No regrets?" },
+        { "speaker": "Sofía", "target": "Para nada. Fue la decisión que más me ha costado, pero la que más ilusión me hace.", "en": "Not at all. It was the hardest decision, but the one I'm most excited about.", "spotlight": "The Mi-historia model: la decisión que más me ha costado (relative) + contrast." },
+        { "speaker": "You", "target": "Se te nota contenta. ¿Cómo es el barrio?", "en": "You sound happy. What's the neighborhood like?" },
+        { "speaker": "Sofía", "target": "Mira, es tranquilo y está cerca del mar. Aunque echo de menos a Lucía, aquí se respira otra cosa.", "en": "Look, it's quiet and near the sea. Even though I miss Lucía, it's a different vibe here." },
+        { "speaker": "You", "target": "Me alegro un montón por ti, de verdad.", "en": "I'm really so glad for you." },
+        { "speaker": "Sofía", "target": "Gracias. Oye, venid a verme pronto, ¿eh? Traeos el bañador.", "en": "Thanks. Hey, come visit me soon, okay? Bring your swimsuits.", "spotlight": "vosotros commands: venid + traeos (reflexive drops the -d)." },
+        { "speaker": "You", "target": "¡Hecho! En cuanto pueda, me planto en Valencia.", "en": "Done! As soon as I can, I'm off to Valencia." }
       ]
     },
     {

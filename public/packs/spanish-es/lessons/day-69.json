@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-69",
   "day": 69,
   "module": "M10",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Toca para oír la mudanza",
       "items": [
-        { "nl": "Coge esa caja y ponla aquí.", "en": "Grab that box and put it here.", "speak": "coge esa caja y ponla aquí" },
-        { "nl": "Esto es para Valencia.", "en": "This is for Valencia.", "speak": "esto es para Valencia" },
-        { "nl": "Dámelo, que lo llevo yo.", "en": "Give it to me, I'll carry it.", "speak": "dámelo, que lo llevo yo" },
-        { "nl": "La caja que pesa, no la subas.", "en": "The heavy box, don't lift it.", "speak": "la caja que pesa, no la subas" },
-        { "nl": "Aunque sea tarde, terminamos hoy.", "en": "Even if it's late, we finish today.", "speak": "aunque sea tarde, terminamos hoy" },
-        { "nl": "Gracias por venir a ayudar.", "en": "Thanks for coming to help.", "speak": "gracias por venir a ayudar" }
+        { "target": "Coge esa caja y ponla aquí.", "en": "Grab that box and put it here.", "speak": "coge esa caja y ponla aquí" },
+        { "target": "Esto es para Valencia.", "en": "This is for Valencia.", "speak": "esto es para Valencia" },
+        { "target": "Dámelo, que lo llevo yo.", "en": "Give it to me, I'll carry it.", "speak": "dámelo, que lo llevo yo" },
+        { "target": "La caja que pesa, no la subas.", "en": "The heavy box, don't lift it.", "speak": "la caja que pesa, no la subas" },
+        { "target": "Aunque sea tarde, terminamos hoy.", "en": "Even if it's late, we finish today.", "speak": "aunque sea tarde, terminamos hoy" },
+        { "target": "Gracias por venir a ayudar.", "en": "Thanks for coming to help.", "speak": "gracias por venir a ayudar" }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "type": "dialogue",
       "scene": "Día de mudanza. Sofía se va a Valencia. Lucía, Rafa, Nacho y tú habéis venido a ayudar.",
       "lines": [
-        { "speaker": "Sofía", "nl": "¡Habéis venido todos! No sé cómo agradecéroslo.", "en": "You all came! I don't know how to thank you.", "spotlight": "agradecéroslo = vosotros command + os + lo, all glued together." },
-        { "speaker": "Lucía", "nl": "Calla, anda. Dinos qué hacemos y lo hacemos.", "en": "Oh hush. Tell us what to do and we'll do it." },
-        { "speaker": "Sofía", "nl": "Vale. Rafa, coge esas cajas y ponlas en el ascensor.", "en": "Okay. Rafa, grab those boxes and put them in the lift." },
-        { "speaker": "Rafa", "nl": "A la orden. Oye, ¿esta caja tan pesada también va para Valencia?", "en": "Yes, boss. Hey, does this heavy box go to Valencia too?" },
-        { "speaker": "Sofía", "nl": "Esa no, esa es de libros para donar. Déjala aquí.", "en": "Not that one, that's books to donate. Leave it here.", "spotlight": "para donar (purpose) + déjala (command + pronoun)." },
-        { "speaker": "Nacho", "nl": "Yo bajo con la mesa. Sujétamela un momento, que no paso por la puerta.", "en": "I'll go down with the table. Hold it for me a sec, I can't fit through the door.", "spotlight": "sujétamela (cluster) + paso por la puerta (movement)." },
-        { "speaker": "You", "nl": "Sofía, ¿y esto? ¿Es tuyo o lo tiramos?", "en": "Sofía, and this? Is it yours or do we toss it?" },
-        { "speaker": "Sofía", "nl": "Trae, dámelo. Es la taza que me regaló mi abuela, no la tiro ni loca.", "en": "Here, give it to me. It's the mug my grandma gave me, no way I'm tossing it.", "spotlight": "la taza que me regaló mi abuela — relative clause." },
-        { "speaker": "Lucía", "nl": "Aunque estés hasta arriba, no te olvides de esa. ¡Venga, al furgón!", "en": "Even if you're swamped, don't forget that one. Come on, to the van!", "spotlight": "aunque estés — subjunctive connector." },
-        { "speaker": "Sofía", "nl": "Gracias por todo, de verdad. Sin vosotros no podría.", "en": "Thanks for everything, really. I couldn't do it without you." }
+        { "speaker": "Sofía", "target": "¡Habéis venido todos! No sé cómo agradecéroslo.", "en": "You all came! I don't know how to thank you.", "spotlight": "agradecéroslo = vosotros command + os + lo, all glued together." },
+        { "speaker": "Lucía", "target": "Calla, anda. Dinos qué hacemos y lo hacemos.", "en": "Oh hush. Tell us what to do and we'll do it." },
+        { "speaker": "Sofía", "target": "Vale. Rafa, coge esas cajas y ponlas en el ascensor.", "en": "Okay. Rafa, grab those boxes and put them in the lift." },
+        { "speaker": "Rafa", "target": "A la orden. Oye, ¿esta caja tan pesada también va para Valencia?", "en": "Yes, boss. Hey, does this heavy box go to Valencia too?" },
+        { "speaker": "Sofía", "target": "Esa no, esa es de libros para donar. Déjala aquí.", "en": "Not that one, that's books to donate. Leave it here.", "spotlight": "para donar (purpose) + déjala (command + pronoun)." },
+        { "speaker": "Nacho", "target": "Yo bajo con la mesa. Sujétamela un momento, que no paso por la puerta.", "en": "I'll go down with the table. Hold it for me a sec, I can't fit through the door.", "spotlight": "sujétamela (cluster) + paso por la puerta (movement)." },
+        { "speaker": "You", "target": "Sofía, ¿y esto? ¿Es tuyo o lo tiramos?", "en": "Sofía, and this? Is it yours or do we toss it?" },
+        { "speaker": "Sofía", "target": "Trae, dámelo. Es la taza que me regaló mi abuela, no la tiro ni loca.", "en": "Here, give it to me. It's the mug my grandma gave me, no way I'm tossing it.", "spotlight": "la taza que me regaló mi abuela — relative clause." },
+        { "speaker": "Lucía", "target": "Aunque estés hasta arriba, no te olvides de esa. ¡Venga, al furgón!", "en": "Even if you're swamped, don't forget that one. Come on, to the van!", "spotlight": "aunque estés — subjunctive connector." },
+        { "speaker": "Sofía", "target": "Gracias por todo, de verdad. Sin vosotros no podría.", "en": "Thanks for everything, really. I couldn't do it without you." }
       ]
     },
     {

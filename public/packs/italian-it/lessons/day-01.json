@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-01",
   "day": 1,
   "module": "M01",
@@ -21,22 +21,22 @@
       "type": "chips",
       "title": "Tap to hear the five vowels",
       "items": [
-        { "nl": "a", "en": "as in 'father'", "speak": "a" },
-        { "nl": "e", "en": "as in 'bet'", "speak": "e" },
-        { "nl": "i", "en": "as in 'machine'", "speak": "i" },
-        { "nl": "o", "en": "as in 'or'", "speak": "o" },
-        { "nl": "u", "en": "as in 'boot'", "speak": "u" }
+        { "target": "a", "en": "as in 'father'", "speak": "a" },
+        { "target": "e", "en": "as in 'bet'", "speak": "e" },
+        { "target": "i", "en": "as in 'machine'", "speak": "i" },
+        { "target": "o", "en": "as in 'or'", "speak": "o" },
+        { "target": "u", "en": "as in 'boot'", "speak": "u" }
       ]
     },
     {
       "type": "chips",
       "title": "Now inside real words",
       "items": [
-        { "nl": "casa", "en": "house", "speak": "casa" },
-        { "nl": "vino", "en": "wine", "speak": "vino" },
-        { "nl": "sole", "en": "sun", "speak": "sole" },
-        { "nl": "luna", "en": "moon", "speak": "luna" },
-        { "nl": "amico", "en": "friend", "speak": "amico" }
+        { "target": "casa", "en": "house", "speak": "casa" },
+        { "target": "vino", "en": "wine", "speak": "vino" },
+        { "target": "sole", "en": "sun", "speak": "sole" },
+        { "target": "luna", "en": "moon", "speak": "luna" },
+        { "target": "amico", "en": "friend", "speak": "amico" }
       ]
     },
     {
@@ -56,10 +56,10 @@
       "type": "shadow",
       "title": "Feel the stress — repeat",
       "lines": [
-        { "nl": "casa", "en": "house (CA-sa)" },
-        { "nl": "amico", "en": "friend (a-MI-co)" },
-        { "nl": "città", "en": "city (cit-TÀ)" },
-        { "nl": "caffè", "en": "coffee (caf-FÈ)" }
+        { "target": "casa", "en": "house (CA-sa)" },
+        { "target": "amico", "en": "friend (a-MI-co)" },
+        { "target": "città", "en": "city (cit-TÀ)" },
+        { "target": "caffè", "en": "coffee (caf-FÈ)" }
       ]
     },
     {

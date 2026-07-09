@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-25",
   "day": 25,
   "module": "M04",
@@ -29,9 +29,9 @@
       "type": "chips",
       "title": "Tap to hear mögen",
       "items": [
-        { "nl": "Ich mag Käse.", "en": "I like cheese.", "speak": "Ich mag Käse." },
-        { "nl": "Ich mag keinen Fisch.", "en": "I don't like fish.", "speak": "Ich mag keinen Fisch." },
-        { "nl": "Magst du Kaffee?", "en": "Do you like coffee?", "speak": "Magst du Kaffee?" }
+        { "target": "Ich mag Käse.", "en": "I like cheese.", "speak": "Ich mag Käse." },
+        { "target": "Ich mag keinen Fisch.", "en": "I don't like fish.", "speak": "Ich mag keinen Fisch." },
+        { "target": "Magst du Kaffee?", "en": "Do you like coffee?", "speak": "Magst du Kaffee?" }
       ]
     },
     {
@@ -51,10 +51,10 @@
       "type": "chips",
       "title": "gern + Verb",
       "items": [
-        { "nl": "ich esse gern", "en": "I like to eat", "speak": "ich esse gern" },
-        { "nl": "ich trinke gern", "en": "I like to drink", "speak": "ich trinke gern" },
-        { "nl": "ich koche gern", "en": "I like to cook", "speak": "ich koche gern" },
-        { "nl": "ich lese gern", "en": "I like to read", "speak": "ich lese gern" }
+        { "target": "ich esse gern", "en": "I like to eat", "speak": "ich esse gern" },
+        { "target": "ich trinke gern", "en": "I like to drink", "speak": "ich trinke gern" },
+        { "target": "ich koche gern", "en": "I like to cook", "speak": "ich koche gern" },
+        { "target": "ich lese gern", "en": "I like to read", "speak": "ich lese gern" }
       ]
     },
     {

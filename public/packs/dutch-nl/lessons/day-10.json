@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-10",
   "day": 10,
   "module": "M02",
@@ -29,11 +29,11 @@
       "type": "chips",
       "title": "Tap to hear the hours",
       "items": [
-        { "nl": "één uur", "en": "1:00", "speak": "een uur" },
-        { "nl": "drie uur", "en": "3:00", "speak": "drie uur" },
-        { "nl": "zes uur", "en": "6:00", "speak": "zes uur" },
-        { "nl": "acht uur", "en": "8:00", "speak": "acht uur" },
-        { "nl": "twaalf uur", "en": "12:00", "speak": "twaalf uur" }
+        { "target": "één uur", "en": "1:00", "speak": "een uur" },
+        { "target": "drie uur", "en": "3:00", "speak": "drie uur" },
+        { "target": "zes uur", "en": "6:00", "speak": "zes uur" },
+        { "target": "acht uur", "en": "8:00", "speak": "acht uur" },
+        { "target": "twaalf uur", "en": "12:00", "speak": "twaalf uur" }
       ]
     },
     {
@@ -92,11 +92,11 @@
       "type": "chips",
       "title": "Tap to hear the days",
       "items": [
-        { "nl": "maandag", "en": "Monday", "speak": "maandag" },
-        { "nl": "woensdag", "en": "Wednesday", "speak": "woensdag" },
-        { "nl": "vrijdag", "en": "Friday", "speak": "vrijdag" },
-        { "nl": "zaterdag", "en": "Saturday", "speak": "zaterdag" },
-        { "nl": "zondag", "en": "Sunday", "speak": "zondag" }
+        { "target": "maandag", "en": "Monday", "speak": "maandag" },
+        { "target": "woensdag", "en": "Wednesday", "speak": "woensdag" },
+        { "target": "vrijdag", "en": "Friday", "speak": "vrijdag" },
+        { "target": "zaterdag", "en": "Saturday", "speak": "zaterdag" },
+        { "target": "zondag", "en": "Sunday", "speak": "zondag" }
       ]
     },
     {

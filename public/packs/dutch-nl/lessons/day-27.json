@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-27",
   "day": 27,
   "module": "M04",
@@ -41,13 +41,13 @@
       "type": "dialogue",
       "scene": "Bram tells you about his day in Rotterdam and his favorite neighborhood snackbar",
       "lines": [
-        { "speaker": "Bram", "nl": "Elke dag sta ik om zes uur op. Rotterdam wacht niet, hoor.", "en": "Every day I get up at six. Rotterdam doesn't wait, you know." },
-        { "speaker": "You", "nl": "Zes uur? Dat is vroeg! Wat eet je dan?", "en": "Six? That's early! What do you eat then?" },
-        { "speaker": "Bram", "nl": "Een boterham en koffie, meer niet. Geen woorden maar daden, toch?", "en": "A slice of bread and coffee, nothing more. No words but deeds, right?", "spotlight": "Bram's Rotterdam motto — plain, no fuss." },
-        { "speaker": "You", "nl": "En na het werk? Waar ga je dan graag heen?", "en": "And after work? Where do you like to go?" },
-        { "speaker": "Bram", "nl": "Naar de snackbar op de hoek. Ik wil altijd een kroket met patat.", "en": "To the snackbar on the corner. I always want a kroket with fries.", "spotlight": "willen + infinitive at the end — this week's grammar, in the wild." },
-        { "speaker": "You", "nl": "Mag ik een keer mee?", "en": "Can I come along sometime?" },
-        { "speaker": "Bram", "nl": "Natuurlijk. Doe maar gewoon mee, dat is prima.", "en": "Of course. Just come along, that's fine." }
+        { "speaker": "Bram", "target": "Elke dag sta ik om zes uur op. Rotterdam wacht niet, hoor.", "en": "Every day I get up at six. Rotterdam doesn't wait, you know." },
+        { "speaker": "You", "target": "Zes uur? Dat is vroeg! Wat eet je dan?", "en": "Six? That's early! What do you eat then?" },
+        { "speaker": "Bram", "target": "Een boterham en koffie, meer niet. Geen woorden maar daden, toch?", "en": "A slice of bread and coffee, nothing more. No words but deeds, right?", "spotlight": "Bram's Rotterdam motto — plain, no fuss." },
+        { "speaker": "You", "target": "En na het werk? Waar ga je dan graag heen?", "en": "And after work? Where do you like to go?" },
+        { "speaker": "Bram", "target": "Naar de snackbar op de hoek. Ik wil altijd een kroket met patat.", "en": "To the snackbar on the corner. I always want a kroket with fries.", "spotlight": "willen + infinitive at the end — this week's grammar, in the wild." },
+        { "speaker": "You", "target": "Mag ik een keer mee?", "en": "Can I come along sometime?" },
+        { "speaker": "Bram", "target": "Natuurlijk. Doe maar gewoon mee, dat is prima.", "en": "Of course. Just come along, that's fine." }
       ]
     },
     {

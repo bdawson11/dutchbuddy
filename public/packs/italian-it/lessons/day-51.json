@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-51",
   "day": 51,
   "module": "M08",
@@ -28,10 +28,10 @@
       "type": "chips",
       "title": "Progetti in parole",
       "items": [
-        { "nl": "Penso di andare in palestra oggi.", "en": "I'm thinking of going to the gym today.", "speak": "Penso di andare in palestra oggi." },
-        { "nl": "Ho intenzione di studiare di più.", "en": "I intend to study more.", "speak": "Ho intenzione di studiare di più." },
-        { "nl": "Pensiamo di cambiare casa.", "en": "We're thinking of moving house.", "speak": "Pensiamo di cambiare casa." },
-        { "nl": "Hanno intenzione di aprire un bar.", "en": "They intend to open a bar.", "speak": "Hanno intenzione di aprire un bar." }
+        { "target": "Penso di andare in palestra oggi.", "en": "I'm thinking of going to the gym today.", "speak": "Penso di andare in palestra oggi." },
+        { "target": "Ho intenzione di studiare di più.", "en": "I intend to study more.", "speak": "Ho intenzione di studiare di più." },
+        { "target": "Pensiamo di cambiare casa.", "en": "We're thinking of moving house.", "speak": "Pensiamo di cambiare casa." },
+        { "target": "Hanno intenzione di aprire un bar.", "en": "They intend to open a bar.", "speak": "Hanno intenzione di aprire un bar." }
       ]
     },
     {
@@ -77,12 +77,12 @@
       "type": "dialogue",
       "scene": "Giulia calls to make weekend plans with you.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Allora, hai intenzione di venire alla festa di Sofia sabato?", "en": "So, do you intend to come to Sofia's party Saturday?" },
-        { "speaker": "You", "nl": "Sì, penso di venire! Ma prima ho intenzione di fare la spesa.", "en": "Yes, I'm thinking of coming! But first I intend to do the grocery shopping.", "spotlight": "pensare di + venire and avere intenzione di + fare, back to back — both keep the infinitive." },
-        { "speaker": "Giulia", "nl": "Perfetto. Ti va di arrivare insieme?", "en": "Perfect. Do you feel like arriving together?" },
-        { "speaker": "You", "nl": "Volentieri! Secondo te, pioverà sabato?", "en": "Gladly! Do you think it'll rain Saturday?" },
-        { "speaker": "Giulia", "nl": "Boh, forse. Ma probabilmente sarà una bella serata.", "en": "Not sure, maybe. But it'll probably be a lovely evening." },
-        { "speaker": "You", "nl": "Speriamo bene, allora!", "en": "Let's hope so, then!" }
+        { "speaker": "Giulia", "target": "Allora, hai intenzione di venire alla festa di Sofia sabato?", "en": "So, do you intend to come to Sofia's party Saturday?" },
+        { "speaker": "You", "target": "Sì, penso di venire! Ma prima ho intenzione di fare la spesa.", "en": "Yes, I'm thinking of coming! But first I intend to do the grocery shopping.", "spotlight": "pensare di + venire and avere intenzione di + fare, back to back — both keep the infinitive." },
+        { "speaker": "Giulia", "target": "Perfetto. Ti va di arrivare insieme?", "en": "Perfect. Do you feel like arriving together?" },
+        { "speaker": "You", "target": "Volentieri! Secondo te, pioverà sabato?", "en": "Gladly! Do you think it'll rain Saturday?" },
+        { "speaker": "Giulia", "target": "Boh, forse. Ma probabilmente sarà una bella serata.", "en": "Not sure, maybe. But it'll probably be a lovely evening." },
+        { "speaker": "You", "target": "Speriamo bene, allora!", "en": "Let's hope so, then!" }
       ]
     },
     {

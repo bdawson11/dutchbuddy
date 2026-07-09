@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-30",
   "day": 30,
   "module": "M05",
@@ -37,11 +37,11 @@
       "type": "chips",
       "title": "Zum Hören",
       "items": [
-        { "nl": "Ich bin gegangen", "en": "I went", "speak": "Ich bin gegangen" },
-        { "nl": "Ich bin gefahren", "en": "I traveled", "speak": "Ich bin gefahren" },
-        { "nl": "Ich bin geblieben", "en": "I stayed", "speak": "Ich bin geblieben" },
-        { "nl": "Es ist geworden", "en": "it became", "speak": "Es ist geworden" },
-        { "nl": "Ich bin gewesen", "en": "I have been", "speak": "Ich bin gewesen" }
+        { "target": "Ich bin gegangen", "en": "I went", "speak": "Ich bin gegangen" },
+        { "target": "Ich bin gefahren", "en": "I traveled", "speak": "Ich bin gefahren" },
+        { "target": "Ich bin geblieben", "en": "I stayed", "speak": "Ich bin geblieben" },
+        { "target": "Es ist geworden", "en": "it became", "speak": "Es ist geworden" },
+        { "target": "Ich bin gewesen", "en": "I have been", "speak": "Ich bin gewesen" }
       ]
     },
     {
@@ -83,13 +83,13 @@
       "type": "dialogue",
       "scene": "Monday morning at a Berlin café — Lena is curious what you got up to over the weekend.",
       "lines": [
-        { "speaker": "Lena", "nl": "Na, was hast du am Wochenende gemacht?", "en": "So, what did you do this weekend?" },
-        { "speaker": "You", "nl": "Ich bin nach Potsdam gefahren.", "en": "I went to Potsdam.", "spotlight": "*gefahren* — fahren ist ein Bewegungsverb, also sein." },
-        { "speaker": "Lena", "nl": "Schön! Hast du den Zug genommen?", "en": "Nice! Did you take the train?" },
-        { "speaker": "You", "nl": "Ja, und ich bin dort zwei Nächte geblieben.", "en": "Yes, and I stayed there two nights.", "spotlight": "*geblieben* — bleiben nimmt auch sein." },
-        { "speaker": "Lena", "nl": "Ist sonst noch was passiert?", "en": "Did anything else happen?" },
-        { "speaker": "You", "nl": "Nein, es ist einfach ruhig geworden.", "en": "No, it just got quiet.", "spotlight": "*geworden* — werden (Zustandsänderung) nimmt sein; *ruhig* bleibt hier ohne Endung." },
-        { "speaker": "Lena", "nl": "Klingt gut. Ich bin dieses Wochenende zu Hause geblieben.", "en": "Sounds good. I stayed home this weekend." }
+        { "speaker": "Lena", "target": "Na, was hast du am Wochenende gemacht?", "en": "So, what did you do this weekend?" },
+        { "speaker": "You", "target": "Ich bin nach Potsdam gefahren.", "en": "I went to Potsdam.", "spotlight": "*gefahren* — fahren ist ein Bewegungsverb, also sein." },
+        { "speaker": "Lena", "target": "Schön! Hast du den Zug genommen?", "en": "Nice! Did you take the train?" },
+        { "speaker": "You", "target": "Ja, und ich bin dort zwei Nächte geblieben.", "en": "Yes, and I stayed there two nights.", "spotlight": "*geblieben* — bleiben nimmt auch sein." },
+        { "speaker": "Lena", "target": "Ist sonst noch was passiert?", "en": "Did anything else happen?" },
+        { "speaker": "You", "target": "Nein, es ist einfach ruhig geworden.", "en": "No, it just got quiet.", "spotlight": "*geworden* — werden (Zustandsänderung) nimmt sein; *ruhig* bleibt hier ohne Endung." },
+        { "speaker": "Lena", "target": "Klingt gut. Ich bin dieses Wochenende zu Hause geblieben.", "en": "Sounds good. I stayed home this weekend." }
       ]
     },
     {

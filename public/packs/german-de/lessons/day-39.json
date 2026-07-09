@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-39",
   "day": 39,
   "module": "M06",
@@ -31,12 +31,12 @@
       "type": "chips",
       "title": "Tap to hear the feelings",
       "items": [
-        { "nl": "froh", "en": "glad", "speak": "froh" },
-        { "nl": "wütend", "en": "angry", "speak": "wütend" },
-        { "nl": "müde", "en": "tired", "speak": "müde" },
-        { "nl": "nervös", "en": "nervous", "speak": "nervös" },
-        { "nl": "traurig", "en": "sad", "speak": "traurig" },
-        { "nl": "gestresst", "en": "stressed", "speak": "gestresst" }
+        { "target": "froh", "en": "glad", "speak": "froh" },
+        { "target": "wütend", "en": "angry", "speak": "wütend" },
+        { "target": "müde", "en": "tired", "speak": "müde" },
+        { "target": "nervös", "en": "nervous", "speak": "nervös" },
+        { "target": "traurig", "en": "sad", "speak": "traurig" },
+        { "target": "gestresst", "en": "stressed", "speak": "gestresst" }
       ]
     },
     {
@@ -91,9 +91,9 @@
       "type": "shadow",
       "title": "Shadow the feelings",
       "lines": [
-        { "nl": "Ich fühle mich froh.", "en": "I feel glad." },
-        { "nl": "Ich fühle mich ein bisschen nervös.", "en": "I feel a little nervous." },
-        { "nl": "Er fühlt sich traurig.", "en": "He feels sad." }
+        { "target": "Ich fühle mich froh.", "en": "I feel glad." },
+        { "target": "Ich fühle mich ein bisschen nervös.", "en": "I feel a little nervous." },
+        { "target": "Er fühlt sich traurig.", "en": "He feels sad." }
       ]
     },
     {

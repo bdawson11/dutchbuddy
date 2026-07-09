@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-89",
   "day": 89,
   "module": "M13",
@@ -38,11 +38,11 @@
       "type": "chips",
       "title": "Ascolta e ripeti",
       "items": [
-        { "nl": "Benché sia stanco, esco lo stesso.", "en": "Even though I'm tired, I'm going out anyway.", "speak": "Benché sia stanco, esco lo stesso." },
-        { "nl": "Te lo spiego affinché tu capisca.", "en": "I'll explain it so you understand.", "speak": "Te lo spiego affinché tu capisca." },
-        { "nl": "Chiamami prima che sia troppo tardi.", "en": "Call me before it's too late.", "speak": "Chiamami prima che sia troppo tardi." },
-        { "nl": "Vengo, purché non faccia freddo.", "en": "I'll come, as long as it's not cold.", "speak": "Vengo, purché non faccia freddo." },
-        { "nl": "Usciamo, a meno che tu non sia stanco.", "en": "Let's go out, unless you're tired.", "speak": "Usciamo, a meno che tu non sia stanco." }
+        { "target": "Benché sia stanco, esco lo stesso.", "en": "Even though I'm tired, I'm going out anyway.", "speak": "Benché sia stanco, esco lo stesso." },
+        { "target": "Te lo spiego affinché tu capisca.", "en": "I'll explain it so you understand.", "speak": "Te lo spiego affinché tu capisca." },
+        { "target": "Chiamami prima che sia troppo tardi.", "en": "Call me before it's too late.", "speak": "Chiamami prima che sia troppo tardi." },
+        { "target": "Vengo, purché non faccia freddo.", "en": "I'll come, as long as it's not cold.", "speak": "Vengo, purché non faccia freddo." },
+        { "target": "Usciamo, a meno che tu non sia stanco.", "en": "Let's go out, unless you're tired.", "speak": "Usciamo, a meno che tu non sia stanco." }
       ]
     },
     {
@@ -82,14 +82,14 @@
       "type": "dialogue",
       "scene": "Giulia is trying to convince you to come to an aperitivo.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Dai, vieni all'aperitivo stasera!", "en": "Come on, come to the aperitivo tonight!" },
-        { "speaker": "You", "nl": "Vengo volentieri, purché non finiamo tardi.", "en": "I'll gladly come, as long as we don't finish late.", "spotlight": "'purché' + congiuntivo." },
-        { "speaker": "Giulia", "nl": "Tranquillo. Anche se rimani un'ora, va benissimo.", "en": "Relax. Even if you stay an hour, that's fine." },
-        { "speaker": "You", "nl": "Benché sia stanchissimo, un aperitivo non si rifiuta.", "en": "Even though I'm exhausted, you don't turn down an aperitivo.", "spotlight": "'benché' + congiuntivo." },
-        { "speaker": "Giulia", "nl": "Bravo! Ti scrivo prima che esca di casa.", "en": "Nice! I'll text you before I leave the house." },
-        { "speaker": "You", "nl": "Perfetto. A meno che non piova, ci sono.", "en": "Perfect. Unless it rains, I'm there." },
-        { "speaker": "Giulia", "nl": "Non pioverà, fidati. A dopo!", "en": "It won't rain, trust me. See you later!" },
-        { "speaker": "You", "nl": "A dopo, Giulia!", "en": "See you, Giulia!" }
+        { "speaker": "Giulia", "target": "Dai, vieni all'aperitivo stasera!", "en": "Come on, come to the aperitivo tonight!" },
+        { "speaker": "You", "target": "Vengo volentieri, purché non finiamo tardi.", "en": "I'll gladly come, as long as we don't finish late.", "spotlight": "'purché' + congiuntivo." },
+        { "speaker": "Giulia", "target": "Tranquillo. Anche se rimani un'ora, va benissimo.", "en": "Relax. Even if you stay an hour, that's fine." },
+        { "speaker": "You", "target": "Benché sia stanchissimo, un aperitivo non si rifiuta.", "en": "Even though I'm exhausted, you don't turn down an aperitivo.", "spotlight": "'benché' + congiuntivo." },
+        { "speaker": "Giulia", "target": "Bravo! Ti scrivo prima che esca di casa.", "en": "Nice! I'll text you before I leave the house." },
+        { "speaker": "You", "target": "Perfetto. A meno che non piova, ci sono.", "en": "Perfect. Unless it rains, I'm there." },
+        { "speaker": "Giulia", "target": "Non pioverà, fidati. A dopo!", "en": "It won't rain, trust me. See you later!" },
+        { "speaker": "You", "target": "A dopo, Giulia!", "en": "See you, Giulia!" }
       ]
     },
     {

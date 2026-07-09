@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-37",
   "day": 37,
   "module": "M06",
@@ -32,12 +32,12 @@
       "type": "chips",
       "title": "Wörter beim Arzt",
       "items": [
-        { "nl": "der Hausarzt", "en": "the GP", "speak": "der Hausarzt" },
-        { "nl": "die Krankenkasse", "en": "the health insurance", "speak": "die Krankenkasse" },
-        { "nl": "der Termin", "en": "the appointment", "speak": "der Termin" },
-        { "nl": "die Krankschreibung", "en": "the sick note", "speak": "die Krankschreibung" },
-        { "nl": "die Versichertenkarte", "en": "the insurance card", "speak": "die Versichertenkarte" },
-        { "nl": "das Wartezimmer", "en": "the waiting room", "speak": "das Wartezimmer" }
+        { "target": "der Hausarzt", "en": "the GP", "speak": "der Hausarzt" },
+        { "target": "die Krankenkasse", "en": "the health insurance", "speak": "die Krankenkasse" },
+        { "target": "der Termin", "en": "the appointment", "speak": "der Termin" },
+        { "target": "die Krankschreibung", "en": "the sick note", "speak": "die Krankschreibung" },
+        { "target": "die Versichertenkarte", "en": "the insurance card", "speak": "die Versichertenkarte" },
+        { "target": "das Wartezimmer", "en": "the waiting room", "speak": "das Wartezimmer" }
       ]
     },
     {
@@ -87,15 +87,15 @@
       "type": "dialogue",
       "scene": "Lena helps you rehearse the phone call to your Hausarzt's office before you make it for real.",
       "lines": [
-        { "speaker": "Lena", "nl": "Also, du rufst zuerst in der Praxis an, nicht direkt beim Arzt.", "en": "Look, you call the practice first, not the doctor directly." },
-        { "speaker": "You", "nl": "Okay. Was sage ich dann?", "en": "Okay. What do I say then?" },
-        { "speaker": "Lena", "nl": "Sag einfach: 'Ich hätte gern einen Termin.'", "en": "Just say: 'I'd like an appointment.'" },
-        { "speaker": "You", "nl": "Ich habe seit zwei Tagen Halsschmerzen.", "en": "I've had a sore throat for two days." },
-        { "speaker": "Lena", "nl": "Gut. Dann noch: 'Heute oder morgen, wenn möglich.'", "en": "Good. Then add: 'Today or tomorrow, if possible.'" },
-        { "speaker": "You", "nl": "Und der Arzt fragt vielleicht: 'Was fehlt Ihnen?'", "en": "And the doctor might ask: 'What's wrong?'", "spotlight": "Was fehlt Ihnen? — fehlen + dative, the doctor's classic question" },
-        { "speaker": "Lena", "nl": "Genau. Dann sagst du: 'Ich habe seit zwei Tagen Halsschmerzen und fühle mich schlecht.'", "en": "Exactly. Then you say: 'I've had a sore throat for two days and I feel bad.'" },
-        { "speaker": "You", "nl": "Und die Krankschreibung?", "en": "And the sick note?" },
-        { "speaker": "Lena", "nl": "Frag einfach danach, falls nötig. Ganz normal hier.", "en": "Just ask for it if needed. Totally normal here." }
+        { "speaker": "Lena", "target": "Also, du rufst zuerst in der Praxis an, nicht direkt beim Arzt.", "en": "Look, you call the practice first, not the doctor directly." },
+        { "speaker": "You", "target": "Okay. Was sage ich dann?", "en": "Okay. What do I say then?" },
+        { "speaker": "Lena", "target": "Sag einfach: 'Ich hätte gern einen Termin.'", "en": "Just say: 'I'd like an appointment.'" },
+        { "speaker": "You", "target": "Ich habe seit zwei Tagen Halsschmerzen.", "en": "I've had a sore throat for two days." },
+        { "speaker": "Lena", "target": "Gut. Dann noch: 'Heute oder morgen, wenn möglich.'", "en": "Good. Then add: 'Today or tomorrow, if possible.'" },
+        { "speaker": "You", "target": "Und der Arzt fragt vielleicht: 'Was fehlt Ihnen?'", "en": "And the doctor might ask: 'What's wrong?'", "spotlight": "Was fehlt Ihnen? — fehlen + dative, the doctor's classic question" },
+        { "speaker": "Lena", "target": "Genau. Dann sagst du: 'Ich habe seit zwei Tagen Halsschmerzen und fühle mich schlecht.'", "en": "Exactly. Then you say: 'I've had a sore throat for two days and I feel bad.'" },
+        { "speaker": "You", "target": "Und die Krankschreibung?", "en": "And the sick note?" },
+        { "speaker": "Lena", "target": "Frag einfach danach, falls nötig. Ganz normal hier.", "en": "Just ask for it if needed. Totally normal here." }
       ]
     },
     {

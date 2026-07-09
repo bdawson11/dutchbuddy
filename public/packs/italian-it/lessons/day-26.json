@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-26",
   "day": 26,
   "module": "M04",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Le quantità — ascolta",
       "items": [
-        { "nl": "un etto di prosciutto", "en": "100g of prosciutto", "speak": "un etto di prosciutto" },
-        { "nl": "un chilo di mele", "en": "a kilo of apples", "speak": "un chilo di mele" },
-        { "nl": "una fetta di torta", "en": "a slice of cake", "speak": "una fetta di torta" },
-        { "nl": "un pacco di pasta", "en": "a pack of pasta", "speak": "un pacco di pasta" },
-        { "nl": "mezzo chilo di pomodori", "en": "half a kilo of tomatoes", "speak": "mezzo chilo di pomodori" }
+        { "target": "un etto di prosciutto", "en": "100g of prosciutto", "speak": "un etto di prosciutto" },
+        { "target": "un chilo di mele", "en": "a kilo of apples", "speak": "un chilo di mele" },
+        { "target": "una fetta di torta", "en": "a slice of cake", "speak": "una fetta di torta" },
+        { "target": "un pacco di pasta", "en": "a pack of pasta", "speak": "un pacco di pasta" },
+        { "target": "mezzo chilo di pomodori", "en": "half a kilo of tomatoes", "speak": "mezzo chilo di pomodori" }
       ]
     },
     {
@@ -73,9 +73,9 @@
       "type": "shadow",
       "title": "Al banco del mercato",
       "lines": [
-        { "nl": "Mi dà due etti di parmigiano?", "en": "Could you give me 200g of parmesan?" },
-        { "nl": "Un chilo di pomodori, grazie.", "en": "A kilo of tomatoes, thanks." },
-        { "nl": "Basta così, quant'è?", "en": "That's enough, how much is it?" }
+        { "target": "Mi dà due etti di parmigiano?", "en": "Could you give me 200g of parmesan?" },
+        { "target": "Un chilo di pomodori, grazie.", "en": "A kilo of tomatoes, thanks." },
+        { "target": "Basta così, quant'è?", "en": "That's enough, how much is it?" }
       ]
     },
     {

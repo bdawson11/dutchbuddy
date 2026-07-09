@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-96",
   "day": 96,
   "module": "M14",
@@ -35,12 +35,12 @@
       "type": "chips",
       "title": "Verbinder zum Anhören",
       "items": [
-        { "nl": "Einerseits ja, andererseits nein.", "en": "On one hand yes, on the other no.", "speak": "Einerseits ja, andererseits nein." },
-        { "nl": "Zwar ist es teuer, aber es lohnt sich.", "en": "It's expensive, true, but it's worth it.", "speak": "Zwar ist es teuer, aber es lohnt sich." },
-        { "nl": "Es ist spät. Trotzdem bleibe ich.", "en": "It's late. I'm staying anyway.", "speak": "Es ist spät. Trotzdem bleibe ich." },
-        { "nl": "Ich habe keine Zeit. Deshalb sage ich ab.", "en": "I have no time. So I'll cancel.", "speak": "Ich habe keine Zeit. Deshalb sage ich ab." },
-        { "nl": "Er übt viel. Folglich wird er besser.", "en": "He practises a lot. Consequently he's improving.", "speak": "Er übt viel. Folglich wird er besser." },
-        { "nl": "Kaffee mag ich, Tee hingegen nicht.", "en": "I like coffee, tea on the other hand not.", "speak": "Kaffee mag ich, Tee hingegen nicht." }
+        { "target": "Einerseits ja, andererseits nein.", "en": "On one hand yes, on the other no.", "speak": "Einerseits ja, andererseits nein." },
+        { "target": "Zwar ist es teuer, aber es lohnt sich.", "en": "It's expensive, true, but it's worth it.", "speak": "Zwar ist es teuer, aber es lohnt sich." },
+        { "target": "Es ist spät. Trotzdem bleibe ich.", "en": "It's late. I'm staying anyway.", "speak": "Es ist spät. Trotzdem bleibe ich." },
+        { "target": "Ich habe keine Zeit. Deshalb sage ich ab.", "en": "I have no time. So I'll cancel.", "speak": "Ich habe keine Zeit. Deshalb sage ich ab." },
+        { "target": "Er übt viel. Folglich wird er besser.", "en": "He practises a lot. Consequently he's improving.", "speak": "Er übt viel. Folglich wird er besser." },
+        { "target": "Kaffee mag ich, Tee hingegen nicht.", "en": "I like coffee, tea on the other hand not.", "speak": "Kaffee mag ich, Tee hingegen nicht." }
       ]
     },
     {
@@ -81,16 +81,16 @@
       "type": "dialogue",
       "scene": "Jonas is still chewing on the music question. You two weigh it out loud — properly, with both hands.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Sag ehrlich: Wäre es dumm, den Laden hinzuschmeißen?", "en": "Tell me honestly: would it be stupid to chuck in the shop?" },
-        { "speaker": "You", "nl": "Nicht dumm. Einerseits ist der Job sicher, andererseits ist Musik dein Traum.", "en": "Not stupid. On one hand the job's secure, on the other music is your dream.", "spotlight": "einerseits … andererseits — both trigger inversion (ist der Job / ist Musik)." },
-        { "speaker": "Jonas", "nl": "Genau das ist es. Zwar hab ich etwas gespart, aber lange reicht das nicht.", "en": "That's exactly it. I've saved a bit, sure, but it won't last long.", "spotlight": "zwar … aber — concede a point, then push back." },
-        { "speaker": "You", "nl": "Klar ist es riskant. Trotzdem würde ich's versuchen.", "en": "Of course it's risky. I'd try it anyway.", "spotlight": "trotzdem forces inversion, and pairs neatly with the Konjunktiv würde." },
-        { "speaker": "Jonas", "nl": "Und wenn's schiefgeht?", "en": "And if it goes wrong?" },
-        { "speaker": "You", "nl": "Dann weißt du wenigstens Bescheid. Sonst fragst du dich das ewig.", "en": "Then at least you'll know. Otherwise you'll wonder forever." },
-        { "speaker": "Jonas", "nl": "Stimmt. Ich hab kein Talent fürs Bereuen.", "en": "True. I've got no talent for regret." },
-        { "speaker": "You", "nl": "Eben. Du übst seit Jahren — folglich bist du bereit.", "en": "Exactly. You've practised for years — consequently you're ready.", "spotlight": "folglich draws the conclusion, again with inversion." },
-        { "speaker": "Jonas", "nl": "Puh. Du redest wie einer, der schon entschieden hat.", "en": "Phew. You talk like someone who's already decided." },
-        { "speaker": "You", "nl": "Vielleicht. Aber entscheiden musst du.", "en": "Maybe. But you're the one who has to decide." }
+        { "speaker": "Jonas", "target": "Sag ehrlich: Wäre es dumm, den Laden hinzuschmeißen?", "en": "Tell me honestly: would it be stupid to chuck in the shop?" },
+        { "speaker": "You", "target": "Nicht dumm. Einerseits ist der Job sicher, andererseits ist Musik dein Traum.", "en": "Not stupid. On one hand the job's secure, on the other music is your dream.", "spotlight": "einerseits … andererseits — both trigger inversion (ist der Job / ist Musik)." },
+        { "speaker": "Jonas", "target": "Genau das ist es. Zwar hab ich etwas gespart, aber lange reicht das nicht.", "en": "That's exactly it. I've saved a bit, sure, but it won't last long.", "spotlight": "zwar … aber — concede a point, then push back." },
+        { "speaker": "You", "target": "Klar ist es riskant. Trotzdem würde ich's versuchen.", "en": "Of course it's risky. I'd try it anyway.", "spotlight": "trotzdem forces inversion, and pairs neatly with the Konjunktiv würde." },
+        { "speaker": "Jonas", "target": "Und wenn's schiefgeht?", "en": "And if it goes wrong?" },
+        { "speaker": "You", "target": "Dann weißt du wenigstens Bescheid. Sonst fragst du dich das ewig.", "en": "Then at least you'll know. Otherwise you'll wonder forever." },
+        { "speaker": "Jonas", "target": "Stimmt. Ich hab kein Talent fürs Bereuen.", "en": "True. I've got no talent for regret." },
+        { "speaker": "You", "target": "Eben. Du übst seit Jahren — folglich bist du bereit.", "en": "Exactly. You've practised for years — consequently you're ready.", "spotlight": "folglich draws the conclusion, again with inversion." },
+        { "speaker": "Jonas", "target": "Puh. Du redest wie einer, der schon entschieden hat.", "en": "Phew. You talk like someone who's already decided." },
+        { "speaker": "You", "target": "Vielleicht. Aber entscheiden musst du.", "en": "Maybe. But you're the one who has to decide." }
       ]
     },
     {

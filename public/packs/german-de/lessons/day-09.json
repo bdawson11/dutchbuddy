@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-09",
   "day": 9,
   "module": "M02",
@@ -30,11 +30,11 @@
       "type": "chips",
       "title": "Höre die großen Zahlen",
       "items": [
-        { "nl": "hundert", "en": "one hundred", "speak": "hundert" },
-        { "nl": "zweihundert", "en": "two hundred", "speak": "zweihundert" },
-        { "nl": "hundertfünfzig", "en": "one hundred fifty", "speak": "hundertfünfzig" },
-        { "nl": "tausend", "en": "one thousand", "speak": "tausend" },
-        { "nl": "zweitausend", "en": "two thousand", "speak": "zweitausend" }
+        { "target": "hundert", "en": "one hundred", "speak": "hundert" },
+        { "target": "zweihundert", "en": "two hundred", "speak": "zweihundert" },
+        { "target": "hundertfünfzig", "en": "one hundred fifty", "speak": "hundertfünfzig" },
+        { "target": "tausend", "en": "one thousand", "speak": "tausend" },
+        { "target": "zweitausend", "en": "two thousand", "speak": "zweitausend" }
       ]
     },
     {
@@ -55,11 +55,11 @@
       "type": "chips",
       "title": "Preise hören",
       "items": [
-        { "nl": "Das kostet vier Euro zwanzig", "en": "that costs four twenty", "speak": "Das kostet vier Euro zwanzig" },
-        { "nl": "Was kostet das?", "en": "what does that cost?", "speak": "Was kostet das?" },
-        { "nl": "Das macht sechs Euro fünfzig", "en": "that comes to six fifty", "speak": "Das macht sechs Euro fünfzig" },
-        { "nl": "zwei Euro", "en": "two euros", "speak": "zwei Euro" },
-        { "nl": "fünfzig Cent", "en": "fifty cents", "speak": "fünfzig Cent" }
+        { "target": "Das kostet vier Euro zwanzig", "en": "that costs four twenty", "speak": "Das kostet vier Euro zwanzig" },
+        { "target": "Was kostet das?", "en": "what does that cost?", "speak": "Was kostet das?" },
+        { "target": "Das macht sechs Euro fünfzig", "en": "that comes to six fifty", "speak": "Das macht sechs Euro fünfzig" },
+        { "target": "zwei Euro", "en": "two euros", "speak": "zwei Euro" },
+        { "target": "fünfzig Cent", "en": "fifty cents", "speak": "fünfzig Cent" }
       ]
     },
     {
@@ -86,21 +86,21 @@
       "type": "shadow",
       "title": "Telefonnummern lesen",
       "lines": [
-        { "nl": "Wie ist deine Nummer?", "en": "What's your number?" },
-        { "nl": "Null eins fünf eins…", "en": "Zero one five one… (mobiles start with 0)" },
-        { "nl": "Ich sage die Zahlen einzeln.", "en": "I say the numbers one by one." },
-        { "nl": "Zwei, zwei, fünf, fünf — doppelt.", "en": "Two, two, five, five — repeated." }
+        { "target": "Wie ist deine Nummer?", "en": "What's your number?" },
+        { "target": "Null eins fünf eins…", "en": "Zero one five one… (mobiles start with 0)" },
+        { "target": "Ich sage die Zahlen einzeln.", "en": "I say the numbers one by one." },
+        { "target": "Zwei, zwei, fünf, fünf — doppelt.", "en": "Two, two, five, five — repeated." }
       ]
     },
     {
       "type": "dialogue",
       "scene": "Lena buys breakfast at the Bäckerei and you get her number to meet again.",
       "lines": [
-        { "speaker": "Lena", "nl": "So, zwei Brötchen und ein Kaffee — das macht drei Euro zwanzig.", "en": "So, two rolls and a coffee — that comes to three twenty.", "spotlight": "*Das macht …* is how you hear a total at the counter." },
-        { "speaker": "You", "nl": "Perfekt, danke! Sag, wie ist deine Telefonnummer?", "en": "Perfect, thanks! Hey, what's your phone number?" },
-        { "speaker": "Lena", "nl": "Klar! Null eins fünf eins, zwei drei vier, fünf sechs sieben acht.", "en": "Sure! 0151, 234, 5678." },
-        { "speaker": "You", "nl": "Danke! Ich notiere das.", "en": "Thanks! I'll note that down." },
-        { "speaker": "Lena", "nl": "Bis bald!", "en": "See you soon!" }
+        { "speaker": "Lena", "target": "So, zwei Brötchen und ein Kaffee — das macht drei Euro zwanzig.", "en": "So, two rolls and a coffee — that comes to three twenty.", "spotlight": "*Das macht …* is how you hear a total at the counter." },
+        { "speaker": "You", "target": "Perfekt, danke! Sag, wie ist deine Telefonnummer?", "en": "Perfect, thanks! Hey, what's your phone number?" },
+        { "speaker": "Lena", "target": "Klar! Null eins fünf eins, zwei drei vier, fünf sechs sieben acht.", "en": "Sure! 0151, 234, 5678." },
+        { "speaker": "You", "target": "Danke! Ich notiere das.", "en": "Thanks! I'll note that down." },
+        { "speaker": "Lena", "target": "Bis bald!", "en": "See you soon!" }
       ]
     },
     {

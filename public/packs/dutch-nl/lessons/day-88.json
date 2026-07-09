@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-88",
   "day": 88,
   "module": "M13",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Bordjes & mededelingen — tik om te horen",
       "items": [
-        { "nl": "Hier wordt gewerkt.", "en": "Work in progress here.", "speak": "Hier wordt gewerkt." },
-        { "nl": "Er wordt niet gerookt.", "en": "No smoking.", "speak": "Er wordt niet gerookt." },
-        { "nl": "Er wordt hard gestudeerd.", "en": "There's hard studying going on.", "speak": "Er wordt hard gestudeerd." },
-        { "nl": "In de bibliotheek wordt niet gepraat.", "en": "No talking in the library.", "speak": "In de bibliotheek wordt niet gepraat." },
-        { "nl": "Er werd de hele avond gedanst.", "en": "There was dancing all evening.", "speak": "Er werd de hele avond gedanst." },
-        { "nl": "Er wordt vaak geklaagd over het weer.", "en": "People often complain about the weather.", "speak": "Er wordt vaak geklaagd over het weer." }
+        { "target": "Hier wordt gewerkt.", "en": "Work in progress here.", "speak": "Hier wordt gewerkt." },
+        { "target": "Er wordt niet gerookt.", "en": "No smoking.", "speak": "Er wordt niet gerookt." },
+        { "target": "Er wordt hard gestudeerd.", "en": "There's hard studying going on.", "speak": "Er wordt hard gestudeerd." },
+        { "target": "In de bibliotheek wordt niet gepraat.", "en": "No talking in the library.", "speak": "In de bibliotheek wordt niet gepraat." },
+        { "target": "Er werd de hele avond gedanst.", "en": "There was dancing all evening.", "speak": "Er werd de hele avond gedanst." },
+        { "target": "Er wordt vaak geklaagd over het weer.", "en": "People often complain about the weather.", "speak": "Er wordt vaak geklaagd over het weer." }
       ]
     },
     {
@@ -61,15 +61,15 @@
       "type": "dialogue",
       "scene": "Bram walks You past a building site in Rotterdam on a Sunday. He can't help narrating it.",
       "lines": [
-        { "speaker": "Bram", "nl": "Kijk, hier wordt de hele kade opnieuw gebouwd.", "en": "Look, the whole quay is being rebuilt here.", "spotlight": "Gewoon passief mét object: *de kade wordt gebouwd*." },
-        { "speaker": "You", "nl": "Wordt er nog steeds gewerkt? Het is zondag.", "en": "Is work still going on? It's Sunday." },
-        { "speaker": "Bram", "nl": "Nee, op zondag wordt er niet gebouwd. Alleen bewaakt.", "en": "No, on Sundays there's no building. Just guarding.", "spotlight": "Onpersoonlijk: *er wordt (niet) gebouwd*." },
-        { "speaker": "You", "nl": "In Rotterdam wordt veel gebouwd, hè.", "en": "A lot gets built in Rotterdam, huh." },
-        { "speaker": "Bram", "nl": "Altijd. Er wordt hier nooit stilgezeten.", "en": "Always. Nobody ever sits still here.", "spotlight": "Idiomatisch: *er wordt niet stilgezeten*." },
-        { "speaker": "You", "nl": "Geen woorden maar daden.", "en": "No words, just action." },
-        { "speaker": "Bram", "nl": "Precies. Zie je dat bordje? 'Hier wordt gebouwd.'", "en": "Exactly. See that sign? 'Building in progress.'" },
-        { "speaker": "You", "nl": "Snap ik. Dan blijven we op de stoep.", "en": "Got it. Then we'll stay on the pavement." },
-        { "speaker": "Bram", "nl": "Verstandig. Er is al genoeg gedoe geweest.", "en": "Wise. There's been enough hassle already." }
+        { "speaker": "Bram", "target": "Kijk, hier wordt de hele kade opnieuw gebouwd.", "en": "Look, the whole quay is being rebuilt here.", "spotlight": "Gewoon passief mét object: *de kade wordt gebouwd*." },
+        { "speaker": "You", "target": "Wordt er nog steeds gewerkt? Het is zondag.", "en": "Is work still going on? It's Sunday." },
+        { "speaker": "Bram", "target": "Nee, op zondag wordt er niet gebouwd. Alleen bewaakt.", "en": "No, on Sundays there's no building. Just guarding.", "spotlight": "Onpersoonlijk: *er wordt (niet) gebouwd*." },
+        { "speaker": "You", "target": "In Rotterdam wordt veel gebouwd, hè.", "en": "A lot gets built in Rotterdam, huh." },
+        { "speaker": "Bram", "target": "Altijd. Er wordt hier nooit stilgezeten.", "en": "Always. Nobody ever sits still here.", "spotlight": "Idiomatisch: *er wordt niet stilgezeten*." },
+        { "speaker": "You", "target": "Geen woorden maar daden.", "en": "No words, just action." },
+        { "speaker": "Bram", "target": "Precies. Zie je dat bordje? 'Hier wordt gebouwd.'", "en": "Exactly. See that sign? 'Building in progress.'" },
+        { "speaker": "You", "target": "Snap ik. Dan blijven we op de stoep.", "en": "Got it. Then we'll stay on the pavement." },
+        { "speaker": "Bram", "target": "Verstandig. Er is al genoeg gedoe geweest.", "en": "Wise. There's been enough hassle already." }
       ]
     },
     {

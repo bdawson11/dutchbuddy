@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-11",
   "day": 11,
   "module": "M02",
@@ -31,10 +31,10 @@
       "type": "chips",
       "title": "Hear the forms of wonen (to live)",
       "items": [
-        { "nl": "ik woon", "en": "I live", "speak": "ik woon" },
-        { "nl": "jij woont", "en": "you live", "speak": "jij woont" },
-        { "nl": "hij woont", "en": "he lives", "speak": "hij woont" },
-        { "nl": "wij wonen", "en": "we live", "speak": "wij wonen" }
+        { "target": "ik woon", "en": "I live", "speak": "ik woon" },
+        { "target": "jij woont", "en": "you live", "speak": "jij woont" },
+        { "target": "hij woont", "en": "he lives", "speak": "hij woont" },
+        { "target": "wij wonen", "en": "we live", "speak": "wij wonen" }
       ]
     },
     {

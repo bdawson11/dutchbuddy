@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-92",
   "day": 92,
   "module": "M14",
@@ -28,12 +28,12 @@
       "type": "chips",
       "title": "Al gebeurd — tik om te horen",
       "items": [
-        { "nl": "Ik had het helemaal vergeten.", "en": "I'd completely forgotten it.", "speak": "Ik had het helemaal vergeten." },
-        { "nl": "De film was al begonnen.", "en": "The film had already started.", "speak": "De film was al begonnen." },
-        { "nl": "Ze waren al naar huis gegaan.", "en": "They'd already gone home.", "speak": "Ze waren al naar huis gegaan." },
-        { "nl": "Ik had nog nooit stroopwafels geproefd.", "en": "I'd never tasted stroopwafels.", "speak": "Ik had nog nooit stroopwafels geproefd." },
-        { "nl": "Hij had de mail nog niet gelezen.", "en": "He hadn't read the email yet.", "speak": "Hij had de mail nog niet gelezen." },
-        { "nl": "We hadden de trein net gemist.", "en": "We'd just missed the train.", "speak": "We hadden de trein net gemist." }
+        { "target": "Ik had het helemaal vergeten.", "en": "I'd completely forgotten it.", "speak": "Ik had het helemaal vergeten." },
+        { "target": "De film was al begonnen.", "en": "The film had already started.", "speak": "De film was al begonnen." },
+        { "target": "Ze waren al naar huis gegaan.", "en": "They'd already gone home.", "speak": "Ze waren al naar huis gegaan." },
+        { "target": "Ik had nog nooit stroopwafels geproefd.", "en": "I'd never tasted stroopwafels.", "speak": "Ik had nog nooit stroopwafels geproefd." },
+        { "target": "Hij had de mail nog niet gelezen.", "en": "He hadn't read the email yet.", "speak": "Hij had de mail nog niet gelezen." },
+        { "target": "We hadden de trein net gemist.", "en": "We'd just missed the train.", "speak": "We hadden de trein net gemist." }
       ]
     },
     {
@@ -69,14 +69,14 @@
       "type": "dialogue",
       "scene": "Bram explains why he was late — a chain of things that had already gone wrong that morning.",
       "lines": [
-        { "speaker": "Bram", "nl": "Sorry dat ik laat was. Alles ging mis vanmorgen.", "en": "Sorry I was late. Everything went wrong this morning." },
-        { "speaker": "You", "nl": "Wat was er dan?", "en": "What happened?" },
-        { "speaker": "Bram", "nl": "Toen ik bij het station kwam, was mijn trein al vertrokken.", "en": "When I got to the station, my train had already left.", "spotlight": "Vvt: *was al vertrokken* vóór zijn aankomst." },
-        { "speaker": "You", "nl": "Balen. En toen?", "en": "Bummer. And then?" },
-        { "speaker": "Bram", "nl": "De volgende was geschrapt. En ik had mijn OV-kaart thuis laten liggen.", "en": "The next one was cancelled. And I'd left my OV card at home." },
-        { "speaker": "You", "nl": "Au. Alles tegelijk.", "en": "Ouch. All at once." },
-        { "speaker": "Bram", "nl": "Ja. Tegen de tijd dat ik er was, had de vergadering al een uur geduurd.", "en": "Yeah. By the time I got there, the meeting had already gone on for an hour.", "spotlight": "*had al een uur geduurd* — eerder afgelopen tijd." },
-        { "speaker": "You", "nl": "Nou, je bent er nu. Dat telt ook.", "en": "Well, you're here now. That counts too." }
+        { "speaker": "Bram", "target": "Sorry dat ik laat was. Alles ging mis vanmorgen.", "en": "Sorry I was late. Everything went wrong this morning." },
+        { "speaker": "You", "target": "Wat was er dan?", "en": "What happened?" },
+        { "speaker": "Bram", "target": "Toen ik bij het station kwam, was mijn trein al vertrokken.", "en": "When I got to the station, my train had already left.", "spotlight": "Vvt: *was al vertrokken* vóór zijn aankomst." },
+        { "speaker": "You", "target": "Balen. En toen?", "en": "Bummer. And then?" },
+        { "speaker": "Bram", "target": "De volgende was geschrapt. En ik had mijn OV-kaart thuis laten liggen.", "en": "The next one was cancelled. And I'd left my OV card at home." },
+        { "speaker": "You", "target": "Au. Alles tegelijk.", "en": "Ouch. All at once." },
+        { "speaker": "Bram", "target": "Ja. Tegen de tijd dat ik er was, had de vergadering al een uur geduurd.", "en": "Yeah. By the time I got there, the meeting had already gone on for an hour.", "spotlight": "*had al een uur geduurd* — eerder afgelopen tijd." },
+        { "speaker": "You", "target": "Nou, je bent er nu. Dat telt ook.", "en": "Well, you're here now. That counts too." }
       ]
     },
     {

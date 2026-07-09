@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-27",
   "day": 27,
   "module": "M04",
@@ -41,23 +41,23 @@
       "type": "shadow",
       "title": "Repeat after Nacho",
       "lines": [
-        { "nl": "Hombre, qué bien.", "en": "Well, that's great." },
-        { "nl": "Vivo aquí, en las afueras.", "en": "I live here, on the outskirts." },
-        { "nl": "En el pueblo se vive mejor.", "en": "Life is better in the village." }
+        { "target": "Hombre, qué bien.", "en": "Well, that's great." },
+        { "target": "Vivo aquí, en las afueras.", "en": "I live here, on the outskirts." },
+        { "target": "En el pueblo se vive mejor.", "en": "Life is better in the village." }
       ]
     },
     {
       "type": "dialogue",
       "scene": "Lucía introduces you to Nacho at his favorite neighborhood bar",
       "lines": [
-        { "speaker": "Lucía", "nl": "Nacho, este es Alex. Está aprendiendo español.", "en": "Nacho, this is Alex. He's learning Spanish." },
-        { "speaker": "Nacho", "nl": "Hombre, qué bien. Bienvenido a mi bar de siempre.", "en": "Well, that's great. Welcome to my regular bar.", "spotlight": "*hombre* — Nacho's go-to filler word, not literally 'man'." },
-        { "speaker": "You", "nl": "¿Vienes aquí a menudo?", "en": "Do you come here often?" },
-        { "speaker": "Nacho", "nl": "Todos los días, antes del trabajo. Aquí me ponen un café y ya empiezo bien el día.", "en": "Every day, before work. Here they pour me a coffee and I start the day off right." },
-        { "speaker": "You", "nl": "¿Y de dónde eres? No eres de Madrid, ¿no?", "en": "And where are you from? You're not from Madrid, right?" },
-        { "speaker": "Nacho", "nl": "No, qué va. Soy de un pueblo de Castilla-La Mancha. Vivo aquí, en las afueras, pero echo de menos el pueblo.", "en": "No, not at all. I'm from a village in Castilla-La Mancha. I live here, on the outskirts, but I miss the village." },
-        { "speaker": "Lucía", "nl": "Nacho siempre dice que en el pueblo se vive mejor.", "en": "Nacho always says life is better in the village." },
-        { "speaker": "Nacho", "nl": "¡Buah, claro! Aquí hay prisa; allí, tranquilidad.", "en": "Well, of course! Here there's rush; there, calm." }
+        { "speaker": "Lucía", "target": "Nacho, este es Alex. Está aprendiendo español.", "en": "Nacho, this is Alex. He's learning Spanish." },
+        { "speaker": "Nacho", "target": "Hombre, qué bien. Bienvenido a mi bar de siempre.", "en": "Well, that's great. Welcome to my regular bar.", "spotlight": "*hombre* — Nacho's go-to filler word, not literally 'man'." },
+        { "speaker": "You", "target": "¿Vienes aquí a menudo?", "en": "Do you come here often?" },
+        { "speaker": "Nacho", "target": "Todos los días, antes del trabajo. Aquí me ponen un café y ya empiezo bien el día.", "en": "Every day, before work. Here they pour me a coffee and I start the day off right." },
+        { "speaker": "You", "target": "¿Y de dónde eres? No eres de Madrid, ¿no?", "en": "And where are you from? You're not from Madrid, right?" },
+        { "speaker": "Nacho", "target": "No, qué va. Soy de un pueblo de Castilla-La Mancha. Vivo aquí, en las afueras, pero echo de menos el pueblo.", "en": "No, not at all. I'm from a village in Castilla-La Mancha. I live here, on the outskirts, but I miss the village." },
+        { "speaker": "Lucía", "target": "Nacho siempre dice que en el pueblo se vive mejor.", "en": "Nacho always says life is better in the village." },
+        { "speaker": "Nacho", "target": "¡Buah, claro! Aquí hay prisa; allí, tranquilidad.", "en": "Well, of course! Here there's rush; there, calm." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-90",
   "day": 90,
   "module": "M13",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Repaso rápido — toca y repite",
       "items": [
-        { "nl": "quería que vinieras", "en": "I wanted you to come", "speak": "quería que vinieras" },
-        { "nl": "ojalá pudiéramos", "en": "if only we could", "speak": "ojalá pudiéramos" },
-        { "nl": "no es que no me guste", "en": "it's not that I don't like it", "speak": "no es que no me guste" },
-        { "nl": "por un lado… por otro", "en": "on one hand… on the other", "speak": "por un lado, por otro" },
-        { "nl": "¿te importaría?", "en": "would you mind?", "speak": "¿te importaría?" }
+        { "target": "quería que vinieras", "en": "I wanted you to come", "speak": "quería que vinieras" },
+        { "target": "ojalá pudiéramos", "en": "if only we could", "speak": "ojalá pudiéramos" },
+        { "target": "no es que no me guste", "en": "it's not that I don't like it", "speak": "no es que no me guste" },
+        { "target": "por un lado… por otro", "en": "on one hand… on the other", "speak": "por un lado, por otro" },
+        { "target": "¿te importaría?", "en": "would you mind?", "speak": "¿te importaría?" }
       ]
     },
     {
@@ -39,16 +39,16 @@
       "type": "dialogue",
       "scene": "After lunch, Lucía introduces Marta and the table gets into remote work.",
       "lines": [
-        { "speaker": "Lucía", "nl": "Mirad, os presento a Marta, que trabaja conmigo en Recursos Humanos. Es de Sevilla.", "en": "Look, this is Marta, she works with me in HR. She's from Seville." },
-        { "speaker": "Marta", "nl": "¡Encantada! Qué bien, illo, por fin os conozco. Lucía habla mucho de vosotros.", "en": "Lovely to meet you! Great, at last I meet you all. Lucía talks about you a lot.", "spotlight": "Marta suelta *illo* como coletilla andaluza; el resto es castellano estándar (y usa *vosotros*)." },
-        { "speaker": "Rafa", "nl": "El placer es nuestro. Oye, ¿y en tu empresa qué tal lo del teletrabajo?", "en": "The pleasure's ours. Hey, and how's the remote-work thing going at your company?" },
-        { "speaker": "Marta", "nl": "Pues mira, por un lado la gente rinde más, pero por otro se pierde el roce. En el fondo yo pediría un modelo mixto.", "en": "Well, on one hand people are more productive, but on the other you lose the contact. Deep down I'd ask for a hybrid model.", "spotlight": "*por un lado… por otro* + *en el fondo* + condicional *pediría*: opinión de B2 en una frase." },
-        { "speaker": "Lucía", "nl": "Yo, si pudiera, teletrabajaría tres días. Ojalá lo implantaran ya en la agencia.", "en": "If I could, I'd work from home three days. I wish they'd bring it in at the agency already.", "spotlight": "*si pudiera, teletrabajaría* (irreal) + *ojalá + implantaran* (deseo poco probable)." },
-        { "speaker": "Rafa", "nl": "Buah, no es que no lo entienda, es que yo en casa no doy palo al agua.", "en": "Ugh, it's not that I don't get it, it's that at home I don't do a stroke of work." },
-        { "speaker": "You", "nl": "Hombre, hasta cierto punto te doy la razón, pero a mí me cundiría más sin el ruido de la oficina.", "en": "I mean, up to a point I agree, but I'd get more done without the office noise." },
-        { "speaker": "Marta", "nl": "Eso sí, habría que confiar en la gente. Mi antiguo jefe quería que fichásemos hasta desde casa, imaginaos.", "en": "That said, you'd have to trust people. My old boss wanted us to clock in even from home, imagine.", "spotlight": "*quería que fichásemos*: concordancia con la forma -se." },
-        { "speaker": "Lucía", "nl": "Qué horror. Ojalá los jefes se fiaran un poco más, ¿no?", "en": "How awful. If only bosses trusted people a bit more, right?" },
-        { "speaker": "Marta", "nl": "Al final es cuestión de equilibrio. Ya veréis como dentro de unos años lo damos por normal.", "en": "In the end it's a matter of balance. You'll see how in a few years we take it as normal." }
+        { "speaker": "Lucía", "target": "Mirad, os presento a Marta, que trabaja conmigo en Recursos Humanos. Es de Sevilla.", "en": "Look, this is Marta, she works with me in HR. She's from Seville." },
+        { "speaker": "Marta", "target": "¡Encantada! Qué bien, illo, por fin os conozco. Lucía habla mucho de vosotros.", "en": "Lovely to meet you! Great, at last I meet you all. Lucía talks about you a lot.", "spotlight": "Marta suelta *illo* como coletilla andaluza; el resto es castellano estándar (y usa *vosotros*)." },
+        { "speaker": "Rafa", "target": "El placer es nuestro. Oye, ¿y en tu empresa qué tal lo del teletrabajo?", "en": "The pleasure's ours. Hey, and how's the remote-work thing going at your company?" },
+        { "speaker": "Marta", "target": "Pues mira, por un lado la gente rinde más, pero por otro se pierde el roce. En el fondo yo pediría un modelo mixto.", "en": "Well, on one hand people are more productive, but on the other you lose the contact. Deep down I'd ask for a hybrid model.", "spotlight": "*por un lado… por otro* + *en el fondo* + condicional *pediría*: opinión de B2 en una frase." },
+        { "speaker": "Lucía", "target": "Yo, si pudiera, teletrabajaría tres días. Ojalá lo implantaran ya en la agencia.", "en": "If I could, I'd work from home three days. I wish they'd bring it in at the agency already.", "spotlight": "*si pudiera, teletrabajaría* (irreal) + *ojalá + implantaran* (deseo poco probable)." },
+        { "speaker": "Rafa", "target": "Buah, no es que no lo entienda, es que yo en casa no doy palo al agua.", "en": "Ugh, it's not that I don't get it, it's that at home I don't do a stroke of work." },
+        { "speaker": "You", "target": "Hombre, hasta cierto punto te doy la razón, pero a mí me cundiría más sin el ruido de la oficina.", "en": "I mean, up to a point I agree, but I'd get more done without the office noise." },
+        { "speaker": "Marta", "target": "Eso sí, habría que confiar en la gente. Mi antiguo jefe quería que fichásemos hasta desde casa, imaginaos.", "en": "That said, you'd have to trust people. My old boss wanted us to clock in even from home, imagine.", "spotlight": "*quería que fichásemos*: concordancia con la forma -se." },
+        { "speaker": "Lucía", "target": "Qué horror. Ojalá los jefes se fiaran un poco más, ¿no?", "en": "How awful. If only bosses trusted people a bit more, right?" },
+        { "speaker": "Marta", "target": "Al final es cuestión de equilibrio. Ya veréis como dentro de unos años lo damos por normal.", "en": "In the end it's a matter of balance. You'll see how in a few years we take it as normal." }
       ]
     },
     {

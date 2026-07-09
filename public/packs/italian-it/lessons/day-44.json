@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-44",
   "day": 44,
   "module": "M07",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Le parole-segnale",
       "items": [
-        { "nl": "sempre", "en": "always", "speak": "sempre" },
-        { "nl": "ogni giorno", "en": "every day", "speak": "ogni giorno" },
-        { "nl": "da bambino/a", "en": "as a kid", "speak": "da bambino" },
-        { "nl": "ieri", "en": "yesterday", "speak": "ieri" },
-        { "nl": "un giorno", "en": "one day", "speak": "un giorno" },
-        { "nl": "mentre", "en": "while", "speak": "mentre" }
+        { "target": "sempre", "en": "always", "speak": "sempre" },
+        { "target": "ogni giorno", "en": "every day", "speak": "ogni giorno" },
+        { "target": "da bambino/a", "en": "as a kid", "speak": "da bambino" },
+        { "target": "ieri", "en": "yesterday", "speak": "ieri" },
+        { "target": "un giorno", "en": "one day", "speak": "un giorno" },
+        { "target": "mentre", "en": "while", "speak": "mentre" }
       ]
     },
     {
@@ -78,11 +78,11 @@
       "type": "dialogue",
       "scene": "Giulia and You talk about last night and childhood habits",
       "lines": [
-        { "speaker": "Giulia", "nl": "Cosa hai fatto ieri sera?", "en": "What did you do last night?" },
-        { "speaker": "You", "nl": "Ho guardato un film, mentre pioveva fuori.", "en": "I watched a movie, while it was raining outside.", "spotlight": "ho guardato = evento; pioveva = sfondo descrittivo." },
-        { "speaker": "Giulia", "nl": "Da piccola, guardavo sempre i film del sabato sera con mio padre.", "en": "As a kid, I always used to watch Saturday night movies with my dad." },
-        { "speaker": "You", "nl": "Che bello. E cosa guardavate?", "en": "That's nice. And what did you watch?" },
-        { "speaker": "Giulia", "nl": "Vecchi film italiani, sempre.", "en": "Old Italian movies, always." }
+        { "speaker": "Giulia", "target": "Cosa hai fatto ieri sera?", "en": "What did you do last night?" },
+        { "speaker": "You", "target": "Ho guardato un film, mentre pioveva fuori.", "en": "I watched a movie, while it was raining outside.", "spotlight": "ho guardato = evento; pioveva = sfondo descrittivo." },
+        { "speaker": "Giulia", "target": "Da piccola, guardavo sempre i film del sabato sera con mio padre.", "en": "As a kid, I always used to watch Saturday night movies with my dad." },
+        { "speaker": "You", "target": "Che bello. E cosa guardavate?", "en": "That's nice. And what did you watch?" },
+        { "speaker": "Giulia", "target": "Vecchi film italiani, sempre.", "en": "Old Italian movies, always." }
       ]
     },
     {

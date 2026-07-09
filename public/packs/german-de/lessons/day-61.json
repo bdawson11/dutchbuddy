@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-61",
   "day": 61,
   "module": "M09",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "Tap to hear both kinds",
       "items": [
-        { "nl": "Wenn es regnet, bleibe ich zu Hause.", "en": "If it rains, I'll stay home.", "speak": "Wenn es regnet, bleibe ich zu Hause." },
-        { "nl": "Wenn ich Feierabend habe, koche ich.", "en": "When I finish work, I cook.", "speak": "Wenn ich Feierabend habe, koche ich." },
-        { "nl": "Wenn ich mehr Zeit hätte, würde ich mehr reisen.", "en": "If I had more time, I'd travel more.", "speak": "Wenn ich mehr Zeit hätte, würde ich mehr reisen." },
-        { "nl": "Wenn ich du wäre, würde ich das machen.", "en": "If I were you, I'd do it.", "speak": "Wenn ich du wäre, würde ich das machen." }
+        { "target": "Wenn es regnet, bleibe ich zu Hause.", "en": "If it rains, I'll stay home.", "speak": "Wenn es regnet, bleibe ich zu Hause." },
+        { "target": "Wenn ich Feierabend habe, koche ich.", "en": "When I finish work, I cook.", "speak": "Wenn ich Feierabend habe, koche ich." },
+        { "target": "Wenn ich mehr Zeit hätte, würde ich mehr reisen.", "en": "If I had more time, I'd travel more.", "speak": "Wenn ich mehr Zeit hätte, würde ich mehr reisen." },
+        { "target": "Wenn ich du wäre, würde ich das machen.", "en": "If I were you, I'd do it.", "speak": "Wenn ich du wäre, würde ich das machen." }
       ]
     },
     {
@@ -81,13 +81,13 @@
       "type": "dialogue",
       "scene": "Over a beer, Jonas starts up the classic 'what would you do' game.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Ey, mal angenommen, du gewinnst im Lotto. Was würdest du machen?", "en": "Hey, suppose you win the lottery. What would you do?" },
-        { "speaker": "You", "nl": "Puh, wenn ich so viel Geld hätte, würde ich erstmal reisen.", "en": "Phew, if I had that much money, I'd travel first.", "spotlight": "*Wenn ich … hätte, würde ich reisen* — the classic hypothetical pattern." },
-        { "speaker": "Jonas", "nl": "Nur reisen? Ich würde sofort eine Bar aufmachen.", "en": "Just travel? I'd open a bar straight away." },
-        { "speaker": "You", "nl": "Eine Bar? Wenn du eine Bar hättest, würdest du da jeden Abend selbst sitzen.", "en": "A bar? If you had a bar, you'd sit there yourself every night.", "spotlight": "*wenn du … hättest, würdest du …* — the whole thing in the du-form." },
-        { "speaker": "Jonas", "nl": "Quatsch! Na ja … vielleicht. Und wenn Aylin mitmachen würde, wäre es perfekt.", "en": "Nonsense! Well … maybe. And if Aylin joined in, it'd be perfect." },
-        { "speaker": "You", "nl": "Die würde eher die Playlist machen wollen.", "en": "She'd rather want to do the playlist." },
-        { "speaker": "Jonas", "nl": "Stimmt. Aber ehrlich — wenn wir das Geld hätten, würden wir es eh nie tun.", "en": "True. But honestly — if we had the money, we'd never do it anyway." }
+        { "speaker": "Jonas", "target": "Ey, mal angenommen, du gewinnst im Lotto. Was würdest du machen?", "en": "Hey, suppose you win the lottery. What would you do?" },
+        { "speaker": "You", "target": "Puh, wenn ich so viel Geld hätte, würde ich erstmal reisen.", "en": "Phew, if I had that much money, I'd travel first.", "spotlight": "*Wenn ich … hätte, würde ich reisen* — the classic hypothetical pattern." },
+        { "speaker": "Jonas", "target": "Nur reisen? Ich würde sofort eine Bar aufmachen.", "en": "Just travel? I'd open a bar straight away." },
+        { "speaker": "You", "target": "Eine Bar? Wenn du eine Bar hättest, würdest du da jeden Abend selbst sitzen.", "en": "A bar? If you had a bar, you'd sit there yourself every night.", "spotlight": "*wenn du … hättest, würdest du …* — the whole thing in the du-form." },
+        { "speaker": "Jonas", "target": "Quatsch! Na ja … vielleicht. Und wenn Aylin mitmachen würde, wäre es perfekt.", "en": "Nonsense! Well … maybe. And if Aylin joined in, it'd be perfect." },
+        { "speaker": "You", "target": "Die würde eher die Playlist machen wollen.", "en": "She'd rather want to do the playlist." },
+        { "speaker": "Jonas", "target": "Stimmt. Aber ehrlich — wenn wir das Geld hätten, würden wir es eh nie tun.", "en": "True. But honestly — if we had the money, we'd never do it anyway." }
       ]
     },
     {

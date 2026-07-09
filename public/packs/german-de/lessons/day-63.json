@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-63",
   "day": 63,
   "module": "M09",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "Tap to refresh the week — audio",
       "items": [
-        { "nl": "Nachdem ich gefrühstückt habe, gehe ich los.", "en": "After breakfast, I set off.", "speak": "Nachdem ich gefrühstückt habe, gehe ich los." },
-        { "nl": "Das ist die Freundin, der ich alles erzähle.", "en": "That's the friend I tell everything.", "speak": "Das ist die Freundin, der ich alles erzähle." },
-        { "nl": "Er hat gefragt, ob ich mitkomme.", "en": "He asked whether I'm coming.", "speak": "Er hat gefragt, ob ich mitkomme." },
-        { "nl": "An deiner Stelle würde ich überlegen.", "en": "In your place I'd think it over.", "speak": "An deiner Stelle würde ich überlegen." }
+        { "target": "Nachdem ich gefrühstückt habe, gehe ich los.", "en": "After breakfast, I set off.", "speak": "Nachdem ich gefrühstückt habe, gehe ich los." },
+        { "target": "Das ist die Freundin, der ich alles erzähle.", "en": "That's the friend I tell everything.", "speak": "Das ist die Freundin, der ich alles erzähle." },
+        { "target": "Er hat gefragt, ob ich mitkomme.", "en": "He asked whether I'm coming.", "speak": "Er hat gefragt, ob ich mitkomme." },
+        { "target": "An deiner Stelle würde ich überlegen.", "en": "In your place I'd think it over.", "speak": "An deiner Stelle würde ich überlegen." }
       ]
     },
     {
@@ -72,15 +72,15 @@
       "type": "dialogue",
       "scene": "At the Kneipe with Jonas. He can tell from your face that you've got something to share.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Na? Du guckst so, als hättest du was zu erzählen.", "en": "Well? You look like you've got something to tell." },
-        { "speaker": "You", "nl": "Hab ich auch. Aylin hat mir gesagt, dass sie ein Jobangebot aus München hat.", "en": "I do. Aylin told me she has a job offer from Munich.", "spotlight": "*Aylin hat mir gesagt, dass …* — passing on the news in reported speech." },
-        { "speaker": "Jonas", "nl": "Was?! Echt jetzt? München?", "en": "What?! Seriously? Munich?" },
-        { "speaker": "You", "nl": "Ja. Eine Agentur hat ihr geschrieben, dass sie sie einstellen wollen.", "en": "Yeah. An agency wrote to her that they want to hire her." },
-        { "speaker": "Jonas", "nl": "Krass. Und? Hat sie schon zugesagt?", "en": "Wild. And? Has she said yes already?" },
-        { "speaker": "You", "nl": "Nee. Sie hat gesagt, dass sie noch überlegt, und hat um Bedenkzeit gebeten.", "en": "Nope. She said she's still thinking it over, and asked for time to decide.", "spotlight": "Nothing's decided — Aylin is still in Berlin, weighing it up." },
-        { "speaker": "Jonas", "nl": "Na ja, ich würde an ihrer Stelle auch nicht sofort Ja sagen. Berlin einfach so aufgeben?", "en": "Well, in her place I wouldn't say yes right away either. Just give up Berlin like that?" },
-        { "speaker": "You", "nl": "Sie hat mich gefragt, ob ich das verrückt finde. Ich hab gesagt, dass ich es mutig finde.", "en": "She asked me whether I think it's crazy. I said I think it's brave." },
-        { "speaker": "Jonas", "nl": "Mutig, ja. Aber wenn sie geht, fehlt sie mir hier echt.", "en": "Brave, yeah. But if she goes, I'll really miss her here." }
+        { "speaker": "Jonas", "target": "Na? Du guckst so, als hättest du was zu erzählen.", "en": "Well? You look like you've got something to tell." },
+        { "speaker": "You", "target": "Hab ich auch. Aylin hat mir gesagt, dass sie ein Jobangebot aus München hat.", "en": "I do. Aylin told me she has a job offer from Munich.", "spotlight": "*Aylin hat mir gesagt, dass …* — passing on the news in reported speech." },
+        { "speaker": "Jonas", "target": "Was?! Echt jetzt? München?", "en": "What?! Seriously? Munich?" },
+        { "speaker": "You", "target": "Ja. Eine Agentur hat ihr geschrieben, dass sie sie einstellen wollen.", "en": "Yeah. An agency wrote to her that they want to hire her." },
+        { "speaker": "Jonas", "target": "Krass. Und? Hat sie schon zugesagt?", "en": "Wild. And? Has she said yes already?" },
+        { "speaker": "You", "target": "Nee. Sie hat gesagt, dass sie noch überlegt, und hat um Bedenkzeit gebeten.", "en": "Nope. She said she's still thinking it over, and asked for time to decide.", "spotlight": "Nothing's decided — Aylin is still in Berlin, weighing it up." },
+        { "speaker": "Jonas", "target": "Na ja, ich würde an ihrer Stelle auch nicht sofort Ja sagen. Berlin einfach so aufgeben?", "en": "Well, in her place I wouldn't say yes right away either. Just give up Berlin like that?" },
+        { "speaker": "You", "target": "Sie hat mich gefragt, ob ich das verrückt finde. Ich hab gesagt, dass ich es mutig finde.", "en": "She asked me whether I think it's crazy. I said I think it's brave." },
+        { "speaker": "Jonas", "target": "Mutig, ja. Aber wenn sie geht, fehlt sie mir hier echt.", "en": "Brave, yeah. But if she goes, I'll really miss her here." }
       ]
     },
     {

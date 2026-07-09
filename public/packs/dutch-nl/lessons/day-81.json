@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-81",
   "day": 81,
   "module": "M12",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Tap to hear the service phrases",
       "items": [
-        { "nl": "Kan ik u helpen?", "en": "Can I help you?", "speak": "Kan ik u helpen?" },
-        { "nl": "Zegt u het maar.", "en": "Go ahead, what would you like?", "speak": "Zegt u het maar." },
-        { "nl": "Ik kijk alleen even.", "en": "I'm just browsing.", "speak": "Ik kijk alleen even." },
-        { "nl": "Ik zoek een cadeau.", "en": "I'm looking for a gift.", "speak": "Ik zoek een cadeau." },
-        { "nl": "Heeft u dit ook in het blauw?", "en": "Do you have this in blue too?", "speak": "Heeft u dit ook in het blauw?" },
-        { "nl": "Ik neem deze.", "en": "I'll take this one.", "speak": "Ik neem deze." }
+        { "target": "Kan ik u helpen?", "en": "Can I help you?", "speak": "Kan ik u helpen?" },
+        { "target": "Zegt u het maar.", "en": "Go ahead, what would you like?", "speak": "Zegt u het maar." },
+        { "target": "Ik kijk alleen even.", "en": "I'm just browsing.", "speak": "Ik kijk alleen even." },
+        { "target": "Ik zoek een cadeau.", "en": "I'm looking for a gift.", "speak": "Ik zoek een cadeau." },
+        { "target": "Heeft u dit ook in het blauw?", "en": "Do you have this in blue too?", "speak": "Heeft u dit ook in het blauw?" },
+        { "target": "Ik neem deze.", "en": "I'll take this one.", "speak": "Ik neem deze." }
       ]
     },
     {
@@ -46,27 +46,27 @@
       "type": "shadow",
       "title": "Shadow the whole kapper exchange",
       "lines": [
-        { "nl": "Zegt u het maar.", "en": "Go ahead, tell me what you'd like." },
-        { "nl": "Ik wil mijn haar laten knippen.", "en": "I'd like to get my hair cut." },
-        { "nl": "Hoeveel eraf?", "en": "How much off?" },
-        { "nl": "Een centimeter of twee, en de zijkanten kort.", "en": "About two centimeters, and short on the sides." },
-        { "nl": "Wilt u het ook gewassen en geföhnd?", "en": "Would you like it washed and blow-dried too?" },
-        { "nl": "Ja, graag. En bent u al op vakantie geweest?", "en": "Yes, please. And have you been on holiday yet? (the classic)" }
+        { "target": "Zegt u het maar.", "en": "Go ahead, tell me what you'd like." },
+        { "target": "Ik wil mijn haar laten knippen.", "en": "I'd like to get my hair cut." },
+        { "target": "Hoeveel eraf?", "en": "How much off?" },
+        { "target": "Een centimeter of twee, en de zijkanten kort.", "en": "About two centimeters, and short on the sides." },
+        { "target": "Wilt u het ook gewassen en geföhnd?", "en": "Would you like it washed and blow-dried too?" },
+        { "target": "Ja, graag. En bent u al op vakantie geweest?", "en": "Yes, please. And have you been on holiday yet? (the classic)" }
       ]
     },
     {
       "type": "dialogue",
       "scene": "Emma coaches You while window-shopping on the Kalverstraat, before you go in.",
       "lines": [
-        { "speaker": "Emma", "nl": "Kijk, zo werkt het. De verkoper zegt: 'Kan ik u helpen?'", "en": "Look, here's how it works. The clerk says: 'Can I help you?'" },
-        { "speaker": "You", "nl": "En als ik alleen wil rondkijken?", "en": "And if I just want to look around?" },
-        { "speaker": "Emma", "nl": "Dan zeg je: 'Nee dank u, ik kijk alleen even.'", "en": "Then you say: 'No thanks, I'm just browsing.'", "spotlight": "ik kijk alleen even — the magic 'just browsing' phrase." },
-        { "speaker": "You", "nl": "En als ik wél hulp wil?", "en": "And if I do want help?" },
-        { "speaker": "Emma", "nl": "Zeg gewoon wat je zoekt. Ik zoek een warme trui, bijvoorbeeld.", "en": "Just say what you're looking for. 'I'm looking for a warm sweater,' for instance." },
-        { "speaker": "You", "nl": "Ik zoek een cadeau voor mijn moeder.", "en": "I'm looking for a gift for my mother." },
-        { "speaker": "Emma", "nl": "Precies! En let op: in de winkel is het altijd *u*, niet *je*.", "en": "Exactly! And note: in a shop it's always *u*, not *je*.", "spotlight": "Register callback — service means *u*." },
-        { "speaker": "You", "nl": "Oké. Zullen we naar binnen gaan?", "en": "Okay. Shall we go in?" },
-        { "speaker": "Emma", "nl": "Kom maar, ik ga mee.", "en": "Come on, I'll come with you." }
+        { "speaker": "Emma", "target": "Kijk, zo werkt het. De verkoper zegt: 'Kan ik u helpen?'", "en": "Look, here's how it works. The clerk says: 'Can I help you?'" },
+        { "speaker": "You", "target": "En als ik alleen wil rondkijken?", "en": "And if I just want to look around?" },
+        { "speaker": "Emma", "target": "Dan zeg je: 'Nee dank u, ik kijk alleen even.'", "en": "Then you say: 'No thanks, I'm just browsing.'", "spotlight": "ik kijk alleen even — the magic 'just browsing' phrase." },
+        { "speaker": "You", "target": "En als ik wél hulp wil?", "en": "And if I do want help?" },
+        { "speaker": "Emma", "target": "Zeg gewoon wat je zoekt. Ik zoek een warme trui, bijvoorbeeld.", "en": "Just say what you're looking for. 'I'm looking for a warm sweater,' for instance." },
+        { "speaker": "You", "target": "Ik zoek een cadeau voor mijn moeder.", "en": "I'm looking for a gift for my mother." },
+        { "speaker": "Emma", "target": "Precies! En let op: in de winkel is het altijd *u*, niet *je*.", "en": "Exactly! And note: in a shop it's always *u*, not *je*.", "spotlight": "Register callback — service means *u*." },
+        { "speaker": "You", "target": "Oké. Zullen we naar binnen gaan?", "en": "Okay. Shall we go in?" },
+        { "speaker": "Emma", "target": "Kom maar, ik ga mee.", "en": "Come on, I'll come with you." }
       ]
     },
     {

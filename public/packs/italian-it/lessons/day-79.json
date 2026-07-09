@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-79",
   "day": 79,
   "module": "M12",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "🟢 Verde — di' pure, sempre",
       "items": [
-        { "nl": "Dai!", "en": "Come on! / go on!", "speak": "Dai!" },
-        { "nl": "Magari!", "en": "I wish! / maybe", "speak": "Magari!" },
-        { "nl": "Che bello!", "en": "How lovely!", "speak": "Che bello!" },
-        { "nl": "Volentieri!", "en": "Gladly! / I'd love to", "speak": "Volentieri!" },
-        { "nl": "Figurati!", "en": "Don't mention it / no worries", "speak": "Figurati!" },
-        { "nl": "Vabbè.", "en": "Oh well / okay then", "speak": "Vabbè." }
+        { "target": "Dai!", "en": "Come on! / go on!", "speak": "Dai!" },
+        { "target": "Magari!", "en": "I wish! / maybe", "speak": "Magari!" },
+        { "target": "Che bello!", "en": "How lovely!", "speak": "Che bello!" },
+        { "target": "Volentieri!", "en": "Gladly! / I'd love to", "speak": "Volentieri!" },
+        { "target": "Figurati!", "en": "Don't mention it / no worries", "speak": "Figurati!" },
+        { "target": "Vabbè.", "en": "Oh well / okay then", "speak": "Vabbè." }
       ]
     },
     {
@@ -47,11 +47,11 @@
       "type": "chips",
       "title": "🟡 Giallo — tra amici va bene",
       "items": [
-        { "nl": "Che figata!", "en": "How cool! / awesome", "speak": "Che figata!" },
-        { "nl": "Che palle!", "en": "What a drag! / so annoying", "speak": "Che palle!" },
-        { "nl": "Un sacco di gente.", "en": "Loads of people.", "speak": "Un sacco di gente." },
-        { "nl": "Che casino!", "en": "What a mess! / chaos", "speak": "Che casino!" },
-        { "nl": "Cavolo!", "en": "Darn! / shoot!", "speak": "Cavolo!" }
+        { "target": "Che figata!", "en": "How cool! / awesome", "speak": "Che figata!" },
+        { "target": "Che palle!", "en": "What a drag! / so annoying", "speak": "Che palle!" },
+        { "target": "Un sacco di gente.", "en": "Loads of people.", "speak": "Un sacco di gente." },
+        { "target": "Che casino!", "en": "What a mess! / chaos", "speak": "Che casino!" },
+        { "target": "Cavolo!", "en": "Darn! / shoot!", "speak": "Cavolo!" }
       ]
     },
     {
@@ -92,14 +92,14 @@
       "type": "dialogue",
       "scene": "Marco, over a spritz, teaches you the traffic light — and where the line is.",
       "lines": [
-        { "speaker": "Marco", "nl": "Guarda, l'italiano vero è tutto nelle paroline. 'Dai, magari, che bello' — quelle le dici sempre.", "en": "Look, real Italian is all in the little words. 'Dai, magari, che bello' — you can always say those." },
-        { "speaker": "You", "nl": "E 'che figata'? L'ho sentita ieri.", "en": "And 'che figata'? I heard it yesterday." },
-        { "speaker": "Marco", "nl": "Eh, quella è gialla: con gli amici sì, col tuo capo no.", "en": "Ah, that one's yellow: with friends yes, with your boss no." },
-        { "speaker": "Marco", "nl": "'Che palle', 'un casino', 'cavolo'… roba tra amici, insomma.", "en": "'Che palle', 'un casino', 'cavolo'… friends-only stuff, basically." },
-        { "speaker": "You", "nl": "E le parolacce rosse?", "en": "And the red swear words?" },
-        { "speaker": "Marco", "nl": "Boh, quelle le riconosci e basta. E le bestemmie non ripeterle mai, davvero. Non è come da voi.", "en": "Those you just recognise, full stop. And the bestemmie — never repeat them, really. It's not like where you're from.", "spotlight": "The hard flag: recognise, never use. Marco is blunt for a reason." },
-        { "speaker": "You", "nl": "Ho capito: le capisco, non le uso.", "en": "Got it: I understand them, I don't use them." },
-        { "speaker": "Marco", "nl": "Esatto. Guarda, sei già più italiano di me, eh.", "en": "Exactly. Look, you're already more Italian than me!" }
+        { "speaker": "Marco", "target": "Guarda, l'italiano vero è tutto nelle paroline. 'Dai, magari, che bello' — quelle le dici sempre.", "en": "Look, real Italian is all in the little words. 'Dai, magari, che bello' — you can always say those." },
+        { "speaker": "You", "target": "E 'che figata'? L'ho sentita ieri.", "en": "And 'che figata'? I heard it yesterday." },
+        { "speaker": "Marco", "target": "Eh, quella è gialla: con gli amici sì, col tuo capo no.", "en": "Ah, that one's yellow: with friends yes, with your boss no." },
+        { "speaker": "Marco", "target": "'Che palle', 'un casino', 'cavolo'… roba tra amici, insomma.", "en": "'Che palle', 'un casino', 'cavolo'… friends-only stuff, basically." },
+        { "speaker": "You", "target": "E le parolacce rosse?", "en": "And the red swear words?" },
+        { "speaker": "Marco", "target": "Boh, quelle le riconosci e basta. E le bestemmie non ripeterle mai, davvero. Non è come da voi.", "en": "Those you just recognise, full stop. And the bestemmie — never repeat them, really. It's not like where you're from.", "spotlight": "The hard flag: recognise, never use. Marco is blunt for a reason." },
+        { "speaker": "You", "target": "Ho capito: le capisco, non le uso.", "en": "Got it: I understand them, I don't use them." },
+        { "speaker": "Marco", "target": "Esatto. Guarda, sei già più italiano di me, eh.", "en": "Exactly. Look, you're already more Italian than me!" }
       ]
     },
     {

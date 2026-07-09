@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-93",
   "day": 93,
   "module": "M14",
@@ -43,11 +43,11 @@
       "type": "chips",
       "title": "Toca y repite",
       "items": [
-        { "nl": "si pudiera, te ayudaría", "en": "if I could, I'd help you", "speak": "si pudiera, te ayudaría" },
-        { "nl": "si fuera rico, no trabajaría", "en": "if I were rich, I wouldn't work", "speak": "si fuera rico, no trabajaría" },
-        { "nl": "yo que tú, lo pensaría", "en": "if I were you, I'd think about it", "speak": "yo que tú, lo pensaría" },
-        { "nl": "si viviéramos más cerca…", "en": "if we lived closer…", "speak": "si viviéramos más cerca" },
-        { "nl": "¿qué harías si te tocara la lotería?", "en": "what would you do if you won the lottery?", "speak": "¿qué harías si te tocara la lotería?" }
+        { "target": "si pudiera, te ayudaría", "en": "if I could, I'd help you", "speak": "si pudiera, te ayudaría" },
+        { "target": "si fuera rico, no trabajaría", "en": "if I were rich, I wouldn't work", "speak": "si fuera rico, no trabajaría" },
+        { "target": "yo que tú, lo pensaría", "en": "if I were you, I'd think about it", "speak": "yo que tú, lo pensaría" },
+        { "target": "si viviéramos más cerca…", "en": "if we lived closer…", "speak": "si viviéramos más cerca" },
+        { "target": "¿qué harías si te tocara la lotería?", "en": "what would you do if you won the lottery?", "speak": "¿qué harías si te tocara la lotería?" }
       ]
     },
     {
@@ -84,12 +84,12 @@
       "type": "dialogue",
       "scene": "You and Rafa play the classic lottery daydream.",
       "lines": [
-        { "speaker": "Rafa", "nl": "Va, dime: si te tocara el Gordo mañana, ¿qué harías?", "en": "Come on, tell me: if you won the jackpot tomorrow, what would you do?" },
-        { "speaker": "You", "nl": "Uf, si me tocara, dejaría el trabajo y me dedicaría a viajar.", "en": "Ugh, if I won, I'd quit my job and spend my time traveling.", "spotlight": "*si me tocara* (subj.) → *dejaría, dedicaría* (condicional)." },
-        { "speaker": "Rafa", "nl": "¿Ni un mes aguantarías currando?", "en": "You wouldn't last even a month working?" },
-        { "speaker": "You", "nl": "¡Qué va! Y si fueras tú, ¿no harías lo mismo?", "en": "No way! And if you were me, wouldn't you do the same?" },
-        { "speaker": "Rafa", "nl": "Hombre, yo montaría un estudio de grabación y me haría famoso. Modestamente.", "en": "Well, I'd set up a recording studio and become famous. Modestly." },
-        { "speaker": "You", "nl": "Ya, ya. Si fuera tan fácil, todos seríamos estrellas.", "en": "Sure, sure. If it were that easy, we'd all be stars." }
+        { "speaker": "Rafa", "target": "Va, dime: si te tocara el Gordo mañana, ¿qué harías?", "en": "Come on, tell me: if you won the jackpot tomorrow, what would you do?" },
+        { "speaker": "You", "target": "Uf, si me tocara, dejaría el trabajo y me dedicaría a viajar.", "en": "Ugh, if I won, I'd quit my job and spend my time traveling.", "spotlight": "*si me tocara* (subj.) → *dejaría, dedicaría* (condicional)." },
+        { "speaker": "Rafa", "target": "¿Ni un mes aguantarías currando?", "en": "You wouldn't last even a month working?" },
+        { "speaker": "You", "target": "¡Qué va! Y si fueras tú, ¿no harías lo mismo?", "en": "No way! And if you were me, wouldn't you do the same?" },
+        { "speaker": "Rafa", "target": "Hombre, yo montaría un estudio de grabación y me haría famoso. Modestamente.", "en": "Well, I'd set up a recording studio and become famous. Modestly." },
+        { "speaker": "You", "target": "Ya, ya. Si fuera tan fácil, todos seríamos estrellas.", "en": "Sure, sure. If it were that easy, we'd all be stars." }
       ]
     },
     {

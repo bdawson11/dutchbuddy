@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-11",
   "day": 11,
   "module": "M02",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Parlare, coniugato",
       "items": [
-        { "nl": "parlo", "en": "I speak", "speak": "parlo" },
-        { "nl": "parli", "en": "you speak", "speak": "parli" },
-        { "nl": "parla", "en": "he/she speaks", "speak": "parla" },
-        { "nl": "parliamo", "en": "we speak", "speak": "parliamo" },
-        { "nl": "parlate", "en": "you all speak", "speak": "parlate" },
-        { "nl": "parlano", "en": "they speak", "speak": "parlano" }
+        { "target": "parlo", "en": "I speak", "speak": "parlo" },
+        { "target": "parli", "en": "you speak", "speak": "parli" },
+        { "target": "parla", "en": "he/she speaks", "speak": "parla" },
+        { "target": "parliamo", "en": "we speak", "speak": "parliamo" },
+        { "target": "parlate", "en": "you all speak", "speak": "parlate" },
+        { "target": "parlano", "en": "they speak", "speak": "parlano" }
       ]
     },
     {
@@ -48,10 +48,10 @@
       "type": "chips",
       "title": "In una frase",
       "items": [
-        { "nl": "Lavoro a Bologna.", "en": "I work in Bologna.", "speak": "Lavoro a Bologna." },
-        { "nl": "Abiti vicino alla piazza.", "en": "You live near the square.", "speak": "Abiti vicino alla piazza." },
-        { "nl": "Studiamo l'italiano.", "en": "We study Italian.", "speak": "Studiamo l'italiano." },
-        { "nl": "Guardano la partita.", "en": "They watch the game.", "speak": "Guardano la partita." }
+        { "target": "Lavoro a Bologna.", "en": "I work in Bologna.", "speak": "Lavoro a Bologna." },
+        { "target": "Abiti vicino alla piazza.", "en": "You live near the square.", "speak": "Abiti vicino alla piazza." },
+        { "target": "Studiamo l'italiano.", "en": "We study Italian.", "speak": "Studiamo l'italiano." },
+        { "target": "Guardano la partita.", "en": "They watch the game.", "speak": "Guardano la partita." }
       ]
     },
     {

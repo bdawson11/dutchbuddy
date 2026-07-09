@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-34",
   "day": 34,
   "module": "M05",
@@ -52,14 +52,14 @@
       "type": "dialogue",
       "scene": "Coffee with Lena. She's just back from a weekend at the Ostsee (Baltic Sea) and can't wait to tell you everything.",
       "lines": [
-        { "speaker": "Lena", "nl": "Guck mal, ich habe dieses Wochenende richtig viel erlebt! Wir sind Freitag mit dem Zug an die Ostsee gefahren.", "en": "Look, I really experienced a lot this weekend! We took the train to the Baltic Sea on Friday.", "spotlight": "*erlebt* (haben) und *gefahren* (sein) — zwei Hilfsverben in einem Satz." },
-        { "speaker": "You", "nl": "Wie schön! Was habt ihr da gemacht?", "en": "How nice! What did you all do there?" },
-        { "speaker": "Lena", "nl": "Vieles! Wir sind lange am Strand spazieren gegangen und haben Fisch gegessen.", "en": "All sorts of things! We took long walks on the beach and ate fish.", "spotlight": "*gegangen* (unregelmäßig, sein) direkt neben *gegessen* (unregelmäßig, haben)." },
-        { "speaker": "Lena", "nl": "Abends sind wir in eine Kneipe gegangen und haben Bier getrunken.", "en": "In the evening we went to a pub and drank beer." },
-        { "speaker": "You", "nl": "Und das Wetter? Ist es schön gewesen?", "en": "And the weather? Was it nice?", "spotlight": "*ist … gewesen* — das Perfekt von sein selbst." },
-        { "speaker": "Lena", "nl": "Zuerst ist es schön gewesen, aber am Sonntag hat es angefangen zu regnen. Da sind wir drinnen geblieben.", "en": "At first it was nice, but on Sunday it started to rain. Then we stayed inside.", "spotlight": "*geblieben* — noch ein klassisches sein-Verb." },
-        { "speaker": "You", "nl": "Klingt richtig gut!", "en": "Sounds really good!" },
-        { "speaker": "Lena", "nl": "Auf jeden Fall! Ich bin Sonntagabend total entspannt nach Hause gekommen.", "en": "Definitely! I got home Sunday evening totally relaxed.", "spotlight": "*gekommen* nimmt sein — nach Hause kommen." }
+        { "speaker": "Lena", "target": "Guck mal, ich habe dieses Wochenende richtig viel erlebt! Wir sind Freitag mit dem Zug an die Ostsee gefahren.", "en": "Look, I really experienced a lot this weekend! We took the train to the Baltic Sea on Friday.", "spotlight": "*erlebt* (haben) und *gefahren* (sein) — zwei Hilfsverben in einem Satz." },
+        { "speaker": "You", "target": "Wie schön! Was habt ihr da gemacht?", "en": "How nice! What did you all do there?" },
+        { "speaker": "Lena", "target": "Vieles! Wir sind lange am Strand spazieren gegangen und haben Fisch gegessen.", "en": "All sorts of things! We took long walks on the beach and ate fish.", "spotlight": "*gegangen* (unregelmäßig, sein) direkt neben *gegessen* (unregelmäßig, haben)." },
+        { "speaker": "Lena", "target": "Abends sind wir in eine Kneipe gegangen und haben Bier getrunken.", "en": "In the evening we went to a pub and drank beer." },
+        { "speaker": "You", "target": "Und das Wetter? Ist es schön gewesen?", "en": "And the weather? Was it nice?", "spotlight": "*ist … gewesen* — das Perfekt von sein selbst." },
+        { "speaker": "Lena", "target": "Zuerst ist es schön gewesen, aber am Sonntag hat es angefangen zu regnen. Da sind wir drinnen geblieben.", "en": "At first it was nice, but on Sunday it started to rain. Then we stayed inside.", "spotlight": "*geblieben* — noch ein klassisches sein-Verb." },
+        { "speaker": "You", "target": "Klingt richtig gut!", "en": "Sounds really good!" },
+        { "speaker": "Lena", "target": "Auf jeden Fall! Ich bin Sonntagabend total entspannt nach Hause gekommen.", "en": "Definitely! I got home Sunday evening totally relaxed.", "spotlight": "*gekommen* nimmt sein — nach Hause kommen." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-74",
   "day": 74,
   "module": "M11",
@@ -35,12 +35,12 @@
       "type": "chips",
       "title": "Los cuatro tratos, en voz alta",
       "items": [
-        { "nl": "¿Tú qué opinas?", "en": "What do you think? (tú)", "speak": "¿Tú qué opinas?" },
-        { "nl": "¿Y usted qué opina?", "en": "And what do you think? (usted)", "speak": "¿Y usted qué opina?" },
-        { "nl": "¿Vosotros qué opináis?", "en": "What do you all think? (vosotros)", "speak": "¿Vosotros qué opináis?" },
-        { "nl": "¿Ustedes qué opinan?", "en": "What do you think? (ustedes, formal pl.)", "speak": "¿Ustedes qué opinan?" },
-        { "nl": "¿De dónde sois?", "en": "Where are you all from? (vosotros)", "speak": "¿De dónde sois?" },
-        { "nl": "Puede tutearme, tranquilo.", "en": "You can call me tú, don't worry.", "speak": "Puede tutearme, tranquilo." }
+        { "target": "¿Tú qué opinas?", "en": "What do you think? (tú)", "speak": "¿Tú qué opinas?" },
+        { "target": "¿Y usted qué opina?", "en": "And what do you think? (usted)", "speak": "¿Y usted qué opina?" },
+        { "target": "¿Vosotros qué opináis?", "en": "What do you all think? (vosotros)", "speak": "¿Vosotros qué opináis?" },
+        { "target": "¿Ustedes qué opinan?", "en": "What do you think? (ustedes, formal pl.)", "speak": "¿Ustedes qué opinan?" },
+        { "target": "¿De dónde sois?", "en": "Where are you all from? (vosotros)", "speak": "¿De dónde sois?" },
+        { "target": "Puede tutearme, tranquilo.", "en": "You can call me tú, don't worry.", "speak": "Puede tutearme, tranquilo." }
       ]
     },
     {
@@ -87,13 +87,13 @@
       "type": "dialogue",
       "scene": "Lucía walks you through who to tutear at a friend's flat-warming.",
       "lines": [
-        { "speaker": "Lucía", "nl": "Mira, aquí somos todos colegas, así que de tú a todo el mundo, ¿vale?", "en": "Look, here we're all mates, so tú with everyone, okay?", "spotlight": "tú por defecto entre iguales." },
-        { "speaker": "You", "nl": "¿Y a los padres de Marta, que están ahí?", "en": "And Marta's parents, who are over there?" },
-        { "speaker": "Lucía", "nl": "Con ellos, empieza de usted por educación. Si te dicen «tutéame», cambias.", "en": "With them, start with usted to be polite. If they say 'call me tú', switch." },
-        { "speaker": "You", "nl": "Vale. ¿Y si hablo con varios a la vez?", "en": "Okay. And if I talk to several at once?" },
-        { "speaker": "Lucía", "nl": "Vosotros, siempre. Aquí nadie dice 'ustedes', eso es de otro lado.", "en": "Vosotros, always. Nobody here says 'ustedes', that's from elsewhere.", "spotlight": "grupo informal = vosotros, nunca ustedes." },
-        { "speaker": "You", "nl": "O sea, tú para uno, vosotros para el grupo, y usted solo si hace falta.", "en": "So, tú for one, vosotros for a group, and usted only if needed." },
-        { "speaker": "Lucía", "nl": "¡Eso es! Ya suenas de aquí, tía.", "en": "That's it! You already sound local." }
+        { "speaker": "Lucía", "target": "Mira, aquí somos todos colegas, así que de tú a todo el mundo, ¿vale?", "en": "Look, here we're all mates, so tú with everyone, okay?", "spotlight": "tú por defecto entre iguales." },
+        { "speaker": "You", "target": "¿Y a los padres de Marta, que están ahí?", "en": "And Marta's parents, who are over there?" },
+        { "speaker": "Lucía", "target": "Con ellos, empieza de usted por educación. Si te dicen «tutéame», cambias.", "en": "With them, start with usted to be polite. If they say 'call me tú', switch." },
+        { "speaker": "You", "target": "Vale. ¿Y si hablo con varios a la vez?", "en": "Okay. And if I talk to several at once?" },
+        { "speaker": "Lucía", "target": "Vosotros, siempre. Aquí nadie dice 'ustedes', eso es de otro lado.", "en": "Vosotros, always. Nobody here says 'ustedes', that's from elsewhere.", "spotlight": "grupo informal = vosotros, nunca ustedes." },
+        { "speaker": "You", "target": "O sea, tú para uno, vosotros para el grupo, y usted solo si hace falta.", "en": "So, tú for one, vosotros for a group, and usted only if needed." },
+        { "speaker": "Lucía", "target": "¡Eso es! Ya suenas de aquí, tía.", "en": "That's it! You already sound local." }
       ]
     },
     {

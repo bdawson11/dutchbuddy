@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-12",
   "day": 12,
   "module": "M02",
@@ -28,9 +28,9 @@
       "type": "chips",
       "title": "Fragen hören",
       "items": [
-        { "nl": "Kommst du?", "en": "are you coming?", "speak": "Kommst du?" },
-        { "nl": "Hast du Zeit?", "en": "do you have time?", "speak": "Hast du Zeit?" },
-        { "nl": "Wohnt sie in Berlin?", "en": "does she live in Berlin?", "speak": "Wohnt sie in Berlin?" }
+        { "target": "Kommst du?", "en": "are you coming?", "speak": "Kommst du?" },
+        { "target": "Hast du Zeit?", "en": "do you have time?", "speak": "Hast du Zeit?" },
+        { "target": "Wohnt sie in Berlin?", "en": "does she live in Berlin?", "speak": "Wohnt sie in Berlin?" }
       ]
     },
     {
@@ -43,12 +43,12 @@
       "type": "chips",
       "title": "W-Wörter hören",
       "items": [
-        { "nl": "wer", "en": "who", "speak": "wer" },
-        { "nl": "was", "en": "what", "speak": "was" },
-        { "nl": "wo", "en": "where", "speak": "wo" },
-        { "nl": "wann", "en": "when", "speak": "wann" },
-        { "nl": "wie", "en": "how", "speak": "wie" },
-        { "nl": "warum", "en": "why", "speak": "warum" }
+        { "target": "wer", "en": "who", "speak": "wer" },
+        { "target": "was", "en": "what", "speak": "was" },
+        { "target": "wo", "en": "where", "speak": "wo" },
+        { "target": "wann", "en": "when", "speak": "wann" },
+        { "target": "wie", "en": "how", "speak": "wie" },
+        { "target": "warum", "en": "why", "speak": "warum" }
       ]
     },
     {
@@ -83,14 +83,14 @@
       "type": "dialogue",
       "scene": "Aylin is getting to know you better over coffee and asks about your life in Berlin.",
       "lines": [
-        { "speaker": "Aylin", "nl": "Wie lange wohnst du schon in Berlin?", "en": "How long have you been living in Berlin already?" },
-        { "speaker": "You", "nl": "Erst drei Monate.", "en": "Only three months." },
-        { "speaker": "Aylin", "nl": "Und wo wohnst du genau?", "en": "And where exactly do you live?" },
-        { "speaker": "You", "nl": "In Neukölln. Die Wohnung ist klein, aber schön.", "en": "In Neukölln. The apartment is small, but nice." },
-        { "speaker": "Aylin", "nl": "Warum bist du in Berlin?", "en": "Why are you in Berlin?" },
-        { "speaker": "You", "nl": "Ich lerne Deutsch und ich arbeite hier.", "en": "I'm learning German and I work here." },
-        { "speaker": "Aylin", "nl": "Wie findest du die Stadt?", "en": "How do you find the city?", "spotlight": "*Wie findest du…?* — a natural way to ask someone's opinion." },
-        { "speaker": "You", "nl": "Ich finde sie super!", "en": "I think it's great!" }
+        { "speaker": "Aylin", "target": "Wie lange wohnst du schon in Berlin?", "en": "How long have you been living in Berlin already?" },
+        { "speaker": "You", "target": "Erst drei Monate.", "en": "Only three months." },
+        { "speaker": "Aylin", "target": "Und wo wohnst du genau?", "en": "And where exactly do you live?" },
+        { "speaker": "You", "target": "In Neukölln. Die Wohnung ist klein, aber schön.", "en": "In Neukölln. The apartment is small, but nice." },
+        { "speaker": "Aylin", "target": "Warum bist du in Berlin?", "en": "Why are you in Berlin?" },
+        { "speaker": "You", "target": "Ich lerne Deutsch und ich arbeite hier.", "en": "I'm learning German and I work here." },
+        { "speaker": "Aylin", "target": "Wie findest du die Stadt?", "en": "How do you find the city?", "spotlight": "*Wie findest du…?* — a natural way to ask someone's opinion." },
+        { "speaker": "You", "target": "Ich finde sie super!", "en": "I think it's great!" }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-92",
   "day": 92,
   "module": "M14",
@@ -39,11 +39,11 @@
       "type": "chips",
       "title": "Toca y repite",
       "items": [
-        { "nl": "yo habría ido sin dudarlo", "en": "I'd have gone without hesitating", "speak": "yo habría ido sin dudarlo" },
-        { "nl": "habríamos llegado antes", "en": "we'd have arrived earlier", "speak": "habríamos llegado antes" },
-        { "nl": "¿tú qué habrías hecho?", "en": "what would you have done?", "speak": "¿tú qué habrías hecho?" },
-        { "nl": "me habría encantado", "en": "I'd have loved it", "speak": "me habría encantado" },
-        { "nl": "nadie lo habría imaginado", "en": "nobody would have imagined it", "speak": "nadie lo habría imaginado" }
+        { "target": "yo habría ido sin dudarlo", "en": "I'd have gone without hesitating", "speak": "yo habría ido sin dudarlo" },
+        { "target": "habríamos llegado antes", "en": "we'd have arrived earlier", "speak": "habríamos llegado antes" },
+        { "target": "¿tú qué habrías hecho?", "en": "what would you have done?", "speak": "¿tú qué habrías hecho?" },
+        { "target": "me habría encantado", "en": "I'd have loved it", "speak": "me habría encantado" },
+        { "target": "nadie lo habría imaginado", "en": "nobody would have imagined it", "speak": "nadie lo habría imaginado" }
       ]
     },
     {
@@ -81,11 +81,11 @@
       "type": "dialogue",
       "scene": "Lucía tells you about a gig you both missed.",
       "lines": [
-        { "speaker": "Lucía", "nl": "¿Sabes que anoche tocaron los de siempre en la sala? Nos avisaron tardísimo.", "en": "Did you know the usual guys played at the venue last night? They told us super late." },
-        { "speaker": "You", "nl": "¡No me digas! Yo habría ido sin pensarlo.", "en": "No way! I'd have gone without thinking twice." },
-        { "speaker": "Lucía", "nl": "Y yo. Habríamos quedado allí, como siempre.", "en": "Me too. We'd have met up there, like always." },
-        { "speaker": "You", "nl": "Qué rabia. Con un día más de aviso, no me lo habría perdido.", "en": "So annoying. With one more day's notice, I wouldn't have missed it.", "spotlight": "*no me lo habría perdido*: el resultado que no llegó a ocurrir." },
-        { "speaker": "Lucía", "nl": "Bueno, ya habrá más. Otra vez será.", "en": "Well, there'll be more. Next time." }
+        { "speaker": "Lucía", "target": "¿Sabes que anoche tocaron los de siempre en la sala? Nos avisaron tardísimo.", "en": "Did you know the usual guys played at the venue last night? They told us super late." },
+        { "speaker": "You", "target": "¡No me digas! Yo habría ido sin pensarlo.", "en": "No way! I'd have gone without thinking twice." },
+        { "speaker": "Lucía", "target": "Y yo. Habríamos quedado allí, como siempre.", "en": "Me too. We'd have met up there, like always." },
+        { "speaker": "You", "target": "Qué rabia. Con un día más de aviso, no me lo habría perdido.", "en": "So annoying. With one more day's notice, I wouldn't have missed it.", "spotlight": "*no me lo habría perdido*: el resultado que no llegó a ocurrir." },
+        { "speaker": "Lucía", "target": "Bueno, ya habrá más. Otra vez será.", "en": "Well, there'll be more. Next time." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-38",
   "day": 38,
   "module": "M06",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Frases de emergencia",
       "items": [
-        { "nl": "llama al 112", "en": "call 112", "speak": "llama al 112" },
-        { "nl": "ha habido un accidente", "en": "there's been an accident", "speak": "ha habido un accidente" },
-        { "nl": "necesito una ambulancia", "en": "I need an ambulance", "speak": "necesito una ambulancia" },
-        { "nl": "es urgente", "en": "it's urgent", "speak": "es urgente" },
-        { "nl": "¿dónde estás?", "en": "where are you?", "speak": "¿dónde estás?" },
-        { "nl": "no puede respirar bien", "en": "he/she can't breathe well", "speak": "no puede respirar bien" }
+        { "target": "llama al 112", "en": "call 112", "speak": "llama al 112" },
+        { "target": "ha habido un accidente", "en": "there's been an accident", "speak": "ha habido un accidente" },
+        { "target": "necesito una ambulancia", "en": "I need an ambulance", "speak": "necesito una ambulancia" },
+        { "target": "es urgente", "en": "it's urgent", "speak": "es urgente" },
+        { "target": "¿dónde estás?", "en": "where are you?", "speak": "¿dónde estás?" },
+        { "target": "no puede respirar bien", "en": "he/she can't breathe well", "speak": "no puede respirar bien" }
       ]
     },
     {
@@ -75,11 +75,11 @@
       "type": "dialogue",
       "scene": "You're at a park with Rafa when someone nearby takes a bad fall off a bike.",
       "lines": [
-        { "speaker": "Rafa", "nl": "¡Joder, se ha caído de la bici! ¿Está bien?", "en": "Damn, he's fallen off his bike! Is he okay?" },
-        { "speaker": "You", "nl": "No se levanta. Llama al 112, ¡rápido!", "en": "He's not getting up. Call 112, quick!" },
-        { "speaker": "Rafa", "nl": "Vale, voy... ¿Oiga? Ha habido un accidente. Estamos en el parque del Retiro, cerca de la puerta de Alcalá.", "en": "Okay, calling... Hello? There's been an accident. We're in Retiro Park, near the Alcalá gate." },
-        { "speaker": "You", "nl": "Dile que no puede mover la pierna.", "en": "Tell them he can't move his leg." },
-        { "speaker": "Rafa", "nl": "Ya se lo he dicho. Vienen en cinco minutos.", "en": "I've already told them. They're coming in five minutes.", "spotlight": "perfecto: ya se lo he dicho — reported, recent." }
+        { "speaker": "Rafa", "target": "¡Joder, se ha caído de la bici! ¿Está bien?", "en": "Damn, he's fallen off his bike! Is he okay?" },
+        { "speaker": "You", "target": "No se levanta. Llama al 112, ¡rápido!", "en": "He's not getting up. Call 112, quick!" },
+        { "speaker": "Rafa", "target": "Vale, voy... ¿Oiga? Ha habido un accidente. Estamos en el parque del Retiro, cerca de la puerta de Alcalá.", "en": "Okay, calling... Hello? There's been an accident. We're in Retiro Park, near the Alcalá gate." },
+        { "speaker": "You", "target": "Dile que no puede mover la pierna.", "en": "Tell them he can't move his leg." },
+        { "speaker": "Rafa", "target": "Ya se lo he dicho. Vienen en cinco minutos.", "en": "I've already told them. They're coming in five minutes.", "spotlight": "perfecto: ya se lo he dicho — reported, recent." }
       ]
     },
     {

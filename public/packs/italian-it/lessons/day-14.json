@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-14",
   "day": 14,
   "module": "M02",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Ripasso lampo",
       "items": [
-        { "nl": "trentotto", "en": "38", "speak": "trentotto" },
-        { "nl": "Sono le tre e mezza.", "en": "It's half past three.", "speak": "Sono le tre e mezza." },
-        { "nl": "Lavoro a Bologna.", "en": "I work in Bologna.", "speak": "Lavoro a Bologna." },
-        { "nl": "Capisco un po' di italiano.", "en": "I understand a bit of Italian.", "speak": "Capisco un po' di italiano." },
-        { "nl": "Faccio colazione alle sette.", "en": "I have breakfast at seven.", "speak": "Faccio colazione alle sette." }
+        { "target": "trentotto", "en": "38", "speak": "trentotto" },
+        { "target": "Sono le tre e mezza.", "en": "It's half past three.", "speak": "Sono le tre e mezza." },
+        { "target": "Lavoro a Bologna.", "en": "I work in Bologna.", "speak": "Lavoro a Bologna." },
+        { "target": "Capisco un po' di italiano.", "en": "I understand a bit of Italian.", "speak": "Capisco un po' di italiano." },
+        { "target": "Faccio colazione alle sette.", "en": "I have breakfast at seven.", "speak": "Faccio colazione alle sette." }
       ]
     },
     {
@@ -59,11 +59,11 @@
       "type": "chips",
       "title": "La mia giornata",
       "items": [
-        { "nl": "Mi sveglio alle sette.", "en": "I wake up at seven.", "speak": "Mi sveglio alle sette." },
-        { "nl": "Faccio colazione.", "en": "I have breakfast.", "speak": "Faccio colazione." },
-        { "nl": "Vado al lavoro.", "en": "I go to work.", "speak": "Vado al lavoro." },
-        { "nl": "Studio l'italiano la sera.", "en": "I study Italian in the evening.", "speak": "Studio l'italiano la sera." },
-        { "nl": "Vado a letto a mezzanotte.", "en": "I go to bed at midnight.", "speak": "Vado a letto a mezzanotte." }
+        { "target": "Mi sveglio alle sette.", "en": "I wake up at seven.", "speak": "Mi sveglio alle sette." },
+        { "target": "Faccio colazione.", "en": "I have breakfast.", "speak": "Faccio colazione." },
+        { "target": "Vado al lavoro.", "en": "I go to work.", "speak": "Vado al lavoro." },
+        { "target": "Studio l'italiano la sera.", "en": "I study Italian in the evening.", "speak": "Studio l'italiano la sera." },
+        { "target": "Vado a letto a mezzanotte.", "en": "I go to bed at midnight.", "speak": "Vado a letto a mezzanotte." }
       ]
     },
     {
@@ -83,12 +83,12 @@
       "type": "dialogue",
       "scene": "Marco asks about your daily routine at the bar.",
       "lines": [
-        { "speaker": "Marco", "nl": "Allora, com'è una tua giornata tipica?", "en": "So, what's a typical day of yours like?" },
-        { "speaker": "You", "nl": "Mi sveglio alle sette, faccio colazione e vado al lavoro.", "en": "I wake up at seven, have breakfast, and go to work.", "spotlight": "Three verbs, three families — sveglio, faccio, vado — all in one breath." },
-        { "speaker": "Marco", "nl": "E la sera? Studi ancora l'italiano?", "en": "And in the evening? Do you still study Italian?" },
-        { "speaker": "You", "nl": "Sì, studio un po' e poi guardo la tv.", "en": "Yes, I study a bit and then I watch TV." },
-        { "speaker": "Marco", "nl": "Bravo, dai! Vai a letto presto o tardi?", "en": "Nice, come on! Do you go to bed early or late?" },
-        { "speaker": "You", "nl": "Vado a letto verso mezzanotte.", "en": "I go to bed around midnight." }
+        { "speaker": "Marco", "target": "Allora, com'è una tua giornata tipica?", "en": "So, what's a typical day of yours like?" },
+        { "speaker": "You", "target": "Mi sveglio alle sette, faccio colazione e vado al lavoro.", "en": "I wake up at seven, have breakfast, and go to work.", "spotlight": "Three verbs, three families — sveglio, faccio, vado — all in one breath." },
+        { "speaker": "Marco", "target": "E la sera? Studi ancora l'italiano?", "en": "And in the evening? Do you still study Italian?" },
+        { "speaker": "You", "target": "Sì, studio un po' e poi guardo la tv.", "en": "Yes, I study a bit and then I watch TV." },
+        { "speaker": "Marco", "target": "Bravo, dai! Vai a letto presto o tardi?", "en": "Nice, come on! Do you go to bed early or late?" },
+        { "speaker": "You", "target": "Vado a letto verso mezzanotte.", "en": "I go to bed around midnight." }
       ]
     },
     {

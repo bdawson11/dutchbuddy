@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-03",
   "day": 3,
   "module": "M01",
@@ -29,12 +29,12 @@
       "type": "chips",
       "title": "Tap the greetings",
       "items": [
-        { "nl": "Guten Morgen", "en": "good morning", "speak": "Guten Morgen" },
-        { "nl": "Guten Tag", "en": "hello (daytime)", "speak": "Guten Tag" },
-        { "nl": "Hallo", "en": "hi", "speak": "Hallo" },
-        { "nl": "Moin", "en": "hi (northern)", "speak": "Moin" },
-        { "nl": "Tschüss", "en": "bye", "speak": "Tschüss" },
-        { "nl": "Auf Wiedersehen", "en": "goodbye (formal)", "speak": "Auf Wiedersehen" }
+        { "target": "Guten Morgen", "en": "good morning", "speak": "Guten Morgen" },
+        { "target": "Guten Tag", "en": "hello (daytime)", "speak": "Guten Tag" },
+        { "target": "Hallo", "en": "hi", "speak": "Hallo" },
+        { "target": "Moin", "en": "hi (northern)", "speak": "Moin" },
+        { "target": "Tschüss", "en": "bye", "speak": "Tschüss" },
+        { "target": "Auf Wiedersehen", "en": "goodbye (formal)", "speak": "Auf Wiedersehen" }
       ]
     },
     {
@@ -47,11 +47,11 @@
       "type": "chips",
       "title": "Please, thanks, sorry",
       "items": [
-        { "nl": "bitte", "en": "please / you're welcome", "speak": "bitte" },
-        { "nl": "danke", "en": "thanks", "speak": "danke" },
-        { "nl": "danke schön", "en": "thank you very much", "speak": "danke schön" },
-        { "nl": "vielen Dank", "en": "many thanks", "speak": "vielen Dank" },
-        { "nl": "Entschuldigung", "en": "excuse me / sorry", "speak": "Entschuldigung" }
+        { "target": "bitte", "en": "please / you're welcome", "speak": "bitte" },
+        { "target": "danke", "en": "thanks", "speak": "danke" },
+        { "target": "danke schön", "en": "thank you very much", "speak": "danke schön" },
+        { "target": "vielen Dank", "en": "many thanks", "speak": "vielen Dank" },
+        { "target": "Entschuldigung", "en": "excuse me / sorry", "speak": "Entschuldigung" }
       ]
     },
     {
@@ -72,21 +72,21 @@
       "type": "shadow",
       "title": "Bakery phrases — repeat after the audio",
       "lines": [
-        { "nl": "Guten Morgen!", "en": "Good morning!" },
-        { "nl": "Zwei Brötchen, bitte.", "en": "Two bread rolls, please." },
-        { "nl": "Danke schön!", "en": "Thank you very much!" },
-        { "nl": "Tschüss, bis morgen!", "en": "Bye, see you tomorrow!" }
+        { "target": "Guten Morgen!", "en": "Good morning!" },
+        { "target": "Zwei Brötchen, bitte.", "en": "Two bread rolls, please." },
+        { "target": "Danke schön!", "en": "Thank you very much!" },
+        { "target": "Tschüss, bis morgen!", "en": "Bye, see you tomorrow!" }
       ]
     },
     {
       "type": "dialogue",
       "scene": "Your first morning at the Bäckerei. Lena goes first and shows you how it's done.",
       "lines": [
-        { "speaker": "Lena", "nl": "Guten Morgen! Zwei Brötchen, bitte.", "en": "Good morning! Two rolls, please." },
-        { "speaker": "You", "nl": "Guten Morgen. Und für mich einen Kaffee, bitte.", "en": "Good morning. And a coffee for me, please.", "spotlight": "*bitte* closes almost every order — polite and effortless." },
-        { "speaker": "Lena", "nl": "Super. Danke schön!", "en": "Great. Thank you very much!" },
-        { "speaker": "You", "nl": "Danke. Tschüss!", "en": "Thanks. Bye!" },
-        { "speaker": "Lena", "nl": "Tschüss! Bis morgen.", "en": "Bye! See you tomorrow.", "spotlight": "*Tschüss* is the everyday bye; *bis morgen* = see you tomorrow." }
+        { "speaker": "Lena", "target": "Guten Morgen! Zwei Brötchen, bitte.", "en": "Good morning! Two rolls, please." },
+        { "speaker": "You", "target": "Guten Morgen. Und für mich einen Kaffee, bitte.", "en": "Good morning. And a coffee for me, please.", "spotlight": "*bitte* closes almost every order — polite and effortless." },
+        { "speaker": "Lena", "target": "Super. Danke schön!", "en": "Great. Thank you very much!" },
+        { "speaker": "You", "target": "Danke. Tschüss!", "en": "Thanks. Bye!" },
+        { "speaker": "Lena", "target": "Tschüss! Bis morgen.", "en": "Bye! See you tomorrow.", "spotlight": "*Tschüss* is the everyday bye; *bis morgen* = see you tomorrow." }
       ]
     },
     {

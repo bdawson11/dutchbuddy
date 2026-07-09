@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-98",
   "day": 98,
   "module": "M14",
@@ -29,11 +29,11 @@
       "type": "chips",
       "title": "Terugkijken — tik om te horen",
       "items": [
-        { "nl": "Als ik dit eerder had geweten, was ik eerder begonnen.", "en": "Had I known this earlier, I'd have started earlier.", "speak": "Als ik dit eerder had geweten, was ik eerder begonnen." },
-        { "nl": "Ik had best wat vaker durven praten.", "en": "I could well have dared to speak more often.", "speak": "Ik had best wat vaker durven praten." },
-        { "nl": "Zonder deze cursus zou ik nu vastlopen.", "en": "Without this course I'd be stuck now.", "speak": "Zonder deze cursus zou ik nu vastlopen." },
-        { "nl": "Had ik maar minder in het Engels teruggevallen.", "en": "If only I'd fallen back on English less.", "speak": "Had ik maar minder in het Engels teruggevallen." },
-        { "nl": "Ik zou het zo weer doen.", "en": "I'd do it all over again.", "speak": "Ik zou het zo weer doen." }
+        { "target": "Als ik dit eerder had geweten, was ik eerder begonnen.", "en": "Had I known this earlier, I'd have started earlier.", "speak": "Als ik dit eerder had geweten, was ik eerder begonnen." },
+        { "target": "Ik had best wat vaker durven praten.", "en": "I could well have dared to speak more often.", "speak": "Ik had best wat vaker durven praten." },
+        { "target": "Zonder deze cursus zou ik nu vastlopen.", "en": "Without this course I'd be stuck now.", "speak": "Zonder deze cursus zou ik nu vastlopen." },
+        { "target": "Had ik maar minder in het Engels teruggevallen.", "en": "If only I'd fallen back on English less.", "speak": "Had ik maar minder in het Engels teruggevallen." },
+        { "target": "Ik zou het zo weer doen.", "en": "I'd do it all over again.", "speak": "Ik zou het zo weer doen." }
       ]
     },
     {
@@ -78,14 +78,14 @@
       "type": "dialogue",
       "scene": "Emma and You look back on the year of Dutch over a coffee.",
       "lines": [
-        { "speaker": "Emma", "nl": "Weet je nog, een jaar geleden? Toen durfde je amper 'hoi' te zeggen.", "en": "Remember, a year ago? Back then you barely dared say 'hi'." },
-        { "speaker": "You", "nl": "Als jij toen niet zo geduldig was geweest, was ik allang gestopt.", "en": "If you hadn't been so patient back then, I'd have quit long ago.", "spotlight": "Verleden irreëel: *als … was geweest, was ik gestopt*." },
-        { "speaker": "Emma", "nl": "Onzin, dat had je zelf gedaan. Al had je best wat eerder mogen loskomen.", "en": "Nonsense, you did that yourself. Though you could've loosened up a bit sooner." },
-        { "speaker": "You", "nl": "Dat is waar. Ik had minder bang voor fouten moeten zijn.", "en": "That's true. I should've been less afraid of mistakes.", "spotlight": "Spijt: *had … moeten zijn*." },
-        { "speaker": "Emma", "nl": "Iedereen maakt fouten. Mocht je ooit twijfelen, denk aan nu.", "en": "Everyone makes mistakes. Should you ever doubt, think of now." },
-        { "speaker": "You", "nl": "Als ik het opnieuw moest doen, zou ik precies hetzelfde doen.", "en": "If I had to do it again, I'd do exactly the same." },
-        { "speaker": "Emma", "nl": "Zie je wel. Geen spijt dus.", "en": "See. No regrets then." },
-        { "speaker": "You", "nl": "Geen spijt. Alleen dankbaarheid.", "en": "No regrets. Only gratitude." }
+        { "speaker": "Emma", "target": "Weet je nog, een jaar geleden? Toen durfde je amper 'hoi' te zeggen.", "en": "Remember, a year ago? Back then you barely dared say 'hi'." },
+        { "speaker": "You", "target": "Als jij toen niet zo geduldig was geweest, was ik allang gestopt.", "en": "If you hadn't been so patient back then, I'd have quit long ago.", "spotlight": "Verleden irreëel: *als … was geweest, was ik gestopt*." },
+        { "speaker": "Emma", "target": "Onzin, dat had je zelf gedaan. Al had je best wat eerder mogen loskomen.", "en": "Nonsense, you did that yourself. Though you could've loosened up a bit sooner." },
+        { "speaker": "You", "target": "Dat is waar. Ik had minder bang voor fouten moeten zijn.", "en": "That's true. I should've been less afraid of mistakes.", "spotlight": "Spijt: *had … moeten zijn*." },
+        { "speaker": "Emma", "target": "Iedereen maakt fouten. Mocht je ooit twijfelen, denk aan nu.", "en": "Everyone makes mistakes. Should you ever doubt, think of now." },
+        { "speaker": "You", "target": "Als ik het opnieuw moest doen, zou ik precies hetzelfde doen.", "en": "If I had to do it again, I'd do exactly the same." },
+        { "speaker": "Emma", "target": "Zie je wel. Geen spijt dus.", "en": "See. No regrets then." },
+        { "speaker": "You", "target": "Geen spijt. Alleen dankbaarheid.", "en": "No regrets. Only gratitude." }
       ]
     },
     {

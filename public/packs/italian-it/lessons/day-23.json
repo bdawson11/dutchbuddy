@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-23",
   "day": 23,
   "module": "M04",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Le frasi del bar — ascolta",
       "items": [
-        { "nl": "Vorrei un caffè.", "en": "I'd like a coffee.", "speak": "Vorrei un caffè." },
-        { "nl": "Per me, una pasta.", "en": "For me, a pastry.", "speak": "Per me, una pasta." },
-        { "nl": "Mi porta il menù?", "en": "Could you bring me the menu?", "speak": "Mi porta il menù?" },
-        { "nl": "Il conto, per favore.", "en": "The bill, please.", "speak": "Il conto, per favore." },
-        { "nl": "Basta così, grazie.", "en": "That's all, thanks.", "speak": "Basta così, grazie." }
+        { "target": "Vorrei un caffè.", "en": "I'd like a coffee.", "speak": "Vorrei un caffè." },
+        { "target": "Per me, una pasta.", "en": "For me, a pastry.", "speak": "Per me, una pasta." },
+        { "target": "Mi porta il menù?", "en": "Could you bring me the menu?", "speak": "Mi porta il menù?" },
+        { "target": "Il conto, per favore.", "en": "The bill, please.", "speak": "Il conto, per favore." },
+        { "target": "Basta così, grazie.", "en": "That's all, thanks.", "speak": "Basta così, grazie." }
       ]
     },
     {
@@ -73,20 +73,20 @@
       "type": "shadow",
       "title": "Un pranzo al bar",
       "lines": [
-        { "nl": "Buongiorno, vorrei un panino.", "en": "Good morning, I'd like a sandwich." },
-        { "nl": "Mi porta anche dell'acqua?", "en": "Could you also bring me some water?" },
-        { "nl": "Il conto, quando può.", "en": "The bill, whenever you can." }
+        { "target": "Buongiorno, vorrei un panino.", "en": "Good morning, I'd like a sandwich." },
+        { "target": "Mi porta anche dell'acqua?", "en": "Could you also bring me some water?" },
+        { "target": "Il conto, quando può.", "en": "The bill, whenever you can." }
       ]
     },
     {
       "type": "dialogue",
       "scene": "You and Marco grab lunch at a trattoria near his bookshop",
       "lines": [
-        { "speaker": "Marco", "nl": "Allora, cosa prendi?", "en": "So, what are you having?" },
-        { "speaker": "You", "nl": "Vorrei il primo — la pasta al pomodoro.", "en": "I'd like the first course — pasta with tomato sauce." },
-        { "speaker": "Marco", "nl": "Buona scelta. Per me un panino, e un'acqua frizzante.", "en": "Good choice. For me a sandwich, and a sparkling water." },
-        { "speaker": "You", "nl": "Mi porta anche due caffè, alla fine?", "en": "Could you also bring us two coffees, at the end?" },
-        { "speaker": "Marco", "nl": "Bravo, cominci a ordinare come un vero italiano.", "en": "Nice, you're starting to order like a real Italian.", "spotlight": "Notice 'mi porta' — a polite request aimed at the waiter, not at Marco." }
+        { "speaker": "Marco", "target": "Allora, cosa prendi?", "en": "So, what are you having?" },
+        { "speaker": "You", "target": "Vorrei il primo — la pasta al pomodoro.", "en": "I'd like the first course — pasta with tomato sauce." },
+        { "speaker": "Marco", "target": "Buona scelta. Per me un panino, e un'acqua frizzante.", "en": "Good choice. For me a sandwich, and a sparkling water." },
+        { "speaker": "You", "target": "Mi porta anche due caffè, alla fine?", "en": "Could you also bring us two coffees, at the end?" },
+        { "speaker": "Marco", "target": "Bravo, cominci a ordinare come un vero italiano.", "en": "Nice, you're starting to order like a real Italian.", "spotlight": "Notice 'mi porta' — a polite request aimed at the waiter, not at Marco." }
       ]
     },
     {

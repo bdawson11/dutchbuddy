@@ -36,7 +36,7 @@ try {
 for (const f of ['schemaVersion', 'packId', 'appName', 'language', 'locale', 'levels', 'weeks', 'cast', 'hero', 'footer']) {
   if (manifest[f] === undefined) err(`manifest: missing field "${f}"`);
 }
-if (manifest.schemaVersion !== 1) err(`manifest: unsupported schemaVersion ${manifest.schemaVersion}`);
+if (![1, 2].includes(manifest.schemaVersion)) err(`manifest: unsupported schemaVersion ${manifest.schemaVersion}`);
 
 const allDayIds = (manifest.weeks || []).flatMap((w) => w.days || []);
 const seen = new Set();
@@ -60,7 +60,7 @@ const BLOCK_VALIDATORS = {
   },
   chips: (b) => {
     if (!Array.isArray(b.items) || b.items.length === 0) return 'items[] required';
-    for (const it of b.items) if (!it.nl || !it.en) return 'each chip needs nl and en';
+    for (const it of b.items) if (!it[targetKey] || !it.en) return `each chip needs ${targetKey} and en`;
   },
   contrast: (b) => {
     if (!Array.isArray(b.pairs) || b.pairs.length === 0) return 'pairs[] required';
@@ -90,13 +90,13 @@ const BLOCK_VALIDATORS = {
     req(b, ['scene', 'lines']);
     if (!Array.isArray(b.lines) || b.lines.length === 0) return 'lines[] required';
     for (const l of b.lines) {
-      if (!l.speaker || !l.nl || !l.en) return 'each line needs speaker, nl, en';
+      if (!l.speaker || !l[targetKey] || !l.en) return `each line needs speaker, ${targetKey}, en`;
       if (l.speaker !== 'You' && !castNames.has(l.speaker)) return `speaker "${l.speaker}" not in manifest cast`;
     }
   },
   shadow: (b) => {
     if (!Array.isArray(b.lines) || b.lines.length === 0) return 'lines[] required';
-    for (const l of b.lines) if (!l.nl || !l.en) return 'each line needs nl and en';
+    for (const l of b.lines) if (!l[targetKey] || !l.en) return `each line needs ${targetKey} and en`;
   },
   comprehension: (b) => {
     if (!Array.isArray(b.questions) || b.questions.length === 0) return 'questions[] required';
@@ -112,6 +112,10 @@ let missingFields;
 function req(obj, fields) {
   missingFields = fields.filter((f) => obj[f] === undefined);
 }
+
+// The target-language text field is `nl` at schemaVersion 1 and `target` at
+// schemaVersion 2. Set per-lesson before its blocks are validated.
+let targetKey = 'target';
 
 // ---------- lessons ----------
 const lessonsDir = path.join(packDir, 'lessons');
@@ -134,6 +138,8 @@ for (const dayId of allDayIds) {
   for (const f of ['schemaVersion', 'id', 'day', 'module', 'unit', 'kind', 'title', 'emoji', 'level', 'durationMin', 'summary', 'blocks']) {
     if (lesson[f] === undefined) err(`${dayId}: missing field "${f}"`);
   }
+  if (![1, 2].includes(lesson.schemaVersion)) err(`${dayId}: unsupported schemaVersion ${lesson.schemaVersion}`);
+  targetKey = lesson.schemaVersion === 1 ? 'nl' : 'target';
   if (lesson.id !== dayId) err(`${dayId}: id "${lesson.id}" ≠ filename`);
   if (lesson.day !== parseInt(dayId.split('-')[1], 10)) err(`${dayId}: day number ≠ id`);
   if (!['lesson', 'review', 'capstone'].includes(lesson.kind)) err(`${dayId}: unknown kind "${lesson.kind}"`);

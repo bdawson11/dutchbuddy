@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-73",
   "day": 73,
   "module": "M11",
@@ -35,12 +35,12 @@
       "type": "chips",
       "title": "Tap to hear the shades of meaning",
       "items": [
-        { "nl": "een biertje", "en": "a beer (social, casual)", "speak": "een biertje" },
-        { "nl": "een momentje", "en": "just a sec", "speak": "een momentje" },
-        { "nl": "een kopje thee", "en": "a cup of tea", "speak": "een kopje thee" },
-        { "nl": "een bakkie", "en": "a coffee (slangy, cosy)", "speak": "een bakkie" },
-        { "nl": "een tochtje", "en": "a little outing / trip", "speak": "een tochtje" },
-        { "nl": "een huisje", "en": "a little house (fond)", "speak": "een huisje" }
+        { "target": "een biertje", "en": "a beer (social, casual)", "speak": "een biertje" },
+        { "target": "een momentje", "en": "just a sec", "speak": "een momentje" },
+        { "target": "een kopje thee", "en": "a cup of tea", "speak": "een kopje thee" },
+        { "target": "een bakkie", "en": "a coffee (slangy, cosy)", "speak": "een bakkie" },
+        { "target": "een tochtje", "en": "a little outing / trip", "speak": "een tochtje" },
+        { "target": "een huisje", "en": "a little house (fond)", "speak": "een huisje" }
       ]
     },
     {
@@ -84,10 +84,10 @@
       "type": "dialogue",
       "scene": "You've popped into Emma's for coffee. Diminutives soften the whole visit.",
       "lines": [
-        { "speaker": "Emma", "nl": "Hé, kom binnen! Een bakkie?", "en": "Hey, come in! A coffee?", "spotlight": "bakkie — the cosiest way to offer coffee." },
-        { "speaker": "You", "nl": "Graag. En misschien een koekje erbij?", "en": "Please. And maybe a little cookie with it?", "spotlight": "koekje — het, of course." },
-        { "speaker": "Emma", "nl": "Natuurlijk. Zullen we straks een rondje door het parkje lopen?", "en": "Of course. Shall we take a little loop through the park later?", "spotlight": "rondje, parkje — two diminutives making a plan sound light." },
-        { "speaker": "You", "nl": "Lekker. Even mijn jasje pakken.", "en": "Lovely. Just grabbing my jacket.", "spotlight": "jasje + even — diminutive and particle together." }
+        { "speaker": "Emma", "target": "Hé, kom binnen! Een bakkie?", "en": "Hey, come in! A coffee?", "spotlight": "bakkie — the cosiest way to offer coffee." },
+        { "speaker": "You", "target": "Graag. En misschien een koekje erbij?", "en": "Please. And maybe a little cookie with it?", "spotlight": "koekje — het, of course." },
+        { "speaker": "Emma", "target": "Natuurlijk. Zullen we straks een rondje door het parkje lopen?", "en": "Of course. Shall we take a little loop through the park later?", "spotlight": "rondje, parkje — two diminutives making a plan sound light." },
+        { "speaker": "You", "target": "Lekker. Even mijn jasje pakken.", "en": "Lovely. Just grabbing my jacket.", "spotlight": "jasje + even — diminutive and particle together." }
       ]
     },
     {

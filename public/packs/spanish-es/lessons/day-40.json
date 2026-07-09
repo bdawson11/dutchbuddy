@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-40",
   "day": 40,
   "module": "M06",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "Frases de consejo",
       "items": [
-        { "nl": "tienes que descansar", "en": "you have to rest", "speak": "tienes que descansar" },
-        { "nl": "deberías dormir más", "en": "you should sleep more", "speak": "deberías dormir más" },
-        { "nl": "¿por qué no vas al médico?", "en": "why don't you go to the doctor?", "speak": "¿por qué no vas al médico?" },
-        { "nl": "deberías relajarte", "en": "you should relax", "speak": "deberías relajarte" }
+        { "target": "tienes que descansar", "en": "you have to rest", "speak": "tienes que descansar" },
+        { "target": "deberías dormir más", "en": "you should sleep more", "speak": "deberías dormir más" },
+        { "target": "¿por qué no vas al médico?", "en": "why don't you go to the doctor?", "speak": "¿por qué no vas al médico?" },
+        { "target": "deberías relajarte", "en": "you should relax", "speak": "deberías relajarte" }
       ]
     },
     {
@@ -79,11 +79,11 @@
       "type": "dialogue",
       "scene": "Sofía tells you and Nacho she hasn't been feeling great; you both give advice.",
       "lines": [
-        { "speaker": "Sofía", "nl": "Últimamente no me encuentro muy bien. Estoy siempre cansada.", "en": "I haven't been feeling great lately. I'm always tired." },
-        { "speaker": "Nacho", "nl": "Hombre, deberías dormir más y comer mejor.", "en": "Man, you should sleep more and eat better." },
-        { "speaker": "You", "nl": "¿Por qué no pides cita con el médico, por si acaso?", "en": "Why don't you book an appointment with the doctor, just in case?" },
-        { "speaker": "Sofía", "nl": "Sí, tenéis razón. Igual tengo que hacerlo esta semana.", "en": "Yeah, you're right. Maybe I should do it this week.", "spotlight": "vosotros object: tenéis razón — addressing both You and Nacho together." },
-        { "speaker": "Nacho", "nl": "Buena idea. Cuídate, ¿vale?", "en": "Good idea. Take care of yourself, okay?" }
+        { "speaker": "Sofía", "target": "Últimamente no me encuentro muy bien. Estoy siempre cansada.", "en": "I haven't been feeling great lately. I'm always tired." },
+        { "speaker": "Nacho", "target": "Hombre, deberías dormir más y comer mejor.", "en": "Man, you should sleep more and eat better." },
+        { "speaker": "You", "target": "¿Por qué no pides cita con el médico, por si acaso?", "en": "Why don't you book an appointment with the doctor, just in case?" },
+        { "speaker": "Sofía", "target": "Sí, tenéis razón. Igual tengo que hacerlo esta semana.", "en": "Yeah, you're right. Maybe I should do it this week.", "spotlight": "vosotros object: tenéis razón — addressing both You and Nacho together." },
+        { "speaker": "Nacho", "target": "Buena idea. Cuídate, ¿vale?", "en": "Good idea. Take care of yourself, okay?" }
       ]
     },
     {

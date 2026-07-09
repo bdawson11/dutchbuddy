@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-73",
   "day": 73,
   "module": "M11",
@@ -35,12 +35,12 @@
       "type": "chips",
       "title": "Tap to hear whole phrases",
       "items": [
-        { "nl": "ein guter Kaffee", "en": "a good coffee", "speak": "ein guter Kaffee" },
-        { "nl": "den guten Kaffee", "en": "the good coffee (acc.)", "speak": "den guten Kaffee" },
-        { "nl": "mit dem guten Kaffee", "en": "with the good coffee", "speak": "mit dem guten Kaffee" },
-        { "nl": "die kalte Milch", "en": "the cold milk", "speak": "die kalte Milch" },
-        { "nl": "ein frisches Brötchen", "en": "a fresh roll", "speak": "ein frisches Brötchen" },
-        { "nl": "mit einer heißen Schokolade", "en": "with a hot chocolate", "speak": "mit einer heißen Schokolade" }
+        { "target": "ein guter Kaffee", "en": "a good coffee", "speak": "ein guter Kaffee" },
+        { "target": "den guten Kaffee", "en": "the good coffee (acc.)", "speak": "den guten Kaffee" },
+        { "target": "mit dem guten Kaffee", "en": "with the good coffee", "speak": "mit dem guten Kaffee" },
+        { "target": "die kalte Milch", "en": "the cold milk", "speak": "die kalte Milch" },
+        { "target": "ein frisches Brötchen", "en": "a fresh roll", "speak": "ein frisches Brötchen" },
+        { "target": "mit einer heißen Schokolade", "en": "with a hot chocolate", "speak": "mit einer heißen Schokolade" }
       ]
     },
     {
@@ -99,13 +99,13 @@
       "type": "dialogue",
       "scene": "You and Lena at a café counter, reading the menu out loud.",
       "lines": [
-        { "speaker": "Lena", "nl": "Guck mal, die haben hier richtig guten Kaffee.", "en": "Look, they've got really good coffee here.", "spotlight": "*guten Kaffee* — masculine accusative with no article → strong *-en*." },
-        { "speaker": "You", "nl": "Dann nehme ich einen großen Kaffee und ein frisches Brötchen.", "en": "Then I'll take a large coffee and a fresh roll.", "spotlight": "*einen großen* (m. acc. → -en) and *ein frisches* (n. acc. → -es)." },
-        { "speaker": "Lena", "nl": "Gute Wahl. Ich hätte gern die kleine Tasse und ein Stück von dem warmen Kuchen.", "en": "Good choice. I'd like the small cup and a piece of the warm cake." },
-        { "speaker": "You", "nl": "Der warme Kuchen sieht wirklich lecker aus.", "en": "The warm cake really does look tasty." },
-        { "speaker": "Lena", "nl": "Ja, mit einer heißen Schokolade wäre das perfekt.", "en": "Yeah, with a hot chocolate that'd be perfect.", "spotlight": "*mit einer heißen* — feminine dative, both words take *-r/-en*." },
-        { "speaker": "You", "nl": "Und dazu so ein kleines Käsebrötchen?", "en": "And a little cheese roll with it?" },
-        { "speaker": "Lena", "nl": "Na klar. Zwei frische Brötchen, bitte — der Tag fängt gut an.", "en": "Of course. Two fresh rolls, please — the day's off to a good start." }
+        { "speaker": "Lena", "target": "Guck mal, die haben hier richtig guten Kaffee.", "en": "Look, they've got really good coffee here.", "spotlight": "*guten Kaffee* — masculine accusative with no article → strong *-en*." },
+        { "speaker": "You", "target": "Dann nehme ich einen großen Kaffee und ein frisches Brötchen.", "en": "Then I'll take a large coffee and a fresh roll.", "spotlight": "*einen großen* (m. acc. → -en) and *ein frisches* (n. acc. → -es)." },
+        { "speaker": "Lena", "target": "Gute Wahl. Ich hätte gern die kleine Tasse und ein Stück von dem warmen Kuchen.", "en": "Good choice. I'd like the small cup and a piece of the warm cake." },
+        { "speaker": "You", "target": "Der warme Kuchen sieht wirklich lecker aus.", "en": "The warm cake really does look tasty." },
+        { "speaker": "Lena", "target": "Ja, mit einer heißen Schokolade wäre das perfekt.", "en": "Yeah, with a hot chocolate that'd be perfect.", "spotlight": "*mit einer heißen* — feminine dative, both words take *-r/-en*." },
+        { "speaker": "You", "target": "Und dazu so ein kleines Käsebrötchen?", "en": "And a little cheese roll with it?" },
+        { "speaker": "Lena", "target": "Na klar. Zwei frische Brötchen, bitte — der Tag fängt gut an.", "en": "Of course. Two fresh rolls, please — the day's off to a good start." }
       ]
     },
     {

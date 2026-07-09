@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-87",
   "day": 87,
   "module": "M13",
@@ -32,12 +32,12 @@
       "type": "chips",
       "title": "Suena a sobremesa — toca y repite",
       "items": [
-        { "nl": "por un lado te entiendo, pero…", "en": "on one hand I get you, but…", "speak": "por un lado te entiendo, pero" },
-        { "nl": "hasta cierto punto, sí", "en": "up to a point, yes", "speak": "hasta cierto punto, sí" },
-        { "nl": "en el fondo, creo que…", "en": "deep down, I think…", "speak": "en el fondo, creo que" },
-        { "nl": "ahora bien, no todo es tan fácil", "en": "that said, it's not all so easy", "speak": "ahora bien, no todo es tan fácil" },
-        { "nl": "de hecho, me pasó a mí", "en": "in fact, it happened to me", "speak": "de hecho, me pasó a mí" },
-        { "nl": "todo sea dicho", "en": "it must be said", "speak": "todo sea dicho" }
+        { "target": "por un lado te entiendo, pero…", "en": "on one hand I get you, but…", "speak": "por un lado te entiendo, pero" },
+        { "target": "hasta cierto punto, sí", "en": "up to a point, yes", "speak": "hasta cierto punto, sí" },
+        { "target": "en el fondo, creo que…", "en": "deep down, I think…", "speak": "en el fondo, creo que" },
+        { "target": "ahora bien, no todo es tan fácil", "en": "that said, it's not all so easy", "speak": "ahora bien, no todo es tan fácil" },
+        { "target": "de hecho, me pasó a mí", "en": "in fact, it happened to me", "speak": "de hecho, me pasó a mí" },
+        { "target": "todo sea dicho", "en": "it must be said", "speak": "todo sea dicho" }
       ]
     },
     {
@@ -81,12 +81,12 @@
       "type": "dialogue",
       "scene": "Rafa drops a hot take at the bar and you push back — with nuance.",
       "lines": [
-        { "speaker": "Rafa", "nl": "Yo lo tengo clarísimo: vivir en el centro es una tontería. Pagas un dineral por ruido.", "en": "I'm crystal clear on it: living in the center is silly. You pay a fortune for noise." },
-        { "speaker": "You", "nl": "Hombre, hasta cierto punto te doy la razón, pero por otro lado lo tienes todo al lado.", "en": "I mean, up to a point I agree with you, but on the other hand you've got everything nearby.", "spotlight": "Concede (*hasta cierto punto*) y contrasta (*por otro lado*) en una sola frase." },
-        { "speaker": "Rafa", "nl": "Ya, pero no compensa. De hecho, mucha gente se está yendo a las afueras.", "en": "Sure, but it's not worth it. In fact, a lot of people are moving to the outskirts." },
-        { "speaker": "You", "nl": "No es que no te entienda, es que a mí el barrio me da vida.", "en": "It's not that I don't understand you, it's that the neighborhood gives me life.", "spotlight": "*no es que no te entienda* (subj.) → *es que me da vida* (indic.)." },
-        { "speaker": "Rafa", "nl": "Ahora bien, eso ya es cuestión de gustos. En el fondo los dos tenemos razón, ¿no?", "en": "That said, that's a matter of taste. Deep down we're both right, aren't we?" },
-        { "speaker": "You", "nl": "En eso estamos de acuerdo, hombre.", "en": "On that we agree, man." }
+        { "speaker": "Rafa", "target": "Yo lo tengo clarísimo: vivir en el centro es una tontería. Pagas un dineral por ruido.", "en": "I'm crystal clear on it: living in the center is silly. You pay a fortune for noise." },
+        { "speaker": "You", "target": "Hombre, hasta cierto punto te doy la razón, pero por otro lado lo tienes todo al lado.", "en": "I mean, up to a point I agree with you, but on the other hand you've got everything nearby.", "spotlight": "Concede (*hasta cierto punto*) y contrasta (*por otro lado*) en una sola frase." },
+        { "speaker": "Rafa", "target": "Ya, pero no compensa. De hecho, mucha gente se está yendo a las afueras.", "en": "Sure, but it's not worth it. In fact, a lot of people are moving to the outskirts." },
+        { "speaker": "You", "target": "No es que no te entienda, es que a mí el barrio me da vida.", "en": "It's not that I don't understand you, it's that the neighborhood gives me life.", "spotlight": "*no es que no te entienda* (subj.) → *es que me da vida* (indic.)." },
+        { "speaker": "Rafa", "target": "Ahora bien, eso ya es cuestión de gustos. En el fondo los dos tenemos razón, ¿no?", "en": "That said, that's a matter of taste. Deep down we're both right, aren't we?" },
+        { "speaker": "You", "target": "En eso estamos de acuerdo, hombre.", "en": "On that we agree, man." }
       ]
     },
     {

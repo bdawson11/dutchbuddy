@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-53",
   "day": 53,
   "module": "M08",
@@ -21,9 +21,9 @@
       "type": "chips",
       "title": "Perché in azione",
       "items": [
-        { "nl": "Resto a casa perché piove.", "en": "I'm staying home because it's raining.", "speak": "Resto a casa perché piove." },
-        { "nl": "Sono felice perché ho finito.", "en": "I'm happy because I finished.", "speak": "Sono felice perché ho finito." },
-        { "nl": "Non esco perché sono stanco.", "en": "I'm not going out because I'm tired.", "speak": "Non esco perché sono stanco." }
+        { "target": "Resto a casa perché piove.", "en": "I'm staying home because it's raining.", "speak": "Resto a casa perché piove." },
+        { "target": "Sono felice perché ho finito.", "en": "I'm happy because I finished.", "speak": "Sono felice perché ho finito." },
+        { "target": "Non esco perché sono stanco.", "en": "I'm not going out because I'm tired.", "speak": "Non esco perché sono stanco." }
       ]
     },
     {
@@ -56,9 +56,9 @@
       "type": "shadow",
       "title": "Ascolta e ripeti — se",
       "lines": [
-        { "nl": "Se piove, resto a casa.", "en": "If it rains, I stay home." },
-        { "nl": "Se farà caldo, andremo al mare.", "en": "If it's hot, we'll go to the sea." },
-        { "nl": "Se hai tempo, chiamami.", "en": "If you have time, call me." }
+        { "target": "Se piove, resto a casa.", "en": "If it rains, I stay home." },
+        { "target": "Se farà caldo, andremo al mare.", "en": "If it's hot, we'll go to the sea." },
+        { "target": "Se hai tempo, chiamami.", "en": "If you have time, call me." }
       ]
     },
     {
@@ -78,12 +78,12 @@
       "type": "dialogue",
       "scene": "Sofia tells you her weekend plan, weather permitting.",
       "lines": [
-        { "speaker": "Sofia", "nl": "Se farà bel tempo sabato, andrò al mare con la moto.", "en": "If the weather's nice Saturday, I'll go to the seaside on my scooter." },
-        { "speaker": "You", "nl": "E se pioverà?", "en": "And if it rains?" },
-        { "speaker": "Sofia", "nl": "Se pioverà, resterò a casa e guarderò un film.", "en": "If it rains, I'll stay home and watch a movie.", "spotlight": "se + futuro, futuro — a real future condition, both halves matching." },
-        { "speaker": "You", "nl": "Quando saprai le previsioni?", "en": "When will you know the forecast?" },
-        { "speaker": "Sofia", "nl": "Le guarderò stasera, quando tornerò a casa.", "en": "I'll check tonight, when I get home.", "spotlight": "quando + futuro again — tornerò, not torno, because it's still ahead of us." },
-        { "speaker": "You", "nl": "Fammi sapere!", "en": "Let me know!" }
+        { "speaker": "Sofia", "target": "Se farà bel tempo sabato, andrò al mare con la moto.", "en": "If the weather's nice Saturday, I'll go to the seaside on my scooter." },
+        { "speaker": "You", "target": "E se pioverà?", "en": "And if it rains?" },
+        { "speaker": "Sofia", "target": "Se pioverà, resterò a casa e guarderò un film.", "en": "If it rains, I'll stay home and watch a movie.", "spotlight": "se + futuro, futuro — a real future condition, both halves matching." },
+        { "speaker": "You", "target": "Quando saprai le previsioni?", "en": "When will you know the forecast?" },
+        { "speaker": "Sofia", "target": "Le guarderò stasera, quando tornerò a casa.", "en": "I'll check tonight, when I get home.", "spotlight": "quando + futuro again — tornerò, not torno, because it's still ahead of us." },
+        { "speaker": "You", "target": "Fammi sapere!", "en": "Let me know!" }
       ]
     },
     {

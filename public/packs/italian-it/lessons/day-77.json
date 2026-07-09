@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-77",
   "day": 77,
   "module": "M11",
@@ -21,21 +21,21 @@
       "type": "chips",
       "title": "Ripasso lampo — la settimana",
       "items": [
-        { "nl": "Cerco di parlare ogni giorno.", "en": "I try to speak every day.", "speak": "Cerco di parlare ogni giorno." },
-        { "nl": "Dai, magari!", "en": "Come on, I wish!", "speak": "Dai, magari!" },
-        { "nl": "Un caffettino al tavolino.", "en": "A little coffee at the café table.", "speak": "un caffettino al tavolino" },
-        { "nl": "Penso che l'italiano sia bellissimo.", "en": "I think Italian is beautiful.", "speak": "Penso che l'italiano sia bellissimo." },
-        { "nl": "Lei come si chiama?", "en": "What's your name? (formal)", "speak": "Lei come si chiama?" }
+        { "target": "Cerco di parlare ogni giorno.", "en": "I try to speak every day.", "speak": "Cerco di parlare ogni giorno." },
+        { "target": "Dai, magari!", "en": "Come on, I wish!", "speak": "Dai, magari!" },
+        { "target": "Un caffettino al tavolino.", "en": "A little coffee at the café table.", "speak": "un caffettino al tavolino" },
+        { "target": "Penso che l'italiano sia bellissimo.", "en": "I think Italian is beautiful.", "speak": "Penso che l'italiano sia bellissimo." },
+        { "target": "Lei come si chiama?", "en": "What's your name? (formal)", "speak": "Lei come si chiama?" }
       ]
     },
     {
       "type": "shadow",
       "title": "Riscalda la voce",
       "lines": [
-        { "nl": "Allora, ci proviamo?", "en": "So, shall we give it a go?" },
-        { "nl": "Comincio a capire tutto.", "en": "I'm starting to understand everything." },
-        { "nl": "Penso che sia giusto così.", "en": "I think it's right this way." },
-        { "nl": "Buongiorno, piacere di conoscerLa.", "en": "Good morning, pleased to meet you." }
+        { "target": "Allora, ci proviamo?", "en": "So, shall we give it a go?" },
+        { "target": "Comincio a capire tutto.", "en": "I'm starting to understand everything." },
+        { "target": "Penso che sia giusto così.", "en": "I think it's right this way." },
+        { "target": "Buongiorno, piacere di conoscerLa.", "en": "Good morning, pleased to meet you." }
       ]
     },
     {

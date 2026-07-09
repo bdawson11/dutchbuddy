@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-19",
   "day": 19,
   "module": "M03",
@@ -32,11 +32,11 @@
       "type": "chips",
       "title": "Tap to hear las descripciones",
       "items": [
-        { "nl": "es muy simpática", "en": "she's very nice", "speak": "es muy simpática" },
-        { "nl": "es un poco tímido", "en": "he's a bit shy", "speak": "es un poco tímido" },
-        { "nl": "es alta y morena", "en": "she's tall and dark-haired", "speak": "es alta y morena" },
-        { "nl": "¡qué majo!", "en": "how nice (of him)!", "speak": "¡qué majo!" },
-        { "nl": "es muy gracioso", "en": "he's very funny", "speak": "es muy gracioso" }
+        { "target": "es muy simpática", "en": "she's very nice", "speak": "es muy simpática" },
+        { "target": "es un poco tímido", "en": "he's a bit shy", "speak": "es un poco tímido" },
+        { "target": "es alta y morena", "en": "she's tall and dark-haired", "speak": "es alta y morena" },
+        { "target": "¡qué majo!", "en": "how nice (of him)!", "speak": "¡qué majo!" },
+        { "target": "es muy gracioso", "en": "he's very funny", "speak": "es muy gracioso" }
       ]
     },
     {
@@ -85,12 +85,12 @@
       "type": "dialogue",
       "scene": "Nacho introduces you to Sofía at a friend's gathering.",
       "lines": [
-        { "speaker": "Nacho", "nl": "Hombre, hoy conoces a Sofía. Es muy maja, un poco tímida al principio.", "en": "Man, today you're meeting Sofía. She's very nice, a bit shy at first.", "spotlight": "es… tímida — ser for a lasting personality trait." },
-        { "speaker": "You", "nl": "¿Cómo es físicamente?", "en": "What does she look like?" },
-        { "speaker": "Nacho", "nl": "Es bajita, morena, y siempre lleva una chaqueta azul.", "en": "She's petite, dark-haired, and always wears a blue jacket." },
-        { "speaker": "You", "nl": "Vale, ¿y hoy está bien?", "en": "Okay, and is she doing well today?" },
-        { "speaker": "Nacho", "nl": "Pues hoy está un poco nerviosa, tiene una presentación importante en el trabajo.", "en": "Well today she's a bit nervous, she has an important presentation at work.", "spotlight": "está nerviosa — estar for today's mood, not her personality." },
-        { "speaker": "You", "nl": "Ah, ¡buena suerte para ella!", "en": "Ah, good luck to her!" }
+        { "speaker": "Nacho", "target": "Hombre, hoy conoces a Sofía. Es muy maja, un poco tímida al principio.", "en": "Man, today you're meeting Sofía. She's very nice, a bit shy at first.", "spotlight": "es… tímida — ser for a lasting personality trait." },
+        { "speaker": "You", "target": "¿Cómo es físicamente?", "en": "What does she look like?" },
+        { "speaker": "Nacho", "target": "Es bajita, morena, y siempre lleva una chaqueta azul.", "en": "She's petite, dark-haired, and always wears a blue jacket." },
+        { "speaker": "You", "target": "Vale, ¿y hoy está bien?", "en": "Okay, and is she doing well today?" },
+        { "speaker": "Nacho", "target": "Pues hoy está un poco nerviosa, tiene una presentación importante en el trabajo.", "en": "Well today she's a bit nervous, she has an important presentation at work.", "spotlight": "está nerviosa — estar for today's mood, not her personality." },
+        { "speaker": "You", "target": "Ah, ¡buena suerte para ella!", "en": "Ah, good luck to her!" }
       ]
     },
     {

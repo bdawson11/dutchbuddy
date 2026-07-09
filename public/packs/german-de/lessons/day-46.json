@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-46",
   "day": 46,
   "module": "M07",
@@ -29,12 +29,12 @@
       "type": "chips",
       "title": "Wetter & Orte",
       "items": [
-        { "nl": "sonnig", "en": "sunny", "speak": "sonnig" },
-        { "nl": "wolkig", "en": "cloudy", "speak": "wolkig" },
-        { "nl": "kalt", "en": "cold", "speak": "kalt" },
-        { "nl": "warm", "en": "warm", "speak": "warm" },
-        { "nl": "das Dorf", "en": "the village", "speak": "das Dorf" },
-        { "nl": "die Stadt", "en": "the city/town", "speak": "die Stadt" }
+        { "target": "sonnig", "en": "sunny", "speak": "sonnig" },
+        { "target": "wolkig", "en": "cloudy", "speak": "wolkig" },
+        { "target": "kalt", "en": "cold", "speak": "kalt" },
+        { "target": "warm", "en": "warm", "speak": "warm" },
+        { "target": "das Dorf", "en": "the village", "speak": "das Dorf" },
+        { "target": "die Stadt", "en": "the city/town", "speak": "die Stadt" }
       ]
     },
     {

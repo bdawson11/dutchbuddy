@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-06",
   "day": 6,
   "module": "M01",
@@ -35,11 +35,11 @@
       "type": "chips",
       "title": "Article + noun — tap to hear",
       "items": [
-        { "nl": "il libro", "en": "the book (m)", "speak": "il libro" },
-        { "nl": "la casa", "en": "the house (f)", "speak": "la casa" },
-        { "nl": "lo studente", "en": "the student (m)", "speak": "lo studente" },
-        { "nl": "l'amica", "en": "the friend (f)", "speak": "l'amica" },
-        { "nl": "il caffè", "en": "the coffee (m)", "speak": "il caffè" }
+        { "target": "il libro", "en": "the book (m)", "speak": "il libro" },
+        { "target": "la casa", "en": "the house (f)", "speak": "la casa" },
+        { "target": "lo studente", "en": "the student (m)", "speak": "lo studente" },
+        { "target": "l'amica", "en": "the friend (f)", "speak": "l'amica" },
+        { "target": "il caffè", "en": "the coffee (m)", "speak": "il caffè" }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-89",
   "day": 89,
   "module": "M13",
@@ -36,12 +36,12 @@
       "type": "chips",
       "title": "Formeel register — tik om te horen",
       "items": [
-        { "nl": "Men wordt verzocht de deur te sluiten.", "en": "Please close the door (formal).", "speak": "Men wordt verzocht de deur te sluiten." },
-        { "nl": "U wordt vriendelijk verzocht te wachten.", "en": "You are kindly asked to wait.", "speak": "U wordt vriendelijk verzocht te wachten." },
-        { "nl": "Men zegt dat het druk wordt.", "en": "They say it's going to be busy.", "speak": "Men zegt dat het druk wordt." },
-        { "nl": "De aanvraag is in behandeling genomen.", "en": "The application has been taken up.", "speak": "De aanvraag is in behandeling genomen." },
-        { "nl": "Hierbij wordt u meegedeeld dat…", "en": "You are hereby informed that…", "speak": "Hierbij wordt u meegedeeld dat…" },
-        { "nl": "Roken is niet toegestaan.", "en": "Smoking is not permitted.", "speak": "Roken is niet toegestaan." }
+        { "target": "Men wordt verzocht de deur te sluiten.", "en": "Please close the door (formal).", "speak": "Men wordt verzocht de deur te sluiten." },
+        { "target": "U wordt vriendelijk verzocht te wachten.", "en": "You are kindly asked to wait.", "speak": "U wordt vriendelijk verzocht te wachten." },
+        { "target": "Men zegt dat het druk wordt.", "en": "They say it's going to be busy.", "speak": "Men zegt dat het druk wordt." },
+        { "target": "De aanvraag is in behandeling genomen.", "en": "The application has been taken up.", "speak": "De aanvraag is in behandeling genomen." },
+        { "target": "Hierbij wordt u meegedeeld dat…", "en": "You are hereby informed that…", "speak": "Hierbij wordt u meegedeeld dat…" },
+        { "target": "Roken is niet toegestaan.", "en": "Smoking is not permitted.", "speak": "Roken is niet toegestaan." }
       ]
     },
     {
@@ -72,15 +72,15 @@
       "type": "dialogue",
       "scene": "You get an official letter from the gemeente and can't parse it. Emma reads over your shoulder.",
       "lines": [
-        { "speaker": "You", "nl": "Emma, snap jij deze brief? 'Men wordt verzocht…' — wat?", "en": "Emma, do you get this letter? 'One is requested…' — what?" },
-        { "speaker": "Emma", "nl": "Haha, ambtenarentaal. 'Men wordt verzocht' betekent gewoon: 'wilt u alstublieft'.", "en": "Haha, bureaucrat-speak. It just means 'would you please'.", "spotlight": "*men wordt verzocht* = beleefd verzoek." },
-        { "speaker": "You", "nl": "En 'de aanvraag is in behandeling genomen'?", "en": "And 'the application has been taken up'?" },
-        { "speaker": "Emma", "nl": "Dat is passief voor: 'we kijken ernaar'. Ze zeggen nooit 'wij'.", "en": "That's passive for 'we're looking at it'. They never say 'we'." },
-        { "speaker": "You", "nl": "Waarom zo ingewikkeld?", "en": "Why so complicated?" },
-        { "speaker": "Emma", "nl": "Afstand. Het klinkt netjes en officieel. Niemand voelt zich persoonlijk aangesproken.", "en": "Distance. It sounds tidy and official. Nobody feels personally addressed." },
-        { "speaker": "You", "nl": "Dus ik hoef niks te doen?", "en": "So I don't have to do anything?" },
-        { "speaker": "Emma", "nl": "Jawel — onderaan: 'U wordt verzocht te reageren vóór de 15e'. Dát moet je wél doen.", "en": "You do — at the bottom: 'You are requested to respond before the 15th'. That you do have to do.", "spotlight": "Het passief verstopt soms een echte deadline." },
-        { "speaker": "You", "nl": "Ah. Passief of niet, een deadline blijft een deadline.", "en": "Ah. Passive or not, a deadline's a deadline." }
+        { "speaker": "You", "target": "Emma, snap jij deze brief? 'Men wordt verzocht…' — wat?", "en": "Emma, do you get this letter? 'One is requested…' — what?" },
+        { "speaker": "Emma", "target": "Haha, ambtenarentaal. 'Men wordt verzocht' betekent gewoon: 'wilt u alstublieft'.", "en": "Haha, bureaucrat-speak. It just means 'would you please'.", "spotlight": "*men wordt verzocht* = beleefd verzoek." },
+        { "speaker": "You", "target": "En 'de aanvraag is in behandeling genomen'?", "en": "And 'the application has been taken up'?" },
+        { "speaker": "Emma", "target": "Dat is passief voor: 'we kijken ernaar'. Ze zeggen nooit 'wij'.", "en": "That's passive for 'we're looking at it'. They never say 'we'." },
+        { "speaker": "You", "target": "Waarom zo ingewikkeld?", "en": "Why so complicated?" },
+        { "speaker": "Emma", "target": "Afstand. Het klinkt netjes en officieel. Niemand voelt zich persoonlijk aangesproken.", "en": "Distance. It sounds tidy and official. Nobody feels personally addressed." },
+        { "speaker": "You", "target": "Dus ik hoef niks te doen?", "en": "So I don't have to do anything?" },
+        { "speaker": "Emma", "target": "Jawel — onderaan: 'U wordt verzocht te reageren vóór de 15e'. Dát moet je wél doen.", "en": "You do — at the bottom: 'You are requested to respond before the 15th'. That you do have to do.", "spotlight": "Het passief verstopt soms een echte deadline." },
+        { "speaker": "You", "target": "Ah. Passief of niet, een deadline blijft een deadline.", "en": "Ah. Passive or not, a deadline's a deadline." }
       ]
     },
     {

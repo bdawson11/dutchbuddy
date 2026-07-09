@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-34",
   "day": 34,
   "module": "M05",
@@ -42,14 +42,14 @@
       "type": "dialogue",
       "scene": "At the bar, Giulia tells Marco and Sofia about her weekend in the Cinque Terre",
       "lines": [
-        { "speaker": "Giulia", "nl": "Allora, sono andata alle Cinque Terre con Elena!", "en": "So, I went to the Cinque Terre with Elena!", "spotlight": "sono andata — feminine agreement, Giulia is talking about herself." },
-        { "speaker": "Marco", "nl": "Davvero? Come avete viaggiato?", "en": "Really? How did you travel?" },
-        { "speaker": "Giulia", "nl": "Abbiamo preso il regionale da Bologna, poi il trenino tra i paesi.", "en": "We took the regional train from Bologna, then the little train between the villages." },
-        { "speaker": "Sofia", "nl": "Avete camminato molto?", "en": "Did you walk a lot?" },
-        { "speaker": "Giulia", "nl": "Sì, abbiamo fatto il sentiero da Monterosso a Vernazza. Bellissimo.", "en": "Yes, we did the trail from Monterosso to Vernazza. Beautiful." },
-        { "speaker": "Marco", "nl": "E avete mangiato bene, immagino.", "en": "And you ate well, I imagine." },
-        { "speaker": "Giulia", "nl": "Benissimo! Ho anche visto un tramonto pazzesco sul mare.", "en": "Great! I also saw an amazing sunset over the sea." },
-        { "speaker": "Sofia", "nl": "Che invidia! Io sono rimasta qui tutto il weekend.", "en": "So jealous! I stayed here all weekend.", "spotlight": "sono rimasta — rimanere is irregular (rimasto) and takes essere." }
+        { "speaker": "Giulia", "target": "Allora, sono andata alle Cinque Terre con Elena!", "en": "So, I went to the Cinque Terre with Elena!", "spotlight": "sono andata — feminine agreement, Giulia is talking about herself." },
+        { "speaker": "Marco", "target": "Davvero? Come avete viaggiato?", "en": "Really? How did you travel?" },
+        { "speaker": "Giulia", "target": "Abbiamo preso il regionale da Bologna, poi il trenino tra i paesi.", "en": "We took the regional train from Bologna, then the little train between the villages." },
+        { "speaker": "Sofia", "target": "Avete camminato molto?", "en": "Did you walk a lot?" },
+        { "speaker": "Giulia", "target": "Sì, abbiamo fatto il sentiero da Monterosso a Vernazza. Bellissimo.", "en": "Yes, we did the trail from Monterosso to Vernazza. Beautiful." },
+        { "speaker": "Marco", "target": "E avete mangiato bene, immagino.", "en": "And you ate well, I imagine." },
+        { "speaker": "Giulia", "target": "Benissimo! Ho anche visto un tramonto pazzesco sul mare.", "en": "Great! I also saw an amazing sunset over the sea." },
+        { "speaker": "Sofia", "target": "Che invidia! Io sono rimasta qui tutto il weekend.", "en": "So jealous! I stayed here all weekend.", "spotlight": "sono rimasta — rimanere is irregular (rimasto) and takes essere." }
       ]
     },
     {

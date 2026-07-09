@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-45",
   "day": 45,
   "module": "M07",
@@ -21,21 +21,21 @@
       "type": "chips",
       "title": "Le parole della scuola",
       "items": [
-        { "nl": "la maestra", "en": "teacher (elementary, f)", "speak": "la maestra" },
-        { "nl": "il compagno di classe", "en": "classmate (m)", "speak": "il compagno di classe" },
-        { "nl": "la compagna di classe", "en": "classmate (f)", "speak": "la compagna di classe" },
-        { "nl": "la ricreazione", "en": "recess", "speak": "la ricreazione" },
-        { "nl": "il cortile", "en": "schoolyard", "speak": "il cortile" },
-        { "nl": "il quaderno", "en": "notebook", "speak": "il quaderno" }
+        { "target": "la maestra", "en": "teacher (elementary, f)", "speak": "la maestra" },
+        { "target": "il compagno di classe", "en": "classmate (m)", "speak": "il compagno di classe" },
+        { "target": "la compagna di classe", "en": "classmate (f)", "speak": "la compagna di classe" },
+        { "target": "la ricreazione", "en": "recess", "speak": "la ricreazione" },
+        { "target": "il cortile", "en": "schoolyard", "speak": "il cortile" },
+        { "target": "il quaderno", "en": "notebook", "speak": "il quaderno" }
       ]
     },
     {
       "type": "shadow",
       "title": "Ricordi di scuola — ripeti",
       "lines": [
-        { "nl": "Andavo a scuola a piedi.", "en": "I used to walk to school." },
-        { "nl": "La maestra si chiamava Anna.", "en": "The teacher was named Anna." },
-        { "nl": "Durante la ricreazione giocavamo a nascondino.", "en": "During recess we played hide-and-seek." }
+        { "target": "Andavo a scuola a piedi.", "en": "I used to walk to school." },
+        { "target": "La maestra si chiamava Anna.", "en": "The teacher was named Anna." },
+        { "target": "Durante la ricreazione giocavamo a nascondino.", "en": "During recess we played hide-and-seek." }
       ]
     },
     {
@@ -79,11 +79,11 @@
       "type": "dialogue",
       "scene": "Sofia and You share school memories over coffee",
       "lines": [
-        { "speaker": "Sofia", "nl": "Com'era la tua scuola da bambino/a?", "en": "What was your school like as a kid?" },
-        { "speaker": "You", "nl": "Piccola. La maestra si chiamava Anna ed era molto gentile.", "en": "Small. The teacher was called Anna and she was very kind." },
-        { "speaker": "Sofia", "nl": "Io giocavo sempre a nascondino in cortile con le mie compagne.", "en": "I always used to play hide-and-seek in the yard with my classmates." },
-        { "speaker": "You", "nl": "E la tua maestra, com'era?", "en": "And your teacher, what was she like?" },
-        { "speaker": "Sofia", "nl": "Severa, ma giusta. La ricordo ancora bene.", "en": "Strict, but fair. I still remember her well.", "spotlight": "era severa, ma giusta — imperfetto per descrivere il carattere di una persona nel passato." }
+        { "speaker": "Sofia", "target": "Com'era la tua scuola da bambino/a?", "en": "What was your school like as a kid?" },
+        { "speaker": "You", "target": "Piccola. La maestra si chiamava Anna ed era molto gentile.", "en": "Small. The teacher was called Anna and she was very kind." },
+        { "speaker": "Sofia", "target": "Io giocavo sempre a nascondino in cortile con le mie compagne.", "en": "I always used to play hide-and-seek in the yard with my classmates." },
+        { "speaker": "You", "target": "E la tua maestra, com'era?", "en": "And your teacher, what was she like?" },
+        { "speaker": "Sofia", "target": "Severa, ma giusta. La ricordo ancora bene.", "en": "Strict, but fair. I still remember her well.", "spotlight": "era severa, ma giusta — imperfetto per descrivere il carattere di una persona nel passato." }
       ]
     },
     {

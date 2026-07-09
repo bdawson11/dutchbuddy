@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-95",
   "day": 95,
   "module": "M14",
@@ -36,12 +36,12 @@
       "type": "chips",
       "title": "Nachrichten-Bausteine",
       "items": [
-        { "nl": "Laut der Polizei sei niemand verletzt.", "en": "According to the police, no one was hurt.", "speak": "Laut der Polizei sei niemand verletzt." },
-        { "nl": "Dem Bericht zufolge werde geprüft.", "en": "According to the report, it's being examined.", "speak": "Dem Bericht zufolge werde geprüft." },
-        { "nl": "Die Sprecherin erklärte, man werde handeln.", "en": "The spokesperson said action would be taken.", "speak": "Die Sprecherin erklärte, man werde handeln." },
-        { "nl": "Der Minister betonte, es gebe keine Kürzungen.", "en": "The minister stressed there'd be no cuts.", "speak": "Der Minister betonte, es gebe keine Kürzungen." },
-        { "nl": "Es heißt, die Preise würden steigen.", "en": "Word is prices will rise.", "speak": "Es heißt, die Preise würden steigen." },
-        { "nl": "Wie es weiter heißt, sei die Lage stabil.", "en": "It's further reported the situation is stable.", "speak": "Wie es weiter heißt, sei die Lage stabil." }
+        { "target": "Laut der Polizei sei niemand verletzt.", "en": "According to the police, no one was hurt.", "speak": "Laut der Polizei sei niemand verletzt." },
+        { "target": "Dem Bericht zufolge werde geprüft.", "en": "According to the report, it's being examined.", "speak": "Dem Bericht zufolge werde geprüft." },
+        { "target": "Die Sprecherin erklärte, man werde handeln.", "en": "The spokesperson said action would be taken.", "speak": "Die Sprecherin erklärte, man werde handeln." },
+        { "target": "Der Minister betonte, es gebe keine Kürzungen.", "en": "The minister stressed there'd be no cuts.", "speak": "Der Minister betonte, es gebe keine Kürzungen." },
+        { "target": "Es heißt, die Preise würden steigen.", "en": "Word is prices will rise.", "speak": "Es heißt, die Preise würden steigen." },
+        { "target": "Wie es weiter heißt, sei die Lage stabil.", "en": "It's further reported the situation is stable.", "speak": "Wie es weiter heißt, sei die Lage stabil." }
       ]
     },
     {
@@ -82,15 +82,15 @@
       "type": "dialogue",
       "scene": "You just read the bike-lane article aloud. Lena — a cyclist whose friend Aylin once had her bike stolen — has opinions.",
       "lines": [
-        { "speaker": "Lena", "nl": "100 Kilometer Radwege? Die sagen jedes Jahr, es werde besser.", "en": "100 kilometres of bike lanes? Every year they say it'll get better." },
-        { "speaker": "You", "nl": "Steht so drin. Eine Sprecherin erklärte, das Projekt beginne noch dieses Jahr.", "en": "That's what it says. A spokesperson explained the project would begin this year.", "spotlight": "*beginne* — Konjunktiv I, 3rd person singular; *erklärte* frames it as reported." },
-        { "speaker": "Lena", "nl": "Klar. Und die Kritiker?", "en": "Sure. And the critics?" },
-        { "speaker": "You", "nl": "Die meinen, der Plan sei zu teuer und komme zu spät.", "en": "They reckon the plan's too expensive and comes too late.", "spotlight": "*sei / komme* mark this as the critics' claim, not the fact." },
-        { "speaker": "Lena", "nl": "Da hätten sie recht. Aylin hätte damals fast kein Rad mehr gehabt.", "en": "They'd have a point. Aylin nearly lost her bike back then." },
-        { "speaker": "You", "nl": "Immerhin. Die Sprecherin hat betont, man werde alle Bezirke einbeziehen.", "en": "Still. The spokesperson stressed all districts would be included.", "spotlight": "*man werde* — the classic news formula for a reported plan." },
-        { "speaker": "Lena", "nl": "Schöne Worte. Ich glaub's, wenn ich den Radweg sehe.", "en": "Nice words. I'll believe it when I see the lane." },
-        { "speaker": "You", "nl": "Typisch Berlin. Laut Plan sei ja alles bis 2027 fertig.", "en": "Typical Berlin. According to the plan it's all done by 2027.", "spotlight": "*laut + Konjunktiv I* — reported, distanced from any promise." },
-        { "speaker": "Lena", "nl": "Bis dahin fahr ich weiter mutig zwischen den Autos.", "en": "Until then I'll keep riding bravely between the cars." }
+        { "speaker": "Lena", "target": "100 Kilometer Radwege? Die sagen jedes Jahr, es werde besser.", "en": "100 kilometres of bike lanes? Every year they say it'll get better." },
+        { "speaker": "You", "target": "Steht so drin. Eine Sprecherin erklärte, das Projekt beginne noch dieses Jahr.", "en": "That's what it says. A spokesperson explained the project would begin this year.", "spotlight": "*beginne* — Konjunktiv I, 3rd person singular; *erklärte* frames it as reported." },
+        { "speaker": "Lena", "target": "Klar. Und die Kritiker?", "en": "Sure. And the critics?" },
+        { "speaker": "You", "target": "Die meinen, der Plan sei zu teuer und komme zu spät.", "en": "They reckon the plan's too expensive and comes too late.", "spotlight": "*sei / komme* mark this as the critics' claim, not the fact." },
+        { "speaker": "Lena", "target": "Da hätten sie recht. Aylin hätte damals fast kein Rad mehr gehabt.", "en": "They'd have a point. Aylin nearly lost her bike back then." },
+        { "speaker": "You", "target": "Immerhin. Die Sprecherin hat betont, man werde alle Bezirke einbeziehen.", "en": "Still. The spokesperson stressed all districts would be included.", "spotlight": "*man werde* — the classic news formula for a reported plan." },
+        { "speaker": "Lena", "target": "Schöne Worte. Ich glaub's, wenn ich den Radweg sehe.", "en": "Nice words. I'll believe it when I see the lane." },
+        { "speaker": "You", "target": "Typisch Berlin. Laut Plan sei ja alles bis 2027 fertig.", "en": "Typical Berlin. According to the plan it's all done by 2027.", "spotlight": "*laut + Konjunktiv I* — reported, distanced from any promise." },
+        { "speaker": "Lena", "target": "Bis dahin fahr ich weiter mutig zwischen den Autos.", "en": "Until then I'll keep riding bravely between the cars." }
       ]
     },
     {

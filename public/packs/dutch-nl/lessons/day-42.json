@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-42",
   "day": 42,
   "module": "M06",
@@ -50,10 +50,10 @@
       "type": "chips",
       "title": "Mix: gevoelens & advies",
       "items": [
-        { "nl": "zenuwachtig", "en": "nervous", "speak": "zenuwachtig" },
-        { "nl": "verdrietig", "en": "sad", "speak": "verdrietig" },
-        { "nl": "je kunt beter", "en": "you'd better", "speak": "je kunt beter" },
-        { "nl": "neem rust", "en": "take a rest", "speak": "neem rust" }
+        { "target": "zenuwachtig", "en": "nervous", "speak": "zenuwachtig" },
+        { "target": "verdrietig", "en": "sad", "speak": "verdrietig" },
+        { "target": "je kunt beter", "en": "you'd better", "speak": "je kunt beter" },
+        { "target": "neem rust", "en": "take a rest", "speak": "neem rust" }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-50",
   "day": 50,
   "module": "M08",
@@ -32,12 +32,12 @@
       "type": "chips",
       "title": "Zeitmarker für die Zukunft — tap to hear",
       "items": [
-        { "nl": "nächste Woche", "en": "next week", "speak": "nächste Woche" },
-        { "nl": "nächsten Monat", "en": "next month", "speak": "nächsten Monat" },
-        { "nl": "nächstes Jahr", "en": "next year", "speak": "nächstes Jahr" },
-        { "nl": "bald", "en": "soon", "speak": "bald" },
-        { "nl": "später", "en": "later", "speak": "später" },
-        { "nl": "demnächst", "en": "soon / shortly", "speak": "demnächst" }
+        { "target": "nächste Woche", "en": "next week", "speak": "nächste Woche" },
+        { "target": "nächsten Monat", "en": "next month", "speak": "nächsten Monat" },
+        { "target": "nächstes Jahr", "en": "next year", "speak": "nächstes Jahr" },
+        { "target": "bald", "en": "soon", "speak": "bald" },
+        { "target": "später", "en": "later", "speak": "später" },
+        { "target": "demnächst", "en": "soon / shortly", "speak": "demnächst" }
       ]
     },
     {
@@ -71,11 +71,11 @@
       "type": "dialogue",
       "scene": "Lena tells you about her plans for next year over coffee.",
       "lines": [
-        { "speaker": "Lena", "nl": "Nächstes Jahr werde ich meine Familie in Hannover besuchen.", "en": "Next year I'll visit my family in Hannover.", "spotlight": "werden + infinitive: the infinitive (besuchen) waits at the very end." },
-        { "speaker": "You", "nl": "Schön! Und wann fährst du?", "en": "Nice! And when are you going?" },
-        { "speaker": "Lena", "nl": "Ich fahre wahrscheinlich im Sommer. Meine Mutter wird sich freuen.", "en": "I'll probably go in summer. My mother will be happy.", "spotlight": "Present tense (fahre) + a time word also works for the future." },
-        { "speaker": "You", "nl": "Und was wirst du dort machen?", "en": "And what will you do there?" },
-        { "speaker": "Lena", "nl": "Wir werden zusammen kochen und ich werde dir Fotos schicken!", "en": "We'll cook together and I'll send you photos!" }
+        { "speaker": "Lena", "target": "Nächstes Jahr werde ich meine Familie in Hannover besuchen.", "en": "Next year I'll visit my family in Hannover.", "spotlight": "werden + infinitive: the infinitive (besuchen) waits at the very end." },
+        { "speaker": "You", "target": "Schön! Und wann fährst du?", "en": "Nice! And when are you going?" },
+        { "speaker": "Lena", "target": "Ich fahre wahrscheinlich im Sommer. Meine Mutter wird sich freuen.", "en": "I'll probably go in summer. My mother will be happy.", "spotlight": "Present tense (fahre) + a time word also works for the future." },
+        { "speaker": "You", "target": "Und was wirst du dort machen?", "en": "And what will you do there?" },
+        { "speaker": "Lena", "target": "Wir werden zusammen kochen und ich werde dir Fotos schicken!", "en": "We'll cook together and I'll send you photos!" }
       ]
     },
     {

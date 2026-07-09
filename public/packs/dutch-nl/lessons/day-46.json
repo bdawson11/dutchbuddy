@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-46",
   "day": 46,
   "module": "M07",
@@ -29,12 +29,12 @@
       "type": "chips",
       "title": "Weertypes",
       "items": [
-        { "nl": "het was koud", "en": "it was cold", "speak": "het was koud" },
-        { "nl": "het was warm", "en": "it was warm", "speak": "het was warm" },
-        { "nl": "het regende", "en": "it rained", "speak": "het regende" },
-        { "nl": "de zon scheen", "en": "the sun shone", "speak": "de zon scheen" },
-        { "nl": "het was mistig", "en": "it was foggy", "speak": "het was mistig" },
-        { "nl": "het vroor", "en": "it froze", "speak": "het vroor" }
+        { "target": "het was koud", "en": "it was cold", "speak": "het was koud" },
+        { "target": "het was warm", "en": "it was warm", "speak": "het was warm" },
+        { "target": "het regende", "en": "it rained", "speak": "het regende" },
+        { "target": "de zon scheen", "en": "the sun shone", "speak": "de zon scheen" },
+        { "target": "het was mistig", "en": "it was foggy", "speak": "het was mistig" },
+        { "target": "het vroor", "en": "it froze", "speak": "het vroor" }
       ]
     },
     {
@@ -82,10 +82,10 @@
       "type": "shadow",
       "title": "Een winterse dag",
       "lines": [
-        { "nl": "Het was een koude ochtend.", "en": "It was a cold morning." },
-        { "nl": "Het vroor die nacht.", "en": "It froze that night." },
-        { "nl": "De grachten waren bevroren.", "en": "The canals were frozen." },
-        { "nl": "Overal schaatsten mensen.", "en": "People were skating everywhere." }
+        { "target": "Het was een koude ochtend.", "en": "It was a cold morning." },
+        { "target": "Het vroor die nacht.", "en": "It froze that night." },
+        { "target": "De grachten waren bevroren.", "en": "The canals were frozen." },
+        { "target": "Overal schaatsten mensen.", "en": "People were skating everywhere." }
       ]
     },
     {

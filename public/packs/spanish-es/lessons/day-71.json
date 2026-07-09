@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-71",
   "day": 71,
   "module": "M11",
@@ -46,12 +46,12 @@
       "type": "chips",
       "title": "Escucha las combinaciones",
       "items": [
-        { "nl": "Quedo con Rafa a las ocho.", "en": "I'm meeting Rafa at eight.", "speak": "Quedo con Rafa a las ocho." },
-        { "nl": "¿Te acuerdas de aquel día?", "en": "Do you remember that day?", "speak": "¿Te acuerdas de aquel día?" },
-        { "nl": "Cuento contigo.", "en": "I'm counting on you.", "speak": "Cuento contigo." },
-        { "nl": "No dejes de intentarlo.", "en": "Don't stop trying.", "speak": "No dejes de intentarlo." },
-        { "nl": "Me he enamorado de Madrid.", "en": "I've fallen in love with Madrid.", "speak": "Me he enamorado de Madrid." },
-        { "nl": "Todo depende de ti.", "en": "It all depends on you.", "speak": "Todo depende de ti." }
+        { "target": "Quedo con Rafa a las ocho.", "en": "I'm meeting Rafa at eight.", "speak": "Quedo con Rafa a las ocho." },
+        { "target": "¿Te acuerdas de aquel día?", "en": "Do you remember that day?", "speak": "¿Te acuerdas de aquel día?" },
+        { "target": "Cuento contigo.", "en": "I'm counting on you.", "speak": "Cuento contigo." },
+        { "target": "No dejes de intentarlo.", "en": "Don't stop trying.", "speak": "No dejes de intentarlo." },
+        { "target": "Me he enamorado de Madrid.", "en": "I've fallen in love with Madrid.", "speak": "Me he enamorado de Madrid." },
+        { "target": "Todo depende de ti.", "en": "It all depends on you.", "speak": "Todo depende de ti." }
       ]
     },
     {
@@ -94,13 +94,13 @@
       "type": "dialogue",
       "scene": "Rafa quizzes you about your week at the bar — every verb drags a preposition along.",
       "lines": [
-        { "speaker": "Rafa", "nl": "¿Qué, has quedado con alguien esta semana?", "en": "So, have you made plans with anyone this week?", "spotlight": "quedar con alguien = to arrange to meet." },
-        { "speaker": "You", "nl": "Sí, he quedado con Lucía el jueves. Quiero aprender a hacer paella.", "en": "Yeah, I'm meeting Lucía on Thursday. I want to learn to make paella." },
-        { "speaker": "Rafa", "nl": "¡Anda! Pues no te olvides de invitarme, ¿eh?", "en": "Oh! Well don't forget to invite me!" },
-        { "speaker": "You", "nl": "Cuento contigo, tío. Aunque todo depende del tiempo.", "en": "I'm counting on you, mate. Though it all depends on the weather." },
-        { "speaker": "Rafa", "nl": "Bueno, si llueve, nos quedamos en el bar y ya está.", "en": "Well, if it rains, we stay at the bar and that's that." },
-        { "speaker": "You", "nl": "Oye, ¿tú todavía sueñas con montar tu grupo?", "en": "Hey, do you still dream of starting your band?" },
-        { "speaker": "Rafa", "nl": "Hombre, claro. No he dejado de pensar en eso ni un día.", "en": "Man, of course. I haven't stopped thinking about it for a single day.", "spotlight": "dejar de + pensar en, back to back." }
+        { "speaker": "Rafa", "target": "¿Qué, has quedado con alguien esta semana?", "en": "So, have you made plans with anyone this week?", "spotlight": "quedar con alguien = to arrange to meet." },
+        { "speaker": "You", "target": "Sí, he quedado con Lucía el jueves. Quiero aprender a hacer paella.", "en": "Yeah, I'm meeting Lucía on Thursday. I want to learn to make paella." },
+        { "speaker": "Rafa", "target": "¡Anda! Pues no te olvides de invitarme, ¿eh?", "en": "Oh! Well don't forget to invite me!" },
+        { "speaker": "You", "target": "Cuento contigo, tío. Aunque todo depende del tiempo.", "en": "I'm counting on you, mate. Though it all depends on the weather." },
+        { "speaker": "Rafa", "target": "Bueno, si llueve, nos quedamos en el bar y ya está.", "en": "Well, if it rains, we stay at the bar and that's that." },
+        { "speaker": "You", "target": "Oye, ¿tú todavía sueñas con montar tu grupo?", "en": "Hey, do you still dream of starting your band?" },
+        { "speaker": "Rafa", "target": "Hombre, claro. No he dejado de pensar en eso ni un día.", "en": "Man, of course. I haven't stopped thinking about it for a single day.", "spotlight": "dejar de + pensar en, back to back." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-70",
   "day": 70,
   "module": "M10",
@@ -87,10 +87,10 @@
       "type": "shadow",
       "title": "Zeg het hardop — jouw beslissing",
       "lines": [
-        { "nl": "Ik heb een grote beslissing genomen.", "en": "I've made a big decision." },
-        { "nl": "Ik heb er lang over nagedacht.", "en": "I thought about it for a long time." },
-        { "nl": "Ik verheug me erop.", "en": "I'm looking forward to it." },
-        { "nl": "Er begint iets nieuws.", "en": "Something new is beginning." }
+        { "target": "Ik heb een grote beslissing genomen.", "en": "I've made a big decision." },
+        { "target": "Ik heb er lang over nagedacht.", "en": "I thought about it for a long time." },
+        { "target": "Ik verheug me erop.", "en": "I'm looking forward to it." },
+        { "target": "Er begint iets nieuws.", "en": "Something new is beginning." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-78",
   "day": 78,
   "module": "M12",
@@ -30,12 +30,12 @@
       "type": "chips",
       "title": "Tap to hear everyday commands",
       "items": [
-        { "nl": "Komm mal her!", "en": "come here (a sec)!", "speak": "Komm mal her!" },
-        { "nl": "Warte mal!", "en": "wait a sec!", "speak": "Warte mal!" },
-        { "nl": "Pass auf!", "en": "watch out! / pay attention!", "speak": "Pass auf!" },
-        { "nl": "Hör zu!", "en": "listen!", "speak": "Hör zu!" },
-        { "nl": "Setz dich!", "en": "sit down!", "speak": "Setz dich!" },
-        { "nl": "Guck mal!", "en": "look!", "speak": "Guck mal!" }
+        { "target": "Komm mal her!", "en": "come here (a sec)!", "speak": "Komm mal her!" },
+        { "target": "Warte mal!", "en": "wait a sec!", "speak": "Warte mal!" },
+        { "target": "Pass auf!", "en": "watch out! / pay attention!", "speak": "Pass auf!" },
+        { "target": "Hör zu!", "en": "listen!", "speak": "Hör zu!" },
+        { "target": "Setz dich!", "en": "sit down!", "speak": "Setz dich!" },
+        { "target": "Guck mal!", "en": "look!", "speak": "Guck mal!" }
       ]
     },
     {
@@ -91,11 +91,11 @@
       "type": "dialogue",
       "scene": "Lena spots you across the street and waves you over — imperatives flying.",
       "lines": [
-        { "speaker": "Lena", "nl": "Ey, komm mal her! Guck mal, was ich gefunden habe.", "en": "Hey, come here a sec! Look what I found.", "spotlight": "*Komm mal her!* and *Guck mal!* — softened commands, the way friends actually talk." },
-        { "speaker": "You", "nl": "Warte, ich komme. Pass auf, ein Fahrrad!", "en": "Wait, I'm coming. Watch out, a bike!" },
-        { "speaker": "Lena", "nl": "Ups, danke. Setz dich kurz, ich erzähl dir was.", "en": "Oops, thanks. Sit down a sec, I'll tell you something." },
-        { "speaker": "You", "nl": "Okay, aber mach schnell — ich habe echt Hunger.", "en": "Okay, but be quick — I'm really hungry." },
-        { "speaker": "Lena", "nl": "Quatsch, komm, ich geb dir einen Kaffee aus. Sei nicht so ungeduldig!", "en": "Nonsense, come on, coffee's on me. Don't be so impatient!", "spotlight": "*Sei nicht so…!* — the irregular imperative of *sein*." }
+        { "speaker": "Lena", "target": "Ey, komm mal her! Guck mal, was ich gefunden habe.", "en": "Hey, come here a sec! Look what I found.", "spotlight": "*Komm mal her!* and *Guck mal!* — softened commands, the way friends actually talk." },
+        { "speaker": "You", "target": "Warte, ich komme. Pass auf, ein Fahrrad!", "en": "Wait, I'm coming. Watch out, a bike!" },
+        { "speaker": "Lena", "target": "Ups, danke. Setz dich kurz, ich erzähl dir was.", "en": "Oops, thanks. Sit down a sec, I'll tell you something." },
+        { "speaker": "You", "target": "Okay, aber mach schnell — ich habe echt Hunger.", "en": "Okay, but be quick — I'm really hungry." },
+        { "speaker": "Lena", "target": "Quatsch, komm, ich geb dir einen Kaffee aus. Sei nicht so ungeduldig!", "en": "Nonsense, come on, coffee's on me. Don't be so impatient!", "spotlight": "*Sei nicht so…!* — the irregular imperative of *sein*." }
       ]
     },
     {

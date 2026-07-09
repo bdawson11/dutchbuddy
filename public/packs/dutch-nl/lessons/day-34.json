@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-34",
   "day": 34,
   "module": "M05",
@@ -52,14 +52,14 @@
       "type": "dialogue",
       "scene": "Coffee with Emma. She's just back from a weekend on Texel and can't wait to tell you everything.",
       "lines": [
-        { "speaker": "Emma", "nl": "Kijk, ik heb echt een heerlijk weekend gehad! We zijn vrijdag met de boot naar Texel gegaan.", "en": "Look, I really had a lovely weekend! We went to Texel by boat on Friday.", "spotlight": "*gehad* (had) takes hebben; *gegaan* (went) takes zijn — both in one breath." },
-        { "speaker": "You", "nl": "Wat leuk! Wat hebben jullie daar gedaan?", "en": "How nice! What did you all do there?" },
-        { "speaker": "Emma", "nl": "Van alles. We hebben lange strandwandelingen gemaakt en verse vis gegeten.", "en": "All sorts. We took long beach walks and ate fresh fish.", "spotlight": "*gemaakt* (regular, kofschip) right next to *gegeten* (irregular)." },
-        { "speaker": "Emma", "nl": "'s Avonds zijn we naar een klein café gegaan en hebben we lokaal bier gedronken.", "en": "In the evening we went to a little café and drank local beer." },
-        { "speaker": "You", "nl": "En het weer? Is het mooi geweest?", "en": "And the weather? Was it nice?", "spotlight": "*geweest* — the participle of *zijn*, with *zijn*: is het geweest." },
-        { "speaker": "Emma", "nl": "De eerste dag wel, maar zondag is het gaan regenen. Toen zijn we lekker binnen gebleven.", "en": "The first day yes, but on Sunday it started to rain. Then we happily stayed inside.", "spotlight": "*gebleven* (stayed) — a classic zijn-verb." },
-        { "speaker": "You", "nl": "Klinkt als een perfect weekend, hoor.", "en": "Sounds like a perfect weekend." },
-        { "speaker": "Emma", "nl": "Zeker! Ik ben zondagavond helemaal ontspannen thuisgekomen.", "en": "Definitely! I got home Sunday evening completely relaxed.", "spotlight": "*thuiskomen* is separable → *thuis-ge-komen*, with zijn." }
+        { "speaker": "Emma", "target": "Kijk, ik heb echt een heerlijk weekend gehad! We zijn vrijdag met de boot naar Texel gegaan.", "en": "Look, I really had a lovely weekend! We went to Texel by boat on Friday.", "spotlight": "*gehad* (had) takes hebben; *gegaan* (went) takes zijn — both in one breath." },
+        { "speaker": "You", "target": "Wat leuk! Wat hebben jullie daar gedaan?", "en": "How nice! What did you all do there?" },
+        { "speaker": "Emma", "target": "Van alles. We hebben lange strandwandelingen gemaakt en verse vis gegeten.", "en": "All sorts. We took long beach walks and ate fresh fish.", "spotlight": "*gemaakt* (regular, kofschip) right next to *gegeten* (irregular)." },
+        { "speaker": "Emma", "target": "'s Avonds zijn we naar een klein café gegaan en hebben we lokaal bier gedronken.", "en": "In the evening we went to a little café and drank local beer." },
+        { "speaker": "You", "target": "En het weer? Is het mooi geweest?", "en": "And the weather? Was it nice?", "spotlight": "*geweest* — the participle of *zijn*, with *zijn*: is het geweest." },
+        { "speaker": "Emma", "target": "De eerste dag wel, maar zondag is het gaan regenen. Toen zijn we lekker binnen gebleven.", "en": "The first day yes, but on Sunday it started to rain. Then we happily stayed inside.", "spotlight": "*gebleven* (stayed) — a classic zijn-verb." },
+        { "speaker": "You", "target": "Klinkt als een perfect weekend, hoor.", "en": "Sounds like a perfect weekend." },
+        { "speaker": "Emma", "target": "Zeker! Ik ben zondagavond helemaal ontspannen thuisgekomen.", "en": "Definitely! I got home Sunday evening completely relaxed.", "spotlight": "*thuiskomen* is separable → *thuis-ge-komen*, with zijn." }
       ]
     },
     {

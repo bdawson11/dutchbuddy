@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-65",
   "day": 65,
   "module": "M10",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Tik om te horen — de tel-er",
       "items": [
-        { "nl": "Ik heb er twee.", "en": "I have two (of them).", "speak": "Ik heb er twee." },
-        { "nl": "Zij heeft er geen.", "en": "She has none (of them).", "speak": "Zij heeft er geen." },
-        { "nl": "We hebben er nog drie.", "en": "We still have three (of them).", "speak": "We hebben er nog drie." },
-        { "nl": "Er zijn er nog vier.", "en": "There are still four (of them).", "speak": "Er zijn er nog vier." },
-        { "nl": "Ik wil er graag één.", "en": "I'd like one (of them).", "speak": "Ik wil er graag één." },
-        { "nl": "Hij neemt er zes.", "en": "He'll take six (of them).", "speak": "Hij neemt er zes." }
+        { "target": "Ik heb er twee.", "en": "I have two (of them).", "speak": "Ik heb er twee." },
+        { "target": "Zij heeft er geen.", "en": "She has none (of them).", "speak": "Zij heeft er geen." },
+        { "target": "We hebben er nog drie.", "en": "We still have three (of them).", "speak": "We hebben er nog drie." },
+        { "target": "Er zijn er nog vier.", "en": "There are still four (of them).", "speak": "Er zijn er nog vier." },
+        { "target": "Ik wil er graag één.", "en": "I'd like one (of them).", "speak": "Ik wil er graag één." },
+        { "target": "Hij neemt er zes.", "en": "He'll take six (of them).", "speak": "Hij neemt er zes." }
       ]
     },
     {
@@ -68,12 +68,12 @@
       "type": "chips",
       "title": "Tik om te horen — de voorzetsel-er",
       "items": [
-        { "nl": "Wat vind je ervan?", "en": "What do you think of it?", "speak": "Wat vind je ervan?" },
-        { "nl": "Ik heb er geen zin in.", "en": "I don't feel like it.", "speak": "Ik heb er geen zin in." },
-        { "nl": "Ik ben er blij mee.", "en": "I'm happy with it.", "speak": "Ik ben er blij mee." },
-        { "nl": "Ik kijk ernaar uit.", "en": "I'm looking forward to it.", "speak": "Ik kijk ernaar uit." },
-        { "nl": "Ik denk er niet aan.", "en": "I'm not thinking about it — no way.", "speak": "Ik denk er niet aan." },
-        { "nl": "Ik weet er niets van.", "en": "I know nothing about it.", "speak": "Ik weet er niets van." }
+        { "target": "Wat vind je ervan?", "en": "What do you think of it?", "speak": "Wat vind je ervan?" },
+        { "target": "Ik heb er geen zin in.", "en": "I don't feel like it.", "speak": "Ik heb er geen zin in." },
+        { "target": "Ik ben er blij mee.", "en": "I'm happy with it.", "speak": "Ik ben er blij mee." },
+        { "target": "Ik kijk ernaar uit.", "en": "I'm looking forward to it.", "speak": "Ik kijk ernaar uit." },
+        { "target": "Ik denk er niet aan.", "en": "I'm not thinking about it — no way.", "speak": "Ik denk er niet aan." },
+        { "target": "Ik weet er niets van.", "en": "I know nothing about it.", "speak": "Ik weet er niets van." }
       ]
     },
     {
@@ -100,13 +100,13 @@
       "type": "dialogue",
       "scene": "Aan de cafétafel met Daan. Hij heeft iets gehoord over de baan die Sanne in Utrecht is aangeboden — ze twijfelt nog.",
       "lines": [
-        { "speaker": "Daan", "nl": "Heb je het al gehoord van Sanne? Die baan in Utrecht?", "en": "Have you heard about Sanne? That job in Utrecht?" },
-        { "speaker": "You", "nl": "Ja, een beetje. Wat vind jij ervan?", "en": "Yeah, a bit. What do you think of it?", "spotlight": "ervan — van + die baan (a thing) → ervan." },
-        { "speaker": "Daan", "nl": "Nou, ik weet er niet zoveel van, hoor. Maar ze twijfelt er nog over.", "en": "Well, I don't know that much about it. But she's still in two minds about it.", "spotlight": "er … over — twijfelen over, split by nog." },
-        { "speaker": "You", "nl": "Denkt ze er echt over na om te verhuizen?", "en": "Is she really thinking about moving?", "spotlight": "er … over … na — nadenken over, fully split, plus om te." },
-        { "speaker": "Daan", "nl": "Ik denk het wel. Ze heeft er lang over nagedacht.", "en": "I think so. She's thought about it for a long time." },
-        { "speaker": "You", "nl": "Spannend! Ik hoop dat ze er blij mee wordt.", "en": "Exciting! I hope she'll be happy with it." },
-        { "speaker": "Daan", "nl": "Ja, joh. Nog een koffie? Ik neem er zelf wel twee.", "en": "Yeah. Another coffee? I'll have two myself.", "spotlight": "er … twee — and there's the counting er again." }
+        { "speaker": "Daan", "target": "Heb je het al gehoord van Sanne? Die baan in Utrecht?", "en": "Have you heard about Sanne? That job in Utrecht?" },
+        { "speaker": "You", "target": "Ja, een beetje. Wat vind jij ervan?", "en": "Yeah, a bit. What do you think of it?", "spotlight": "ervan — van + die baan (a thing) → ervan." },
+        { "speaker": "Daan", "target": "Nou, ik weet er niet zoveel van, hoor. Maar ze twijfelt er nog over.", "en": "Well, I don't know that much about it. But she's still in two minds about it.", "spotlight": "er … over — twijfelen over, split by nog." },
+        { "speaker": "You", "target": "Denkt ze er echt over na om te verhuizen?", "en": "Is she really thinking about moving?", "spotlight": "er … over … na — nadenken over, fully split, plus om te." },
+        { "speaker": "Daan", "target": "Ik denk het wel. Ze heeft er lang over nagedacht.", "en": "I think so. She's thought about it for a long time." },
+        { "speaker": "You", "target": "Spannend! Ik hoop dat ze er blij mee wordt.", "en": "Exciting! I hope she'll be happy with it." },
+        { "speaker": "Daan", "target": "Ja, joh. Nog een koffie? Ik neem er zelf wel twee.", "en": "Yeah. Another coffee? I'll have two myself.", "spotlight": "er … twee — and there's the counting er again." }
       ]
     },
     {

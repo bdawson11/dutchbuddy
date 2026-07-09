@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-13",
   "day": 13,
   "module": "M02",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "Fare, coniugato + frasi",
       "items": [
-        { "nl": "Faccio colazione.", "en": "I have breakfast.", "speak": "Faccio colazione." },
-        { "nl": "Fai la spesa.", "en": "You do the grocery shopping.", "speak": "Fai la spesa." },
-        { "nl": "Facciamo una pausa.", "en": "We take a break.", "speak": "Facciamo una pausa." },
-        { "nl": "Fanno sport.", "en": "They play sports.", "speak": "Fanno sport." }
+        { "target": "Faccio colazione.", "en": "I have breakfast.", "speak": "Faccio colazione." },
+        { "target": "Fai la spesa.", "en": "You do the grocery shopping.", "speak": "Fai la spesa." },
+        { "target": "Facciamo una pausa.", "en": "We take a break.", "speak": "Facciamo una pausa." },
+        { "target": "Fanno sport.", "en": "They play sports.", "speak": "Fanno sport." }
       ]
     },
     {
@@ -37,10 +37,10 @@
       "type": "chips",
       "title": "Andare a / in",
       "items": [
-        { "nl": "Vado a Bologna.", "en": "I'm going to Bologna.", "speak": "Vado a Bologna." },
-        { "nl": "Vado in Italia.", "en": "I'm going to Italy.", "speak": "Vado in Italia." },
-        { "nl": "Vai a scuola.", "en": "You're going to school.", "speak": "Vai a scuola." },
-        { "nl": "Andiamo in ufficio.", "en": "We're going to the office.", "speak": "Andiamo in ufficio." }
+        { "target": "Vado a Bologna.", "en": "I'm going to Bologna.", "speak": "Vado a Bologna." },
+        { "target": "Vado in Italia.", "en": "I'm going to Italy.", "speak": "Vado in Italia." },
+        { "target": "Vai a scuola.", "en": "You're going to school.", "speak": "Vai a scuola." },
+        { "target": "Andiamo in ufficio.", "en": "We're going to the office.", "speak": "Andiamo in ufficio." }
       ]
     },
     {
@@ -73,11 +73,11 @@
       "type": "dialogue",
       "scene": "Giulia and You compare Saturday plans.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Allora, cosa fai di bello sabato?", "en": "So, what nice thing are you doing Saturday?" },
-        { "speaker": "You", "nl": "Faccio la spesa la mattina, poi vado in piazza.", "en": "I do the grocery shopping in the morning, then I go to the square." },
-        { "speaker": "Giulia", "nl": "Io sto a casa la mattina, ma poi vado a lavorare in studio.", "en": "I stay home in the morning, but then I go to work at the studio." },
-        { "speaker": "You", "nl": "Come stai questa settimana? Tutto bene?", "en": "How are you this week? All good?" },
-        { "speaker": "Giulia", "nl": "Sto benissimo, dai! Solo un po' stanca.", "en": "I'm doing great, come on! Just a little tired." }
+        { "speaker": "Giulia", "target": "Allora, cosa fai di bello sabato?", "en": "So, what nice thing are you doing Saturday?" },
+        { "speaker": "You", "target": "Faccio la spesa la mattina, poi vado in piazza.", "en": "I do the grocery shopping in the morning, then I go to the square." },
+        { "speaker": "Giulia", "target": "Io sto a casa la mattina, ma poi vado a lavorare in studio.", "en": "I stay home in the morning, but then I go to work at the studio." },
+        { "speaker": "You", "target": "Come stai questa settimana? Tutto bene?", "en": "How are you this week? All good?" },
+        { "speaker": "Giulia", "target": "Sto benissimo, dai! Solo un po' stanca.", "en": "I'm doing great, come on! Just a little tired." }
       ]
     },
     {

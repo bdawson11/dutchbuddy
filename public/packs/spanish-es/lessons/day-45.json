@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-45",
   "day": 45,
   "module": "M07",
@@ -55,12 +55,12 @@
       "type": "chips",
       "title": "Frases de infancia",
       "items": [
-        { "nl": "cuando era pequeño", "en": "when I was little", "speak": "cuando era pequeño" },
-        { "nl": "vivía en un pueblo", "en": "I used to live in a village", "speak": "vivía en un pueblo" },
-        { "nl": "íbamos a la playa", "en": "we used to go to the beach", "speak": "íbamos a la playa" },
-        { "nl": "veía dibujos animados", "en": "I used to watch cartoons", "speak": "veía dibujos animados" },
-        { "nl": "hablábamos mucho", "en": "we used to talk a lot", "speak": "hablábamos mucho" },
-        { "nl": "no tenía coche", "en": "I didn't have a car", "speak": "no tenía coche" }
+        { "target": "cuando era pequeño", "en": "when I was little", "speak": "cuando era pequeño" },
+        { "target": "vivía en un pueblo", "en": "I used to live in a village", "speak": "vivía en un pueblo" },
+        { "target": "íbamos a la playa", "en": "we used to go to the beach", "speak": "íbamos a la playa" },
+        { "target": "veía dibujos animados", "en": "I used to watch cartoons", "speak": "veía dibujos animados" },
+        { "target": "hablábamos mucho", "en": "we used to talk a lot", "speak": "hablábamos mucho" },
+        { "target": "no tenía coche", "en": "I didn't have a car", "speak": "no tenía coche" }
       ]
     },
     {
@@ -94,11 +94,11 @@
       "type": "dialogue",
       "scene": "Lucía describes what her Madrid neighborhood was like when she was a child",
       "lines": [
-        { "speaker": "Lucía", "nl": "Cuando era pequeña, vivía en Lavapiés con mis padres.", "en": "When I was little, I lived in Lavapiés with my parents." },
-        { "speaker": "You", "nl": "¿Cómo era el barrio entonces?", "en": "What was the neighborhood like back then?" },
-        { "speaker": "Lucía", "nl": "Era muy diferente. Había menos bares y más tiendas de barrio.", "en": "It was very different. There were fewer bars and more neighborhood shops.", "spotlight": "había — imperfecto de 'hay', para describir el fondo." },
-        { "speaker": "You", "nl": "¿E ibas al colegio cerca de casa?", "en": "And did you go to school near home?" },
-        { "speaker": "Lucía", "nl": "Sí, iba andando todos los días con Rafa.", "en": "Yes, I walked there every day with Rafa." }
+        { "speaker": "Lucía", "target": "Cuando era pequeña, vivía en Lavapiés con mis padres.", "en": "When I was little, I lived in Lavapiés with my parents." },
+        { "speaker": "You", "target": "¿Cómo era el barrio entonces?", "en": "What was the neighborhood like back then?" },
+        { "speaker": "Lucía", "target": "Era muy diferente. Había menos bares y más tiendas de barrio.", "en": "It was very different. There were fewer bars and more neighborhood shops.", "spotlight": "había — imperfecto de 'hay', para describir el fondo." },
+        { "speaker": "You", "target": "¿E ibas al colegio cerca de casa?", "en": "And did you go to school near home?" },
+        { "speaker": "Lucía", "target": "Sí, iba andando todos los días con Rafa.", "en": "Yes, I walked there every day with Rafa." }
       ]
     },
     {

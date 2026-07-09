@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-04",
   "day": 4,
   "module": "M01",
@@ -37,10 +37,10 @@
       "type": "chips",
       "title": "essere in real sentences",
       "items": [
-        { "nl": "Sono di Boston.", "en": "I'm from Boston.", "speak": "Sono di Boston." },
-        { "nl": "Sei italiano?", "en": "Are you Italian?", "speak": "Sei italiano?" },
-        { "nl": "È stanco.", "en": "He's tired.", "speak": "È stanco." },
-        { "nl": "Siamo amici.", "en": "We're friends.", "speak": "Siamo amici." }
+        { "target": "Sono di Boston.", "en": "I'm from Boston.", "speak": "Sono di Boston." },
+        { "target": "Sei italiano?", "en": "Are you Italian?", "speak": "Sei italiano?" },
+        { "target": "È stanco.", "en": "He's tired.", "speak": "È stanco." },
+        { "target": "Siamo amici.", "en": "We're friends.", "speak": "Siamo amici." }
       ]
     },
     {
@@ -80,10 +80,10 @@
       "type": "dialogue",
       "scene": "Marco introduces you to a new face at the bar — a quick who-are-you exchange",
       "lines": [
-        { "speaker": "Marco", "nl": "Lei è Giulia, una mia amica.", "en": "This is Giulia, a friend of mine." },
-        { "speaker": "You", "nl": "Ciao Giulia! Io sono canadese, di Toronto.", "en": "Hi Giulia! I'm Canadian, from Toronto.", "spotlight": "Here the *io* is kept — you're contrasting yourself with the others." },
-        { "speaker": "Giulia", "nl": "Ah, che bello! E sei qui a Bologna adesso?", "en": "Oh, lovely! And you're here in Bologna now?" },
-        { "speaker": "You", "nl": "Sì, sono qui da poco. Sto imparando l'italiano.", "en": "Yes, I've been here a short while. I'm learning Italian." }
+        { "speaker": "Marco", "target": "Lei è Giulia, una mia amica.", "en": "This is Giulia, a friend of mine." },
+        { "speaker": "You", "target": "Ciao Giulia! Io sono canadese, di Toronto.", "en": "Hi Giulia! I'm Canadian, from Toronto.", "spotlight": "Here the *io* is kept — you're contrasting yourself with the others." },
+        { "speaker": "Giulia", "target": "Ah, che bello! E sei qui a Bologna adesso?", "en": "Oh, lovely! And you're here in Bologna now?" },
+        { "speaker": "You", "target": "Sì, sono qui da poco. Sto imparando l'italiano.", "en": "Yes, I've been here a short while. I'm learning Italian." }
       ]
     },
     {

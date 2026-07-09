@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-39",
   "day": 39,
   "module": "M06",
@@ -22,13 +22,13 @@
       "type": "chips",
       "title": "Le emozioni",
       "items": [
-        { "nl": "felice", "en": "happy", "speak": "felice" },
-        { "nl": "triste", "en": "sad", "speak": "triste" },
-        { "nl": "arrabbiato", "en": "angry", "speak": "arrabbiato" },
-        { "nl": "stanco", "en": "tired", "speak": "stanco" },
-        { "nl": "nervoso", "en": "nervous", "speak": "nervoso" },
-        { "nl": "contento", "en": "glad, content", "speak": "contento" },
-        { "nl": "preoccupato", "en": "worried", "speak": "preoccupato" }
+        { "target": "felice", "en": "happy", "speak": "felice" },
+        { "target": "triste", "en": "sad", "speak": "triste" },
+        { "target": "arrabbiato", "en": "angry", "speak": "arrabbiato" },
+        { "target": "stanco", "en": "tired", "speak": "stanco" },
+        { "target": "nervoso", "en": "nervous", "speak": "nervoso" },
+        { "target": "contento", "en": "glad, content", "speak": "contento" },
+        { "target": "preoccupato", "en": "worried", "speak": "preoccupato" }
       ]
     },
     {
@@ -42,9 +42,9 @@
       "type": "shadow",
       "title": "Ascolta e ripeti — sentirsi",
       "lines": [
-        { "nl": "Mi sento stanco oggi.", "en": "I feel tired today." },
-        { "nl": "Ti senti meglio?", "en": "Do you feel better?" },
-        { "nl": "Marco si sente nervoso prima del concerto.", "en": "Marco feels nervous before the concert." }
+        { "target": "Mi sento stanco oggi.", "en": "I feel tired today." },
+        { "target": "Ti senti meglio?", "en": "Do you feel better?" },
+        { "target": "Marco si sente nervoso prima del concerto.", "en": "Marco feels nervous before the concert." }
       ]
     },
     {

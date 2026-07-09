@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-76",
   "day": 76,
   "module": "M11",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Kurzer Warm-up — die Woche auf einen Blick",
       "items": [
-        { "nl": "Ich freue mich auf die Arbeit.", "en": "I look forward to work.", "speak": "Ich freue mich auf die Arbeit." },
-        { "nl": "Das ist halt so.", "en": "That's just how it is.", "speak": "Das ist halt so." },
-        { "nl": "eine schöne, helle Wohnung", "en": "a lovely, bright flat", "speak": "eine schöne, helle Wohnung" },
-        { "nl": "Daran gewöhne ich mich noch.", "en": "I'm still getting used to it.", "speak": "Daran gewöhne ich mich noch." },
-        { "nl": "Komm doch rein!", "en": "Come on in!", "speak": "Komm doch rein!" }
+        { "target": "Ich freue mich auf die Arbeit.", "en": "I look forward to work.", "speak": "Ich freue mich auf die Arbeit." },
+        { "target": "Das ist halt so.", "en": "That's just how it is.", "speak": "Das ist halt so." },
+        { "target": "eine schöne, helle Wohnung", "en": "a lovely, bright flat", "speak": "eine schöne, helle Wohnung" },
+        { "target": "Daran gewöhne ich mich noch.", "en": "I'm still getting used to it.", "speak": "Daran gewöhne ich mich noch." },
+        { "target": "Komm doch rein!", "en": "Come on in!", "speak": "Komm doch rein!" }
       ]
     },
     {
@@ -46,15 +46,15 @@
       "type": "dialogue",
       "scene": "Saturday, midday. Lena has just arrived at Aylin's new flat in Munich, suitcase still in hand.",
       "lines": [
-        { "speaker": "Lena", "nl": "So schön hier! Du hast wirklich eine tolle Wohnung gefunden.", "en": "So lovely here! You really found a great flat.", "spotlight": "*eine tolle Wohnung* — feminine accusative, adjective takes *-e*." },
-        { "speaker": "Aylin", "nl": "Ne? Ich freue mich riesig, dass du da bist. Komm doch rein!", "en": "Right? I'm so glad you're here. Come on in!", "spotlight": "*Komm doch rein* — the particle *doch* makes the invitation warm." },
-        { "speaker": "Lena", "nl": "Wie läuft's denn so? Hast du dich schon eingelebt?", "en": "So how's it going? Have you settled in yet?", "spotlight": "*denn* softens the question; *sich einleben* = to settle in." },
-        { "speaker": "Aylin", "nl": "Na ja, langsam. Hier sagen alle „Servus“ und „Grüß Gott“ — daran gewöhne ich mich noch.", "en": "Well, slowly. Everyone here says 'Servus' and 'Grüß Gott' — I'm still getting used to it.", "spotlight": "Bavarian colour, noted with a smile — *sich gewöhnen an* + Akk, here as the *da*-compound *daran*." },
-        { "speaker": "Lena", "nl": "Haha, und beim Bäcker? Sagst du jetzt „Semmel“ statt „Brötchen“?", "en": "Haha, and at the bakery? Do you say 'Semmel' now instead of 'Brötchen'?" },
-        { "speaker": "Aylin", "nl": "Niemals! Ein frisches Brötchen bleibt ein Brötchen. Aber die Brezn hier sind echt gut.", "en": "Never! A fresh roll stays a Brötchen. But the pretzels here are really good.", "spotlight": "She keeps her Hochdeutsch (*Brötchen*) while enjoying the local *Brezn* — colour, not the norm." },
-        { "speaker": "Lena", "nl": "Und der neue Job?", "en": "And the new job?" },
-        { "speaker": "Aylin", "nl": "Richtig gut. Ich freue mich jeden Morgen auf die Arbeit — das kannte ich in Berlin gar nicht.", "en": "Really good. I look forward to work every morning — I never knew that in Berlin.", "spotlight": "*sich freuen auf die Arbeit* — the whole week's grammar, said like a normal happy person." },
-        { "speaker": "Lena", "nl": "Das ist ja wunderbar. Ich bin so froh für dich.", "en": "That's just wonderful. I'm so happy for you." }
+        { "speaker": "Lena", "target": "So schön hier! Du hast wirklich eine tolle Wohnung gefunden.", "en": "So lovely here! You really found a great flat.", "spotlight": "*eine tolle Wohnung* — feminine accusative, adjective takes *-e*." },
+        { "speaker": "Aylin", "target": "Ne? Ich freue mich riesig, dass du da bist. Komm doch rein!", "en": "Right? I'm so glad you're here. Come on in!", "spotlight": "*Komm doch rein* — the particle *doch* makes the invitation warm." },
+        { "speaker": "Lena", "target": "Wie läuft's denn so? Hast du dich schon eingelebt?", "en": "So how's it going? Have you settled in yet?", "spotlight": "*denn* softens the question; *sich einleben* = to settle in." },
+        { "speaker": "Aylin", "target": "Na ja, langsam. Hier sagen alle „Servus“ und „Grüß Gott“ — daran gewöhne ich mich noch.", "en": "Well, slowly. Everyone here says 'Servus' and 'Grüß Gott' — I'm still getting used to it.", "spotlight": "Bavarian colour, noted with a smile — *sich gewöhnen an* + Akk, here as the *da*-compound *daran*." },
+        { "speaker": "Lena", "target": "Haha, und beim Bäcker? Sagst du jetzt „Semmel“ statt „Brötchen“?", "en": "Haha, and at the bakery? Do you say 'Semmel' now instead of 'Brötchen'?" },
+        { "speaker": "Aylin", "target": "Niemals! Ein frisches Brötchen bleibt ein Brötchen. Aber die Brezn hier sind echt gut.", "en": "Never! A fresh roll stays a Brötchen. But the pretzels here are really good.", "spotlight": "She keeps her Hochdeutsch (*Brötchen*) while enjoying the local *Brezn* — colour, not the norm." },
+        { "speaker": "Lena", "target": "Und der neue Job?", "en": "And the new job?" },
+        { "speaker": "Aylin", "target": "Richtig gut. Ich freue mich jeden Morgen auf die Arbeit — das kannte ich in Berlin gar nicht.", "en": "Really good. I look forward to work every morning — I never knew that in Berlin.", "spotlight": "*sich freuen auf die Arbeit* — the whole week's grammar, said like a normal happy person." },
+        { "speaker": "Lena", "target": "Das ist ja wunderbar. Ich bin so froh für dich.", "en": "That's just wonderful. I'm so happy for you." }
       ]
     },
     {

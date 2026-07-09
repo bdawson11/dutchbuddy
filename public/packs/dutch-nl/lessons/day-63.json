@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-63",
   "day": 63,
   "module": "M09",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Warm even op — de bouwstenen van de week",
       "items": [
-        { "nl": "hoewel het laat is", "en": "although it's late", "speak": "hoewel het laat is" },
-        { "nl": "de vriendin die belde", "en": "the friend who called", "speak": "de vriendin die belde" },
-        { "nl": "ze zei dat ze twijfelde", "en": "she said she was hesitating", "speak": "ze zei dat ze twijfelde" },
-        { "nl": "ik zou het doen", "en": "I would do it", "speak": "ik zou het doen" },
-        { "nl": "als ik haar was", "en": "if I were her", "speak": "als ik haar was" }
+        { "target": "hoewel het laat is", "en": "although it's late", "speak": "hoewel het laat is" },
+        { "target": "de vriendin die belde", "en": "the friend who called", "speak": "de vriendin die belde" },
+        { "target": "ze zei dat ze twijfelde", "en": "she said she was hesitating", "speak": "ze zei dat ze twijfelde" },
+        { "target": "ik zou het doen", "en": "I would do it", "speak": "ik zou het doen" },
+        { "target": "als ik haar was", "en": "if I were her", "speak": "als ik haar was" }
       ]
     },
     {
@@ -78,13 +78,13 @@
       "type": "dialogue",
       "scene": "Café. Daan can't wait to spill Sanne's news to you",
       "lines": [
-        { "speaker": "Daan", "nl": "Joh, heb je het al gehoord van Sanne?", "en": "Hey, have you heard about Sanne yet?" },
-        { "speaker": "You", "nl": "Een beetje. Wat zei ze precies?", "en": "A bit. What exactly did she say?" },
-        { "speaker": "Daan", "nl": "Ze zei dat een bedrijf in Utrecht haar een baan aanbood. Echt waar!", "en": "She said a company in Utrecht offered her a job. Seriously!", "spotlight": "indirecte rede: *ze zei dat … haar een baan **aanbood**.*" },
-        { "speaker": "You", "nl": "En? Vroeg je of ze het gaat aannemen?", "en": "And? Did you ask if she's going to take it?", "spotlight": "vraag doorvertellen: *of ze het gaat aannemen.*" },
-        { "speaker": "Daan", "nl": "Ja, maar ze zei dat ze nog twijfelde. Ze heeft nog niks besloten.", "en": "Yeah, but she said she was still hesitating. She hasn't decided anything yet.", "spotlight": "arc-anker: Sanne heeft nog niét besloten." },
-        { "speaker": "You", "nl": "Logisch. Hoewel het een mooie kans is, is verhuizen best groot.", "en": "Makes sense. Although it's a nice chance, moving is quite big.", "spotlight": "hoewel + werkwoord achteraan." },
-        { "speaker": "Daan", "nl": "Precies. Nou, als zij zou verhuizen, zou het café hier wel leger worden, hoor.", "en": "Exactly. Well, if she moved, this café would get emptier, you know.", "spotlight": "hypothetische als-zin + zou." }
+        { "speaker": "Daan", "target": "Joh, heb je het al gehoord van Sanne?", "en": "Hey, have you heard about Sanne yet?" },
+        { "speaker": "You", "target": "Een beetje. Wat zei ze precies?", "en": "A bit. What exactly did she say?" },
+        { "speaker": "Daan", "target": "Ze zei dat een bedrijf in Utrecht haar een baan aanbood. Echt waar!", "en": "She said a company in Utrecht offered her a job. Seriously!", "spotlight": "indirecte rede: *ze zei dat … haar een baan **aanbood**.*" },
+        { "speaker": "You", "target": "En? Vroeg je of ze het gaat aannemen?", "en": "And? Did you ask if she's going to take it?", "spotlight": "vraag doorvertellen: *of ze het gaat aannemen.*" },
+        { "speaker": "Daan", "target": "Ja, maar ze zei dat ze nog twijfelde. Ze heeft nog niks besloten.", "en": "Yeah, but she said she was still hesitating. She hasn't decided anything yet.", "spotlight": "arc-anker: Sanne heeft nog niét besloten." },
+        { "speaker": "You", "target": "Logisch. Hoewel het een mooie kans is, is verhuizen best groot.", "en": "Makes sense. Although it's a nice chance, moving is quite big.", "spotlight": "hoewel + werkwoord achteraan." },
+        { "speaker": "Daan", "target": "Precies. Nou, als zij zou verhuizen, zou het café hier wel leger worden, hoor.", "en": "Exactly. Well, if she moved, this café would get emptier, you know.", "spotlight": "hypothetische als-zin + zou." }
       ]
     },
     {
@@ -99,9 +99,9 @@
       "type": "shadow",
       "title": "Zeg de roddelzinnen na",
       "lines": [
-        { "nl": "Ze zei dat een bedrijf haar een baan aanbood.", "en": "She said a company offered her a job." },
-        { "nl": "Vroeg je of ze het gaat aannemen?", "en": "Did you ask if she's going to take it?" },
-        { "nl": "Ze zei dat ze nog twijfelde.", "en": "She said she was still hesitating." }
+        { "target": "Ze zei dat een bedrijf haar een baan aanbood.", "en": "She said a company offered her a job." },
+        { "target": "Vroeg je of ze het gaat aannemen?", "en": "Did you ask if she's going to take it?" },
+        { "target": "Ze zei dat ze nog twijfelde.", "en": "She said she was still hesitating." }
       ]
     },
     {

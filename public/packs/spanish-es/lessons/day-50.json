@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-50",
   "day": 50,
   "module": "M08",
@@ -32,11 +32,11 @@
       "type": "chips",
       "title": "Escucha: ir a + infinitivo",
       "items": [
-        { "nl": "voy a comer", "en": "I'm going to eat", "speak": "voy a comer" },
-        { "nl": "vas a llegar tarde", "en": "you're going to be late", "speak": "vas a llegar tarde" },
-        { "nl": "vamos a salir esta noche", "en": "we're going out tonight", "speak": "vamos a salir esta noche" },
-        { "nl": "vais a ganar", "en": "you all are going to win", "speak": "vais a ganar" },
-        { "nl": "van a venir mañana", "en": "they're coming tomorrow", "speak": "van a venir mañana" }
+        { "target": "voy a comer", "en": "I'm going to eat", "speak": "voy a comer" },
+        { "target": "vas a llegar tarde", "en": "you're going to be late", "speak": "vas a llegar tarde" },
+        { "target": "vamos a salir esta noche", "en": "we're going out tonight", "speak": "vamos a salir esta noche" },
+        { "target": "vais a ganar", "en": "you all are going to win", "speak": "vais a ganar" },
+        { "target": "van a venir mañana", "en": "they're coming tomorrow", "speak": "van a venir mañana" }
       ]
     },
     {
@@ -105,13 +105,13 @@
       "type": "dialogue",
       "scene": "Rafa te cuenta los planes de su grupo — el futuro en acción.",
       "lines": [
-        { "speaker": "Rafa", "nl": "¡Tío, tengo noticias! Vamos a tocar en un bar el mes que viene.", "en": "Dude, I've got news! We're going to play at a bar next month." },
-        { "speaker": "You", "nl": "¡Qué guay! ¿Y qué vais a tocar?", "en": "How cool! And what are you all going to play?", "spotlight": "vais a tocar — vosotros con ir a + infinitivo." },
-        { "speaker": "Rafa", "nl": "Vamos a tocar canciones nuestras. Va a ser la primera vez.", "en": "We're going to play our own songs. It's going to be the first time." },
-        { "speaker": "You", "nl": "¿Vais a invitar a mucha gente?", "en": "Are you all going to invite a lot of people?" },
-        { "speaker": "Rafa", "nl": "Espero que sí. Y después, pues nada, ¡una caña para celebrar!", "en": "I hope so. And afterward, well, a beer to celebrate!" },
-        { "speaker": "You", "nl": "¡Genial! Yo también voy a estar allí.", "en": "Great! I'm going to be there too." },
-        { "speaker": "Rafa", "nl": "¡Marchando! Nos vemos, ¿vale?", "en": "Sorted! See you, yeah?" }
+        { "speaker": "Rafa", "target": "¡Tío, tengo noticias! Vamos a tocar en un bar el mes que viene.", "en": "Dude, I've got news! We're going to play at a bar next month." },
+        { "speaker": "You", "target": "¡Qué guay! ¿Y qué vais a tocar?", "en": "How cool! And what are you all going to play?", "spotlight": "vais a tocar — vosotros con ir a + infinitivo." },
+        { "speaker": "Rafa", "target": "Vamos a tocar canciones nuestras. Va a ser la primera vez.", "en": "We're going to play our own songs. It's going to be the first time." },
+        { "speaker": "You", "target": "¿Vais a invitar a mucha gente?", "en": "Are you all going to invite a lot of people?" },
+        { "speaker": "Rafa", "target": "Espero que sí. Y después, pues nada, ¡una caña para celebrar!", "en": "I hope so. And afterward, well, a beer to celebrate!" },
+        { "speaker": "You", "target": "¡Genial! Yo también voy a estar allí.", "en": "Great! I'm going to be there too." },
+        { "speaker": "Rafa", "target": "¡Marchando! Nos vemos, ¿vale?", "en": "Sorted! See you, yeah?" }
       ]
     },
     {

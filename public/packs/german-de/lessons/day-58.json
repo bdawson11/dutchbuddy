@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-58",
   "day": 58,
   "module": "M09",
@@ -29,10 +29,10 @@
       "type": "chips",
       "title": "Tap to hear relative clauses",
       "items": [
-        { "nl": "Das ist der Kollege, der immer zu spät kommt.", "en": "That's the colleague who is always late.", "speak": "Das ist der Kollege, der immer zu spät kommt." },
-        { "nl": "Das ist der Freund, den ich seit Jahren kenne.", "en": "That's the friend I've known for years.", "speak": "Das ist der Freund, den ich seit Jahren kenne." },
-        { "nl": "Die Frau, die im dritten Stock wohnt, ist nett.", "en": "The woman who lives on the third floor is nice.", "speak": "Die Frau, die im dritten Stock wohnt, ist nett." },
-        { "nl": "Das sind die Nachbarn, denen ich vertraue.", "en": "Those are the neighbours I trust.", "speak": "Das sind die Nachbarn, denen ich vertraue." }
+        { "target": "Das ist der Kollege, der immer zu spät kommt.", "en": "That's the colleague who is always late.", "speak": "Das ist der Kollege, der immer zu spät kommt." },
+        { "target": "Das ist der Freund, den ich seit Jahren kenne.", "en": "That's the friend I've known for years.", "speak": "Das ist der Freund, den ich seit Jahren kenne." },
+        { "target": "Die Frau, die im dritten Stock wohnt, ist nett.", "en": "The woman who lives on the third floor is nice.", "speak": "Die Frau, die im dritten Stock wohnt, ist nett." },
+        { "target": "Das sind die Nachbarn, denen ich vertraue.", "en": "Those are the neighbours I trust.", "speak": "Das sind die Nachbarn, denen ich vertraue." }
       ]
     },
     {
@@ -89,13 +89,13 @@
       "type": "dialogue",
       "scene": "At the Kneipe, Jonas scrolls through photos from a party and points people out.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Guck mal, das ist der Typ, der ständig über seine Band geredet hat.", "en": "Look, that's the guy who kept going on about his band.", "spotlight": "*der ständig … geredet hat* — *der* is the subject inside the clause (nominative)." },
-        { "speaker": "You", "nl": "Der mit der Gitarre? Ganz schön anstrengend, oder?", "en": "The one with the guitar? Pretty exhausting, right?" },
-        { "speaker": "Jonas", "nl": "Ey, voll. Und das ist die Kollegin, die neu bei Lena im Studio ist.", "en": "Ugh, totally. And that's the colleague who's new at Lena's studio." },
-        { "speaker": "You", "nl": "Die kenne ich noch gar nicht. Nett?", "en": "I don't know her yet at all. Nice?" },
-        { "speaker": "Jonas", "nl": "Sehr. Das ist übrigens der Kuchen, den Aylin gebacken hat.", "en": "Very. That, by the way, is the cake Aylin baked.", "spotlight": "*den Aylin gebacken hat* — the cake is the object here → *den* (accusative)." },
-        { "speaker": "You", "nl": "Aylin backt? Das wusste ich gar nicht.", "en": "Aylin bakes? I had no idea." },
-        { "speaker": "Jonas", "nl": "Na ja, Leute, die man ewig kennt, überraschen einen trotzdem.", "en": "Well, people you've known forever still surprise you." }
+        { "speaker": "Jonas", "target": "Guck mal, das ist der Typ, der ständig über seine Band geredet hat.", "en": "Look, that's the guy who kept going on about his band.", "spotlight": "*der ständig … geredet hat* — *der* is the subject inside the clause (nominative)." },
+        { "speaker": "You", "target": "Der mit der Gitarre? Ganz schön anstrengend, oder?", "en": "The one with the guitar? Pretty exhausting, right?" },
+        { "speaker": "Jonas", "target": "Ey, voll. Und das ist die Kollegin, die neu bei Lena im Studio ist.", "en": "Ugh, totally. And that's the colleague who's new at Lena's studio." },
+        { "speaker": "You", "target": "Die kenne ich noch gar nicht. Nett?", "en": "I don't know her yet at all. Nice?" },
+        { "speaker": "Jonas", "target": "Sehr. Das ist übrigens der Kuchen, den Aylin gebacken hat.", "en": "Very. That, by the way, is the cake Aylin baked.", "spotlight": "*den Aylin gebacken hat* — the cake is the object here → *den* (accusative)." },
+        { "speaker": "You", "target": "Aylin backt? Das wusste ich gar nicht.", "en": "Aylin bakes? I had no idea." },
+        { "speaker": "Jonas", "target": "Na ja, Leute, die man ewig kennt, überraschen einen trotzdem.", "en": "Well, people you've known forever still surprise you." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-12",
   "day": 12,
   "module": "M02",
@@ -34,10 +34,10 @@
       "type": "chips",
       "title": "Hear the yes/no questions",
       "items": [
-        { "nl": "Werk jij?", "en": "Do you work?", "speak": "Werk jij?" },
-        { "nl": "Woon je in Amsterdam?", "en": "Do you live in Amsterdam?", "speak": "Woon je in Amsterdam?" },
-        { "nl": "Drinkt hij thee?", "en": "Does he drink tea?", "speak": "Drinkt hij thee?" },
-        { "nl": "Kom je vanavond?", "en": "Are you coming tonight?", "speak": "Kom je vanavond?" }
+        { "target": "Werk jij?", "en": "Do you work?", "speak": "Werk jij?" },
+        { "target": "Woon je in Amsterdam?", "en": "Do you live in Amsterdam?", "speak": "Woon je in Amsterdam?" },
+        { "target": "Drinkt hij thee?", "en": "Does he drink tea?", "speak": "Drinkt hij thee?" },
+        { "target": "Kom je vanavond?", "en": "Are you coming tonight?", "speak": "Kom je vanavond?" }
       ]
     },
     {
@@ -67,12 +67,12 @@
       "type": "chips",
       "title": "Hear the question words",
       "items": [
-        { "nl": "wie", "en": "who", "speak": "wie" },
-        { "nl": "wat", "en": "what", "speak": "wat" },
-        { "nl": "waar", "en": "where", "speak": "waar" },
-        { "nl": "wanneer", "en": "when", "speak": "wanneer" },
-        { "nl": "hoe", "en": "how", "speak": "hoe" },
-        { "nl": "waarom", "en": "why", "speak": "waarom" }
+        { "target": "wie", "en": "who", "speak": "wie" },
+        { "target": "wat", "en": "what", "speak": "wat" },
+        { "target": "waar", "en": "where", "speak": "waar" },
+        { "target": "wanneer", "en": "when", "speak": "wanneer" },
+        { "target": "hoe", "en": "how", "speak": "hoe" },
+        { "target": "waarom", "en": "why", "speak": "waarom" }
       ]
     },
     {
@@ -93,11 +93,11 @@
       "type": "dialogue",
       "scene": "Daan is nosy about your new routine at the café",
       "lines": [
-        { "speaker": "Daan", "nl": "Waar werk jij nu?", "en": "Where do you work now?", "spotlight": "Question word + verb + jij — and *werk*, not 'werkt'." },
-        { "speaker": "You", "nl": "Ik werk in de Pijp. Bij een klein bureau.", "en": "I work in de Pijp. At a small agency." },
-        { "speaker": "Daan", "nl": "Leuk! En hoe laat begin je?", "en": "Nice! And what time do you start?", "spotlight": "*hoe laat* = what time; *begin je* drops the -t too." },
-        { "speaker": "You", "nl": "Meestal om negen uur.", "en": "Usually at nine o'clock." },
-        { "speaker": "Daan", "nl": "Werk je ook op vrijdag?", "en": "Do you work on Friday too?", "spotlight": "A yes/no question: verb first, *je* behind it." }
+        { "speaker": "Daan", "target": "Waar werk jij nu?", "en": "Where do you work now?", "spotlight": "Question word + verb + jij — and *werk*, not 'werkt'." },
+        { "speaker": "You", "target": "Ik werk in de Pijp. Bij een klein bureau.", "en": "I work in de Pijp. At a small agency." },
+        { "speaker": "Daan", "target": "Leuk! En hoe laat begin je?", "en": "Nice! And what time do you start?", "spotlight": "*hoe laat* = what time; *begin je* drops the -t too." },
+        { "speaker": "You", "target": "Meestal om negen uur.", "en": "Usually at nine o'clock." },
+        { "speaker": "Daan", "target": "Werk je ook op vrijdag?", "en": "Do you work on Friday too?", "spotlight": "A yes/no question: verb first, *je* behind it." }
       ]
     },
     {

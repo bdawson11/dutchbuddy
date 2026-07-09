@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-89",
   "day": 89,
   "module": "M13",
@@ -35,12 +35,12 @@
       "type": "chips",
       "title": "So tun & sich wünschen",
       "items": [
-        { "nl": "Er tut so, als ob nichts wäre.", "en": "He acts as if nothing were wrong.", "speak": "Er tut so, als ob nichts wäre." },
-        { "nl": "Es sieht aus, als würde es regnen.", "en": "It looks as if it's going to rain.", "speak": "Es sieht aus, als würde es regnen." },
-        { "nl": "Wenn ich nur mehr Zeit hätte!", "en": "If only I had more time!", "speak": "Wenn ich nur mehr Zeit hätte!" },
-        { "nl": "Hätte ich doch früher angefangen!", "en": "If only I'd started earlier!", "speak": "Hätte ich doch früher angefangen!" },
-        { "nl": "Ich wäre beinahe eingeschlafen.", "en": "I almost fell asleep.", "speak": "Ich wäre beinahe eingeschlafen." },
-        { "nl": "Das hätte fast geklappt.", "en": "That almost worked.", "speak": "Das hätte fast geklappt." }
+        { "target": "Er tut so, als ob nichts wäre.", "en": "He acts as if nothing were wrong.", "speak": "Er tut so, als ob nichts wäre." },
+        { "target": "Es sieht aus, als würde es regnen.", "en": "It looks as if it's going to rain.", "speak": "Es sieht aus, als würde es regnen." },
+        { "target": "Wenn ich nur mehr Zeit hätte!", "en": "If only I had more time!", "speak": "Wenn ich nur mehr Zeit hätte!" },
+        { "target": "Hätte ich doch früher angefangen!", "en": "If only I'd started earlier!", "speak": "Hätte ich doch früher angefangen!" },
+        { "target": "Ich wäre beinahe eingeschlafen.", "en": "I almost fell asleep.", "speak": "Ich wäre beinahe eingeschlafen." },
+        { "target": "Das hätte fast geklappt.", "en": "That almost worked.", "speak": "Das hätte fast geklappt." }
       ]
     },
     {
@@ -81,15 +81,15 @@
       "type": "dialogue",
       "scene": "Jonas is buzzing with gossip about a mutual acquaintance, Timo, who's been acting strange at the bookshop.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Hast du Timo gesehen? Der tut so, als ob ihm der ganze Laden gehören würde.", "en": "Have you seen Timo? He acts as if the whole shop belonged to him.", "spotlight": "*als ob … gehören würde* — the ob-version, verb-cluster at the end." },
-        { "speaker": "You", "nl": "Echt? Dabei ist er erst seit einem Monat dabei.", "en": "Really? And he's only been here a month." },
-        { "speaker": "Jonas", "nl": "Eben! Er redet, als wüsste er alles besser.", "en": "Exactly! He talks as if he knew everything better.", "spotlight": "*als wüsste er* — no ob, so the verb jumps right behind als." },
-        { "speaker": "You", "nl": "Na ja. Vielleicht ist er einfach nervös.", "en": "Well. Maybe he's just nervous." },
-        { "speaker": "Jonas", "nl": "Nervös? Er läuft rum, als ob er der Chef wäre.", "en": "Nervous? He struts around as if he were the boss." },
-        { "speaker": "You", "nl": "Lass ihn doch. Wenn ich nur halb so selbstsicher wäre!", "en": "Just let him. If only I were half that self-assured!", "spotlight": "An irreal wish: *Wenn ich nur … wäre!*" },
-        { "speaker": "Jonas", "nl": "Ha! Du bist tausendmal netter. Beinahe hätte ich's ihm gestern gesagt.", "en": "Ha! You're a thousand times nicer. I almost told him yesterday.", "spotlight": "*beinahe hätte ich gesagt* — the near-miss: it did NOT happen." },
-        { "speaker": "You", "nl": "Bloß nicht. Das würde nur Ärger geben.", "en": "Please don't. That would only cause trouble." },
-        { "speaker": "Jonas", "nl": "Stimmt. Tja — tun wir mal so, als hätten wir nichts gesehen.", "en": "True. Well — let's just act as if we'd seen nothing." }
+        { "speaker": "Jonas", "target": "Hast du Timo gesehen? Der tut so, als ob ihm der ganze Laden gehören würde.", "en": "Have you seen Timo? He acts as if the whole shop belonged to him.", "spotlight": "*als ob … gehören würde* — the ob-version, verb-cluster at the end." },
+        { "speaker": "You", "target": "Echt? Dabei ist er erst seit einem Monat dabei.", "en": "Really? And he's only been here a month." },
+        { "speaker": "Jonas", "target": "Eben! Er redet, als wüsste er alles besser.", "en": "Exactly! He talks as if he knew everything better.", "spotlight": "*als wüsste er* — no ob, so the verb jumps right behind als." },
+        { "speaker": "You", "target": "Na ja. Vielleicht ist er einfach nervös.", "en": "Well. Maybe he's just nervous." },
+        { "speaker": "Jonas", "target": "Nervös? Er läuft rum, als ob er der Chef wäre.", "en": "Nervous? He struts around as if he were the boss." },
+        { "speaker": "You", "target": "Lass ihn doch. Wenn ich nur halb so selbstsicher wäre!", "en": "Just let him. If only I were half that self-assured!", "spotlight": "An irreal wish: *Wenn ich nur … wäre!*" },
+        { "speaker": "Jonas", "target": "Ha! Du bist tausendmal netter. Beinahe hätte ich's ihm gestern gesagt.", "en": "Ha! You're a thousand times nicer. I almost told him yesterday.", "spotlight": "*beinahe hätte ich gesagt* — the near-miss: it did NOT happen." },
+        { "speaker": "You", "target": "Bloß nicht. Das würde nur Ärger geben.", "en": "Please don't. That would only cause trouble." },
+        { "speaker": "Jonas", "target": "Stimmt. Tja — tun wir mal so, als hätten wir nichts gesehen.", "en": "True. Well — let's just act as if we'd seen nothing." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-22",
   "day": 22,
   "module": "M04",
@@ -29,11 +29,11 @@
       "type": "chips",
       "title": "Tap to hear the meals",
       "items": [
-        { "nl": "das Frühstück", "en": "breakfast", "speak": "das Frühstück" },
-        { "nl": "das Mittagessen", "en": "lunch", "speak": "das Mittagessen" },
-        { "nl": "das Abendbrot", "en": "dinner (bread supper)", "speak": "das Abendbrot" },
-        { "nl": "das Brötchen", "en": "bread roll", "speak": "das Brötchen" },
-        { "nl": "die Marmelade", "en": "jam", "speak": "die Marmelade" }
+        { "target": "das Frühstück", "en": "breakfast", "speak": "das Frühstück" },
+        { "target": "das Mittagessen", "en": "lunch", "speak": "das Mittagessen" },
+        { "target": "das Abendbrot", "en": "dinner (bread supper)", "speak": "das Abendbrot" },
+        { "target": "das Brötchen", "en": "bread roll", "speak": "das Brötchen" },
+        { "target": "die Marmelade", "en": "jam", "speak": "die Marmelade" }
       ]
     },
     {
@@ -53,11 +53,11 @@
       "type": "chips",
       "title": "Was liegt auf dem Brot?",
       "items": [
-        { "nl": "die Wurst", "en": "sausage / cold cuts", "speak": "die Wurst" },
-        { "nl": "der Käse", "en": "cheese", "speak": "der Käse" },
-        { "nl": "die Butter", "en": "butter", "speak": "die Butter" },
-        { "nl": "das Ei", "en": "egg", "speak": "das Ei" },
-        { "nl": "der Honig", "en": "honey", "speak": "der Honig" }
+        { "target": "die Wurst", "en": "sausage / cold cuts", "speak": "die Wurst" },
+        { "target": "der Käse", "en": "cheese", "speak": "der Käse" },
+        { "target": "die Butter", "en": "butter", "speak": "die Butter" },
+        { "target": "das Ei", "en": "egg", "speak": "das Ei" },
+        { "target": "der Honig", "en": "honey", "speak": "der Honig" }
       ]
     },
     {
@@ -78,9 +78,9 @@
       "type": "shadow",
       "title": "Repeat: dein Tag auf Deutsch",
       "lines": [
-        { "nl": "Zum Frühstück esse ich ein Brötchen.", "en": "For breakfast I eat a bread roll." },
-        { "nl": "Zum Mittagessen gibt es oft Kartoffeln.", "en": "For lunch there's often potatoes." },
-        { "nl": "Zum Abendbrot esse ich Brot mit Käse.", "en": "For dinner I eat bread with cheese." }
+        { "target": "Zum Frühstück esse ich ein Brötchen.", "en": "For breakfast I eat a bread roll." },
+        { "target": "Zum Mittagessen gibt es oft Kartoffeln.", "en": "For lunch there's often potatoes." },
+        { "target": "Zum Abendbrot esse ich Brot mit Käse.", "en": "For dinner I eat bread with cheese." }
       ]
     },
     {

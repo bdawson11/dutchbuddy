@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-30",
   "day": 30,
   "module": "M05",
@@ -37,12 +37,12 @@
       "type": "chips",
       "title": "Tik om te horen",
       "items": [
-        { "nl": "Ik ben gegaan", "en": "I went", "speak": "ik ben gegaan" },
-        { "nl": "Ik ben gekomen", "en": "I came", "speak": "ik ben gekomen" },
-        { "nl": "Ik ben gebleven", "en": "I stayed", "speak": "ik ben gebleven" },
-        { "nl": "Het is geworden", "en": "it became", "speak": "het is geworden" },
-        { "nl": "Er is gebeurd", "en": "there happened", "speak": "er is gebeurd" },
-        { "nl": "Ik ben geweest", "en": "I have been", "speak": "ik ben geweest" }
+        { "target": "Ik ben gegaan", "en": "I went", "speak": "ik ben gegaan" },
+        { "target": "Ik ben gekomen", "en": "I came", "speak": "ik ben gekomen" },
+        { "target": "Ik ben gebleven", "en": "I stayed", "speak": "ik ben gebleven" },
+        { "target": "Het is geworden", "en": "it became", "speak": "het is geworden" },
+        { "target": "Er is gebeurd", "en": "there happened", "speak": "er is gebeurd" },
+        { "target": "Ik ben geweest", "en": "I have been", "speak": "ik ben geweest" }
       ]
     },
     {
@@ -84,13 +84,13 @@
       "type": "dialogue",
       "scene": "Monday at the office — Emma is just back from a weekend away.",
       "lines": [
-        { "speaker": "Emma", "nl": "Hoi! Ik ben dit weekend naar Texel geweest.", "en": "Hi! I went to Texel this weekend.", "spotlight": "*geweest* is the participle of *zijn* itself, and it takes *zijn*: ik ben geweest." },
-        { "speaker": "You", "nl": "Leuk! Hoe ben je gegaan?", "en": "Nice! How did you get there?" },
-        { "speaker": "Emma", "nl": "Met de trein. We zijn vroeg vertrokken.", "en": "By train. We left early.", "spotlight": "*vertrekken* (to depart) is movement → zijn: we zijn vertrokken." },
-        { "speaker": "You", "nl": "En is het gezellig geweest?", "en": "And was it fun?" },
-        { "speaker": "Emma", "nl": "Heel gezellig! Maar 's avonds is het koud geworden.", "en": "Very fun! But in the evening it got cold.", "spotlight": "*worden* = to become; change of state → zijn: het is koud geworden." },
-        { "speaker": "You", "nl": "Wanneer ben je weer in Amsterdam gekomen?", "en": "When did you get back to Amsterdam?" },
-        { "speaker": "Emma", "nl": "Zondagavond laat. Het is een lange dag geworden!", "en": "Late Sunday evening. It turned into a long day!" }
+        { "speaker": "Emma", "target": "Hoi! Ik ben dit weekend naar Texel geweest.", "en": "Hi! I went to Texel this weekend.", "spotlight": "*geweest* is the participle of *zijn* itself, and it takes *zijn*: ik ben geweest." },
+        { "speaker": "You", "target": "Leuk! Hoe ben je gegaan?", "en": "Nice! How did you get there?" },
+        { "speaker": "Emma", "target": "Met de trein. We zijn vroeg vertrokken.", "en": "By train. We left early.", "spotlight": "*vertrekken* (to depart) is movement → zijn: we zijn vertrokken." },
+        { "speaker": "You", "target": "En is het gezellig geweest?", "en": "And was it fun?" },
+        { "speaker": "Emma", "target": "Heel gezellig! Maar 's avonds is het koud geworden.", "en": "Very fun! But in the evening it got cold.", "spotlight": "*worden* = to become; change of state → zijn: het is koud geworden." },
+        { "speaker": "You", "target": "Wanneer ben je weer in Amsterdam gekomen?", "en": "When did you get back to Amsterdam?" },
+        { "speaker": "Emma", "target": "Zondagavond laat. Het is een lange dag geworden!", "en": "Late Sunday evening. It turned into a long day!" }
       ]
     },
     {

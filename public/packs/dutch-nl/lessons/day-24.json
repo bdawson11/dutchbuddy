@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-24",
   "day": 24,
   "module": "M04",
@@ -35,12 +35,12 @@
       "type": "chips",
       "title": "Tap to hear modal + infinitive",
       "items": [
-        { "nl": "Ik kan koken", "en": "I can cook", "speak": "Ik kan koken" },
-        { "nl": "Ik wil dansen", "en": "I want to dance", "speak": "Ik wil dansen" },
-        { "nl": "Je moet proeven", "en": "you must taste it", "speak": "Je moet proeven" },
-        { "nl": "Mag ik roken?", "en": "may I smoke?", "speak": "Mag ik roken?" },
-        { "nl": "Kun je helpen?", "en": "can you help?", "speak": "Kun je helpen?" },
-        { "nl": "We moeten gaan", "en": "we have to go", "speak": "We moeten gaan" }
+        { "target": "Ik kan koken", "en": "I can cook", "speak": "Ik kan koken" },
+        { "target": "Ik wil dansen", "en": "I want to dance", "speak": "Ik wil dansen" },
+        { "target": "Je moet proeven", "en": "you must taste it", "speak": "Je moet proeven" },
+        { "target": "Mag ik roken?", "en": "may I smoke?", "speak": "Mag ik roken?" },
+        { "target": "Kun je helpen?", "en": "can you help?", "speak": "Kun je helpen?" },
+        { "target": "We moeten gaan", "en": "we have to go", "speak": "We moeten gaan" }
       ]
     },
     {
@@ -85,10 +85,10 @@
       "type": "shadow",
       "title": "Repeat after the audio",
       "lines": [
-        { "nl": "Ik wil graag een koffie.", "en": "I'd like a coffee." },
-        { "nl": "Kun je me helpen?", "en": "Can you help me?" },
-        { "nl": "Je moet dit proberen.", "en": "You must try this." },
-        { "nl": "Mag ik hier zitten?", "en": "May I sit here?" }
+        { "target": "Ik wil graag een koffie.", "en": "I'd like a coffee." },
+        { "target": "Kun je me helpen?", "en": "Can you help me?" },
+        { "target": "Je moet dit proberen.", "en": "You must try this." },
+        { "target": "Mag ik hier zitten?", "en": "May I sit here?" }
       ]
     },
     {

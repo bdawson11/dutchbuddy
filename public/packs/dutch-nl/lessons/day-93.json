@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-93",
   "day": 93,
   "module": "M14",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Zou — tik om te horen",
       "items": [
-        { "nl": "Zou je me kunnen helpen?", "en": "Could you help me?", "speak": "Zou je me kunnen helpen?" },
-        { "nl": "Ik zou graag een koffie willen.", "en": "I'd like a coffee.", "speak": "Ik zou graag een koffie willen." },
-        { "nl": "Je zou eens moeten uitrusten.", "en": "You should get some rest sometime.", "speak": "Je zou eens moeten uitrusten." },
-        { "nl": "Dat zou ik nooit doen.", "en": "I'd never do that.", "speak": "Dat zou ik nooit doen." },
-        { "nl": "Zou dat mogen?", "en": "Would that be allowed?", "speak": "Zou dat mogen?" },
-        { "nl": "We zouden het kunnen proberen.", "en": "We could give it a try.", "speak": "We zouden het kunnen proberen." }
+        { "target": "Zou je me kunnen helpen?", "en": "Could you help me?", "speak": "Zou je me kunnen helpen?" },
+        { "target": "Ik zou graag een koffie willen.", "en": "I'd like a coffee.", "speak": "Ik zou graag een koffie willen." },
+        { "target": "Je zou eens moeten uitrusten.", "en": "You should get some rest sometime.", "speak": "Je zou eens moeten uitrusten." },
+        { "target": "Dat zou ik nooit doen.", "en": "I'd never do that.", "speak": "Dat zou ik nooit doen." },
+        { "target": "Zou dat mogen?", "en": "Would that be allowed?", "speak": "Zou dat mogen?" },
+        { "target": "We zouden het kunnen proberen.", "en": "We could give it a try.", "speak": "We zouden het kunnen proberen." }
       ]
     },
     {
@@ -72,14 +72,14 @@
       "type": "dialogue",
       "scene": "Daan floats a vague plan for the weekend. Everything stays tentative.",
       "lines": [
-        { "speaker": "Daan", "nl": "Zeg, zou je zin hebben om zaterdag iets te doen?", "en": "Say, would you feel like doing something Saturday?" },
-        { "speaker": "You", "nl": "Misschien. Wat zou je willen?", "en": "Maybe. What would you like?" },
-        { "speaker": "Daan", "nl": "Ik zou wel naar dat nieuwe café willen. Of we zouden kunnen fietsen.", "en": "I'd fancy that new café. Or we could go cycling.", "spotlight": "*zou willen* (wens) + *zouden kunnen* (mogelijkheid)." },
-        { "speaker": "You", "nl": "Fietsen zou leuk zijn, als het niet regent.", "en": "Cycling would be nice, if it doesn't rain." },
-        { "speaker": "Daan", "nl": "Anders zouden we ook gewoon binnen kunnen blijven.", "en": "Otherwise we could just stay in." },
-        { "speaker": "You", "nl": "Zou kunnen. Ik zou het rond het weekend even laten weten.", "en": "Could be. I'd let you know around the weekend." },
-        { "speaker": "Daan", "nl": "Prima. Dan zou ik het aan Emma kunnen vragen.", "en": "Fine. Then I could ask Emma." },
-        { "speaker": "You", "nl": "Doe maar. Klinkt goed.", "en": "Go ahead. Sounds good." }
+        { "speaker": "Daan", "target": "Zeg, zou je zin hebben om zaterdag iets te doen?", "en": "Say, would you feel like doing something Saturday?" },
+        { "speaker": "You", "target": "Misschien. Wat zou je willen?", "en": "Maybe. What would you like?" },
+        { "speaker": "Daan", "target": "Ik zou wel naar dat nieuwe café willen. Of we zouden kunnen fietsen.", "en": "I'd fancy that new café. Or we could go cycling.", "spotlight": "*zou willen* (wens) + *zouden kunnen* (mogelijkheid)." },
+        { "speaker": "You", "target": "Fietsen zou leuk zijn, als het niet regent.", "en": "Cycling would be nice, if it doesn't rain." },
+        { "speaker": "Daan", "target": "Anders zouden we ook gewoon binnen kunnen blijven.", "en": "Otherwise we could just stay in." },
+        { "speaker": "You", "target": "Zou kunnen. Ik zou het rond het weekend even laten weten.", "en": "Could be. I'd let you know around the weekend." },
+        { "speaker": "Daan", "target": "Prima. Dan zou ik het aan Emma kunnen vragen.", "en": "Fine. Then I could ask Emma." },
+        { "speaker": "You", "target": "Doe maar. Klinkt goed.", "en": "Go ahead. Sounds good." }
       ]
     },
     {

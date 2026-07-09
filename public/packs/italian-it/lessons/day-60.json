@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-60",
   "day": 60,
   "module": "M09",
@@ -38,12 +38,12 @@
       "type": "chips",
       "title": "Chiedere con gentilezza — ascolta",
       "items": [
-        { "nl": "Vorrei un caffè, per favore.", "en": "I'd like a coffee, please.", "speak": "Vorrei un caffè, per favore." },
-        { "nl": "Potrebbe aiutarmi?", "en": "Could you help me?", "speak": "Potrebbe aiutarmi?" },
-        { "nl": "Mi daresti una mano?", "en": "Would you give me a hand?", "speak": "Mi daresti una mano?" },
-        { "nl": "Dovresti riposare un po'.", "en": "You should rest a bit.", "speak": "Dovresti riposare un po'." },
-        { "nl": "Mi piacerebbe venire.", "en": "I'd love to come.", "speak": "Mi piacerebbe venire." },
-        { "nl": "Sarebbe possibile?", "en": "Would it be possible?", "speak": "Sarebbe possibile?" }
+        { "target": "Vorrei un caffè, per favore.", "en": "I'd like a coffee, please.", "speak": "Vorrei un caffè, per favore." },
+        { "target": "Potrebbe aiutarmi?", "en": "Could you help me?", "speak": "Potrebbe aiutarmi?" },
+        { "target": "Mi daresti una mano?", "en": "Would you give me a hand?", "speak": "Mi daresti una mano?" },
+        { "target": "Dovresti riposare un po'.", "en": "You should rest a bit.", "speak": "Dovresti riposare un po'." },
+        { "target": "Mi piacerebbe venire.", "en": "I'd love to come.", "speak": "Mi piacerebbe venire." },
+        { "target": "Sarebbe possibile?", "en": "Would it be possible?", "speak": "Sarebbe possibile?" }
       ]
     },
     {
@@ -88,13 +88,13 @@
       "type": "dialogue",
       "scene": "At a café, you order and ask Pietro, visiting from Naples, for advice.",
       "lines": [
-        { "speaker": "You", "nl": "Buongiorno, vorrei un cappuccino e un cornetto, per favore.", "en": "Good morning, I'd like a cappuccino and a croissant, please." },
-        { "speaker": "Pietro", "nl": "Per me un caffè. Senti, mi consiglieresti un buon ristorante?", "en": "A coffee for me. Say, would you recommend a good restaurant?", "spotlight": "Polite request with the condizionale: *mi consiglieresti…?*" },
-        { "speaker": "You", "nl": "Certo. Dovresti provare la trattoria vicino alla piazza.", "en": "Sure. You should try the trattoria near the piazza." },
-        { "speaker": "Pietro", "nl": "Ottimo. Potremmo andarci domani sera?", "en": "Great. Could we go there tomorrow evening?" },
-        { "speaker": "You", "nl": "Volentieri, mi piacerebbe molto. Prenoterei per le otto.", "en": "Gladly, I'd love that. I'd book for eight." },
-        { "speaker": "Pietro", "nl": "Perfetto. Potresti chiamare tu? Il mio italiano al telefono è un disastro.", "en": "Perfect. Could you call? My Italian on the phone is a disaster." },
-        { "speaker": "You", "nl": "Tranquillo, chiamo io. Sarebbe meglio prenotare presto.", "en": "No worries, I'll call. It'd be better to book early." }
+        { "speaker": "You", "target": "Buongiorno, vorrei un cappuccino e un cornetto, per favore.", "en": "Good morning, I'd like a cappuccino and a croissant, please." },
+        { "speaker": "Pietro", "target": "Per me un caffè. Senti, mi consiglieresti un buon ristorante?", "en": "A coffee for me. Say, would you recommend a good restaurant?", "spotlight": "Polite request with the condizionale: *mi consiglieresti…?*" },
+        { "speaker": "You", "target": "Certo. Dovresti provare la trattoria vicino alla piazza.", "en": "Sure. You should try the trattoria near the piazza." },
+        { "speaker": "Pietro", "target": "Ottimo. Potremmo andarci domani sera?", "en": "Great. Could we go there tomorrow evening?" },
+        { "speaker": "You", "target": "Volentieri, mi piacerebbe molto. Prenoterei per le otto.", "en": "Gladly, I'd love that. I'd book for eight." },
+        { "speaker": "Pietro", "target": "Perfetto. Potresti chiamare tu? Il mio italiano al telefono è un disastro.", "en": "Perfect. Could you call? My Italian on the phone is a disaster." },
+        { "speaker": "You", "target": "Tranquillo, chiamo io. Sarebbe meglio prenotare presto.", "en": "No worries, I'll call. It'd be better to book early." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-90",
   "day": 90,
   "module": "M13",
@@ -42,16 +42,16 @@
       "type": "dialogue",
       "scene": "At the bar. Marco is worked up about how Bologna is changing.",
       "lines": [
-        { "speaker": "Marco", "nl": "Guarda, non è più la Bologna di una volta, te lo dico io.", "en": "Look, it's not the Bologna it used to be, I'm telling you." },
-        { "speaker": "You", "nl": "Davvero? Pensavo che fosse sempre uguale.", "en": "Really? I thought it was always the same.", "spotlight": "congiuntivo imperfetto dopo 'pensavo'." },
-        { "speaker": "Marco", "nl": "Ma no! Benché sia ancora bellissima, è tutta più cara.", "en": "No! Even though it's still gorgeous, it's all more expensive.", "spotlight": "'benché sia' — congiuntivo dopo benché." },
-        { "speaker": "Marco", "nl": "Credo che abbiano chiuso metà dei bar storici.", "en": "I think they've closed half the historic bars.", "spotlight": "'abbiano chiuso' — congiuntivo passato." },
-        { "speaker": "You", "nl": "Non sapevo che fossero spariti così tanti locali.", "en": "I didn't know so many places had disappeared.", "spotlight": "'fossero spariti' — congiuntivo trapassato." },
-        { "speaker": "Marco", "nl": "Eh. Prima che arrivassero i turisti, si stava meglio, secondo me.", "en": "Yeah. Before the tourists came, things were better, I reckon.", "spotlight": "'prima che arrivassero' — prima che + congiuntivo." },
-        { "speaker": "You", "nl": "Boh, però è normale che una città cambi, no?", "en": "Dunno, but it's normal for a city to change, right?" },
-        { "speaker": "Marco", "nl": "Sì, purché non perda la sua anima.", "en": "Yeah, as long as it doesn't lose its soul.", "spotlight": "'purché non perda' — purché + congiuntivo." },
-        { "speaker": "You", "nl": "Su questo hai ragione.", "en": "On that you're right." },
-        { "speaker": "Marco", "nl": "Comunque, benché mi lamenti, non me ne andrei mai da qui.", "en": "Anyway, even though I complain, I'd never leave this place." }
+        { "speaker": "Marco", "target": "Guarda, non è più la Bologna di una volta, te lo dico io.", "en": "Look, it's not the Bologna it used to be, I'm telling you." },
+        { "speaker": "You", "target": "Davvero? Pensavo che fosse sempre uguale.", "en": "Really? I thought it was always the same.", "spotlight": "congiuntivo imperfetto dopo 'pensavo'." },
+        { "speaker": "Marco", "target": "Ma no! Benché sia ancora bellissima, è tutta più cara.", "en": "No! Even though it's still gorgeous, it's all more expensive.", "spotlight": "'benché sia' — congiuntivo dopo benché." },
+        { "speaker": "Marco", "target": "Credo che abbiano chiuso metà dei bar storici.", "en": "I think they've closed half the historic bars.", "spotlight": "'abbiano chiuso' — congiuntivo passato." },
+        { "speaker": "You", "target": "Non sapevo che fossero spariti così tanti locali.", "en": "I didn't know so many places had disappeared.", "spotlight": "'fossero spariti' — congiuntivo trapassato." },
+        { "speaker": "Marco", "target": "Eh. Prima che arrivassero i turisti, si stava meglio, secondo me.", "en": "Yeah. Before the tourists came, things were better, I reckon.", "spotlight": "'prima che arrivassero' — prima che + congiuntivo." },
+        { "speaker": "You", "target": "Boh, però è normale che una città cambi, no?", "en": "Dunno, but it's normal for a city to change, right?" },
+        { "speaker": "Marco", "target": "Sì, purché non perda la sua anima.", "en": "Yeah, as long as it doesn't lose its soul.", "spotlight": "'purché non perda' — purché + congiuntivo." },
+        { "speaker": "You", "target": "Su questo hai ragione.", "en": "On that you're right." },
+        { "speaker": "Marco", "target": "Comunque, benché mi lamenti, non me ne andrei mai da qui.", "en": "Anyway, even though I complain, I'd never leave this place." }
       ]
     },
     {

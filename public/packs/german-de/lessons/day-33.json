@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-33",
   "day": 33,
   "module": "M05",
@@ -35,14 +35,14 @@
       "type": "chips",
       "title": "Bahn-Wörter zum Hören",
       "items": [
-        { "nl": "die Bahn", "en": "the railway", "speak": "die Bahn" },
-        { "nl": "der Zug", "en": "the train", "speak": "der Zug" },
-        { "nl": "die S-Bahn", "en": "the suburban train", "speak": "die S-Bahn" },
-        { "nl": "die U-Bahn", "en": "the underground", "speak": "die U-Bahn" },
-        { "nl": "umsteigen", "en": "to transfer", "speak": "umsteigen" },
-        { "nl": "die Verspätung", "en": "the delay", "speak": "die Verspätung" },
-        { "nl": "das Gleis", "en": "the track", "speak": "das Gleis" },
-        { "nl": "der Bahnsteig", "en": "the platform", "speak": "der Bahnsteig" }
+        { "target": "die Bahn", "en": "the railway", "speak": "die Bahn" },
+        { "target": "der Zug", "en": "the train", "speak": "der Zug" },
+        { "target": "die S-Bahn", "en": "the suburban train", "speak": "die S-Bahn" },
+        { "target": "die U-Bahn", "en": "the underground", "speak": "die U-Bahn" },
+        { "target": "umsteigen", "en": "to transfer", "speak": "umsteigen" },
+        { "target": "die Verspätung", "en": "the delay", "speak": "die Verspätung" },
+        { "target": "das Gleis", "en": "the track", "speak": "das Gleis" },
+        { "target": "der Bahnsteig", "en": "the platform", "speak": "der Bahnsteig" }
       ]
     },
     {
@@ -72,13 +72,13 @@
       "type": "dialogue",
       "scene": "At Berlin Hauptbahnhof, you and Jonas are catching a train together.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Na, welches Gleis ist das noch mal?", "en": "So, which platform is it again?" },
-        { "speaker": "You", "nl": "Gleis 9. Der Zug fährt in fünf Minuten.", "en": "Platform 9. The train leaves in five minutes." },
-        { "speaker": "Jonas", "nl": "Fünf Minuten? Echt jetzt? Wir müssen rennen!", "en": "Five minutes? Seriously? We have to run!" },
-        { "speaker": "You", "nl": "Keine Sorge, er hat bestimmt eh Verspätung.", "en": "Don't worry, it's probably delayed anyway.", "spotlight": "*Verspätung haben* — der klassische Deutsche-Bahn-Witz." },
-        { "speaker": "Jonas", "nl": "Haha, stimmt. Müssen wir in Leipzig umsteigen?", "en": "Haha, true. Do we have to change in Leipzig?" },
-        { "speaker": "You", "nl": "Ja, wir steigen dort um und nehmen die Regionalbahn weiter.", "en": "Yes, we change there and take the regional train onward." },
-        { "speaker": "Jonas", "nl": "Alles klar. Hauptsache, wir kommen pünktlich an.", "en": "Alright. Main thing is we arrive on time." }
+        { "speaker": "Jonas", "target": "Na, welches Gleis ist das noch mal?", "en": "So, which platform is it again?" },
+        { "speaker": "You", "target": "Gleis 9. Der Zug fährt in fünf Minuten.", "en": "Platform 9. The train leaves in five minutes." },
+        { "speaker": "Jonas", "target": "Fünf Minuten? Echt jetzt? Wir müssen rennen!", "en": "Five minutes? Seriously? We have to run!" },
+        { "speaker": "You", "target": "Keine Sorge, er hat bestimmt eh Verspätung.", "en": "Don't worry, it's probably delayed anyway.", "spotlight": "*Verspätung haben* — der klassische Deutsche-Bahn-Witz." },
+        { "speaker": "Jonas", "target": "Haha, stimmt. Müssen wir in Leipzig umsteigen?", "en": "Haha, true. Do we have to change in Leipzig?" },
+        { "speaker": "You", "target": "Ja, wir steigen dort um und nehmen die Regionalbahn weiter.", "en": "Yes, we change there and take the regional train onward." },
+        { "speaker": "Jonas", "target": "Alles klar. Hauptsache, wir kommen pünktlich an.", "en": "Alright. Main thing is we arrive on time." }
       ]
     },
     {

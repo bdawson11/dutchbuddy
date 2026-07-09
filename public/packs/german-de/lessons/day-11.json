@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-11",
   "day": 11,
   "module": "M02",
@@ -31,12 +31,12 @@
       "type": "chips",
       "title": "Die Endungen hören",
       "items": [
-        { "nl": "ich mache", "en": "I do/make", "speak": "ich mache" },
-        { "nl": "du machst", "en": "you do/make", "speak": "du machst" },
-        { "nl": "er macht", "en": "he does/makes", "speak": "er macht" },
-        { "nl": "wir machen", "en": "we do/make", "speak": "wir machen" },
-        { "nl": "ihr macht", "en": "you all do/make", "speak": "ihr macht" },
-        { "nl": "sie machen", "en": "they do/make", "speak": "sie machen" }
+        { "target": "ich mache", "en": "I do/make", "speak": "ich mache" },
+        { "target": "du machst", "en": "you do/make", "speak": "du machst" },
+        { "target": "er macht", "en": "he does/makes", "speak": "er macht" },
+        { "target": "wir machen", "en": "we do/make", "speak": "wir machen" },
+        { "target": "ihr macht", "en": "you all do/make", "speak": "ihr macht" },
+        { "target": "sie machen", "en": "they do/make", "speak": "sie machen" }
       ]
     },
     {
@@ -88,11 +88,11 @@
       "type": "dialogue",
       "scene": "Klaus tells you about his week in Cologne.",
       "lines": [
-        { "speaker": "Klaus", "nl": "Ich arbeite als Architekt hier in Köln.", "en": "I work as an architect here in Cologne." },
-        { "speaker": "You", "nl": "Und wie sieht dein Tag aus?", "en": "And what does your day look like?" },
-        { "speaker": "Klaus", "nl": "Morgens arbeite ich, abends koche ich gern.", "en": "In the mornings I work, in the evenings I like to cook.", "spotlight": "*Morgens arbeite ich* — time word first, verb second, subject third. V2 in action." },
-        { "speaker": "You", "nl": "Kochst du oft?", "en": "Do you cook often?" },
-        { "speaker": "Klaus", "nl": "Ja, fast jeden Tag. In Köln kochen viele gern.", "en": "Yes, almost every day. In Cologne, a lot of people like to cook." }
+        { "speaker": "Klaus", "target": "Ich arbeite als Architekt hier in Köln.", "en": "I work as an architect here in Cologne." },
+        { "speaker": "You", "target": "Und wie sieht dein Tag aus?", "en": "And what does your day look like?" },
+        { "speaker": "Klaus", "target": "Morgens arbeite ich, abends koche ich gern.", "en": "In the mornings I work, in the evenings I like to cook.", "spotlight": "*Morgens arbeite ich* — time word first, verb second, subject third. V2 in action." },
+        { "speaker": "You", "target": "Kochst du oft?", "en": "Do you cook often?" },
+        { "speaker": "Klaus", "target": "Ja, fast jeden Tag. In Köln kochen viele gern.", "en": "Yes, almost every day. In Cologne, a lot of people like to cook." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-24",
   "day": 24,
   "module": "M04",
@@ -29,11 +29,11 @@
       "type": "chips",
       "title": "I modali in frase — ascolta",
       "items": [
-        { "nl": "Posso entrare?", "en": "Can I come in?", "speak": "Posso entrare?" },
-        { "nl": "Vuoi venire?", "en": "Do you want to come?", "speak": "Vuoi venire?" },
-        { "nl": "Devo andare.", "en": "I have to go.", "speak": "Devo andare." },
-        { "nl": "Vuole un caffè?", "en": "Would you like a coffee? (formal)", "speak": "Vuole un caffè?" },
-        { "nl": "Non posso oggi.", "en": "I can't today.", "speak": "Non posso oggi." }
+        { "target": "Posso entrare?", "en": "Can I come in?", "speak": "Posso entrare?" },
+        { "target": "Vuoi venire?", "en": "Do you want to come?", "speak": "Vuoi venire?" },
+        { "target": "Devo andare.", "en": "I have to go.", "speak": "Devo andare." },
+        { "target": "Vuole un caffè?", "en": "Would you like a coffee? (formal)", "speak": "Vuole un caffè?" },
+        { "target": "Non posso oggi.", "en": "I can't today.", "speak": "Non posso oggi." }
       ]
     },
     {
@@ -67,9 +67,9 @@
       "type": "shadow",
       "title": "I modali in azione",
       "lines": [
-        { "nl": "Posso provare questo vino?", "en": "Can I try this wine?" },
-        { "nl": "Vuoi un caffè?", "en": "Do you want a coffee?" },
-        { "nl": "Devo tornare al lavoro.", "en": "I have to go back to work." }
+        { "target": "Posso provare questo vino?", "en": "Can I try this wine?" },
+        { "target": "Vuoi un caffè?", "en": "Do you want a coffee?" },
+        { "target": "Devo tornare al lavoro.", "en": "I have to go back to work." }
       ]
     },
     {

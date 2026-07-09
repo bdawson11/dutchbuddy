@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-43",
   "day": 43,
   "module": "M07",
@@ -38,12 +38,12 @@
       "type": "chips",
       "title": "Marcadores del indefinido",
       "items": [
-        { "nl": "ayer", "en": "yesterday", "speak": "ayer" },
-        { "nl": "anteayer", "en": "the day before yesterday", "speak": "anteayer" },
-        { "nl": "el año pasado", "en": "last year", "speak": "el año pasado" },
-        { "nl": "la semana pasada", "en": "last week", "speak": "la semana pasada" },
-        { "nl": "hace dos años", "en": "two years ago", "speak": "hace dos años" },
-        { "nl": "el lunes", "en": "on Monday", "speak": "el lunes" }
+        { "target": "ayer", "en": "yesterday", "speak": "ayer" },
+        { "target": "anteayer", "en": "the day before yesterday", "speak": "anteayer" },
+        { "target": "el año pasado", "en": "last year", "speak": "el año pasado" },
+        { "target": "la semana pasada", "en": "last week", "speak": "la semana pasada" },
+        { "target": "hace dos años", "en": "two years ago", "speak": "hace dos años" },
+        { "target": "el lunes", "en": "on Monday", "speak": "el lunes" }
       ]
     },
     {
@@ -84,11 +84,11 @@
       "type": "dialogue",
       "scene": "Lucía asks about your day yesterday",
       "lines": [
-        { "speaker": "Lucía", "nl": "¿Qué tal ayer? ¿Trabajaste mucho?", "en": "How was yesterday? Did you work a lot?" },
-        { "speaker": "You", "nl": "Sí, trabajé toda la mañana, pero comí con Sofía.", "en": "Yes, I worked all morning, but I had lunch with Sofía." },
-        { "speaker": "Lucía", "nl": "¡Qué bien! ¿Y por la tarde?", "en": "Nice! And in the afternoon?" },
-        { "speaker": "You", "nl": "Escuché música y hablé con mi familia.", "en": "I listened to music and talked with my family.", "spotlight": "hablé lleva tilde: la terminación -é siempre se acentúa." },
-        { "speaker": "Lucía", "nl": "Yo cené con Rafa y volvimos tarde a casa.", "en": "I had dinner with Rafa and we got back home late." }
+        { "speaker": "Lucía", "target": "¿Qué tal ayer? ¿Trabajaste mucho?", "en": "How was yesterday? Did you work a lot?" },
+        { "speaker": "You", "target": "Sí, trabajé toda la mañana, pero comí con Sofía.", "en": "Yes, I worked all morning, but I had lunch with Sofía." },
+        { "speaker": "Lucía", "target": "¡Qué bien! ¿Y por la tarde?", "en": "Nice! And in the afternoon?" },
+        { "speaker": "You", "target": "Escuché música y hablé con mi familia.", "en": "I listened to music and talked with my family.", "spotlight": "hablé lleva tilde: la terminación -é siempre se acentúa." },
+        { "speaker": "Lucía", "target": "Yo cené con Rafa y volvimos tarde a casa.", "en": "I had dinner with Rafa and we got back home late." }
       ]
     },
     {

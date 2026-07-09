@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-05",
   "day": 5,
   "module": "M01",
@@ -31,11 +31,11 @@
       "type": "chips",
       "title": "haben — tap to hear",
       "items": [
-        { "nl": "Ich habe Zeit.", "en": "I have time.", "speak": "Ich habe Zeit." },
-        { "nl": "Hast du Hunger?", "en": "Are you hungry?", "speak": "Hast du Hunger?" },
-        { "nl": "Wir haben Durst.", "en": "We're thirsty.", "speak": "Wir haben Durst." },
-        { "nl": "Sie hat ein Auto.", "en": "She has a car.", "speak": "Sie hat ein Auto." },
-        { "nl": "Ihr habt Glück.", "en": "You all are lucky.", "speak": "Ihr habt Glück." }
+        { "target": "Ich habe Zeit.", "en": "I have time.", "speak": "Ich habe Zeit." },
+        { "target": "Hast du Hunger?", "en": "Are you hungry?", "speak": "Hast du Hunger?" },
+        { "target": "Wir haben Durst.", "en": "We're thirsty.", "speak": "Wir haben Durst." },
+        { "target": "Sie hat ein Auto.", "en": "She has a car.", "speak": "Sie hat ein Auto." },
+        { "target": "Ihr habt Glück.", "en": "You all are lucky.", "speak": "Ihr habt Glück." }
       ]
     },
     {
@@ -76,21 +76,21 @@
       "type": "shadow",
       "title": "Negation — repeat after the audio",
       "lines": [
-        { "nl": "Ich habe keine Zeit.", "en": "I have no time." },
-        { "nl": "Das ist nicht gut.", "en": "That's not good." },
-        { "nl": "Ich bin nicht müde.", "en": "I'm not tired." },
-        { "nl": "Wir haben keinen Hunger.", "en": "We're not hungry." }
+        { "target": "Ich habe keine Zeit.", "en": "I have no time." },
+        { "target": "Das ist nicht gut.", "en": "That's not good." },
+        { "target": "Ich bin nicht müde.", "en": "I'm not tired." },
+        { "target": "Wir haben keinen Hunger.", "en": "We're not hungry." }
       ]
     },
     {
       "type": "dialogue",
       "scene": "Café with Jonas. He's hungry; you're not — yet.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Ich habe Hunger. Hast du auch Hunger?", "en": "I'm hungry. Are you hungry too?" },
-        { "speaker": "You", "nl": "Nein, ich habe keinen Hunger. Aber ich habe Durst.", "en": "No, I'm not hungry. But I'm thirsty.", "spotlight": "*keinen Hunger* — negate the noun with kein, not nicht." },
-        { "speaker": "Jonas", "nl": "Okay. Hast du Zeit für einen Kaffee?", "en": "Okay. Do you have time for a coffee?" },
-        { "speaker": "You", "nl": "Ja, aber nicht lange.", "en": "Yes, but not for long." },
-        { "speaker": "Jonas", "nl": "Kein Problem. Ein Kaffee ist schnell.", "en": "No problem. A coffee is quick.", "spotlight": "*Kein Problem* — the everyday \"no worries\"." }
+        { "speaker": "Jonas", "target": "Ich habe Hunger. Hast du auch Hunger?", "en": "I'm hungry. Are you hungry too?" },
+        { "speaker": "You", "target": "Nein, ich habe keinen Hunger. Aber ich habe Durst.", "en": "No, I'm not hungry. But I'm thirsty.", "spotlight": "*keinen Hunger* — negate the noun with kein, not nicht." },
+        { "speaker": "Jonas", "target": "Okay. Hast du Zeit für einen Kaffee?", "en": "Okay. Do you have time for a coffee?" },
+        { "speaker": "You", "target": "Ja, aber nicht lange.", "en": "Yes, but not for long." },
+        { "speaker": "Jonas", "target": "Kein Problem. Ein Kaffee ist schnell.", "en": "No problem. A coffee is quick.", "spotlight": "*Kein Problem* — the everyday \"no worries\"." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-80",
   "day": 80,
   "module": "M12",
@@ -29,12 +29,12 @@
       "type": "chips",
       "title": "Tap to hear the snackbar words",
       "items": [
-        { "nl": "een patatje met", "en": "fries with mayo", "speak": "een patatje met" },
-        { "nl": "een patatje oorlog", "en": "'war fries'", "speak": "een patatje oorlog" },
-        { "nl": "een frikandel speciaal", "en": "a frikandel speciaal", "speak": "een frikandel speciaal" },
-        { "nl": "een kroket", "en": "a croquette", "speak": "een kroket" },
-        { "nl": "Doe mij maar…", "en": "I'll have… (the way to order)", "speak": "Doe mij maar een frikandel." },
-        { "nl": "Mag ik afrekenen?", "en": "Can I pay?", "speak": "Mag ik afrekenen?" }
+        { "target": "een patatje met", "en": "fries with mayo", "speak": "een patatje met" },
+        { "target": "een patatje oorlog", "en": "'war fries'", "speak": "een patatje oorlog" },
+        { "target": "een frikandel speciaal", "en": "a frikandel speciaal", "speak": "een frikandel speciaal" },
+        { "target": "een kroket", "en": "a croquette", "speak": "een kroket" },
+        { "target": "Doe mij maar…", "en": "I'll have… (the way to order)", "speak": "Doe mij maar een frikandel." },
+        { "target": "Mag ik afrekenen?", "en": "Can I pay?", "speak": "Mag ik afrekenen?" }
       ]
     },
     {
@@ -47,15 +47,15 @@
       "type": "dialogue",
       "scene": "You and Bram at his favorite snackbar in Rotterdam.",
       "lines": [
-        { "speaker": "Bram", "nl": "Kijk, dít is nou een echte snackbar. Geen poespas.", "en": "Look, THIS is a real snackbar. No fuss.", "spotlight": "Bram, ever the proud Rotterdammer." },
-        { "speaker": "You", "nl": "Wat neem jij?", "en": "What are you having?" },
-        { "speaker": "Bram", "nl": "Een patatje oorlog en een frikandel speciaal. Altijd.", "en": "War fries and a frikandel speciaal. Always." },
-        { "speaker": "You", "nl": "Oorlog… dat klinkt heftig.", "en": "War… that sounds intense." },
-        { "speaker": "Bram", "nl": "Patat met mayo, pindasaus en ui. Geloof me, proef het maar.", "en": "Fries with mayo, peanut sauce and onion. Trust me, just try it.", "spotlight": "patatje oorlog, explained." },
-        { "speaker": "You", "nl": "Oké. Doe mij maar hetzelfde.", "en": "Okay. I'll have the same.", "spotlight": "Doe mij maar — the standard order." },
-        { "speaker": "Bram", "nl": "Twee keer oorlog en een frikandel speciaal, alstublieft.", "en": "Two war fries and a frikandel speciaal, please." },
-        { "speaker": "You", "nl": "En een kroket erbij?", "en": "And a croquette with it?" },
-        { "speaker": "Bram", "nl": "Zie je wel, je wordt een echte Nederlander.", "en": "See, you're turning into a real Dutchman." }
+        { "speaker": "Bram", "target": "Kijk, dít is nou een echte snackbar. Geen poespas.", "en": "Look, THIS is a real snackbar. No fuss.", "spotlight": "Bram, ever the proud Rotterdammer." },
+        { "speaker": "You", "target": "Wat neem jij?", "en": "What are you having?" },
+        { "speaker": "Bram", "target": "Een patatje oorlog en een frikandel speciaal. Altijd.", "en": "War fries and a frikandel speciaal. Always." },
+        { "speaker": "You", "target": "Oorlog… dat klinkt heftig.", "en": "War… that sounds intense." },
+        { "speaker": "Bram", "target": "Patat met mayo, pindasaus en ui. Geloof me, proef het maar.", "en": "Fries with mayo, peanut sauce and onion. Trust me, just try it.", "spotlight": "patatje oorlog, explained." },
+        { "speaker": "You", "target": "Oké. Doe mij maar hetzelfde.", "en": "Okay. I'll have the same.", "spotlight": "Doe mij maar — the standard order." },
+        { "speaker": "Bram", "target": "Twee keer oorlog en een frikandel speciaal, alstublieft.", "en": "Two war fries and a frikandel speciaal, please." },
+        { "speaker": "You", "target": "En een kroket erbij?", "en": "And a croquette with it?" },
+        { "speaker": "Bram", "target": "Zie je wel, je wordt een echte Nederlander.", "en": "See, you're turning into a real Dutchman." }
       ]
     },
     {
@@ -76,12 +76,12 @@
       "type": "chips",
       "title": "Tap to hear the borrel script",
       "items": [
-        { "nl": "Proost!", "en": "Cheers!", "speak": "Proost!" },
-        { "nl": "Ik geef een rondje.", "en": "The round's on me.", "speak": "Ik geef een rondje." },
-        { "nl": "Zullen we bittergarnituur nemen?", "en": "Shall we get a snack platter?", "speak": "Zullen we bittergarnituur nemen?" },
-        { "nl": "Waar drinken we op?", "en": "What are we drinking to?", "speak": "Waar drinken we op?" },
-        { "nl": "Op ons!", "en": "To us!", "speak": "Op ons!" },
-        { "nl": "Wat gezellig, hè?", "en": "So cozy, right?", "speak": "Wat gezellig, hè?" }
+        { "target": "Proost!", "en": "Cheers!", "speak": "Proost!" },
+        { "target": "Ik geef een rondje.", "en": "The round's on me.", "speak": "Ik geef een rondje." },
+        { "target": "Zullen we bittergarnituur nemen?", "en": "Shall we get a snack platter?", "speak": "Zullen we bittergarnituur nemen?" },
+        { "target": "Waar drinken we op?", "en": "What are we drinking to?", "speak": "Waar drinken we op?" },
+        { "target": "Op ons!", "en": "To us!", "speak": "Op ons!" },
+        { "target": "Wat gezellig, hè?", "en": "So cozy, right?", "speak": "Wat gezellig, hè?" }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-39",
   "day": 39,
   "module": "M06",
@@ -31,12 +31,12 @@
       "type": "chips",
       "title": "Tap to hear the feelings",
       "items": [
-        { "nl": "blij", "en": "happy", "speak": "blij" },
-        { "nl": "boos", "en": "angry", "speak": "boos" },
-        { "nl": "moe", "en": "tired", "speak": "moe" },
-        { "nl": "bang", "en": "scared", "speak": "bang" },
-        { "nl": "zenuwachtig", "en": "nervous", "speak": "zenuwachtig" },
-        { "nl": "verdrietig", "en": "sad", "speak": "verdrietig" }
+        { "target": "blij", "en": "happy", "speak": "blij" },
+        { "target": "boos", "en": "angry", "speak": "boos" },
+        { "target": "moe", "en": "tired", "speak": "moe" },
+        { "target": "bang", "en": "scared", "speak": "bang" },
+        { "target": "zenuwachtig", "en": "nervous", "speak": "zenuwachtig" },
+        { "target": "verdrietig", "en": "sad", "speak": "verdrietig" }
       ]
     },
     {
@@ -91,9 +91,9 @@
       "type": "shadow",
       "title": "Shadow the feelings",
       "lines": [
-        { "nl": "Ik voel me blij.", "en": "I feel happy." },
-        { "nl": "Ik voel me een beetje bang.", "en": "I feel a little scared." },
-        { "nl": "Hij voelt zich verdrietig.", "en": "He feels sad." }
+        { "target": "Ik voel me blij.", "en": "I feel happy." },
+        { "target": "Ik voel me een beetje bang.", "en": "I feel a little scared." },
+        { "target": "Hij voelt zich verdrietig.", "en": "He feels sad." }
       ]
     },
     {

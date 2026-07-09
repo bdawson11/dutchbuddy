@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-78",
   "day": 78,
   "module": "M12",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Le più usate — tap to hear",
       "items": [
-        { "nl": "Dai!", "en": "Come on! / Go on!", "speak": "Dai!" },
-        { "nl": "Guarda!", "en": "Look! / Listen…", "speak": "Guarda!" },
-        { "nl": "Senti…", "en": "Hey… / Listen…", "speak": "Senti…" },
-        { "nl": "Dimmi!", "en": "Tell me! / Go ahead", "speak": "Dimmi!" },
-        { "nl": "Vai!", "en": "Go! / Go for it!", "speak": "Vai!" },
-        { "nl": "Andiamo!", "en": "Let's go!", "speak": "Andiamo!" }
+        { "target": "Dai!", "en": "Come on! / Go on!", "speak": "Dai!" },
+        { "target": "Guarda!", "en": "Look! / Listen…", "speak": "Guarda!" },
+        { "target": "Senti…", "en": "Hey… / Listen…", "speak": "Senti…" },
+        { "target": "Dimmi!", "en": "Tell me! / Go ahead", "speak": "Dimmi!" },
+        { "target": "Vai!", "en": "Go! / Go for it!", "speak": "Vai!" },
+        { "target": "Andiamo!", "en": "Let's go!", "speak": "Andiamo!" }
       ]
     },
     {
@@ -75,13 +75,13 @@
       "type": "dialogue",
       "scene": "Marco gives you last-minute directions to the bar — imperatives flying, but all softened.",
       "lines": [
-        { "speaker": "Marco", "nl": "Allora, senti: esci di casa e vai dritto.", "en": "So, listen: leave the house and go straight.", "spotlight": "*Senti* = attention-getter; *vai* = tu command of andare." },
-        { "speaker": "Marco", "nl": "Arrivi alla piazza, giri a sinistra, dai, è facile.", "en": "You reach the square, turn left, come on, it's easy.", "spotlight": "*Dai* softens the whole instruction — friendly, not bossy." },
-        { "speaker": "You", "nl": "Aspetta, dimmi di nuovo: a destra o a sinistra?", "en": "Wait, tell me again: right or left?" },
-        { "speaker": "Marco", "nl": "A sinistra! Non ti preoccupare, prendi Via Rizzoli e sei lì.", "en": "Left! Don't worry, take Via Rizzoli and you're there.", "spotlight": "Negative command *non ti preoccupare* + positive *prendi*." },
-        { "speaker": "Marco", "nl": "E fammi un favore: non arrivare tardi, eh.", "en": "And do me a favour: don't be late, eh." },
-        { "speaker": "You", "nl": "Va bene, dammi dieci minuti. Arrivo!", "en": "Alright, give me ten minutes. I'm coming!" },
-        { "speaker": "Marco", "nl": "Bravo. Guarda, lo spritz te lo offro io. Muoviti!", "en": "Good. Look, the spritz is on me. Get moving!", "spotlight": "*Muoviti!* = muovi + ti, a reflexive command — 'move it!'" }
+        { "speaker": "Marco", "target": "Allora, senti: esci di casa e vai dritto.", "en": "So, listen: leave the house and go straight.", "spotlight": "*Senti* = attention-getter; *vai* = tu command of andare." },
+        { "speaker": "Marco", "target": "Arrivi alla piazza, giri a sinistra, dai, è facile.", "en": "You reach the square, turn left, come on, it's easy.", "spotlight": "*Dai* softens the whole instruction — friendly, not bossy." },
+        { "speaker": "You", "target": "Aspetta, dimmi di nuovo: a destra o a sinistra?", "en": "Wait, tell me again: right or left?" },
+        { "speaker": "Marco", "target": "A sinistra! Non ti preoccupare, prendi Via Rizzoli e sei lì.", "en": "Left! Don't worry, take Via Rizzoli and you're there.", "spotlight": "Negative command *non ti preoccupare* + positive *prendi*." },
+        { "speaker": "Marco", "target": "E fammi un favore: non arrivare tardi, eh.", "en": "And do me a favour: don't be late, eh." },
+        { "speaker": "You", "target": "Va bene, dammi dieci minuti. Arrivo!", "en": "Alright, give me ten minutes. I'm coming!" },
+        { "speaker": "Marco", "target": "Bravo. Guarda, lo spritz te lo offro io. Muoviti!", "en": "Good. Look, the spritz is on me. Get moving!", "spotlight": "*Muoviti!* = muovi + ti, a reflexive command — 'move it!'" }
       ]
     },
     {

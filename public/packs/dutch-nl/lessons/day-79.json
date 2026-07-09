@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-79",
   "day": 79,
   "module": "M12",
@@ -37,12 +37,12 @@
       "type": "chips",
       "title": "Tap to hear the green tier",
       "items": [
-        { "nl": "Wat lekker!", "en": "How nice/tasty!", "speak": "Wat lekker!" },
-        { "nl": "Gezellig, hè?", "en": "Cozy, right?", "speak": "Gezellig, hè?" },
-        { "nl": "Wat leuk!", "en": "How nice!", "speak": "Wat leuk!" },
-        { "nl": "Tof, zeg!", "en": "Cool, wow!", "speak": "Tof, zeg!" },
-        { "nl": "Lekker chill.", "en": "Nice and relaxed.", "speak": "Lekker chill." },
-        { "nl": "Het is goed, hoor.", "en": "It's fine, don't worry.", "speak": "Het is goed, hoor." }
+        { "target": "Wat lekker!", "en": "How nice/tasty!", "speak": "Wat lekker!" },
+        { "target": "Gezellig, hè?", "en": "Cozy, right?", "speak": "Gezellig, hè?" },
+        { "target": "Wat leuk!", "en": "How nice!", "speak": "Wat leuk!" },
+        { "target": "Tof, zeg!", "en": "Cool, wow!", "speak": "Tof, zeg!" },
+        { "target": "Lekker chill.", "en": "Nice and relaxed.", "speak": "Lekker chill." },
+        { "target": "Het is goed, hoor.", "en": "It's fine, don't worry.", "speak": "Het is goed, hoor." }
       ]
     },
     {

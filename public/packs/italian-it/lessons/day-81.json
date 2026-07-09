@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-81",
   "day": 81,
   "module": "M12",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Dal barbiere / parrucchiere",
       "items": [
-        { "nl": "Solo una spuntatina.", "en": "Just a little trim.", "speak": "Solo una spuntatina." },
-        { "nl": "Corti ai lati.", "en": "Short on the sides.", "speak": "Corti ai lati." },
-        { "nl": "Lasci pure sopra.", "en": "Leave it long on top.", "speak": "Lasci pure sopra." },
-        { "nl": "La barba, la sistemo.", "en": "The beard, I'll tidy it up.", "speak": "La barba, la sistemo." },
-        { "nl": "Va bene così, grazie.", "en": "That's fine like that, thanks.", "speak": "Va bene così, grazie." }
+        { "target": "Solo una spuntatina.", "en": "Just a little trim.", "speak": "Solo una spuntatina." },
+        { "target": "Corti ai lati.", "en": "Short on the sides.", "speak": "Corti ai lati." },
+        { "target": "Lasci pure sopra.", "en": "Leave it long on top.", "speak": "Lasci pure sopra." },
+        { "target": "La barba, la sistemo.", "en": "The beard, I'll tidy it up.", "speak": "La barba, la sistemo." },
+        { "target": "Va bene così, grazie.", "en": "That's fine like that, thanks.", "speak": "Va bene così, grazie." }
       ]
     },
     {
@@ -66,23 +66,23 @@
       "type": "shadow",
       "title": "Piccoli scambi — ripeti",
       "lines": [
-        { "nl": "Quanto viene questo?", "en": "How much is this one?" },
-        { "nl": "Avete una taglia più grande?", "en": "Do you have a bigger size?" },
-        { "nl": "Perfetto, lo prendo.", "en": "Perfect, I'll take it." },
-        { "nl": "Grazie, ci penso.", "en": "Thanks, I'll think about it." }
+        { "target": "Quanto viene questo?", "en": "How much is this one?" },
+        { "target": "Avete una taglia più grande?", "en": "Do you have a bigger size?" },
+        { "target": "Perfetto, lo prendo.", "en": "Perfect, I'll take it." },
+        { "target": "Grazie, ci penso.", "en": "Thanks, I'll think about it." }
       ]
     },
     {
       "type": "dialogue",
       "scene": "You drop by the bookshop where Marco works, hunting for a gift for Giulia.",
       "lines": [
-        { "speaker": "Marco", "nl": "Ehi! Dimmi, cerchi qualcosa in particolare?", "en": "Hey! Tell me, are you looking for something in particular?" },
-        { "speaker": "You", "nl": "Sto solo dando un'occhiata… cerco un regalo per Giulia.", "en": "Just looking… I'm after a gift for Giulia." },
-        { "speaker": "Marco", "nl": "Guarda, questo è appena uscito. Un romanzo bolognese, le piacerà.", "en": "Look, this one just came out. A Bologna novel — she'll like it.", "spotlight": "*Le piacerà* — piacere with the indirect *le* (to her) + future." },
-        { "speaker": "You", "nl": "Bello. Quanto viene?", "en": "Nice. How much is it?" },
-        { "speaker": "Marco", "nl": "Diciotto euro. Se lo prendi, te lo incarto.", "en": "Eighteen euros. If you take it, I'll wrap it for you.", "spotlight": "*Te lo incarto* — combined clitics te + lo, a callback to Week 10." },
-        { "speaker": "You", "nl": "Perfetto, lo prendo. Grazie!", "en": "Perfect, I'll take it. Thanks!" },
-        { "speaker": "Marco", "nl": "Figurati. Salutamela, eh.", "en": "Don't mention it. Say hi to her for me, eh.", "spotlight": "*Salutamela* — saluta + me + la, three pieces fused into one command." }
+        { "speaker": "Marco", "target": "Ehi! Dimmi, cerchi qualcosa in particolare?", "en": "Hey! Tell me, are you looking for something in particular?" },
+        { "speaker": "You", "target": "Sto solo dando un'occhiata… cerco un regalo per Giulia.", "en": "Just looking… I'm after a gift for Giulia." },
+        { "speaker": "Marco", "target": "Guarda, questo è appena uscito. Un romanzo bolognese, le piacerà.", "en": "Look, this one just came out. A Bologna novel — she'll like it.", "spotlight": "*Le piacerà* — piacere with the indirect *le* (to her) + future." },
+        { "speaker": "You", "target": "Bello. Quanto viene?", "en": "Nice. How much is it?" },
+        { "speaker": "Marco", "target": "Diciotto euro. Se lo prendi, te lo incarto.", "en": "Eighteen euros. If you take it, I'll wrap it for you.", "spotlight": "*Te lo incarto* — combined clitics te + lo, a callback to Week 10." },
+        { "speaker": "You", "target": "Perfetto, lo prendo. Grazie!", "en": "Perfect, I'll take it. Thanks!" },
+        { "speaker": "Marco", "target": "Figurati. Salutamela, eh.", "en": "Don't mention it. Say hi to her for me, eh.", "spotlight": "*Salutamela* — saluta + me + la, three pieces fused into one command." }
       ]
     },
     {

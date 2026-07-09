@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-98",
   "day": 98,
   "module": "M14",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Ipotesi e rimpianti per il racconto",
       "items": [
-        { "nl": "Se non fossi venuto/a in Italia…", "en": "If I hadn't come to Italy…", "speak": "Se non fossi venuto in Italia…" },
-        { "nl": "Se avessi cominciato prima…", "en": "If I'd started sooner…", "speak": "Se avessi cominciato prima…" },
-        { "nl": "Avrei voluto studiare di più.", "en": "I'd have liked to study more.", "speak": "Avrei voluto studiare di più." },
-        { "nl": "Se potessi, resterei per sempre.", "en": "If I could, I'd stay forever.", "speak": "Se potessi, resterei per sempre." },
-        { "nl": "Magari avessi più tempo!", "en": "I wish I had more time!", "speak": "Magari avessi più tempo!" },
-        { "nl": "Rifarei tutto da capo.", "en": "I'd do it all again from scratch.", "speak": "Rifarei tutto da capo." }
+        { "target": "Se non fossi venuto/a in Italia…", "en": "If I hadn't come to Italy…", "speak": "Se non fossi venuto in Italia…" },
+        { "target": "Se avessi cominciato prima…", "en": "If I'd started sooner…", "speak": "Se avessi cominciato prima…" },
+        { "target": "Avrei voluto studiare di più.", "en": "I'd have liked to study more.", "speak": "Avrei voluto studiare di più." },
+        { "target": "Se potessi, resterei per sempre.", "en": "If I could, I'd stay forever.", "speak": "Se potessi, resterei per sempre." },
+        { "target": "Magari avessi più tempo!", "en": "I wish I had more time!", "speak": "Magari avessi più tempo!" },
+        { "target": "Rifarei tutto da capo.", "en": "I'd do it all again from scratch.", "speak": "Rifarei tutto da capo." }
       ]
     },
     {
@@ -72,14 +72,14 @@
       "type": "dialogue",
       "scene": "Giulia asks if you have any regrets about your Italian adventure.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Ti penti di qualcosa di questo anno?", "en": "Do you regret anything about this year?" },
-        { "speaker": "You", "nl": "Poco. Magari avessi cominciato a studiare prima!", "en": "Little. I wish I'd started studying sooner!", "spotlight": "'magari + congiuntivo' = desiderio." },
-        { "speaker": "Giulia", "nl": "Ma dai, sei arrivato lontano lo stesso.", "en": "Come on, you've come far anyway." },
-        { "speaker": "You", "nl": "È vero. Se non fossi venuto qui, non avrei imparato tutto questo.", "en": "True. If I hadn't come here, I wouldn't have learned all this.", "spotlight": "tipo III: rimpianto rovesciato in positivo." },
-        { "speaker": "Giulia", "nl": "E se potessi tornare indietro, rifaresti la stessa scelta?", "en": "And if you could go back, would you make the same choice?" },
-        { "speaker": "You", "nl": "Assolutamente. Rifarei tutto, anche gli errori.", "en": "Absolutely. I'd do it all again, even the mistakes.", "spotlight": "condizionale: 'rifarei'." },
-        { "speaker": "Giulia", "nl": "Questa sì che è una bella risposta.", "en": "Now that's a lovely answer." },
-        { "speaker": "You", "nl": "Merito anche tuo, sai? Grazie di tutto.", "en": "Partly thanks to you, you know? Thanks for everything." }
+        { "speaker": "Giulia", "target": "Ti penti di qualcosa di questo anno?", "en": "Do you regret anything about this year?" },
+        { "speaker": "You", "target": "Poco. Magari avessi cominciato a studiare prima!", "en": "Little. I wish I'd started studying sooner!", "spotlight": "'magari + congiuntivo' = desiderio." },
+        { "speaker": "Giulia", "target": "Ma dai, sei arrivato lontano lo stesso.", "en": "Come on, you've come far anyway." },
+        { "speaker": "You", "target": "È vero. Se non fossi venuto qui, non avrei imparato tutto questo.", "en": "True. If I hadn't come here, I wouldn't have learned all this.", "spotlight": "tipo III: rimpianto rovesciato in positivo." },
+        { "speaker": "Giulia", "target": "E se potessi tornare indietro, rifaresti la stessa scelta?", "en": "And if you could go back, would you make the same choice?" },
+        { "speaker": "You", "target": "Assolutamente. Rifarei tutto, anche gli errori.", "en": "Absolutely. I'd do it all again, even the mistakes.", "spotlight": "condizionale: 'rifarei'." },
+        { "speaker": "Giulia", "target": "Questa sì che è una bella risposta.", "en": "Now that's a lovely answer." },
+        { "speaker": "You", "target": "Merito anche tuo, sai? Grazie di tutto.", "en": "Partly thanks to you, you know? Thanks for everything." }
       ]
     },
     {

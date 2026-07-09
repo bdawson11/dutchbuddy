@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-05",
   "day": 5,
   "module": "M01",
@@ -31,10 +31,10 @@
       "type": "chips",
       "title": "avere in action",
       "items": [
-        { "nl": "Ho fame.", "en": "I'm hungry (lit. I have hunger).", "speak": "Ho fame." },
-        { "nl": "Hai tempo?", "en": "Do you have time?", "speak": "Hai tempo?" },
-        { "nl": "Abbiamo una domanda.", "en": "We have a question.", "speak": "Abbiamo una domanda." },
-        { "nl": "Ha sete.", "en": "He/she is thirsty (has thirst).", "speak": "Ha sete." }
+        { "target": "Ho fame.", "en": "I'm hungry (lit. I have hunger).", "speak": "Ho fame." },
+        { "target": "Hai tempo?", "en": "Do you have time?", "speak": "Hai tempo?" },
+        { "target": "Abbiamo una domanda.", "en": "We have a question.", "speak": "Abbiamo una domanda." },
+        { "target": "Ha sete.", "en": "He/she is thirsty (has thirst).", "speak": "Ha sete." }
       ]
     },
     {
@@ -73,9 +73,9 @@
       "type": "shadow",
       "title": "Repeat — pointing things out",
       "lines": [
-        { "nl": "C'è un bar qui vicino?", "en": "Is there a bar nearby?" },
-        { "nl": "Sì, ci sono due bar in piazza.", "en": "Yes, there are two bars in the square." },
-        { "nl": "Non c'è tempo.", "en": "There's no time." }
+        { "target": "C'è un bar qui vicino?", "en": "Is there a bar nearby?" },
+        { "target": "Sì, ci sono due bar in piazza.", "en": "Yes, there are two bars in the square." },
+        { "target": "Non c'è tempo.", "en": "There's no time." }
       ]
     },
     {

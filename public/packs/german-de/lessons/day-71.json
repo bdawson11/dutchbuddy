@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-71",
   "day": 71,
   "module": "M11",
@@ -31,12 +31,12 @@
       "type": "chips",
       "title": "Tap to hear the pairs in action",
       "items": [
-        { "nl": "Ich interessiere mich für Architektur.", "en": "I'm interested in architecture.", "speak": "Ich interessiere mich für Architektur." },
-        { "nl": "Ich ärgere mich über den Regen.", "en": "I'm annoyed about the rain.", "speak": "Ich ärgere mich über den Regen." },
-        { "nl": "Erinnerst du dich an Aylin?", "en": "Do you remember Aylin?", "speak": "Erinnerst du dich an Aylin?" },
-        { "nl": "Ich kümmere mich um die Kinder.", "en": "I look after the kids.", "speak": "Ich kümmere mich um die Kinder." },
-        { "nl": "Wir sprechen über die Arbeit.", "en": "We're talking about work.", "speak": "Wir sprechen über die Arbeit." },
-        { "nl": "Ich nehme an dem Kurs teil.", "en": "I'm taking part in the course.", "speak": "Ich nehme an dem Kurs teil." }
+        { "target": "Ich interessiere mich für Architektur.", "en": "I'm interested in architecture.", "speak": "Ich interessiere mich für Architektur." },
+        { "target": "Ich ärgere mich über den Regen.", "en": "I'm annoyed about the rain.", "speak": "Ich ärgere mich über den Regen." },
+        { "target": "Erinnerst du dich an Aylin?", "en": "Do you remember Aylin?", "speak": "Erinnerst du dich an Aylin?" },
+        { "target": "Ich kümmere mich um die Kinder.", "en": "I look after the kids.", "speak": "Ich kümmere mich um die Kinder." },
+        { "target": "Wir sprechen über die Arbeit.", "en": "We're talking about work.", "speak": "Wir sprechen über die Arbeit." },
+        { "target": "Ich nehme an dem Kurs teil.", "en": "I'm taking part in the course.", "speak": "Ich nehme an dem Kurs teil." }
       ]
     },
     {
@@ -88,14 +88,14 @@
       "type": "dialogue",
       "scene": "Lena messages you on a Thursday, already half into the weekend in her head.",
       "lines": [
-        { "speaker": "Lena", "nl": "Na? Freust du dich schon aufs Wochenende?", "en": "Hey! Looking forward to the weekend already?", "spotlight": "*aufs* = *auf das*. *sich freuen auf* + Akkusativ — something still to come." },
-        { "speaker": "You", "nl": "Total. Ich freue mich riesig auf den Samstag. Und du?", "en": "Totally. I'm super excited about Saturday. And you?" },
-        { "speaker": "Lena", "nl": "Ja, aber ich ärgere mich über das Wetter — es soll regnen.", "en": "Yeah, but I'm annoyed about the weather — it's supposed to rain." },
-        { "speaker": "You", "nl": "Quatsch, denk nicht an den Regen. Woran denkst du sonst noch?", "en": "Nonsense, don't think about the rain. What else are you thinking about?", "spotlight": "*Woran* asks about a **thing**; *denken an* keeps its Akkusativ." },
-        { "speaker": "Lena", "nl": "Also, ich interessiere mich neuerdings für Töpfern. Es gibt einen Kurs.", "en": "Well, I've recently gotten into pottery. There's a course." },
-        { "speaker": "You", "nl": "Echt? Nimmst du an dem Kurs teil?", "en": "Really? Are you taking part in the course?", "spotlight": "*teilnehmen an* + Dativ: *an dem Kurs*. The separable *teil-* jumps to the end." },
-        { "speaker": "Lena", "nl": "Vielleicht. Ich warte noch auf die Antwort von der Lehrerin.", "en": "Maybe. I'm still waiting for the teacher's reply." },
-        { "speaker": "You", "nl": "Cool! Ich drücke dir die Daumen.", "en": "Cool! Fingers crossed for you." }
+        { "speaker": "Lena", "target": "Na? Freust du dich schon aufs Wochenende?", "en": "Hey! Looking forward to the weekend already?", "spotlight": "*aufs* = *auf das*. *sich freuen auf* + Akkusativ — something still to come." },
+        { "speaker": "You", "target": "Total. Ich freue mich riesig auf den Samstag. Und du?", "en": "Totally. I'm super excited about Saturday. And you?" },
+        { "speaker": "Lena", "target": "Ja, aber ich ärgere mich über das Wetter — es soll regnen.", "en": "Yeah, but I'm annoyed about the weather — it's supposed to rain." },
+        { "speaker": "You", "target": "Quatsch, denk nicht an den Regen. Woran denkst du sonst noch?", "en": "Nonsense, don't think about the rain. What else are you thinking about?", "spotlight": "*Woran* asks about a **thing**; *denken an* keeps its Akkusativ." },
+        { "speaker": "Lena", "target": "Also, ich interessiere mich neuerdings für Töpfern. Es gibt einen Kurs.", "en": "Well, I've recently gotten into pottery. There's a course." },
+        { "speaker": "You", "target": "Echt? Nimmst du an dem Kurs teil?", "en": "Really? Are you taking part in the course?", "spotlight": "*teilnehmen an* + Dativ: *an dem Kurs*. The separable *teil-* jumps to the end." },
+        { "speaker": "Lena", "target": "Vielleicht. Ich warte noch auf die Antwort von der Lehrerin.", "en": "Maybe. I'm still waiting for the teacher's reply." },
+        { "speaker": "You", "target": "Cool! Ich drücke dir die Daumen.", "en": "Cool! Fingers crossed for you." }
       ]
     },
     {

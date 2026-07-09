@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-16",
   "day": 16,
   "module": "M03",
@@ -31,11 +31,11 @@
       "type": "chips",
       "title": "Tap to hear los adjetivos",
       "items": [
-        { "nl": "una casa blanca", "en": "a white house", "speak": "una casa blanca" },
-        { "nl": "un coche rojo", "en": "a red car", "speak": "un coche rojo" },
-        { "nl": "unos pisos pequeños", "en": "some small flats", "speak": "unos pisos pequeños" },
-        { "nl": "una calle tranquila", "en": "a quiet street", "speak": "una calle tranquila" },
-        { "nl": "dos hermanas altas", "en": "two tall sisters", "speak": "dos hermanas altas" }
+        { "target": "una casa blanca", "en": "a white house", "speak": "una casa blanca" },
+        { "target": "un coche rojo", "en": "a red car", "speak": "un coche rojo" },
+        { "target": "unos pisos pequeños", "en": "some small flats", "speak": "unos pisos pequeños" },
+        { "target": "una calle tranquila", "en": "a quiet street", "speak": "una calle tranquila" },
+        { "target": "dos hermanas altas", "en": "two tall sisters", "speak": "dos hermanas altas" }
       ]
     },
     {

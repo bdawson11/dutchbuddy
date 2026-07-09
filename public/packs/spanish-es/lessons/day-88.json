@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-88",
   "day": 88,
   "module": "M13",
@@ -29,11 +29,11 @@
       "type": "chips",
       "title": "Deseos de andar por casa — toca y repite",
       "items": [
-        { "nl": "ojalá tengas suerte", "en": "hope you're lucky", "speak": "ojalá tengas suerte" },
-        { "nl": "ojalá fuera tan fácil", "en": "I wish it were that easy", "speak": "ojalá fuera tan fácil" },
-        { "nl": "ojalá pudiera ayudarte", "en": "I wish I could help you", "speak": "ojalá pudiera ayudarte" },
-        { "nl": "ojalá no fuera verdad", "en": "I wish it weren't true", "speak": "ojalá no fuera verdad" },
-        { "nl": "ojalá salga bien", "en": "hope it goes well", "speak": "ojalá salga bien" }
+        { "target": "ojalá tengas suerte", "en": "hope you're lucky", "speak": "ojalá tengas suerte" },
+        { "target": "ojalá fuera tan fácil", "en": "I wish it were that easy", "speak": "ojalá fuera tan fácil" },
+        { "target": "ojalá pudiera ayudarte", "en": "I wish I could help you", "speak": "ojalá pudiera ayudarte" },
+        { "target": "ojalá no fuera verdad", "en": "I wish it weren't true", "speak": "ojalá no fuera verdad" },
+        { "target": "ojalá salga bien", "en": "hope it goes well", "speak": "ojalá salga bien" }
       ]
     },
     {
@@ -76,9 +76,9 @@
       "type": "shadow",
       "title": "Repite el ritmo del deseo",
       "lines": [
-        { "nl": "Ojalá pudiera quedarme más, pero tengo que irme.", "en": "I wish I could stay longer, but I have to go." },
-        { "nl": "Actúa como si nada le importara.", "en": "He acts as if nothing mattered to him." },
-        { "nl": "Ojalá fuera verano todo el año.", "en": "I wish it were summer all year." }
+        { "target": "Ojalá pudiera quedarme más, pero tengo que irme.", "en": "I wish I could stay longer, but I have to go." },
+        { "target": "Actúa como si nada le importara.", "en": "He acts as if nothing mattered to him." },
+        { "target": "Ojalá fuera verano todo el año.", "en": "I wish it were summer all year." }
       ]
     },
     {

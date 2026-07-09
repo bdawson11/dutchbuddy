@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-56",
   "day": 56,
   "module": "M08",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Komend jaar — woordenschat",
       "items": [
-        { "nl": "volgend jaar", "en": "next year", "speak": "volgend jaar" },
-        { "nl": "binnenkort", "en": "soon", "speak": "binnenkort" },
-        { "nl": "een cursus doen", "en": "to take a course", "speak": "een cursus doen" },
-        { "nl": "vaker oefenen", "en": "to practise more often", "speak": "vaker oefenen" },
-        { "nl": "een doel", "en": "a goal", "speak": "een doel" }
+        { "target": "volgend jaar", "en": "next year", "speak": "volgend jaar" },
+        { "target": "binnenkort", "en": "soon", "speak": "binnenkort" },
+        { "target": "een cursus doen", "en": "to take a course", "speak": "een cursus doen" },
+        { "target": "vaker oefenen", "en": "to practise more often", "speak": "vaker oefenen" },
+        { "target": "een doel", "en": "a goal", "speak": "een doel" }
       ]
     },
     {
@@ -75,10 +75,10 @@
       "type": "dialogue",
       "scene": "Emma asks about your plans for the year ahead",
       "lines": [
-        { "speaker": "Emma", "nl": "Nou, vertel: wat ga jij komend jaar doen?", "en": "So, tell me: what are you going to do next year?", "spotlight": "wat ga jij … doen — the gaan-future question." },
-        { "speaker": "You", "nl": "Ik ga een cursus doen omdat ik vloeiend wil worden.", "en": "I'm going to take a course because I want to become fluent.", "spotlight": "gaan-future + omdat-subclause, verbs at the end." },
-        { "speaker": "Emma", "nl": "Mooi doel! En denk je dat het gaat lukken?", "en": "Nice goal! And do you think you'll manage it?" },
-        { "speaker": "You", "nl": "Ik denk dat het lukt als ik elke dag oefen.", "en": "I think it'll work if I practise every day.", "spotlight": "dat … lukt + als … oefen — two subclauses, both verb-final." }
+        { "speaker": "Emma", "target": "Nou, vertel: wat ga jij komend jaar doen?", "en": "So, tell me: what are you going to do next year?", "spotlight": "wat ga jij … doen — the gaan-future question." },
+        { "speaker": "You", "target": "Ik ga een cursus doen omdat ik vloeiend wil worden.", "en": "I'm going to take a course because I want to become fluent.", "spotlight": "gaan-future + omdat-subclause, verbs at the end." },
+        { "speaker": "Emma", "target": "Mooi doel! En denk je dat het gaat lukken?", "en": "Nice goal! And do you think you'll manage it?" },
+        { "speaker": "You", "target": "Ik denk dat het lukt als ik elke dag oefen.", "en": "I think it'll work if I practise every day.", "spotlight": "dat … lukt + als … oefen — two subclauses, both verb-final." }
       ]
     },
     {

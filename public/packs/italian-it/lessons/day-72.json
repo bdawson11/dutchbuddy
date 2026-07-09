@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-72",
   "day": 72,
   "module": "M11",
@@ -21,14 +21,14 @@
       "type": "chips",
       "title": "Ascolta le paroline",
       "items": [
-        { "nl": "Allora, cominciamo.", "en": "So, let's start.", "speak": "Allora, cominciamo." },
-        { "nl": "Dai, andiamo!", "en": "Come on, let's go!", "speak": "Dai, andiamo!" },
-        { "nl": "Magari!", "en": "I wish! / Maybe!", "speak": "Magari!" },
-        { "nl": "Boh, non lo so.", "en": "Dunno, no idea.", "speak": "Boh, non lo so." },
-        { "nl": "Insomma…", "en": "Well… so-so…", "speak": "Insomma…" },
-        { "nl": "Guarda, ti spiego.", "en": "Look, let me explain.", "speak": "Guarda, ti spiego." },
-        { "nl": "Senti, ho un'idea.", "en": "Listen, I've got an idea.", "speak": "Senti, ho un'idea." },
-        { "nl": "Comunque, cambiamo discorso.", "en": "Anyway, let's change the subject.", "speak": "Comunque, cambiamo discorso." }
+        { "target": "Allora, cominciamo.", "en": "So, let's start.", "speak": "Allora, cominciamo." },
+        { "target": "Dai, andiamo!", "en": "Come on, let's go!", "speak": "Dai, andiamo!" },
+        { "target": "Magari!", "en": "I wish! / Maybe!", "speak": "Magari!" },
+        { "target": "Boh, non lo so.", "en": "Dunno, no idea.", "speak": "Boh, non lo so." },
+        { "target": "Insomma…", "en": "Well… so-so…", "speak": "Insomma…" },
+        { "target": "Guarda, ti spiego.", "en": "Look, let me explain.", "speak": "Guarda, ti spiego." },
+        { "target": "Senti, ho un'idea.", "en": "Listen, I've got an idea.", "speak": "Senti, ho un'idea." },
+        { "target": "Comunque, cambiamo discorso.", "en": "Anyway, let's change the subject.", "speak": "Comunque, cambiamo discorso." }
       ]
     },
     {
@@ -64,23 +64,23 @@
       "type": "shadow",
       "title": "Ripeti con le paroline",
       "lines": [
-        { "nl": "Allora, senti, ho un'idea.", "en": "So, listen, I've got an idea." },
-        { "nl": "Boh, magari domani.", "en": "Dunno, maybe tomorrow." },
-        { "nl": "Dai, comunque non importa.", "en": "Come on, anyway it doesn't matter." },
-        { "nl": "Guarda, insomma, non è male.", "en": "Look, well, it's not bad." }
+        { "target": "Allora, senti, ho un'idea.", "en": "So, listen, I've got an idea." },
+        { "target": "Boh, magari domani.", "en": "Dunno, maybe tomorrow." },
+        { "target": "Dai, comunque non importa.", "en": "Come on, anyway it doesn't matter." },
+        { "target": "Guarda, insomma, non è male.", "en": "Look, well, it's not bad." }
       ]
     },
     {
       "type": "dialogue",
       "scene": "Al bar, Marco commenta la notizia di Sofia con tutte le sue paroline.",
       "lines": [
-        { "speaker": "Marco", "nl": "Allora, hai sentito di Sofia a Milano? Boh, io non ci sarei mai andato.", "en": "So, did you hear about Sofia in Milan? Dunno, I'd never have gone." },
-        { "speaker": "You", "nl": "Dai, a lei piace! Sembra contenta.", "en": "Come on, she likes it! She seems happy." },
-        { "speaker": "Marco", "nl": "Sì, insomma… Milano è cara, eh. Però magari ha ragione lei.", "en": "Yeah, well… Milan's expensive, you know. But maybe she's right.", "spotlight": "Marco fa la cosa diretta ('è cara, eh') e poi la ammorbidisce ('magari ha ragione lei')." },
-        { "speaker": "You", "nl": "Comunque possiamo andare a trovarla.", "en": "Anyway, we could go visit her." },
-        { "speaker": "Marco", "nl": "Magari! Guarda, un weekend a Milano non mi dispiace.", "en": "I'd love to! Look, a weekend in Milan wouldn't bother me." },
-        { "speaker": "You", "nl": "Senti, e la partita di domenica?", "en": "Hey, what about Sunday's match?" },
-        { "speaker": "Marco", "nl": "Boh, vediamo. Comunque ci sentiamo, eh!", "en": "Dunno, we'll see. Anyway, we'll be in touch!" }
+        { "speaker": "Marco", "target": "Allora, hai sentito di Sofia a Milano? Boh, io non ci sarei mai andato.", "en": "So, did you hear about Sofia in Milan? Dunno, I'd never have gone." },
+        { "speaker": "You", "target": "Dai, a lei piace! Sembra contenta.", "en": "Come on, she likes it! She seems happy." },
+        { "speaker": "Marco", "target": "Sì, insomma… Milano è cara, eh. Però magari ha ragione lei.", "en": "Yeah, well… Milan's expensive, you know. But maybe she's right.", "spotlight": "Marco fa la cosa diretta ('è cara, eh') e poi la ammorbidisce ('magari ha ragione lei')." },
+        { "speaker": "You", "target": "Comunque possiamo andare a trovarla.", "en": "Anyway, we could go visit her." },
+        { "speaker": "Marco", "target": "Magari! Guarda, un weekend a Milano non mi dispiace.", "en": "I'd love to! Look, a weekend in Milan wouldn't bother me." },
+        { "speaker": "You", "target": "Senti, e la partita di domenica?", "en": "Hey, what about Sunday's match?" },
+        { "speaker": "Marco", "target": "Boh, vediamo. Comunque ci sentiamo, eh!", "en": "Dunno, we'll see. Anyway, we'll be in touch!" }
       ]
     },
     {

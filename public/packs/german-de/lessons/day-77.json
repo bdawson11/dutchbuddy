@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-77",
   "day": 77,
   "module": "M11",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Kurzer Refresh — tap to hear",
       "items": [
-        { "nl": "Ich freue mich auf das Wiedersehen.", "en": "I'm looking forward to the reunion.", "speak": "Ich freue mich auf das Wiedersehen." },
-        { "nl": "Das schaffst du schon.", "en": "You'll manage.", "speak": "Das schaffst du schon." },
-        { "nl": "ein richtig gutes Jahr", "en": "a really good year", "speak": "ein richtig gutes Jahr" },
-        { "nl": "Wollen wir uns duzen?", "en": "Shall we use 'du'?", "speak": "Wollen wir uns duzen?" },
-        { "nl": "Dem, den… egal, weiter.", "en": "Dem, den… whatever, on we go.", "speak": "Dem, den, egal, weiter." }
+        { "target": "Ich freue mich auf das Wiedersehen.", "en": "I'm looking forward to the reunion.", "speak": "Ich freue mich auf das Wiedersehen." },
+        { "target": "Das schaffst du schon.", "en": "You'll manage.", "speak": "Das schaffst du schon." },
+        { "target": "ein richtig gutes Jahr", "en": "a really good year", "speak": "ein richtig gutes Jahr" },
+        { "target": "Wollen wir uns duzen?", "en": "Shall we use 'du'?", "speak": "Wollen wir uns duzen?" },
+        { "target": "Dem, den… egal, weiter.", "en": "Dem, den… whatever, on we go.", "speak": "Dem, den, egal, weiter." }
       ]
     },
     {
@@ -60,15 +60,15 @@
       "type": "dialogue",
       "scene": "You bump into Jonas at the Kneipe after not seeing him for a while — a proper reunion.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Ey, lange nicht gesehen! Wie geht's dir denn?", "en": "Hey, long time no see! So how are you?", "spotlight": "*denn* makes it warm curiosity; full *du* between old friends." },
-        { "speaker": "You", "nl": "Richtig gut! Mein Deutsch ist viel besser geworden.", "en": "Really good! My German has gotten a lot better." },
-        { "speaker": "Jonas", "nl": "Das hört man echt. Du redest jetzt viel lockerer.", "en": "You can really hear it. You talk much more loosely now." },
-        { "speaker": "You", "nl": "Ja, ich denke nicht mehr über jeden Fall nach. Ich sag's einfach.", "en": "Yeah, I don't overthink every case anymore. I just say it.", "spotlight": "*nachdenken über* + Akk — and the whole day-74 lesson in one line." },
-        { "speaker": "Jonas", "nl": "Genau so macht man das. Und die Endungen kommen dann halt von allein.", "en": "That's exactly how it's done. And the endings just come by themselves." },
-        { "speaker": "You", "nl": "Meistens. Manchmal sag ich „dem… den… egal“ und rede weiter.", "en": "Mostly. Sometimes I say 'dem… den… whatever' and keep going.", "spotlight": "Default-and-repair, live and unbothered." },
-        { "speaker": "Jonas", "nl": "Perfekt. So klingst du wie ein echter Berliner, ne?", "en": "Perfect. That's how you sound like a real Berliner, right?" },
-        { "speaker": "You", "nl": "Quatsch, aber danke! Auf ein gutes Jahr, Jonas.", "en": "Nonsense, but thanks! To a good year, Jonas.", "spotlight": "*Auf ein gutes Jahr* — neuter accusative, adjective *-es*." },
-        { "speaker": "Jonas", "nl": "Auf ein gutes Jahr! Prost.", "en": "To a good year! Cheers." }
+        { "speaker": "Jonas", "target": "Ey, lange nicht gesehen! Wie geht's dir denn?", "en": "Hey, long time no see! So how are you?", "spotlight": "*denn* makes it warm curiosity; full *du* between old friends." },
+        { "speaker": "You", "target": "Richtig gut! Mein Deutsch ist viel besser geworden.", "en": "Really good! My German has gotten a lot better." },
+        { "speaker": "Jonas", "target": "Das hört man echt. Du redest jetzt viel lockerer.", "en": "You can really hear it. You talk much more loosely now." },
+        { "speaker": "You", "target": "Ja, ich denke nicht mehr über jeden Fall nach. Ich sag's einfach.", "en": "Yeah, I don't overthink every case anymore. I just say it.", "spotlight": "*nachdenken über* + Akk — and the whole day-74 lesson in one line." },
+        { "speaker": "Jonas", "target": "Genau so macht man das. Und die Endungen kommen dann halt von allein.", "en": "That's exactly how it's done. And the endings just come by themselves." },
+        { "speaker": "You", "target": "Meistens. Manchmal sag ich „dem… den… egal“ und rede weiter.", "en": "Mostly. Sometimes I say 'dem… den… whatever' and keep going.", "spotlight": "Default-and-repair, live and unbothered." },
+        { "speaker": "Jonas", "target": "Perfekt. So klingst du wie ein echter Berliner, ne?", "en": "Perfect. That's how you sound like a real Berliner, right?" },
+        { "speaker": "You", "target": "Quatsch, aber danke! Auf ein gutes Jahr, Jonas.", "en": "Nonsense, but thanks! To a good year, Jonas.", "spotlight": "*Auf ein gutes Jahr* — neuter accusative, adjective *-es*." },
+        { "speaker": "Jonas", "target": "Auf ein gutes Jahr! Prost.", "en": "To a good year! Cheers." }
       ]
     },
     {

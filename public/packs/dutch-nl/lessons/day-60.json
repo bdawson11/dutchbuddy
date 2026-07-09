@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-60",
   "day": 60,
   "module": "M09",
@@ -28,10 +28,10 @@
       "type": "chips",
       "title": "Beleefde verzoeken — tik om te horen",
       "items": [
-        { "nl": "Zou u me kunnen helpen?", "en": "Could you help me?", "speak": "Zou u me kunnen helpen?" },
-        { "nl": "Zou je het raam open kunnen doen?", "en": "Could you open the window?", "speak": "Zou je het raam open kunnen doen?" },
-        { "nl": "Zou ik hier mogen zitten?", "en": "Would I be allowed to sit here?", "speak": "Zou ik hier mogen zitten?" },
-        { "nl": "Zou u dat willen herhalen?", "en": "Would you repeat that?", "speak": "Zou u dat willen herhalen?" }
+        { "target": "Zou u me kunnen helpen?", "en": "Could you help me?", "speak": "Zou u me kunnen helpen?" },
+        { "target": "Zou je het raam open kunnen doen?", "en": "Could you open the window?", "speak": "Zou je het raam open kunnen doen?" },
+        { "target": "Zou ik hier mogen zitten?", "en": "Would I be allowed to sit here?", "speak": "Zou ik hier mogen zitten?" },
+        { "target": "Zou u dat willen herhalen?", "en": "Would you repeat that?", "speak": "Zou u dat willen herhalen?" }
       ]
     },
     {
@@ -96,12 +96,12 @@
       "type": "dialogue",
       "scene": "You ask Emma for advice about a gift for Daan",
       "lines": [
-        { "speaker": "You", "nl": "Zou jij me kunnen helpen met een cadeau voor Daan?", "en": "Could you help me with a present for Daan?", "spotlight": "beleefd verzoek: *zou jij … kunnen helpen?*" },
-        { "speaker": "Emma", "nl": "Tuurlijk! Wat zou je willen geven?", "en": "Of course! What would you like to give?", "spotlight": "hypothetisch: *wat zou je willen geven?*" },
-        { "speaker": "You", "nl": "Geen idee. Wat zou jij doen?", "en": "No idea. What would you do?" },
-        { "speaker": "Emma", "nl": "Ik zou een goed boek nemen. Daar houdt hij van.", "en": "I'd get a good book. He loves those.", "spotlight": "advies met *ik zou…*" },
-        { "speaker": "You", "nl": "Slim. En zou een plaat te veel zijn?", "en": "Smart. And would a record be too much?" },
-        { "speaker": "Emma", "nl": "Nee joh, dat zou hij juist prachtig vinden.", "en": "No way, he'd actually love that.", "spotlight": "hypothetisch resultaat: *dat zou hij prachtig vinden.*" }
+        { "speaker": "You", "target": "Zou jij me kunnen helpen met een cadeau voor Daan?", "en": "Could you help me with a present for Daan?", "spotlight": "beleefd verzoek: *zou jij … kunnen helpen?*" },
+        { "speaker": "Emma", "target": "Tuurlijk! Wat zou je willen geven?", "en": "Of course! What would you like to give?", "spotlight": "hypothetisch: *wat zou je willen geven?*" },
+        { "speaker": "You", "target": "Geen idee. Wat zou jij doen?", "en": "No idea. What would you do?" },
+        { "speaker": "Emma", "target": "Ik zou een goed boek nemen. Daar houdt hij van.", "en": "I'd get a good book. He loves those.", "spotlight": "advies met *ik zou…*" },
+        { "speaker": "You", "target": "Slim. En zou een plaat te veel zijn?", "en": "Smart. And would a record be too much?" },
+        { "speaker": "Emma", "target": "Nee joh, dat zou hij juist prachtig vinden.", "en": "No way, he'd actually love that.", "spotlight": "hypothetisch resultaat: *dat zou hij prachtig vinden.*" }
       ]
     },
     {

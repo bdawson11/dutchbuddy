@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-15",
   "day": 15,
   "module": "M03",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Tap to hear the family",
       "items": [
-        { "nl": "la madre", "en": "mother", "speak": "la madre" },
-        { "nl": "il padre", "en": "father", "speak": "il padre" },
-        { "nl": "il fratello", "en": "brother", "speak": "il fratello" },
-        { "nl": "la sorella", "en": "sister", "speak": "la sorella" },
-        { "nl": "il nonno", "en": "grandfather", "speak": "il nonno" },
-        { "nl": "la nonna", "en": "grandmother", "speak": "la nonna" }
+        { "target": "la madre", "en": "mother", "speak": "la madre" },
+        { "target": "il padre", "en": "father", "speak": "il padre" },
+        { "target": "il fratello", "en": "brother", "speak": "il fratello" },
+        { "target": "la sorella", "en": "sister", "speak": "la sorella" },
+        { "target": "il nonno", "en": "grandfather", "speak": "il nonno" },
+        { "target": "la nonna", "en": "grandmother", "speak": "la nonna" }
       ]
     },
     {
@@ -80,11 +80,11 @@
       "type": "dialogue",
       "scene": "Marco asks about your family over a coffee at the bar",
       "lines": [
-        { "speaker": "Marco", "nl": "Allora, com'è la tua famiglia?", "en": "So, what's your family like?" },
-        { "speaker": "You", "nl": "Ho un fratello e una sorella. Mio fratello abita a Roma.", "en": "I have a brother and a sister. My brother lives in Rome.", "spotlight": "mio fratello — singular family word, no article." },
-        { "speaker": "Marco", "nl": "Bello! E i tuoi genitori?", "en": "Nice! And your parents?" },
-        { "speaker": "You", "nl": "Mia madre è insegnante, mio padre è ingegnere.", "en": "My mother's a teacher, my father's an engineer." },
-        { "speaker": "Marco", "nl": "Ma dai, anche mio padre è ingegnere!", "en": "No way, my dad's an engineer too!" }
+        { "speaker": "Marco", "target": "Allora, com'è la tua famiglia?", "en": "So, what's your family like?" },
+        { "speaker": "You", "target": "Ho un fratello e una sorella. Mio fratello abita a Roma.", "en": "I have a brother and a sister. My brother lives in Rome.", "spotlight": "mio fratello — singular family word, no article." },
+        { "speaker": "Marco", "target": "Bello! E i tuoi genitori?", "en": "Nice! And your parents?" },
+        { "speaker": "You", "target": "Mia madre è insegnante, mio padre è ingegnere.", "en": "My mother's a teacher, my father's an engineer." },
+        { "speaker": "Marco", "target": "Ma dai, anche mio padre è ingegnere!", "en": "No way, my dad's an engineer too!" }
       ]
     },
     {

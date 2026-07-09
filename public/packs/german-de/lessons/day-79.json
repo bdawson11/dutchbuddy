@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-79",
   "day": 79,
   "module": "M12",
@@ -31,12 +31,12 @@
       "type": "chips",
       "title": "Tap to hear the green tier",
       "items": [
-        { "nl": "super", "en": "great", "speak": "super" },
-        { "nl": "cool", "en": "cool", "speak": "cool" },
-        { "nl": "Quatsch!", "en": "nonsense!", "speak": "Quatsch!" },
-        { "nl": "alles klar", "en": "all good", "speak": "alles klar" },
-        { "nl": "passt", "en": "works for me", "speak": "passt" },
-        { "nl": "Feierabend", "en": "end of the workday", "speak": "Feierabend" }
+        { "target": "super", "en": "great", "speak": "super" },
+        { "target": "cool", "en": "cool", "speak": "cool" },
+        { "target": "Quatsch!", "en": "nonsense!", "speak": "Quatsch!" },
+        { "target": "alles klar", "en": "all good", "speak": "alles klar" },
+        { "target": "passt", "en": "works for me", "speak": "passt" },
+        { "target": "Feierabend", "en": "end of the workday", "speak": "Feierabend" }
       ]
     },
     {
@@ -102,12 +102,12 @@
       "type": "dialogue",
       "scene": "Jonas texts you to come out — full casual mode, yellow tier everywhere.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Ey, na? Hast du Bock, heute Abend in die Kneipe zu gehen?", "en": "Hey, so? You up for the pub tonight?", "spotlight": "*Bock haben* + *ey* — pure yellow tier. Perfect with a friend, never with a stranger." },
-        { "speaker": "You", "nl": "Klar. Aber ich bin echt müde, nur ein Bier.", "en": "Sure. But I'm really tired, just one beer." },
-        { "speaker": "Jonas", "nl": "Quatsch, ein Bier kann jeder. Komm schon!", "en": "Nonsense, anyone can do one beer. Come on!" },
-        { "speaker": "You", "nl": "Alter, du bist echt schlimm.", "en": "Dude, you're really terrible." },
-        { "speaker": "Jonas", "nl": "Na ja, dafür wird's geil. Die Band von gestern spielt wieder — voll krass.", "en": "Well, but it'll be awesome for it. Yesterday's band is playing again — totally wild.", "spotlight": "*geil* and *krass* — friends-only words. Fine here, off-limits with the boss." },
-        { "speaker": "You", "nl": "Alles klar, überredet. Feierabend heißt Feierabend.", "en": "All right, you win. Off-hours are off-hours." }
+        { "speaker": "Jonas", "target": "Ey, na? Hast du Bock, heute Abend in die Kneipe zu gehen?", "en": "Hey, so? You up for the pub tonight?", "spotlight": "*Bock haben* + *ey* — pure yellow tier. Perfect with a friend, never with a stranger." },
+        { "speaker": "You", "target": "Klar. Aber ich bin echt müde, nur ein Bier.", "en": "Sure. But I'm really tired, just one beer." },
+        { "speaker": "Jonas", "target": "Quatsch, ein Bier kann jeder. Komm schon!", "en": "Nonsense, anyone can do one beer. Come on!" },
+        { "speaker": "You", "target": "Alter, du bist echt schlimm.", "en": "Dude, you're really terrible." },
+        { "speaker": "Jonas", "target": "Na ja, dafür wird's geil. Die Band von gestern spielt wieder — voll krass.", "en": "Well, but it'll be awesome for it. Yesterday's band is playing again — totally wild.", "spotlight": "*geil* and *krass* — friends-only words. Fine here, off-limits with the boss." },
+        { "speaker": "You", "target": "Alles klar, überredet. Feierabend heißt Feierabend.", "en": "All right, you win. Off-hours are off-hours." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-27",
   "day": 27,
   "module": "M04",
@@ -42,13 +42,13 @@
       "type": "dialogue",
       "scene": "Pietro tells you about his daily routine in Naples and his favorite neighborhood pizzeria",
       "lines": [
-        { "speaker": "Pietro", "nl": "Allora, qui a Napoli la giornata comincia presto: un caffè al banco, in piedi, due chiacchiere col barista.", "en": "So, here in Naples the day starts early: a coffee at the counter, standing, a quick chat with the barista." },
-        { "speaker": "Pietro", "nl": "Dopo il lavoro, la sera, vado quasi sempre nella stessa pizzeria — la stessa famiglia la gestisce da trent'anni.", "en": "After work, in the evening, I almost always go to the same pizzeria — the same family has run it for thirty years." },
-        { "speaker": "You", "nl": "Cosa ordini di solito?", "en": "What do you usually order?" },
-        { "speaker": "Pietro", "nl": "Una margherita, sempre. Qui diciamo che la vera pizza si mangia solo a Napoli.", "en": "A margherita, always. Here we say real pizza can only be eaten in Naples.", "spotlight": "Southern pride, said with a smile — not aggressive, just certain." },
-        { "speaker": "Pietro", "nl": "A casa, con mia moglie e mia figlia, a volte parliamo napoletano — ma con te parlo sempre in italiano standard.", "en": "At home, with my wife and daughter, we sometimes speak Neapolitan — but with you I always speak standard Italian.", "spotlight": "Pietro code-switches with family but keeps standard Italian with you — dialect is real, just not what we teach." },
-        { "speaker": "You", "nl": "Posso venire con te alla pizzeria, una sera?", "en": "Can I come with you to the pizzeria one evening?" },
-        { "speaker": "Pietro", "nl": "Certo! Sono sicuro che ti piace — è meglio della pizza del nord, te lo dico io.", "en": "Of course! I'm sure you'll like it — it's better than pizza from the north, I'm telling you.", "spotlight": "A gentle jab at the north — classic Pietro." }
+        { "speaker": "Pietro", "target": "Allora, qui a Napoli la giornata comincia presto: un caffè al banco, in piedi, due chiacchiere col barista.", "en": "So, here in Naples the day starts early: a coffee at the counter, standing, a quick chat with the barista." },
+        { "speaker": "Pietro", "target": "Dopo il lavoro, la sera, vado quasi sempre nella stessa pizzeria — la stessa famiglia la gestisce da trent'anni.", "en": "After work, in the evening, I almost always go to the same pizzeria — the same family has run it for thirty years." },
+        { "speaker": "You", "target": "Cosa ordini di solito?", "en": "What do you usually order?" },
+        { "speaker": "Pietro", "target": "Una margherita, sempre. Qui diciamo che la vera pizza si mangia solo a Napoli.", "en": "A margherita, always. Here we say real pizza can only be eaten in Naples.", "spotlight": "Southern pride, said with a smile — not aggressive, just certain." },
+        { "speaker": "Pietro", "target": "A casa, con mia moglie e mia figlia, a volte parliamo napoletano — ma con te parlo sempre in italiano standard.", "en": "At home, with my wife and daughter, we sometimes speak Neapolitan — but with you I always speak standard Italian.", "spotlight": "Pietro code-switches with family but keeps standard Italian with you — dialect is real, just not what we teach." },
+        { "speaker": "You", "target": "Posso venire con te alla pizzeria, una sera?", "en": "Can I come with you to the pizzeria one evening?" },
+        { "speaker": "Pietro", "target": "Certo! Sono sicuro che ti piace — è meglio della pizza del nord, te lo dico io.", "en": "Of course! I'm sure you'll like it — it's better than pizza from the north, I'm telling you.", "spotlight": "A gentle jab at the north — classic Pietro." }
       ]
     },
     {

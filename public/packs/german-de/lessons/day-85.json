@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-85",
   "day": 85,
   "module": "M13",
@@ -38,12 +38,12 @@
       "type": "chips",
       "title": "Bausteine zum Anhören",
       "items": [
-        { "nl": "Ich würde sagen, …", "en": "I would say, …", "speak": "Ich würde sagen" },
-        { "nl": "An deiner Stelle würde ich …", "en": "In your place I would …", "speak": "An deiner Stelle würde ich" },
-        { "nl": "Würdest du mir helfen?", "en": "Would you help me?", "speak": "Würdest du mir helfen?" },
-        { "nl": "Ich würde gern mitkommen.", "en": "I'd like to come along.", "speak": "Ich würde gern mitkommen." },
-        { "nl": "Das würde ich nicht machen.", "en": "I wouldn't do that.", "speak": "Das würde ich nicht machen." },
-        { "nl": "Wir würden uns freuen.", "en": "We'd be glad.", "speak": "Wir würden uns freuen." }
+        { "target": "Ich würde sagen, …", "en": "I would say, …", "speak": "Ich würde sagen" },
+        { "target": "An deiner Stelle würde ich …", "en": "In your place I would …", "speak": "An deiner Stelle würde ich" },
+        { "target": "Würdest du mir helfen?", "en": "Would you help me?", "speak": "Würdest du mir helfen?" },
+        { "target": "Ich würde gern mitkommen.", "en": "I'd like to come along.", "speak": "Ich würde gern mitkommen." },
+        { "target": "Das würde ich nicht machen.", "en": "I wouldn't do that.", "speak": "Das würde ich nicht machen." },
+        { "target": "Wir würden uns freuen.", "en": "We'd be glad.", "speak": "Wir würden uns freuen." }
       ]
     },
     {
@@ -93,16 +93,16 @@
       "type": "dialogue",
       "scene": "You can't decide whether to switch flatshares. You ask Lena — and she answers in careful, hedged advice.",
       "lines": [
-        { "speaker": "You", "nl": "Lena, ich weiß echt nicht, ob ich umziehen soll.", "en": "Lena, I really don't know whether I should move." },
-        { "speaker": "Lena", "nl": "Hmm. An deiner Stelle würde ich das erst mal in Ruhe durchdenken.", "en": "Hmm. In your place I'd think it through calmly first.", "spotlight": "*An deiner Stelle würde ich…* — the classic German advice frame." },
-        { "speaker": "You", "nl": "Aber die neue WG ist viel günstiger.", "en": "But the new flatshare is much cheaper." },
-        { "speaker": "Lena", "nl": "Klar. Ich würde trotzdem nichts überstürzen.", "en": "Sure. I still wouldn't rush anything." },
-        { "speaker": "You", "nl": "Würdest du mit den neuen Leuten reden?", "en": "Would you talk to the new people?", "spotlight": "Yes/no question: *würde* jumps to the front, the infinitive *reden* stays at the end." },
-        { "speaker": "Lena", "nl": "Auf jeden Fall. Ich würde sie einfach mal auf einen Kaffee treffen.", "en": "Definitely. I'd just meet them for a coffee sometime." },
-        { "speaker": "You", "nl": "Gute Idee. Das würde ich von allein nie machen.", "en": "Good idea. I'd never do that on my own." },
-        { "speaker": "Lena", "nl": "Siehst du? Ein bisschen Mut würde dir manchmal echt helfen.", "en": "See? A bit of courage would really help you sometimes." },
-        { "speaker": "You", "nl": "Danke. Ohne dich würde ich echt untergehen.", "en": "Thanks. Without you I'd really sink." },
-        { "speaker": "Lena", "nl": "Quatsch. Du würdest das auch allein schaffen.", "en": "Nonsense. You'd manage it on your own too." }
+        { "speaker": "You", "target": "Lena, ich weiß echt nicht, ob ich umziehen soll.", "en": "Lena, I really don't know whether I should move." },
+        { "speaker": "Lena", "target": "Hmm. An deiner Stelle würde ich das erst mal in Ruhe durchdenken.", "en": "Hmm. In your place I'd think it through calmly first.", "spotlight": "*An deiner Stelle würde ich…* — the classic German advice frame." },
+        { "speaker": "You", "target": "Aber die neue WG ist viel günstiger.", "en": "But the new flatshare is much cheaper." },
+        { "speaker": "Lena", "target": "Klar. Ich würde trotzdem nichts überstürzen.", "en": "Sure. I still wouldn't rush anything." },
+        { "speaker": "You", "target": "Würdest du mit den neuen Leuten reden?", "en": "Would you talk to the new people?", "spotlight": "Yes/no question: *würde* jumps to the front, the infinitive *reden* stays at the end." },
+        { "speaker": "Lena", "target": "Auf jeden Fall. Ich würde sie einfach mal auf einen Kaffee treffen.", "en": "Definitely. I'd just meet them for a coffee sometime." },
+        { "speaker": "You", "target": "Gute Idee. Das würde ich von allein nie machen.", "en": "Good idea. I'd never do that on my own." },
+        { "speaker": "Lena", "target": "Siehst du? Ein bisschen Mut würde dir manchmal echt helfen.", "en": "See? A bit of courage would really help you sometimes." },
+        { "speaker": "You", "target": "Danke. Ohne dich würde ich echt untergehen.", "en": "Thanks. Without you I'd really sink." },
+        { "speaker": "Lena", "target": "Quatsch. Du würdest das auch allein schaffen.", "en": "Nonsense. You'd manage it on your own too." }
       ]
     },
     {

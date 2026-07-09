@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-90",
   "day": 90,
   "module": "M13",
@@ -30,11 +30,11 @@
       "type": "chips",
       "title": "Opwarmen — tik om te horen",
       "items": [
-        { "nl": "Er wordt bij ons flink gereorganiseerd.", "en": "There's a big reorganisation going on with us.", "speak": "Er wordt bij ons flink gereorganiseerd." },
-        { "nl": "De teams worden opnieuw ingedeeld.", "en": "The teams are being reshuffled.", "speak": "De teams worden opnieuw ingedeeld." },
-        { "nl": "Mij is een nieuwe functie aangeboden.", "en": "I've been offered a new role.", "speak": "Mij is een nieuwe functie aangeboden." },
-        { "nl": "Er moet veel geregeld worden.", "en": "A lot has to be arranged.", "speak": "Er moet veel geregeld worden." },
-        { "nl": "Alles wordt volgende maand beslist.", "en": "Everything's decided next month.", "speak": "Alles wordt volgende maand beslist." }
+        { "target": "Er wordt bij ons flink gereorganiseerd.", "en": "There's a big reorganisation going on with us.", "speak": "Er wordt bij ons flink gereorganiseerd." },
+        { "target": "De teams worden opnieuw ingedeeld.", "en": "The teams are being reshuffled.", "speak": "De teams worden opnieuw ingedeeld." },
+        { "target": "Mij is een nieuwe functie aangeboden.", "en": "I've been offered a new role.", "speak": "Mij is een nieuwe functie aangeboden." },
+        { "target": "Er moet veel geregeld worden.", "en": "A lot has to be arranged.", "speak": "Er moet veel geregeld worden." },
+        { "target": "Alles wordt volgende maand beslist.", "en": "Everything's decided next month.", "speak": "Alles wordt volgende maand beslist." }
       ]
     },
     {
@@ -55,17 +55,17 @@
       "type": "dialogue",
       "scene": "A café in de Pijp, a bright Saturday. Your second year of Dutch. Emma has news.",
       "lines": [
-        { "speaker": "Emma", "nl": "Zo, daar ben je weer! En je Nederlands is alleen maar beter geworden, hoor.", "en": "There you are again! And your Dutch has only gotten better." },
-        { "speaker": "You", "nl": "Dank je. Ik oefen nog elke dag. Hoe is het met jou?", "en": "Thanks. I still practice every day. How are you?" },
-        { "speaker": "Emma", "nl": "Druk. Bij ons wordt op het moment van alles verbouwd — letterlijk én op kantoor.", "en": "Busy. Right now everything's being rebuilt with us — literally and at the office." },
-        { "speaker": "You", "nl": "Verbouwd?", "en": "Rebuilt?" },
-        { "speaker": "Emma", "nl": "Ja, er wordt gereorganiseerd. De teams worden opnieuw ingedeeld.", "en": "Yeah, there's a reorganisation. The teams are being reshuffled.", "spotlight": "Onpersoonlijk passief + gewoon passief in één adem." },
-        { "speaker": "You", "nl": "Klinkt spannend. En jij?", "en": "Sounds exciting. And you?" },
-        { "speaker": "Emma", "nl": "Nou… mij is een nieuwe functie aangeboden. Teamlead. Ik moet nog beslissen.", "en": "Well… I've been offered a new role. Team lead. I still have to decide.", "spotlight": "Passief met de ontvanger vooraan: *mij is … aangeboden*." },
-        { "speaker": "You", "nl": "Wat goed, Emma! Ga je het doen?", "en": "That's great, Emma! Are you going to do it?" },
-        { "speaker": "Emma", "nl": "Weet ik nog niet. Er moet veel geregeld worden, en ik twijfel of het bij me past.", "en": "Don't know yet. A lot has to be arranged, and I doubt whether it suits me." },
-        { "speaker": "You", "nl": "Je zou het geweldig doen.", "en": "You'd be great at it." },
-        { "speaker": "Emma", "nl": "Lief dat je dat zegt. We zien wel — alles wordt volgende maand beslist.", "en": "Sweet of you to say. We'll see — everything's decided next month." }
+        { "speaker": "Emma", "target": "Zo, daar ben je weer! En je Nederlands is alleen maar beter geworden, hoor.", "en": "There you are again! And your Dutch has only gotten better." },
+        { "speaker": "You", "target": "Dank je. Ik oefen nog elke dag. Hoe is het met jou?", "en": "Thanks. I still practice every day. How are you?" },
+        { "speaker": "Emma", "target": "Druk. Bij ons wordt op het moment van alles verbouwd — letterlijk én op kantoor.", "en": "Busy. Right now everything's being rebuilt with us — literally and at the office." },
+        { "speaker": "You", "target": "Verbouwd?", "en": "Rebuilt?" },
+        { "speaker": "Emma", "target": "Ja, er wordt gereorganiseerd. De teams worden opnieuw ingedeeld.", "en": "Yeah, there's a reorganisation. The teams are being reshuffled.", "spotlight": "Onpersoonlijk passief + gewoon passief in één adem." },
+        { "speaker": "You", "target": "Klinkt spannend. En jij?", "en": "Sounds exciting. And you?" },
+        { "speaker": "Emma", "target": "Nou… mij is een nieuwe functie aangeboden. Teamlead. Ik moet nog beslissen.", "en": "Well… I've been offered a new role. Team lead. I still have to decide.", "spotlight": "Passief met de ontvanger vooraan: *mij is … aangeboden*." },
+        { "speaker": "You", "target": "Wat goed, Emma! Ga je het doen?", "en": "That's great, Emma! Are you going to do it?" },
+        { "speaker": "Emma", "target": "Weet ik nog niet. Er moet veel geregeld worden, en ik twijfel of het bij me past.", "en": "Don't know yet. A lot has to be arranged, and I doubt whether it suits me." },
+        { "speaker": "You", "target": "Je zou het geweldig doen.", "en": "You'd be great at it." },
+        { "speaker": "Emma", "target": "Lief dat je dat zegt. We zien wel — alles wordt volgende maand beslist.", "en": "Sweet of you to say. We'll see — everything's decided next month." }
       ]
     },
     {

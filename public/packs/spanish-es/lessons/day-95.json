@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-95",
   "day": 95,
   "module": "M14",
@@ -35,11 +35,11 @@
       "type": "chips",
       "title": "Reproches suaves — toca y repite",
       "items": [
-        { "nl": "deberías habérmelo dicho", "en": "you should've told me", "speak": "deberías habérmelo dicho" },
-        { "nl": "podrías haber avisado", "en": "you could've given a heads-up", "speak": "podrías haber avisado" },
-        { "nl": "de haberlo sabido, no vengo", "en": "had I known, I wouldn't have come", "speak": "de haberlo sabido, no vengo" },
-        { "nl": "yo que tú no lo habría hecho", "en": "if I were you I wouldn't have done it", "speak": "yo que tú no lo habría hecho" },
-        { "nl": "no tenías que haberte molestado", "en": "you didn't have to bother", "speak": "no tenías que haberte molestado" }
+        { "target": "deberías habérmelo dicho", "en": "you should've told me", "speak": "deberías habérmelo dicho" },
+        { "target": "podrías haber avisado", "en": "you could've given a heads-up", "speak": "podrías haber avisado" },
+        { "target": "de haberlo sabido, no vengo", "en": "had I known, I wouldn't have come", "speak": "de haberlo sabido, no vengo" },
+        { "target": "yo que tú no lo habría hecho", "en": "if I were you I wouldn't have done it", "speak": "yo que tú no lo habría hecho" },
+        { "target": "no tenías que haberte molestado", "en": "you didn't have to bother", "speak": "no tenías que haberte molestado" }
       ]
     },
     {
@@ -76,11 +76,11 @@
       "type": "dialogue",
       "scene": "Rafa shows up late and empty-handed. You reproach him — gently.",
       "lines": [
-        { "speaker": "Rafa", "nl": "Perdona el retraso, se me ha ido el santo al cielo.", "en": "Sorry I'm late, I completely lost track." },
-        { "speaker": "You", "nl": "Hombre, podrías haber mandado un mensaje, llevo aquí media hora.", "en": "Come on, you could've sent a text, I've been here half an hour.", "spotlight": "*podrías haber + participio*: reproche suave, no bronca." },
-        { "speaker": "Rafa", "nl": "Tienes razón, debería haberte escrito. Lo siento de verdad.", "en": "You're right, I should've written you. I'm really sorry." },
-        { "speaker": "You", "nl": "Nada, tranquilo. Si me lo hubieras dicho, habría venido más tarde y ya está.", "en": "It's fine, don't worry. If you'd told me, I'd have come later and that'd be it." },
-        { "speaker": "Rafa", "nl": "De haberlo sabido, te aviso, en serio. La próxima me organizo mejor.", "en": "Had I known, I'd have told you, seriously. Next time I'll organize myself better." }
+        { "speaker": "Rafa", "target": "Perdona el retraso, se me ha ido el santo al cielo.", "en": "Sorry I'm late, I completely lost track." },
+        { "speaker": "You", "target": "Hombre, podrías haber mandado un mensaje, llevo aquí media hora.", "en": "Come on, you could've sent a text, I've been here half an hour.", "spotlight": "*podrías haber + participio*: reproche suave, no bronca." },
+        { "speaker": "Rafa", "target": "Tienes razón, debería haberte escrito. Lo siento de verdad.", "en": "You're right, I should've written you. I'm really sorry." },
+        { "speaker": "You", "target": "Nada, tranquilo. Si me lo hubieras dicho, habría venido más tarde y ya está.", "en": "It's fine, don't worry. If you'd told me, I'd have come later and that'd be it." },
+        { "speaker": "Rafa", "target": "De haberlo sabido, te aviso, en serio. La próxima me organizo mejor.", "en": "Had I known, I'd have told you, seriously. Next time I'll organize myself better." }
       ]
     },
     {

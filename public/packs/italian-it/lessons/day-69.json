@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-69",
   "day": 69,
   "module": "M10",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "Il ripasso in una manciata di frasi",
       "items": [
-        { "nl": "Le scatole? Le ho già caricate.", "en": "The boxes? I've already loaded them.", "speak": "Le scatole? Le ho già caricate." },
-        { "nl": "Ci ho pensato per mesi.", "en": "I thought about it for months.", "speak": "Ci ho pensato per mesi." },
-        { "nl": "L'indirizzo? Te lo mando stasera.", "en": "The address? I'll send it to you tonight.", "speak": "L'indirizzo? Te lo mando stasera." },
-        { "nl": "Mi sono decisa: parto.", "en": "I've made up my mind: I'm leaving.", "speak": "Mi sono decisa: parto." }
+        { "target": "Le scatole? Le ho già caricate.", "en": "The boxes? I've already loaded them.", "speak": "Le scatole? Le ho già caricate." },
+        { "target": "Ci ho pensato per mesi.", "en": "I thought about it for months.", "speak": "Ci ho pensato per mesi." },
+        { "target": "L'indirizzo? Te lo mando stasera.", "en": "The address? I'll send it to you tonight.", "speak": "L'indirizzo? Te lo mando stasera." },
+        { "target": "Mi sono decisa: parto.", "en": "I've made up my mind: I'm leaving.", "speak": "Mi sono decisa: parto." }
       ]
     },
     {
@@ -45,15 +45,15 @@
       "type": "dialogue",
       "scene": "Mattina del trasloco. Il furgone è sotto casa di Sofia. Giulia, Marco e tu la aiutate a caricare le ultime cose.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Il furgone è già qui. Le scatole in corridoio le stiamo caricando adesso.", "en": "The van's already here. The boxes in the hall — we're loading them now.", "spotlight": "*le stiamo caricando*: pronome diretto + stare + gerundio." },
-        { "speaker": "Marco", "nl": "Questa lampada l'ho presa io. Dove la metto, Sofia?", "en": "I've got this lamp. Where do I put it, Sofia?" },
-        { "speaker": "Sofia", "nl": "Mettila in fondo, grazie. Mi sono svegliata alle sei, non ci credo ancora.", "en": "Put it at the back, thanks. I woke up at six, I still can't believe it.", "spotlight": "*mettila* (imperativo + clitico) e *mi sono svegliata* (riflessivo, accordo)." },
-        { "speaker": "You", "nl": "Milano? Ci hai pensato tanto. Adesso è il momento giusto.", "en": "Milan? You thought about it so much. Now's the right moment." },
-        { "speaker": "Sofia", "nl": "Eh, ci ho pensato per mesi. Alla fine mi sono decisa e ho detto di sì.", "en": "Yeah, I thought about it for months. In the end I made up my mind and said yes." },
-        { "speaker": "Giulia", "nl": "Il tuo indirizzo nuovo me lo dai? Così veniamo a trovarti presto.", "en": "Will you give me your new address? So we can come visit you soon." },
-        { "speaker": "Sofia", "nl": "Certo, ve lo mando stasera. A Milano si lavora tanto, ma ce la farò.", "en": "Of course, I'll send it to you all tonight. In Milan people work a lot, but I'll manage.", "spotlight": "*ve lo mando* (combinato), *si lavora* (impersonale), *ce la farò*." },
-        { "speaker": "Marco", "nl": "Dai, non ti commuovere adesso, se no piango pure io.", "en": "Come on, don't get emotional now, or I'll cry too." },
-        { "speaker": "Sofia", "nl": "Vi voglio bene, ragazzi. Ci sentiamo prestissimo, promesso.", "en": "I love you guys. We'll talk very soon, promise." }
+        { "speaker": "Giulia", "target": "Il furgone è già qui. Le scatole in corridoio le stiamo caricando adesso.", "en": "The van's already here. The boxes in the hall — we're loading them now.", "spotlight": "*le stiamo caricando*: pronome diretto + stare + gerundio." },
+        { "speaker": "Marco", "target": "Questa lampada l'ho presa io. Dove la metto, Sofia?", "en": "I've got this lamp. Where do I put it, Sofia?" },
+        { "speaker": "Sofia", "target": "Mettila in fondo, grazie. Mi sono svegliata alle sei, non ci credo ancora.", "en": "Put it at the back, thanks. I woke up at six, I still can't believe it.", "spotlight": "*mettila* (imperativo + clitico) e *mi sono svegliata* (riflessivo, accordo)." },
+        { "speaker": "You", "target": "Milano? Ci hai pensato tanto. Adesso è il momento giusto.", "en": "Milan? You thought about it so much. Now's the right moment." },
+        { "speaker": "Sofia", "target": "Eh, ci ho pensato per mesi. Alla fine mi sono decisa e ho detto di sì.", "en": "Yeah, I thought about it for months. In the end I made up my mind and said yes." },
+        { "speaker": "Giulia", "target": "Il tuo indirizzo nuovo me lo dai? Così veniamo a trovarti presto.", "en": "Will you give me your new address? So we can come visit you soon." },
+        { "speaker": "Sofia", "target": "Certo, ve lo mando stasera. A Milano si lavora tanto, ma ce la farò.", "en": "Of course, I'll send it to you all tonight. In Milan people work a lot, but I'll manage.", "spotlight": "*ve lo mando* (combinato), *si lavora* (impersonale), *ce la farò*." },
+        { "speaker": "Marco", "target": "Dai, non ti commuovere adesso, se no piango pure io.", "en": "Come on, don't get emotional now, or I'll cry too." },
+        { "speaker": "Sofia", "target": "Vi voglio bene, ragazzi. Ci sentiamo prestissimo, promesso.", "en": "I love you guys. We'll talk very soon, promise." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-38",
   "day": 38,
   "module": "M06",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Parole per l'emergenza",
       "items": [
-        { "nl": "l'emergenza", "en": "emergency", "speak": "l'emergenza" },
-        { "nl": "l'ambulanza", "en": "ambulance", "speak": "l'ambulanza" },
-        { "nl": "il pronto soccorso", "en": "ER / emergency room", "speak": "il pronto soccorso" },
-        { "nl": "l'ospedale", "en": "hospital", "speak": "l'ospedale" },
-        { "nl": "un incidente", "en": "an accident", "speak": "un incidente" },
-        { "nl": "i vigili del fuoco", "en": "firefighters", "speak": "i vigili del fuoco" }
+        { "target": "l'emergenza", "en": "emergency", "speak": "l'emergenza" },
+        { "target": "l'ambulanza", "en": "ambulance", "speak": "l'ambulanza" },
+        { "target": "il pronto soccorso", "en": "ER / emergency room", "speak": "il pronto soccorso" },
+        { "target": "l'ospedale", "en": "hospital", "speak": "l'ospedale" },
+        { "target": "un incidente", "en": "an accident", "speak": "un incidente" },
+        { "target": "i vigili del fuoco", "en": "firefighters", "speak": "i vigili del fuoco" }
       ]
     },
     {
@@ -39,10 +39,10 @@
       "type": "shadow",
       "title": "Ascolta e ripeti — in emergenza",
       "lines": [
-        { "nl": "Ho bisogno di aiuto.", "en": "I need help." },
-        { "nl": "C'è stato un incidente.", "en": "There's been an accident." },
-        { "nl": "Chiami un'ambulanza, per favore.", "en": "Call an ambulance, please." },
-        { "nl": "Sono in Via Mazzini.", "en": "I'm on Via Mazzini." }
+        { "target": "Ho bisogno di aiuto.", "en": "I need help." },
+        { "target": "C'è stato un incidente.", "en": "There's been an accident." },
+        { "target": "Chiami un'ambulanza, per favore.", "en": "Call an ambulance, please." },
+        { "target": "Sono in Via Mazzini.", "en": "I'm on Via Mazzini." }
       ]
     },
     {
@@ -69,12 +69,12 @@
       "type": "dialogue",
       "scene": "Out with Marco, 'You' start feeling a sharp pain — Marco decides whether it's 112-worthy",
       "lines": [
-        { "speaker": "You", "nl": "Marco, non mi sento bene. Ho un forte dolore al petto.", "en": "Marco, I don't feel well. I have a sharp pain in my chest." },
-        { "speaker": "Marco", "nl": "Un dolore al petto? Non scherziamo, chiamo subito il 112.", "en": "Chest pain? No joking around, I'm calling 112 right now.", "spotlight": "Marco doesn't hesitate — chest pain is exactly what 112 is for, not the farmacia." },
-        { "speaker": "You", "nl": "Aspetta, magari è solo il caffè di oggi…", "en": "Wait, maybe it's just today's coffee…" },
-        { "speaker": "Marco", "nl": "Meglio controllare. In un'emergenza è sempre meglio chiamare.", "en": "Better to check. In an emergency it's always better to call." },
-        { "speaker": "Marco", "nl": "Pronto? Sì, una persona con un forte dolore al petto — siamo in Via Mazzini.", "en": "Hello? Yes, a person with a sharp chest pain — we're on Via Mazzini." },
-        { "speaker": "You", "nl": "Grazie, Marco. Meglio essere prudenti.", "en": "Thanks, Marco. Better safe than sorry." }
+        { "speaker": "You", "target": "Marco, non mi sento bene. Ho un forte dolore al petto.", "en": "Marco, I don't feel well. I have a sharp pain in my chest." },
+        { "speaker": "Marco", "target": "Un dolore al petto? Non scherziamo, chiamo subito il 112.", "en": "Chest pain? No joking around, I'm calling 112 right now.", "spotlight": "Marco doesn't hesitate — chest pain is exactly what 112 is for, not the farmacia." },
+        { "speaker": "You", "target": "Aspetta, magari è solo il caffè di oggi…", "en": "Wait, maybe it's just today's coffee…" },
+        { "speaker": "Marco", "target": "Meglio controllare. In un'emergenza è sempre meglio chiamare.", "en": "Better to check. In an emergency it's always better to call." },
+        { "speaker": "Marco", "target": "Pronto? Sì, una persona con un forte dolore al petto — siamo in Via Mazzini.", "en": "Hello? Yes, a person with a sharp chest pain — we're on Via Mazzini." },
+        { "speaker": "You", "target": "Grazie, Marco. Meglio essere prudenti.", "en": "Thanks, Marco. Better safe than sorry." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-40",
   "day": 40,
   "module": "M06",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Frasi di consiglio",
       "items": [
-        { "nl": "devi riposare", "en": "you have to rest", "speak": "devi riposare" },
-        { "nl": "dovresti bere più acqua", "en": "you should drink more water", "speak": "dovresti bere più acqua" },
-        { "nl": "devi andare dal medico", "en": "you have to go to the doctor", "speak": "devi andare dal medico" },
-        { "nl": "dovresti prendere un'aspirina", "en": "you should take an aspirin", "speak": "dovresti prendere un'aspirina" },
-        { "nl": "devi dormire di più", "en": "you have to sleep more", "speak": "devi dormire di più" }
+        { "target": "devi riposare", "en": "you have to rest", "speak": "devi riposare" },
+        { "target": "dovresti bere più acqua", "en": "you should drink more water", "speak": "dovresti bere più acqua" },
+        { "target": "devi andare dal medico", "en": "you have to go to the doctor", "speak": "devi andare dal medico" },
+        { "target": "dovresti prendere un'aspirina", "en": "you should take an aspirin", "speak": "dovresti prendere un'aspirina" },
+        { "target": "devi dormire di più", "en": "you have to sleep more", "speak": "devi dormire di più" }
       ]
     },
     {
@@ -65,12 +65,12 @@
       "type": "dialogue",
       "scene": "'You' mention feeling run down at the bar — Marco gives advice, blunt then softened",
       "lines": [
-        { "speaker": "You", "nl": "Marco, sono stanco e ho mal di testa da due giorni.", "en": "Marco, I'm tired and I've had a headache for two days." },
-        { "speaker": "Marco", "nl": "Due giorni? Devi andare dal medico, dai.", "en": "Two days? You have to go to the doctor, come on." },
-        { "speaker": "You", "nl": "Forse è solo stanchezza…", "en": "Maybe it's just tiredness…" },
-        { "speaker": "Marco", "nl": "Boh, magari. Comunque dovresti almeno riposare un po' stasera.", "en": "Well, maybe. Anyway you should at least rest a bit tonight.", "spotlight": "Marco's blunt devi softens into dovresti one line later — very him." },
-        { "speaker": "Marco", "nl": "E perché non bevi meno caffè per un paio di giorni, eh?", "en": "And why don't you drink less coffee for a couple of days, eh?" },
-        { "speaker": "You", "nl": "Va bene, ci provo.", "en": "Okay, I'll try." }
+        { "speaker": "You", "target": "Marco, sono stanco e ho mal di testa da due giorni.", "en": "Marco, I'm tired and I've had a headache for two days." },
+        { "speaker": "Marco", "target": "Due giorni? Devi andare dal medico, dai.", "en": "Two days? You have to go to the doctor, come on." },
+        { "speaker": "You", "target": "Forse è solo stanchezza…", "en": "Maybe it's just tiredness…" },
+        { "speaker": "Marco", "target": "Boh, magari. Comunque dovresti almeno riposare un po' stasera.", "en": "Well, maybe. Anyway you should at least rest a bit tonight.", "spotlight": "Marco's blunt devi softens into dovresti one line later — very him." },
+        { "speaker": "Marco", "target": "E perché non bevi meno caffè per un paio di giorni, eh?", "en": "And why don't you drink less coffee for a couple of days, eh?" },
+        { "speaker": "You", "target": "Va bene, ci provo.", "en": "Okay, I'll try." }
       ]
     },
     {

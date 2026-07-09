@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-57",
   "day": 57,
   "module": "M09",
@@ -36,12 +36,12 @@
       "type": "chips",
       "title": "Escucha las reacciones",
       "items": [
-        { "nl": "Me alegro de que estés aquí.", "en": "I'm glad you're here.", "speak": "Me alegro de que estés aquí." },
-        { "nl": "Es una pena que no puedas venir.", "en": "It's a shame you can't come.", "speak": "Es una pena que no puedas venir." },
-        { "nl": "No creo que sea verdad.", "en": "I don't think it's true.", "speak": "No creo que sea verdad." },
-        { "nl": "Dudo que llegue a tiempo.", "en": "I doubt he'll get here on time.", "speak": "Dudo que llegue a tiempo." },
-        { "nl": "Puede que llueva mañana.", "en": "It might rain tomorrow.", "speak": "Puede que llueva mañana." },
-        { "nl": "¡Ojalá tengas suerte!", "en": "I hope you're lucky!", "speak": "¡Ojalá tengas suerte!" }
+        { "target": "Me alegro de que estés aquí.", "en": "I'm glad you're here.", "speak": "Me alegro de que estés aquí." },
+        { "target": "Es una pena que no puedas venir.", "en": "It's a shame you can't come.", "speak": "Es una pena que no puedas venir." },
+        { "target": "No creo que sea verdad.", "en": "I don't think it's true.", "speak": "No creo que sea verdad." },
+        { "target": "Dudo que llegue a tiempo.", "en": "I doubt he'll get here on time.", "speak": "Dudo que llegue a tiempo." },
+        { "target": "Puede que llueva mañana.", "en": "It might rain tomorrow.", "speak": "Puede que llueva mañana." },
+        { "target": "¡Ojalá tengas suerte!", "en": "I hope you're lucky!", "speak": "¡Ojalá tengas suerte!" }
       ]
     },
     {
@@ -80,14 +80,14 @@
       "type": "dialogue",
       "scene": "En el bar, Rafa suelta una novedad y todos reaccionan",
       "lines": [
-        { "speaker": "Rafa", "nl": "¿Sabéis que igual me cambio de piso?", "en": "You know I might move flats?" },
-        { "speaker": "You", "nl": "¿En serio? Me alegro de que por fin te decidas.", "en": "Really? I'm glad you're finally making up your mind.", "spotlight": "me alegro de que + subjuntivo (te decidas)." },
-        { "speaker": "Rafa", "nl": "Bueno, no creo que sea fácil encontrar algo barato en el centro.", "en": "Well, I don't think it'll be easy to find something cheap downtown.", "spotlight": "no creo que + subjuntivo (sea)." },
-        { "speaker": "Lucía", "nl": "Hombre, dudo que sea barato, pero seguro que encuentras algo majo.", "en": "I mean, I doubt it'll be cheap, but you'll definitely find somewhere nice." },
-        { "speaker": "You", "nl": "Es una pena que los alquileres estén tan caros aquí.", "en": "It's a shame rents are so expensive here.", "spotlight": "es una pena que + subjuntivo (estén)." },
-        { "speaker": "Rafa", "nl": "Ya ves. Espero que no me suban el precio otra vez.", "en": "Tell me about it. I hope they don't raise the price on me again." },
-        { "speaker": "Lucía", "nl": "Tranquilo. Ojalá te salga algo pronto, tío.", "en": "Relax. Hopefully something turns up soon, mate." },
-        { "speaker": "Rafa", "nl": "Gracias, majos. A ver si hay suerte.", "en": "Thanks, you two. Let's see if I get lucky." }
+        { "speaker": "Rafa", "target": "¿Sabéis que igual me cambio de piso?", "en": "You know I might move flats?" },
+        { "speaker": "You", "target": "¿En serio? Me alegro de que por fin te decidas.", "en": "Really? I'm glad you're finally making up your mind.", "spotlight": "me alegro de que + subjuntivo (te decidas)." },
+        { "speaker": "Rafa", "target": "Bueno, no creo que sea fácil encontrar algo barato en el centro.", "en": "Well, I don't think it'll be easy to find something cheap downtown.", "spotlight": "no creo que + subjuntivo (sea)." },
+        { "speaker": "Lucía", "target": "Hombre, dudo que sea barato, pero seguro que encuentras algo majo.", "en": "I mean, I doubt it'll be cheap, but you'll definitely find somewhere nice." },
+        { "speaker": "You", "target": "Es una pena que los alquileres estén tan caros aquí.", "en": "It's a shame rents are so expensive here.", "spotlight": "es una pena que + subjuntivo (estén)." },
+        { "speaker": "Rafa", "target": "Ya ves. Espero que no me suban el precio otra vez.", "en": "Tell me about it. I hope they don't raise the price on me again." },
+        { "speaker": "Lucía", "target": "Tranquilo. Ojalá te salga algo pronto, tío.", "en": "Relax. Hopefully something turns up soon, mate." },
+        { "speaker": "Rafa", "target": "Gracias, majos. A ver si hay suerte.", "en": "Thanks, you two. Let's see if I get lucky." }
       ]
     },
     {

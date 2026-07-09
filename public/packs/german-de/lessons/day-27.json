@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-27",
   "day": 27,
   "module": "M04",
@@ -21,10 +21,10 @@
       "type": "chips",
       "title": "Quick refresh — tap to hear",
       "items": [
-        { "nl": "Ich hätte gern…", "en": "I would like…", "speak": "Ich hätte gern" },
-        { "nl": "Ich möchte…", "en": "I would like to…", "speak": "Ich möchte" },
-        { "nl": "ich esse gern", "en": "I like to eat", "speak": "ich esse gern" },
-        { "nl": "ein Kilo", "en": "a kilo", "speak": "ein Kilo" }
+        { "target": "Ich hätte gern…", "en": "I would like…", "speak": "Ich hätte gern" },
+        { "target": "Ich möchte…", "en": "I would like to…", "speak": "Ich möchte" },
+        { "target": "ich esse gern", "en": "I like to eat", "speak": "ich esse gern" },
+        { "target": "ein Kilo", "en": "a kilo", "speak": "ein Kilo" }
       ]
     },
     {
@@ -45,15 +45,15 @@
       "type": "dialogue",
       "scene": "Klaus tells you about his Saturday morning ritual: the walk to his favorite Bäckerei near the Ebertplatz in Köln.",
       "lines": [
-        { "speaker": "Klaus", "nl": "Moin! Samstags hole ich immer Brötchen. Willst du mitkommen?", "en": "Morning! On Saturdays I always get bread rolls. Want to come along?" },
-        { "speaker": "You", "nl": "Ja, gern! Wohin gehen wir?", "en": "Yes, gladly! Where are we going?" },
-        { "speaker": "Klaus", "nl": "Meine Bäckerei ist am Ebertplatz. Die ist richtig gut.", "en": "My bakery is at the Ebertplatz. It's really good." },
-        { "speaker": "You", "nl": "Was isst du normalerweise zum Frühstück?", "en": "What do you normally eat for breakfast?" },
-        { "speaker": "Klaus", "nl": "Ich esse gern ein Käsebrötchen und trinke einen Kaffee dazu.", "en": "I like eating a cheese roll and drinking a coffee with it.", "spotlight": "*ich esse gern* — the gern trick, right on schedule." },
-        { "speaker": "You", "nl": "Und was bestellst du dort genau?", "en": "And what exactly do you order there?" },
-        { "speaker": "Klaus", "nl": "Ich sage einfach: Ich hätte gern zwei Käsebrötchen, bitte.", "en": "I just say: I'd like two cheese rolls, please." },
-        { "speaker": "You", "nl": "Und in Berlin? Ist das auch so entspannt?", "en": "And in Berlin? Is it just as relaxed there?" },
-        { "speaker": "Klaus", "nl": "Nein, gar nicht! In Köln machen wir das entspannt — nicht so hektisch wie in Berlin.", "en": "No, not at all! In Cologne we take it easy — not as hectic as in Berlin.", "spotlight": "Klaus's Rhineland pride, right on cue." }
+        { "speaker": "Klaus", "target": "Moin! Samstags hole ich immer Brötchen. Willst du mitkommen?", "en": "Morning! On Saturdays I always get bread rolls. Want to come along?" },
+        { "speaker": "You", "target": "Ja, gern! Wohin gehen wir?", "en": "Yes, gladly! Where are we going?" },
+        { "speaker": "Klaus", "target": "Meine Bäckerei ist am Ebertplatz. Die ist richtig gut.", "en": "My bakery is at the Ebertplatz. It's really good." },
+        { "speaker": "You", "target": "Was isst du normalerweise zum Frühstück?", "en": "What do you normally eat for breakfast?" },
+        { "speaker": "Klaus", "target": "Ich esse gern ein Käsebrötchen und trinke einen Kaffee dazu.", "en": "I like eating a cheese roll and drinking a coffee with it.", "spotlight": "*ich esse gern* — the gern trick, right on schedule." },
+        { "speaker": "You", "target": "Und was bestellst du dort genau?", "en": "And what exactly do you order there?" },
+        { "speaker": "Klaus", "target": "Ich sage einfach: Ich hätte gern zwei Käsebrötchen, bitte.", "en": "I just say: I'd like two cheese rolls, please." },
+        { "speaker": "You", "target": "Und in Berlin? Ist das auch so entspannt?", "en": "And in Berlin? Is it just as relaxed there?" },
+        { "speaker": "Klaus", "target": "Nein, gar nicht! In Köln machen wir das entspannt — nicht so hektisch wie in Berlin.", "en": "No, not at all! In Cologne we take it easy — not as hectic as in Berlin.", "spotlight": "Klaus's Rhineland pride, right on cue." }
       ]
     },
     {

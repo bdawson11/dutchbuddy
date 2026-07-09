@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-33",
   "day": 33,
   "module": "M05",
@@ -33,14 +33,14 @@
       "type": "chips",
       "title": "Escucha el vocabulario del tren",
       "items": [
-        { "nl": "el tren", "en": "the train", "speak": "el tren" },
-        { "nl": "el andén", "en": "the platform", "speak": "el andén" },
-        { "nl": "el billete", "en": "the ticket", "speak": "el billete" },
-        { "nl": "hacer transbordo", "en": "to change trains", "speak": "hacer transbordo" },
-        { "nl": "el AVE", "en": "the high-speed train", "speak": "el AVE" },
-        { "nl": "la estación", "en": "the station", "speak": "la estación" },
-        { "nl": "sacar un billete", "en": "to get a ticket", "speak": "sacar un billete" },
-        { "nl": "perder el tren", "en": "to miss the train", "speak": "perder el tren" }
+        { "target": "el tren", "en": "the train", "speak": "el tren" },
+        { "target": "el andén", "en": "the platform", "speak": "el andén" },
+        { "target": "el billete", "en": "the ticket", "speak": "el billete" },
+        { "target": "hacer transbordo", "en": "to change trains", "speak": "hacer transbordo" },
+        { "target": "el AVE", "en": "the high-speed train", "speak": "el AVE" },
+        { "target": "la estación", "en": "the station", "speak": "la estación" },
+        { "target": "sacar un billete", "en": "to get a ticket", "speak": "sacar un billete" },
+        { "target": "perder el tren", "en": "to miss the train", "speak": "perder el tren" }
       ]
     },
     {
@@ -83,11 +83,11 @@
       "type": "dialogue",
       "scene": "You and Lucía are at Atocha station catching a train.",
       "lines": [
-        { "speaker": "Lucía", "nl": "¿Has sacado ya el billete?", "en": "Have you gotten the ticket already?" },
-        { "speaker": "You", "nl": "Sí, lo he sacado esta mañana, por la app.", "en": "Yes, I got it this morning, through the app.", "spotlight": "lo he sacado — 'lo' stands in for 'el billete'." },
-        { "speaker": "Lucía", "nl": "Genial. ¿Sabes el andén?", "en": "Great. Do you know the platform?" },
-        { "speaker": "You", "nl": "Creo que es el andén seis, pero todavía no lo he mirado bien.", "en": "I think it's platform six, but I haven't checked properly yet." },
-        { "speaker": "Lucía", "nl": "Pues vamos a mirarlo, que el AVE sale en diez minutos y no quiero perderlo otra vez.", "en": "Well let's go check, the AVE leaves in ten minutes and I don't want to miss it again." }
+        { "speaker": "Lucía", "target": "¿Has sacado ya el billete?", "en": "Have you gotten the ticket already?" },
+        { "speaker": "You", "target": "Sí, lo he sacado esta mañana, por la app.", "en": "Yes, I got it this morning, through the app.", "spotlight": "lo he sacado — 'lo' stands in for 'el billete'." },
+        { "speaker": "Lucía", "target": "Genial. ¿Sabes el andén?", "en": "Great. Do you know the platform?" },
+        { "speaker": "You", "target": "Creo que es el andén seis, pero todavía no lo he mirado bien.", "en": "I think it's platform six, but I haven't checked properly yet." },
+        { "speaker": "Lucía", "target": "Pues vamos a mirarlo, que el AVE sale en diez minutos y no quiero perderlo otra vez.", "en": "Well let's go check, the AVE leaves in ten minutes and I don't want to miss it again." }
       ]
     },
     {

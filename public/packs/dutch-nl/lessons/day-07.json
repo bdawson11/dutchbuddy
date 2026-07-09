@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-07",
   "day": 7,
   "module": "M01",
@@ -63,10 +63,10 @@
       "type": "dialogue",
       "scene": "Emma introduces you to Daan at the café. Your turn to speak for yourself.",
       "lines": [
-        { "speaker": "Emma", "nl": "Daan, dit is mijn vriend. Zij leert Nederlands.", "en": "Daan, this is my friend. She's learning Dutch." },
-        { "speaker": "Daan", "nl": "Leuk! Waar kom je vandaan?", "en": "Nice! Where are you from?", "spotlight": "*Waar kom je vandaan?* = Where are you from? Learn it as a set phrase." },
-        { "speaker": "You", "nl": "Ik kom uit Canada. Ik ben hier nieuw.", "en": "I'm from Canada. I'm new here.", "spotlight": "*Ik kom uit …* + country. Your go-to origin line." },
-        { "speaker": "Daan", "nl": "En je spreekt al Nederlands, echt goed hoor!", "en": "And you already speak Dutch, really well!" }
+        { "speaker": "Emma", "target": "Daan, dit is mijn vriend. Zij leert Nederlands.", "en": "Daan, this is my friend. She's learning Dutch." },
+        { "speaker": "Daan", "target": "Leuk! Waar kom je vandaan?", "en": "Nice! Where are you from?", "spotlight": "*Waar kom je vandaan?* = Where are you from? Learn it as a set phrase." },
+        { "speaker": "You", "target": "Ik kom uit Canada. Ik ben hier nieuw.", "en": "I'm from Canada. I'm new here.", "spotlight": "*Ik kom uit …* + country. Your go-to origin line." },
+        { "speaker": "Daan", "target": "En je spreekt al Nederlands, echt goed hoor!", "en": "And you already speak Dutch, really well!" }
       ]
     },
     {

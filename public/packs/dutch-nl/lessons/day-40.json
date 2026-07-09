@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-40",
   "day": 40,
   "module": "M06",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Advies-woorden",
       "items": [
-        { "nl": "Je moet rusten.", "en": "You must rest.", "speak": "Je moet rusten." },
-        { "nl": "Je kunt beter naar bed gaan.", "en": "You'd better go to bed.", "speak": "Je kunt beter naar bed gaan." },
-        { "nl": "Neem rust.", "en": "Take a rest.", "speak": "Neem rust." },
-        { "nl": "Drink veel water.", "en": "Drink lots of water.", "speak": "Drink veel water." },
-        { "nl": "Blijf thuis.", "en": "Stay home.", "speak": "Blijf thuis." }
+        { "target": "Je moet rusten.", "en": "You must rest.", "speak": "Je moet rusten." },
+        { "target": "Je kunt beter naar bed gaan.", "en": "You'd better go to bed.", "speak": "Je kunt beter naar bed gaan." },
+        { "target": "Neem rust.", "en": "Take a rest.", "speak": "Neem rust." },
+        { "target": "Drink veel water.", "en": "Drink lots of water.", "speak": "Drink veel water." },
+        { "target": "Blijf thuis.", "en": "Stay home.", "speak": "Blijf thuis." }
       ]
     },
     {
@@ -69,13 +69,13 @@
       "type": "dialogue",
       "scene": "Emma notices you look terrible and gives you a stack of advice",
       "lines": [
-        { "speaker": "Emma", "nl": "Joh, je ziet er niet goed uit. Wat is er?", "en": "Hey, you don't look good. What's wrong?" },
-        { "speaker": "You", "nl": "Ik heb hoofdpijn en ik voel me heel moe.", "en": "I have a headache and I feel very tired." },
-        { "speaker": "Emma", "nl": "Je moet echt naar bed, hoor.", "en": "You really must go to bed.", "spotlight": "je moet — Emma's direct advice" },
-        { "speaker": "You", "nl": "Ik heb morgen toch een afspraak.", "en": "But I have an appointment tomorrow." },
-        { "speaker": "Emma", "nl": "Die kun je beter verzetten. Neem rust, drink veel water.", "en": "You'd better reschedule that. Take a rest, drink lots of water.", "spotlight": "kunt beter + the classic neem rust" },
-        { "speaker": "You", "nl": "Oké, oké. Misschien zou ik ook naar de huisarts moeten gaan.", "en": "Okay, okay. Maybe I should also go to the GP.", "spotlight": "zou moeten — a soft self-directed 'should'" },
-        { "speaker": "Emma", "nl": "Goed idee. Bel morgenvroeg maar even.", "en": "Good idea. Just call tomorrow morning." }
+        { "speaker": "Emma", "target": "Joh, je ziet er niet goed uit. Wat is er?", "en": "Hey, you don't look good. What's wrong?" },
+        { "speaker": "You", "target": "Ik heb hoofdpijn en ik voel me heel moe.", "en": "I have a headache and I feel very tired." },
+        { "speaker": "Emma", "target": "Je moet echt naar bed, hoor.", "en": "You really must go to bed.", "spotlight": "je moet — Emma's direct advice" },
+        { "speaker": "You", "target": "Ik heb morgen toch een afspraak.", "en": "But I have an appointment tomorrow." },
+        { "speaker": "Emma", "target": "Die kun je beter verzetten. Neem rust, drink veel water.", "en": "You'd better reschedule that. Take a rest, drink lots of water.", "spotlight": "kunt beter + the classic neem rust" },
+        { "speaker": "You", "target": "Oké, oké. Misschien zou ik ook naar de huisarts moeten gaan.", "en": "Okay, okay. Maybe I should also go to the GP.", "spotlight": "zou moeten — a soft self-directed 'should'" },
+        { "speaker": "Emma", "target": "Goed idee. Bel morgenvroeg maar even.", "en": "Good idea. Just call tomorrow morning." }
       ]
     },
     {

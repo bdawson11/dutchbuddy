@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-15",
   "day": 15,
   "module": "M03",
@@ -32,12 +32,12 @@
       "type": "chips",
       "title": "Tap to hear la familia",
       "items": [
-        { "nl": "mi hermano", "en": "my brother", "speak": "mi hermano" },
-        { "nl": "mi hermana", "en": "my sister", "speak": "mi hermana" },
-        { "nl": "mis abuelos", "en": "my grandparents", "speak": "mis abuelos" },
-        { "nl": "mi tío", "en": "my uncle", "speak": "mi tío" },
-        { "nl": "mi prima", "en": "my cousin (f)", "speak": "mi prima" },
-        { "nl": "nuestros padres", "en": "our parents", "speak": "nuestros padres" }
+        { "target": "mi hermano", "en": "my brother", "speak": "mi hermano" },
+        { "target": "mi hermana", "en": "my sister", "speak": "mi hermana" },
+        { "target": "mis abuelos", "en": "my grandparents", "speak": "mis abuelos" },
+        { "target": "mi tío", "en": "my uncle", "speak": "mi tío" },
+        { "target": "mi prima", "en": "my cousin (f)", "speak": "mi prima" },
+        { "target": "nuestros padres", "en": "our parents", "speak": "nuestros padres" }
       ]
     },
     {
@@ -87,11 +87,11 @@
       "type": "dialogue",
       "scene": "Lucía asks about your family over coffee.",
       "lines": [
-        { "speaker": "Lucía", "nl": "¿Tienes hermanos?", "en": "Do you have siblings?" },
-        { "speaker": "You", "nl": "Sí, tengo una hermana y un hermano. ¿Y tú?", "en": "Yes, I have a sister and a brother. And you?" },
-        { "speaker": "Lucía", "nl": "Yo tengo un hermano mayor. Vive con nuestros padres.", "en": "I have an older brother. He lives with our parents.", "spotlight": "nuestros padres — nuestro agrees in gender/number with padres." },
-        { "speaker": "You", "nl": "¡Qué bien! ¿Y tus abuelos?", "en": "Nice! And your grandparents?" },
-        { "speaker": "Lucía", "nl": "Mira, mi abuela vive en Madrid, cerca de mi barrio.", "en": "Look, my grandmother lives in Madrid, close to my neighborhood." }
+        { "speaker": "Lucía", "target": "¿Tienes hermanos?", "en": "Do you have siblings?" },
+        { "speaker": "You", "target": "Sí, tengo una hermana y un hermano. ¿Y tú?", "en": "Yes, I have a sister and a brother. And you?" },
+        { "speaker": "Lucía", "target": "Yo tengo un hermano mayor. Vive con nuestros padres.", "en": "I have an older brother. He lives with our parents.", "spotlight": "nuestros padres — nuestro agrees in gender/number with padres." },
+        { "speaker": "You", "target": "¡Qué bien! ¿Y tus abuelos?", "en": "Nice! And your grandparents?" },
+        { "speaker": "Lucía", "target": "Mira, mi abuela vive en Madrid, cerca de mi barrio.", "en": "Look, my grandmother lives in Madrid, close to my neighborhood." }
       ]
     },
     {

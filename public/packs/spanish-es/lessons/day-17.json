@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-17",
   "day": 17,
   "module": "M03",
@@ -47,11 +47,11 @@
       "type": "chips",
       "title": "Tap to hear ser y estar",
       "items": [
-        { "nl": "soy de Madrid", "en": "I'm from Madrid", "speak": "soy de Madrid" },
-        { "nl": "estoy en el bar", "en": "I'm at the bar", "speak": "estoy en el bar" },
-        { "nl": "es simpático", "en": "he's nice (trait)", "speak": "es simpático" },
-        { "nl": "está cansado", "en": "he's tired (state)", "speak": "está cansado" },
-        { "nl": "la puerta está abierta", "en": "the door is open", "speak": "la puerta está abierta" }
+        { "target": "soy de Madrid", "en": "I'm from Madrid", "speak": "soy de Madrid" },
+        { "target": "estoy en el bar", "en": "I'm at the bar", "speak": "estoy en el bar" },
+        { "target": "es simpático", "en": "he's nice (trait)", "speak": "es simpático" },
+        { "target": "está cansado", "en": "he's tired (state)", "speak": "está cansado" },
+        { "target": "la puerta está abierta", "en": "the door is open", "speak": "la puerta está abierta" }
       ]
     },
     {
@@ -93,13 +93,13 @@
       "type": "dialogue",
       "scene": "You run into Rafa at the bookshop where he works.",
       "lines": [
-        { "speaker": "Rafa", "nl": "¡Hombre! ¿Qué tal? ¿Cómo estás?", "en": "Hey! How's it going? How are you?" },
-        { "speaker": "You", "nl": "Bien, un poco cansado. ¿Y tú?", "en": "Good, a little tired. And you?" },
-        { "speaker": "Rafa", "nl": "Yo estoy bien, pero la librería está muy tranquila hoy.", "en": "I'm good, but the shop is very quiet today.", "spotlight": "estar for a temporary state — the shop isn't always quiet." },
-        { "speaker": "You", "nl": "¿Trabajas aquí todos los días?", "en": "Do you work here every day?" },
-        { "speaker": "Rafa", "nl": "No, trabajo cuatro días. Los otros días estoy en casa.", "en": "No, I work four days. The other days I'm at home." },
-        { "speaker": "You", "nl": "¡Qué bien! Eres músico también, ¿no?", "en": "Nice! You're a musician too, right?" },
-        { "speaker": "Rafa", "nl": "Sí, soy músico… bueno, aspirante a músico.", "en": "Yes, I'm a musician… well, an aspiring musician.", "spotlight": "ser for occupation/identity, even an aspirational one." }
+        { "speaker": "Rafa", "target": "¡Hombre! ¿Qué tal? ¿Cómo estás?", "en": "Hey! How's it going? How are you?" },
+        { "speaker": "You", "target": "Bien, un poco cansado. ¿Y tú?", "en": "Good, a little tired. And you?" },
+        { "speaker": "Rafa", "target": "Yo estoy bien, pero la librería está muy tranquila hoy.", "en": "I'm good, but the shop is very quiet today.", "spotlight": "estar for a temporary state — the shop isn't always quiet." },
+        { "speaker": "You", "target": "¿Trabajas aquí todos los días?", "en": "Do you work here every day?" },
+        { "speaker": "Rafa", "target": "No, trabajo cuatro días. Los otros días estoy en casa.", "en": "No, I work four days. The other days I'm at home." },
+        { "speaker": "You", "target": "¡Qué bien! Eres músico también, ¿no?", "en": "Nice! You're a musician too, right?" },
+        { "speaker": "Rafa", "target": "Sí, soy músico… bueno, aspirante a músico.", "en": "Yes, I'm a musician… well, an aspiring musician.", "spotlight": "ser for occupation/identity, even an aspirational one." }
       ]
     },
     {

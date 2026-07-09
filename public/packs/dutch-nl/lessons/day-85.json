@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-85",
   "day": 85,
   "module": "M13",
@@ -28,12 +28,12 @@
       "type": "chips",
       "title": "Wat gebeurt er? — tik om te horen",
       "items": [
-        { "nl": "De fiets wordt gerepareerd.", "en": "The bike is being repaired.", "speak": "De fiets wordt gerepareerd." },
-        { "nl": "De brief wordt vandaag verstuurd.", "en": "The letter is being sent today.", "speak": "De brief wordt vandaag verstuurd." },
-        { "nl": "Het huis wordt verkocht.", "en": "The house is being sold.", "speak": "Het huis wordt verkocht." },
-        { "nl": "De vergadering wordt verzet.", "en": "The meeting is being moved.", "speak": "De vergadering wordt verzet." },
-        { "nl": "Alle e-mails worden beantwoord.", "en": "All the emails are being answered.", "speak": "Alle e-mails worden beantwoord." },
-        { "nl": "Het probleem wordt opgelost.", "en": "The problem is being solved.", "speak": "Het probleem wordt opgelost." }
+        { "target": "De fiets wordt gerepareerd.", "en": "The bike is being repaired.", "speak": "De fiets wordt gerepareerd." },
+        { "target": "De brief wordt vandaag verstuurd.", "en": "The letter is being sent today.", "speak": "De brief wordt vandaag verstuurd." },
+        { "target": "Het huis wordt verkocht.", "en": "The house is being sold.", "speak": "Het huis wordt verkocht." },
+        { "target": "De vergadering wordt verzet.", "en": "The meeting is being moved.", "speak": "De vergadering wordt verzet." },
+        { "target": "Alle e-mails worden beantwoord.", "en": "All the emails are being answered.", "speak": "Alle e-mails worden beantwoord." },
+        { "target": "Het probleem wordt opgelost.", "en": "The problem is being solved.", "speak": "Het probleem wordt opgelost." }
       ]
     },
     {
@@ -81,14 +81,14 @@
       "type": "dialogue",
       "scene": "Emma tells You how things run at the agency now — almost everything in the passive.",
       "lines": [
-        { "speaker": "Emma", "nl": "Bij ons wordt alles in teams gedaan.", "en": "With us everything gets done in teams.", "spotlight": "Onpersoonlijk gevoel: de daad staat centraal." },
-        { "speaker": "You", "nl": "En de planning? Wie maakt die?", "en": "And the planning? Who makes it?" },
-        { "speaker": "Emma", "nl": "De planning wordt elke maandag gemaakt, meestal door de projectleider.", "en": "The planning is made every Monday, usually by the project lead.", "spotlight": "*door* + dader, als je hem tóch noemt." },
-        { "speaker": "You", "nl": "En als er een fout is?", "en": "And if there's a mistake?" },
-        { "speaker": "Emma", "nl": "Dan wordt het gewoon opgelost. Niemand wijst met de vinger.", "en": "Then it just gets solved. Nobody points fingers." },
-        { "speaker": "You", "nl": "Klinkt rustig.", "en": "Sounds calm." },
-        { "speaker": "Emma", "nl": "Valt mee, hoor. De mails worden tenminste snel beantwoord.", "en": "It's alright. At least the emails get answered quickly.", "spotlight": "Meervoud: *mails worden beantwoord*." },
-        { "speaker": "You", "nl": "Dat is bij ons wel anders.", "en": "That's rather different where I work." }
+        { "speaker": "Emma", "target": "Bij ons wordt alles in teams gedaan.", "en": "With us everything gets done in teams.", "spotlight": "Onpersoonlijk gevoel: de daad staat centraal." },
+        { "speaker": "You", "target": "En de planning? Wie maakt die?", "en": "And the planning? Who makes it?" },
+        { "speaker": "Emma", "target": "De planning wordt elke maandag gemaakt, meestal door de projectleider.", "en": "The planning is made every Monday, usually by the project lead.", "spotlight": "*door* + dader, als je hem tóch noemt." },
+        { "speaker": "You", "target": "En als er een fout is?", "en": "And if there's a mistake?" },
+        { "speaker": "Emma", "target": "Dan wordt het gewoon opgelost. Niemand wijst met de vinger.", "en": "Then it just gets solved. Nobody points fingers." },
+        { "speaker": "You", "target": "Klinkt rustig.", "en": "Sounds calm." },
+        { "speaker": "Emma", "target": "Valt mee, hoor. De mails worden tenminste snel beantwoord.", "en": "It's alright. At least the emails get answered quickly.", "spotlight": "Meervoud: *mails worden beantwoord*." },
+        { "speaker": "You", "target": "Dat is bij ons wel anders.", "en": "That's rather different where I work." }
       ]
     },
     {

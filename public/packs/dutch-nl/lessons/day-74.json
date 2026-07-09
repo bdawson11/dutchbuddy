@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-74",
   "day": 74,
   "module": "M11",
@@ -37,11 +37,11 @@
       "type": "chips",
       "title": "Tap to hear your toolkit",
       "items": [
-        { "nl": "Mag ik het in het Nederlands proberen?", "en": "May I try it in Dutch?", "speak": "Mag ik het in het Nederlands proberen?" },
-        { "nl": "Even denken…", "en": "Let me think…", "speak": "Even denken." },
-        { "nl": "Hoe zeg je dat ook alweer?", "en": "How do you say that again?", "speak": "Hoe zeg je dat ook alweer?" },
-        { "nl": "Kun je dat herhalen?", "en": "Can you repeat that?", "speak": "Kun je dat herhalen?" },
-        { "nl": "We kunnen Nederlands blijven praten, hoor.", "en": "We can keep it in Dutch, really.", "speak": "We kunnen Nederlands blijven praten, hoor." }
+        { "target": "Mag ik het in het Nederlands proberen?", "en": "May I try it in Dutch?", "speak": "Mag ik het in het Nederlands proberen?" },
+        { "target": "Even denken…", "en": "Let me think…", "speak": "Even denken." },
+        { "target": "Hoe zeg je dat ook alweer?", "en": "How do you say that again?", "speak": "Hoe zeg je dat ook alweer?" },
+        { "target": "Kun je dat herhalen?", "en": "Can you repeat that?", "speak": "Kun je dat herhalen?" },
+        { "target": "We kunnen Nederlands blijven praten, hoor.", "en": "We can keep it in Dutch, really.", "speak": "We kunnen Nederlands blijven praten, hoor." }
       ]
     },
     {
@@ -91,14 +91,14 @@
       "type": "dialogue",
       "scene": "You told Emma you want to speak only Dutch today. Old habits kick in — and you hold the line.",
       "lines": [
-        { "speaker": "You", "nl": "Emma, ik wil vandaag alleen Nederlands praten. Mag dat?", "en": "Emma, I want to speak only Dutch today. Is that okay?", "spotlight": "You set the frame first — the strongest move of all." },
-        { "speaker": "Emma", "nl": "Oh sure, no problem!", "en": "Oh sure, no problem!", "spotlight": "And there it is — the reflex switch to English." },
-        { "speaker": "You", "nl": "Haha… in het Nederlands, hoor.", "en": "Haha… in Dutch, remember.", "spotlight": "Named it lightly, softened with hoor. No awkwardness." },
-        { "speaker": "Emma", "nl": "Ah, sorry! Je hebt gelijk. Wat wil je drinken?", "en": "Ah, sorry! You're right. What do you want to drink?" },
-        { "speaker": "You", "nl": "Even denken… een kopje thee, alsjeblieft.", "en": "Let me think… a cup of tea, please.", "spotlight": "even denken buys the pause; the diminutive keeps it cosy." },
-        { "speaker": "Emma", "nl": "Zie je wel? Dat gaat hartstikke goed.", "en": "See? That's going really well." },
-        { "speaker": "You", "nl": "Dank je. Kun je iets langzamer praten? Dan versta ik je beter.", "en": "Thanks. Can you speak a bit slower? Then I understand you better.", "spotlight": "Asking for slower — a confident request, not an apology." },
-        { "speaker": "Emma", "nl": "Natuurlijk, joh. Ik ben trots op je.", "en": "Of course, mate. I'm proud of you." }
+        { "speaker": "You", "target": "Emma, ik wil vandaag alleen Nederlands praten. Mag dat?", "en": "Emma, I want to speak only Dutch today. Is that okay?", "spotlight": "You set the frame first — the strongest move of all." },
+        { "speaker": "Emma", "target": "Oh sure, no problem!", "en": "Oh sure, no problem!", "spotlight": "And there it is — the reflex switch to English." },
+        { "speaker": "You", "target": "Haha… in het Nederlands, hoor.", "en": "Haha… in Dutch, remember.", "spotlight": "Named it lightly, softened with hoor. No awkwardness." },
+        { "speaker": "Emma", "target": "Ah, sorry! Je hebt gelijk. Wat wil je drinken?", "en": "Ah, sorry! You're right. What do you want to drink?" },
+        { "speaker": "You", "target": "Even denken… een kopje thee, alsjeblieft.", "en": "Let me think… a cup of tea, please.", "spotlight": "even denken buys the pause; the diminutive keeps it cosy." },
+        { "speaker": "Emma", "target": "Zie je wel? Dat gaat hartstikke goed.", "en": "See? That's going really well." },
+        { "speaker": "You", "target": "Dank je. Kun je iets langzamer praten? Dan versta ik je beter.", "en": "Thanks. Can you speak a bit slower? Then I understand you better.", "spotlight": "Asking for slower — a confident request, not an apology." },
+        { "speaker": "Emma", "target": "Natuurlijk, joh. Ik ben trots op je.", "en": "Of course, mate. I'm proud of you." }
       ]
     },
     {

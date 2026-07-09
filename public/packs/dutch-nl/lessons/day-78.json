@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-78",
   "day": 78,
   "module": "M12",
@@ -36,13 +36,13 @@
       "type": "chips",
       "title": "Tap to hear the everyday commands",
       "items": [
-        { "nl": "doe maar", "en": "go ahead / help yourself", "speak": "doe maar" },
-        { "nl": "kom op", "en": "come on (encouragement)", "speak": "kom op" },
-        { "nl": "let op", "en": "watch out / pay attention", "speak": "let op" },
-        { "nl": "kijk eens", "en": "have a look", "speak": "kijk eens" },
-        { "nl": "ga zitten", "en": "sit down", "speak": "ga zitten" },
-        { "nl": "wacht even", "en": "hang on a sec", "speak": "wacht even" },
-        { "nl": "luister nou", "en": "come on, listen", "speak": "luister nou" }
+        { "target": "doe maar", "en": "go ahead / help yourself", "speak": "doe maar" },
+        { "target": "kom op", "en": "come on (encouragement)", "speak": "kom op" },
+        { "target": "let op", "en": "watch out / pay attention", "speak": "let op" },
+        { "target": "kijk eens", "en": "have a look", "speak": "kijk eens" },
+        { "target": "ga zitten", "en": "sit down", "speak": "ga zitten" },
+        { "target": "wacht even", "en": "hang on a sec", "speak": "wacht even" },
+        { "target": "luister nou", "en": "come on, listen", "speak": "luister nou" }
       ]
     },
     {
@@ -78,15 +78,15 @@
       "type": "dialogue",
       "scene": "Emma is teaching You to make stamppot in her kitchen in de Pijp.",
       "lines": [
-        { "speaker": "Emma", "nl": "Kom, we maken vanavond stamppot. Pak even een grote pan.", "en": "Come on, we're making stamppot tonight. Grab a big pan for me.", "spotlight": "Pak even — 'even' makes 'grab' a request, not an order." },
-        { "speaker": "You", "nl": "Zo? En hoeveel water?", "en": "Like this? And how much water?" },
-        { "speaker": "Emma", "nl": "Doe maar flink wat erin. En snijd de boerenkool klein.", "en": "Go ahead and put plenty in. And chop the kale small.", "spotlight": "Doe maar — the friendliest command Dutch has." },
-        { "speaker": "You", "nl": "Au — oké, oké.", "en": "Ow — okay, okay." },
-        { "speaker": "Emma", "nl": "Let op je vingers, joh. Rustig.", "en": "Mind your fingers, mate. Easy.", "spotlight": "Let op — 'watch out / mind'." },
-        { "speaker": "You", "nl": "En nu?", "en": "And now?" },
-        { "speaker": "Emma", "nl": "Proef eens. Meer zout?", "en": "Have a taste. More salt?", "spotlight": "Proef eens — 'eens' softens it into a warm invitation." },
-        { "speaker": "You", "nl": "Mmm, lekker. Doe maar een snufje.", "en": "Mmm, tasty. Go ahead, a pinch." },
-        { "speaker": "Emma", "nl": "Precies. Kom, aan tafel!", "en": "Exactly. Come on, to the table!" }
+        { "speaker": "Emma", "target": "Kom, we maken vanavond stamppot. Pak even een grote pan.", "en": "Come on, we're making stamppot tonight. Grab a big pan for me.", "spotlight": "Pak even — 'even' makes 'grab' a request, not an order." },
+        { "speaker": "You", "target": "Zo? En hoeveel water?", "en": "Like this? And how much water?" },
+        { "speaker": "Emma", "target": "Doe maar flink wat erin. En snijd de boerenkool klein.", "en": "Go ahead and put plenty in. And chop the kale small.", "spotlight": "Doe maar — the friendliest command Dutch has." },
+        { "speaker": "You", "target": "Au — oké, oké.", "en": "Ow — okay, okay." },
+        { "speaker": "Emma", "target": "Let op je vingers, joh. Rustig.", "en": "Mind your fingers, mate. Easy.", "spotlight": "Let op — 'watch out / mind'." },
+        { "speaker": "You", "target": "En nu?", "en": "And now?" },
+        { "speaker": "Emma", "target": "Proef eens. Meer zout?", "en": "Have a taste. More salt?", "spotlight": "Proef eens — 'eens' softens it into a warm invitation." },
+        { "speaker": "You", "target": "Mmm, lekker. Doe maar een snufje.", "en": "Mmm, tasty. Go ahead, a pinch." },
+        { "speaker": "Emma", "target": "Precies. Kom, aan tafel!", "en": "Exactly. Come on, to the table!" }
       ]
     },
     {

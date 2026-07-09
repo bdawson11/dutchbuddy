@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-33",
   "day": 33,
   "module": "M05",
@@ -29,14 +29,14 @@
       "type": "chips",
       "title": "OV-woorden — tik om te horen",
       "items": [
-        { "nl": "de trein", "en": "train", "speak": "de trein" },
-        { "nl": "de bus", "en": "bus", "speak": "de bus" },
-        { "nl": "de tram", "en": "tram", "speak": "de tram" },
-        { "nl": "de metro", "en": "metro", "speak": "de metro" },
-        { "nl": "inchecken", "en": "to tap in", "speak": "inchecken" },
-        { "nl": "uitchecken", "en": "to tap out", "speak": "uitchecken" },
-        { "nl": "overstappen", "en": "to transfer", "speak": "overstappen" },
-        { "nl": "het station", "en": "station", "speak": "het station" }
+        { "target": "de trein", "en": "train", "speak": "de trein" },
+        { "target": "de bus", "en": "bus", "speak": "de bus" },
+        { "target": "de tram", "en": "tram", "speak": "de tram" },
+        { "target": "de metro", "en": "metro", "speak": "de metro" },
+        { "target": "inchecken", "en": "to tap in", "speak": "inchecken" },
+        { "target": "uitchecken", "en": "to tap out", "speak": "uitchecken" },
+        { "target": "overstappen", "en": "to transfer", "speak": "overstappen" },
+        { "target": "het station", "en": "station", "speak": "het station" }
       ]
     },
     {
@@ -72,12 +72,12 @@
       "type": "dialogue",
       "scene": "At Amsterdam Centraal, you're catching a train together.",
       "lines": [
-        { "speaker": "Emma", "nl": "Heb je al ingecheckt?", "en": "Have you tapped in already?", "spotlight": "*inchecken* → *ingecheckt*, with hebben." },
-        { "speaker": "You", "nl": "Ja, net. Van welk spoor vertrekt de trein?", "en": "Yes, just now. Which track does the train leave from?" },
-        { "speaker": "Emma", "nl": "Spoor 11. We moeten in Utrecht overstappen.", "en": "Track 11. We have to change in Utrecht." },
-        { "speaker": "You", "nl": "Hoe laat komt hij aan?", "en": "What time does it arrive?" },
-        { "speaker": "Emma", "nl": "Om kwart over tien. Kom, hij staat er al!", "en": "At a quarter past ten. Come on, it's already there!" },
-        { "speaker": "Emma", "nl": "En vergeet niet uit te checken als we overstappen.", "en": "And don't forget to tap out when we transfer.", "spotlight": "On the Dutch railways you tap out and back in when you switch operators." }
+        { "speaker": "Emma", "target": "Heb je al ingecheckt?", "en": "Have you tapped in already?", "spotlight": "*inchecken* → *ingecheckt*, with hebben." },
+        { "speaker": "You", "target": "Ja, net. Van welk spoor vertrekt de trein?", "en": "Yes, just now. Which track does the train leave from?" },
+        { "speaker": "Emma", "target": "Spoor 11. We moeten in Utrecht overstappen.", "en": "Track 11. We have to change in Utrecht." },
+        { "speaker": "You", "target": "Hoe laat komt hij aan?", "en": "What time does it arrive?" },
+        { "speaker": "Emma", "target": "Om kwart over tien. Kom, hij staat er al!", "en": "At a quarter past ten. Come on, it's already there!" },
+        { "speaker": "Emma", "target": "En vergeet niet uit te checken als we overstappen.", "en": "And don't forget to tap out when we transfer.", "spotlight": "On the Dutch railways you tap out and back in when you switch operators." }
       ]
     },
     {

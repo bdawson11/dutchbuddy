@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-94",
   "day": 94,
   "module": "M14",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Wat als… — tik om te horen",
       "items": [
-        { "nl": "Als ik rijk was, zou ik minder werken.", "en": "If I were rich, I'd work less.", "speak": "Als ik rijk was, zou ik minder werken." },
-        { "nl": "Als het niet regende, gingen we naar het strand.", "en": "If it weren't raining, we'd go to the beach.", "speak": "Als het niet regende, gingen we naar het strand." },
-        { "nl": "Als ik jou was, zou ik het doen.", "en": "If I were you, I'd do it.", "speak": "Als ik jou was, zou ik het doen." },
-        { "nl": "Had ik dat geweten, dan was ik gebleven.", "en": "Had I known that, I'd have stayed.", "speak": "Had ik dat geweten, dan was ik gebleven." },
-        { "nl": "Als je eerder had gebeld, had ik geholpen.", "en": "If you'd called earlier, I'd have helped.", "speak": "Als je eerder had gebeld, had ik geholpen." },
-        { "nl": "Zonder jou was het niet gelukt.", "en": "Without you it wouldn't have worked.", "speak": "Zonder jou was het niet gelukt." }
+        { "target": "Als ik rijk was, zou ik minder werken.", "en": "If I were rich, I'd work less.", "speak": "Als ik rijk was, zou ik minder werken." },
+        { "target": "Als het niet regende, gingen we naar het strand.", "en": "If it weren't raining, we'd go to the beach.", "speak": "Als het niet regende, gingen we naar het strand." },
+        { "target": "Als ik jou was, zou ik het doen.", "en": "If I were you, I'd do it.", "speak": "Als ik jou was, zou ik het doen." },
+        { "target": "Had ik dat geweten, dan was ik gebleven.", "en": "Had I known that, I'd have stayed.", "speak": "Had ik dat geweten, dan was ik gebleven." },
+        { "target": "Als je eerder had gebeld, had ik geholpen.", "en": "If you'd called earlier, I'd have helped.", "speak": "Als je eerder had gebeld, had ik geholpen." },
+        { "target": "Zonder jou was het niet gelukt.", "en": "Without you it wouldn't have worked.", "speak": "Zonder jou was het niet gelukt." }
       ]
     },
     {
@@ -72,15 +72,15 @@
       "type": "dialogue",
       "scene": "Sanne, over from Utrecht for the day, wonders aloud how things might have gone differently.",
       "lines": [
-        { "speaker": "Sanne", "nl": "Weet je, soms denk ik: als ik niet naar Utrecht was verhuisd, was alles anders geweest.", "en": "You know, sometimes I think: if I hadn't moved to Utrecht, everything would've been different.", "spotlight": "Verleden irreëel: *als … was verhuisd, was … geweest*." },
-        { "speaker": "You", "nl": "Denk je? Je bent er toch gelukkig?", "en": "You think? You're happy there, right?" },
-        { "speaker": "Sanne", "nl": "Heel gelukkig. Maar als ik toen 'nee' had gezegd, had ik jullie vaker gezien.", "en": "Very happy. But if I'd said 'no' back then, I'd have seen you all more often." },
-        { "speaker": "You", "nl": "Dat is waar. Al zou je die baan gemist hebben.", "en": "That's true. Though you'd have missed that job." },
-        { "speaker": "Sanne", "nl": "Precies. En zonder die baan had ik mijn beste vrienden daar niet ontmoet.", "en": "Exactly. And without that job I wouldn't have met my best friends there." },
-        { "speaker": "You", "nl": "Zie je. Het is goed zo gelopen.", "en": "See. It turned out well." },
-        { "speaker": "Sanne", "nl": "Ja. Al zou ik zonder de verhuizing waarschijnlijk nog in de Pijp wonen.", "en": "Yeah. Though without the move I'd probably still live in de Pijp." },
-        { "speaker": "You", "nl": "En dan hadden we nu geen excuus om naar Utrecht te fietsen.", "en": "And then we'd have no excuse to cycle to Utrecht now." },
-        { "speaker": "Sanne", "nl": "Haha, precies. Dan was er iets belangrijks verloren gegaan.", "en": "Haha, exactly. Then something important would've been lost." }
+        { "speaker": "Sanne", "target": "Weet je, soms denk ik: als ik niet naar Utrecht was verhuisd, was alles anders geweest.", "en": "You know, sometimes I think: if I hadn't moved to Utrecht, everything would've been different.", "spotlight": "Verleden irreëel: *als … was verhuisd, was … geweest*." },
+        { "speaker": "You", "target": "Denk je? Je bent er toch gelukkig?", "en": "You think? You're happy there, right?" },
+        { "speaker": "Sanne", "target": "Heel gelukkig. Maar als ik toen 'nee' had gezegd, had ik jullie vaker gezien.", "en": "Very happy. But if I'd said 'no' back then, I'd have seen you all more often." },
+        { "speaker": "You", "target": "Dat is waar. Al zou je die baan gemist hebben.", "en": "That's true. Though you'd have missed that job." },
+        { "speaker": "Sanne", "target": "Precies. En zonder die baan had ik mijn beste vrienden daar niet ontmoet.", "en": "Exactly. And without that job I wouldn't have met my best friends there." },
+        { "speaker": "You", "target": "Zie je. Het is goed zo gelopen.", "en": "See. It turned out well." },
+        { "speaker": "Sanne", "target": "Ja. Al zou ik zonder de verhuizing waarschijnlijk nog in de Pijp wonen.", "en": "Yeah. Though without the move I'd probably still live in de Pijp." },
+        { "speaker": "You", "target": "En dan hadden we nu geen excuus om naar Utrecht te fietsen.", "en": "And then we'd have no excuse to cycle to Utrecht now." },
+        { "speaker": "Sanne", "target": "Haha, precies. Dan was er iets belangrijks verloren gegaan.", "en": "Haha, exactly. Then something important would've been lost." }
       ]
     },
     {

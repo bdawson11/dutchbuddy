@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-91",
   "day": 91,
   "module": "M13",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Repaso de la semana — toca y repite",
       "items": [
-        { "nl": "me pidió que esperara", "en": "he asked me to wait", "speak": "me pidió que esperara" },
-        { "nl": "ojalá fuera más fácil", "en": "I wish it were easier", "speak": "ojalá fuera más fácil" },
-        { "nl": "como si nada", "en": "as if nothing", "speak": "como si nada" },
-        { "nl": "no es que…, es que…", "en": "it's not that…, it's that…", "speak": "no es que, es que" },
-        { "nl": "en el fondo", "en": "deep down", "speak": "en el fondo" },
-        { "nl": "quería preguntarte", "en": "I wanted to ask you", "speak": "quería preguntarte" }
+        { "target": "me pidió que esperara", "en": "he asked me to wait", "speak": "me pidió que esperara" },
+        { "target": "ojalá fuera más fácil", "en": "I wish it were easier", "speak": "ojalá fuera más fácil" },
+        { "target": "como si nada", "en": "as if nothing", "speak": "como si nada" },
+        { "target": "no es que…, es que…", "en": "it's not that…, it's that…", "speak": "no es que, es que" },
+        { "target": "en el fondo", "en": "deep down", "speak": "en el fondo" },
+        { "target": "quería preguntarte", "en": "I wanted to ask you", "speak": "quería preguntarte" }
       ]
     },
     {
@@ -60,12 +60,12 @@
       "type": "dialogue",
       "scene": "Rafa asks you, point-blank, whether all this studying has been worth it.",
       "lines": [
-        { "speaker": "Rafa", "nl": "Oye, y sinceramente, ¿ha merecido la pena empollar tanto español?", "en": "Hey, and honestly, has it been worth cramming so much Spanish?" },
-        { "speaker": "You", "nl": "Uf, por un lado ha sido durísimo, no te voy a mentir.", "en": "Ugh, on one hand it's been really hard, I won't lie to you." },
-        { "speaker": "Rafa", "nl": "Ya me imagino. ¿Y por otro?", "en": "I can imagine. And on the other?" },
-        { "speaker": "You", "nl": "Por otro, no lo cambiaría por nada. No es que ya lo hable perfecto, es que ahora me siento en casa.", "en": "On the other, I wouldn't trade it for anything. It's not that I speak it perfectly now, it's that I feel at home.", "spotlight": "*no es que lo hable* (subj.) → *es que me siento* (indic.): la joya del matiz." },
-        { "speaker": "Rafa", "nl": "Hombre, pues eso es lo que cuenta. En el fondo lo has clavado, ¿eh?", "en": "Well, that's what counts. Deep down you've nailed it, huh?" },
-        { "speaker": "You", "nl": "Eso espero. Ojalá siguiera mejorando así siempre.", "en": "I hope so. If only I kept improving like this forever." }
+        { "speaker": "Rafa", "target": "Oye, y sinceramente, ¿ha merecido la pena empollar tanto español?", "en": "Hey, and honestly, has it been worth cramming so much Spanish?" },
+        { "speaker": "You", "target": "Uf, por un lado ha sido durísimo, no te voy a mentir.", "en": "Ugh, on one hand it's been really hard, I won't lie to you." },
+        { "speaker": "Rafa", "target": "Ya me imagino. ¿Y por otro?", "en": "I can imagine. And on the other?" },
+        { "speaker": "You", "target": "Por otro, no lo cambiaría por nada. No es que ya lo hable perfecto, es que ahora me siento en casa.", "en": "On the other, I wouldn't trade it for anything. It's not that I speak it perfectly now, it's that I feel at home.", "spotlight": "*no es que lo hable* (subj.) → *es que me siento* (indic.): la joya del matiz." },
+        { "speaker": "Rafa", "target": "Hombre, pues eso es lo que cuenta. En el fondo lo has clavado, ¿eh?", "en": "Well, that's what counts. Deep down you've nailed it, huh?" },
+        { "speaker": "You", "target": "Eso espero. Ojalá siguiera mejorando así siempre.", "en": "I hope so. If only I kept improving like this forever." }
       ]
     },
     {

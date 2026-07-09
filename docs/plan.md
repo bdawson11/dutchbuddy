@@ -119,16 +119,23 @@ Top level:
 | type | Purpose | Key fields |
 |---|---|---|
 | `card` | Teaching content: rule, table, culture note | `title`, `body` (markdown), `table?`, `callout?` |
-| `chips` | Tappable vocab/phrase chips with audio | `items[{nl, en, speak?}]` |
+| `chips` | Tappable vocab/phrase chips with audio | `items[{target, en, speak?}]` |
 | `contrast` | Side-by-side pairs (e.g. de/het, perfect vs imperfect) | `pairs[{left, right, note}]` |
 | `mcq` | Multiple choice | `prompt`, `options[]`, `correct`, `explain` |
 | `typed` | Typed drill with fuzzy grading | `prompt`, `answers[]`, `hint?`, `explain?` |
 | `builder` | Slot-fill sentence builder | `slots[{label, chips[]|freeText}]`, `sample`, `starters?` |
-| `dialogue` | Scripted scene, line-by-line, tap-to-reveal + audio | `scene`, `lines[{speaker, nl, en, spotlight?}]` |
+| `dialogue` | Scripted scene, line-by-line, tap-to-reveal + audio | `scene`, `lines[{speaker, target, en, spotlight?}]` |
 | `dictation` | Listen (TTS) → type what you hear | `speak`, `answers[]` |
-| `shadow` | Listen → repeat, self-scored | `lines[{nl, en}]` |
+| `shadow` | Listen → repeat, self-scored | `lines[{target, en}]` |
 | `comprehension` | Questions on a preceding dialogue/passage | `questions[{q, options[], correct}]` |
 | `journal` | Free-text prompt, saved locally | `prompt`, `starters[]`, `minSentences?` |
+
+> **Target-language field (`target`), schemaVersion 2.** The target-language text on
+> `chips` items and `dialogue`/`shadow` lines lives in a field named `target`.
+> Schema v1 packs (the original four) named this field `nl`; the engine reads
+> `item.target ?? item.nl`, so both versions render forever. `tools/migrate-pack.js`
+> rewrites a v1 pack to v2 (`nl` → `target`, `schemaVersion` → 2), and the validator
+> requires `nl` at v1 / `target` at v2. New packs are born on v2 and never use `nl`.
 
 **Grading rules for `typed`/`dictation`** (engine-level, configurable per pack):
 - Normalize: trim, lowercase, collapse whitespace, strip terminal punctuation
@@ -327,7 +334,7 @@ Open items you'll need to resolve along the way:
 
 ```json
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-01",
   "day": 1,
   "module": "M01",
@@ -351,10 +358,10 @@ Open items you'll need to resolve along the way:
     {
       "type": "chips",
       "items": [
-        { "nl": "maan", "en": "moon", "speak": "maan" },
-        { "nl": "man", "en": "man", "speak": "man" },
-        { "nl": "boos", "en": "angry", "speak": "boos" },
-        { "nl": "bos", "en": "forest", "speak": "bos" }
+        { "target": "maan", "en": "moon", "speak": "maan" },
+        { "target": "man", "en": "man", "speak": "man" },
+        { "target": "boos", "en": "angry", "speak": "boos" },
+        { "target": "bos", "en": "forest", "speak": "bos" }
       ]
     },
     {
@@ -366,9 +373,9 @@ Open items you'll need to resolve along the way:
     {
       "type": "shadow",
       "lines": [
-        { "nl": "goedemorgen", "en": "good morning" },
-        { "nl": "gezellig", "en": "cozy/fun (untranslatable, you'll see)" },
-        { "nl": "de gracht", "en": "the canal" }
+        { "target": "goedemorgen", "en": "good morning" },
+        { "target": "gezellig", "en": "cozy/fun (untranslatable, you'll see)" },
+        { "target": "de gracht", "en": "the canal" }
       ]
     },
     {
@@ -394,4 +401,4 @@ Open items you'll need to resolve along the way:
 
 ---
 
-*Schema versions are frozen at 1 for the DutchBuddy build; any breaking change bumps the version and the validator enforces compatibility.*
+*Schema v1 was the DutchBuddy build; the `nl` → `target` field rename bumped the four packs to v2. The validator enforces per-version compatibility (`nl` at v1, `target` at v2) and the engine reads both, so any breaking change bumps the version and stays back-compatible.*

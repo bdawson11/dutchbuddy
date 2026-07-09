@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-23",
   "day": 23,
   "module": "M04",
@@ -29,13 +29,13 @@
       "type": "chips",
       "title": "Tap to hear the snackbar menu",
       "items": [
-        { "nl": "de koffie", "en": "coffee", "speak": "de koffie" },
-        { "nl": "de thee", "en": "tea", "speak": "de thee" },
-        { "nl": "een broodje kaas", "en": "a cheese roll", "speak": "een broodje kaas" },
-        { "nl": "de patat", "en": "fries", "speak": "de patat" },
-        { "nl": "een frikandel", "en": "a Dutch skinless sausage", "speak": "een frikandel" },
-        { "nl": "een kroket", "en": "a croquette", "speak": "een kroket" },
-        { "nl": "een tosti", "en": "a grilled cheese sandwich", "speak": "een tosti" }
+        { "target": "de koffie", "en": "coffee", "speak": "de koffie" },
+        { "target": "de thee", "en": "tea", "speak": "de thee" },
+        { "target": "een broodje kaas", "en": "a cheese roll", "speak": "een broodje kaas" },
+        { "target": "de patat", "en": "fries", "speak": "de patat" },
+        { "target": "een frikandel", "en": "a Dutch skinless sausage", "speak": "een frikandel" },
+        { "target": "een kroket", "en": "a croquette", "speak": "een kroket" },
+        { "target": "een tosti", "en": "a grilled cheese sandwich", "speak": "een tosti" }
       ]
     },
     {
@@ -69,11 +69,11 @@
       "type": "dialogue",
       "scene": "Snackbar counter, early evening — you and Daan deciding what to order",
       "lines": [
-        { "speaker": "Daan", "nl": "Zo, wat neem jij? Ik heb wel trek, hoor.", "en": "So, what are you having? I'm hungry, you know." },
-        { "speaker": "You", "nl": "Ik wil graag een frikandel. En jij?", "en": "I'd like a frikandel. And you?" },
-        { "speaker": "Daan", "nl": "Doe mij maar de patat met, joh.", "en": "Just give me the fries with (mayo), man.", "spotlight": "doe maar — casual, decisive ordering." },
-        { "speaker": "You", "nl": "Mag ik een frikandel en een patatje met, alstublieft?", "en": "May I have a frikandel and a small fries with, please?", "spotlight": "mag ik — the safe, polite default when talking to staff." },
-        { "speaker": "Daan", "nl": "Lekker! Dank je wel.", "en": "Nice! Thank you." }
+        { "speaker": "Daan", "target": "Zo, wat neem jij? Ik heb wel trek, hoor.", "en": "So, what are you having? I'm hungry, you know." },
+        { "speaker": "You", "target": "Ik wil graag een frikandel. En jij?", "en": "I'd like a frikandel. And you?" },
+        { "speaker": "Daan", "target": "Doe mij maar de patat met, joh.", "en": "Just give me the fries with (mayo), man.", "spotlight": "doe maar — casual, decisive ordering." },
+        { "speaker": "You", "target": "Mag ik een frikandel en een patatje met, alstublieft?", "en": "May I have a frikandel and a small fries with, please?", "spotlight": "mag ik — the safe, polite default when talking to staff." },
+        { "speaker": "Daan", "target": "Lekker! Dank je wel.", "en": "Nice! Thank you." }
       ]
     },
     {
@@ -87,9 +87,9 @@
       "type": "shadow",
       "title": "Shadow the orders",
       "lines": [
-        { "nl": "Mag ik een koffie, alstublieft?", "en": "May I have a coffee, please?" },
-        { "nl": "Ik wil graag een broodje kaas.", "en": "I'd like a cheese roll." },
-        { "nl": "Doe maar de patat.", "en": "I'll have the fries." }
+        { "target": "Mag ik een koffie, alstublieft?", "en": "May I have a coffee, please?" },
+        { "target": "Ik wil graag een broodje kaas.", "en": "I'd like a cheese roll." },
+        { "target": "Doe maar de patat.", "en": "I'll have the fries." }
       ]
     },
     {

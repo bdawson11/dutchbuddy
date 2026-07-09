@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-14",
   "day": 14,
   "module": "M02",
@@ -55,11 +55,11 @@
       "type": "chips",
       "title": "Routine vocab — tap to hear",
       "items": [
-        { "nl": "Ik word vroeg wakker.", "en": "I wake up early.", "speak": "Ik word vroeg wakker." },
-        { "nl": "'s Ochtends drink ik koffie.", "en": "In the morning I drink coffee.", "speak": "'s Ochtends drink ik koffie." },
-        { "nl": "Om negen uur werk ik.", "en": "At nine I work.", "speak": "Om negen uur werk ik." },
-        { "nl": "'s Middags eet ik een broodje.", "en": "In the afternoon I eat a sandwich.", "speak": "'s Middags eet ik een broodje." },
-        { "nl": "'s Avonds kook ik thuis.", "en": "In the evening I cook at home.", "speak": "'s Avonds kook ik thuis." }
+        { "target": "Ik word vroeg wakker.", "en": "I wake up early.", "speak": "Ik word vroeg wakker." },
+        { "target": "'s Ochtends drink ik koffie.", "en": "In the morning I drink coffee.", "speak": "'s Ochtends drink ik koffie." },
+        { "target": "Om negen uur werk ik.", "en": "At nine I work.", "speak": "Om negen uur werk ik." },
+        { "target": "'s Middags eet ik een broodje.", "en": "In the afternoon I eat a sandwich.", "speak": "'s Middags eet ik een broodje." },
+        { "target": "'s Avonds kook ik thuis.", "en": "In the evening I cook at home.", "speak": "'s Avonds kook ik thuis." }
       ]
     },
     {
@@ -78,11 +78,11 @@
       "type": "dialogue",
       "scene": "Emma wants the full tour of your new daily rhythm",
       "lines": [
-        { "speaker": "Emma", "nl": "Vertel eens, hoe ziet jouw dag eruit?", "en": "Tell me, what does your day look like?" },
-        { "speaker": "You", "nl": "'s Ochtends drink ik koffie en om negen uur werk ik.", "en": "In the morning I drink coffee and at nine I work.", "spotlight": "Two V2 clauses, both with the verb safely in slot 2." },
-        { "speaker": "Emma", "nl": "En 's avonds? Wat doe je dan?", "en": "And in the evening? What do you do then?", "spotlight": "*Wat doe je* — question word, verb, -t drop." },
-        { "speaker": "You", "nl": "'s Avonds kook ik en soms zie ik vrienden.", "en": "In the evening I cook and sometimes I see friends." },
-        { "speaker": "Emma", "nl": "Wat gezellig! Je Nederlands wordt echt goed, hoor.", "en": "How lovely! Your Dutch is getting really good, you know." }
+        { "speaker": "Emma", "target": "Vertel eens, hoe ziet jouw dag eruit?", "en": "Tell me, what does your day look like?" },
+        { "speaker": "You", "target": "'s Ochtends drink ik koffie en om negen uur werk ik.", "en": "In the morning I drink coffee and at nine I work.", "spotlight": "Two V2 clauses, both with the verb safely in slot 2." },
+        { "speaker": "Emma", "target": "En 's avonds? Wat doe je dan?", "en": "And in the evening? What do you do then?", "spotlight": "*Wat doe je* — question word, verb, -t drop." },
+        { "speaker": "You", "target": "'s Avonds kook ik en soms zie ik vrienden.", "en": "In the evening I cook and sometimes I see friends." },
+        { "speaker": "Emma", "target": "Wat gezellig! Je Nederlands wordt echt goed, hoor.", "en": "How lovely! Your Dutch is getting really good, you know." }
       ]
     },
     {

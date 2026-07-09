@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-13",
   "day": 13,
   "module": "M02",
@@ -41,10 +41,10 @@
       "type": "chips",
       "title": "Escucha y repite",
       "items": [
-        { "nl": "este bar", "en": "this bar (near me)", "speak": "este bar" },
-        { "nl": "esa mesa", "en": "that table (near you)", "speak": "esa mesa" },
-        { "nl": "aquellos bares", "en": "those bars (over there)", "speak": "aquellos bares" },
-        { "nl": "hay tapas", "en": "there are tapas", "speak": "hay tapas" }
+        { "target": "este bar", "en": "this bar (near me)", "speak": "este bar" },
+        { "target": "esa mesa", "en": "that table (near you)", "speak": "esa mesa" },
+        { "target": "aquellos bares", "en": "those bars (over there)", "speak": "aquellos bares" },
+        { "target": "hay tapas", "en": "there are tapas", "speak": "hay tapas" }
       ]
     },
     {
@@ -80,10 +80,10 @@
       "type": "dialogue",
       "scene": "Sofía and You looking for a table on a busy terrace",
       "lines": [
-        { "speaker": "Sofía", "nl": "Mira, hay una mesa libre allí.", "en": "Look, there's a free table over there." },
-        { "speaker": "You", "nl": "¿Cuál, esta de aquí o esa de allí?", "en": "Which one, this one here or that one there?" },
-        { "speaker": "Sofía", "nl": "No, aquella del fondo, la de la sombrilla.", "en": "No, that one at the back, the one with the umbrella.", "spotlight": "aquella — far from both speakers, hence 'over there' at the back." },
-        { "speaker": "You", "nl": "Ah, vale, ¡vamos!", "en": "Oh, okay, let's go!" }
+        { "speaker": "Sofía", "target": "Mira, hay una mesa libre allí.", "en": "Look, there's a free table over there." },
+        { "speaker": "You", "target": "¿Cuál, esta de aquí o esa de allí?", "en": "Which one, this one here or that one there?" },
+        { "speaker": "Sofía", "target": "No, aquella del fondo, la de la sombrilla.", "en": "No, that one at the back, the one with the umbrella.", "spotlight": "aquella — far from both speakers, hence 'over there' at the back." },
+        { "speaker": "You", "target": "Ah, vale, ¡vamos!", "en": "Oh, okay, let's go!" }
       ]
     },
     {

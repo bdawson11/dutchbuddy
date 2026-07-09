@@ -15,9 +15,9 @@ passes on the first run and 84 days written in parallel read as one app.*
 
 ## 2. English ↔ German formatting conventions
 
-- **The target-language field is named `nl` in every block** (chips items, dialogue lines, shadow lines) — the engine hardcodes this key across all packs. Put the **German** text in `nl` even though it's German. English gloss goes in `en`. `speak` = the exact German to voice. (This is a fixed engine convention; do not rename it.)
+- **The target-language field is named `target` in every block** (chips items, dialogue lines, shadow lines). Put the **German** text in `target`. English gloss goes in `en`. `speak` = the exact German to voice. (Schema v1 packs named this field `nl`; the engine reads `target ?? nl` for back-compat, but v2 content uses `target`.)
 - In `card`/`callout` **body** (markdown): German example words in *italics* (`*Brötchen*`), key rules or the "one new thing" in **bold**. Glosses in parentheses: `*Brötchen* (bread roll)`.
-- In `chips`/`shadow`/`dialogue`: German goes in the `nl` field, English gloss in `en`. Do **not** repeat the translation inside `nl`.
+- In `chips`/`shadow`/`dialogue`: German goes in the `target` field, English gloss in `en`. Do **not** repeat the translation inside `target`.
 - Em dashes for "word — gloss" inside table cells: `"Brötchen — bread roll"`.
 - Keep English glosses tight — a word or short phrase, not a sentence.
 - Only real markdown supported by the engine is `**bold**` and `*italic*`, plus tables via the `table` field. No headings, lists, links, or code in `body`.
@@ -43,21 +43,21 @@ A normal `lesson` should include **at least 3 graded blocks** (mcq/typed/dictati
 
 ## 5. Block authoring rules (schema + gotchas)
 
-Top-level lesson fields (all required): `schemaVersion` (always `1`), `id` (`"day-NN"`, zero-padded), `day` (int, matches id), `module` (`"MNN"`, matches the manifest week), `unit`, `kind`, `title` (German, evocative), `emoji` (one, topical), `level` (`A1`/`A2`/`B1`), `durationMin` (`[15,25]` typical), `summary` (one English line), `blocks[]`.
+Top-level lesson fields (all required): `schemaVersion` (always `2`), `id` (`"day-NN"`, zero-padded), `day` (int, matches id), `module` (`"MNN"`, matches the manifest week), `unit`, `kind`, `title` (German, evocative), `emoji` (one, topical), `level` (`A1`/`A2`/`B1`), `durationMin` (`[15,25]` typical), `summary` (one English line), `blocks[]`.
 
 `unit` convention: `"U"` + two digits; simplest is one unit per week (e.g. all of M05 = `"U05"`). Keep it consistent within a week.
 
 Per block type — **required fields and the traps:**
 
 - **card** — `title`, `body` (markdown). Optional `table` {`headers[]`, `rows[]`} — **every row array length must equal headers length** (validator fails otherwise). Optional `callout` (one punchy line). No audio.
-- **chips** — `items[]`, each `{nl, en, speak?}`. `nl` = the German; set `speak` to the exact German to voice (usually = `nl`). Optional `title`. 4–8 items.
+- **chips** — `items[]`, each `{target, en, speak?}`. `target` = the German; set `speak` to the exact German to voice (usually = `target`). Optional `title`. 4–8 items.
 - **contrast** — `pairs[]`, each `{left, right, note?}`. Use for der/die/das, *nicht* vs *kein*, Akkusativ vs Dativ (*wohin* vs *wo*), Perfekt vs Präteritum, blunt vs soft particles. `note` explains the split.
 - **mcq** — `prompt`, `options[]` (≥2), `correct` (**0-based index**, in range), `explain`. Exactly one right option. `explain` teaches, doesn't just confirm.
 - **typed** — `prompt`, `answers[]` (≥1). List **every** acceptable spelling explicitly: article present/absent (*"Bruder"*, *"ein Bruder"*, *"einen Bruder"*), *ß*/*ss* and *ü*/*ue* variants if you want them shown, spacing. Grading normalizes case/whitespace/terminal punctuation and is diacritic-tolerant, so *ü*/*ue* and *ß*/*ss* both pass — but still put the correct form (real umlaut/ß) **first** in `answers` (it's shown as the gentle correction). Optional `hint`, `explain`.
 - **dictation** — `speak` (German to voice), `answers[]`. `prompt` optional (defaults nicely). Keep `speak` short enough to hold in memory (≤6 words early, longer later).
 - **builder** — `slots[]`, each `{label, chips[]}` (**chips required and non-empty**). `sample` (a model full sentence). Optional `prompt`, `starters`. Great for V2/word-order and case practice: one slot per sentence position, or one slot per case-marked article.
-- **dialogue** — `scene` (English stage-setting line), `lines[]` each `{speaker, nl, en, spotlight?}`. **`speaker` must be `"You"` or a name in the manifest cast** (Lena/Jonas/Aylin/Klaus) — anything else fails validation. `nl` holds the German. `spotlight` flags a teachable moment on that line. 4–10 lines. Honor the arc timeline.
-- **shadow** — `lines[]` each `{nl, en}`. Listen→repeat. Optional `title`. 3–6 lines.
+- **dialogue** — `scene` (English stage-setting line), `lines[]` each `{speaker, target, en, spotlight?}`. **`speaker` must be `"You"` or a name in the manifest cast** (Lena/Jonas/Aylin/Klaus) — anything else fails validation. `target` holds the German. `spotlight` flags a teachable moment on that line. 4–10 lines. Honor the arc timeline.
+- **shadow** — `lines[]` each `{target, en}`. Listen→repeat. Optional `title`. 3–6 lines.
 - **comprehension** — `questions[]` each `{q, options[], correct}` (`correct` 0-based, in range). Use **after** a dialogue/passage in the same lesson.
 - **journal** — `prompt`. Optional `starters[]` (German sentence openers), `minSentences`. Closes most lessons; free text, saved locally.
 
@@ -75,7 +75,7 @@ Per block type — **required fields and the traps:**
 
 ## 7. Difficulty ramp across the 84 days
 
-- **A1 (W1–4):** English scaffolding heavy. Short `nl`. Explanations in English. Dialogues 3–5 lines, simple. Cases limited to nom + acc.
+- **A1 (W1–4):** English scaffolding heavy. Short `target`. Explanations in English. Dialogues 3–5 lines, simple. Cases limited to nom + acc.
 - **A2 (W5–8):** glosses shorten; dialogues lengthen; introduce Perfekt then Präteritum; dative arrives; some `explain`/`spotlight` text starts appearing in easy German.
 - **B1 (W9–12):** dialogues run 6–10 lines; prompts increasingly in German; comprehension questions in German; journal prompts in German; adjective endings and Konjunktiv II land. By W12 the learner is expected to hold a conversation and to keep their cases together in real time (day 74).
 

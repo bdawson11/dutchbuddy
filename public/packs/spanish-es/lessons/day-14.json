@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-14",
   "day": 14,
   "module": "M02",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Repaso rápido — tap through",
       "items": [
-        { "nl": "son las ocho y media", "en": "it's half past eight", "speak": "son las ocho y media" },
-        { "nl": "¿cuánto es?", "en": "how much is it?", "speak": "¿cuánto es?" },
-        { "nl": "trabajo, como, vivo", "en": "I work, I eat, I live", "speak": "trabajo, como, vivo" },
-        { "nl": "¿qué haces?", "en": "what do you do?", "speak": "¿qué haces?" },
-        { "nl": "hay un bar aquí", "en": "there's a bar here", "speak": "hay un bar aquí" }
+        { "target": "son las ocho y media", "en": "it's half past eight", "speak": "son las ocho y media" },
+        { "target": "¿cuánto es?", "en": "how much is it?", "speak": "¿cuánto es?" },
+        { "target": "trabajo, como, vivo", "en": "I work, I eat, I live", "speak": "trabajo, como, vivo" },
+        { "target": "¿qué haces?", "en": "what do you do?", "speak": "¿qué haces?" },
+        { "target": "hay un bar aquí", "en": "there's a bar here", "speak": "hay un bar aquí" }
       ]
     },
     {
@@ -67,11 +67,11 @@
       "type": "dialogue",
       "scene": "Lucía walks You through a typical Madrid weekday",
       "lines": [
-        { "speaker": "Lucía", "nl": "¿Cómo es un día normal para ti?", "en": "What's a normal day like for you?" },
-        { "speaker": "You", "nl": "Me levanto a las siete y trabajo hasta las tres.", "en": "I get up at seven and work until three." },
-        { "speaker": "Lucía", "nl": "¿Y a qué hora comes? Aquí comemos tarde, ¿eh?", "en": "And what time do you eat? We eat late here, huh?" },
-        { "speaker": "You", "nl": "Como a las dos y media. Y por la tarde, aprendo español.", "en": "I eat at half past two. And in the afternoon, I learn Spanish.", "spotlight": "aprendo — everyday -er present, tying the whole week together." },
-        { "speaker": "Lucía", "nl": "¡Perfecto! Pues ya tienes una rutina muy madrileña.", "en": "Perfect! Well, you've already got a very Madrid routine." }
+        { "speaker": "Lucía", "target": "¿Cómo es un día normal para ti?", "en": "What's a normal day like for you?" },
+        { "speaker": "You", "target": "Me levanto a las siete y trabajo hasta las tres.", "en": "I get up at seven and work until three." },
+        { "speaker": "Lucía", "target": "¿Y a qué hora comes? Aquí comemos tarde, ¿eh?", "en": "And what time do you eat? We eat late here, huh?" },
+        { "speaker": "You", "target": "Como a las dos y media. Y por la tarde, aprendo español.", "en": "I eat at half past two. And in the afternoon, I learn Spanish.", "spotlight": "aprendo — everyday -er present, tying the whole week together." },
+        { "speaker": "Lucía", "target": "¡Perfecto! Pues ya tienes una rutina muy madrileña.", "en": "Perfect! Well, you've already got a very Madrid routine." }
       ]
     },
     {

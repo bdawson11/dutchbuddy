@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-74",
   "day": 74,
   "module": "M11",
@@ -27,12 +27,12 @@
       "type": "chips",
       "title": "Tre impalcature da memorizzare",
       "items": [
-        { "nl": "Penso che sia giusto.", "en": "I think it's right.", "speak": "Penso che sia giusto." },
-        { "nl": "Spero che tu stia bene.", "en": "I hope you're well.", "speak": "Spero che tu stia bene." },
-        { "nl": "È meglio che tu vada.", "en": "You'd better go.", "speak": "È meglio che tu vada." },
-        { "nl": "Credo che sia una buona idea.", "en": "I think it's a good idea.", "speak": "Credo che sia una buona idea." },
-        { "nl": "Voglio che tu venga.", "en": "I want you to come.", "speak": "Voglio che tu venga." },
-        { "nl": "Mi dispiace che tu sia stanco.", "en": "I'm sorry you're tired.", "speak": "Mi dispiace che tu sia stanco." }
+        { "target": "Penso che sia giusto.", "en": "I think it's right.", "speak": "Penso che sia giusto." },
+        { "target": "Spero che tu stia bene.", "en": "I hope you're well.", "speak": "Spero che tu stia bene." },
+        { "target": "È meglio che tu vada.", "en": "You'd better go.", "speak": "È meglio che tu vada." },
+        { "target": "Credo che sia una buona idea.", "en": "I think it's a good idea.", "speak": "Credo che sia una buona idea." },
+        { "target": "Voglio che tu venga.", "en": "I want you to come.", "speak": "Voglio che tu venga." },
+        { "target": "Mi dispiace che tu sia stanco.", "en": "I'm sorry you're tired.", "speak": "Mi dispiace che tu sia stanco." }
       ]
     },
     {
@@ -79,10 +79,10 @@
       "type": "shadow",
       "title": "Ripeti le tre impalcature",
       "lines": [
-        { "nl": "Penso che sia giusto così.", "en": "I think it's right this way." },
-        { "nl": "Spero che tu stia bene.", "en": "I hope you're well." },
-        { "nl": "È meglio che tu vada adesso.", "en": "You'd better go now." },
-        { "nl": "Non è grave: quando sbagli, non succede niente.", "en": "It's no big deal: when you slip up, nothing happens." }
+        { "target": "Penso che sia giusto così.", "en": "I think it's right this way." },
+        { "target": "Spero che tu stia bene.", "en": "I hope you're well." },
+        { "target": "È meglio che tu vada adesso.", "en": "You'd better go now." },
+        { "target": "Non è grave: quando sbagli, non succede niente.", "en": "It's no big deal: when you slip up, nothing happens." }
       ]
     },
     {

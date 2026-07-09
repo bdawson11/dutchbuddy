@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-28",
   "day": 28,
   "module": "M04",
@@ -21,20 +21,20 @@
       "type": "chips",
       "title": "Quick refresh — tap to hear",
       "items": [
-        { "nl": "Ich hätte gern", "en": "I would like", "speak": "Ich hätte gern" },
-        { "nl": "Ich möchte", "en": "I would like to", "speak": "Ich möchte" },
-        { "nl": "ich esse gern", "en": "I like to eat", "speak": "ich esse gern" },
-        { "nl": "ein Kilo", "en": "a kilo", "speak": "ein Kilo" },
-        { "nl": "das Pfand", "en": "the deposit", "speak": "das Pfand" }
+        { "target": "Ich hätte gern", "en": "I would like", "speak": "Ich hätte gern" },
+        { "target": "Ich möchte", "en": "I would like to", "speak": "Ich möchte" },
+        { "target": "ich esse gern", "en": "I like to eat", "speak": "ich esse gern" },
+        { "target": "ein Kilo", "en": "a kilo", "speak": "ein Kilo" },
+        { "target": "das Pfand", "en": "the deposit", "speak": "das Pfand" }
       ]
     },
     {
       "type": "shadow",
       "title": "Warm up: die Woche noch einmal",
       "lines": [
-        { "nl": "Ich möchte einen Kaffee bestellen.", "en": "I'd like to order a coffee." },
-        { "nl": "Ich esse gern Käsebrötchen.", "en": "I like eating cheese rolls." },
-        { "nl": "Ich brauche ein Kilo Äpfel.", "en": "I need a kilo of apples." }
+        { "target": "Ich möchte einen Kaffee bestellen.", "en": "I'd like to order a coffee." },
+        { "target": "Ich esse gern Käsebrötchen.", "en": "I like eating cheese rolls." },
+        { "target": "Ich brauche ein Kilo Äpfel.", "en": "I need a kilo of apples." }
       ]
     },
     {
@@ -79,14 +79,14 @@
       "type": "dialogue",
       "scene": "Lena treats you to an afternoon at a café — the perfect place to order, share what you like, and make a wish for later.",
       "lines": [
-        { "speaker": "Lena", "nl": "Na, was möchtest du heute bestellen?", "en": "So, what would you like to order today?" },
-        { "speaker": "You", "nl": "Ich hätte gern einen Kaffee und ein Stück Kuchen, bitte.", "en": "I'd like a coffee and a piece of cake, please." },
-        { "speaker": "Lena", "nl": "Perfekt! Ich nehme auch einen Kaffee.", "en": "Perfect! I'll take a coffee too." },
-        { "speaker": "You", "nl": "Ich mag Kuchen sehr — magst du auch Süßigkeiten?", "en": "I really like cake — do you like sweets too?" },
-        { "speaker": "Lena", "nl": "Ja, ich esse total gern Schokoladenkuchen.", "en": "Yeah, I love eating chocolate cake." },
-        { "speaker": "You", "nl": "Ich möchte später noch einen Kaffee bestellen.", "en": "I'd like to order another coffee later.", "spotlight": "The modal wish: *ich möchte* + infinitive at the end." },
-        { "speaker": "Lena", "nl": "Kein Problem, hier darf man lange sitzen bleiben.", "en": "No problem, you're allowed to sit here for a long time." },
-        { "speaker": "You", "nl": "Schön! Ich muss heute sowieso nicht früh nach Hause.", "en": "Nice! I don't have to be home early today anyway." }
+        { "speaker": "Lena", "target": "Na, was möchtest du heute bestellen?", "en": "So, what would you like to order today?" },
+        { "speaker": "You", "target": "Ich hätte gern einen Kaffee und ein Stück Kuchen, bitte.", "en": "I'd like a coffee and a piece of cake, please." },
+        { "speaker": "Lena", "target": "Perfekt! Ich nehme auch einen Kaffee.", "en": "Perfect! I'll take a coffee too." },
+        { "speaker": "You", "target": "Ich mag Kuchen sehr — magst du auch Süßigkeiten?", "en": "I really like cake — do you like sweets too?" },
+        { "speaker": "Lena", "target": "Ja, ich esse total gern Schokoladenkuchen.", "en": "Yeah, I love eating chocolate cake." },
+        { "speaker": "You", "target": "Ich möchte später noch einen Kaffee bestellen.", "en": "I'd like to order another coffee later.", "spotlight": "The modal wish: *ich möchte* + infinitive at the end." },
+        { "speaker": "Lena", "target": "Kein Problem, hier darf man lange sitzen bleiben.", "en": "No problem, you're allowed to sit here for a long time." },
+        { "speaker": "You", "target": "Schön! Ich muss heute sowieso nicht früh nach Hause.", "en": "Nice! I don't have to be home early today anyway." }
       ]
     },
     {

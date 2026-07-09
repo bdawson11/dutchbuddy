@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-37",
   "day": 37,
   "module": "M06",
@@ -30,12 +30,12 @@
       "type": "chips",
       "title": "Woorden bij de huisarts",
       "items": [
-        { "nl": "de huisarts", "en": "the GP", "speak": "de huisarts" },
-        { "nl": "de assistente", "en": "the practice assistant", "speak": "de assistente" },
-        { "nl": "de afspraak", "en": "the appointment", "speak": "de afspraak" },
-        { "nl": "de verwijzing", "en": "the referral", "speak": "de verwijzing" },
-        { "nl": "het recept", "en": "the prescription", "speak": "het recept" },
-        { "nl": "de wachtkamer", "en": "the waiting room", "speak": "de wachtkamer" }
+        { "target": "de huisarts", "en": "the GP", "speak": "de huisarts" },
+        { "target": "de assistente", "en": "the practice assistant", "speak": "de assistente" },
+        { "target": "de afspraak", "en": "the appointment", "speak": "de afspraak" },
+        { "target": "de verwijzing", "en": "the referral", "speak": "de verwijzing" },
+        { "target": "het recept", "en": "the prescription", "speak": "het recept" },
+        { "target": "de wachtkamer", "en": "the waiting room", "speak": "de wachtkamer" }
       ]
     },
     {
@@ -79,13 +79,13 @@
       "type": "dialogue",
       "scene": "Emma coaches you through the phone call you're about to make to the huisarts practice",
       "lines": [
-        { "speaker": "Emma", "nl": "Kijk, je belt eerst de assistente, niet meteen de dokter.", "en": "Look, you call the assistant first, not the doctor right away.", "spotlight": "the gatekeeper system in one sentence" },
-        { "speaker": "You", "nl": "Oké. Wat zeg ik dan?", "en": "Okay. What do I say then?" },
-        { "speaker": "Emma", "nl": "Zeg gewoon: 'Ik wil een afspraak maken.'", "en": "Just say: 'I'd like to make an appointment.'" },
-        { "speaker": "You", "nl": "Ik heb al een paar dagen buikpijn.", "en": "I've had a stomachache for a few days already." },
-        { "speaker": "Emma", "nl": "Dan vraagt ze wanneer het je uitkomt. Zeg: 'Vandaag of morgen, als het kan.'", "en": "Then she'll ask when suits you. Say: 'Today or tomorrow, if possible.'" },
-        { "speaker": "You", "nl": "En als ze zegt: neem maar paracetamol?", "en": "And if she says: just take paracetamol?" },
-        { "speaker": "Emma", "nl": "Haha, dat zegt ze altijd! Maar bij buikpijn die niet overgaat, mag je gewoon een afspraak vragen.", "en": "Haha, she always says that! But for a stomachache that won't go away, you can just ask for an appointment.", "spotlight": "paracetamol — the reflexive first answer" }
+        { "speaker": "Emma", "target": "Kijk, je belt eerst de assistente, niet meteen de dokter.", "en": "Look, you call the assistant first, not the doctor right away.", "spotlight": "the gatekeeper system in one sentence" },
+        { "speaker": "You", "target": "Oké. Wat zeg ik dan?", "en": "Okay. What do I say then?" },
+        { "speaker": "Emma", "target": "Zeg gewoon: 'Ik wil een afspraak maken.'", "en": "Just say: 'I'd like to make an appointment.'" },
+        { "speaker": "You", "target": "Ik heb al een paar dagen buikpijn.", "en": "I've had a stomachache for a few days already." },
+        { "speaker": "Emma", "target": "Dan vraagt ze wanneer het je uitkomt. Zeg: 'Vandaag of morgen, als het kan.'", "en": "Then she'll ask when suits you. Say: 'Today or tomorrow, if possible.'" },
+        { "speaker": "You", "target": "En als ze zegt: neem maar paracetamol?", "en": "And if she says: just take paracetamol?" },
+        { "speaker": "Emma", "target": "Haha, dat zegt ze altijd! Maar bij buikpijn die niet overgaat, mag je gewoon een afspraak vragen.", "en": "Haha, she always says that! But for a stomachache that won't go away, you can just ask for an appointment.", "spotlight": "paracetamol — the reflexive first answer" }
       ]
     },
     {

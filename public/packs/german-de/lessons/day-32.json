@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-32",
   "day": 32,
   "module": "M05",
@@ -46,11 +46,11 @@
       "type": "chips",
       "title": "Partizipien zum Hören",
       "items": [
-        { "nl": "aufgestanden", "en": "got up", "speak": "aufgestanden" },
-        { "nl": "mitgenommen", "en": "brought along", "speak": "mitgenommen" },
-        { "nl": "angekommen", "en": "arrived", "speak": "angekommen" },
-        { "nl": "angerufen", "en": "called", "speak": "angerufen" },
-        { "nl": "ausgegangen", "en": "went out", "speak": "ausgegangen" }
+        { "target": "aufgestanden", "en": "got up", "speak": "aufgestanden" },
+        { "target": "mitgenommen", "en": "brought along", "speak": "mitgenommen" },
+        { "target": "angekommen", "en": "arrived", "speak": "angekommen" },
+        { "target": "angerufen", "en": "called", "speak": "angerufen" },
+        { "target": "ausgegangen", "en": "went out", "speak": "ausgegangen" }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-70",
   "day": 70,
   "module": "M10",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Woche 10 auf einen Blick — tap to hear",
       "items": [
-        { "nl": "Ich helfe dir gern.", "en": "I'm glad to help you.", "speak": "Ich helfe dir gern." },
-        { "nl": "Das gefällt mir.", "en": "I like that.", "speak": "Das gefällt mir." },
-        { "nl": "Ich stelle es auf den Tisch.", "en": "I put it on the table.", "speak": "Ich stelle es auf den Tisch." },
-        { "nl": "Es steht auf dem Tisch.", "en": "It's on the table.", "speak": "Es steht auf dem Tisch." },
-        { "nl": "Ich habe mich entschieden.", "en": "I've decided.", "speak": "Ich habe mich entschieden." },
-        { "nl": "Ich will nach München ziehen.", "en": "I want to move to Munich.", "speak": "Ich will nach München ziehen." }
+        { "target": "Ich helfe dir gern.", "en": "I'm glad to help you.", "speak": "Ich helfe dir gern." },
+        { "target": "Das gefällt mir.", "en": "I like that.", "speak": "Das gefällt mir." },
+        { "target": "Ich stelle es auf den Tisch.", "en": "I put it on the table.", "speak": "Ich stelle es auf den Tisch." },
+        { "target": "Es steht auf dem Tisch.", "en": "It's on the table.", "speak": "Es steht auf dem Tisch." },
+        { "target": "Ich habe mich entschieden.", "en": "I've decided.", "speak": "Ich habe mich entschieden." },
+        { "target": "Ich will nach München ziehen.", "en": "I want to move to Munich.", "speak": "Ich will nach München ziehen." }
       ]
     },
     {
@@ -68,14 +68,14 @@
       "type": "dialogue",
       "scene": "At the Kneipe with Jonas, a week after Aylin's move. He wants the full story.",
       "lines": [
-        { "speaker": "Jonas", "nl": "Und? Wie war Aylins Umzug? Erzähl mal.", "en": "So? How was Aylin's move? Tell me.", "spotlight": "*Erzähl mal* — Jonas the gossip, particle *mal* softening the command." },
-        { "speaker": "You", "nl": "Anstrengend, aber schön. Wir haben ihr mit allem geholfen.", "en": "Exhausting, but nice. We helped her with everything.", "spotlight": "*Wir haben ihr … geholfen* — *helfen* + Dativ *ihr*." },
-        { "speaker": "Jonas", "nl": "Und? Gefällt ihr München?", "en": "And? Does she like Munich?", "spotlight": "*Gefällt ihr München?* — gefallen + Dativ." },
-        { "speaker": "You", "nl": "Total. Sie hat mir geschrieben, dass sie sich schon zu Hause fühlt.", "en": "Totally. She wrote me that she already feels at home.", "spotlight": "*…, dass sie sich … fühlt* — reported speech + reflexive at the clause end." },
-        { "speaker": "Jonas", "nl": "Krass, wie schnell so eine Entscheidung alles ändert. Ne?", "en": "Wild how fast a decision like that changes everything. Right?", "spotlight": "*Ne?* — Jonas's tag question." },
-        { "speaker": "You", "nl": "Ja. Ehrlich, es macht mir auch Mut für meine eigenen Pläne.", "en": "Yeah. Honestly, it gives me courage for my own plans too.", "spotlight": "*es macht mir Mut* — Dativ *mir*." },
-        { "speaker": "Jonas", "nl": "Oh? Hast du auch eine große Entscheidung getroffen?", "en": "Oh? Have you made a big decision too?" },
-        { "speaker": "You", "nl": "Vielleicht. Ich erzähl's dir gleich — in meiner Geschichte.", "en": "Maybe. I'll tell you in a sec — in my story." }
+        { "speaker": "Jonas", "target": "Und? Wie war Aylins Umzug? Erzähl mal.", "en": "So? How was Aylin's move? Tell me.", "spotlight": "*Erzähl mal* — Jonas the gossip, particle *mal* softening the command." },
+        { "speaker": "You", "target": "Anstrengend, aber schön. Wir haben ihr mit allem geholfen.", "en": "Exhausting, but nice. We helped her with everything.", "spotlight": "*Wir haben ihr … geholfen* — *helfen* + Dativ *ihr*." },
+        { "speaker": "Jonas", "target": "Und? Gefällt ihr München?", "en": "And? Does she like Munich?", "spotlight": "*Gefällt ihr München?* — gefallen + Dativ." },
+        { "speaker": "You", "target": "Total. Sie hat mir geschrieben, dass sie sich schon zu Hause fühlt.", "en": "Totally. She wrote me that she already feels at home.", "spotlight": "*…, dass sie sich … fühlt* — reported speech + reflexive at the clause end." },
+        { "speaker": "Jonas", "target": "Krass, wie schnell so eine Entscheidung alles ändert. Ne?", "en": "Wild how fast a decision like that changes everything. Right?", "spotlight": "*Ne?* — Jonas's tag question." },
+        { "speaker": "You", "target": "Ja. Ehrlich, es macht mir auch Mut für meine eigenen Pläne.", "en": "Yeah. Honestly, it gives me courage for my own plans too.", "spotlight": "*es macht mir Mut* — Dativ *mir*." },
+        { "speaker": "Jonas", "target": "Oh? Hast du auch eine große Entscheidung getroffen?", "en": "Oh? Have you made a big decision too?" },
+        { "speaker": "You", "target": "Vielleicht. Ich erzähl's dir gleich — in meiner Geschichte.", "en": "Maybe. I'll tell you in a sec — in my story." }
       ]
     },
     {

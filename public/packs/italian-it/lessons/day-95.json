@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-95",
   "day": 95,
   "module": "M14",
@@ -37,11 +37,11 @@
       "type": "chips",
       "title": "Ascolta e ripeti",
       "items": [
-        { "nl": "Avrei voluto venire, ma non ho potuto.", "en": "I'd have liked to come, but I couldn't.", "speak": "Avrei voluto venire, ma non ho potuto." },
-        { "nl": "Al posto tuo, non l'avrei fatto.", "en": "In your place, I wouldn't have done it.", "speak": "Al posto tuo, non l'avrei fatto." },
-        { "nl": "Ha detto che sarebbe venuto.", "en": "He said he would come.", "speak": "Ha detto che sarebbe venuto." },
-        { "nl": "Pensavo che avrebbe chiamato.", "en": "I thought he would call.", "speak": "Pensavo che avrebbe chiamato." },
-        { "nl": "Sarei uscito, ma pioveva.", "en": "I would have gone out, but it was raining.", "speak": "Sarei uscito, ma pioveva." }
+        { "target": "Avrei voluto venire, ma non ho potuto.", "en": "I'd have liked to come, but I couldn't.", "speak": "Avrei voluto venire, ma non ho potuto." },
+        { "target": "Al posto tuo, non l'avrei fatto.", "en": "In your place, I wouldn't have done it.", "speak": "Al posto tuo, non l'avrei fatto." },
+        { "target": "Ha detto che sarebbe venuto.", "en": "He said he would come.", "speak": "Ha detto che sarebbe venuto." },
+        { "target": "Pensavo che avrebbe chiamato.", "en": "I thought he would call.", "speak": "Pensavo che avrebbe chiamato." },
+        { "target": "Sarei uscito, ma pioveva.", "en": "I would have gone out, but it was raining.", "speak": "Sarei uscito, ma pioveva." }
       ]
     },
     {
@@ -80,14 +80,14 @@
       "type": "dialogue",
       "scene": "Sofia calls from Milano; you'd hoped to visit.",
       "lines": [
-        { "speaker": "Sofia", "nl": "Peccato che non sei venuto a Milano il weekend scorso!", "en": "Shame you didn't come to Milan last weekend!" },
-        { "speaker": "You", "nl": "Lo so. Sarei venuto volentieri, ma avevo troppo lavoro.", "en": "I know. I'd have gladly come, but I had too much work.", "spotlight": "condizionale passato: rammarico." },
-        { "speaker": "Sofia", "nl": "Ti avevo detto che ti avrei fatto da guida!", "en": "I told you I'd show you around!", "spotlight": "'avrei fatto' — futuro nel passato." },
-        { "speaker": "You", "nl": "Me l'avevi promesso, è vero. Avrei dovuto organizzarmi meglio.", "en": "You'd promised, true. I should have organized myself better." },
-        { "speaker": "Sofia", "nl": "Vabbè. Pensavo che saresti arrivato di sabato.", "en": "Oh well. I thought you'd arrive on Saturday." },
-        { "speaker": "You", "nl": "Sarebbe stato perfetto. La prossima volta vengo di sicuro.", "en": "It would have been perfect. Next time I'll definitely come." },
-        { "speaker": "Sofia", "nl": "Bene! Ti aspetto.", "en": "Good! I'll be waiting." },
-        { "speaker": "You", "nl": "Promesso. Un bacio, Sofia!", "en": "Promise. Hugs, Sofia!" }
+        { "speaker": "Sofia", "target": "Peccato che non sei venuto a Milano il weekend scorso!", "en": "Shame you didn't come to Milan last weekend!" },
+        { "speaker": "You", "target": "Lo so. Sarei venuto volentieri, ma avevo troppo lavoro.", "en": "I know. I'd have gladly come, but I had too much work.", "spotlight": "condizionale passato: rammarico." },
+        { "speaker": "Sofia", "target": "Ti avevo detto che ti avrei fatto da guida!", "en": "I told you I'd show you around!", "spotlight": "'avrei fatto' — futuro nel passato." },
+        { "speaker": "You", "target": "Me l'avevi promesso, è vero. Avrei dovuto organizzarmi meglio.", "en": "You'd promised, true. I should have organized myself better." },
+        { "speaker": "Sofia", "target": "Vabbè. Pensavo che saresti arrivato di sabato.", "en": "Oh well. I thought you'd arrive on Saturday." },
+        { "speaker": "You", "target": "Sarebbe stato perfetto. La prossima volta vengo di sicuro.", "en": "It would have been perfect. Next time I'll definitely come." },
+        { "speaker": "Sofia", "target": "Bene! Ti aspetto.", "en": "Good! I'll be waiting." },
+        { "speaker": "You", "target": "Promesso. Un bacio, Sofia!", "en": "Promise. Hugs, Sofia!" }
       ]
     },
     {

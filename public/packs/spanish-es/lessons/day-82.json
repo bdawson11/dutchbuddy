@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-82",
   "day": 82,
   "module": "M12",
@@ -43,11 +43,11 @@
       "type": "chips",
       "title": "Toca para oír cinco",
       "items": [
-        { "nl": "¡Es la leche!", "en": "it's amazing!", "speak": "¡Es la leche!" },
-        { "nl": "¡No me tomes el pelo!", "en": "don't pull my leg!", "speak": "¡No me tomes el pelo!" },
-        { "nl": "Me estás dando la lata.", "en": "you're bugging me", "speak": "Me estás dando la lata." },
-        { "nl": "Ha sido pan comido.", "en": "it was a piece of cake", "speak": "Ha sido pan comido." },
-        { "nl": "¿Me echas una mano?", "en": "can you give me a hand?", "speak": "¿Me echas una mano?" }
+        { "target": "¡Es la leche!", "en": "it's amazing!", "speak": "¡Es la leche!" },
+        { "target": "¡No me tomes el pelo!", "en": "don't pull my leg!", "speak": "¡No me tomes el pelo!" },
+        { "target": "Me estás dando la lata.", "en": "you're bugging me", "speak": "Me estás dando la lata." },
+        { "target": "Ha sido pan comido.", "en": "it was a piece of cake", "speak": "Ha sido pan comido." },
+        { "target": "¿Me echas una mano?", "en": "can you give me a hand?", "speak": "¿Me echas una mano?" }
       ]
     },
     {
@@ -75,13 +75,13 @@
       "type": "dialogue",
       "scene": "Rafa tells Lucía about last night's dinner — idioms flying",
       "lines": [
-        { "speaker": "Rafa", "nl": "Anoche cenamos en casa de Nacho y nos pusimos las botas.", "en": "Last night we had dinner at Nacho's and we stuffed ourselves." },
-        { "speaker": "Lucía", "nl": "¡Qué envidia! ¿Cocinó él?", "en": "So jealous! Did he cook?" },
-        { "speaker": "Rafa", "nl": "Sí, y está como una cabra: hizo cinco platos.", "en": "Yeah, and he's nuts: he made five dishes.", "spotlight": "*estar como una cabra* = to be (lovably) crazy." },
-        { "speaker": "Lucía", "nl": "Ese Nacho es la leche. ¿Y el peque?", "en": "That Nacho is the best. And the little one?" },
-        { "speaker": "Rafa", "nl": "Dando la lata hasta las doce, pero majísimo.", "en": "Being a pest until midnight, but so lovely." },
-        { "speaker": "You", "nl": "Jo, y yo estaba en las nubes y me olvidé de ir.", "en": "Ugh, and I was daydreaming and forgot to go." },
-        { "speaker": "Rafa", "nl": "¡No me tomes el pelo! ¿Te lo perdiste?", "en": "Don't pull my leg! You missed it?" }
+        { "speaker": "Rafa", "target": "Anoche cenamos en casa de Nacho y nos pusimos las botas.", "en": "Last night we had dinner at Nacho's and we stuffed ourselves." },
+        { "speaker": "Lucía", "target": "¡Qué envidia! ¿Cocinó él?", "en": "So jealous! Did he cook?" },
+        { "speaker": "Rafa", "target": "Sí, y está como una cabra: hizo cinco platos.", "en": "Yeah, and he's nuts: he made five dishes.", "spotlight": "*estar como una cabra* = to be (lovably) crazy." },
+        { "speaker": "Lucía", "target": "Ese Nacho es la leche. ¿Y el peque?", "en": "That Nacho is the best. And the little one?" },
+        { "speaker": "Rafa", "target": "Dando la lata hasta las doce, pero majísimo.", "en": "Being a pest until midnight, but so lovely." },
+        { "speaker": "You", "target": "Jo, y yo estaba en las nubes y me olvidé de ir.", "en": "Ugh, and I was daydreaming and forgot to go." },
+        { "speaker": "Rafa", "target": "¡No me tomes el pelo! ¿Te lo perdiste?", "en": "Don't pull my leg! You missed it?" }
       ]
     },
     {

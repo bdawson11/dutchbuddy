@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-49",
   "day": 49,
   "module": "M07",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Repaso rápido — tap through",
       "items": [
-        { "nl": "cuando era pequeño", "en": "when I was little", "speak": "cuando era pequeño" },
-        { "nl": "fui al colegio", "en": "I went to school", "speak": "fui al colegio" },
-        { "nl": "vivíamos en un pueblo", "en": "we used to live in a village", "speak": "vivíamos en un pueblo" },
-        { "nl": "de repente", "en": "suddenly", "speak": "de repente" },
-        { "nl": "ayer", "en": "yesterday", "speak": "ayer" },
-        { "nl": "hace años", "en": "years ago", "speak": "hace años" }
+        { "target": "cuando era pequeño", "en": "when I was little", "speak": "cuando era pequeño" },
+        { "target": "fui al colegio", "en": "I went to school", "speak": "fui al colegio" },
+        { "target": "vivíamos en un pueblo", "en": "we used to live in a village", "speak": "vivíamos en un pueblo" },
+        { "target": "de repente", "en": "suddenly", "speak": "de repente" },
+        { "target": "ayer", "en": "yesterday", "speak": "ayer" },
+        { "target": "hace años", "en": "years ago", "speak": "hace años" }
       ]
     },
     {
@@ -67,13 +67,13 @@
       "type": "dialogue",
       "scene": "At the bar, Rafa asks about your childhood — good practice before writing it all down",
       "lines": [
-        { "speaker": "Rafa", "nl": "Oye, ¿cómo era tu infancia? Nunca me la has contado.", "en": "Hey, what was your childhood like? You've never told me about it." },
-        { "speaker": "You", "nl": "Pues... de pequeño vivía en una ciudad pequeña con mis padres.", "en": "Well... as a kid I lived in a small city with my parents." },
-        { "speaker": "Rafa", "nl": "¿Y qué hacías los veranos?", "en": "And what did you do in the summers?" },
-        { "speaker": "You", "nl": "Íbamos a la playa cada año. Un verano aprendí a nadar.", "en": "We used to go to the beach every year. One summer I learned to swim.", "spotlight": "íbamos (imperfecto, costumbre) + aprendí (indefinido, un hecho concreto) en la misma frase." },
-        { "speaker": "Rafa", "nl": "¡Qué bien! ¿Y tenías hermanos?", "en": "Nice! And did you have siblings?" },
-        { "speaker": "You", "nl": "Sí, tenía un hermano mayor. Jugábamos juntos todo el tiempo.", "en": "Yes, I had an older brother. We used to play together all the time." },
-        { "speaker": "Rafa", "nl": "Pues nada, ahora ya sé más de ti, ¿eh?", "en": "Well then, now I know more about you, huh?" }
+        { "speaker": "Rafa", "target": "Oye, ¿cómo era tu infancia? Nunca me la has contado.", "en": "Hey, what was your childhood like? You've never told me about it." },
+        { "speaker": "You", "target": "Pues... de pequeño vivía en una ciudad pequeña con mis padres.", "en": "Well... as a kid I lived in a small city with my parents." },
+        { "speaker": "Rafa", "target": "¿Y qué hacías los veranos?", "en": "And what did you do in the summers?" },
+        { "speaker": "You", "target": "Íbamos a la playa cada año. Un verano aprendí a nadar.", "en": "We used to go to the beach every year. One summer I learned to swim.", "spotlight": "íbamos (imperfecto, costumbre) + aprendí (indefinido, un hecho concreto) en la misma frase." },
+        { "speaker": "Rafa", "target": "¡Qué bien! ¿Y tenías hermanos?", "en": "Nice! And did you have siblings?" },
+        { "speaker": "You", "target": "Sí, tenía un hermano mayor. Jugábamos juntos todo el tiempo.", "en": "Yes, I had an older brother. We used to play together all the time." },
+        { "speaker": "Rafa", "target": "Pues nada, ahora ya sé más de ti, ¿eh?", "en": "Well then, now I know more about you, huh?" }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-44",
   "day": 44,
   "module": "M07",
@@ -55,12 +55,12 @@
       "type": "chips",
       "title": "Frases con los seis verbos",
       "items": [
-        { "nl": "fui al pueblo", "en": "I went to the village", "speak": "fui al pueblo" },
-        { "nl": "hice la comida", "en": "I made lunch", "speak": "hice la comida" },
-        { "nl": "tuve mucha suerte", "en": "I got really lucky", "speak": "tuve mucha suerte" },
-        { "nl": "estuve en Valencia", "en": "I was in Valencia", "speak": "estuve en Valencia" },
-        { "nl": "dijo que sí", "en": "he/she said yes", "speak": "dijo que sí" },
-        { "nl": "vino tarde", "en": "he/she came late", "speak": "vino tarde" }
+        { "target": "fui al pueblo", "en": "I went to the village", "speak": "fui al pueblo" },
+        { "target": "hice la comida", "en": "I made lunch", "speak": "hice la comida" },
+        { "target": "tuve mucha suerte", "en": "I got really lucky", "speak": "tuve mucha suerte" },
+        { "target": "estuve en Valencia", "en": "I was in Valencia", "speak": "estuve en Valencia" },
+        { "target": "dijo que sí", "en": "he/she said yes", "speak": "dijo que sí" },
+        { "target": "vino tarde", "en": "he/she came late", "speak": "vino tarde" }
       ]
     },
     {
@@ -94,12 +94,12 @@
       "type": "dialogue",
       "scene": "Rafa tells you about the party he threw last night",
       "lines": [
-        { "speaker": "Rafa", "nl": "¡Tío! Ayer hice una fiesta en mi piso.", "en": "Dude! Yesterday I threw a party at my place." },
-        { "speaker": "You", "nl": "¿En serio? ¿Quién vino?", "en": "Really? Who came?" },
-        { "speaker": "Rafa", "nl": "Vino Lucía, y también estuvo Sofía un rato.", "en": "Lucía came, and Sofía was also there for a bit." },
-        { "speaker": "You", "nl": "¿Qué tal fue?", "en": "How was it?", "spotlight": "fue (de ser) para hablar de cómo salió un evento." },
-        { "speaker": "Rafa", "nl": "¡Fue genial! Tuve que pedir más cervezas a medianoche.", "en": "It was great! I had to order more beers at midnight." },
-        { "speaker": "You", "nl": "Jajaja, típico.", "en": "Haha, typical." }
+        { "speaker": "Rafa", "target": "¡Tío! Ayer hice una fiesta en mi piso.", "en": "Dude! Yesterday I threw a party at my place." },
+        { "speaker": "You", "target": "¿En serio? ¿Quién vino?", "en": "Really? Who came?" },
+        { "speaker": "Rafa", "target": "Vino Lucía, y también estuvo Sofía un rato.", "en": "Lucía came, and Sofía was also there for a bit." },
+        { "speaker": "You", "target": "¿Qué tal fue?", "en": "How was it?", "spotlight": "fue (de ser) para hablar de cómo salió un evento." },
+        { "speaker": "Rafa", "target": "¡Fue genial! Tuve que pedir más cervezas a medianoche.", "en": "It was great! I had to order more beers at midnight." },
+        { "speaker": "You", "target": "Jajaja, típico.", "en": "Haha, typical." }
       ]
     },
     {

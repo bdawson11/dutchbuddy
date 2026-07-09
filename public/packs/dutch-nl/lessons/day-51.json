@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-51",
   "day": 51,
   "module": "M08",
@@ -36,11 +36,11 @@
       "type": "chips",
       "title": "Voorstellen — tap to hear",
       "items": [
-        { "nl": "Zullen we koffie drinken?", "en": "Shall we have coffee?", "speak": "Zullen we koffie drinken?" },
-        { "nl": "Zullen we gaan?", "en": "Shall we go?", "speak": "Zullen we gaan?" },
-        { "nl": "Zullen we samen eten?", "en": "Shall we eat together?", "speak": "Zullen we samen eten?" },
-        { "nl": "Zal ik je helpen?", "en": "Shall I help you?", "speak": "Zal ik je helpen?" },
-        { "nl": "Zal ik even bellen?", "en": "Shall I give a quick call?", "speak": "Zal ik even bellen?" }
+        { "target": "Zullen we koffie drinken?", "en": "Shall we have coffee?", "speak": "Zullen we koffie drinken?" },
+        { "target": "Zullen we gaan?", "en": "Shall we go?", "speak": "Zullen we gaan?" },
+        { "target": "Zullen we samen eten?", "en": "Shall we eat together?", "speak": "Zullen we samen eten?" },
+        { "target": "Zal ik je helpen?", "en": "Shall I help you?", "speak": "Zal ik je helpen?" },
+        { "target": "Zal ik even bellen?", "en": "Shall I give a quick call?", "speak": "Zal ik even bellen?" }
       ]
     },
     {
@@ -78,11 +78,11 @@
       "type": "dialogue",
       "scene": "Daan flops into the café chair across from you",
       "lines": [
-        { "speaker": "Daan", "nl": "Joh, ik heb honger. Zullen we een broodje halen?", "en": "Hey, I'm hungry. Shall we grab a sandwich?", "spotlight": "Zullen we … halen? — a shared plan." },
-        { "speaker": "You", "nl": "Ja, lekker. Zal ik bestellen?", "en": "Yes, tasty. Shall I order?", "spotlight": "Zal ik…? — you offer to do it yourself." },
-        { "speaker": "Daan", "nl": "Graag. En ik zal deze keer betalen, beloofd.", "en": "Please. And I'll pay this time, promise.", "spotlight": "ik zal … betalen — a promise." },
-        { "speaker": "You", "nl": "Echt? Het zal wel weer 'volgende keer' worden, hoor.", "en": "Really? It'll probably turn into 'next time' again, you know." },
-        { "speaker": "Daan", "nl": "Nou! Deze keer niet. Zullen we?", "en": "Hey! Not this time. Shall we?" }
+        { "speaker": "Daan", "target": "Joh, ik heb honger. Zullen we een broodje halen?", "en": "Hey, I'm hungry. Shall we grab a sandwich?", "spotlight": "Zullen we … halen? — a shared plan." },
+        { "speaker": "You", "target": "Ja, lekker. Zal ik bestellen?", "en": "Yes, tasty. Shall I order?", "spotlight": "Zal ik…? — you offer to do it yourself." },
+        { "speaker": "Daan", "target": "Graag. En ik zal deze keer betalen, beloofd.", "en": "Please. And I'll pay this time, promise.", "spotlight": "ik zal … betalen — a promise." },
+        { "speaker": "You", "target": "Echt? Het zal wel weer 'volgende keer' worden, hoor.", "en": "Really? It'll probably turn into 'next time' again, you know." },
+        { "speaker": "Daan", "target": "Nou! Deze keer niet. Zullen we?", "en": "Hey! Not this time. Shall we?" }
       ]
     },
     {

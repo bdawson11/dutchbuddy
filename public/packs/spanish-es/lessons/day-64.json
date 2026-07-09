@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-64",
   "day": 64,
   "module": "M10",
@@ -53,12 +53,12 @@
       "type": "chips",
       "title": "Toca para oír órdenes de cada día",
       "items": [
-        { "nl": "¡Oye, ven aquí!", "en": "Hey, come here!", "speak": "oye, ven aquí" },
-        { "nl": "Haz los deberes.", "en": "Do your homework.", "speak": "haz los deberes" },
-        { "nl": "Pon la mesa, anda.", "en": "Set the table, go on.", "speak": "pon la mesa, anda" },
-        { "nl": "Ten cuidado.", "en": "Be careful.", "speak": "ten cuidado" },
-        { "nl": "Venid a las ocho.", "en": "Come at eight (you all).", "speak": "venid a las ocho" },
-        { "nl": "Pasad, pasad.", "en": "Come in, come in.", "speak": "pasad, pasad" }
+        { "target": "¡Oye, ven aquí!", "en": "Hey, come here!", "speak": "oye, ven aquí" },
+        { "target": "Haz los deberes.", "en": "Do your homework.", "speak": "haz los deberes" },
+        { "target": "Pon la mesa, anda.", "en": "Set the table, go on.", "speak": "pon la mesa, anda" },
+        { "target": "Ten cuidado.", "en": "Be careful.", "speak": "ten cuidado" },
+        { "target": "Venid a las ocho.", "en": "Come at eight (you all).", "speak": "venid a las ocho" },
+        { "target": "Pasad, pasad.", "en": "Come in, come in.", "speak": "pasad, pasad" }
       ]
     },
     {
@@ -91,13 +91,13 @@
       "type": "dialogue",
       "scene": "Nacho te invita a comer a su casa, a las afueras de Madrid.",
       "lines": [
-        { "speaker": "Nacho", "nl": "¡Hombre, has venido! Pasa, pasa, que hace frío fuera.", "en": "Hey, you came! Come in, come in, it's cold out." },
-        { "speaker": "You", "nl": "Gracias, Nacho. ¡Qué casa más bonita tenéis!", "en": "Thanks, Nacho. What a lovely house you've got!" },
-        { "speaker": "Nacho", "nl": "Anda, deja el abrigo ahí y ven a la cocina.", "en": "Go on, leave your coat there and come to the kitchen.", "spotlight": "Two commands in a row: deja (regular tú) + ven (irregular tú)." },
-        { "speaker": "You", "nl": "Claro. ¿Te ayudo con algo?", "en": "Sure. Can I help with anything?" },
-        { "speaker": "Nacho", "nl": "Pon los platos en la mesa y llama a los niños, anda.", "en": "Put the plates on the table and call the kids, go on." },
-        { "speaker": "You", "nl": "Hecho. Oye, ¿viene Lucía también?", "en": "Done. Hey, is Lucía coming too?" },
-        { "speaker": "Nacho", "nl": "Sí, está al llegar. Venga, entra y come, que ya está todo.", "en": "Yeah, she's about to arrive. Come on, sit down and eat, it's all ready." }
+        { "speaker": "Nacho", "target": "¡Hombre, has venido! Pasa, pasa, que hace frío fuera.", "en": "Hey, you came! Come in, come in, it's cold out." },
+        { "speaker": "You", "target": "Gracias, Nacho. ¡Qué casa más bonita tenéis!", "en": "Thanks, Nacho. What a lovely house you've got!" },
+        { "speaker": "Nacho", "target": "Anda, deja el abrigo ahí y ven a la cocina.", "en": "Go on, leave your coat there and come to the kitchen.", "spotlight": "Two commands in a row: deja (regular tú) + ven (irregular tú)." },
+        { "speaker": "You", "target": "Claro. ¿Te ayudo con algo?", "en": "Sure. Can I help with anything?" },
+        { "speaker": "Nacho", "target": "Pon los platos en la mesa y llama a los niños, anda.", "en": "Put the plates on the table and call the kids, go on." },
+        { "speaker": "You", "target": "Hecho. Oye, ¿viene Lucía también?", "en": "Done. Hey, is Lucía coming too?" },
+        { "speaker": "Nacho", "target": "Sí, está al llegar. Venga, entra y come, que ya está todo.", "en": "Yeah, she's about to arrive. Come on, sit down and eat, it's all ready." }
       ]
     },
     {

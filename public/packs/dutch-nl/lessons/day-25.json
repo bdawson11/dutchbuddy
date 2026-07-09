@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-25",
   "day": 25,
   "module": "M04",
@@ -34,12 +34,12 @@
       "type": "chips",
       "title": "Tap to hear the phrases",
       "items": [
-        { "nl": "Ik houd van kaas", "en": "I love cheese", "speak": "Ik houd van kaas" },
-        { "nl": "Ik vind dit lekker", "en": "I think this is tasty", "speak": "Ik vind dit lekker" },
-        { "nl": "Ik eet graag patat", "en": "I like eating fries", "speak": "Ik eet graag patat" },
-        { "nl": "Lekker weer, hè?", "en": "nice weather, right?", "speak": "Lekker weer, hè?" },
-        { "nl": "Lekker slapen!", "en": "sleep well!", "speak": "Lekker slapen!" },
-        { "nl": "Ik houd niet van vis", "en": "I don't like fish", "speak": "Ik houd niet van vis" }
+        { "target": "Ik houd van kaas", "en": "I love cheese", "speak": "Ik houd van kaas" },
+        { "target": "Ik vind dit lekker", "en": "I think this is tasty", "speak": "Ik vind dit lekker" },
+        { "target": "Ik eet graag patat", "en": "I like eating fries", "speak": "Ik eet graag patat" },
+        { "target": "Lekker weer, hè?", "en": "nice weather, right?", "speak": "Lekker weer, hè?" },
+        { "target": "Lekker slapen!", "en": "sleep well!", "speak": "Lekker slapen!" },
+        { "target": "Ik houd niet van vis", "en": "I don't like fish", "speak": "Ik houd niet van vis" }
       ]
     },
     {
@@ -83,9 +83,9 @@
       "type": "shadow",
       "title": "Repeat after the audio",
       "lines": [
-        { "nl": "Ik houd van de zomer.", "en": "I love summer." },
-        { "nl": "Ik eet graag verse groente.", "en": "I like eating fresh vegetables." },
-        { "nl": "Lekker weer vandaag, hè?", "en": "Nice weather today, right?" }
+        { "target": "Ik houd van de zomer.", "en": "I love summer." },
+        { "target": "Ik eet graag verse groente.", "en": "I like eating fresh vegetables." },
+        { "target": "Lekker weer vandaag, hè?", "en": "Nice weather today, right?" }
       ]
     },
     {

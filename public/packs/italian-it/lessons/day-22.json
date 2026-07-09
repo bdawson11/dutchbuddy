@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-22",
   "day": 22,
   "module": "M04",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "I pasti — ascolta",
       "items": [
-        { "nl": "colazione", "en": "breakfast", "speak": "colazione" },
-        { "nl": "pranzo", "en": "lunch", "speak": "pranzo" },
-        { "nl": "cena", "en": "dinner", "speak": "cena" },
-        { "nl": "uno spuntino", "en": "a snack", "speak": "uno spuntino" },
-        { "nl": "il primo", "en": "the first course", "speak": "il primo" },
-        { "nl": "il secondo", "en": "the second course", "speak": "il secondo" }
+        { "target": "colazione", "en": "breakfast", "speak": "colazione" },
+        { "target": "pranzo", "en": "lunch", "speak": "pranzo" },
+        { "target": "cena", "en": "dinner", "speak": "cena" },
+        { "target": "uno spuntino", "en": "a snack", "speak": "uno spuntino" },
+        { "target": "il primo", "en": "the first course", "speak": "il primo" },
+        { "target": "il secondo", "en": "the second course", "speak": "il secondo" }
       ]
     },
     {
@@ -75,9 +75,9 @@
       "type": "shadow",
       "title": "Ordina un pranzo completo",
       "lines": [
-        { "nl": "Per me, il primo.", "en": "For me, the first course." },
-        { "nl": "E per secondo?", "en": "And for a second course?" },
-        { "nl": "Un contorno di verdure, grazie.", "en": "A side of vegetables, thanks." }
+        { "target": "Per me, il primo.", "en": "For me, the first course." },
+        { "target": "E per secondo?", "en": "And for a second course?" },
+        { "target": "Un contorno di verdure, grazie.", "en": "A side of vegetables, thanks." }
       ]
     },
     {

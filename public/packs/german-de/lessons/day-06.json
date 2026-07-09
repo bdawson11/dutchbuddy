@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-06",
   "day": 6,
   "module": "M01",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Nouns with their articles — tap to hear",
       "items": [
-        { "nl": "der Mann", "en": "the man", "speak": "der Mann" },
-        { "nl": "die Frau", "en": "the woman", "speak": "die Frau" },
-        { "nl": "das Kind", "en": "the child", "speak": "das Kind" },
-        { "nl": "der Tisch", "en": "the table", "speak": "der Tisch" },
-        { "nl": "die Lampe", "en": "the lamp", "speak": "die Lampe" },
-        { "nl": "das Brot", "en": "the bread", "speak": "das Brot" }
+        { "target": "der Mann", "en": "the man", "speak": "der Mann" },
+        { "target": "die Frau", "en": "the woman", "speak": "die Frau" },
+        { "target": "das Kind", "en": "the child", "speak": "das Kind" },
+        { "target": "der Tisch", "en": "the table", "speak": "der Tisch" },
+        { "target": "die Lampe", "en": "the lamp", "speak": "die Lampe" },
+        { "target": "das Brot", "en": "the bread", "speak": "das Brot" }
       ]
     },
     {
@@ -66,10 +66,10 @@
       "type": "shadow",
       "title": "der / die / das — repeat after the audio",
       "lines": [
-        { "nl": "der Tisch", "en": "the table" },
-        { "nl": "die Tür", "en": "the door" },
-        { "nl": "das Fenster", "en": "the window" },
-        { "nl": "die Bücher", "en": "the books (plural)" }
+        { "target": "der Tisch", "en": "the table" },
+        { "target": "die Tür", "en": "the door" },
+        { "target": "das Fenster", "en": "the window" },
+        { "target": "die Bücher", "en": "the books (plural)" }
       ]
     },
     {

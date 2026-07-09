@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-83",
   "day": 83,
   "module": "M12",
@@ -31,12 +31,12 @@
       "type": "chips",
       "title": "Warm-up — every M12 move in one row",
       "items": [
-        { "nl": "Komm, setz dich!", "en": "Come on, sit down!", "speak": "Komm, setz dich!" },
-        { "nl": "Alles klar!", "en": "All good!", "speak": "Alles klar!" },
-        { "nl": "Hast du Bock?", "en": "You up for it?", "speak": "Hast du Bock?" },
-        { "nl": "Prost! Auf uns!", "en": "Cheers! To us!", "speak": "Prost! Auf uns!" },
-        { "nl": "Ich verstehe nur Bahnhof.", "en": "I don't get a word.", "speak": "Ich verstehe nur Bahnhof." },
-        { "nl": "Getrennt oder zusammen?", "en": "Separate or together?", "speak": "Getrennt oder zusammen?" }
+        { "target": "Komm, setz dich!", "en": "Come on, sit down!", "speak": "Komm, setz dich!" },
+        { "target": "Alles klar!", "en": "All good!", "speak": "Alles klar!" },
+        { "target": "Hast du Bock?", "en": "You up for it?", "speak": "Hast du Bock?" },
+        { "target": "Prost! Auf uns!", "en": "Cheers! To us!", "speak": "Prost! Auf uns!" },
+        { "target": "Ich verstehe nur Bahnhof.", "en": "I don't get a word.", "speak": "Ich verstehe nur Bahnhof." },
+        { "target": "Getrennt oder zusammen?", "en": "Separate or together?", "speak": "Getrennt oder zusammen?" }
       ]
     },
     {
@@ -50,16 +50,16 @@
       "type": "dialogue",
       "scene": "One year on. Same Stammkneipe. Aylin is up from Munich; Lena and Jonas already have a table.",
       "lines": [
-        { "speaker": "Lena", "nl": "Ey, da bist du! Komm, setz dich, wir haben einen Tisch.", "en": "Hey, there you are! Come on, sit down, we've got a table.", "spotlight": "*Komm, setz dich!* — two du-imperatives, the warm way friends greet you." },
-        { "speaker": "Aylin", "nl": "Endlich! Guck mal, wer extra aus München da ist.", "en": "Finally! Look who's here all the way from Munich." },
-        { "speaker": "You", "nl": "Aylin! Wie ist es in München — echt so schön, wie alle sagen?", "en": "Aylin! How's Munich — really as nice as everyone says?" },
-        { "speaker": "Aylin", "nl": "Ja, mir gefällt es dort. Am Anfang war es hart, aber jetzt bin ich echt glücklich.", "en": "Yes, I like it there. It was hard at first, but now I'm really happy.", "spotlight": "*mir gefällt es* (dative) + *war* (Präteritum) — a year of grammar in one sentence." },
-        { "speaker": "Jonas", "nl": "Na ja, Hauptsache, du kommst noch nach Berlin. Sonst ist mir München Wurst.", "en": "Well, the main thing is you still come to Berlin. Otherwise Munich means nothing to me.", "spotlight": "*das ist mir Wurst* — Jonas teasing with an idiom." },
-        { "speaker": "Aylin", "nl": "Quatsch, Jonas! Du besuchst mich, das hast du versprochen.", "en": "Nonsense, Jonas! You'll visit me, you promised.", "spotlight": "*Quatsch!* (green slang) + *hast versprochen* (Perfekt)." },
-        { "speaker": "Lena", "nl": "So, bestellen wir? Erste Runde geht auf mich.", "en": "So, shall we order? First round's on me." },
-        { "speaker": "You", "nl": "Für mich ein Bier, bitte. Und ehrlich: vor einem Jahr habe ich nur Bahnhof verstanden — jetzt rede ich mit.", "en": "A beer for me, please. And honestly: a year ago I didn't get a word — now I'm joining in.", "spotlight": "*habe … verstanden* (Perfekt) + the idiom + the whole point of the year." },
-        { "speaker": "Jonas", "nl": "Siehst du! Prost — auf ein Jahr Deutsch!", "en": "See! Cheers — to a year of German!" },
-        { "speaker": "Lena", "nl": "Prost! Und in die Augen gucken, sonst zählt's nicht.", "en": "Cheers! And look each other in the eyes, or it doesn't count." }
+        { "speaker": "Lena", "target": "Ey, da bist du! Komm, setz dich, wir haben einen Tisch.", "en": "Hey, there you are! Come on, sit down, we've got a table.", "spotlight": "*Komm, setz dich!* — two du-imperatives, the warm way friends greet you." },
+        { "speaker": "Aylin", "target": "Endlich! Guck mal, wer extra aus München da ist.", "en": "Finally! Look who's here all the way from Munich." },
+        { "speaker": "You", "target": "Aylin! Wie ist es in München — echt so schön, wie alle sagen?", "en": "Aylin! How's Munich — really as nice as everyone says?" },
+        { "speaker": "Aylin", "target": "Ja, mir gefällt es dort. Am Anfang war es hart, aber jetzt bin ich echt glücklich.", "en": "Yes, I like it there. It was hard at first, but now I'm really happy.", "spotlight": "*mir gefällt es* (dative) + *war* (Präteritum) — a year of grammar in one sentence." },
+        { "speaker": "Jonas", "target": "Na ja, Hauptsache, du kommst noch nach Berlin. Sonst ist mir München Wurst.", "en": "Well, the main thing is you still come to Berlin. Otherwise Munich means nothing to me.", "spotlight": "*das ist mir Wurst* — Jonas teasing with an idiom." },
+        { "speaker": "Aylin", "target": "Quatsch, Jonas! Du besuchst mich, das hast du versprochen.", "en": "Nonsense, Jonas! You'll visit me, you promised.", "spotlight": "*Quatsch!* (green slang) + *hast versprochen* (Perfekt)." },
+        { "speaker": "Lena", "target": "So, bestellen wir? Erste Runde geht auf mich.", "en": "So, shall we order? First round's on me." },
+        { "speaker": "You", "target": "Für mich ein Bier, bitte. Und ehrlich: vor einem Jahr habe ich nur Bahnhof verstanden — jetzt rede ich mit.", "en": "A beer for me, please. And honestly: a year ago I didn't get a word — now I'm joining in.", "spotlight": "*habe … verstanden* (Perfekt) + the idiom + the whole point of the year." },
+        { "speaker": "Jonas", "target": "Siehst du! Prost — auf ein Jahr Deutsch!", "en": "See! Cheers — to a year of German!" },
+        { "speaker": "Lena", "target": "Prost! Und in die Augen gucken, sonst zählt's nicht.", "en": "Cheers! And look each other in the eyes, or it doesn't count." }
       ]
     },
     {

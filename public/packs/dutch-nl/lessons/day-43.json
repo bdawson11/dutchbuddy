@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-43",
   "day": 43,
   "module": "M07",
@@ -38,12 +38,12 @@
       "type": "chips",
       "title": "Tik om het verleden te horen",
       "items": [
-        { "nl": "ik werkte", "en": "I worked", "speak": "ik werkte" },
-        { "nl": "we woonden", "en": "we lived", "speak": "we woonden" },
-        { "nl": "hij kookte", "en": "he cooked", "speak": "hij kookte" },
-        { "nl": "ze speelde", "en": "she played", "speak": "ze speelde" },
-        { "nl": "ik leerde", "en": "I learned", "speak": "ik leerde" },
-        { "nl": "we fietsten", "en": "we cycled", "speak": "we fietsten" }
+        { "target": "ik werkte", "en": "I worked", "speak": "ik werkte" },
+        { "target": "we woonden", "en": "we lived", "speak": "we woonden" },
+        { "target": "hij kookte", "en": "he cooked", "speak": "hij kookte" },
+        { "target": "ze speelde", "en": "she played", "speak": "ze speelde" },
+        { "target": "ik leerde", "en": "I learned", "speak": "ik leerde" },
+        { "target": "we fietsten", "en": "we cycled", "speak": "we fietsten" }
       ]
     },
     {
@@ -73,12 +73,12 @@
       "type": "shadow",
       "title": "Herhaal de onregelmatige",
       "lines": [
-        { "nl": "Het was koud.", "en": "It was cold." },
-        { "nl": "We waren blij.", "en": "We were happy." },
-        { "nl": "Ik had een oude fiets.", "en": "I had an old bike." },
-        { "nl": "Hij ging naar school.", "en": "He went to school." },
-        { "nl": "Ze kwam te laat.", "en": "She came too late." },
-        { "nl": "Mijn opa zei niets.", "en": "My grandpa said nothing." }
+        { "target": "Het was koud.", "en": "It was cold." },
+        { "target": "We waren blij.", "en": "We were happy." },
+        { "target": "Ik had een oude fiets.", "en": "I had an old bike." },
+        { "target": "Hij ging naar school.", "en": "He went to school." },
+        { "target": "Ze kwam te laat.", "en": "She came too late." },
+        { "target": "Mijn opa zei niets.", "en": "My grandpa said nothing." }
       ]
     },
     {

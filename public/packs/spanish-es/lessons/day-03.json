@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-03",
   "day": 3,
   "module": "M01",
@@ -29,12 +29,12 @@
       "type": "chips",
       "title": "Tap to hear the greetings",
       "items": [
-        { "nl": "hola", "en": "hi", "speak": "hola" },
-        { "nl": "buenas", "en": "hey (all-purpose)", "speak": "buenas" },
-        { "nl": "¿qué tal?", "en": "how's it going?", "speak": "¿qué tal?" },
-        { "nl": "bien, ¿y tú?", "en": "good, and you?", "speak": "bien, ¿y tú?" },
-        { "nl": "adiós", "en": "bye", "speak": "adiós" },
-        { "nl": "hasta luego", "en": "see you later", "speak": "hasta luego" }
+        { "target": "hola", "en": "hi", "speak": "hola" },
+        { "target": "buenas", "en": "hey (all-purpose)", "speak": "buenas" },
+        { "target": "¿qué tal?", "en": "how's it going?", "speak": "¿qué tal?" },
+        { "target": "bien, ¿y tú?", "en": "good, and you?", "speak": "bien, ¿y tú?" },
+        { "target": "adiós", "en": "bye", "speak": "adiós" },
+        { "target": "hasta luego", "en": "see you later", "speak": "hasta luego" }
       ]
     },
     {
@@ -47,11 +47,11 @@
       "type": "chips",
       "title": "por favor y gracias",
       "items": [
-        { "nl": "por favor", "en": "please", "speak": "por favor" },
-        { "nl": "gracias", "en": "thank you", "speak": "gracias" },
-        { "nl": "de nada", "en": "you're welcome", "speak": "de nada" },
-        { "nl": "vale", "en": "OK / sure", "speak": "vale" },
-        { "nl": "venga", "en": "come on / alright", "speak": "venga" }
+        { "target": "por favor", "en": "please", "speak": "por favor" },
+        { "target": "gracias", "en": "thank you", "speak": "gracias" },
+        { "target": "de nada", "en": "you're welcome", "speak": "de nada" },
+        { "target": "vale", "en": "OK / sure", "speak": "vale" },
+        { "target": "venga", "en": "come on / alright", "speak": "venga" }
       ]
     },
     {
@@ -65,11 +65,11 @@
       "type": "dialogue",
       "scene": "You walk into a neighborhood bar de tapas and greet the person behind the bar",
       "lines": [
-        { "speaker": "You", "nl": "¡Buenas!", "en": "Hey!" },
-        { "speaker": "Rafa", "nl": "¡Hola! ¿Qué tal?", "en": "Hi! How's it going?", "spotlight": "Rafa runs into you at his favorite bar." },
-        { "speaker": "You", "nl": "Bien, ¿y tú?", "en": "Good, and you?" },
-        { "speaker": "Rafa", "nl": "Muy bien. ¿Una caña?", "en": "Great. A beer?", "spotlight": "*una caña* = a small draft beer, the default bar order in Spain." },
-        { "speaker": "You", "nl": "¡Vale, venga!", "en": "Sure, let's!" }
+        { "speaker": "You", "target": "¡Buenas!", "en": "Hey!" },
+        { "speaker": "Rafa", "target": "¡Hola! ¿Qué tal?", "en": "Hi! How's it going?", "spotlight": "Rafa runs into you at his favorite bar." },
+        { "speaker": "You", "target": "Bien, ¿y tú?", "en": "Good, and you?" },
+        { "speaker": "Rafa", "target": "Muy bien. ¿Una caña?", "en": "Great. A beer?", "spotlight": "*una caña* = a small draft beer, the default bar order in Spain." },
+        { "speaker": "You", "target": "¡Vale, venga!", "en": "Sure, let's!" }
       ]
     },
     {

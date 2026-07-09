@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-09",
   "day": 9,
   "module": "M02",
@@ -46,11 +46,11 @@
       "type": "chips",
       "title": "Escucha y repite",
       "items": [
-        { "nl": "cien euros", "en": "a hundred euros", "speak": "cien euros" },
-        { "nl": "doscientas personas", "en": "two hundred people", "speak": "doscientas personas" },
-        { "nl": "mil gracias", "en": "a thousand thanks", "speak": "mil gracias" },
-        { "nl": "¿cuánto es?", "en": "how much is it?", "speak": "¿cuánto es?" },
-        { "nl": "¿cuánto vale?", "en": "how much does it cost?", "speak": "¿cuánto vale?" }
+        { "target": "cien euros", "en": "a hundred euros", "speak": "cien euros" },
+        { "target": "doscientas personas", "en": "two hundred people", "speak": "doscientas personas" },
+        { "target": "mil gracias", "en": "a thousand thanks", "speak": "mil gracias" },
+        { "target": "¿cuánto es?", "en": "how much is it?", "speak": "¿cuánto es?" },
+        { "target": "¿cuánto vale?", "en": "how much does it cost?", "speak": "¿cuánto vale?" }
       ]
     },
     {
@@ -99,11 +99,11 @@
       "type": "dialogue",
       "scene": "At the tapas bar, paying up",
       "lines": [
-        { "speaker": "You", "nl": "Perdona, ¿cuánto es la ración de patatas bravas?", "en": "Excuse me, how much is the patatas bravas ration?" },
-        { "speaker": "Rafa", "nl": "Creo que vale seis euros con cincuenta.", "en": "I think it's six fifty." },
-        { "speaker": "Lucía", "nl": "Y la caña, un euro ochenta. Total, unos ocho euros y pico.", "en": "And the beer, one eighty. All in, about eight euros and change.", "spotlight": "'y pico' = 'and a bit' — very Spain." },
-        { "speaker": "You", "nl": "Vale, pago yo esta vez.", "en": "Okay, I'll pay this time." },
-        { "speaker": "Rafa", "nl": "¡Hombre, gracias, tío! La próxima, la ronda es mía.", "en": "Cheers, thanks! Next round's on me." }
+        { "speaker": "You", "target": "Perdona, ¿cuánto es la ración de patatas bravas?", "en": "Excuse me, how much is the patatas bravas ration?" },
+        { "speaker": "Rafa", "target": "Creo que vale seis euros con cincuenta.", "en": "I think it's six fifty." },
+        { "speaker": "Lucía", "target": "Y la caña, un euro ochenta. Total, unos ocho euros y pico.", "en": "And the beer, one eighty. All in, about eight euros and change.", "spotlight": "'y pico' = 'and a bit' — very Spain." },
+        { "speaker": "You", "target": "Vale, pago yo esta vez.", "en": "Okay, I'll pay this time." },
+        { "speaker": "Rafa", "target": "¡Hombre, gracias, tío! La próxima, la ronda es mía.", "en": "Cheers, thanks! Next round's on me." }
       ]
     },
     {

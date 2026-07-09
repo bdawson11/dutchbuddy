@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-42",
   "day": 42,
   "module": "M06",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Repaso rápido — tap through",
       "items": [
-        { "nl": "me duele la cabeza", "en": "my head hurts", "speak": "me duele la cabeza" },
-        { "nl": "pedir cita", "en": "to book an appointment", "speak": "pedir cita" },
-        { "nl": "llama al 112", "en": "call 112", "speak": "llama al 112" },
-        { "nl": "estoy agobiado/a", "en": "I'm overwhelmed", "speak": "estoy agobiado" },
-        { "nl": "deberías descansar", "en": "you should rest", "speak": "deberías descansar" }
+        { "target": "me duele la cabeza", "en": "my head hurts", "speak": "me duele la cabeza" },
+        { "target": "pedir cita", "en": "to book an appointment", "speak": "pedir cita" },
+        { "target": "llama al 112", "en": "call 112", "speak": "llama al 112" },
+        { "target": "estoy agobiado/a", "en": "I'm overwhelmed", "speak": "estoy agobiado" },
+        { "target": "deberías descansar", "en": "you should rest", "speak": "deberías descansar" }
       ]
     },
     {
@@ -76,12 +76,12 @@
       "type": "dialogue",
       "scene": "Rafa asks what's been going on with you this week, now that Sofía's story is out in the open.",
       "lines": [
-        { "speaker": "Rafa", "nl": "Oye, ¿y tú qué? ¿Qué te ha pasado esta semana?", "en": "Hey, what about you? What's happened to you this week?" },
-        { "speaker": "You", "nl": "Nada tan grave como Sofía, menos mal. Pero he estado un poco resfriado.", "en": "Nothing as bad as Sofía, thankfully. But I've had a bit of a cold." },
-        { "speaker": "Rafa", "nl": "Vaya. ¿Has ido a la farmacia?", "en": "Ugh. Have you gone to the pharmacy?" },
-        { "speaker": "You", "nl": "Sí, me han dado un jarabe. Y he dormido mucho.", "en": "Yeah, they gave me some syrup. And I've slept a lot." },
-        { "speaker": "Rafa", "nl": "Pues deberías seguir descansando. ¿Cómo te encuentras ahora?", "en": "Well you should keep resting. How are you feeling now?" },
-        { "speaker": "You", "nl": "Mucho mejor, gracias. Ya casi no me duele la garganta.", "en": "Much better, thanks. My throat barely hurts anymore." }
+        { "speaker": "Rafa", "target": "Oye, ¿y tú qué? ¿Qué te ha pasado esta semana?", "en": "Hey, what about you? What's happened to you this week?" },
+        { "speaker": "You", "target": "Nada tan grave como Sofía, menos mal. Pero he estado un poco resfriado.", "en": "Nothing as bad as Sofía, thankfully. But I've had a bit of a cold." },
+        { "speaker": "Rafa", "target": "Vaya. ¿Has ido a la farmacia?", "en": "Ugh. Have you gone to the pharmacy?" },
+        { "speaker": "You", "target": "Sí, me han dado un jarabe. Y he dormido mucho.", "en": "Yeah, they gave me some syrup. And I've slept a lot." },
+        { "speaker": "Rafa", "target": "Pues deberías seguir descansando. ¿Cómo te encuentras ahora?", "en": "Well you should keep resting. How are you feeling now?" },
+        { "speaker": "You", "target": "Mucho mejor, gracias. Ya casi no me duele la garganta.", "en": "Much better, thanks. My throat barely hurts anymore." }
       ]
     },
     {

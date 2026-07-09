@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-03",
   "day": 3,
   "module": "M01",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Greetings — tap to hear",
       "items": [
-        { "nl": "ciao", "en": "hi / bye (informal)", "speak": "ciao" },
-        { "nl": "buongiorno", "en": "good morning / hello", "speak": "buongiorno" },
-        { "nl": "buonasera", "en": "good evening", "speak": "buonasera" },
-        { "nl": "arrivederci", "en": "goodbye (polite)", "speak": "arrivederci" },
-        { "nl": "a presto", "en": "see you soon", "speak": "a presto" }
+        { "target": "ciao", "en": "hi / bye (informal)", "speak": "ciao" },
+        { "target": "buongiorno", "en": "good morning / hello", "speak": "buongiorno" },
+        { "target": "buonasera", "en": "good evening", "speak": "buonasera" },
+        { "target": "arrivederci", "en": "goodbye (polite)", "speak": "arrivederci" },
+        { "target": "a presto", "en": "see you soon", "speak": "a presto" }
       ]
     },
     {
@@ -51,20 +51,20 @@
       "type": "shadow",
       "title": "Say it at the counter",
       "lines": [
-        { "nl": "Un caffè, per favore.", "en": "An espresso, please." },
-        { "nl": "Un cappuccino, grazie.", "en": "A cappuccino, thanks." },
-        { "nl": "Quant'è?", "en": "How much is it?" }
+        { "target": "Un caffè, per favore.", "en": "An espresso, please." },
+        { "target": "Un cappuccino, grazie.", "en": "A cappuccino, thanks." },
+        { "target": "Quant'è?", "en": "How much is it?" }
       ]
     },
     {
       "type": "dialogue",
       "scene": "Your first coffee at the bar with Marco, who's showing you the ropes",
       "lines": [
-        { "speaker": "Marco", "nl": "Buongiorno! Allora, cosa prendi?", "en": "Morning! So, what are you having?", "spotlight": "*cosa prendi?* — 'what'll you have?', the everyday order question." },
-        { "speaker": "You", "nl": "Buongiorno. Un caffè, per favore.", "en": "Morning. An espresso, please." },
-        { "speaker": "Marco", "nl": "Perfetto. Anche per me un caffè.", "en": "Perfect. An espresso for me too." },
-        { "speaker": "You", "nl": "Grazie!", "en": "Thanks!" },
-        { "speaker": "Marco", "nl": "Prego. Benvenuto a Bologna, eh!", "en": "You're welcome. Welcome to Bologna, eh!" }
+        { "speaker": "Marco", "target": "Buongiorno! Allora, cosa prendi?", "en": "Morning! So, what are you having?", "spotlight": "*cosa prendi?* — 'what'll you have?', the everyday order question." },
+        { "speaker": "You", "target": "Buongiorno. Un caffè, per favore.", "en": "Morning. An espresso, please." },
+        { "speaker": "Marco", "target": "Perfetto. Anche per me un caffè.", "en": "Perfect. An espresso for me too." },
+        { "speaker": "You", "target": "Grazie!", "en": "Thanks!" },
+        { "speaker": "Marco", "target": "Prego. Benvenuto a Bologna, eh!", "en": "You're welcome. Welcome to Bologna, eh!" }
       ]
     },
     {

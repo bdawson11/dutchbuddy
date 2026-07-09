@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-21",
   "day": 21,
   "module": "M03",
@@ -62,11 +62,11 @@
       "type": "dialogue",
       "scene": "You tell Daan about your family and your neighborhood.",
       "lines": [
-        { "speaker": "You", "nl": "Dit is mijn zusje — heel grappig, en heel aardig.", "en": "This is my little sister — really funny, and really kind." },
-        { "speaker": "Daan", "nl": "Leuk! En waar woont ze?", "en": "Nice! And where does she live?" },
-        { "speaker": "You", "nl": "In onze oude buurt, vlakbij een gezellig plein.", "en": "In our old neighborhood, close to a cozy square.", "spotlight": "onze oude buurt — buurt is de, always -e." },
-        { "speaker": "Daan", "nl": "En jouw huis — is dat ook gezellig?", "en": "And your house — is that cozy too?" },
-        { "speaker": "You", "nl": "Heel gezellig, ja. Ons kleine huis, maar wel heel warm.", "en": "Very cozy, yes. Our small house, but very warm.", "spotlight": "ons kleine huis — ons + adjective always takes -e, even for a het-word." }
+        { "speaker": "You", "target": "Dit is mijn zusje — heel grappig, en heel aardig.", "en": "This is my little sister — really funny, and really kind." },
+        { "speaker": "Daan", "target": "Leuk! En waar woont ze?", "en": "Nice! And where does she live?" },
+        { "speaker": "You", "target": "In onze oude buurt, vlakbij een gezellig plein.", "en": "In our old neighborhood, close to a cozy square.", "spotlight": "onze oude buurt — buurt is de, always -e." },
+        { "speaker": "Daan", "target": "En jouw huis — is dat ook gezellig?", "en": "And your house — is that cozy too?" },
+        { "speaker": "You", "target": "Heel gezellig, ja. Ons kleine huis, maar wel heel warm.", "en": "Very cozy, yes. Our small house, but very warm.", "spotlight": "ons kleine huis — ons + adjective always takes -e, even for a het-word." }
       ]
     },
     {

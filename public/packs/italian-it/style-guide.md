@@ -4,9 +4,10 @@
 Follow it exactly so machine validation (`tools/validate.js`) passes on the first run and 84 days
 written in parallel read as one app.*
 
-> **Schema note that never changes:** the target-language text field is named **`nl`** in ALL blocks
-> (chips items, dialogue lines, shadow lines) — the engine hardcodes this key. Put the **Italian** in
-> `nl` and the English gloss in `en`. `speak` = the exact Italian to voice. Do not rename it to `it`.
+> **Schema note:** the target-language text field is named **`target`** in ALL blocks
+> (chips items, dialogue lines, shadow lines). Put the **Italian** in
+> `target` and the English gloss in `en`. `speak` = the exact Italian to voice. (Schema v1 packs
+> named this field `nl`; the engine reads `target ?? nl` for back-compat, but v2 content uses `target`.)
 
 ---
 
@@ -28,8 +29,8 @@ written in parallel read as one app.*
 
 - In `card`/`callout` **body** (markdown): Italian example words in *italics* (`*caffè*`), key rules or
   the "one new thing" in **bold**. Glosses in parentheses: `*caffè* (coffee)`.
-- In `chips`/`shadow`/`dialogue`: Italian goes in the `nl` field (yes, `nl` — see the note above),
-  English gloss in `en`. Do **not** repeat the translation inside `nl`.
+- In `chips`/`shadow`/`dialogue`: Italian goes in the `target` field (see the note above),
+  English gloss in `en`. Do **not** repeat the translation inside `target`.
 - Em dashes for "word — gloss" inside table cells: `"caffè — coffee"`.
 - Keep English glosses tight — a word or short phrase, not a sentence.
 - Only real markdown supported by the engine is `**bold**` and `*italic*`, plus tables via the `table`
@@ -59,7 +60,7 @@ so a day is practice, not just reading. Aim for **≥1 `chips` or `shadow` (audi
 
 ## 5. Block authoring rules (schema + gotchas)
 
-Top-level lesson fields (all required): `schemaVersion` (always `1`), `id` (`"day-NN"`, zero-padded),
+Top-level lesson fields (all required): `schemaVersion` (always `2`), `id` (`"day-NN"`, zero-padded),
 `day` (int, matches id), `module` (`"MNN"`, matches the manifest week), `unit`, `kind`, `title`
 (Italian, evocative), `emoji` (one, topical), `level` (`A1`/`A2`/`B1`), `durationMin` (`[15,25]`
 typical), `summary` (one English line), `blocks[]`.
@@ -72,8 +73,8 @@ Per block type — **required fields and the traps:**
 - **card** — `title`, `body` (markdown). Optional `table` {`headers[]`, `rows[]`} — **every row array
   length must equal headers length** (validator fails otherwise). Optional `callout` (one punchy line).
   No audio.
-- **chips** — `items[]`, each `{nl, en, speak?}`. Set `speak` to the exact Italian to voice (usually =
-  `nl`). Optional `title`. 4–8 items.
+- **chips** — `items[]`, each `{target, en, speak?}`. Set `speak` to the exact Italian to voice (usually =
+  `target`). Optional `title`. 4–8 items.
 - **contrast** — `pairs[]`, each `{left, right, note?}`. Use for il/lo/la, *ci* vs *ne*, passato
   prossimo vs imperfetto, tu vs Lei, blunt vs soft *paroline*. `note` explains the split.
 - **mcq** — `prompt`, `options[]` (≥2), `correct` (**0-based index**, in range), `explain`. Exactly one
@@ -89,11 +90,11 @@ Per block type — **required fields and the traps:**
 - **builder** — `slots[]`, each `{label, chips[]}` (**chips required and non-empty**). `sample` (a model
   full sentence). Optional `prompt`, `starters`. Great for agreement and clitic-placement practice: one
   slot per sentence position.
-- **dialogue** — `scene` (English stage-setting line), `lines[]` each `{speaker, nl, en, spotlight?}`.
+- **dialogue** — `scene` (English stage-setting line), `lines[]` each `{speaker, target, en, spotlight?}`.
   **`speaker` must be `"You"` or a name in the manifest cast** (Giulia / Marco / Sofia / Pietro) —
   anything else fails validation. `spotlight` flags a teachable moment on that line. 4–10 lines. Honor
   the arc timeline in `characters.md`.
-- **shadow** — `lines[]` each `{nl, en}`. Listen→repeat. Optional `title`. 3–6 lines.
+- **shadow** — `lines[]` each `{target, en}`. Listen→repeat. Optional `title`. 3–6 lines.
 - **comprehension** — `questions[]` each `{q, options[], correct}` (`correct` 0-based, in range). Use
   **after** a dialogue/passage in the same lesson.
 - **journal** — `prompt`. Optional `starters[]` (Italian sentence openers), `minSentences`. Closes most
@@ -142,7 +143,7 @@ right everywhere:
 
 ## 7. Difficulty ramp across the 84 days
 
-- **A1 (W1–4):** English scaffolding heavy. Short `nl`. Explanations in English. Dialogues 3–5 lines,
+- **A1 (W1–4):** English scaffolding heavy. Short `target`. Explanations in English. Dialogues 3–5 lines,
   simple present.
 - **A2 (W5–8):** glosses shorten; dialogues lengthen; past tenses come in; some `explain`/`spotlight`
   text starts appearing in easy Italian.
@@ -152,12 +153,12 @@ right everywhere:
 ## 9. Difficulty ramp — Weeks 13–18 (Season 2: B2 Depth → C1 Gateway)
 
 The Season-2 arc keeps every schema and count rule from §§4–8 unchanged — it only **raises the water
-level of Italian** in the framing. Nothing here overrides the block-count targets or the `nl`-key rule.
+level of Italian** in the framing. Nothing here overrides the block-count targets or the `target`-key rule.
 
 - **B2 (W13–16) — mixed, tilting Italian.** `explain`, `spotlight`, `prompt`, and `hint` are written in
   **easy Italian first with a short English safety net** where a rule is genuinely new; comprehension
-  questions (`q`) and **journal `prompt`s in Italian**. Keep `en` glosses on every `nl`/dialogue line as
-  always (the target text lives in `nl`, English gloss in `en` — never drop it). English never disappears;
+  questions (`q`) and **journal `prompt`s in Italian**. Keep `en` glosses on every `target`/dialogue line as
+  always (the target text lives in `target`, English gloss in `en` — never drop it). English never disappears;
   it just stops carrying the explanation.
 - **C1 Gateway (W17–18) — Italian-first with an English safety net.** Instructions and explanations lead
   in Italian; keep **one short English clause** as a net on anything load-bearing (a new nuance, an ironic

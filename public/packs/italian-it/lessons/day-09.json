@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-09",
   "day": 9,
   "module": "M02",
@@ -21,11 +21,11 @@
       "type": "chips",
       "title": "Al banco",
       "items": [
-        { "nl": "Quant'è?", "en": "How much is it (in total)?", "speak": "Quant'è?" },
-        { "nl": "Sono due euro.", "en": "That's two euros.", "speak": "Sono due euro." },
-        { "nl": "Fa cinque euro.", "en": "That comes to five euros.", "speak": "Fa cinque euro." },
-        { "nl": "Ecco a Lei.", "en": "Here you go (formal).", "speak": "Ecco a Lei." },
-        { "nl": "Tenga il resto.", "en": "Keep the change (formal).", "speak": "Tenga il resto." }
+        { "target": "Quant'è?", "en": "How much is it (in total)?", "speak": "Quant'è?" },
+        { "target": "Sono due euro.", "en": "That's two euros.", "speak": "Sono due euro." },
+        { "target": "Fa cinque euro.", "en": "That comes to five euros.", "speak": "Fa cinque euro." },
+        { "target": "Ecco a Lei.", "en": "Here you go (formal).", "speak": "Ecco a Lei." },
+        { "target": "Tenga il resto.", "en": "Keep the change (formal).", "speak": "Tenga il resto." }
       ]
     },
     {
@@ -59,11 +59,11 @@
       "type": "dialogue",
       "scene": "You and Marco are at the bar; he insists on treating you, then you insist on paying.",
       "lines": [
-        { "speaker": "Marco", "nl": "Allora, oggi offro io. Due caffè, per favore!", "en": "So, today it's my treat. Two coffees, please!" },
-        { "speaker": "You", "nl": "No no, pago io! Quant'è?", "en": "No no, I'm paying! How much is it?", "spotlight": "Quant'è? — asking for the total, not the price of one thing." },
-        { "speaker": "Marco", "nl": "Dai, fa niente... ma va bene. Sono tre euro in tutto.", "en": "Come on, it's nothing... but okay. That's three euros total." },
-        { "speaker": "You", "nl": "Ecco tre euro. Grazie per oggi!", "en": "Here's three euros. Thanks for today!" },
-        { "speaker": "Marco", "nl": "Figurati! La prossima volta offro di nuovo io.", "en": "Don't mention it! Next time it's my treat again." }
+        { "speaker": "Marco", "target": "Allora, oggi offro io. Due caffè, per favore!", "en": "So, today it's my treat. Two coffees, please!" },
+        { "speaker": "You", "target": "No no, pago io! Quant'è?", "en": "No no, I'm paying! How much is it?", "spotlight": "Quant'è? — asking for the total, not the price of one thing." },
+        { "speaker": "Marco", "target": "Dai, fa niente... ma va bene. Sono tre euro in tutto.", "en": "Come on, it's nothing... but okay. That's three euros total." },
+        { "speaker": "You", "target": "Ecco tre euro. Grazie per oggi!", "en": "Here's three euros. Thanks for today!" },
+        { "speaker": "Marco", "target": "Figurati! La prossima volta offro di nuovo io.", "en": "Don't mention it! Next time it's my treat again." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-46",
   "day": 46,
   "module": "M07",
@@ -42,12 +42,12 @@
       "type": "chips",
       "title": "¿Perfecto o indefinido?",
       "items": [
-        { "nl": "hoy", "en": "today — perfecto", "speak": "hoy" },
-        { "nl": "ya", "en": "already — perfecto", "speak": "ya" },
-        { "nl": "ayer", "en": "yesterday — indefinido", "speak": "ayer" },
-        { "nl": "la semana pasada", "en": "last week — indefinido", "speak": "la semana pasada" },
-        { "nl": "esta semana", "en": "this week — perfecto", "speak": "esta semana" },
-        { "nl": "hace un año", "en": "a year ago — indefinido", "speak": "hace un año" }
+        { "target": "hoy", "en": "today — perfecto", "speak": "hoy" },
+        { "target": "ya", "en": "already — perfecto", "speak": "ya" },
+        { "target": "ayer", "en": "yesterday — indefinido", "speak": "ayer" },
+        { "target": "la semana pasada", "en": "last week — indefinido", "speak": "la semana pasada" },
+        { "target": "esta semana", "en": "this week — perfecto", "speak": "esta semana" },
+        { "target": "hace un año", "en": "a year ago — indefinido", "speak": "hace un año" }
       ]
     },
     {
@@ -88,12 +88,12 @@
       "type": "dialogue",
       "scene": "Lucía and you catch up — notice how the time marker decides the tense",
       "lines": [
-        { "speaker": "Lucía", "nl": "¿Qué tal? ¿Has comido ya?", "en": "How's it going? Have you eaten yet?" },
-        { "speaker": "You", "nl": "Sí, he comido hace un momento. ¿Y tú?", "en": "Yes, I ate a moment ago. And you?" },
-        { "speaker": "Lucía", "nl": "Yo también, pero ayer no comí nada hasta las cuatro.", "en": "Me too, but yesterday I didn't eat anything until four." },
-        { "speaker": "You", "nl": "¿En serio? ¿Por qué?", "en": "Really? Why?" },
-        { "speaker": "Lucía", "nl": "Tuve una reunión larguísima en el trabajo.", "en": "I had a really long meeting at work." },
-        { "speaker": "You", "nl": "Vaya. Bueno, esta semana ha sido rara para todos, ¿no?", "en": "Wow. Well, this week has been strange for everyone, hasn't it?", "spotlight": "esta semana + perfecto (ha sido) — el marco sigue abierto." }
+        { "speaker": "Lucía", "target": "¿Qué tal? ¿Has comido ya?", "en": "How's it going? Have you eaten yet?" },
+        { "speaker": "You", "target": "Sí, he comido hace un momento. ¿Y tú?", "en": "Yes, I ate a moment ago. And you?" },
+        { "speaker": "Lucía", "target": "Yo también, pero ayer no comí nada hasta las cuatro.", "en": "Me too, but yesterday I didn't eat anything until four." },
+        { "speaker": "You", "target": "¿En serio? ¿Por qué?", "en": "Really? Why?" },
+        { "speaker": "Lucía", "target": "Tuve una reunión larguísima en el trabajo.", "en": "I had a really long meeting at work." },
+        { "speaker": "You", "target": "Vaya. Bueno, esta semana ha sido rara para todos, ¿no?", "en": "Wow. Well, this week has been strange for everyone, hasn't it?", "spotlight": "esta semana + perfecto (ha sido) — el marco sigue abierto." }
       ]
     },
     {

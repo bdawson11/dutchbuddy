@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-91",
   "day": 91,
   "module": "M13",
@@ -21,12 +21,12 @@
       "type": "chips",
       "title": "Connettivi per un'opinione sfumata",
       "items": [
-        { "nl": "Secondo me…", "en": "In my opinion…", "speak": "Secondo me…" },
-        { "nl": "Penso che sia vero, però…", "en": "I think it's true, but…", "speak": "Penso che sia vero, però…" },
-        { "nl": "Benché sia difficile,…", "en": "Although it's hard,…", "speak": "Benché sia difficile," },
-        { "nl": "Tuttavia, non sono d'accordo.", "en": "However, I don't agree.", "speak": "Tuttavia, non sono d'accordo." },
-        { "nl": "Da un lato… dall'altro…", "en": "On one hand… on the other…", "speak": "Da un lato, dall'altro…" },
-        { "nl": "In fin dei conti,…", "en": "When all's said and done,…", "speak": "In fin dei conti," }
+        { "target": "Secondo me…", "en": "In my opinion…", "speak": "Secondo me…" },
+        { "target": "Penso che sia vero, però…", "en": "I think it's true, but…", "speak": "Penso che sia vero, però…" },
+        { "target": "Benché sia difficile,…", "en": "Although it's hard,…", "speak": "Benché sia difficile," },
+        { "target": "Tuttavia, non sono d'accordo.", "en": "However, I don't agree.", "speak": "Tuttavia, non sono d'accordo." },
+        { "target": "Da un lato… dall'altro…", "en": "On one hand… on the other…", "speak": "Da un lato, dall'altro…" },
+        { "target": "In fin dei conti,…", "en": "When all's said and done,…", "speak": "In fin dei conti," }
       ]
     },
     {
@@ -73,14 +73,14 @@
       "type": "dialogue",
       "scene": "Giulia asks what you really think of learning Italian, now that you've come this far.",
       "lines": [
-        { "speaker": "Giulia", "nl": "Allora, dopo tutti questi mesi: ne è valsa la pena?", "en": "So, after all these months: was it worth it?" },
-        { "speaker": "You", "nl": "Assolutamente. Penso che sia la cosa migliore che abbia fatto qui.", "en": "Absolutely. I think it's the best thing I've done here.", "spotlight": "'che abbia fatto' — congiuntivo passato nella relativa." },
-        { "speaker": "Giulia", "nl": "Anche col congiuntivo che ti faceva tanta paura?", "en": "Even with the subjunctive that scared you so much?" },
-        { "speaker": "You", "nl": "Eh sì. Benché sia complicato, ormai mi viene quasi naturale.", "en": "Yeah. Even though it's complicated, by now it almost comes naturally.", "spotlight": "'benché sia' + una sfumatura." },
-        { "speaker": "Giulia", "nl": "Si sente, davvero. Parli in modo più sciolto.", "en": "You can tell, honestly. You speak more fluently." },
-        { "speaker": "You", "nl": "Tuttavia, ho ancora molto da imparare, lo so.", "en": "However, I still have a lot to learn, I know.", "spotlight": "'tuttavia' — un connettivo da adulto." },
-        { "speaker": "Giulia", "nl": "Certo, ma sei sulla strada giusta. Sono fiera di te.", "en": "Sure, but you're on the right path. I'm proud of you." },
-        { "speaker": "You", "nl": "Grazie, Giulia. Da un lato sono stanco, dall'altro non vedo l'ora di continuare.", "en": "Thanks, Giulia. On one hand I'm tired, on the other I can't wait to keep going." }
+        { "speaker": "Giulia", "target": "Allora, dopo tutti questi mesi: ne è valsa la pena?", "en": "So, after all these months: was it worth it?" },
+        { "speaker": "You", "target": "Assolutamente. Penso che sia la cosa migliore che abbia fatto qui.", "en": "Absolutely. I think it's the best thing I've done here.", "spotlight": "'che abbia fatto' — congiuntivo passato nella relativa." },
+        { "speaker": "Giulia", "target": "Anche col congiuntivo che ti faceva tanta paura?", "en": "Even with the subjunctive that scared you so much?" },
+        { "speaker": "You", "target": "Eh sì. Benché sia complicato, ormai mi viene quasi naturale.", "en": "Yeah. Even though it's complicated, by now it almost comes naturally.", "spotlight": "'benché sia' + una sfumatura." },
+        { "speaker": "Giulia", "target": "Si sente, davvero. Parli in modo più sciolto.", "en": "You can tell, honestly. You speak more fluently." },
+        { "speaker": "You", "target": "Tuttavia, ho ancora molto da imparare, lo so.", "en": "However, I still have a lot to learn, I know.", "spotlight": "'tuttavia' — un connettivo da adulto." },
+        { "speaker": "Giulia", "target": "Certo, ma sei sulla strada giusta. Sono fiera di te.", "en": "Sure, but you're on the right path. I'm proud of you." },
+        { "speaker": "You", "target": "Grazie, Giulia. Da un lato sono stanco, dall'altro non vedo l'ora di continuare.", "en": "Thanks, Giulia. On one hand I'm tired, on the other I can't wait to keep going." }
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "day-73",
   "day": 73,
   "module": "M11",
@@ -52,12 +52,12 @@
       "type": "chips",
       "title": "Diminutivos para suavizar",
       "items": [
-        { "nl": "Un momentito, por favor.", "en": "Just a moment, please.", "speak": "Un momentito, por favor." },
-        { "nl": "¿Te pongo un poquito más?", "en": "Shall I give you a tiny bit more?", "speak": "¿Te pongo un poquito más?" },
-        { "nl": "Espera un ratito.", "en": "Wait a little while.", "speak": "Espera un ratito." },
-        { "nl": "¿Nos tomamos una cañita?", "en": "Shall we grab a little beer?", "speak": "¿Nos tomamos una cañita?" },
-        { "nl": "Ahora mismo voy.", "en": "I'm coming right now.", "speak": "Ahora mismo voy." },
-        { "nl": "¡Menudo golazo!", "en": "What an amazing goal!", "speak": "¡Menudo golazo!" }
+        { "target": "Un momentito, por favor.", "en": "Just a moment, please.", "speak": "Un momentito, por favor." },
+        { "target": "¿Te pongo un poquito más?", "en": "Shall I give you a tiny bit more?", "speak": "¿Te pongo un poquito más?" },
+        { "target": "Espera un ratito.", "en": "Wait a little while.", "speak": "Espera un ratito." },
+        { "target": "¿Nos tomamos una cañita?", "en": "Shall we grab a little beer?", "speak": "¿Nos tomamos una cañita?" },
+        { "target": "Ahora mismo voy.", "en": "I'm coming right now.", "speak": "Ahora mismo voy." },
+        { "target": "¡Menudo golazo!", "en": "What an amazing goal!", "speak": "¡Menudo golazo!" }
       ]
     },
     {
@@ -85,12 +85,12 @@
       "type": "dialogue",
       "scene": "On a terraza with Lucía — hear how the diminutives soften everything.",
       "lines": [
-        { "speaker": "Lucía", "nl": "¿Nos tomamos una cañita antes de comer?", "en": "Shall we grab a little beer before lunch?", "spotlight": "cañita = the friendly way to order." },
-        { "speaker": "You", "nl": "Venga, y unas aceitunas. Pero solo un ratito, que tengo prisa.", "en": "Alright, and some olives. But just a little while, I'm in a hurry." },
-        { "speaker": "Lucía", "nl": "Que sí, mujer, un momentito y ya. ¿Un pincho de tortilla?", "en": "Yeah yeah, just a sec and that's it. A bit of tortilla?" },
-        { "speaker": "You", "nl": "Un trocito, porfa. ¿Está buena aquí?", "en": "A little piece, please. Is it good here?" },
-        { "speaker": "Lucía", "nl": "Buenísima. Bueno… un pelín aceitosa, pero rica.", "en": "Really good. Well… a tad oily, but tasty." },
-        { "speaker": "You", "nl": "Pues me apunto. Un cafelito luego y para casa.", "en": "I'm in then. A little coffee after and off home." }
+        { "speaker": "Lucía", "target": "¿Nos tomamos una cañita antes de comer?", "en": "Shall we grab a little beer before lunch?", "spotlight": "cañita = the friendly way to order." },
+        { "speaker": "You", "target": "Venga, y unas aceitunas. Pero solo un ratito, que tengo prisa.", "en": "Alright, and some olives. But just a little while, I'm in a hurry." },
+        { "speaker": "Lucía", "target": "Que sí, mujer, un momentito y ya. ¿Un pincho de tortilla?", "en": "Yeah yeah, just a sec and that's it. A bit of tortilla?" },
+        { "speaker": "You", "target": "Un trocito, porfa. ¿Está buena aquí?", "en": "A little piece, please. Is it good here?" },
+        { "speaker": "Lucía", "target": "Buenísima. Bueno… un pelín aceitosa, pero rica.", "en": "Really good. Well… a tad oily, but tasty." },
+        { "speaker": "You", "target": "Pues me apunto. Un cafelito luego y para casa.", "en": "I'm in then. A little coffee after and off home." }
       ]
     },
     {
