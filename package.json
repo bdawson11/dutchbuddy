@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
+    "new-pack": "node tools/new-pack.js",
     "validate": "node tools/validate-all.js",
     "validate:dutch-nl": "node tools/validate.js public/packs/dutch-nl",
     "validate:german-de": "node tools/validate.js public/packs/german-de",

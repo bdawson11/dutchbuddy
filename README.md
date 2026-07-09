@@ -59,9 +59,23 @@ validated strictly — missing days become errors (the pre-release gate).
 
 ## Adding a language
 
-Create `public/packs/<lang>/` with a manifest and lessons conforming to the
-schemas in `docs/plan.md` §2, then add `<lang>` to the `packs` array in
-`public/packs/catalog.json`. It appears in the language picker automatically —
-no engine changes required. For a polished picker card, give the manifest a
-`flag`, `language`, and `tagline`; add `ui` (localized chrome strings) and
-`grading` config as needed (see the existing packs).
+One command scaffolds a new pack — no manual file copying, no engine changes,
+no CI edits:
+
+```
+npm run new-pack <pack-id> "<Language>" <locale> <flag-emoji> <accent-hex>
+# e.g.
+npm run new-pack french-fr "French" fr-FR 🇫🇷 "#2563eb"
+```
+
+This creates `public/packs/<pack-id>/` (manifest skeleton + style guide +
+character bible templates, schema v2 throughout) and `docs/roadmap-<pack-id>.md`,
+appends the pack to `public/packs/catalog.json` (it appears in the language
+picker immediately, all days "coming soon"), and adds a `validate:<pack-id>`
+script. `tools/new-pack.js` prints an authoring checklist when it's done.
+
+Then invoke the `new-language-pack` skill
+(`.claude/skills/new-language-pack/SKILL.md`) — or follow the printed
+checklist directly — to answer the design questionnaire (dialect identity,
+grammar spine, cast/arc, register tiers, day-74 meta-module) and author the
+pack in validated weekly batches.
