@@ -36,13 +36,15 @@ only artifact you produce locally is the `audio/` directory per pack.
 # 1. Extract every voiced line from the pack (1,186 lines for Italian)
 node tools/extract-voiced-lines.mjs public/packs/italian-it > /tmp/italian-lines.json
 
-# 2. Reference voices: F5 clones from ~10s clips. Put one clip+transcript per
-#    cast member (Giulia, Marco, Pietro, Sofia) plus a required default
-#    (narrator) in tools/tts-refs/italian-it/:
-#        Giulia.wav Giulia.txt Marco.wav Marco.txt ... default.wav default.txt
-#    Mozilla Common Voice italian clips (CC0, ~5-10s, native speakers) are
-#    ideal: https://commonvoice.mozilla.org/it/datasets — pick clean clips,
-#    one distinct speaker per character, transcript goes in the .txt.
+# 2. Reference voices: F5 clones from ~10s clips. Files are named by voice —
+#    a required default.<wav|mp3|flac> (narrator/fallback) plus optional
+#    per-cast clips (Giulia.mp3, Marco.mp3, …) in tools/tts-refs/italian-it/.
+#    Transcripts (<name>.txt) are OPTIONAL — F5 auto-transcribes the clip with
+#    Whisper when absent; add one for best fidelity. Mozilla Common Voice
+#    italian clips (CC0, ~5-10s, native speakers) are ideal:
+#    https://commonvoice.mozilla.org/it/datasets
+#    (The italian-it pack already ships three CC0 references — see
+#     tools/tts-refs/italian-it/SOURCES.md — so you can skip straight to run.)
 
 # 3. Install deps and smoke-test 10 lines
 pip install f5-tts huggingface_hub soundfile   # + ffmpeg on PATH for mp3

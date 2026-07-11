@@ -70,6 +70,32 @@ def write_clip(wav, out_path, mp3=True):
     return wav_path.name
 
 
+def discover_refs(refs_dir, need_transcript=False):
+    """stem -> (audio_path, ref_text) for voice-cloning engines.
+
+    Reference voices are discovered by AUDIO file (.wav/.mp3/.flac): the stem
+    is the voice name, matched against the manifest cast (Giulia, Marco, …)
+    with `default` as the required narrator/fallback voice. A sibling
+    <stem>.txt supplies the reference transcript when present; F5 transcribes
+    the clip itself (Whisper) when it's absent, so the .txt is optional there.
+    """
+    refs = {}
+    for audio in sorted(refs_dir.iterdir() if refs_dir.exists() else []):
+        if audio.suffix.lower() not in (".wav", ".mp3", ".flac"):
+            continue
+        txt = audio.with_suffix(".txt")
+        ref_text = txt.read_text().strip() if txt.exists() else ""
+        if need_transcript and not ref_text:
+            print(f"  note: {audio.name} has no {txt.name} — the model will "
+                  "transcribe the reference itself; add one for best fidelity")
+        refs[audio.stem] = (audio, ref_text)
+    if "default" not in refs:
+        die(f"{refs_dir}/default.<wav|mp3|flac> is required — the narrator and "
+            "fallback voice. Add it (a ~10 s clip) plus optional per-cast clips "
+            "named to match the manifest, e.g. Giulia.mp3, Marco.mp3.")
+    return refs
+
+
 class F5Engine:
     def __init__(self, cfg):
         from huggingface_hub import hf_hub_download, list_repo_files
@@ -85,23 +111,13 @@ class F5Engine:
             ckpt_file=hf_hub_download(repo, ckpt),
             vocab_file=hf_hub_download(repo, vocab) if vocab else "",
         )
-        self.refs = {}
-        refs_dir = REPO / cfg["refsDir"]
-        for txt in refs_dir.glob("*.txt"):
-            audio = next(
-                (p for ext in (".wav", ".mp3", ".flac")
-                 if (p := txt.with_suffix(ext)).exists()),
-                None,
-            )
-            if audio:
-                self.refs[txt.stem] = (str(audio), txt.read_text().strip())
-        if "default" not in self.refs:
-            die(f"{refs_dir}/default.wav + default.txt are required (~10s reference "
-                "clip + its transcript; a Mozilla Common Voice CC0 clip works well)")
+        refs = discover_refs(REPO / cfg["refsDir"])
+        self.refs = {name: (str(a), t) for name, (a, t) in refs.items()}
         print(f"f5: {repo} with reference voices: {', '.join(sorted(self.refs))}")
 
     def synth(self, text, speaker):
         ref_file, ref_text = self.refs.get(speaker) or self.refs["default"]
+        # Empty ref_text → F5 transcribes the reference clip with Whisper.
         wav, _sr, _spect = self.tts.infer(
             ref_file=ref_file, ref_text=ref_text, gen_text=text, remove_silence=True
         )
@@ -175,24 +191,10 @@ class NeuTTSEngine:
             backbone_repo=cfg["model"],
             codec_repo=cfg.get("codecRepo", "neuphonic/neucodec"),
         )
-        self.refs = {}
-        refs_dir = REPO / cfg["refsDir"]
-        for txt in refs_dir.glob("*.txt"):
-            audio = next(
-                (p for ext in (".wav", ".mp3", ".flac")
-                 if (p := txt.with_suffix(ext)).exists()),
-                None,
-            )
-            if audio:
-                # encode once per reference voice; reused for every line
-                self.refs[txt.stem] = (
-                    self.tts.encode_reference(str(audio)),
-                    txt.read_text().strip(),
-                )
-        if "default" not in self.refs:
-            die(f"{refs_dir}/default.wav + default.txt are required (3-15s "
-                "Castilian reference clip + transcript; Mozilla Common Voice "
-                "es clips from Peninsular speakers work well)")
+        # encode each reference clip once; reused for every line it voices
+        refs = discover_refs(REPO / cfg["refsDir"], need_transcript=True)
+        self.refs = {name: (self.tts.encode_reference(str(a)), t)
+                     for name, (a, t) in refs.items()}
         print(f"neutts: {cfg['model']} with reference voices: {', '.join(sorted(self.refs))}")
 
     def synth(self, text, speaker):
