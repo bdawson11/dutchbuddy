@@ -90,7 +90,7 @@ export default function AppShell() {
     if (!entry) return;
     setLoadingPack(true);
     setManifest(entry.manifest);
-    configureAudio(entry.manifest.locale);
+    configureAudio(entry.manifest.locale, entry.manifest.audio);
     configureGrading(entry.manifest.grading);
     configureUi(entry.manifest);
     // Per-language theming: every surface derives its tints from this one hook.

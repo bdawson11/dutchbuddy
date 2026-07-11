@@ -59,10 +59,17 @@ Ordered by leverage; items 1–3 are pre-launch blockers for any second pack:
 2. **Build scripts per pack** — `build:german-de` etc. (`VITE_PACK=german-de
    vite build --outDir dist/german-de`), plus per-pack `validate` scripts
    (done in `package.json` alongside this roadmap).
-3. **TTS voice audit per locale** — Web Speech API quality varies widely for
-   `de-DE` / `it-IT` / `es-ES` across browsers. Verify `audio.js` falls back
-   gracefully when no locale voice exists; keep the v2 pre-generated-TTS
-   swap on the roadmap (schema already supports it).
+3. **TTS voice audit per locale** — **shipped.** `audio.js` scores every
+   same-language voice instead of taking the first match: exact-region
+   identity first (`nl-NL` over `nl-BE`, `de-DE` over `de-AT`/`de-CH`,
+   `es-ES` over LatAm variants), human-sounding engines
+   (Natural/Neural/Google/Enhanced) over robotic ones (eSpeak, iOS Compact,
+   macOS novelty voices), with per-pack `manifest.audio.preferredVoices`
+   hints. A 🎙 Voice picker in the player previews each candidate with the
+   pack's `manifest.audio.sample` line and pins a choice per language
+   (localStorage). When the device has no same-language voice the picker says
+   so and audio degrades gracefully rather than failing silently. The v2
+   pre-generated-TTS swap stays on the roadmap (schema already supports it).
 4. **Grading config per pack** — diacritic tolerance is right for Dutch;
    Spanish (ñ, á…), German (ü, ß — accept `ss` for `ß`), Italian (à, è, é)
    need per-pack normalization flags in the manifest rather than engine

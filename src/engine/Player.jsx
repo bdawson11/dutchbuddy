@@ -3,6 +3,7 @@ import { BLOCK_COMPONENTS } from './blocks';
 import { loadProgress, recordStep, recordTime } from './progress';
 import { stopSpeaking } from './audio';
 import { ui } from './ui';
+import VoiceSettings from './VoiceSettings';
 
 export default function Player({ packId, lesson, onExit }) {
   const [doneSteps, setDoneSteps] = useState(() => {
@@ -34,7 +35,10 @@ export default function Player({ packId, lesson, onExit }) {
   return (
     <div className="player">
       <header className="player-header">
-        <button className="back-btn" onClick={onExit}>← Dashboard</button>
+        <div className="player-topline">
+          <button className="back-btn" onClick={onExit}>← Dashboard</button>
+          <VoiceSettings />
+        </div>
         <div className="player-title">
           <span className="player-emoji">{lesson.emoji}</span>
           <div>

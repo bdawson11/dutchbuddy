@@ -14,6 +14,11 @@
     "journalPlaceholder": "Schrijf hier…"
   },
   "grading": { "diacriticTolerant": true },
+  "audio": {
+    "preferredVoices": ["Fenna", "Maarten", "Colette", "Google Nederlands", "Xander"],
+    "sample": "Hoi! Leuk dat je er bent. Zullen we samen Nederlands oefenen?",
+    "rate": 0.88
+  },
   "dialect": {
     "identity": "Netherlands Dutch",
     "contrast": "Not Flemish",

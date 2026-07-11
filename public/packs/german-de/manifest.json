@@ -14,6 +14,11 @@
     "journalPlaceholder": "Schreib hier…"
   },
   "grading": { "diacriticTolerant": true },
+  "audio": {
+    "preferredVoices": ["Katja", "Conrad", "Google Deutsch", "Anna", "Petra"],
+    "sample": "Hallo! Schön, dass du da bist. Üben wir zusammen ein bisschen Deutsch?",
+    "rate": 0.88
+  },
   "dialect": {
     "identity": "Germany Standard German (Hochdeutsch, northern-neutral)",
     "contrast": "Not Austrian, not Swiss",

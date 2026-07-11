@@ -32,7 +32,7 @@ Hard split between a language-agnostic **engine** and per-language **content pac
 - **Static SPA**, no backend, no signup. Vanilla JS or lightweight React (final call at build time; React recommended if Claude Design produces component-based output).
 - The dashboard, week accordions, day cards, progress stats, and lesson pages are **all generated from data**. Zero hand-written per-lesson markup.
 - **Progress in localStorage**, keyed by `packId` so multiple language packs coexist on one device: `progress.<packId>` → `{ days: { "day-01": { status, steps, timeSec, completedAt } }, streak, lastActive }`.
-- **Audio abstraction**: a single `speak(text, opts)` interface. v1 implementation = Web Speech API using `manifest.locale` (`nl-NL`) for voice selection. Interface designed so a v2 pre-generated-TTS backend (audio file URLs in lesson JSON) swaps in without touching content or components.
+- **Audio abstraction**: a single `speak(text, opts)` interface. v1 implementation = Web Speech API using `manifest.locale` (`nl-NL`) for voice selection. v1.5 quality pass: voices are quality-scored per locale (exact-region identity first, natural engines over robotic ones, `manifest.audio.preferredVoices` hints), with a learner-facing 🎙 voice picker in the player that previews the pack's `manifest.audio.sample` line and persists a pick per language. Interface designed so a v2 pre-generated-TTS backend (audio file URLs in lesson JSON) swaps in without touching content or components.
 - **Trust touches** (public app): free/no-signup framing, "progress saves on this device only" disclosure, Reset all progress button, donation footer.
 
 ### Content pack principles

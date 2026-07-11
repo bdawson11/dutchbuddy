@@ -14,6 +14,11 @@
     "journalPlaceholder": "Scrivi qui…"
   },
   "grading": { "diacriticTolerant": true },
+  "audio": {
+    "preferredVoices": ["Elsa", "Isabella", "Diego", "Google italiano", "Alice", "Luca"],
+    "sample": "Ciao! Che bello vederti. Facciamo un po' d'italiano insieme?",
+    "rate": 0.88
+  },
   "dialect": {
     "identity": "Standard Italian (national TV/broadcast standard)",
     "contrast": "Not a regional dialect, but aware of regional variety",
