@@ -1,7 +1,14 @@
-// Audio abstraction. v1 backend: Web Speech API, voice chosen by pack locale.
-// The interface (speak/stop/available) is the contract; a v2 backend playing
-// pre-generated audio files (block.audioUrl) can replace the internals
-// without touching lesson content or components.
+// Audio abstraction. The interface (speak/stop/available) is the contract for
+// all lesson components; the backend behind it is layered:
+//
+// v2 backend — pre-generated studio clips. If the pack ships an
+// `audio/index.json` (rendered offline by tools/generate-audio-f5.py with a
+// neural TTS model such as alien79/F5-TTS-italian), speak(text) plays the
+// clip whose key exactly matches the text. Lesson content and components
+// never change; dropping the files into public/packs/<pack>/audio/ is enough.
+//
+// v1 backend — Web Speech API, used for any line without a clip (and for
+// dynamic text like builder sentences that can't be pre-rendered).
 //
 // v1.5 quality pass: instead of taking the first voice whose lang matches,
 // every same-language voice is scored — exact region first (nl-NL over nl-BE,
@@ -16,6 +23,12 @@ let locale = 'nl-NL';
 let preferredHints = [];
 let sample = '';
 let defaultRate = 0.88;
+
+// v2 clip state: exact-text → clip filename, loaded from <pack>/audio/index.json.
+let clips = null;
+let clipsMeta = null;
+let clipsBase = '';
+let clipEl = null;
 
 const OVERRIDE_KEY_PREFIX = 'yapworld.voice.';
 const listeners = new Set();
@@ -47,16 +60,41 @@ const QUALITY_HINTS = [
   [/albert|bad news|bahh|bells|boing|bubbles|cellos|deranged|good news|hysterical|jester|organ|superstar|trinoids|whisper|wobble|zarvox/, -80],
 ];
 
-export function configureAudio(packLocale, audioCfg = {}) {
+export function configureAudio(packLocale, audioCfg = {}, packBaseUrl = '') {
   locale = packLocale;
   preferredHints = (audioCfg.preferredVoices || []).map(normName);
   sample = audioCfg.sample || '';
   defaultRate = audioCfg.rate ?? 0.88;
+  clips = null;
+  clipsMeta = null;
+  clipsBase = packBaseUrl ? `${packBaseUrl}/audio` : '';
+  if (clipsBase && typeof fetch === 'function') {
+    const expected = clipsBase; // guard against a pack switch mid-fetch
+    fetch(`${expected}/index.json`)
+      .then((r) => {
+        // vite's SPA fallback answers missing files with index.html — not an index.
+        const type = (r.headers.get('content-type') || '').toLowerCase();
+        return r.ok && !type.includes('text/html') ? r.json() : null;
+      })
+      .then((idx) => {
+        if (!idx || typeof idx.clips !== 'object' || clipsBase !== expected) return;
+        clips = idx.clips;
+        clipsMeta = { model: idx.model || '', label: idx.label || 'Studio voice' };
+        notify();
+      })
+      .catch(() => {}); // no clips shipped — Web Speech carries the pack
+  }
   if (!audioAvailable()) return;
   // getVoices() is empty until the async voice list arrives (Chrome); notify
   // subscribers whenever it changes so pickers and the resolver stay fresh.
   window.speechSynthesis.addEventListener('voiceschanged', notify);
   notify();
+}
+
+// Metadata of the active pre-generated clip set ({model, label}), or null
+// when the pack is running on plain Web Speech.
+export function clipInfo() {
+  return clips ? clipsMeta : null;
 }
 
 export function audioAvailable() {
@@ -135,9 +173,38 @@ export function sampleText() {
   return sample;
 }
 
+function stopClip() {
+  if (clipEl) {
+    clipEl.pause();
+    clipEl.currentTime = 0;
+  }
+}
+
+function playClip(file, rate) {
+  stopClip();
+  if (!clipEl) clipEl = new Audio();
+  clipEl.src = `${clipsBase}/${file}`;
+  // Clips are natural-pace recordings, so the pack's default TTS rate maps to
+  // 1.0; slower requests (shadowing) scale down proportionally.
+  clipEl.playbackRate = (rate ?? defaultRate) / defaultRate;
+  if ('preservesPitch' in clipEl) clipEl.preservesPitch = true;
+  clipEl.play().catch(() => {}); // autoplay refusal — user will tap again
+}
+
 export function speak(text, { rate } = {}) {
-  if (!audioAvailable() || !text) return;
+  if (!text) return;
+  const clip = clips && clips[text];
+  if (clip) {
+    if (audioAvailable()) {
+      speakSeq++; // cancel any TTS still pending its timer
+      window.speechSynthesis.cancel();
+    }
+    playClip(clip, rate);
+    return;
+  }
+  if (!audioAvailable()) return;
   const synth = window.speechSynthesis;
+  stopClip();
   synth.cancel();
   const seq = ++speakSeq;
   const u = new SpeechSynthesisUtterance(text);
@@ -159,6 +226,7 @@ export function speak(text, { rate } = {}) {
 }
 
 export function stopSpeaking() {
+  stopClip();
   if (!audioAvailable()) return;
   speakSeq++; // invalidate any speak() still waiting on its timer
   window.speechSynthesis.cancel();

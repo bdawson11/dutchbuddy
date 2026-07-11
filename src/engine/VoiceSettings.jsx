@@ -7,6 +7,7 @@
 import { useEffect, useState } from 'react';
 import {
   audioAvailable,
+  clipInfo,
   getActiveVoice,
   getPreferredVoiceURI,
   listVoices,
@@ -28,6 +29,7 @@ export default function VoiceSettings() {
   const pinnedURI = getPreferredVoiceURI();
   const isAuto = !pinnedURI || !ranked.some((r) => r.voice.voiceURI === pinnedURI);
   const language = packLanguage();
+  const studio = clipInfo();
 
   const choose = (uri) => {
     setPreferredVoice(uri);
@@ -52,11 +54,18 @@ export default function VoiceSettings() {
               <h4>{language} voice</h4>
               <button className="voice-close" onClick={() => setOpen(false)} aria-label="Close">✕</button>
             </div>
+            {studio && (
+              <p className="voice-studio">
+                🎧 <strong>{studio.label}</strong> — lesson lines play studio-quality
+                recordings{studio.model ? ` (${studio.model})` : ''}. The voices below
+                only cover lines without a recording.
+              </p>
+            )}
             {ranked.length === 0 ? (
               <p className="voice-empty">
-                No {language} voice was found on this device, so audio will use your
-                browser's default and may sound wrong. Adding a {language} voice in your
-                system's text-to-speech settings fixes this.
+                {studio
+                  ? `Only lines without a studio recording need a ${language} system voice — none was found on this device, so those few lines may stay silent.`
+                  : `No ${language} voice was found on this device, so audio will use your browser's default and may sound wrong. Adding a ${language} voice in your system's text-to-speech settings fixes this.`}
               </p>
             ) : (
               <>

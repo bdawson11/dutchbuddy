@@ -68,8 +68,16 @@ Ordered by leverage; items 1–3 are pre-launch blockers for any second pack:
    hints. A 🎙 Voice picker in the player previews each candidate with the
    pack's `manifest.audio.sample` line and pins a choice per language
    (localStorage). When the device has no same-language voice the picker says
-   so and audio degrades gracefully rather than failing silently. The v2
-   pre-generated-TTS swap stays on the roadmap (schema already supports it).
+   so and audio degrades gracefully rather than failing silently. The **v2
+   pre-generated studio-voice pipeline is built** (`docs/tts-pipeline.md`):
+   per-language neural models in `tools/tts-models.json` (Italian
+   `alien79/F5-TTS-italian`, German
+   `cstr/kartoffel-orpheus-3b-german-synthetic-GGUF`, Spanish
+   `neuphonic/neutts-nano-spanish-q8-gguf`),
+   `tools/extract-voiced-lines.mjs` + `tools/generate-audio.py` render every
+   lesson line offline, and `audio.js` plays shipped clips first with Web
+   Speech as fallback. Generation itself runs on a local GPU machine with
+   huggingface.co access (blocked in the remote container).
 4. **Grading config per pack** — diacritic tolerance is right for Dutch;
    Spanish (ñ, á…), German (ü, ß — accept `ss` for `ß`), Italian (à, è, é)
    need per-pack normalization flags in the manifest rather than engine
@@ -146,3 +154,5 @@ the spanishbuddy.app collision is moot; Spanish is a course inside YapWorld.
   fetched at runtime by design now) and the authoring `.md` docs inside
   `public/packs/*` — exclude the docs before public launch.
 - Weeks 15–18 (days 99–126) content authoring per language.
+- Run the studio TTS generation per language on a GPU machine, in order
+  Italian → German → Spanish (`docs/tts-pipeline.md`); choose a Dutch model.
