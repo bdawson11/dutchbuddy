@@ -46,14 +46,19 @@ node tools/extract-voiced-lines.mjs public/packs/italian-it > /tmp/italian-lines
 #    (The italian-it pack already ships three CC0 references — see
 #     tools/tts-refs/italian-it/SOURCES.md — so you can skip straight to run.)
 
-# 3. Install deps and smoke-test 10 lines
+# 3. Install deps and smoke-test on a REAL sentence day (day-03 = café
+#    dialogue). Do NOT judge the voice on day-01 — it's the alphabet lesson,
+#    all single letters and 2-3 letter words, which zero-shot TTS mangles into
+#    silence/garble. Sentences are the real product.
 pip install f5-tts huggingface_hub soundfile   # + ffmpeg on PATH for mp3
-python3 tools/generate-audio.py --pack italian-it --lines /tmp/italian-lines.json --limit 10
+python3 tools/generate-audio.py --pack italian-it --lines /tmp/italian-lines.json --days day-03
 
 # 4. Listen to public/packs/italian-it/audio/*.mp3. Happy? Full run:
 python3 tools/generate-audio.py --pack italian-it --lines /tmp/italian-lines.json
 #    (interruptible — already-rendered clips are skipped on rerun;
-#     --days day-01,...,day-07 renders one week at a time)
+#     --days day-03,day-04 renders specific days; --limit N caps a smoke test.
+#     Lines under --min-chars (default 2) are skipped and left to the app's
+#     Web Speech fallback, which pronounces single letters/words cleanly.)
 
 # 5. Ship it
 npm run validate:italian-it && npm run build

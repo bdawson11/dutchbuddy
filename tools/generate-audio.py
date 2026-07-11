@@ -52,12 +52,16 @@ def die(msg):
     sys.exit(f"generate-audio: {msg}")
 
 
-def write_clip(wav, out_path, mp3=True):
-    """wav: float32 numpy array at SAMPLE_RATE. Returns the filename written."""
+def write_clip(wav, out_path, sr=SAMPLE_RATE, mp3=True):
+    """wav: float32 numpy array. sr: its true sample rate (use the value the
+    model returns, not a hardcoded guess — mismatches play back too fast/slow).
+    Returns the filename written."""
+    import numpy as np
     import soundfile as sf
 
+    wav = np.asarray(wav, dtype="float32").squeeze()  # torch tensor / (1,N) → (N,)
     wav_path = out_path.with_suffix(".wav")
-    sf.write(wav_path, wav, SAMPLE_RATE)
+    sf.write(wav_path, wav, int(sr))
     if mp3:
         mp3_path = out_path.with_suffix(".mp3")
         subprocess.run(
@@ -118,10 +122,10 @@ class F5Engine:
     def synth(self, text, speaker):
         ref_file, ref_text = self.refs.get(speaker) or self.refs["default"]
         # Empty ref_text → F5 transcribes the reference clip with Whisper.
-        wav, _sr, _spect = self.tts.infer(
+        wav, sr, _spect = self.tts.infer(
             ref_file=ref_file, ref_text=ref_text, gen_text=text, remove_silence=True
         )
-        return wav
+        return wav, sr
 
 
 class OrpheusGGUFEngine:
@@ -180,7 +184,7 @@ class OrpheusGGUFEngine:
         layers = [torch.tensor(l).unsqueeze(0) for l in (l1, l2, l3)]
         with torch.inference_mode():
             wav = self.snac.decode(layers)
-        return wav.squeeze().cpu().numpy()
+        return wav.squeeze().cpu().numpy(), SAMPLE_RATE
 
 
 class NeuTTSEngine:
@@ -199,7 +203,7 @@ class NeuTTSEngine:
 
     def synth(self, text, speaker):
         ref_codes, ref_text = self.refs.get(speaker) or self.refs["default"]
-        return self.tts.infer(text, ref_codes, ref_text)
+        return self.tts.infer(text, ref_codes, ref_text), SAMPLE_RATE
 
 
 ENGINES = {"f5": F5Engine, "orpheus-gguf": OrpheusGGUFEngine, "neutts-gguf": NeuTTSEngine}
@@ -211,6 +215,12 @@ def main():
     ap.add_argument("--lines", required=True, help="output of extract-voiced-lines.mjs")
     ap.add_argument("--limit", type=int, help="render at most N lines (smoke test)")
     ap.add_argument("--days", help="comma-separated day ids to scope the batch")
+    ap.add_argument("--min-chars", type=int, default=2,
+                    help="skip lines shorter than this many characters — zero-shot "
+                         "TTS mangles single letters/syllables into silence or "
+                         "garble, and the app's Web Speech fallback pronounces them "
+                         "cleanly anyway. Default 2 (skips single-character drill "
+                         "items like the vowels 'a e i o u'); set 0 to render all.")
     args = ap.parse_args()
 
     models = json.loads((REPO / "tools" / "tts-models.json").read_text())
@@ -219,6 +229,14 @@ def main():
     if args.days:
         days = set(args.days.split(","))
         lines = [l for l in lines if days & set(l["days"])]
+    if args.min_chars > 0:
+        skipped = [l for l in lines if len(l["text"].strip()) < args.min_chars]
+        lines = [l for l in lines if len(l["text"].strip()) >= args.min_chars]
+        if skipped:
+            preview = ", ".join(repr(l["text"]) for l in skipped[:8])
+            print(f"skipping {len(skipped)} line(s) under {args.min_chars} chars "
+                  f"(they use the Web Speech fallback): {preview}"
+                  f"{' …' if len(skipped) > 8 else ''}")
     if args.limit:
         lines = lines[: args.limit]
 
@@ -241,8 +259,8 @@ def main():
             continue
         speaker = line["speakers"][0] if line["speakers"] else None
         try:
-            wav = engine.synth(line["text"], speaker)
-            clips[line["text"]] = write_clip(wav, out_dir / stem, mp3=mp3)
+            wav, sr = engine.synth(line["text"], speaker)
+            clips[line["text"]] = write_clip(wav, out_dir / stem, sr=sr, mp3=mp3)
             done += 1
         except Exception as e:  # keep the batch going; rerun picks up the rest
             failed += 1
