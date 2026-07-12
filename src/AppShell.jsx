@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import Dashboard from './engine/Dashboard';
 import Player from './engine/Player';
+import PalmCards from './engine/PalmCards';
+import Pronunciation from './engine/Pronunciation';
 import LoginScreen from './LoginScreen';
 import LanguagePicker from './LanguagePicker';
 import { configureAudio } from './engine/audio';
@@ -39,6 +41,7 @@ export default function AppShell() {
   const [manifest, setManifest] = useState(null);
   const [lessonIndex, setLessonIndex] = useState({});
   const [openLesson, setOpenLesson] = useState(null);
+  const [practice, setPractice] = useState(null); // 'cards' | 'speak' | null
   const [loadingPack, setLoadingPack] = useState(false);
   const [error, setError] = useState(null);
 
@@ -74,6 +77,7 @@ export default function AppShell() {
   useEffect(() => {
     setPackId(user ? getSelectedPack(user.id) : null);
     setOpenLesson(null);
+    setPractice(null);
   }, [user]);
 
   // When a language is chosen, load its manifest config + lessons.
@@ -126,12 +130,14 @@ export default function AppShell() {
     setSelectedPack(user.id, id);
     setPackId(id);
     setOpenLesson(null);
+    setPractice(null);
     window.scrollTo(0, 0);
   };
   const backToLanguages = () => {
     if (user) setSelectedPack(user.id, null);
     setPackId(null);
     setOpenLesson(null);
+    setPractice(null);
     window.scrollTo(0, 0);
   };
   const doLogout = () => {
@@ -150,7 +156,7 @@ export default function AppShell() {
 
   return (
     <div className="app">
-      {!openLesson && (
+      {!openLesson && !practice && (
         <TopBar
           appName={catalog.app}
           manifest={manifest}
@@ -167,6 +173,10 @@ export default function AppShell() {
           lesson={lessonIndex[openLesson]}
           onExit={() => setOpenLesson(null)}
         />
+      ) : practice === 'cards' ? (
+        <PalmCards manifest={manifest} lessonIndex={lessonIndex} onExit={() => setPractice(null)} />
+      ) : practice === 'speak' ? (
+        <Pronunciation manifest={manifest} lessonIndex={lessonIndex} onExit={() => setPractice(null)} />
       ) : (
         <Dashboard
           manifest={manifest}
@@ -176,6 +186,10 @@ export default function AppShell() {
               setOpenLesson(dayId);
               window.scrollTo(0, 0);
             }
+          }}
+          onPractice={(mode) => {
+            setPractice(mode);
+            window.scrollTo(0, 0);
           }}
         />
       )}

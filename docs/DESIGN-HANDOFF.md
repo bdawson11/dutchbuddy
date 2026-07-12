@@ -1,7 +1,9 @@
 # YapWorld → Claude Design handoff
 
 **Read this first in the design chat.** It is the single source of truth for the
-visual pass. Everything here is *feel* and *style* — the DOM structure, class
+visual pass. The **Practice** surfaces (palm cards + pronunciation studio) have
+their own companion brief — `docs/DESIGN-BRIEF-practice.md` — read it after
+this one. Everything here is *feel* and *style* — the DOM structure, class
 names, and behavior are final. Your job is to replace the placeholder stylesheet
 (and, optionally, wire per-language theming) — not to change component logic.
 

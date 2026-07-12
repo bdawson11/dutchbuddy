@@ -5,7 +5,7 @@ function dayNumber(dayId) {
   return parseInt(dayId.split('-')[1], 10);
 }
 
-export default function Dashboard({ manifest, lessonIndex, onOpenDay }) {
+export default function Dashboard({ manifest, lessonIndex, onOpenDay, onPractice }) {
   const s = stats(manifest.packId);
   const progress = loadProgress(manifest.packId);
   const [openWeeks, setOpenWeeks] = useState(() => new Set([1]));
@@ -65,6 +65,24 @@ export default function Dashboard({ manifest, lessonIndex, onOpenDay }) {
           <span className="start-title">{nextMeta.emoji} {nextMeta.title}</span>
           <span className="start-meta">Day {nextMeta.day} · {nextMeta.module}.{nextMeta.unit}</span>
         </button>
+      )}
+
+      {onPractice && (
+        <section className="practice-banner">
+          <h2>🎯 Five spare minutes?</h2>
+          <div className="practice-grid">
+            <button className="practice-tile" onClick={() => onPractice('speak')}>
+              <span className="practice-emoji">🎙</span>
+              <span className="practice-title">Pronunciation studio</span>
+              <span className="practice-sub">Listen, slow it down, say it out loud — line by line from your lessons.</span>
+            </button>
+            <button className="practice-tile" onClick={() => onPractice('cards')}>
+              <span className="practice-emoji">🃏</span>
+              <span className="practice-title">Palm cards</span>
+              <span className="practice-sub">Quick flip-card rounds of the words you've met. Shaky ones come back sooner.</span>
+            </button>
+          </div>
+        </section>
       )}
 
       {manifest.levels.map((level) => (

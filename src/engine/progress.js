@@ -13,6 +13,11 @@ export function setProgressUser(id) {
 const ns = () => (uid ? `${uid}.` : '');
 const key = (packId) => `progress.${ns()}${packId}`;
 
+// Profile namespace prefix for other per-user stores (e.g. practice decks).
+export function nsPrefix() {
+  return ns();
+}
+
 export function loadProgress(packId) {
   try {
     return JSON.parse(localStorage.getItem(key(packId))) || { days: {}, streak: 0, lastActive: null };

@@ -37,8 +37,8 @@ for (const w of manifest.weeks) for (const dayId of w.days) {
   const p = path.join(packDir, 'lessons', `${dayId}.json`);
   if (!fs.existsSync(p)) continue;
   for (const b of JSON.parse(fs.readFileSync(p, 'utf8')).blocks || []) {
-    if (b.type === 'chips') for (const it of b.items || []) it.speak && rows.push([dayId, '(narrator)', it.speak]);
-    else if (b.type === 'typed' || b.type === 'dictation') b.speak && rows.push([dayId, '(narrator)', b.speak]);
+    if (b.type === 'chips') for (const it of b.items || []) { if (it.speak) rows.push([dayId, '(narrator)', it.speak]); }
+    else if ((b.type === 'typed' || b.type === 'dictation') && b.speak) rows.push([dayId, '(narrator)', b.speak]);
     else if (b.type === 'dialogue') for (const l of b.lines || []) rows.push([dayId, l.speaker, l.nl]);
     else if (b.type === 'shadow') for (const l of b.lines || []) rows.push([dayId, '(narrator)', l.nl]);
   }
