@@ -7,11 +7,14 @@ to redistribute the cloned voice output.
 
 | File | Common Voice clip | Voices |
 |------|-------------------|--------|
-| `default.mp3` | `common_voice_it_19977843` | Narrator + the learner ("You") + any speaker without a dedicated clip (Sofia, Elena) |
-| `Giulia.mp3` | `common_voice_it_19977843` | Giulia (31, main narrator) — same clip as `default` |
+| `default.mp3` | `common_voice_it_19461138` | Narrator + the learner ("You") + any speaker without a dedicated clip (Elena) — exact transcript in `default.txt` |
+| `Giulia.mp3` | `common_voice_it_19461138` | Giulia (31, main narrator) — same clip as `default`, exact transcript in `Giulia.txt` |
 | `Marco.mp3` | `common_voice_it_23992088` | Marco (29, the livelier bar/gossip friend) |
 | `Pietro.mp3` | `common_voice_it_23826622` | Pietro (38, the steadier Naples architect) |
-| `Sofia.mp3` | `common_voice_it_19480831` | Sofia (27, the friend who moves to Milano) — has an exact transcript in `Sofia.txt` |
+| `Sofia.mp3` | `common_voice_it_19480831` | Sofia (27, the friend who moves to Milano) — exact transcript in `Sofia.txt` |
+
+(Narrator/Giulia was `common_voice_it_19977843` in the first cut; replaced
+with `cv_19461138`, which ships an exact transcript.)
 
 Cast reference: `public/packs/italian-it/characters.md`. `default`/`Giulia`
 (the narrator) carries the bulk of the audio; `Sofia` gives the arc character
