@@ -82,7 +82,7 @@
     {
       "type": "mcq",
       "prompt": "Welke zin komt uit een nieuwsbericht?",
-      "options": ["Ze gaan eens kijken wat al dat lawaai bij het park nou is.", "Er komt een onderzoek naar de overlast rond het park.", "Ik vind dat er eindelijk iets aan dat lawaai moet gebeuren."],
+      "options": ["Ze gaan eens kijken waar al dat lawaai bij het park vandaan komt.", "Er komt een onderzoek naar de overlast rond het park.", "Ik vind dat er eindelijk iets aan dat lawaai moet gebeuren."],
       "correct": 1,
       "explain": "*Er komt een onderzoek naar …* is nominalisatie in het wild: het werkwoord *onderzoeken* is een ding geworden, en niemand hoeft te zeggen wie het doet. De andere twee hebben een spreker met een mening — dat mag het nieuws juist niet hebben."
     },
@@ -90,7 +90,7 @@
       "type": "contrast",
       "title": "Nieuws erin, spreektaal eruit",
       "pairs": [
-        { "left": "Het besluit is uitgesteld tot het najaar.", "right": "Ze beslissen het pas in het najaar.", "note": "Nominalisatie (*het besluit*) plus passief wordt in spreektaal gewoon *ze* met een werkwoord." },
+        { "left": "Het besluit is uitgesteld tot het najaar.", "right": "Ze beslissen pas in het najaar.", "note": "Nominalisatie (*het besluit*) plus passief wordt in spreektaal gewoon *ze* met een werkwoord." },
         { "left": "Naar aanleiding van de klachten wordt het plan herzien.", "right": "Omdat er klachten waren, gaan ze het plan aanpassen.", "note": "*Naar aanleiding van* is schrijftaal; aan tafel zeg je gewoon *omdat*." },
         { "left": "De opening vindt in mei plaats.", "right": "In mei gaat het open.", "note": "*Plaatsvinden* is nieuws, *opengaan* is de keukentafel — dezelfde mei." }
       ]

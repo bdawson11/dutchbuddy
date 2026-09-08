@@ -43,7 +43,7 @@
       "prompt": "Je schrijft het besluit in de notulen en de klant leest mee. Welke zin hoort daar?",
       "options": ["We doen 't gewoon in twee delen, prima toch.", "De oplevering wordt in twee delen gedaan; deel één volgt donderdag.", "Nou ja, we zien wel hoe het loopt."],
       "correct": 1,
-      "explain": "Notulen zijn geschreven register: passief, geen partikels, geen samentrekkingen. Optie 1 en 3 zijn prima gesproken Nederlands, maar in een verslag lezen ze als een appje."
+      "explain": "Notulen zijn geschreven register: passief, geen partikels, geen samentrekkingen. De eerste en de laatste zijn prima gesproken Nederlands, maar in een verslag lezen ze als een appje."
     },
     {
       "type": "dialogue",

@@ -14,7 +14,7 @@
     {
       "type": "card",
       "title": "Achttien weken",
-      "body": "Achttien weken geleden was de *g* nog een probleem en *gezellig* een raadsel. Vandaag vergader je, solliciteer je, hoor je ironie aankomen en versta je mensen die veel te snel praten. Kijk even naar de grond die je hebt afgelegd. **Dit heb jij gedaan.**",
+      "body": "Achttien weken geleden was de *g* nog een probleem en *gezellig* een raadsel. Vandaag vergader je, solliciteer je, hoor je ironie aankomen en versta je mensen die veel te snel praten. Kijk even naar de weg die je hebt afgelegd. **Dit heb jij gedaan.**",
       "table": {
         "headers": ["Fase", "Wat je nu kunt"],
         "rows": [
@@ -48,7 +48,7 @@
       "prompt": "Je meldt hetzelfde nieuws aan je team én aan de klant. Welke zin gaat naar de klant?",
       "options": ["Even geduld, we zijn ermee bezig.", "Wij verwachten u het rapport uiterlijk vrijdag te kunnen toesturen.", "Komt goed joh, morgen af."],
       "correct": 1,
-      "explain": "*Wij*, *uiterlijk*, *toesturen*: nette werkwoorden, geen partikels, geen *joh*. De andere twee zijn uitstekend Nederlands — maar dan in de teamchat, waar ze juist beter passen dan de formele versie."
+      "explain": "*Wij verwachten … te kunnen toesturen*: volledige zinnen, nette werkwoorden, geen partikels en geen *joh*. De andere twee zijn uitstekend Nederlands — maar dan in de teamchat, waar ze juist beter passen dan de formele versie."
     },
     {
       "type": "typed",
@@ -97,7 +97,7 @@
     },
     {
       "type": "journal",
-      "prompt": "Mijn verhaal, definitief. Schrijf nu je hele verhaal in één stuk, in het Nederlands: wie je bent en waar je woont, je dagen en je buurt, wat je hebt meegemaakt en hoe je je voelde, hoe het vroeger was, je plan en je mening, iets wat iemand tegen je zei, je grote beslissing, één alinea over jezelf in professioneel register, een wat-als of kleine spijt, en tot slot één zin met ironie of een registerwissel. Dit is de laatste keer dat iemand het je vraagt — daarna vertel je het gewoon aan mensen. Minstens tien zinnen.",
+      "prompt": "Mijn verhaal, definitief. Schrijf nu je hele verhaal in één stuk, in het Nederlands: wie je bent en waar je woont, je dagen en je buurt, wat je hebt meegemaakt en hoe je je voelde, hoe het vroeger was, je plan en je mening, iets wat iemand tegen je zei, je grote beslissing, één zin over jezelf in professioneel register, een wat-als of kleine spijt, en tot slot één zin met ironie of een registerwissel. Dit is de laatste keer dat iemand het je vraagt — daarna vertel je het gewoon aan mensen. Minstens tien zinnen.",
       "starters": ["Ik heet … en ik woon inmiddels …", "Elke dag …", "Vroeger …, maar nu …", "Emma zei ooit tegen me dat …", "Op mijn werk ben ik verantwoordelijk voor …", "Als ik …, zou ik …", "Vloeiend? Nou, …"],
       "minSentences": 10
     },
@@ -116,7 +116,7 @@
           ["Alle goeds — all the best", "verzorgd, vooral in een brief of mail"]
         ]
       },
-      "callout": "*Het ga je goed* bewaar je voor iemand die ertoe doet. Vandaag mag hij."
+      "callout": "*Het ga je goed* bewaar je voor iemand die ertoe doet. Vandaag is precies zo'n moment."
     },
     {
       "type": "chips",
@@ -139,7 +139,7 @@
         { "speaker": "Daan", "nl": "En nu val je me gewoon in de rede, joh.", "en": "And now you just interrupt me, mate." },
         { "speaker": "You", "nl": "Mag ik daar even op inhaken?", "en": "May I jump in on that?", "spotlight": "Vergadertaal in de kroeg — de grap zit hem volledig in het register." },
         { "speaker": "Emma", "nl": "Zie je wel, dat doe je expres.", "en": "See, you're doing that on purpose." },
-        { "speaker": "Sanne", "nl": "Kom in het voorjaar naar Utrecht, hè. Dan zijn we met z'n drieën.", "en": "Come to Utrecht in the spring, alright. There'll be three of us by then." },
+        { "speaker": "Sanne", "nl": "Kom in het voorjaar naar Utrecht, hè. Dan zijn we thuis met z'n drieën.", "en": "Come to Utrecht in the spring, alright. By then there'll be three of us at home." },
         { "speaker": "You", "nl": "Daar reken ik op.", "en": "I'm counting on it." },
         { "speaker": "Emma", "nl": "En ik hoor volgende maand of ik die nieuwe functie krijg. We zien wel.", "en": "And I hear next month whether I get that new role. We'll see." },
         { "speaker": "Bram", "nl": "Je krijgt hem. En anders pak je gewoon iets beters — zo doen we dat in Rotterdam.", "en": "You'll get it. And otherwise you just take something better — that's how we do it in Rotterdam." },

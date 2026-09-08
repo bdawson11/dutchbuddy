@@ -42,14 +42,14 @@
       "type": "card",
       "title": "Nee zeggen zonder de deur dicht te doen",
       "body": "Aan tafel is een kale *nee* zelden slim: je wilt het gesprek houden, niet winnen. Het vaste recept is **erkennen, dan bezwaar, dan alternatief** — en tussendoor zet je er een dempertje op: *eerlijk gezegd*, *op zich*, *in principe*. *In principe wel, alleen…* betekent in de praktijk 'nee, tenzij je me iets geeft'.",
-      "callout": "*Dat wordt lastig* is geen twijfel — het is een nee die nog te koop is."
+      "callout": "*Dat wordt lastig* is geen twijfel — het is een nee waar nog over te praten valt."
     },
     {
       "type": "contrast",
       "title": "Dezelfde boodschap, twee registers",
       "pairs": [
         { "left": "Nee joh, dat gaat 'm niet worden.", "right": "Ik vrees dat dat niet haalbaar is.", "note": "Links onder collega's bij de koffie, rechts met de klant erbij. Zelfde nee, andere kamer." },
-        { "left": "Kunnen we daar niet iets tussenin doen?", "right": "Wellicht kunnen we een middenweg vinden.", "note": "*Wellicht* en *een middenweg vinden* tillen precies dezelfde vraag naar vergaderniveau." },
+        { "left": "Kunnen we er niet iets tussenin verzinnen?", "right": "Wellicht kunnen we een middenweg vinden.", "note": "*Wellicht* en *een middenweg vinden* tillen precies dezelfde vraag naar vergaderniveau." },
         { "left": "Prima, doen we.", "right": "Akkoord, dan leggen we het zo vast.", "note": "In een overleg *leg je iets vast*; met vrienden *doe je het gewoon*." },
         { "left": "Daar heb ik echt geen zin in.", "right": "Daar zie ik onvoldoende meerwaarde in.", "note": "De weerzin verdwijnt achter een nominalisatie — dat is precies wat formeel register doet." }
       ]
@@ -66,7 +66,7 @@
       "prompt": "Je wilt zeggen dat een voorstel bespreekbaar is, maar je zegt nog geen ja. Wat zeg je aan tafel? (*that's negotiable*)",
       "answers": ["Daar valt over te praten.", "Daar valt over te onderhandelen.", "Dat is bespreekbaar."],
       "hint": "*Daar valt … te …* — de constructie met *vallen* die 'het kan besproken worden' betekent.",
-      "explain": "*Daar valt over te praten.* Vier woorden die de deur openhouden zonder iets weg te geven — de nuttigste zin van elke onderhandeling."
+      "explain": "*Daar valt over te praten.* Vijf woorden die de deur openhouden zonder iets weg te geven — de nuttigste zin van elke onderhandeling."
     },
     {
       "type": "dictation",
@@ -94,7 +94,7 @@
         { "speaker": "Emma", "nl": "Drie weken? Dat wordt lastig, eerlijk gezegd.", "en": "Three weeks? That'll be difficult, honestly.", "spotlight": "*Dat wordt lastig* — een nee waar nog over te praten valt." },
         { "speaker": "Bram", "nl": "Lastig is nog geen nee. Wat is er nodig?", "en": "Difficult isn't a no yet. What's needed?" },
         { "speaker": "Emma", "nl": "Meer mensen, en die hebben we niet vóór de zomer.", "en": "More people, and we don't have those before the summer." },
-        { "speaker": "You", "nl": "Mag ik een tussenvoorstel doen? We leveren de opening op tijd, maar de campagne in twee delen.", "en": "May I make an intermediate proposal? We deliver the opening on time, but the campaign in two parts.", "spotlight": "Een *tussenvoorstel* geeft niemand gelijk en houdt iedereen aan tafel." },
+        { "speaker": "You", "nl": "Mag ik een tussenvoorstel doen? We zijn op tijd klaar voor de opening, maar we leveren de campagne in twee delen.", "en": "May I make an intermediate proposal? We'll be ready in time for the opening, but we deliver the campaign in two parts.", "spotlight": "Een *tussenvoorstel* geeft niemand gelijk en houdt iedereen aan tafel." },
         { "speaker": "Bram", "nl": "Ga verder.", "en": "Go on." },
         { "speaker": "You", "nl": "Deel één is alles wat op de dag zelf nodig is. Deel twee volgt twee weken later.", "en": "Part one is everything needed on the day itself. Part two follows two weeks later." },
         { "speaker": "Bram", "nl": "Daar valt over te praten. Maar dan wil ik de teksten wel eerder zien.", "en": "That's negotiable. But then I do want to see the copy earlier.", "spotlight": "De deur staat open — en meteen komt de tegeneis." },
@@ -115,7 +115,7 @@
     },
     {
       "type": "journal",
-      "prompt": "Schrijf een kort tegenvoorstel in vergadertaal: erken het punt van de ander, noem je bezwaar, doe je voorstel en nodig uit om te reageren. Gebruik minstens één zin uit dit blok. In het Nederlands, minstens drie zinnen.",
+      "prompt": "Schrijf een kort tegenvoorstel in vergadertaal: erken het punt van de ander, noem je bezwaar, doe je voorstel en nodig uit om te reageren. Gebruik minstens één uitdrukking uit deze les. In het Nederlands, minstens drie zinnen.",
       "starters": ["Ik begrijp dat …", "Alleen …", "Ik zou willen voorstellen om …", "Daar valt over te praten, mits …"],
       "minSentences": 3
     }

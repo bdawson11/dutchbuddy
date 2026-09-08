@@ -59,7 +59,7 @@
         { "label": "Situatie", "chips": ["Vorig jaar liep een project bij ons vast", "Twee weken voor de deadline viel een collega uit", "We kregen halverwege een heel andere opdracht"] },
         { "label": "Taak", "chips": ["Ik was verantwoordelijk voor de planning", "Mij werd gevraagd het contact met de klant over te nemen", "Het was aan mij om de boel vlot te trekken"] },
         { "label": "Actie", "chips": ["Ik heb de deadlines herzien en met de klant overlegd", "Ik heb het werk opnieuw verdeeld", "Ik heb eerst geluisterd en daarna een voorstel gedaan"] },
-        { "label": "Resultaat", "chips": ["Uiteindelijk hebben we binnen budget opgeleverd", "Daardoor haalden we de deadline alsnog", "De klant is er tot vandaag gebleven"] }
+        { "label": "Resultaat", "chips": ["Uiteindelijk hebben we binnen budget opgeleverd", "Daardoor haalden we de deadline alsnog", "De klant is uiteindelijk gewoon gebleven"] }
       ],
       "sample": "Vorig jaar liep een project bij ons vast. Ik was verantwoordelijk voor de planning, dus ik heb de deadlines herzien en met de klant overlegd. Uiteindelijk hebben we binnen budget opgeleverd."
     },
@@ -74,11 +74,11 @@
       "prompt": "*Wat is je sterke punt?* Welk antwoord valt in Nederland het beste?",
       "options": ["Ik ben de beste projectmanager die u kunt krijgen.", "Mijn sterke punt is dat ik rust breng in een chaotisch project — dat hoor ik vaak terug van collega's.", "Ik heb eigenlijk geen sterke punten, hoor."],
       "correct": 1,
-      "explain": "Concreet, onderbouwd en met de bron bij een ander: precies de toon die hier werkt. Optie 1 is opschepperij, optie 3 valse bescheidenheid — allebei kosten ze je de baan."
+      "explain": "Concreet, onderbouwd en met de bron bij een ander: precies de toon die hier werkt. *De beste die u kunt krijgen* is opschepperij en *geen sterke punten* is valse bescheidenheid — allebei kosten ze je de baan."
     },
     {
       "type": "typed",
-      "prompt": "Zeg dit bescheidener, met de formule uit dit blok: *Ik ben heel goed in samenwerken.*",
+      "prompt": "Zeg dit bescheidener, met de formule van hierboven: *Ik ben heel goed in samenwerken.*",
       "answers": ["Ik hoor vaak terug dat ik goed samenwerk.", "Ik hoor vaak terug dat ik goed kan samenwerken.", "Ik hoor vaak terug dat ik goed ben in samenwerken."],
       "hint": "Begin met *Ik hoor vaak terug dat …* — en let op: bijzin, dus het werkwoord achteraan.",
       "explain": "*Ik hoor vaak terug dat ik goed samenwerk.* Zelfde inhoud, maar het oordeel ligt bij je collega's. En in de bijzin gaat *samenwerk* netjes naar het eind."
@@ -122,7 +122,7 @@
     },
     {
       "type": "journal",
-      "prompt": "Schrijf je eigen STAR-antwoord op de vraag *Vertel eens over een project dat misliep.* Eén zin per stap: situatie, taak, actie, resultaat. Voeg daarna één zin bescheiden zelflof toe (*ik hoor vaak terug dat …*). In het Nederlands, minstens vier zinnen.",
+      "prompt": "Schrijf je eigen STAR-antwoord op de vraag *Vertel eens over een project dat misliep.* Eén zin per stap: situatie, taak, actie, resultaat. Voeg daarna één zin met bescheiden zelflof toe (*ik hoor vaak terug dat …*). In het Nederlands, minstens vier zinnen.",
       "starters": ["Vorig jaar …", "Ik was verantwoordelijk voor …", "Ik heb toen …", "Uiteindelijk …", "Ik hoor vaak terug dat …"],
       "minSentences": 4
     }

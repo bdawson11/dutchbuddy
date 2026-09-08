@@ -52,7 +52,7 @@
     },
     {
       "type": "dictation",
-      "prompt": "Luister naar de snelle vorm en schrijf op wat er gevraagd wordt. De volledige spelling mag ook.",
+      "prompt": "Luister naar de snelle vorm en typ de zin. Je mag hem ook helemaal uitschrijven.",
       "speak": "Kun je 't effe herhalen?",
       "answers": ["Kun je 't effe herhalen?", "Kun je het even herhalen?", "Kun je het effe herhalen?", "Kun je 't even herhalen?"]
     },
