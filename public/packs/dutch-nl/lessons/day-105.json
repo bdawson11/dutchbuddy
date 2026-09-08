@@ -87,7 +87,7 @@
     {
       "type": "builder",
       "title": "Mijn verhaal — laag 15: in formeel register",
-      "prompt": "Bouw je professionele voorstelrondje. Kies per gleuf, of schrijf je eigen zin in dezelfde vorm.",
+      "prompt": "Bouw je professionele voorstelrondje. Kies per slot, of schrijf je eigen zin in dezelfde vorm.",
       "slots": [
         { "label": "Voorstellen (formeel)", "chips": ["Mijn naam is Alex en ik woon inmiddels ruim een jaar in Amsterdam.", "Mijn naam is Alex; ik ben oorspronkelijk afkomstig uit Ierland.", "Ik stel mij graag kort voor: mijn naam is Alex."] },
         { "label": "Uw vak (met ervaring in …)", "chips": ["Ik ben werkzaam in de marketing, met ervaring in klantcontact en planning.", "Ik werk in het onderwijs, met ruime ervaring in het begeleiden van groepen.", "Ik ben werkzaam als ontwerper, met ervaring in het samenwerken met opdrachtgevers."] },

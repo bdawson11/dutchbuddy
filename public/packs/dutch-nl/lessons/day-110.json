@@ -90,7 +90,7 @@
     {
       "type": "builder",
       "title": "Bouw een samenhangend stukje tekst",
-      "prompt": "Vier zinnen, vier stappen: de oorzaak, het gevolg, de tegenwerping en de nuance. Kies per gleuf.",
+      "prompt": "Vier zinnen, vier stappen: de oorzaak, het gevolg, de tegenwerping en de nuance. Kies per slot.",
       "slots": [
         { "label": "De oorzaak", "chips": ["De hele week was er verbouwing naast ons", "Ik had drie avonden achter elkaar gerepeteerd", "Het treinverkeer lag plat"] },
         { "label": "Het gevolg (daardoor …)", "chips": ["daardoor heb ik nauwelijks geslapen", "daardoor kwam er weinig van mijn werk terecht", "daardoor stond ik om zes uur al op de fiets"] },

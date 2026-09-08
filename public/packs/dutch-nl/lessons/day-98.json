@@ -66,7 +66,7 @@
     {
       "type": "builder",
       "title": "Mijn verhaal — laag 14: wat-als & spijt",
-      "prompt": "Bouw je hypothese en je spijt. Kies per gleuf — of schrijf je eigen.",
+      "prompt": "Bouw je hypothese en je spijt. Kies per slot — of schrijf je eigen.",
       "slots": [
         { "label": "Een hypothese (als…, zou ik…)", "chips": ["Als ik eerder was begonnen, zou ik nu vloeiender zijn", "Als ik in Nederland was opgegroeid, zou het makkelijker zijn geweest", "Zonder deze cursus zou ik nog steeds in het Engels vluchten"] },
         { "label": "Een kleine spijt (ik had…)", "chips": ["ik had wat vaker moeten durven praten", "ik had minder bang voor fouten moeten zijn", "ik had eerder Nederlandse vrienden moeten maken"] },

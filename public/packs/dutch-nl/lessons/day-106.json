@@ -91,7 +91,7 @@
     {
       "type": "builder",
       "title": "Bouw een keten van drie lagen",
-      "prompt": "Kies per gleuf één stuk. Let erop dat elke laag zijn persoonsvorm achterin houdt.",
+      "prompt": "Kies per slot één stuk. Let erop dat elke laag zijn persoonsvorm achterin houdt.",
       "slots": [
         { "label": "Hoofdzin (persoonsvorm op 2)", "chips": ["Ik merk", "Emma vertelde", "Niemand had gezegd"] },
         { "label": "Laag 1 (dat / of …)", "chips": ["dat Daan nog twijfelt", "of het bureau openblijft", "dat Sanne het druk heeft"] },

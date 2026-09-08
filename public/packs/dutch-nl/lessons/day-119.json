@@ -55,7 +55,7 @@
     {
       "type": "builder",
       "title": "Mijn verhaal — laag 17: formeel én speels",
-      "prompt": "Bouw je punt twee keer: eerst netjes, dan zoals aan de bar. Kies per gleuf, of schrijf je eigen versie.",
+      "prompt": "Bouw je punt twee keer: eerst netjes, dan zoals aan de bar. Kies per slot, of schrijf je eigen versie.",
       "slots": [
         { "label": "Formeel: mijn punt", "chips": ["Ik ben van mening dat een taal je pas echt binnenlaat.", "Nederlands leren is voor mij een bewuste keuze geweest.", "Ik hecht eraan mijn werk in het Nederlands te kunnen doen."] },
         { "label": "Formeel: mijn nuance", "chips": ["Dat kost, eerlijk gezegd, meer tijd dan ik had voorzien.", "In principe zou dat sneller moeten kunnen.", "Achteraf is gebleken dat doorzetten belangrijker was dan talent."] },

@@ -65,7 +65,7 @@
     {
       "type": "builder",
       "title": "Mijn verhaal — laag 13: je genuanceerde mening",
-      "prompt": "Voeg aan je verhaal een genuanceerde mening over het Nederlands leren toe. Kies per gleuf een schakel — of schrijf je eigen in dezelfde vorm.",
+      "prompt": "Voeg aan je verhaal een genuanceerde mening over het Nederlands leren toe. Kies per slot een schakel — of schrijf je eigen in dezelfde vorm.",
       "slots": [
         { "label": "Je mening (hoofdzin)", "chips": ["Ik vind Nederlands een mooie taal", "Ik ben blij dat ik dit doe", "Het bevalt me hier goed"] },
         { "label": "Een reserve (hoewel…)", "chips": ["hoewel de grammatica soms lastig is", "hoewel ik nog fouten maak", "hoewel het niet altijd meevalt"] },
