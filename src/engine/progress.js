@@ -93,6 +93,7 @@ export function loadJournal(packId, dayId, blockIndex) {
 
 export function resetProgress(packId) {
   localStorage.removeItem(key(packId));
+  localStorage.removeItem(vocabKey(packId));
   Object.keys(localStorage)
     .filter((k) => k.startsWith(`journal.${ns()}${packId}.`))
     .forEach((k) => localStorage.removeItem(k));
@@ -108,4 +109,77 @@ export function stats(packId) {
     timeMin: Math.round(days.reduce((s, d) => s + (d.timeSec || 0), 0) / 60),
     streak: currentStreak(p),
   };
+}
+
+// ---------- vocabulary review (spaced repetition over chips) ----------
+// One record per word: { box, seen, missed, last }. Leitner boxes 0–4; a word
+// in box n is due again after BOX_DAYS[n] days. Keyed by the word's nl text.
+
+const BOX_DAYS = [0, 1, 3, 7, 14];
+const vocabKey = (packId) => `vocab.${ns()}${packId}`;
+
+export function loadVocab(packId) {
+  try {
+    return JSON.parse(localStorage.getItem(vocabKey(packId))) || {};
+  } catch {
+    return {};
+  }
+}
+
+function saveVocab(packId, v) {
+  localStorage.setItem(vocabKey(packId), JSON.stringify(v));
+  return v;
+}
+
+export function isDue(rec, today = todayStr()) {
+  if (!rec || !rec.last) return true;
+  const box = Math.min(rec.box || 0, BOX_DAYS.length - 1);
+  const toUtc = (s) => Date.UTC(...s.split('-').map((x, i) => (i === 1 ? +x - 1 : +x)));
+  return (toUtc(today) - toUtc(rec.last)) / 86400000 >= BOX_DAYS[box];
+}
+
+// Record one flashcard outcome. Known → up a box (max 4); missed → back to 0.
+export function recordVocab(packId, word, known, today = todayStr()) {
+  const v = loadVocab(packId);
+  const r = v[word] || { box: 0, seen: 0, missed: 0, last: null };
+  r.seen += 1;
+  if (known) r.box = Math.min((r.box || 0) + 1, BOX_DAYS.length - 1);
+  else {
+    r.box = 0;
+    r.missed += 1;
+  }
+  r.last = today;
+  v[word] = r;
+  saveVocab(packId, v);
+  return r;
+}
+
+// Pick a session: due words first (lowest box first, then least recently
+// seen), topped up with unseen words, capped at `limit`.
+export function pickVocabSession(packId, words, limit = 20, today = todayStr()) {
+  const v = loadVocab(packId);
+  const due = words.filter((w) => isDue(v[w.nl], today));
+  due.sort((a, b) => {
+    const ra = v[a.nl] || { box: -1, last: '' };
+    const rb = v[b.nl] || { box: -1, last: '' };
+    // unseen (box -1) after due-known words? No: unseen words are new material,
+    // put weakest known words first, then unseen, then the rest by staleness.
+    const ka = ra.box === -1 ? 0.5 : ra.box;
+    const kb = rb.box === -1 ? 0.5 : rb.box;
+    if (ka !== kb) return ka - kb;
+    return (ra.last || '').localeCompare(rb.last || '');
+  });
+  return due.slice(0, limit);
+}
+
+export function vocabStats(packId, words) {
+  const v = loadVocab(packId);
+  let known = 0;
+  let due = 0;
+  for (const w of words) {
+    const r = v[w.nl];
+    if (r && r.box >= 3) known += 1;
+    if (isDue(r)) due += 1;
+  }
+  return { total: words.length, known, due };
 }

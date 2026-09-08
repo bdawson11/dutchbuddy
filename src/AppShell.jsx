@@ -1,12 +1,13 @@
 import { useEffect, useState } from 'react';
 import Dashboard from './engine/Dashboard';
 import Player from './engine/Player';
+import VocabReview from './engine/VocabReview';
 import LoginScreen from './LoginScreen';
 import LanguagePicker from './LanguagePicker';
 import { configureAudio } from './engine/audio';
 import { configureGrading } from './engine/grading';
-import { configureUi } from './engine/ui';
-import { setProgressUser } from './engine/progress';
+import { configureUi, ui } from './engine/ui';
+import { setProgressUser, loadProgress } from './engine/progress';
 import { currentUser, logout, getSelectedPack, setSelectedPack } from './engine/auth';
 
 const BASE = import.meta.env.BASE_URL;
@@ -50,6 +51,7 @@ export default function AppShell() {
   const [lessonIndex, setLessonIndex] = useState({}); // dayId -> metadata (from index.json)
   const [lessons, setLessons] = useState({}); // dayId -> full lesson, fetched on open
   const [openLesson, setOpenLesson] = useState(null);
+  const [vocab, setVocab] = useState(null); // null = not reviewing; { words, loading }
   const [loadingPack, setLoadingPack] = useState(false);
   const [loadingLesson, setLoadingLesson] = useState(false);
   const [error, setError] = useState(null);
@@ -164,6 +166,40 @@ export default function AppShell() {
     setOpenLesson(dayId);
   };
 
+  // Vocabulary review: gather every chips item from completed lessons
+  // (fetching any lesson not loaded yet), deduped by the target-language text.
+  const reviewVocab = async () => {
+    window.scrollTo(0, 0);
+    setVocab({ words: [], loading: true });
+    const done = Object.entries(loadProgress(manifest.packId).days)
+      .filter(([, d]) => d.status === 'complete')
+      .map(([id]) => id)
+      .filter((id) => lessonIndex[id]);
+    const loaded = { ...lessons };
+    await Promise.all(
+      done.map(async (id) => {
+        if (!loaded[id]) loaded[id] = await fetchLesson(packId, id);
+      })
+    );
+    setLessons(loaded);
+    const seen = new Set();
+    const words = [];
+    for (const id of done) {
+      const lesson = loaded[id];
+      if (!lesson) continue;
+      for (const b of lesson.blocks) {
+        if (b.type !== 'chips') continue;
+        for (const it of b.items) {
+          const k = it.nl.trim().toLowerCase();
+          if (seen.has(k)) continue;
+          seen.add(k);
+          words.push({ nl: it.nl, en: it.en, speak: it.speak, dayId: id, dayTitle: `${ui('day', 'Day')} ${lesson.day} · ${lesson.title}` });
+        }
+      }
+    }
+    setVocab({ words, loading: false });
+  };
+
   const allDayIds = manifest ? manifest.weeks.flatMap((w) => w.days) : [];
   const nextDayId = openLesson ? allDayIds[allDayIds.indexOf(openLesson) + 1] : null;
   const hasNext = Boolean(nextDayId && lessonIndex[nextDayId]);
@@ -178,6 +214,7 @@ export default function AppShell() {
     if (user) setSelectedPack(user.id, null);
     setPackId(null);
     setOpenLesson(null);
+    setVocab(null);
     window.scrollTo(0, 0);
   };
   const doLogout = () => {
@@ -196,7 +233,7 @@ export default function AppShell() {
 
   return (
     <div className="app">
-      {!openLesson && (
+      {!openLesson && !vocab && (
         <TopBar
           appName={catalog.app}
           manifest={manifest}
@@ -207,6 +244,14 @@ export default function AppShell() {
       )}
       {loadingPack || !manifest ? (
         <div className="loading">Loading your course…</div>
+      ) : vocab?.loading ? (
+        <div className="loading">{ui('loading', 'Loading…')}</div>
+      ) : vocab ? (
+        <VocabReview
+          packId={manifest.packId}
+          words={vocab.words}
+          onExit={() => setVocab(null)}
+        />
       ) : openLesson && lessons[openLesson] ? (
         <Player
           key={openLesson}
@@ -221,6 +266,7 @@ export default function AppShell() {
           lessonIndex={lessonIndex}
           busy={loadingLesson}
           onOpenDay={openDay}
+          onReviewVocab={reviewVocab}
         />
       )}
     </div>

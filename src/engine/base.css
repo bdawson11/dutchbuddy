@@ -1106,3 +1106,28 @@ button.dialogue-line:focus-visible { outline: 2px solid var(--accent); outline-o
 /* Lesson-complete actions */
 .complete-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 14px; }
 .done-btn.is-secondary { background: var(--card-2); color: var(--accent-ink); border: 1.5px solid var(--accent-border); box-shadow: none; }
+
+/* Vocabulary review flashcards */
+.flashcard { text-align: center; padding-top: 28px; padding-bottom: 28px; }
+.flash-count { color: var(--muted); font-size: 12px; font-weight: 800; letter-spacing: 0.05em; margin: 0; }
+.flash-en { font-size: 22px; font-weight: 800; margin: 14px 0 0; }
+.flash-nl { font-family: var(--font-display, inherit); font-size: 30px; font-weight: 800; color: var(--accent-ink); margin: 18px 0 0; }
+.flash-nl .speak-btn { margin: 0 0 0 6px; vertical-align: middle; }
+.vocab-btn {
+  display: block;
+  width: 100%;
+  margin: 14px 0 0;
+  padding: 14px 18px;
+  border: 1.5px solid var(--accent-border);
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--accent-ink);
+  font: inherit;
+  font-weight: 800;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.vocab-btn:hover { background: var(--accent-soft); }
+.vocab-btn:disabled { opacity: 0.55; cursor: default; }
+.vocab-btn .vocab-sub { display: block; color: var(--muted); font-size: 13px; font-weight: 600; margin-top: 2px; }

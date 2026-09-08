@@ -79,3 +79,23 @@ test('journal + reset', () => {
   assert.equal(loadJournal('p', 'day-01', 5), '');
   assert.equal(stats('p').daysStarted, 0);
 });
+
+const { recordVocab, pickVocabSession, isDue, vocabStats, loadVocab } = await import('../src/engine/progress.js');
+
+test('vocab: Leitner boxes and due dates', () => {
+  const words = [{ nl: 'maan', en: 'moon' }, { nl: 'boos', en: 'angry' }, { nl: 'vis', en: 'fish' }];
+  assert.equal(pickVocabSession('p', words, 20, '2026-05-01').length, 3);
+  recordVocab('p', 'maan', true, '2026-05-01'); // box 1: due after 1 day
+  recordVocab('p', 'boos', false, '2026-05-01'); // box 0: due same day
+  assert.equal(isDue(loadVocab('p').maan, '2026-05-01'), false);
+  assert.equal(isDue(loadVocab('p').maan, '2026-05-02'), true);
+  assert.equal(isDue(loadVocab('p').boos, '2026-05-01'), true);
+  // weakest first, then unseen, on the same day
+  assert.deepEqual(pickVocabSession('p', words, 20, '2026-05-01').map((w) => w.nl), ['boos', 'vis']);
+  recordVocab('p', 'maan', true, '2026-05-02');
+  recordVocab('p', 'maan', true, '2026-05-05');
+  assert.equal(loadVocab('p').maan.box, 3);
+  assert.equal(vocabStats('p', words).known, 1);
+  resetProgress('p');
+  assert.deepEqual(loadVocab('p'), {});
+});

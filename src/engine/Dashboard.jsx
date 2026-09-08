@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import { stats, loadProgress, resetProgress } from './progress';
+import { ui } from './ui';
 
 function dayNumber(dayId) {
   return parseInt(dayId.split('-')[1], 10);
 }
 
-export default function Dashboard({ manifest, lessonIndex, onOpenDay, busy }) {
+export default function Dashboard({ manifest, lessonIndex, onOpenDay, onReviewVocab, busy }) {
   const s = stats(manifest.packId);
   const progress = loadProgress(manifest.packId);
 
@@ -69,6 +70,13 @@ export default function Dashboard({ manifest, lessonIndex, onOpenDay, busy }) {
           <span className="start-label">🚀 {s.daysStarted === 0 ? 'START HERE' : 'CONTINUE'}</span>
           <span className="start-title">{nextMeta.emoji} {nextMeta.title}</span>
           <span className="start-meta">Day {nextMeta.day} · {nextMeta.module}.{nextMeta.unit}</span>
+        </button>
+      )}
+
+      {onReviewVocab && s.daysComplete > 0 && (
+        <button className="vocab-btn" onClick={onReviewVocab} disabled={busy}>
+          🃏 {ui('reviewVocab', 'Review your vocabulary')}
+          <span className="vocab-sub">{ui('reviewVocabSub', 'Flashcards for every word from the lessons you have finished.')}</span>
         </button>
       )}
 
