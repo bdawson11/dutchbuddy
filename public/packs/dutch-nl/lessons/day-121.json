@@ -46,7 +46,7 @@
       "items": [
         { "nl": "In mijn vorige functie was ik verantwoordelijk voor de planning.", "en": "In my previous role I was responsible for the planning.", "speak": "In mijn vorige functie was ik verantwoordelijk voor de planning." },
         { "nl": "Mij werd gevraagd om het project vlot te trekken.", "en": "I was asked to get the project moving again.", "speak": "Mij werd gevraagd om het project vlot te trekken." },
-        { "nl": "Ik heb toen de rollen opnieuw verdeeld.", "en": "I then redivided the roles.", "speak": "Ik heb toen de rollen opnieuw verdeeld." },
+        { "nl": "Ik heb toen de rollen opnieuw verdeeld.", "en": "I then redistributed the roles.", "speak": "Ik heb toen de rollen opnieuw verdeeld." },
         { "nl": "Daardoor haalden we de deadline alsnog.", "en": "As a result we still made the deadline.", "speak": "Daardoor haalden we de deadline alsnog." },
         { "nl": "Wat ik daarvan geleerd heb, is dat ik eerder moet doorvragen.", "en": "What I learned from it is that I should probe sooner.", "speak": "Wat ik daarvan geleerd heb, is dat ik eerder moet doorvragen." }
       ]
@@ -96,7 +96,7 @@
     },
     {
       "type": "dialogue",
-      "scene": "Youssef interviews You for a role in his team at Emma's agency. Emma tipped you off about the vacancy.",
+      "scene": "Youssef has offered to run a mock sollicitatiegesprek in his lunch break — he plays the interviewer at the agency you are applying to, and stays in character throughout.",
       "lines": [
         { "speaker": "Youssef", "nl": "Fijn dat u er bent. Zullen we bij het begin beginnen? Vertel eens iets over uzelf.", "en": "Glad you're here. Shall we start at the beginning? Tell me a bit about yourself.", "spotlight": "Een sollicitatiegesprek opent bijna altijd met *u* — ook als het daarna verandert." },
         { "speaker": "You", "nl": "Graag. Ik werk nu vier jaar in de communicatie en ik ben vooral verantwoordelijk voor planning en klantcontact.", "en": "Gladly. I've been working in communications for four years now and I'm mainly responsible for planning and client contact." },

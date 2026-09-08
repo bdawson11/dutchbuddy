@@ -44,12 +44,12 @@
       "type": "contrast",
       "title": "Eén punt, twee registers",
       "pairs": [
-        { "left": "Ik leer nu ruim twee jaar Nederlands en ik red me prima.", "right": "Ik studeer inmiddels ruim twee jaar Nederlands en beheers de taal op een goed niveau.", "note": "Links spreektaal (*me redden*, *prima*); rechts genominaliseerd en zonder partikels — de versie voor een sollicitatiebrief." },
+        { "left": "Ik leer nu anderhalf jaar Nederlands en ik red me prima.", "right": "Ik studeer inmiddels anderhalf jaar Nederlands en beheers de taal op een goed niveau.", "note": "Links spreektaal (*me redden*, *prima*); rechts genominaliseerd en zonder partikels — de versie voor een sollicitatiebrief." },
         { "left": "Ik ben hier ooit voor een baan naartoe gekomen, eerlijk gezegd.", "right": "Ik ben oorspronkelijk naar Nederland verhuisd in verband met mijn werk.", "note": "*in verband met* is het formele *vanwege*; *eerlijk gezegd* hoort alleen links thuis." },
         { "left": "Nederlands is best wel pittig, maar het went.", "right": "Het Nederlands is een veeleisende taal, maar goed te leren.", "note": "*best wel* en *pittig* zijn informeel; formeel Nederlands kiest *veeleisend* en houdt het oordeel onpersoonlijk." }
       ]
     },
-    { "type": "typed", "prompt": "Zeg hetzelfde formeel: *Kun je daar even naar kijken?* Gebruik *zou u* en laat het partikel weg.", "answers": ["Zou u daarnaar kunnen kijken?", "Zou u daar naar kunnen kijken?", "Zou u daarnaar willen kijken?"], "hint": "*zou u* + een modaal werkwoord, en *even* verdwijnt.", "explain": "*Zou u daarnaar kunnen kijken?* Formeel Nederlands wordt **indirecter**, niet harder: *zou u* + *kunnen* + geen partikel." },
+    { "type": "typed", "prompt": "Zeg hetzelfde formeel: *Kun je daar even naar kijken?* Gebruik *zou u* en laat het partikel weg.", "answers": ["Zou u daarnaar kunnen kijken?", "Zou u daarnaar willen kijken?", "Zou u dat kunnen bekijken?"], "hint": "*zou u* + een modaal werkwoord, en *even* verdwijnt.", "explain": "*Zou u daarnaar kunnen kijken?* Formeel Nederlands wordt **indirecter**, niet harder: *zou u* + *kunnen* + geen partikel." },
     { "type": "dictation", "prompt": "Luister en typ wat je hoort.", "speak": "Dat is toch wel een compliment, hoor.", "answers": ["Dat is toch wel een compliment, hoor", "Dat is toch wel een compliment hoor"], "explain": "*toch wel* geeft toe en bevestigt tegelijk; *hoor* maakt er een geruststelling van in plaats van een discussie." },
     { "type": "card", "title": "Mijn verhaal — laag 17: hetzelfde punt, twee toonhoogtes", "body": "Je verhaal kent inmiddels je naam, je routine, je buurt, je plannen, je meningen, je twijfels en je professionele kant. Laag 17 voegt **toonbeheersing** toe. Kies één punt uit je verhaal — waarom je Nederlands leert, of wat het je gekost heeft — en zeg het **twee keer**: één keer zoals tegen een commissie, één keer zoals tegen Daan aan de bar, met partikels en een droge opmerking.", "callout": "Wie hetzelfde in twee registers kan zeggen, kiest zijn toon in plaats van hem te ondergaan. Dat is de sprong." },
     {
@@ -69,12 +69,12 @@
       "scene": "You are practising a short self-introduction for a client meeting. Emma plays both audiences.",
       "lines": [
         { "speaker": "Emma", "nl": "Oké. Doe het eerst maar netjes. Ik ben even de klant.", "en": "Okay. Do the polished version first. I'll be the client." },
-        { "speaker": "You", "nl": "Goedemiddag. Ik werk inmiddels twee jaar in Nederland en ik voer mijn werk sinds kort volledig in het Nederlands uit.", "en": "Good afternoon. I've been working in the Netherlands for two years and recently I've been doing my work entirely in Dutch.", "spotlight": "Formeel: hele zinnen, geen partikels, *sinds kort* in plaats van *net*." },
+        { "speaker": "You", "nl": "Goedemiddag. Ik werk inmiddels anderhalf jaar in Nederland en ik voer mijn werk sinds kort volledig in het Nederlands uit.", "en": "Good afternoon. I've been working in the Netherlands for a year and a half and recently I've been doing my work entirely in Dutch.", "spotlight": "Formeel: hele zinnen, geen partikels, *sinds kort* in plaats van *net*." },
         { "speaker": "Emma", "nl": "Prima. Niet verkeerd zelfs.", "en": "Good. Not bad at all, in fact.", "spotlight": "Understatement als compliment." },
         { "speaker": "You", "nl": "En nu jij weer gewoon als Emma.", "en": "And now you as plain old Emma again." },
         { "speaker": "Emma", "nl": "Doe maar. Hoe zit het écht?", "en": "Go on then. How is it really?" },
-        { "speaker": "You", "nl": "Nou, ik doe mijn werk tegenwoordig gewoon in het Nederlands. Kostte me alleen wel twee jaar, hè.", "en": "Well, these days I just do my work in Dutch. Only took me two years, mind.", "spotlight": "*nou* + *gewoon* + *wel* + *hè*: dezelfde inhoud, andere toonhoogte." },
-        { "speaker": "Emma", "nl": "Twee jaar. Dat is toch wel netjes.", "en": "Two years. That's rather good, actually.", "spotlight": "*toch wel* — ze geeft toe en bevestigt." },
+        { "speaker": "You", "nl": "Nou, ik doe mijn werk tegenwoordig gewoon in het Nederlands. Kostte me alleen wel anderhalf jaar, hè.", "en": "Well, these days I just do my work in Dutch. Only took me a year and a half, mind.", "spotlight": "*nou* + *gewoon* + *wel* + *hè*: dezelfde inhoud, andere toonhoogte." },
+        { "speaker": "Emma", "nl": "Anderhalf jaar. Dat is toch wel netjes.", "en": "A year and a half. That's rather good, actually.", "spotlight": "*toch wel* — ze geeft toe en bevestigt." },
         { "speaker": "You", "nl": "Ik hou het op 'niet verkeerd'.", "en": "I'll stick with 'not bad'." },
         { "speaker": "Emma", "nl": "Zo praat je inmiddels ook. Je bent bijna niet meer van ons te onderscheiden.", "en": "That's how you talk these days too. You're almost indistinguishable from us." }
       ]

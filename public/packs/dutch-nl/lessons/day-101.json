@@ -72,7 +72,7 @@
     {
       "type": "typed",
       "prompt": "Maak dit verzoek indirect en formeel: *Stuur me het programma.*",
-      "answers": ["Zou u mij het programma kunnen toesturen?", "Zou u mij het programma willen toesturen?", "Zou u mij het programma kunnen sturen?", "Zou u me het programma kunnen toesturen?"],
+      "answers": ["Zou u mij het programma kunnen toesturen?", "Zou u mij het programma willen toesturen?", "Zou u mij het programma kunnen sturen?", "Zou u mij het programma willen sturen?", "Zou u me het programma kunnen toesturen?", "Zou u me het programma willen toesturen?", "Zou u me het programma kunnen sturen?", "Zou u me het programma willen sturen?"],
       "hint": "Begin met *Zou u mij …* en zet de infinitief achteraan.",
       "explain": "*Zou u mij het programma kunnen toesturen?* — *zou* plus *u* plus een infinitief aan het eind maakt van een bevel een verzoek. *willen* mag ook in plaats van *kunnen*."
     },

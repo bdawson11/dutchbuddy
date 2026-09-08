@@ -8,7 +8,7 @@
   "title": "Mijn verhaal — één anekdote, alle tijden",
   "emoji": "📖",
   "level": "B2",
-  "durationMin": [25, 35],
+  "durationMin": [20, 35],
   "summary": "Week 16 capstone: produce long clause chains, relatives and reported speech, and add the mijn-verhaal layer — one anecdote that moves across tenses and carries a reported line",
   "blocks": [
     {
@@ -75,7 +75,6 @@
       "speak": "Toen ik hoorde dat ze een kindje kreeg, wist ik meteen wat ik wilde zeggen.",
       "answers": [
         "Toen ik hoorde dat ze een kindje kreeg, wist ik meteen wat ik wilde zeggen",
-        "Toen ik hoorde dat ze een kindje kreeg wist ik meteen wat ik wilde zeggen",
         "Toen ik hoorde dat ze een kindje kreeg, wist ik meteen wat ik zeggen wilde"
       ],
       "explain": "Bijzin vooraan (*Toen ik hoorde dat …*) → de hoofdzin begint meteen met de persoonsvorm: *wist ik*. En achterin nog een laag: *wat ik wilde zeggen*."
@@ -87,7 +86,7 @@
       "table": {
         "headers": ["Stap", "Tijd", "Model"],
         "rows": [
-          ["Achtergrond", "verleden tijd / vvt", "Twee jaar geleden woonde Sanne nog in Amsterdam."],
+          ["Achtergrond", "verleden tijd / vvt", "Vorig jaar woonde Sanne nog in Amsterdam."],
           ["De gebeurtenis", "voltooide tijd", "Daarna is ze naar Utrecht verhuisd."],
           ["De geciteerde zin", "indirecte rede", "Zaterdag zei ze dat ze in mei een kindje kreeg."],
           ["Het gevolg", "tegenwoordige tijd", "Daardoor sta ik binnenkort een babykamer te verven."]
@@ -117,7 +116,7 @@
         { "speaker": "You", "nl": "In mei. Ze zei dat ze het pas na de eerste echo wilde vertellen, vandaar dat niemand iets wist.", "en": "In May. She said she only wanted to tell people after the first scan, which is why nobody knew.", "spotlight": "Indirecte rede + *vandaar dat* in één zin." },
         { "speaker": "Bram", "nl": "Verstandig. En ze blijven in Utrecht, neem ik aan?", "en": "Sensible. And they're staying in Utrecht, I assume?" },
         { "speaker": "You", "nl": "Zeker. Die logeerkamer waar ze het altijd over had, wordt nu eindelijk verbouwd.", "en": "Definitely. That spare room she always talked about is finally being done up.", "spotlight": "Betrekkelijke bijzin, gesplitst: *waar ze het over had*." },
-        { "speaker": "Bram", "nl": "Er zijn er niet veel die in twee jaar zo veel veranderen.", "en": "There aren't many people who change that much in two years.", "spotlight": "*Er zijn er niet veel die …* — de dubbele *er*." },
+        { "speaker": "Bram", "nl": "Er zijn er niet veel die in een jaar tijd zo veel veranderen.", "en": "There aren't many people who change that much in a single year.", "spotlight": "*Er zijn er niet veel die …* — de dubbele *er*." },
         { "speaker": "You", "nl": "Nee. Toen ze verhuisde, dacht ik nog dat dát het grote nieuws was.", "en": "No. When she moved, I still thought that was the big news." },
         { "speaker": "Bram", "nl": "Zeg maar dat ik graag kom helpen met verbouwen. Dat doe ik liever dan vergaderen.", "en": "Tell her I'd be glad to come help with the renovation. I'd rather do that than sit in meetings." },
         { "speaker": "You", "nl": "Dat geef ik door. Daar zal ze blij mee zijn.", "en": "I'll pass that on. She'll be pleased with that." }

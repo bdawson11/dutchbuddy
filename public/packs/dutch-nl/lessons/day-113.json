@@ -57,7 +57,7 @@
     {
       "type": "builder",
       "title": "Stapel je eigen toon",
-      "prompt": "Bouw een zin met twee partikels op rij. Zeg hem hardop — de toon zit in de stapel.",
+      "prompt": "Bouw een zin met twee partikels op rij. Let op dat de rest van de zin bij je werkwoord past: *rustig* bij *doe*, *langs* bij *kom*, *naar me* bij *luister*. Zeg hem hardop — de toon zit in de stapel.",
       "slots": [
         { "label": "Gebiedende wijs", "chips": ["Doe", "Kom", "Luister"] },
         { "label": "Eerste partikel", "chips": ["nou", "toch", "maar"] },

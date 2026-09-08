@@ -8,7 +8,7 @@
   "title": "Mijn verhaal — mijzelf voorstellen in formeel Nederlands",
   "emoji": "🎓",
   "level": "B2",
-  "durationMin": [25, 35],
+  "durationMin": [20, 35],
   "summary": "Week 15 capstone: write a formal message from scratch and add mijn-verhaal layer 15 — a professional self-presentation in formal register",
   "blocks": [
     {
@@ -30,7 +30,7 @@
       "type": "chips",
       "title": "Jezelf professioneel neerzetten — tik om te horen",
       "items": [
-        { "nl": "Mijn naam is Alex en ik woon inmiddels twee jaar in Amsterdam.", "en": "My name is Alex and I have been living in Amsterdam for two years now.", "speak": "Mijn naam is Alex en ik woon inmiddels twee jaar in Amsterdam." },
+        { "nl": "Mijn naam is Alex en ik woon inmiddels ruim een jaar in Amsterdam.", "en": "My name is Alex and I have been living in Amsterdam for over a year now.", "speak": "Mijn naam is Alex en ik woon inmiddels ruim een jaar in Amsterdam." },
         { "nl": "Ik ben werkzaam in de marketing, met ervaring in klantcontact.", "en": "I work in marketing, with experience in client contact.", "speak": "Ik ben werkzaam in de marketing, met ervaring in klantcontact." },
         { "nl": "In mijn huidige functie ben ik verantwoordelijk voor de planning.", "en": "In my current role I am responsible for the planning.", "speak": "In mijn huidige functie ben ik verantwoordelijk voor de planning." },
         { "nl": "Daarnaast volg ik een intensieve cursus Nederlands.", "en": "In addition I'm taking an intensive Dutch course.", "speak": "Daarnaast volg ik een intensieve cursus Nederlands." },
@@ -55,7 +55,7 @@
     {
       "type": "typed",
       "prompt": "Herschrijf formeel: *Stuur je me de factuur even?*",
-      "answers": ["Zou u mij de factuur kunnen toesturen?", "Zou u mij de factuur willen toesturen?", "Kunt u mij de factuur toesturen?", "Zou u me de factuur kunnen toesturen?"],
+      "answers": ["Zou u mij de factuur kunnen toesturen?", "Zou u mij de factuur willen toesturen?", "Zou u mij de factuur kunnen sturen?", "Zou u me de factuur kunnen toesturen?", "Zou u me de factuur willen toesturen?", "Zou u me de factuur kunnen sturen?", "Kunt u mij de factuur toesturen?", "Kunt u me de factuur toesturen?"],
       "hint": "*je* → *u*, *even* eruit, en begin met *Zou u …*.",
       "explain": "*Zou u mij de factuur kunnen toesturen?* Drie bewegingen tegelijk: aanspreekvorm, partikel eruit, verzoek indirect."
     },
@@ -89,12 +89,12 @@
       "title": "Mijn verhaal — laag 15: in formeel register",
       "prompt": "Bouw je professionele voorstelrondje. Kies per gleuf, of schrijf je eigen zin in dezelfde vorm.",
       "slots": [
-        { "label": "Voorstellen (formeel)", "chips": ["Mijn naam is Alex en ik woon inmiddels twee jaar in Amsterdam.", "Mijn naam is Alex; ik ben oorspronkelijk afkomstig uit Ierland.", "Ik stel mij graag kort voor: mijn naam is Alex."] },
+        { "label": "Voorstellen (formeel)", "chips": ["Mijn naam is Alex en ik woon inmiddels ruim een jaar in Amsterdam.", "Mijn naam is Alex; ik ben oorspronkelijk afkomstig uit Ierland.", "Ik stel mij graag kort voor: mijn naam is Alex."] },
         { "label": "Uw vak (met ervaring in …)", "chips": ["Ik ben werkzaam in de marketing, met ervaring in klantcontact en planning.", "Ik werk in het onderwijs, met ruime ervaring in het begeleiden van groepen.", "Ik ben werkzaam als ontwerper, met ervaring in het samenwerken met opdrachtgevers."] },
         { "label": "Waarvoor u verantwoordelijk bent", "chips": ["In mijn huidige functie ben ik verantwoordelijk voor de planning van projecten.", "Daarnaast ben ik verantwoordelijk voor het contact met onze klanten.", "In mijn werk ben ik verantwoordelijk voor een klein team."] },
         { "label": "Uw mening (ik ben van mening dat …)", "chips": ["Ik ben van mening dat taal daarbij het belangrijkste gereedschap is.", "Ik ben ervan overtuigd dat ik in het Nederlands van waarde kan zijn.", "Ik ben van mening dat goed contact begint bij dezelfde taal."] }
       ],
-      "sample": "Mijn naam is Alex en ik woon inmiddels twee jaar in Amsterdam. Ik ben werkzaam in de marketing, met ervaring in klantcontact en planning. In mijn huidige functie ben ik verantwoordelijk voor de planning van projecten. Ik ben van mening dat taal daarbij het belangrijkste gereedschap is."
+      "sample": "Mijn naam is Alex en ik woon inmiddels ruim een jaar in Amsterdam. Ik ben werkzaam in de marketing, met ervaring in klantcontact en planning. In mijn huidige functie ben ik verantwoordelijk voor de planning van projecten. Ik ben van mening dat taal daarbij het belangrijkste gereedschap is."
     },
     {
       "type": "dialogue",
@@ -102,7 +102,7 @@
       "lines": [
         { "speaker": "Emma", "nl": "Youssef, mag ik je even voorstellen? Dit is een goede vriend van mij.", "en": "Youssef, may I introduce you? This is a good friend of mine." },
         { "speaker": "Youssef", "nl": "Aangenaam. Youssef Amrani, projectmanager bij dit bureau.", "en": "Pleased to meet you. Youssef Amrani, project manager at this agency.", "spotlight": "Kennismaking, formele stand: *aangenaam*, naam, functie. Meer is niet nodig." },
-        { "speaker": "You", "nl": "Aangenaam. Ik woon inmiddels twee jaar in Amsterdam en ik ben werkzaam in de marketing.", "en": "Pleased to meet you. I've been living in Amsterdam for two years and I work in marketing." },
+        { "speaker": "You", "nl": "Aangenaam. Ik woon inmiddels ruim een jaar in Amsterdam en ik ben werkzaam in de marketing.", "en": "Pleased to meet you. I've been living in Amsterdam for over a year and I work in marketing." },
         { "speaker": "Youssef", "nl": "En bevalt het werk u hier?", "en": "And do you like the work here?", "spotlight": "Bij een eerste kennismaking is *u* de veilige stand — ook op een borrel." },
         { "speaker": "You", "nl": "Zeker. In mijn huidige functie ben ik verantwoordelijk voor de klantcommunicatie.", "en": "Certainly. In my current role I'm responsible for client communication." },
         { "speaker": "Youssef", "nl": "Beschikt u ook over ervaring met grotere campagnes?", "en": "Do you also have experience with larger campaigns?" },

@@ -57,7 +57,7 @@
     {
       "type": "typed",
       "prompt": "Zet om naar het register van een formele mail: *Kun je me even laten weten of het gelukt is?*",
-      "answers": ["Zou u mij kunnen laten weten of het gelukt is?", "Zou u mij willen laten weten of het gelukt is?", "Kunt u mij laten weten of het gelukt is?"],
+      "answers": ["Zou u mij kunnen laten weten of het gelukt is?", "Zou u mij kunnen laten weten of het is gelukt?", "Zou u mij willen laten weten of het gelukt is?", "Zou u me kunnen laten weten of het gelukt is?", "Zou u me kunnen laten weten of het is gelukt?", "Zou u me willen laten weten of het gelukt is?", "Kunt u mij laten weten of het gelukt is?", "Kunt u me laten weten of het gelukt is?"],
       "hint": "*je* → *u*, partikel *even* eruit, en maak er een indirect verzoek van.",
       "explain": "*Zou u mij kunnen laten weten of het gelukt is?* De bijzin met *of* houdt netjes het werkwoord aan het eind: *gelukt is*."
     },
@@ -67,7 +67,7 @@
       "lines": [
         { "speaker": "Bram", "nl": "Laat maar zien wat je geschreven hebt. Ik kijk even mee.", "en": "Just show me what you've written. I'll have a look." },
         { "speaker": "You", "nl": "Het is een mail aan de gemeente, over mijn parkeervergunning.", "en": "It's an email to the council, about my parking permit." },
-        { "speaker": "Bram", "nl": "En je begint met *hoi*?", "en": "And you start with 'hi'?", "spotlight": "Informele aanhef in een formele mail — de eerste regel verraadt het register meteen." },
+        { "speaker": "Bram", "nl": "En je begint met 'hoi'?", "en": "And you start with 'hi'?", "spotlight": "Informele aanhef in een formele mail — de eerste regel verraadt het register meteen." },
         { "speaker": "You", "nl": "Te informeel, hè?", "en": "Too informal, isn't it?" },
         { "speaker": "Bram", "nl": "Veel te. Schrijf: Geachte heer/mevrouw. Je weet niet wie hem leest.", "en": "Far too. Write: Dear Sir or Madam. You don't know who'll read it." },
         { "speaker": "You", "nl": "En dan? Ik wil graag weten wanneer het klaar is?", "en": "And then? I'd like to know when it'll be ready?" },

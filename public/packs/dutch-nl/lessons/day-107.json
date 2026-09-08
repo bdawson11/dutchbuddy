@@ -102,9 +102,7 @@
       "speak": "De vergadering waarin het besloten werd, duurde tien minuten.",
       "answers": [
         "De vergadering waarin het besloten werd, duurde tien minuten",
-        "De vergadering waarin het besloten werd duurde tien minuten",
-        "De vergadering waarin het werd besloten, duurde tien minuten",
-        "De vergadering waarin het werd besloten duurde tien minuten"
+        "De vergadering waarin het werd besloten, duurde tien minuten"
       ],
       "explain": "*waarin* = *in + welke vergadering*. De bijzin staat tussen komma's; daarna komt de hoofdzin met *duurde* meteen achter de bijzin."
     },

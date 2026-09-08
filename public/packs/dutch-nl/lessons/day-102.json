@@ -102,11 +102,11 @@
     },
     {
       "type": "dialogue",
-      "scene": "Emma has written a motivation letter for a creative-director job at another agency — she is keeping the internal offer open — and wants a second pair of eyes.",
+      "scene": "Emma has written a motivation letter for a creative-director job at another agency — she is keeping the internal option open — and wants a second pair of eyes.",
       "lines": [
         { "speaker": "Emma", "nl": "Mag ik je iets vragen? Ik heb een motivatiebrief geschreven en ik weet niet of de toon klopt.", "en": "Can I ask you something? I've written a motivation letter and I don't know if the tone is right." },
         { "speaker": "You", "nl": "Natuurlijk. Waar solliciteer je naar?", "en": "Of course. What are you applying for?", "spotlight": "*Solliciteren naar* + de functie." },
-        { "speaker": "Emma", "nl": "Naar de functie van creatief directeur, bij een ander bureau. Dat aanbod van kantoor houd ik nog even open.", "en": "For the position of creative director, at another agency. I'm keeping that offer at the office open for now." },
+        { "speaker": "Emma", "nl": "Naar de functie van creatief directeur, bij een ander bureau. Die optie op kantoor houd ik nog even open.", "en": "For the position of creative director, at another agency. I'm keeping the option at the office open for now." },
         { "speaker": "You", "nl": "Spannend. Lees eens voor.", "en": "Exciting. Read it out." },
         { "speaker": "Emma", "nl": "Met belangstelling las ik uw vacature. In mijn huidige functie ben ik verantwoordelijk voor een team van acht mensen.", "en": "I read your vacancy with interest. In my current role I am responsible for a team of eight people.", "spotlight": "Twee vaste formules in twee zinnen: *met belangstelling* en *verantwoordelijk voor*." },
         { "speaker": "You", "nl": "Dat klinkt goed. En daarna?", "en": "That sounds good. And then?" },

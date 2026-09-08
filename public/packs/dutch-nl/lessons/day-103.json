@@ -94,7 +94,7 @@
     {
       "type": "journal",
       "prompt": "Je hebt een brief van een instantie gekregen die je eerst niet begreep — of verzin er een. Vertel in gewone woorden wat erin stond en wat je moest doen. Gebruik minstens twee ambtelijke formules en leg ze uit. In het Nederlands, minstens drie zinnen.",
-      "starters": ["Ik kreeg een brief van …", "Er stond *naar aanleiding van …*, en dat betekent gewoon …", "Ik moest …"],
+      "starters": ["Ik kreeg een brief van …", "Er stond 'naar aanleiding van …', en dat betekent gewoon …", "Ik moest …"],
       "minSentences": 3
     }
   ]

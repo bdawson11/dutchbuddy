@@ -78,8 +78,7 @@
       "prompt": "Vervang de herhaling door de hoeveelheids-*er*: *Er liggen nog vier dozen in de gang.* → Er liggen …",
       "answers": [
         "Er liggen er nog vier in de gang",
-        "Er liggen er nog vier",
-        "er liggen er nog vier in de gang"
+        "Er liggen er nog vier"
       ],
       "hint": "Het zelfstandig naamwoord verdwijnt, dus het getal heeft *er* nodig.",
       "explain": "*Er liggen er nog vier in de gang.* Eerste *er* = loos onderwerp, tweede *er* = 'van die dozen'. Zonder die tweede *er* klinkt de zin onaf."
@@ -89,8 +88,7 @@
       "prompt": "Luister en schrijf op — let op waar de voorzetsels landen.",
       "speak": "Daar hebben we het gisteren nog uitgebreid over gehad.",
       "answers": [
-        "Daar hebben we het gisteren nog uitgebreid over gehad",
-        "Daar hebben we het gisteren nog uitgebreid over gehad."
+        "Daar hebben we het gisteren nog uitgebreid over gehad"
       ],
       "explain": "*Daar … over gehad*: het voorzetsel *over* raakt los van *daar* en gaat naar achteren, vlak voor het deelwoord."
     },

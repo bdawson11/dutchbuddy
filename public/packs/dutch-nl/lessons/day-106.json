@@ -60,7 +60,7 @@
     {
       "type": "card",
       "title": "Achterin: de volgorde in het cluster",
-      "body": "Staan er meerdere werkwoorden aan het eind, dan mag je bij **deelwoord + hulpwerkwoord** kiezen: *…omdat ik het vergeten ben* én *…omdat ik het ben vergeten* zijn allebei goed Nederlands. De eerste (groene) volgorde klinkt iets schrijftaliger, de tweede (rode) hoor je vaker.",
+      "body": "Staan er meerdere werkwoorden aan het eind, dan mag je bij **deelwoord + hulpwerkwoord** kiezen: *…omdat ik het vergeten ben* én *…omdat ik het ben vergeten* zijn allebei goed Nederlands. De eerste (rode) volgorde klinkt iets schrijftaliger, de tweede (groene) hoor je vaker.",
       "callout": "Uitzondering: bij een **dubbele infinitief** staat de persoonsvorm altijd vooraan — *…dat hij het niet heeft kunnen zeggen*, nooit *kunnen zeggen heeft*."
     },
     {
@@ -71,7 +71,6 @@
         "Ik hoorde dat Sanne zaterdag niet kwam omdat ze moest werken",
         "Ik hoorde dat Sanne zaterdag niet kwam omdat ze werken moest",
         "Ik hoorde dat Sanne zaterdag niet komt omdat ze werken moet",
-        "Ik hoorde dat Sanne zaterdag niet komt, omdat ze moet werken",
         "dat Sanne zaterdag niet komt omdat ze moet werken"
       ],
       "hint": "*want* verbindt twee hoofdzinnen; in een keten heb je *omdat* nodig.",

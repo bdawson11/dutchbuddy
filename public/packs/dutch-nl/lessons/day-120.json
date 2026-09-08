@@ -65,7 +65,7 @@
     {
       "type": "typed",
       "prompt": "Youssef praat door en jij wilt er iets tussen zeggen. Vraag netjes het woord.",
-      "answers": ["Mag ik daar even op inhaken?", "Mag ik even inhaken?", "Ik wil daar even op inhaken.", "Ik wil even inhaken."],
+      "answers": ["Mag ik daar even op inhaken?", "Mag ik hier even op inhaken?", "Mag ik even inhaken?", "Ik wil daar even op inhaken.", "Ik wil even inhaken."],
       "hint": "Het werkwoord is *inhaken* — ergens op inpikken.",
       "explain": "*Mag ik daar even op inhaken?* Je onderbreekt, maar je vraagt het: dat is precies de balans van een Nederlands overleg."
     },
