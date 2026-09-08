@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "day-110",
+  "day": 110,
+  "module": "M16",
+  "unit": "U16",
+  "kind": "lesson",
+  "title": "Daardoor, vandaar, desondanks — de lijm in je verhaal",
+  "emoji": "🌉",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Connective adverbs that hold a text together — daardoor, vandaar, desondanks, immers, althans — and the inversion they trigger",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Vijf woorden die je verhaal aan elkaar knopen",
+      "body": "Losse zinnen worden pas een verhaal als je laat zien **hoe** ze samenhangen. Daarvoor heb je verbindingsbijwoorden. Vijf die een B2-spreker echt nodig heeft — let op de kleine verschillen, want ze zijn niet uitwisselbaar.",
+      "table": {
+        "headers": ["Woord", "Wat het doet", "Voorbeeld"],
+        "rows": [
+          ["daardoor", "gevolg van een oorzaak buiten je om", "Er was een storing. Daardoor kwam ik te laat."],
+          ["vandaar", "'dus dáárom' — de verklaring achteraf", "Vandaar dat hij zo stil was."],
+          ["desondanks", "tegenstelling: het gebeurde tóch", "Het goot. Desondanks stond de zaal vol."],
+          ["immers", "een reden die je allebei al kent", "Hij weet het al; hij was er immers bij."],
+          ["althans", "je nuanceert wat je net zei", "Hij komt, althans dat zei hij."]
+        ]
+      },
+      "callout": "*daarom* = mijn eigen reden om iets te doen; *daardoor* = het gevolg dat mij overkwam."
+    },
+    {
+      "type": "card",
+      "title": "Vooraan? Dan draait de zin om",
+      "body": "Deze woorden zijn **bijwoorden**, geen voegwoorden. Zet je er een op plaats 1, dan staat de persoonsvorm meteen daarna en het onderwerp erachter: *Daardoor **kon ik** niet komen.* — niet *Daardoor ik kon…*. Bij *vandaar* gaat het net iets anders: dat krijgt meestal **dat + bijzin** achter zich (*Vandaar **dat** ik later was*).",
+      "table": {
+        "headers": ["Fout", "Goed"],
+        "rows": [
+          ["Daardoor ik kwam te laat.", "Daardoor kwam ik te laat."],
+          ["Desondanks het feest ging door.", "Desondanks ging het feest door."],
+          ["Vandaar ik was later.", "Vandaar dat ik later was."]
+        ]
+      },
+      "callout": "*immers* is de uitzondering: dat staat niet vooraan, maar onbeklemtoond middenin de zin."
+    },
+    {
+      "type": "chips",
+      "title": "Verbanden horen — tik om te luisteren",
+      "items": [
+        { "nl": "De trein viel uit. Daardoor miste ik de soundcheck.", "en": "The train was cancelled. As a result I missed the soundcheck.", "speak": "De trein viel uit. Daardoor miste ik de soundcheck." },
+        { "nl": "Vandaar dat ik gisteren niet reageerde.", "en": "That's why I didn't reply yesterday.", "speak": "Vandaar dat ik gisteren niet reageerde." },
+        { "nl": "Het regende de hele dag. Desondanks stond de zaal vol.", "en": "It rained all day. Even so the venue was packed.", "speak": "Het regende de hele dag. Desondanks stond de zaal vol." },
+        { "nl": "Je kent hem toch? Hij zat immers bij ons op school.", "en": "You know him, right? He was at school with us, after all.", "speak": "Je kent hem toch? Hij zat immers bij ons op school." },
+        { "nl": "We beginnen om negen uur, althans dat is het plan.", "en": "We start at nine, at least that's the plan.", "speak": "We beginnen om negen uur, althans dat is het plan." },
+        { "nl": "Ik had geen zin. Daarom ben ik thuisgebleven.", "en": "I didn't feel like it. That's why I stayed home.", "speak": "Ik had geen zin. Daarom ben ik thuisgebleven." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Mijn wekker ging niet af. ___ was ik te laat op mijn werk.* Welke past het best?",
+      "options": ["Daardoor", "Daarom", "Desondanks"],
+      "correct": 0,
+      "explain": "Te laat komen was geen keuze maar een **gevolg** van de kapotte wekker → *daardoor*. *Daarom* zou betekenen dat je zelf besloot te laat te komen; *desondanks* zou een tegenstelling maken die er niet is."
+    },
+    {
+      "type": "contrast",
+      "title": "Bijna hetzelfde, net niet",
+      "pairs": [
+        { "left": "Ik was moe. Daarom ben ik thuisgebleven.", "right": "Er was een storing. Daardoor kwam ik te laat.", "note": "*Daarom* = mijn reden, mijn besluit. *Daardoor* = het gevolg dat mij overkwam." },
+        { "left": "Vandaar dat hij niet belde.", "right": "Desondanks belde hij niet.", "note": "*Vandaar dat* verklaart iets (nu snap je het); *desondanks* zet er juist een streep doorheen (je verwachtte het tegenovergestelde)." },
+        { "left": "Hij was er immers zelf bij.", "right": "Hij was er zelf bij, althans dat beweert hij.", "note": "*Immers* leunt op wat jullie allebei weten; *althans* trekt je eigen bewering een beetje terug." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Verbind met *daardoor*, en let op de inversie: *De monitor viel uit. + We hoorden onszelf niet meer.*",
+      "answers": [
+        "De monitor viel uit. Daardoor hoorden we onszelf niet meer",
+        "Daardoor hoorden we onszelf niet meer",
+        "De monitor viel uit, daardoor hoorden we onszelf niet meer"
+      ],
+      "hint": "*Daardoor* staat op plaats 1, dus de persoonsvorm komt op plaats 2.",
+      "explain": "*Daardoor hoorden we onszelf niet meer.* Bijwoord vooraan → inversie: eerst de persoonsvorm (*hoorden*), dan het onderwerp (*we*)."
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Het optreden was uitverkocht. ___ leek Daan er niet blij mee.* Welke past?",
+      "options": ["Desondanks", "Immers", "Vandaar"],
+      "correct": 0,
+      "explain": "Er zit een tegenstelling tussen 'uitverkocht' en 'niet blij' → *desondanks* (+ inversie: *leek Daan*). *Immers* zou een bekende reden geven en staat bovendien nooit vooraan; *vandaar* zou juist een verklaring aankondigen."
+    },
+    {
+      "type": "builder",
+      "title": "Bouw een samenhangend stukje tekst",
+      "prompt": "Vier zinnen, vier stappen: de oorzaak, het gevolg, de tegenwerping en de nuance. Kies per gleuf.",
+      "slots": [
+        { "label": "De oorzaak", "chips": ["De hele week was er verbouwing naast ons", "Ik had drie avonden achter elkaar gerepeteerd", "Het treinverkeer lag plat"] },
+        { "label": "Het gevolg (daardoor …)", "chips": ["daardoor heb ik nauwelijks geslapen", "daardoor kwam er weinig van mijn werk terecht", "daardoor stond ik om zes uur al op de fiets"] },
+        { "label": "De tegenwerping (desondanks …)", "chips": ["desondanks ging alles goed", "desondanks was ik op tijd", "desondanks heb ik geen woord Engels gesproken"] },
+        { "label": "De nuance (althans …)", "chips": ["althans, dat vond ik zelf", "althans, bijna alles", "althans, dat zeggen ze"] }
+      ],
+      "sample": "Het treinverkeer lag plat. Daardoor stond ik om zes uur al op de fiets. Desondanks was ik op tijd, althans, dat vond ik zelf."
+    },
+    {
+      "type": "dialogue",
+      "scene": "The day after the support gig. Daan tells You and Emma how it went — mostly in cause, effect and objection.",
+      "lines": [
+        { "speaker": "Daan", "nl": "De soundcheck liep helemaal uit. Daardoor stonden we pas tien minuten voor tijd op het podium.", "en": "The soundcheck ran way over. As a result we only got on stage ten minutes before showtime.", "spotlight": "*Daardoor* vooraan → inversie: *stonden we*." },
+        { "speaker": "Emma", "nl": "Vandaar dat je zo laat appte.", "en": "That explains why you texted so late.", "spotlight": "*Vandaar dat* + bijzin: de verklaring achteraf." },
+        { "speaker": "Daan", "nl": "Precies. En de monitor viel halverwege uit.", "en": "Exactly. And the monitor cut out halfway through." },
+        { "speaker": "You", "nl": "Hoorden jullie jezelf nog wel?", "en": "Could you still hear yourselves at all?" },
+        { "speaker": "Daan", "nl": "Nauwelijks. Desondanks hebben we volgens mij het beste optreden ooit gespeeld.", "en": "Barely. Even so I reckon we played the best show we've ever played.", "spotlight": "*Desondanks* — tegenstelling met inversie." },
+        { "speaker": "Emma", "nl": "Dat verbaast me niks. Jullie hebben immers maanden gerepeteerd.", "en": "That doesn't surprise me. You have been rehearsing for months, after all.", "spotlight": "*immers* onbeklemtoond middenin — een reden die iedereen al kent." },
+        { "speaker": "Daan", "nl": "Nou ja, maanden. Een week of zes, althans serieus.", "en": "Well, months. Six weeks or so, seriously anyway.", "spotlight": "*althans* nuanceert wat hij net zei." },
+        { "speaker": "You", "nl": "En, komt er een volgende?", "en": "And, will there be another one?" },
+        { "speaker": "Daan", "nl": "Ze zouden ons terugbellen. Daar reken ik voorlopig niet op, hoor.", "en": "They said they'd call us back. I'm not counting on it for now, mind you." },
+        { "speaker": "Emma", "nl": "Toch wel. Vandaar dat ik alvast een datum vrijhoud.", "en": "Oh, I am. Which is why I'm keeping a date free already." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Vertel over een dag die anders liep dan gepland. Gebruik minstens *daardoor*, *desondanks* en *althans*, elk één keer, en let op de inversie na een bijwoord vooraan. In het Nederlands, minstens drie zinnen.",
+      "starters": ["Het begon ermee dat …", "Daardoor …", "Desondanks …", "Althans, …"],
+      "minSentences": 3
+    }
+  ]
+}

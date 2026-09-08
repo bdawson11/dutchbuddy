@@ -1,0 +1,1476 @@
+{
+  "schemaVersion": 1,
+  "packId": "italian-it-v1",
+  "days": {
+    "day-01": {
+      "day": 1,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "I suoni dell'italiano",
+      "emoji": "🔊",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The pure 7-vowel system, clean unslurred vowels, and where the stress falls",
+      "steps": 11
+    },
+    "day-02": {
+      "day": 2,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "C, G, e le doppie",
+      "emoji": "🌀",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Hard vs soft c/g (ci/chi, gi/ghi), the gn/gli/sc sounds, and why double consonants change the word",
+      "steps": 11
+    },
+    "day-03": {
+      "day": 3,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Saluti e il bar",
+      "emoji": "☕",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Greetings by time of day, please/thank you/you're welcome, and ordering your first caffè",
+      "steps": 10
+    },
+    "day-04": {
+      "day": 4,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Io sono, tu sei: il verbo essere",
+      "emoji": "🧍",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Subject pronouns, the verb essere, the tu/Lei split, and why Italian usually drops the pronoun",
+      "steps": 10
+    },
+    "day-05": {
+      "day": 5,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Avere e dire di no",
+      "emoji": "🙅",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The verb avere, saying no with non, and pointing things out with c'è / ci sono",
+      "steps": 11
+    },
+    "day-06": {
+      "day": 6,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Il, lo, la: genere e articoli",
+      "emoji": "🔤",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Nouns are masculine or feminine, the il/lo/la article choice, and how plurals flip the ending",
+      "steps": 10
+    },
+    "day-07": {
+      "day": 7,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "capstone",
+      "title": "Il mio racconto: mi presento",
+      "emoji": "🎉",
+      "level": "A1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week 1 capstone: sounds, greetings, essere & avere — then build your first real self-introduction",
+      "steps": 12
+    },
+    "day-08": {
+      "day": 8,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "I numeri da zero a cento",
+      "emoji": "🔢",
+      "level": "A1",
+      "durationMin": [
+        15,
+        20
+      ],
+      "summary": "Counting 0-100, with the vowel-drop joins in the tens (ventuno, trentotto) and the accent on -tré",
+      "steps": 11
+    },
+    "day-09": {
+      "day": 9,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Quant'è? Prezzi ed euro",
+      "emoji": "💶",
+      "level": "A1",
+      "durationMin": [
+        15,
+        20
+      ],
+      "summary": "Asking prices, handling euro and centesimi, and paying at the bar",
+      "steps": 9
+    },
+    "day-10": {
+      "day": 10,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Che ore sono? Giorni e mesi",
+      "emoji": "🕐",
+      "level": "A1",
+      "durationMin": [
+        18,
+        25
+      ],
+      "summary": "Telling time (è l'una vs sono le due), the days of the week, and the months of the year",
+      "steps": 11
+    },
+    "day-11": {
+      "day": 11,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Io parlo, tu lavori: i verbi in -are",
+      "emoji": "💬",
+      "level": "A1",
+      "durationMin": [
+        15,
+        22
+      ],
+      "summary": "Present tense of regular -are verbs (parlare, lavorare, abitare) and Italian's subject-drop",
+      "steps": 10
+    },
+    "day-12": {
+      "day": 12,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Capisco, leggo, dormo: i verbi in -ere e -ire",
+      "emoji": "🧩",
+      "level": "A1",
+      "durationMin": [
+        18,
+        25
+      ],
+      "summary": "Present tense of -ere and -ire verbs (including the -isc- type: capire to capisco) and yes/no questions by intonation",
+      "steps": 11
+    },
+    "day-13": {
+      "day": 13,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Faccio, vado, sto: i tre irregolari",
+      "emoji": "🚶",
+      "level": "A1",
+      "durationMin": [
+        18,
+        25
+      ],
+      "summary": "The essential irregulars fare, andare, and stare - daily routines, a vs in, and how you're doing",
+      "steps": 11
+    },
+    "day-14": {
+      "day": 14,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "capstone",
+      "title": "Il mio racconto: la mia giornata",
+      "emoji": "🎉",
+      "level": "A1",
+      "durationMin": [
+        20,
+        25
+      ],
+      "summary": "Week 2 capstone: numbers, time, and the verb engine, then extend your self-intro with your daily routine",
+      "steps": 13
+    },
+    "day-15": {
+      "day": 15,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Mio, mia, miei: la famiglia",
+      "emoji": "👪",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Family vocabulary, the possessives mio/mia/miei/mie, and the no-article quirk with singular family words",
+      "steps": 10
+    },
+    "day-16": {
+      "day": 16,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Alto o alta? Gli aggettivi e l'accordo",
+      "emoji": "🧩",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Adjective agreement (four endings vs two), where adjectives go, and the shortened bello/buono",
+      "steps": 10
+    },
+    "day-17": {
+      "day": 17,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Questo qui, quello là: le foto di famiglia",
+      "emoji": "📸",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "questo vs quello, demonstrative agreement, and showing photos of family and places",
+      "steps": 10
+    },
+    "day-18": {
+      "day": 18,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Il tuo quartiere: a, in, da",
+      "emoji": "🗺️",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Neighborhood vocabulary, asking dov'è…?, and the prepositions a/in/da for place",
+      "steps": 10
+    },
+    "day-19": {
+      "day": 19,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Com'è? Descrivere le persone",
+      "emoji": "🧑",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Describing people's looks and personality, plus the invariable idiom essere in gamba",
+      "steps": 11
+    },
+    "day-20": {
+      "day": 20,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "review",
+      "title": "Il quartiere di Giulia",
+      "emoji": "🏛️",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Review + immersion: Giulia narrates her Bologna quartiere, weaving family, adjectives, and questo/quello",
+      "steps": 7
+    },
+    "day-21": {
+      "day": 21,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "capstone",
+      "title": "Il mio racconto: famiglia e quartiere",
+      "emoji": "🖼️",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week 3 capstone: family possessives, adjective agreement, questo/quello, the quartiere — then extend your self-intro",
+      "steps": 12
+    },
+    "day-22": {
+      "day": 22,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Colazione, pranzo, cena",
+      "emoji": "🍝",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Meal structure — colazione, pranzo, cena, primo and secondo — plus Italian meal culture.",
+      "steps": 10
+    },
+    "day-23": {
+      "day": 23,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Al bar e in trattoria",
+      "emoji": "☕",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Ordering politely at a bar or trattoria: vorrei, per me, mi porta…, and asking for the bill.",
+      "steps": 10
+    },
+    "day-24": {
+      "day": 24,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Potere, volere, dovere",
+      "emoji": "🙏",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The modal verbs potere, volere, dovere + infinitive — Italian's politeness engine.",
+      "steps": 9
+    },
+    "day-25": {
+      "day": 25,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Mi piace, mi piacciono",
+      "emoji": "😍",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The piacere construction — mi piace vs mi piacciono, the classic beginner trap.",
+      "steps": 10
+    },
+    "day-26": {
+      "day": 26,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Al mercato",
+      "emoji": "🛒",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Market and supermarket quantities — un etto, un chilo, una fetta — and paying.",
+      "steps": 10
+    },
+    "day-27": {
+      "day": 27,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "review",
+      "title": "Pietro e la sua pizzeria",
+      "emoji": "🍕",
+      "level": "A1",
+      "durationMin": [
+        15,
+        20
+      ],
+      "summary": "Week 4 review and immersion: Pietro's Naples routine and his favorite pizzeria.",
+      "steps": 7
+    },
+    "day-28": {
+      "day": 28,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "capstone",
+      "title": "Ordino, descrivo, mi presento",
+      "emoji": "🎉",
+      "level": "A1",
+      "durationMin": [
+        20,
+        25
+      ],
+      "summary": "Week 4 capstone: order food, describe your tastes, and grow your self-intro with food likes and a modal wish.",
+      "steps": 12
+    },
+    "day-29": {
+      "day": 29,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "Il passato prossimo con avere",
+      "emoji": "🕰",
+      "level": "A2",
+      "durationMin": [
+        16,
+        24
+      ],
+      "summary": "Building the passato prossimo with avere: regular participles -ato/-uto/-ito",
+      "steps": 10
+    },
+    "day-30": {
+      "day": 30,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "Il passato prossimo con essere",
+      "emoji": "🚶",
+      "level": "A2",
+      "durationMin": [
+        16,
+        24
+      ],
+      "summary": "Passato prossimo with essere for motion/change verbs, plus participle agreement",
+      "steps": 10
+    },
+    "day-31": {
+      "day": 31,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "I participi irregolari",
+      "emoji": "📋",
+      "level": "A2",
+      "durationMin": [
+        17,
+        25
+      ],
+      "summary": "The top irregular past participles you can't derive from the -ato/-uto/-ito rule",
+      "steps": 10
+    },
+    "day-32": {
+      "day": 32,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "Essere o avere? La scelta giusta",
+      "emoji": "⚖️",
+      "level": "A2",
+      "durationMin": [
+        16,
+        24
+      ],
+      "summary": "Reflexives take essere with agreement; some verbs take both auxiliaries with a meaning shift",
+      "steps": 10
+    },
+    "day-33": {
+      "day": 33,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "In viaggio: il treno",
+      "emoji": "🚆",
+      "level": "A2",
+      "durationMin": [
+        17,
+        25
+      ],
+      "summary": "Train travel vocabulary — Trenitalia, regionale vs alta velocità, il binario, timbrare il biglietto",
+      "steps": 10
+    },
+    "day-34": {
+      "day": 34,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "review",
+      "title": "Ripasso: un weekend alle Cinque Terre",
+      "emoji": "🌊",
+      "level": "A2",
+      "durationMin": [
+        18,
+        26
+      ],
+      "summary": "Week 5 review: passato prossimo with avere/essere, agreement, irregular participles — plus Giulia's Cinque Terre trip",
+      "steps": 7
+    },
+    "day-35": {
+      "day": 35,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "capstone",
+      "title": "Cosa hai fatto? Il mio racconto",
+      "emoji": "📖",
+      "level": "A2",
+      "durationMin": [
+        20,
+        28
+      ],
+      "summary": "Week 5 capstone: passato prossimo storytelling with Marco, then layer 5 of the growing self-intro",
+      "steps": 12
+    },
+    "day-36": {
+      "day": 36,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Ahi, che male!",
+      "emoji": "🤕",
+      "level": "A2",
+      "durationMin": [
+        15,
+        22
+      ],
+      "summary": "Body vocab and the mi fa male / mi fanno male agreement pattern",
+      "steps": 9
+    },
+    "day-37": {
+      "day": 37,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Prima la farmacia",
+      "emoji": "💊",
+      "level": "A2",
+      "durationMin": [
+        16,
+        24
+      ],
+      "summary": "Italy's pharmacy-first health culture, the mal di… formula, and booking a doctor's appointment",
+      "steps": 10
+    },
+    "day-38": {
+      "day": 38,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Il numero unico: 112",
+      "emoji": "🚑",
+      "level": "A2",
+      "durationMin": [
+        15,
+        22
+      ],
+      "summary": "Emergency phrases and Italy's single emergency number, 112",
+      "steps": 10
+    },
+    "day-39": {
+      "day": 39,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Come ti senti oggi?",
+      "emoji": "🎭",
+      "level": "A2",
+      "durationMin": [
+        15,
+        22
+      ],
+      "summary": "Emotion vocabulary and a first look at the reflexive verb sentirsi",
+      "steps": 9
+    },
+    "day-40": {
+      "day": 40,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Un consiglio da amici",
+      "emoji": "💡",
+      "level": "A2",
+      "durationMin": [
+        16,
+        24
+      ],
+      "summary": "Giving advice with devi/dovresti and the perché non…? suggestion pattern",
+      "steps": 10
+    },
+    "day-41": {
+      "day": 41,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "review",
+      "title": "La settimana no di Sofia",
+      "emoji": "🛵",
+      "level": "A2",
+      "durationMin": [
+        15,
+        20
+      ],
+      "summary": "Week 6 review: immersion with Sofia's rough week — scooter trouble, illness, farmacia to medico",
+      "steps": 7
+    },
+    "day-42": {
+      "day": 42,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "capstone",
+      "title": "Cosa è successo questa settimana",
+      "emoji": "🎉",
+      "level": "A2",
+      "durationMin": [
+        20,
+        25
+      ],
+      "summary": "Week 6 capstone: cosa è successo storytelling, plus layer 6 of il mio racconto — feelings and a health event",
+      "steps": 11
+    },
+    "day-43": {
+      "day": 43,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Com'eri? L'imperfetto",
+      "emoji": "🕰",
+      "level": "A2",
+      "durationMin": [
+        15,
+        22
+      ],
+      "summary": "Forming the imperfetto (-avo/-evo/-ivo) and the three irregulars you need by heart: ero, avevo, facevo",
+      "steps": 10
+    },
+    "day-44": {
+      "day": 44,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Due passati a confronto",
+      "emoji": "⚖️",
+      "level": "A2",
+      "durationMin": [
+        16,
+        24
+      ],
+      "summary": "The usage split between passato prossimo (event) and imperfetto (description/habit/background) — the hinge of A2 storytelling",
+      "steps": 11
+    },
+    "day-45": {
+      "day": 45,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Da bambino, a scuola",
+      "emoji": "🎒",
+      "level": "A2",
+      "durationMin": [
+        15,
+        22
+      ],
+      "summary": "Childhood and school vocabulary — teacher, classmates, recess — practiced with the imperfetto",
+      "steps": 11
+    },
+    "day-46": {
+      "day": 46,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Che tempo faceva?",
+      "emoji": "🌦️",
+      "level": "A2",
+      "durationMin": [
+        16,
+        23
+      ],
+      "summary": "Weather expressions and scene-setting description in the imperfetto",
+      "steps": 11
+    },
+    "day-47": {
+      "day": 47,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Prima e adesso",
+      "emoji": "🔄",
+      "level": "A2",
+      "durationMin": [
+        15,
+        22
+      ],
+      "summary": "Habitual past vs present habits, and the frequency adverbs that connect them (sempre… mai)",
+      "steps": 10
+    },
+    "day-48": {
+      "day": 48,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "review",
+      "title": "Ricordi di Napoli",
+      "emoji": "🍕",
+      "level": "A2",
+      "durationMin": [
+        18,
+        25
+      ],
+      "summary": "Review + immersion: Pietro's childhood in Naples, told in the imperfetto",
+      "steps": 7
+    },
+    "day-49": {
+      "day": 49,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "capstone",
+      "title": "Il mio racconto: da bambino/a",
+      "emoji": "📖",
+      "level": "A2",
+      "durationMin": [
+        20,
+        25
+      ],
+      "summary": "Week 7 capstone: passato prossimo vs imperfetto, childhood vocab — then add a childhood memory to your growing self-intro",
+      "steps": 12
+    },
+    "day-50": {
+      "day": 50,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "Il futuro comincia domani",
+      "emoji": "🔮",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Building the futuro semplice, its irregular stems, time markers, and the present-for-future",
+      "steps": 10
+    },
+    "day-51": {
+      "day": 51,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "Fare progetti",
+      "emoji": "📅",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Making plans with pensare di and avere intenzione di, proposing plans together, and simple predictions",
+      "steps": 10
+    },
+    "day-52": {
+      "day": 52,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "Secondo me...",
+      "emoji": "💬",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Giving opinions with secondo me, sono sicuro/a che, and a first taste of the congiuntivo (penso che sia)",
+      "steps": 10
+    },
+    "day-53": {
+      "day": 53,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "La porta della subordinata",
+      "emoji": "🧩",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Joining sentences with perché, quando, and se — the gate from A2 into real B1 sentences",
+      "steps": 11
+    },
+    "day-54": {
+      "day": 54,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "Più, meno, il migliore",
+      "emoji": "⚖️",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Comparatives and superlatives with più/meno...di, il più...di, plus the irregulars migliore and peggiore",
+      "steps": 11
+    },
+    "day-55": {
+      "day": 55,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "review",
+      "title": "Serve davvero l'italiano?",
+      "emoji": "🗣️",
+      "level": "A2",
+      "durationMin": [
+        15,
+        22
+      ],
+      "summary": "Week 8 review: Giulia and Marco debate whether you really need Italian to live here",
+      "steps": 7
+    },
+    "day-56": {
+      "day": 56,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "capstone",
+      "title": "Il mio prossimo anno",
+      "emoji": "🎉",
+      "level": "A2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week 8 capstone: futuro, plans, opinions, subordination, and comparatives — then il mio racconto, livello 8",
+      "steps": 11
+    },
+    "day-57": {
+      "day": 57,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Il congiuntivo presente",
+      "emoji": "🧩",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Meet the subjunctive: its forms and the trigger verbs (penso che, voglio che, è importante che)",
+      "steps": 9
+    },
+    "day-58": {
+      "day": 58,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Quando serve il congiuntivo (e quando no)",
+      "emoji": "🤔",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The trigger families — impersonal, emotion, doubt — and when to stay in the indicativo (facts)",
+      "steps": 10
+    },
+    "day-59": {
+      "day": 59,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Il discorso indiretto",
+      "emoji": "💬",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Reporting what people said: mi ha detto che…, and reporting questions with se",
+      "steps": 10
+    },
+    "day-60": {
+      "day": 60,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Il condizionale",
+      "emoji": "🙏",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The conditional for politeness and wishes: vorrei, potrei, dovrei, mi piacerebbe",
+      "steps": 10
+    },
+    "day-61": {
+      "day": 61,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Il periodo ipotetico della realtà",
+      "emoji": "🔀",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Real conditions: se + presente → present, future, or command (se piove, resto a casa)",
+      "steps": 10
+    },
+    "day-62": {
+      "day": 62,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "review",
+      "title": "La notizia di Sofia",
+      "emoji": "📰",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week 9 review: complex sentences pulled together, then Sofia's news lands — a job offer in Milano, via reported speech",
+      "steps": 7
+    },
+    "day-63": {
+      "day": 63,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "capstone",
+      "title": "Il mio racconto: la notizia",
+      "emoji": "🎉",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week 9 capstone: gossip about Sofia's news with Marco, then add the reported-speech layer to your growing self-intro",
+      "steps": 11
+    },
+    "day-64": {
+      "day": 64,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "I pronomi diretti: lo, la, li, le",
+      "emoji": "🎯",
+      "level": "B1",
+      "durationMin": [
+        20,
+        25
+      ],
+      "summary": "Direct-object clitics lo/la/li/le, and the past-participle agreement they trigger (l'ho vista)",
+      "steps": 10
+    },
+    "day-65": {
+      "day": 65,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Pronomi indiretti, ci e ne",
+      "emoji": "🧩",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Indirect clitics gli/le, plus the two little words learners dodge forever: ci and ne",
+      "steps": 11
+    },
+    "day-66": {
+      "day": 66,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Pronomi combinati: me lo, glielo, ce n'è",
+      "emoji": "🔗",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Stacking two clitics — indirect + direct — and where they land on infinitives and imperatives",
+      "steps": 11
+    },
+    "day-67": {
+      "day": 67,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Riflessivi e il si impersonale",
+      "emoji": "🔁",
+      "level": "B1",
+      "durationMin": [
+        20,
+        25
+      ],
+      "summary": "Reflexives in the passato prossimo (essere + agreement) and the impersonal si — si mangia bene",
+      "steps": 10
+    },
+    "day-68": {
+      "day": 68,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Sto facendo, sto per partire",
+      "emoji": "⏳",
+      "level": "B1",
+      "durationMin": [
+        20,
+        25
+      ],
+      "summary": "stare + gerundio for what's happening now, and stare per + infinito for what's about to happen",
+      "steps": 10
+    },
+    "day-69": {
+      "day": 69,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "review",
+      "title": "Il trasloco di Sofia",
+      "emoji": "📦",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Moving day: Sofia leaves Bologna for Milan — the week's pronouns and verb clusters, all braided into one scene",
+      "steps": 7
+    },
+    "day-70": {
+      "day": 70,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "capstone",
+      "title": "Il mio racconto: la mia grande decisione",
+      "emoji": "✍️",
+      "level": "B1",
+      "durationMin": [
+        25,
+        30
+      ],
+      "summary": "Week 10 capstone: pull the whole clitic-and-verb-cluster module together, then add a big decision to your self-intro",
+      "steps": 11
+    },
+    "day-71": {
+      "day": 71,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Verbo + preposizione: le coppie fisse",
+      "emoji": "🔗",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Verbs that glue to a fixed preposition before an infinitive: the 'a' family and the 'di' family, plus pensare a vs pensare di",
+      "steps": 10
+    },
+    "day-72": {
+      "day": 72,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Le paroline: l'anima del parlato",
+      "emoji": "🗣️",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Discourse markers — allora, dai, magari, insomma, boh, guarda, senti, comunque — and using them to soften the blunt thing",
+      "steps": 10
+    },
+    "day-73": {
+      "day": 73,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Gli alterati: ino, one, accio",
+      "emoji": "📏",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Diminutives, augmentatives and pejoratives (-ino/-etto/-one/-accio), the feelings they add, and the frozen ones (panino, tavolino)",
+      "steps": 10
+    },
+    "day-74": {
+      "day": 74,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Il congiuntivo senza paura",
+      "emoji": "💪",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The fear module: why learners dodge the congiuntivo, which triggers actually matter, three memorised scaffolds, and the mantra 'quando sbagli, non succede niente'",
+      "steps": 10
+    },
+    "day-75": {
+      "day": 75,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Dare del tu o dare del Lei",
+      "emoji": "🤝",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "tu vs Lei mastery: the verb-person shift, courtesy formulas, negotiating the switch to tu, and never mixing the two registers with one person",
+      "steps": 10
+    },
+    "day-76": {
+      "day": 76,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "review",
+      "title": "Sabato a Milano da Sofia",
+      "emoji": "🚄",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week 11 review woven into the immersion: Giulia visits Sofia in Milan, braiding verb+prep, paroline, alterati, the congiuntivo and tu/Lei",
+      "steps": 7
+    },
+    "day-77": {
+      "day": 77,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "capstone",
+      "title": "Il mio racconto: formale e informale",
+      "emoji": "🎭",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week 11 capstone: verb+prep, paroline, alterati, congiuntivo and tu/Lei — then build your self-intro twice, formal (Lei) and casual (tu), with one congiuntivo (layer 11)",
+      "steps": 11
+    },
+    "day-78": {
+      "day": 78,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "Dai, senti, guarda: l'imperativo",
+      "emoji": "📣",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Giving commands the Italian way — tu/Lei/voi forms, attaching clitics, and softening it all with a paroletta",
+      "steps": 10
+    },
+    "day-79": {
+      "day": 79,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "Il semaforo dello slang",
+      "emoji": "🚦",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "A traffic light for register: green words safe anywhere, yellow ones for friends, and the red ones you recognise but never say",
+      "steps": 11
+    },
+    "day-80": {
+      "day": 80,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "L'aperitivo e la vita sociale",
+      "emoji": "🍹",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The aperitivo ritual: ordering a spritz and a tagliere, buying the round, and the toast that seals it",
+      "steps": 11
+    },
+    "day-81": {
+      "day": 81,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "Dal barbiere e in negozio",
+      "emoji": "💈",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Service-counter Italian: getting a trim, browsing and trying things on, and the polite Lei you'll hear back",
+      "steps": 11
+    },
+    "day-82": {
+      "day": 82,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "Modi di dire e proverbi",
+      "emoji": "🐺",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Twelve idioms and proverbs that make no sense word-for-word — and everything sense in Italian",
+      "steps": 11
+    },
+    "day-83": {
+      "day": 83,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "review",
+      "title": "Un anno dopo: tutti all'aperitivo",
+      "emoji": "🥂",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "The final immersion: the whole cast reunites in Bologna for an aperitivo, one year on — every Week 12 move braided in",
+      "steps": 8
+    },
+    "day-84": {
+      "day": 84,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "capstone",
+      "title": "Il mio racconto, definitivo",
+      "emoji": "🎉",
+      "level": "B1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The finale: twelve weeks recapped, a letter to your day-one self, the definitive B1 self-intro with every layer, and Italian farewells",
+      "steps": 12
+    },
+    "day-85": {
+      "day": 85,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "Il congiuntivo passato",
+      "emoji": "🧩",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The past subjunctive: penso che sia andato — for what has already happened, under a present trigger",
+      "steps": 11
+    },
+    "day-86": {
+      "day": 86,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "Il congiuntivo imperfetto",
+      "emoji": "🕰",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The imperfect subjunctive: pensavo che fosse — triggered by a past main verb",
+      "steps": 10
+    },
+    "day-87": {
+      "day": 87,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "Il congiuntivo trapassato",
+      "emoji": "🧩",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The pluperfect subjunctive: credevo che fosse già partito — a past before a past",
+      "steps": 9
+    },
+    "day-88": {
+      "day": 88,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "La concordanza dei tempi",
+      "emoji": "🧩",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Sequence of tenses: the main verb picks the branch, timing picks the rung",
+      "steps": 10
+    },
+    "day-89": {
+      "day": 89,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "Il congiuntivo dopo le congiunzioni",
+      "emoji": "🔗",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Conjunctions that always trigger the subjunctive: benché, prima che, purché, a meno che…",
+      "steps": 10
+    },
+    "day-90": {
+      "day": 90,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "review",
+      "title": "Marco e la Bologna che cambia",
+      "emoji": "💬",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Week 13 review + season-2 immersion: Marco vents about how Bologna is changing, in full congiuntivo",
+      "steps": 7
+    },
+    "day-91": {
+      "day": 91,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "capstone",
+      "title": "Il mio racconto: un'opinione sfumata",
+      "emoji": "🎉",
+      "level": "B2",
+      "durationMin": [
+        25,
+        35
+      ],
+      "summary": "Week 13 capstone: the full congiuntivo, then add a nuanced opinion with connectors to your self-intro",
+      "steps": 11
+    },
+    "day-92": {
+      "day": 92,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Il periodo ipotetico I: la realtà",
+      "emoji": "🌦",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The real conditional: se + indicativo — likely, everyday 'if' sentences",
+      "steps": 9
+    },
+    "day-93": {
+      "day": 93,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Il periodo ipotetico II: la possibilità",
+      "emoji": "🤔",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The possible conditional: se + congiuntivo imperfetto, condizionale — se avessi tempo, verrei",
+      "steps": 9
+    },
+    "day-94": {
+      "day": 94,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Il periodo ipotetico III: l'irrealtà nel passato",
+      "emoji": "😔",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The impossible past conditional: se avessi saputo, sarei venuto — the grammar of regret",
+      "steps": 9
+    },
+    "day-95": {
+      "day": 95,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Il condizionale passato",
+      "emoji": "💭",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The past conditional: avrei voluto (would-have) and the future-in-the-past (ha detto che sarebbe venuto)",
+      "steps": 9
+    },
+    "day-96": {
+      "day": 96,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Rimpianti e desideri",
+      "emoji": "✨",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Wishes and regrets: magari + congiuntivo, se solo…, avrei dovuto/potuto/voluto",
+      "steps": 9
+    },
+    "day-97": {
+      "day": 97,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "review",
+      "title": "Sofia guarda indietro",
+      "emoji": "💬",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Week 14 review + immersion: Sofia in Milano looks back on her move with hypotheticals and regret",
+      "steps": 7
+    },
+    "day-98": {
+      "day": 98,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "capstone",
+      "title": "Il mio racconto: un'ipotesi e un rimpianto",
+      "emoji": "🎉",
+      "level": "B2",
+      "durationMin": [
+        25,
+        35
+      ],
+      "summary": "Week 14 capstone: the three conditionals, then add a hypothetical and a regret to your self-intro",
+      "steps": 11
+    }
+  }
+}

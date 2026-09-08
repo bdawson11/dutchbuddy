@@ -1,0 +1,1776 @@
+{
+  "schemaVersion": 1,
+  "packId": "dutch-nl-v1",
+  "days": {
+    "day-01": {
+      "day": 1,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Klanken van het Nederlands",
+      "emoji": "🔊",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Long vs short vowels, the hard g, and sch",
+      "steps": 11
+    },
+    "day-02": {
+      "day": 2,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Klanken II — de tweeklanken",
+      "emoji": "🌊",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "ui, ij/ei, eu, oe, au/ou — and your first Dutch sentences",
+      "steps": 11
+    },
+    "day-03": {
+      "day": 3,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Hallo! — groeten en het café",
+      "emoji": "☕",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Greetings by time of day, please/thank you, and ordering your first coffee",
+      "steps": 11
+    },
+    "day-04": {
+      "day": 4,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Ik ben, jij bent — voornaamwoorden en zijn",
+      "emoji": "🧍",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "All the personal pronouns, the verb zijn (to be), and the je-vs-u register",
+      "steps": 11
+    },
+    "day-05": {
+      "day": 5,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Ik heb — hebben en de ontkenning",
+      "emoji": "🙅",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The verb hebben (to have), and today's one big thing: niet vs geen",
+      "steps": 10
+    },
+    "day-06": {
+      "day": 6,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "de of het — en het meervoud",
+      "emoji": "🚪",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Article gender (de vs het), the -en and -s plural rules, and why de/het matters later",
+      "steps": 10
+    },
+    "day-07": {
+      "day": 7,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "capstone",
+      "title": "Mijn verhaal — jouw eerste voorstelrondje",
+      "emoji": "🎉",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week 1 recap across greetings, zijn, hebben and de/het — then your first real self-introduction",
+      "steps": 11
+    },
+    "day-08": {
+      "day": 8,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Tellen — van nul tot honderd",
+      "emoji": "🔢",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Numbers 0–100, the -tien teens, and the reversed tens (vierentwintig)",
+      "steps": 10
+    },
+    "day-09": {
+      "day": 9,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Wat kost het? — geld en grote getallen",
+      "emoji": "💶",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Hundreds and thousands, euro amounts, and reading prices like €3,50 aloud",
+      "steps": 10
+    },
+    "day-10": {
+      "day": 10,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Hoe laat is het? — tijd, dagen, maanden",
+      "emoji": "🕰",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Telling time, the half-zes trap, days of the week, months, and 's ochtends/'s avonds",
+      "steps": 12
+    },
+    "day-11": {
+      "day": 11,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "De V2-regel — werkwoord op plek twee",
+      "emoji": "🧩",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Present-tense conjugation and verb-second: front anything, the verb stays in slot 2",
+      "steps": 12
+    },
+    "day-12": {
+      "day": 12,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Vragen stellen — inversie en vraagwoorden",
+      "emoji": "❓",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Yes/no questions by inversion, the dropped -t with jij, and the question words",
+      "steps": 11
+    },
+    "day-13": {
+      "day": 13,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Er is, er zijn — en deze, die, dit, dat",
+      "emoji": "👉",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Saying there is/are with er, and pointing with demonstratives tied to de/het",
+      "steps": 11
+    },
+    "day-14": {
+      "day": 14,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "capstone",
+      "title": "Mijn dag — week 2 op een rij",
+      "emoji": "🎉",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Recap of numbers, time, V2 and questions, then mijn verhaal layer 2: your daily routine",
+      "steps": 12
+    },
+    "day-15": {
+      "day": 15,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Familie, met een beetje -je",
+      "emoji": "👪",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Family words and your first diminutive (-je) as warmth",
+      "steps": 11
+    },
+    "day-16": {
+      "day": 16,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Leuk of leuke?",
+      "emoji": "🧩",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Adjectives and the -e inflection rule, tied to de/het",
+      "steps": 10
+    },
+    "day-17": {
+      "day": 17,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Van mij, van jou",
+      "emoji": "📸",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Possessives (mijn, jouw, zijn, haar, ons/onze, hun) for showing off photos",
+      "steps": 10
+    },
+    "day-18": {
+      "day": 18,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Mijn buurt, mijn stad",
+      "emoji": "🏘",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Neighborhood vocab, Dutch address talk, and the postcode format",
+      "steps": 10
+    },
+    "day-19": {
+      "day": 19,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Hoe is hij, hoe is zij?",
+      "emoji": "🎭",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Describing looks and personality — aardig, gezellig, druk, rustig, grappig, streng",
+      "steps": 11
+    },
+    "day-20": {
+      "day": 20,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "review",
+      "title": "Een wandeling door de Pijp",
+      "emoji": "🚲",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week 3 review, then an immersion walk with Emma through her Amsterdam buurt",
+      "steps": 7
+    },
+    "day-21": {
+      "day": 21,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "capstone",
+      "title": "Mijn familie, mijn buurt",
+      "emoji": "🎉",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Capstone: family and neighborhood portrait, plus mijn verhaal layer 3",
+      "steps": 11
+    },
+    "day-22": {
+      "day": 22,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Brood, broodjes en het avondeten",
+      "emoji": "🍞",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Ontbijt/lunch/avondeten structure, broodje culture, and everyday food words",
+      "steps": 10
+    },
+    "day-23": {
+      "day": 23,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Mag ik...? Bestellen bij de snackbar",
+      "emoji": "☕",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The four ordering phrases — mag ik, ik wil graag, doe maar, voor mij — and a snackbar dialogue",
+      "steps": 10
+    },
+    "day-24": {
+      "day": 24,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Kunnen, willen, moeten, mogen",
+      "emoji": "🧩",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The four modal verbs and the word order rule that pushes the infinitive to the end",
+      "steps": 10
+    },
+    "day-25": {
+      "day": 25,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Houden van en lekker vinden",
+      "emoji": "😋",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "houden van, vinden, graag — three ways to say you like something — plus lekker as universal approval",
+      "steps": 10
+    },
+    "day-26": {
+      "day": 26,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Bij Albert Heijn: hoeveelheden en pinnen",
+      "emoji": "🛒",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Quantities at the market (ons, pondje, kilo, bakje) and paying by card",
+      "steps": 10
+    },
+    "day-27": {
+      "day": 27,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "review",
+      "title": "Terugblik & Bram's snackbar",
+      "emoji": "🍟",
+      "level": "A1",
+      "durationMin": [
+        15,
+        20
+      ],
+      "summary": "Recap week 4, then Bram walks you through his Rotterdam routine and his favorite snackbar",
+      "steps": 7
+    },
+    "day-28": {
+      "day": 28,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "capstone",
+      "title": "Mijn verhaal: eten, bestellen, vertellen",
+      "emoji": "🎉",
+      "level": "A1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Full-A1 production day: order, describe, introduce — then grow your self-intro with food, drink, and a wish",
+      "steps": 12
+    },
+    "day-29": {
+      "day": 29,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "Het perfectum met hebben",
+      "emoji": "🕰",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The everyday past: hebben + a ge-…-t/-d participle, and the 't kofschip rule",
+      "steps": 10
+    },
+    "day-30": {
+      "day": 30,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "Het perfectum met zijn",
+      "emoji": "🚶",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Motion and change-of-state verbs take zijn, plus the hebben-vs-zijn choice",
+      "steps": 11
+    },
+    "day-31": {
+      "day": 31,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "Onregelmatige deelwoorden",
+      "emoji": "🃏",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The top fifteen irregular participles you'll use every day",
+      "steps": 11
+    },
+    "day-32": {
+      "day": 32,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "Scheidbare werkwoorden",
+      "emoji": "✂️",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Separable verbs split in the present and tuck -ge- inside in the perfect",
+      "steps": 10
+    },
+    "day-33": {
+      "day": 33,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "Met het OV op reis",
+      "emoji": "🚂",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Trains, the OV-chipkaart, in-/uitchecken, overstappen and platform announcements",
+      "steps": 10
+    },
+    "day-34": {
+      "day": 34,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "review",
+      "title": "Emma's weekend op Texel",
+      "emoji": "🏝",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Recap the perfect tense, then hear Emma narrate a whole weekend in it",
+      "steps": 7
+    },
+    "day-35": {
+      "day": 35,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "capstone",
+      "title": "Wat heb je gedaan?",
+      "emoji": "🎉",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Storytelling in the perfect tense with Daan, plus mijn verhaal layer 5",
+      "steps": 12
+    },
+    "day-36": {
+      "day": 36,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Het lichaam",
+      "emoji": "🩹",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Body vocab and the pijn patterns — hoofdpijn, buikpijn, and mijn … doet pijn",
+      "steps": 10
+    },
+    "day-37": {
+      "day": 37,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Bij de huisarts",
+      "emoji": "🩺",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The GP-gatekeeper system, making an afspraak, and the paracetamol culture",
+      "steps": 10
+    },
+    "day-38": {
+      "day": 38,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Noodgevallen",
+      "emoji": "🚑",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Bel 112, an apotheek scene, and ik moet naar het ziekenhuis",
+      "steps": 11
+    },
+    "day-39": {
+      "day": 39,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Gevoelens",
+      "emoji": "😊",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "blij, boos, moe, bang, zenuwachtig, verdrietig — and the reflexive zich voelen",
+      "steps": 10
+    },
+    "day-40": {
+      "day": 40,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Advies geven",
+      "emoji": "💡",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "je moet, je kunt beter, a soft preview of zou moeten, and neem rust",
+      "steps": 10
+    },
+    "day-41": {
+      "day": 41,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "review",
+      "title": "Sanne's zware week",
+      "emoji": "🚲",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Recap of week 6 (body, huisarts, emotions, advice) plus an immersion catch-up with Sanne",
+      "steps": 7
+    },
+    "day-42": {
+      "day": 42,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "capstone",
+      "title": "Wat is er gebeurd?",
+      "emoji": "📝",
+      "level": "A2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Production day across week 6, plus mijn verhaal laag 6 — how you've been feeling",
+      "steps": 12
+    },
+    "day-43": {
+      "day": 43,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Het imperfectum — het andere verleden",
+      "emoji": "🕰",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Regular -de/-te past via 't kofschip, plus the essential irregulars was/had/ging/kwam/zei/deed",
+      "steps": 10
+    },
+    "day-44": {
+      "day": 44,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Perfect of imperfectum?",
+      "emoji": "⚖️",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The usage split: perfect for discrete events, imperfectum for description, background and was/had",
+      "steps": 10
+    },
+    "day-45": {
+      "day": 45,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Toen ik klein was…",
+      "emoji": "🧒",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Childhood and school vocab, and toen as a conjunction that sends the verb to the end",
+      "steps": 10
+    },
+    "day-46": {
+      "day": 46,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Het weer en het landschap van toen",
+      "emoji": "🌧",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Describing past weather (het regende, de zon scheen) and places (het landschap was plat, er waren…)",
+      "steps": 10
+    },
+    "day-47": {
+      "day": 47,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Vroeger vs nu",
+      "emoji": "🔁",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Habitual past with the imperfectum and the placement of frequency adverbs (altijd, vaak, soms, nooit, meestal)",
+      "steps": 10
+    },
+    "day-48": {
+      "day": 48,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "review",
+      "title": "Bram over zijn jeugd in Rotterdam",
+      "emoji": "🏗",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week 7 recap, then an imperfectum immersion with Bram about growing up in Rotterdam",
+      "steps": 7
+    },
+    "day-49": {
+      "day": 49,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "capstone",
+      "title": "Mijn verhaal — toen ik klein was",
+      "emoji": "🎉",
+      "level": "A2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Graded past-tense drills, then layer 7 of the growing self-intro: a childhood memory in the imperfectum",
+      "steps": 12
+    },
+    "day-50": {
+      "day": 50,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "Plannen maken met gaan",
+      "emoji": "📅",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The gaan-future: ik ga … doen, plus the time markers morgen, straks and volgende week",
+      "steps": 11
+    },
+    "day-51": {
+      "day": 51,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "Zullen we? — aanbod en belofte",
+      "emoji": "🤝",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "zullen for offers (zal ik…?), suggestions (zullen we…?), promises and predictions",
+      "steps": 11
+    },
+    "day-52": {
+      "day": 52,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "Wat vind jij? — meningen geven",
+      "emoji": "💬",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "ik vind dat, volgens mij, ik denk dat, the agreement ladder — and your first dat-clauses",
+      "steps": 10
+    },
+    "day-53": {
+      "day": 53,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "Het werkwoord naar het eind — omdat, als, dat",
+      "emoji": "🧩",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The A2→B1 gate: in a subordinate clause the finite verb goes to the very end",
+      "steps": 12
+    },
+    "day-54": {
+      "day": 54,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "Groter, groter, het grootst",
+      "emoji": "📈",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Comparatives (groter dan), superlatives (het grootst / de grootste) and the key irregulars",
+      "steps": 11
+    },
+    "day-55": {
+      "day": 55,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "review",
+      "title": "Moeten expats Nederlands leren?",
+      "emoji": "⚖️",
+      "level": "A2",
+      "durationMin": [
+        15,
+        20
+      ],
+      "summary": "Week 8 recap, then Emma and Daan debate whether expats must learn Dutch",
+      "steps": 7
+    },
+    "day-56": {
+      "day": 56,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "capstone",
+      "title": "Mijn komend jaar",
+      "emoji": "🎉",
+      "level": "A2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week 8 production day: graded drills, then add a plan and an opinion to your growing self-intro",
+      "steps": 10
+    },
+    "day-57": {
+      "day": 57,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Bijzinnen II — de hele set",
+      "emoji": "🧩",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "hoewel, terwijl, zodat, voordat, nadat, sinds — all verb-final",
+      "steps": 11
+    },
+    "day-58": {
+      "day": 58,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Betrekkelijke bijzinnen",
+      "emoji": "🔗",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "die for de-words, dat for het-words, and waar + preposition",
+      "steps": 11
+    },
+    "day-59": {
+      "day": 59,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Indirecte rede — wat zei ze?",
+      "emoji": "💬",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "ze zei dat… (verb to the end) and reporting questions with of",
+      "steps": 11
+    },
+    "day-60": {
+      "day": 60,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Zou — beleefd, hypothetisch, zacht",
+      "emoji": "🎩",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "zou for polite requests, hypotheticals, and softened advice",
+      "steps": 11
+    },
+    "day-61": {
+      "day": 61,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Als-zinnen — echt of droom",
+      "emoji": "🌧️",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "real conditions vs hypothetical ones, and the word order on both sides",
+      "steps": 11
+    },
+    "day-62": {
+      "day": 62,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "review",
+      "title": "Het nieuws van Sanne",
+      "emoji": "📞",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week 9 recap, then Sanne's job offer told through reported speech",
+      "steps": 7
+    },
+    "day-63": {
+      "day": 63,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "capstone",
+      "title": "Het nieuws — chisme met Daan",
+      "emoji": "🎉",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week 9 drills, gossip with Daan in reported speech, and mijn verhaal layer 9",
+      "steps": 12
+    },
+    "day-64": {
+      "day": 64,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Er staat een fiets — de plaatshouder er",
+      "emoji": "📍",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Locative and existential er — er is/er zijn and er staat/ligt/hangt",
+      "steps": 10
+    },
+    "day-65": {
+      "day": 65,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Ik heb er twee — de gevreesde er",
+      "emoji": "🧩",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Quantitative er (ik heb er twee) and prepositional er (erover, ermee, the split)",
+      "steps": 12
+    },
+    "day-66": {
+      "day": 66,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Hier wordt gewerkt — de passief",
+      "emoji": "🚧",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The worden passive — signs, news, and worden vs zijn",
+      "steps": 10
+    },
+    "day-67": {
+      "day": 67,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Ik voel me — reflexieven en om … te",
+      "emoji": "🪞",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Reflexive verbs (zich voelen, zich verheugen) and om … te purpose",
+      "steps": 10
+    },
+    "day-68": {
+      "day": 68,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Ik wil naar huis gaan — werkwoordclusters",
+      "emoji": "🔗",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Two-verb word order and verb clusters in subclauses",
+      "steps": 11
+    },
+    "day-69": {
+      "day": 69,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "review",
+      "title": "Verhuisdag — Sanne gaat naar Utrecht",
+      "emoji": "📦",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Review immersion — Sanne's moving day, braiding all of M10",
+      "steps": 7
+    },
+    "day-70": {
+      "day": 70,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "capstone",
+      "title": "Mijn grote beslissing",
+      "emoji": "✉️",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Capstone — 'mijn grote beslissing' and the M10 self-intro layer",
+      "steps": 11
+    },
+    "day-71": {
+      "day": 71,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Vaste combinaties — werkwoord + voorzetsel",
+      "emoji": "🔗",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The 15 fixed verb–preposition pairs Dutch never lets you guess",
+      "steps": 10
+    },
+    "day-72": {
+      "day": 72,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Partikels — de ziel van gesproken Nederlands",
+      "emoji": "🎭",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "even, maar, toch, wel, eens, hoor, nou, joh — the little words that soften everything",
+      "steps": 11
+    },
+    "day-73": {
+      "day": 73,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Verkleinwoorden — -je, -tje, -pje, -etje",
+      "emoji": "🧸",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The diminutive formation rules — and the register they secretly carry",
+      "steps": 11
+    },
+    "day-74": {
+      "day": 74,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Blijf in het Nederlands",
+      "emoji": "🛡️",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Holding the line when the Dutch switch to English on you",
+      "steps": 12
+    },
+    "day-75": {
+      "day": 75,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "u of je? — beleefdheid op maat",
+      "emoji": "🎩",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Calibrating u vs je by context — and how to switch",
+      "steps": 11
+    },
+    "day-76": {
+      "day": 76,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "review",
+      "title": "Emma op bezoek in Utrecht",
+      "emoji": "☕",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "A Saturday catch-up braiding this week's particles and diminutives",
+      "steps": 7
+    },
+    "day-77": {
+      "day": 77,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "capstone",
+      "title": "Mijn catch-up — register onder controle",
+      "emoji": "🎉",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week 11 production day: particles, diminutives, and your self-intro in two registers",
+      "steps": 11
+    },
+    "day-78": {
+      "day": 78,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "Doe maar! — de gebiedende wijs",
+      "emoji": "📣",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Commands from the verb stem, and how even/maar/nou/eens soften them from bossy to friendly",
+      "steps": 11
+    },
+    "day-79": {
+      "day": 79,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "Het straattaal-stoplicht",
+      "emoji": "🚦",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Slang by traffic-light: green words you can use freely, yellow words that need the right room, and why Dutch red-tier cursing is one to leave alone",
+      "steps": 11
+    },
+    "day-80": {
+      "day": 80,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "De snackbar en de borrel",
+      "emoji": "🍟",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Ordering at the snackbar (patatje oorlog, frikandel speciaal) and the borrel social script: rounds, bittergarnituur, proost",
+      "steps": 11
+    },
+    "day-81": {
+      "day": 81,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "Bij de kapper en in de winkel",
+      "emoji": "✂️",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Service scenes and their small-talk scripts: zegt u het maar, kan ik u helpen, ik kijk alleen even",
+      "steps": 10
+    },
+    "day-82": {
+      "day": 82,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "Nu komt de aap uit de mouw",
+      "emoji": "🐒",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Twelve Dutch idioms that don't translate literally — the picture they paint and what they really mean",
+      "steps": 10
+    },
+    "day-83": {
+      "day": 83,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "review",
+      "title": "Een borrel, een jaar later",
+      "emoji": "🥂",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Final immersion: Emma, Daan and a visiting Sanne at a borrel one year on — imperatives, green slang and borrel culture, braided with callbacks to the whole year",
+      "steps": 7
+    },
+    "day-84": {
+      "day": 84,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "capstone",
+      "title": "Mijn verhaal, definitief",
+      "emoji": "🎉",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "The send-off: a twelve-week recap, a letter to your past self (one tense-move per slot), the definitive B1 self-intro, Dutch farewells, and a celebration that you finished",
+      "steps": 12
+    },
+    "day-85": {
+      "day": 85,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "Het wordt gedaan — de lijdende vorm",
+      "emoji": "✍️",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The action passive with worden: shifting focus from who does it to what gets done, plus the door-agent",
+      "steps": 10
+    },
+    "day-86": {
+      "day": 86,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "Werd of is — daad tegenover resultaat",
+      "emoji": "🚪",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The passive in the past (werd/werden) and the classic B2 split: worden (action, process) vs zijn (result, state)",
+      "steps": 10
+    },
+    "day-87": {
+      "day": 87,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "Het moet gedaan worden — passief met modalen",
+      "emoji": "🔧",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The passive infinitive with modal verbs (moet gedaan worden) and the verb cluster at the end of a subclause",
+      "steps": 10
+    },
+    "day-88": {
+      "day": 88,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "Er wordt gedanst — het onpersoonlijk passief",
+      "emoji": "🏗️",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The impersonal, agentless passive with er (er wordt gedanst) — activity verbs, word order, and the register of signs and notices",
+      "steps": 9
+    },
+    "day-89": {
+      "day": 89,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "Passief, actief en *men* — een kwestie van register",
+      "emoji": "📄",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "When Dutch chooses the passive (written, official, distant register), converting active to passive, and men as the impersonal subject",
+      "steps": 10
+    },
+    "day-90": {
+      "day": 90,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "review",
+      "title": "Seizoen twee begint — koffie met Emma",
+      "emoji": "☕",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Week 13 review and the season-2 opener: a passive-heavy catch-up in which Emma reveals a reorganisation at work and a job offer she's weighing",
+      "steps": 7
+    },
+    "day-91": {
+      "day": 91,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "capstone",
+      "title": "Mijn verhaal — een genuanceerde mening",
+      "emoji": "🎯",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Week 13 capstone: produce the passive across all its forms and add the season-2 mijn-verhaal layer — a nuanced opinion built with connectors (hoewel, enerzijds… anderzijds, daarentegen, bovendien)",
+      "steps": 11
+    },
+    "day-92": {
+      "day": 92,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Het verleden vóór het verleden",
+      "emoji": "⏮️",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The pluperfect (voltooid verleden tijd): had/was + participle for the past-before-the-past, and sequencing events with nadat and toen",
+      "steps": 9
+    },
+    "day-93": {
+      "day": 93,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Zou — het beleefde en het hypothetische",
+      "emoji": "🤔",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Conditional zou revisited and deepened: politeness, wishes, advice, and the future-in-the-past",
+      "steps": 10
+    },
+    "day-94": {
+      "day": 94,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Als het anders was — de irreële voorwaarde",
+      "emoji": "🔀",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The counterfactual conditional: present/future unreal (als + past, zou + infinitive) and past unreal (als + pluperfect, conditional perfect)",
+      "steps": 10
+    },
+    "day-95": {
+      "day": 95,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Ik had het moeten weten — spijt en verwijt",
+      "emoji": "😔",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Expressing regret and reproach: had + moeten/kunnen + infinitive (the double infinitive) and the had ik maar / was ik maar wish",
+      "steps": 9
+    },
+    "day-96": {
+      "day": 96,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Anders, stel dat, mocht het — verstopte voorwaarden",
+      "emoji": "🎲",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Hidden and hedged conditionals: anders (otherwise), zonder + noun, stel dat (suppose), and the formal mocht (het) with verb-first order",
+      "steps": 10
+    },
+    "day-97": {
+      "day": 97,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "review",
+      "title": "Daan twijfelt — een aanbod vol 'als… dan…'",
+      "emoji": "🎸",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Week 14 review and immersion: Daan's band gets the support slot he'd regretted losing, and he spirals through hypotheticals and regret before deciding",
+      "steps": 7
+    },
+    "day-98": {
+      "day": 98,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "capstone",
+      "title": "Mijn verhaal — een wat-als en een kleine spijt",
+      "emoji": "🪞",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Week 14 capstone: produce the counterfactual and regret forms, and add the mijn-verhaal layer — a hypothetical and a small regret about your own Dutch journey",
+      "steps": 11
+    },
+    "day-99": {
+      "day": 99,
+      "module": "M15",
+      "unit": "U15",
+      "kind": "lesson",
+      "title": "Het register-schuifje — van jij naar u",
+      "emoji": "🎚️",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Three registers, one message: sliding from informal je to neutral u to fully formal written Dutch",
+      "steps": 10
+    },
+    "day-100": {
+      "day": 100,
+      "module": "M15",
+      "unit": "U15",
+      "kind": "lesson",
+      "title": "Na ontvangst van uw bericht — de naamwoordstijl",
+      "emoji": "🧱",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Nominalisation: turning verbs into nouns (aankomen to bij aankomst, verzoeken to het verzoek tot) and why officialese does it",
+      "steps": 10
+    },
+    "day-101": {
+      "day": 101,
+      "module": "M15",
+      "unit": "U15",
+      "kind": "lesson",
+      "title": "Geachte heer/mevrouw — de formele e-mail",
+      "emoji": "📧",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The formal Dutch email: fixed openings and sign-offs, the four-part structure, and indirect requests with zou u ... kunnen",
+      "steps": 10
+    },
+    "day-102": {
+      "day": 102,
+      "module": "M15",
+      "unit": "U15",
+      "kind": "lesson",
+      "title": "Met belangstelling — de sollicitatiebrief",
+      "emoji": "💼",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The Dutch motivation letter: its four paragraphs, the fixed prepositions (verantwoordelijk voor, ervaring met) and the hedged confidence Dutch employers expect",
+      "steps": 11
+    },
+    "day-103": {
+      "day": 103,
+      "module": "M15",
+      "unit": "U15",
+      "kind": "lesson",
+      "title": "Naar aanleiding van uw brief — post van de instanties",
+      "emoji": "🏛️",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Decoding official Dutch from the gemeente and the Belastingdienst: naar aanleiding van, bijgaand, conform, u dient te — recognise them, don't imitate them",
+      "steps": 10
+    },
+    "day-104": {
+      "day": 104,
+      "module": "M15",
+      "unit": "U15",
+      "kind": "review",
+      "title": "Bram leest mee — een mail aan de gemeente",
+      "emoji": "🖊️",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Week 15 review and immersion: Bram talks You through a formal email to the gemeente, sliding every line from informal to formal",
+      "steps": 8
+    },
+    "day-105": {
+      "day": 105,
+      "module": "M15",
+      "unit": "U15",
+      "kind": "capstone",
+      "title": "Mijn verhaal — mijzelf voorstellen in formeel Nederlands",
+      "emoji": "🎓",
+      "level": "B2",
+      "durationMin": [
+        25,
+        35
+      ],
+      "summary": "Week 15 capstone: write a formal message from scratch and add mijn-verhaal layer 15 — a professional self-presentation in formal register",
+      "steps": 13
+    },
+    "day-106": {
+      "day": 106,
+      "module": "M16",
+      "unit": "U16",
+      "kind": "lesson",
+      "title": "Drie lagen diep — bijzinnen in bijzinnen",
+      "emoji": "🪆",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Stacking subclauses: every embedded clause keeps its own verb-final, even three layers down",
+      "steps": 10
+    },
+    "day-107": {
+      "day": 107,
+      "module": "M16",
+      "unit": "U16",
+      "kind": "lesson",
+      "title": "De kamer waarin het gebeurt — waar + voorzetsel",
+      "emoji": "🧵",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Relative clauses with waar + preposition (waarover, waarmee, waarin, waardoor), dat/wat as relatives, and degene die",
+      "steps": 11
+    },
+    "day-108": {
+      "day": 108,
+      "module": "M16",
+      "unit": "U16",
+      "kind": "lesson",
+      "title": "Er zijn er twee die — *er* op zijn zwaarst",
+      "emoji": "🧮",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Advanced er: two ers in one clause, the quantity er with a relative clause, and fronting the prepositional er as daar",
+      "steps": 10
+    },
+    "day-109": {
+      "day": 109,
+      "module": "M16",
+      "unit": "U16",
+      "kind": "lesson",
+      "title": "Ze zei dat ze zou komen — de indirecte rede",
+      "emoji": "🗣️",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Reported speech in depth: tense back-shift, indirect questions with of, and reporting hearsay with zou and naar verluidt",
+      "steps": 11
+    },
+    "day-110": {
+      "day": 110,
+      "module": "M16",
+      "unit": "U16",
+      "kind": "lesson",
+      "title": "Daardoor, vandaar, desondanks — de lijm in je verhaal",
+      "emoji": "🌉",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Connective adverbs that hold a text together — daardoor, vandaar, desondanks, immers, althans — and the inversion they trigger",
+      "steps": 10
+    },
+    "day-111": {
+      "day": 111,
+      "module": "M16",
+      "unit": "U16",
+      "kind": "review",
+      "title": "Sanne heeft nieuws — en het is groot",
+      "emoji": "👶",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Week 16 review and the season-2 pivot: Sanne comes over from Utrecht to announce she's expecting, and the news gets told and retold in layered tenses and reported speech",
+      "steps": 8
+    },
+    "day-112": {
+      "day": 112,
+      "module": "M16",
+      "unit": "U16",
+      "kind": "capstone",
+      "title": "Mijn verhaal — één anekdote, alle tijden",
+      "emoji": "📖",
+      "level": "B2",
+      "durationMin": [
+        25,
+        35
+      ],
+      "summary": "Week 16 capstone: produce long clause chains, relatives and reported speech, and add the mijn-verhaal layer — one anecdote that moves across tenses and carries a reported line",
+      "steps": 12
+    },
+    "day-113": {
+      "day": 113,
+      "module": "M17",
+      "unit": "U17",
+      "kind": "lesson",
+      "title": "Doe nou even rustig — partikels gestapeld",
+      "emoji": "🧂",
+      "level": "C1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Layering nou, even, toch, wel, maar and eens so the tone lands exactly where you want it",
+      "steps": 11
+    },
+    "day-114": {
+      "day": 114,
+      "module": "M17",
+      "unit": "U17",
+      "kind": "lesson",
+      "title": "Lekker dan — ironie en understatement",
+      "emoji": "🙃",
+      "level": "C1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Dutch dryness: hearing the sarcasm in lekker dan and nou geweldig, and using understatement without giving offence",
+      "steps": 11
+    },
+    "day-115": {
+      "day": 115,
+      "module": "M17",
+      "unit": "U17",
+      "kind": "lesson",
+      "title": "Van je naar u en terug — schakelen tijdens het gesprek",
+      "emoji": "🎚️",
+      "level": "C1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Switching register mid-conversation: softening a blunt line, sharpening a soft one, and reading the room",
+      "steps": 11
+    },
+    "day-120": {
+      "day": 120,
+      "module": "M18",
+      "unit": "U18",
+      "kind": "lesson",
+      "title": "Het werkoverleg — even inhaken",
+      "emoji": "📋",
+      "level": "C1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Meeting Dutch: the agenda vocabulary, taking and holding the floor, disagreeing collegially, and rounding a meeting off",
+      "steps": 10
+    },
+    "day-121": {
+      "day": 121,
+      "module": "M18",
+      "unit": "U18",
+      "kind": "lesson",
+      "title": "Het sollicitatiegesprek — bescheiden opscheppen",
+      "emoji": "💼",
+      "level": "C1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The Dutch job interview: STAR answers, hedged self-praise, naming a real valkuil, and the questions you ask back",
+      "steps": 11
+    },
+    "day-122": {
+      "day": 122,
+      "module": "M18",
+      "unit": "U18",
+      "kind": "lesson",
+      "title": "Daar valt over te praten — onderhandelen",
+      "emoji": "🤝",
+      "level": "C1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Formal spoken register at the table: making a proposal, pushing back without slamming the door, and finding the middenweg",
+      "steps": 11
+    }
+  }
+}

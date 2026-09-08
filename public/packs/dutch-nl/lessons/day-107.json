@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "day-107",
+  "day": 107,
+  "module": "M16",
+  "unit": "U16",
+  "kind": "lesson",
+  "title": "De kamer waarin het gebeurt — waar + voorzetsel",
+  "emoji": "🧵",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Relative clauses with waar + preposition (waarover, waarmee, waarin, waardoor), dat/wat as relatives, and degene die",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Een ding + een voorzetsel = *waar*-",
+      "body": "Verwijs je naar een **ding** en hoort er een voorzetsel bij, dan gebruik je géén *die/dat*, maar **waar + voorzetsel** aan elkaar: *de mail **waarop** ik wacht*, *het project **waaraan** we werken*. Same trick as *erover/daarover*, only now it opens a relative clause.",
+      "table": {
+        "headers": ["Voorzetsel", "Relatief", "Voorbeeld"],
+        "rows": [
+          ["over", "waarover", "de plannen waarover we het hadden"],
+          ["met", "waarmee", "de fiets waarmee ik naar het station ga"],
+          ["in", "waarin", "de kamer waarin niets meer staat"],
+          ["door", "waardoor", "de storing waardoor de trein stilstond"],
+          ["op", "waarop", "de dag waarop alles veranderde"],
+          ["van", "waarvan", "het geld waarvan hij die gitaar kocht"]
+        ]
+      },
+      "callout": "Let op: *met* wordt *waarmee* en *tot* wordt *waartoe* — de vorm verandert een beetje."
+    },
+    {
+      "type": "chips",
+      "title": "Betrekkelijke zinnen — tik om te horen",
+      "items": [
+        { "nl": "Dat is precies het punt waarover we ruzie hadden.", "en": "That's exactly the point we argued about.", "speak": "Dat is precies het punt waarover we ruzie hadden." },
+        { "nl": "Ik zoek het bureau waaraan ik altijd zit.", "en": "I'm looking for the desk I always sit at.", "speak": "Ik zoek het bureau waaraan ik altijd zit." },
+        { "nl": "De trein waarmee ik kwam, had vertraging.", "en": "The train I came on was delayed.", "speak": "De trein waarmee ik kwam, had vertraging." },
+        { "nl": "Er was een storing waardoor iedereen te laat was.", "en": "There was a breakdown that made everyone late.", "speak": "Er was een storing waardoor iedereen te laat was." },
+        { "nl": "Dat is de kast waarin ik alles bewaar.", "en": "That's the cupboard I keep everything in.", "speak": "Dat is de kast waarin ik alles bewaar." },
+        { "nl": "De week waarin ik verhuisde, weet ik nog precies.", "en": "I still remember exactly the week I moved.", "speak": "De week waarin ik verhuisde, weet ik nog precies." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "In spreektaal valt *waar* uit elkaar",
+      "body": "Praat je gewoon met iemand, dan splits je het meestal: *het punt **waar** we het over hadden*, *de fiets **waar** ik mee kwam*. Het voorzetsel schuift naar achteren, vlak vóór de werkwoorden. Aan elkaar (*waarover, waarmee*) klinkt netter en schrijftaliger — allebei goed, kies naar situatie.",
+      "callout": "Gesplitst = spreektaal, aaneen = schrijftaal. Nooit *over dat* of *met dat* voor een ding."
+    },
+    {
+      "type": "contrast",
+      "title": "Aaneen of gesplitst",
+      "pairs": [
+        { "left": "de kamer waar we het over hadden", "right": "de kamer waarover we het hadden", "note": "Links spreektaal, rechts schrijftaal. Betekenis identiek." },
+        { "left": "het idee waar ik niet in geloof", "right": "het idee waarin ik niet geloof", "note": "Het voorzetsel (*in*) blijft vóór de persoonsvorm staan als je splitst." },
+        { "left": "de mensen waar ik mee werk", "right": "de collega's met wie ik werk", "note": "Bij **personen** hoort in verzorgd Nederlands *voorzetsel + wie*, niet *waarmee*." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Dat is de collega ___ ik het project doe.* Welke past in verzorgd Nederlands?",
+      "options": ["met wie", "waarmee", "die met"],
+      "correct": 0,
+      "explain": "Een persoon + voorzetsel → *voorzetsel + wie*: *de collega met wie ik het project doe*. *Waarmee* bewaar je voor dingen; *waar ik het project mee doe* hoor je wel in spreektaal, maar niet in een nette zin over een mens."
+    },
+    {
+      "type": "typed",
+      "prompt": "Maak er één zin van met *waarin*: *Dit is het café. + Daar hebben we elkaar ontmoet.*",
+      "answers": [
+        "Dit is het café waarin we elkaar ontmoet hebben",
+        "Dit is het café waarin we elkaar hebben ontmoet",
+        "Dit is het café waar we elkaar ontmoet hebben",
+        "Dit is het café waar we elkaar hebben ontmoet"
+      ],
+      "hint": "*in* + relatief → *waarin*; in spreektaal *waar … in*, maar hier mag *in* ook wegvallen bij een plaats.",
+      "explain": "*Dit is het café waarin we elkaar ontmoet hebben.* De bijzin houdt zijn werkwoorden achterin; *ontmoet hebben* en *hebben ontmoet* mogen allebei."
+    },
+    {
+      "type": "card",
+      "title": "*dat*, *wat* en *degene die*",
+      "body": "**die** hoort bij de-woorden, **dat** bij het-woorden: *de fiets die*, *het huis dat*. Maar na *alles, iets, niets, het enige* en na een **hele zin** gebruik je **wat**: *alles **wat** je zegt*, *Hij kwam te laat, **wat** ik jammer vond.* Voor een niet-genoemde persoon gebruik je **degene die**: *degene die de sleutel heeft, doet open.*",
+      "table": {
+        "headers": ["Waarnaar je verwijst", "Woord", "Voorbeeld"],
+        "rows": [
+          ["de-woord", "die", "de mail die net binnenkwam"],
+          ["het-woord", "dat", "het bericht dat net binnenkwam"],
+          ["alles / iets / niets / het enige", "wat", "het enige wat helpt"],
+          ["een hele zin", "wat", "Ze belde niet terug, wat me verbaasde."],
+          ["een persoon zonder naam", "degene die", "degene die het weet, mag het zeggen"]
+        ]
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Het enige ___ ik nog moet doen, is die mail sturen.* Welke past?",
+      "options": ["wat", "dat", "die"],
+      "correct": 0,
+      "explain": "Na *het enige* (en na *alles, iets, niets*) volgt **wat**, ook al is *het enige* een het-woord. Bij een gewoon het-woord zou je wél *dat* nemen: *het bericht dat ik moet sturen*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en schrijf op.",
+      "speak": "De vergadering waarin het besloten werd, duurde tien minuten.",
+      "answers": [
+        "De vergadering waarin het besloten werd, duurde tien minuten",
+        "De vergadering waarin het besloten werd duurde tien minuten",
+        "De vergadering waarin het werd besloten, duurde tien minuten",
+        "De vergadering waarin het werd besloten duurde tien minuten"
+      ],
+      "explain": "*waarin* = *in + welke vergadering*. De bijzin staat tussen komma's; daarna komt de hoofdzin met *duurde* meteen achter de bijzin."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Daan drags You along to the venue where his band will play the support slot. He cannot describe a single thing without a relative clause.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Dit is de zaal waarover ik het steeds heb.", "en": "This is the venue I keep going on about.", "spotlight": "*de zaal waarover ik het heb* — aaneen, netjes." },
+        { "speaker": "You", "nl": "Kleiner dan ik dacht, eerlijk gezegd.", "en": "Smaller than I thought, honestly." },
+        { "speaker": "Daan", "nl": "Joh, dit is precies het podium waar ik als student naar stond te kijken.", "en": "Come on, this is exactly the stage I used to stand watching as a student.", "spotlight": "Gesplitst: *waar ik naar stond te kijken*." },
+        { "speaker": "You", "nl": "En dat hokje daar?", "en": "And that little booth over there?" },
+        { "speaker": "Daan", "nl": "De kleedkamer waarin vijf man met één spiegel moeten.", "en": "The dressing room where five people have to share one mirror." },
+        { "speaker": "You", "nl": "Degene die het laatst binnenkomt, ziet zichzelf dus niet.", "en": "So whoever comes in last doesn't get to see themselves.", "spotlight": "*degene die* — een persoon zonder naam." },
+        { "speaker": "Daan", "nl": "Precies. En dat is meestal onze drummer, wat niemand verbaast.", "en": "Exactly. And that's usually our drummer, which surprises nobody.", "spotlight": "*wat* verwijst hier naar de hele vorige zin." },
+        { "speaker": "You", "nl": "Is dit het enige wat je nog nodig had om rustig te worden?", "en": "Is this the only thing you still needed to calm down?" },
+        { "speaker": "Daan", "nl": "Nou, het scheelt. Al is er nog steeds die soundcheck waar ik van wakker lig.", "en": "Well, it helps. Though there's still that soundcheck that keeps me up at night." },
+        { "speaker": "You", "nl": "Daar praten we volgende week wel over.", "en": "We'll talk about that next week." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschrijf een plek die iets voor je betekent: een café, een straat, een kamer. Gebruik minstens drie betrekkelijke bijzinnen, waarvan één met *waar* + voorzetsel (*waarin, waarover, waarmee*) en één met *wat* of *degene die*. In het Nederlands, minstens drie zinnen.",
+      "starters": ["Er is een plek waar ik …", "Het is de … waarin ik …", "Het enige wat ik daar mis, is …"],
+      "minSentences": 3
+    }
+  ]
+}

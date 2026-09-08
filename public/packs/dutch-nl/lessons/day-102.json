@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "day-102",
+  "day": 102,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Met belangstelling — de sollicitatiebrief",
+  "emoji": "💼",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The Dutch motivation letter: its four paragraphs, the fixed prepositions (verantwoordelijk voor, ervaring met) and the hedged confidence Dutch employers expect",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "De brief in vier alinea's",
+      "body": "Een Nederlandse sollicitatiebrief is een klein bouwwerk met vier verdiepingen: **de aanleiding**, **wie je bent**, **waarom jij**, en **de afsluiting**. Elke alinea doet één ding. Eén A4, nooit meer. Dutch recruiters skim, so the structure has to do the persuading for you.",
+      "table": {
+        "headers": ["Alinea", "Wat erin staat"],
+        "rows": [
+          ["1. Aanleiding", "waar je de vacature zag en waarop je solliciteert"],
+          ["2. Wie je bent", "je huidige functie en je ervaring"],
+          ["3. Waarom jij", "wat je meebrengt, met mate gebracht"],
+          ["4. Afsluiting", "het gesprek voorstellen en groeten"]
+        ]
+      },
+      "callout": "Begin nooit met *Ik ben Alex en ik zoek werk*. Begin met de vacature."
+    },
+    {
+      "type": "card",
+      "title": "Vaste voorzetsels — leer ze als één woord",
+      "body": "Sollicitatietaal draait op een handvol combinaties die altijd hetzelfde voorzetsel krijgen. Leer ze als één brok, niet als losse woorden. These prepositions are fixed: getting one wrong is the fastest way to sound translated.",
+      "table": {
+        "headers": ["Combinatie", "Voorbeeld"],
+        "rows": [
+          ["verantwoordelijk voor — responsible for", "Ik ben verantwoordelijk voor de planning."],
+          ["ervaring met — experience with", "Ik heb ruime ervaring met klantcontact."],
+          ["betrokken bij — involved in", "Ik was betrokken bij de verhuizing van het kantoor."],
+          ["solliciteren naar — to apply for", "Ik solliciteer naar de functie van redacteur."],
+          ["belangstelling voor — interest in", "Met belangstelling las ik uw vacature."]
+        ]
+      },
+      "callout": "*Solliciteren **naar** een functie*, *solliciteren **bij** een bedrijf*. Niet *voor*."
+    },
+    {
+      "type": "chips",
+      "title": "Bouwstenen van de brief — tik om te horen",
+      "items": [
+        { "nl": "Met belangstelling las ik uw vacature voor de functie van redacteur.", "en": "I read your vacancy for the position of editor with interest.", "speak": "Met belangstelling las ik uw vacature voor de functie van redacteur." },
+        { "nl": "In mijn huidige functie ben ik verantwoordelijk voor de planning.", "en": "In my current role I am responsible for the planning.", "speak": "In mijn huidige functie ben ik verantwoordelijk voor de planning." },
+        { "nl": "Ik beschik over ruime ervaring met klantcontact.", "en": "I have extensive experience with client contact.", "speak": "Ik beschik over ruime ervaring met klantcontact." },
+        { "nl": "Ik ben van mening dat mijn achtergrond goed aansluit bij deze functie.", "en": "I believe my background fits this role well.", "speak": "Ik ben van mening dat mijn achtergrond goed aansluit bij deze functie." },
+        { "nl": "Graag licht ik mijn motivatie toe in een gesprek.", "en": "I would be glad to explain my motivation in an interview.", "speak": "Graag licht ik mijn motivatie toe in een gesprek." },
+        { "nl": "Ik zie uw reactie met belangstelling tegemoet.", "en": "I look forward to your reply.", "speak": "Ik zie uw reactie met belangstelling tegemoet." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Vul aan: *In mijn huidige functie ben ik verantwoordelijk ___ een team van vijf mensen.*",
+      "options": ["voor", "van", "over"],
+      "correct": 0,
+      "explain": "*Verantwoordelijk voor* — vast, altijd. Met *over* zeg je iets anders: *de leiding over een team* mag wél, maar dan met *leiding*."
+    },
+    {
+      "type": "contrast",
+      "title": "Van spreektaal naar brieftaal",
+      "pairs": [
+        { "left": "Ik ben echt goed in plannen.", "right": "In mijn huidige functie ben ik verantwoordelijk voor de planning.", "note": "Laat het werk je kwaliteit bewijzen in plaats van hem zelf op te noemen." },
+        { "left": "Ik heb veel met klanten gewerkt.", "right": "Ik beschik over ruime ervaring met klantcontact.", "note": "*veel gewerkt met* → *ruime ervaring met*: naamwoordstijl van gisteren." },
+        { "left": "Ik denk dat ik het wel kan.", "right": "Ik ben ervan overtuigd dat ik een waardevolle bijdrage kan leveren.", "note": "Twijfel eruit, maat erin: zeker, maar niet luid." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Zelfvertrouwen met de rem erop",
+      "body": "Nederlandse werkgevers houden van zelfvertrouwen, maar niet van opscheppen. Je zet daarom een **rem** op je claim: *Ik ben van mening dat…*, *Ik ben ervan overtuigd dat…*, *Naar mijn idee…*, *Ik denk dat ik … kan bijdragen.* Let op de bijzin: na *dat* gaat het werkwoord naar het eind. Say you're good — but say it in a subordinate clause, and a Dutch reader relaxes.",
+      "callout": "*Ik ben de beste kandidaat* leest als een grap. *Ik ben ervan overtuigd dat ik goed bij dit team pas* leest als een volwassene."
+    },
+    {
+      "type": "typed",
+      "prompt": "Schrijf in briefregister dat je veel ervaring hebt met projectmanagement. Begin met *Ik beschik over …*",
+      "answers": ["Ik beschik over ruime ervaring met projectmanagement.", "Ik beschik over veel ervaring met projectmanagement."],
+      "hint": "*beschikken over* + *ruime ervaring met* + het vakgebied.",
+      "explain": "*Ik beschik over ruime ervaring met projectmanagement.* *Beschikken over* is de brieftaalversie van *hebben*, en *ervaring* krijgt altijd *met*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en schrijf de zin op. Let op de bijzin: het werkwoord gaat naar het eind.",
+      "speak": "Ik ben ervan overtuigd dat ik een waardevolle bijdrage kan leveren.",
+      "answers": ["Ik ben ervan overtuigd dat ik een waardevolle bijdrage kan leveren."]
+    },
+    {
+      "type": "builder",
+      "title": "Bouw de tweede alinea",
+      "prompt": "Bouw de alinea over jezelf: wat je nu doet — je ervaring — je mening over de match.",
+      "slots": [
+        { "label": "Wat je nu doet", "chips": ["In mijn huidige functie ben ik verantwoordelijk voor de planning", "Op dit moment werk ik als projectcoördinator", "In mijn werk bij een uitgeverij begeleid ik auteurs"] },
+        { "label": "Je ervaring", "chips": ["en daarnaast beschik ik over ruime ervaring met klantcontact", "en bovendien heb ik ervaring met het schrijven van teksten", "en ik ben betrokken geweest bij verschillende grote projecten"] },
+        { "label": "Je mening over de match", "chips": ["Ik ben van mening dat deze ervaring goed aansluit bij uw vacature.", "Ik ben ervan overtuigd dat ik daarmee van waarde kan zijn voor uw team.", "Naar mijn idee past dit profiel goed bij wat u zoekt."] }
+      ],
+      "sample": "In mijn huidige functie ben ik verantwoordelijk voor de planning en daarnaast beschik ik over ruime ervaring met klantcontact. Ik ben van mening dat deze ervaring goed aansluit bij uw vacature."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma has written a motivation letter for a creative-director job at another agency — she is keeping the internal offer open — and wants a second pair of eyes.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Mag ik je iets vragen? Ik heb een motivatiebrief geschreven en ik weet niet of de toon klopt.", "en": "Can I ask you something? I've written a motivation letter and I don't know if the tone is right." },
+        { "speaker": "You", "nl": "Natuurlijk. Waar solliciteer je naar?", "en": "Of course. What are you applying for?", "spotlight": "*Solliciteren naar* + de functie." },
+        { "speaker": "Emma", "nl": "Naar de functie van creatief directeur, bij een ander bureau. Dat aanbod van kantoor houd ik nog even open.", "en": "For the position of creative director, at another agency. I'm keeping that offer at the office open for now." },
+        { "speaker": "You", "nl": "Spannend. Lees eens voor.", "en": "Exciting. Read it out." },
+        { "speaker": "Emma", "nl": "Met belangstelling las ik uw vacature. In mijn huidige functie ben ik verantwoordelijk voor een team van acht mensen.", "en": "I read your vacancy with interest. In my current role I am responsible for a team of eight people.", "spotlight": "Twee vaste formules in twee zinnen: *met belangstelling* en *verantwoordelijk voor*." },
+        { "speaker": "You", "nl": "Dat klinkt goed. En daarna?", "en": "That sounds good. And then?" },
+        { "speaker": "Emma", "nl": "Ik ben de beste kandidaat die u kunt vinden.", "en": "I am the best candidate you can find." },
+        { "speaker": "You", "nl": "Eh… dat zou ik wat zachter maken.", "en": "Er… I'd soften that a bit." },
+        { "speaker": "Emma", "nl": "Ja, hè? Het is te veel. Maar hoe zeg ik het dan wél?", "en": "Right? It's too much. But how do I say it then?" },
+        { "speaker": "You", "nl": "Schrijf: ik ben ervan overtuigd dat ik een waardevolle bijdrage kan leveren.", "en": "Write: I am convinced I can make a valuable contribution.", "spotlight": "De rem erop: de claim verdwijnt in een bijzin, met het werkwoord aan het eind." },
+        { "speaker": "Emma", "nl": "Kijk, dat is 'm. Dank je — jij schrijft beter Nederlands dan ik dacht.", "en": "See, that's it. Thanks — you write better Dutch than I thought." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf de eerste twee zinnen van een sollicitatiebrief voor een baan die je écht zou willen, en daarna één gehedgede claim. Gebruik *met belangstelling*, *verantwoordelijk voor* of *ervaring met*, plus *ik ben van mening dat …*. In het Nederlands, minstens drie zinnen.",
+      "starters": ["Met belangstelling las ik uw vacature voor …", "In mijn huidige functie ben ik verantwoordelijk voor …", "Ik ben van mening dat …"],
+      "minSentences": 3
+    }
+  ]
+}

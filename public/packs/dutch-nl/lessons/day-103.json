@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "day-103",
+  "day": 103,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Naar aanleiding van uw brief — post van de instanties",
+  "emoji": "🏛️",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Decoding official Dutch from the gemeente and the Belastingdienst: naar aanleiding van, bijgaand, conform, u dient te — recognise them, don't imitate them",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Ambtelijk Nederlands: leren lezen, niet naspreken",
+      "body": "Post van de **gemeente** of de **Belastingdienst** is in een eigen dialect geschreven: naamwoordstijl, passief, en een handvol formules die altijd terugkomen. Je hoeft dit niet te schrijven — je moet het kunnen **ontcijferen**. Ken je de formules, dan valt de brief vanzelf uiteen in gewone zinnen. This week's one exception: you learn these to decode, not to reproduce.",
+      "table": {
+        "headers": ["Formule", "Waar hij staat"],
+        "rows": [
+          ["naar aanleiding van — with reference to", "de eerste zin: waarom ze schrijven"],
+          ["het betreft — this concerns", "het onderwerp van de brief"],
+          ["bijgaand treft u aan — enclosed you will find", "de verwijzing naar de bijlage"],
+          ["conform artikel 5 — in accordance with article 5", "de regel waarop ze zich beroepen"],
+          ["in afwachting van — pending, awaiting", "wat er nog moet gebeuren"]
+        ]
+      },
+      "callout": "Vijf formules en driekwart van elke ambtelijke brief is al leesbaar."
+    },
+    {
+      "type": "chips",
+      "title": "Zinnen uit de brievenbus — tik om te horen",
+      "items": [
+        { "nl": "Naar aanleiding van uw brief van 3 maart delen wij u het volgende mee.", "en": "With reference to your letter of 3 March, we inform you of the following.", "speak": "Naar aanleiding van uw brief van 3 maart delen wij u het volgende mee." },
+        { "nl": "Het betreft uw aanvraag voor een parkeervergunning.", "en": "This concerns your application for a parking permit.", "speak": "Het betreft uw aanvraag voor een parkeervergunning." },
+        { "nl": "Bijgaand treft u het ingevulde formulier aan.", "en": "Enclosed you will find the completed form.", "speak": "Bijgaand treft u het ingevulde formulier aan." },
+        { "nl": "U dient het bedrag binnen veertien dagen te voldoen.", "en": "You are required to pay the amount within fourteen days.", "speak": "U dient het bedrag binnen veertien dagen te voldoen." },
+        { "nl": "Conform artikel 5 van de verordening wordt uw verzoek afgewezen.", "en": "In accordance with article 5 of the by-law your request is refused.", "speak": "Conform artikel 5 van de verordening wordt uw verzoek afgewezen." },
+        { "nl": "Tegen dit besluit kunt u bezwaar maken.", "en": "You may lodge an objection against this decision.", "speak": "Tegen dit besluit kunt u bezwaar maken." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "De opdrachtmachine: *u dient*, *gelieve*, *er wordt verzocht*",
+      "body": "Een instantie beveelt nooit rechtstreeks. Drie machines doen dat werk voor haar: **u dient … te …** (*u dient het formulier te ondertekenen*), **gelieve …** (*gelieve dit formulier te retourneren*) en het **passief** (*u wordt verzocht contact op te nemen*). Alle drie betekenen precies hetzelfde: doe dit. All three are polite on the surface and non-negotiable underneath.",
+      "callout": "*U dient te betalen* is gewoon *u moet betalen*, maar dan met een pak aan."
+    },
+    {
+      "type": "mcq",
+      "prompt": "*U dient het bedrag vóór 1 mei te voldoen.* Wat staat hier eigenlijk?",
+      "options": ["U moet het bedrag vóór 1 mei betalen.", "U mag het bedrag vóór 1 mei betalen.", "Het bedrag is vóór 1 mei betaald."],
+      "correct": 0,
+      "explain": "*Dienen te* is *moeten*, en *voldoen* is ambtelijk voor *betalen*. Er zit dus geen keuze in — hoe beleefd de zin ook klinkt."
+    },
+    {
+      "type": "contrast",
+      "title": "Links de brief, rechts wat er bedoeld wordt",
+      "pairs": [
+        { "left": "Wij hebben uw aanvraag in goede orde ontvangen.", "right": "We hebben je aanvraag binnen.", "note": "Vaste ontvangstformule tegenover gewone spreektaal." },
+        { "left": "Bijgaand treft u het formulier aan.", "right": "Het formulier zit erbij.", "note": "*bijgaand* plus *aantreffen* betekent niets meer dan: kijk in de bijlage." },
+        { "left": "In afwachting van uw reactie verblijven wij,", "right": "We wachten op je antwoord.", "note": "*verblijven wij* is briefarchaïsme; niemand zegt dit hardop." },
+        { "left": "Tegen dit besluit kunt u bezwaar maken.", "right": "Hier mag je tegenin gaan.", "note": "*Bezwaar maken* is wél een term die je moet kennen: zo heet de procedure." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Vul de vaste opening in: *___ uw brief van 12 april delen wij u mee dat uw aanvraag is goedgekeurd.*",
+      "answers": ["Naar aanleiding van"],
+      "hint": "Vier woorden, en elke ambtelijke brief begint ermee.",
+      "explain": "*Naar aanleiding van uw brief …* — de standaardopening, altijd gevolgd door een naamwoord (*uw brief*, *uw aanvraag*, *ons gesprek*)."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en schrijf de zin op. Let op de constructie *dienen … te …*.",
+      "speak": "U dient het formulier ondertekend te retourneren.",
+      "answers": ["U dient het formulier ondertekend te retourneren."]
+    },
+    {
+      "type": "card",
+      "title": "Een brief van de gemeente",
+      "body": "Lees deze brief en probeer hem uit elkaar te halen. *Geachte heer/mevrouw, naar aanleiding van uw aanvraag van 12 april delen wij u het volgende mee. Het betreft uw aanvraag voor een parkeervergunning. Uw aanvraag is conform de gemeentelijke verordening beoordeeld en goedgekeurd. Bijgaand treft u de vergunning aan. U dient het bedrag van 148 euro binnen veertien dagen te voldoen. Tegen dit besluit kunt u binnen zes weken bezwaar maken. Hoogachtend, Gemeente Amsterdam.* Vier formules, één besluit, twee termijnen — meer staat er niet.",
+      "callout": "Zoek in elke ambtelijke brief eerst de **termijnen**. Daar zit het werk."
+    },
+    {
+      "type": "comprehension",
+      "title": "Wat stond er nou precies?",
+      "questions": [
+        { "q": "Waar gaat de brief over?", "options": ["Een parkeervergunning", "Een boete voor te hard rijden", "Een verhuizing naar Utrecht"], "correct": 0 },
+        { "q": "Wat is er met de aanvraag gebeurd?", "options": ["Hij is afgewezen", "Hij is goedgekeurd", "Hij is kwijtgeraakt"], "correct": 1 },
+        { "q": "Wat moet u binnen veertien dagen doen?", "options": ["Bezwaar maken", "Het bedrag betalen", "De vergunning ophalen"], "correct": 1 },
+        { "q": "Hoeveel tijd heeft u om bezwaar te maken?", "options": ["Veertien dagen", "Zes weken", "Zes maanden"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Je hebt een brief van een instantie gekregen die je eerst niet begreep — of verzin er een. Vertel in gewone woorden wat erin stond en wat je moest doen. Gebruik minstens twee ambtelijke formules en leg ze uit. In het Nederlands, minstens drie zinnen.",
+      "starters": ["Ik kreeg een brief van …", "Er stond *naar aanleiding van …*, en dat betekent gewoon …", "Ik moest …"],
+      "minSentences": 3
+    }
+  ]
+}

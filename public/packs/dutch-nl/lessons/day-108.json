@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "day-108",
+  "day": 108,
+  "module": "M16",
+  "unit": "U16",
+  "kind": "lesson",
+  "title": "Er zijn er twee die — *er* op zijn zwaarst",
+  "emoji": "🧮",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Advanced er: two ers in one clause, the quantity er with a relative clause, and fronting the prepositional er as daar",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "*Er* doet vijf banen — een snelle opfrisser",
+      "body": "Voor we gaan stapelen, even alles op een rij. Hetzelfde woordje *er* doet in het Nederlands vijf verschillende dingen, en je kent ze alle vijf al.",
+      "table": {
+        "headers": ["Baan", "Voorbeeld"],
+        "rows": [
+          ["Loos onderwerp", "Er staat iemand voor de deur."],
+          ["Plaats (= daar)", "Ik ben er gisteren geweest."],
+          ["Bij een voorzetsel", "Ik denk er nog over na."],
+          ["Bij een hoeveelheid", "Ik heb er nog drie."],
+          ["Bij het passief", "Er wordt hard gewerkt."]
+        ]
+      },
+      "callout": "Vandaag: wat er gebeurt als twee van die banen in één zin samenkomen."
+    },
+    {
+      "type": "card",
+      "title": "De dubbele *er*: *er zijn er twee die…*",
+      "body": "Een zin mag best twee keer *er* bevatten, zolang het **twee verschillende banen** zijn. In *Er zijn **er** twee die nog niet gereageerd hebben* is de eerste *er* het loze onderwerp en de tweede de hoeveelheids-*er*. The count-*er* is not optional here: drop it and the sentence collapses.",
+      "table": {
+        "headers": ["Zin", "Eerste er", "Tweede er"],
+        "rows": [
+          ["Er zijn er twee die het niet wisten.", "loos onderwerp", "hoeveelheid (twee stuks)"],
+          ["Er staan er nog drie in de gang.", "loos onderwerp", "hoeveelheid (drie dozen)"],
+          ["Er waren er maar weinig die het doorhadden.", "loos onderwerp", "hoeveelheid (weinig mensen)"]
+        ]
+      },
+      "callout": "Twee dezelfde banen naast elkaar mag níét: *Er wordt over gepraat* — één *er* doet daar dubbel werk."
+    },
+    {
+      "type": "chips",
+      "title": "Gestapeld — tik om te horen",
+      "items": [
+        { "nl": "Er zijn er twee die nog niet gereageerd hebben.", "en": "There are two who still haven't replied.", "speak": "Er zijn er twee die nog niet gereageerd hebben." },
+        { "nl": "Er staan er nog drie in de gang.", "en": "There are still three standing in the hall.", "speak": "Er staan er nog drie in de gang." },
+        { "nl": "Er waren er maar weinig die het doorhadden.", "en": "There were only a few who caught on.", "speak": "Er waren er maar weinig die het doorhadden." },
+        { "nl": "Ik heb er geen zin meer in.", "en": "I don't feel like it any more.", "speak": "Ik heb er geen zin meer in." },
+        { "nl": "Daar heb ik het met niemand over gehad.", "en": "I haven't discussed that with anyone.", "speak": "Daar heb ik het met niemand over gehad." },
+        { "nl": "Er wordt de laatste tijd veel over geklaagd.", "en": "There's a lot of complaining about it lately.", "speak": "Er wordt de laatste tijd veel over geklaagd." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Er liggen zes brieven op tafel; drie zijn al open. Welke zin klopt?",
+      "options": [
+        "Er zijn er drie die nog dicht zijn.",
+        "Er zijn drie die nog dicht zijn.",
+        "Er zijn er drie die nog dicht is."
+      ],
+      "correct": 0,
+      "explain": "Bij een los getal zonder zelfstandig naamwoord heb je de hoeveelheids-*er* nodig: *er zijn **er** drie*. En de bijzin volgt het meervoud: *die nog dicht **zijn***."
+    },
+    {
+      "type": "contrast",
+      "title": "*er* achterin of *daar* vooraan",
+      "pairs": [
+        { "left": "Ik heb het er niet over gehad.", "right": "Daar heb ik het niet over gehad.", "note": "Zelfde zin, ander accent: met *daar* vooraan zet je het onderwerp van gesprek in de schijnwerpers." },
+        { "left": "Ik verheug me erop.", "right": "Daar verheug ik me op.", "note": "Vooraan wordt *er* altijd *daar* (of *hier*); *er* zelf staat nooit op de eerste plaats met nadruk." },
+        { "left": "We hebben er nooit meer aan gedacht.", "right": "Daar hebben we nooit meer aan gedacht.", "note": "Het voorzetsel blijft achter, vlak vóór de werkwoorden — of je nu *er* of *daar* kiest." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Vervang de herhaling door de hoeveelheids-*er*: *Er liggen nog vier dozen in de gang.* → Er liggen …",
+      "answers": [
+        "Er liggen er nog vier in de gang",
+        "Er liggen er nog vier",
+        "er liggen er nog vier in de gang"
+      ],
+      "hint": "Het zelfstandig naamwoord verdwijnt, dus het getal heeft *er* nodig.",
+      "explain": "*Er liggen er nog vier in de gang.* Eerste *er* = loos onderwerp, tweede *er* = 'van die dozen'. Zonder die tweede *er* klinkt de zin onaf."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en schrijf op — let op waar de voorzetsels landen.",
+      "speak": "Daar hebben we het gisteren nog uitgebreid over gehad.",
+      "answers": [
+        "Daar hebben we het gisteren nog uitgebreid over gehad",
+        "Daar hebben we het gisteren nog uitgebreid over gehad."
+      ],
+      "explain": "*Daar … over gehad*: het voorzetsel *over* raakt los van *daar* en gaat naar achteren, vlak voor het deelwoord."
+    },
+    {
+      "type": "builder",
+      "title": "Bouw een gestapelde *er*-zin",
+      "prompt": "Zet een zin in elkaar volgens het patroon *er + werkwoord + er + hoeveelheid + bijzin*.",
+      "slots": [
+        { "label": "Loos onderwerp + werkwoord", "chips": ["Er zijn", "Er staan", "Er waren"] },
+        { "label": "Hoeveelheids-er", "chips": ["er"] },
+        { "label": "Hoeveelheid", "chips": ["twee", "een paar", "maar weinig"] },
+        { "label": "Betrekkelijke bijzin", "chips": ["die het niet wisten", "die nog niet gereageerd hebben", "die er niets van begrepen"] }
+      ],
+      "sample": "Er zijn er een paar die nog niet gereageerd hebben."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Bram calls You from Rotterdam about the volunteers for a neighbourhood project. Half the conversation is er.",
+      "lines": [
+        { "speaker": "Bram", "nl": "Ik heb tien mensen gemaild. Er hebben er nog maar vier geantwoord.", "en": "I emailed ten people. Only four have replied so far.", "spotlight": "*Er hebben er nog maar vier geantwoord* — twee banen, twee keer *er*." },
+        { "speaker": "You", "nl": "En de rest?", "en": "And the rest?" },
+        { "speaker": "Bram", "nl": "Daar heb ik nog niets van gehoord. Typisch.", "en": "I haven't heard anything from them. Typical.", "spotlight": "*Daar … van gehoord* — nadruk vooraan, voorzetsel achterin." },
+        { "speaker": "You", "nl": "Zal ik ze nog een keer bellen?", "en": "Shall I give them another call?" },
+        { "speaker": "Bram", "nl": "Graag. Er zijn er twee die altijd meteen ja zeggen, begin daarmee.", "en": "Please. There are two who always say yes right away, start with them." },
+        { "speaker": "You", "nl": "En als er niemand kan?", "en": "And if nobody can make it?" },
+        { "speaker": "Bram", "nl": "Dan doen we het met z'n drieën. Daar is niets mis mee.", "en": "Then we do it with the three of us. Nothing wrong with that." },
+        { "speaker": "You", "nl": "Er wordt in Amsterdam ook eindeloos over vergaderd, hoor.", "en": "In Amsterdam people hold endless meetings about it too, you know.", "spotlight": "Passief-*er* en voorzetsel-*er* smelten samen tot één *er*." },
+        { "speaker": "Bram", "nl": "Zie je wel. Geen woorden maar daden, zeg ik altijd.", "en": "See. Deeds, not words, as I always say." },
+        { "speaker": "You", "nl": "Ik bel ze vanavond. Dan heb je er morgen antwoord op.", "en": "I'll call them tonight. Then you'll have an answer by tomorrow." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschrijf iets waar je er meerdere van hebt: planten, dozen op zolder, oude telefoons. Gebruik minstens één gestapelde *er*-zin (*er zijn er … die …*) en één zin met *daar … over/aan/van*. In het Nederlands, minstens drie zinnen.",
+      "starters": ["Bij mij thuis staan er …", "Er zijn er een paar die …", "Daar denk ik verder nooit over na."],
+      "minSentences": 3
+    }
+  ]
+}

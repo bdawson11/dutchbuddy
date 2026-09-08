@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "day-111",
+  "day": 111,
+  "module": "M16",
+  "unit": "U16",
+  "kind": "review",
+  "title": "Sanne heeft nieuws — en het is groot",
+  "emoji": "👶",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Week 16 review and the season-2 pivot: Sanne comes over from Utrecht to announce she's expecting, and the news gets told and retold in layered tenses and reported speech",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 16, op een rij — en dan het nieuws",
+      "body": "Deze week bouwde je aan **lange zinnen**: bijzinnen in bijzinnen, betrekkelijke zinnen met *waar* + voorzetsel, gestapelde *er*, de indirecte rede en de verbindingswoorden die alles aan elkaar knopen. Vandaag komt Sanne uit Utrecht langs met nieuws — en je hoort meteen waarom je die vijf dingen nodig had. **Blijf in het Nederlands.**",
+      "table": {
+        "headers": ["Deze week", "Waar je het zo hoort"],
+        "rows": [
+          ["Bijzin-ketens", "*Ik had nooit gedacht dat ik dit zo rustig zou vertellen.*"],
+          ["waar + voorzetsel", "*die logeerkamer waar we het altijd over hadden*"],
+          ["Gestapelde er", "*Mijn vriend is er vorige week mee begonnen.*"],
+          ["Indirecte rede", "*toen je zei dat je moe was van het werk*"],
+          ["Verbanden", "*Vandaar dat ik vandaag gekomen ben.*"]
+        ]
+      },
+      "callout": "Eén nieuwtje, vijf grammaticale gereedschappen. Let bij het lezen op waar ze langskomen."
+    },
+    {
+      "type": "chips",
+      "title": "Nieuws krijgen en doorgeven — tik om te horen",
+      "items": [
+        { "nl": "Ik wilde het niet door de telefoon zeggen.", "en": "I didn't want to say it over the phone.", "speak": "Ik wilde het niet door de telefoon zeggen." },
+        { "nl": "Wat ontzettend leuk voor jullie!", "en": "How wonderful for you both!", "speak": "Wat ontzettend leuk voor jullie!" },
+        { "nl": "Hoe lang wisten jullie het al?", "en": "How long have you known?", "speak": "Hoe lang wisten jullie het al?" },
+        { "nl": "We hadden afgesproken dat we het nog niet zouden vertellen.", "en": "We'd agreed we wouldn't tell anyone yet.", "speak": "We hadden afgesproken dat we het nog niet zouden vertellen." },
+        { "nl": "Ik had nooit gedacht dat het zo zou lopen.", "en": "I never thought it would turn out this way.", "speak": "Ik had nooit gedacht dat het zo zou lopen." },
+        { "nl": "Daar hou ik je aan, hoor.", "en": "I'm holding you to that.", "speak": "Daar hou ik je aan, hoor." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Emma's kitchen table in the Pijp. Sanne has come over from Utrecht on a Saturday, which she never does without a reason. Daan has just poured the wine.",
+      "lines": [
+        { "speaker": "Sanne", "nl": "Ik wilde het niet door de telefoon zeggen. Vandaar dat ik vandaag naar Amsterdam ben gekomen.", "en": "I didn't want to say it over the phone. Which is why I came to Amsterdam today.", "spotlight": "*Vandaar dat* + bijzin — het verband dat je deze week leerde." },
+        { "speaker": "Emma", "nl": "Nou, spannend. Zeg het maar.", "en": "Well, exciting. Out with it." },
+        { "speaker": "Sanne", "nl": "We krijgen een kindje. In mei.", "en": "We're having a baby. In May." },
+        { "speaker": "Emma", "nl": "Wat?! Sanne! Wat ontzettend leuk!", "en": "What?! Sanne! How wonderful!" },
+        { "speaker": "Daan", "nl": "Gefeliciteerd, joh! En ik schonk je net nog wijn in.", "en": "Congratulations! And I've just poured you wine." },
+        { "speaker": "Sanne", "nl": "Vandaar dat ik zo blij op die thee dook.", "en": "Which is exactly why I dived on that tea so happily." },
+        { "speaker": "You", "nl": "Hoe lang wisten jullie het al?", "en": "How long have you two known?" },
+        { "speaker": "Sanne", "nl": "Sinds een week of acht. We hadden afgesproken dat we het pas na de eerste echo zouden vertellen.", "en": "About eight weeks. We'd agreed we wouldn't say anything until after the first scan.", "spotlight": "Voltooid verleden tijd + *zouden vertellen* — twee lagen verleden in één zin." },
+        { "speaker": "Emma", "nl": "Dus toen je vorige maand zei dat je moe was van het werk, klopte dat maar half.", "en": "So when you said last month that you were tired from work, that was only half true.", "spotlight": "Indirecte rede met terugschuiving: *zei dat je moe was*." },
+        { "speaker": "Sanne", "nl": "Half, ja. En die logeerkamer waar we het altijd over hadden, wordt nu eindelijk verbouwd.", "en": "Half, yes. And that spare room we always talked about is finally being done up.", "spotlight": "*waar we het over hadden* — betrekkelijke bijzin, gesplitst zoals in spreektaal." },
+        { "speaker": "You", "nl": "Als jullie hulp nodig hebben, kom ik met een kwast naar Utrecht.", "en": "If you need help, I'll come to Utrecht with a paintbrush." },
+        { "speaker": "Sanne", "nl": "Daar hou ik je aan. Ik had nooit gedacht dat ik dit ooit zo rustig zou vertellen.", "en": "I'm holding you to that. I never thought I'd tell this so calmly one day.", "spotlight": "Drie lagen: *had gedacht* — *dat ik dit* — *zou vertellen*." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Wat vertelde Sanne precies?",
+      "questions": [
+        { "q": "Wat is het nieuws van Sanne?", "options": ["Dat ze een nieuwe baan heeft", "Dat ze in mei een kindje krijgt", "Dat ze terug naar Amsterdam verhuist"], "correct": 1 },
+        { "q": "Waarom hadden ze het nog niet eerder verteld?", "options": ["Ze wilden wachten tot na de eerste echo", "Ze waren het gewoon vergeten", "Ze durfden het Daan niet te zeggen"], "correct": 0 },
+        { "q": "Wat gebeurt er met de logeerkamer in Utrecht?", "options": ["Die wordt verhuurd", "Die blijft voorlopig leeg", "Die wordt verbouwd"], "correct": 2 },
+        { "q": "Waarom kwam Sanne persoonlijk naar Amsterdam?", "options": ["Omdat ze het niet door de telefoon wilde zeggen", "Omdat ze toch in de buurt was", "Omdat Emma jarig was"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Je vertelt het nieuws door aan Bram. Sanne zei: *\"Ik krijg in mei een kindje.\"* Begin met: Sanne zei dat …",
+      "answers": [
+        "Sanne zei dat ze in mei een kindje kreeg",
+        "Sanne zei dat ze in mei een kindje zou krijgen",
+        "Sanne zei dat ze in mei een kindje krijgt",
+        "dat ze in mei een kindje kreeg",
+        "dat ze in mei een kindje zou krijgen"
+      ],
+      "hint": "Indirecte rede: *dat* + persoonsvorm achterin, tijd één stap terug.",
+      "explain": "*Sanne zei dat ze in mei een kindje kreeg* (of *zou krijgen*). Omdat het nu nog geldt, hoor je ook *dat ze een kindje krijgt* — alle drie zijn goed, de teruggeschoven vorm klinkt het meest verzorgd."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Daan achteraf, over die wijn: *Als ik het geweten had, ___ ik je natuurlijk niets ingeschonken.*",
+      "options": ["had", "heb", "zou"],
+      "correct": 0,
+      "explain": "Irreëel verleden: *als ik het geweten had* → hoofdzin met *had ik … ingeschonken*. Met *zou* zou je *zou ik je niets hebben ingeschonken* moeten zeggen — dan is *hebben* verplicht."
+    },
+    {
+      "type": "shadow",
+      "title": "Feliciteren — luister en herhaal",
+      "lines": [
+        { "nl": "Wat ontzettend leuk voor jullie!", "en": "How wonderful for you both!" },
+        { "nl": "Gefeliciteerd allebei, echt waar.", "en": "Congratulations to you both, really." },
+        { "nl": "Ik had nooit gedacht dat het zo zou lopen.", "en": "I never thought it would turn out this way." },
+        { "nl": "Als jullie hulp nodig hebben, zeg je het maar.", "en": "If you need help, just say the word." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Vertel Sannes nieuws door alsof je het aan Bram schrijft. Gebruik minstens twee keer de indirecte rede (*ze zei dat …*, *ze vertelde dat …*), één betrekkelijke bijzin met *waar* + voorzetsel, en één zin over hoe jij je erbij voelde. In het Nederlands, minstens drie zinnen.",
+      "starters": ["Sanne kwam zaterdag langs en vertelde dat …", "Ze zei dat ze het pas wilde zeggen toen …", "Die kamer waar ze het altijd over had, …"],
+      "minSentences": 3
+    }
+  ]
+}

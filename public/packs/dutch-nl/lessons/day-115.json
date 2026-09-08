@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "id": "day-115",
+  "day": 115,
+  "module": "M17",
+  "unit": "U17",
+  "kind": "lesson",
+  "title": "Van je naar u en terug — schakelen tijdens het gesprek",
+  "emoji": "🎚️",
+  "level": "C1",
+  "durationMin": [
+    20,
+    35
+  ],
+  "summary": "Switching register mid-conversation: softening a blunt line, sharpening a soft one, and reading the room",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Het schuifje beweegt tijdens het gesprek",
+      "body": "Je kent de drie standen: **informeel** (*je*, partikels, ellips), **neutraal** (*u*, hele zinnen, weinig partikels) en **formeel** (geschreven, genominaliseerd). Nieuw vandaag: je zet het schuifje **midden in een gesprek** om. Er komt een klant aan de lijn, je collega blijkt je opdrachtgever, of iemand zegt: *'Zeg maar je, hoor.'* Wie dat hoort en meebeweegt, klinkt pas echt Nederlands.",
+      "callout": "*u* zegt hier niet 'u bent belangrijker', maar 'ik ken u nog niet'. Het is afstand, geen rang."
+    },
+    {
+      "type": "contrast",
+      "title": "Eén boodschap, twee standen",
+      "pairs": [
+        {
+          "left": "Kun je even kijken of dat klopt?",
+          "right": "Zou u kunnen nagaan of dit klopt?",
+          "note": "Informeel links: *je*, *even*, *kijken*. Formeel rechts: *zou u kunnen*, geen partikel, en *nagaan* in plaats van *kijken*."
+        },
+        {
+          "left": "Sorry, ik snap het niet.",
+          "right": "Neem me niet kwalijk, het is mij niet helemaal duidelijk.",
+          "note": "Formeel Nederlands vermijdt *snappen* en draait de zin onpersoonlijk: niet *ik snap het niet*, maar *het is mij niet duidelijk*."
+        },
+        {
+          "left": "Ik bel je morgen even.",
+          "right": "Ik neem morgen contact met u op.",
+          "note": "*even bellen* wordt *contact opnemen*: hetzelfde plan, maar genominaliseerd en zonder de belofte dat het kort duurt."
+        },
+        {
+          "left": "Dat gaat niet lukken.",
+          "right": "Ik vrees dat dat niet haalbaar is.",
+          "note": "*Ik vrees dat…* is de standaarddemper voor slecht nieuws in verzorgd Nederlands."
+        }
+      ]
+    },
+    {
+      "type": "chips",
+      "title": "Schakelsignalen — tik om te horen",
+      "items": [
+        {
+          "nl": "Zeg maar je, hoor.",
+          "en": "Just use 'je', really.",
+          "speak": "Zeg maar je, hoor."
+        },
+        {
+          "nl": "Mag ik je tutoyeren?",
+          "en": "May I switch to the informal 'je'?",
+          "speak": "Mag ik je tutoyeren?"
+        },
+        {
+          "nl": "Zullen we jij en jou zeggen?",
+          "en": "Shall we drop the 'u'?",
+          "speak": "Zullen we jij en jou zeggen?"
+        },
+        {
+          "nl": "Neemt u mij niet kwalijk.",
+          "en": "I do beg your pardon.",
+          "speak": "Neemt u mij niet kwalijk."
+        },
+        {
+          "nl": "Als u het goedvindt, houd ik het kort.",
+          "en": "If it's all right with you, I'll keep it brief.",
+          "speak": "Als u het goedvindt, houd ik het kort."
+        },
+        {
+          "nl": "Even tussendoor, mag ik iets vragen?",
+          "en": "Quick one — may I ask something?",
+          "speak": "Even tussendoor, mag ik iets vragen?"
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je schrijft de gemeente over een kapotte lantaarnpaal. Welke zin past bij dat register?",
+      "options": [
+        "Hé, die lamp doet het niet meer, joh.",
+        "De lantaarnpaal voor mijn deur is al twee weken defect.",
+        "Kun je even naar dat lampje kijken?"
+      ],
+      "correct": 1,
+      "explain": "Neutraal-formeel: geen partikels, geen *je*, en het probleem staat er als feit. Let op *defect* in plaats van *doet het niet* — dat woord alleen al zet het register vast."
+    },
+    {
+      "type": "card",
+      "title": "Verzachten: een botte zin bijstellen",
+      "body": "Nederlanders zijn direct, maar niet bot. Vier dempers, los of gestapeld: een **vraagvorm** (*klopt het dat…?*), een **hedge** (*volgens mij, misschien, ik dacht*), een **partikel** (*even, toch*) en de **onpersoonlijke draai** — je noemt het probleem zonder de schuldige aan te wijzen.",
+      "callout": "*Jij hebt het fout gedaan* → *Volgens mij is er iets misgegaan.* Zelfde feit, geen ruzie."
+    },
+    {
+      "type": "typed",
+      "prompt": "Verzacht deze zin met *volgens mij* en een onpersoonlijke draai: *Jij hebt een fout gemaakt.*",
+      "answers": [
+        "Volgens mij is er iets misgegaan",
+        "Volgens mij is er iets fout gegaan",
+        "Volgens mij is er iets misgelopen"
+      ],
+      "hint": "Begin met *Volgens mij* en maak *er* het onderwerp.",
+      "explain": "*Volgens mij is er iets misgegaan.* Na *volgens mij* staat het werkwoord op plek twee (*is*) — de V2-regel geldt gewoon door. Je noemt het probleem zonder iemand aan te wijzen."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je hebt de verhuurder al drie keer vriendelijk om een nieuwe kraan gevraagd. Nu wil je scherper zijn, zonder onbeleefd te worden. Wat zeg je?",
+      "options": [
+        "Zou u misschien een keertje kunnen kijken?",
+        "Ik zou het op prijs stellen als de kraan deze week gerepareerd wordt.",
+        "Maak die kraan nou eens een keer."
+      ],
+      "correct": 1,
+      "explain": "Scherper wordt in het Nederlands **formeler**, niet grover. *Ik zou het op prijs stellen als…* is beleefd én onmiskenbaar een deadline. De eerste optie is nog vager dan je vorige verzoek; de derde verspeelt je goede positie."
+    },
+    {
+      "type": "builder",
+      "title": "Dezelfde vraag, twee registers",
+      "prompt": "Bouw dezelfde vraag twee keer: één keer voor Daan, één keer voor de verhuurder.",
+      "slots": [
+        {
+          "label": "Informeel (tegen Daan)",
+          "chips": [
+            "Kun je even naar de kraan kijken?",
+            "Heb je mijn mail al gezien?",
+            "Kom je morgen even langs?"
+          ]
+        },
+        {
+          "label": "Formeel (tegen de verhuurder)",
+          "chips": [
+            "Zou u naar de kraan kunnen kijken?",
+            "Heeft u mijn bericht al kunnen bekijken?",
+            "Zou u morgen langs kunnen komen?"
+          ]
+        }
+      ],
+      "sample": "Kun je even naar de kraan kijken? — Zou u naar de kraan kunnen kijken?"
+    },
+    {
+      "type": "dialogue",
+      "scene": "A normal afternoon at the agency — until a client comes on the line and the register has to move.",
+      "lines": [
+        {
+          "speaker": "Emma",
+          "nl": "Heb je die planning al af? Ik zit een beetje te wachten, hoor.",
+          "en": "Have you finished that schedule? I'm sort of waiting on it."
+        },
+        {
+          "speaker": "You",
+          "nl": "Bijna. Ik moet er nog even één ding in zetten.",
+          "en": "Almost. I just need to put one more thing in."
+        },
+        {
+          "speaker": "Emma",
+          "nl": "Doe maar rustig, joh.",
+          "en": "Take your time, mate."
+        },
+        {
+          "speaker": "Youssef",
+          "nl": "Sorry dat ik jullie onderbreek. Ik heb mevrouw De Wit aan de lijn met een vraag over de planning. Mag ik je even doorverbinden?",
+          "en": "Sorry to interrupt. I've got Ms De Wit on the line with a question about the schedule. May I put her through to you?",
+          "spotlight": "Youssef blijft verzorgd, maar zegt *je* — onder collega's is dat normaal."
+        },
+        {
+          "speaker": "You",
+          "nl": "Ja, prima. Even schakelen.",
+          "en": "Yes, fine. Let me switch gears.",
+          "spotlight": "*even schakelen* — je kondigt je eigen registerwissel hardop aan."
+        },
+        {
+          "speaker": "Youssef",
+          "nl": "Ik verbind haar door.",
+          "en": "I'll put her through."
+        },
+        {
+          "speaker": "You",
+          "nl": "Goedemiddag, mevrouw De Wit. De planning ontvangt u vanmiddag, dan heeft u hem ruim voor het overleg.",
+          "en": "Good afternoon, Ms De Wit. You'll receive the schedule this afternoon, so you'll have it well before the meeting.",
+          "spotlight": "Zelfde boodschap als tegen Emma, maar met *u*, zonder partikels en met de afspraak vooropgezet."
+        },
+        {
+          "speaker": "Emma",
+          "nl": "Netjes, hoor.",
+          "en": "Nicely done."
+        },
+        {
+          "speaker": "You",
+          "nl": "Zo. En nu weer gewoon: hij is bijna af.",
+          "en": "Right. And back to normal: it's nearly done.",
+          "spotlight": "Het schuifje gaat weer omlaag; *gewoon* markeert de terugkeer."
+        },
+        {
+          "speaker": "Youssef",
+          "nl": "Dank je. Dat scheelde me een hoop uitleg.",
+          "en": "Thanks. That saved me a lot of explaining."
+        }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Wie praat hoe?",
+      "questions": [
+        {
+          "q": "Waarom schakelt You over op *u*?",
+          "options": [
+            "Youssef is de baas",
+            "Er komt een klant aan de lijn",
+            "Emma vroeg erom"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Hoe praat Youssef met zijn collega's?",
+          "options": [
+            "Verzorgd, maar met *je*",
+            "Altijd met *u*",
+            "Met veel partikels en grappen"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Wat betekent *even schakelen* hier?",
+          "options": [
+            "De telefoon uitzetten",
+            "Pauze nemen",
+            "Van register wisselen"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschrijf een moment waarop jij het schuifje moest omzetten: op je werk, bij de dokter, in een winkel. Wat zou je informeel zeggen, en hoe klinkt precies dezelfde boodschap formeel? Minstens drie zinnen, in het Nederlands.",
+      "starters": [
+        "Laatst moest ik …",
+        "Tegen een vriend zou ik zeggen: …",
+        "Tegen een onbekende zeg ik liever: …"
+      ],
+      "minSentences": 3
+    }
+  ]
+}

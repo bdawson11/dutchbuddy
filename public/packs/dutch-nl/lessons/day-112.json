@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "day-112",
+  "day": 112,
+  "module": "M16",
+  "unit": "U16",
+  "kind": "capstone",
+  "title": "Mijn verhaal — één anekdote, alle tijden",
+  "emoji": "📖",
+  "level": "B2",
+  "durationMin": [25, 35],
+  "summary": "Week 16 capstone: produce long clause chains, relatives and reported speech, and add the mijn-verhaal layer — one anecdote that moves across tenses and carries a reported line",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 16 — lange zinnen, en jouw anekdote",
+      "body": "Je kunt nu zinnen bouwen die niet na acht woorden omvallen: ketens van bijzinnen, betrekkelijke zinnen met *waar* + voorzetsel, gestapelde *er*, indirecte rede en verbindingswoorden. Vandaag zet je dat allemaal in voor **mijn verhaal, laag 16**: één anekdote die door de tijden heen beweegt en waarin iemand iets *zei*.",
+      "table": {
+        "headers": ["Gereedschap", "Wat het in je verhaal doet"],
+        "rows": [
+          ["Bijzin-keten", "Je gedachten van toen, drie lagen diep"],
+          ["waar + voorzetsel", "De plek of het ding waar het om draaide"],
+          ["Gestapelde er", "Hoeveelheden en onderwerpen zonder herhaling"],
+          ["Indirecte rede", "De zin die iemand tegen je zei"],
+          ["Daardoor / vandaar / desondanks", "De lijm tussen toen en nu"]
+        ]
+      },
+      "callout": "Sannes nieuws van gisteren is het model: verleden, voorverleden, een geciteerde zin en een gevolg voor nu — in één adem."
+    },
+    {
+      "type": "chips",
+      "title": "Door de tijden heen — tik om te horen",
+      "items": [
+        { "nl": "Een paar jaar geleden woonde ik nog niet eens in Nederland.", "en": "A few years ago I didn't even live in the Netherlands.", "speak": "Een paar jaar geleden woonde ik nog niet eens in Nederland." },
+        { "nl": "Toen ben ik hierheen verhuisd, zonder een woord Nederlands.", "en": "Then I moved here, without a word of Dutch.", "speak": "Toen ben ik hierheen verhuisd, zonder een woord Nederlands." },
+        { "nl": "Ik had nooit gedacht dat ik het ooit zou durven.", "en": "I never thought I'd ever dare to.", "speak": "Ik had nooit gedacht dat ik het ooit zou durven." },
+        { "nl": "Vorige week zei iemand tegen me dat mijn accent al minder werd.", "en": "Last week someone told me my accent was already fading.", "speak": "Vorige week zei iemand tegen me dat mijn accent al minder werd." },
+        { "nl": "Daardoor durf ik tegenwoordig veel meer.", "en": "As a result I dare a lot more these days.", "speak": "Daardoor durf ik tegenwoordig veel meer." },
+        { "nl": "Inmiddels is het bijna mijn eigen taal geworden, althans een beetje.", "en": "By now it's almost become my own language, more or less.", "speak": "Inmiddels is het bijna mijn eigen taal geworden, althans een beetje." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welke keten klopt helemaal?",
+      "options": [
+        "Ik weet nog goed dat ik dacht dat ik het nooit zou leren.",
+        "Ik weet nog goed dat ik dacht dat ik zou het nooit leren.",
+        "Ik weet nog goed dat dacht ik dat ik het nooit zou leren."
+      ],
+      "correct": 0,
+      "explain": "Drie lagen, drie eindposities: *weet* op plaats 2, *dacht* achterin laag 1, *zou leren* achterin laag 2. In de andere twee springt een persoonsvorm naar voren alsof het een hoofdzin is."
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Dat is precies de zin ___ ik toen vastliep.* Welke past?",
+      "options": ["waarop", "waarin", "waarmee"],
+      "correct": 0,
+      "explain": "Het is *vastlopen **op** iets*, dus *op* + relatief → **waarop**. In spreektaal splits je het: *de zin waar ik toen op vastliep*. Het voorzetsel volgt het werkwoord, niet je gevoel."
+    },
+    {
+      "type": "typed",
+      "prompt": "Geef door in de indirecte rede. Sanne zei: *\"We hebben het pas na de eerste echo verteld.\"* Begin met: Sanne zei dat …",
+      "answers": [
+        "Sanne zei dat ze het pas na de eerste echo verteld hadden",
+        "Sanne zei dat ze het pas na de eerste echo hadden verteld",
+        "dat ze het pas na de eerste echo verteld hadden",
+        "dat ze het pas na de eerste echo hadden verteld"
+      ],
+      "hint": "*hebben verteld* schuift terug naar *hadden verteld*.",
+      "explain": "*Sanne zei dat ze het pas na de eerste echo verteld hadden.* Voltooid → voltooid verleden, en aan het eind mag het cluster twee kanten op: *verteld hadden* én *hadden verteld*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en schrijf de hele zin op.",
+      "speak": "Toen ik hoorde dat ze een kindje kreeg, wist ik meteen wat ik wilde zeggen.",
+      "answers": [
+        "Toen ik hoorde dat ze een kindje kreeg, wist ik meteen wat ik wilde zeggen",
+        "Toen ik hoorde dat ze een kindje kreeg wist ik meteen wat ik wilde zeggen",
+        "Toen ik hoorde dat ze een kindje kreeg, wist ik meteen wat ik zeggen wilde"
+      ],
+      "explain": "Bijzin vooraan (*Toen ik hoorde dat …*) → de hoofdzin begint meteen met de persoonsvorm: *wist ik*. En achterin nog een laag: *wat ik wilde zeggen*."
+    },
+    {
+      "type": "card",
+      "title": "Mijn verhaal — laag 16: één anekdote, alle tijden",
+      "body": "Tot nu toe vertelde je verhaal wie je bent, wat je vindt en wat je had gewild. Nu komt er een **anekdote** bij: één klein verhaal dat door de tijden wandelt — achtergrond in de **verleden tijd**, de gebeurtenis in de **voltooide tijd**, één zin die iemand **zei**, en een gevolg voor **nu**. Sannes nieuws is het model.",
+      "table": {
+        "headers": ["Stap", "Tijd", "Model"],
+        "rows": [
+          ["Achtergrond", "verleden tijd / vvt", "Vorig jaar woonde Sanne nog in Amsterdam."],
+          ["De gebeurtenis", "voltooide tijd", "In de zomer is ze naar Utrecht verhuisd."],
+          ["De geciteerde zin", "indirecte rede", "Zaterdag zei ze dat ze in mei een kindje kreeg."],
+          ["Het gevolg", "tegenwoordige tijd", "Daardoor sta ik binnenkort een babykamer te verven."]
+        ]
+      },
+      "callout": "Eén anekdote is genoeg. Liever vier goede zinnen dan tien halve."
+    },
+    {
+      "type": "builder",
+      "title": "Mijn verhaal — laag 16: bouw je anekdote",
+      "prompt": "Vier gleuven, vier tijden. Kies wat past of schrijf je eigen versie — het gaat om jouw verhaal.",
+      "slots": [
+        { "label": "Achtergrond (verleden tijd)", "chips": ["Toen ik hier net woonde, durfde ik in winkels geen woord te zeggen", "Een jaar geleden begreep ik nog niets van wat er om me heen gebeurde", "Vroeger schakelde iedereen meteen over op het Engels"] },
+        { "label": "De gebeurtenis (voltooide tijd)", "chips": ["Op een dag ben ik toch begonnen met terugpraten", "Vorige maand heb ik mijn eerste hele gesprek in het Nederlands gevoerd", "Afgelopen zaterdag ben ik bij vrienden blijven hangen tot diep in de nacht"] },
+        { "label": "De zin die iemand zei (indirecte rede)", "chips": ["en iemand zei tegen me dat hij niet doorhad dat ik geen Nederlander was", "en de buurvrouw vertelde dat ze mijn accent bijna niet meer hoorde", "en mijn collega vroeg of ik hier soms was opgegroeid"] },
+        { "label": "Het gevolg voor nu (verband + tegenwoordige tijd)", "chips": ["Daardoor durf ik nu veel meer", "Vandaar dat ik tegenwoordig gewoon in het Nederlands begin", "Desondanks blijf ik het spannend vinden"] }
+      ],
+      "sample": "Toen ik hier net woonde, durfde ik in winkels geen woord te zeggen. Vorige maand heb ik mijn eerste hele gesprek in het Nederlands gevoerd, en de buurvrouw vertelde dat ze mijn accent bijna niet meer hoorde. Daardoor durf ik nu veel meer."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Sunday. Bram calls You from Rotterdam — he's heard something, and You gets to retell the whole story.",
+      "lines": [
+        { "speaker": "Bram", "nl": "Ik hoorde iets over Sanne. Klopt het wat Emma me gisteren appte?", "en": "I heard something about Sanne. Is what Emma texted me yesterday true?" },
+        { "speaker": "You", "nl": "Als ze geschreven heeft dat Sanne een kindje krijgt, dan klopt het.", "en": "If she wrote that Sanne is expecting, then it's true.", "spotlight": "Bijzin in bijzin: *als ze geschreven heeft dat …*" },
+        { "speaker": "Bram", "nl": "Mooi zeg. Wanneer is het zover?", "en": "That's lovely. When is it due?" },
+        { "speaker": "You", "nl": "In mei. Ze zei dat ze het pas na de eerste echo wilde vertellen, vandaar dat niemand iets wist.", "en": "In May. She said she only wanted to tell people after the first scan, which is why nobody knew.", "spotlight": "Indirecte rede + *vandaar dat* in één zin." },
+        { "speaker": "Bram", "nl": "Verstandig. En ze blijven in Utrecht, neem ik aan?", "en": "Sensible. And they're staying in Utrecht, I assume?" },
+        { "speaker": "You", "nl": "Zeker. Die logeerkamer waar ze het altijd over had, wordt nu eindelijk verbouwd.", "en": "Definitely. That spare room she always talked about is finally being done up.", "spotlight": "Betrekkelijke bijzin, gesplitst: *waar ze het over had*." },
+        { "speaker": "Bram", "nl": "Er zijn er niet veel die in twee jaar zo veel veranderen.", "en": "There aren't many people who change that much in two years.", "spotlight": "*Er zijn er niet veel die …* — de dubbele *er*." },
+        { "speaker": "You", "nl": "Nee. Toen ze verhuisde, dacht ik nog dat dát het grote nieuws was.", "en": "No. When she moved, I still thought that was the big news." },
+        { "speaker": "Bram", "nl": "Zeg maar dat ik graag kom helpen met verbouwen. Dat doe ik liever dan vergaderen.", "en": "Tell her I'd be glad to come help with the renovation. I'd rather do that than sit in meetings." },
+        { "speaker": "You", "nl": "Dat geef ik door. Daar zal ze blij mee zijn.", "en": "I'll pass that on. She'll be pleased with that." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Wat gaf je door?",
+      "questions": [
+        { "q": "Hoe wist Bram al iets van het nieuws?", "options": ["Emma had hem geappt", "Sanne had hem gebeld", "Hij had het van de buren gehoord"], "correct": 0 },
+        { "q": "Waarom wist niemand het eerder?", "options": ["Sanne wilde wachten tot na de eerste echo", "Niemand had er interesse in", "Emma had het geheimgehouden"], "correct": 0 },
+        { "q": "Wat biedt Bram aan?", "options": ["Helpen met de verbouwing", "Zijn auto uitlenen", "Een feest organiseren"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Mijn verhaal — met een anekdote. Vertel kort wie je bent en waar je staat met je Nederlands, en voeg nu **één anekdote** toe die door de tijden beweegt: achtergrond in de verleden tijd, de gebeurtenis in de voltooide tijd, één zin die iemand tegen je **zei** (indirecte rede), en het gevolg voor nu met *daardoor* of *vandaar dat*. In het Nederlands, minstens vier zinnen.",
+      "starters": ["Ik heet … en ik leer inmiddels …", "Toen ik hier net woonde, …", "Op een dag heb ik …", "… zei tegen me dat …", "Daardoor …"],
+      "minSentences": 4
+    },
+    {
+      "type": "journal",
+      "prompt": "Week 16 zit erop — en wat een week om hem mee af te sluiten. Welke lange zin ben je deze week het meest trots op, en wat betekende Sannes nieuws voor jou? In het Nederlands, minstens vier zinnen.",
+      "starters": ["De zin waar ik het meest trots op ben, is …", "Toen Sanne het vertelde, dacht ik …", "Volgende week wil ik …"],
+      "minSentences": 4
+    }
+  ]
+}

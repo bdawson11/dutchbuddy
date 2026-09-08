@@ -1,0 +1,1476 @@
+{
+  "schemaVersion": 1,
+  "packId": "spanish-es-v1",
+  "days": {
+    "day-01": {
+      "day": 1,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Los cinco sonidos y el acento",
+      "emoji": "🔊",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The five pure Spanish vowels and where the stress falls — plus the tilde",
+      "steps": 10
+    },
+    "day-02": {
+      "day": 2,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "La ce, la zeta, la jota y la eñe",
+      "emoji": "🗣️",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The Castilian 'th' sound (distinción), the jota, and ñ / ll / rr",
+      "steps": 11
+    },
+    "day-03": {
+      "day": 3,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Saludos y el bar",
+      "emoji": "🍷",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Greetings, please/thank you, and your first bar de tapas — with vale and venga",
+      "steps": 10
+    },
+    "day-04": {
+      "day": 4,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Ser: soy, eres, es… y vosotros",
+      "emoji": "🧍",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The verb ser for who and where from — with the full paradigm including vosotros",
+      "steps": 10
+    },
+    "day-05": {
+      "day": 5,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Tener, estar y decir que no",
+      "emoji": "🙅",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "tener and estar, negation with no, and the first taste of ser vs estar",
+      "steps": 10
+    },
+    "day-06": {
+      "day": 6,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "El, la, un, una: el género",
+      "emoji": "⚥",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Grammatical gender, the articles el/la and un/una, and the classic exceptions",
+      "steps": 10
+    },
+    "day-07": {
+      "day": 7,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "capstone",
+      "title": "Mi historia: quién soy",
+      "emoji": "🎉",
+      "level": "A1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week-1 capstone: sounds, greetings, ser/estar/tener — then your first self-intro layer",
+      "steps": 11
+    },
+    "day-08": {
+      "day": 8,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Números del 0 al 100",
+      "emoji": "🔢",
+      "level": "A1",
+      "durationMin": [
+        15,
+        22
+      ],
+      "summary": "Counting from zero to a hundred — cardinal numbers, the tricky teens, and the tens pattern",
+      "steps": 12
+    },
+    "day-09": {
+      "day": 9,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Precios y euros",
+      "emoji": "💶",
+      "level": "A1",
+      "durationMin": [
+        15,
+        23
+      ],
+      "summary": "Big numbers, hundreds, and asking the price — euros, céntimos, ¿cuánto es?",
+      "steps": 12
+    },
+    "day-10": {
+      "day": 10,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "La hora, los días y los meses",
+      "emoji": "⏰",
+      "level": "A1",
+      "durationMin": [
+        16,
+        24
+      ],
+      "summary": "Telling the time, the days of the week, and the months of the year",
+      "steps": 12
+    },
+    "day-11": {
+      "day": 11,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "El presente: verbos en -ar, -er, -ir",
+      "emoji": "🧩",
+      "level": "A1",
+      "durationMin": [
+        16,
+        24
+      ],
+      "summary": "The regular present tense across all three verb families, vosotros included",
+      "steps": 12
+    },
+    "day-12": {
+      "day": 12,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Preguntas: qué, quién, dónde…",
+      "emoji": "❓",
+      "level": "A1",
+      "durationMin": [
+        15,
+        22
+      ],
+      "summary": "The core question words and Spain's mandatory inverted ¿…? punctuation",
+      "steps": 11
+    },
+    "day-13": {
+      "day": 13,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Hay, este, ese, aquel",
+      "emoji": "📍",
+      "level": "A1",
+      "durationMin": [
+        15,
+        22
+      ],
+      "summary": "The existential hay and pointing at the world with este/ese/aquel",
+      "steps": 11
+    },
+    "day-14": {
+      "day": 14,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "capstone",
+      "title": "Mi historia: mi rutina",
+      "emoji": "🎉",
+      "level": "A1",
+      "durationMin": [
+        18,
+        25
+      ],
+      "summary": "Week-2 capstone: numbers, time, present tense, questions — then your daily-routine layer of Mi historia",
+      "steps": 11
+    },
+    "day-15": {
+      "day": 15,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "La familia y los posesivos",
+      "emoji": "👪",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Family vocabulary and possessives — mi, tu, su, nuestro, vuestro.",
+      "steps": 9
+    },
+    "day-16": {
+      "day": 16,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Los adjetivos concuerdan",
+      "emoji": "🎨",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Adjective agreement in gender and number, and where adjectives go in a sentence.",
+      "steps": 9
+    },
+    "day-17": {
+      "day": 17,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Ser o estar: la gran pared",
+      "emoji": "⚖️",
+      "level": "A1",
+      "durationMin": [
+        18,
+        25
+      ],
+      "summary": "Ser vs estar, deep-dive: identity and origin versus location and state.",
+      "steps": 10
+    },
+    "day-18": {
+      "day": 18,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Tu barrio: ¿cómo se llega?",
+      "emoji": "🗺️",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Neighborhood vocabulary and giving directions around your barrio.",
+      "steps": 10
+    },
+    "day-19": {
+      "day": 19,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "¿Cómo es? ¿Cómo está?",
+      "emoji": "👀",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Describing people's looks, personality, and mood — ser vs estar with people.",
+      "steps": 9
+    },
+    "day-20": {
+      "day": 20,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "review",
+      "title": "El barrio de Lucía",
+      "emoji": "🏘️",
+      "level": "A1",
+      "durationMin": [
+        15,
+        20
+      ],
+      "summary": "Week-3 review and immersion: Lucía narrates her Madrid barrio, Lavapiés.",
+      "steps": 7
+    },
+    "day-21": {
+      "day": 21,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "capstone",
+      "title": "Mi familia, mi barrio",
+      "emoji": "🎉",
+      "level": "A1",
+      "durationMin": [
+        20,
+        25
+      ],
+      "summary": "Week-3 capstone: a family and neighborhood portrait, plus the next Mi historia layer.",
+      "steps": 11
+    },
+    "day-22": {
+      "day": 22,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "El ritmo español de comer",
+      "emoji": "🍽",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Spain's meal rhythm — desayuno, comida, cena, merienda — and the tradition of la sobremesa",
+      "steps": 9
+    },
+    "day-23": {
+      "day": 23,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Ponme una caña",
+      "emoji": "🍺",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Ordering at the bar de tapas — ponme, una ración, tapear, and the vale/venga glue",
+      "steps": 9
+    },
+    "day-24": {
+      "day": 24,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Me gusta, me encanta",
+      "emoji": "😍",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "gustar and its flipped construction — me gusta / me gustan, me encanta",
+      "steps": 11
+    },
+    "day-25": {
+      "day": 25,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Quiero, puedo, prefiero",
+      "emoji": "🔄",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Stem-changing verbs quiero/puedo/prefiero (e>ie, o>ue) for ordering and plans",
+      "steps": 11
+    },
+    "day-26": {
+      "day": 26,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Un kilo, por favor",
+      "emoji": "🛒",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Market vocabulary — quantities, ¿me pone…?, and ¿algo más?",
+      "steps": 10
+    },
+    "day-27": {
+      "day": 27,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "review",
+      "title": "Nacho y su bar de siempre",
+      "emoji": "🍻",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week-4 review and immersion — meet Nacho at his neighborhood bar",
+      "steps": 8
+    },
+    "day-28": {
+      "day": 28,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "capstone",
+      "title": "Mi historia: lo que me gusta",
+      "emoji": "🎉",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week-4 capstone: order, describe, introduce — plus the Mi historia food-and-wish layer",
+      "steps": 10
+    },
+    "day-29": {
+      "day": 29,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "El pretérito perfecto: haber + participio",
+      "emoji": "🕰️",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Meet Spain's everyday recent past — haber + participle — and why hoy takes he comido, not comí.",
+      "steps": 9
+    },
+    "day-30": {
+      "day": 30,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "Hecho, dicho, visto: los ocho irregulares",
+      "emoji": "🧩",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The eight irregular participles every Spaniard reaches for constantly — hecho, dicho, visto, puesto, vuelto, escrito, roto, abierto.",
+      "steps": 10
+    },
+    "day-31": {
+      "day": 31,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "Ya, todavía no, alguna vez, nunca",
+      "emoji": "⏳",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The time markers that call for the perfecto — ya, todavía no, alguna vez, nunca — and where they sit in the sentence.",
+      "steps": 10
+    },
+    "day-32": {
+      "day": 32,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "Me he levantado: el perfecto reflexivo",
+      "emoji": "🚿",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Reflexive verbs in the perfecto — the pronoun jumps in front of haber, never onto the participle.",
+      "steps": 9
+    },
+    "day-33": {
+      "day": 33,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "En la estación: el tren y el billete",
+      "emoji": "🚆",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Spain's train vocabulary — Cercanías, el AVE, hacer transbordo — practiced through the perfecto.",
+      "steps": 10
+    },
+    "day-34": {
+      "day": 34,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "review",
+      "title": "El finde de Lucía en la sierra",
+      "emoji": "🏔️",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week-5 review — the perfecto, irregular participles, reflexives and travel vocab, through Lucía's weekend getaway.",
+      "steps": 7
+    },
+    "day-35": {
+      "day": 35,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "capstone",
+      "title": "¿Qué has hecho hoy?",
+      "emoji": "🎉",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week-5 capstone — perfecto storytelling with Rafa, then a new layer for Mi historia: something you've done recently.",
+      "steps": 12
+    },
+    "day-36": {
+      "day": 36,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "El cuerpo y lo que duele",
+      "emoji": "💪",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Body vocabulary and the gustar-type verb doler — me duele, me duelen.",
+      "steps": 11
+    },
+    "day-37": {
+      "day": 37,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "En el médico y en la farmacia",
+      "emoji": "🩺",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Booking a doctor's appointment and picking up medicine — the Spanish health system in practice.",
+      "steps": 11
+    },
+    "day-38": {
+      "day": 38,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Urgencias: el 112",
+      "emoji": "🚑",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Emergency Spanish — calling 112, describing what's wrong, asking for help fast.",
+      "steps": 11
+    },
+    "day-39": {
+      "day": 39,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Cómo te sientes",
+      "emoji": "😊",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Emotion adjectives with estar, and the ser/estar split for feelings vs. personality.",
+      "steps": 11
+    },
+    "day-40": {
+      "day": 40,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Dar consejos",
+      "emoji": "💡",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Giving advice — tienes que, deberías, ¿por qué no…? — a first taste of the conditional.",
+      "steps": 12
+    },
+    "day-41": {
+      "day": 41,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "review",
+      "title": "La semana horrible de Sofía",
+      "emoji": "🤕",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Review day: the week's health and feelings vocab, then Sofía's rough week — bag stolen, sick, the médico.",
+      "steps": 7
+    },
+    "day-42": {
+      "day": 42,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "capstone",
+      "title": "Mi historia: ¿qué te ha pasado?",
+      "emoji": "🎉",
+      "level": "A2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week-6 capstone: describing what happened to you, plus a new feelings/health layer for Mi historia.",
+      "steps": 13
+    },
+    "day-43": {
+      "day": 43,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Ayer pasó algo",
+      "emoji": "🕰",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Regular preterite (indefinido) conjugation for -ar/-er/-ir verbs and the closed-time markers that trigger it",
+      "steps": 10
+    },
+    "day-44": {
+      "day": 44,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Ayer no fue un día cualquiera",
+      "emoji": "⚡",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The six high-frequency irregular preterite verbs — ser/ir, hacer, tener, estar, decir, venir",
+      "steps": 10
+    },
+    "day-45": {
+      "day": 45,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Cuando era pequeño",
+      "emoji": "🖼",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Imperfecto conjugation — regular endings plus the three irregulars ser/ir/ver — for description, habit and background",
+      "steps": 10
+    },
+    "day-46": {
+      "day": 46,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Hoy o ayer: el gran cambio",
+      "emoji": "⚖️",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Choosing between pretérito perfecto compuesto and indefinido by time marker — Spain's core past-tense rule",
+      "steps": 11
+    },
+    "day-47": {
+      "day": 47,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Lo que pasó y lo que pasaba",
+      "emoji": "📖",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Combining indefinido and imperfecto to narrate — background versus the event that interrupts it",
+      "steps": 10
+    },
+    "day-48": {
+      "day": 48,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "review",
+      "title": "El pueblo de Nacho",
+      "emoji": "🌾",
+      "level": "A2",
+      "durationMin": [
+        15,
+        22
+      ],
+      "summary": "Week 7 review — indefinido, imperfecto and the perfecto-vs-indefinido split, with Nacho's pueblo childhood as immersion",
+      "steps": 7
+    },
+    "day-49": {
+      "day": 49,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "capstone",
+      "title": "Mi historia: cuando era pequeño",
+      "emoji": "🧸",
+      "level": "A2",
+      "durationMin": [
+        20,
+        28
+      ],
+      "summary": "Week-7 capstone: indefinido, imperfecto and the perfecto split, then a childhood memory layered into Mi historia",
+      "steps": 11
+    },
+    "day-50": {
+      "day": 50,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "El futuro: planes y promesas",
+      "emoji": "🔮",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Two ways to talk about the future: ir a + infinitive for plans, the simple future for predictions",
+      "steps": 11
+    },
+    "day-51": {
+      "day": 51,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "Me lo dio: los pronombres de objeto",
+      "emoji": "🔗",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Direct and indirect object pronouns, and how they combine (me lo dio, se lo doy)",
+      "steps": 12
+    },
+    "day-52": {
+      "day": 52,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "Creo que… dar tu opinión",
+      "emoji": "💬",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Giving opinions with creo que, pienso que, para mí, and the agreement ladder",
+      "steps": 11
+    },
+    "day-53": {
+      "day": 53,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "La puerta del subjuntivo",
+      "emoji": "🚪",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "First contact with the present subjunctive — the B1 gate: quiero que, es importante que",
+      "steps": 12
+    },
+    "day-54": {
+      "day": 54,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "El mejor bar de Madrid",
+      "emoji": "⚖️",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Comparatives and superlatives: más... que, tan... como, mejor, el mejor",
+      "steps": 11
+    },
+    "day-55": {
+      "day": 55,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "review",
+      "title": "¿Hay que hablar español?",
+      "emoji": "🗣️",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week 8 review: Lucía and Rafa debate whether you have to speak Spanish to live in Spain",
+      "steps": 8
+    },
+    "day-56": {
+      "day": 56,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "capstone",
+      "title": "Mi próximo año",
+      "emoji": "🌅",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week 8 capstone: futuro, opinions and the subjunctive gate, then Mi historia — a plan and an opinion",
+      "steps": 12
+    },
+    "day-57": {
+      "day": 57,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Subjuntivo II: emoción y duda",
+      "emoji": "🎭",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The subjunctive after feelings and doubt: me alegro de que, es una pena que, no creo que, dudo que",
+      "steps": 10
+    },
+    "day-58": {
+      "day": 58,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Subjuntivo III: cuando, para que, antes de que",
+      "emoji": "⏳",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The subjunctive of the not-yet: cuando + future, para que, antes de que, hasta que",
+      "steps": 10
+    },
+    "day-59": {
+      "day": 59,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Estilo indirecto: me dijo que…",
+      "emoji": "💬",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Reporting what people said: dijo que, me contó que, me preguntó si — and the tense backshift",
+      "steps": 11
+    },
+    "day-60": {
+      "day": 60,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "El condicional: podría, gustaría, habría",
+      "emoji": "🙏",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The conditional for polite requests, advice and hypotheticals: podrías, me gustaría, yo que tú…",
+      "steps": 9
+    },
+    "day-61": {
+      "day": 61,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Oraciones con si: real e hipotético",
+      "emoji": "🔀",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Real conditions (si tengo tiempo…) and a first taste of the hypothetical (si tuviera…, iría)",
+      "steps": 10
+    },
+    "day-62": {
+      "day": 62,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "review",
+      "title": "Las noticias de Sofía",
+      "emoji": "📰",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week-9 review + immersion: Lucía relays Sofía's big news in reported speech — a job offer in Valencia",
+      "steps": 7
+    },
+    "day-63": {
+      "day": 63,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "capstone",
+      "title": "Mi historia: lo que me contaron",
+      "emoji": "🎉",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week-9 capstone: cotilleo with Rafa in reported speech, then the Mi historia layer — something someone told you",
+      "steps": 11
+    },
+    "day-64": {
+      "day": 64,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Ven, haz, di: el imperativo",
+      "emoji": "👉",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Everyday commands: the affirmative imperative for tú and vosotros, plus the eight irregulars",
+      "steps": 11
+    },
+    "day-65": {
+      "day": 65,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Dímelo: imperativo y pronombres",
+      "emoji": "🔗",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The pronoun-cluster module: attaching pronouns to affirmative commands and flipping them for the negative",
+      "steps": 11
+    },
+    "day-66": {
+      "day": 66,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Por y para: el gran reparto",
+      "emoji": "⚖️",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The preposition split every learner dreads: por (cause, exchange, route, means) vs para (goal, destination, recipient, deadline)",
+      "steps": 11
+    },
+    "day-67": {
+      "day": 67,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Oraciones de relativo",
+      "emoji": "🧵",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Joining ideas with relative pronouns: que, quien, lo que, el que and cuyo",
+      "steps": 11
+    },
+    "day-68": {
+      "day": 68,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Conectores: hilar el argumento",
+      "emoji": "🔀",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Linking your ideas into an argument: además, sin embargo, aunque, por eso, así que, es que",
+      "steps": 11
+    },
+    "day-69": {
+      "day": 69,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "review",
+      "title": "El día de la mudanza",
+      "emoji": "📦",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week-10 review woven into THE moving day: Sofía leaves Madrid for Valencia, and everyone helps",
+      "steps": 8
+    },
+    "day-70": {
+      "day": 70,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "capstone",
+      "title": "Mi historia: mi gran decisión",
+      "emoji": "✉️",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week-10 capstone: commands, clusters, por/para, relatives and connectors — then Mi historia layer 10, a big decision",
+      "steps": 12
+    },
+    "day-71": {
+      "day": 71,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Verbos con preposición fija",
+      "emoji": "🔗",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Fifteen core verbs welded to their preposition — soñar con, pensar en, quedar con, acordarse de",
+      "steps": 10
+    },
+    "day-72": {
+      "day": 72,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Muletillas: el pegamento del habla",
+      "emoji": "🗣",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The filler words that make you sound native — pues, bueno, o sea, en plan, es que, venga",
+      "steps": 11
+    },
+    "day-73": {
+      "day": 73,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Diminutivos y aumentativos",
+      "emoji": "🤏",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "-ito/-illo for warmth and softening, -azo for size and impact — and why ahorita isn't Spain",
+      "steps": 10
+    },
+    "day-74": {
+      "day": 74,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Meta: tú, usted y vosotros",
+      "emoji": "🧭",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The Spain-specific register meta-module: the tuteo default, the shrinking usted, and vosotros not ustedes",
+      "steps": 12
+    },
+    "day-75": {
+      "day": 75,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Registro formal: usted en acción",
+      "emoji": "🎩",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Usted in real contexts — service, the phone, officialdom, older strangers — and the polite conditional",
+      "steps": 10
+    },
+    "day-76": {
+      "day": 76,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "review",
+      "title": "Repaso: Lucía visita a Sofía en Valencia",
+      "emoji": "☕",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week-11 review woven into the arc — Lucía visits Sofía in Valencia, settled and happier",
+      "steps": 7
+    },
+    "day-77": {
+      "day": 77,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "capstone",
+      "title": "Mi historia: mi puesta al día",
+      "emoji": "🎉",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week-11 capstone: produce the week's tools, then say your intro in two registers — usted vs tú/vosotros",
+      "steps": 11
+    },
+    "day-78": {
+      "day": 78,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "Exclamaciones y suavizadores",
+      "emoji": "🗯️",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Reacting like a local: ¡qué va!, ¡anda!, ¡venga ya! and the softeners hombre/mujer, jolín",
+      "steps": 9
+    },
+    "day-79": {
+      "day": 79,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "El semáforo del argot",
+      "emoji": "🚦",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Spain's slang traffic-light: green (guay, mola), yellow (tío, flipar, currar), red (joder, coño, hostia) — flagged honestly, recognition first",
+      "steps": 10
+    },
+    "day-80": {
+      "day": 80,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "El tapeo y la caña",
+      "emoji": "🍺",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The choreography of going for tapas: ordering, la ronda, invitar, pagar a escote and la sobremesa",
+      "steps": 9
+    },
+    "day-81": {
+      "day": 81,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "En la peluquería y la tienda",
+      "emoji": "✂️",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Service scenes and small-talk scripts: the hairdresser's, the shop, and holding your tú/usted register",
+      "steps": 9
+    },
+    "day-82": {
+      "day": 82,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "Modismos y dichos",
+      "emoji": "🎭",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Twelve Spanish idioms that don't translate word-for-word — estar en las nubes, ser la leche, dar la lata, ponerse las botas…",
+      "steps": 9
+    },
+    "day-83": {
+      "day": 83,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "review",
+      "title": "Un año después: la terraza",
+      "emoji": "🥂",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Final immersion: the whole cast reunites on a Madrid terrace one year on — exclamations, slang, tapeo and idioms braided together",
+      "steps": 7
+    },
+    "day-84": {
+      "day": 84,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "capstone",
+      "title": "Mi historia, definitiva",
+      "emoji": "🎉",
+      "level": "B1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The finale: twelve-week recap, the definitive B1 self-intro with every cumulative layer, a letter to your past self, farewells with the whole cast",
+      "steps": 12
+    },
+    "day-85": {
+      "day": 85,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "El subjuntivo imperfecto: las formas",
+      "emoji": "🧩",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Form the imperfect subjunctive off the third-person-plural preterite: the -ra and -se endings.",
+      "steps": 10
+    },
+    "day-86": {
+      "day": 86,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "Concordancia de tiempos: cuándo va al pasado",
+      "emoji": "🔗",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Sequence of tenses: a past or conditional main verb pulls the subjunctive back to the imperfect.",
+      "steps": 10
+    },
+    "day-87": {
+      "day": 87,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "Opinar con matices",
+      "emoji": "💬",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Connectors for nuanced argument, and the 'no es que + subjunctive' construction for hedged opinion.",
+      "steps": 10
+    },
+    "day-88": {
+      "day": 88,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "Ojalá y como si",
+      "emoji": "🌠",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Ojalá + present vs imperfect subjunctive for hopes and wishes; como si always takes the imperfect subjunctive.",
+      "steps": 10
+    },
+    "day-89": {
+      "day": 89,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "Suavizar: la cortesía del condicional",
+      "emoji": "🙏",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Soften requests and opinions with the courtesy imperfect and conditional: quería preguntarte, ¿te importaría?",
+      "steps": 10
+    },
+    "day-90": {
+      "day": 90,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "review",
+      "title": "Sobremesa: opinar de verdad",
+      "emoji": "🍷",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Week 13 review woven into a real sobremesa debate; meet Marta, the Sevillana colleague (Andalusian-accent exposure).",
+      "steps": 7
+    },
+    "day-91": {
+      "day": 91,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "capstone",
+      "title": "Mi historia: lo que pienso de verdad",
+      "emoji": "🎉",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Week 13 capstone: imperfect subjunctive, sequence of tenses, and connectors — then the Mi historia nuanced-opinion layer.",
+      "steps": 11
+    },
+    "day-92": {
+      "day": 92,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "El condicional compuesto: lo que habría pasado",
+      "emoji": "🔮",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Form and use the conditional perfect (habría + participle) for what would have happened.",
+      "steps": 10
+    },
+    "day-93": {
+      "day": 93,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Si tuviera… : la hipótesis irreal",
+      "emoji": "🔀",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Type-2 conditionals: si + imperfect subjunctive, simple conditional — and never 'si + condicional'.",
+      "steps": 11
+    },
+    "day-94": {
+      "day": 94,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Si hubiera sabido… : la hipótesis del pasado",
+      "emoji": "🕰",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The pluperfect subjunctive (hubiera + participle) and type-3 conditionals for the unreal past.",
+      "steps": 11
+    },
+    "day-95": {
+      "day": 95,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Condicionales mixtas y el reproche",
+      "emoji": "😬",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Mixed conditionals (past cause, present result) and reproach: deberías haber…, de haberlo sabido.",
+      "steps": 10
+    },
+    "day-96": {
+      "day": 96,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Serán las diez: conjeturar sin saber",
+      "emoji": "🤔",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Future for present conjecture and conditional for past conjecture — guessing in Spanish.",
+      "steps": 10
+    },
+    "day-97": {
+      "day": 97,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "review",
+      "title": "Los caminos que no tomamos",
+      "emoji": "🍺",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Week 14 review woven into a reflective bar chat with Rafa about roads not taken and conjecture.",
+      "steps": 6
+    },
+    "day-98": {
+      "day": 98,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "capstone",
+      "title": "Mi historia: y si las cosas hubieran sido de otra forma",
+      "emoji": "🎉",
+      "level": "B2",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Week 14 capstone: the full conditional system and conjecture — then the Mi historia hypothetical/regret layer.",
+      "steps": 11
+    }
+  }
+}

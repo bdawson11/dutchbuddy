@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "day-121",
+  "day": 121,
+  "module": "M18",
+  "unit": "U18",
+  "kind": "lesson",
+  "title": "Het sollicitatiegesprek — bescheiden opscheppen",
+  "emoji": "💼",
+  "level": "C1",
+  "durationMin": [20, 35],
+  "summary": "The Dutch job interview: STAR answers, hedged self-praise, naming a real valkuil, and the questions you ask back",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Wat ze eigenlijk vragen",
+      "body": "Een Nederlands sollicitatiegesprek is nuchter. Geen superlatieven, geen levensverhaal: concreet, onderbouwd en op tijd klaar. *Doe maar gewoon, dan doe je al gek genoeg* geldt hier letterlijk — wie te groot praat, verliest.",
+      "table": {
+        "headers": ["De vraag", "Wat ze willen horen"],
+        "rows": [
+          ["Vertel eens iets over jezelf. — tell us about yourself", "drie minuten werk, geen jeugd"],
+          ["Waarom wil je juist bij ons werken? — why us?", "iets concreets over dít bedrijf"],
+          ["Wat is je valkuil? — what's your pitfall?", "een echte, plus wat je eraan doet"],
+          ["Heb je zelf nog vragen? — any questions?", "ja, altijd — anders lijk je ongeïnteresseerd"]
+        ]
+      },
+      "callout": "*De valkuil* is de Nederlandse versie van 'zwak punt': de kuil waar je zelf steeds in valt."
+    },
+    {
+      "type": "card",
+      "title": "STAR: zo bouw je een antwoord",
+      "body": "Vraagt iemand om een voorbeeld, dan verwacht een Nederlandse interviewer de **STAR-opbouw**: eerst de situatie, dan jouw taak, dan wat jíj deed, en pas daarna het resultaat. Vier zinnen zijn genoeg — en het resultaat mag je best in cijfers zeggen.",
+      "table": {
+        "headers": ["Letter", "Wat je zegt"],
+        "rows": [
+          ["S — Situatie", "*Vorig jaar liep een campagne vast op de planning.*"],
+          ["T — Taak", "*Ik was verantwoordelijk voor het schema.*"],
+          ["A — Actie", "*Ik heb de deadlines herzien en met de klant overlegd.*"],
+          ["R — Resultaat", "*Uiteindelijk hebben we twee weken later opgeleverd, binnen budget.*"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "STAR-zinnen — tik om te horen",
+      "items": [
+        { "nl": "In mijn vorige functie was ik verantwoordelijk voor de planning.", "en": "In my previous role I was responsible for the planning.", "speak": "In mijn vorige functie was ik verantwoordelijk voor de planning." },
+        { "nl": "Mij werd gevraagd om het project vlot te trekken.", "en": "I was asked to get the project moving again.", "speak": "Mij werd gevraagd om het project vlot te trekken." },
+        { "nl": "Ik heb toen de rollen opnieuw verdeeld.", "en": "I then redivided the roles.", "speak": "Ik heb toen de rollen opnieuw verdeeld." },
+        { "nl": "Daardoor haalden we de deadline alsnog.", "en": "As a result we still made the deadline.", "speak": "Daardoor haalden we de deadline alsnog." },
+        { "nl": "Wat ik daarvan geleerd heb, is dat ik eerder moet doorvragen.", "en": "What I learned from it is that I should probe sooner.", "speak": "Wat ik daarvan geleerd heb, is dat ik eerder moet doorvragen." }
+      ]
+    },
+    {
+      "type": "builder",
+      "title": "Bouw je STAR-antwoord",
+      "prompt": "Een interviewer vraagt: *Geef eens een voorbeeld van een project dat misliep.* Bouw je antwoord in vier stappen. Kies per slot een chip of schrijf je eigen zin in dezelfde vorm.",
+      "slots": [
+        { "label": "Situatie", "chips": ["Vorig jaar liep een project bij ons vast", "Twee weken voor de deadline viel een collega uit", "We kregen halverwege een heel andere opdracht"] },
+        { "label": "Taak", "chips": ["Ik was verantwoordelijk voor de planning", "Mij werd gevraagd het contact met de klant over te nemen", "Het was aan mij om de boel vlot te trekken"] },
+        { "label": "Actie", "chips": ["Ik heb de deadlines herzien en met de klant overlegd", "Ik heb het werk opnieuw verdeeld", "Ik heb eerst geluisterd en daarna een voorstel gedaan"] },
+        { "label": "Resultaat", "chips": ["Uiteindelijk hebben we binnen budget opgeleverd", "Daardoor haalden we de deadline alsnog", "De klant is er tot vandaag gebleven"] }
+      ],
+      "sample": "Vorig jaar liep een project bij ons vast. Ik was verantwoordelijk voor de planning, dus ik heb de deadlines herzien en met de klant overlegd. Uiteindelijk hebben we binnen budget opgeleverd."
+    },
+    {
+      "type": "card",
+      "title": "Bescheiden opscheppen",
+      "body": "Jezelf prijzen mag, maar niet rechtstreeks. Nederlanders laten liever **iemand anders** het compliment geven, of ze bouwen er een kleine rem in: *ik hoor vaak terug dat…*, *ik ben er wel goed in om…*, *waar ik energie van krijg, is…*. En je valkuil noem je in twee delen: **wat het is** plus **wat je eraan doet**.",
+      "callout": "*Ik hoor vaak terug dat ik rust breng.* — het compliment komt van collega's, jij geeft het alleen door."
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Wat is je sterke punt?* Welk antwoord valt in Nederland het beste?",
+      "options": ["Ik ben de beste projectmanager die u kunt krijgen.", "Mijn sterke punt is dat ik rust breng in een chaotisch project — dat hoor ik vaak terug van collega's.", "Ik heb eigenlijk geen sterke punten, hoor."],
+      "correct": 1,
+      "explain": "Concreet, onderbouwd en met de bron bij een ander: precies de toon die hier werkt. Optie 1 is opschepperij, optie 3 valse bescheidenheid — allebei kosten ze je de baan."
+    },
+    {
+      "type": "typed",
+      "prompt": "Zeg dit bescheidener, met de formule uit dit blok: *Ik ben heel goed in samenwerken.*",
+      "answers": ["Ik hoor vaak terug dat ik goed samenwerk.", "Ik hoor vaak terug dat ik goed kan samenwerken.", "Ik hoor vaak terug dat ik goed ben in samenwerken."],
+      "hint": "Begin met *Ik hoor vaak terug dat …* — en let op: bijzin, dus het werkwoord achteraan.",
+      "explain": "*Ik hoor vaak terug dat ik goed samenwerk.* Zelfde inhoud, maar het oordeel ligt bij je collega's. En in de bijzin gaat *samenwerk* netjes naar het eind."
+    },
+    {
+      "type": "shadow",
+      "title": "Jouw vragen — luister en herhaal",
+      "lines": [
+        { "nl": "Hoe ziet een gewone werkweek er in dit team uit?", "en": "What does a normal working week look like in this team?" },
+        { "nl": "Waarom staat deze functie open?", "en": "Why is this position open?" },
+        { "nl": "Hoe wordt hier omgegaan met feedback?", "en": "How is feedback handled here?" },
+        { "nl": "Wat zou ik in het eerste halfjaar moeten bereiken?", "en": "What should I achieve in the first six months?" },
+        { "nl": "Wanneer hoor ik van u?", "en": "When will I hear from you?" }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Youssef interviews You for a role in his team at Emma's agency. Emma tipped you off about the vacancy.",
+      "lines": [
+        { "speaker": "Youssef", "nl": "Fijn dat u er bent. Zullen we bij het begin beginnen? Vertel eens iets over uzelf.", "en": "Glad you're here. Shall we start at the beginning? Tell me a bit about yourself.", "spotlight": "Een sollicitatiegesprek opent bijna altijd met *u* — ook als het daarna verandert." },
+        { "speaker": "You", "nl": "Graag. Ik werk nu vier jaar in de communicatie en ik ben vooral verantwoordelijk voor planning en klantcontact.", "en": "Gladly. I've been working in communications for four years now and I'm mainly responsible for planning and client contact." },
+        { "speaker": "Youssef", "nl": "En waarom wilt u juist bij ons werken?", "en": "And why do you want to work for us in particular?" },
+        { "speaker": "You", "nl": "Uw bureau werkt veel voor de cultuursector, en daar ligt mijn hart. Bovendien zoek ik een team waarin ik ook echt in het Nederlands kan werken.", "en": "Your agency works a lot for the cultural sector, and that's where my heart is. Besides, I'm looking for a team where I can genuinely work in Dutch.", "spotlight": "*Bovendien* — een schriftelijke connector die een gesprek net wat verzorgder maakt." },
+        { "speaker": "Youssef", "nl": "Geeft u eens een voorbeeld van een project dat misliep.", "en": "Give me an example of a project that went wrong." },
+        { "speaker": "You", "nl": "Vorig jaar liep een campagne vast op de planning. Ik was verantwoordelijk voor het schema, dus ik heb de deadlines herzien en met de klant overlegd. Uiteindelijk hebben we twee weken later opgeleverd, binnen budget.", "en": "Last year a campaign got stuck on the planning. I was responsible for the schedule, so I revised the deadlines and consulted the client. In the end we delivered two weeks later, within budget.", "spotlight": "STAR in één adem: situatie, taak, actie, resultaat." },
+        { "speaker": "Youssef", "nl": "Netjes. En uw valkuil?", "en": "Neat. And your pitfall?" },
+        { "speaker": "You", "nl": "Ik neem te veel op me. Daar ben ik inmiddels alert op: ik vraag nu eerder om hulp.", "en": "I take on too much. I'm alert to it now: I ask for help sooner these days.", "spotlight": "De valkuil in twee delen — wat het is, en wat je eraan doet." },
+        { "speaker": "Youssef", "nl": "Eerlijk antwoord. We tutoyeren hier trouwens gewoon, hoor — zeg maar je.", "en": "Honest answer. We're on first-name terms here, by the way — just say 'je'.", "spotlight": "*Tutoyeren* = *je* zeggen. Zo schuift het register middenin een gesprek." },
+        { "speaker": "You", "nl": "Prima. Mag ik zelf ook iets vragen? Waarom staat deze functie open?", "en": "Fine. May I ask something myself? Why is this position open?" },
+        { "speaker": "Youssef", "nl": "Iemand is doorgeschoven naar een andere afdeling. Je zou dus in een team komen dat al draait. Je hoort uiterlijk vrijdag van me.", "en": "Someone moved on to another department. So you'd be joining a team that's already running. You'll hear from me by Friday at the latest." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Het gesprek",
+      "questions": [
+        { "q": "Waarom wil You bij dit bureau werken?", "options": ["Vanwege het salaris", "Vanwege de cultuursector en het Nederlands op de werkvloer", "Omdat het dicht bij huis is"], "correct": 1 },
+        { "q": "Welke valkuil noemt You?", "options": ["Te veel op zich nemen", "Te laat komen", "Slecht luisteren"], "correct": 0 },
+        { "q": "Wat verandert er halverwege het gesprek?", "options": ["Youssef stapt over van u naar je", "Youssef stopt met vragen stellen", "Het gesprek gaat verder in het Engels"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf je eigen STAR-antwoord op de vraag *Vertel eens over een project dat misliep.* Eén zin per stap: situatie, taak, actie, resultaat. Voeg daarna één zin bescheiden zelflof toe (*ik hoor vaak terug dat …*). In het Nederlands, minstens vier zinnen.",
+      "starters": ["Vorig jaar …", "Ik was verantwoordelijk voor …", "Ik heb toen …", "Uiteindelijk …", "Ik hoor vaak terug dat …"],
+      "minSentences": 4
+    }
+  ]
+}

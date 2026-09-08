@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "day-101",
+  "day": 101,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Geachte heer/mevrouw — de formele e-mail",
+  "emoji": "📧",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "The formal Dutch email: fixed openings and sign-offs, the four-part structure, and indirect requests with zou u ... kunnen",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "De bouw van een formele mail",
+      "body": "Een formele mail heeft altijd dezelfde vier delen: de **aanhef**, de **aanleiding** (waarom je schrijft), het **verzoek** (wat je wilt) en de **afsluiting** met een groet. Houd het kort — twee alinea's is meestal genoeg. In Dutch business mail the politeness lives in the *formulas*, not in extra words, so a short message is never rude.",
+      "table": {
+        "headers": ["Onderdeel", "Voorbeeld"],
+        "rows": [
+          ["Aanhef", "Geachte heer De Vries,"],
+          ["Aanleiding", "Ik schrijf u over de cursus die u aanbiedt."],
+          ["Verzoek", "Zou u mij kunnen laten weten wanneer de cursus begint?"],
+          ["Afsluiting", "Ik hoor graag van u."],
+          ["Groet", "Met vriendelijke groet,"]
+        ]
+      },
+      "callout": "Na de aanhef komt een **komma**, daarna een nieuwe regel met een hoofdletter."
+    },
+    {
+      "type": "card",
+      "title": "Aanhef en groet — de vaste paren",
+      "body": "**Geachte heer De Vries,** — *geachte* plus *heer* of *mevrouw* plus de **achternaam**, nooit de voornaam. Ken je de naam niet, dan schrijf je **Geachte heer/mevrouw,**. Voor iemand die je wél kent maar zakelijk aanschrijft, is **Beste Youssef,** prima. Sluit af met **Met vriendelijke groet,** — dat kan bijna altijd. **Hoogachtend** bewaar je voor het zware werk: een klacht, een bezwaar, een advocaat.",
+      "table": {
+        "headers": ["Aanhef", "Bijpassende groet"],
+        "rows": [
+          ["Geachte heer/mevrouw,", "Met vriendelijke groet, / Hoogachtend,"],
+          ["Geachte mevrouw Jansen,", "Met vriendelijke groet,"],
+          ["Beste Youssef,", "Met vriendelijke groet, / Groeten,"]
+        ]
+      },
+      "callout": "Nooit *Geachte heer Jan*. Wel *Geachte heer De Vries*."
+    },
+    {
+      "type": "chips",
+      "title": "Vaste zinnen uit de mailbox — tik om te horen",
+      "items": [
+        { "nl": "Geachte heer De Vries,", "en": "Dear Mr De Vries,", "speak": "Geachte heer De Vries," },
+        { "nl": "Ik schrijf u over de vacature op uw website.", "en": "I am writing to you about the vacancy on your website.", "speak": "Ik schrijf u over de vacature op uw website." },
+        { "nl": "Zou u mij kunnen laten weten wanneer dat mogelijk is?", "en": "Could you let me know when that would be possible?", "speak": "Zou u mij kunnen laten weten wanneer dat mogelijk is?" },
+        { "nl": "Zou het mogelijk zijn de afspraak te verzetten?", "en": "Would it be possible to move the appointment?", "speak": "Zou het mogelijk zijn de afspraak te verzetten?" },
+        { "nl": "In afwachting van uw reactie,", "en": "Awaiting your reply,", "speak": "In afwachting van uw reactie," },
+        { "nl": "Met vriendelijke groet,", "en": "Kind regards,", "speak": "Met vriendelijke groet," }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je mailt een bedrijf en je weet niet wie de mail zal lezen. Welke aanhef klopt?",
+      "options": ["Geachte heer/mevrouw,", "Geachte meneer,", "Beste iedereen,"],
+      "correct": 0,
+      "explain": "*Geachte heer/mevrouw,* is de standaard als je de naam niet kent. *Meneer* is spreektaal — op papier schrijf je *heer* — en *Beste iedereen* hoort in een groepsapp."
+    },
+    {
+      "type": "contrast",
+      "title": "Het appje en de mail",
+      "pairs": [
+        { "left": "Hoi! Kun je me even de factuur sturen?", "right": "Geachte heer Bakker, zou u mij de factuur kunnen toesturen?", "note": "Aanhef erbij, *je* → *u*, partikel *even* eruit." },
+        { "left": "Ik wil dinsdag langskomen.", "right": "Zou het mogelijk zijn dinsdag langs te komen?", "note": "Een wens wordt een vraag: indirect is beleefd." },
+        { "left": "Laat maar weten, doei!", "right": "Ik hoor graag van u. Met vriendelijke groet,", "note": "De afsluiting is een vaste formule, geen improvisatie." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Maak dit verzoek indirect en formeel: *Stuur me het programma.*",
+      "answers": ["Zou u mij het programma kunnen toesturen?", "Zou u mij het programma willen toesturen?", "Zou u mij het programma kunnen sturen?", "Zou u me het programma kunnen toesturen?"],
+      "hint": "Begin met *Zou u mij …* en zet de infinitief achteraan.",
+      "explain": "*Zou u mij het programma kunnen toesturen?* — *zou* plus *u* plus een infinitief aan het eind maakt van een bevel een verzoek. *willen* mag ook in plaats van *kunnen*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welk verzoek is het beleefdst?",
+      "options": ["Ik wil graag een afspraak.", "Kunt u een afspraak maken?", "Zou het mogelijk zijn een afspraak te maken?"],
+      "correct": 2,
+      "explain": "Hoe indirecter, hoe beleefder: *ik wil* staat onder *kunt u*, en dat staat onder *zou het mogelijk zijn … te …*. Alle drie zijn correct, maar de derde geeft de ander de meeste ruimte om nee te zeggen."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en schrijf de zin op.",
+      "speak": "Zou u mij kunnen laten weten of de vergadering doorgaat?",
+      "answers": ["Zou u mij kunnen laten weten of de vergadering doorgaat?", "Zou u me kunnen laten weten of de vergadering doorgaat?"]
+    },
+    {
+      "type": "builder",
+      "title": "Schrijf de mail",
+      "prompt": "Bouw een korte formele mail: aanhef — aanleiding — verzoek — afsluiting.",
+      "slots": [
+        { "label": "Aanhef", "chips": ["Geachte heer/mevrouw,", "Geachte mevrouw Jansen,", "Geachte heer De Vries,"] },
+        { "label": "Aanleiding", "chips": ["Ik schrijf u over de cursus die u aanbiedt.", "Vorige week heb ik een aanvraag ingediend.", "Op uw website las ik dat u een open dag organiseert."] },
+        { "label": "Verzoek", "chips": ["Zou u mij kunnen laten weten wanneer de cursus begint?", "Zou het mogelijk zijn de afspraak te verzetten?", "Zou u mij hierover meer informatie kunnen sturen?"] },
+        { "label": "Afsluiting", "chips": ["Ik hoor graag van u. Met vriendelijke groet,", "Bij voorbaat dank. Met vriendelijke groet,", "In afwachting van uw reactie, Met vriendelijke groet,"] }
+      ],
+      "sample": "Geachte heer/mevrouw, Ik schrijf u over de cursus die u aanbiedt. Zou u mij kunnen laten weten wanneer de cursus begint? Ik hoor graag van u. Met vriendelijke groet,"
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf een korte formele mail aan een taalschool: je wilt weten wanneer de cursus B2 begint en wat hij kost. Gebruik een correcte aanhef, één indirect verzoek (*zou u … kunnen …*) en een nette afsluiting. In het Nederlands, minstens vier zinnen.",
+      "starters": ["Geachte heer/mevrouw,", "Ik schrijf u over …", "Zou u mij kunnen laten weten …", "Met vriendelijke groet,"],
+      "minSentences": 4
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "day-120",
+  "day": 120,
+  "module": "M18",
+  "unit": "U18",
+  "kind": "lesson",
+  "title": "Het werkoverleg — even inhaken",
+  "emoji": "📋",
+  "level": "C1",
+  "durationMin": [20, 35],
+  "summary": "Meeting Dutch: the agenda vocabulary, taking and holding the floor, disagreeing collegially, and rounding a meeting off",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "De anatomie van een overleg",
+      "body": "Een Nederlands werkoverleg is kort, direct en heeft altijd een **agenda**. Je krijgt zelden een uitnodiging om iets te zeggen — je neemt het woord zelf. Dat voelt in het begin bot, maar het is gewoon efficiënt: wie wacht tot hij aan de beurt is, komt niet aan de beurt.",
+      "table": {
+        "headers": ["Term", "Wat het is"],
+        "rows": [
+          ["de agenda — agenda", "de punten die vandaag besproken worden"],
+          ["de notulen — minutes", "het verslag; iemand *notuleert*"],
+          ["het actiepunt — action item", "wie doet wat, en vóór wanneer"],
+          ["terugkoppelen — to report back", "later melden hoe het is afgelopen"],
+          ["de rondvraag — any other business", "helemaal aan het eind: heeft iemand nog iets?"]
+        ]
+      },
+      "callout": "*Zullen we beginnen? We hebben drie punten en een half uur.* Zo start het bijna altijd."
+    },
+    {
+      "type": "chips",
+      "title": "Het woord nemen — tik om te horen",
+      "items": [
+        { "nl": "Mag ik daar even op inhaken?", "en": "May I jump in on that?", "speak": "Mag ik daar even op inhaken?" },
+        { "nl": "Ik wil er even iets aan toevoegen.", "en": "I'd like to add something to that.", "speak": "Ik wil er even iets aan toevoegen." },
+        { "nl": "Even voor de duidelijkheid: bedoel je dat we wachten?", "en": "Just to be clear: do you mean we wait?", "speak": "Even voor de duidelijkheid: bedoel je dat we wachten?" },
+        { "nl": "Laat me het even afmaken.", "en": "Let me just finish.", "speak": "Laat me het even afmaken." },
+        { "nl": "Zal ik het even samenvatten?", "en": "Shall I sum it up?", "speak": "Zal ik het even samenvatten?" },
+        { "nl": "Zullen we dit punt even parkeren?", "en": "Shall we park this point?", "speak": "Zullen we dit punt even parkeren?" },
+        { "nl": "Zullen we afronden? We zitten aan de tijd.", "en": "Shall we wrap up? We're out of time.", "speak": "Zullen we afronden? We zitten aan de tijd." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Beleefd oneens zijn",
+      "body": "Nederlanders zeggen rustig dat ze het ergens niet mee eens zijn — maar in een overleg zet je er een kussentje onder. Het recept: **eerst erkennen, dan je bezwaar, dan je alternatief**. Drie woordjes doen bijna al het werk: *helemaal* (*niet helemaal mee eens*), *toch* en *net iets anders*.",
+      "callout": "*Ik zie het net iets anders* is geen ruzie. Het is een uitnodiging om verder te praten."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je bent het oneens met Youssefs voorstel, en de klant zit erbij. Welke zin is duidelijk én collegiaal?",
+      "options": ["Nee, dat werkt gewoon niet.", "Ik zie het net iets anders — mag ik uitleggen waarom?", "Daar ben ik het totaal niet mee eens."],
+      "correct": 1,
+      "explain": "Optie 2 zegt precies hetzelfde als de andere twee, maar houdt de deur open: je meldt een verschil en biedt meteen een argument aan. *Totaal niet* en *gewoon niet* sluiten het gesprek af — en dat is met een klant erbij duur."
+    },
+    {
+      "type": "contrast",
+      "title": "Bot of collegiaal — dezelfde inhoud",
+      "pairs": [
+        { "left": "Dat gaat niet.", "right": "Dat wordt lastig, denk ik.", "note": "*Dat wordt lastig* is een nee met een deur die openblijft — en met *denk ik* wordt het jouw inschatting, geen oordeel." },
+        { "left": "Je hebt ongelijk.", "right": "Daar ben ik het niet helemaal mee eens.", "note": "*Niet helemaal* maakt van een botsing een nuanceverschil." },
+        { "left": "Ik praat nu.", "right": "Mag ik het even afmaken?", "note": "Als vraag verpakt houd je het woord én je collega." }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Youssef praat door en jij wilt er iets tussen zeggen. Vraag netjes het woord.",
+      "answers": ["Mag ik daar even op inhaken?", "Mag ik even inhaken?", "Ik wil daar even op inhaken.", "Ik wil even inhaken."],
+      "hint": "Het werkwoord is *inhaken* — ergens op inpikken.",
+      "explain": "*Mag ik daar even op inhaken?* Je onderbreekt, maar je vraagt het: dat is precies de balans van een Nederlands overleg."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ de zin waarmee je een discussie netjes uitstelt.",
+      "speak": "Zullen we dit punt even parkeren?",
+      "answers": ["Zullen we dit punt even parkeren?"]
+    },
+    {
+      "type": "dialogue",
+      "scene": "Monday morning at Emma's agency. Youssef chairs the weekly overleg; Emma and You are at the table.",
+      "lines": [
+        { "speaker": "Youssef", "nl": "Goedemorgen allemaal. Drie punten, drie kwartier, dus we houden het strak.", "en": "Morning everyone. Three items, forty-five minutes, so let's keep it tight.", "spotlight": "De standaardopening: aantal punten plus de tijd." },
+        { "speaker": "Youssef", "nl": "Eerste punt: de planning van de nieuwe campagne. Emma?", "en": "First item: the planning for the new campaign. Emma?" },
+        { "speaker": "Emma", "nl": "De planning staat, maar we lopen een week achter op het beeldmateriaal.", "en": "The planning is set, but we're a week behind on the visuals." },
+        { "speaker": "You", "nl": "Mag ik daar even op inhaken? Het beeldmateriaal komt pas als de klant de teksten goedkeurt.", "en": "May I jump in there? The visuals only come once the client approves the copy.", "spotlight": "*Inhaken* = het woord nemen zonder onbeleefd te zijn." },
+        { "speaker": "Youssef", "nl": "Goed punt. Wie neemt contact op met de klant?", "en": "Good point. Who contacts the client?" },
+        { "speaker": "Emma", "nl": "Doe ik. Ik bel ze vanmiddag en koppel morgen terug.", "en": "I will. I'll call them this afternoon and report back tomorrow.", "spotlight": "*Terugkoppelen* — het werkwoord van elk overleg." },
+        { "speaker": "Youssef", "nl": "Prima, actiepunt voor Emma. Dan punt twee: ik stel voor het advertentiebudget te halveren.", "en": "Fine, action item for Emma. Then item two: I propose halving the ad budget." },
+        { "speaker": "You", "nl": "Ik zie het net iets anders. Als we nu halveren, verliezen we precies de weken die het meest opleveren.", "en": "I see it slightly differently. If we halve now, we lose exactly the weeks that pay off most.", "spotlight": "Beleefd oneens: eerst *ik zie het net iets anders*, dan je argument in een bijzin." },
+        { "speaker": "Emma", "nl": "Daar zit wat in, hoor.", "en": "There's something in that, you know." },
+        { "speaker": "Youssef", "nl": "Laten we het zo doen: we halveren pas ná de lancering. Akkoord?", "en": "Let's do it this way: we only halve after the launch. Agreed?" },
+        { "speaker": "You", "nl": "Akkoord.", "en": "Agreed." },
+        { "speaker": "Youssef", "nl": "Mooi. Dan de rondvraag — heeft iemand nog iets? Nee? Dan ronden we af.", "en": "Good. Then any other business — anyone? No? Then let's wrap up.", "spotlight": "*De rondvraag* sluit elk Nederlands overleg af." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Zat je erbij?",
+      "questions": [
+        { "q": "Hoeveel punten staan er op de agenda?", "options": ["Twee", "Drie", "Vier"], "correct": 1 },
+        { "q": "Wat wordt het actiepunt van Emma?", "options": ["De teksten schrijven", "Het budget halveren", "De klant bellen en terugkoppelen"], "correct": 2 },
+        { "q": "Wat doet You met het voorstel over het budget?", "options": ["Meteen goedkeuren", "Beleefd tegenspreken en uitleggen waarom", "Er niets over zeggen"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Beschrijf je laatste overleg in het Nederlands: wat stond er op de agenda, wat werd jouw actiepunt, en heb je een keer ingehaakt? Gebruik minstens drie zinnen en minstens één zin uit dit blok.",
+      "starters": ["Op de agenda stond …", "Ik heb ingehaakt toen …", "Mijn actiepunt is …", "We hebben afgesproken dat …"],
+      "minSentences": 3
+    }
+  ]
+}

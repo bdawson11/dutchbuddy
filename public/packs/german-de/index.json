@@ -1,0 +1,1476 @@
+{
+  "schemaVersion": 1,
+  "packId": "german-de-v1",
+  "days": {
+    "day-01": {
+      "day": 1,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Laute I: Vokale und Umlaute",
+      "emoji": "🔊",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Long vs short vowels and the three umlauts ä/ö/ü — the sounds that change what a word means",
+      "steps": 10
+    },
+    "day-02": {
+      "day": 2,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Laute II: ch, ß und das deutsche r",
+      "emoji": "🗣️",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The two ch sounds, the letter ß, the throaty r, and the letters that trick English eyes",
+      "steps": 12
+    },
+    "day-03": {
+      "day": 3,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Begrüßungen und die Bäckerei",
+      "emoji": "🥐",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Greetings by time of day, bitte and danke, and your first exchange at the bakery",
+      "steps": 11
+    },
+    "day-04": {
+      "day": 4,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "Pronomen und sein — du oder Sie?",
+      "emoji": "🙋",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The subject pronouns, the verb sein (to be), and your first du-vs-Sie decision",
+      "steps": 11
+    },
+    "day-05": {
+      "day": 5,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "haben und die Verneinung: kein oder nicht",
+      "emoji": "🚫",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The verb haben (to have) and the two ways to say no: kein for nouns, nicht for everything else",
+      "steps": 11
+    },
+    "day-06": {
+      "day": 6,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "lesson",
+      "title": "der, die, das — das Geschlecht der Nomen",
+      "emoji": "🔤",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "German's three noun genders, a few patterns to guess them, and why plurals are all die",
+      "steps": 10
+    },
+    "day-07": {
+      "day": 7,
+      "module": "M01",
+      "unit": "U01",
+      "kind": "capstone",
+      "title": "Meine Geschichte: Teil 1",
+      "emoji": "🎉",
+      "level": "A1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week 1 capstone — pull the sounds, greetings, sein/haben and der/die/das together, then build your first self-introduction",
+      "steps": 11
+    },
+    "day-08": {
+      "day": 8,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Zahlen: null bis hundert",
+      "emoji": "🔢",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Numbers 0–100 and the reversed-units trick — German says the ones before the tens, all as one word",
+      "steps": 10
+    },
+    "day-09": {
+      "day": 9,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Preise, Euro und Telefonnummern",
+      "emoji": "💶",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Hundreds and thousands, euro prices, and how Germans read phone numbers aloud",
+      "steps": 12
+    },
+    "day-10": {
+      "day": 10,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Uhrzeit, Tage und Monate",
+      "emoji": "🕐",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Telling time the everyday way — including the classic halb-sechs trap — plus the days of the week and the months",
+      "steps": 11
+    },
+    "day-11": {
+      "day": 11,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Präsens und das V2-Gesetz",
+      "emoji": "⚙️",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Regular present-tense endings and German's non-negotiable rule: the finite verb always sits second",
+      "steps": 11
+    },
+    "day-12": {
+      "day": 12,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Fragen und Inversion",
+      "emoji": "❓",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "How to ask yes/no questions by inversion, and the six W-words that start every real question",
+      "steps": 11
+    },
+    "day-13": {
+      "day": 13,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "lesson",
+      "title": "Es gibt… und dieser, diese, dieses",
+      "emoji": "👉",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Point at the world with es gibt (there is/are) and dieser/diese/dieses (this) — your first live taste of the accusative",
+      "steps": 12
+    },
+    "day-14": {
+      "day": 14,
+      "module": "M02",
+      "unit": "U02",
+      "kind": "capstone",
+      "title": "Meine Geschichte: Teil 2",
+      "emoji": "🎉",
+      "level": "A1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week 2 capstone — numbers, time, V2 word order, questions and es gibt, then extend your self-introduction with your daily routine",
+      "steps": 11
+    },
+    "day-15": {
+      "day": 15,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Familie und der Akkusativ",
+      "emoji": "👪",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Family vocabulary plus the accusative case — only the masculine article moves",
+      "steps": 9
+    },
+    "day-16": {
+      "day": 16,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Beschreiben: Adjektive nach sein",
+      "emoji": "🎭",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Describe people with predicate adjectives after sein — no endings needed at A1",
+      "steps": 9
+    },
+    "day-17": {
+      "day": 17,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Possessivartikel im Akkusativ",
+      "emoji": "📸",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "mein/dein/sein/ihr in the accusative — showing photos of family",
+      "steps": 10
+    },
+    "day-18": {
+      "day": 18,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Dein Kiez",
+      "emoji": "🏘️",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Neighborhood vocabulary and Berlin Kiez culture — where you live and what you like about it",
+      "steps": 11
+    },
+    "day-19": {
+      "day": 19,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "lesson",
+      "title": "Akkusativ-Präpositionen",
+      "emoji": "🧩",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "für, ohne, gegen, um, durch — five prepositions that always take the accusative",
+      "steps": 9
+    },
+    "day-20": {
+      "day": 20,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "review",
+      "title": "Lenas Kiez",
+      "emoji": "🚶",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Review week 3's accusative targets, then meet Lena narrating her Berlin Kiez",
+      "steps": 7
+    },
+    "day-21": {
+      "day": 21,
+      "module": "M03",
+      "unit": "U03",
+      "kind": "capstone",
+      "title": "Meine Geschichte: Teil 3",
+      "emoji": "🎉",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week 3 capstone — family and Kiez portrait, plus the accusative self-intro layer",
+      "steps": 11
+    },
+    "day-22": {
+      "day": 22,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Frühstück, Mittagessen, Abendbrot",
+      "emoji": "🍞",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Germany's three-meal rhythm and the cultural concept of Abendbrot — a cold bread supper instead of a second hot meal",
+      "steps": 10
+    },
+    "day-23": {
+      "day": 23,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Ich hätte gern ein Brötchen",
+      "emoji": "☕",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Ordering politely at the Bäckerei and café — ich hätte gern, ich nehme, für mich, bitte",
+      "steps": 10
+    },
+    "day-24": {
+      "day": 24,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Ich kann, ich muss, ich will",
+      "emoji": "🧩",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The modal verbs können/wollen/müssen/dürfen/möchten and the rule that sends the infinitive to the end of the sentence",
+      "steps": 10
+    },
+    "day-25": {
+      "day": 25,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Mögen und der gern-Trick",
+      "emoji": "😋",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Mögen for liking things and the universal gern trick for liking to do things",
+      "steps": 10
+    },
+    "day-26": {
+      "day": 26,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "lesson",
+      "title": "Pfand, Kilo und der Supermarkt",
+      "emoji": "🛒",
+      "level": "A1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Shopping at Rewe or Aldi, naming quantities, and the German bottle-deposit system (Pfand)",
+      "steps": 10
+    },
+    "day-27": {
+      "day": 27,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "review",
+      "title": "Klaus und seine Bäckerei in Köln",
+      "emoji": "🥨",
+      "level": "A1",
+      "durationMin": [
+        15,
+        20
+      ],
+      "summary": "Review week 4 with Klaus, who walks you through his Saturday bakery ritual in Cologne",
+      "steps": 7
+    },
+    "day-28": {
+      "day": 28,
+      "module": "M04",
+      "unit": "U04",
+      "kind": "capstone",
+      "title": "Meine Geschichte: Teil 4",
+      "emoji": "🎉",
+      "level": "A1",
+      "durationMin": [
+        20,
+        28
+      ],
+      "summary": "Full-A1 production day — order, describe what you like, and add a modal wish, then extend Meine Geschichte with the food/drink layer",
+      "steps": 12
+    },
+    "day-29": {
+      "day": 29,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "Das Perfekt mit haben",
+      "emoji": "🕰",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The everyday past begins: haben + a ge-…-t/-et participle for regular verbs",
+      "steps": 10
+    },
+    "day-30": {
+      "day": 30,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "Das Perfekt mit sein",
+      "emoji": "🚶",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Motion and change-of-state verbs take sein, plus the haben-vs-sein choice",
+      "steps": 10
+    },
+    "day-31": {
+      "day": 31,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "Unregelmäßige Partizipien",
+      "emoji": "🃏",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The top fifteen irregular participles you'll use every day",
+      "steps": 11
+    },
+    "day-32": {
+      "day": 32,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "Trennbare Verben",
+      "emoji": "✂️",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Separable verbs split in the present and tuck -ge- inside in the Perfekt",
+      "steps": 10
+    },
+    "day-33": {
+      "day": 33,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "lesson",
+      "title": "Mit der Bahn unterwegs",
+      "emoji": "🚆",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Deutsche Bahn, S-Bahn/U-Bahn, umsteigen, Verspätung and platform announcements",
+      "steps": 10
+    },
+    "day-34": {
+      "day": 34,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "review",
+      "title": "Lenas Wochenende an der Ostsee",
+      "emoji": "🌊",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Recap the Perfekt, then hear Lena narrate a whole weekend in it",
+      "steps": 7
+    },
+    "day-35": {
+      "day": 35,
+      "module": "M05",
+      "unit": "U05",
+      "kind": "capstone",
+      "title": "Was hast du gemacht?",
+      "emoji": "🎉",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Storytelling in the Perfekt with Jonas, plus Meine Geschichte layer 5",
+      "steps": 12
+    },
+    "day-36": {
+      "day": 36,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Der Körper",
+      "emoji": "🤕",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Body vocab and the two pain patterns — Kopfschmerzen and the first live dative, mir tut ... weh",
+      "steps": 12
+    },
+    "day-37": {
+      "day": 37,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Beim Arzt",
+      "emoji": "🩺",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The Hausarzt and Krankenkasse system, booking a Termin, and the doctor's dative question",
+      "steps": 11
+    },
+    "day-38": {
+      "day": 38,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Notfälle",
+      "emoji": "🚨",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Germany's two emergency numbers, key emergency phrases, and the Apotheke vs. Drogerie distinction",
+      "steps": 10
+    },
+    "day-39": {
+      "day": 39,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Gefühle",
+      "emoji": "😊",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "froh, wütend, müde, nervös and the reflexive verb sich fühlen",
+      "steps": 10
+    },
+    "day-40": {
+      "day": 40,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "lesson",
+      "title": "Ratschläge geben",
+      "emoji": "💡",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "du musst, du solltest, a first taste of würde, and the dative check-in wie geht es dir",
+      "steps": 11
+    },
+    "day-41": {
+      "day": 41,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "review",
+      "title": "Aylins schwere Woche",
+      "emoji": "🚲",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Recap of week 6 (body, Hausarzt, feelings, advice) plus an immersion catch-up with Aylin",
+      "steps": 7
+    },
+    "day-42": {
+      "day": 42,
+      "module": "M06",
+      "unit": "U06",
+      "kind": "capstone",
+      "title": "Was ist passiert?",
+      "emoji": "📝",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Production day across week 6, plus Meine Geschichte layer 6 — how you've been feeling",
+      "steps": 12
+    },
+    "day-43": {
+      "day": 43,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Präteritum: war und hatte",
+      "emoji": "🕰",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Intro to the Präteritum — war/hatte/konnte/wollte, the forms Germans actually use in speech, plus the regular -te pattern",
+      "steps": 10
+    },
+    "day-44": {
+      "day": 44,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Perfekt oder Präteritum?",
+      "emoji": "⚖️",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The usage split: Perfekt in speech, Präteritum in stories — except sein/haben/modals, which stay Präteritum even when talking",
+      "steps": 9
+    },
+    "day-45": {
+      "day": 45,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Als ich klein war",
+      "emoji": "🧸",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Childhood memories and the strong Präteritum: ging, kam, sah, gab",
+      "steps": 9
+    },
+    "day-46": {
+      "day": 46,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Wetter und Orte von früher",
+      "emoji": "🌧️",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Describing past places and weather: es war, es gab, es regnete, die Sonne schien",
+      "steps": 9
+    },
+    "day-47": {
+      "day": 47,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "lesson",
+      "title": "Früher vs. heute",
+      "emoji": "🔁",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Habitual past and frequency adverbs: immer, oft, manchmal, selten, nie",
+      "steps": 9
+    },
+    "day-48": {
+      "day": 48,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "review",
+      "title": "Klaus' Kindheit in Köln",
+      "emoji": "🎭",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Recap of week 7 (Präteritum, childhood, weather-in-past) plus an immersion visit to Klaus's Cologne childhood",
+      "steps": 7
+    },
+    "day-49": {
+      "day": 49,
+      "module": "M07",
+      "unit": "U07",
+      "kind": "capstone",
+      "title": "Mein Kindheitsporträt",
+      "emoji": "📖",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Production day across week 7, plus Meine Geschichte layer 7 — a childhood memory",
+      "steps": 11
+    },
+    "day-50": {
+      "day": 50,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "Die Zukunft: werden + Infinitiv",
+      "emoji": "🔮",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The future tense with werden + infinitive — and how Germans often just use the present tense instead",
+      "steps": 9
+    },
+    "day-51": {
+      "day": 51,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "Wollen, möchten und Sollen wir…?",
+      "emoji": "🙋",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "wollen vs. the politer möchten for plans, plus Sollen wir…? for offers and suggestions",
+      "steps": 10
+    },
+    "day-52": {
+      "day": 52,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "Meinungen sagen",
+      "emoji": "💬",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Share opinions with ich finde, ich glaube, meiner Meinung nach, and climb the agreement ladder",
+      "steps": 9
+    },
+    "day-53": {
+      "day": 53,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "Der Nebensatz: weil, dass, wenn",
+      "emoji": "🧩",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The A2→B1 gate: weil, dass, and wenn send the verb to the very end of the clause",
+      "steps": 10
+    },
+    "day-54": {
+      "day": 54,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "lesson",
+      "title": "Vergleichen: größer, am größten",
+      "emoji": "📈",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Compare things with -er/als and am -sten, plus the irregulars gut/besser/am besten",
+      "steps": 9
+    },
+    "day-55": {
+      "day": 55,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "review",
+      "title": "Rückblick: Muss man Deutsch lernen?",
+      "emoji": "🗣️",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week 8 recap — future, opinions, subclauses, comparatives — then Lena and Jonas debate whether expats must learn German",
+      "steps": 7
+    },
+    "day-56": {
+      "day": 56,
+      "module": "M08",
+      "unit": "U08",
+      "kind": "capstone",
+      "title": "Mein kommendes Jahr",
+      "emoji": "🌟",
+      "level": "A2",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week 8 capstone — plans, opinions and subclauses, then add them to your growing self-introduction",
+      "steps": 11
+    },
+    "day-57": {
+      "day": 57,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Nebensätze II: obwohl, bevor, nachdem",
+      "emoji": "🧩",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "More subclause connectors — obwohl, bevor, nachdem, während, seitdem, damit — plus a first gentle taste of the genitive with wegen. The finite verb still goes to the end.",
+      "steps": 10
+    },
+    "day-58": {
+      "day": 58,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Relativsätze: der, die, das als Bindewort",
+      "emoji": "🔗",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Relative clauses — der/die/das (and denen) as who/which/that. The pronoun's gender comes from the noun, its case from its job inside the clause; the verb goes to the end.",
+      "steps": 10
+    },
+    "day-59": {
+      "day": 59,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Indirekte Rede: Er hat gesagt, dass…",
+      "emoji": "🗣️",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Report what people said with … hat gesagt, dass … and report questions with ob (yes/no) or a W-word. Pronouns shift, and the verb goes to the end.",
+      "steps": 10
+    },
+    "day-60": {
+      "day": 60,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "Konjunktiv II: würde, könnte, hätte gern",
+      "emoji": "🙏",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "German politeness and hypotheticals run on Konjunktiv II — würde + infinitive, plus the direct forms hätte, wäre, könnte. Soften requests, give advice, order like a local.",
+      "steps": 10
+    },
+    "day-61": {
+      "day": 61,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "lesson",
+      "title": "wenn-Sätze: real und hypothetisch",
+      "emoji": "🤔",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Two flavours of wenn: real conditions with the normal verb, and unreal, dreamy ones with Konjunktiv II — Wenn ich Zeit hätte, würde ich mehr reisen.",
+      "steps": 10
+    },
+    "day-62": {
+      "day": 62,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "review",
+      "title": "Aylins Neuigkeiten",
+      "emoji": "📰",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week 9 review — pull the connectors, relative clauses, reported speech and Konjunktiv II together, then hear Aylin drop a piece of news that could change everything.",
+      "steps": 7
+    },
+    "day-63": {
+      "day": 63,
+      "module": "M09",
+      "unit": "U09",
+      "kind": "capstone",
+      "title": "Meine Geschichte: Teil 9 — die Neuigkeiten",
+      "emoji": "🎉",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week 9 capstone — pull the complex-sentence toolbox together, gossip about Aylin's news with Jonas, then add reported speech to your growing self-introduction.",
+      "steps": 11
+    },
+    "day-64": {
+      "day": 64,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Dativ II: mit, bei, zu — wem?",
+      "emoji": "🧩",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The dative comes back: prepositions that always take it (mit/nach/bei/seit/von/zu/aus) and the verbs that need a dative object (helfen, danken, gefallen).",
+      "steps": 10
+    },
+    "day-65": {
+      "day": 65,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Wechselpräpositionen: wohin oder wo?",
+      "emoji": "↔️",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The nine two-way prepositions and the one question that decides the case: motion (wohin? → accusative) vs. location (wo? → dative).",
+      "steps": 11
+    },
+    "day-66": {
+      "day": 66,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Passiv: Hier wird gearbeitet",
+      "emoji": "🚧",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The werden-passive of signs and news — when who does it doesn't matter: hier wird gebaut, die Straße wird gesperrt.",
+      "steps": 10
+    },
+    "day-67": {
+      "day": 67,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Reflexive Verben & um … zu",
+      "emoji": "🪞",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Verbs that turn back on the subject (sich freuen, sich fühlen, sich entscheiden) and the purpose clause um … zu.",
+      "steps": 11
+    },
+    "day-68": {
+      "day": 68,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "lesson",
+      "title": "Verben am Satzende: die Klammer",
+      "emoji": "🔗",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The sentence bracket — finite verb in slot 2, infinitive at the end — and how the whole cluster lands last in a subclause.",
+      "steps": 11
+    },
+    "day-69": {
+      "day": 69,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "review",
+      "title": "Umzugstag: Aylin zieht nach München",
+      "emoji": "📦",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week-10 review — moving day. Aylin takes the job and moves Berlin → Munich, braiding dative prepositions and two-way prepositions in one big immersion scene.",
+      "steps": 7
+    },
+    "day-70": {
+      "day": 70,
+      "module": "M10",
+      "unit": "U10",
+      "kind": "capstone",
+      "title": "Meine Geschichte: meine große Entscheidung",
+      "emoji": "✉️",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week-10 capstone — pull the dative, two-way prepositions, reflexives and verb clusters together, then add a big decision (dative + subclause) to your growing self-introduction.",
+      "steps": 11
+    },
+    "day-71": {
+      "day": 71,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Verben mit fester Präposition",
+      "emoji": "🔗",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The verb-preposition pairs (warten auf, denken an, sich freuen auf/über) — and the fixed case each one drags along",
+      "steps": 10
+    },
+    "day-72": {
+      "day": 72,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Modalpartikeln: die Seele des gesprochenen Deutsch",
+      "emoji": "✨",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "doch, mal, halt, ja, denn, eben, wohl, schon — the little flavour words that carry attitude and make you sound German",
+      "steps": 10
+    },
+    "day-73": {
+      "day": 73,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Adjektivendungen: der B1-Feinschliff",
+      "emoji": "🎨",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Attributive adjective endings — the polish, not the gate — plus the cosy -chen/-lein diminutives",
+      "steps": 11
+    },
+    "day-74": {
+      "day": 74,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "Fälle in Echtzeit",
+      "emoji": "🧩",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "The meta-module: how to survive the case system while actually talking — default, repair, and keep going",
+      "steps": 9
+    },
+    "day-75": {
+      "day": 75,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "lesson",
+      "title": "du oder Sie? Register im Griff",
+      "emoji": "🤝",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Siezen vs. Duzen by context, how the du gets offered, and how to recover a mis-call gracefully",
+      "steps": 11
+    },
+    "day-76": {
+      "day": 76,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "review",
+      "title": "Lena besucht Aylin in München",
+      "emoji": "🥨",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Week 11 immersion — a Saturday catch-up in Munich braiding verb-prepositions, particles and adjective endings, with a light Bavarian cameo",
+      "steps": 7
+    },
+    "day-77": {
+      "day": 77,
+      "module": "M11",
+      "unit": "U11",
+      "kind": "capstone",
+      "title": "Meine Geschichte: Teil 11 — mein Wiedersehen",
+      "emoji": "🎭",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week 11 capstone — pull together verb-prepositions, particles and adjective endings, then say your self-intro two ways: politely (Sie) and casually (du)",
+      "steps": 11
+    },
+    "day-78": {
+      "day": 78,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "Komm mal her! Der Imperativ",
+      "emoji": "📣",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Give commands the friendly German way — the du/ihr/Sie imperative and the little softeners that keep it polite",
+      "steps": 10
+    },
+    "day-79": {
+      "day": 79,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "Die Slang-Ampel: grün, gelb, rot",
+      "emoji": "🚦",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Real spoken German by traffic light — what you can say to anyone, what stays among friends, and what to recognise but never deploy",
+      "steps": 10
+    },
+    "day-80": {
+      "day": 80,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "Feierabend in der Kneipe: Prost!",
+      "emoji": "🍺",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Order, toast and split the bill like a regular — the whole flow of a German Feierabendbier",
+      "steps": 10
+    },
+    "day-81": {
+      "day": 81,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "Beim Friseur und im Geschäft",
+      "emoji": "💇",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Handle service scenes with confidence — booking a haircut, browsing a shop, and the small-talk scripts that go with them",
+      "steps": 10
+    },
+    "day-82": {
+      "day": 82,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "lesson",
+      "title": "Redewendungen: Ich verstehe nur Bahnhof",
+      "emoji": "💡",
+      "level": "B1",
+      "durationMin": [
+        15,
+        25
+      ],
+      "summary": "Twelve German idioms that make zero sense word-for-word — and everything once you know them",
+      "steps": 10
+    },
+    "day-83": {
+      "day": 83,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "review",
+      "title": "Ein Jahr später: alle in der Kneipe",
+      "emoji": "🍻",
+      "level": "B1",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "The final immersion — the whole gang reunites at the Stammkneipe one year on, braiding every M12 move into one real conversation",
+      "steps": 7
+    },
+    "day-84": {
+      "day": 84,
+      "module": "M12",
+      "unit": "U12",
+      "kind": "capstone",
+      "title": "Meine Geschichte, endgültig",
+      "emoji": "🎉",
+      "level": "B1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The final capstone — a 12-week recap, a letter to your past self, your definitive B1 self-introduction, and German farewells",
+      "steps": 13
+    },
+    "day-85": {
+      "day": 85,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "würde: der Höflichkeits- und Wenn-Motor",
+      "emoji": "🔮",
+      "level": "B2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Season 2 opens: reactivate and extend Konjunktiv II with würde + Infinitiv — the workhorse for advice, hedging and hypotheticals.",
+      "steps": 10
+    },
+    "day-86": {
+      "day": 86,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "wäre, hätte, könnte: die Kurzformen",
+      "emoji": "🧩",
+      "level": "B2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "The one-word Konjunktiv II — wäre, hätte, könnte, plus strong forms käme/ginge/wüsste/bräuchte — and when the short form beats würde.",
+      "steps": 10
+    },
+    "day-87": {
+      "day": 87,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "Hätte, wäre, gemacht: die Reue-Vergangenheit",
+      "emoji": "🕰",
+      "level": "B2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Past-hypothetical Konjunktiv II — hätte/wäre + Partizip II — for regret and counterfactuals: 'if I had known, I wouldn't have come'.",
+      "steps": 10
+    },
+    "day-88": {
+      "day": 88,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "Höflich heißt hypothetisch: das Abfedern",
+      "emoji": "🙏",
+      "level": "B2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Konjunktiv II as a social skill — hedging requests and opinions: ich hätte gern, könnten Sie, wäre es möglich, ich würde sagen. First seeding of the Sie-register.",
+      "steps": 10
+    },
+    "day-89": {
+      "day": 89,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "lesson",
+      "title": "Als ob: so tun und sich wünschen",
+      "emoji": "🎭",
+      "level": "B2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Konjunktiv II with als ob / als (as if), irreal wishes (wenn ich nur…!), and beinahe/fast + past subjunctive for the near-miss.",
+      "steps": 10
+    },
+    "day-90": {
+      "day": 90,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "review",
+      "title": "Was würdest du tun, wenn …?",
+      "emoji": "💬",
+      "level": "B2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week 13 review — Konjunktiv II in the wild: a 'what would you do if…' round at the Kneipe where Jonas quietly plants the season-2 music seed.",
+      "steps": 7
+    },
+    "day-91": {
+      "day": 91,
+      "module": "M13",
+      "unit": "U13",
+      "kind": "capstone",
+      "title": "Meine Geschichte: Wenn ich könnte …",
+      "emoji": "✨",
+      "level": "B2",
+      "durationMin": [
+        25,
+        35
+      ],
+      "summary": "Week 13 capstone — pull the whole Konjunktiv II toolkit together and add the season-2 self-intro layer: a hypothetical and a hedged wish about your own path.",
+      "steps": 10
+    },
+    "day-92": {
+      "day": 92,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Konjunktiv I: er habe, sei, komme",
+      "emoji": "📰",
+      "level": "B2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Meet Konjunktiv I — the mood of neutral reporting. Its forms live mostly in the third person singular: er habe, sei, komme, werde, könne.",
+      "steps": 10
+    },
+    "day-93": {
+      "day": 93,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Indirekte Rede: berichten, was gesagt wurde",
+      "emoji": "🗣",
+      "level": "B2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Turn direct speech into reported speech — pronoun shift, Konjunktiv I, the tense collapse (all past → sei/habe + Partizip), plus reported questions with ob and W-words.",
+      "steps": 11
+    },
+    "day-94": {
+      "day": 94,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Wenn Konjunktiv I versagt: die Ausweichform",
+      "emoji": "🔀",
+      "level": "B2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "The native repair: when Konjunktiv I looks identical to the indicative (plural and ich), hop to Konjunktiv II — sie sagten, sie hätten.",
+      "steps": 10
+    },
+    "day-95": {
+      "day": 95,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Nachrichtendeutsch: man werde prüfen",
+      "emoji": "📺",
+      "level": "B2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "News German — the reporting frames (laut, zufolge, erklärte, man werde) and reading a short Tagesschau-style report for the mood, not the vocab.",
+      "steps": 10
+    },
+    "day-96": {
+      "day": 96,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "lesson",
+      "title": "Einerseits, andererseits: abwägen",
+      "emoji": "⚖️",
+      "level": "B2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Argumentation connectors — einerseits/andererseits, zwar/aber, trotzdem, dennoch, folglich, hingegen — to build a nuanced, two-sided opinion (and their word-order traps).",
+      "steps": 10
+    },
+    "day-97": {
+      "day": 97,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "review",
+      "title": "Die Neuigkeiten: Jonas berichtet",
+      "emoji": "📞",
+      "level": "B2",
+      "durationMin": [
+        20,
+        30
+      ],
+      "summary": "Week 14 review — reported speech in the wild: a Sunday call with Aylin (in Munich) where Jonas relays, in careful Konjunktiv I, what a promoter told him.",
+      "steps": 7
+    },
+    "day-98": {
+      "day": 98,
+      "module": "M14",
+      "unit": "U14",
+      "kind": "capstone",
+      "title": "Meine Geschichte: Man sagt, ich sei …",
+      "emoji": "📣",
+      "level": "B2",
+      "durationMin": [
+        25,
+        35
+      ],
+      "summary": "Week 14 capstone — pull reported speech and argument connectors together and add the self-intro layer: report feedback about your German and weigh it with a nuanced opinion.",
+      "steps": 10
+    }
+  }
+}

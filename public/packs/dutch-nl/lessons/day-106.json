@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "day-106",
+  "day": 106,
+  "module": "M16",
+  "unit": "U16",
+  "kind": "lesson",
+  "title": "Drie lagen diep — bijzinnen in bijzinnen",
+  "emoji": "🪆",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Stacking subclauses: every embedded clause keeps its own verb-final, even three layers down",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Elke bijzin houdt zijn eigen eind",
+      "body": "Je weet al: in een bijzin gaat de persoonsvorm naar **achteren**. Nieuw deze week: je kunt bijzinnen in elkaar **schuiven**, en dan geldt die regel gewoon per laag. *Ik denk **dat** Emma nog niet weet **of** ze de baan aanneemt.* Three clauses, three verbs, each one parked at the end of its own layer.",
+      "table": {
+        "headers": ["Laag", "Stukje zin", "Persoonsvorm"],
+        "rows": [
+          ["Hoofdzin", "Ik denk …", "*denk* op plaats 2"],
+          ["Bijzin 1", "… dat Emma nog niet weet …", "*weet* achteraan"],
+          ["Bijzin 2", "… of ze de baan aanneemt.", "*aanneemt* achteraan"]
+        ]
+      },
+      "callout": "Tel de voegwoorden (*dat, of, omdat, als, wat*): elk voegwoord opent een nieuwe laag met een eigen eindpositie."
+    },
+    {
+      "type": "chips",
+      "title": "Ketens horen — tik om te luisteren",
+      "items": [
+        { "nl": "Ik hoop dat je begrijpt waarom ik twijfel.", "en": "I hope you understand why I'm hesitating.", "speak": "Ik hoop dat je begrijpt waarom ik twijfel." },
+        { "nl": "Daan zegt dat hij pas beslist als hij de datum weet.", "en": "Daan says he won't decide until he knows the date.", "speak": "Daan zegt dat hij pas beslist als hij de datum weet." },
+        { "nl": "Emma vertelde dat ze nog niet weet wat de functie precies inhoudt.", "en": "Emma said she doesn't yet know what the job actually involves.", "speak": "Emma vertelde dat ze nog niet weet wat de functie precies inhoudt." },
+        { "nl": "Het lijkt me logisch dat je wacht tot je zeker weet dat het klopt.", "en": "It seems sensible to me that you wait until you're sure it's right.", "speak": "Het lijkt me logisch dat je wacht tot je zeker weet dat het klopt." },
+        { "nl": "Ik vraag me af of ze doorheeft hoeveel werk het is.", "en": "I wonder whether she realises how much work it is.", "speak": "Ik vraag me af of ze doorheeft hoeveel werk het is." },
+        { "nl": "Niemand zei erbij dat het ook in het weekend moest.", "en": "Nobody added that it had to happen at the weekend too.", "speak": "Niemand zei erbij dat het ook in het weekend moest." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Los naast elkaar of in elkaar geschoven",
+      "pairs": [
+        { "left": "Emma twijfelt. Ze weet het nog niet.", "right": "Ik merk dat Emma twijfelt omdat ze het nog niet weet.", "note": "Twee hoofdzinnen (persoonsvorm op 2) worden twee bijzinnen (*twijfelt*, *weet* achteraan)." },
+        { "left": "Hij komt niet. Hij heeft het druk.", "right": "Hij zegt dat hij niet komt omdat hij het druk heeft.", "note": "*heeft* schuift mee naar het eind van zijn eigen laag." },
+        { "left": "Wanneer begint het? Vraag het maar.", "right": "Vraag maar even wanneer het begint.", "note": "Een vraagwoord opent óók een bijzin: geen inversie meer, *begint* achteraan." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welke keten klopt?",
+      "options": [
+        "Ik weet niet of Daan al gehoord heeft dat het optreden verzet is.",
+        "Ik weet niet of Daan heeft al gehoord dat is het optreden verzet.",
+        "Ik weet niet of heeft Daan al gehoord dat het optreden is verzet."
+      ],
+      "correct": 0,
+      "explain": "Na *of* en na *dat* geen inversie: de persoonsvorm blijft achterin zijn eigen laag (*gehoord heeft* … *verzet is*). In optie 2 en 3 springt de persoonsvorm naar voren alsof het hoofdzinnen zijn."
+    },
+    {
+      "type": "card",
+      "title": "Achterin: de volgorde in het cluster",
+      "body": "Staan er meerdere werkwoorden aan het eind, dan mag je bij **deelwoord + hulpwerkwoord** kiezen: *…omdat ik het vergeten ben* én *…omdat ik het ben vergeten* zijn allebei goed Nederlands. De eerste (groene) volgorde klinkt iets schrijftaliger, de tweede (rode) hoor je vaker.",
+      "callout": "Uitzondering: bij een **dubbele infinitief** staat de persoonsvorm altijd vooraan — *…dat hij het niet heeft kunnen zeggen*, nooit *kunnen zeggen heeft*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Schuif in elkaar: *Ik hoorde het. + Sanne komt zaterdag niet, want ze moet werken.* Begin met: Ik hoorde dat …",
+      "answers": [
+        "Ik hoorde dat Sanne zaterdag niet komt omdat ze moet werken",
+        "Ik hoorde dat Sanne zaterdag niet komt omdat ze werken moet",
+        "Ik hoorde dat Sanne zaterdag niet komt, omdat ze moet werken",
+        "dat Sanne zaterdag niet komt omdat ze moet werken"
+      ],
+      "hint": "*want* verbindt twee hoofdzinnen; in een keten heb je *omdat* nodig.",
+      "explain": "*Ik hoorde dat Sanne zaterdag niet komt omdat ze moet werken.* Twee lagen: *komt* achteraan in laag 1, *moet werken* achteraan in laag 2. Met een modaal + infinitief mag ook *werken moet*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en schrijf de hele keten op.",
+      "speak": "Ik snap niet waarom niemand gezegd heeft dat de repetitie verzet was.",
+      "answers": [
+        "Ik snap niet waarom niemand gezegd heeft dat de repetitie verzet was",
+        "Ik snap niet waarom niemand heeft gezegd dat de repetitie verzet was",
+        "Ik snap niet waarom niemand gezegd heeft dat de repetitie was verzet",
+        "Ik snap niet waarom niemand heeft gezegd dat de repetitie was verzet"
+      ],
+      "explain": "Drie lagen: *snap* op plaats 2, dan *waarom … gezegd heeft*, dan *dat … verzet was*. Bij deelwoord + hulpwerkwoord mag de volgorde beide kanten op."
+    },
+    {
+      "type": "builder",
+      "title": "Bouw een keten van drie lagen",
+      "prompt": "Kies per gleuf één stuk. Let erop dat elke laag zijn persoonsvorm achterin houdt.",
+      "slots": [
+        { "label": "Hoofdzin (persoonsvorm op 2)", "chips": ["Ik merk", "Emma vertelde", "Niemand had gezegd"] },
+        { "label": "Laag 1 (dat / of …)", "chips": ["dat Daan nog twijfelt", "of het bureau openblijft", "dat Sanne het druk heeft"] },
+        { "label": "Laag 2 (omdat / als / wat …)", "chips": ["omdat hij de datum nog niet weet", "als het echt doorgaat", "wat ik eigenlijk wel begrijp"] }
+      ],
+      "sample": "Emma vertelde dat Daan nog twijfelt omdat hij de datum nog niet weet."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Coffee at Emma's place. She is weighing the step up at the agency and cannot get a straight sentence out without three subclauses in it.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Ik weet nog steeds niet of ik moet zeggen dat ik het wil.", "en": "I still don't know whether I should say that I want it.", "spotlight": "*of ik moet zeggen* … *dat ik het wil* — twee lagen, twee eindposities." },
+        { "speaker": "You", "nl": "Wat houdt je tegen?", "en": "What's stopping you?" },
+        { "speaker": "Emma", "nl": "Dat niemand me verteld heeft wat de functie precies inhoudt.", "en": "That nobody's told me what the job actually involves.", "spotlight": "Een bijzin als antwoord: *verteld heeft* achterin, *inhoudt* achterin." },
+        { "speaker": "You", "nl": "Heb je gevraagd of er een functieomschrijving is?", "en": "Have you asked whether there's a job description?" },
+        { "speaker": "Emma", "nl": "Ja, en toen zeiden ze dat die er komt zodra het rond is.", "en": "Yes, and then they said it's coming as soon as it's settled." },
+        { "speaker": "You", "nl": "Kijk, dat is precies wat ik zou vragen voordat ik ja zei.", "en": "Look, that's exactly what I'd ask before saying yes." },
+        { "speaker": "Emma", "nl": "Snap ik. Maar ik ben bang dat ze denken dat ik het niet durf.", "en": "I get it. But I'm afraid they'll think I don't dare.", "spotlight": "Drie lagen diep: *bang dat ze denken dat ik het niet durf*." },
+        { "speaker": "You", "nl": "Of dat je weet wat je waard bent.", "en": "Or that you know what you're worth." },
+        { "speaker": "Emma", "nl": "Nou. Dat had ik zelf ook kunnen bedenken, hè?", "en": "Well. I could've come up with that myself, right?" },
+        { "speaker": "You", "nl": "Zeker. Maar het klinkt beter als iemand anders het zegt.", "en": "Sure. But it sounds better when somebody else says it." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf over een besluit waar jij nog over twijfelt. Gebruik minstens twee ketens van drie lagen (*ik weet nog niet of … omdat …*, *ik denk dat … wanneer …*). Let op de persoonsvorm achterin elke laag. In het Nederlands, minstens drie zinnen.",
+      "starters": ["Ik weet nog niet of …", "Het punt is dat ik …", "Ik merk dat ik pas beslis als …"],
+      "minSentences": 3
+    }
+  ]
+}

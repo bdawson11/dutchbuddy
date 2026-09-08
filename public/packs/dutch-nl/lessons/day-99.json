@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "day-99",
+  "day": 99,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Het register-schuifje — van jij naar u",
+  "emoji": "🎚️",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Three registers, one message: sliding from informal je to neutral u to fully formal written Dutch",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Drie standen op het schuifje",
+      "body": "Nederlands heeft niet twee registers maar drie. **Informeel** (*je*, partikels, halve zinnen), **neutraal of verzorgd** (*u*, hele zinnen, weinig partikels) en **formeel of geschreven** (*u*, naamwoordstijl, vaste formules). Dezelfde boodschap, drie standen. You choose the setting to fit the *situation*, not to fit how much you like the person.",
+      "table": {
+        "headers": ["Stand", "Dezelfde vraag"],
+        "rows": [
+          ["Informeel", "Kun je dat even doorsturen?"],
+          ["Neutraal", "Kunt u dat doorsturen?"],
+          ["Formeel", "Ik verzoek u het document door te sturen."]
+        ]
+      },
+      "callout": "Te formeel tegen Daan is net zo raar als te informeel tegen de gemeente."
+    },
+    {
+      "type": "chips",
+      "title": "Dezelfde boodschap, drie standen — tik om te horen",
+      "items": [
+        { "nl": "Hoi Emma, kun je me even bellen?", "en": "Hi Emma, can you give me a quick call?", "speak": "Hoi Emma, kun je me even bellen?" },
+        { "nl": "Zou u mij vandaag kunnen bellen?", "en": "Could you call me today?", "speak": "Zou u mij vandaag kunnen bellen?" },
+        { "nl": "Ik verzoek u telefonisch contact met mij op te nemen.", "en": "I request that you contact me by telephone.", "speak": "Ik verzoek u telefonisch contact met mij op te nemen." },
+        { "nl": "Sorry, ik kan niet.", "en": "Sorry, I can't.", "speak": "Sorry, ik kan niet." },
+        { "nl": "Helaas ben ik verhinderd.", "en": "Unfortunately I'm unable to come.", "speak": "Helaas ben ik verhinderd." },
+        { "nl": "Tot mijn spijt moet ik de afspraak afzeggen.", "en": "I regret that I have to cancel the appointment.", "speak": "Tot mijn spijt moet ik de afspraak afzeggen." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Informeel → formeel: schuif eens op",
+      "pairs": [
+        { "left": "Kun je me morgen even laten weten of het lukt?", "right": "Kunt u mij morgen laten weten of het mogelijk is?", "note": "*je* → *u*, partikel *even* eruit, *lukken* → *mogelijk zijn*." },
+        { "left": "We hebben je mail binnen.", "right": "Uw bericht is in goede orde ontvangen.", "note": "Formeel schrijft passief en vermijdt *wij hebben*." },
+        { "left": "Ik kom er zo op terug, hoor.", "right": "Ik kom hier zo spoedig mogelijk op terug.", "note": "*hoor* verdwijnt; *zo* wordt *zo spoedig mogelijk*." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je schrijft aan een ambtenaar die je nooit hebt ontmoet. Welke zin past?",
+      "options": ["Hé, ik heb even een vraagje over mijn aanvraag.", "Ik heb een vraag over mijn aanvraag en hoor graag van u.", "Vraagje: hoe zit het met mijn aanvraag?"],
+      "correct": 1,
+      "explain": "De tweede zin staat op *neutraal*: hele zin, *u*, geen partikels. De andere twee zijn appjes-Nederlands — prima voor Daan, niet voor een ambtenaar."
+    },
+    {
+      "type": "card",
+      "title": "Van *jij* naar *u*",
+      "body": "*U* is niet alleen een ander woord — er verschuift een klein systeem mee. Het werkwoord krijgt de **hij/zij-vorm**: *u kunt, u wilt, u heeft* (of *u hebt*, allebei goed). *jouw* wordt **uw**, *jij/je* als voorwerp wordt **u**, en *je* in een wederkerend werkwoord wordt **zich**. Note: *u* takes the third-person verb form, but the verb *zijn* keeps **u bent** — never *u is*.",
+      "table": {
+        "headers": ["Informeel", "Met u"],
+        "rows": [
+          ["je kunt", "u kunt"],
+          ["je hebt", "u heeft / u hebt"],
+          ["je bent", "u bent"],
+          ["jouw adres", "uw adres"],
+          ["Ik bel je terug.", "Ik bel u terug."],
+          ["Voel je je beter?", "Voelt u zich beter?"]
+        ]
+      },
+      "callout": "*U bent*, nooit *u is*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Zet om naar de u-vorm: *Heb je jouw formulier al ingevuld?*",
+      "answers": ["Heeft u uw formulier al ingevuld?", "Hebt u uw formulier al ingevuld?"],
+      "hint": "*heb je* → *heeft u* (of *hebt u*), *jouw* → *uw*.",
+      "explain": "*Heeft u uw formulier al ingevuld?* Bij *u* gebruik je de hij/zij-vorm van het werkwoord; *hebt u* mag ook. En *jouw* wordt *uw*."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welke zin hoort níét in een zakelijke e-mail?",
+      "options": ["Ik hoor graag van u.", "Zou je daar even naar willen kijken, hoor?", "Kunt u mij laten weten of dat mogelijk is?"],
+      "correct": 1,
+      "explain": "Partikels (*even*, *hoor*) en *je* horen bij gesproken, informeel Nederlands. Ze eruit halen is het snelste recept voor een formele toon."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en schrijf de zin op. Let op de u-vorm.",
+      "speak": "Zou u mij voor vrijdag kunnen laten weten of dat mogelijk is?",
+      "answers": ["Zou u mij voor vrijdag kunnen laten weten of dat mogelijk is?", "Zou u me voor vrijdag kunnen laten weten of dat mogelijk is?"]
+    },
+    {
+      "type": "builder",
+      "title": "Het schuifje in twee standen",
+      "prompt": "Eén boodschap, twee registers. Kies een informele zin en dezelfde boodschap in formele vorm.",
+      "slots": [
+        { "label": "Informeel (je + partikel)", "chips": ["Kun je even kijken of het lukt?", "Stuur je het me morgen?", "Heb je daar tijd voor?"] },
+        { "label": "Formeel (u, zonder partikels)", "chips": ["Zou u kunnen nagaan of het mogelijk is?", "Kunt u het mij morgen toesturen?", "Heeft u daar gelegenheid voor?"] }
+      ],
+      "sample": "Informeel: Stuur je het me morgen? Formeel: Kunt u het mij morgen toesturen?"
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf dezelfde vraag twee keer: eerst aan Daan (informeel, met partikels), daarna aan een medewerker van de gemeente (formeel, met *u*). Beschrijf daarna in één zin wat er allemaal verandert. In het Nederlands, minstens drie zinnen.",
+      "starters": ["Aan Daan: …", "Aan de gemeente: …", "Het verschil zit vooral in …"],
+      "minSentences": 3
+    }
+  ]
+}

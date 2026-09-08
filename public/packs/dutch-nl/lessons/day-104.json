@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "day-104",
+  "day": 104,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "review",
+  "title": "Bram leest mee — een mail aan de gemeente",
+  "emoji": "🖊️",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Week 15 review and immersion: Bram talks You through a formal email to the gemeente, sliding every line from informal to formal",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 15, op een rij",
+      "body": "Deze week ging over **register**: dezelfde boodschap, drie standen. Vandaag zet je alles in één mail. Bram — nuchter, Rotterdams, dagelijks in de weer met gemeenten en vergunningen — leest met je mee. **Blijf in het Nederlands.**",
+      "table": {
+        "headers": ["Deze week", "Wat je nu kunt"],
+        "rows": [
+          ["het register-schuifje", "informeel, neutraal of formeel kiezen"],
+          ["naamwoordstijl", "*na ontvangst van*, *bij aankomst*"],
+          ["de formele mail", "*Geachte heer/mevrouw,* … *Met vriendelijke groet,*"],
+          ["de sollicitatiebrief", "*verantwoordelijk voor*, *ervaring met*"],
+          ["ambtelijk Nederlands", "*naar aanleiding van*, *u dient … te …*"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Opwarmen — tik om te horen",
+      "items": [
+        { "nl": "Hoi Bram, heb je even?", "en": "Hi Bram, got a minute?", "speak": "Hoi Bram, heb je even?" },
+        { "nl": "Geachte heer/mevrouw,", "en": "Dear Sir or Madam,", "speak": "Geachte heer/mevrouw," },
+        { "nl": "Naar aanleiding van mijn aanvraag van 12 maart schrijf ik u.", "en": "I am writing with reference to my application of 12 March.", "speak": "Naar aanleiding van mijn aanvraag van 12 maart schrijf ik u." },
+        { "nl": "Zou u mij kunnen laten weten wanneer ik een besluit kan verwachten?", "en": "Could you let me know when I can expect a decision?", "speak": "Zou u mij kunnen laten weten wanneer ik een besluit kan verwachten?" },
+        { "nl": "Ik hoor graag van u.", "en": "I look forward to hearing from you.", "speak": "Ik hoor graag van u." },
+        { "nl": "Met vriendelijke groet,", "en": "Kind regards,", "speak": "Met vriendelijke groet," }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Zoals je het zegt ↔ zoals je het schrijft",
+      "pairs": [
+        { "left": "Hoi, hoe lang duurt het nog?", "right": "Zou u mij kunnen laten weten wanneer ik een besluit kan verwachten?", "note": "Zelfde vraag, andere stand van het schuifje." },
+        { "left": "Ik heb 'm 12 maart aangevraagd.", "right": "Naar aanleiding van mijn aanvraag van 12 maart schrijf ik u.", "note": "Naamwoordstijl: *ik heb aangevraagd* wordt *mijn aanvraag van*." },
+        { "left": "Laat het even weten, oké?", "right": "Ik hoor graag van u.", "note": "Een vaste afsluiting in plaats van een zin vol partikels." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je schrijft aan de gemeente en je kent de naam van de ambtenaar niet. Waarmee begin je?",
+      "options": ["Beste gemeente,", "Geachte heer/mevrouw,", "Hallo,"],
+      "correct": 1,
+      "explain": "*Geachte heer/mevrouw,* is de standaard zonder naam. *Beste gemeente* spreekt een gebouw aan, en *Hallo* hoort bij een appje."
+    },
+    {
+      "type": "typed",
+      "prompt": "Zet om naar het register van een formele mail: *Kun je me even laten weten of het gelukt is?*",
+      "answers": ["Zou u mij kunnen laten weten of het gelukt is?", "Zou u mij willen laten weten of het gelukt is?", "Kunt u mij laten weten of het gelukt is?"],
+      "hint": "*je* → *u*, partikel *even* eruit, en maak er een indirect verzoek van.",
+      "explain": "*Zou u mij kunnen laten weten of het gelukt is?* De bijzin met *of* houdt netjes het werkwoord aan het eind: *gelukt is*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Bram is in Amsterdam for a meeting and has half an hour. You have a draft email to the gemeente about a parking permit, and no idea if the tone is right.",
+      "lines": [
+        { "speaker": "Bram", "nl": "Laat maar zien wat je geschreven hebt. Ik kijk even mee.", "en": "Just show me what you've written. I'll have a look." },
+        { "speaker": "You", "nl": "Het is een mail aan de gemeente, over mijn parkeervergunning.", "en": "It's an email to the council, about my parking permit." },
+        { "speaker": "Bram", "nl": "En je begint met *hoi*?", "en": "And you start with 'hi'?", "spotlight": "Informele aanhef in een formele mail — de eerste regel verraadt het register meteen." },
+        { "speaker": "You", "nl": "Te informeel, hè?", "en": "Too informal, isn't it?" },
+        { "speaker": "Bram", "nl": "Veel te. Schrijf: Geachte heer/mevrouw. Je weet niet wie hem leest.", "en": "Far too. Write: Dear Sir or Madam. You don't know who'll read it." },
+        { "speaker": "You", "nl": "En dan? Ik wil graag weten wanneer het klaar is?", "en": "And then? I'd like to know when it'll be ready?" },
+        { "speaker": "Bram", "nl": "Dat mag netter. Naar aanleiding van mijn aanvraag van 12 maart zou ik graag willen weten wanneer ik een besluit kan verwachten.", "en": "That can be tidier. With reference to my application of 12 March, I would like to know when I can expect a decision.", "spotlight": "Naamwoordstijl vooraan, indirect verzoek erachter." },
+        { "speaker": "You", "nl": "Dat is wel een mond vol.", "en": "That's quite a mouthful." },
+        { "speaker": "Bram", "nl": "Dat is de bedoeling. Ambtelijk Nederlands is traag Nederlands: hoe langer de zin, hoe serieuzer hij wordt genomen.", "en": "That's the point. Official Dutch is slow Dutch: the longer the sentence, the more seriously it's taken." },
+        { "speaker": "You", "nl": "In Rotterdam zeggen jullie het toch liever kort?", "en": "In Rotterdam you'd rather keep it short, wouldn't you?" },
+        { "speaker": "Bram", "nl": "Praten wel. Op papier wint de vorm, ook bij ons. Geen woorden maar daden — maar dan met een aanhef.", "en": "When talking, yes. On paper form wins, with us too. Actions not words — but with a salutation." },
+        { "speaker": "You", "nl": "En hoe eindig ik?", "en": "And how do I end it?" },
+        { "speaker": "Bram", "nl": "Met vriendelijke groet, en je naam. Hoogachtend bewaar je voor een klacht of een advocaat.", "en": "Kind regards, and your name. Save 'Hoogachtend' for a complaint or a lawyer.", "spotlight": "*Met vriendelijke groet* kan bijna altijd; *Hoogachtend* is zwaar geschut." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Wat zei Bram?",
+      "questions": [
+        { "q": "Waarom mag You niet met *hoi* beginnen?", "options": ["Omdat het een formele mail aan de gemeente is", "Omdat Bram dat woord lelijk vindt", "Omdat het geen Nederlands is"], "correct": 0 },
+        { "q": "Welke aanhef stelt Bram voor?", "options": ["Beste gemeente,", "Geachte heer/mevrouw,", "Hallo allemaal,"], "correct": 1 },
+        { "q": "Hoe begint Brams versie van het verzoek?", "options": ["Naar aanleiding van mijn aanvraag van 12 maart", "Ik wil graag weten", "Sorry dat ik stoor"], "correct": 0 },
+        { "q": "Wanneer gebruik je volgens Bram *Hoogachtend*?", "options": ["Bij elke mail", "Bij een klacht of iets juridisch", "Bij vrienden"], "correct": 1 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf jouw versie van de mail aan de gemeente: een aanhef, één zin met de aanleiding (*naar aanleiding van …*), één indirect verzoek (*zou u … kunnen …*) en een afsluiting. Schrijf er daarna één zin onder waarin je hetzelfde informeel tegen Daan zegt. In het Nederlands, minstens vier zinnen.",
+      "starters": ["Geachte heer/mevrouw,", "Naar aanleiding van …", "Zou u mij kunnen laten weten …", "Tegen Daan zou ik zeggen: …"],
+      "minSentences": 4
+    }
+  ]
+}

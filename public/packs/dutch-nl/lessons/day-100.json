@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "day-100",
+  "day": 100,
+  "module": "M15",
+  "unit": "U15",
+  "kind": "lesson",
+  "title": "Na ontvangst van uw bericht — de naamwoordstijl",
+  "emoji": "🧱",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Nominalisation: turning verbs into nouns (aankomen to bij aankomst, verzoeken to het verzoek tot) and why officialese does it",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Het werkwoord wordt een naamwoord",
+      "body": "Formeel Nederlands houdt van **naamwoorden**. Waar je in gesproken taal een werkwoord gebruikt (*als u aankomt*), zet officieel Nederlands er een zelfstandig naamwoord neer (*bij aankomst*). Dat heet **nominalisatie**. Het resultaat is korter, kaler en onpersoonlijker — precies wat een instantie wil. Nominalisation trades a whole clause for a noun phrase, and the person doing the action quietly disappears.",
+      "table": {
+        "headers": ["Werkwoord", "Naamwoordstijl"],
+        "rows": [
+          ["aankomen", "bij aankomst"],
+          ["ontvangen", "na ontvangst van"],
+          ["verzoeken", "het verzoek tot"],
+          ["betalen", "na betaling van"],
+          ["vertrekken", "vóór vertrek"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Zo klinkt papier — tik om te horen",
+      "items": [
+        { "nl": "Bij aankomst meldt u zich bij de receptie.", "en": "On arrival you report to reception.", "speak": "Bij aankomst meldt u zich bij de receptie." },
+        { "nl": "Na ontvangst van uw bericht nemen wij contact met u op.", "en": "After receiving your message we will contact you.", "speak": "Na ontvangst van uw bericht nemen wij contact met u op." },
+        { "nl": "Wij hebben uw verzoek tot uitstel ontvangen.", "en": "We have received your request for a postponement.", "speak": "Wij hebben uw verzoek tot uitstel ontvangen." },
+        { "nl": "Na betaling van de factuur is de zaak afgehandeld.", "en": "Once the invoice is paid the matter is settled.", "speak": "Na betaling van de factuur is de zaak afgehandeld." },
+        { "nl": "De behandeling van uw aanvraag duurt zes weken.", "en": "Processing your application takes six weeks.", "speak": "De behandeling van uw aanvraag duurt zes weken." },
+        { "nl": "Vóór vertrek controleert u uw gegevens.", "en": "Before departure you check your details.", "speak": "Vóór vertrek controleert u uw gegevens." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Bijzin → naamwoord",
+      "pairs": [
+        { "left": "Nadat wij uw brief hebben ontvangen, nemen wij contact met u op.", "right": "Na ontvangst van uw brief nemen wij contact met u op.", "note": "De hele bijzin krimpt tot *na ontvangst van*." },
+        { "left": "Als u aankomt, meldt u zich bij de balie.", "right": "Bij aankomst meldt u zich bij de balie.", "note": "*als u aankomt* → *bij aankomst*: de persoon verdwijnt uit de zin." },
+        { "left": "U vraagt om uitstel, en dat hebben wij gelezen.", "right": "Uw verzoek tot uitstel is in behandeling genomen.", "note": "*verzoeken* → *het verzoek tot* + naamwoord, en de rest wordt passief." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Nadat de vergunning is verleend, mag u beginnen.* Welke zin zegt hetzelfde in naamwoordstijl?",
+      "options": ["Na verlening van de vergunning mag u beginnen.", "Na het verlenen de vergunning mag u beginnen.", "Na dat de vergunning verleend mag u beginnen."],
+      "correct": 0,
+      "explain": "*verlenen* → *de verlening*, en met *van* haak je eraan vast wat verleend wordt. In optie 2 ontbreekt *van*; optie 3 is geen Nederlands."
+    },
+    {
+      "type": "card",
+      "title": "Hoe maak je zo'n naamwoord?",
+      "body": "Er zijn drie routes. **1. De stam:** *verzoeken → het verzoek*, *vertrekken → het vertrek*, *aanvragen → de aanvraag*. **2. Het achtervoegsel -ing:** *behandelen → de behandeling*, *betalen → de betaling*, *goedkeuren → de goedkeuring*. **3. De infinitief als naamwoord:** *wachten → het wachten*, *invullen → het invullen van het formulier*. Handy rule: nouns in *-ing* are always **de**, an infinitive used as a noun is always **het**.",
+      "table": {
+        "headers": ["Route", "Voorbeeld"],
+        "rows": [
+          ["Stam", "aanvragen → de aanvraag"],
+          ["Achtervoegsel -ing", "goedkeuren → de goedkeuring"],
+          ["Infinitief als naamwoord", "invullen → het invullen"]
+        ]
+      },
+      "callout": "In vaste formules valt het lidwoord vaak weg: *bij aankomst*, *na ontvangst*, *vóór vertrek*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Zet in naamwoordstijl: *Nadat wij uw aanvraag hebben ontvangen, sturen wij een bevestiging.* Begin met *Na …*",
+      "answers": ["Na ontvangst van uw aanvraag sturen wij een bevestiging.", "Na ontvangst van uw aanvraag sturen wij u een bevestiging."],
+      "hint": "*ontvangen* → *de ontvangst*, daarna *van uw aanvraag*.",
+      "explain": "*Na ontvangst van uw aanvraag sturen wij een bevestiging.* De bijzin verdwijnt en de hoofdzin houdt netjes het werkwoord op plek twee: *sturen wij*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en schrijf de zin op — naamwoordstijl én passief in één.",
+      "speak": "Na ontvangst van uw betaling wordt uw aanvraag in behandeling genomen.",
+      "answers": ["Na ontvangst van uw betaling wordt uw aanvraag in behandeling genomen."]
+    },
+    {
+      "type": "builder",
+      "title": "Bouw een officiële zin",
+      "prompt": "Zet een zin in naamwoordstijl in elkaar: aanleiding — wat er gebeurt — aanvulling.",
+      "slots": [
+        { "label": "Aanleiding (naamwoordstijl)", "chips": ["Na ontvangst van uw bericht", "Bij aankomst op het kantoor", "Na goedkeuring van de aanvraag"] },
+        { "label": "Wat er dan gebeurt", "chips": ["nemen wij contact met u op", "meldt u zich bij de balie", "ontvangt u een bevestiging"] },
+        { "label": "Aanvulling", "chips": ["binnen vijf werkdagen", "per e-mail", "zo spoedig mogelijk"] }
+      ],
+      "sample": "Na ontvangst van uw bericht nemen wij binnen vijf werkdagen contact met u op."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Daan vraagt of je vanavond meegaat naar de kroeg. Wat antwoord je?",
+      "options": ["Na afloop van mijn werkzaamheden voeg ik mij bij jullie.", "Ik kom zodra ik klaar ben met werken.", "Bij beëindiging van mijn werkdag zal ik arriveren."],
+      "correct": 1,
+      "explain": "Naamwoordstijl in de kroeg klinkt als een ambtenaar op een barkruk: onbedoeld grappig. Bewaar hem voor papier en zeg tegen Daan gewoon *ik kom zodra ik klaar ben*."
+    },
+    {
+      "type": "journal",
+      "prompt": "Verzin een instantie (*Bureau Fietsregistratie*, bijvoorbeeld) en schrijf drie zinnen uit haar brief. Gebruik minstens twee naamwoordstijl-formules: *na ontvangst van*, *bij aankomst*, *het verzoek tot*, *na betaling van*. In het Nederlands.",
+      "starters": ["Na ontvangst van …", "Bij aankomst …", "Het verzoek tot … wordt …"],
+      "minSentences": 3
+    }
+  ]
+}

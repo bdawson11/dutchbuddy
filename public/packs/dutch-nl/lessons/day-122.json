@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "day-122",
+  "day": 122,
+  "module": "M18",
+  "unit": "U18",
+  "kind": "lesson",
+  "title": "Daar valt over te praten — onderhandelen",
+  "emoji": "🤝",
+  "level": "C1",
+  "durationMin": [20, 35],
+  "summary": "Formal spoken register at the table: making a proposal, pushing back without slamming the door, and finding the middenweg",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Een voorstel doen",
+      "body": "Een voorstel kun je in het Nederlands zo hard of zo zacht maken als je wilt — en dat hoor je vooral aan de **werkwoordsvorm**. *Zullen we…* is praktisch, *wat als we…* is vrijblijvend, en *ik zou willen voorstellen om…* is het echte vergaderregister: een wens, netjes op afstand gezet.",
+      "table": {
+        "headers": ["Voorstel", "Hoe het klinkt"],
+        "rows": [
+          ["Wat als we volgende week beginnen? — what if we…", "informeel en vrijblijvend"],
+          ["Zullen we afspreken dat jij de offerte stuurt? — shall we agree that…", "neutraal en praktisch"],
+          ["Ik zou willen voorstellen om de levering te splitsen. — I would like to propose…", "formeel; hoort thuis in een vergadering"]
+        ]
+      },
+      "callout": "*Zou* is je volumeknop: hoe meer *zou*, hoe voorzichtiger het voorstel."
+    },
+    {
+      "type": "chips",
+      "title": "De zinnen van de onderhandeling — tik om te horen",
+      "items": [
+        { "nl": "Daar valt over te praten.", "en": "That's negotiable.", "speak": "Daar valt over te praten." },
+        { "nl": "Daar kan ik mee leven.", "en": "I can live with that.", "speak": "Daar kan ik mee leven." },
+        { "nl": "Dat wordt lastig, eerlijk gezegd.", "en": "That'll be difficult, honestly.", "speak": "Dat wordt lastig, eerlijk gezegd." },
+        { "nl": "Daar kan ik niet mee uit de voeten.", "en": "I can't work with that.", "speak": "Daar kan ik niet mee uit de voeten." },
+        { "nl": "Laten we een middenweg zoeken.", "en": "Let's find a middle ground.", "speak": "Laten we een middenweg zoeken." },
+        { "nl": "Ik kom u graag halverwege tegemoet.", "en": "I'm happy to meet you halfway.", "speak": "Ik kom u graag halverwege tegemoet." },
+        { "nl": "Dan zijn we eruit.", "en": "Then we have a deal.", "speak": "Dan zijn we eruit." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Nee zeggen zonder de deur dicht te doen",
+      "body": "Aan tafel is een kale *nee* zelden slim: je wilt het gesprek houden, niet winnen. Het vaste recept is **erkennen, dan bezwaar, dan alternatief** — en tussendoor zet je er een dempertje op: *eerlijk gezegd*, *op zich*, *in principe*. *In principe wel, alleen…* betekent in de praktijk 'nee, tenzij je me iets geeft'.",
+      "callout": "*Dat wordt lastig* is geen twijfel — het is een nee die nog te koop is."
+    },
+    {
+      "type": "contrast",
+      "title": "Dezelfde boodschap, twee registers",
+      "pairs": [
+        { "left": "Nee joh, dat gaat 'm niet worden.", "right": "Ik vrees dat dat niet haalbaar is.", "note": "Links onder collega's bij de koffie, rechts met de klant erbij. Zelfde nee, andere kamer." },
+        { "left": "Kunnen we daar niet iets tussenin doen?", "right": "Wellicht kunnen we een middenweg vinden.", "note": "*Wellicht* en *een middenweg vinden* tillen precies dezelfde vraag naar vergaderniveau." },
+        { "left": "Prima, doen we.", "right": "Akkoord, dan leggen we het zo vast.", "note": "In een overleg *leg je iets vast*; met vrienden *doe je het gewoon*." },
+        { "left": "Daar heb ik echt geen zin in.", "right": "Daar zie ik onvoldoende meerwaarde in.", "note": "De weerzin verdwijnt achter een nominalisatie — dat is precies wat formeel register doet." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "De klant zit erbij en jij wilt zeggen: *Dat gaat 'm niet worden.* Welke variant past bij die tafel?",
+      "options": ["Dat gaat 'm niet worden.", "Ik vrees dat dat voor ons niet haalbaar is.", "Nee, echt niet doen."],
+      "correct": 1,
+      "explain": "*Ik vrees dat…* maakt van jouw weigering een spijtige constatering, en *haalbaar* is het neutrale woord van elke vergadering. De andere twee zijn prima — maar dan bij de koffieautomaat."
+    },
+    {
+      "type": "typed",
+      "prompt": "Je wilt zeggen dat een voorstel bespreekbaar is, maar je zegt nog geen ja. Wat zeg je aan tafel? (*that's negotiable*)",
+      "answers": ["Daar valt over te praten.", "Daar valt over te onderhandelen.", "Dat is bespreekbaar."],
+      "hint": "*Daar valt … te …* — de constructie met *vallen* die 'het kan besproken worden' betekent.",
+      "explain": "*Daar valt over te praten.* Vier woorden die de deur openhouden zonder iets weg te geven — de nuttigste zin van elke onderhandeling."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ de uitnodiging om er samen uit te komen.",
+      "speak": "Laten we een middenweg zoeken.",
+      "answers": ["Laten we een middenweg zoeken."]
+    },
+    {
+      "type": "builder",
+      "title": "Bouw je tegenvoorstel",
+      "prompt": "De klant wil twintig procent korting. Bouw een tegenvoorstel in vier stappen: erken, weerleg, stel voor, nodig uit.",
+      "slots": [
+        { "label": "Erkennen", "chips": ["Ik begrijp dat het budget krap is", "Ik snap uw punt heel goed", "Op zich is dat een redelijke vraag"] },
+        { "label": "Bezwaar", "chips": ["maar met dit bedrag redden we de planning niet", "alleen gaat dat ten koste van de kwaliteit", "maar dan wordt het voor ons niet haalbaar"] },
+        { "label": "Tegenvoorstel", "chips": ["ik zou willen voorstellen om de opdracht in twee fases te splitsen", "wat als we tien procent doen en één ronde extra schrappen", "we kunnen de korting geven bij een langer contract"] },
+        { "label": "Uitnodiging", "chips": ["Hoe klinkt dat?", "Kunt u daarmee uit de voeten?", "Daar valt over te praten, toch?"] }
+      ],
+      "sample": "Ik begrijp dat het budget krap is, maar met dit bedrag redden we de planning niet. Ik zou willen voorstellen om de opdracht in twee fases te splitsen. Hoe klinkt dat?"
+    },
+    {
+      "type": "dialogue",
+      "scene": "Bram's office in Rotterdam. His building opens sooner than planned, and Emma's agency has the campaign. You are in the room.",
+      "lines": [
+        { "speaker": "Bram", "nl": "Even zakelijk: wij willen de opening drie weken naar voren halen.", "en": "Straight to business: we want to bring the opening forward by three weeks." },
+        { "speaker": "Emma", "nl": "Drie weken? Dat wordt lastig, eerlijk gezegd.", "en": "Three weeks? That'll be difficult, honestly.", "spotlight": "*Dat wordt lastig* — een nee waar nog over te praten valt." },
+        { "speaker": "Bram", "nl": "Lastig is nog geen nee. Wat is er nodig?", "en": "Difficult isn't a no yet. What's needed?" },
+        { "speaker": "Emma", "nl": "Meer mensen, en die hebben we niet vóór de zomer.", "en": "More people, and we don't have those before the summer." },
+        { "speaker": "You", "nl": "Mag ik een tussenvoorstel doen? We leveren de opening op tijd, maar de campagne in twee delen.", "en": "May I make an intermediate proposal? We deliver the opening on time, but the campaign in two parts.", "spotlight": "Een *tussenvoorstel* geeft niemand gelijk en houdt iedereen aan tafel." },
+        { "speaker": "Bram", "nl": "Ga verder.", "en": "Go on." },
+        { "speaker": "You", "nl": "Deel één is alles wat op de dag zelf nodig is. Deel twee volgt twee weken later.", "en": "Part one is everything needed on the day itself. Part two follows two weeks later." },
+        { "speaker": "Bram", "nl": "Daar valt over te praten. Maar dan wil ik de teksten wel eerder zien.", "en": "That's negotiable. But then I do want to see the copy earlier.", "spotlight": "De deur staat open — en meteen komt de tegeneis." },
+        { "speaker": "Emma", "nl": "Als jij ons de foto's eerder aanlevert, kan dat.", "en": "If you deliver the photos to us earlier, that's possible." },
+        { "speaker": "Bram", "nl": "Akkoord. In Rotterdam noemen we dat gewoon doorpakken.", "en": "Agreed. In Rotterdam we just call that getting on with it." },
+        { "speaker": "Emma", "nl": "En in Amsterdam noemen we dat een compromis, hoor.", "en": "And in Amsterdam we call that a compromise, you know." },
+        { "speaker": "You", "nl": "Zullen we het zo vastleggen? Dan zijn we eruit.", "en": "Shall we put it down like this? Then we have a deal.", "spotlight": "*Vastleggen* en *eruit zijn* sluiten een onderhandeling netjes af." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Waar zijn ze uitgekomen?",
+      "questions": [
+        { "q": "Wat wil Bram?", "options": ["De opening uitstellen", "De opening drie weken eerder", "Een lagere prijs"], "correct": 1 },
+        { "q": "Wat stelt You voor?", "options": ["De campagne in twee delen leveren", "Meer mensen aannemen", "De opening afzeggen"], "correct": 0 },
+        { "q": "Wat vraagt Bram in ruil voor zijn ja?", "options": ["Een lagere factuur", "Een extra vergadering", "De teksten eerder zien"], "correct": 2 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Schrijf een kort tegenvoorstel in vergadertaal: erken het punt van de ander, noem je bezwaar, doe je voorstel en nodig uit om te reageren. Gebruik minstens één zin uit dit blok. In het Nederlands, minstens drie zinnen.",
+      "starters": ["Ik begrijp dat …", "Alleen …", "Ik zou willen voorstellen om …", "Daar valt over te praten, mits …"],
+      "minSentences": 3
+    }
+  ]
+}

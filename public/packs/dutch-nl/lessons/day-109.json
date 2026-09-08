@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "day-109",
+  "day": 109,
+  "module": "M16",
+  "unit": "U16",
+  "kind": "lesson",
+  "title": "Ze zei dat ze zou komen — de indirecte rede",
+  "emoji": "🗣️",
+  "level": "B2",
+  "durationMin": [20, 35],
+  "summary": "Reported speech in depth: tense back-shift, indirect questions with of, and reporting hearsay with zou and naar verluidt",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Van citaat naar verslag: de tijd schuift terug",
+      "body": "Geef je iemands woorden door, dan verdwijnen de aanhalingstekens en schuift de tijd meestal **één stap terug**: tegenwoordig → verleden, voltooid → voltooid verleden, en een toekomst wordt *zou + infinitief*. Ook tijd- en plaatswoorden verhuizen mee: *morgen* wordt *de volgende dag*, *hier* wordt *daar*.",
+      "table": {
+        "headers": ["Wat er gezegd werd", "Hoe je het doorgeeft"],
+        "rows": [
+          ["\"Ik heb geen tijd.\"", "Hij zei dat hij geen tijd had."],
+          ["\"Ik kom morgen langs.\"", "Ze zei dat ze de volgende dag langs zou komen."],
+          ["\"Ik heb het al gestuurd.\"", "Hij zei dat hij het al gestuurd had."],
+          ["\"We moeten opschieten.\"", "Ze zei dat we moesten opschieten."]
+        ]
+      },
+      "callout": "Geldt het nog steeds? Dan mag de tegenwoordige tijd blijven staan: *ze zei dat ze in Utrecht woont*. In verzorgd Nederlands schuif je toch liever terug."
+    },
+    {
+      "type": "chips",
+      "title": "Doorgeven — tik om te horen",
+      "items": [
+        { "nl": "Emma zei dat ze er nog over na moest denken.", "en": "Emma said she still had to think about it.", "speak": "Emma zei dat ze er nog over na moest denken." },
+        { "nl": "Daan vertelde dat de repetitie verzet was.", "en": "Daan said the rehearsal had been moved.", "speak": "Daan vertelde dat de repetitie verzet was." },
+        { "nl": "Ze vroeg of ik zaterdag tijd had.", "en": "She asked whether I had time on Saturday.", "speak": "Ze vroeg of ik zaterdag tijd had." },
+        { "nl": "Hij zei dat hij de volgende dag zou bellen.", "en": "He said he'd call the next day.", "speak": "Hij zei dat hij de volgende dag zou bellen." },
+        { "nl": "Volgens haar klopte er niets van.", "en": "According to her, none of it was true.", "speak": "Volgens haar klopte er niets van." },
+        { "nl": "Naar verluidt komt er een nieuwe planning.", "en": "Reportedly there's a new schedule coming.", "speak": "Naar verluidt komt er een nieuwe planning." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Sanne zei gisteren: *\"Ik heb de trein gemist.\"* Hoe geef je dat netjes door?",
+      "options": [
+        "Sanne zei dat ze de trein gemist had.",
+        "Sanne zei dat ze de trein mist.",
+        "Sanne zei dat ze had de trein gemist."
+      ],
+      "correct": 0,
+      "explain": "Voltooid tegenwoordig (*heb gemist*) schuift terug naar voltooid verleden (*had gemist*), en in de bijzin blijven de werkwoorden achterin. *had gemist* mag hier ook als *gemist had* — beide volgordes zijn goed."
+    },
+    {
+      "type": "card",
+      "title": "Vragen doorgeven: *of* en het vraagwoord",
+      "body": "Een **ja/nee-vraag** wordt een bijzin met **of**: *\"Kom je?\"* → *Ze vroeg **of** ik kwam.* Een **vraagwoordvraag** houdt zijn vraagwoord: *\"Waarom bel je nu pas?\"* → *Hij vroeg **waarom** ik pas nu belde.* In allebei de gevallen verdwijnt de inversie en gaat de persoonsvorm naar het eind — en het vraagteken vervalt.",
+      "callout": "Nooit *of dat*: het is *of ik kwam*, niet *of dat ik kwam*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Geef door: Emma vroeg: *\"Kom je morgen ook?\"* Begin met: Emma vroeg …",
+      "answers": [
+        "Emma vroeg of ik de volgende dag ook kwam",
+        "Emma vroeg of ik de volgende dag ook zou komen",
+        "Emma vroeg of ik de volgende dag ook mee zou komen",
+        "of ik de volgende dag ook kwam"
+      ],
+      "hint": "Ja/nee-vraag → *of*; *morgen* verschuift naar *de volgende dag*.",
+      "explain": "*Emma vroeg of ik de volgende dag ook kwam.* Geen inversie meer, persoonsvorm achterin, geen vraagteken. Met *zou komen* benadruk je dat het toen nog toekomst was."
+    },
+    {
+      "type": "contrast",
+      "title": "Dezelfde boodschap, twee registers",
+      "pairs": [
+        { "left": "Emma appte dat ze het vanavond niet redt.", "right": "Emma laat weten dat zij vanavond verhinderd is.", "note": "Informeel: *appen*, *het niet redden*, *ze*. Formeel: *laten weten*, *verhinderd zijn*, nadrukkelijk *zij*." },
+        { "left": "Daan zei dat het feest niet doorgaat.", "right": "Naar verluidt gaat het feest niet door.", "note": "Formeel mag de bron helemaal wegvallen: *naar verluidt* + inversie (*gaat*), want het staat op plaats 1." },
+        { "left": "Ze zei dat ze er niks van wist.", "right": "Zij verklaarde dat zij daarvan niet op de hoogte was.", "note": "*niks* → *niets*/*daarvan*, *weten* → *op de hoogte zijn*: dezelfde inhoud, ander pak aan." }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Twijfel en horenzeggen: *zou*, *volgens*, *naar verluidt*",
+      "body": "Wil je doorgeven wat je gehóórd hebt zonder er zelf voor in te staan, dan heb je drie schuifjes. **zou + infinitief** = 'naar men zegt': *Hij **zou** ziek zijn.* **volgens + iemand** noemt de bron: *Volgens Daan klopt het niet.* En **naar verluidt** (schrijftaal, nieuws) of **naar het schijnt** (spreektaal) laat de bron juist vaag.",
+      "table": {
+        "headers": ["Vorm", "Wat je ermee zegt"],
+        "rows": [
+          ["Hij zou ziek zijn.", "Dat wordt gezegd — ik weet het niet zeker."],
+          ["Volgens Youssef is het besloten.", "Bron erbij, verantwoordelijkheid bij hem."],
+          ["Naar verluidt sluit de zaak.", "Officieel gerucht, geen bron (nieuwsregister)."],
+          ["Het schijnt dat ze verhuizen.", "Los gerucht, spreektaal."]
+        ]
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je hebt gehoord dat het kantoor verhuist, maar zeker weten doe je het niet. Welke zin past het best?",
+      "options": [
+        "Het kantoor zou volgend jaar verhuizen.",
+        "Het kantoor verhuist volgend jaar.",
+        "Het kantoor zal volgend jaar verhuizen."
+      ],
+      "correct": 0,
+      "explain": "*zou + infinitief* is hier geen hypothese maar **horenzeggen**: 'men zegt dat…'. De andere twee presenteren het als vaststaand feit."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en schrijf het verslag op.",
+      "speak": "Hij vroeg of we het rapport de volgende dag konden opsturen.",
+      "answers": [
+        "Hij vroeg of we het rapport de volgende dag konden opsturen",
+        "Hij vroeg of we het rapport de volgende dag op konden sturen",
+        "Hij vroeg of we het rapport de volgende dag konden opsturen."
+      ],
+      "explain": "*of* + bijzin, persoonsvorm *konden* achterin. Bij een scheidbaar werkwoord mag het cluster als *konden opsturen* of als *op konden sturen*."
+    },
+    {
+      "type": "dialogue",
+      "scene": "At the agency. Youssef, Emma's project manager, brings her and You up to speed on a meeting they both missed.",
+      "lines": [
+        { "speaker": "Youssef", "nl": "Ik praat jullie even bij. De klant heeft gezegd dat de deadline verschuift.", "en": "Let me bring you up to speed. The client has said the deadline is moving.", "spotlight": "*heeft gezegd dat …* — verslag in plaats van citaat." },
+        { "speaker": "Emma", "nl": "Verschuift? Naar wanneer dan?", "en": "Moving? To when?" },
+        { "speaker": "Youssef", "nl": "Ze vroegen of we het eind van de maand zouden halen. Ik heb gezegd dat ik dat eerst met jou wilde overleggen.", "en": "They asked whether we'd make the end of the month. I said I wanted to discuss that with you first.", "spotlight": "*vroegen of … zouden halen* — indirecte ja/nee-vraag met terugschuiving." },
+        { "speaker": "Emma", "nl": "Netjes. En het budget?", "en": "Good. And the budget?" },
+        { "speaker": "Youssef", "nl": "Daar is niets over gezegd. Naar verluidt komt daar volgende week duidelijkheid over.", "en": "Nothing was said about that. Reportedly there'll be clarity on it next week.", "spotlight": "*naar verluidt* op plaats 1 → inversie: *komt daar*." },
+        { "speaker": "You", "nl": "Klopt het dat de presentatie ook verzet is?", "en": "Is it true that the presentation has been moved too?" },
+        { "speaker": "Youssef", "nl": "Volgens de planning van gisteren wel. Al zou dat vanmiddag nog veranderen.", "en": "According to yesterday's schedule, yes. Though apparently that may still change this afternoon.", "spotlight": "*zou … veranderen* — horenzeggen, geen belofte." },
+        { "speaker": "Emma", "nl": "Zet je het even op de mail? Anders weet straks niemand meer wie wat gezegd heeft.", "en": "Could you put it in an email? Otherwise nobody will remember who said what." },
+        { "speaker": "Youssef", "nl": "Doe ik. Ik vat samen wat er besloten is en wat nog openstaat.", "en": "Will do. I'll summarise what's been decided and what's still open." },
+        { "speaker": "You", "nl": "Ik hoorde trouwens dat er nog een tweede klant meekijkt.", "en": "By the way, I heard there's a second client watching along." },
+        { "speaker": "Youssef", "nl": "Dat heb ik ook gehoord, maar bevestigd is het niet.", "en": "I've heard that too, but it hasn't been confirmed." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Geef door wat iemand je deze week verteld heeft — een collega, een vriend, de buurvrouw. Gebruik minstens twee keer *… zei/vertelde dat …* met terugschuiving, één indirecte vraag met *of*, en één zin met *volgens …* of *zou*. In het Nederlands, minstens drie zinnen.",
+      "starters": ["Laatst vertelde … dat …", "Ze vroeg of ik …", "Volgens hem zou …"],
+      "minSentences": 3
+    }
+  ]
+}
