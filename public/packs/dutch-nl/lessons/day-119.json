@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "id": "day-119",
+  "day": 119,
+  "module": "M17",
+  "unit": "U17",
+  "kind": "capstone",
+  "title": "Mijn verhaal — netjes gezegd en droog gezegd",
+  "emoji": "🗝️",
+  "level": "C1",
+  "durationMin": [
+    20,
+    35
+  ],
+  "summary": "Week 17 capstone: tone and register drills, plus the mijn-verhaal layer — the same point said formally and playfully, with layered particles",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 17 — toon is een keuze",
+      "body": "Je kunt nu partikels stapelen, ironie horen én droog terugkaatsen, midden in een gesprek van register wisselen, uitdrukkingen vervoegen en netjes vaag blijven. Vandaag komt dat samen in **mijn verhaal, laag 17**: je zegt hetzelfde punt twee keer — één keer **formeel**, één keer **speels**, met de partikels erin.",
+      "table": {
+        "headers": [
+          "Gereedschap",
+          "Voorbeeld"
+        ],
+        "rows": [
+          [
+            "Gestapelde partikels",
+            "Dat is toch wel zo."
+          ],
+          [
+            "Understatement",
+            "Niet verkeerd, hoor."
+          ],
+          [
+            "Registerwissel",
+            "Kun je even … / Zou u …"
+          ],
+          [
+            "Uitdrukking",
+            "de knoop doorhakken"
+          ],
+          [
+            "Hedge",
+            "in principe, zou moeten"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Je toongereedschap — tik om te horen",
+      "items": [
+        {
+          "nl": "Doe nou even rustig.",
+          "en": "Come on, calm down a sec.",
+          "speak": "Doe nou even rustig."
+        },
+        {
+          "nl": "Dat is toch wel zo.",
+          "en": "That is true, though.",
+          "speak": "Dat is toch wel zo."
+        },
+        {
+          "nl": "Niet verkeerd, hoor.",
+          "en": "Not bad at all.",
+          "speak": "Niet verkeerd, hoor."
+        },
+        {
+          "nl": "Ik val maar meteen met de deur in huis.",
+          "en": "I'll come straight to the point.",
+          "speak": "Ik val maar meteen met de deur in huis."
+        },
+        {
+          "nl": "Zou u daarnaar kunnen kijken?",
+          "en": "Could you look into that?",
+          "speak": "Zou u daarnaar kunnen kijken?"
+        },
+        {
+          "nl": "In principe wel, ja.",
+          "en": "In principle, yes.",
+          "speak": "In principe wel, ja."
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welke zin klinkt als iemand die het al drie keer gevraagd heeft?",
+      "options": [
+        "Kom je even?",
+        "Kom je nou eens een keer?",
+        "Kom je?"
+      ],
+      "correct": 1,
+      "explain": "*nou eens een keer* stapelt aandrang op ongeduld. *Kom je even?* is juist licht en vrijblijvend, en *Kom je?* is neutraal."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je collega zegt vlak: *'Nou, geweldig.'* nadat de vergadering een uur uitloopt. Wat bedoelt hij?",
+      "options": [
+        "Hij vond de vergadering nuttig.",
+        "Hij baalt.",
+        "Hij wil nog een uur doorgaan."
+      ],
+      "correct": 1,
+      "explain": "Overdreven positief woord + vlakke toon + een vervelend feit = ironie. Wie het écht geweldig vindt, zegt het met stem en zonder pauze na *nou*."
+    },
+    {
+      "type": "contrast",
+      "title": "Eén punt, twee registers",
+      "pairs": [
+        {
+          "left": "Ik leer nu ruim twee jaar Nederlands en ik red me prima.",
+          "right": "Ik studeer inmiddels ruim twee jaar Nederlands en beheers de taal op een goed niveau.",
+          "note": "Links spreektaal (*me redden*, *prima*); rechts genominaliseerd en zonder partikels — de versie voor een sollicitatiebrief."
+        },
+        {
+          "left": "Ik ben hier ooit voor een baan naartoe gekomen, eerlijk gezegd.",
+          "right": "Ik ben oorspronkelijk naar Nederland verhuisd in verband met mijn werk.",
+          "note": "*in verband met* is het formele *vanwege*; *eerlijk gezegd* hoort alleen links thuis."
+        },
+        {
+          "left": "Nederlands is best wel pittig, maar het went.",
+          "right": "Het Nederlands is een veeleisende taal, maar goed te leren.",
+          "note": "*best wel* en *pittig* zijn informeel; formeel Nederlands kiest *veeleisend* en houdt het oordeel onpersoonlijk."
+        }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Zeg hetzelfde formeel: *Kun je daar even naar kijken?* Gebruik *zou u* en laat het partikel weg.",
+      "answers": [
+        "Zou u daarnaar kunnen kijken?",
+        "Zou u daar naar kunnen kijken?",
+        "Zou u daarnaar willen kijken?"
+      ],
+      "hint": "*zou u* + een modaal werkwoord, en *even* verdwijnt.",
+      "explain": "*Zou u daarnaar kunnen kijken?* Formeel Nederlands wordt **indirecter**, niet harder: *zou u* + *kunnen* + geen partikel."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ wat je hoort.",
+      "speak": "Dat is toch wel een compliment, hoor.",
+      "answers": [
+        "Dat is toch wel een compliment, hoor",
+        "Dat is toch wel een compliment hoor"
+      ],
+      "explain": "*toch wel* geeft toe en bevestigt tegelijk; *hoor* maakt er een geruststelling van in plaats van een discussie."
+    },
+    {
+      "type": "card",
+      "title": "Mijn verhaal — laag 17: hetzelfde punt, twee toonhoogtes",
+      "body": "Je verhaal kent inmiddels je naam, je routine, je buurt, je plannen, je meningen, je twijfels en je professionele kant. Laag 17 voegt **toonbeheersing** toe. Kies één punt uit je verhaal — waarom je Nederlands leert, of wat het je gekost heeft — en zeg het **twee keer**: één keer zoals tegen een commissie, één keer zoals tegen Daan aan de bar, met partikels en een droge opmerking.",
+      "callout": "Wie hetzelfde in twee registers kan zeggen, kiest zijn toon in plaats van hem te ondergaan. Dat is de sprong."
+    },
+    {
+      "type": "builder",
+      "title": "Mijn verhaal — laag 17: formeel én speels",
+      "prompt": "Bouw je punt twee keer: eerst netjes, dan zoals aan de bar. Kies per gleuf, of schrijf je eigen versie.",
+      "slots": [
+        {
+          "label": "Formeel: mijn punt",
+          "chips": [
+            "Ik ben van mening dat een taal je pas echt binnenlaat.",
+            "Nederlands leren is voor mij een bewuste keuze geweest.",
+            "Ik hecht eraan mijn werk in het Nederlands te kunnen doen."
+          ]
+        },
+        {
+          "label": "Formeel: mijn nuance",
+          "chips": [
+            "Dat kost, eerlijk gezegd, meer tijd dan ik had voorzien.",
+            "In principe zou dat sneller moeten kunnen.",
+            "Achteraf is gebleken dat doorzetten belangrijker was dan talent."
+          ]
+        },
+        {
+          "label": "Speels: hetzelfde punt",
+          "chips": [
+            "Kijk, je hoort er pas echt bij als je de taal spreekt.",
+            "Ik wilde het nou eenmaal een keer goed doen.",
+            "Ik wil gewoon toch maar in het Nederlands kunnen werken."
+          ]
+        },
+        {
+          "label": "Speels: de droge afzwakker",
+          "chips": [
+            "Het viel niet mee, hoor.",
+            "Lekker dan, dacht ik elke week.",
+            "Niet verkeerd, voor iemand die geen kaas van talen had gegeten."
+          ]
+        }
+      ],
+      "sample": "Ik ben van mening dat een taal je pas echt binnenlaat. Achteraf is gebleken dat doorzetten belangrijker was dan talent. Kijk, je hoort er pas echt bij als je de taal spreekt. Het viel niet mee, hoor."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You are practising a short self-introduction for a client meeting. Emma plays both audiences.",
+      "lines": [
+        {
+          "speaker": "Emma",
+          "nl": "Oké. Doe het eerst maar netjes. Ik ben even de klant.",
+          "en": "Okay. Do the polished version first. I'll be the client."
+        },
+        {
+          "speaker": "You",
+          "nl": "Goedemiddag. Ik werk sinds twee jaar in Nederland en ik voer mijn werk sinds kort volledig in het Nederlands uit.",
+          "en": "Good afternoon. I've been working in the Netherlands for two years and recently I've been doing my work entirely in Dutch.",
+          "spotlight": "Formeel: hele zinnen, geen partikels, *sinds kort* in plaats van *net*."
+        },
+        {
+          "speaker": "Emma",
+          "nl": "Prima. Niet verkeerd zelfs.",
+          "en": "Good. Not bad at all, in fact.",
+          "spotlight": "Understatement als compliment."
+        },
+        {
+          "speaker": "You",
+          "nl": "En nu jij weer gewoon als Emma.",
+          "en": "And now you as plain old Emma again."
+        },
+        {
+          "speaker": "Emma",
+          "nl": "Doe maar. Hoe zit het écht?",
+          "en": "Go on then. How is it really?"
+        },
+        {
+          "speaker": "You",
+          "nl": "Nou, ik doe mijn werk tegenwoordig gewoon in het Nederlands. Kostte me alleen wel twee jaar, hè.",
+          "en": "Well, these days I just do my work in Dutch. Only took me two years, mind.",
+          "spotlight": "*nou* + *gewoon* + *wel* + *hè*: dezelfde inhoud, andere toonhoogte."
+        },
+        {
+          "speaker": "Emma",
+          "nl": "Twee jaar. Dat is toch wel netjes.",
+          "en": "Two years. That's rather good, actually.",
+          "spotlight": "*toch wel* — ze geeft toe en bevestigt."
+        },
+        {
+          "speaker": "You",
+          "nl": "Ik hou het op 'niet verkeerd'.",
+          "en": "I'll stick with 'not bad'."
+        },
+        {
+          "speaker": "Emma",
+          "nl": "Zo praat je inmiddels ook. Je bent bijna niet meer van ons te onderscheiden.",
+          "en": "That's how you talk these days too. You're almost indistinguishable from us."
+        }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Twee versies, één verhaal",
+      "questions": [
+        {
+          "q": "Waaraan hoor je dat de eerste versie formeel is?",
+          "options": [
+            "Er zitten geen partikels in",
+            "Hij is korter",
+            "Hij gaat over werk"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Wat betekent Emma's *'Niet verkeerd zelfs'*?",
+          "options": [
+            "Ze is niet onder de indruk",
+            "Ze vindt het goed",
+            "Ze wil het nog eens horen"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Wat voegt *hè* toe aan de speelse versie?",
+          "options": [
+            "Een vraag om herhaling",
+            "Een formele afsluiting",
+            "Een knipoog naar de luisteraar"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "**Mijn verhaal, laag 17.** Vertel kort wie je bent en waarom je Nederlands leert — eerst in een formele versie, voor een gesprek op je werk. Vertel daarna precies hetzelfde speels, met gestapelde partikels en één droge opmerking. Minstens vier zinnen, in het Nederlands.",
+      "starters": [
+        "Ik ben van mening dat …",
+        "In principe zou ik …",
+        "Kijk, ik woon hier nou eenmaal …",
+        "Niet verkeerd, hoor, voor iemand die …"
+      ],
+      "minSentences": 4
+    },
+    {
+      "type": "journal",
+      "prompt": "Week 17 klaar — je eerste C1-week. Wat is er deze week veranderd in *hóé* je klinkt, en niet in *wát* je zegt? Vier het, in het Nederlands.",
+      "starters": [
+        "Deze week merkte ik dat …",
+        "Ik durf nu …",
+        "Volgende week wil ik …"
+      ],
+      "minSentences": 4
+    }
+  ]
+}

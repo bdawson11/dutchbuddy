@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "id": "day-116",
+  "day": 116,
+  "module": "M17",
+  "unit": "U17",
+  "kind": "lesson",
+  "title": "De kat uit de boom kijken — uitdrukkingen die je zelf gebruikt",
+  "emoji": "🧀",
+  "level": "C1",
+  "durationMin": [
+    20,
+    35
+  ],
+  "summary": "Eight everyday Dutch idioms and how to conjugate them into your own sentences instead of only recognising them",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Acht uitdrukkingen die je hier wekelijks hoort",
+      "body": "Een uitdrukking **begrijpen** is B1. Hem op het juiste moment **zelf** zeggen is C1. Deze acht zijn alledaags en springlevend — geen stoffige spreekwoorden uit een boekje, maar wat er in de kantine en aan de keukentafel klinkt.",
+      "table": {
+        "headers": [
+          "Uitdrukking",
+          "Wanneer je hem zegt"
+        ],
+        "rows": [
+          [
+            "de kat uit de boom kijken",
+            "eerst afwachten voor je meedoet"
+          ],
+          [
+            "ergens geen kaas van gegeten hebben",
+            "er helemaal niets van weten"
+          ],
+          [
+            "met de deur in huis vallen",
+            "meteen ter zake komen"
+          ],
+          [
+            "de knoop doorhakken",
+            "na lang twijfelen beslissen"
+          ],
+          [
+            "ergens geen doekjes om winden",
+            "het onomwonden zeggen"
+          ],
+          [
+            "iets uit je duim zuigen",
+            "iets verzinnen"
+          ],
+          [
+            "nu komt de aap uit de mouw",
+            "nu blijkt wat er echt speelt"
+          ],
+          [
+            "dat slaat als een tang op een varken",
+            "dat slaat nergens op"
+          ]
+        ]
+      },
+      "callout": "Eén uitdrukking per gesprek is genoeg. Drie achter elkaar klinkt als een cursus."
+    },
+    {
+      "type": "chips",
+      "title": "Tik om ze in een hele zin te horen",
+      "items": [
+        {
+          "nl": "Ik kijk eerst even de kat uit de boom.",
+          "en": "I'll wait and see first.",
+          "speak": "Ik kijk eerst even de kat uit de boom."
+        },
+        {
+          "nl": "Van boekhouden heb ik geen kaas gegeten.",
+          "en": "I know nothing about accounting.",
+          "speak": "Van boekhouden heb ik geen kaas gegeten."
+        },
+        {
+          "nl": "Sorry dat ik met de deur in huis val.",
+          "en": "Sorry to come straight to the point.",
+          "speak": "Sorry dat ik met de deur in huis val."
+        },
+        {
+          "nl": "We hebben de knoop doorgehakt.",
+          "en": "We've finally made the call.",
+          "speak": "We hebben de knoop doorgehakt."
+        },
+        {
+          "nl": "Hij windt er geen doekjes om.",
+          "en": "He doesn't mince his words.",
+          "speak": "Hij windt er geen doekjes om."
+        },
+        {
+          "nl": "Dat heb je uit je duim gezogen.",
+          "en": "You made that up.",
+          "speak": "Dat heb je uit je duim gezogen."
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Ze buigen mee met je zin",
+      "body": "Een uitdrukking is geen blok beton. Het werkwoord vervoegt gewoon, het voltooid deelwoord komt achteraan, en in een bijzin schuift alles naar het eind. Scheidbare werkwoorden splitsen ook hier: *doorhakken* → *door**ge**hakt*, *hij windt er geen doekjes **om***.",
+      "table": {
+        "headers": [
+          "Vorm",
+          "Voorbeeld"
+        ],
+        "rows": [
+          [
+            "tegenwoordige tijd",
+            "Ik kijk de kat uit de boom."
+          ],
+          [
+            "voltooide tijd",
+            "Ik heb de kat uit de boom gekeken."
+          ],
+          [
+            "bijzin",
+            "…omdat ik de kat uit de boom heb gekeken."
+          ],
+          [
+            "met *er* of *daar*",
+            "Daar heb ik geen kaas van gegeten."
+          ]
+        ]
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Sanne twijfelt nog over de aannemer en wil eerst zien hoe het loopt. Welke uitdrukking past?",
+      "options": [
+        "Ze valt met de deur in huis.",
+        "Ze kijkt de kat uit de boom.",
+        "Ze zuigt het uit haar duim."
+      ],
+      "correct": 1,
+      "explain": "*De kat uit de boom kijken* = afwachten tot je weet hoe de hazen lopen. *Met de deur in huis vallen* is juist het tegenovergestelde: meteen ter zake komen."
+    },
+    {
+      "type": "contrast",
+      "title": "Neutraal gezegd vs met een uitdrukking",
+      "pairs": [
+        {
+          "left": "Ik weet er niets van.",
+          "right": "Daar heb ik geen kaas van gegeten.",
+          "note": "Zelfde inhoud, maar met zelfspot. Let op *daar … van*: het voorzetsel blijft los achter in de zin staan."
+        },
+        {
+          "left": "We hebben eindelijk besloten.",
+          "right": "We hebben de knoop doorgehakt.",
+          "note": "*Doorhakken* voegt eraan toe dat het lang duurde en dat het moeite kostte."
+        },
+        {
+          "left": "Hij zegt het recht voor z'n raap.",
+          "right": "Hij windt er geen doekjes om.",
+          "note": "Allebei informeel; *recht voor z'n raap* is nog een graadje ruwer en zeg je liever niet op kantoor."
+        }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Vul de uitdrukking aan: *Van techniek heb ik geen ___ gegeten.*",
+      "answers": [
+        "kaas",
+        "Van techniek heb ik geen kaas gegeten"
+      ],
+      "hint": "Het meest Nederlandse woord dat er bestaat.",
+      "explain": "*Van techniek heb ik geen kaas gegeten.* Voluit: *ergens geen kaas van gegeten hebben* — er niets van weten, en je geeft het met een knipoog toe."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister en typ wat je hoort.",
+      "speak": "Sorry dat ik met de deur in huis val.",
+      "answers": [
+        "Sorry dat ik met de deur in huis val"
+      ],
+      "explain": "In de bijzin (*dat ik …*) staat het werkwoord achteraan: *val*. Precies de zin waarmee een Nederlander een lastig gesprek opent."
+    },
+    {
+      "type": "builder",
+      "title": "Zet een uitdrukking in je eigen zin",
+      "prompt": "Bouw een volledige zin met een uitdrukking in de voltooide tijd. Let op: past het hulpwerkwoord bij het onderwerp?",
+      "slots": [
+        {
+          "label": "Wie",
+          "chips": [
+            "Ik",
+            "Sanne",
+            "Daan"
+          ]
+        },
+        {
+          "label": "Hulpwerkwoord",
+          "chips": [
+            "heb",
+            "heeft"
+          ]
+        },
+        {
+          "label": "Uitdrukking (voltooid)",
+          "chips": [
+            "de knoop doorgehakt",
+            "de kat uit de boom gekeken",
+            "er geen doekjes om gewonden"
+          ]
+        },
+        {
+          "label": "Waarom",
+          "chips": [
+            "want het duurde al maanden",
+            "want ze wilde eerst zien hoe het liep",
+            "want hij zegt altijd precies wat hij denkt"
+          ]
+        }
+      ],
+      "sample": "Sanne heeft de knoop doorgehakt, want het duurde al maanden."
+    },
+    {
+      "type": "dialogue",
+      "scene": "You call Sanne in Utrecht. The spare room is slowly becoming a nursery, and the contractor is a story in itself.",
+      "lines": [
+        {
+          "speaker": "Sanne",
+          "nl": "Hoi! Sorry, ik val meteen met de deur in huis: heb jij verstand van vloeren?",
+          "en": "Hi! Sorry, straight to the point: do you know anything about flooring?",
+          "spotlight": "*met de deur in huis vallen* — zonder omweg beginnen."
+        },
+        {
+          "speaker": "You",
+          "nl": "Haha, daar heb ik echt geen kaas van gegeten.",
+          "en": "Ha, I know absolutely nothing about that.",
+          "spotlight": "*daar … van* — het voorzetsel blijft achterin staan."
+        },
+        {
+          "speaker": "Sanne",
+          "nl": "Ook goed. We hebben trouwens eindelijk de knoop doorgehakt: het wordt hout.",
+          "en": "Fair enough. By the way, we've finally made the call: it's going to be wood."
+        },
+        {
+          "speaker": "You",
+          "nl": "Mooi! En de aannemer?",
+          "en": "Nice! And the contractor?"
+        },
+        {
+          "speaker": "Sanne",
+          "nl": "Die hield ons drie weken aan het lijntje.",
+          "en": "He strung us along for three weeks.",
+          "spotlight": "*aan het lijntje houden* — laten wachten zonder ooit ja of nee te zeggen."
+        },
+        {
+          "speaker": "You",
+          "nl": "Wat zei hij dan steeds?",
+          "en": "What did he keep saying?"
+        },
+        {
+          "speaker": "Sanne",
+          "nl": "Van alles. En toen kwam de aap uit de mouw: hij had de klus allang aan iemand anders beloofd.",
+          "en": "All sorts. And then the truth came out: he'd promised the job to someone else ages ago.",
+          "spotlight": "*de aap komt uit de mouw* — de echte reden komt boven water."
+        },
+        {
+          "speaker": "You",
+          "nl": "Lekker dan.",
+          "en": "Oh, lovely."
+        },
+        {
+          "speaker": "Sanne",
+          "nl": "Precies. Bij de volgende kijk ik eerst de kat uit de boom.",
+          "en": "Exactly. With the next one I'm going to wait and see first.",
+          "spotlight": "*de kat uit de boom kijken* — eerst afwachten."
+        },
+        {
+          "speaker": "You",
+          "nl": "Verstandig. En hoe gaat het verder met jou?",
+          "en": "Wise. And how are you doing otherwise?"
+        },
+        {
+          "speaker": "Sanne",
+          "nl": "Goed hoor. Moe, maar goed. Nog even en die kamer is klaar.",
+          "en": "Fine, really. Tired, but fine. Not long now and that room will be finished."
+        }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Wat speelde er in Utrecht?",
+      "questions": [
+        {
+          "q": "Waarom belt Sanne?",
+          "options": [
+            "Ze wil advies over vloeren",
+            "Ze zoekt een huis in Amsterdam",
+            "Ze wil klagen over de trein"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Wat bleek de echte reden van de aannemer?",
+          "options": [
+            "Hij was ziek",
+            "Hij had de klus al aan iemand anders beloofd",
+            "Hij vond hout te duur"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Wat doet Sanne de volgende keer anders?",
+          "options": [
+            "Meteen ja zeggen",
+            "Zelf de vloer leggen",
+            "Eerst afwachten"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Kies twee uitdrukkingen van vandaag en schrijf over een situatie uit je eigen leven waarin ze passen. Gebruik ze **vervoegd** in een hele zin, niet in de infinitief. Minstens drie zinnen, in het Nederlands.",
+      "starters": [
+        "Toen ik hier net woonde, …",
+        "Daar had ik echt geen kaas van gegeten.",
+        "Uiteindelijk heb ik de knoop doorgehakt."
+      ],
+      "minSentences": 3
+    }
+  ]
+}

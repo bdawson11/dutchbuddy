@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "day-125",
+  "day": 125,
+  "module": "M18",
+  "unit": "U18",
+  "kind": "review",
+  "title": "Het overleg loopt — en jij doet mee",
+  "emoji": "🗣️",
+  "level": "C1",
+  "durationMin": [20, 35],
+  "summary": "Week 18 review and the last immersion: a real project meeting with Youssef, Emma and Bram, at professional speed, with You carrying a point",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Week 18, op een rij",
+      "body": "Deze week ging over Nederlands op het werk: vergaderen, solliciteren, onderhandelen, en het nieuws en snelle spraak *verstaan* zonder ze na te doen. Vandaag zit je in een echt overleg — drie punten, weinig tijd, en jij hebt iets te zeggen. **Blijf in het Nederlands.**",
+      "table": {
+        "headers": ["Deze week", "Wat je nu kunt"],
+        "rows": [
+          ["het werkoverleg", "inhaken, terugkoppelen, beleefd oneens zijn"],
+          ["het sollicitatiegesprek", "STAR, bescheiden zelflof, zelf vragen stellen"],
+          ["onderhandelen", "een voorstel doen, *daar valt over te praten*"],
+          ["nieuws-Nederlands", "koppen, passief en *aldus* herkennen"],
+          ["snelle spraak en Vlaams", "*'k weet 't niet* verstaan, Vlaams herkennen"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Opwarmen voor het overleg — tik om te horen",
+      "items": [
+        { "nl": "Mag ik daar even op inhaken?", "en": "May I jump in on that?", "speak": "Mag ik daar even op inhaken?" },
+        { "nl": "Ik koppel vanmiddag terug.", "en": "I'll report back this afternoon.", "speak": "Ik koppel vanmiddag terug." },
+        { "nl": "Ik zie het net iets anders.", "en": "I see it slightly differently.", "speak": "Ik zie het net iets anders." },
+        { "nl": "Daar valt over te praten.", "en": "That's negotiable.", "speak": "Daar valt over te praten." },
+        { "nl": "Zullen we dit punt parkeren?", "en": "Shall we park this point?", "speak": "Zullen we dit punt parkeren?" },
+        { "nl": "Zullen we afronden? We zitten aan de tijd.", "en": "Shall we wrap up? We're out of time.", "speak": "Zullen we afronden? We zitten aan de tijd." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je schrijft het besluit in de notulen en de klant leest mee. Welke zin hoort daar?",
+      "options": ["We doen 't gewoon in twee delen, prima toch.", "De oplevering wordt in twee delen gedaan; deel één volgt donderdag.", "Nou ja, we zien wel hoe het loopt."],
+      "correct": 1,
+      "explain": "Notulen zijn geschreven register: passief, geen partikels, geen samentrekkingen. Optie 1 en 3 zijn prima gesproken Nederlands, maar in een verslag lezen ze als een appje."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Tuesday morning, project meeting at Emma's agency. Youssef chairs, Bram joins from Rotterdam, and the opening of his building is suddenly close.",
+      "lines": [
+        { "speaker": "Youssef", "nl": "We beginnen. Drie punten, een half uur. Bram belt mee vanuit Rotterdam.", "en": "Let's start. Three items, half an hour. Bram is dialling in from Rotterdam." },
+        { "speaker": "Youssef", "nl": "Punt één: de oplevering. Emma?", "en": "Item one: the delivery. Emma?" },
+        { "speaker": "Emma", "nl": "De teksten zijn af, de beelden nog niet. Volgende week wordt alles opgeleverd.", "en": "The copy is done, the visuals aren't yet. Everything gets delivered next week.", "spotlight": "Passief in de praktijk: *wordt opgeleverd* — wie het doet, doet er even niet toe." },
+        { "speaker": "Bram", "nl": "Volgende week wordt krap. Onze opening staat vast op de vijftiende.", "en": "Next week will be tight. Our opening is fixed for the fifteenth." },
+        { "speaker": "You", "nl": "Mag ik daar even op inhaken? Als we de beelden in twee delen aanleveren, halen we de vijftiende wel.", "en": "May I jump in there? If we deliver the visuals in two parts, we will make the fifteenth.", "spotlight": "Inhaken plus een voorwaardelijke bijzin: je onderbreekt én je lost iets op." },
+        { "speaker": "Youssef", "nl": "Concreet: wat betekent dat voor de planning?", "en": "Concretely: what does that mean for the planning?" },
+        { "speaker": "You", "nl": "Deel één donderdag, deel twee maandag. Dan kan Bram vrijdag alvast laten drukken.", "en": "Part one Thursday, part two Monday. Then Bram can already have things printed on Friday." },
+        { "speaker": "Bram", "nl": "Daar valt over te praten. Als ik donderdag de eerste set heb, red ik het.", "en": "That's negotiable. If I have the first set on Thursday, I'll manage.", "spotlight": "Bram onderhandelt zoals Bram praat: kort, met een voorwaarde erachteraan." },
+        { "speaker": "Emma", "nl": "Dan spreken we dat zo af. Ik koppel vanmiddag terug naar de klant.", "en": "Then we'll agree it like that. I'll report back to the client this afternoon." },
+        { "speaker": "Youssef", "nl": "Genoteerd, actiepunt voor Emma. Rondvraag? Nee? Dan ronden we af — dank jullie wel.", "en": "Noted, action item for Emma. Any other business? No? Then let's wrap up — thank you all.", "spotlight": "Rondvraag, afronden, klaar. Een Nederlands overleg eindigt op de minuut." },
+        { "speaker": "Emma", "nl": "Zeg, ga je zaterdag mee naar Utrecht? Sanne wil ons nog een keer zien voordat de baby er is.", "en": "Say, are you coming to Utrecht on Saturday? Sanne wants to see us once more before the baby arrives." },
+        { "speaker": "You", "nl": "Daar ben ik bij. Even mijn agenda vrijmaken.", "en": "I'm in. Let me just clear my diary." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Wat is er besloten?",
+      "questions": [
+        { "q": "Waarom is volgende week krap voor Bram?", "options": ["Hij is op vakantie", "De opening staat vast op de vijftiende", "De teksten zijn nog niet af"], "correct": 1 },
+        { "q": "Wat stelt You voor?", "options": ["De beelden in twee delen aanleveren", "De opening uitstellen", "Een extra overleg inplannen"], "correct": 0 },
+        { "q": "Wat wordt het actiepunt van Emma?", "options": ["De beelden maken", "Vrijdag laten drukken", "Vanmiddag terugkoppelen naar de klant"], "correct": 2 }
+      ]
+    },
+    {
+      "type": "typed",
+      "prompt": "Jij zit het overleg voor, de tijd is om en het laatste punt is besproken. Sluit af.",
+      "answers": ["Zullen we afronden?", "Zullen we het hierbij laten?", "Dan ronden we af.", "Laten we afronden."],
+      "hint": "Het werkwoord is *afronden*.",
+      "explain": "*Zullen we afronden?* — als vraag verpakt, maar iedereen weet dat het overleg voorbij is. Daarna volgt hooguit nog de rondvraag."
+    },
+    {
+      "type": "journal",
+      "prompt": "Jij zit maandag een overleg voor. Schrijf je opening: hoeveel punten er zijn, hoeveel tijd je hebt, en wat het eerste punt is. Voeg één zin toe waarin je iemand beleefd tegenspreekt. In het Nederlands, minstens drie zinnen.",
+      "starters": ["We hebben vandaag … punten en …", "Het eerste punt is …", "Ik zie het net iets anders, want …", "Zullen we afspreken dat …"],
+      "minSentences": 3
+    }
+  ]
+}

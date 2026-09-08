@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "day-123",
+  "day": 123,
+  "module": "M18",
+  "unit": "U18",
+  "kind": "lesson",
+  "title": "Nieuws-Nederlands — kort, dicht, passief",
+  "emoji": "📰",
+  "level": "C1",
+  "durationMin": [20, 35],
+  "summary": "Exposure only: recognising the compressed news register — nominalisation, passives, aldus, and headline grammar — and turning it back into ordinary Dutch",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Waarom het nieuws zo klinkt",
+      "body": "Nieuws-Nederlands is samengeperst: zo veel mogelijk informatie in zo min mogelijk woorden. Daarom verdwijnt de dader (**passief**), wordt een werkwoord een zelfstandig naamwoord (**nominalisatie**) en gaat het deelwoord helemaal naar achteren. Vandaag hoef je dit **niet zelf te maken** — je moet het alleen kunnen herkennen en terugvertalen naar gewoon Nederlands.",
+      "table": {
+        "headers": ["Spreektaal", "Nieuwstaal"],
+        "rows": [
+          ["Ze hebben de brug gerepareerd.", "De brug is gerepareerd."],
+          ["De gemeente gaat kijken hoeveel lawaai er is.", "Er komt een onderzoek naar de geluidsoverlast."],
+          ["Hij zei dat het meevalt.", "Het valt mee, aldus de woordvoerder."]
+        ]
+      },
+      "callout": "Herkennen is het doel. Zo praat niemand aan de keukentafel — en dat hoort ook niet."
+    },
+    {
+      "type": "card",
+      "title": "Koptaal: alles wat weggelaten mag worden",
+      "body": "In een kop verdwijnen lidwoorden en hulpwerkwoorden. Wat overblijft is een deelwoord achteraan, of helemaal geen werkwoord. Lees een kop daarom **van achteren naar voren**: zoek eerst het deelwoord, dan het onderwerp.",
+      "table": {
+        "headers": ["Kop", "Wat er is weggelaten"],
+        "rows": [
+          ["*Fietsenstalling Vlietstraat maandag in gebruik genomen*", "*de* en *is* — het hulpwerkwoord van het passief valt weg"],
+          ["*Gemeente wil huren twee jaar bevriezen*", "*de* voor *gemeente*; tegenwoordige tijd voor een plan"],
+          ["*Onderzoek naar geluidsoverlast Kastanjepark gestart*", "nominalisatie (*onderzoek*) plus een deelwoord aan het eind"],
+          ["*Meer meldingen van fietsdiefstal in het centrum*", "helemaal geen werkwoord — alleen het feit"]
+        ]
+      }
+    },
+    {
+      "type": "chips",
+      "title": "Signaalwoorden van het nieuws — tik om te horen",
+      "items": [
+        { "nl": "De kosten stijgen niet, aldus een woordvoerder.", "en": "Costs will not rise, according to a spokesperson.", "speak": "De kosten stijgen niet, aldus een woordvoerder." },
+        { "nl": "Naar verluidt komt er volgend jaar een nieuwe brug.", "en": "Reportedly a new bridge is coming next year.", "speak": "Naar verluidt komt er volgend jaar een nieuwe brug." },
+        { "nl": "Volgens ingewijden is het besluit al genomen.", "en": "According to insiders the decision has already been taken.", "speak": "Volgens ingewijden is het besluit al genomen." },
+        { "nl": "Naar verwachting duurt het werk tot mei.", "en": "The work is expected to last until May.", "speak": "Naar verwachting duurt het werk tot mei." },
+        { "nl": "In reactie hierop is een onderzoek aangekondigd.", "en": "In response, an investigation has been announced.", "speak": "In reactie hierop is een onderzoek aangekondigd." },
+        { "nl": "Eerder deze week werd de stalling geopend.", "en": "Earlier this week the bike park was opened.", "speak": "Eerder deze week werd de stalling geopend." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "*Het valt mee, aldus de wethouder.* Wat betekent dat?",
+      "options": ["De wethouder zegt dat het meevalt.", "De wethouder hoorde dat het meevalt.", "De wethouder is het ermee eens."],
+      "correct": 0,
+      "explain": "*Aldus* + naam betekent 'zo zei X'. Je vindt het uitsluitend in nieuws en verslagen; in een gesprek zeg je gewoon *volgens hem* of *hij zei dat*."
+    },
+    {
+      "type": "typed",
+      "prompt": "Zet deze kop om in een gewone Nederlandse zin: *Fietsenstalling Vlietstraat maandag in gebruik genomen*.",
+      "answers": ["De fietsenstalling in de Vlietstraat is maandag in gebruik genomen.", "De fietsenstalling aan de Vlietstraat is maandag in gebruik genomen.", "Ze hebben de fietsenstalling in de Vlietstraat maandag in gebruik genomen."],
+      "hint": "Zet het lidwoord en het hulpwerkwoord terug: *de …* en *is …*.",
+      "explain": "Een kop is een zin waar *de* en *is* uit geknipt zijn. Zet je ze terug, dan staat er een doodgewone passieve zin — of, nog gewoner, een actieve met *ze*."
+    },
+    {
+      "type": "card",
+      "title": "Het bulletin",
+      "body": "Lees hardop, en let vooral op wat er **niet** staat: geen *ik*, geen *wij*, nauwelijks een dader. **Verbouwing station uitgesteld** — *De verbouwing van station Vlietzijde wordt met een half jaar uitgesteld. Volgens de aannemer is de vertraging ontstaan door een tekort aan materiaal. Reizigers moeten daardoor langer omrijden. 'We betreuren de overlast, maar veiligheid gaat voor', aldus een woordvoerder van de gemeente. Naar verwachting stijgen de kosten niet.*"
+    },
+    {
+      "type": "comprehension",
+      "title": "Wat stond er nu eigenlijk?",
+      "questions": [
+        { "q": "Waarom is de verbouwing uitgesteld?", "options": ["Door een staking", "Door een tekort aan materiaal", "Door geldgebrek"], "correct": 1 },
+        { "q": "Wat gebeurt er naar verwachting met de kosten?", "options": ["Die stijgen niet", "Die verdubbelen", "Die dalen"], "correct": 0 },
+        { "q": "Wie zegt dat veiligheid voorgaat?", "options": ["De reizigers", "De aannemer", "Een woordvoerder van de gemeente"], "correct": 2 }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Welke zin komt uit een nieuwsbericht?",
+      "options": ["Ze gaan eens kijken wat al dat lawaai bij het park nou is.", "Er komt een onderzoek naar de overlast rond het park.", "Ik vind dat er eindelijk iets aan dat lawaai moet gebeuren."],
+      "correct": 1,
+      "explain": "*Er komt een onderzoek naar …* is nominalisatie in het wild: het werkwoord *onderzoeken* is een ding geworden, en niemand hoeft te zeggen wie het doet. De andere twee hebben een spreker met een mening — dat mag het nieuws juist niet hebben."
+    },
+    {
+      "type": "contrast",
+      "title": "Nieuws erin, spreektaal eruit",
+      "pairs": [
+        { "left": "Het besluit is uitgesteld tot het najaar.", "right": "Ze beslissen het pas in het najaar.", "note": "Nominalisatie (*het besluit*) plus passief wordt in spreektaal gewoon *ze* met een werkwoord." },
+        { "left": "Naar aanleiding van de klachten wordt het plan herzien.", "right": "Omdat er klachten waren, gaan ze het plan aanpassen.", "note": "*Naar aanleiding van* is schrijftaal; aan tafel zeg je gewoon *omdat*." },
+        { "left": "De opening vindt in mei plaats.", "right": "In mei gaat het open.", "note": "*Plaatsvinden* is nieuws, *opengaan* is de keukentafel — dezelfde mei." }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Vertel het bulletin na alsof je het aan een vriend vertelt: geen passief, geen *aldus*, geen nominalisaties — gewoon *ze* en een werkwoord. Voeg één zin toe met je eigen mening erover. In het Nederlands, minstens drie zinnen.",
+      "starters": ["Ze hebben besloten dat …", "Blijkbaar …", "Ik vind het …"],
+      "minSentences": 3
+    }
+  ]
+}

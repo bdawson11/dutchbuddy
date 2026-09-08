@@ -65,8 +65,8 @@
       "type": "contrast",
       "title": "Van spreektaal naar brieftaal",
       "pairs": [
-        { "left": "Ik ben echt goed in plannen.", "right": "In mijn huidige functie ben ik verantwoordelijk voor de planning.", "note": "Laat het werk je kwaliteit bewijzen in plaats van hem zelf op te noemen." },
-        { "left": "Ik heb veel met klanten gewerkt.", "right": "Ik beschik over ruime ervaring met klantcontact.", "note": "*veel gewerkt met* → *ruime ervaring met*: naamwoordstijl van gisteren." },
+        { "left": "Ik ben echt goed in plannen.", "right": "In mijn huidige functie ben ik verantwoordelijk voor de planning.", "note": "Laat je werk je kwaliteit bewijzen; noem die kwaliteit niet zelf." },
+        { "left": "Ik heb veel met klanten gewerkt.", "right": "Ik beschik over ruime ervaring met klantcontact.", "note": "*veel gewerkt met* → *ruime ervaring met*: de naamwoordstijl van deze week." },
         { "left": "Ik denk dat ik het wel kan.", "right": "Ik ben ervan overtuigd dat ik een waardevolle bijdrage kan leveren.", "note": "Twijfel eruit, maat erin: zeker, maar niet luid." }
       ]
     },
@@ -119,7 +119,7 @@
     },
     {
       "type": "journal",
-      "prompt": "Schrijf de eerste twee zinnen van een sollicitatiebrief voor een baan die je écht zou willen, en daarna één gehedgede claim. Gebruik *met belangstelling*, *verantwoordelijk voor* of *ervaring met*, plus *ik ben van mening dat …*. In het Nederlands, minstens drie zinnen.",
+      "prompt": "Schrijf de eerste twee zinnen van een sollicitatiebrief voor een baan die je écht zou willen, en daarna één claim met de rem erop. Gebruik *met belangstelling*, *verantwoordelijk voor* of *ervaring met*, plus *ik ben van mening dat …*. In het Nederlands, minstens drie zinnen.",
       "starters": ["Met belangstelling las ik uw vacature voor …", "In mijn huidige functie ben ik verantwoordelijk voor …", "Ik ben van mening dat …"],
       "minSentences": 3
     }

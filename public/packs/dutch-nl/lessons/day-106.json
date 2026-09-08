@@ -68,6 +68,8 @@
       "prompt": "Schuif in elkaar: *Ik hoorde het. + Sanne komt zaterdag niet, want ze moet werken.* Begin met: Ik hoorde dat …",
       "answers": [
         "Ik hoorde dat Sanne zaterdag niet komt omdat ze moet werken",
+        "Ik hoorde dat Sanne zaterdag niet kwam omdat ze moest werken",
+        "Ik hoorde dat Sanne zaterdag niet kwam omdat ze werken moest",
         "Ik hoorde dat Sanne zaterdag niet komt omdat ze werken moet",
         "Ik hoorde dat Sanne zaterdag niet komt, omdat ze moet werken",
         "dat Sanne zaterdag niet komt omdat ze moet werken"
@@ -107,7 +109,7 @@
         { "speaker": "Emma", "nl": "Dat niemand me verteld heeft wat de functie precies inhoudt.", "en": "That nobody's told me what the job actually involves.", "spotlight": "Een bijzin als antwoord: *verteld heeft* achterin, *inhoudt* achterin." },
         { "speaker": "You", "nl": "Heb je gevraagd of er een functieomschrijving is?", "en": "Have you asked whether there's a job description?" },
         { "speaker": "Emma", "nl": "Ja, en toen zeiden ze dat die er komt zodra het rond is.", "en": "Yes, and then they said it's coming as soon as it's settled." },
-        { "speaker": "You", "nl": "Kijk, dat is precies wat ik zou vragen voordat ik ja zei.", "en": "Look, that's exactly what I'd ask before saying yes." },
+        { "speaker": "You", "nl": "Dat is precies wat ik zou vragen voordat ik ja zeg.", "en": "That's exactly what I'd ask before saying yes." },
         { "speaker": "Emma", "nl": "Snap ik. Maar ik ben bang dat ze denken dat ik het niet durf.", "en": "I get it. But I'm afraid they'll think I don't dare.", "spotlight": "Drie lagen diep: *bang dat ze denken dat ik het niet durf*." },
         { "speaker": "You", "nl": "Of dat je weet wat je waard bent.", "en": "Or that you know what you're worth." },
         { "speaker": "Emma", "nl": "Nou. Dat had ik zelf ook kunnen bedenken, hè?", "en": "Well. I could've come up with that myself, right?" },

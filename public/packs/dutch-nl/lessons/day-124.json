@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "day-124",
+  "day": 124,
+  "module": "M18",
+  "unit": "U18",
+  "kind": "lesson",
+  "title": "'k Weet 't niet — Nederlands op snelheid",
+  "emoji": "👂",
+  "level": "C1",
+  "durationMin": [20, 35],
+  "summary": "Exposure only: hearing through the reductions of fast Dutch speech, plus one clearly labelled Flemish passage for ear-awareness",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Waarom je ineens niets meer verstaat",
+      "body": "Je grammatica is prima; het probleem is de **snelheid**. In gewoon tempo krimpen de onbeklemtoonde woordjes — *ik*, *het*, *er*, *even* — tot een klank, en plakken ze aan hun buurman vast. Je schrijft dit nooit zo op; je moet het alleen door de mist heen kunnen horen.",
+      "table": {
+        "headers": ["Zoals je het schrijft", "Zoals het klinkt"],
+        "rows": [
+          ["ik weet het niet", "'k weet 't niet"],
+          ["dat is goed", "da's goed"],
+          ["even wachten", "effe wachten"],
+          ["natuurlijk niet", "tuurlijk niet"],
+          ["er is niets aan de hand", "d'r is niks aan de hand"],
+          ["heb je dat gezien?", "hebbie dat gezien?"]
+        ]
+      },
+      "callout": "*Hebbie* en *watte* schrijf je niet op — maar de halve Randstad zegt ze de hele dag."
+    },
+    {
+      "type": "chips",
+      "title": "Zo klinkt het echt — tik om te horen",
+      "items": [
+        { "nl": "'k Weet 't even niet, hoor.", "en": "I don't know right now.", "speak": "'k Weet 't even niet, hoor." },
+        { "nl": "Da's goed, doe maar.", "en": "That's fine, go ahead.", "speak": "Da's goed, doe maar." },
+        { "nl": "Kun je 't effe herhalen?", "en": "Could you just repeat it?", "speak": "Kun je 't effe herhalen?" },
+        { "nl": "Tuurlijk joh, geen probleem.", "en": "Of course, no problem.", "speak": "Tuurlijk joh, geen probleem." },
+        { "nl": "Hoe is-ie?", "en": "How's it going?", "speak": "Hoe is-ie?" },
+        { "nl": "Watte? Sorry, ik verstond je niet.", "en": "What? Sorry, I didn't catch that.", "speak": "Watte? Sorry, ik verstond je niet." }
+      ]
+    },
+    {
+      "type": "contrast",
+      "title": "Volledig naast gereduceerd",
+      "pairs": [
+        { "left": "Ik heb het niet gezien.", "right": "'k Heb 't niet gezien.", "note": "*Ik* wordt een losse k, *het* een losse t: de onbeklemtoonde woordjes verdwijnen bijna helemaal." },
+        { "left": "Wat zeg je?", "right": "Watte?", "note": "Kort en direct. Prima met vrienden, kortaf tegen je leidinggevende." },
+        { "left": "Zullen we even gaan zitten?", "right": "Zulle we effe gaan zitten?", "note": "*Even* wordt *effe*, en *zullen we* plakt tot één klomp aan elkaar." },
+        { "left": "Er zijn er nog twee.", "right": "D'r zijn d'r nog twee.", "note": "Allebei de *er*-jes worden *d'r* — het gestapelde *er* van week 16, nu op spreeksnelheid." }
+      ]
+    },
+    {
+      "type": "dictation",
+      "prompt": "Luister naar de snelle vorm en schrijf op wat er gevraagd wordt. De volledige spelling mag ook.",
+      "speak": "Kun je 't effe herhalen?",
+      "answers": ["Kun je 't effe herhalen?", "Kun je het even herhalen?", "Kun je het effe herhalen?", "Kun je 't even herhalen?"]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je verstaat je leidinggevende niet. Welke vraag past?",
+      "options": ["Watte?", "Sorry, wat zei u?", "Hè?"],
+      "correct": 1,
+      "explain": "*Watte?* en *hè?* zijn onder vrienden volstrekt normaal, maar op je werk klinken ze kortaf. *Sorry, wat zei u?* is altijd veilig — verstaan is nooit onbeleefd, alleen de vorm kan dat zijn."
+    },
+    {
+      "type": "dialogue",
+      "scene": "Late in a café. Emma and Daan talk at full speed about his band's support slot; you catch more than you expected.",
+      "lines": [
+        { "speaker": "Daan", "nl": "Hoe is-ie? Alles goed?", "en": "How's it going? All good?", "spotlight": "*Hoe is-ie?* — de snelste begroeting die er is." },
+        { "speaker": "You", "nl": "Ja hoor, prima. En jullie?", "en": "Yeah, fine. And you two?" },
+        { "speaker": "Daan", "nl": "Nou, 'k heb 't druk gehad. We hebben er twee nieuwe nummers bij.", "en": "Well, I've been busy. We've got two new songs.", "spotlight": "*'k heb 't* — twee gereduceerde woordjes achter elkaar." },
+        { "speaker": "Emma", "nl": "En da's nog niet alles. Vertel 'ns over dat optreden.", "en": "And that's not all. Tell them about that gig." },
+        { "speaker": "Daan", "nl": "Ach, valt wel mee. We staan in het voorprogramma, meer niet.", "en": "Ah, it's nothing much. We're the support act, that's all." },
+        { "speaker": "You", "nl": "Watte? Dat is toch juist geweldig?", "en": "What? But that's brilliant, surely?" },
+        { "speaker": "Daan", "nl": "Tuurlijk is 't leuk. Maar 'k slaap er slecht van, eerlijk gezegd.", "en": "Of course it's nice. But it's keeping me awake, honestly." },
+        { "speaker": "Emma", "nl": "Hij doet net of 't niks is. D'r komen driehonderd man, hoor.", "en": "He acts like it's nothing. There'll be three hundred people, you know.", "spotlight": "*D'r* is gewoon *er*, en *hoor* haalt de scherpte er weer af." },
+        { "speaker": "You", "nl": "Zenuwachtig?", "en": "Nervous?" },
+        { "speaker": "Daan", "nl": "Een beetje. Maar goed, we zien 't wel.", "en": "A bit. Ah well, we'll see." },
+        { "speaker": "You", "nl": "Weet je wat het gekke is? Ik versta jullie tegenwoordig gewoon.", "en": "You know what's odd? These days I just understand you two." },
+        { "speaker": "Daan", "nl": "Zie je wel. Dan ben je d'r bijna.", "en": "See. Then you're nearly there." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "Kwam het door de mist heen?",
+      "questions": [
+        { "q": "Wat heeft de band van Daan gekregen?", "options": ["Een plek in het voorprogramma", "Een eigen tour", "Een platencontract"], "correct": 0 },
+        { "q": "Hoe voelt Daan zich erover?", "options": ["Volkomen rustig", "Blij, maar hij slaapt er slecht van", "Hij heeft er geen zin in"], "correct": 1 },
+        { "q": "Wat betekent *d'r komen driehonderd man*?", "options": ["Er komen driehonderd mensen", "Ze zoeken driehonderd mensen", "Er waren driehonderd mensen"], "correct": 0 }
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Eén stap naar het zuiden: Vlaams",
+      "body": "Hetzelfde taalgebied, een ander land, een ander gevoel. In **Vlaanderen** klinkt het Nederlands anders: andere woorden, een andere aanspreekvorm, een andere melodie. Belgisch Nederlands is een volwaardige standaard — dit is dus geen 'fout' Nederlands, maar wél een ander land. Voor jou geldt: **herkennen ja, overnemen nee.** Jij blijft gewoon Noord-Nederlands praten.",
+      "table": {
+        "headers": ["Vlaams", "Nederlands (NL)"],
+        "rows": [
+          ["gij / ge — you", "jij / je"],
+          ["goesting — desire, appetite", "zin (*ik heb er zin in*)"],
+          ["hesp — ham", "ham"],
+          ["plezant — fun", "leuk"],
+          ["seffens — in a moment", "zo meteen"],
+          ["amai — wow", "tjonge, joh"],
+          ["content — pleased", "blij, tevreden"]
+        ]
+      },
+      "callout": "*Amai, hebt ge daar goesting in?* — vlekkeloos Vlaams. In Nederland: *Tjonge, heb je daar zin in?*"
+    },
+    {
+      "type": "mcq",
+      "prompt": "In een Vlaamse podcast hoor je: *Amai, ik heb daar echt goesting in.* Wat zegt die persoon?",
+      "options": ["Ik heb daar echt zin in.", "Ik heb daar echt geen tijd voor.", "Dat heb ik al gedaan."],
+      "correct": 0,
+      "explain": "*Goesting* is *zin*, en *amai* is een uitroep van verbazing of enthousiasme. Herkennen is genoeg: in Nederland zeg je gewoon *ik heb er zin in* — *goesting* klinkt hier meteen als een Belg."
+    },
+    {
+      "type": "journal",
+      "prompt": "Luister vandaag één keer bewust naar snel Nederlands — op straat, in een podcast, in de trein. Schrijf op welke gereduceerde vormen je hoorde en wat de volledige vorm is. In het Nederlands, minstens drie zinnen.",
+      "starters": ["Ik hoorde …, en dat is eigenlijk …", "Het snelst ging het toen …", "Wat ik nog steeds moeilijk versta, is …"],
+      "minSentences": 3
+    }
+  ]
+}

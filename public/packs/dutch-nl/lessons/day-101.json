@@ -30,7 +30,7 @@
     {
       "type": "card",
       "title": "Aanhef en groet — de vaste paren",
-      "body": "**Geachte heer De Vries,** — *geachte* plus *heer* of *mevrouw* plus de **achternaam**, nooit de voornaam. Ken je de naam niet, dan schrijf je **Geachte heer/mevrouw,**. Voor iemand die je wél kent maar zakelijk aanschrijft, is **Beste Youssef,** prima. Sluit af met **Met vriendelijke groet,** — dat kan bijna altijd. **Hoogachtend** bewaar je voor het zware werk: een klacht, een bezwaar, een advocaat.",
+      "body": "**Geachte heer De Vries,** — *geachte* plus *heer* of *mevrouw* plus de **achternaam**, nooit de voornaam. Ken je de naam niet, dan schrijf je **Geachte heer/mevrouw** — met de schuine streep erin. Voor iemand die je wél kent maar zakelijk aanschrijft, is **Beste Youssef,** prima. Sluit af met **Met vriendelijke groet,** — dat kan bijna altijd. **Hoogachtend** bewaar je voor het zware werk: een klacht, een bezwaar, een advocaat.",
       "table": {
         "headers": ["Aanhef", "Bijpassende groet"],
         "rows": [
@@ -64,7 +64,7 @@
       "type": "contrast",
       "title": "Het appje en de mail",
       "pairs": [
-        { "left": "Hoi! Kun je me even de factuur sturen?", "right": "Geachte heer Bakker, zou u mij de factuur kunnen toesturen?", "note": "Aanhef erbij, *je* → *u*, partikel *even* eruit." },
+        { "left": "Hoi! Kun je me even de factuur sturen?", "right": "Zou u mij de factuur kunnen toesturen?", "note": "*je* → *u*, partikel *even* eruit — en er komt een aanhef boven." },
         { "left": "Ik wil dinsdag langskomen.", "right": "Zou het mogelijk zijn dinsdag langs te komen?", "note": "Een wens wordt een vraag: indirect is beleefd." },
         { "left": "Laat maar weten, doei!", "right": "Ik hoor graag van u. Met vriendelijke groet,", "note": "De afsluiting is een vaste formule, geen improvisatie." }
       ]
@@ -81,7 +81,7 @@
       "prompt": "Welk verzoek is het beleefdst?",
       "options": ["Ik wil graag een afspraak.", "Kunt u een afspraak maken?", "Zou het mogelijk zijn een afspraak te maken?"],
       "correct": 2,
-      "explain": "Hoe indirecter, hoe beleefder: *ik wil* staat onder *kunt u*, en dat staat onder *zou het mogelijk zijn … te …*. Alle drie zijn correct, maar de derde geeft de ander de meeste ruimte om nee te zeggen."
+      "explain": "Hoe indirecter, hoe beleefder: *ik wil* is directer dan *kunt u*, en *kunt u* is weer directer dan *zou het mogelijk zijn … te …*. Alle drie zijn correct, maar de derde geeft de ander de meeste ruimte om nee te zeggen."
     },
     {
       "type": "dictation",

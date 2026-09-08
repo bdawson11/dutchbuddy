@@ -44,7 +44,7 @@
       "pairs": [
         { "left": "Nadat wij uw brief hebben ontvangen, nemen wij contact met u op.", "right": "Na ontvangst van uw brief nemen wij contact met u op.", "note": "De hele bijzin krimpt tot *na ontvangst van*." },
         { "left": "Als u aankomt, meldt u zich bij de balie.", "right": "Bij aankomst meldt u zich bij de balie.", "note": "*als u aankomt* → *bij aankomst*: de persoon verdwijnt uit de zin." },
-        { "left": "U vraagt om uitstel, en dat hebben wij gelezen.", "right": "Uw verzoek tot uitstel is in behandeling genomen.", "note": "*verzoeken* → *het verzoek tot* + naamwoord, en de rest wordt passief." }
+        { "left": "U hebt om uitstel gevraagd en wij kijken ernaar.", "right": "Uw verzoek tot uitstel is in behandeling genomen.", "note": "*verzoeken* → *het verzoek tot* + naamwoord, en de rest wordt passief." }
       ]
     },
     {
@@ -52,7 +52,7 @@
       "prompt": "*Nadat de vergunning is verleend, mag u beginnen.* Welke zin zegt hetzelfde in naamwoordstijl?",
       "options": ["Na verlening van de vergunning mag u beginnen.", "Na het verlenen de vergunning mag u beginnen.", "Na dat de vergunning verleend mag u beginnen."],
       "correct": 0,
-      "explain": "*verlenen* → *de verlening*, en met *van* haak je eraan vast wat verleend wordt. In optie 2 ontbreekt *van*; optie 3 is geen Nederlands."
+      "explain": "*verlenen* → *de verlening*, en met *van* haak je eraan vast wat verleend wordt. In de tweede zin ontbreekt *van*; de derde is geen Nederlands."
     },
     {
       "type": "card",
@@ -101,7 +101,7 @@
     },
     {
       "type": "journal",
-      "prompt": "Verzin een instantie (*Bureau Fietsregistratie*, bijvoorbeeld) en schrijf drie zinnen uit haar brief. Gebruik minstens twee naamwoordstijl-formules: *na ontvangst van*, *bij aankomst*, *het verzoek tot*, *na betaling van*. In het Nederlands.",
+      "prompt": "Verzin een instantie (*Bureau Fietsregistratie*, bijvoorbeeld) en schrijf drie zinnen uit een brief van dat bureau. Gebruik minstens twee naamwoordstijl-formules: *na ontvangst van*, *bij aankomst*, *het verzoek tot*, *na betaling van*. In het Nederlands.",
       "starters": ["Na ontvangst van …", "Bij aankomst …", "Het verzoek tot … wordt …"],
       "minSentences": 3
     }

@@ -42,7 +42,7 @@
       "title": "Informeel → formeel: schuif eens op",
       "pairs": [
         { "left": "Kun je me morgen even laten weten of het lukt?", "right": "Kunt u mij morgen laten weten of het mogelijk is?", "note": "*je* → *u*, partikel *even* eruit, *lukken* → *mogelijk zijn*." },
-        { "left": "We hebben je mail binnen.", "right": "Uw bericht is in goede orde ontvangen.", "note": "Formeel schrijft passief en vermijdt *wij hebben*." },
+        { "left": "We hebben je mail binnen.", "right": "Uw bericht is in goede orde ontvangen.", "note": "Formeel kiest passief en vermijdt het persoonlijke *we hebben*." },
         { "left": "Ik kom er zo op terug, hoor.", "right": "Ik kom hier zo spoedig mogelijk op terug.", "note": "*hoor* verdwijnt; *zo* wordt *zo spoedig mogelijk*." }
       ]
     },
@@ -56,26 +56,26 @@
     {
       "type": "card",
       "title": "Van *jij* naar *u*",
-      "body": "*U* is niet alleen een ander woord — er verschuift een klein systeem mee. Het werkwoord krijgt de **hij/zij-vorm**: *u kunt, u wilt, u heeft* (of *u hebt*, allebei goed). *jouw* wordt **uw**, *jij/je* als voorwerp wordt **u**, en *je* in een wederkerend werkwoord wordt **zich**. Note: *u* takes the third-person verb form, but the verb *zijn* keeps **u bent** — never *u is*.",
+      "body": "*U* is niet alleen een ander woord — er verschuift een klein systeem mee. Het werkwoord krijgt dezelfde vorm als bij *jij*: **stam + t** (*u werkt, u kunt, u wilt, u bent*). Alleen bij *hebben* mag je kiezen: *u hebt* en *u heeft* zijn allebei goed. Verder wordt *jouw* **uw**, *jij/je* als voorwerp **u**, en *je* bij een wederkerend werkwoord **zich**. Careful: the verb *zijn* stays **u bent** — never *u is*.",
       "table": {
         "headers": ["Informeel", "Met u"],
         "rows": [
           ["je kunt", "u kunt"],
-          ["je hebt", "u heeft / u hebt"],
+          ["je hebt", "u hebt / u heeft"],
           ["je bent", "u bent"],
           ["jouw adres", "uw adres"],
           ["Ik bel je terug.", "Ik bel u terug."],
           ["Voel je je beter?", "Voelt u zich beter?"]
         ]
       },
-      "callout": "*U bent*, nooit *u is*."
+      "callout": "*U bent*, nooit *u is*. En in verzorgd schrijven: *u kunt*, *u wilt*, *u zult*."
     },
     {
       "type": "typed",
       "prompt": "Zet om naar de u-vorm: *Heb je jouw formulier al ingevuld?*",
       "answers": ["Heeft u uw formulier al ingevuld?", "Hebt u uw formulier al ingevuld?"],
       "hint": "*heb je* → *heeft u* (of *hebt u*), *jouw* → *uw*.",
-      "explain": "*Heeft u uw formulier al ingevuld?* Bij *u* gebruik je de hij/zij-vorm van het werkwoord; *hebt u* mag ook. En *jouw* wordt *uw*."
+      "explain": "*Heeft u uw formulier al ingevuld?* Bij *hebben* mogen *heeft u* en *hebt u* allebei. En *jouw* wordt altijd *uw*."
     },
     {
       "type": "mcq",

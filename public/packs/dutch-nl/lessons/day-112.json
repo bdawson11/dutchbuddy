@@ -87,8 +87,8 @@
       "table": {
         "headers": ["Stap", "Tijd", "Model"],
         "rows": [
-          ["Achtergrond", "verleden tijd / vvt", "Vorig jaar woonde Sanne nog in Amsterdam."],
-          ["De gebeurtenis", "voltooide tijd", "In de zomer is ze naar Utrecht verhuisd."],
+          ["Achtergrond", "verleden tijd / vvt", "Twee jaar geleden woonde Sanne nog in Amsterdam."],
+          ["De gebeurtenis", "voltooide tijd", "Daarna is ze naar Utrecht verhuisd."],
           ["De geciteerde zin", "indirecte rede", "Zaterdag zei ze dat ze in mei een kindje kreeg."],
           ["Het gevolg", "tegenwoordige tijd", "Daardoor sta ik binnenkort een babykamer te verven."]
         ]

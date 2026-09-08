@@ -124,7 +124,7 @@
     },
     {
       "type": "journal",
-      "prompt": "Beschrijf iets waar je er meerdere van hebt: planten, dozen op zolder, oude telefoons. Gebruik minstens één gestapelde *er*-zin (*er zijn er … die …*) en één zin met *daar … over/aan/van*. In het Nederlands, minstens drie zinnen.",
+      "prompt": "Beschrijf iets waarvan je er meerdere hebt: planten, dozen op zolder, oude telefoons. Gebruik minstens één gestapelde *er*-zin (*er zijn er … die …*) en één zin met *daar … over/aan/van*. In het Nederlands, minstens drie zinnen.",
       "starters": ["Bij mij thuis staan er …", "Er zijn er een paar die …", "Daar denk ik verder nooit over na."],
       "minSentences": 3
     }

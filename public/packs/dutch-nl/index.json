@@ -1727,6 +1727,66 @@
       "summary": "Switching register mid-conversation: softening a blunt line, sharpening a soft one, and reading the room",
       "steps": 11
     },
+    "day-116": {
+      "day": 116,
+      "module": "M17",
+      "unit": "U17",
+      "kind": "lesson",
+      "title": "De kat uit de boom kijken — uitdrukkingen die je zelf gebruikt",
+      "emoji": "🧀",
+      "level": "C1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Eight everyday Dutch idioms and how to conjugate them into your own sentences instead of only recognising them",
+      "steps": 11
+    },
+    "day-117": {
+      "day": 117,
+      "module": "M17",
+      "unit": "U17",
+      "kind": "lesson",
+      "title": "Het lijkt, het blijkt, het schijnt — vaag zijn met precisie",
+      "emoji": "🌫️",
+      "level": "C1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The evidential verbs lijken, blijken and schijnen, hearsay zou, and the hedges op zich, in principe, eigenlijk and min of meer",
+      "steps": 11
+    },
+    "day-118": {
+      "day": 118,
+      "module": "M17",
+      "unit": "U17",
+      "kind": "review",
+      "title": "Daan en Emma op dreef — droog, gestapeld en vol uitdrukkingen",
+      "emoji": "🍻",
+      "level": "C1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Week 17 review and immersion: Daan and Emma trade irony, idioms and stacked particles over a borrel while You keeps up",
+      "steps": 7
+    },
+    "day-119": {
+      "day": 119,
+      "module": "M17",
+      "unit": "U17",
+      "kind": "capstone",
+      "title": "Mijn verhaal — netjes gezegd en droog gezegd",
+      "emoji": "🗝️",
+      "level": "C1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Week 17 capstone: tone and register drills, plus the mijn-verhaal layer — the same point said formally and playfully, with layered particles",
+      "steps": 13
+    },
     "day-120": {
       "day": 120,
       "module": "M18",
@@ -1771,6 +1831,51 @@
       ],
       "summary": "Formal spoken register at the table: making a proposal, pushing back without slamming the door, and finding the middenweg",
       "steps": 11
+    },
+    "day-123": {
+      "day": 123,
+      "module": "M18",
+      "unit": "U18",
+      "kind": "lesson",
+      "title": "Nieuws-Nederlands — kort, dicht, passief",
+      "emoji": "📰",
+      "level": "C1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Exposure only: recognising the compressed news register — nominalisation, passives, aldus, and headline grammar — and turning it back into ordinary Dutch",
+      "steps": 10
+    },
+    "day-124": {
+      "day": 124,
+      "module": "M18",
+      "unit": "U18",
+      "kind": "lesson",
+      "title": "'k Weet 't niet — Nederlands op snelheid",
+      "emoji": "👂",
+      "level": "C1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Exposure only: hearing through the reductions of fast Dutch speech, plus one clearly labelled Flemish passage for ear-awareness",
+      "steps": 10
+    },
+    "day-125": {
+      "day": 125,
+      "module": "M18",
+      "unit": "U18",
+      "kind": "review",
+      "title": "Het overleg loopt — en jij doet mee",
+      "emoji": "🗣️",
+      "level": "C1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "Week 18 review and the last immersion: a real project meeting with Youssef, Emma and Bram, at professional speed, with You carrying a point",
+      "steps": 7
     }
   }
 }
