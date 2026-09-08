@@ -134,7 +134,7 @@
       "type": "dialogue",
       "scene": "A borrel in de Pijp. Sanne has come over from Utrecht, Daan has dragged his guitar along, Bram is here 'for one beer'. Eighteen weeks, and this is the last page.",
       "lines": [
-        { "speaker": "Emma", "nl": "Kijk nou. Achttien weken geleden dacht je nog dat *gezellig* een soort broodje was.", "en": "Look at you. Eighteen weeks ago you still thought gezellig was a kind of sandwich." },
+        { "speaker": "Emma", "nl": "Kijk nou. Achttien weken geleden dacht je nog dat 'gezellig' een soort broodje was.", "en": "Look at you. Eighteen weeks ago you still thought gezellig was a kind of sandwich." },
         { "speaker": "You", "nl": "Ik dacht vooral dat ik jullie nooit zou kunnen volgen als jullie eenmaal losgingen.", "en": "Mostly I thought I'd never be able to follow you lot once you got going." },
         { "speaker": "Daan", "nl": "En nu val je me gewoon in de rede, joh.", "en": "And now you just interrupt me, mate." },
         { "speaker": "You", "nl": "Mag ik daar even op inhaken?", "en": "May I jump in on that?", "spotlight": "Vergadertaal in de kroeg — de grap zit hem volledig in het register." },
@@ -154,7 +154,7 @@
       "questions": [
         { "q": "Wat is Emma's laatste advies?", "options": ["Meer grammatica leren", "Doorgaan, fouten maken en in het Nederlands blijven", "Voortaan Engels praten met vrienden"], "correct": 1 },
         { "q": "Wat gebeurt er in het voorjaar bij Sanne?", "options": ["Ze krijgt een baby", "Ze verhuist terug naar Amsterdam", "Ze begint een eigen bedrijf"], "correct": 0 },
-        { "q": "Wat betekent *het ga je goed*?", "options": ["Tot morgen", "Veel succes met je werk", "Pas goed op jezelf, het allerbeste"], "correct": 2 }
+        { "q": "Wat betekent 'het ga je goed'?", "options": ["Tot morgen", "Veel succes met je werk", "Pas goed op jezelf, het allerbeste"], "correct": 2 }
       ]
     },
     {

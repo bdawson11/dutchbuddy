@@ -51,7 +51,7 @@
       "prompt": "Je bent het oneens met Youssefs voorstel, en de klant zit erbij. Welke zin is duidelijk én collegiaal?",
       "options": ["Nee, dat werkt gewoon niet.", "Ik zie het net iets anders — mag ik uitleggen waarom?", "Daar ben ik het totaal niet mee eens."],
       "correct": 1,
-      "explain": "Optie 2 zegt precies hetzelfde als de andere twee, maar houdt de deur open: je meldt een verschil en biedt meteen een argument aan. *Totaal niet* en *gewoon niet* sluiten het gesprek af — en dat is met een klant erbij duur."
+      "explain": "Alle drie zeggen ze nee, maar alleen *ik zie het net iets anders* houdt de deur open: je meldt een verschil en biedt meteen een argument aan. *Totaal niet* en *gewoon niet* sluiten het gesprek af — en dat is met een klant erbij duur."
     },
     {
       "type": "contrast",
@@ -104,7 +104,7 @@
     },
     {
       "type": "journal",
-      "prompt": "Beschrijf je laatste overleg in het Nederlands: wat stond er op de agenda, wat werd jouw actiepunt, en heb je een keer ingehaakt? Gebruik minstens drie zinnen en minstens één zin uit dit blok.",
+      "prompt": "Beschrijf je laatste overleg in het Nederlands: wat stond er op de agenda, wat werd jouw actiepunt, en heb je een keer ingehaakt? Gebruik minstens drie zinnen, en minstens één uitdrukking uit deze les.",
       "starters": ["Op de agenda stond …", "Ik heb ingehaakt toen …", "Mijn actiepunt is …", "We hebben afgesproken dat …"],
       "minSentences": 3
     }

@@ -87,7 +87,7 @@
       "questions": [
         { "q": "Wat heeft de band van Daan gekregen?", "options": ["Een plek in het voorprogramma", "Een eigen tour", "Een platencontract"], "correct": 0 },
         { "q": "Hoe voelt Daan zich erover?", "options": ["Volkomen rustig", "Blij, maar hij slaapt er slecht van", "Hij heeft er geen zin in"], "correct": 1 },
-        { "q": "Wat betekent *d'r komen driehonderd man*?", "options": ["Er komen driehonderd mensen", "Ze zoeken driehonderd mensen", "Er waren driehonderd mensen"], "correct": 0 }
+        { "q": "Wat betekent 'd'r komen driehonderd man'?", "options": ["Er komen driehonderd mensen", "Ze zoeken driehonderd mensen", "Er waren driehonderd mensen"], "correct": 0 }
       ]
     },
     {
