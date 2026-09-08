@@ -19,6 +19,9 @@ function md(text) {
   return <span dangerouslySetInnerHTML={{ __html: html }} />;
 }
 
+// Plain-text form of a markdown snippet (for speech and sentence joining).
+const plain = (text) => String(text).replace(/\*\*?(.+?)\*\*?/g, '$1');
+
 function DoneButton({ done, onDone, label = 'Got it' }) {
   return (
     <button className={`done-btn ${done ? 'is-done' : ''}`} onClick={onDone} disabled={done}>
@@ -108,7 +111,7 @@ export function Mcq({ block, done, onDone }) {
             if (i === block.correct && (picked === i || done)) cls += ' is-correct';
             else if (i === picked) cls += ' is-wrong';
           }
-          return <button key={i} className={cls} onClick={() => pick(i)}>{o}</button>;
+          return <button key={i} className={cls} onClick={() => pick(i)}>{md(o)}</button>;
         })}
       </div>
       {picked !== null && picked !== block.correct && <p className="feedback wrong">{ui('tryAgain', 'Not quite — try again.')}</p>}
@@ -202,7 +205,7 @@ export function Builder({ block, done, onDone }) {
     setPicks(next);
     if (Object.keys(next).length === block.slots.length && !done) onDone();
   };
-  const sentence = block.slots.map((_, i) => picks[i]).filter(Boolean).join(' ');
+  const sentence = block.slots.map((_, i) => picks[i]).filter(Boolean).map(plain).join(' ');
   return (
     <div className="block block-builder">
       {block.title && <h3>{block.title}</h3>}
@@ -212,7 +215,7 @@ export function Builder({ block, done, onDone }) {
           <span className="slot-label">{slot.label}</span>
           <div className="chip-grid">
             {slot.chips.map((c, j) => (
-              <button key={j} className={`chip ${picks[i] === c ? 'chip-tapped' : ''}`} onClick={() => pick(i, c)}>{c}</button>
+              <button key={j} className={`chip ${picks[i] === c ? 'chip-tapped' : ''}`} onClick={() => pick(i, c)}>{md(c)}</button>
             ))}
           </div>
         </div>
@@ -286,7 +289,7 @@ export function Comprehension({ block, done, onDone }) {
       <h3>{block.title || 'Comprehension'}</h3>
       {block.questions.map((q, qi) => (
         <div key={qi} className="comp-question">
-          <p className="prompt">{q.q}</p>
+          <p className="prompt">{md(q.q)}</p>
           <div className="mcq-options">
             {q.options.map((o, oi) => {
               let cls = 'mcq-option';
@@ -294,7 +297,7 @@ export function Comprehension({ block, done, onDone }) {
                 if (oi === q.correct && answers[qi] === oi) cls += ' is-correct';
                 else if (oi === answers[qi]) cls += ' is-wrong';
               }
-              return <button key={oi} className={cls} onClick={() => answer(qi, oi)}>{o}</button>;
+              return <button key={oi} className={cls} onClick={() => answer(qi, oi)}>{md(o)}</button>;
             })}
           </div>
         </div>
