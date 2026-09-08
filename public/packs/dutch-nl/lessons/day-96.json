@@ -45,10 +45,10 @@
     },
     {
       "type": "mcq",
-      "prompt": "In een nette e-mail wil je zeggen 'als u vragen heeft'. Welk alternatief klinkt beleefd-formeel?",
-      "options": ["Als u vragen heeft, bel maar.", "Mocht u vragen hebben, dan hoor ik het graag.", "Vragen? Bel dan."],
+      "prompt": "Dezelfde boodschap, drie registers. Welke versie past in een nette e-mail aan iemand die je niet kent?",
+      "options": ["Als je vragen hebt, app me even.", "Mocht u vragen hebben, dan hoor ik het graag.", "Vragen? Bel dan."],
       "correct": 1,
-      "explain": "*Mocht u vragen hebben, dan hoor ik het graag* — *mocht* + werkwoord vooraan is het beleefde, schriftelijke register."
+      "explain": "Dezelfde boodschap, drie registers: *Als je vragen hebt, app me even* is informeel, *Vragen? Bel dan* is kort en spreektalig. *Mocht u vragen hebben, dan hoor ik het graag* — *mocht* + werkwoord vooraan, plus *u* — is het beleefde, schriftelijke register."
     },
     {
       "type": "typed",

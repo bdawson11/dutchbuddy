@@ -84,7 +84,7 @@
         { "speaker": "You", "nl": "Dit is mijn oma. En dat is haar huis.", "en": "This is my grandma. And that's her house." },
         { "speaker": "Daan", "nl": "Gezellig! En die twee?", "en": "Cozy! And those two?" },
         { "speaker": "You", "nl": "Dat zijn Emma en Sanne — dit is hun buurt.", "en": "That's Emma and Sanne — this is their neighborhood.", "spotlight": "hun — their, for zij (mv)." },
-        { "speaker": "Daan", "nl": "O, die ken ik! Onze stad is best klein, hoor.", "en": "Oh, I know that! Our city is pretty small.", "spotlight": "onze — stad is a de-word." }
+        { "speaker": "Daan", "nl": "O, die ken ik! Onze stad is best klein, hoor.", "en": "Oh, I know them! Our city is pretty small.", "spotlight": "onze — stad is a de-word." }
       ]
     },
     {

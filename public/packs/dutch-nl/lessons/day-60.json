@@ -67,7 +67,9 @@
         "Zou u me het zout kunnen aangeven?",
         "Zou u mij het zout kunnen aangeven?",
         "Zou u me het zout willen aangeven?",
-        "Zou u het zout kunnen aangeven?"
+        "Zou u mij het zout willen aangeven?",
+        "Zou u het zout kunnen aangeven?",
+        "Zou u het zout willen aangeven?"
       ],
       "hint": "Zou u … kunnen/willen + werkwoord achteraan.",
       "explain": "*Zou u me het zout kunnen aangeven?* — *zou* voorop, *u* beleefd, en de infinitieven (*kunnen aangeven*) achteraan."
@@ -88,8 +90,7 @@
       "prompt": "Luister en typ het beleefde verzoek.",
       "speak": "Zou je me even kunnen helpen?",
       "answers": [
-        "Zou je me even kunnen helpen?",
-        "Zou je me even kunnen helpen"
+        "Zou je me even kunnen helpen?"
       ]
     },
     {

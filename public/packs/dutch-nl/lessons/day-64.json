@@ -61,7 +61,7 @@
     {
       "type": "typed",
       "prompt": "Zeg dat er een kat in de tuin zit. (Say there's a cat in the garden.)",
-      "answers": ["Er zit een kat in de tuin.", "Er zit een kat in de tuin"],
+      "answers": ["Er zit een kat in de tuin."],
       "hint": "Indefinite subject → start with the placeholder; an animal inside a space → zitten.",
       "explain": "*Er zit een kat in de tuin.* *een kat* is new and vague → *er*; something 'in' a space → *zitten*."
     },
@@ -90,12 +90,12 @@
       "type": "dictation",
       "prompt": "Luister en typ wat je hoort.",
       "speak": "Er staat een fiets voor de deur.",
-      "answers": ["Er staat een fiets voor de deur.", "Er staat een fiets voor de deur"]
+      "answers": ["Er staat een fiets voor de deur."]
     },
     {
       "type": "journal",
       "prompt": "Beschrijf jouw kamer. Schrijf drie zinnen met *er* — wat staat, ligt of hangt er?",
-      "starters": ["In mijn kamer staat er…", "Aan de muur hangt er…", "Op mijn bureau ligt er…"],
+      "starters": ["Er staat…", "Er hangt…", "Er ligt…"],
       "minSentences": 3
     }
   ]

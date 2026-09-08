@@ -47,7 +47,7 @@
       "type": "contrast",
       "title": "Zal ik…? vs Zullen we…?",
       "pairs": [
-        { "left": "Zal ik…? — I offer", "right": "Zullen we…? — let's, together", "note": "*Zal ik* betaalt: one person does it. *Zullen we* pulls everyone in: a shared plan." }
+        { "left": "Zal ik…? — I offer", "right": "Zullen we…? — let's, together", "note": "*Zal ik…?* offers your own hands: you do it. *Zullen we…?* pulls you both into one shared plan." }
       ]
     },
     {
@@ -70,7 +70,7 @@
     {
       "type": "typed",
       "prompt": "Suggest to a friend: 'Shall we go to the cinema?' (naar de bioscoop, gaan)",
-      "answers": ["Zullen we naar de bioscoop gaan?", "Zullen we naar de bioscoop gaan", "zullen we naar de bioscoop gaan?"],
+      "answers": ["Zullen we naar de bioscoop gaan?"],
       "hint": "Start with Zullen we, park gaan at the end.",
       "explain": "*Zullen we naar de bioscoop gaan?* — suggestion opener, infinitive last."
     },

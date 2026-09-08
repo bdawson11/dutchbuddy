@@ -85,7 +85,7 @@
     {
       "type": "typed",
       "prompt": "Ask 'What are you doing today?' — use jij. (verb: doen → doe)",
-      "answers": ["Wat doe jij vandaag?", "wat doe jij vandaag", "Wat doe je vandaag?", "wat doe je vandaag"],
+      "answers": ["Wat doe jij vandaag?", "Wat doe je vandaag?"],
       "hint": "Question word, then verb, then jij — mind the -t drop.",
       "explain": "*Wat doe jij vandaag?* Question word in slot 1, verb in slot 2, and *doen* loses its -t behind *jij*."
     },

@@ -41,7 +41,7 @@
     {
       "type": "typed",
       "prompt": "Turn 'Jij werkt in Utrecht' into a yes/no question.",
-      "answers": ["Werk jij in Utrecht?", "werk jij in utrecht", "Werk je in Utrecht?", "werk je in utrecht"],
+      "answers": ["Werk jij in Utrecht?", "Werk je in Utrecht?"],
       "hint": "Verb first, and the -t drops behind jij/je.",
       "explain": "*Werk jij in Utrecht?* Verb to the front, and *jij* triggers the -t drop."
     },

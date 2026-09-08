@@ -51,7 +51,7 @@
         "headers": ["Situation", "Adjective", "Example"],
         "rows": [
           ["de-word (any)", "+ -e", "een leuke stad"],
-          ["het-word + de (definite)", "+ -e", "het leuke huis"],
+          ["het-word + het (definite)", "+ -e", "het leuke huis"],
           ["het-word + een / no article", "bare form", "een leuk huis"],
           ["plural (any)", "+ -e", "leuke huizen"]
         ]
@@ -81,11 +81,11 @@
     },
     {
       "type": "builder",
-      "prompt": "Match the article, noun, and correct adjective form.",
+      "prompt": "Build the phrase in order: article, adjective, noun. Only *een* + a het-word keeps the bare adjective — everywhere else you add **-e**.",
       "slots": [
-        { "label": "Article", "chips": ["een", "het", "de"] },
-        { "label": "Noun", "chips": ["huis (het)", "stad (de)", "boek (het)"] },
-        { "label": "Adjective", "chips": ["leuk", "leuke", "mooi", "mooie"] }
+        { "label": "Lidwoord", "chips": ["een", "het", "de"] },
+        { "label": "Bijvoeglijk naamwoord — -e of kaal?", "chips": ["leuk", "leuke", "mooi", "mooie"] },
+        { "label": "Zelfstandig naamwoord — huis en boek zijn het, stad is de", "chips": ["huis", "stad", "boek"] }
       ],
       "sample": "het leuke huis"
     },

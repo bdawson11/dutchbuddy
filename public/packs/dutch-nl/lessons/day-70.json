@@ -27,7 +27,7 @@
     {
       "type": "typed",
       "prompt": "'Ben je blij met je keuze?' Antwoord: ja, je bent er blij mee.",
-      "answers": ["Ja, ik ben er blij mee.", "Ik ben er blij mee.", "Ja ik ben er blij mee", "Ik ben er blij mee"],
+      "answers": ["Ja, ik ben er blij mee.", "Ik ben er blij mee."],
       "hint": "met → mee, helemaal aan het eind.",
       "explain": "*Ik ben er blij mee.* *blij* in het midden, *mee* sluit de zin af."
     },
@@ -41,7 +41,7 @@
     {
       "type": "typed",
       "prompt": "Zeg dat je je op iets nieuws verheugt. (Say you're looking forward to something new.)",
-      "answers": ["Ik verheug me op iets nieuws.", "Ik verheug me op iets nieuws"],
+      "answers": ["Ik verheug me op iets nieuws."],
       "hint": "verheugen → ik verheug me op…",
       "explain": "*Ik verheug me op iets nieuws.* Reflexief *me* + *op*."
     },
@@ -52,14 +52,14 @@
       "slots": [
         { "label": "Voegwoord", "chips": ["omdat", "dat"] },
         { "label": "Onderwerp", "chips": ["ik"] },
-        { "label": "Plaats", "chips": ["in Utrecht", "dichter bij werk"] },
+        { "label": "Plaats", "chips": ["in Utrecht", "dichter bij mijn werk"] },
         { "label": "Cluster (eind)", "chips": ["wil wonen", "wonen wil"] }
       ],
       "sample": "omdat ik in Utrecht wil wonen"
     },
     {
       "type": "card",
-      "title": "Sanne's brief — een model",
+      "title": "Sannes brief — een model",
       "body": "Zo zou Sanne haar beslissing kunnen opschrijven. Let op de bouwstenen van deze week. *Ik heb een grote beslissing genomen: ik ga verhuizen, omdat ik dichter bij mijn werk wil wonen. Het was niet makkelijk — ik heb er lang over nagedacht. Mijn oude huis wordt nu leeggehaald en alles is al ingepakt. Ik voel me zenuwachtig, maar ik verheug me er ook op. Er begint iets nieuws.*",
       "callout": "De formule: *een beslissing* + een *omdat*-bijzin + *er* (eraan/erover/erop) + een reflexief gevoel."
     },
@@ -77,7 +77,7 @@
     },
     {
       "type": "comprehension",
-      "title": "Sanne's brief — begrijp je het?",
+      "title": "Sannes brief — begrijp je het?",
       "questions": [
         { "q": "Waarom gaat Sanne verhuizen?", "options": ["Omdat ze dichter bij haar werk wil wonen", "Omdat haar huis te duur is", "Omdat Emma het zegt"], "correct": 0 },
         { "q": "Hoe voelt Sanne zich?", "options": ["Alleen zenuwachtig", "Zenuwachtig, maar ze verheugt zich ook", "Helemaal niet blij"], "correct": 1 }

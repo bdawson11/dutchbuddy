@@ -60,7 +60,7 @@
     {
       "type": "typed",
       "prompt": "Maak passief met *worden*: 'Ze bezorgen het pakket morgen.' → Het pakket …",
-      "answers": ["Het pakket wordt morgen bezorgd.", "Het pakket wordt morgen bezorgd"],
+      "answers": ["Het pakket wordt morgen bezorgd."],
       "hint": "worden + voltooid deelwoord (bezorgd); de tijd komt in het midden.",
       "explain": "*Het pakket wordt morgen bezorgd.* *worden* takes the subject; the participle *bezorgd* goes to the end."
     },
@@ -89,7 +89,7 @@
       "type": "dictation",
       "prompt": "Luister en typ wat je hoort.",
       "speak": "De winkel wordt verbouwd.",
-      "answers": ["De winkel wordt verbouwd.", "De winkel wordt verbouwd"]
+      "answers": ["De winkel wordt verbouwd."]
     },
     {
       "type": "journal",

@@ -15,7 +15,7 @@
       "type": "card",
       "title": "Wat je deze week leerde",
       "body": "Even terugblikken. This week was about **sounding Dutch**: fixed pairs (*wachten op, houden van*), the particles that carry all the tone (*even, maar, toch, hoor*), diminutives and their warmth (*biertje, momentje*), holding the line in Dutch, and calibrating *u* vs *je*. Today we hear it all braided together — Emma takes the train to Utrecht to see how Sanne is settling in.",
-      "callout": "Sanne verhuisde vorige maand naar Utrecht. Vandaag: haar eerste bezoek."
+      "callout": "Sanne verhuisde vorige week naar Utrecht. Vandaag: haar eerste bezoek."
     },
     {
       "type": "chips",
@@ -30,7 +30,7 @@
     },
     {
       "type": "mcq",
-      "prompt": "Mixed review: 'Ik wacht ___ je bij het station.' Which preposition?",
+      "prompt": "Herhaling: welk voorzetsel? 'Ik wacht ___ je bij het station.'",
       "options": ["voor", "op", "aan"],
       "correct": 1,
       "explain": "*wachten op* — the fixed pair from day 71. You wait 'on' someone in Dutch."
@@ -59,8 +59,8 @@
     },
     {
       "type": "typed",
-      "prompt": "Emma admires Sanne's place. Fill in the diminutive: 'Wat een leuk ___ heb je hier!' (little house)",
-      "answers": ["huisje", "huisje!", "het huisje"],
+      "prompt": "Emma bewondert Sannes huis. Vul het verkleinwoord in: 'Wat een leuk ___ heb je hier!' (little house)",
+      "answers": ["huisje"],
       "hint": "huis → ?",
       "explain": "*huisje* — het, fond, 'lovely little place'. The diminutive does the warmth."
     },

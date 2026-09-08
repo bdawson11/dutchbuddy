@@ -47,7 +47,7 @@
     {
       "type": "typed",
       "prompt": "Zet in het passief: *Het bedrijf reorganiseert de afdeling.* Begin met: De afdeling …",
-      "answers": ["De afdeling wordt gereorganiseerd", "De afdeling wordt gereorganiseerd.", "De afdeling wordt door het bedrijf gereorganiseerd", "De afdeling wordt door het bedrijf gereorganiseerd."],
+      "answers": ["De afdeling wordt gereorganiseerd", "De afdeling wordt gereorganiseerd.", "De afdeling wordt door het bedrijf gereorganiseerd", "De afdeling wordt door het bedrijf gereorganiseerd.", "De afdeling wordt gereorganiseerd door het bedrijf"],
       "hint": "*wordt* + *gereorganiseerd*.",
       "explain": "*De afdeling wordt (door het bedrijf) gereorganiseerd.* Focus op wat er gebeurt, niet op wie."
     },

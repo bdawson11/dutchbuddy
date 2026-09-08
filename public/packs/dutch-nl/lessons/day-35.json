@@ -47,15 +47,15 @@
     {
       "type": "typed",
       "prompt": "Say 'Yesterday I got up early and went to the market.' (use *opstaan*, *naar de markt gaan*)",
-      "answers": ["gisteren ben ik vroeg opgestaan en naar de markt gegaan", "gisteren ben ik vroeg opgestaan en ik ben naar de markt gegaan"],
+      "answers": ["gisteren ben ik vroeg opgestaan en naar de markt gegaan", "gisteren ben ik vroeg opgestaan en ik ben naar de markt gegaan", "ik ben gisteren vroeg opgestaan en naar de markt gegaan"],
       "hint": "Both verbs take zijn; opgestaan, gegaan.",
       "explain": "*Gisteren ben ik vroeg opgestaan en naar de markt gegaan.* — one *ben* can carry both zijn-participles at the end."
     },
     {
       "type": "dictation",
       "prompt": "Luister en typ Daans vraag.",
-      "speak": "Wat heb je het weekend gedaan?",
-      "answers": ["wat heb je het weekend gedaan"]
+      "speak": "Wat heb je dit weekend gedaan?",
+      "answers": ["wat heb je dit weekend gedaan"]
     },
     {
       "type": "dialogue",

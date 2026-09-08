@@ -71,8 +71,8 @@
     },
     {
       "type": "typed",
-      "prompt": "Fill the gap: 'Nu komt de ___ uit de mouw' (now the truth comes out).",
-      "answers": ["aap", "de aap", "aap.", "aap!"],
+      "prompt": "Vul in: 'Nu komt de ___ uit de mouw' (now the truth comes out).",
+      "answers": ["aap", "de aap"],
       "hint": "A cheeky animal.",
       "explain": "*de aap* — the monkey pops out of the sleeve, and the hidden truth is revealed."
     },

@@ -47,8 +47,8 @@
     },
     {
       "type": "typed",
-      "prompt": "It's your turn to buy drinks for the table. Offer a round in Dutch.",
-      "answers": ["Ik geef een rondje", "Ik geef een rondje.", "Ik geef deze", "Zullen we een rondje doen", "Deze is van mij"],
+      "prompt": "Het is jouw beurt om te trakteren. Bied een rondje aan in het Nederlands.",
+      "answers": ["Ik geef een rondje", "Ik geef deze", "Zullen we een rondje doen", "Deze is van mij"],
       "hint": "The word is *rondje*.",
       "explain": "*Ik geef een rondje* — you're buying this round. Peak *gezellig*."
     },

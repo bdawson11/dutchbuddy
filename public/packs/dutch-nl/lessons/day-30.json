@@ -41,7 +41,7 @@
         { "nl": "Ik ben gekomen", "en": "I came", "speak": "ik ben gekomen" },
         { "nl": "Ik ben gebleven", "en": "I stayed", "speak": "ik ben gebleven" },
         { "nl": "Het is geworden", "en": "it became", "speak": "het is geworden" },
-        { "nl": "Er is gebeurd", "en": "there happened", "speak": "er is gebeurd" },
+        { "nl": "Er is iets gebeurd", "en": "something happened", "speak": "er is iets gebeurd" },
         { "nl": "Ik ben geweest", "en": "I have been", "speak": "ik ben geweest" }
       ]
     },
@@ -89,7 +89,7 @@
         { "speaker": "Emma", "nl": "Met de trein. We zijn vroeg vertrokken.", "en": "By train. We left early.", "spotlight": "*vertrekken* (to depart) is movement → zijn: we zijn vertrokken." },
         { "speaker": "You", "nl": "En is het gezellig geweest?", "en": "And was it fun?" },
         { "speaker": "Emma", "nl": "Heel gezellig! Maar 's avonds is het koud geworden.", "en": "Very fun! But in the evening it got cold.", "spotlight": "*worden* = to become; change of state → zijn: het is koud geworden." },
-        { "speaker": "You", "nl": "Wanneer ben je weer in Amsterdam gekomen?", "en": "When did you get back to Amsterdam?" },
+        { "speaker": "You", "nl": "Wanneer ben je weer thuisgekomen?", "en": "When did you get home?" },
         { "speaker": "Emma", "nl": "Zondagavond laat. Het is een lange dag geworden!", "en": "Late Sunday evening. It turned into a long day!" }
       ]
     },

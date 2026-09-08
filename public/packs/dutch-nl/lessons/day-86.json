@@ -31,7 +31,7 @@
         { "nl": "De fiets werd gestolen.", "en": "The bike was stolen.", "speak": "De fiets werd gestolen." },
         { "nl": "De brief werd verstuurd.", "en": "The letter was sent.", "speak": "De brief werd verstuurd." },
         { "nl": "Alle gasten werden uitgenodigd.", "en": "All the guests were invited.", "speak": "Alle gasten werden uitgenodigd." },
-        { "nl": "Het raam werd gebroken.", "en": "The window was broken.", "speak": "Het raam werd gebroken." },
+        { "nl": "De kamer werd opgeruimd.", "en": "The room was tidied up.", "speak": "De kamer werd opgeruimd." },
         { "nl": "De rekening werd betaald.", "en": "The bill was paid.", "speak": "De rekening werd betaald." },
         { "nl": "De foto's werden gemaakt.", "en": "The photos were taken.", "speak": "De foto's werden gemaakt." }
       ]
@@ -47,13 +47,13 @@
       "title": "Proces tegenover toestand",
       "pairs": [
         { "left": "De winkel wordt gesloten.", "right": "De winkel is gesloten.", "note": "Links: iemand sluit hem nú. Rechts: hij is dicht (resultaat)." },
-        { "left": "De soep werd opgewarmd.", "right": "De soep was al warm.", "note": "*werd* = de daad in het verleden; *was* = de toestand toen." },
+        { "left": "De soep werd opgewarmd.", "right": "De soep was al opgewarmd.", "note": "*werd opgewarmd* = de daad toen; *was opgewarmd* = het resultaat lag er al." },
         { "left": "Het huis wordt gebouwd.", "right": "Het huis is gebouwd.", "note": "In aanbouw vs helemaal af." }
       ]
     },
     {
       "type": "mcq",
-      "prompt": "*Toen ik binnenkwam, ___ de tafel al gedekt.* Welke past?",
+      "prompt": "*Toen ik binnenkwam, ___ de tafel al gedekt — alles stond klaar.* Welke past?",
       "options": ["werd", "was", "wordt"],
       "correct": 1,
       "explain": "*was gedekt* — de tafel was al klaar toen je binnenkwam: een toestand, dus **zijn** (was). *werd gedekt* zou betekenen dat het op dat moment gebeurde."
@@ -61,7 +61,7 @@
     {
       "type": "typed",
       "prompt": "Zet in het verleden passief: *De gemeente maakt de weg schoon.* Begin met: De weg …",
-      "answers": ["De weg werd schoongemaakt", "De weg werd schoongemaakt.", "De weg werd door de gemeente schoongemaakt", "De weg werd door de gemeente schoongemaakt."],
+      "answers": ["De weg werd schoongemaakt", "De weg werd schoongemaakt.", "De weg werd door de gemeente schoongemaakt", "De weg werd door de gemeente schoongemaakt.", "De weg werd schoongemaakt door de gemeente"],
       "hint": "*wordt* → *werd*; deelwoord *schoongemaakt* aan het eind.",
       "explain": "*De weg werd (door de gemeente) schoongemaakt.* De verleden tijd van *worden* is *werd*."
     },

@@ -93,15 +93,15 @@
     },
     {
       "type": "typed",
-      "prompt": "You're at the snackbar. Order 'a portion of fries with mayo' the normal Dutch way.",
-      "answers": ["Doe mij maar een patatje met", "Doe mij maar een patatje met.", "Een patatje met, alsjeblieft", "Mag ik een patatje met", "Een patatje met"],
+      "prompt": "Je staat bij de snackbar. Bestel een portie friet met mayonaise, zoals een Nederlander dat doet.",
+      "answers": ["Doe mij maar een patatje met", "Een patatje met, alsjeblieft", "Mag ik een patatje met", "Een patatje met"],
       "hint": "*met* already means 'with mayo'.",
       "explain": "*Doe mij maar een patatje met* — you don't add 'mayo'; *met* already says it."
     },
     {
       "type": "builder",
       "title": "Buy the round",
-      "prompt": "It's your turn. Offer a round and raise a toast.",
+      "prompt": "Het is jouw beurt. Bied een rondje aan en breng een toost uit.",
       "slots": [
         { "label": "Aanbod", "chips": ["Ik geef", "Zullen we"] },
         { "label": "Wat", "chips": ["een rondje", "nog een rondje"] },

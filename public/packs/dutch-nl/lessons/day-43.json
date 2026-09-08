@@ -5,7 +5,7 @@
   "module": "M07",
   "unit": "U07",
   "kind": "lesson",
-  "title": "De imperfectum — het andere verleden",
+  "title": "Het imperfectum — het andere verleden",
   "emoji": "🕰",
   "level": "A2",
   "durationMin": [15, 25],
@@ -55,7 +55,7 @@
     },
     {
       "type": "card",
-      "title": "De onmisbare onregelmatige",
+      "title": "De onmisbare onregelmatige werkwoorden",
       "body": "Six past-tense verbs are so common you'll use them in almost every story. They ignore the -te/-de rule — just learn them. Notice that *zijn* and *hebben* even change shape in the plural.",
       "table": {
         "headers": ["Nu (present)", "Toen — enkelvoud", "Toen — meervoud"],

@@ -70,7 +70,7 @@
       "title": "Bouw de lijdende vorm",
       "prompt": "Zet een passieve zin in elkaar: onderwerp — vorm van *worden* — (door wie) — voltooid deelwoord.",
       "slots": [
-        { "label": "Onderwerp (waar 't om gaat)", "chips": ["De vergadering", "De nieuwe website", "Het rapport"] },
+        { "label": "Onderwerp (waar 't om gaat)", "chips": ["De vergadering", "De nieuwe website", "Het rapport", "De rapporten"] },
         { "label": "Vorm van worden", "chips": ["wordt", "worden"] },
         { "label": "Door wie (optioneel)", "chips": ["door het team", "door Emma", "door de klant"] },
         { "label": "Voltooid deelwoord", "chips": ["verzet", "gelanceerd", "geschreven"] }

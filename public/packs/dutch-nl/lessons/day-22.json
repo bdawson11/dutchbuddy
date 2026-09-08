@@ -69,7 +69,7 @@
       "type": "dictation",
       "prompt": "Listen and type what you hear.",
       "speak": "de boterham",
-      "answers": ["boterham", "de boterham"]
+      "answers": ["de boterham", "boterham"]
     },
     {
       "type": "shadow",

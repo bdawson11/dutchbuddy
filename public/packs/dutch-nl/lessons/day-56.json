@@ -42,14 +42,14 @@
     {
       "type": "typed",
       "prompt": "Suggest it with zullen: 'Shall we practise together?' (samen, oefenen)",
-      "answers": ["Zullen we samen oefenen?", "Zullen we samen oefenen", "zullen we samen oefenen?"],
+      "answers": ["Zullen we samen oefenen?"],
       "hint": "Zullen we + … + infinitive at the end.",
       "explain": "*Zullen we samen oefenen?* — the shared-plan opener."
     },
     {
       "type": "typed",
       "prompt": "Give an opinion: start with 'Ik vind dat' → 'Nederlands is mooi.'",
-      "answers": ["Ik vind dat Nederlands mooi is.", "Ik vind dat Nederlands mooi is", "ik vind dat nederlands mooi is."],
+      "answers": ["Ik vind dat Nederlands mooi is."],
       "hint": "The verb 'is' moves to the end.",
       "explain": "*Ik vind dat Nederlands mooi is.* — dat-clause, verb last."
     },
@@ -67,7 +67,7 @@
     {
       "type": "typed",
       "prompt": "Comparative: 'My Dutch is better than last year.' (mijn Nederlands, goed, dan vorig jaar)",
-      "answers": ["Mijn Nederlands is beter dan vorig jaar.", "Mijn Nederlands is beter dan vorig jaar", "mijn nederlands is beter dan vorig jaar."],
+      "answers": ["Mijn Nederlands is beter dan vorig jaar."],
       "hint": "goed is irregular: goed → beter.",
       "explain": "*Mijn Nederlands is beter dan vorig jaar.* — *beter*, never *goeder*."
     },

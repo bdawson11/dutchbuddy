@@ -74,7 +74,7 @@
       "type": "dictation",
       "prompt": "Listen and type what you hear.",
       "speak": "Bel 112!",
-      "answers": ["bel 112", "bel 112!"]
+      "answers": ["bel 112", "bel honderdtwaalf"]
     },
     {
       "type": "dialogue",
@@ -82,7 +82,7 @@
       "lines": [
         { "speaker": "Daan", "nl": "Zegt u het maar!", "en": "Go ahead, tell me! (the standard pharmacist opener)" },
         { "speaker": "You", "nl": "Ik heb dit recept van de huisarts.", "en": "I have this prescription from the GP." },
-        { "speaker": "Daan", "nl": "Prima. Heeft u ook een paracetamol nodig?", "en": "Great. Do you also need a paracetamol?", "spotlight": "paracetamol strikes again — even at the apotheek" },
+        { "speaker": "Daan", "nl": "Prima. Heeft u ook paracetamol nodig?", "en": "Great. Do you also need paracetamol?", "spotlight": "paracetamol strikes again — even at the apotheek" },
         { "speaker": "You", "nl": "Nee, dank u. Wel iets tegen keelpijn.", "en": "No, thank you. But something for a sore throat." },
         { "speaker": "Daan", "nl": "Deze zuigtabletten zijn heel goed.", "en": "These lozenges are very good." },
         { "speaker": "You", "nl": "Dank u wel!", "en": "Thank you very much!" }

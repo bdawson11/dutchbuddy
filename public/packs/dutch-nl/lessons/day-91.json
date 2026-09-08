@@ -8,7 +8,7 @@
   "title": "Mijn verhaal — een genuanceerde mening",
   "emoji": "🎯",
   "level": "B2",
-  "durationMin": [25, 35],
+  "durationMin": [20, 35],
   "summary": "Week 13 capstone: produce the passive across all its forms and add the season-2 mijn-verhaal layer — a nuanced opinion built with connectors (hoewel, enerzijds… anderzijds, daarentegen, bovendien)",
   "blocks": [
     {
@@ -106,7 +106,7 @@
       "type": "journal",
       "prompt": "Week 13 zit erop — je eerste week B2! Hoe voelt het om aan het tweede jaar te beginnen? Vier het even, in het Nederlands.",
       "starters": ["B2, hier ben ik!", "Het voelt …", "Volgende week wil ik …"],
-      "minSentences": 3
+      "minSentences": 4
     }
   ]
 }

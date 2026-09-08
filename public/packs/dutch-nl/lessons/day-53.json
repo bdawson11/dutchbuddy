@@ -80,14 +80,14 @@
     {
       "type": "typed",
       "prompt": "Join these with omdat: 'Ik ga naar huis.' + 'Ik ben moe.'",
-      "answers": ["Ik ga naar huis omdat ik moe ben.", "Ik ga naar huis omdat ik moe ben", "ik ga naar huis omdat ik moe ben."],
+      "answers": ["Ik ga naar huis omdat ik moe ben.", "Omdat ik moe ben, ga ik naar huis."],
       "hint": "Keep the first verb second; send the second verb to the end.",
       "explain": "*Ik ga naar huis omdat ik moe ben.* — main clause unchanged, *ben* parked last."
     },
     {
       "type": "typed",
       "prompt": "Reorder into a correct subclause: dat / hij / gelijk / heeft → 'Ik denk ___.'",
-      "answers": ["Ik denk dat hij gelijk heeft.", "Ik denk dat hij gelijk heeft", "dat hij gelijk heeft"],
+      "answers": ["Ik denk dat hij gelijk heeft.", "dat hij gelijk heeft"],
       "hint": "dat + subject + rest + VERB.",
       "explain": "*Ik denk dat hij gelijk heeft.* — *heeft* is the finite verb, so it goes to the very end."
     },
@@ -97,7 +97,7 @@
       "prompt": "Build the subclause. The last slot is the verb — that's the point: in a bijzin it always lands there.",
       "slots": [
         { "label": "Hoofdzin", "chips": ["Ik ga niet mee", "Ze blijft thuis", "We eten binnen"] },
-        { "label": "Voegwoord", "chips": ["omdat", "als", "want"] },
+        { "label": "Voegwoord", "chips": ["omdat", "als"] },
         { "label": "Onderwerp + rest", "chips": ["ik", "het", "ze"] },
         { "label": "Werkwoord (eind!)", "chips": ["ziek ben", "regent", "moe is"] }
       ],
@@ -107,7 +107,7 @@
       "type": "dictation",
       "prompt": "Listen and type the whole sentence, verb and all.",
       "speak": "We blijven binnen omdat het hard regent.",
-      "answers": ["We blijven binnen omdat het hard regent.", "We blijven binnen omdat het hard regent", "Wij blijven binnen omdat het hard regent."]
+      "answers": ["We blijven binnen omdat het hard regent.", "Wij blijven binnen omdat het hard regent."]
     },
     {
       "type": "dialogue",

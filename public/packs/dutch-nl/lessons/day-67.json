@@ -47,7 +47,7 @@
     {
       "type": "typed",
       "prompt": "Zeg dat je je op de verhuizing verheugt. (Say you're looking forward to the move.)",
-      "answers": ["Ik verheug me op de verhuizing.", "Ik verheug me op de verhuizing"],
+      "answers": ["Ik verheug me op de verhuizing."],
       "hint": "verheugen is reflexief: ik verheug me op …",
       "explain": "*Ik verheug me op de verhuizing.* First person → *me*; *verheugen* pairs with *op*."
     },

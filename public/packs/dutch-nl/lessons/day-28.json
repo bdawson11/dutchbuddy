@@ -56,7 +56,7 @@
       "type": "dictation",
       "prompt": "Listen and type what you hear.",
       "speak": "Een pondje aardbeien, graag.",
-      "answers": ["een pondje aardbeien, graag", "een pondje aardbeien"]
+      "answers": ["een pondje aardbeien, graag", "een pondje aardbeien graag", "een pondje aardbeien"]
     },
     {
       "type": "contrast",
@@ -80,8 +80,8 @@
       "scene": "A café table with Daan — ordering, sharing a preference, and a mini self-intro",
       "lines": [
         { "speaker": "You", "nl": "Hoi Daan! Ik wil graag een koffie en een broodje kaas.", "en": "Hi Daan! I'd like a coffee and a cheese roll." },
-        { "speaker": "Daan", "nl": "Goed idee. Ik neem hetzelfde, doe maar.", "en": "Good idea. I'll have the same, sure." },
-        { "speaker": "You", "nl": "Ik houd wel van broodje kaas, het is altijd lekker.", "en": "I do love a cheese roll, it's always good." },
+        { "speaker": "Daan", "nl": "Goed idee. Doe mij maar hetzelfde.", "en": "Good idea. I'll have the same." },
+        { "speaker": "You", "nl": "Ik houd wel van een broodje kaas, het is altijd lekker.", "en": "I do love a cheese roll, it's always good." },
         { "speaker": "Daan", "nl": "Ja, en jij? Vertel, wat doe je hier in Amsterdam?", "en": "Yeah, and you? Tell me, what are you doing here in Amsterdam?", "spotlight": "Daan invites the self-intro — callback to week 1." },
         { "speaker": "You", "nl": "Ik kom uit Toronto, ik woon nu in Amsterdam en ik leer Nederlands!", "en": "I'm from Toronto, I live in Amsterdam now, and I'm learning Dutch!" },
         { "speaker": "Daan", "nl": "Goed bezig, hoor! Dat is knap.", "en": "You're doing great! That's impressive." }

@@ -44,7 +44,7 @@
       "type": "dictation",
       "prompt": "Listen and type what you hear.",
       "speak": "Bel 112!",
-      "answers": ["bel 112", "bel 112!"]
+      "answers": ["bel 112", "bel honderdtwaalf"]
     },
     {
       "type": "chips",
@@ -77,7 +77,7 @@
     {
       "type": "typed",
       "prompt": "Type: 'I feel a little nervous.'",
-      "answers": ["ik voel me een beetje zenuwachtig"],
+      "answers": ["ik voel me een beetje zenuwachtig", "ik voel me een beetje nerveus"],
       "hint": "ik voel me + een beetje + adjective",
       "explain": "Ik voel me een beetje zenuwachtig — zich voelen with the reflexive me."
     },

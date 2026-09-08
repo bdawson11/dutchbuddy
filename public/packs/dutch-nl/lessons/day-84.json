@@ -27,22 +27,22 @@
     },
     {
       "type": "mcq",
-      "prompt": "One last register check. A friend is nervous in your doorway — which is warm, not bossy?",
+      "prompt": "Nog één registercheck. Een vriend staat zenuwachtig in je deuropening — wat klinkt warm en niet bazig?",
       "options": ["Binnen!", "Kom maar binnen, doe rustig aan.", "Je moet binnenkomen."],
       "correct": 1,
       "explain": "The softeners *maar* and *rustig* turn a command into a welcome — the whole lesson of week twelve."
     },
     {
       "type": "mcq",
-      "prompt": "Which reaction is 'green' — safe with absolutely anyone?",
+      "prompt": "Welke reactie is 'groen' — veilig bij absoluut iedereen?",
       "options": ["Vet, man!", "Wat gezellig, hoor.", "Kut, zeg."],
       "correct": 1,
       "explain": "*Wat gezellig, hoor* is pure green tier. *Vet* reads teenage; the third is crude for most company."
     },
     {
       "type": "typed",
-      "prompt": "It's your turn at the borrel. Offer a round of drinks in Dutch.",
-      "answers": ["Ik geef een rondje", "Ik geef een rondje.", "Ik geef deze", "Zullen we een rondje doen", "Deze is van mij"],
+      "prompt": "Het is jouw beurt op de borrel. Bied een rondje aan in het Nederlands.",
+      "answers": ["Ik geef een rondje", "Ik geef deze", "Zullen we een rondje doen", "Deze is van mij"],
       "hint": "The word is *rondje*.",
       "explain": "*Ik geef een rondje* — and with that, you're fully *gezellig*."
     },
@@ -65,7 +65,7 @@
     {
       "type": "builder",
       "title": "Brief aan mezelf van een jaar geleden",
-      "prompt": "Write a letter to the you who started this course — one tense-move per slot. Pick a chip for each, or write your own in the same shape.",
+      "prompt": "Schrijf een brief aan de jij die met deze cursus begon — één tijdsprong per slot. Kies per slot een chip, of schrijf je eigen zin in dezelfde vorm.",
       "slots": [
         { "label": "Nu (tegenwoordige tijd)", "chips": ["ik woon nu in Nederland", "ik spreek nu Nederlands", "het gaat goed met me"] },
         { "label": "Wat je hebt gedaan (perfect)", "chips": ["ik heb een jaar lang geleerd", "ik heb veel fouten gemaakt", "ik heb doorgezet"] },

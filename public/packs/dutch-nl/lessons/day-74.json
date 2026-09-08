@@ -61,29 +61,29 @@
     },
     {
       "type": "mcq",
-      "prompt": "You missed a whole sentence — too fast. Best move to stay in Dutch?",
+      "prompt": "Je hebt een hele zin gemist — te snel. Wat is de beste zet om in het Nederlands te blijven?",
       "options": ["'Sorry, in English please?'", "Kun je dat herhalen, iets langzamer?", "Just nod and hope"],
       "correct": 1,
       "explain": "Asking to repeat — slower — keeps you in Dutch AND gets you the sentence. Nodding along teaches you nothing; switching to English ends the practice."
     },
     {
       "type": "mcq",
-      "prompt": "The shop assistant answers you in English. What's the lightest way to hold the line?",
+      "prompt": "De verkoper antwoordt je in het Engels. Wat is de lichtste manier om vol te houden?",
       "options": ["Say nothing and switch to English too", "'Uw Engels is slecht.'", "We kunnen Nederlands blijven praten, hoor."],
       "correct": 2,
       "explain": "Warm, no blame, ends in *hoor* to soften it. Insulting their English (option 2) is both rude and wrong — theirs is great, that's the whole problem!"
     },
     {
       "type": "typed",
-      "prompt": "Type the phrase for 'how do you say…?'",
-      "answers": ["hoe zeg je", "hoe zeg je...", "hoe zeg je dat", "hoe zeg je dat?"],
+      "prompt": "Typ de zin waarmee je vraagt hoe je iets zegt ('how do you say…?').",
+      "answers": ["hoe zeg je", "hoe zeg je dat"],
       "hint": "Your most-used repair phrase. zeg = say.",
       "explain": "*Hoe zeg je…?* — reach for it the instant a word goes missing, instead of reaching for English."
     },
     {
       "type": "typed",
-      "prompt": "Type the two words that buy you a second to think (Let me think…).",
-      "answers": ["even denken", "even denken...", "even denken.", "even nadenken"],
+      "prompt": "Typ de twee woorden die je even bedenktijd geven ('Let me think…').",
+      "answers": ["even denken", "even nadenken"],
       "hint": "particle + a verb of thinking.",
       "explain": "*Even denken…* — the fluent-sounding pause. Silence feels long to you and normal to them."
     },
@@ -104,7 +104,7 @@
     {
       "type": "builder",
       "title": "Build your go-to line",
-      "prompt": "Assemble the phrase that opens the door to staying in Dutch.",
+      "prompt": "Bouw de zin die de deur opent om in het Nederlands te blijven.",
       "slots": [
         { "label": "May I", "chips": ["Mag ik het", "Kun je dat", "We kunnen"] },
         { "label": "…what", "chips": ["in het Nederlands proberen?", "herhalen?", "Nederlands blijven praten, hoor."] }
@@ -113,7 +113,7 @@
     },
     {
       "type": "journal",
-      "prompt": "Which phrase will be YOUR anchor for next time someone switches to English on you? Write it, then write one line about the real situation you'll use it in.",
+      "prompt": "Welke zin wordt jouw anker als iemand de volgende keer op Engels overschakelt? Schrijf hem op, en schrijf er één regel bij over de situatie waarin je hem gaat gebruiken.",
       "starters": ["Mijn zin is:…", "Ik ga het gebruiken als…"],
       "minSentences": 2
     }

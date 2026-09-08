@@ -94,7 +94,7 @@
     {
       "type": "typed",
       "prompt": "Order 'a tea, please' in Dutch.",
-      "answers": ["een thee, alsjeblieft", "een thee alsjeblieft", "thee, alsjeblieft", "een thee graag"],
+      "answers": ["een thee, alsjeblieft", "een thee alsjeblieft", "thee, alsjeblieft", "thee alsjeblieft", "een thee graag", "een thee, graag"],
       "hint": "een + drink + please.",
       "explain": "*Een thee, alsjeblieft.* Swap *thee* for *koffie* and you can order either."
     },

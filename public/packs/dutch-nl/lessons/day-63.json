@@ -14,7 +14,7 @@
     {
       "type": "card",
       "title": "Week 9 — je kunt nu praten in lagen",
-      "body": "Je zinnen zijn geen losse blokjes meer: je stapelt bijzinnen, vertelt door wat anderen zeiden, en speelt met echt versus denkbeeldig. Vandaag oefen je alles, roddel je met Daan over Sanne's nieuws, en breid je *mijn verhaal* uit.",
+      "body": "Je zinnen zijn geen losse blokjes meer: je stapelt bijzinnen, vertelt door wat anderen zeiden, en speelt met echt versus denkbeeldig. Vandaag oefen je alles, roddel je met Daan over Sannes nieuws, en breid je *mijn verhaal* uit.",
       "callout": "Doel van vandaag: iets doorvertellen wat iemand jou vertelde — *… zei dat…*"
     },
     {
@@ -67,7 +67,7 @@
     {
       "type": "builder",
       "title": "Bouw een als-droom",
-      "prompt": "Zeg wat je zou doen in Sanne's plaats.",
+      "prompt": "Zeg wat je zou doen in Sannes plaats.",
       "slots": [
         { "label": "Als… (verleden tijd)", "chips": ["Als ik Sanne was", "Als ik die kans kreeg", "Als ik meer tijd had"] },
         { "label": "…zou (hoofdzin)", "chips": ["zou ik het gewoon doen", "zou ik er even over nadenken", "zou ik eerst gaan kijken"] }

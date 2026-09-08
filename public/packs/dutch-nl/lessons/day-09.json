@@ -78,9 +78,10 @@
       "type": "dialogue",
       "scene": "At the snackbar counter — Daan is paying for you both",
       "lines": [
-        { "speaker": "Daan", "nl": "Twee patat, alsjeblieft. Wat kost dat?", "en": "Two fries, please. What does that cost?" },
-        { "speaker": "You", "nl": "Dat is vijf euro vijftig.", "en": "That's five euros fifty.", "spotlight": "€5,50 said the Dutch way — euros, euro, then the cents." },
-        { "speaker": "Daan", "nl": "Prima. Hier is zes euro.", "en": "Fine. Here's six euros.", "spotlight": "*zes euro* — euro stays singular after a number." }
+        { "speaker": "Daan", "nl": "Twee patat, alsjeblieft.", "en": "Two fries, please." },
+        { "speaker": "You", "nl": "Wat kost dat?", "en": "What does that cost?", "spotlight": "*Wat kost dat?* — the question that works at every till." },
+        { "speaker": "Daan", "nl": "Vijf euro vijftig.", "en": "Five fifty.", "spotlight": "€5,50 said the Dutch way — euros, *euro*, then the cents." },
+        { "speaker": "Daan", "nl": "Ik betaal, hoor. Hier is zes euro.", "en": "I'll pay. Here's six euros.", "spotlight": "*zes euro* — euro stays singular after a number." }
       ]
     },
     {

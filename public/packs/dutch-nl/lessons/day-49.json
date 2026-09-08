@@ -90,7 +90,7 @@
       "type": "dialogue",
       "scene": "Emma asks about your childhood over lunch. Try your new line out loud.",
       "lines": [
-        { "speaker": "Emma", "nl": "Kijk, ik ben benieuwd — waar groeide jij op?", "en": "So, I'm curious — where did you grow up?", "spotlight": "*groeide* — imperfectum of *groeien* (op) (to grow up)." },
+        { "speaker": "Emma", "nl": "Kijk, ik ben benieuwd — waar groeide jij op?", "en": "So, I'm curious — where did you grow up?", "spotlight": "*groeide … op* — imperfectum of *opgroeien* (to grow up)." },
         { "speaker": "You", "nl": "Toen ik klein was, woonde ik op het platteland.", "en": "When I was little, I lived in the countryside." },
         { "speaker": "Emma", "nl": "Wat leuk! En wat deed je daar zoal?", "en": "How nice! And what did you get up to there?" },
         { "speaker": "You", "nl": "Ik speelde altijd buiten en ging vaak naar mijn oma.", "en": "I always played outside and often went to my grandma's." },

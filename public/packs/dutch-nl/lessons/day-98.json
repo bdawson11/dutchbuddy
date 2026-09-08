@@ -8,7 +8,7 @@
   "title": "Mijn verhaal — een wat-als en een kleine spijt",
   "emoji": "🪞",
   "level": "B2",
-  "durationMin": [25, 35],
+  "durationMin": [20, 35],
   "summary": "Week 14 capstone: produce the counterfactual and regret forms, and add the mijn-verhaal layer — a hypothetical and a small regret about your own Dutch journey",
   "blocks": [
     {
@@ -21,7 +21,7 @@
           ["Voltooid verleden tijd", "Toen ik begon, had ik nog nooit Nederlands gehoord."],
           ["Irreële voorwaarde", "Als ik niet was begonnen, zou ik nu niets kunnen zeggen."],
           ["Voltooid conditionalis", "Ik zou het zo weer hebben gedaan."],
-          ["Spijt", "Ik had eerder durven praten."]
+          ["Spijt", "Ik had beter eerder kunnen beginnen."]
         ]
       }
     },
@@ -30,9 +30,9 @@
       "title": "Terugkijken — tik om te horen",
       "items": [
         { "nl": "Als ik dit eerder had geweten, was ik eerder begonnen.", "en": "Had I known this earlier, I'd have started earlier.", "speak": "Als ik dit eerder had geweten, was ik eerder begonnen." },
-        { "nl": "Ik had best wat vaker durven praten.", "en": "I could well have dared to speak more often.", "speak": "Ik had best wat vaker durven praten." },
+        { "nl": "Ik had wat vaker moeten durven praten.", "en": "I should have dared to speak more often.", "speak": "Ik had wat vaker moeten durven praten." },
         { "nl": "Zonder deze cursus zou ik nu vastlopen.", "en": "Without this course I'd be stuck now.", "speak": "Zonder deze cursus zou ik nu vastlopen." },
-        { "nl": "Had ik maar minder in het Engels teruggevallen.", "en": "If only I'd fallen back on English less.", "speak": "Had ik maar minder in het Engels teruggevallen." },
+        { "nl": "Had ik maar minder op het Engels teruggevallen.", "en": "If only I'd fallen back on English less.", "speak": "Had ik maar minder op het Engels teruggevallen." },
         { "nl": "Ik zou het zo weer doen.", "en": "I'd do it all over again.", "speak": "Ik zou het zo weer doen." }
       ]
     },
@@ -106,7 +106,7 @@
       "type": "journal",
       "prompt": "Week 14 klaar — twee weken B2! Waar ben je deze week het meest trots op? Vier het, in het Nederlands.",
       "starters": ["Deze week lukte …", "Ik ben trots dat …", "Volgende week ga ik …"],
-      "minSentences": 3
+      "minSentences": 4
     }
   ]
 }

@@ -77,7 +77,7 @@
     {
       "type": "typed",
       "prompt": "Turn 'Het is te koud' into an opinion starting with 'Ik vind dat…'.",
-      "answers": ["Ik vind dat het te koud is.", "Ik vind dat het te koud is", "ik vind dat het te koud is."],
+      "answers": ["Ik vind dat het te koud is."],
       "hint": "The verb 'is' has to move to the end.",
       "explain": "*Ik vind dat het te koud is.* — *is* leaves position two and lands last."
     },

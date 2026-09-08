@@ -47,7 +47,7 @@
     {
       "type": "typed",
       "prompt": "Druk spijt uit met *had … moeten*: *(ik / die kans / grijpen).*",
-      "answers": ["Ik had die kans moeten grijpen", "Ik had die kans moeten grijpen.", "Ik had die kans aan moeten grijpen", "Ik had die kans aan moeten grijpen."],
+      "answers": ["Ik had die kans moeten grijpen", "Ik had die kans moeten grijpen.", "Ik had die kans aan moeten grijpen", "Ik had die kans aan moeten grijpen.", "Ik had die kans moeten aangrijpen"],
       "hint": "*had* + die kans + *moeten grijpen*.",
       "explain": "*Ik had die kans moeten grijpen.* De spijtvorm: *had + moeten + infinitief*."
     },

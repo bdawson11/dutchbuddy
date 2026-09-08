@@ -55,13 +55,13 @@
       "lines": [
         { "speaker": "Sanne", "nl": "Hoi... ik heb een zware week gehad, eerlijk gezegd.", "en": "Hi... I've had a rough week, honestly." },
         { "speaker": "You", "nl": "Oh nee, wat is er gebeurd?", "en": "Oh no, what happened?" },
-        { "speaker": "Sanne", "nl": "Mijn fiets is gestolen, midden in Amsterdam!", "en": "My bike got stolen, right in the middle of Amsterdam!", "spotlight": "is gestolen — perfect tense from week 5, back in the wild" },
+        { "speaker": "Sanne", "nl": "Mijn fiets is gestolen, midden in Amsterdam!", "en": "My bike got stolen, right in the middle of Amsterdam!", "spotlight": "*is gestolen* — a participle with *zijn*: 'has been stolen'." },
         { "speaker": "You", "nl": "Wat vervelend! En toen?", "en": "How annoying! And then?" },
         { "speaker": "Sanne", "nl": "En toen werd ik ook nog ziek. Ik voelde me heel beroerd — koorts, hoofdpijn, alles.", "en": "And then I got sick on top of it. I felt awful — fever, headache, everything." },
         { "speaker": "You", "nl": "Ben je naar de huisarts geweest?", "en": "Did you go to the GP?" },
         { "speaker": "Sanne", "nl": "Ja, gisteren. Ze zei dat het gewoon griep was en dat ik rust moest nemen.", "en": "Yes, yesterday. She said it was just the flu and that I should rest." },
         { "speaker": "You", "nl": "Nou, dan moet je nu vooral rust nemen, hoor.", "en": "Well, then you really must rest now." },
-        { "speaker": "Sanne", "nl": "Dat doe ik. Bedankt dat je vraagt.", "en": "That's what I'm doing. Thanks for asking." }
+        { "speaker": "Sanne", "nl": "Dat doe ik. Bedankt dat je het vraagt.", "en": "That's what I'm doing. Thanks for asking." }
       ]
     },
     {

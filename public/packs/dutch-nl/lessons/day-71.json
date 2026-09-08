@@ -60,28 +60,28 @@
     },
     {
       "type": "mcq",
-      "prompt": "Ik wacht ___ de trein. Which preposition?",
+      "prompt": "Welk voorzetsel? 'Ik wacht ___ de trein.'",
       "options": ["voor", "op", "naar"],
       "correct": 1,
       "explain": "*wachten op* — always *op*, never *voor*. English 'wait for' does not transfer."
     },
     {
       "type": "mcq",
-      "prompt": "Which sentence is correct Dutch?",
+      "prompt": "Welke zin is correct Nederlands?",
       "options": ["Ik denk over jou.", "Ik denk aan jou.", "Ik denk naar jou."],
       "correct": 1,
       "explain": "*denken aan* = to think of someone. *denken over* exists but means 'to consider/ponder a matter', a different flavour."
     },
     {
       "type": "typed",
-      "prompt": "Fill the gap: 'Ik luister graag ___ muziek.' (I like listening to music.)",
+      "prompt": "Vul in: 'Ik luister graag ___ muziek.' (I like listening to music.)",
       "answers": ["naar", "naar muziek"],
       "hint": "luisteren + ?",
       "explain": "*luisteren naar* — you listen 'toward' the music in Dutch."
     },
     {
       "type": "typed",
-      "prompt": "Fill the gap: 'Ze is gestopt ___ roken.' (She quit smoking.)",
+      "prompt": "Vul in: 'Ze is gestopt ___ roken.' (She quit smoking.)",
       "answers": ["met", "met roken"],
       "hint": "stoppen + ?",
       "explain": "*stoppen met* — you stop 'with' the thing. Same preposition as *beginnen met*."
@@ -100,7 +100,7 @@
     {
       "type": "builder",
       "title": "Build a fixed-pair sentence",
-      "prompt": "Assemble: 'I'm waiting for my friend.'",
+      "prompt": "Bouw de zin: 'I'm waiting for my friend.'",
       "slots": [
         { "label": "Subject + verb", "chips": ["Ik wacht", "Ik zoek", "Ik denk"] },
         { "label": "Preposition", "chips": ["op", "naar", "aan"] },
@@ -110,7 +110,7 @@
     },
     {
       "type": "journal",
-      "prompt": "Write three true sentences about yourself, each using a different fixed pair from today (waar wacht je op? waar houd je van? waar erger je je aan?).",
+      "prompt": "Schrijf drie ware zinnen over jezelf, elk met een andere vaste combinatie van vandaag: waar wacht je op? waar houd je van? waar erger je je aan?",
       "starters": ["Ik wacht op…", "Ik houd van…", "Ik erger me aan…"],
       "minSentences": 3
     }

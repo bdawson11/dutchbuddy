@@ -63,7 +63,7 @@
       "type": "dialogue",
       "scene": "Emma introduces you to Daan at the café. Your turn to speak for yourself.",
       "lines": [
-        { "speaker": "Emma", "nl": "Daan, dit is mijn vriend. Zij leert Nederlands.", "en": "Daan, this is my friend. She's learning Dutch." },
+        { "speaker": "Emma", "nl": "Daan, dit is een vriend van mij. Hij leert Nederlands.", "en": "Daan, this is a friend of mine. He's learning Dutch." },
         { "speaker": "Daan", "nl": "Leuk! Waar kom je vandaan?", "en": "Nice! Where are you from?", "spotlight": "*Waar kom je vandaan?* = Where are you from? Learn it as a set phrase." },
         { "speaker": "You", "nl": "Ik kom uit Canada. Ik ben hier nieuw.", "en": "I'm from Canada. I'm new here.", "spotlight": "*Ik kom uit …* + country. Your go-to origin line." },
         { "speaker": "Daan", "nl": "En je spreekt al Nederlands, echt goed hoor!", "en": "And you already speak Dutch, really well!" }
@@ -84,7 +84,7 @@
       "slots": [
         { "label": "Name", "chips": ["Ik ben Alex", "Ik heet Alex", "Hoi, ik ben Alex"] },
         { "label": "Where from", "chips": ["Ik kom uit Canada", "Ik kom uit Amerika", "Ik kom uit Spanje"] },
-        { "label": "What you're doing", "chips": ["Ik leer Nederlands", "Ik ben hier nieuw", "en ik heb er zin in"] }
+        { "label": "What you're doing", "chips": ["Ik leer Nederlands", "Ik ben hier nieuw", "Ik leer Nederlands en ik heb er zin in"] }
       ],
       "sample": "Ik ben Alex. Ik kom uit Canada. Ik leer Nederlands en ik heb er zin in.",
       "starters": ["Ik ben …", "Ik kom uit …", "Ik leer Nederlands"]

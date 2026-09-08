@@ -19,28 +19,28 @@
     },
     {
       "type": "mcq",
-      "prompt": "Fixed pair review: 'Je kunt altijd ___ mij rekenen.'",
+      "prompt": "Herhaling vaste combinaties: 'Je kunt altijd ___ mij rekenen.'",
       "options": ["op", "aan", "met"],
       "correct": 0,
       "explain": "*rekenen op* — you count 'on' someone. From day 71."
     },
     {
       "type": "typed",
-      "prompt": "Soften this order with ONE particle so it sounds friendly: 'Wacht ___.' (Hang on a sec.)",
-      "answers": ["even", "even.", "wacht even"],
+      "prompt": "Verzacht dit bevel met ÉÉN partikel zodat het vriendelijk klinkt: 'Wacht ___.' (Hang on a sec.)",
+      "answers": ["even", "wacht even"],
       "hint": "The 'just for a moment' softener.",
       "explain": "*Wacht even* — the difference between barking an order and asking a small favour."
     },
     {
       "type": "mcq",
-      "prompt": "Diminutive review: which is correctly formed?",
+      "prompt": "Herhaling verkleinwoorden: welke vorm is goed gevormd?",
       "options": ["boomje", "boompje", "boomtje"],
       "correct": 1,
       "explain": "Long vowel + -m → **-pje**: boom → boompje. And remember: it's *het* boompje."
     },
     {
       "type": "typed",
-      "prompt": "Register review — make it polite (u): 'Kun je mij helpen?' → 'Kunt ___ mij helpen?'",
+      "prompt": "Herhaling register — maak het beleefd (u): 'Kun je mij helpen?' → 'Kunt ___ mij helpen?'",
       "answers": ["u", "u mij helpen", "kunt u mij helpen"],
       "hint": "Formal pronoun; the verb already took -t.",
       "explain": "*Kunt u mij helpen?* — *u* with the -t form. Your voice at any formal desk."
@@ -78,7 +78,7 @@
     {
       "type": "builder",
       "title": "Mijn verhaal, laag 11 — beleefd (u)",
-      "prompt": "Introduce yourself to an older stranger at a formal borrel. Same story, polite register.",
+      "prompt": "Stel jezelf voor aan een oudere onbekende op een formele borrel. Zelfde verhaal, beleefd register.",
       "slots": [
         { "label": "Formal greeting", "chips": ["Goedendag", "Aangenaam", "Dag"] },
         { "label": "Who you are", "chips": ["ik ben …", "ik heet …"] },
@@ -91,7 +91,7 @@
     {
       "type": "builder",
       "title": "Mijn verhaal, laag 11 — casual (je)",
-      "prompt": "Now the exact same intro, to a friend of a friend your own age. Warm, informal register.",
+      "prompt": "Nu precies dezelfde introductie, tegen een vriend van een vriend van jouw leeftijd. Warm, informeel register.",
       "slots": [
         { "label": "Casual greeting", "chips": ["Hoi", "Hey", "Hé"] },
         { "label": "Who you are", "chips": ["ik ben …", "ik heet …"] },

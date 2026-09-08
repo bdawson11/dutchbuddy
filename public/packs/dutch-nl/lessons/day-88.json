@@ -45,7 +45,7 @@
     },
     {
       "type": "mcq",
-      "prompt": "Op een bordje bij een bouwplaats staat het net het meest natuurlijk als…",
+      "prompt": "Welke tekst staat het natuurlijkst op een bordje bij een bouwplaats?",
       "options": ["Hier wordt gewerkt.", "Er werkt hier.", "Men werkt hier."],
       "correct": 0,
       "explain": "*Hier wordt gewerkt* — onpersoonlijk passief, precies de toon van een bordje. *Er werkt hier* mist een onderwerp; *Men werkt* klinkt oubollig."
@@ -77,7 +77,7 @@
       "title": "Kwam het binnen?",
       "questions": [
         { "q": "Wat gebeurt er met de kade in Rotterdam?", "options": ["Hij wordt opnieuw gebouwd", "Hij wordt verkocht", "Er gebeurt niets"], "correct": 0 },
-        { "q": "Waarom wordt er op zondag niet gebouwd?", "options": ["Het regent", "Het is zondag — geen werkdag", "Er is geen geld"], "correct": 1 }
+        { "q": "Wat gebeurt er op zondag op de bouwplaats?", "options": ["Er wordt gewoon doorgebouwd", "Er wordt alleen bewaakt", "Er wordt schoongemaakt"], "correct": 1 }
       ]
     },
     {

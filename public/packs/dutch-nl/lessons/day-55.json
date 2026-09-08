@@ -29,7 +29,7 @@
     {
       "type": "typed",
       "prompt": "Mixed drill — join with omdat: 'Ik leer Nederlands.' + 'Ik woon hier.'",
-      "answers": ["Ik leer Nederlands omdat ik hier woon.", "Ik leer Nederlands omdat ik hier woon", "ik leer nederlands omdat ik hier woon."],
+      "answers": ["Ik leer Nederlands omdat ik hier woon.", "Omdat ik hier woon, leer ik Nederlands."],
       "hint": "The second verb (woon) goes to the end.",
       "explain": "*Ik leer Nederlands omdat ik hier woon.* — subclause verb parked last."
     },

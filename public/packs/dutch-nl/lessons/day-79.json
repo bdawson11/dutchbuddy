@@ -74,23 +74,23 @@
     },
     {
       "type": "mcq",
-      "prompt": "Which word is 'green' — safe with anyone, including strangers and elders?",
+      "prompt": "Welk woord is 'groen' — veilig bij iedereen, ook bij onbekenden en ouderen?",
       "options": ["vet", "tof", "kut"],
       "correct": 1,
       "explain": "*tof* is warm, positive and universally fine. *vet* is yellow (reads young); the third belongs to the crude pile."
     },
     {
       "type": "typed",
-      "prompt": "A friend shows off their new bike and it's great. Give a warm, green-light reaction (two words).",
-      "answers": ["Wat tof", "Wat tof!", "Wat leuk", "Wat leuk!", "Echt leuk", "Tof zeg", "Wat gaaf"],
+      "prompt": "Een vriend laat zijn nieuwe fiets zien en hij is prachtig. Geef een warme, groene reactie (twee woorden).",
+      "answers": ["Wat tof", "Wat leuk", "Echt leuk", "Tof zeg", "Wat gaaf"],
       "hint": "Green tier only — nothing you'd regret at work.",
       "explain": "*Wat tof!* or *Wat leuk!* — pure green: warm, safe, unmistakably Dutch."
     },
     {
       "type": "dictation",
-      "prompt": "Listen and type the (very green) reaction.",
+      "prompt": "Luister en typ de (heel groene) reactie.",
       "speak": "Wat een gezellige avond, joh.",
-      "answers": ["Wat een gezellige avond, joh", "Wat een gezellige avond joh", "Wat een gezellige avond, joh."]
+      "answers": ["Wat een gezellige avond, joh", "Wat een gezellige avond joh"]
     },
     {
       "type": "journal",

@@ -84,7 +84,7 @@
     {
       "type": "typed",
       "prompt": "Say 'Tea is tastier than coffee.' (thee, koffie, lekker)",
-      "answers": ["Thee is lekkerder dan koffie.", "Thee is lekkerder dan koffie", "thee is lekkerder dan koffie."],
+      "answers": ["Thee is lekkerder dan koffie."],
       "hint": "lekker ends in -r → add -der. Link with dan.",
       "explain": "*Thee is lekkerder dan koffie.* — the -r adjective takes -der."
     },

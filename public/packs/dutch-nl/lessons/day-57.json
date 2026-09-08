@@ -32,7 +32,7 @@
       "type": "card",
       "title": "Bijzin vooraan? De hoofdzin draait om",
       "body": "If the subclause comes **first**, the main clause flips to verb-first — because the whole subclause counts as position one. *Hoewel het regent, **gaan** we toch fietsen.* Note the comma, then the verb before the subject.",
-      "callout": "Twee werkwoorden botsen om de komma: *…regent, gaan we…* — dat is goed Nederlands, geen fout."
+      "callout": "Twee werkwoorden naast elkaar rond de komma: *…regent, gaan we…* — dat is goed Nederlands, geen fout."
     },
     {
       "type": "chips",
@@ -63,7 +63,7 @@
         "Ik blijf thuis, hoewel wil ik eigenlijk weg."
       ],
       "correct": 1,
-      "explain": "Na *hoewel* gaat de persoonsvorm naar het eind: *…hoewel ik eigenlijk weg **wil**.* De infinitief-plus-persoonsvorm klit samen achteraan."
+      "explain": "Na *hoewel* gaat de persoonsvorm naar het eind: *…hoewel ik eigenlijk weg **wil**.* Het woordje *weg* blijft er vlak voor staan."
     },
     {
       "type": "typed",
@@ -82,7 +82,7 @@
       "slots": [
         { "label": "Hoofdzin", "chips": ["Ik ga vroeg naar bed", "Ik neem een jas mee", "Ik schrijf het op"] },
         { "label": "Voegwoord", "chips": ["zodat"] },
-        { "label": "Resultaat (werkwoord achteraan)", "chips": ["ik morgen fit ben", "ik het niet vergeet", "ik geen kou heb"] }
+        { "label": "Resultaat (werkwoord achteraan)", "chips": ["ik morgen fit ben", "ik het niet vergeet", "ik het niet koud heb"] }
       ],
       "sample": "Ik ga vroeg naar bed zodat ik morgen fit ben."
     },

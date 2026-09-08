@@ -77,7 +77,7 @@
         { "speaker": "Emma", "nl": "Spoor 11. We moeten in Utrecht overstappen.", "en": "Track 11. We have to change in Utrecht." },
         { "speaker": "You", "nl": "Hoe laat komt hij aan?", "en": "What time does it arrive?" },
         { "speaker": "Emma", "nl": "Om kwart over tien. Kom, hij staat er al!", "en": "At a quarter past ten. Come on, it's already there!" },
-        { "speaker": "Emma", "nl": "En vergeet niet uit te checken als we overstappen.", "en": "And don't forget to tap out when we transfer.", "spotlight": "On the Dutch railways you tap out and back in when you switch operators." }
+        { "speaker": "Emma", "nl": "En vergeet niet uit te checken als we aankomen.", "en": "And don't forget to tap out when we arrive.", "spotlight": "You tap out at the end of the trip — at a transfer only when you switch operators." }
       ]
     },
     {

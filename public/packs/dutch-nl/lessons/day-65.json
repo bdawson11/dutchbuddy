@@ -39,7 +39,7 @@
     {
       "type": "typed",
       "prompt": "'Heb je kinderen?' Antwoord dat je er drie hebt.",
-      "answers": ["Ik heb er drie.", "Ja, ik heb er drie.", "Ja ik heb er drie", "Ik heb er drie"],
+      "answers": ["Ik heb er drie.", "Ja, ik heb er drie.", "Ja ik heb er drie"],
       "hint": "of-them = er, and the number comes last.",
       "explain": "*Ik heb er drie.* The *er* replaces 'kinderen'; the number sits at the end."
     },
@@ -88,8 +88,7 @@
       "title": "Zet de splitsing op zijn plek",
       "prompt": "Bouw: zeg dat je er niet aan denkt. Let op de volgorde: er → ontkenning → prepositie aan het eind.",
       "slots": [
-        { "label": "Start", "chips": ["Ik", "Jij"] },
-        { "label": "Werkwoord", "chips": ["denk", "denkt"] },
+        { "label": "Onderwerp + werkwoord", "chips": ["Ik denk", "Jij denkt"] },
         { "label": "er", "chips": ["er"] },
         { "label": "Ontkenning", "chips": ["niet"] },
         { "label": "Prepositie (naar het eind)", "chips": ["aan", "over"] }

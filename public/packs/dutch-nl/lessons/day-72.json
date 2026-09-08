@@ -61,22 +61,22 @@
     },
     {
       "type": "mcq",
-      "prompt": "Your friend snaps 'Geef me de zout.' You want to soften it to a normal request. Which is best?",
-      "options": ["Geef me de zout nu.", "Geef me even de zout?", "Geef me de zout, punt."],
+      "prompt": "Je vriend blaft: 'Geef me het zout.' Hoe maak je er een normaal verzoek van?",
+      "options": ["Geef me het zout nu.", "Geef me even het zout.", "Geef me het zout, punt."],
       "correct": 1,
       "explain": "*even* turns a demand into a low-stakes favour. Without it, you sound like a boss."
     },
     {
       "type": "mcq",
-      "prompt": "'Je komt toch wel?' — what is the speaker doing with *toch wel*?",
+      "prompt": "'Je komt toch wel?' — wat doet de spreker met *toch wel*?",
       "options": ["Giving an order", "Checking / hoping you'll come", "Refusing to come"],
       "correct": 1,
       "explain": "*toch* seeks confirmation ('right?') and *wel* leans positive. Together: a hopeful 'you ARE coming, aren't you?'"
     },
     {
       "type": "typed",
-      "prompt": "Add ONE particle to reassure: '— Sorry! — Geen probleem ___.' (No problem, really.)",
-      "answers": ["hoor", "hoor.", "geen probleem hoor"],
+      "prompt": "Voeg ÉÉN partikel toe om gerust te stellen: '— Sorry! — Geen probleem ___.' (No problem, really.)",
+      "answers": ["hoor", "geen probleem hoor", "Geen probleem, hoor."],
       "hint": "The warm reassurance tag.",
       "explain": "*hoor* — the sound of 'honestly, it's totally fine'. Pure Netherlands warmth."
     },
@@ -94,7 +94,7 @@
     {
       "type": "builder",
       "title": "Soften a bossy line",
-      "prompt": "Turn a blunt request into a friendly one with a particle.",
+      "prompt": "Maak van een bot verzoek een vriendelijk verzoek met een partikel.",
       "slots": [
         { "label": "Request", "chips": ["Kom je", "Wacht", "Geef me de pen"] },
         { "label": "Softener", "chips": ["even?", "maar", "hoor"] }
@@ -103,7 +103,7 @@
     },
     {
       "type": "journal",
-      "prompt": "Rewrite three blunt sentences you might say in a day, each softened with a different particle (even / maar / hoor). Say them out loud — feel the mood change.",
+      "prompt": "Herschrijf drie botte zinnen die je op een dag zou kunnen zeggen, elk verzacht met een ander partikel (even / maar / hoor). Zeg ze hardop — voel het verschil.",
       "starters": ["…even?", "…maar.", "…hoor."],
       "minSentences": 3
     }

@@ -54,7 +54,7 @@
     {
       "type": "typed",
       "prompt": "Maak de irreële zin af: *Als ik meer tijd had, … (ik / meer lezen).*",
-      "answers": ["zou ik meer lezen", "zou ik meer lezen.", "Als ik meer tijd had, zou ik meer lezen", "las ik meer"],
+      "answers": ["zou ik meer lezen", "zou ik meer lezen.", "Als ik meer tijd had, zou ik meer lezen", "las ik meer", "Als ik meer tijd had, las ik meer"],
       "hint": "hoofdzin: *zou* + ik + infinitief.",
       "explain": "*Als ik meer tijd had, zou ik meer lezen* (of *…las ik meer*). Verzonnen 'nu' → verleden tijd + *zou*."
     },

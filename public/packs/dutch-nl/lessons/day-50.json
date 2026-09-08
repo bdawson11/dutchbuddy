@@ -73,7 +73,7 @@
     {
       "type": "typed",
       "prompt": "Say 'I'm going to cook tonight.' (vanavond, koken)",
-      "answers": ["Ik ga vanavond koken.", "Ik ga vanavond koken", "Vanavond ga ik koken.", "Vanavond ga ik koken"],
+      "answers": ["Ik ga vanavond koken.", "Vanavond ga ik koken."],
       "hint": "gaan second, koken at the end.",
       "explain": "*Ik ga vanavond koken.* Front *vanavond* and the verb still stays second: *Vanavond ga ik koken.*"
     },
@@ -82,7 +82,7 @@
       "title": "Bouw een plan",
       "prompt": "Assemble a plan: who, when, and what you're going to do.",
       "slots": [
-        { "label": "Wie + gaan", "chips": ["Ik ga", "We gaan", "Morgen ga ik"] },
+        { "label": "Wie + gaan", "chips": ["Ik ga", "We gaan", "Jij gaat"] },
         { "label": "Wanneer", "chips": ["straks", "vanavond", "volgende week", "dit weekend"] },
         { "label": "Wat (infinitief)", "chips": ["sporten", "koken", "een film kijken", "uitrusten"] }
       ],
@@ -109,7 +109,7 @@
       "type": "dictation",
       "prompt": "Listen and type the plan you hear.",
       "speak": "We gaan volgende week verhuizen.",
-      "answers": ["We gaan volgende week verhuizen.", "We gaan volgende week verhuizen", "Wij gaan volgende week verhuizen."]
+      "answers": ["We gaan volgende week verhuizen.", "Wij gaan volgende week verhuizen."]
     },
     {
       "type": "journal",

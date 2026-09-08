@@ -31,7 +31,7 @@
       "prompt": "A friend asks what you did yesterday. Which is the natural spoken reply — a reported event?",
       "options": ["Ik was naar de dokter.", "Ik ben naar de dokter gegaan.", "Ik had naar de dokter."],
       "correct": 1,
-      "explain": "Reporting one discrete event in conversation → **perfect**: *Ik ben naar de dokter gegaan.* *Ik was naar de dokter* isn't grammatical; *ging* would work in a longer narrative."
+      "explain": "Reporting one discrete event in conversation → **perfect**: *Ik ben naar de dokter gegaan.* *Ik was naar de dokter* isn't Dutch (you'd say *ik was bij de dokter*); *ging* would work in a longer narrative."
     },
     {
       "type": "card",
@@ -41,7 +41,7 @@
     },
     {
       "type": "chips",
-      "title": "Achtergrond in de imperfectum",
+      "title": "Achtergrond in het imperfectum",
       "items": [
         { "nl": "het was gezellig", "en": "it was cozy / fun", "speak": "het was gezellig" },
         { "nl": "ik had honger", "en": "I was hungry", "speak": "ik had honger" },

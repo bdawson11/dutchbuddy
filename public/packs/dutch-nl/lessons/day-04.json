@@ -63,7 +63,7 @@
     },
     {
       "type": "mcq",
-      "prompt": "Fill the gap: Hij ___ mijn vriend. (He is my friend.)",
+      "prompt": "Fill the gap: Hij ___ een vriend van mij. (He is a friend of mine.)",
       "options": ["ben", "bent", "is"],
       "correct": 2,
       "explain": "*hij* (he) takes *is*. *ben* is only for *ik*; *bent* is for *jij/u*."
@@ -71,7 +71,7 @@
     {
       "type": "typed",
       "prompt": "Complete: Ik ___ Nederlander. (I am Dutch.)",
-      "answers": ["ben", "ik ben"],
+      "answers": ["ben", "ik ben", "ik ben Nederlander"],
       "hint": "The *ik* form of zijn.",
       "explain": "*Ik ben.* This one form you'll say more than any other."
     },
@@ -100,7 +100,7 @@
       "type": "dialogue",
       "scene": "A borrel at Emma's. She introduces you to the room.",
       "lines": [
-        { "speaker": "Emma", "nl": "Iedereen, dit is mijn vriend. Hij leert Nederlands!", "en": "Everyone, this is my friend. He's learning Dutch!", "spotlight": "*dit is* = this is — *is*, the hij/zij/het form of zijn." },
+        { "speaker": "Emma", "nl": "Iedereen, dit is een vriend van mij. Hij leert Nederlands!", "en": "Everyone, this is a friend of mine. He's learning Dutch!", "spotlight": "*dit is* = this is — *is*, the hij/zij/het form of zijn." },
         { "speaker": "You", "nl": "Hoi, ik ben nieuw hier.", "en": "Hi, I'm new here.", "spotlight": "*ik ben* — the form you drilled." },
         { "speaker": "Emma", "nl": "Wij zijn allemaal aardig, hoor.", "en": "We're all nice, honestly." },
         { "speaker": "You", "nl": "Dat is fijn!", "en": "That's good!" }
@@ -110,7 +110,7 @@
       "type": "comprehension",
       "title": "Check yourself",
       "questions": [
-        { "q": "Which form of zijn does Emma use in 'dit is mijn vriend'?", "options": ["ben", "bent", "is"], "correct": 2 },
+        { "q": "Which form of zijn does Emma use in 'dit is een vriend van mij'?", "options": ["ben", "bent", "is"], "correct": 2 },
         { "q": "You'd address a stranger at the pharmacy with…", "options": ["je", "u", "jullie"], "correct": 1 }
       ]
     },

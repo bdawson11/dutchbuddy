@@ -31,7 +31,7 @@
     },
     {
       "type": "mcq",
-      "prompt": "You walk into a bookshop and just want to look around. The staff asks 'Kan ik u helpen?' What do you say?",
+      "prompt": "Je loopt een boekwinkel binnen en wilt alleen rondkijken. De verkoper vraagt: 'Kan ik u helpen?' Wat zeg je?",
       "options": ["Ja, ik neem deze.", "Nee dank u, ik kijk alleen even.", "Zegt u het maar."],
       "correct": 1,
       "explain": "*Ik kijk alleen even* = 'just browsing'. *Zegt u het maar* is the staff's line, not yours."
@@ -79,15 +79,15 @@
     },
     {
       "type": "typed",
-      "prompt": "Type the polite 'I'm just browsing, thank you.'",
-      "answers": ["Ik kijk alleen even, dank u", "Ik kijk alleen even, dank u.", "Ik kijk alleen even", "Nee dank u, ik kijk alleen even"],
+      "prompt": "Typ wat je beleefd zegt als je alleen rondkijkt — met *dank u* erbij.",
+      "answers": ["Ik kijk alleen even, dank u", "Ik kijk alleen even", "Nee dank u, ik kijk alleen even", "Nee, dank u wel, ik kijk alleen even"],
       "hint": "The browsing phrase plus a polite *dank u*.",
       "explain": "*Ik kijk alleen even, dank u* — polite, and it gently signals you don't need help yet."
     },
     {
       "type": "builder",
-      "title": "Ask for your haircut",
-      "prompt": "Tell the kapper what you want.",
+      "title": "Vraag om je knipbeurt",
+      "prompt": "Vertel de kapper wat je wilt.",
       "slots": [
         { "label": "Wens", "chips": ["Ik wil mijn haar laten knippen", "Ik wil alleen de zijkanten kort"] },
         { "label": "Hoeveel", "chips": ["een centimeter of twee eraf", "niet te veel eraf"] },

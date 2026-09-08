@@ -39,7 +39,7 @@
         { "nl": "Men wordt verzocht de deur te sluiten.", "en": "Please close the door (formal).", "speak": "Men wordt verzocht de deur te sluiten." },
         { "nl": "U wordt vriendelijk verzocht te wachten.", "en": "You are kindly asked to wait.", "speak": "U wordt vriendelijk verzocht te wachten." },
         { "nl": "Men zegt dat het druk wordt.", "en": "They say it's going to be busy.", "speak": "Men zegt dat het druk wordt." },
-        { "nl": "De aanvraag is in behandeling genomen.", "en": "The application has been taken up.", "speak": "De aanvraag is in behandeling genomen." },
+        { "nl": "De aanvraag is in behandeling genomen.", "en": "The application is being processed.", "speak": "De aanvraag is in behandeling genomen." },
         { "nl": "Hierbij wordt u meegedeeld dat…", "en": "You are hereby informed that…", "speak": "Hierbij wordt u meegedeeld dat…" },
         { "nl": "Roken is niet toegestaan.", "en": "Smoking is not permitted.", "speak": "Roken is niet toegestaan." }
       ]
@@ -74,7 +74,7 @@
       "lines": [
         { "speaker": "You", "nl": "Emma, snap jij deze brief? 'Men wordt verzocht…' — wat?", "en": "Emma, do you get this letter? 'One is requested…' — what?" },
         { "speaker": "Emma", "nl": "Haha, ambtenarentaal. 'Men wordt verzocht' betekent gewoon: 'wilt u alstublieft'.", "en": "Haha, bureaucrat-speak. It just means 'would you please'.", "spotlight": "*men wordt verzocht* = beleefd verzoek." },
-        { "speaker": "You", "nl": "En 'de aanvraag is in behandeling genomen'?", "en": "And 'the application has been taken up'?" },
+        { "speaker": "You", "nl": "En 'de aanvraag is in behandeling genomen'?", "en": "And 'the application is being processed'?" },
         { "speaker": "Emma", "nl": "Dat is passief voor: 'we kijken ernaar'. Ze zeggen nooit 'wij'.", "en": "That's passive for 'we're looking at it'. They never say 'we'." },
         { "speaker": "You", "nl": "Waarom zo ingewikkeld?", "en": "Why so complicated?" },
         { "speaker": "Emma", "nl": "Afstand. Het klinkt netjes en officieel. Niemand voelt zich persoonlijk aangesproken.", "en": "Distance. It sounds tidy and official. Nobody feels personally addressed." },

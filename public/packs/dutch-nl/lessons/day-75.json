@@ -61,21 +61,21 @@
     },
     {
       "type": "mcq",
-      "prompt": "You approach an older woman you don't know to ask for directions. Which opening?",
+      "prompt": "Je spreekt een oudere onbekende vrouw aan om de weg te vragen. Welke opening?",
       "options": ["Weet jij waar het station is?", "Weet u misschien waar het station is?", "Hé, waar is het station?"],
       "correct": 1,
       "explain": "Older + stranger + a favour = *u*, softened with *misschien*. Start high; she can offer *je* if she likes."
     },
     {
       "type": "mcq",
-      "prompt": "Your new colleague says 'Zeg maar je, hoor.' What just happened?",
+      "prompt": "Je nieuwe collega zegt: 'Zeg maar je, hoor.' Wat gebeurt er?",
       "options": ["She's correcting your grammar", "She's inviting you to use the informal je", "She's asking you to leave"],
       "correct": 1,
       "explain": "*Zeg maar je* is the classic invitation to drop *u*. Switch to *je* from that moment — refusing would feel cold."
     },
     {
       "type": "typed",
-      "prompt": "Make this polite (u-form): 'Wil je een afspraak maken?' → 'Wilt ___ een afspraak maken?'",
+      "prompt": "Maak dit beleefd (u-vorm): 'Wil je een afspraak maken?' → 'Wilt ___ een afspraak maken?'",
       "answers": ["u", "u een afspraak maken", "wilt u een afspraak maken"],
       "hint": "Formal pronoun + the verb already took -t for you.",
       "explain": "*Wilt u…?* — *u* pairs with the -t form. This is your voice at the doctor or a formal desk."
@@ -94,7 +94,7 @@
     {
       "type": "builder",
       "title": "Build a polite request",
-      "prompt": "Assemble a formal (u) request for a stranger at a desk.",
+      "prompt": "Bouw een formeel verzoek (u) aan een onbekende achter een balie.",
       "slots": [
         { "label": "Verb (u-form)", "chips": ["Kunt u", "Wilt u", "Hebt u"] },
         { "label": "Rest", "chips": ["mij helpen?", "een momentje?", "dit nog eens uitleggen?"] }
@@ -103,7 +103,7 @@
     },
     {
       "type": "journal",
-      "prompt": "List three people or places from your week and note *u* or *je* for each, with a one-line reason. Where are you unsure? That's the useful edge.",
+      "prompt": "Noem drie mensen of plekken uit je week en schrijf bij elk *u* of *je*, met één regel uitleg. Waar twijfel je? Daar zit de winst.",
       "starters": ["De huisarts: u, omdat…", "Mijn buurvrouw: …, omdat…"],
       "minSentences": 3
     }

@@ -91,7 +91,7 @@
       "slots": [
         { "label": "1 — Voorop (front)", "chips": ["'s Ochtends", "'s Avonds", "Op maandag"] },
         { "label": "2 — Werkwoord (verb)", "chips": ["drink", "eet", "werk"] },
-        { "label": "3 — Onderwerp (subject)", "chips": ["ik", "jij", "wij"] },
+        { "label": "3 — Onderwerp (subject)", "chips": ["ik", "jij"] },
         { "label": "4 — Rest", "chips": ["koffie", "een broodje", "thuis"] }
       ],
       "sample": "'s Ochtends drink ik koffie."
@@ -99,7 +99,7 @@
     {
       "type": "typed",
       "prompt": "Rewrite starting with the time. Base sentence: 'Ik ga om negen uur naar mijn werk.' Start with 'Om negen uur …'.",
-      "answers": ["om negen uur ga ik naar mijn werk", "Om negen uur ga ik naar mijn werk"],
+      "answers": ["Om negen uur ga ik naar mijn werk"],
       "hint": "Verb stays second, so *ga* comes right after the time, then *ik*.",
       "explain": "*Om negen uur ga ik naar mijn werk.* Front the time → verb in slot 2 → subject inverts."
     },

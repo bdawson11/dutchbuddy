@@ -27,7 +27,7 @@
     {
       "type": "typed",
       "prompt": "Zeg in de passief: 'Ze laden de vrachtwagen in.' → De vrachtwagen …",
-      "answers": ["De vrachtwagen wordt ingeladen.", "De vrachtwagen wordt ingeladen"],
+      "answers": ["De vrachtwagen wordt ingeladen."],
       "hint": "worden + voltooid deelwoord (ingeladen).",
       "explain": "*De vrachtwagen wordt ingeladen.* inladen → ingeladen; *worden* draagt het onderwerp."
     },
@@ -50,7 +50,7 @@
       "type": "comprehension",
       "title": "Begrijp je het verhaal?",
       "questions": [
-        { "q": "Is Sannes verhuizing al ingepakt?", "options": ["Nee, nog niet", "Ja, alles is al ingepakt", "Alleen de keuken"], "correct": 1 },
+        { "q": "Zijn Sannes spullen al ingepakt?", "options": ["Nee, nog niet", "Ja, alles is al ingepakt", "Alleen de keuken"], "correct": 1 },
         { "q": "Hoe voelt Sanne zich op de verhuisdag?", "options": ["Alleen maar blij", "Een beetje raar, maar ze verheugt zich ook", "Boos"], "correct": 1 },
         { "q": "Waar gaat Sanne wonen?", "options": ["In Rotterdam", "In Utrecht", "In Groningen"], "correct": 1 }
       ]

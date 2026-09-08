@@ -92,7 +92,7 @@
       "lines": [
         { "speaker": "Emma", "nl": "Kijk, deze kaas is echt lekker.", "en": "Look, this cheese is really tasty.", "spotlight": "*deze kaas* — de-word, so deze. And there's Emma's trademark *Kijk*." },
         { "speaker": "You", "nl": "En dat brood daar?", "en": "And that bread over there?", "spotlight": "*dat brood* — het-word and far away, so dat." },
-        { "speaker": "Emma", "nl": "Ook goed. En er is verse stroopwafel, hoor!", "en": "Also good. And there's fresh stroopwafel, you know!", "spotlight": "*er is* pointing out what exists at the stall." }
+        { "speaker": "Emma", "nl": "Ook goed. En er zijn verse stroopwafels, hoor!", "en": "Also good. And there are fresh stroopwafels, you know!", "spotlight": "*er zijn* — plural, so *zijn*: pointing out what's on the stall." }
       ]
     },
     {

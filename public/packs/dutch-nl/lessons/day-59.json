@@ -61,8 +61,6 @@
       "type": "typed",
       "prompt": "Zet om: \"Kom je mee?\" (Hij vroeg …). Begin met 'Hij vroeg of'.",
       "answers": [
-        "Hij vroeg of ik meeging",
-        "Hij vroeg of ik meekwam",
         "Hij vroeg of ik meeging.",
         "Hij vroeg of ik meekwam."
       ],
@@ -85,8 +83,7 @@
       "prompt": "Luister en typ de zin.",
       "speak": "Ze vroeg of ik zin had om mee te gaan.",
       "answers": [
-        "Ze vroeg of ik zin had om mee te gaan.",
-        "Ze vroeg of ik zin had om mee te gaan"
+        "Ze vroeg of ik zin had om mee te gaan."
       ]
     },
     {

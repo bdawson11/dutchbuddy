@@ -45,7 +45,7 @@
         { "speaker": "You", "nl": "Wauw, gefeliciteerd! Vroegen ze nog iets?", "en": "Wow, congrats! Did they ask anything?" },
         { "speaker": "Sanne", "nl": "Ze vroegen of ik volgende week kon langskomen. En of ik snel kon beslissen.", "en": "They asked if I could come by next week. And if I could decide quickly.", "spotlight": "vraag doorvertellen: *of ik … kon langskomen.*" },
         { "speaker": "Emma", "nl": "En? Ga je het doen?", "en": "And? Are you going to do it?" },
-        { "speaker": "Sanne", "nl": "Ik weet het nog niet, hoor. Hoewel het een geweldige kans is, twijfel ik echt.", "en": "I don't know yet, honestly. Although it's a great chance, I really doubt.", "spotlight": "hoewel + werkwoord achteraan; Sanne heeft nog niét besloten." },
+        { "speaker": "Sanne", "nl": "Ik weet het nog niet, hoor. Hoewel het een geweldige kans is, twijfel ik echt.", "en": "I don't know yet, honestly. Although it's a great chance, I'm really unsure.", "spotlight": "hoewel + werkwoord achteraan; Sanne heeft nog niét besloten." },
         { "speaker": "Sanne", "nl": "Als ik ja zou zeggen, zou ik naar Utrecht moeten verhuizen. Dat is nogal wat.", "en": "If I said yes, I'd have to move to Utrecht. That's quite something.", "spotlight": "hypothetische als-zin + zou: het is nog een dróóm, geen besluit." }
       ]
     },

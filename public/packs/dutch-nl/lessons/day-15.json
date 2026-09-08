@@ -91,7 +91,7 @@
       "scene": "Emma shows you a photo on her phone.",
       "lines": [
         { "speaker": "Emma", "nl": "Kijk, dit is mijn moeder en mijn vader.", "en": "Look, this is my mother and my father." },
-        { "speaker": "You", "nl": "Gezellig! En wie is dit?", "en": "Nice! And who is this?" },
+        { "speaker": "You", "nl": "Wat leuk! En wie is dit?", "en": "How nice! And who is this?" },
         { "speaker": "Emma", "nl": "Dat is mijn zusje, Fleur.", "en": "That's my little sister, Fleur.", "spotlight": "zusje — the diminutive makes it warm, not literally small." },
         { "speaker": "You", "nl": "Heb je ook een broer?", "en": "Do you also have a brother?" },
         { "speaker": "Emma", "nl": "Ja, mijn broertje Tim — hij is eigenlijk ouder dan ik, hoor!", "en": "Yes, my little bro Tim — he's actually older than me!", "spotlight": "broertje — still 'little brother' even though he's older. It's affection, not age." }

@@ -53,7 +53,7 @@
     {
       "type": "typed",
       "prompt": "Maak beleefd met *zou*: *Kun je het raam opendoen?*",
-      "answers": ["Zou je het raam kunnen opendoen", "Zou je het raam kunnen opendoen?", "Zou je het raam open kunnen doen", "Zou je het raam open kunnen doen?"],
+      "answers": ["Zou je het raam kunnen opendoen", "Zou je het raam kunnen opendoen?", "Zou je het raam open kunnen doen", "Zou je het raam open kunnen doen?", "Zou je het raam willen opendoen", "Zou je het raam open willen doen"],
       "hint": "*Zou je … kunnen* + werkwoord.",
       "explain": "*Zou je het raam kunnen opendoen?* — meteen een stuk vriendelijker."
     },
@@ -77,7 +77,7 @@
         { "speaker": "Daan", "nl": "Ik zou wel naar dat nieuwe café willen. Of we zouden kunnen fietsen.", "en": "I'd fancy that new café. Or we could go cycling.", "spotlight": "*zou willen* (wens) + *zouden kunnen* (mogelijkheid)." },
         { "speaker": "You", "nl": "Fietsen zou leuk zijn, als het niet regent.", "en": "Cycling would be nice, if it doesn't rain." },
         { "speaker": "Daan", "nl": "Anders zouden we ook gewoon binnen kunnen blijven.", "en": "Otherwise we could just stay in." },
-        { "speaker": "You", "nl": "Zou kunnen. Ik zou het rond het weekend even laten weten.", "en": "Could be. I'd let you know around the weekend." },
+        { "speaker": "You", "nl": "Zou kunnen. Ik zou het je tegen het weekend even laten weten.", "en": "Could be. I'd let you know towards the weekend." },
         { "speaker": "Daan", "nl": "Prima. Dan zou ik het aan Emma kunnen vragen.", "en": "Fine. Then I could ask Emma." },
         { "speaker": "You", "nl": "Doe maar. Klinkt goed.", "en": "Go ahead. Sounds good." }
       ]
@@ -87,7 +87,7 @@
       "title": "Vage plannen",
       "questions": [
         { "q": "Wat zou Daan zaterdag willen doen?", "options": ["Werken", "Naar een café of fietsen", "Niets"], "correct": 1 },
-        { "q": "Wanneer laat You het weten?", "options": ["Nu meteen", "Rond het weekend", "Nooit"], "correct": 1 }
+        { "q": "Wanneer laat You het weten?", "options": ["Nu meteen", "Tegen het weekend", "Nooit"], "correct": 1 }
       ]
     },
     {

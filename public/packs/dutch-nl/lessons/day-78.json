@@ -56,23 +56,23 @@
     },
     {
       "type": "mcq",
-      "prompt": "A nervous friend is hovering in your doorway. Which sounds warm, not bossy?",
+      "prompt": "Een zenuwachtige vriend staat in je deuropening. Wat klinkt warm en niet bazig?",
       "options": ["Binnen!", "Kom maar binnen.", "Je moet nu binnenkomen."],
       "correct": 1,
       "explain": "*Kom maar binnen* = 'come on in, it's fine'. The bare *Binnen!* is a command to a dog; the third is an obligation, not a welcome."
     },
     {
       "type": "typed",
-      "prompt": "Turn *wachten* into a friendly 'Wait a second!' — verb plus one softener.",
-      "answers": ["Wacht even", "Wacht even!", "Wacht eens", "Wacht nou"],
+      "prompt": "Maak van *wachten* een vriendelijk 'Wait a second!' — werkwoord plus één verzachter.",
+      "answers": ["Wacht even", "Wacht eens", "Wacht nou"],
       "hint": "Stem + a particle like *even*.",
       "explain": "*Wacht even!* — the stem *wacht* plus *even* ('for a sec') is the everyday version."
     },
     {
       "type": "dictation",
-      "prompt": "Listen and type the friendly command.",
+      "prompt": "Luister en typ het vriendelijke bevel.",
       "speak": "Ga maar zitten.",
-      "answers": ["Ga maar zitten", "Ga maar zitten.", "Ga maar zitten!"]
+      "answers": ["Ga maar zitten."]
     },
     {
       "type": "dialogue",
@@ -99,12 +99,12 @@
     },
     {
       "type": "builder",
-      "title": "Build a friendly command",
-      "prompt": "Assemble a warm, softened command a host might say.",
+      "title": "Bouw een vriendelijk bevel",
+      "prompt": "Bouw een warme, verzachte opdracht die een gastheer zou zeggen.",
       "slots": [
-        { "label": "Werkwoord", "chips": ["Kom", "Wacht", "Kijk", "Ga"] },
+        { "label": "Werkwoord", "chips": ["Kom", "Ga"] },
         { "label": "Verzachter", "chips": ["maar", "even", "eens", "nou"] },
-        { "label": "Rest", "chips": ["binnen", "hier", "zitten", "mee"] }
+        { "label": "Rest", "chips": ["binnen", "zitten", "mee"] }
       ],
       "sample": "Kom maar binnen."
     },

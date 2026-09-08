@@ -48,8 +48,7 @@
       "title": "Bouw de zin",
       "prompt": "Zet de zin op volgorde: onderwerp + vervoegd werkwoord + tijd + plaats + infinitief.",
       "slots": [
-        { "label": "Onderwerp", "chips": ["Ik", "Jij", "We"] },
-        { "label": "Vervoegd werkwoord", "chips": ["wil", "willen", "wilt"] },
+        { "label": "Onderwerp + vervoegd werkwoord", "chips": ["Ik wil", "Jij wilt", "We willen"] },
         { "label": "Tijd", "chips": ["zaterdag", "morgen"] },
         { "label": "Plaats", "chips": ["naar Utrecht", "naar huis"] },
         { "label": "Infinitief (eind)", "chips": ["gaan"] }
@@ -80,7 +79,7 @@
     {
       "type": "typed",
       "prompt": "Vertaal: 'I'm staying home because I want to pack.' Begin met 'Ik blijf thuis omdat…'",
-      "answers": ["Ik blijf thuis omdat ik wil inpakken.", "Ik blijf thuis omdat ik wil inpakken", "Ik blijf thuis omdat ik in wil pakken.", "Ik blijf thuis omdat ik in wil pakken"],
+      "answers": ["Ik blijf thuis omdat ik wil inpakken.", "Ik blijf thuis omdat ik in wil pakken."],
       "hint": "Bijzin: het werkwoord-cluster (wil inpakken) gaat naar het eind.",
       "explain": "*…omdat ik wil inpakken.* In the subclause the cluster *wil inpakken* closes it. (Both *wil inpakken* and *in wil pakken* are heard; the first is the most common.)"
     },
