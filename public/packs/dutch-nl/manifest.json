@@ -48,7 +48,10 @@
     "vocabReveal": "Laat het Nederlands zien",
     "vocabKnew": "Wist ik",
     "vocabMissed": "Nog niet",
-    "vocabFrom": "Uit"
+    "vocabFrom": "Uit",
+    "shadowing": "Naspreken",
+    "comprehension": "Begrijp je het?",
+    "sample": "Voorbeeld"
   },
   "grading": { "diacriticTolerant": true },
   "specialChars": ["é", "ë", "ï", "ö", "ü", "è", "ê"],

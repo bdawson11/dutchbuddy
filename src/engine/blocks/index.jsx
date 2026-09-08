@@ -33,7 +33,7 @@ function DoneButton({ done, onDone, label = 'Got it' }) {
 export function Card({ block, done, onDone }) {
   return (
     <div className="block block-card">
-      <h3>{block.title}</h3>
+      <h3>{md(block.title)}</h3>
       <p>{md(block.body)}</p>
       {block.table && (
         <table>
@@ -61,7 +61,7 @@ export function Chips({ block, done, onDone }) {
   };
   return (
     <div className="block block-chips">
-      {block.title && <h3>{block.title}</h3>}
+      {block.title && <h3>{md(block.title)}</h3>}
       <div className="chip-grid">
         {block.items.map((item, i) => (
           <button key={i} className={`chip ${tapped.has(i) ? 'chip-tapped' : ''}`} onClick={() => tap(i, item)}>
@@ -78,7 +78,7 @@ export function Chips({ block, done, onDone }) {
 export function Contrast({ block, done, onDone }) {
   return (
     <div className="block block-contrast">
-      {block.title && <h3>{block.title}</h3>}
+      {block.title && <h3>{md(block.title)}</h3>}
       {block.pairs.map((p, i) => (
         <div key={i} className="contrast-pair">
           <div className="contrast-cols">
@@ -208,7 +208,7 @@ export function Builder({ block, done, onDone }) {
   const sentence = block.slots.map((_, i) => picks[i]).filter(Boolean).map(plain).join(' ');
   return (
     <div className="block block-builder">
-      {block.title && <h3>{block.title}</h3>}
+      {block.title && <h3>{md(block.title)}</h3>}
       {block.prompt && <p className="prompt">{md(block.prompt)}</p>}
       {block.slots.map((slot, i) => (
         <div key={i} className="builder-slot">
@@ -223,7 +223,7 @@ export function Builder({ block, done, onDone }) {
       <div className="builder-output">
         {sentence ? <><span>{sentence}</span> <button className="speak-btn" onClick={() => speak(sentence)}>🔊</button></> : <span className="hint-text">Pick one from each row…</span>}
       </div>
-      {block.sample && done && <p className="feedback explain">Sample: {block.sample}</p>}
+      {block.sample && done && <p className="feedback explain">{ui('sample', 'Sample')}: {block.sample}</p>}
     </div>
   );
 }
@@ -238,7 +238,7 @@ export function Dialogue({ block, done, onDone }) {
   };
   return (
     <div className="block block-dialogue">
-      <h3>💬 {block.scene}</h3>
+      <h3>💬 {md(block.scene)}</h3>
       {block.lines.map((line, i) => (
         <button type="button" key={i} className={`dialogue-line ${revealed.has(i) ? 'is-revealed' : ''}`} onClick={() => reveal(i, line)}>
           <span className="speaker">{line.speaker}</span>
@@ -262,7 +262,7 @@ export function Shadow({ block, done, onDone }) {
   };
   return (
     <div className="block block-shadow">
-      <h3>{block.title || 'Shadowing'}</h3>
+      <h3>{md(block.title || ui('shadowing', 'Shadowing'))}</h3>
       <p className="hint-text">{ui('shadowHint', 'Play each line, then say it out loud, copying the rhythm.')}</p>
       {block.lines.map((line, i) => (
         <div key={i} className="shadow-line">
@@ -286,7 +286,7 @@ export function Comprehension({ block, done, onDone }) {
   };
   return (
     <div className="block block-comprehension">
-      <h3>{block.title || 'Comprehension'}</h3>
+      <h3>{md(block.title || ui('comprehension', 'Comprehension'))}</h3>
       {block.questions.map((q, qi) => (
         <div key={qi} className="comp-question">
           <p className="prompt">{md(q.q)}</p>
@@ -327,7 +327,7 @@ export function Journal({ block, done, onDone, packId, dayId, blockIndex }) {
       <h3>📓 {ui('journal', 'Journal')}</h3>
       <p className="prompt">{md(block.prompt)}</p>
       {block.starters && (
-        <p className="hint-text">{ui('starters', 'Starters')}: {block.starters.join(' · ')}</p>
+        <p className="hint-text">{ui('starters', 'Starters')}: {md(block.starters.join(' · '))}</p>
       )}
       <textarea
         rows={4}
