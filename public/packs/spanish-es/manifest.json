@@ -14,6 +14,8 @@
     "journalPlaceholder": "Escribe aquí…"
   },
   "grading": { "diacriticTolerant": true },
+  "specialChars": ["á", "é", "í", "ó", "ú", "ñ", "ü", "¿", "¡"],
+  "audio": { "avoidLocales": ["es-MX", "es-US", "es-AR", "es-CO", "es-419"] },
   "dialect": {
     "identity": "Spanish of Spain (Castilian)",
     "contrast": "Not Latin American",

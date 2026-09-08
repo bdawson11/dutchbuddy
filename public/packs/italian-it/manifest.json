@@ -14,6 +14,8 @@
     "journalPlaceholder": "Scrivi qui…"
   },
   "grading": { "diacriticTolerant": true },
+  "specialChars": ["à", "è", "é", "ì", "ò", "ù"],
+  "audio": { "avoidLocales": [] },
   "dialect": {
     "identity": "Standard Italian (national TV/broadcast standard)",
     "contrast": "Not a regional dialect, but aware of regional variety",

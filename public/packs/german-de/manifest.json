@@ -14,6 +14,8 @@
     "journalPlaceholder": "Schreib hier…"
   },
   "grading": { "diacriticTolerant": true },
+  "specialChars": ["ä", "ö", "ü", "ß"],
+  "audio": { "avoidLocales": ["de-AT", "de-CH"] },
   "dialect": {
     "identity": "Germany Standard German (Hochdeutsch, northern-neutral)",
     "contrast": "Not Austrian, not Swiss",

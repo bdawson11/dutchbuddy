@@ -6,7 +6,7 @@ this file:
 
 | Pack | App | Identity | Roadmap | Status |
 |------|-----|----------|---------|--------|
-| `dutch-nl` | DutchBuddy | Netherlands Dutch, not Flemish | `docs/plan.md` §3 | **Complete** — 84/84 days |
+| `dutch-nl` | DutchBuddy | Netherlands Dutch, not Flemish | `docs/plan.md` §3 + `docs/roadmap-dutch-nl.md` | **Complete** — 126/126 days (A1 → C1 gateway), QA pass on 1–98 |
 | `german-de` | GermanBuddy | Germany Hochdeutsch, not Austrian/Swiss | `docs/roadmap-german-de.md` | Scaffolded — manifest + bible + W1 |
 | `italian-it` | ItalianBuddy | Standard Italian, dialect-aware | `docs/roadmap-italian-it.md` | Scaffolded — manifest + bible + W1 |
 | `spanish-es` | SpanishBuddy* | Peninsular Castilian, not LatAm | `docs/roadmap-spanish-es.md` | Scaffolded — manifest + bible + W1 |

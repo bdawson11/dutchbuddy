@@ -9,13 +9,15 @@ Content packs (each a language "course" inside YapWorld):
 
 | Pack | Language | Content |
 |------|----------|---------|
-| `dutch-nl` | 🇳🇱 Dutch (Netherlands, not Flemish) | Days 1–98 (A1 → B1 core + B2 weeks 13–14); `docs/roadmap-dutch-nl.md` |
+| `dutch-nl` | 🇳🇱 Dutch (Netherlands, not Flemish) | **Complete — days 1–126** (A1 → B1 core, B2 depth, C1 gateway); `docs/roadmap-dutch-nl.md` |
 | `german-de` | 🇩🇪 German (Hochdeutsch) | Days 1–98 (A1 → B1 core + B2 weeks 13–14); `docs/roadmap-german-de.md` |
 | `italian-it` | 🇮🇹 Italian (standard) | Days 1–98 (A1 → B1 core + B2 weeks 13–14); `docs/roadmap-italian-it.md` |
 | `spanish-es` | 🇪🇸 Spanish (Peninsular Castilian) | Days 1–98 (A1 → B1 core + B2 weeks 13–14); `docs/roadmap-spanish-es.md` |
 
 Each pack's manifest defines an 18-week (126-day) A1 → C1-gateway structure;
-days 99–126 (weeks 15–18) are scoped in the roadmaps and render as "coming soon".
+for packs other than Dutch, days 99–126 (weeks 15–18) are scoped in the
+roadmaps and render as "coming soon". Latest project review and roadmap:
+`docs/review-2026-09.md`.
 
 ## Architecture
 
@@ -30,11 +32,17 @@ Single unified app; the language is chosen at runtime, not at build time.
 - `src/LanguagePicker.jsx` — the language grid, one card per catalog pack.
 - `src/engine/` — language-agnostic engine: lesson player, 11 block components
   (`blocks/index.jsx`), dashboard rendered from the pack manifest, localStorage
-  progress layer (per-profile), audio (Web Speech API), grading, UI strings.
-- `public/packs/<lang>/` — a content pack: `manifest.json` + `lessons/day-NN.json`.
-  Pure data; the engine never contains language content. `catalog.json` lists
-  the packs YapWorld offers.
+  progress layer (per-profile), spaced vocabulary review (`VocabReview.jsx`),
+  audio (Web Speech API), grading, UI strings.
+- `public/packs/<lang>/` — a content pack: `manifest.json` + `lessons/day-NN.json`
+  + a generated `index.json` (lesson metadata for the dashboard, so lessons
+  load lazily). Pure data; the engine never contains language content.
+  `catalog.json` lists the packs YapWorld offers.
 - `tools/validate.js` — pack validator. CI gate for content batches.
+- `tools/build-index.js` — regenerates every pack's `index.json` (`npm run index`;
+  also runs before every build). The validator fails if an index is stale.
+- `tests/` — `node --test` suites for grading, progress/streaks/vocab and voice
+  selection.
 - `src/engine/base.css` — placeholder styling; replaced by the Claude Design pass.
 
 ## Commands
@@ -42,6 +50,9 @@ Single unified app; the language is chosen at runtime, not at build time.
 ```
 npm run dev              # local dev server (the unified YapWorld app)
 npm run build            # production build (Vercel-ready static output)
+npm run check            # lint + test + validate + build (what CI runs)
+npm test                 # engine unit tests
+npm run index            # regenerate every pack's index.json after content edits
 npm run validate         # validate every pack (missing days = warnings)
 npm run validate:<pack>  # validate one pack (e.g. validate:german-de)
 npm run validate:strict  # missing days = errors (pre-release gate, dutch-nl)
@@ -50,7 +61,7 @@ npm run validate:strict  # missing days = errors (pre-release gate, dutch-nl)
 ## Content workflow
 
 1. Write lessons in weekly batches per `docs/plan.md` §4, against the curriculum outline (§3), style guide, and character bible.
-2. `npm run validate` — fix all errors, review warnings.
+2. `npm run index && npm run validate` — fix all errors, review warnings.
 3. Days without a lesson file render as "Coming soon" on the dashboard, so partial packs are always shippable during development.
 
 ## Adding a language
@@ -59,5 +70,6 @@ Create `public/packs/<lang>/` with a manifest and lessons conforming to the
 schemas in `docs/plan.md` §2, then add `<lang>` to the `packs` array in
 `public/packs/catalog.json`. It appears in the language picker automatically —
 no engine changes required. For a polished picker card, give the manifest a
-`flag`, `language`, and `tagline`; add `ui` (localized chrome strings) and
-`grading` config as needed (see the existing packs).
+`flag`, `language`, and `tagline`; add `ui` (localized chrome strings),
+`grading`, `specialChars` (tap-to-insert accent keys) and `audio`
+(`preferredVoices`, `avoidLocales`) as needed (see `dutch-nl/manifest.json`).
