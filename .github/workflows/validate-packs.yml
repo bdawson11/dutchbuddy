@@ -19,11 +19,12 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          # All packs are mid-expansion to 18 weeks (126 days); missing days are
-          # warnings, schema errors still fail. Flip a pack to --strict once its
-          # manifest days are all authored (pre-release gate).
+          # dutch-nl is fully authored (126/126 days): strict mode makes a
+          # missing day an error. The other packs are mid-expansion to 18 weeks;
+          # missing days are warnings, schema errors still fail. Flip a pack to
+          # --strict once its manifest days are all authored (pre-release gate).
           - pack: dutch-nl
-            flags: ""
+            flags: "--strict"
           - pack: german-de
             flags: ""
           - pack: italian-it
