@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
-import { BLOCK_COMPONENTS } from './blocks';
+import { BLOCK_COMPONENTS } from './blocks/registry';
 import { loadProgress, recordStep, recordTime } from './progress';
 import { stopSpeaking } from './audio';
 import { ui } from './ui';
 
-export default function Player({ packId, lesson, onExit }) {
+export default function Player({ packId, lesson, onExit, onNext }) {
   const [doneSteps, setDoneSteps] = useState(() => {
     const d = loadProgress(packId).days[lesson.id];
     return new Set(d?.steps || []);
@@ -34,7 +34,7 @@ export default function Player({ packId, lesson, onExit }) {
   return (
     <div className="player">
       <header className="player-header">
-        <button className="back-btn" onClick={onExit}>← Dashboard</button>
+        <button className="back-btn" onClick={onExit}>← {ui('dashboard', 'Dashboard')}</button>
         <div className="player-title">
           <span className="player-emoji">{lesson.emoji}</span>
           <div>
@@ -45,7 +45,7 @@ export default function Player({ packId, lesson, onExit }) {
         <div className="progress-bar">
           <div className="progress-fill" style={{ width: `${(doneSteps.size / total) * 100}%` }} />
         </div>
-        <p className="player-meta">{doneSteps.size} / {total} steps</p>
+        <p className="player-meta">{doneSteps.size} / {total} {ui('steps', 'steps')}</p>
       </header>
 
       <main className="player-blocks">
@@ -69,8 +69,11 @@ export default function Player({ packId, lesson, onExit }) {
       {complete && (
         <div className="lesson-complete">
           <h3>🎉 {ui('dayComplete', 'Day {day} done!').replace('{day}', lesson.day)}</h3>
-          <p>Come back tomorrow for the next one.</p>
-          <button className="done-btn" onClick={onExit}>Back to dashboard</button>
+          <p>{onNext ? ui('comeBack', 'Come back tomorrow for the next one — or keep going.') : ui('allDone', 'That is every lesson available right now. Well done.')}</p>
+          <div className="complete-actions">
+            {onNext && <button className="done-btn" onClick={onNext}>{ui('nextDay', 'Next day')} →</button>}
+            <button className="done-btn is-secondary" onClick={onExit}>{ui('backToDashboard', 'Back to dashboard')}</button>
+          </div>
         </div>
       )}
     </div>

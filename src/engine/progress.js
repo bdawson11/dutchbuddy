@@ -26,20 +26,37 @@ function save(packId, p) {
   return p;
 }
 
-function todayStr() {
-  return new Date().toISOString().slice(0, 10);
+// Local calendar date (not UTC): a learner in Amsterdam at 23:30 is still on
+// today's streak, and one at 00:30 has started tomorrow's.
+export function todayStr(d = new Date()) {
+  const pad = (n) => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
 }
 
-function touchStreak(p) {
-  const today = todayStr();
-  if (p.lastActive === today) return;
+function daysBetween(a, b) {
+  // Both are YYYY-MM-DD; compare as UTC midnights so DST never yields 0.96 days.
+  const toUtc = (s) => Date.UTC(...s.split('-').map((x, i) => (i === 1 ? +x - 1 : +x)));
+  return Math.round((toUtc(b) - toUtc(a)) / 86400000);
+}
+
+export function touchStreak(p, today = todayStr()) {
+  if (p.lastActive === today) return p;
   if (p.lastActive) {
-    const diff = (new Date(today) - new Date(p.lastActive)) / 86400000;
+    const diff = daysBetween(p.lastActive, today);
     p.streak = diff === 1 ? (p.streak || 0) + 1 : 1;
   } else {
     p.streak = 1;
   }
   p.lastActive = today;
+  return p;
+}
+
+// The streak shown on the dashboard: a streak is only alive if the learner
+// was active today or yesterday. Stored streak is left untouched so a
+// same-day return still continues it.
+export function currentStreak(p, today = todayStr()) {
+  if (!p.lastActive || !p.streak) return 0;
+  return daysBetween(p.lastActive, today) <= 1 ? p.streak : 0;
 }
 
 export function recordStep(packId, dayId, stepIndex, totalSteps) {
@@ -89,6 +106,6 @@ export function stats(packId) {
     daysComplete: days.filter((d) => d.status === 'complete').length,
     stepsDone: days.reduce((s, d) => s + (d.steps?.length || 0), 0),
     timeMin: Math.round(days.reduce((s, d) => s + (d.timeSec || 0), 0) / 60),
-    streak: p.streak || 0,
+    streak: currentStreak(p),
   };
 }

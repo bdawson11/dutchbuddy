@@ -4,10 +4,12 @@
 
 let strings = {};
 let language = '';
+let specialChars = [];
 
 export function configureUi(manifest) {
   strings = manifest.ui || {};
   language = manifest.language || '';
+  specialChars = Array.isArray(manifest.specialChars) ? manifest.specialChars : [];
 }
 
 export function ui(key, fallback) {
@@ -17,4 +19,10 @@ export function ui(key, fallback) {
 
 export function packLanguage() {
   return language;
+}
+
+// Characters a learner may not have on their keyboard (é ë ï … for Dutch),
+// offered as tap-to-insert keys under typed inputs.
+export function packSpecialChars() {
+  return specialChars;
 }

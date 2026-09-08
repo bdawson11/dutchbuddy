@@ -4,10 +4,10 @@
 // journal completes on save. Ugly-but-functional pass: structure and behavior
 // are final, visual design is replaced in the Claude Design pass.
 
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { speak } from '../audio';
 import { grade } from '../grading';
-import { ui, packLanguage } from '../ui';
+import { ui, packLanguage, packSpecialChars } from '../ui';
 import { saveJournal, loadJournal } from '../progress';
 
 // --- tiny markdown: **bold** and *italic* only ---
@@ -51,7 +51,7 @@ export function Card({ block, done, onDone }) {
 export function Chips({ block, done, onDone }) {
   const [tapped, setTapped] = useState(new Set());
   const tap = (i, item) => {
-    if (item.speak) speak(item.speak);
+    speak(item.speak || item.nl);
     const next = new Set(tapped).add(i);
     setTapped(next);
     if (next.size === block.items.length && !done) onDone();
@@ -67,7 +67,7 @@ export function Chips({ block, done, onDone }) {
           </button>
         ))}
       </div>
-      <p className="hint-text">Tap every chip to continue.</p>
+      <p className="hint-text">{done ? `✓ ${ui('chipsDone', 'All heard')}` : ui('chipsHint', 'Tap every chip to continue.')}</p>
     </div>
   );
 }
@@ -111,7 +111,7 @@ export function Mcq({ block, done, onDone }) {
           return <button key={i} className={cls} onClick={() => pick(i)}>{o}</button>;
         })}
       </div>
-      {picked !== null && picked !== block.correct && <p className="feedback wrong">Not quite — try again.</p>}
+      {picked !== null && picked !== block.correct && <p className="feedback wrong">{ui('tryAgain', 'Not quite — try again.')}</p>}
       {done && block.explain && <p className="feedback explain">{md(block.explain)}</p>}
     </div>
   );
@@ -120,32 +120,60 @@ export function Mcq({ block, done, onDone }) {
 function TypedInput({ prompt, answers, hint, explain, done, onDone, preSpeak }) {
   const [value, setValue] = useState('');
   const [result, setResult] = useState(null);
+  const inputRef = useRef(null);
+  const chars = packSpecialChars();
   const check = () => {
     const r = grade(value, answers);
     setResult(r);
     if (r.correct && !done) onDone();
   };
+  // Insert an accented letter at the caret and keep focus in the input.
+  const insert = (ch) => {
+    const el = inputRef.current;
+    const start = el?.selectionStart ?? value.length;
+    const end = el?.selectionEnd ?? value.length;
+    const next = value.slice(0, start) + ch + value.slice(end);
+    setValue(next);
+    setResult(null);
+    requestAnimationFrame(() => {
+      if (!el) return;
+      el.focus();
+      el.setSelectionRange(start + ch.length, start + ch.length);
+    });
+  };
   return (
     <div className="block block-typed">
       <p className="prompt">{md(prompt)}</p>
       {preSpeak && (
-        <button className="speak-btn" onClick={() => speak(preSpeak)}>🔊 Play audio</button>
+        <button className="speak-btn" onClick={() => speak(preSpeak)}>🔊 {ui('playAudio', 'Play audio')}</button>
       )}
       <div className="typed-row">
         <input
+          ref={inputRef}
           value={value}
           onChange={(e) => { setValue(e.target.value); setResult(null); }}
-          onKeyDown={(e) => e.key === 'Enter' && check()}
+          onKeyDown={(e) => e.key === 'Enter' && value.trim() && check()}
           placeholder={ui('typedPlaceholder', `Type in ${packLanguage()}…`)}
           disabled={done}
           autoCapitalize="none" autoCorrect="off" spellCheck="false"
+          aria-label={ui('typedPlaceholder', `Type in ${packLanguage()}…`)}
         />
-        <button onClick={check} disabled={done || !value.trim()}>Check</button>
+        <button onClick={check} disabled={done || !value.trim()}>{ui('check', 'Check')}</button>
       </div>
+      {chars.length > 0 && !done && (
+        <div className="char-keys" aria-label="Special characters">
+          {chars.map((c) => (
+            <button key={c} type="button" className="char-key" onMouseDown={(e) => e.preventDefault()} onClick={() => insert(c)}>{c}</button>
+          ))}
+        </div>
+      )}
       {result?.correct && <p className="feedback correct">✓ {result.note || ui('correctFeedback', 'Nice!')}</p>}
       {done && explain && <p className="feedback explain">{md(explain)}</p>}
-      {result && !result.correct && (
-        <p className="feedback wrong">Not yet. {hint ? md(`Hint: ${hint}`) : ''}</p>
+      {result && !result.correct && result.near && (
+        <p className="feedback wrong">{ui('almost', 'Almost! One letter is off — check the spelling.')}</p>
+      )}
+      {result && !result.correct && !result.near && (
+        <p className="feedback wrong">{ui('notYet', 'Not yet.')} {hint ? md(`${ui('hintLabel', 'Hint')}: ${hint}`) : ''}</p>
       )}
     </div>
   );
@@ -158,7 +186,7 @@ export function Typed({ block, done, onDone }) {
 export function Dictation({ block, done, onDone }) {
   return (
     <TypedInput
-      prompt={block.prompt || 'Listen and type what you hear.'}
+      prompt={block.prompt || ui('dictationPrompt', 'Listen and type what you hear.')}
       answers={block.answers}
       done={done}
       onDone={onDone}
@@ -209,14 +237,14 @@ export function Dialogue({ block, done, onDone }) {
     <div className="block block-dialogue">
       <h3>💬 {block.scene}</h3>
       {block.lines.map((line, i) => (
-        <div key={i} className={`dialogue-line ${revealed.has(i) ? 'is-revealed' : ''}`} onClick={() => reveal(i, line)}>
+        <button type="button" key={i} className={`dialogue-line ${revealed.has(i) ? 'is-revealed' : ''}`} onClick={() => reveal(i, line)}>
           <span className="speaker">{line.speaker}</span>
           <span className="line-nl">{line.nl}</span>
           {revealed.has(i) && <span className="line-en">{line.en}</span>}
           {revealed.has(i) && line.spotlight && <span className="spotlight">💡 {md(line.spotlight)}</span>}
-        </div>
+        </button>
       ))}
-      <p className="hint-text">Tap each line to hear it and reveal the translation.</p>
+      <p className="hint-text">{ui('dialogueHint', 'Tap each line to hear it and reveal the translation.')}</p>
     </div>
   );
 }
@@ -232,7 +260,7 @@ export function Shadow({ block, done, onDone }) {
   return (
     <div className="block block-shadow">
       <h3>{block.title || 'Shadowing'}</h3>
-      <p className="hint-text">Play each line, then say it out loud, copying the rhythm.</p>
+      <p className="hint-text">{ui('shadowHint', 'Play each line, then say it out loud, copying the rhythm.')}</p>
       {block.lines.map((line, i) => (
         <div key={i} className="shadow-line">
           <button className={`speak-btn ${played.has(i) ? 'chip-tapped' : ''}`} onClick={() => play(i, line)}>🔊</button>
@@ -275,37 +303,46 @@ export function Comprehension({ block, done, onDone }) {
   );
 }
 
+// Rough sentence count for the journal nudge: split on terminal punctuation
+// or line breaks, ignore empties.
+function countSentences(text) {
+  return text.split(/[.!?]+|\n+/).map((s) => s.trim()).filter(Boolean).length;
+}
+
 export function Journal({ block, done, onDone, packId, dayId, blockIndex }) {
   const [text, setText] = useState(() => loadJournal(packId, dayId, blockIndex));
+  const [saved, setSaved] = useState(false);
+  const min = block.minSentences || 0;
+  const n = countSentences(text);
   const save = () => {
     saveJournal(packId, dayId, blockIndex, text);
+    setSaved(true);
     if (!done) onDone();
   };
   return (
     <div className="block block-journal">
-      <h3>📓 Journal</h3>
+      <h3>📓 {ui('journal', 'Journal')}</h3>
       <p className="prompt">{md(block.prompt)}</p>
       {block.starters && (
-        <p className="hint-text">Starters: {block.starters.join(' · ')}</p>
+        <p className="hint-text">{ui('starters', 'Starters')}: {block.starters.join(' · ')}</p>
       )}
-      <textarea rows={4} value={text} onChange={(e) => setText(e.target.value)} placeholder={ui('journalPlaceholder', 'Write here…')} />
-      <button className="done-btn" onClick={save} disabled={!text.trim()}>
-        {done ? '✓ Saved — save again' : 'Save entry'}
-      </button>
+      <textarea
+        rows={4}
+        value={text}
+        onChange={(e) => { setText(e.target.value); setSaved(false); }}
+        placeholder={ui('journalPlaceholder', 'Write here…')}
+        aria-label={ui('journal', 'Journal')}
+      />
+      <div className="journal-row">
+        <button className="done-btn" onClick={save} disabled={!text.trim() || saved}>
+          {saved ? `✓ ${ui('saved', 'Saved')}` : done ? ui('saveAgain', 'Save again') : ui('saveEntry', 'Save entry')}
+        </button>
+        {min > 0 && (
+          <span className={`journal-count ${n >= min ? 'is-met' : ''}`}>
+            {n} / {min} {ui('sentences', 'sentences')}
+          </span>
+        )}
+      </div>
     </div>
   );
 }
-
-export const BLOCK_COMPONENTS = {
-  card: Card,
-  chips: Chips,
-  contrast: Contrast,
-  mcq: Mcq,
-  typed: Typed,
-  dictation: Dictation,
-  builder: Builder,
-  dialogue: Dialogue,
-  shadow: Shadow,
-  comprehension: Comprehension,
-  journal: Journal,
-};

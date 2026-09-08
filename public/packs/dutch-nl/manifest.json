@@ -9,11 +9,39 @@
   "accent": "#e8590c",
   "ui": {
     "dayComplete": "Dag {day} klaar!",
-    "typedPlaceholder": "Type in Dutch…",
+    "typedPlaceholder": "Typ in het Nederlands…",
     "correctFeedback": "Goed zo!",
-    "journalPlaceholder": "Schrijf hier…"
+    "journalPlaceholder": "Schrijf hier…",
+    "tryAgain": "Nog niet helemaal — probeer het nog eens.",
+    "almost": "Bijna! Eén letter zit er net naast — check de spelling.",
+    "notYet": "Nog niet.",
+    "hintLabel": "Hint",
+    "check": "Check",
+    "playAudio": "Luister",
+    "dictationPrompt": "Luister en typ wat je hoort.",
+    "chipsHint": "Tik op elk woord om verder te gaan.",
+    "chipsDone": "Alles gehoord",
+    "dialogueHint": "Tik op elke regel om hem te horen en de vertaling te zien.",
+    "shadowHint": "Speel elke regel af en zeg hem hardop na, met hetzelfde ritme.",
+    "journal": "Dagboek",
+    "starters": "Beginnetjes",
+    "saveEntry": "Opslaan",
+    "saveAgain": "Opnieuw opslaan",
+    "saved": "Opgeslagen",
+    "sentences": "zinnen",
+    "nextDay": "Volgende dag",
+    "backToDashboard": "Terug naar het overzicht",
+    "comeBack": "Kom morgen terug voor de volgende — of ga lekker door.",
+    "allDone": "Dit was de laatste les die er nu is. Goed gedaan!",
+    "dashboard": "Overzicht",
+    "steps": "stappen"
   },
   "grading": { "diacriticTolerant": true },
+  "specialChars": ["é", "ë", "ï", "ö", "ü", "è", "ê"],
+  "audio": {
+    "avoidLocales": ["nl-BE"],
+    "preferredVoices": ["Google Nederlands", "Xander", "Claire", "Microsoft Fenna", "Microsoft Maarten"]
+  },
   "dialect": {
     "identity": "Netherlands Dutch",
     "contrast": "Not Flemish",
@@ -26,7 +54,7 @@
       { "emoji": "🇳🇱", "strong": "Netherlands-flavored", "text": "lekker, gezellig, doe maar. Not textbook Dutch." },
       { "emoji": "📅", "strong": "A1 → C1 gateway in 18 weeks", "text": "structured so you actually finish." },
       { "emoji": "⏱", "strong": "Short daily sessions", "text": "15 to 35 minutes, sized to fit your day." },
-      { "emoji": "❤️", "strong": "Free, no signup", "text": "your progress saves to this device." }
+      { "emoji": "❤️", "strong": "Free, no account", "text": "your progress saves to this device." }
     ]
   },
   "levels": [

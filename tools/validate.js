@@ -6,6 +6,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { buildIndex, serializeIndex } from './build-index.js';
 
 const packDir = process.argv[2];
 const strict = process.argv.includes('--strict');
@@ -48,6 +49,13 @@ allDayIds.forEach((d, i) => {
 });
 
 const castNames = new Set((manifest.cast || []).map((c) => c.name));
+const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+for (const l of manifest.levels || []) {
+  if (!LEVELS.includes(l.code)) err(`manifest: level code "${l.code}" not one of ${LEVELS.join('/')}`);
+}
+for (const w of manifest.weeks || []) {
+  if (!/^M\d{2}$/.test(w.module || '')) err(`manifest: week ${w.week} module "${w.module}" should look like M01`);
+}
 
 // ---------- lesson block validation ----------
 const BLOCK_VALIDATORS = {
@@ -60,7 +68,10 @@ const BLOCK_VALIDATORS = {
   },
   chips: (b) => {
     if (!Array.isArray(b.items) || b.items.length === 0) return 'items[] required';
-    for (const it of b.items) if (!it.nl || !it.en) return 'each chip needs nl and en';
+    for (const it of b.items) {
+      if (!it.nl || !it.en) return 'each chip needs nl and en';
+      if (!it.speak) softWarn('chip without speak (audio falls back to nl)');
+    }
   },
   contrast: (b) => {
     if (!Array.isArray(b.pairs) || b.pairs.length === 0) return 'pairs[] required';
@@ -70,14 +81,16 @@ const BLOCK_VALIDATORS = {
     req(b, ['prompt', 'options', 'correct']);
     if (!Array.isArray(b.options) || b.options.length < 2) return 'options[] needs ≥2 entries';
     if (!Number.isInteger(b.correct) || b.correct < 0 || b.correct >= b.options.length) return 'correct index out of range';
+    if (new Set(b.options).size !== b.options.length) return 'duplicate options';
+    if (!b.explain) softWarn('mcq without explain');
   },
   typed: (b) => {
     req(b, ['prompt', 'answers']);
-    if (!Array.isArray(b.answers) || b.answers.length === 0) return 'answers[] needs ≥1 accepted answer';
+    return checkAnswers(b.answers);
   },
   dictation: (b) => {
     req(b, ['speak', 'answers']);
-    if (!Array.isArray(b.answers) || b.answers.length === 0) return 'answers[] needs ≥1 accepted answer';
+    return checkAnswers(b.answers);
   },
   builder: (b) => {
     if (!Array.isArray(b.slots) || b.slots.length === 0) return 'slots[] required';
@@ -105,13 +118,27 @@ const BLOCK_VALIDATORS = {
       if (!Number.isInteger(q.correct) || q.correct < 0 || q.correct >= q.options.length) return 'correct index out of range';
     }
   },
-  journal: (b) => req(b, ['prompt']),
+  journal: (b) => {
+    req(b, ['prompt']);
+    if (b.minSentences !== undefined && !Number.isInteger(b.minSentences)) return 'minSentences must be an integer';
+  },
 };
 
 let missingFields;
 function req(obj, fields) {
   missingFields = fields.filter((f) => obj[f] === undefined);
 }
+
+function checkAnswers(answers) {
+  if (!Array.isArray(answers) || answers.length === 0) return 'answers[] needs ≥1 accepted answer';
+  if (answers.some((a) => typeof a !== 'string' || !a.trim())) return 'answers[] contains an empty answer';
+  if (answers.some((a) => /\*/.test(a))) return 'answers[] contains markdown';
+}
+
+// Warnings raised from inside a block validator (prefixed with the block
+// location by the caller).
+let blockWarnings = [];
+const softWarn = (m) => blockWarnings.push(m);
 
 // ---------- lessons ----------
 const lessonsDir = path.join(packDir, 'lessons');
@@ -134,6 +161,13 @@ for (const dayId of allDayIds) {
   for (const f of ['schemaVersion', 'id', 'day', 'module', 'unit', 'kind', 'title', 'emoji', 'level', 'durationMin', 'summary', 'blocks']) {
     if (lesson[f] === undefined) err(`${dayId}: missing field "${f}"`);
   }
+  if (lesson.level !== undefined && !LEVELS.includes(lesson.level)) err(`${dayId}: level "${lesson.level}" not one of ${LEVELS.join('/')}`);
+  if (lesson.unit !== undefined && !/^U\d{2}$/.test(lesson.unit)) err(`${dayId}: unit "${lesson.unit}" should look like U01`);
+  const dm = lesson.durationMin;
+  if (dm !== undefined && !(Array.isArray(dm) && dm.length === 2 && dm.every(Number.isInteger) && dm[0] <= dm[1])) {
+    err(`${dayId}: durationMin should be [min, max] integers`);
+  }
+  if (typeof lesson.emoji === 'string' && [...lesson.emoji].length > 2) warn(`${dayId}: emoji "${lesson.emoji}" looks like more than one`);
   if (lesson.id !== dayId) err(`${dayId}: id "${lesson.id}" ≠ filename`);
   if (lesson.day !== parseInt(dayId.split('-')[1], 10)) err(`${dayId}: day number ≠ id`);
   if (!['lesson', 'review', 'capstone'].includes(lesson.kind)) err(`${dayId}: unknown kind "${lesson.kind}"`);
@@ -149,14 +183,24 @@ for (const dayId of allDayIds) {
     const v = BLOCK_VALIDATORS[b.type];
     if (!v) return err(`${dayId} block ${i}: unknown type "${b.type}"`);
     missingFields = [];
+    blockWarnings = [];
     const msg = v(b);
     if (missingFields.length) err(`${dayId} block ${i} (${b.type}): missing ${missingFields.join(', ')}`);
     if (msg) err(`${dayId} block ${i} (${b.type}): ${msg}`);
+    blockWarnings.forEach((w) => warn(`${dayId} block ${i} (${b.type}): ${w}`));
   });
 
   const n = lesson.blocks.length;
   const target = { lesson: [8, 12], review: [6, 8], capstone: [10, 14] }[lesson.kind];
   if (target && (n < target[0] || n > target[1])) warn(`${dayId}: ${n} blocks, style guide target for ${lesson.kind} is ${target[0]}–${target[1]}`);
+}
+
+// ---------- lesson index (dashboard metadata) ----------
+const indexPath = path.join(packDir, 'index.json');
+if (!fs.existsSync(indexPath)) {
+  err(`index.json missing — run: npm run index`);
+} else if (fs.readFileSync(indexPath, 'utf8') !== serializeIndex(buildIndex(packDir))) {
+  err(`index.json is stale — run: npm run index`);
 }
 
 // ---------- report ----------

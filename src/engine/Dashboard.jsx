@@ -5,23 +5,28 @@ function dayNumber(dayId) {
   return parseInt(dayId.split('-')[1], 10);
 }
 
-export default function Dashboard({ manifest, lessonIndex, onOpenDay }) {
+export default function Dashboard({ manifest, lessonIndex, onOpenDay, busy }) {
   const s = stats(manifest.packId);
   const progress = loadProgress(manifest.packId);
-  const [openWeeks, setOpenWeeks] = useState(() => new Set([1]));
 
   const allDays = manifest.weeks.flatMap((w) => w.days);
   const levels = manifest.levels || [];
   const levelRange = levels.length
     ? `${levels[0].code} → ${levels[levels.length - 1].code}`
     : '';
-  const nextDay = allDays.find((d) => progress.days[d]?.status !== 'complete') || allDays[0];
+  // The next lesson to do: the first unfinished day that actually exists.
+  const nextDay =
+    allDays.find((d) => lessonIndex[d] && progress.days[d]?.status !== 'complete') || allDays[0];
   const nextMeta = lessonIndex[nextDay];
+  const nextWeek = manifest.weeks.find((w) => w.days.includes(nextDay))?.week || 1;
+  // Open the week the learner is on, not always week 1.
+  const [openWeeks, setOpenWeeks] = useState(() => new Set([nextWeek]));
 
   const toggleWeek = (w) =>
     setOpenWeeks((prev) => {
       const next = new Set(prev);
-      next.has(w) ? next.delete(w) : next.add(w);
+      if (next.has(w)) next.delete(w);
+      else next.add(w);
       return next;
     });
 
@@ -60,7 +65,7 @@ export default function Dashboard({ manifest, lessonIndex, onOpenDay }) {
       </section>
 
       {nextMeta && (
-        <button className="start-here" onClick={() => onOpenDay(nextDay)}>
+        <button className="start-here" onClick={() => onOpenDay(nextDay)} disabled={busy}>
           <span className="start-label">🚀 {s.daysStarted === 0 ? 'START HERE' : 'CONTINUE'}</span>
           <span className="start-title">{nextMeta.emoji} {nextMeta.title}</span>
           <span className="start-meta">Day {nextMeta.day} · {nextMeta.module}.{nextMeta.unit}</span>
@@ -97,7 +102,7 @@ export default function Dashboard({ manifest, lessonIndex, onOpenDay }) {
                           );
                         }
                         return (
-                          <button key={dayId} className={`day-card ${st === 'complete' ? 'is-complete' : ''}`} onClick={() => onOpenDay(dayId)}>
+                          <button key={dayId} className={`day-card ${st === 'complete' ? 'is-complete' : ''}`} onClick={() => onOpenDay(dayId)} disabled={busy}>
                             <span className="day-num">{meta.day} <span className="day-code">{meta.module}.{meta.unit}</span></span>
                             <span className="day-title">{meta.emoji} {meta.title}</span>
                             <span className="day-summary">{meta.summary}</span>

@@ -1075,3 +1075,34 @@ button.wordmark:hover { color: var(--accent-ink); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
 }
+
+/* Special-character keys under typed inputs (é ë ï … for Dutch) */
+.char-keys { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.char-key {
+  min-width: 36px;
+  padding: 6px 10px;
+  border: 1.5px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--card-2);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.char-key:hover { border-color: var(--accent-border); background: var(--accent-soft); }
+.char-key:active { transform: translateY(1px); }
+
+/* Dialogue lines are buttons now (keyboard reachable) */
+button.dialogue-line { width: 100%; text-align: left; font: inherit; color: inherit; align-items: stretch; }
+button.dialogue-line:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Journal save row + sentence nudge */
+.journal-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.journal-count { color: var(--muted); font-size: 13px; font-weight: 700; }
+.journal-count.is-met { color: var(--good-ink); }
+
+/* Lesson-complete actions */
+.complete-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 14px; }
+.done-btn.is-secondary { background: var(--card-2); color: var(--accent-ink); border: 1.5px solid var(--accent-border); box-shadow: none; }

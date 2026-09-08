@@ -12,6 +12,16 @@ import { currentUser, logout, getSelectedPack, setSelectedPack } from './engine/
 const BASE = import.meta.env.BASE_URL;
 const packBase = (packId) => `${BASE}packs/${packId}`;
 
+async function fetchLesson(packId, dayId) {
+  try {
+    const res = await fetch(`${packBase(packId)}/lessons/${dayId}.json`);
+    if (!res.ok) return null;
+    return await res.json();
+  } catch {
+    return null;
+  }
+}
+
 // Set the progress namespace synchronously at module load so the very first
 // render (e.g. the language picker's per-course stats) reads the right profile.
 const initialUser = currentUser();
@@ -37,9 +47,11 @@ export default function AppShell() {
   const [user, setUserState] = useState(initialUser);
   const [packId, setPackId] = useState(null);
   const [manifest, setManifest] = useState(null);
-  const [lessonIndex, setLessonIndex] = useState({});
+  const [lessonIndex, setLessonIndex] = useState({}); // dayId -> metadata (from index.json)
+  const [lessons, setLessons] = useState({}); // dayId -> full lesson, fetched on open
   const [openLesson, setOpenLesson] = useState(null);
   const [loadingPack, setLoadingPack] = useState(false);
+  const [loadingLesson, setLoadingLesson] = useState(false);
   const [error, setError] = useState(null);
 
   const applyUser = (u) => {
@@ -76,11 +88,14 @@ export default function AppShell() {
     setOpenLesson(null);
   }, [user]);
 
-  // When a language is chosen, load its manifest config + lessons.
+  // When a language is chosen, apply its manifest config and load the lesson
+  // index (one small file). Full lessons are fetched lazily when opened; if a
+  // pack has no index.json we fall back to fetching every lesson up front.
   useEffect(() => {
     if (!packId || !catalog) {
       setManifest(null);
       setLessonIndex({});
+      setLessons({});
       // Back to the YapWorld shell — drop the per-language accent so the
       // umbrella brand colour (from base.css :root) takes over again.
       document.documentElement.style.removeProperty('--accent');
@@ -90,7 +105,8 @@ export default function AppShell() {
     if (!entry) return;
     setLoadingPack(true);
     setManifest(entry.manifest);
-    configureAudio(entry.manifest.locale);
+    setLessons({});
+    configureAudio(entry.manifest.locale, entry.manifest.audio);
     configureGrading(entry.manifest.grading);
     configureUi(entry.manifest);
     // Per-language theming: every surface derives its tints from this one hook.
@@ -102,25 +118,55 @@ export default function AppShell() {
     let cancelled = false;
     (async () => {
       const dayIds = entry.manifest.weeks.flatMap((w) => w.days);
-      const entries = await Promise.all(
-        dayIds.map(async (id) => {
-          const res = await fetch(`${packBase(packId)}/lessons/${id}.json`);
-          if (!res.ok) return null;
-          try {
-            return [id, await res.json()];
-          } catch {
-            return null;
-          }
-        })
-      );
+      let index = null;
+      try {
+        const res = await fetch(`${packBase(packId)}/index.json`);
+        if (res.ok) index = (await res.json()).days;
+      } catch {
+        index = null;
+      }
+      if (!index) {
+        const entries = await Promise.all(
+          dayIds.map(async (id) => {
+            const lesson = await fetchLesson(packId, id);
+            return lesson ? [id, lesson] : null;
+          })
+        );
+        const full = Object.fromEntries(entries.filter(Boolean));
+        if (cancelled) return;
+        setLessons(full);
+        index = full;
+      }
       if (cancelled) return;
-      setLessonIndex(Object.fromEntries(entries.filter(Boolean)));
+      setLessonIndex(index);
       setLoadingPack(false);
     })();
     return () => {
       cancelled = true;
     };
   }, [packId, catalog]);
+
+  const openDay = async (dayId) => {
+    if (!lessonIndex[dayId]) return;
+    window.scrollTo(0, 0);
+    if (lessons[dayId]) {
+      setOpenLesson(dayId);
+      return;
+    }
+    setLoadingLesson(true);
+    const lesson = await fetchLesson(packId, dayId);
+    setLoadingLesson(false);
+    if (!lesson) {
+      setError(`Couldn't load ${dayId}.`);
+      return;
+    }
+    setLessons((prev) => ({ ...prev, [dayId]: lesson }));
+    setOpenLesson(dayId);
+  };
+
+  const allDayIds = manifest ? manifest.weeks.flatMap((w) => w.days) : [];
+  const nextDayId = openLesson ? allDayIds[allDayIds.indexOf(openLesson) + 1] : null;
+  const hasNext = Boolean(nextDayId && lessonIndex[nextDayId]);
 
   const choosePack = (id) => {
     setSelectedPack(user.id, id);
@@ -161,22 +207,20 @@ export default function AppShell() {
       )}
       {loadingPack || !manifest ? (
         <div className="loading">Loading your course…</div>
-      ) : openLesson ? (
+      ) : openLesson && lessons[openLesson] ? (
         <Player
+          key={openLesson}
           packId={manifest.packId}
-          lesson={lessonIndex[openLesson]}
+          lesson={lessons[openLesson]}
           onExit={() => setOpenLesson(null)}
+          onNext={hasNext ? () => openDay(nextDayId) : null}
         />
       ) : (
         <Dashboard
           manifest={manifest}
           lessonIndex={lessonIndex}
-          onOpenDay={(dayId) => {
-            if (lessonIndex[dayId]) {
-              setOpenLesson(dayId);
-              window.scrollTo(0, 0);
-            }
-          }}
+          busy={loadingLesson}
+          onOpenDay={openDay}
         />
       )}
     </div>
