@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "day-126",
+  "day": 126,
+  "module": "M18",
+  "unit": "U18",
+  "kind": "capstone",
+  "title": "Mijn verhaal, C1-gateway",
+  "emoji": "🎉",
+  "level": "C1",
+  "durationMin": [20, 35],
+  "summary": "The finale: an eighteen-week recap, the register-agile mijn-verhaal in full, a letter forward to the C1 you, Dutch farewells, and an honest send-off — this is the leap, not the certificate",
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Achttien weken",
+      "body": "Achttien weken geleden was de *g* nog een probleem en *gezellig* een raadsel. Vandaag vergader je, solliciteer je, hoor je ironie aankomen en versta je mensen die veel te snel praten. Kijk even naar de grond die je hebt afgelegd. **Dit heb jij gedaan.**",
+      "table": {
+        "headers": ["Fase", "Wat je nu kunt"],
+        "rows": [
+          ["A1 — week 1–4", "jezelf voorstellen, bestellen, je dag beschrijven"],
+          ["A2 — week 5–8", "vertellen in het verleden, plannen maken, een mening geven"],
+          ["B1 — week 9–12", "een echt gesprek voeren — en in het Nederlands blijven"],
+          ["B2 — week 13–16", "passief, het irreële, formeel register, bijzin-ketens"],
+          ["C1-poort — week 17–18", "partikels, ironie, register wisselen, vergaderen en solliciteren"]
+        ]
+      },
+      "callout": "Van 'hoi' naar 'mag ik daar even op inhaken'. In achttien weken."
+    },
+    {
+      "type": "card",
+      "title": "De sprong, niet het certificaat",
+      "body": "Even eerlijk zijn: je hebt geen C1-papiertje in handen, en dat heeft deze cursus ook nooit beloofd. Wat je wél hebt, is de **aanloop**. C1 word je niet in een cursus — C1 word je in het echt, in de jaren erna: in vergaderingen, in ruzies, in romans, in de kroeg om half twee. Wat hier gebeurde, is dat je genoeg gereedschap kreeg om dat aan te kunnen. **Dit is de sprong, niet het certificaat.**",
+      "callout": "Vanaf hier is de leraar het land zelf."
+    },
+    {
+      "type": "contrast",
+      "title": "Dezelfde boodschap, twee registers",
+      "pairs": [
+        { "left": "Ik doe het wel, hoor. Geen probleem.", "right": "Ik neem dat op mij.", "note": "Links een vriendendienst met *hoor*; rechts een toezegging in een overleg, zonder één partikel." },
+        { "left": "Kun je me even laten weten hoe het zit?", "right": "Zou u mij kunnen laten weten hoe het ervoor staat?", "note": "*Zou u … kunnen* is zo ongeveer de beleefdste vraag die het Nederlands heeft." },
+        { "left": "Dat lijkt me niks.", "right": "Daar zie ik onvoldoende meerwaarde in.", "note": "Zelfde nee — rechts netjes weggewerkt in een nominalisatie." },
+        { "left": "Sorry, ik snap 'm even niet.", "right": "Mag ik u vragen dat nog even toe te lichten?", "note": "Van *snappen* naar *toelichten*: één woord verschuift het hele register." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Je meldt hetzelfde nieuws aan je team én aan de klant. Welke zin gaat naar de klant?",
+      "options": ["Even geduld, we zijn ermee bezig.", "Wij verwachten u het rapport uiterlijk vrijdag te kunnen toesturen.", "Komt goed joh, morgen af."],
+      "correct": 1,
+      "explain": "*Wij*, *uiterlijk*, *toesturen*: nette werkwoorden, geen partikels, geen *joh*. De andere twee zijn uitstekend Nederlands — maar dan in de teamchat, waar ze juist beter passen dan de formele versie."
+    },
+    {
+      "type": "typed",
+      "prompt": "Zeg dit in professioneel register: *Ik doe al vier jaar de planning.*",
+      "answers": ["Ik ben al vier jaar verantwoordelijk voor de planning.", "Al vier jaar ben ik verantwoordelijk voor de planning.", "Ik ben inmiddels vier jaar verantwoordelijk voor de planning."],
+      "hint": "Gebruik *verantwoordelijk voor* — de vaste formule van een sollicitatiegesprek.",
+      "explain": "*Verantwoordelijk voor* zet je taak neer als een positie in plaats van een handeling. Zet je *al vier jaar* vooraan, dan volgt netjes de inversie: *ben ik*."
+    },
+    {
+      "type": "card",
+      "title": "De lagen van jouw verhaal",
+      "body": "Achttien weken lang groeide *mijn verhaal* met precies één laag per week. Hieronder staan ze allemaal bij elkaar. Lees ze door voordat je gaat bouwen — je gebruikt ze zo meteen **allemaal in één stuk**.",
+      "table": {
+        "headers": ["Laag", "Voorbeeldzin"],
+        "rows": [
+          ["wie & waar (week 1–3)", "*Ik heet … en ik woon inmiddels in …*"],
+          ["dagen, familie, buurt (week 2–4)", "*Elke ochtend fiets ik door mijn buurt naar mijn werk.*"],
+          ["smaak & wens (week 4)", "*Ik houd van … en ik wil ooit …*"],
+          ["iets wat je hebt gedaan (week 5–6)", "*Vorige maand heb ik … en ik voelde me …*"],
+          ["vroeger (week 7)", "*Toen ik klein was, …*"],
+          ["plan & mening (week 8)", "*Ik ga …, omdat ik vind dat …*"],
+          ["wat iemand zei (week 9)", "*Emma zei dat ik moest doorzetten.*"],
+          ["een grote beslissing (week 10)", "*Ik heb er lang over nagedacht, maar ik ben gebleven.*"],
+          ["register (week 11 & 15)", "*Aangenaam kennis te maken* naast *hoi, leuk je te zien*"],
+          ["nuance, twijfel, spijt (week 13–14)", "*Hoewel het zwaar was, zou ik het zo weer doen.*"],
+          ["gelaagd verhaal & ironie (week 16–17)", "*Ik dacht dat ik het wel wist. Nou, mooi niet.*"]
+        ]
+      }
+    },
+    {
+      "type": "builder",
+      "title": "Mijn verhaal, definitief — de C1-versie",
+      "prompt": "Bouw je verhaal, laag voor laag. Kies per slot een chip of — beter — schrijf je eigen zin in dezelfde vorm. Aan het eind heb je jouw achttien weken in één stuk.",
+      "slots": [
+        { "label": "Wie je bent, nu", "chips": ["Ik heet … en ik woon inmiddels ruim een jaar in Nederland", "Ik ben hierheen gekomen voor mijn werk en gebleven voor de rest", "Ik kom uit … en Nederland is mijn tweede thuis geworden"] },
+        { "label": "Je dagen, je buurt, je mensen", "chips": ["Elke ochtend fiets ik door mijn buurt naar mijn werk", "Mijn vaste plek is het café op de hoek", "Mijn mensen hier zijn een klein maar warm clubje"] },
+        { "label": "Iets wat je hebt meegemaakt, en hoe het voelde", "chips": ["Vorige maand heb ik voor het eerst een hele avond Nederlands gepraat", "Ik heb me lang onzeker gevoeld, en dat is minder geworden", "Ik heb meer fouten gemaakt dan ik kan tellen"] },
+        { "label": "Vroeger (imperfectum)", "chips": ["Toen ik klein was, dacht ik dat talen iets voor anderen waren", "Vroeger durfde ik nauwelijks een winkel binnen", "In het begin knikte ik alleen maar"] },
+        { "label": "Een plan en een mening (met bijzin)", "chips": ["Volgend jaar ga ik verder, omdat ik het nog lang niet af vind", "Ik vind dat je een taal pas leert als je hem durft te verpesten", "Ik ga door, ook al gaat het langzamer dan ik zou willen"] },
+        { "label": "Wat iemand zei, en jouw grote beslissing", "chips": ["Emma zei dat ik het gewoon moest blijven proberen", "Ik heb er lang over getwijfeld of ik zou blijven", "Uiteindelijk heb ik ervoor gekozen om hier te blijven"] },
+        { "label": "Professioneel, formeel register", "chips": ["Ik ben verantwoordelijk voor planning en klantcontact", "Met ervaring in communicatie zoek ik een team dat in het Nederlands werkt", "Ik ben van mening dat goed werk begint bij goed luisteren"] },
+        { "label": "Een wat-als of een kleine spijt", "chips": ["Als ik eerder had durven praten, was ik nu verder geweest", "Ik had beter meteen in het Nederlands kunnen beginnen", "Achteraf had ik mezelf wat meer mogen vertrouwen"] },
+        { "label": "Nuance, ironie, registerwissel", "chips": ["Hoewel het zwaar was, was het het meer dan waard", "Vloeiend? Nou, laten we zeggen dat ik me prima red", "Enerzijds ben ik trots, anderzijds weet ik hoeveel er nog komt"] }
+      ],
+      "sample": "Ik heet Sam en ik woon inmiddels ruim een jaar in Nederland. Elke ochtend fiets ik door mijn buurt naar mijn werk, en mijn mensen hier zijn een klein maar warm clubje. Vorige maand heb ik voor het eerst een hele avond Nederlands gepraat, terwijl ik vroeger nauwelijks een winkel binnen durfde. Volgend jaar ga ik verder, omdat ik het nog lang niet af vind. Emma zei dat ik het gewoon moest blijven proberen, en uiteindelijk heb ik ervoor gekozen om hier te blijven. Op mijn werk ben ik verantwoordelijk voor planning en klantcontact. Als ik eerder had durven praten, was ik nu verder geweest — maar vloeiend? Nou, laten we zeggen dat ik me prima red."
+    },
+    {
+      "type": "journal",
+      "prompt": "Mijn verhaal, definitief. Schrijf nu je hele verhaal in één stuk, in het Nederlands: wie je bent en waar je woont, je dagen en je buurt, wat je hebt meegemaakt en hoe je je voelde, hoe het vroeger was, je plan en je mening, iets wat iemand tegen je zei, je grote beslissing, één alinea over jezelf in professioneel register, een wat-als of kleine spijt, en tot slot één zin met ironie of een registerwissel. Dit is de laatste keer dat iemand het je vraagt — daarna vertel je het gewoon aan mensen. Minstens tien zinnen.",
+      "starters": ["Ik heet … en ik woon inmiddels …", "Elke dag …", "Vroeger …, maar nu …", "Emma zei ooit tegen me dat …", "Op mijn werk ben ik verantwoordelijk voor …", "Als ik …, zou ik …", "Vloeiend? Nou, …"],
+      "minSentences": 10
+    },
+    {
+      "type": "card",
+      "title": "Afscheid nemen",
+      "body": "Het Nederlands heeft een hele plank vol afscheidsgroeten, van een snelle *doei* tot een afscheid dat er echt toe doet. Vandaag mag je uit de bovenste la kiezen.",
+      "table": {
+        "headers": ["Afscheid", "Wanneer je het zegt"],
+        "rows": [
+          ["Doei! / Doeg! — bye", "alledaags, tegen iedereen die je kent"],
+          ["Tot ziens — goodbye", "neutraal en netjes, ook tegen vreemden"],
+          ["Hou je haaks — hang in there", "informeel en hartelijk, tegen iemand met een zware week"],
+          ["Het ga je goed — all the best", "warm en gemeend, bij een echt afscheid"],
+          ["Zet 'm op — go for it", "vlak voor iets spannends"],
+          ["Alle goeds — all the best", "verzorgd, vooral in een brief of mail"]
+        ]
+      },
+      "callout": "*Het ga je goed* bewaar je voor iemand die ertoe doet. Vandaag mag hij."
+    },
+    {
+      "type": "chips",
+      "title": "De laatste woorden — tik om te horen",
+      "items": [
+        { "nl": "Doei!", "en": "Bye!", "speak": "Doei!" },
+        { "nl": "Tot ziens.", "en": "Goodbye.", "speak": "Tot ziens." },
+        { "nl": "Hou je haaks.", "en": "Hang in there.", "speak": "Hou je haaks." },
+        { "nl": "Het ga je goed.", "en": "All the best, take care.", "speak": "Het ga je goed." },
+        { "nl": "Zet 'm op!", "en": "Go for it!", "speak": "Zet 'm op!" },
+        { "nl": "Alle goeds.", "en": "All the best.", "speak": "Alle goeds." }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "scene": "A borrel in de Pijp. Sanne has come over from Utrecht, Daan has dragged his guitar along, Bram is here 'for one beer'. Eighteen weeks, and this is the last page.",
+      "lines": [
+        { "speaker": "Emma", "nl": "Kijk nou. Achttien weken geleden dacht je nog dat *gezellig* een soort broodje was.", "en": "Look at you. Eighteen weeks ago you still thought gezellig was a kind of sandwich." },
+        { "speaker": "You", "nl": "Ik dacht vooral dat ik jullie nooit zou kunnen volgen als jullie eenmaal losgingen.", "en": "Mostly I thought I'd never be able to follow you lot once you got going." },
+        { "speaker": "Daan", "nl": "En nu val je me gewoon in de rede, joh.", "en": "And now you just interrupt me, mate." },
+        { "speaker": "You", "nl": "Mag ik daar even op inhaken?", "en": "May I jump in on that?", "spotlight": "Vergadertaal in de kroeg — de grap zit hem volledig in het register." },
+        { "speaker": "Emma", "nl": "Zie je wel, dat doe je expres.", "en": "See, you're doing that on purpose." },
+        { "speaker": "Sanne", "nl": "Kom in het voorjaar naar Utrecht, hè. Dan zijn we met z'n drieën.", "en": "Come to Utrecht in the spring, alright. There'll be three of us by then." },
+        { "speaker": "You", "nl": "Daar reken ik op.", "en": "I'm counting on it." },
+        { "speaker": "Emma", "nl": "En ik hoor volgende maand of ik die nieuwe functie krijg. We zien wel.", "en": "And I hear next month whether I get that new role. We'll see." },
+        { "speaker": "Bram", "nl": "Je krijgt hem. En anders pak je gewoon iets beters — zo doen we dat in Rotterdam.", "en": "You'll get it. And otherwise you just take something better — that's how we do it in Rotterdam." },
+        { "speaker": "Daan", "nl": "En in mei sta ik op een echt podium. Jullie komen allemaal.", "en": "And in May I'll be on a real stage. You're all coming." },
+        { "speaker": "Emma", "nl": "Zo. Dan blijft er nog één ding over: doorgaan. Praat, verpest zinnen, blijf in het Nederlands. Het ga je goed.", "en": "Right. Then one thing remains: keep going. Talk, ruin sentences, stay in Dutch. All the best.", "spotlight": "*Het ga je goed* — het warmste afscheid dat het Nederlands kent." },
+        { "speaker": "You", "nl": "Dankjewel. Voor alles. Tot snel, hè.", "en": "Thank you. For everything. See you soon, yeah." }
+      ]
+    },
+    {
+      "type": "comprehension",
+      "title": "De laatste bladzijde",
+      "questions": [
+        { "q": "Wat is Emma's laatste advies?", "options": ["Meer grammatica leren", "Doorgaan, fouten maken en in het Nederlands blijven", "Voortaan Engels praten met vrienden"], "correct": 1 },
+        { "q": "Wat gebeurt er in het voorjaar bij Sanne?", "options": ["Ze krijgt een baby", "Ze verhuist terug naar Amsterdam", "Ze begint een eigen bedrijf"], "correct": 0 },
+        { "q": "Wat betekent *het ga je goed*?", "options": ["Tot morgen", "Veel succes met je werk", "Pas goed op jezelf, het allerbeste"], "correct": 2 }
+      ]
+    },
+    {
+      "type": "journal",
+      "prompt": "Brief vooruit — aan de jij van over een jaar. Schrijf in het Nederlands aan jezelf, één jaar verder: waar sta je dan, wat heb je tegen die tijd gedurfd, en wat wil je dat die persoon níét vergeet uit deze achttien weken? Gebruik minstens één hypothese (*als … zou ik …*) en één zin in formeel register. Minstens vijf zinnen.",
+      "starters": ["Beste ik van over een jaar,", "Als je dit leest, …", "Ik hoop dat je inmiddels …", "Vergeet vooral niet dat …", "Als je ooit twijfelt, zou ik …"],
+      "minSentences": 5
+    },
+    {
+      "type": "journal",
+      "prompt": "Achttien weken, honderdzesentwintig dagen, van de eerste harde *g* tot een vergadering die je gewoon bijhoudt. Schrijf je allerlaatste stukje: hoe voelt het, en wat ga je hierna doen om door te gaan? Vier het — in het Nederlands, natuurlijk. Minstens vier zinnen.",
+      "starters": ["Ik heb het gehaald.", "Het voelt …", "Vanaf nu ga ik …", "Bedankt, …"],
+      "minSentences": 4
+    }
+  ]
+}

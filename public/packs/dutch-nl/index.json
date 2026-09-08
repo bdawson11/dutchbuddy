@@ -1876,6 +1876,21 @@
       ],
       "summary": "Week 18 review and the last immersion: a real project meeting with Youssef, Emma and Bram, at professional speed, with You carrying a point",
       "steps": 7
+    },
+    "day-126": {
+      "day": 126,
+      "module": "M18",
+      "unit": "U18",
+      "kind": "capstone",
+      "title": "Mijn verhaal, C1-gateway",
+      "emoji": "🎉",
+      "level": "C1",
+      "durationMin": [
+        20,
+        35
+      ],
+      "summary": "The finale: an eighteen-week recap, the register-agile mijn-verhaal in full, a letter forward to the C1 you, Dutch farewells, and an honest send-off — this is the leap, not the certificate",
+      "steps": 14
     }
   }
 }

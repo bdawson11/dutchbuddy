@@ -25,7 +25,7 @@
           ["in afwachting van — pending, awaiting", "wat er nog moet gebeuren"]
         ]
       },
-      "callout": "Vijf formules en driekwart van elke ambtelijke brief is al leesbaar."
+      "callout": "Ken je deze vijf formules, dan wordt driekwart van elke ambtelijke brief leesbaar."
     },
     {
       "type": "chips",
@@ -66,7 +66,7 @@
       "type": "typed",
       "prompt": "Vul de vaste opening in: *___ uw brief van 12 april delen wij u mee dat uw aanvraag is goedgekeurd.*",
       "answers": ["Naar aanleiding van"],
-      "hint": "Vier woorden, en elke ambtelijke brief begint ermee.",
+      "hint": "Drie woorden, en elke ambtelijke brief begint ermee.",
       "explain": "*Naar aanleiding van uw brief …* — de standaardopening, altijd gevolgd door een naamwoord (*uw brief*, *uw aanvraag*, *ons gesprek*)."
     },
     {
@@ -78,7 +78,7 @@
     {
       "type": "card",
       "title": "Een brief van de gemeente",
-      "body": "Lees deze brief en probeer hem uit elkaar te halen. *Geachte heer/mevrouw, naar aanleiding van uw aanvraag van 12 april delen wij u het volgende mee. Het betreft uw aanvraag voor een parkeervergunning. Uw aanvraag is conform de gemeentelijke verordening beoordeeld en goedgekeurd. Bijgaand treft u de vergunning aan. U dient het bedrag van 148 euro binnen veertien dagen te voldoen. Tegen dit besluit kunt u binnen zes weken bezwaar maken. Hoogachtend, Gemeente Amsterdam.* Vier formules, één besluit, twee termijnen — meer staat er niet.",
+      "body": "Lees deze brief en haal hem uit elkaar. **Aanhef:** *Geachte heer/mevrouw,* **Bericht:** *Naar aanleiding van uw aanvraag van 12 april delen wij u het volgende mee. Het betreft uw aanvraag voor een parkeervergunning. Uw aanvraag is conform de gemeentelijke verordening beoordeeld en goedgekeurd. Bijgaand treft u de vergunning aan. U dient het bedrag van 148 euro binnen veertien dagen te voldoen. Tegen dit besluit kunt u binnen zes weken bezwaar maken.* **Slot:** *Hoogachtend, Gemeente Amsterdam.* Vijf formules, één besluit, twee termijnen — meer staat er niet in.",
       "callout": "Zoek in elke ambtelijke brief eerst de **termijnen**. Daar zit het werk."
     },
     {

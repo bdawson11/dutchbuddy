@@ -8,10 +8,7 @@
   "title": "Doe nou even rustig — partikels gestapeld",
   "emoji": "🧂",
   "level": "C1",
-  "durationMin": [
-    20,
-    35
-  ],
+  "durationMin": [20, 35],
   "summary": "Layering nou, even, toch, wel, maar and eens so the tone lands exactly where you want it",
   "blocks": [
     {
@@ -19,35 +16,14 @@
       "title": "Partikels komen zelden alleen",
       "body": "Je kent ze los: *even, maar, toch, wel, nou, eens*. Maar een Nederlander gebruikt ze zelden één voor één — hij **stapelt** ze. *Doe rustig* is een bevel. *Doe even rustig* is een verzoek. En **doe nou even rustig** is een vermoeide vriend die het voor de derde keer zegt. Vuistregel voor de volgorde: **nou** opent de stapel, **even** en **eens** sluiten hem, en *toch, maar, wel* zitten daartussen.",
       "table": {
-        "headers": [
-          "Stapel",
-          "Wat je ermee doet"
-        ],
+        "headers": ["Stapel", "Wat je ermee doet"],
         "rows": [
-          [
-            "nou even",
-            "aandringen, licht geïrriteerd"
-          ],
-          [
-            "toch wel",
-            "toegeven én toch bevestigen"
-          ],
-          [
-            "maar even",
-            "'heel snel', geen punt"
-          ],
-          [
-            "nou eens",
-            "een oude wens, eindelijk"
-          ],
-          [
-            "wel even",
-            "ik pak het zo op, geen zorgen"
-          ],
-          [
-            "toch maar",
-            "na twijfel: ik doe het"
-          ]
+          ["nou even", "aandringen, licht geïrriteerd"],
+          ["toch wel", "toegeven en meteen bevestigen"],
+          ["maar even", "'heel snel', geen punt"],
+          ["nou eens", "een oude wens, eindelijk"],
+          ["wel even", "ik pak het zo op, geen zorgen"],
+          ["toch maar", "na twijfel: ik doe het"]
         ]
       },
       "callout": "De volgorde ligt vast. *Doe even nou rustig* bestaat niet."
@@ -56,142 +32,37 @@
       "type": "chips",
       "title": "Tik om de stapels te horen",
       "items": [
-        {
-          "nl": "Doe nou even rustig.",
-          "en": "Come on, calm down a sec.",
-          "speak": "Doe nou even rustig."
-        },
-        {
-          "nl": "Dat is toch wel zo.",
-          "en": "That is true, though.",
-          "speak": "Dat is toch wel zo."
-        },
-        {
-          "nl": "Ik bel hem maar even.",
-          "en": "I'll just give him a quick call.",
-          "speak": "Ik bel hem maar even."
-        },
-        {
-          "nl": "Kom nou eens langs.",
-          "en": "Do come by sometime, will you.",
-          "speak": "Kom nou eens langs."
-        },
-        {
-          "nl": "Ik doe het straks wel even.",
-          "en": "I'll get to it later, no worries.",
-          "speak": "Ik doe het straks wel even."
-        },
-        {
-          "nl": "Ik doe het toch maar.",
-          "en": "I'll do it after all.",
-          "speak": "Ik doe het toch maar."
-        }
+        { "nl": "Doe nou even rustig.", "en": "Come on, calm down a sec.", "speak": "Doe nou even rustig." },
+        { "nl": "Dat is toch wel zo.", "en": "That is true, though.", "speak": "Dat is toch wel zo." },
+        { "nl": "Ik bel hem maar even.", "en": "I'll just give him a quick call.", "speak": "Ik bel hem maar even." },
+        { "nl": "Kom nou eens langs.", "en": "Do come by sometime, will you.", "speak": "Kom nou eens langs." },
+        { "nl": "Ik doe het straks wel even.", "en": "I'll get to it later, no worries.", "speak": "Ik doe het straks wel even." },
+        { "nl": "Ik doe het toch maar.", "en": "I'll do it after all.", "speak": "Ik doe het toch maar." }
       ]
     },
     {
       "type": "contrast",
-      "title": "Kaal, gesoftend, gestapeld",
+      "title": "Kaal, verzacht, gestapeld",
       "pairs": [
-        {
-          "left": "Doe rustig.",
-          "right": "Doe nou even rustig.",
-          "note": "Kaal is het een bevel. *nou* voegt aandrang toe, *even* maakt het klein: 'kom op, heel even maar'."
-        },
-        {
-          "left": "Dat is zo.",
-          "right": "Dat is toch wel zo.",
-          "note": "*toch* geeft de ander gelijk, *wel* bevestigt het alsnog: 'ja, eigenlijk heb je gelijk'."
-        },
-        {
-          "left": "Ik bel hem.",
-          "right": "Ik bel hem maar even.",
-          "note": "*maar* haalt de lading eraf, *even* maakt het kort. Samen: geen groot gebaar, gewoon een belletje."
-        }
+        { "left": "Doe rustig.", "right": "Doe nou even rustig.", "note": "Kaal is het een bevel. *nou* voegt aandrang toe, *even* maakt het klein: 'kom op, heel even maar'." },
+        { "left": "Dat is zo.", "right": "Dat is toch wel zo.", "note": "*toch* geeft de ander gelijk, *wel* bevestigt het alsnog: 'ja, eigenlijk heb je gelijk'." },
+        { "left": "Ik bel hem.", "right": "Ik bel hem maar even.", "note": "*maar* haalt de lading eraf, *even* maakt het kort. Samen: geen groot gebaar, gewoon een belletje." }
       ]
     },
-    {
-      "type": "mcq",
-      "prompt": "Welke volgorde zegt een Nederlander écht?",
-      "options": [
-        "Doe even nou rustig.",
-        "Doe nou even rustig.",
-        "Doe rustig nou even."
-      ],
-      "correct": 1,
-      "explain": "*nou* opent de stapel, *even* sluit hem. De volgorde van partikels ligt net zo vast als de woordvolgorde; door elkaar klinkt het als een vertaalmachine."
-    },
-    {
-      "type": "card",
-      "title": "toch — de spil van elke stapel",
-      "body": "*toch* is het partikel waar de andere zich aan vastklikken. Met **wel** erachter geef je toe én bevestig je: *Het is toch wel duur.* Met **niet** draai je een eerder besluit om: *Ik ga toch niet mee.* En **toch maar** is het geluid van iemand die na lang twijfelen de knoop doorhakt: *Ik doe het toch maar.*",
-      "callout": "*toch wel* = 'ja, eigenlijk wel'. *toch niet* = 'ik zie er toch van af'."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Daan zegt: *'Ik doe het toch maar.'* Wat is er gebeurd?",
-      "options": [
-        "Hij twijfelde, en nu doet hij het wél.",
-        "Hij weigert nog steeds.",
-        "Hij doet het alleen als jij meegaat."
-      ],
-      "correct": 0,
-      "explain": "*toch maar* markeert het einde van de twijfel: eerst niet, nu wel. Laat je *toch* weg (*ik doe het maar*), dan klinkt het alsof het je eigenlijk niet zoveel kan schelen."
-    },
-    {
-      "type": "typed",
-      "prompt": "Zet de partikels op hun plek. Grondzin: *Doe rustig.* Toe te voegen: *nou* en *even*.",
-      "answers": [
-        "Doe nou even rustig"
-      ],
-      "hint": "*nou* vooraan in de stapel, het andere partikel erachter.",
-      "explain": "*Doe nou even rustig.* Precies de zin die je zegt als iemand voor de derde keer over hetzelfde begint."
-    },
-    {
-      "type": "dictation",
-      "prompt": "Luister en typ wat je hoort.",
-      "speak": "Dat is toch wel zo, hoor.",
-      "answers": [
-        "Dat is toch wel zo, hoor",
-        "Dat is toch wel zo hoor"
-      ],
-      "explain": "*toch wel* geeft toe en bevestigt; *hoor* maakt er een warme bevestiging van in plaats van een discussie."
-    },
+    { "type": "mcq", "prompt": "Welke volgorde zegt een Nederlander écht?", "options": ["Doe even nou rustig.", "Doe nou even rustig.", "Doe rustig nou even."], "correct": 1, "explain": "*nou* opent de stapel, *even* sluit hem. De volgorde van partikels ligt net zo vast als de woordvolgorde; door elkaar klinkt het als een vertaalmachine." },
+    { "type": "card", "title": "toch — de spil van elke stapel", "body": "*toch* is het partikel waar de andere zich aan vastklikken. Met **wel** erachter geef je toe én bevestig je: *Het is toch wel duur.* Met **niet** draai je een eerder besluit om: *Ik ga toch niet mee.* En **toch maar** is het geluid van iemand die na lang twijfelen de knoop doorhakt: *Ik doe het toch maar.*", "callout": "*toch wel* = 'ja, eigenlijk wel'. *toch niet* = 'ik zie er toch van af'." },
+    { "type": "mcq", "prompt": "Daan zegt: *'Ik doe het toch maar.'* Wat is er gebeurd?", "options": ["Hij twijfelde, en nu doet hij het wél.", "Hij weigert nog steeds.", "Hij doet het alleen als jij meegaat."], "correct": 0, "explain": "*toch maar* markeert het einde van de twijfel: eerst niet, nu wel. Laat je *toch* weg (*ik doe het maar*), dan klinkt het alsof het je eigenlijk niet zoveel kan schelen." },
+    { "type": "typed", "prompt": "Zet de partikels op hun plek. Basiszin: *Doe rustig.* Toe te voegen: *nou* en *even*.", "answers": ["Doe nou even rustig"], "hint": "*nou* vooraan in de stapel, het andere partikel erachter.", "explain": "*Doe nou even rustig.* Precies de zin die je zegt als iemand voor de derde keer over hetzelfde begint." },
+    { "type": "dictation", "prompt": "Luister en typ wat je hoort.", "speak": "Dat is toch wel zo, hoor.", "answers": ["Dat is toch wel zo, hoor", "Dat is toch wel zo hoor"], "explain": "*toch wel* geeft toe en bevestigt; *hoor* maakt er een warme bevestiging van in plaats van een discussie." },
     {
       "type": "builder",
       "title": "Stapel je eigen toon",
       "prompt": "Bouw een zin met twee partikels op rij. Zeg hem hardop — de toon zit in de stapel.",
       "slots": [
-        {
-          "label": "Werkwoord",
-          "chips": [
-            "Doe",
-            "Kom",
-            "Luister"
-          ]
-        },
-        {
-          "label": "Eerste partikel",
-          "chips": [
-            "nou",
-            "toch",
-            "maar"
-          ]
-        },
-        {
-          "label": "Tweede partikel",
-          "chips": [
-            "even",
-            "eens"
-          ]
-        },
-        {
-          "label": "Rest van de zin",
-          "chips": [
-            "rustig.",
-            "langs.",
-            "naar me."
-          ]
-        }
+        { "label": "Gebiedende wijs", "chips": ["Doe", "Kom", "Luister"] },
+        { "label": "Eerste partikel", "chips": ["nou", "toch", "maar"] },
+        { "label": "Tweede partikel", "chips": ["even", "eens"] },
+        { "label": "Rest van de zin", "chips": ["rustig.", "langs.", "naar me."] }
       ],
       "sample": "Kom nou even langs."
     },
@@ -199,69 +70,17 @@
       "type": "dialogue",
       "scene": "Daan is fretting about the support slot again. You have heard this before.",
       "lines": [
-        {
-          "speaker": "Daan",
-          "nl": "Ik weet het nog niet, hoor. Misschien zeg ik toch af.",
-          "en": "I still don't know. Maybe I'll cancel after all.",
-          "spotlight": "*toch* draait zijn eerdere ja terug."
-        },
-        {
-          "speaker": "You",
-          "nl": "Doe nou even rustig. Je hebt al ja gezegd.",
-          "en": "Come on, calm down. You already said yes.",
-          "spotlight": "*nou even* — aandringen zonder ruzie te maken."
-        },
-        {
-          "speaker": "Daan",
-          "nl": "Dat is toch wel zo, ja.",
-          "en": "That is true, yeah.",
-          "spotlight": "*toch wel* — hij geeft toe."
-        },
-        {
-          "speaker": "You",
-          "nl": "Wat is er dan?",
-          "en": "So what is it?"
-        },
-        {
-          "speaker": "Daan",
-          "nl": "Stel dat er niemand komt. Dan sta ik daar maar wat te spelen.",
-          "en": "Suppose nobody shows up. Then I'm just standing there playing away.",
-          "spotlight": "*maar wat* — 'zonder doel', een beetje zielig."
-        },
-        {
-          "speaker": "You",
-          "nl": "Luister nou eens. Emma komt, ik kom, en je moeder komt sowieso.",
-          "en": "Now listen. Emma's coming, I'm coming, and your mother's coming regardless.",
-          "spotlight": "*nou eens* — 'let nou toch even op'."
-        },
-        {
-          "speaker": "Daan",
-          "nl": "Mijn moeder telt niet.",
-          "en": "My mother doesn't count."
-        },
-        {
-          "speaker": "You",
-          "nl": "Ze telt wel. Bel Emma maar even, dan hoor je het zelf.",
-          "en": "She does count. Just give Emma a quick call, then you'll hear it yourself.",
-          "spotlight": "*wel* spreekt zijn *niet* tegen; *maar even* maakt het belletje klein."
-        },
-        {
-          "speaker": "Daan",
-          "nl": "Oké. Ik doe het toch maar. Ik ga gewoon spelen.",
-          "en": "Okay. I'll do it after all. I'll just play.",
-          "spotlight": "*toch maar* — de twijfel is voorbij."
-        }
+        { "speaker": "Daan", "nl": "Ik weet het nog niet, hoor. Misschien zeg ik toch af.", "en": "I still don't know. Maybe I'll cancel after all.", "spotlight": "*toch* draait zijn eerdere ja terug." },
+        { "speaker": "You", "nl": "Doe nou even rustig. Je hebt al ja gezegd.", "en": "Come on, calm down. You already said yes.", "spotlight": "*nou even* — aandringen zonder ruzie te maken." },
+        { "speaker": "Daan", "nl": "Dat is toch wel zo, ja.", "en": "That is true, yeah.", "spotlight": "*toch wel* — hij geeft toe." },
+        { "speaker": "You", "nl": "Wat is er dan?", "en": "So what is it?" },
+        { "speaker": "Daan", "nl": "Stel dat er niemand komt. Dan sta ik daar maar wat te spelen.", "en": "Suppose nobody shows up. Then I'm just standing there playing away.", "spotlight": "*maar wat* — 'zonder doel', een beetje zielig." },
+        { "speaker": "You", "nl": "Luister nou eens. Emma komt, ik kom, en je moeder komt sowieso.", "en": "Now listen. Emma's coming, I'm coming, and your mother's coming regardless.", "spotlight": "*nou eens* — 'let nou toch even op'." },
+        { "speaker": "Daan", "nl": "Mijn moeder telt niet.", "en": "My mother doesn't count." },
+        { "speaker": "You", "nl": "Ze telt wel. Bel Emma maar even, dan hoor je het zelf.", "en": "She does count. Just give Emma a quick call, then you'll hear it yourself.", "spotlight": "*wel* spreekt zijn *niet* tegen; *maar even* maakt het belletje klein." },
+        { "speaker": "Daan", "nl": "Oké. Ik doe het toch maar. Ik ga gewoon spelen.", "en": "Okay. I'll do it after all. I'll just play.", "spotlight": "*toch maar* — de twijfel is voorbij." }
       ]
     },
-    {
-      "type": "journal",
-      "prompt": "Denk aan iemand die zich veel te veel zorgen maakt. Schrijf drie zinnen waarin je die persoon geruststelt, en gebruik in elke zin **twee** partikels achter elkaar (*nou even, toch wel, maar even, nou eens, wel even*). In het Nederlands.",
-      "starters": [
-        "Doe nou even …",
-        "Het is toch wel …",
-        "Ik regel het straks wel even."
-      ],
-      "minSentences": 3
-    }
+    { "type": "journal", "prompt": "Denk aan iemand die zich veel te veel zorgen maakt. Schrijf drie zinnen waarin je die persoon geruststelt, en gebruik in elke zin **twee** partikels achter elkaar (*nou even, toch wel, maar even, nou eens, wel even*). In het Nederlands.", "starters": ["Doe nou even …", "Het is toch wel …", "Ik regel het straks wel even."], "minSentences": 3 }
   ]
 }

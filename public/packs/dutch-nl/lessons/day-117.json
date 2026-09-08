@@ -8,10 +8,7 @@
   "title": "Het lijkt, het blijkt, het schijnt — vaag zijn met precisie",
   "emoji": "🌫️",
   "level": "C1",
-  "durationMin": [
-    20,
-    35
-  ],
+  "durationMin": [20, 35],
   "summary": "The evidential verbs lijken, blijken and schijnen, hearsay zou, and the hedges op zich, in principe, eigenlijk and min of meer",
   "blocks": [
     {
@@ -19,27 +16,11 @@
       "title": "Drie werkwoorden, drie bronnen",
       "body": "Nederlanders zeggen zelden kaal *het is zo*. Ze vertellen erbij **waar ze het vandaan hebben**. *lijken* = mijn indruk. *blijken* = wat achteraf de uitkomst was. *schijnen* = van horen zeggen, ik sta er niet voor in. Alle drie combineren ze graag met **te + infinitief**: *hij blijkt gelijk te hebben*.",
       "table": {
-        "headers": [
-          "Werkwoord",
-          "Bron",
-          "Voorbeeld"
-        ],
+        "headers": ["Werkwoord", "Bron", "Voorbeeld"],
         "rows": [
-          [
-            "lijken",
-            "eigen indruk",
-            "Ze lijkt moe."
-          ],
-          [
-            "blijken",
-            "achteraf gebleken feit",
-            "Het bleek een misverstand."
-          ],
-          [
-            "schijnen",
-            "van horen zeggen",
-            "Het schijnt dat het duur is."
-          ]
+          ["lijken", "eigen indruk", "Ze lijkt moe."],
+          ["blijken", "achteraf gebleken feit", "Het bleek een misverstand."],
+          ["schijnen", "van horen zeggen", "Het schijnt dat het duur is."]
         ]
       },
       "callout": "Gebruik *schijnen* nooit voor iets wat je zelf hebt meegemaakt — dan klink je alsof je erbij was en het toch niet weet."
@@ -48,84 +29,30 @@
       "type": "chips",
       "title": "Tik om de nuance te horen",
       "items": [
-        {
-          "nl": "Het lijkt me een goed idee.",
-          "en": "Sounds like a good idea to me.",
-          "speak": "Het lijkt me een goed idee."
-        },
-        {
-          "nl": "Achteraf bleek het een misverstand.",
-          "en": "It turned out to be a misunderstanding.",
-          "speak": "Achteraf bleek het een misverstand."
-        },
-        {
-          "nl": "Het schijnt dat ze een huis hebben gekocht.",
-          "en": "Apparently they've bought a house.",
-          "speak": "Het schijnt dat ze een huis hebben gekocht."
-        },
-        {
-          "nl": "Hij blijkt gelijk te hebben.",
-          "en": "He turns out to be right.",
-          "speak": "Hij blijkt gelijk te hebben."
-        },
-        {
-          "nl": "Dat zou volgende week klaar moeten zijn.",
-          "en": "That's supposed to be ready next week.",
-          "speak": "Dat zou volgende week klaar moeten zijn."
-        },
-        {
-          "nl": "Ze schijnt het al weken te weten.",
-          "en": "Apparently she's known for weeks.",
-          "speak": "Ze schijnt het al weken te weten."
-        }
+        { "nl": "Het lijkt me een goed idee.", "en": "Sounds like a good idea to me.", "speak": "Het lijkt me een goed idee." },
+        { "nl": "Achteraf bleek het een misverstand.", "en": "It turned out to be a misunderstanding.", "speak": "Achteraf bleek het een misverstand." },
+        { "nl": "Het schijnt dat ze een huis hebben gekocht.", "en": "Apparently they've bought a house.", "speak": "Het schijnt dat ze een huis hebben gekocht." },
+        { "nl": "Hij blijkt gelijk te hebben.", "en": "He turns out to be right.", "speak": "Hij blijkt gelijk te hebben." },
+        { "nl": "Dat zou volgende week klaar moeten zijn.", "en": "That's supposed to be ready next week.", "speak": "Dat zou volgende week klaar moeten zijn." },
+        { "nl": "Ze schijnt het al weken te weten.", "en": "Apparently she's known for weeks.", "speak": "Ze schijnt het al weken te weten." }
       ]
     },
     {
       "type": "contrast",
       "title": "lijken, blijken, schijnen",
       "pairs": [
-        {
-          "left": "Het lijkt een goed plan.",
-          "right": "Het bleek een goed plan.",
-          "note": "*lijken* geeft je indruk vooraf; *blijken* kijkt terug op hoe het afliep."
-        },
-        {
-          "left": "Ik denk dat het duur is.",
-          "right": "Het schijnt duur te zijn.",
-          "note": "Met *schijnen* schuif je de bron naar iemand anders: ik heb het gehoord, meer niet."
-        },
-        {
-          "left": "Ze is boos.",
-          "right": "Ze lijkt boos.",
-          "note": "Met *lijken* claim je alleen wat je ziet — de veiligste manier om iets over een ander te zeggen."
-        }
+        { "left": "Het lijkt een goed plan.", "right": "Het bleek een goed plan.", "note": "*lijken* geeft je indruk vooraf; *blijken* kijkt terug op hoe het afliep." },
+        { "left": "Ik denk dat het duur is.", "right": "Het schijnt duur te zijn.", "note": "Met *schijnen* schuif je de bron naar iemand anders: ik heb het gehoord, meer niet." },
+        { "left": "Ze is boos.", "right": "Ze lijkt boos.", "note": "Met *lijken* claim je alleen wat je ziet — de veiligste manier om iets over een ander te zeggen." }
       ]
     },
-    {
-      "type": "mcq",
-      "prompt": "Daan heeft het van iemand anders gehoord en weet het niet zeker. Wat zegt hij?",
-      "options": [
-        "Het blijkt dat de zaal groter is.",
-        "Het schijnt dat de zaal groter is.",
-        "Het lijkt dat de zaal groter is."
-      ],
-      "correct": 1,
-      "explain": "*schijnen* = van horen zeggen. Met *blijken* zou het inmiddels vaststaan, en *het lijkt dat…* zegt een Nederlander niet: dat wordt *het lijkt erop dat…*."
-    },
+    { "type": "mcq", "prompt": "Daan heeft het van iemand anders gehoord en weet het niet zeker. Wat zegt hij?", "options": ["Het blijkt dat de zaal groter is.", "Het schijnt dat de zaal groter is.", "Het lijkt dat de zaal groter is."], "correct": 1, "explain": "*schijnen* = van horen zeggen. Met *blijken* zou het inmiddels vaststaan, en *het lijkt dat…* zegt een Nederlander niet: dat wordt *het lijkt erop dat…*." },
     {
       "type": "contrast",
       "title": "zou — afspraak en gerucht",
       "pairs": [
-        {
-          "left": "De trein komt om acht uur aan.",
-          "right": "De trein zou om acht uur moeten aankomen.",
-          "note": "*zou moeten* = zo is het afgesproken of beloofd, maar ik garandeer niets."
-        },
-        {
-          "left": "Hij heeft ontslag genomen.",
-          "right": "Hij zou ontslag hebben genomen.",
-          "note": "*zou … hebben* = volgens de verhalen. Precies wat het nieuws doet zolang iets niet bevestigd is."
-        }
+        { "left": "De trein komt om acht uur aan.", "right": "De trein zou om acht uur moeten aankomen.", "note": "*zou moeten* = zo is het afgesproken of beloofd, maar ik garandeer niets." },
+        { "left": "Hij heeft ontslag genomen.", "right": "Hij zou ontslag hebben genomen.", "note": "*zou … hebben* = volgens de verhalen. Precies wat het nieuws doet zolang iets niet bevestigd is." }
       ]
     },
     {
@@ -133,131 +60,35 @@
       "title": "Vaagwoorden met een functie",
       "body": "Deze woordjes verzwakken je zin niet — ze **sturen** hem. Ze zeggen precies hoeveel je claimt, en een Nederlander hoort dat feilloos.",
       "table": {
-        "headers": [
-          "Woord",
-          "Wat het doet"
-        ],
+        "headers": ["Woord", "Wat het doet"],
         "rows": [
-          [
-            "op zich",
-            "toegeven op één punt, de rest openhouden"
-          ],
-          [
-            "in principe",
-            "normaal gesproken wel, tenzij…"
-          ],
-          [
-            "eigenlijk",
-            "eerlijk gezegd, anders dan verwacht"
-          ],
-          [
-            "min of meer",
-            "ongeveer, niet helemaal"
-          ],
-          [
-            "best wel",
-            "meer dan je zou denken"
-          ]
+          ["op zich", "toegeven op één punt, de rest openhouden"],
+          ["in principe", "normaal gesproken wel, tenzij…"],
+          ["eigenlijk", "eerlijk gezegd, anders dan verwacht"],
+          ["min of meer", "ongeveer, niet helemaal"],
+          ["best wel", "meer dan je zou denken"]
         ]
       },
       "callout": "*In principe wel* betekent hier bijna altijd: er komt nog een *maar*."
     },
-    {
-      "type": "mcq",
-      "prompt": "Je vraagt of het feest doorgaat en je hoort: *'In principe wel.'* Wat kun je verwachten?",
-      "options": [
-        "Het gaat zeker door.",
-        "Het gaat waarschijnlijk door, maar er zit een slag om de arm bij.",
-        "Het gaat niet door."
-      ],
-      "correct": 1,
-      "explain": "*In principe* houdt een deur open. Wie zeker is, zegt gewoon *ja* of *het gaat door* — zonder aanloop."
-    },
-    {
-      "type": "typed",
-      "prompt": "Zwak deze mening af met *op zich*: *Je hebt gelijk, maar het is te duur.*",
-      "answers": [
-        "Op zich heb je gelijk, maar het is te duur",
-        "Je hebt op zich gelijk, maar het is te duur"
-      ],
-      "hint": "Vooraan met inversie, of achter het onderwerp.",
-      "explain": "*Op zich heb je gelijk, maar het is te duur.* Zet je *op zich* vooraan, dan komt het werkwoord op plek twee (*heb je*) — de V2-regel blijft gewoon gelden."
-    },
-    {
-      "type": "dictation",
-      "prompt": "Luister en typ wat je hoort.",
-      "speak": "Het schijnt dat ze het al besloten hebben.",
-      "answers": [
-        "Het schijnt dat ze het al besloten hebben",
-        "Het schijnt dat ze het al hebben besloten"
-      ],
-      "explain": "In de bijzin mag de werkwoordsgroep in beide volgordes staan: *besloten hebben* of *hebben besloten*. Allebei goed, allebei even Nederlands."
-    },
+    { "type": "mcq", "prompt": "Je vraagt of het feest doorgaat en je hoort: *'In principe wel.'* Wat kun je verwachten?", "options": ["Het gaat zeker door.", "Het gaat waarschijnlijk door, maar ze houden een slag om de arm.", "Het gaat niet door."], "correct": 1, "explain": "*In principe* houdt een deur open. Wie zeker is, zegt gewoon *ja* of *het gaat door* — zonder aanloop." },
+    { "type": "typed", "prompt": "Zwak deze mening af met *op zich*: *Je hebt gelijk, maar het is te duur.*", "answers": ["Op zich heb je gelijk, maar het is te duur", "Je hebt op zich gelijk, maar het is te duur"], "hint": "Vooraan met inversie, of achter het onderwerp.", "explain": "*Op zich heb je gelijk, maar het is te duur.* Zet je *op zich* vooraan, dan komt het werkwoord op plek twee (*heb je*) — de V2-regel blijft gewoon gelden." },
+    { "type": "dictation", "prompt": "Luister en typ wat je hoort.", "speak": "Het schijnt dat ze het al besloten hebben.", "answers": ["Het schijnt dat ze het al besloten hebben", "Het schijnt dat ze het al hebben besloten"], "explain": "In de bijzin mag de werkwoordsgroep in beide volgordes staan: *besloten hebben* of *hebben besloten*. Allebei goed, allebei even Nederlands." },
     {
       "type": "dialogue",
       "scene": "Emma has heard something about the lead role at the agency, and is being very careful with it.",
       "lines": [
-        {
-          "speaker": "Emma",
-          "nl": "Ik heb iets gehoord, maar hou het even voor je.",
-          "en": "I've heard something, but keep it to yourself for now."
-        },
-        {
-          "speaker": "You",
-          "nl": "Zeg het maar.",
-          "en": "Go on."
-        },
-        {
-          "speaker": "Emma",
-          "nl": "Het schijnt dat ze de functie intern willen invullen.",
-          "en": "Apparently they want to fill the role internally.",
-          "spotlight": "*het schijnt dat…* — gehoord, niet bevestigd."
-        },
-        {
-          "speaker": "You",
-          "nl": "Dat lijkt me goed nieuws voor jou.",
-          "en": "That sounds like good news for you.",
-          "spotlight": "*het lijkt me* — jouw indruk, geen claim over de feiten."
-        },
-        {
-          "speaker": "Emma",
-          "nl": "Op zich wel, ja. Maar in principe zou zo'n functie eerst extern moeten worden opengesteld.",
-          "en": "In itself, yes. But in principle a role like that is supposed to be advertised externally first.",
-          "spotlight": "*op zich* + *in principe* + *zou moeten*: drie dempers in twee zinnen. Zo praat een Nederlander over iets dat nog niet vaststaat."
-        },
-        {
-          "speaker": "You",
-          "nl": "En wat wil jij eigenlijk?",
-          "en": "And what do you actually want?",
-          "spotlight": "*eigenlijk* — je vraagt door naar wat er écht speelt."
-        },
-        {
-          "speaker": "Emma",
-          "nl": "Eerlijk? Ik weet het min of meer. Ik wil het, maar niet tegen elke prijs.",
-          "en": "Honestly? I more or less know. I want it, but not at any price."
-        },
-        {
-          "speaker": "You",
-          "nl": "Dat klinkt behoorlijk helder voor 'min of meer'.",
-          "en": "That sounds pretty clear for 'more or less'."
-        },
-        {
-          "speaker": "Emma",
-          "nl": "Ja, dat blijkt nu ik het hardop zeg.",
-          "en": "Yeah, that becomes clear now that I'm saying it out loud.",
-          "spotlight": "*blijken* — de uitkomst wordt hardop vastgesteld."
-        }
+        { "speaker": "Emma", "nl": "Ik heb iets gehoord, maar hou het even voor je.", "en": "I've heard something, but keep it to yourself for now." },
+        { "speaker": "You", "nl": "Zeg het maar.", "en": "Go on." },
+        { "speaker": "Emma", "nl": "Het schijnt dat ze de functie intern willen invullen.", "en": "Apparently they want to fill the role internally.", "spotlight": "*het schijnt dat…* — gehoord, niet bevestigd." },
+        { "speaker": "You", "nl": "Dat lijkt me goed nieuws voor jou.", "en": "That sounds like good news for you.", "spotlight": "*het lijkt me* — jouw indruk, geen claim over de feiten." },
+        { "speaker": "Emma", "nl": "Op zich wel, ja. Maar in principe zou zo'n functie eerst extern moeten worden opengesteld.", "en": "In itself, yes. But in principle a role like that is supposed to be advertised externally first.", "spotlight": "*op zich* + *in principe* + *zou moeten*: drie dempers in twee zinnen. Zo praat een Nederlander over iets dat nog niet vaststaat." },
+        { "speaker": "You", "nl": "En wat wil jij eigenlijk?", "en": "And what do you actually want?", "spotlight": "*eigenlijk* — je vraagt door naar wat er écht speelt." },
+        { "speaker": "Emma", "nl": "Eerlijk? Ik weet het min of meer. Ik wil het, maar niet tegen elke prijs.", "en": "Honestly? I more or less know. I want it, but not at any price." },
+        { "speaker": "You", "nl": "Dat klinkt behoorlijk helder voor 'min of meer'.", "en": "That sounds pretty clear for 'more or less'." },
+        { "speaker": "Emma", "nl": "Ja, dat blijkt nu ik het hardop zeg.", "en": "Yeah, that becomes clear now that I'm saying it out loud.", "spotlight": "*blijken* — de uitkomst wordt hardop vastgesteld." }
       ]
     },
-    {
-      "type": "journal",
-      "prompt": "Schrijf over iets in jouw leven dat nog niet zeker is: werk, een verhuizing, een plan. Gebruik minstens één keer *het schijnt* of *het blijkt*, één keer *zou moeten*, en één vaagwoord (*op zich, in principe, eigenlijk, min of meer*). Minstens drie zinnen, in het Nederlands.",
-      "starters": [
-        "In principe …",
-        "Het schijnt dat …",
-        "Eigenlijk zou ik …"
-      ],
-      "minSentences": 3
-    }
+    { "type": "journal", "prompt": "Schrijf over iets in jouw leven dat nog niet zeker is: werk, een verhuizing, een plan. Gebruik minstens één keer *het schijnt* of *het blijkt*, één keer *zou moeten*, en één vaagwoord (*op zich, in principe, eigenlijk, min of meer*). Minstens drie zinnen, in het Nederlands.", "starters": ["In principe …", "Het schijnt dat …", "Eigenlijk zou ik …"], "minSentences": 3 }
   ]
 }

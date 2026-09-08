@@ -72,10 +72,8 @@
         { "speaker": "Bram", "nl": "Veel te. Schrijf: Geachte heer/mevrouw. Je weet niet wie hem leest.", "en": "Far too. Write: Dear Sir or Madam. You don't know who'll read it." },
         { "speaker": "You", "nl": "En dan? Ik wil graag weten wanneer het klaar is?", "en": "And then? I'd like to know when it'll be ready?" },
         { "speaker": "Bram", "nl": "Dat mag netter. Naar aanleiding van mijn aanvraag van 12 maart zou ik graag willen weten wanneer ik een besluit kan verwachten.", "en": "That can be tidier. With reference to my application of 12 March, I would like to know when I can expect a decision.", "spotlight": "Naamwoordstijl vooraan, indirect verzoek erachter." },
-        { "speaker": "You", "nl": "Dat is wel een mond vol.", "en": "That's quite a mouthful." },
-        { "speaker": "Bram", "nl": "Dat is de bedoeling. Ambtelijk Nederlands is traag Nederlands: hoe langer de zin, hoe serieuzer hij wordt genomen.", "en": "That's the point. Official Dutch is slow Dutch: the longer the sentence, the more seriously it's taken." },
-        { "speaker": "You", "nl": "In Rotterdam zeggen jullie het toch liever kort?", "en": "In Rotterdam you'd rather keep it short, wouldn't you?" },
-        { "speaker": "Bram", "nl": "Praten wel. Op papier wint de vorm, ook bij ons. Geen woorden maar daden — maar dan met een aanhef.", "en": "When talking, yes. On paper form wins, with us too. Actions not words — but with a salutation." },
+        { "speaker": "You", "nl": "Dat is wel een mond vol. In Rotterdam zeggen jullie het toch liever kort?", "en": "That's quite a mouthful. In Rotterdam you'd rather keep it short, wouldn't you?" },
+        { "speaker": "Bram", "nl": "Praten wel. Op papier wint de vorm, ook bij ons: hoe langer de zin, hoe serieuzer hij wordt genomen. Geen woorden maar daden — maar dan met een aanhef.", "en": "When talking, yes. On paper form wins, with us too: the longer the sentence, the more seriously it's taken. Actions not words — but with a salutation.", "spotlight": "*hoe langer …, hoe serieuzer …* — en het passief *wordt genomen* erachteraan." },
         { "speaker": "You", "nl": "En hoe eindig ik?", "en": "And how do I end it?" },
         { "speaker": "Bram", "nl": "Met vriendelijke groet, en je naam. Hoogachtend bewaar je voor een klacht of een advocaat.", "en": "Kind regards, and your name. Save 'Hoogachtend' for a complaint or a lawyer.", "spotlight": "*Met vriendelijke groet* kan bijna altijd; *Hoogachtend* is zwaar geschut." }
       ]

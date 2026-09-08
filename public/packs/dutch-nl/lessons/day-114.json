@@ -8,52 +8,20 @@
   "title": "Lekker dan — ironie en understatement",
   "emoji": "🙃",
   "level": "C1",
-  "durationMin": [
-    20,
-    35
-  ],
+  "durationMin": [20, 35],
   "summary": "Dutch dryness: hearing the sarcasm in lekker dan and nou geweldig, and using understatement without giving offence",
   "blocks": [
-    {
-      "type": "card",
-      "title": "Droog, niet gemeen",
-      "body": "Nederlandse ironie is zelden fel. Ze werkt met een **vlakke stem** en **te weinig woorden**. Er zijn twee gereedschappen. Je zegt iets **overdreven positiefs** terwijl er net iets misgaat (*Lekker dan.*), of je zegt juist **veel te weinig** terwijl iets geweldig is (*Niet verkeerd.*). Dat tweede heet understatement, en het is de meest Nederlandse van de twee.",
-      "callout": "De toon doet alles. Ironie tegen een vreemde of tegen je baas: liever niet."
-    },
+    { "type": "card", "title": "Droog, niet gemeen", "body": "Nederlandse ironie is zelden fel. Ze werkt met een **vlakke stem** en **te weinig woorden**. Er zijn twee gereedschappen. Je zegt iets **overdreven positiefs** terwijl er net iets misgaat (*Lekker dan.*), of je zegt juist **veel te weinig** terwijl iets geweldig is (*Niet verkeerd.*). Dat tweede heet understatement, en het is de meest Nederlandse van de twee.", "callout": "De toon doet alles. Ironie tegen een vreemde of tegen je baas: liever niet." },
     {
       "type": "chips",
       "title": "Tik om de droogte te horen",
       "items": [
-        {
-          "nl": "Lekker dan.",
-          "en": "Great. Just great.",
-          "speak": "Lekker dan."
-        },
-        {
-          "nl": "Nou, geweldig.",
-          "en": "Well, wonderful.",
-          "speak": "Nou, geweldig."
-        },
-        {
-          "nl": "Dat was niet verkeerd.",
-          "en": "That was rather good.",
-          "speak": "Dat was niet verkeerd."
-        },
-        {
-          "nl": "Hij was niet bepaald blij.",
-          "en": "He was hardly pleased.",
-          "speak": "Hij was niet bepaald blij."
-        },
-        {
-          "nl": "Nou, dat viel mee, zeg.",
-          "en": "Well, that wasn't half bad.",
-          "speak": "Nou, dat viel mee, zeg."
-        },
-        {
-          "nl": "Wat een feest.",
-          "en": "What a treat (it wasn't).",
-          "speak": "Wat een feest."
-        }
+        { "nl": "Lekker dan.", "en": "Great. Just great.", "speak": "Lekker dan." },
+        { "nl": "Nou, geweldig.", "en": "Well, wonderful.", "speak": "Nou, geweldig." },
+        { "nl": "Dat was niet verkeerd.", "en": "That was rather good.", "speak": "Dat was niet verkeerd." },
+        { "nl": "Hij was niet bepaald blij.", "en": "He was hardly pleased.", "speak": "Hij was niet bepaald blij." },
+        { "nl": "Nou, dat viel mee, zeg.", "en": "Well, that wasn't half bad.", "speak": "Nou, dat viel mee, zeg." },
+        { "nl": "Wat een feest.", "en": "What a treat (it wasn't).", "speak": "Wat een feest." }
       ]
     },
     {
@@ -61,190 +29,56 @@
       "title": "Understatement: minder zeggen, meer bedoelen",
       "body": "De Nederlandse standaardtruc is **ontkennen wat je niet bedoelt**. *Niet verkeerd* is een compliment, *niet best* is een ramp. Wie hier 'fantastisch' roept, wordt eerder gewantrouwd dan geloofd — overdrijving is verdacht, understatement is betrouwbaar.",
       "table": {
-        "headers": [
-          "Wat je zegt",
-          "Wat je bedoelt"
-        ],
+        "headers": ["Wat je zegt", "Wat je bedoelt"],
         "rows": [
-          [
-            "Niet verkeerd.",
-            "Echt goed."
-          ],
-          [
-            "Dat is niet mis.",
-            "Dat is indrukwekkend."
-          ],
-          [
-            "Hij is niet bepaald zuinig.",
-            "Hij geeft veel te veel uit."
-          ],
-          [
-            "Het viel mee.",
-            "Het was beter dan verwacht."
-          ],
-          [
-            "Het is niet best.",
-            "Het is behoorlijk slecht."
-          ]
+          ["Niet verkeerd.", "Echt goed."],
+          ["Dat is niet mis.", "Dat is indrukwekkend."],
+          ["Hij is niet bepaald zuinig.", "Hij geeft veel te veel uit."],
+          ["Het viel mee.", "Het was beter dan verwacht."],
+          ["Het is niet best.", "Het is behoorlijk slecht."]
         ]
       }
     },
-    {
-      "type": "mcq",
-      "prompt": "Emma hoort jouw eerste Nederlandse presentatie en zegt: *'Niet verkeerd, hoor.'* Wat vindt ze ervan?",
-      "options": [
-        "Ze vond het echt goed.",
-        "Ze vond het maar matig.",
-        "Ze heeft niet geluisterd."
-      ],
-      "correct": 0,
-      "explain": "Understatement: *niet verkeerd* is in Nederland een compliment. Met *hoor* erachter is het warm bedoeld — geen kritiek, maar de Nederlandse maat van enthousiasme."
-    },
+    { "type": "mcq", "prompt": "Emma hoort jouw eerste Nederlandse presentatie en zegt: *'Niet verkeerd, hoor.'* Wat vindt ze ervan?", "options": ["Ze vond het echt goed.", "Ze vond het maar matig.", "Ze heeft niet geluisterd."], "correct": 0, "explain": "Understatement: *niet verkeerd* is in Nederland een compliment. Met *hoor* erachter is het warm bedoeld — geen kritiek, maar de Nederlandse maat van enthousiasme." },
     {
       "type": "contrast",
       "title": "Wat er staat vs wat er wordt bedoeld",
       "pairs": [
-        {
-          "left": "Lekker dan.",
-          "right": "Fijn, weer een probleem erbij.",
-          "note": "*lekker* betekent hier niets lekkers. De uitroep komt altijd ná de tegenslag: trein weg, regen, lekke band."
-        },
-        {
-          "left": "Nou, geweldig.",
-          "right": "Dit komt me heel slecht uit.",
-          "note": "Vlak uitgesproken, met een korte pauze na *nou*. Mét enthousiasme in je stem betekent het gewoon 'geweldig'."
-        },
-        {
-          "left": "Dat is ook toevallig.",
-          "right": "Dat lijkt me verdacht weinig toeval.",
-          "note": "Bijna altijd ironisch, met opgetrokken wenkbrauw. Letterlijk bedoeld zeg je liever *wat toevallig!*"
-        }
+        { "left": "Lekker dan.", "right": "Fijn, weer een probleem erbij.", "note": "*lekker* betekent hier niets lekkers. De uitroep komt altijd ná de tegenslag: trein weg, regen, lekke band." },
+        { "left": "Nou, geweldig.", "right": "Dit komt me heel slecht uit.", "note": "Vlak uitgesproken, met een korte pauze na *nou*. Mét enthousiasme in je stem betekent het gewoon 'geweldig'." },
+        { "left": "Dat is ook toevallig.", "right": "Dat lijkt me verdacht weinig toeval.", "note": "Bijna altijd ironisch, met opgetrokken wenkbrauw. Bedoel je het letterlijk, zeg dan liever *wat toevallig!*" }
       ]
     },
-    {
-      "type": "mcq",
-      "prompt": "Je staat in de regen met een lekke band. Welke vaste verzuchting past?",
-      "options": [
-        "Lekker dan.",
-        "Lekker bezig.",
-        "Lekker belangrijk."
-      ],
-      "correct": 0,
-      "explain": "*Lekker dan* is de vaste verzuchting bij eigen pech. *Lekker bezig* zeg je spottend tegen iemand ánders die er een zooitje van maakt, en *lekker belangrijk* betekent 'dat boeit niemand'."
-    },
+    { "type": "mcq", "prompt": "Je staat in de regen met een lekke band. Welke vaste verzuchting past?", "options": ["Lekker dan.", "Lekker bezig.", "Lekker belangrijk."], "correct": 0, "explain": "*Lekker dan* is de vaste verzuchting bij eigen pech. *Lekker bezig* zeg je spottend tegen iemand ánders die er een zooitje van maakt, en *lekker belangrijk* betekent 'dat boeit niemand'." },
     {
       "type": "shadow",
       "title": "Zeg het na — vlak, niet boos",
       "lines": [
-        {
-          "nl": "Lekker dan.",
-          "en": "Great, just great."
-        },
-        {
-          "nl": "Nou, geweldig.",
-          "en": "Well, wonderful."
-        },
-        {
-          "nl": "Niet verkeerd, hoor.",
-          "en": "Not bad at all."
-        },
-        {
-          "nl": "Dat was niet bepaald handig.",
-          "en": "That wasn't exactly clever."
-        },
-        {
-          "nl": "Het viel eerlijk gezegd best mee.",
-          "en": "Honestly, it wasn't half bad."
-        }
+        { "nl": "Lekker dan.", "en": "Great, just great." },
+        { "nl": "Nou, geweldig.", "en": "Well, wonderful." },
+        { "nl": "Niet verkeerd, hoor.", "en": "Not bad at all." },
+        { "nl": "Dat was niet bepaald handig.", "en": "That wasn't exactly clever." },
+        { "nl": "Het viel eerlijk gezegd best mee.", "en": "Honestly, it wasn't half bad." }
       ]
     },
-    {
-      "type": "typed",
-      "prompt": "Maak er een understatement van: *Hij was echt boos.* Gebruik *niet bepaald* en *blij*.",
-      "answers": [
-        "Hij was niet bepaald blij"
-      ],
-      "hint": "*niet bepaald* + het tegenovergestelde van wat je bedoelt.",
-      "explain": "*Hij was niet bepaald blij.* Je noemt het tegenovergestelde en ontkent dat — Nederlandser wordt het niet."
-    },
-    {
-      "type": "dictation",
-      "prompt": "Luister en typ wat je hoort.",
-      "speak": "Dat was niet verkeerd, hoor.",
-      "answers": [
-        "Dat was niet verkeerd, hoor",
-        "Dat was niet verkeerd hoor"
-      ],
-      "explain": "Een compliment in vermomming. Let op de komma vóór *hoor* — in spraak hoor je daar een klein pauzetje."
-    },
+    { "type": "typed", "prompt": "Maak er een understatement van: *Hij was echt boos.* Gebruik *niet bepaald* en *blij*.", "answers": ["Hij was niet bepaald blij"], "hint": "*niet bepaald* + het tegenovergestelde van wat je bedoelt.", "explain": "*Hij was niet bepaald blij.* Je noemt het tegenovergestelde en ontkent dat — Nederlandser wordt het niet." },
+    { "type": "dictation", "prompt": "Luister en typ wat je hoort.", "speak": "Dat was niet verkeerd, hoor.", "answers": ["Dat was niet verkeerd, hoor", "Dat was niet verkeerd hoor"], "explain": "Een compliment in vermomming. Let op de komma vóór *hoor* — in spraak hoor je daar een klein pauzetje." },
     {
       "type": "dialogue",
       "scene": "The rehearsal went badly. Daan reports back, dry as a cracker.",
       "lines": [
-        {
-          "speaker": "You",
-          "nl": "En? Hoe ging de repetitie?",
-          "en": "So? How was the rehearsal?"
-        },
-        {
-          "speaker": "Daan",
-          "nl": "Geweldig. De drummer kwam een uur te laat.",
-          "en": "Brilliant. The drummer turned up an hour late.",
-          "spotlight": "Vlak uitgesproken *geweldig*; de rest van de zin verklapt de ironie."
-        },
-        {
-          "speaker": "You",
-          "nl": "Lekker dan.",
-          "en": "Oh, great."
-        },
-        {
-          "speaker": "Daan",
-          "nl": "En de zaal is kleiner dan beloofd. Niet bepaald een stadion.",
-          "en": "And the venue is smaller than promised. Hardly a stadium.",
-          "spotlight": "*niet bepaald* — understatement met een grijns."
-        },
-        {
-          "speaker": "You",
-          "nl": "Maar speelden jullie goed?",
-          "en": "But did you play well?"
-        },
-        {
-          "speaker": "Daan",
-          "nl": "Het viel mee, ja.",
-          "en": "It wasn't bad, actually.",
-          "spotlight": "*het viel mee* = beter dan verwacht. Uit Daans mond is dat bijna een juichkreet."
-        },
-        {
-          "speaker": "You",
-          "nl": "Dus eigenlijk was het gewoon goed.",
-          "en": "So actually it was just good."
-        },
-        {
-          "speaker": "Daan",
-          "nl": "Zeg dat maar niet tegen de drummer.",
-          "en": "Don't go telling the drummer that."
-        },
-        {
-          "speaker": "You",
-          "nl": "Ik hou het op 'niet verkeerd'.",
-          "en": "I'll stick with 'not bad'."
-        },
-        {
-          "speaker": "Daan",
-          "nl": "Precies. Zo hoort het.",
-          "en": "Exactly. That's how it's done."
-        }
+        { "speaker": "You", "nl": "En? Hoe ging de repetitie?", "en": "So? How was the rehearsal?" },
+        { "speaker": "Daan", "nl": "Geweldig. De drummer kwam een uur te laat.", "en": "Brilliant. The drummer turned up an hour late.", "spotlight": "Vlak uitgesproken *geweldig*; de rest van de zin verklapt de ironie." },
+        { "speaker": "You", "nl": "Lekker dan.", "en": "Oh, great." },
+        { "speaker": "Daan", "nl": "En de zaal is kleiner dan beloofd. Niet bepaald een stadion.", "en": "And the venue is smaller than promised. Hardly a stadium.", "spotlight": "*niet bepaald* — understatement met een grijns." },
+        { "speaker": "You", "nl": "Maar speelden jullie goed?", "en": "But did you play well?" },
+        { "speaker": "Daan", "nl": "Het viel mee, ja.", "en": "It wasn't bad, actually.", "spotlight": "*het viel mee* = beter dan verwacht. Uit Daans mond is dat bijna een juichkreet." },
+        { "speaker": "You", "nl": "Dus eigenlijk was het gewoon goed.", "en": "So actually it was just good." },
+        { "speaker": "Daan", "nl": "Zeg dat maar niet tegen de drummer.", "en": "Don't go telling the drummer that." },
+        { "speaker": "You", "nl": "Ik hou het op 'niet verkeerd'.", "en": "I'll stick with 'not bad'." },
+        { "speaker": "Daan", "nl": "Precies. Zo hoort het.", "en": "Exactly. That's how it's done." }
       ]
     },
-    {
-      "type": "journal",
-      "prompt": "Schrijf over een dag waarop alles tegenzat — maar dan **droog**: geen geklaag, alleen understatement en één *lekker dan*. Minstens drie zinnen, in het Nederlands.",
-      "starters": [
-        "Vanochtend begon het al goed: …",
-        "Lekker dan.",
-        "Al met al viel het …"
-      ],
-      "minSentences": 3
-    }
+    { "type": "journal", "prompt": "Schrijf over een dag waarop alles tegenzat — maar dan **droog**: geen geklaag, alleen understatement en één *lekker dan*. Minstens drie zinnen, in het Nederlands.", "starters": ["Vanochtend begon het al goed: …", "Lekker dan.", "Al met al viel het …"], "minSentences": 3 }
   ]
 }

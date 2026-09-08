@@ -8,10 +8,7 @@
   "title": "Daan en Emma op dreef — droog, gestapeld en vol uitdrukkingen",
   "emoji": "🍻",
   "level": "C1",
-  "durationMin": [
-    20,
-    35
-  ],
+  "durationMin": [20, 35],
   "summary": "Week 17 review and immersion: Daan and Emma trade irony, idioms and stacked particles over a borrel while You keeps up",
   "blocks": [
     {
@@ -19,31 +16,13 @@
       "title": "Week 17 op een rij",
       "body": "Deze week ging niet over grammatica maar over **toon**: partikels stapelen, droge ironie, schakelen tussen registers, uitdrukkingen gebruiken en netjes vaag blijven. Vandaag komt het allemaal tegelijk voorbij — want zo krijg je het in het echt ook op je af. **Blijf in het Nederlands.**",
       "table": {
-        "headers": [
-          "Deze week",
-          "Wat je nu kunt"
-        ],
+        "headers": ["Deze week", "Wat je nu kunt"],
         "rows": [
-          [
-            "Partikels gestapeld",
-            "*doe nou even rustig*"
-          ],
-          [
-            "Ironie & understatement",
-            "*lekker dan*, *niet verkeerd*"
-          ],
-          [
-            "Register-wisseling",
-            "*je* en *u* in één gesprek"
-          ],
-          [
-            "Uitdrukkingen",
-            "*de knoop doorhakken*"
-          ],
-          [
-            "Hedging",
-            "*het schijnt*, *op zich*, *zou moeten*"
-          ]
+          ["Partikels gestapeld", "*doe nou even rustig*"],
+          ["Ironie & understatement", "*lekker dan*, *niet verkeerd*"],
+          ["Register-wisseling", "*je* en *u* in één gesprek"],
+          ["Uitdrukkingen", "*de knoop doorhakken*"],
+          ["Hedging", "*het schijnt*, *op zich*, *zou moeten*"]
         ]
       }
     },
@@ -51,178 +30,43 @@
       "type": "chips",
       "title": "Opwarmen — tik om te horen",
       "items": [
-        {
-          "nl": "Doe nou even rustig, joh.",
-          "en": "Come on, calm down.",
-          "speak": "Doe nou even rustig, joh."
-        },
-        {
-          "nl": "Lekker dan.",
-          "en": "Oh, great.",
-          "speak": "Lekker dan."
-        },
-        {
-          "nl": "Daar heb ik geen kaas van gegeten.",
-          "en": "I know nothing about that.",
-          "speak": "Daar heb ik geen kaas van gegeten."
-        },
-        {
-          "nl": "Het schijnt dat het uitverkocht is.",
-          "en": "Apparently it's sold out.",
-          "speak": "Het schijnt dat het uitverkocht is."
-        },
-        {
-          "nl": "Dat is toch wel bijzonder.",
-          "en": "That is rather special, though.",
-          "speak": "Dat is toch wel bijzonder."
-        },
-        {
-          "nl": "Niet verkeerd, hoor.",
-          "en": "Not bad at all.",
-          "speak": "Niet verkeerd, hoor."
-        }
+        { "nl": "Doe nou even rustig, joh.", "en": "Come on, calm down.", "speak": "Doe nou even rustig, joh." },
+        { "nl": "Lekker dan.", "en": "Oh, great.", "speak": "Lekker dan." },
+        { "nl": "Daar heb ik geen kaas van gegeten.", "en": "I know nothing about that.", "speak": "Daar heb ik geen kaas van gegeten." },
+        { "nl": "Het schijnt dat het uitverkocht is.", "en": "Apparently it's sold out.", "speak": "Het schijnt dat het uitverkocht is." },
+        { "nl": "Dat is toch wel bijzonder.", "en": "That is rather special, though.", "speak": "Dat is toch wel bijzonder." },
+        { "nl": "Niet verkeerd, hoor.", "en": "Not bad at all.", "speak": "Niet verkeerd, hoor." }
       ]
     },
-    {
-      "type": "mcq",
-      "prompt": "Emma zegt over Daans nieuwe nummer: *'Niet verkeerd, hoor.'* Hoe vat Daan dat op?",
-      "options": [
-        "Als kritiek",
-        "Als een compliment",
-        "Als een vraag"
-      ],
-      "correct": 1,
-      "explain": "Understatement. *Niet verkeerd* met *hoor* erachter is een oprecht compliment — zeker uit de mond van iemand die zelden juicht."
-    },
-    {
-      "type": "typed",
-      "prompt": "Vul de twee gestapelde partikels in: *Doe ___ ___ rustig.* (aandringen, maar vriendelijk)",
-      "answers": [
-        "nou even",
-        "Doe nou even rustig"
-      ],
-      "hint": "Het ene partikel opent de stapel, het andere sluit hem.",
-      "explain": "*Doe nou even rustig.* Zonder *nou* is het kalm advies; mét *nou* hoor je dat je het al eerder hebt gezegd."
-    },
+    { "type": "mcq", "prompt": "Emma zegt over Daans nieuwe nummer: *'Niet verkeerd, hoor.'* Hoe vat Daan dat op?", "options": ["Als kritiek", "Als een compliment", "Als een vraag"], "correct": 1, "explain": "Understatement. *Niet verkeerd* met *hoor* erachter is een oprecht compliment — zeker uit de mond van iemand die zelden juicht." },
+    { "type": "typed", "prompt": "Vul de twee gestapelde partikels in: *Doe ___ ___ rustig.* (aandringen, maar vriendelijk)", "answers": ["nou even", "Doe nou even rustig"], "hint": "Het ene partikel opent de stapel, het andere sluit hem.", "explain": "*Doe nou even rustig.* Zonder *nou* is het kalm advies; mét *nou* hoor je dat je het al eerder hebt gezegd." },
     {
       "type": "dialogue",
       "scene": "Friday borrel in Amsterdam. Daan's support slot is two weeks away, Emma's career step is still hanging, and Sanne has just sent a photo from Utrecht.",
       "lines": [
-        {
-          "speaker": "Daan",
-          "nl": "Nog twee weken. Ik slaap voor geen meter.",
-          "en": "Two weeks to go. I'm not sleeping at all.",
-          "spotlight": "*voor geen meter* — 'totaal niet', informeel en heel gewoon."
-        },
-        {
-          "speaker": "Emma",
-          "nl": "Lekker dan. En je zei nog wel dat je er klaar voor was.",
-          "en": "Oh, lovely. And you were the one saying you were ready.",
-          "spotlight": "*lekker dan* — droog en plagend, niet gemeen."
-        },
-        {
-          "speaker": "Daan",
-          "nl": "Ik ben er ook klaar voor. Op zich.",
-          "en": "I am ready. In itself.",
-          "spotlight": "*op zich* — hij geeft toe op één punt en houdt de rest open."
-        },
-        {
-          "speaker": "You",
-          "nl": "Op zich? Dat klinkt verdacht veel als 'nee'.",
-          "en": "In itself? That sounds suspiciously like 'no'."
-        },
-        {
-          "speaker": "Daan",
-          "nl": "Joh, doe nou even rustig, jullie. Het komt goed.",
-          "en": "Come on, you two, calm down. It'll be fine.",
-          "spotlight": "*nou even* gestapeld — en uitgerekend hij zegt het."
-        },
-        {
-          "speaker": "Emma",
-          "nl": "Van geruststellen heb jij duidelijk geen kaas gegeten.",
-          "en": "You clearly know nothing about reassuring people.",
-          "spotlight": "*ergens geen kaas van gegeten hebben*, hier plagerig gebruikt."
-        },
-        {
-          "speaker": "Daan",
-          "nl": "En jij? Al iets gehoord over die functie?",
-          "en": "And you? Heard anything about that role yet?"
-        },
-        {
-          "speaker": "Emma",
-          "nl": "Het schijnt dat ze deze week beslissen. Maar dat zeiden ze vorige week ook.",
-          "en": "Apparently they're deciding this week. But they said that last week too.",
-          "spotlight": "*het schijnt dat…* — gehoord, niet bevestigd."
-        },
-        {
-          "speaker": "You",
-          "nl": "Dus jullie hakken allebei de knoop niet door.",
-          "en": "So neither of you is making the call."
-        },
-        {
-          "speaker": "Daan",
-          "nl": "Wij niet, nee. Sanne wel: die stuurde net een foto van de kamer. Helemaal geverfd.",
-          "en": "Not us, no. Sanne is, though: she just sent a photo of the room. Fully painted."
-        },
-        {
-          "speaker": "Emma",
-          "nl": "Zie je, dát is doorpakken. Nou, proost dan maar.",
-          "en": "See, that's getting on with it. Well, cheers then.",
-          "spotlight": "*nou … dan maar* — berusting en gezelligheid in één adem."
-        }
+        { "speaker": "Daan", "nl": "Nog twee weken. Ik slaap voor geen meter.", "en": "Two weeks to go. I'm not sleeping at all.", "spotlight": "*voor geen meter* — 'totaal niet', informeel en heel gewoon." },
+        { "speaker": "Emma", "nl": "Lekker dan. En je zei nog wel dat je er klaar voor was.", "en": "Oh, lovely. And you were the one saying you were ready.", "spotlight": "*lekker dan* — droog en plagend, niet gemeen." },
+        { "speaker": "Daan", "nl": "Ik ben er ook klaar voor. Op zich.", "en": "I am ready. In itself.", "spotlight": "*op zich* — hij geeft toe op één punt en houdt de rest open." },
+        { "speaker": "You", "nl": "Op zich? Dat klinkt verdacht veel als 'nee'.", "en": "In itself? That sounds suspiciously like 'no'." },
+        { "speaker": "Daan", "nl": "Joh, doe nou even rustig, jullie. Het komt goed.", "en": "Come on, you two, calm down. It'll be fine.", "spotlight": "*nou even* gestapeld — en uitgerekend hij zegt het." },
+        { "speaker": "Emma", "nl": "Van geruststellen heb jij duidelijk geen kaas gegeten.", "en": "You clearly know nothing about reassuring people.", "spotlight": "*ergens geen kaas van gegeten hebben*, hier plagerig gebruikt." },
+        { "speaker": "Daan", "nl": "En jij? Al iets gehoord over die functie?", "en": "And you? Heard anything about that role yet?" },
+        { "speaker": "Emma", "nl": "Het schijnt dat ze deze week beslissen. Maar dat zeiden ze vorige week ook.", "en": "Apparently they're deciding this week. But they said that last week too.", "spotlight": "*het schijnt dat…* — gehoord, niet bevestigd." },
+        { "speaker": "You", "nl": "Dus jullie hakken allebei de knoop niet door.", "en": "So neither of you is making the call." },
+        { "speaker": "Daan", "nl": "Wij niet, nee. Sanne wel: die stuurde net een foto van de kamer. Helemaal geverfd.", "en": "Not us, no. Sanne is, though: she just sent a photo of the room. Fully painted." },
+        { "speaker": "Emma", "nl": "Zie je, dát is doorpakken. Nou, proost dan maar.", "en": "See, that's getting on with it. Well, cheers then.", "spotlight": "*nou … dan maar* — berusting en gezelligheid in één adem." }
       ]
     },
     {
       "type": "comprehension",
       "title": "Kwam het binnen?",
       "questions": [
-        {
-          "q": "Waarom slaapt Daan slecht?",
-          "options": [
-            "Zijn optreden komt eraan",
-            "Hij heeft een nieuwe baan",
-            "Hij verhuist naar Utrecht"
-          ],
-          "correct": 0
-        },
-        {
-          "q": "Wat weet Emma over de functie?",
-          "options": [
-            "Ze heeft hem gekregen",
-            "Ze heeft gehoord dat er deze week beslist wordt",
-            "Ze doet niet meer mee"
-          ],
-          "correct": 1
-        },
-        {
-          "q": "Wat heeft Sanne gedaan?",
-          "options": [
-            "Ze is naar Amsterdam verhuisd",
-            "Ze komt naar de borrel",
-            "Ze heeft de kamer geverfd"
-          ],
-          "correct": 2
-        },
-        {
-          "q": "Wat bedoelt Emma met *'Niet verkeerd'*-achtige opmerkingen zoals *'dát is doorpakken'*?",
-          "options": [
-            "Ze vindt het knap van Sanne",
-            "Ze vindt het overdreven",
-            "Ze snapt het niet"
-          ],
-          "correct": 0
-        }
+        { "q": "Waarom slaapt Daan slecht?", "options": ["Zijn optreden komt eraan", "Hij heeft een nieuwe baan", "Hij verhuist naar Utrecht"], "correct": 0 },
+        { "q": "Wat weet Emma over de functie?", "options": ["Ze heeft de functie al gekregen", "Ze heeft gehoord dat er deze week beslist wordt", "Ze doet niet meer mee"], "correct": 1 },
+        { "q": "Wat heeft Sanne gedaan?", "options": ["Ze is naar Amsterdam verhuisd", "Ze komt naar de borrel", "Ze heeft de kamer geverfd"], "correct": 2 },
+        { "q": "Wat vindt Emma ervan dat Sanne de kamer al geverfd heeft?", "options": ["Knap doorgepakt", "Veel te vroeg", "Ze snapt het niet"], "correct": 0 }
       ]
     },
-    {
-      "type": "journal",
-      "prompt": "Schrijf een korte scène tussen twee vrienden, net als hierboven: één droge grap, één uitdrukking en één gestapeld partikel. Minstens drie zinnen, in het Nederlands.",
-      "starters": [
-        "— Lekker dan.",
-        "— Doe nou even …",
-        "— Daar heb ik geen kaas van gegeten."
-      ],
-      "minSentences": 3
-    }
+    { "type": "journal", "prompt": "Schrijf een korte scène tussen twee vrienden, net als hierboven: één droge grap, één uitdrukking en één gestapeld partikel. Minstens drie zinnen, in het Nederlands.", "starters": ["— Lekker dan.", "— Doe nou even …", "— Daar heb ik geen kaas van gegeten."], "minSentences": 3 }
   ]
 }
