@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Dashboard from './engine/Dashboard';
 import Player from './engine/Player';
+import Practice from './engine/Practice';
 import LoginScreen from './LoginScreen';
 import LanguagePicker from './LanguagePicker';
 import { configureAudio } from './engine/audio';
@@ -39,6 +40,8 @@ export default function AppShell() {
   const [manifest, setManifest] = useState(null);
   const [lessonIndex, setLessonIndex] = useState({});
   const [openLesson, setOpenLesson] = useState(null);
+  const [practice, setPractice] = useState(null);
+  const [practiceOpen, setPracticeOpen] = useState(false);
   const [loadingPack, setLoadingPack] = useState(false);
   const [error, setError] = useState(null);
 
@@ -74,6 +77,7 @@ export default function AppShell() {
   useEffect(() => {
     setPackId(user ? getSelectedPack(user.id) : null);
     setOpenLesson(null);
+    setPracticeOpen(false);
   }, [user]);
 
   // When a language is chosen, load its manifest config + lessons.
@@ -81,6 +85,7 @@ export default function AppShell() {
     if (!packId || !catalog) {
       setManifest(null);
       setLessonIndex({});
+      setPractice(null);
       // Back to the YapWorld shell — drop the per-language accent so the
       // umbrella brand colour (from base.css :root) takes over again.
       document.documentElement.style.removeProperty('--accent');
@@ -113,7 +118,18 @@ export default function AppShell() {
           }
         })
       );
+      // Optional real-life practice section (scenario role-plays).
+      let practiceData = null;
+      if (entry.manifest.practice?.file) {
+        try {
+          const res = await fetch(`${packBase(packId)}/${entry.manifest.practice.file}`);
+          if (res.ok) practiceData = await res.json();
+        } catch {
+          practiceData = null;
+        }
+      }
       if (cancelled) return;
+      setPractice(practiceData);
       setLessonIndex(Object.fromEntries(entries.filter(Boolean)));
       setLoadingPack(false);
     })();
@@ -126,12 +142,14 @@ export default function AppShell() {
     setSelectedPack(user.id, id);
     setPackId(id);
     setOpenLesson(null);
+    setPracticeOpen(false);
     window.scrollTo(0, 0);
   };
   const backToLanguages = () => {
     if (user) setSelectedPack(user.id, null);
     setPackId(null);
     setOpenLesson(null);
+    setPracticeOpen(false);
     window.scrollTo(0, 0);
   };
   const doLogout = () => {
@@ -150,7 +168,7 @@ export default function AppShell() {
 
   return (
     <div className="app">
-      {!openLesson && (
+      {!openLesson && !practiceOpen && (
         <TopBar
           appName={catalog.app}
           manifest={manifest}
@@ -167,10 +185,24 @@ export default function AppShell() {
           lesson={lessonIndex[openLesson]}
           onExit={() => setOpenLesson(null)}
         />
+      ) : practiceOpen && practice ? (
+        <Practice
+          packId={manifest.packId}
+          practice={practice}
+          onExit={() => {
+            setPracticeOpen(false);
+            window.scrollTo(0, 0);
+          }}
+        />
       ) : (
         <Dashboard
           manifest={manifest}
           lessonIndex={lessonIndex}
+          practice={practice}
+          onOpenPractice={() => {
+            setPracticeOpen(true);
+            window.scrollTo(0, 0);
+          }}
           onOpenDay={(dayId) => {
             if (lessonIndex[dayId]) {
               setOpenLesson(dayId);

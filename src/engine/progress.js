@@ -74,8 +74,32 @@ export function loadJournal(packId, dayId, blockIndex) {
   return localStorage.getItem(`journal.${ns()}${packId}.${dayId}.${blockIndex}`) || '';
 }
 
+// Practice (real-life role-plays) lives outside the day path: a count of
+// completed runs per role-play, { "<scenarioId>/<roleplayId>": n }.
+// Practising still counts toward the day streak.
+const practiceKey = (packId) => `practice.${ns()}${packId}`;
+
+export function loadPractice(packId) {
+  try {
+    return JSON.parse(localStorage.getItem(practiceKey(packId))) || {};
+  } catch {
+    return {};
+  }
+}
+
+export function recordPractice(packId, runId) {
+  const done = loadPractice(packId);
+  done[runId] = (done[runId] || 0) + 1;
+  localStorage.setItem(practiceKey(packId), JSON.stringify(done));
+  const p = loadProgress(packId);
+  touchStreak(p);
+  save(packId, p);
+  return done;
+}
+
 export function resetProgress(packId) {
   localStorage.removeItem(key(packId));
+  localStorage.removeItem(practiceKey(packId));
   Object.keys(localStorage)
     .filter((k) => k.startsWith(`journal.${ns()}${packId}.`))
     .forEach((k) => localStorage.removeItem(k));

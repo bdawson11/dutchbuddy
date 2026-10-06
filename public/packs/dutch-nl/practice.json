@@ -1,0 +1,3472 @@
+{
+  "schemaVersion": 1,
+  "emoji": "🛍️",
+  "title": "Op straat",
+  "subtitle": "Real-life Dutch for cafés, coffeeshops, shops and the market",
+  "intro": "Practice for the conversations you'll actually have: ordering at the counter, the checkout questions, the cheese stall. Each place has a **role-play** where you answer out loud and the app listens, a **phrase sheet** to read before you walk in, and **curveballs** for when things go off script. Run each role-play a few times, because the shopkeeper's lines change every run.",
+  "survival": [
+    {
+      "nl": "Sorry, kunt u dat herhalen?",
+      "en": "Sorry, could you repeat that?"
+    },
+    {
+      "nl": "Iets langzamer, alstublieft.",
+      "en": "A bit slower, please."
+    },
+    {
+      "nl": "Ik spreek een beetje Nederlands.",
+      "en": "I speak a little Dutch."
+    },
+    {
+      "nl": "Ik leer Nederlands. Mag het in het Nederlands?",
+      "en": "I'm learning Dutch. Can we keep it in Dutch?"
+    },
+    {
+      "nl": "Wat betekent dat?",
+      "en": "What does that mean?"
+    },
+    {
+      "nl": "Hoe zeg je dat in het Nederlands?",
+      "en": "How do you say that in Dutch?"
+    },
+    {
+      "nl": "Kan ik pinnen?",
+      "en": "Can I pay by card?"
+    },
+    {
+      "nl": "Dank u wel. / Dank je wel.",
+      "en": "Thank you (formal / informal)."
+    },
+    {
+      "nl": "Fijne dag nog!",
+      "en": "Have a nice day!"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "cafe",
+      "emoji": "☕",
+      "title": "In het café",
+      "en": "Café & coffee bar",
+      "blurb": "Order at the counter, sit down on a terras, ask for the bill.",
+      "tips": [
+        "**Koffie** on its own is a black coffee. Want it milky? Say **koffie verkeerd**, literally 'coffee the wrong way round', the Dutch latte.",
+        "Order with **Mag ik een…?** or **Ik wil graag een…**. Plain **Ik wil een…** sounds blunt. **Doe maar een…** is relaxed and very Dutch.",
+        "In a sit-down café you order and pay at the table. Catch someone's eye and say **Mag ik afrekenen?** Rounding up is the normal tip: **Maak er maar tien euro van.**",
+        "Young city staff say **je**, so answer with je too. With older staff, start with **u**.",
+        "Looking for cannabis? That's a **coffeeshop**, which is a different place. See the coffeeshop scenario."
+      ],
+      "say": [
+        {
+          "nl": "Mag ik een cappuccino?",
+          "en": "Can I have a cappuccino?"
+        },
+        {
+          "nl": "Doe maar een koffie verkeerd.",
+          "en": "I'll have a koffie verkeerd (milky coffee)."
+        },
+        {
+          "nl": "Met havermelk, graag.",
+          "en": "With oat milk, please."
+        },
+        {
+          "nl": "Om mee te nemen, graag.",
+          "en": "To take away, please."
+        },
+        {
+          "nl": "Voor hier, graag.",
+          "en": "For here, please."
+        },
+        {
+          "nl": "Een appeltaart met slagroom, graag.",
+          "en": "Apple pie with whipped cream, please."
+        },
+        {
+          "nl": "Mag ik afrekenen?",
+          "en": "Can I pay (the bill)?"
+        },
+        {
+          "nl": "Kan ik pinnen?",
+          "en": "Can I pay by card?"
+        },
+        {
+          "nl": "Maak er maar tien euro van.",
+          "en": "Make it ten euros (keep the change)."
+        },
+        {
+          "nl": "Nee, dank je, dat was het.",
+          "en": "No thanks, that's all."
+        }
+      ],
+      "hear": [
+        {
+          "nl": "Zeg het maar.",
+          "en": "Go ahead (what would you like?)."
+        },
+        {
+          "nl": "Wat mag het zijn?",
+          "en": "What will it be?"
+        },
+        {
+          "nl": "Voor hier of om mee te nemen?",
+          "en": "For here or to take away?"
+        },
+        {
+          "nl": "Welke melk wil je?",
+          "en": "Which milk would you like?"
+        },
+        {
+          "nl": "Wil je er iets bij?",
+          "en": "Anything with it?"
+        },
+        {
+          "nl": "Anders nog iets?",
+          "en": "Anything else?"
+        },
+        {
+          "nl": "Dat is dan vier euro vijftig.",
+          "en": "That'll be €4.50."
+        },
+        {
+          "nl": "Pinnen of contant?",
+          "en": "Card or cash?"
+        },
+        {
+          "nl": "Ga maar zitten, we brengen het.",
+          "en": "Take a seat, we'll bring it over."
+        },
+        {
+          "nl": "Fijne dag nog!",
+          "en": "Have a nice day!"
+        }
+      ],
+      "roleplays": [
+        {
+          "id": "to-go",
+          "title": "Koffie om mee te nemen",
+          "en": "Coffee to go",
+          "staff": "Barista",
+          "setup": "A busy coffee bar in Amsterdam-Oost. You want a coffee with oat milk, to take away.",
+          "turns": [
+            {
+              "them": [
+                {
+                  "nl": "Hoi! Zeg het maar.",
+                  "en": "Hi! Go ahead."
+                },
+                {
+                  "nl": "Goeiemorgen! Wat mag het zijn?",
+                  "en": "Morning! What will it be?"
+                },
+                {
+                  "nl": "Hé, hallo! Wat wil je drinken?",
+                  "en": "Hey, hello! What would you like to drink?"
+                }
+              ]
+            },
+            {
+              "you": "Order a coffee, any kind: *cappuccino*, *latte*, *koffie verkeerd*…",
+              "keywords": [
+                [
+                  "cappuccino",
+                  "latte",
+                  "koffie verkeerd",
+                  "flat white",
+                  "koffie",
+                  "espresso",
+                  "thee",
+                  "muntthee",
+                  "chai",
+                  "cortado",
+                  "macchiato"
+                ]
+              ],
+              "sample": "Mag ik een cappuccino?",
+              "alts": [
+                "Doe maar een koffie verkeerd.",
+                "Ik wil graag een flat white."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Welke melk wil je? Gewone of havermelk?",
+                  "en": "Which milk? Regular or oat?"
+                },
+                {
+                  "nl": "Met gewone melk of havermelk?",
+                  "en": "With regular milk or oat milk?"
+                },
+                {
+                  "nl": "Normale melk, of iets anders? Haver, soja?",
+                  "en": "Normal milk, or something else? Oat, soy?"
+                }
+              ]
+            },
+            {
+              "you": "Ask for oat milk (*havermelk*).",
+              "keywords": [
+                [
+                  "havermelk",
+                  "haver"
+                ]
+              ],
+              "sample": "Havermelk, graag.",
+              "alts": [
+                "Met havermelk, alsjeblieft."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Voor hier of om mee te nemen?",
+                  "en": "For here or to take away?"
+                },
+                {
+                  "nl": "Drink je het hier of neem je het mee?",
+                  "en": "Drinking it here or taking it with you?"
+                },
+                {
+                  "nl": "Is het om mee te nemen?",
+                  "en": "Is it to take away?"
+                }
+              ]
+            },
+            {
+              "you": "Say it's to take away.",
+              "keywords": [
+                [
+                  "mee",
+                  "meenemen"
+                ]
+              ],
+              "sample": "Om mee te nemen, graag.",
+              "alts": [
+                "Ik neem het mee."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Wil je er nog iets bij? We hebben verse appeltaart.",
+                  "en": "Anything with it? We have fresh apple pie."
+                },
+                {
+                  "nl": "Nog iets erbij? Een koekje, een croissantje?",
+                  "en": "Anything else? A biscuit, a croissant?"
+                },
+                {
+                  "nl": "Anders nog iets?",
+                  "en": "Anything else?"
+                }
+              ]
+            },
+            {
+              "you": "Say no thanks, that's all.",
+              "keywords": [
+                [
+                  "nee",
+                  "dat was het",
+                  "dat is alles",
+                  "niks",
+                  "niets"
+                ]
+              ],
+              "sample": "Nee, dank je, dat was het.",
+              "alts": [
+                "Nee hoor, dat is alles."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Oké, dat is dan vier euro twintig.",
+                  "en": "OK, that's €4.20 then."
+                },
+                {
+                  "nl": "Dat wordt vier twintig.",
+                  "en": "That comes to four twenty."
+                },
+                {
+                  "nl": "Vier euro twintig, alsjeblieft.",
+                  "en": "€4.20, please."
+                }
+              ]
+            },
+            {
+              "you": "Ask if you can pay by card.",
+              "keywords": [
+                [
+                  "pinnen",
+                  "pin",
+                  "kaart",
+                  "pinpas",
+                  "bankpas"
+                ]
+              ],
+              "sample": "Kan ik pinnen?",
+              "alts": [
+                "Mag ik met kaart betalen?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Ja hoor, ga je gang.",
+                  "en": "Sure, go ahead."
+                },
+                {
+                  "nl": "Tuurlijk, hou je pas maar tegen het apparaat.",
+                  "en": "Of course, just hold your card against the machine."
+                },
+                {
+                  "nl": "Ja, contactloos kan ook.",
+                  "en": "Yes, contactless works too."
+                }
+              ]
+            },
+            {
+              "you": "Thank them and say bye.",
+              "keywords": [
+                [
+                  "dank",
+                  "bedankt",
+                  "dankjewel",
+                  "dankuwel",
+                  "merci",
+                  "top",
+                  "doei",
+                  "dag",
+                  "fijne dag"
+                ]
+              ],
+              "sample": "Dank je wel, fijne dag nog!",
+              "alts": [
+                "Bedankt, doei!"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Jij ook! Doei!",
+                  "en": "You too! Bye!"
+                },
+                {
+                  "nl": "Graag gedaan, fijne dag!",
+                  "en": "You're welcome, have a nice day!"
+                },
+                {
+                  "nl": "Jij ook, tot de volgende keer!",
+                  "en": "You too, see you next time!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "terras",
+          "title": "Aan tafel op het terras",
+          "en": "Sit down, order, pay",
+          "staff": "Ober",
+          "setup": "You've grabbed a table on a terras in Utrecht. The waiter comes over.",
+          "turns": [
+            {
+              "them": [
+                {
+                  "nl": "Goedemiddag! Weet u al wat u wilt?",
+                  "en": "Good afternoon! Do you know what you'd like?"
+                },
+                {
+                  "nl": "Hallo! Heb je al een keuze gemaakt?",
+                  "en": "Hello! Have you decided?"
+                },
+                {
+                  "nl": "Dag! Wat mag ik je brengen?",
+                  "en": "Hi! What can I bring you?"
+                }
+              ]
+            },
+            {
+              "you": "Order a drink: coffee, tea, fresh mint tea (*verse muntthee*)…",
+              "keywords": [
+                [
+                  "cappuccino",
+                  "latte",
+                  "koffie verkeerd",
+                  "flat white",
+                  "koffie",
+                  "espresso",
+                  "thee",
+                  "muntthee",
+                  "chai",
+                  "cortado",
+                  "macchiato",
+                  "fris",
+                  "cola",
+                  "water",
+                  "bier",
+                  "biertje",
+                  "wijn",
+                  "jus d'orange",
+                  "sinaasappelsap"
+                ]
+              ],
+              "sample": "Mag ik een verse muntthee?",
+              "alts": [
+                "Ik wil graag een koffie verkeerd."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Komt eraan. Wilt u er ook iets bij eten?",
+                  "en": "Coming up. Would you like something to eat with it?"
+                },
+                {
+                  "nl": "Prima. Wil je er nog iets lekkers bij?",
+                  "en": "Great. Something tasty with it?"
+                },
+                {
+                  "nl": "Goed. Iets te eten erbij? De appeltaart is vandaag vers.",
+                  "en": "Good. Anything to eat? The apple pie is fresh today."
+                }
+              ]
+            },
+            {
+              "you": "Order apple pie with whipped cream (*slagroom*).",
+              "keywords": [
+                [
+                  "appeltaart",
+                  "taart"
+                ],
+                [
+                  "slagroom"
+                ]
+              ],
+              "sample": "Ja, een appeltaart met slagroom, graag.",
+              "alts": [
+                "Doe maar een stuk appeltaart met slagroom."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Komt goed!",
+                  "en": "Will do!"
+                },
+                {
+                  "nl": "Lekker, ik breng het zo.",
+                  "en": "Nice, I'll bring it right over."
+                },
+                {
+                  "nl": "Goede keuze. Momentje.",
+                  "en": "Good choice. One moment."
+                }
+              ]
+            },
+            {
+              "you": "Later. Catch the waiter's eye and ask to pay.",
+              "keywords": [
+                [
+                  "afrekenen",
+                  "betalen",
+                  "rekening"
+                ]
+              ],
+              "sample": "Mag ik afrekenen?",
+              "alts": [
+                "Ik wil graag betalen.",
+                "Mag ik de rekening?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Natuurlijk. Dat is samen negen euro tachtig. Pinnen?",
+                  "en": "Of course. That's €9.80 altogether. Card?"
+                },
+                {
+                  "nl": "Ja hoor. Negen tachtig in totaal. Wil je pinnen?",
+                  "en": "Sure. Nine eighty in total. Paying by card?"
+                },
+                {
+                  "nl": "Tuurlijk, ik pak het apparaat even. Dat wordt negen euro tachtig.",
+                  "en": "Sure, I'll grab the machine. That's €9.80."
+                }
+              ]
+            },
+            {
+              "you": "Say yes, by card, and round it up to ten euros.",
+              "keywords": [
+                [
+                  "tien",
+                  "10"
+                ]
+              ],
+              "sample": "Ja, maak er maar tien euro van.",
+              "alts": [
+                "Pinnen, graag. Maak er maar tien van."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Dank u wel! Nog een fijne middag.",
+                  "en": "Thank you! Enjoy the rest of your afternoon."
+                },
+                {
+                  "nl": "Dankjewel, heel aardig! Fijne dag nog.",
+                  "en": "Thanks, that's kind! Have a nice day."
+                },
+                {
+                  "nl": "Top, bedankt! Tot ziens.",
+                  "en": "Great, thanks! Goodbye."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "curveballs": [
+        {
+          "title": "They switch to English",
+          "them": [
+            {
+              "nl": "Oh — what would you like?",
+              "en": "(They heard your accent and switched to English.)"
+            }
+          ],
+          "you": "Keep it in Dutch: say you're learning and ask to carry on in Dutch.",
+          "keywords": [
+            [
+              "nederlands"
+            ]
+          ],
+          "sample": "Ik leer Nederlands. Mag het in het Nederlands?",
+          "alts": [
+            "Nederlands is prima, hoor. Ik oefen."
+          ]
+        },
+        {
+          "title": "Out of oat milk",
+          "them": [
+            {
+              "nl": "Sorry, de havermelk is op. Is sojamelk ook goed?",
+              "en": "Sorry, we're out of oat milk. Is soy milk OK?"
+            }
+          ],
+          "you": "Pick another option.",
+          "keywords": [
+            [
+              "soja",
+              "sojamelk",
+              "gewone",
+              "normale",
+              "zwart",
+              "zonder",
+              "ja",
+              "prima",
+              "goed"
+            ]
+          ],
+          "sample": "Ja, sojamelk is ook goed.",
+          "alts": [
+            "Dan doe maar gewone melk.",
+            "Dan zonder melk, graag."
+          ]
+        },
+        {
+          "title": "Too fast",
+          "them": [
+            {
+              "nl": "Wil je er een koekje bij, of een stuk van ons huisgemaakte bananenbrood?",
+              "en": "Would you like a biscuit, or a piece of our homemade banana bread?"
+            }
+          ],
+          "you": "You didn't catch that. Ask them to repeat it, slower.",
+          "keywords": [
+            [
+              "herhalen",
+              "nog een keer",
+              "nog eens",
+              "langzamer",
+              "wat zei",
+              "pardon"
+            ]
+          ],
+          "sample": "Sorry, kunt u dat herhalen? Iets langzamer, graag.",
+          "alts": [
+            "Sorry, wat zei je?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coffeeshop",
+      "emoji": "🌿",
+      "title": "In de coffeeshop",
+      "en": "Coffeeshop (cannabis)",
+      "blurb": "ID at the door, the menu, asking for something mild, the house rules.",
+      "tips": [
+        "A **coffeeshop** sells cannabis. For coffee you want a **café** or **koffiebar**. Coffeeshops are 18+ only, and staff check your ID at the door, sometimes on every visit.",
+        "House rules: no more than **5 gram** per person per day, no alcohol, and **no tobacco indoors**. Joints are smoked pure or with a herbal mix (**kruiden**). A few cities only admit Dutch residents.",
+        "Be honest about strength. Say **Ik rook niet vaak** and staff will steer you to something milder. Edibles (**spacecake**) can take an hour or more to kick in, so wait before having more.",
+        "The menu is often behind the counter: **Mag ik de menukaart zien?** Many places are cash only, so check before you order. Sitting inside usually means buying a drink too."
+      ],
+      "say": [
+        {
+          "nl": "Mag ik de menukaart zien?",
+          "en": "Can I see the menu?"
+        },
+        {
+          "nl": "Ik rook niet vaak.",
+          "en": "I don't smoke often."
+        },
+        {
+          "nl": "Heb je iets milds?",
+          "en": "Do you have something mild?"
+        },
+        {
+          "nl": "Wat raad je aan voor een beginner?",
+          "en": "What do you recommend for a beginner?"
+        },
+        {
+          "nl": "Is deze sterk?",
+          "en": "Is this one strong?"
+        },
+        {
+          "nl": "Doe maar een gram.",
+          "en": "I'll take a gram."
+        },
+        {
+          "nl": "Een voorgerolde, graag.",
+          "en": "A pre-rolled joint, please."
+        },
+        {
+          "nl": "Mag ik een vloei en een aansteker?",
+          "en": "Can I have a rolling paper and a lighter?"
+        },
+        {
+          "nl": "Mag je hier roken?",
+          "en": "Can you smoke in here?"
+        },
+        {
+          "nl": "Is het alleen contant?",
+          "en": "Is it cash only?"
+        }
+      ],
+      "hear": [
+        {
+          "nl": "Mag ik even je ID zien?",
+          "en": "Can I see your ID?"
+        },
+        {
+          "nl": "Legitimatie, alsjeblieft.",
+          "en": "ID, please."
+        },
+        {
+          "nl": "Weet je al wat je zoekt?",
+          "en": "Do you know what you're looking for?"
+        },
+        {
+          "nl": "Wiet of hasj?",
+          "en": "Weed or hash?"
+        },
+        {
+          "nl": "Deze is vrij sterk.",
+          "en": "This one is quite strong."
+        },
+        {
+          "nl": "Die is lekker rustig.",
+          "en": "That one is nice and mellow."
+        },
+        {
+          "nl": "Je moet wel iets drinken als je blijft zitten.",
+          "en": "You do need to buy a drink if you're staying."
+        },
+        {
+          "nl": "Alleen contant.",
+          "en": "Cash only."
+        },
+        {
+          "nl": "Geen tabak binnen.",
+          "en": "No tobacco inside."
+        },
+        {
+          "nl": "Rustig aan, hè!",
+          "en": "Take it easy!"
+        }
+      ],
+      "roleplays": [
+        {
+          "id": "order",
+          "title": "Binnenkomen en bestellen",
+          "en": "Getting in and ordering",
+          "staff": "Medewerker",
+          "setup": "A coffeeshop in Amsterdam. A doorman checks ID, and the menu is behind the counter.",
+          "turns": [
+            {
+              "them": [
+                {
+                  "nl": "Hoi! Mag ik even je ID zien?",
+                  "en": "Hi! Can I see your ID?"
+                },
+                {
+                  "nl": "Goedenavond. ID-kaart of paspoort, alsjeblieft.",
+                  "en": "Good evening. ID card or passport, please."
+                },
+                {
+                  "nl": "Hé, legitimatie even?",
+                  "en": "Hey, ID please?"
+                }
+              ]
+            },
+            {
+              "you": "Hand it over: say *here you go*.",
+              "keywords": [
+                [
+                  "alsjeblieft",
+                  "alstublieft",
+                  "asjeblieft",
+                  "hier",
+                  "ja hoor"
+                ]
+              ],
+              "sample": "Ja hoor, alsjeblieft.",
+              "alts": [
+                "Hier is mijn paspoort."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Top, loop maar door.",
+                  "en": "Great, go on in."
+                },
+                {
+                  "nl": "Prima, ga je gang.",
+                  "en": "Fine, go ahead."
+                },
+                {
+                  "nl": "Dankjewel. Veel plezier!",
+                  "en": "Thanks. Enjoy!"
+                }
+              ]
+            },
+            {
+              "you": "At the counter: ask to see the menu.",
+              "keywords": [
+                [
+                  "kaart",
+                  "menu",
+                  "menukaart"
+                ]
+              ],
+              "sample": "Hoi, mag ik de menukaart zien?",
+              "alts": [
+                "Heb je een menu?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Tuurlijk, hier. Weet je al wat je zoekt?",
+                  "en": "Sure, here. Do you know what you're after?"
+                },
+                {
+                  "nl": "Alsjeblieft. Zoek je iets specifieks?",
+                  "en": "Here you go. Looking for anything in particular?"
+                },
+                {
+                  "nl": "Hier is de kaart. Wiet, hasj, voorgerolde, alles staat erop.",
+                  "en": "Here's the menu. Weed, hash, pre-rolls, it's all on there."
+                }
+              ]
+            },
+            {
+              "you": "Say you don't smoke often and ask for something mild.",
+              "keywords": [
+                [
+                  "mild",
+                  "milds",
+                  "rustig",
+                  "rustigs",
+                  "licht",
+                  "lichts",
+                  "zacht",
+                  "niet te sterk",
+                  "beginner"
+                ]
+              ],
+              "sample": "Ik rook niet vaak. Heb je iets milds?",
+              "alts": [
+                "Wat raad je aan voor een beginner?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Dan zou ik deze nemen, die is lekker rustig.",
+                  "en": "Then I'd go for this one, it's nice and mellow."
+                },
+                {
+                  "nl": "Probeer deze eens, niet te sterk.",
+                  "en": "Try this one, not too strong."
+                },
+                {
+                  "nl": "Voor een beginner raad ik deze aan. Begin rustig, hè.",
+                  "en": "For a beginner I'd recommend this one. Start slow, OK?"
+                }
+              ]
+            },
+            {
+              "you": "Order one gram of it.",
+              "keywords": [
+                [
+                  "gram",
+                  "voorgerolde",
+                  "joint"
+                ]
+              ],
+              "sample": "Oké, doe maar een gram.",
+              "alts": [
+                "Mag ik daar één gram van?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Eén gram, dat is dan twaalf euro.",
+                  "en": "One gram, that's twelve euros."
+                },
+                {
+                  "nl": "Komt eraan. Twaalf euro, alsjeblieft.",
+                  "en": "Coming up. Twelve euros, please."
+                },
+                {
+                  "nl": "Dat wordt twaalf euro.",
+                  "en": "That'll be twelve euros."
+                }
+              ]
+            },
+            {
+              "you": "Ask if you can pay by card.",
+              "keywords": [
+                [
+                  "pinnen",
+                  "pin",
+                  "kaart",
+                  "pinpas",
+                  "bankpas",
+                  "contant"
+                ]
+              ],
+              "sample": "Kan ik pinnen?",
+              "alts": [
+                "Is het alleen contant?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Nee, sorry, alleen contant. Er zit een pinautomaat om de hoek.",
+                  "en": "No, sorry, cash only. There's an ATM round the corner."
+                },
+                {
+                  "nl": "Ja hoor, pinnen kan.",
+                  "en": "Sure, card is fine."
+                },
+                {
+                  "nl": "Alleen cash, helaas.",
+                  "en": "Cash only, unfortunately."
+                }
+              ]
+            },
+            {
+              "you": "Sort it out and thank them.",
+              "keywords": [
+                [
+                  "dank",
+                  "bedankt",
+                  "dankjewel",
+                  "dankuwel",
+                  "merci",
+                  "top",
+                  "oké",
+                  "prima"
+                ]
+              ],
+              "sample": "Oké, dank je wel!",
+              "alts": [
+                "Prima, bedankt!"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Graag gedaan. Rustig aan, hè!",
+                  "en": "You're welcome. Take it easy!"
+                },
+                {
+                  "nl": "Veel plezier. Doei!",
+                  "en": "Enjoy. Bye!"
+                },
+                {
+                  "nl": "Fijne avond!",
+                  "en": "Have a nice evening!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sit",
+          "title": "Zitten met een drankje",
+          "en": "Sitting down with a drink",
+          "staff": "Medewerker",
+          "setup": "You want to sit inside. You'll need to buy a drink, pick up a few extras, and learn the smoking rules.",
+          "turns": [
+            {
+              "them": [
+                {
+                  "nl": "Wil je hier zitten? Dan moet je wel iets drinken.",
+                  "en": "Want to sit here? Then you do need to buy a drink."
+                },
+                {
+                  "nl": "Wil je er iets te drinken bij?",
+                  "en": "Want something to drink with that?"
+                },
+                {
+                  "nl": "Iets te drinken?",
+                  "en": "Something to drink?"
+                }
+              ]
+            },
+            {
+              "you": "Order a fresh mint tea (or any drink).",
+              "keywords": [
+                [
+                  "muntthee",
+                  "thee",
+                  "munt",
+                  "koffie",
+                  "cola",
+                  "fris",
+                  "water",
+                  "sinas",
+                  "ijsthee"
+                ]
+              ],
+              "sample": "Ja, een verse muntthee, graag.",
+              "alts": [
+                "Doe maar een cola."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Komt eraan. Nog iets anders?",
+                  "en": "Coming up. Anything else?"
+                },
+                {
+                  "nl": "Prima. Verder nog iets?",
+                  "en": "Fine. Anything else?"
+                },
+                {
+                  "nl": "Goed. Iets anders nog?",
+                  "en": "Good. Anything else?"
+                }
+              ]
+            },
+            {
+              "you": "Ask for rolling papers (*vloei*) and a lighter (*aansteker*).",
+              "keywords": [
+                [
+                  "vloei",
+                  "vloeitjes",
+                  "vloeipapier",
+                  "aansteker"
+                ]
+              ],
+              "sample": "Ja, mag ik een vloei en een aansteker?",
+              "alts": [
+                "Heb je vloeitjes?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Vloei is gratis, een aansteker kost een euro.",
+                  "en": "Papers are free, a lighter is a euro."
+                },
+                {
+                  "nl": "Pak maar, het vloei ligt daar. Aansteker is een euro.",
+                  "en": "Help yourself, the papers are over there. A lighter is one euro."
+                },
+                {
+                  "nl": "Hier. Dat is samen vier euro.",
+                  "en": "Here. That's four euros altogether."
+                }
+              ]
+            },
+            {
+              "you": "Ask if you can smoke tobacco in here.",
+              "keywords": [
+                [
+                  "tabak",
+                  "roken",
+                  "sigaret"
+                ]
+              ],
+              "sample": "Mag ik hier tabak roken?",
+              "alts": [
+                "Mag je hier gewoon roken?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Nee, tabak is hier verboden. Puur of met kruiden mag wel.",
+                  "en": "No, tobacco is banned here. Pure or with herbs is fine."
+                },
+                {
+                  "nl": "Geen tabak binnen, sorry. Daar staat een kruidenmix.",
+                  "en": "No tobacco inside, sorry. There's a herbal mix over there."
+                },
+                {
+                  "nl": "Nee, tabak mag niet binnen. Buiten mag het wel.",
+                  "en": "No, tobacco's not allowed inside. Outside is fine."
+                }
+              ]
+            },
+            {
+              "you": "Say OK, good to know, thanks.",
+              "keywords": [
+                [
+                  "oké",
+                  "ok",
+                  "prima",
+                  "goed",
+                  "dank",
+                  "bedankt",
+                  "dankjewel",
+                  "dankuwel",
+                  "merci",
+                  "top"
+                ]
+              ],
+              "sample": "Oké, goed om te weten. Bedankt!",
+              "alts": [
+                "Prima, dank je."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Geen probleem. Geniet ervan!",
+                  "en": "No problem. Enjoy!"
+                },
+                {
+                  "nl": "Graag gedaan. Rustig aan!",
+                  "en": "You're welcome. Take it easy!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "curveballs": [
+        {
+          "title": "No ID on you",
+          "them": [
+            {
+              "nl": "Zonder ID kom je er niet in, sorry.",
+              "en": "No ID, no entry, sorry."
+            }
+          ],
+          "you": "Say your ID is at the hotel and you'll come back.",
+          "keywords": [
+            [
+              "terug",
+              "later",
+              "straks"
+            ]
+          ],
+          "sample": "Oh, mijn ID ligt in het hotel. Ik kom straks terug.",
+          "alts": [
+            "Oké, ik kom later terug."
+          ]
+        },
+        {
+          "title": "Too strong for you",
+          "them": [
+            {
+              "nl": "Deze is wel behoorlijk sterk, hoor. Weet je het zeker?",
+              "en": "This one's pretty strong, you know. Are you sure?"
+            }
+          ],
+          "you": "Say you'd rather have something milder.",
+          "keywords": [
+            [
+              "milder",
+              "milders",
+              "mild",
+              "lichter",
+              "lichters",
+              "liever",
+              "rustiger",
+              "minder sterk"
+            ]
+          ],
+          "sample": "Dan liever iets milders.",
+          "alts": [
+            "Heb je iets lichters?"
+          ]
+        },
+        {
+          "title": "Spacecake advice",
+          "them": [
+            {
+              "nl": "Een spacecake? Neem eerst de helft, het duurt wel een uur voor je iets voelt.",
+              "en": "A space cake? Have half first, it takes a good hour before you feel anything."
+            }
+          ],
+          "you": "Check you understood: half first, then wait an hour.",
+          "keywords": [
+            [
+              "helft",
+              "half"
+            ],
+            [
+              "uur",
+              "wachten"
+            ]
+          ],
+          "sample": "Dus eerst de helft, en dan een uur wachten?"
+        }
+      ]
+    },
+    {
+      "id": "bakker",
+      "emoji": "🥐",
+      "title": "Bij de bakker",
+      "en": "Bakery",
+      "blurb": "Whose turn is it, half a loaf sliced, and pointing at things you can't name.",
+      "tips": [
+        "Most bakeries have no ticket machine. Staff ask **Wie is er aan de beurt?** (Who's next?). If it's you, say **Ik!** or **Ik ben aan de beurt.**",
+        "Bread comes **heel** (whole) or **half** (half loaf), and they'll ask if you want it **gesneden** (sliced).",
+        "Bakery classics: **krentenbollen** (currant buns), **een gevulde koek** (almond-paste biscuit), **een tompouce** (pink-iced custard slice).",
+        "**Anders nog iets?** (anything else?) follows every item. **Nee, dat was het** ends the order."
+      ],
+      "say": [
+        {
+          "nl": "Ik ben aan de beurt.",
+          "en": "It's my turn."
+        },
+        {
+          "nl": "Mag ik een half volkoren?",
+          "en": "Can I have half a wholemeal loaf?"
+        },
+        {
+          "nl": "Een heel wit, gesneden graag.",
+          "en": "A whole white loaf, sliced please."
+        },
+        {
+          "nl": "Zes krentenbollen, alstublieft.",
+          "en": "Six currant buns, please."
+        },
+        {
+          "nl": "Wat is dit?",
+          "en": "What's this?"
+        },
+        {
+          "nl": "Wat kunt u aanraden?",
+          "en": "What do you recommend?"
+        },
+        {
+          "nl": "Doe er nog maar twee croissants bij.",
+          "en": "Add two croissants as well."
+        },
+        {
+          "nl": "Nee, dat was het.",
+          "en": "No, that's all."
+        }
+      ],
+      "hear": [
+        {
+          "nl": "Wie is er aan de beurt?",
+          "en": "Who's next?"
+        },
+        {
+          "nl": "Wie mag ik helpen?",
+          "en": "Who can I help?"
+        },
+        {
+          "nl": "Zegt u het maar.",
+          "en": "Go ahead."
+        },
+        {
+          "nl": "Heel of half?",
+          "en": "Whole or half?"
+        },
+        {
+          "nl": "Gesneden?",
+          "en": "Sliced?"
+        },
+        {
+          "nl": "Anders nog iets?",
+          "en": "Anything else?"
+        },
+        {
+          "nl": "Was dat het?",
+          "en": "Was that everything?"
+        },
+        {
+          "nl": "Zal ik het in een zakje doen?",
+          "en": "Shall I put it in a bag?"
+        },
+        {
+          "nl": "Dat is dan zeven euro vijfendertig.",
+          "en": "That's €7.35."
+        }
+      ],
+      "roleplays": [
+        {
+          "id": "brood",
+          "title": "Brood en krentenbollen",
+          "en": "Bread and buns",
+          "staff": "Bakker",
+          "setup": "A neighbourhood bakery on a Saturday morning. It's busy, and there's no ticket machine.",
+          "turns": [
+            {
+              "them": [
+                {
+                  "nl": "Goedemorgen! Wie is er aan de beurt?",
+                  "en": "Good morning! Who's next?"
+                },
+                {
+                  "nl": "Wie mag ik helpen?",
+                  "en": "Who can I help?"
+                },
+                {
+                  "nl": "Zo, wie is de volgende?",
+                  "en": "Right, who's next?"
+                }
+              ]
+            },
+            {
+              "you": "Say it's your turn.",
+              "keywords": [
+                [
+                  "ik",
+                  "mij"
+                ]
+              ],
+              "sample": "Ik ben aan de beurt.",
+              "alts": [
+                "Dat ben ik."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Zegt u het maar.",
+                  "en": "Go ahead."
+                },
+                {
+                  "nl": "Wat mag het zijn?",
+                  "en": "What will it be?"
+                },
+                {
+                  "nl": "Wat kan ik voor u doen?",
+                  "en": "What can I do for you?"
+                }
+              ]
+            },
+            {
+              "you": "Ask for half a wholemeal loaf (*volkoren*).",
+              "keywords": [
+                [
+                  "half",
+                  "halve"
+                ],
+                [
+                  "volkoren",
+                  "volkorenbrood"
+                ]
+              ],
+              "sample": "Mag ik een half volkoren?",
+              "alts": [
+                "Een half volkorenbrood, graag."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Gesneden?",
+                  "en": "Sliced?"
+                },
+                {
+                  "nl": "Wilt u het gesneden?",
+                  "en": "Would you like it sliced?"
+                },
+                {
+                  "nl": "Zal ik het voor u snijden?",
+                  "en": "Shall I slice it for you?"
+                }
+              ]
+            },
+            {
+              "you": "Yes, sliced please.",
+              "keywords": [
+                [
+                  "ja",
+                  "graag",
+                  "gesneden",
+                  "alstublieft",
+                  "graag"
+                ]
+              ],
+              "sample": "Ja, gesneden graag."
+            },
+            {
+              "them": [
+                {
+                  "nl": "Anders nog iets?",
+                  "en": "Anything else?"
+                },
+                {
+                  "nl": "Was dat het?",
+                  "en": "Was that everything?"
+                },
+                {
+                  "nl": "Nog iets anders?",
+                  "en": "Something else?"
+                }
+              ]
+            },
+            {
+              "you": "Order six currant buns (*krentenbollen*).",
+              "keywords": [
+                [
+                  "zes",
+                  "6"
+                ],
+                [
+                  "krentenbollen",
+                  "krentenbol",
+                  "krentenbolletjes"
+                ]
+              ],
+              "sample": "Ja, zes krentenbollen, alstublieft.",
+              "alts": [
+                "Doe er nog maar zes krentenbollen bij."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Alstublieft. Verder nog iets?",
+                  "en": "Here you go. Anything else?"
+                },
+                {
+                  "nl": "Zes krentenbollen. Anders nog iets?",
+                  "en": "Six currant buns. Anything else?"
+                },
+                {
+                  "nl": "Komt eraan. Was dat het?",
+                  "en": "Coming up. Is that it?"
+                }
+              ]
+            },
+            {
+              "you": "That's all.",
+              "keywords": [
+                [
+                  "nee",
+                  "dat was het",
+                  "dat is alles",
+                  "niks",
+                  "niets"
+                ]
+              ],
+              "sample": "Nee, dat was het."
+            },
+            {
+              "them": [
+                {
+                  "nl": "Dat is dan zeven euro vijfendertig.",
+                  "en": "That's €7.35."
+                },
+                {
+                  "nl": "Samen wordt dat zeven vijfendertig.",
+                  "en": "Together that's seven thirty-five."
+                },
+                {
+                  "nl": "Dat is zeven euro vijfendertig bij elkaar.",
+                  "en": "That's €7.35 altogether."
+                }
+              ]
+            },
+            {
+              "you": "Say you'll pay by card.",
+              "keywords": [
+                [
+                  "pinnen",
+                  "pin",
+                  "kaart",
+                  "pinpas",
+                  "bankpas"
+                ]
+              ],
+              "sample": "Ik pin, als het kan.",
+              "alts": [
+                "Kan ik pinnen?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Ja hoor. Alstublieft, en een fijne dag!",
+                  "en": "Sure. Here you go, have a nice day!"
+                },
+                {
+                  "nl": "Prima. Dank u wel, fijn weekend!",
+                  "en": "Fine. Thank you, have a nice weekend!"
+                },
+                {
+                  "nl": "Gaat uw gang. Dank u wel en tot ziens!",
+                  "en": "Go ahead. Thank you and goodbye!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lekkers",
+          "title": "Iets lekkers kiezen",
+          "en": "Picking a treat",
+          "staff": "Bakker",
+          "setup": "You're staring at the display case. You want a treat but don't know what anything is called.",
+          "turns": [
+            {
+              "them": [
+                {
+                  "nl": "Hallo! Wat mag het zijn?",
+                  "en": "Hello! What will it be?"
+                },
+                {
+                  "nl": "Goedemiddag, zegt u het maar.",
+                  "en": "Good afternoon, go ahead."
+                }
+              ]
+            },
+            {
+              "you": "Point at something and ask what it is.",
+              "keywords": [
+                [
+                  "wat is",
+                  "wat zijn",
+                  "hoe heet"
+                ]
+              ],
+              "sample": "Wat is dit?",
+              "alts": [
+                "Hoe heet dat?",
+                "Wat zijn dat?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Dat is een tompouce, met banketbakkersroom en roze glazuur.",
+                  "en": "That's a tompouce, with pastry cream and pink icing."
+                },
+                {
+                  "nl": "Dat is een gevulde koek, met amandelspijs erin.",
+                  "en": "That's a gevulde koek, filled with almond paste."
+                },
+                {
+                  "nl": "Dat zijn stroopwafels, vandaag vers gemaakt.",
+                  "en": "Those are stroopwafels, made fresh today."
+                }
+              ]
+            },
+            {
+              "you": "Say it looks good, you'll take one.",
+              "keywords": [
+                [
+                  "doe maar",
+                  "neem",
+                  "graag",
+                  "ja",
+                  "een",
+                  "één"
+                ]
+              ],
+              "sample": "Lekker, doe maar één.",
+              "alts": [
+                "Die neem ik, graag."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Zal ik het in een zakje doen?",
+                  "en": "Shall I put it in a bag?"
+                },
+                {
+                  "nl": "Wilt u er een zakje bij?",
+                  "en": "Would you like a bag?"
+                }
+              ]
+            },
+            {
+              "you": "Say no thanks, you're eating it right away.",
+              "keywords": [
+                [
+                  "nee",
+                  "hoeft niet"
+                ]
+              ],
+              "sample": "Nee hoor, ik eet het meteen op.",
+              "alts": [
+                "Nee, dank u, hoeft niet."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Groot gelijk! Dat is dan twee euro tien.",
+                  "en": "Quite right! That's €2.10."
+                },
+                {
+                  "nl": "Eet smakelijk alvast! Twee euro tien, alstublieft.",
+                  "en": "Enjoy! €2.10, please."
+                }
+              ]
+            },
+            {
+              "you": "Ask if you can pay in cash.",
+              "keywords": [
+                [
+                  "contant",
+                  "cash",
+                  "muntjes",
+                  "geld"
+                ]
+              ],
+              "sample": "Kan ik contant betalen?",
+              "alts": [
+                "Mag ik met contant geld betalen?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Natuurlijk. Alstublieft, uw wisselgeld.",
+                  "en": "Of course. Here's your change."
+                },
+                {
+                  "nl": "Ja hoor, dat kan. Dank u wel!",
+                  "en": "Sure, that's fine. Thank you!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "curveballs": [
+        {
+          "title": "Sold out",
+          "them": [
+            {
+              "nl": "Sorry, de krentenbollen zijn op. Ik heb nog wel krentenbrood.",
+              "en": "Sorry, we're out of currant buns. I do have currant bread."
+            }
+          ],
+          "you": "Take the alternative, or ask when they'll have more.",
+          "keywords": [
+            [
+              "dan",
+              "neem",
+              "doe maar",
+              "krentenbrood",
+              "wanneer",
+              "morgen"
+            ]
+          ],
+          "sample": "Oh, jammer. Dan neem ik een half krentenbrood.",
+          "alts": [
+            "Wanneer heeft u ze weer?"
+          ]
+        },
+        {
+          "title": "The card machine is down",
+          "them": [
+            {
+              "nl": "Sorry, het pinapparaat doet het even niet. Heeft u contant?",
+              "en": "Sorry, the card machine isn't working. Do you have cash?"
+            }
+          ],
+          "you": "Say you only have your card on you.",
+          "keywords": [
+            [
+              "geen contant",
+              "geen geld",
+              "geen cash",
+              "alleen",
+              "pinpas",
+              "kaart"
+            ]
+          ],
+          "sample": "Oh nee, ik heb geen contant geld bij me.",
+          "alts": [
+            "Ik heb alleen mijn pinpas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supermarkt",
+      "emoji": "🛒",
+      "title": "In de supermarkt",
+      "en": "Supermarket",
+      "blurb": "Finding things, then the checkout's bonus card, bag and receipt questions.",
+      "tips": [
+        "At the checkout (**de kassa**) you'll get the same three questions almost every time: **bonuskaart** (loyalty card, at Albert Heijn), **tasje** (bag), and **bonnetje** (receipt). Learn those three and you've got the checkout covered.",
+        "**Pinnen** means paying by debit card, and contactless is standard. Some places are card only (**alleen pin**).",
+        "To find something: **Waar kan ik … vinden?** or the more natural **Waar staat/staan …?** You'll hear **gangpad** (aisle), **achterin** (at the back), **bij de zuivel** (by the dairy).",
+        "You bag your own groceries, and bags aren't free."
+      ],
+      "say": [
+        {
+          "nl": "Sorry, waar staat de pindakaas?",
+          "en": "Excuse me, where's the peanut butter?"
+        },
+        {
+          "nl": "Waar kan ik de eieren vinden?",
+          "en": "Where can I find the eggs?"
+        },
+        {
+          "nl": "Heeft u ook havermelk?",
+          "en": "Do you have oat milk as well?"
+        },
+        {
+          "nl": "Nee, die heb ik niet.",
+          "en": "No, I don't have one."
+        },
+        {
+          "nl": "Nee, dank u, ik heb een tas bij me.",
+          "en": "No thanks, I've brought a bag."
+        },
+        {
+          "nl": "Ik pin.",
+          "en": "I'll pay by card."
+        },
+        {
+          "nl": "Nee, hoeft niet.",
+          "en": "No, no need."
+        },
+        {
+          "nl": "Het apparaat doet het niet.",
+          "en": "The machine isn't working."
+        }
+      ],
+      "hear": [
+        {
+          "nl": "Heeft u een bonuskaart?",
+          "en": "Do you have a bonus card?"
+        },
+        {
+          "nl": "Wilt u een tasje?",
+          "en": "Would you like a bag?"
+        },
+        {
+          "nl": "Wil je de bon?",
+          "en": "Do you want the receipt?"
+        },
+        {
+          "nl": "U mag pinnen.",
+          "en": "You can pay by card now."
+        },
+        {
+          "nl": "Het apparaat staat klaar.",
+          "en": "The card machine is ready."
+        },
+        {
+          "nl": "In gangpad vier.",
+          "en": "In aisle four."
+        },
+        {
+          "nl": "Achterin, bij de zuivel.",
+          "en": "At the back, by the dairy."
+        },
+        {
+          "nl": "Die is helaas op.",
+          "en": "That's sold out, unfortunately."
+        },
+        {
+          "nl": "Lukt het?",
+          "en": "Are you managing? (Need help?)"
+        }
+      ],
+      "roleplays": [
+        {
+          "id": "zoeken",
+          "title": "Waar staat het?",
+          "en": "Finding a product",
+          "staff": "Medewerker",
+          "setup": "You can't find the peanut butter. An employee is restocking shelves nearby.",
+          "turns": [
+            {
+              "you": "Get their attention and ask where the peanut butter (*pindakaas*) is.",
+              "keywords": [
+                [
+                  "pindakaas"
+                ]
+              ],
+              "sample": "Sorry, waar staat de pindakaas?",
+              "alts": [
+                "Pardon, waar kan ik de pindakaas vinden?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Pindakaas? Gangpad vier, bij het beleg.",
+                  "en": "Peanut butter? Aisle four, with the spreads."
+                },
+                {
+                  "nl": "Die staat in gangpad vier, naast de hagelslag.",
+                  "en": "It's in aisle four, next to the chocolate sprinkles."
+                },
+                {
+                  "nl": "Loop maar even mee, dan laat ik het zien.",
+                  "en": "Come with me, I'll show you."
+                }
+              ]
+            },
+            {
+              "you": "Also ask if they have oat milk.",
+              "keywords": [
+                [
+                  "havermelk",
+                  "haver"
+                ]
+              ],
+              "sample": "Heeft u ook havermelk?",
+              "alts": [
+                "Hebben jullie ook havermelk?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Bij de zuivel, achterin de winkel.",
+                  "en": "With the dairy, at the back of the shop."
+                },
+                {
+                  "nl": "Achterin, in de koeling bij de melk.",
+                  "en": "At the back, in the fridge by the milk."
+                },
+                {
+                  "nl": "Die is helaas op. Morgen komt er weer nieuwe.",
+                  "en": "Sold out, unfortunately. More arrives tomorrow."
+                }
+              ]
+            },
+            {
+              "you": "Thank them.",
+              "keywords": [
+                [
+                  "dank",
+                  "bedankt",
+                  "dankjewel",
+                  "dankuwel",
+                  "merci",
+                  "top"
+                ]
+              ],
+              "sample": "Top, dank u wel!",
+              "alts": [
+                "Bedankt!"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Graag gedaan!",
+                  "en": "You're welcome!"
+                },
+                {
+                  "nl": "Geen probleem!",
+                  "en": "No problem!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kassa",
+          "title": "Bij de kassa",
+          "en": "At the checkout",
+          "staff": "Kassamedewerker",
+          "setup": "Your groceries are on the belt at Albert Heijn. The cashier starts scanning.",
+          "turns": [
+            {
+              "them": [
+                {
+                  "nl": "Hallo! Heeft u een bonuskaart?",
+                  "en": "Hello! Do you have a bonus card?"
+                },
+                {
+                  "nl": "Goedemiddag. Bonuskaart?",
+                  "en": "Good afternoon. Bonus card?"
+                },
+                {
+                  "nl": "Hoi, heb je een bonuskaart?",
+                  "en": "Hi, do you have a bonus card?"
+                }
+              ]
+            },
+            {
+              "you": "Say no, you don't have one.",
+              "keywords": [
+                [
+                  "nee"
+                ]
+              ],
+              "sample": "Nee, die heb ik niet.",
+              "alts": [
+                "Nee, sorry."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Geen probleem. Wilt u een tasje?",
+                  "en": "No problem. Would you like a bag?"
+                },
+                {
+                  "nl": "Oké. Tasje nodig?",
+                  "en": "OK. Need a bag?"
+                },
+                {
+                  "nl": "Prima. Wil je een tas erbij?",
+                  "en": "Fine. Do you want a bag?"
+                }
+              ]
+            },
+            {
+              "you": "Say no thanks, you brought your own bag.",
+              "keywords": [
+                [
+                  "nee"
+                ],
+                [
+                  "tas",
+                  "tasje",
+                  "eigen"
+                ]
+              ],
+              "sample": "Nee, dank u, ik heb een tas bij me.",
+              "alts": [
+                "Nee hoor, ik heb mijn eigen tas."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Dat is dan achttien euro vijfenveertig. U mag pinnen.",
+                  "en": "That's €18.45. You can pay by card now."
+                },
+                {
+                  "nl": "Achttien vijfenveertig. Pinnen?",
+                  "en": "Eighteen forty-five. Card?"
+                },
+                {
+                  "nl": "Dat wordt achttien euro vijfenveertig, het apparaat staat klaar.",
+                  "en": "That's €18.45, the machine is ready."
+                }
+              ]
+            },
+            {
+              "you": "Say you're paying by card.",
+              "keywords": [
+                [
+                  "pinnen",
+                  "pin",
+                  "kaart",
+                  "pinpas",
+                  "bankpas"
+                ]
+              ],
+              "sample": "Ik pin.",
+              "alts": [
+                "Ja, pinnen graag."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Wilt u het bonnetje?",
+                  "en": "Would you like the receipt?"
+                },
+                {
+                  "nl": "Bonnetje erbij?",
+                  "en": "Receipt?"
+                },
+                {
+                  "nl": "Wil je de bon?",
+                  "en": "Do you want the receipt?"
+                }
+              ]
+            },
+            {
+              "you": "Say no, not needed.",
+              "keywords": [
+                [
+                  "nee",
+                  "hoeft niet",
+                  "niet nodig"
+                ]
+              ],
+              "sample": "Nee, hoeft niet.",
+              "alts": [
+                "Nee, dank u."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Fijne dag nog!",
+                  "en": "Have a nice day!"
+                },
+                {
+                  "nl": "Dank u wel, tot ziens!",
+                  "en": "Thank you, goodbye!"
+                },
+                {
+                  "nl": "Doei, fijne avond!",
+                  "en": "Bye, have a nice evening!"
+                }
+              ]
+            },
+            {
+              "you": "Wish them the same.",
+              "keywords": [
+                [
+                  "ook",
+                  "insgelijks",
+                  "fijne",
+                  "tot ziens",
+                  "doei",
+                  "dag"
+                ]
+              ],
+              "sample": "Dank u, u ook!",
+              "alts": [
+                "Jij ook, doei!"
+              ]
+            }
+          ]
+        }
+      ],
+      "curveballs": [
+        {
+          "title": "Card declined",
+          "them": [
+            {
+              "nl": "Hmm, uw pas wordt geweigerd. Wilt u het nog een keer proberen?",
+              "en": "Hmm, your card's been declined. Want to try again?"
+            }
+          ],
+          "you": "Say sorry, you'll try again.",
+          "keywords": [
+            [
+              "nog een keer",
+              "nog eens",
+              "opnieuw",
+              "andere",
+              "probeer",
+              "proberen"
+            ]
+          ],
+          "sample": "Oh, sorry. Ik probeer het nog een keer.",
+          "alts": [
+            "Mag ik een andere pas proberen?"
+          ]
+        },
+        {
+          "title": "Stuck at self-checkout",
+          "them": [
+            {
+              "nl": "Lukt het?",
+              "en": "Are you managing?"
+            }
+          ],
+          "you": "Say the machine isn't working.",
+          "keywords": [
+            [
+              "doet het niet",
+              "werkt niet",
+              "lukt niet",
+              "kapot"
+            ]
+          ],
+          "sample": "Nee, het apparaat doet het niet.",
+          "alts": [
+            "Het lukt niet. Kunt u helpen?"
+          ]
+        },
+        {
+          "title": "Check the total",
+          "them": [
+            {
+              "nl": "Dat is dan drieëntwintig euro zestig.",
+              "en": "That's €23.60."
+            }
+          ],
+          "you": "Repeat the total back to check you heard it right.",
+          "keywords": [
+            [
+              "drieentwintig",
+              "23"
+            ]
+          ],
+          "sample": "Drieëntwintig zestig?"
+        }
+      ]
+    },
+    {
+      "id": "markt",
+      "emoji": "🧀",
+      "title": "Op de markt",
+      "en": "Market stalls",
+      "blurb": "Tasting cheese, a pound of this, two punnets for five, the 'bit more?' question.",
+      "tips": [
+        "Weights: **een ons** = 100 g, **een pond** = 500 g, **een kilo**. You'll hear **twee ons** and **een half pond** all the time.",
+        "Gouda by age: **jong** (mild), **jong belegen**, **belegen**, **extra belegen**, **oud** (sharp, crumbly). Ask to taste: **Mag ik even proeven?**",
+        "The classic market line is **Mag het iets meer zijn?** The slice came out a bit heavy. **Ja, prima** is the normal answer.",
+        "Some stalls are cash only. Vendors talk fast and informally (**Zeg het maar!**, **Wie volgt?**), so don't hesitate to say **Iets langzamer, graag**."
+      ],
+      "say": [
+        {
+          "nl": "Mag ik even proeven?",
+          "en": "Can I have a taste?"
+        },
+        {
+          "nl": "Een stuk belegen, alstublieft.",
+          "en": "A piece of mature Gouda, please."
+        },
+        {
+          "nl": "Doe maar een pond.",
+          "en": "I'll take a pound (500 g)."
+        },
+        {
+          "nl": "Gesneden, graag.",
+          "en": "Sliced, please."
+        },
+        {
+          "nl": "Ja, prima.",
+          "en": "Yes, that's fine."
+        },
+        {
+          "nl": "Iets minder, graag.",
+          "en": "A bit less, please."
+        },
+        {
+          "nl": "Hoeveel kosten de aardbeien?",
+          "en": "How much are the strawberries?"
+        },
+        {
+          "nl": "Een kilo appels, graag.",
+          "en": "A kilo of apples, please."
+        },
+        {
+          "nl": "Kan ik hier pinnen?",
+          "en": "Can I pay by card here?"
+        }
+      ],
+      "hear": [
+        {
+          "nl": "Zeg het maar!",
+          "en": "Go ahead!"
+        },
+        {
+          "nl": "Wie volgt?",
+          "en": "Who's next?"
+        },
+        {
+          "nl": "Hoeveel wilt u?",
+          "en": "How much would you like?"
+        },
+        {
+          "nl": "Gesneden of aan het stuk?",
+          "en": "Sliced or in one piece?"
+        },
+        {
+          "nl": "Mag het iets meer zijn?",
+          "en": "Is a bit more OK?"
+        },
+        {
+          "nl": "Twee bakjes voor vijf euro!",
+          "en": "Two punnets for five euros!"
+        },
+        {
+          "nl": "Dan krijg ik zeven euro van u.",
+          "en": "That'll be seven euros (from you)."
+        },
+        {
+          "nl": "Alleen contant.",
+          "en": "Cash only."
+        },
+        {
+          "nl": "Drie euro terug.",
+          "en": "Three euros change."
+        }
+      ],
+      "roleplays": [
+        {
+          "id": "kaas",
+          "title": "Bij de kaasboer",
+          "en": "At the cheese stall",
+          "staff": "Kaasboer",
+          "setup": "Saturday market. You're at the cheese stall and want a piece of mature Gouda (*belegen*).",
+          "turns": [
+            {
+              "them": [
+                {
+                  "nl": "Goeiemorgen! Zeg het maar.",
+                  "en": "Morning! Go ahead."
+                },
+                {
+                  "nl": "Hallo! Wie volgt? U? Zeg het maar.",
+                  "en": "Hello! Who's next? You? Go ahead."
+                },
+                {
+                  "nl": "Ja, wat mag het zijn?",
+                  "en": "Yes, what will it be?"
+                }
+              ]
+            },
+            {
+              "you": "Ask to taste the *belegen*.",
+              "keywords": [
+                [
+                  "proeven",
+                  "proberen"
+                ]
+              ],
+              "sample": "Mag ik even de belegen proeven?",
+              "alts": [
+                "Mag ik een stukje belegen proberen?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Natuurlijk, alstublieft. Lekker, hè?",
+                  "en": "Of course, here. Tasty, right?"
+                },
+                {
+                  "nl": "Ja hoor, hier. Deze is heerlijk.",
+                  "en": "Sure, here. This one's delicious."
+                },
+                {
+                  "nl": "Tuurlijk! Proef maar.",
+                  "en": "Sure! Have a taste."
+                }
+              ]
+            },
+            {
+              "you": "Say it's tasty and you'll take a pound.",
+              "keywords": [
+                [
+                  "pond",
+                  "500",
+                  "vijfhonderd",
+                  "halve kilo",
+                  "halfje"
+                ]
+              ],
+              "sample": "Lekker! Doe maar een pond.",
+              "alts": [
+                "Heerlijk. Een pond, graag."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Gesneden of aan het stuk?",
+                  "en": "Sliced or in one piece?"
+                },
+                {
+                  "nl": "Wilt u het gesneden?",
+                  "en": "Would you like it sliced?"
+                },
+                {
+                  "nl": "In plakken of aan het stuk?",
+                  "en": "In slices or in one piece?"
+                }
+              ]
+            },
+            {
+              "you": "Ask for it sliced.",
+              "keywords": [
+                [
+                  "gesneden",
+                  "plakken",
+                  "plakjes",
+                  "snijden"
+                ]
+              ],
+              "sample": "Gesneden, graag."
+            },
+            {
+              "them": [
+                {
+                  "nl": "Het is net iets meer dan een pond. Mag het iets meer zijn?",
+                  "en": "It's just over a pound. Is a bit more OK?"
+                },
+                {
+                  "nl": "Het is iets meer geworden, is dat goed?",
+                  "en": "It came out a bit more, is that OK?"
+                },
+                {
+                  "nl": "Vijfhonderdtwintig gram. Mag het iets meer zijn?",
+                  "en": "520 grams. Is a bit more OK?"
+                }
+              ]
+            },
+            {
+              "you": "Say that's fine.",
+              "keywords": [
+                [
+                  "prima",
+                  "goed",
+                  "ja",
+                  "oké",
+                  "ok"
+                ]
+              ],
+              "sample": "Ja, prima.",
+              "alts": [
+                "Is goed, hoor."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Dat is dan acht euro veertig.",
+                  "en": "That's €8.40."
+                },
+                {
+                  "nl": "Acht veertig, alstublieft.",
+                  "en": "Eight forty, please."
+                },
+                {
+                  "nl": "Dat wordt acht euro veertig.",
+                  "en": "That comes to €8.40."
+                }
+              ]
+            },
+            {
+              "you": "Ask if you can pay by card.",
+              "keywords": [
+                [
+                  "pinnen",
+                  "pin",
+                  "kaart",
+                  "pinpas",
+                  "bankpas"
+                ]
+              ],
+              "sample": "Kan ik hier pinnen?"
+            },
+            {
+              "them": [
+                {
+                  "nl": "Ja hoor, het apparaat staat daar.",
+                  "en": "Sure, the machine's right there."
+                },
+                {
+                  "nl": "Ja, dat kan. Houd uw pas maar tegen het apparaat.",
+                  "en": "Yes, you can. Just hold your card against the machine."
+                },
+                {
+                  "nl": "Natuurlijk. Alstublieft, fijne dag!",
+                  "en": "Of course. Here you go, have a nice day!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "groente",
+          "title": "Bij de groenteman",
+          "en": "Fruit and veg stall",
+          "staff": "Groenteman",
+          "setup": "The fruit and veg stall. Strawberries are in season.",
+          "turns": [
+            {
+              "them": [
+                {
+                  "nl": "Wie volgt? Zeg het maar!",
+                  "en": "Who's next? Go ahead!"
+                },
+                {
+                  "nl": "Zo, wat mag het zijn?",
+                  "en": "Right, what will it be?"
+                },
+                {
+                  "nl": "Hallo! Wat kan ik voor u doen?",
+                  "en": "Hello! What can I do for you?"
+                }
+              ]
+            },
+            {
+              "you": "Ask how much the strawberries (*aardbeien*) cost.",
+              "keywords": [
+                [
+                  "aardbeien",
+                  "aardbei"
+                ]
+              ],
+              "sample": "Hoeveel kosten de aardbeien?",
+              "alts": [
+                "Wat kosten de aardbeien?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Drie euro per bakje, twee bakjes voor vijf.",
+                  "en": "Three euros a punnet, two for five."
+                },
+                {
+                  "nl": "Twee bakjes voor vijf euro, één voor drie.",
+                  "en": "Two punnets for five euros, one for three."
+                },
+                {
+                  "nl": "Drie euro, of twee voor vijf. Lekker zoet vandaag!",
+                  "en": "Three euros, or two for five. Nice and sweet today!"
+                }
+              ]
+            },
+            {
+              "you": "Take the deal: two punnets.",
+              "keywords": [
+                [
+                  "twee",
+                  "2"
+                ]
+              ],
+              "sample": "Doe maar twee bakjes.",
+              "alts": [
+                "Twee voor vijf, graag."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Prima. Anders nog iets?",
+                  "en": "Fine. Anything else?"
+                },
+                {
+                  "nl": "Goed zo. Nog iets?",
+                  "en": "Good. Anything else?"
+                },
+                {
+                  "nl": "Twee bakjes. Verder nog wat?",
+                  "en": "Two punnets. Anything else?"
+                }
+              ]
+            },
+            {
+              "you": "Ask for a kilo of apples.",
+              "keywords": [
+                [
+                  "kilo"
+                ],
+                [
+                  "appels",
+                  "appel"
+                ]
+              ],
+              "sample": "Ja, een kilo appels, graag.",
+              "alts": [
+                "Doe er nog een kilo appels bij."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Een kilo appels. Was dat het?",
+                  "en": "A kilo of apples. Is that it?"
+                },
+                {
+                  "nl": "Komt eraan. Anders nog iets?",
+                  "en": "Coming up. Anything else?"
+                },
+                {
+                  "nl": "Alstublieft. Dat was het?",
+                  "en": "Here you go. That's everything?"
+                }
+              ]
+            },
+            {
+              "you": "That's all.",
+              "keywords": [
+                [
+                  "nee",
+                  "dat was het",
+                  "dat is alles",
+                  "niks",
+                  "niets"
+                ]
+              ],
+              "sample": "Nee, dat was het."
+            },
+            {
+              "them": [
+                {
+                  "nl": "Dan krijg ik zeven euro van u.",
+                  "en": "That'll be seven euros."
+                },
+                {
+                  "nl": "Zeven euro, alstublieft.",
+                  "en": "Seven euros, please."
+                },
+                {
+                  "nl": "Samen zeven euro.",
+                  "en": "Seven euros altogether."
+                }
+              ]
+            },
+            {
+              "you": "Hand over a ten-euro note: *here you go*.",
+              "keywords": [
+                [
+                  "alstublieft",
+                  "alsjeblieft",
+                  "tien",
+                  "10",
+                  "hier"
+                ]
+              ],
+              "sample": "Alstublieft, tien euro."
+            },
+            {
+              "them": [
+                {
+                  "nl": "Dank u. Drie euro terug. Fijne dag!",
+                  "en": "Thank you. Three euros change. Have a nice day!"
+                },
+                {
+                  "nl": "En drie euro terug, alstublieft. Tot de volgende keer!",
+                  "en": "And three euros change. See you next time!"
+                },
+                {
+                  "nl": "Drie terug. Dank u wel!",
+                  "en": "Three back. Thank you!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "curveballs": [
+        {
+          "title": "Way too much",
+          "them": [
+            {
+              "nl": "Het is zevenhonderd gram geworden. Mag het iets meer zijn?",
+              "en": "It came out at 700 grams. Is a bit more OK?"
+            }
+          ],
+          "you": "That's a lot more than you wanted. Ask for a bit less.",
+          "keywords": [
+            [
+              "minder",
+              "kleiner",
+              "te veel",
+              "teveel"
+            ]
+          ],
+          "sample": "Dat is wat veel. Iets minder, graag.",
+          "alts": [
+            "Kan het iets minder?"
+          ]
+        },
+        {
+          "title": "Cash only",
+          "them": [
+            {
+              "nl": "Alleen contant hier, hoor.",
+              "en": "Cash only here."
+            }
+          ],
+          "you": "Ask where the nearest ATM (*pinautomaat*) is.",
+          "keywords": [
+            [
+              "pinautomaat",
+              "geldautomaat",
+              "automaat",
+              "pinnen"
+            ]
+          ],
+          "sample": "Waar is de dichtstbijzijnde pinautomaat?",
+          "alts": [
+            "Is hier een pinautomaat in de buurt?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apotheek",
+      "emoji": "💊",
+      "title": "Drogist & apotheek",
+      "en": "Drugstore & pharmacy",
+      "blurb": "Something for a sore throat, picking up a prescription, how often to take it.",
+      "tips": [
+        "A **drogist** (Kruidvat, Etos) sells paracetamol, plasters and toiletries without a prescription. An **apotheek** fills prescriptions (**recepten**) sent by your huisarts.",
+        "Describe the problem with **Ik heb…** + **hoofdpijn / keelpijn / buikpijn**, or **Ik ben verkouden** (I have a cold). Then ask **Heeft u iets tegen…?**",
+        "At the apotheek they confirm your **geboortedatum** (date of birth). Practise saying yours, e.g. **twaalf maart negentienhonderdvijfennegentig**.",
+        "You'll often hear **Beterschap!** (get well soon) as you leave."
+      ],
+      "say": [
+        {
+          "nl": "Heeft u iets tegen keelpijn?",
+          "en": "Do you have something for a sore throat?"
+        },
+        {
+          "nl": "Ik heb al twee dagen hoofdpijn.",
+          "en": "I've had a headache for two days."
+        },
+        {
+          "nl": "Ik ben verkouden.",
+          "en": "I have a cold."
+        },
+        {
+          "nl": "Ik kom een recept ophalen.",
+          "en": "I'm here to pick up a prescription."
+        },
+        {
+          "nl": "Hoe vaak moet ik het innemen?",
+          "en": "How often should I take it?"
+        },
+        {
+          "nl": "Is dit op recept?",
+          "en": "Is this prescription-only?"
+        },
+        {
+          "nl": "Waar vind ik de pleisters?",
+          "en": "Where can I find the plasters?"
+        }
+      ],
+      "hear": [
+        {
+          "nl": "Waar heeft u last van?",
+          "en": "What's bothering you?"
+        },
+        {
+          "nl": "Hoe lang heeft u er al last van?",
+          "en": "How long have you had it?"
+        },
+        {
+          "nl": "Gebruikt u andere medicijnen?",
+          "en": "Are you taking any other medication?"
+        },
+        {
+          "nl": "Wat is uw geboortedatum?",
+          "en": "What's your date of birth?"
+        },
+        {
+          "nl": "Op welke naam?",
+          "en": "In what name?"
+        },
+        {
+          "nl": "Twee keer per dag, na het eten.",
+          "en": "Twice a day, after meals."
+        },
+        {
+          "nl": "Dat is alleen op recept.",
+          "en": "That's prescription only."
+        },
+        {
+          "nl": "Het ligt over een uur klaar.",
+          "en": "It'll be ready in an hour."
+        },
+        {
+          "nl": "Beterschap!",
+          "en": "Get well soon!"
+        }
+      ],
+      "roleplays": [
+        {
+          "id": "keelpijn",
+          "title": "Iets tegen keelpijn",
+          "en": "Something for a sore throat",
+          "staff": "Drogist",
+          "setup": "You've had a sore throat for a couple of days. You're at the counter of a drogisterij.",
+          "turns": [
+            {
+              "them": [
+                {
+                  "nl": "Goedemiddag, kan ik u helpen?",
+                  "en": "Good afternoon, can I help you?"
+                },
+                {
+                  "nl": "Hallo, zoekt u iets?",
+                  "en": "Hello, looking for something?"
+                },
+                {
+                  "nl": "Dag! Waarmee kan ik u helpen?",
+                  "en": "Hi! How can I help?"
+                }
+              ]
+            },
+            {
+              "you": "Ask if they have something for a sore throat (*keelpijn*).",
+              "keywords": [
+                [
+                  "keelpijn",
+                  "keel"
+                ]
+              ],
+              "sample": "Heeft u iets tegen keelpijn?",
+              "alts": [
+                "Ik heb keelpijn. Heeft u daar iets voor?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Hoe lang heeft u er al last van?",
+                  "en": "How long have you had it?"
+                },
+                {
+                  "nl": "Sinds wanneer heeft u het?",
+                  "en": "Since when have you had it?"
+                },
+                {
+                  "nl": "Oei. Hoe lang al?",
+                  "en": "Ouch. How long?"
+                }
+              ]
+            },
+            {
+              "you": "Say: for two days.",
+              "keywords": [
+                [
+                  "twee dagen",
+                  "2 dagen",
+                  "eergisteren"
+                ]
+              ],
+              "sample": "Al twee dagen.",
+              "alts": [
+                "Sinds eergisteren."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Dan raad ik deze zuigtabletten aan. Die verzachten de keel.",
+                  "en": "Then I'd recommend these lozenges. They soothe the throat."
+                },
+                {
+                  "nl": "Probeer deze keelspray eens, die werkt goed.",
+                  "en": "Try this throat spray, it works well."
+                },
+                {
+                  "nl": "Deze zuigtabletjes helpen meestal goed.",
+                  "en": "These lozenges usually help."
+                }
+              ]
+            },
+            {
+              "you": "Ask how often you should use it.",
+              "keywords": [
+                [
+                  "hoe vaak",
+                  "hoeveel keer",
+                  "hoeveel per dag"
+                ]
+              ],
+              "sample": "Hoe vaak moet ik het gebruiken?",
+              "alts": [
+                "Hoe vaak moet ik het innemen?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Drie à vier keer per dag. Het staat ook op de verpakking.",
+                  "en": "Three or four times a day. It's on the packet too."
+                },
+                {
+                  "nl": "Maximaal zes keer per dag.",
+                  "en": "Six times a day at most."
+                },
+                {
+                  "nl": "Een paar keer per dag, niet meer dan zes keer.",
+                  "en": "A few times a day, no more than six."
+                }
+              ]
+            },
+            {
+              "you": "Say thanks, you'll take it.",
+              "keywords": [
+                [
+                  "neem",
+                  "doe maar",
+                  "graag",
+                  "dank",
+                  "bedankt",
+                  "dankjewel",
+                  "dankuwel",
+                  "merci",
+                  "top"
+                ]
+              ],
+              "sample": "Dank u, dan neem ik die.",
+              "alts": [
+                "Prima, doe maar."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Prima. Beterschap!",
+                  "en": "Fine. Get well soon!"
+                },
+                {
+                  "nl": "Dat is dan zes euro negentig. Beterschap!",
+                  "en": "That's €6.90. Get well soon!"
+                },
+                {
+                  "nl": "Alstublieft, en beterschap!",
+                  "en": "Here you go, and get well soon!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "recept",
+          "title": "Recept ophalen",
+          "en": "Picking up a prescription",
+          "staff": "Apothekersassistent",
+          "setup": "Your GP sent a prescription to the apotheek. You're there to pick it up.",
+          "turns": [
+            {
+              "them": [
+                {
+                  "nl": "Goedemorgen, zegt u het maar.",
+                  "en": "Good morning, go ahead."
+                },
+                {
+                  "nl": "Dag, waarmee kan ik u helpen?",
+                  "en": "Hello, how can I help?"
+                }
+              ]
+            },
+            {
+              "you": "Say you're here to pick up a prescription (*recept*).",
+              "keywords": [
+                [
+                  "recept",
+                  "medicijnen",
+                  "medicijn"
+                ]
+              ],
+              "sample": "Ik kom een recept ophalen.",
+              "alts": [
+                "Ik kom medicijnen ophalen."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Wat is uw geboortedatum?",
+                  "en": "What's your date of birth?"
+                },
+                {
+                  "nl": "Mag ik uw geboortedatum?",
+                  "en": "May I have your date of birth?"
+                },
+                {
+                  "nl": "Op welke naam, en wat is uw geboortedatum?",
+                  "en": "In what name, and what's your date of birth?"
+                }
+              ]
+            },
+            {
+              "you": "Give your date of birth (any date works, e.g. *12 maart 1995*).",
+              "keywords": [
+                [
+                  "januari",
+                  "februari",
+                  "maart",
+                  "april",
+                  "mei",
+                  "juni",
+                  "juli",
+                  "augustus",
+                  "september",
+                  "oktober",
+                  "november",
+                  "december"
+                ]
+              ],
+              "sample": "Twaalf maart negentienhonderdvijfennegentig."
+            },
+            {
+              "them": [
+                {
+                  "nl": "Dank u. Heeft u dit medicijn al eerder gebruikt?",
+                  "en": "Thank you. Have you used this medicine before?"
+                },
+                {
+                  "nl": "Ik zie het. Is het de eerste keer dat u dit gebruikt?",
+                  "en": "I see it. Is this the first time you're using it?"
+                },
+                {
+                  "nl": "Klopt. Gebruikt u dit voor het eerst?",
+                  "en": "Right. Are you using this for the first time?"
+                }
+              ]
+            },
+            {
+              "you": "Say it's your first time.",
+              "keywords": [
+                [
+                  "eerste",
+                  "eerst",
+                  "nooit",
+                  "nee",
+                  "nieuw"
+                ]
+              ],
+              "sample": "Het is de eerste keer.",
+              "alts": [
+                "Nee, nog nooit.",
+                "Ja, voor het eerst."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Dan leg ik het even uit: één tablet per dag, 's ochtends, met water.",
+                  "en": "Then let me explain: one tablet a day, in the morning, with water."
+                },
+                {
+                  "nl": "Neem er één per dag, bij het ontbijt.",
+                  "en": "Take one a day, with breakfast."
+                },
+                {
+                  "nl": "Twee keer per dag één tablet, 's ochtends en 's avonds.",
+                  "en": "One tablet twice a day, morning and evening."
+                }
+              ]
+            },
+            {
+              "you": "Check you understood: repeat back how often.",
+              "keywords": [
+                [
+                  "per dag",
+                  "keer",
+                  "ochtends",
+                  "avonds",
+                  "ontbijt"
+                ]
+              ],
+              "sample": "Dus één per dag, 's ochtends?",
+              "alts": [
+                "Twee keer per dag, toch?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Precies. Heeft u verder nog vragen?",
+                  "en": "Exactly. Any other questions?"
+                },
+                {
+                  "nl": "Klopt helemaal. Nog vragen?",
+                  "en": "That's right. Any questions?"
+                },
+                {
+                  "nl": "Ja, precies. Is er verder nog iets?",
+                  "en": "Yes, exactly. Anything else?"
+                }
+              ]
+            },
+            {
+              "you": "No more questions. Thank them.",
+              "keywords": [
+                [
+                  "nee",
+                  "dank",
+                  "bedankt",
+                  "dankjewel",
+                  "dankuwel",
+                  "merci",
+                  "top"
+                ]
+              ],
+              "sample": "Nee, dank u wel."
+            },
+            {
+              "them": [
+                {
+                  "nl": "Graag gedaan. Beterschap!",
+                  "en": "You're welcome. Get well soon!"
+                },
+                {
+                  "nl": "Tot ziens, en beterschap!",
+                  "en": "Goodbye, and get well soon!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "curveballs": [
+        {
+          "title": "Prescription only",
+          "them": [
+            {
+              "nl": "Sorry, dat is alleen op recept verkrijgbaar.",
+              "en": "Sorry, that's only available on prescription."
+            }
+          ],
+          "you": "Ask if there's something else without a prescription.",
+          "keywords": [
+            [
+              "zonder recept",
+              "iets anders",
+              "alternatief",
+              "anders"
+            ]
+          ],
+          "sample": "Heeft u iets anders zonder recept?"
+        },
+        {
+          "title": "Not ready yet",
+          "them": [
+            {
+              "nl": "Uw medicijnen zijn nog niet klaar. Ze liggen er over een uur.",
+              "en": "Your medicine isn't ready yet. It'll be there in an hour."
+            }
+          ],
+          "you": "Say you'll come back later.",
+          "keywords": [
+            [
+              "terug",
+              "later",
+              "straks"
+            ]
+          ],
+          "sample": "Oké, dan kom ik straks terug.",
+          "alts": [
+            "Prima, ik kom later terug."
+          ]
+        },
+        {
+          "title": "Allergies?",
+          "them": [
+            {
+              "nl": "Bent u ergens allergisch voor?",
+              "en": "Are you allergic to anything?"
+            }
+          ],
+          "you": "Say no, or name an allergy (*penicilline*, *noten*…).",
+          "keywords": [
+            [
+              "nee",
+              "nergens",
+              "allergisch",
+              "penicilline",
+              "noten"
+            ]
+          ],
+          "sample": "Nee, nergens voor.",
+          "alts": [
+            "Ja, voor penicilline."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kleding",
+      "emoji": "👕",
+      "title": "In de kledingwinkel",
+      "en": "Clothes shop",
+      "blurb": "Just looking, another size, the fitting room, and exchanging something.",
+      "tips": [
+        "Staff greet you with **Kan ik je ergens mee helpen?** The polite brush-off is **Nee, dank je, ik kijk even rond.**",
+        "Sizes: **maat S/M/L** for clothes (said *es, em, el*), **maat 42** for shoes and EU sizes. **Een maatje groter/kleiner** = one size up/down.",
+        "Fitting rooms are **de paskamers**. Fit words: **het past** (it fits), **te klein / te groot**, **te krap** (tight), **te wijd** (loose). **Hij staat je goed!** = it suits you.",
+        "Clothes are often **hij** (*de jas, de trui*): **Hoe zit hij?** means 'how does it fit?'. Returns need **de bon**. **Ruilen** = exchange, **een tegoedbon** = store credit."
+      ],
+      "say": [
+        {
+          "nl": "Nee, dank je, ik kijk even rond.",
+          "en": "No thanks, I'm just looking."
+        },
+        {
+          "nl": "Heb je deze ook in maat M?",
+          "en": "Do you have this in a medium?"
+        },
+        {
+          "nl": "Heb je een maatje groter?",
+          "en": "Do you have one size up?"
+        },
+        {
+          "nl": "Waar zijn de paskamers?",
+          "en": "Where are the fitting rooms?"
+        },
+        {
+          "nl": "Hij zit een beetje krap.",
+          "en": "It's a bit tight."
+        },
+        {
+          "nl": "Deze past goed. Ik neem hem!",
+          "en": "This one fits. I'll take it!"
+        },
+        {
+          "nl": "Ik denk er nog even over na.",
+          "en": "I'll think about it."
+        },
+        {
+          "nl": "Ik wil dit graag ruilen.",
+          "en": "I'd like to exchange this."
+        }
+      ],
+      "hear": [
+        {
+          "nl": "Kan ik je ergens mee helpen?",
+          "en": "Can I help you with anything?"
+        },
+        {
+          "nl": "Welke maat heb je?",
+          "en": "What size are you?"
+        },
+        {
+          "nl": "Ik kijk even achterin.",
+          "en": "I'll check in the back."
+        },
+        {
+          "nl": "Hoe zit hij?",
+          "en": "How does it fit?"
+        },
+        {
+          "nl": "Hij staat je goed!",
+          "en": "It suits you!"
+        },
+        {
+          "nl": "Heb je de bon nog?",
+          "en": "Do you still have the receipt?"
+        },
+        {
+          "nl": "Je kunt hem binnen dertig dagen ruilen.",
+          "en": "You can exchange it within thirty days."
+        },
+        {
+          "nl": "Wil je een tegoedbon?",
+          "en": "Would you like store credit?"
+        }
+      ],
+      "roleplays": [
+        {
+          "id": "passen",
+          "title": "Passen",
+          "en": "Trying something on",
+          "staff": "Verkoper",
+          "setup": "You've found a jacket you like in a shop in Rotterdam. It's the wrong size.",
+          "turns": [
+            {
+              "them": [
+                {
+                  "nl": "Hoi! Kan ik je ergens mee helpen?",
+                  "en": "Hi! Can I help you with anything?"
+                },
+                {
+                  "nl": "Hallo! Zoek je iets speciaals?",
+                  "en": "Hello! Looking for anything in particular?"
+                },
+                {
+                  "nl": "Hé, kan ik je helpen?",
+                  "en": "Hey, can I help you?"
+                }
+              ]
+            },
+            {
+              "you": "Say you're just looking for now.",
+              "keywords": [
+                [
+                  "rond",
+                  "kijk",
+                  "kijken"
+                ]
+              ],
+              "sample": "Nee, dank je, ik kijk even rond."
+            },
+            {
+              "them": [
+                {
+                  "nl": "Prima, roep me maar als je iets nodig hebt.",
+                  "en": "Fine, just call me if you need anything."
+                },
+                {
+                  "nl": "Helemaal goed. Laat het maar weten!",
+                  "en": "No problem at all. Just let me know!"
+                },
+                {
+                  "nl": "Oké, ik ben hier als je iets nodig hebt.",
+                  "en": "OK, I'm here if you need anything."
+                }
+              ]
+            },
+            {
+              "you": "A few minutes later: ask if they have this jacket in size M.",
+              "keywords": [
+                [
+                  "maat",
+                  "medium",
+                  "maatje"
+                ]
+              ],
+              "sample": "Sorry, heb je deze ook in maat M?",
+              "alts": [
+                "Is deze er ook in medium?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Even kijken… Ja, hier is een M.",
+                  "en": "Let me see… Yes, here's an M."
+                },
+                {
+                  "nl": "Ik kijk even achterin. … Ja, ik heb er nog één.",
+                  "en": "I'll check in the back. … Yes, I have one left."
+                },
+                {
+                  "nl": "Die heb ik nog, alsjeblieft.",
+                  "en": "I still have that one, here you go."
+                }
+              ]
+            },
+            {
+              "you": "Ask where the fitting rooms are.",
+              "keywords": [
+                [
+                  "paskamer",
+                  "paskamers",
+                  "passen"
+                ]
+              ],
+              "sample": "Waar zijn de paskamers?",
+              "alts": [
+                "Mag ik hem even passen?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Daar achterin, links. … En? Hoe zit hij?",
+                  "en": "Back there on the left. … So? How does it fit?"
+                },
+                {
+                  "nl": "Achter de kassa, naast de spiegel. … En, past hij?",
+                  "en": "Behind the till, next to the mirror. … So, does it fit?"
+                },
+                {
+                  "nl": "Daar, bij de trap. … En? Hoe zit hij?",
+                  "en": "Over there by the stairs. … So? How does it fit?"
+                }
+              ]
+            },
+            {
+              "you": "Say it's a bit tight and ask for one size up.",
+              "keywords": [
+                [
+                  "groter",
+                  "maatje groter",
+                  "large"
+                ]
+              ],
+              "sample": "Hij zit een beetje krap. Heb je een maatje groter?",
+              "alts": [
+                "Te klein. Heb je hem een maat groter?"
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Zeker, momentje. … Probeer deze eens, een L.",
+                  "en": "Sure, one moment. … Try this one, an L."
+                },
+                {
+                  "nl": "Ik pak even een L voor je.",
+                  "en": "I'll grab you an L."
+                },
+                {
+                  "nl": "Een L heb ik nog in het zwart, is dat ook goed?",
+                  "en": "I still have an L in black, is that OK too?"
+                }
+              ]
+            },
+            {
+              "you": "It fits now. Say you'll take it.",
+              "keywords": [
+                [
+                  "neem",
+                  "doe maar",
+                  "koop",
+                  "past",
+                  "perfect"
+                ]
+              ],
+              "sample": "Deze past goed. Ik neem hem!",
+              "alts": [
+                "Perfect, die neem ik."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Leuk! Je kunt bij de kassa afrekenen.",
+                  "en": "Great! You can pay at the till."
+                },
+                {
+                  "nl": "Hij staat je goed! Loop maar mee naar de kassa.",
+                  "en": "It suits you! Come with me to the till."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ruilen",
+          "title": "Ruilen",
+          "en": "Exchanging something",
+          "staff": "Verkoper",
+          "setup": "You bought a sweater (*de trui*) last week. It's too small and you want to exchange it.",
+          "turns": [
+            {
+              "them": [
+                {
+                  "nl": "Hoi, waarmee kan ik je helpen?",
+                  "en": "Hi, how can I help?"
+                },
+                {
+                  "nl": "Hallo! Zeg het maar.",
+                  "en": "Hello! Go ahead."
+                }
+              ]
+            },
+            {
+              "you": "Say you'd like to exchange this sweater.",
+              "keywords": [
+                [
+                  "ruilen",
+                  "omruilen",
+                  "terugbrengen",
+                  "retour"
+                ]
+              ],
+              "sample": "Ik wil deze trui graag ruilen.",
+              "alts": [
+                "Ik wil dit graag terugbrengen."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Natuurlijk. Heb je de bon nog?",
+                  "en": "Of course. Do you still have the receipt?"
+                },
+                {
+                  "nl": "Geen probleem. Heb je de kassabon erbij?",
+                  "en": "No problem. Do you have the receipt with you?"
+                },
+                {
+                  "nl": "Dat kan. Mag ik de bon even zien?",
+                  "en": "That's fine. Can I see the receipt?"
+                }
+              ]
+            },
+            {
+              "you": "Say yes, here it is.",
+              "keywords": [
+                [
+                  "ja",
+                  "alsjeblieft",
+                  "alstublieft",
+                  "hier"
+                ]
+              ],
+              "sample": "Ja, alsjeblieft."
+            },
+            {
+              "them": [
+                {
+                  "nl": "Wat is er mis mee?",
+                  "en": "What's wrong with it?"
+                },
+                {
+                  "nl": "Wat is het probleem?",
+                  "en": "What's the problem?"
+                },
+                {
+                  "nl": "Was er iets mis mee?",
+                  "en": "Was there something wrong with it?"
+                }
+              ]
+            },
+            {
+              "you": "Explain it's too small.",
+              "keywords": [
+                [
+                  "klein",
+                  "krap"
+                ]
+              ],
+              "sample": "Hij is te klein.",
+              "alts": [
+                "Hij zit te krap."
+              ]
+            },
+            {
+              "them": [
+                {
+                  "nl": "Wil je een andere maat, of je geld terug?",
+                  "en": "Would you like another size, or your money back?"
+                },
+                {
+                  "nl": "Zal ik een maat groter voor je pakken?",
+                  "en": "Shall I get you one size up?"
+                },
+                {
+                  "nl": "Je kunt hem ruilen of je krijgt een tegoedbon. Wat wil je?",
+                  "en": "You can exchange it or get store credit. What would you like?"
+                }
+              ]
+            },
+            {
+              "you": "Choose a bigger size.",
+              "keywords": [
+                [
+                  "groter",
+                  "maat",
+                  "ruilen"
+                ]
+              ],
+              "sample": "Een maatje groter, graag."
+            },
+            {
+              "them": [
+                {
+                  "nl": "Prima, ik pak er even een. … Alsjeblieft, een M.",
+                  "en": "Fine, I'll get one. … Here you go, an M."
+                },
+                {
+                  "nl": "Komt goed. Hier is hij in een maat groter.",
+                  "en": "Will do. Here it is one size up."
+                }
+              ]
+            },
+            {
+              "you": "Thank them.",
+              "keywords": [
+                [
+                  "dank",
+                  "bedankt",
+                  "dankjewel",
+                  "dankuwel",
+                  "merci",
+                  "top"
+                ]
+              ],
+              "sample": "Top, dank je wel!"
+            },
+            {
+              "them": [
+                {
+                  "nl": "Graag gedaan. Veel plezier ermee!",
+                  "en": "You're welcome. Enjoy it!"
+                },
+                {
+                  "nl": "Geen probleem, fijne dag!",
+                  "en": "No problem, have a nice day!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "curveballs": [
+        {
+          "title": "Out of stock",
+          "them": [
+            {
+              "nl": "Die maat is helaas uitverkocht. Ik kan hem voor je bestellen.",
+              "en": "That size is sold out, unfortunately. I can order it for you."
+            }
+          ],
+          "you": "Say yes please and ask how long it takes.",
+          "keywords": [
+            [
+              "ja",
+              "graag",
+              "bestellen",
+              "hoe lang"
+            ]
+          ],
+          "sample": "Ja, graag. Hoe lang duurt dat?"
+        },
+        {
+          "title": "No receipt",
+          "them": [
+            {
+              "nl": "Zonder bon kan ik helaas niet ruilen.",
+              "en": "Without a receipt I'm afraid I can't exchange it."
+            }
+          ],
+          "you": "Ask if you can get store credit (*een tegoedbon*) instead.",
+          "keywords": [
+            [
+              "tegoedbon",
+              "tegoed"
+            ]
+          ],
+          "sample": "Kan ik dan een tegoedbon krijgen?"
+        },
+        {
+          "title": "Can't decide",
+          "them": [
+            {
+              "nl": "En, wil je hem hebben?",
+              "en": "So, do you want it?"
+            }
+          ],
+          "you": "Politely say you'll think about it.",
+          "keywords": [
+            [
+              "nadenken",
+              "denk",
+              "nog even"
+            ]
+          ],
+          "sample": "Ik denk er nog even over na."
+        }
+      ]
+    }
+  ]
+}

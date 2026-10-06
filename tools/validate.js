@@ -6,6 +6,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { matchSpoken } from '../src/engine/grading.js';
 
 const packDir = process.argv[2];
 const strict = process.argv.includes('--strict');
@@ -157,6 +158,68 @@ for (const dayId of allDayIds) {
   const n = lesson.blocks.length;
   const target = { lesson: [8, 12], review: [6, 8], capstone: [10, 14] }[lesson.kind];
   if (target && (n < target[0] || n > target[1])) warn(`${dayId}: ${n} blocks, style guide target for ${lesson.kind} is ${target[0]}–${target[1]}`);
+}
+
+// ---------- practice (real-life scenario role-plays) ----------
+if (manifest.practice) {
+  const file = path.join(packDir, manifest.practice.file || '');
+  let practice = null;
+  if (!manifest.practice.file || !fs.existsSync(file)) {
+    err(`practice: file "${manifest.practice.file}" not found`);
+  } else {
+    try {
+      practice = JSON.parse(fs.readFileSync(file, 'utf8'));
+    } catch (e) {
+      err(`practice: invalid JSON — ${e.message}`);
+    }
+  }
+  const lineOk = (l) => l && l.nl && l.en;
+  // A learner turn must carry keyword groups, and its model answers must
+  // pass its own check (otherwise saying the sample would be marked wrong).
+  const checkYou = (where, t) => {
+    if (!t.you || !t.sample) return err(`${where}: learner turn needs you and sample`);
+    if (!Array.isArray(t.keywords) || !t.keywords.length || t.keywords.some((g) => !Array.isArray(g) || !g.length)) {
+      return err(`${where}: keywords must be a non-empty array of non-empty groups`);
+    }
+    for (const s of [t.sample, ...(t.alts || [])]) {
+      if (!matchSpoken(s, t.keywords).correct) err(`${where}: model answer "${s}" fails its own keywords`);
+    }
+  };
+  if (practice) {
+    for (const f of ['title', 'intro', 'scenarios']) if (practice[f] === undefined) err(`practice: missing field "${f}"`);
+    (practice.survival || []).forEach((l, i) => lineOk(l) || err(`practice survival ${i}: needs nl and en`));
+    const ids = new Set();
+    for (const sc of practice.scenarios || []) {
+      const at = `practice ${sc.id}`;
+      if (ids.has(sc.id)) err(`${at}: duplicate scenario id`);
+      ids.add(sc.id);
+      for (const f of ['id', 'emoji', 'title', 'en', 'blurb', 'say', 'hear', 'roleplays', 'curveballs']) {
+        if (sc[f] === undefined) err(`${at}: missing field "${f}"`);
+      }
+      [...(sc.say || []), ...(sc.hear || [])].forEach((l, i) => lineOk(l) || err(`${at} phrase ${i}: needs nl and en`));
+      const rpIds = new Set();
+      (sc.roleplays || []).forEach((rp) => {
+        const where = `${at}/${rp.id}`;
+        if (rpIds.has(rp.id)) err(`${where}: duplicate role-play id`);
+        rpIds.add(rp.id);
+        for (const f of ['id', 'title', 'en', 'staff', 'setup', 'turns']) if (rp[f] === undefined) err(`${where}: missing field "${f}"`);
+        if (!(rp.turns || []).some((t) => t.you)) err(`${where}: no learner turns`);
+        (rp.turns || []).forEach((t, i) => {
+          if (t.them) {
+            if (!Array.isArray(t.them) || !t.them.length || !t.them.every(lineOk)) err(`${where} turn ${i}: them needs ≥1 {nl, en} variant`);
+          } else {
+            checkYou(`${where} turn ${i}`, t);
+          }
+        });
+      });
+      (sc.curveballs || []).forEach((c, i) => {
+        const where = `${at} curveball ${i}`;
+        if (!Array.isArray(c.them) || !c.them.length || !c.them.every(lineOk)) err(`${where}: them needs ≥1 {nl, en} variant`);
+        checkYou(where, c);
+      });
+    }
+    console.log(`Validated ${(practice.scenarios || []).length} practice scenarios`);
+  }
 }
 
 // ---------- report ----------

@@ -5,7 +5,7 @@ function dayNumber(dayId) {
   return parseInt(dayId.split('-')[1], 10);
 }
 
-export default function Dashboard({ manifest, lessonIndex, onOpenDay }) {
+export default function Dashboard({ manifest, lessonIndex, onOpenDay, practice, onOpenPractice }) {
   const s = stats(manifest.packId);
   const progress = loadProgress(manifest.packId);
   const [openWeeks, setOpenWeeks] = useState(() => new Set([1]));
@@ -64,6 +64,14 @@ export default function Dashboard({ manifest, lessonIndex, onOpenDay }) {
           <span className="start-label">🚀 {s.daysStarted === 0 ? 'START HERE' : 'CONTINUE'}</span>
           <span className="start-title">{nextMeta.emoji} {nextMeta.title}</span>
           <span className="start-meta">Day {nextMeta.day} · {nextMeta.module}.{nextMeta.unit}</span>
+        </button>
+      )}
+
+      {practice && (
+        <button className="start-here practice-entry" onClick={onOpenPractice}>
+          <span className="start-label">{practice.emoji} REAL-LIFE PRACTICE</span>
+          <span className="start-title">{practice.title}</span>
+          <span className="start-meta">{practice.subtitle}</span>
         </button>
       )}
 

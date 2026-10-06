@@ -21,6 +21,10 @@ export function configureAudio(packLocale) {
   window.speechSynthesis.onvoiceschanged = pick;
 }
 
+export function getLocale() {
+  return locale;
+}
+
 export function audioAvailable() {
   return 'speechSynthesis' in window;
 }

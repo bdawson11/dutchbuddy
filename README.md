@@ -34,7 +34,13 @@ Single unified app; the language is chosen at runtime, not at build time.
 - `public/packs/<lang>/` — a content pack: `manifest.json` + `lessons/day-NN.json`.
   Pure data; the engine never contains language content. `catalog.json` lists
   the packs YapWorld offers.
-- `tools/validate.js` — pack validator. CI gate for content batches.
+- `src/engine/Practice.jsx` + `listen.js` — real-life practice: scenario
+  role-plays (café, shop, market…) outside the day path. The shopkeeper speaks
+  (TTS, randomised line variants); the learner answers out loud (Web Speech
+  recognition, typed fallback) and is checked by keyword groups
+  (`matchSpoken` in `grading.js`). Enabled per pack by `manifest.practice.file`
+  (Dutch: `public/packs/dutch-nl/practice.json`, "Op straat").
+- `tools/validate.js` — pack validator. CI gate for content batches. Also checks every practice model answer passes its own keywords.
 - `src/engine/base.css` — placeholder styling; replaced by the Claude Design pass.
 
 ## Commands
